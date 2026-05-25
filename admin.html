@@ -9,9 +9,13 @@
 <style>
   .admin-container { max-width: 600px; width: 100%; margin: 0 auto; background: var(--color-surface); padding: var(--space-6); border-radius: var(--radius-xl); box-shadow: var(--shadow-lg); border: 1px solid var(--color-border); }
   .form-group { margin-bottom: var(--space-4); display: flex; flex-direction: column; gap: var(--space-2); }
+  .form-row { display: flex; gap: var(--space-4); }
+  .form-row .form-group { flex: 1; }
   label { font-size: var(--text-sm); font-weight: 600; color: var(--color-text-muted); }
   input, select { padding: var(--space-3); border-radius: var(--radius-md); border: 1px solid var(--color-border); background: var(--color-surface-offset); color: var(--color-text); font-family: var(--font-body); font-size: var(--text-base); }
   input:focus, select:focus { outline: 2px solid var(--color-primary); border-color: var(--color-primary); }
+  .checkbox-group { display: flex; align-items: center; gap: var(--space-2); flex-direction: row; cursor: pointer; }
+  .checkbox-group input { width: 20px; height: 20px; cursor: pointer; }
   .log-box { margin-top: var(--space-4); padding: var(--space-3); background: #000; color: #0f0; font-family: monospace; font-size: 13px; border-radius: var(--radius-md); min-height: 100px; max-height: 200px; overflow-y: auto; white-space: pre-wrap; }
   .btn-upload { width: 100%; padding: var(--space-4); margin-top: var(--space-4); font-size: var(--text-lg); }
   .download-link { text-align: center; margin-top: var(--space-4); display: block; color: var(--color-primary); text-decoration: underline; font-weight: 600; }
@@ -34,21 +38,37 @@
     <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxx..." autocomplete="off">
   </div>
 
-  <div class="form-group">
-    <label>Sınıf Seçin</label>
-    <select id="grade-select"><option value="">Sınıf Yükleniyor...</option></select>
+  <div class="form-row">
+    <div class="form-group">
+      <label>Sınıf Seçin</label>
+      <select id="grade-select"><option value="">Sınıf Yükleniyor...</option></select>
+    </div>
+    <div class="form-group">
+      <label>Ders Seçin</label>
+      <select id="subject-select"><option value="">Önce sınıf seçin</option></select>
+    </div>
   </div>
 
   <div class="form-group">
-    <label>Ders Seçin</label>
-    <select id="subject-select"><option value="">Önce sınıf seçin</option></select>
-  </div>
-
-  <div class="form-group">
-    <label>CSV Dosyası (Şablona uygun)</label>
+    <label>CSV Dosyası</label>
     <input type="file" id="csv-file" accept=".csv">
     <a href="./sablon.csv" class="download-link" download>👉 Örnek Şablonu (CSV) İndir</a>
   </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>Excel Kayıt Formatı (Bozuk Harf Çözümü)</label>
+      <select id="encoding-select">
+        <option value="windows-1254">Standart Excel (Windows-1254)</option>
+        <option value="UTF-8">UTF-8 (Mac / Gelişmiş)</option>
+      </select>
+    </div>
+  </div>
+
+  <label class="checkbox-group" style="margin-top: 10px;">
+    <input type="checkbox" id="overwrite-check">
+    <span style="color: var(--color-error); font-weight: 600;">Eskileri Sil ve Sadece Bu Dosyayı Yükle (Üzerine Yaz)</span>
+  </label>
 
   <button class="btn-primary btn-upload" id="btn-submit">Veritabanını Güncelle</button>
 

@@ -5,6 +5,8 @@ let indexData = null;
 const gradeSelect = document.getElementById("grade-select");
 const subjectSelect = document.getElementById("subject-select");
 const logBox = document.getElementById("log-box");
+const encodingSelect = document.getElementById("encoding-select");
+const overwriteCheck = document.getElementById("overwrite-check");
 
 function log(msg) {
   logBox.textContent += "\n> " + msg;
@@ -44,12 +46,17 @@ gradeSelect.addEventListener("change", () => {
   });
 });
 
-// 2. Base64 UTF-8 Encoding (btoa fails on non-ascii characters like Türkçe)
+// 2. Base64 UTF-8 Encoding
 function utf8_to_b64(str) {
   return window.btoa(unescape(encodeURIComponent(str)));
 }
 function b64_to_utf8(str) {
   return decodeURIComponent(escape(window.atob(str)));
+}
+
+// Custom uppercase for Turkish characters to avoid 'i' becoming 'I' instead of 'İ'
+function toTrUpperCase(str) {
+  return str.replace(/i/g, "İ").replace(/ı/g, "I").toUpperCase();
 }
 
 // 3. Process CSV
@@ -58,6 +65,7 @@ document.getElementById("btn-submit").addEventListener("click", async () => {
   const fileInput = document.getElementById("csv-file");
   const gradeIdx = gradeSelect.value;
   const subjIdx = subjectSelect.value;
+  const encoding = encodingSelect.value;
 
   if (!token) return log("Hata: Lütfen GitHub Güvenlik Anahtarını girin.");
   if (!gradeIdx || !subjIdx) return log("Hata: Sınıf ve ders seçimi yapın.");
@@ -65,10 +73,9 @@ document.getElementById("btn-submit").addEventListener("click", async () => {
 
   const file = fileInput.files[0];
   const subject = indexData[gradeIdx].subjects[subjIdx];
-  // Convert "./data/grade_x/file.json" to "data/grade_x/file.json"
   const filePath = subject.dataFile.replace(/^\.\//, "");
 
-  log(`İşlem başlatılıyor... Hedef dosya: ${filePath}`);
+  log(`İşlem başlatılıyor... Dosya okunuyor (${encoding})...`);
 
   // Read CSV
   const reader = new FileReader();
@@ -80,7 +87,7 @@ document.getElementById("btn-submit").addEventListener("click", async () => {
     log(`${Object.keys(newUnitsObj).length} üniteye ait kelimeler bulundu.`);
     await pushToGitHub(token, filePath, newUnitsObj);
   };
-  reader.readAsText(file, "UTF-8"); // Ensure UTF-8 parsing
+  reader.readAsText(file, encoding);
 });
 
 function parseCSV(csv) {
@@ -95,7 +102,6 @@ function parseCSV(csv) {
   const unitsObj = {};
 
   dataLines.forEach((line, i) => {
-    // Semicolon separator
     const cols = line.split(';');
     if (cols.length < 5) {
       log(`Uyarı: Satır ${i+2} atlandı (Eksik sütun).`);
@@ -114,7 +120,7 @@ function parseCSV(csv) {
     }
     
     if (word && hint) {
-      unitsObj[uId].words.push({ word: word.toUpperCase(), hint: hint });
+      unitsObj[uId].words.push({ word: toTrUpperCase(word), hint: hint });
     }
   });
   
@@ -128,6 +134,7 @@ async function pushToGitHub(token, path, newUnitsObj) {
     "Authorization": `token ${token}`,
     "Accept": "application/vnd.github.v3+json"
   };
+  const isOverwrite = overwriteCheck.checked;
 
   try {
     log("Mevcut veritabanı GitHub'dan kontrol ediliyor...");
@@ -139,9 +146,13 @@ async function pushToGitHub(token, path, newUnitsObj) {
     if (getRes.status === 200) {
       const getJson = await getRes.json();
       fileSha = getJson.sha;
-      const contentStr = b64_to_utf8(getJson.content);
-      existingData = JSON.parse(contentStr);
-      log("Mevcut veri başarıyla indirildi.");
+      if (!isOverwrite) {
+        const contentStr = b64_to_utf8(getJson.content);
+        existingData = JSON.parse(contentStr);
+        log("Mevcut veri başarıyla indirildi. Yeni veriler üzerine eklenecek.");
+      } else {
+        log("DİKKAT: Üzerine yazma seçili! Mevcut eski veriler siliniyor...");
+      }
     } else if (getRes.status === 404) {
       log("Dosya ilk kez oluşturulacak.");
     } else {
@@ -149,7 +160,7 @@ async function pushToGitHub(token, path, newUnitsObj) {
     }
 
     // Merge Data
-    log("Veriler birleştiriliyor...");
+    log("Veriler işleniyor...");
     if(!existingData.units) existingData.units = [];
     
     for (const uId in newUnitsObj) {
@@ -159,11 +170,9 @@ async function pushToGitHub(token, path, newUnitsObj) {
       if (exUnitIndex >= 0) {
         // Merge words
         const exUnit = existingData.units[exUnitIndex];
-        // optional: overwrite months? we'll leave it or overwrite
         exUnit.months = newU.months;
         
         newU.words.forEach(nw => {
-          // Check if word already exists to avoid duplicate
           const wordExists = exUnit.words.some(ew => ew.word === nw.word);
           if(!wordExists) exUnit.words.push(nw);
         });
@@ -178,7 +187,7 @@ async function pushToGitHub(token, path, newUnitsObj) {
     log("GitHub'a yükleniyor (Push)...");
     
     const putBody = {
-      message: "feat: Admin panelinden yeni sorular eklendi",
+      message: isOverwrite ? "fix: Bozuk JSON üzerine yazıldı (Admin)" : "feat: Admin panelinden yeni sorular eklendi",
       content: updatedBase64,
       branch: "main"
     };
