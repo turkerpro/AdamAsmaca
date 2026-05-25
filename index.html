@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#171614">
 <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSI+PHJlY3QgeD0iNCIgeT0iNiIgd2lkdGg9IjQiIHJ4PSIyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC4zIi8+PHJlY3QgeD0iNCIgeT0iNiIgd2lkdGg9IjE0IiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41Ii8+PHJlY3QgeD0iMTYiIHk9IjYiIHdpZHRoPSIyIiBoZWlnaHQ9IjYiIHJ4PSIxIiBmaWxsPSJ3aGl0ZSIvPjxjaXJjbGUgY3g9IjE3IiBjeT0iMTYiIHI9IjMuNSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+PGxpbmUgeDE9IjE3IiB5MT0iMTkuNSIgeDI9IjE3IiB5Mj0iMjYiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGxpbmUgeDE9IjE3IiB5MT0iMjEiIHgyPSIxMyIgeTI9IjI0IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxsaW5lIHgxPSIxNyIgeTE9IjIxIiB4Mj0iMjEiIHkyPSIyNCIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48bGluZSB4MT0iMTciIHkxPSIyNiIgeDI9IjEzIiB5Mj0iMzAiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGxpbmUgeDE9IjE3IiB5MT0iMjYiIHgyPSIyMSIgeTI9IjMwIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==">
 <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css?v=6">
+<link rel="stylesheet" href="./style.css?v=7">
 </head>
 <body>
 
@@ -68,13 +68,10 @@
     </select>
   </div>
   <div class="game-card" id="game-card">
-    <div class="game-top-bar">
-      <div id="category-badge" class="category-badge">Yükleniyor...</div>
-      <div class="score-display">
-        <div class="score-item">
-          <span>🏆</span>
-          <span class="score-val" id="score-val">0</span>
-        </div>
+    <div class="game-header">
+      <div class="category-badge" id="category-badge">Yükleniyor...</div>
+      <div class="stats-row">
+        <div class="score-badge">Puan: <span id="score-val">0</span></div>
         <div class="lives-bar" id="lives-bar"></div>
       </div>
     </div>
