@@ -44,33 +44,51 @@ if not api_key:
 
 genai.configure(api_key=api_key)
 
-# Model configuration with dynamic fallback
-print("Kullanılabilir yapay zeka modelleri kontrol ediliyor...")
-target_model = "gemini-1.5-flash"
+# Model configuration by testing which one actually works
+print("Kullanılabilir yapay zeka modelleri test ediliyor...")
+available_models = []
 try:
-    available = []
     for m in genai.list_models():
         if "generateContent" in m.supported_generation_methods:
-            available.append(m.name)
-            
-    # Try to find gemini-1.5-flash
-    flash_matches = [m for m in available if "gemini-1.5-flash" in m]
-    if flash_matches:
-        target_model = flash_matches[0].replace("models/", "")
-    else:
-        # Fallback to any gemini model
-        gemini_matches = [m for m in available if "gemini" in m]
-        if gemini_matches:
-            target_model = gemini_matches[0].replace("models/", "")
-        elif available:
-            target_model = available[0].replace("models/", "")
-            
-    print(f"Seçilen Model: {target_model}")
+            available_models.append(m.name.replace("models/", ""))
 except Exception as e:
-    print(f"[UYARI] Modeller listelenemedi, varsayılan model kullanılacak: {target_model} (Hata: {str(e)})")
+    print(f"[UYARI] Modeller listelenemedi (Hata: {str(e)})")
+    available_models = ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-1.0-pro"]
+
+# Sort models to prioritize best stable models
+def model_priority(model_name):
+    name = model_name.lower()
+    if "gemini-1.5-flash" in name:
+        return 0
+    if "gemini-1.5-pro" in name:
+        return 1
+    if "gemini-2.5-flash" in name:
+        return 2
+    if "gemini-1.0-pro" in name or "gemini-pro" in name:
+        return 3
+    return 4
+
+available_models.sort(key=model_priority)
+
+working_model_name = None
+for model_name in available_models:
+    print(f"Deneniyor: {model_name}...")
+    try:
+        test_model = genai.GenerativeModel(model_name)
+        # Small test request
+        test_model.generate_content("test")
+        working_model_name = model_name
+        print(f"-> Başarılı! Kullanılacak model: {working_model_name}")
+        break
+    except Exception as e:
+        print(f"-> Başarısız (Hata: {str(e)})")
+
+if not working_model_name:
+    print("Hata: Çalışan hiçbir model bulunamadı. API Key yetkilerini veya internet bağlantınızı kontrol edin.")
+    sys.exit(1)
 
 model = genai.GenerativeModel(
-    target_model,
+    working_model_name,
     generation_config={"response_mime_type": "application/json"}
 )
 
