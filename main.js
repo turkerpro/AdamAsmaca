@@ -167,11 +167,11 @@ function getGradeThemeGroup(gradeNum) {
 
 function applyGradeTheme(gradeNum) {
   if (!gradeNum) {
-    document.body.removeAttribute("data-grade-group");
+    document.documentElement.removeAttribute("data-grade-group");
     return;
   }
   const theme = getGradeThemeGroup(gradeNum);
-  document.body.setAttribute("data-grade-group", theme.group);
+  document.documentElement.setAttribute("data-grade-group", theme.group);
 }
 
 function showGradeScreen() {
