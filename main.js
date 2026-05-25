@@ -297,7 +297,8 @@ function newGame() {
     category: categoryText,
     guessed: new Set(), 
     wrong: [], 
-    score: gameState.score, 
+    score: gameState.score || 0,
+    startingScore: gameState.score || 0,
     over: false, 
     won: false 
   };
@@ -315,6 +316,8 @@ function guess(key) {
   const inWord = gameState.word.includes(k) || (k === " ");
   if (!inWord) {
     gameState.wrong.push(k);
+    gameState.score -= 2;
+    if (gameState.score < 0) gameState.score = 0;
     if (gameState.wrong.length >= MAX_WRONG) { gameState.over = true; gameState.won = false; }
   }
 
@@ -421,13 +424,19 @@ function showEndOverlay() {
   btnBack.style.marginLeft = "var(--space-2)";
 
   if (gameState.won) {
+    const netGain = gameState.score - gameState.startingScore;
     icon.textContent = "🎉"; title.textContent = "Tebrikler!";
-    sub.textContent = `+10 puan kazandın! Toplam: ${gameState.score}`;
+    sub.textContent = `+${netGain} puan kazandın! Toplam: ${gameState.score}`;
     wordEl.textContent = gameState.word; btnPrimary.textContent = "Sıradaki kelime →";
     confetti();
   } else {
+    const lostPoints = gameState.startingScore - gameState.score;
     icon.textContent = "💀"; title.textContent = "Eyvah, Astın!";
-    sub.textContent = "Kelimeyi bilemeden adam asıldı.";
+    if (lostPoints > 0) {
+      sub.textContent = `Yanlış harflerden ${lostPoints} puan kaybettin. Toplam Puan: ${gameState.score}`;
+    } else {
+      sub.textContent = `Kelimeyi bilemeden adam asıldı. Toplam Puan: ${gameState.score}`;
+    }
     wordEl.textContent = "Cevap: " + gameState.word;
     btnPrimary.textContent = "Tekrar Oyna";
   }
