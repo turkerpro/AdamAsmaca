@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
   :root {
     --font-display: 'Cabinet Grotesk', sans-serif;
     --font-body: 'Satoshi', sans-serif;
@@ -43,6 +45,8 @@
   /* 1. Oyun ve Bulutlar Teması (1, 2, 3. Sınıflar): Pastel Sarı / Sevimli Turuncu / Pembe */
   [data-grade-group="primary"],
   [data-theme="light"][data-grade-group="primary"] {
+    --font-display: 'Patrick Hand', 'Comic Sans MS', cursive, sans-serif;
+    --font-body: 'Patrick Hand', 'Comic Sans MS', cursive, sans-serif;
     --color-bg: #fffcf2;
     --color-surface: #fffae8;
     --color-surface-2: #fffdf5;
@@ -66,6 +70,8 @@
     --shadow-md: 0 8px 24px rgba(255, 138, 61, 0.08);
   }
   [data-theme="dark"][data-grade-group="primary"] {
+    --font-display: 'Patrick Hand', 'Comic Sans MS', cursive, sans-serif;
+    --font-body: 'Patrick Hand', 'Comic Sans MS', cursive, sans-serif;
     --color-bg: #2b2210;
     --color-surface: #362b16;
     --color-surface-2: #3d3119;
