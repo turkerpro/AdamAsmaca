@@ -8,7 +8,23 @@ let selectedUnit = null;
 
 let WORD_BANK = [];
 let availableWords = [];
-let gameState = { word:"", hint:"", category:"", guessed:new Set(), wrong:[], score:0, over:false, won:false };
+
+let savedScore = 0;
+try {
+  const saved = sessionStorage.getItem("hangman_score");
+  if (saved) {
+    const data = JSON.parse(saved);
+    if (data.date === new Date().toLocaleDateString()) {
+      savedScore = data.score;
+    }
+  }
+} catch(e) {}
+
+let gameState = { word:"", hint:"", category:"", guessed:new Set(), wrong:[], score:savedScore, over:false, won:false };
+
+function saveScore() {
+  sessionStorage.setItem("hangman_score", JSON.stringify({ score: gameState.score, date: new Date().toLocaleDateString() }));
+}
 
 // ── LAYOUT CONSTANTS ───────────────────────────────────────────────────────
 const KEYBOARDS = {
@@ -297,8 +313,8 @@ function newGame() {
     category: categoryText,
     guessed: new Set(), 
     wrong: [], 
-    score: gameState.score || 0,
-    startingScore: gameState.score || 0,
+    score: gameState.score ?? 0,
+    startingScore: gameState.score ?? 0,
     over: false, 
     won: false 
   };
@@ -317,13 +333,14 @@ function guess(key) {
   if (!inWord) {
     gameState.wrong.push(k);
     gameState.score -= 2;
+    saveScore();
     if (gameState.wrong.length >= MAX_WRONG) { gameState.over = true; gameState.won = false; }
   }
 
   // win check
   const letters = [...gameState.word].filter(c => c !== " ");
   const allFound = letters.every(c => gameState.guessed.has(c));
-  if (allFound) { gameState.over = true; gameState.won = true; gameState.score += 10; }
+  if (allFound) { gameState.over = true; gameState.won = true; gameState.score += 10; saveScore(); }
 
   updateUI();
   if (gameState.over) setTimeout(() => showEndOverlay(), 700);
