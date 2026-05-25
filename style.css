@@ -63,7 +63,7 @@
   /* SCREENS */
   .screen{display:none;width:100%;max-width:720px;flex-direction:column;align-items:center;animation:fadeIn 0.3s ease}
   .screen.active{display:flex}
-  .screen-header{width:100%;display:flex;align-items:center;gap:var(--space-4);margin-bottom:var(--space-6)}
+  .screen-header{width:100%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--space-3);margin-bottom:var(--space-6)}
   .screen-title{font-family:var(--font-display);font-size:var(--text-xl);font-weight:800;margin-bottom:var(--space-2);width:100%;text-align:center}
   .screen-sub{color:var(--color-text-muted);margin-bottom:var(--space-8);text-align:center}
   .back-btn{background:var(--color-surface);color:var(--color-text);border:1px solid var(--color-border);padding:var(--space-2) var(--space-4);border-radius:100px;font-weight:600;display:inline-flex;align-items:center;gap:var(--space-2);cursor:pointer;transition:all 0.2s ease;}
@@ -195,8 +195,6 @@
     .game-card{border-radius:16px}
     .game-header{padding:var(--space-3);flex-direction:column;gap:var(--space-3);justify-content:center;}
     .word-area{padding:var(--space-4) var(--space-2)}
-    .screen-header{flex-direction:row;flex-wrap:wrap;align-items:center;gap:var(--space-2);}
+    .screen-header{flex-wrap:nowrap;} /* Allow them to squeeze if they can, or wrap if we remove this */
     .screen-title{text-align:left;}
-    .back-btn{padding:var(--space-2) var(--space-3);font-size:var(--text-xs);}
-    .keyboard-select{padding-right:24px;background-position:right 4px center;}
   }
