@@ -57,8 +57,13 @@
 
 <!-- GAME SCREEN -->
 <div class="screen" id="game-screen">
-  <div class="screen-header">
+  <div class="screen-header" style="justify-content: space-between;">
     <button class="back-btn" id="back-to-subjects">Sınıf / Ders Seç</button>
+    <select id="keyboard-select" class="back-btn" style="padding-right: 28px; cursor: pointer; outline: none; -webkit-appearance: none; appearance: none; background: var(--color-surface) url('data:image/svg+xml;utf8,<svg fill=%22%237a7974%22 viewBox=%220 0 24 24%22 xmlns=%22http://www.w3.org/2000/svg%22><path d=%22M7 10l5 5 5-5z%22/></svg>') no-repeat right 8px center;">
+      <option value="qwerty">Q Klavye</option>
+      <option value="f">F Klavye</option>
+      <option value="smart">Akıllı Mobil</option>
+    </select>
   </div>
   <div class="game-card" id="game-card">
     <div class="game-top-bar">

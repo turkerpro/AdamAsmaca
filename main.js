@@ -11,12 +11,28 @@ let availableWords = [];
 let gameState = { word:"", hint:"", category:"", guessed:new Set(), wrong:[], score:0, over:false, won:false };
 
 // ── LAYOUT CONSTANTS ───────────────────────────────────────────────────────
-const TR_ROWS = [
-  ["Q","W","E","R","T","Y","U","I","O","P"],
-  ["Ğ","Ü","A","S","D","F","G","H","J","K"],
-  ["L","Ş","İ","Z","X","C","V","B","N","M"],
-  ["Ö","Ç","space"]
-];
+const KEYBOARDS = {
+  qwerty: [
+    ["Q","W","E","R","T","Y","U","I","O","P","Ğ","Ü"],
+    ["A","S","D","F","G","H","J","K","L","Ş","İ"],
+    ["Z","X","C","V","B","N","M","Ö","Ç"],
+    ["space"]
+  ],
+  f: [
+    ["F","G","Ğ","I","O","D","R","N","H","P","Q","W"],
+    ["U","İ","E","A","Ü","T","K","M","L","Y","Ş"],
+    ["J","Ö","V","C","Ç","Z","S","B","X"],
+    ["space"]
+  ],
+  smart: [
+    ["Q","W","E","R","T","Y","U","I","O","P"],
+    ["Ğ","Ü","A","S","D","F","G","H","J","K"],
+    ["L","Ş","İ","Z","X","C","V","B","N","M"],
+    ["Ö","Ç","space"]
+  ]
+};
+
+let currentKeyboard = localStorage.getItem("adamAsmacaKb") || "qwerty";
 
 const BODY_PARTS = ["h-head","h-body","h-arm-l","h-arm-r","h-leg-l","h-leg-r"];
 const MAX_WRONG = BODY_PARTS.length;
@@ -32,6 +48,18 @@ async function init() {
   const backToSubBtn = document.getElementById('back-to-subjects');
   if(backToSubBtn) {
      backToSubBtn.addEventListener('click', showGradeScreen);
+  }
+
+  // Set up Keyboard select
+  const kbSelect = document.getElementById('keyboard-select');
+  if (kbSelect) {
+    kbSelect.value = currentKeyboard;
+    kbSelect.addEventListener('change', (e) => {
+      currentKeyboard = e.target.value;
+      localStorage.setItem("adamAsmacaKb", currentKeyboard);
+      buildKeyboard();
+      updateKeys();
+    });
   }
   
   // Start on grade screen
@@ -208,18 +236,26 @@ function populateSubjects() {
 
 // ── GAME LOGIC ──────────────────────────────────────────────────────────────
 function buildKeyboard() {
-  TR_ROWS.forEach((row, ri) => {
+  const layout = KEYBOARDS[currentKeyboard];
+  layout.forEach((row, ri) => {
     const el = document.getElementById(`row-${ri+1}`);
+    if(!el) return;
     el.innerHTML = "";
-    if(ri === 3) return; // skip space row
+    if(row[0] === "space" && row.length === 1) return; // skip space only row
     row.forEach(key => {
+      if(key === "space") return;
       const btn = document.createElement("button");
       btn.className = "key-btn"; btn.dataset.key = key; btn.textContent = key;
       btn.addEventListener("click", () => guess(key));
       el.appendChild(btn);
     });
+    el.style.display = (row.length === 1 && row[0] === "space") ? "none" : "flex";
   });
-  document.getElementById("row-4").style.display = "none";
+  
+  if (layout.length < 4) {
+    const r4 = document.getElementById("row-4");
+    if(r4) r4.style.display = "none";
+  }
 }
 
 function newGame() {
