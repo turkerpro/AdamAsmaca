@@ -6,9 +6,9 @@
 
 - **Sınıf ve Ders Seçimi:** 1. sınıftan 12. sınıfa kadar öğrencilerin kendi sınıf ve derslerini seçebileceği karşılama ekranı.
 - **Otomatik Müfredat Takibi:** İçinde bulunduğunuz aya göre doğru ünite otomatik olarak **"Şu Anki Ünite"** rozetiyle vurgulanır. Öğrenci doğru hedefe yönlendirilir.
+- **Sınırsız Ölçeklenebilirlik (Lazy Loading):** Yüz binlerce kelime ve ünite eklense bile uygulamanın açılış hızı yavaşlamaz. Sistem sadece tıklanan dersin verisini anlık olarak indirir.
 - **Modern ve Premium Tasarım:** Glassmorphism etkileri, tatmin edici mikro animasyonlar ve şık tipografi.
-- **Dark / Light Mod:** Sağ üst köşedeki butonla iki harika tema arasında geçiş yapılabilir.
-- **PWA Desteği (Mobil Uygulama Uyumlu):** Telefonunuzun tarayıcısından girip "Ana Ekrana Ekle" diyerek uygulamayı cihazınıza tam ekran bir mobil uygulama gibi kurabilirsiniz.
+- **Dark / Light Mod:** İki harika tema arasında geçiş yapılabilir.
 
 ## 🚀 Kurulum & Çalıştırma
 
@@ -20,45 +20,46 @@ Proje herhangi bir derleme aşaması (npm, webpack vb.) gerektirmez. Sadece dosy
 
 ## ✏️ Öğretmenler İçin: Soru ve Ünite Ekleme
 
-Uygulamadaki tüm sorular ve ders yapıları ana dizindeki `questions.json` dosyasından çekilmektedir. Harika bir hiyerarşik yapıya sahiptir.
+Tüm sorular tek bir dosyada karmaşa yaratmasın diye veritabanı **derslere özel klasörlere** bölünmüştür. Yeni bir soru veya ders eklemek çok basittir:
 
-Bir metin editörüyle `questions.json` dosyasını açarak kendi derslerinizi, ünitelerinizi ve kelimelerinizi kolayca ekleyebilirsiniz:
+### 1. Klasör Yapısı
+Projedeki veriler `data/` klasörü içinde sınıf ve ders bazlı olarak saklanır:
+```text
+/curriculum_index.json  <-- Sınıfların ve Derslerin LİSTESİ
+/data
+  /grade_4
+    fen.json            <-- 4. Sınıf Fen Bilimleri kelimeleri
+```
+
+### 2. Soru Dosyası Oluşturma (Örnek: Türkçe)
+Kendi branşınızın klasörüne (örneğin `/data/grade_5/turkce.json`) gidip ünitelerinizi şu şablonla girebilirsiniz:
 
 ```json
 {
-  "curriculum": [
+  "units": [
     {
-      "grade": 4,
-      "gradeName": "4. Sınıf",
-      "subjects": [
-        {
-          "id": "fen",
-          "name": "Fen Bilimleri",
-          "units": [
-            {
-              "id": "fen_u1",
-              "name": "1. Ünite: Yer Kabuğu ve Dünyamızın Hareketleri",
-              "months": [9, 10], 
-              "words": [
-                {"word": "KAYAÇ", "hint": "Yer kabuğunu oluşturan büyük taş kütleleri"}
-              ]
-            }
-          ]
-        }
+      "id": "tur_u1",
+      "name": "1. Ünite: Anlam Bilgisi",
+      "months": [9, 10], 
+      "words": [
+        {"word": "ZIT", "hint": "Anlamca birbirinin tersi olan kelimeler"},
+        {"word": "ESANLAMLI", "hint": "Yazılışları farklı, anlamları aynı kelimeler"}
       ]
     }
   ]
 }
 ```
+*(Not: `months` kısmı bu ünitenin hangi aylarda "Şu Anki Ünite" olarak işaretleneceğini belirtir. Kelimeleri daima **BÜYÜK HARFLE VE TÜRKÇE KARAKTERLERLE** yazın).*
 
-*Not: Kelimeleri ("word" kısmı) her zaman **TÜRKÇE KARAKTERLER VE BÜYÜK HARFLERLE** yazmaya özen gösterin.*
+### 3. Yeni Dersi Sisteme Tanıtma
+Ana dizindeki `curriculum_index.json` dosyasını açıp oluşturduğunuz ders dosyasının yolunu (`dataFile`) belirtmeniz yeterlidir. Uygulama otomatik olarak dersi görüp listeye ekleyecektir!
 
 ## 🛠️ Teknolojiler
 
 - **HTML5:** Yapı ve Semantik etiketler
 - **Vanilla CSS:** Özel değişkenler (CSS variables) ve modern grid/flexbox yapıları
-- **Vanilla JavaScript (ES6+):** Harici kütüphane gerektirmeyen oyun motoru ve JSON veri işleme
-- **PWA (Progressive Web App):** Mobil kurulum (manifest.json) desteği
+- **Vanilla JavaScript (ES6+):** Harici kütüphane gerektirmeyen asenkron oyun motoru
+- **PWA (Progressive Web App):** Mobil kurulum desteği
 
 ---
 *İyi eğlenceler ve iyi dersler!*
