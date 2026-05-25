@@ -105,7 +105,7 @@
     border-radius:var(--radius-full);font-weight:600;letter-spacing:0.05em}
 
   /* GAME CARD */
-  .game-card{background:var(--color-surface);border-radius:24px;box-shadow:var(--shadow-sm);border:1px solid var(--color-border);overflow:hidden}
+  .game-card{width:100%;max-width:720px;background:var(--color-surface);border-radius:24px;box-shadow:var(--shadow-sm);border:1px solid var(--color-border);overflow:hidden}
   .game-header{display:flex;justify-content:space-between;align-items:center;padding:var(--space-4) var(--space-6);border-bottom:1px solid var(--color-border)}
   .category-badge{background:var(--color-primary-highlight);color:var(--color-primary);padding:var(--space-1) var(--space-3);border-radius:16px;font-size:var(--text-sm);font-weight:700;letter-spacing:0.02em;text-align:center;line-height:1.4;word-break:break-word;}
   .score-badge{font-weight:700;color:var(--color-text);display:flex;align-items:center;gap:var(--space-2);background:var(--color-bg);padding:var(--space-1) var(--space-3);border-radius:100px;border:1px solid var(--color-border)}
@@ -195,6 +195,8 @@
     .game-card{border-radius:16px}
     .game-header{padding:var(--space-3);flex-direction:column;gap:var(--space-3);justify-content:center;}
     .word-area{padding:var(--space-4) var(--space-2)}
-    .screen-header{flex-direction:column;align-items:flex-start;gap:var(--space-3);}
+    .screen-header{flex-direction:row;flex-wrap:wrap;align-items:center;gap:var(--space-2);}
     .screen-title{text-align:left;}
+    .back-btn{padding:var(--space-2) var(--space-3);font-size:var(--text-xs);}
+    .keyboard-select{padding-right:24px;background-position:right 4px center;}
   }
