@@ -44,9 +44,33 @@ if not api_key:
 
 genai.configure(api_key=api_key)
 
-# Model configuration
+# Model configuration with dynamic fallback
+print("Kullanılabilir yapay zeka modelleri kontrol ediliyor...")
+target_model = "gemini-1.5-flash"
+try:
+    available = []
+    for m in genai.list_models():
+        if "generateContent" in m.supported_generation_methods:
+            available.append(m.name)
+            
+    # Try to find gemini-1.5-flash
+    flash_matches = [m for m in available if "gemini-1.5-flash" in m]
+    if flash_matches:
+        target_model = flash_matches[0].replace("models/", "")
+    else:
+        # Fallback to any gemini model
+        gemini_matches = [m for m in available if "gemini" in m]
+        if gemini_matches:
+            target_model = gemini_matches[0].replace("models/", "")
+        elif available:
+            target_model = available[0].replace("models/", "")
+            
+    print(f"Seçilen Model: {target_model}")
+except Exception as e:
+    print(f"[UYARI] Modeller listelenemedi, varsayılan model kullanılacak: {target_model} (Hata: {str(e)})")
+
 model = genai.GenerativeModel(
-    "gemini-1.5-flash",
+    target_model,
     generation_config={"response_mime_type": "application/json"}
 )
 
