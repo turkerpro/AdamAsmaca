@@ -1,0 +1,14 @@
+{
+  "units": [
+    {
+      "id": "ing_u1",
+      "name": "Unit 1: Classroom Rules",
+      "months": [9, 10],
+      "words": [
+        {"word": "PENCIL", "hint": "Yazı yazmak için kullanılan araç"},
+        {"word": "ERASER", "hint": "Yazılanları silmek için kullanılan araç"},
+        {"word": "TEACHER", "hint": "Ders anlatan kişi"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "units": [
+    {
+      "id": "sos_u1",
+      "name": "1. Ünite: Birey ve Toplum",
+      "months": [9, 10],
+      "words": [
+        {"word": "KIMLIK", "hint": "Bir kimsenin kim olduğunu gösteren belge"},
+        {"word": "HAK", "hint": "Hukukun kişilere tanıdığı yetki"},
+        {"word": "SORUMLULUK", "hint": "Kişinin üzerine düşen görevleri yerine getirmesi"}
+      ]
+    }
+  ]
+}

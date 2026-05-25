@@ -1,6 +1,6 @@
 // ── STATE & DATA ────────────────────────────────────────────────────────────
 let CURRICULUM_DATA = null;
-const QUESTIONS_URL = './questions.json';
+const INDEX_URL = './curriculum_index.json';
 
 let selectedGrade = null;
 let selectedSubject = null;
@@ -34,13 +34,13 @@ async function init() {
     populateGrades();
     showGradeScreen();
   } else {
-    document.getElementById('grade-list').innerHTML = '<p>Veriler yüklenemedi. İnternet bağlantınızı kontrol edin.</p>';
+    document.getElementById('grade-list').innerHTML = '<p>Müfredat yüklenemedi. Lütfen internet bağlantınızı kontrol edin.</p>';
   }
 }
 
 async function loadCurriculum() {
   try {
-    const res = await fetch(QUESTIONS_URL);
+    const res = await fetch(INDEX_URL);
     if (!res.ok) throw new Error('Network response was not ok');
     const data = await res.json();
     if (data && data.curriculum) {
@@ -103,41 +103,72 @@ function populateSubjects() {
     
     const header = document.createElement('div');
     header.className = 'subject-header';
-    header.textContent = subject.name;
+    header.textContent = subject.name + " ▼";
+    header.style.cursor = 'pointer';
     card.appendChild(header);
     
     const unitList = document.createElement('div');
     unitList.className = 'unit-list';
+    unitList.style.display = 'none'; // hidden initially
+    card.appendChild(unitList);
     
-    subject.units.forEach(unit => {
-      const isRecommended = unit.months && unit.months.includes(currentMonth);
-      
-      const unitBtn = document.createElement('button');
-      unitBtn.className = 'unit-item' + (isRecommended ? ' recommended' : '');
-      
-      const titleSpan = document.createElement('span');
-      titleSpan.textContent = unit.name;
-      unitBtn.appendChild(titleSpan);
-      
-      if(isRecommended) {
-        const badge = document.createElement('span');
-        badge.className = 'unit-badge';
-        badge.textContent = 'Şu Anki Ünite';
-        unitBtn.appendChild(badge);
+    header.addEventListener('click', async () => {
+      // toggle visibility
+      if (unitList.style.display === 'flex') {
+         unitList.style.display = 'none';
+         header.textContent = subject.name + " ▼";
+         return;
       }
       
-      unitBtn.addEventListener('click', () => {
-        selectedSubject = subject;
-        selectedUnit = unit;
-        WORD_BANK = unit.words;
-        newGame();
-        showGameScreen();
-      });
+      header.textContent = subject.name + " ▲";
       
-      unitList.appendChild(unitBtn);
+      // if already loaded, just show
+      if (unitList.innerHTML !== '') {
+         unitList.style.display = 'flex';
+         return;
+      }
+
+      // Load data lazily
+      unitList.innerHTML = '<div style="padding:16px;text-align:center;color:var(--color-text-muted);">Üniteler yükleniyor...</div>';
+      unitList.style.display = 'flex';
+      
+      try {
+        const res = await fetch(subject.dataFile);
+        if(!res.ok) throw new Error("Veri çekilemedi");
+        const data = await res.json();
+        
+        unitList.innerHTML = '';
+        
+        data.units.forEach(unit => {
+          const isRecommended = unit.months && unit.months.includes(currentMonth);
+          const unitBtn = document.createElement('button');
+          unitBtn.className = 'unit-item' + (isRecommended ? ' recommended' : '');
+          
+          const titleSpan = document.createElement('span');
+          titleSpan.textContent = unit.name;
+          unitBtn.appendChild(titleSpan);
+          
+          if(isRecommended) {
+            const badge = document.createElement('span');
+            badge.className = 'unit-badge';
+            badge.textContent = 'Şu Anki Ünite';
+            unitBtn.appendChild(badge);
+          }
+          
+          unitBtn.addEventListener('click', () => {
+            selectedSubject = subject;
+            selectedUnit = unit;
+            WORD_BANK = unit.words;
+            newGame();
+            showGameScreen();
+          });
+          unitList.appendChild(unitBtn);
+        });
+      } catch (err) {
+        unitList.innerHTML = '<div style="padding:16px;text-align:center;color:var(--color-error);">Veri dosyası bulunamadı.</div>';
+      }
     });
     
-    card.appendChild(unitList);
     list.appendChild(card);
   });
 }

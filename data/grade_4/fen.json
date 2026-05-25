@@ -1,0 +1,24 @@
+{
+  "units": [
+    {
+      "id": "fen_u1",
+      "name": "1. Ünite: Yer Kabuğu ve Dünyamızın Hareketleri",
+      "months": [9, 10],
+      "words": [
+        {"word": "KAYAÇ", "hint": "Yer kabuğunu oluşturan büyük ve sert taş kütleleri"},
+        {"word": "FOSIL", "hint": "Geçmişte yaşamış canlıların taşlaşmış kalıntıları"},
+        {"word": "MADEN", "hint": "Ekonomik değeri olan kayaçlar"}
+      ]
+    },
+    {
+      "id": "fen_u2",
+      "name": "2. Ünite: Besinlerimiz",
+      "months": [10, 11],
+      "words": [
+        {"word": "PROTEIN", "hint": "Vücudumuzda yapıcı ve onarıcı görev yapan besin içeriği"},
+        {"word": "KARBONHIDRAT", "hint": "Vücudumuza enerji veren besin içeriği"},
+        {"word": "VITAMIN", "hint": "Vücudumuzu hastalıklara karşı koruyan besin içeriği"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "curriculum": [
+    {
+      "grade": 4,
+      "gradeName": "4. Sınıf",
+      "subjects": [
+        {
+          "id": "fen",
+          "name": "Fen Bilimleri",
+          "dataFile": "./data/grade_4/fen.json"
+        },
+        {
+          "id": "ingilizce",
+          "name": "İngilizce",
+          "dataFile": "./data/grade_4/ingilizce.json"
+        }
+      ]
+    },
+    {
+      "grade": 5,
+      "gradeName": "5. Sınıf",
+      "subjects": [
+        {
+          "id": "sosyal",
+          "name": "Sosyal Bilgiler",
+          "dataFile": "./data/grade_5/sosyal.json"
+        }
+      ]
+    }
+  ]
+}
