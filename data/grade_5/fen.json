@@ -1,0 +1,326 @@
+{
+  "units": [
+    {
+      "id": "fen_u1",
+      "name": "1. Ünite: Yer Kabuğu",
+      "months": [
+        9,
+        10
+      ],
+      "words": [
+        {
+          "word": "KAYAÇ",
+          "hint": "Büyük ve sert taş kütleleri"
+        },
+        {
+          "word": "FOSİL",
+          "hint": "Geçmişte yaşamış canlı kalıntıları"
+        }
+      ]
+    },
+    {
+      "id": "fen_u2",
+      "name": "2. Ünite: Besinlerimiz",
+      "months": [
+        10,
+        11
+      ],
+      "words": [
+        {
+          "word": "PROTEİN",
+          "hint": "Yapıcı ve onarıcı besin içeriği"
+        },
+        {
+          "word": "VİTAMİN",
+          "hint": "Hastalıklara karşı koruyan besin"
+        }
+      ]
+    },
+    {
+      "id": "fen_u3",
+      "name": "3. Ünite: Gökyüzündeki Komşularımız ve Biz",
+      "months": [
+        11,
+        12
+      ],
+      "words": [
+        {
+          "word": "GÜNEŞ",
+          "hint": "Dünya'ya ışık ve ısı veren yıldız"
+        },
+        {
+          "word": "AY",
+          "hint": "Dünya'nın doğal uydusu"
+        },
+        {
+          "word": "YILDIZ",
+          "hint": "Kendi ışığını üreten gök cismi"
+        },
+        {
+          "word": "GÜNEŞ TUTULMASI",
+          "hint": "Ay'ın Güneş'i tamamen kapatması"
+        },
+        {
+          "word": "AY TUTULMASI",
+          "hint": "Dünya'nın gölgesinde Ay'ın kalması"
+        },
+        {
+          "word": "GÜNEŞİN DEVİNİMİ",
+          "hint": "Güneş'in gökyüzünde hareket etmesi"
+        },
+        {
+          "word": "DÖNGÜ",
+          "hint": "Olayların belirli aralıklarla tekrarlanması"
+        },
+        {
+          "word": "MEVSIM",
+          "hint": "Yılın dört farklı iklim dönemi"
+        }
+      ]
+    },
+    {
+      "id": "fen_u4",
+      "name": "4. Ünite: Kuvveti Tanıyalım",
+      "months": [
+        12,
+        1
+      ],
+      "words": [
+        {
+          "word": "KUVVET",
+          "hint": "Bir cismi hareket ettiren ya da durduran etki"
+        },
+        {
+          "word": "SÜRTÜNME",
+          "hint": "İki yüzey arasındaki harekete karşı koyma"
+        },
+        {
+          "word": "KÜTLE",
+          "hint": "Bir cismin içerdiği madde miktarı"
+        },
+        {
+          "word": "AĞIRLIK",
+          "hint": "Dünya'nın bir cisme uyguladığı çekim kuvveti"
+        },
+        {
+          "word": "DİNAMOMETRE",
+          "hint": "Kuvveti ölçen araç"
+        },
+        {
+          "word": "YAY",
+          "hint": "Elastik enerji depolayan spiral nesne"
+        },
+        {
+          "word": "NEWTON",
+          "hint": "Kuvvetin birimi"
+        },
+        {
+          "word": "DENGE",
+          "hint": "Kuvvetlerin birbirini dengelemesi durumu"
+        }
+      ]
+    },
+    {
+      "id": "fen_u5",
+      "name": "5. Ünite: Canlıların Yapısına Yolculuk",
+      "months": [
+        1,
+        2
+      ],
+      "words": [
+        {
+          "word": "HÜCRE",
+          "hint": "Canlıların en küçük yapı birimi"
+        },
+        {
+          "word": "ORGANELLER",
+          "hint": "Hücre içindeki küçük yapılar"
+        },
+        {
+          "word": "DOKU",
+          "hint": "Aynı görevi yapan hücre topluluğu"
+        },
+        {
+          "word": "ORGAN",
+          "hint": "Birden fazla dokunun oluşturduğu yapı"
+        },
+        {
+          "word": "ORGANİZMA",
+          "hint": "Tek başına yaşayan canlı varlık"
+        },
+        {
+          "word": "KLOROFİL",
+          "hint": "Bitki hücrelerini yeşil yapan madde"
+        },
+        {
+          "word": "MİTOKONDRİ",
+          "hint": "Hücreye enerji üreten organel"
+        },
+        {
+          "word": "HÜCRE ZARI",
+          "hint": "Hücreyi çevreleyen ince tabaka"
+        }
+      ]
+    },
+    {
+      "id": "fen_u6",
+      "name": "6. Ünite: Işığın Dünyası",
+      "months": [
+        2,
+        3
+      ],
+      "words": [
+        {
+          "word": "IŞIK",
+          "hint": "Gözle görmeyi sağlayan enerji türü"
+        },
+        {
+          "word": "YANSIMA",
+          "hint": "Işığın bir yüzeyden geri dönmesi"
+        },
+        {
+          "word": "KIRIMA",
+          "hint": "Işığın farklı ortamda yön değiştirmesi"
+        },
+        {
+          "word": "GÖLGE",
+          "hint": "Işığın önüne geçilen karanlık alan"
+        },
+        {
+          "word": "SAYDAM",
+          "hint": "Işığı tam geçiren madde türü"
+        },
+        {
+          "word": "OPAK",
+          "hint": "Işığı hiç geçirmeyen madde türü"
+        },
+        {
+          "word": "PRIZMA",
+          "hint": "Işığı renklerine ayıran cam cisim"
+        },
+        {
+          "word": "RENK",
+          "hint": "Işığın gözle algılanan spektrum bileşeni"
+        }
+      ]
+    },
+    {
+      "id": "fen_u7",
+      "name": "7. Ünite: Maddenin Doğası",
+      "months": [
+        3,
+        4
+      ],
+      "words": [
+        {
+          "word": "TANECIК",
+          "hint": "Maddeyi oluşturan en küçük parça"
+        },
+        {
+          "word": "ISI",
+          "hint": "Sıcaklık farkı nedeniyle aktarılan enerji"
+        },
+        {
+          "word": "SICAKLIK",
+          "hint": "Maddenin ısınma derecesi"
+        },
+        {
+          "word": "ERIME",
+          "hint": "Katının sıvıya dönüşmesi"
+        },
+        {
+          "word": "DONMA",
+          "hint": "Sıvının katıya dönüşmesi"
+        },
+        {
+          "word": "BUHARLAŞMA",
+          "hint": "Sıvının gaza dönüşmesi"
+        },
+        {
+          "word": "YOĞUŞMA",
+          "hint": "Gazın sıvıya dönüşmesi"
+        },
+        {
+          "word": "HAL DEĞİŞİMİ",
+          "hint": "Maddenin katı, sıvı veya gaz forma geçmesi"
+        }
+      ]
+    },
+    {
+      "id": "fen_u8",
+      "name": "8. Ünite: Yaşamımızdaki Elektrik",
+      "months": [
+        4,
+        5
+      ],
+      "words": [
+        {
+          "word": "ELEKTRİK",
+          "hint": "Elektron hareketinden oluşan enerji türü"
+        },
+        {
+          "word": "DEVRE",
+          "hint": "Elektriğin akabileceği kapalı yol"
+        },
+        {
+          "word": "PİL",
+          "hint": "Kimyasal enerjiyi elektriğe dönüştüren kaynak"
+        },
+        {
+          "word": "AMPUL",
+          "hint": "Elektriği ışığa çeviren devre elemanı"
+        },
+        {
+          "word": "ANAHTAR",
+          "hint": "Devreyi açıp kapatan eleman"
+        },
+        {
+          "word": "İLETKEN",
+          "hint": "Elektriği kolayca geçiren madde"
+        },
+        {
+          "word": "YALİTKAN",
+          "hint": "Elektriği geçirmeyen madde"
+        }
+      ]
+    },
+    {
+      "id": "fen_u9",
+      "name": "9. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+      "months": [
+        5,
+        6
+      ],
+      "words": [
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Atıkların yeniden kullanıma kazandırılması"
+        },
+        {
+          "word": "ATIK",
+          "hint": "Kullanılmaz hale gelen madde"
+        },
+        {
+          "word": "ÇEVRE KİRLİLİĞİ",
+          "hint": "Doğanın zarar görmesi"
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Kaynakları gelecek nesillere koruyarak kullanmak"
+        },
+        {
+          "word": "YENİLENEBİLİR ENERJİ",
+          "hint": "Tükenmez enerji kaynakları (güneş, rüzgar)"
+        },
+        {
+          "word": "KOMPOST",
+          "hint": "Organik atıklardan elde edilen doğal gübre"
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK",
+          "hint": "Doğadaki canlı türlerinin çeşitliliği"
+        }
+      ]
+    }
+  ]
+}
