@@ -317,7 +317,6 @@ function guess(key) {
   if (!inWord) {
     gameState.wrong.push(k);
     gameState.score -= 2;
-    if (gameState.score < 0) gameState.score = 0;
     if (gameState.wrong.length >= MAX_WRONG) { gameState.over = true; gameState.won = false; }
   }
 
