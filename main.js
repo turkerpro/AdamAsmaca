@@ -183,6 +183,12 @@ function showGradeScreen() {
 function showSubjectScreen() {
   selectedSubject = null;
   selectedUnit = null;
+  if (selectedGrade) {
+    populateSubjects();
+  } else {
+    showGradeScreen();
+    return;
+  }
   switchScreen('subject-screen');
 }
 
