@@ -72,30 +72,39 @@ async function init() {
 }
 
 async function startRandomGame() {
-  const rGrade = CURRICULUM_DATA[Math.floor(Math.random() * CURRICULUM_DATA.length)];
-  selectedGrade = rGrade;
-  
-  if (!rGrade.subjects || rGrade.subjects.length === 0) { showGradeScreen(); return; }
-  const rSubj = rGrade.subjects[Math.floor(Math.random() * rGrade.subjects.length)];
-  selectedSubject = rSubj;
-  
-  try {
-    const res = await fetch(rSubj.dataFile);
-    if(!res.ok) throw new Error();
-    const data = await res.json();
-    if(data.units && data.units.length > 0) {
-      const rUnit = data.units[Math.floor(Math.random() * data.units.length)];
-      selectedUnit = rUnit;
-      WORD_BANK = rUnit.words;
-      availableWords = [...WORD_BANK];
-      newGame();
-      showGameScreen();
-    } else {
-      showGradeScreen();
+  let attempts = 0;
+  const maxAttempts = 20;
+
+  while(attempts < maxAttempts) {
+    attempts++;
+    const rGrade = CURRICULUM_DATA[Math.floor(Math.random() * CURRICULUM_DATA.length)];
+    if (!rGrade.subjects || rGrade.subjects.length === 0) continue;
+    
+    const rSubj = rGrade.subjects[Math.floor(Math.random() * rGrade.subjects.length)];
+    
+    try {
+      const res = await fetch(rSubj.dataFile);
+      if(!res.ok) continue; // 404, try another one
+      
+      const data = await res.json();
+      if(data.units && data.units.length > 0) {
+        selectedGrade = rGrade;
+        selectedSubject = rSubj;
+        const rUnit = data.units[Math.floor(Math.random() * data.units.length)];
+        selectedUnit = rUnit;
+        WORD_BANK = rUnit.words;
+        availableWords = [...WORD_BANK];
+        newGame();
+        showGameScreen();
+        return; // Success
+      }
+    } catch (err) {
+      // JSON parse error or network error, loop again
     }
-  } catch (err) {
-    showGradeScreen();
   }
+  
+  // If we couldn't find any valid JSON after 20 tries, fallback to grade screen
+  showGradeScreen();
 }
 
 async function loadCurriculum() {
