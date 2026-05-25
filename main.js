@@ -7,14 +7,15 @@ let selectedSubject = null;
 let selectedUnit = null;
 
 let WORD_BANK = [];
+let availableWords = [];
 let gameState = { word:"", hint:"", category:"", guessed:new Set(), wrong:[], score:0, over:false, won:false };
 
 // ── LAYOUT CONSTANTS ───────────────────────────────────────────────────────
 const TR_ROWS = [
-  ["Q","W","E","R","T","Y","U","I","O","P","Ğ","Ü"],
-  ["A","S","D","F","G","H","J","K","L","Ş","İ"],
-  ["Z","X","C","V","B","N","M","Ö","Ç"],
-  ["space"]
+  ["Q","W","E","R","T","Y","U","I","O","P"],
+  ["Ğ","Ü","A","S","D","F","G","H","J","K"],
+  ["L","Ş","İ","Z","X","C","V","B","N","M"],
+  ["Ö","Ç","space"]
 ];
 
 const BODY_PARTS = ["h-head","h-body","h-arm-l","h-arm-r","h-leg-l","h-leg-r"];
@@ -27,14 +28,45 @@ async function init() {
   
   // Set up back buttons
   document.getElementById('back-to-grades').addEventListener('click', showGradeScreen);
-  document.getElementById('back-to-subjects').addEventListener('click', showSubjectScreen);
+  
+  const backToSubBtn = document.getElementById('back-to-subjects');
+  if(backToSubBtn) {
+     backToSubBtn.addEventListener('click', showGradeScreen);
+  }
   
   // Start on grade screen
-  if(CURRICULUM_DATA) {
+  if(CURRICULUM_DATA && CURRICULUM_DATA.length > 0) {
     populateGrades();
-    showGradeScreen();
+    await startRandomGame();
   } else {
     document.getElementById('grade-list').innerHTML = '<p>Müfredat yüklenemedi. Lütfen internet bağlantınızı kontrol edin.</p>';
+  }
+}
+
+async function startRandomGame() {
+  const rGrade = CURRICULUM_DATA[Math.floor(Math.random() * CURRICULUM_DATA.length)];
+  selectedGrade = rGrade;
+  
+  if (!rGrade.subjects || rGrade.subjects.length === 0) { showGradeScreen(); return; }
+  const rSubj = rGrade.subjects[Math.floor(Math.random() * rGrade.subjects.length)];
+  selectedSubject = rSubj;
+  
+  try {
+    const res = await fetch(rSubj.dataFile);
+    if(!res.ok) throw new Error();
+    const data = await res.json();
+    if(data.units && data.units.length > 0) {
+      const rUnit = data.units[Math.floor(Math.random() * data.units.length)];
+      selectedUnit = rUnit;
+      WORD_BANK = rUnit.words;
+      availableWords = [...WORD_BANK];
+      newGame();
+      showGameScreen();
+    } else {
+      showGradeScreen();
+    }
+  } catch (err) {
+    showGradeScreen();
   }
 }
 
@@ -159,6 +191,7 @@ function populateSubjects() {
             selectedSubject = subject;
             selectedUnit = unit;
             WORD_BANK = unit.words;
+            availableWords = [...WORD_BANK];
             newGame();
             showGameScreen();
           });
@@ -191,7 +224,13 @@ function buildKeyboard() {
 
 function newGame() {
   if(!WORD_BANK || WORD_BANK.length === 0) return;
-  const entry = WORD_BANK[Math.floor(Math.random() * WORD_BANK.length)];
+  
+  if(availableWords.length === 0) {
+    availableWords = [...WORD_BANK];
+  }
+  
+  const randomIndex = Math.floor(Math.random() * availableWords.length);
+  const entry = availableWords.splice(randomIndex, 1)[0];
   
   const categoryText = `${selectedSubject.name} - ${selectedUnit.name.split(':')[0]}`;
   
