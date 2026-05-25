@@ -1,26 +1,15 @@
-// ── WORDS ──────────────────────────────────────────────────────────────────
-let WORD_BANK = [];
-// Uzak bir sunucudaki JSON dosyasını da buraya yazabilirsiniz (örnek: 'https://mysite.com/questions.json')
+// ── STATE & DATA ────────────────────────────────────────────────────────────
+let CURRICULUM_DATA = null;
 const QUESTIONS_URL = './questions.json';
 
-async function loadQuestions() {
-  try {
-    const res = await fetch(QUESTIONS_URL);
-    if (!res.ok) throw new Error('Network response was not ok');
-    const data = await res.json();
-    if (data && data.length > 0) {
-      WORD_BANK = data;
-    }
-  } catch (error) {
-    console.error("Sorular yüklenemedi:", error);
-    // Fallback if fetch fails
-    WORD_BANK = [
-      {word:"HATA",hint:"Sorular yüklenemedi. Lütfen internet bağlantınızı kontrol edin.",category:"Sistem"}
-    ];
-  }
-}
+let selectedGrade = null;
+let selectedSubject = null;
+let selectedUnit = null;
 
-// ── LAYOUT ─────────────────────────────────────────────────────────────────
+let WORD_BANK = [];
+let gameState = { word:"", hint:"", category:"", guessed:new Set(), wrong:[], score:0, over:false, won:false };
+
+// ── LAYOUT CONSTANTS ───────────────────────────────────────────────────────
 const TR_ROWS = [
   ["Q","W","E","R","T","Y","U","I","O","P","Ğ","Ü"],
   ["A","S","D","F","G","H","J","K","L","Ş","İ"],
@@ -31,10 +20,129 @@ const TR_ROWS = [
 const BODY_PARTS = ["h-head","h-body","h-arm-l","h-arm-r","h-leg-l","h-leg-r"];
 const MAX_WRONG = BODY_PARTS.length;
 
-// ── STATE ───────────────────────────────────────────────────────────────────
-let state = { word:"", hint:"", category:"", guessed:new Set(), wrong:[], score:0, over:false, won:false };
+// ── INIT & FETCH ────────────────────────────────────────────────────────────
+async function init() {
+  buildKeyboard();
+  await loadCurriculum();
+  
+  // Set up back buttons
+  document.getElementById('back-to-grades').addEventListener('click', showGradeScreen);
+  document.getElementById('back-to-subjects').addEventListener('click', showSubjectScreen);
+  
+  // Start on grade screen
+  if(CURRICULUM_DATA) {
+    populateGrades();
+    showGradeScreen();
+  } else {
+    document.getElementById('grade-list').innerHTML = '<p>Veriler yüklenemedi. İnternet bağlantınızı kontrol edin.</p>';
+  }
+}
 
-// ── INIT ────────────────────────────────────────────────────────────────────
+async function loadCurriculum() {
+  try {
+    const res = await fetch(QUESTIONS_URL);
+    if (!res.ok) throw new Error('Network response was not ok');
+    const data = await res.json();
+    if (data && data.curriculum) {
+      CURRICULUM_DATA = data.curriculum;
+    }
+  } catch (error) {
+    console.error("Müfredat yüklenemedi:", error);
+  }
+}
+
+// ── NAVIGATION & SCREENS ────────────────────────────────────────────────────
+function switchScreen(screenId) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(screenId).classList.add('active');
+}
+
+function showGradeScreen() {
+  selectedGrade = null;
+  switchScreen('grade-screen');
+}
+
+function showSubjectScreen() {
+  selectedSubject = null;
+  selectedUnit = null;
+  switchScreen('subject-screen');
+}
+
+function showGameScreen() {
+  switchScreen('game-screen');
+}
+
+// ── UI BUILDERS ─────────────────────────────────────────────────────────────
+function populateGrades() {
+  const list = document.getElementById('grade-list');
+  list.innerHTML = '';
+  
+  CURRICULUM_DATA.forEach(gradeItem => {
+    const btn = document.createElement('button');
+    btn.className = 'grid-card';
+    btn.textContent = gradeItem.gradeName;
+    btn.addEventListener('click', () => {
+      selectedGrade = gradeItem;
+      populateSubjects();
+      showSubjectScreen();
+    });
+    list.appendChild(btn);
+  });
+}
+
+function populateSubjects() {
+  document.getElementById('selected-grade-title').textContent = selectedGrade.gradeName + " - Ders Seçimi";
+  const list = document.getElementById('subject-list');
+  list.innerHTML = '';
+  
+  const currentMonth = new Date().getMonth() + 1; // 1-12
+  
+  selectedGrade.subjects.forEach(subject => {
+    const card = document.createElement('div');
+    card.className = 'subject-card';
+    
+    const header = document.createElement('div');
+    header.className = 'subject-header';
+    header.textContent = subject.name;
+    card.appendChild(header);
+    
+    const unitList = document.createElement('div');
+    unitList.className = 'unit-list';
+    
+    subject.units.forEach(unit => {
+      const isRecommended = unit.months && unit.months.includes(currentMonth);
+      
+      const unitBtn = document.createElement('button');
+      unitBtn.className = 'unit-item' + (isRecommended ? ' recommended' : '');
+      
+      const titleSpan = document.createElement('span');
+      titleSpan.textContent = unit.name;
+      unitBtn.appendChild(titleSpan);
+      
+      if(isRecommended) {
+        const badge = document.createElement('span');
+        badge.className = 'unit-badge';
+        badge.textContent = 'Şu Anki Ünite';
+        unitBtn.appendChild(badge);
+      }
+      
+      unitBtn.addEventListener('click', () => {
+        selectedSubject = subject;
+        selectedUnit = unit;
+        WORD_BANK = unit.words;
+        newGame();
+        showGameScreen();
+      });
+      
+      unitList.appendChild(unitBtn);
+    });
+    
+    card.appendChild(unitList);
+    list.appendChild(card);
+  });
+}
+
+// ── GAME LOGIC ──────────────────────────────────────────────────────────────
 function buildKeyboard() {
   TR_ROWS.forEach((row, ri) => {
     const el = document.getElementById(`row-${ri+1}`);
@@ -51,41 +159,52 @@ function buildKeyboard() {
 }
 
 function newGame() {
-  if(WORD_BANK.length === 0) return;
+  if(!WORD_BANK || WORD_BANK.length === 0) return;
   const entry = WORD_BANK[Math.floor(Math.random() * WORD_BANK.length)];
-  state = { word: entry.word.toUpperCase(), hint: entry.hint, category: entry.category,
-    guessed: new Set(), wrong: [], score: state.score, over: false, won: false };
+  
+  const categoryText = `${selectedSubject.name} - ${selectedUnit.name.split(':')[0]}`;
+  
+  gameState = { 
+    word: entry.word.toUpperCase(), 
+    hint: entry.hint, 
+    category: categoryText,
+    guessed: new Set(), 
+    wrong: [], 
+    score: gameState.score, 
+    over: false, 
+    won: false 
+  };
+  
   document.querySelectorAll(".overlay").forEach(e=>e.remove());
   updateUI();
 }
 
-// ── GUESS ────────────────────────────────────────────────────────────────────
 function guess(key) {
-  if (state.over) return;
+  if (gameState.over) return;
   const k = key.toUpperCase();
-  if (state.guessed.has(k)) return;
-  state.guessed.add(k);
+  if (gameState.guessed.has(k)) return;
+  gameState.guessed.add(k);
 
-  const inWord = state.word.includes(k) || (k === " ");
+  const inWord = gameState.word.includes(k) || (k === " ");
   if (!inWord) {
-    state.wrong.push(k);
-    if (state.wrong.length >= MAX_WRONG) { state.over = true; state.won = false; }
+    gameState.wrong.push(k);
+    if (gameState.wrong.length >= MAX_WRONG) { gameState.over = true; gameState.won = false; }
   }
 
   // win check
-  const letters = [...state.word].filter(c => c !== " ");
-  const allFound = letters.every(c => state.guessed.has(c));
-  if (allFound) { state.over = true; state.won = true; state.score += 10; }
+  const letters = [...gameState.word].filter(c => c !== " ");
+  const allFound = letters.every(c => gameState.guessed.has(c));
+  if (allFound) { gameState.over = true; gameState.won = true; gameState.score += 10; }
 
   updateUI();
-  if (state.over) setTimeout(() => showEndOverlay(), 700);
+  if (gameState.over) setTimeout(() => showEndOverlay(), 700);
 }
 
 // ── UPDATE UI ────────────────────────────────────────────────────────────────
 function updateUI() {
-  document.getElementById("category-badge").textContent = state.category;
-  document.getElementById("hint-text").textContent = "İpucu: " + state.hint;
-  document.getElementById("score-val").textContent = state.score;
+  document.getElementById("category-badge").textContent = gameState.category;
+  document.getElementById("hint-text").textContent = "İpucu: " + gameState.hint;
+  document.getElementById("score-val").textContent = gameState.score;
   updateWordDisplay();
   updateHangman();
   updateWrong();
@@ -96,7 +215,7 @@ function updateUI() {
 function updateWordDisplay() {
   const wd = document.getElementById("word-display");
   wd.innerHTML = "";
-  [...state.word].forEach(ch => {
+  [...gameState.word].forEach(ch => {
     const slot = document.createElement("div"); slot.className = "letter-slot";
     const char = document.createElement("div"); char.className = "letter-char";
     const line = document.createElement("div"); line.className = "letter-line";
@@ -105,14 +224,14 @@ function updateWordDisplay() {
       slot.style.width = "20px";
       char.classList.add("space-char");
       line.classList.add("space-line");
-    } else if (state.guessed.has(ch)) {
+    } else if (gameState.guessed.has(ch)) {
       char.classList.add("revealed");
-      if (!state.won && state.over) char.classList.add("wrong-final");
+      if (!gameState.won && gameState.over) char.classList.add("wrong-final");
     } else {
       char.classList.add("hidden");
     }
-    char.textContent = ch === " " ? " " : (state.guessed.has(ch) || (state.over && !state.won) ? ch : "_");
-    if (state.over && !state.won && !state.guessed.has(ch) && ch !== " ") {
+    char.textContent = ch === " " ? " " : (gameState.guessed.has(ch) || (gameState.over && !gameState.won) ? ch : "_");
+    if (gameState.over && !gameState.won && !gameState.guessed.has(ch) && ch !== " ") {
       char.classList.remove("hidden"); char.classList.add("wrong-final"); char.textContent = ch;
     }
     slot.appendChild(char); slot.appendChild(line); wd.appendChild(slot);
@@ -122,7 +241,7 @@ function updateWordDisplay() {
 function updateHangman() {
   BODY_PARTS.forEach((id, i) => {
     const el = document.getElementById(id);
-    el.style.opacity = i < state.wrong.length ? "1" : "0";
+    el.style.opacity = i < gameState.wrong.length ? "1" : "0";
     el.style.transition = "opacity 0.4s ease";
   });
 }
@@ -130,7 +249,7 @@ function updateHangman() {
 function updateWrong() {
   const wl = document.getElementById("wrong-letters");
   wl.innerHTML = "";
-  state.wrong.forEach(ch => {
+  gameState.wrong.forEach(ch => {
     const chip = document.createElement("div"); chip.className = "wrong-chip";
     chip.textContent = ch; wl.appendChild(chip);
   });
@@ -141,11 +260,11 @@ function updateKeys() {
     const k = btn.dataset.key;
     btn.classList.remove("correct","wrong");
     btn.disabled = false;
-    if (state.guessed.has(k)) {
-      btn.classList.add(state.word.includes(k) ? "correct" : "wrong");
+    if (gameState.guessed.has(k)) {
+      btn.classList.add(gameState.word.includes(k) ? "correct" : "wrong");
       btn.disabled = true;
     }
-    if (state.over) btn.disabled = true;
+    if (gameState.over) btn.disabled = true;
   });
 }
 
@@ -154,7 +273,7 @@ function updateLives() {
   lb.innerHTML = "";
   for (let i = 0; i < MAX_WRONG; i++) {
     const h = document.createElement("span");
-    h.className = "heart" + (i < state.wrong.length ? " lost" : "");
+    h.className = "heart" + (i < gameState.wrong.length ? " lost" : "");
     h.textContent = "❤️"; lb.appendChild(h);
   }
 }
@@ -168,25 +287,34 @@ function showEndOverlay() {
   const title = document.createElement("h2"); title.className = "overlay-title";
   const sub = document.createElement("p"); sub.className = "overlay-sub";
   const wordEl = document.createElement("div"); wordEl.className = "overlay-word";
+  
   const btnPrimary = document.createElement("button"); btnPrimary.className = "btn-primary";
   const btnSec = document.createElement("button"); btnSec.className = "btn-secondary";
+  const btnBack = document.createElement("button"); btnBack.className = "btn-secondary";
+  btnBack.style.marginLeft = "var(--space-2)";
 
-  if (state.won) {
+  if (gameState.won) {
     icon.textContent = "🎉"; title.textContent = "Tebrikler!";
-    sub.textContent = `+10 puan kazandın! Toplam: ${state.score}`;
-    wordEl.textContent = state.word; btnPrimary.textContent = "Sıradaki kelime →";
+    sub.textContent = `+10 puan kazandın! Toplam: ${gameState.score}`;
+    wordEl.textContent = gameState.word; btnPrimary.textContent = "Sıradaki kelime →";
     confetti();
   } else {
     icon.textContent = "💀"; title.textContent = "Eyvah, Astın!";
     sub.textContent = "Kelimeyi bilemeden adam asıldı.";
-    wordEl.textContent = "Cevap: " + state.word;
+    wordEl.textContent = "Cevap: " + gameState.word;
     btnPrimary.textContent = "Tekrar Oyna";
   }
   btnSec.textContent = "Skoru Sıfırla";
+  btnBack.textContent = "Ders Seç";
+  
   btnPrimary.addEventListener("click", () => newGame());
-  btnSec.addEventListener("click", () => { state.score = 0; newGame(); });
+  btnSec.addEventListener("click", () => { gameState.score = 0; newGame(); });
+  btnBack.addEventListener("click", () => {
+    document.querySelectorAll(".overlay").forEach(e=>e.remove());
+    showSubjectScreen();
+  });
 
-  card.append(icon,title,sub,wordEl,btnPrimary,btnSec);
+  card.append(icon,title,sub,wordEl,btnPrimary,btnSec,btnBack);
   ov.appendChild(card);
   document.body.appendChild(ov);
 }
@@ -210,8 +338,10 @@ function confetti() {
 
 // ── KEYBOARD PHYSICAL ────────────────────────────────────────────────────────
 document.addEventListener("keydown", e => {
-  const k = e.key.toUpperCase();
-  if (k.length === 1 && /[A-ZÇĞİÖŞÜ]/.test(k)) guess(k);
+  if(document.getElementById('game-screen').classList.contains('active')) {
+    const k = e.key.toUpperCase();
+    if (k.length === 1 && /[A-ZÇĞİÖŞÜ]/.test(k)) guess(k);
+  }
 });
 
 // ── THEME TOGGLE ─────────────────────────────────────────────────────────────
@@ -227,11 +357,5 @@ document.addEventListener("keydown", e => {
   });
 })();
 
-// ── START ────────────────────────────────────────────────────────────────────
-async function init() {
-  buildKeyboard();
-  await loadQuestions();
-  newGame();
-}
-
+// Bismillah
 init();

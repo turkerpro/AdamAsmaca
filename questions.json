@@ -1,34 +1,74 @@
-[
-  {"word":"ISTANBUL","hint":"Türkiye'nin en büyük şehri","category":"Coğrafya"},
-  {"word":"ANKARA","hint":"Türkiye'nin başkenti","category":"Coğrafya"},
-  {"word":"KARADENİZ","hint":"Kuzeyimizdeki deniz","category":"Coğrafya"},
-  {"word":"ATATÜRK","hint":"Türkiye Cumhuriyeti'nin kurucusu","category":"Tarih"},
-  {"word":"OSMANLI","hint":"600 yıllık Türk İmparatorluğu","category":"Tarih"},
-  {"word":"BOGAZICI","hint":"İki kıtayı ayıran su yolu","category":"Coğrafya"},
-  {"word":"YAZILIM","hint":"Bilgisayar programları","category":"Teknoloji"},
-  {"word":"INTERNET","hint":"Küresel ağ sistemi","category":"Teknoloji"},
-  {"word":"YAPAY ZEKA","hint":"Makinelerin öğrenmesi","category":"Teknoloji"},
-  {"word":"FRAMER","hint":"No-code web tasarım aracı","category":"Teknoloji"},
-  {"word":"PYTHON","hint":"Popüler programlama dili","category":"Teknoloji"},
-  {"word":"VERITABANI","hint":"Yapılandırılmış veri deposu","category":"Teknoloji"},
-  {"word":"SARIMSAK","hint":"Yemeğe tat katan bitki","category":"Yemek"},
-  {"word":"BAKLAVA","hint":"Türk tatlısının şahı","category":"Yemek"},
-  {"word":"KEBAP","hint":"Ateşte pişen et yemeği","category":"Yemek"},
-  {"word":"LAHMACUN","hint":"Türk pizzası","category":"Yemek"},
-  {"word":"RAKI","hint":"Türklerin milli içkisi","category":"Yemek"},
-  {"word":"BESIKTAS","hint":"Kartal yuvası, İstanbul kulübü","category":"Spor"},
-  {"word":"GALATASARAY","hint":"Cimbom diye bilinir","category":"Spor"},
-  {"word":"FUTBOL","hint":"En popüler spor","category":"Spor"},
-  {"word":"OLIMPIYAT","hint":"4 yılda bir düzenlenir","category":"Spor"},
-  {"word":"DENIZ","hint":"Tuzlu su kütlesi","category":"Doğa"},
-  {"word":"AGAC","hint":"Ormanın temel yapı taşı","category":"Doğa"},
-  {"word":"BULUT","hint":"Gökyüzündeki beyaz yapı","category":"Doğa"},
-  {"word":"DEPREM","hint":"Yer kabuğunun sarsılması","category":"Doğa"},
-  {"word":"MUZIK","hint":"Sesin sanatsal düzenlemesi","category":"Sanat"},
-  {"word":"RESIM","hint":"Boyayla yaratılan görsel sanat","category":"Sanat"},
-  {"word":"HEYKEL","hint":"3 boyutlu sanat eseri","category":"Sanat"},
-  {"word":"SINEMACI","hint":"Film yapan kişi","category":"Sanat"},
-  {"word":"UNIVERSITE","hint":"Yüksek öğrenim kurumu","category":"Eğitim"},
-  {"word":"MATEMATIK","hint":"Sayıların bilimi","category":"Eğitim"},
-  {"word":"TARIH","hint":"Geçmişin incelenmesi","category":"Eğitim"}
-]
+{
+  "curriculum": [
+    {
+      "grade": 4,
+      "gradeName": "4. Sınıf",
+      "subjects": [
+        {
+          "id": "fen",
+          "name": "Fen Bilimleri",
+          "units": [
+            {
+              "id": "fen_u1",
+              "name": "1. Ünite: Yer Kabuğu ve Dünyamızın Hareketleri",
+              "months": [9, 10],
+              "words": [
+                {"word": "KAYAÇ", "hint": "Yer kabuğunu oluşturan büyük ve sert taş kütleleri"},
+                {"word": "FOSIL", "hint": "Geçmişte yaşamış canlıların taşlaşmış kalıntıları"},
+                {"word": "MADEN", "hint": "Ekonomik değeri olan kayaçlar"}
+              ]
+            },
+            {
+              "id": "fen_u2",
+              "name": "2. Ünite: Besinlerimiz",
+              "months": [10, 11],
+              "words": [
+                {"word": "PROTEIN", "hint": "Vücudumuzda yapıcı ve onarıcı görev yapan besin içeriği"},
+                {"word": "KARBONHIDRAT", "hint": "Vücudumuza enerji veren besin içeriği"},
+                {"word": "VITAMIN", "hint": "Vücudumuzu hastalıklara karşı koruyan besin içeriği"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ingilizce",
+          "name": "İngilizce",
+          "units": [
+            {
+              "id": "ing_u1",
+              "name": "Unit 1: Classroom Rules",
+              "months": [9, 10],
+              "words": [
+                {"word": "PENCIL", "hint": "Yazı yazmak için kullanılan araç"},
+                {"word": "ERASER", "hint": "Yazılanları silmek için kullanılan araç"},
+                {"word": "TEACHER", "hint": "Ders anlatan kişi"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 5,
+      "gradeName": "5. Sınıf",
+      "subjects": [
+        {
+          "id": "sosyal",
+          "name": "Sosyal Bilgiler",
+          "units": [
+            {
+              "id": "sos_u1",
+              "name": "1. Ünite: Birey ve Toplum",
+              "months": [9, 10],
+              "words": [
+                {"word": "KIMLIK", "hint": "Bir kimsenin kim olduğunu gösteren belge"},
+                {"word": "HAK", "hint": "Hukukun kişilere tanıdığı yetki"},
+                {"word": "SORUMLULUK", "hint": "Kişinin üzerine düşen görevleri yerine getirmesi"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
