@@ -1,30 +1,144 @@
 {
   "curriculum": [
     {
+      "grade": 1,
+      "gradeName": "1. Sınıf",
+      "subjects": [
+        {"id": "hayat", "name": "Hayat Bilgisi", "dataFile": "./data/grade_1/hayat.json"},
+        {"id": "turkce", "name": "Türkçe", "dataFile": "./data/grade_1/turkce.json"},
+        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_1/matematik.json"}
+      ]
+    },
+    {
+      "grade": 2,
+      "gradeName": "2. Sınıf",
+      "subjects": [
+        {"id": "hayat", "name": "Hayat Bilgisi", "dataFile": "./data/grade_2/hayat.json"},
+        {"id": "turkce", "name": "Türkçe", "dataFile": "./data/grade_2/turkce.json"},
+        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_2/matematik.json"},
+        {"id": "ingilizce", "name": "İngilizce", "dataFile": "./data/grade_2/ingilizce.json"}
+      ]
+    },
+    {
+      "grade": 3,
+      "gradeName": "3. Sınıf",
+      "subjects": [
+        {"id": "hayat", "name": "Hayat Bilgisi", "dataFile": "./data/grade_3/hayat.json"},
+        {"id": "turkce", "name": "Türkçe", "dataFile": "./data/grade_3/turkce.json"},
+        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_3/matematik.json"},
+        {"id": "fen", "name": "Fen Bilimleri", "dataFile": "./data/grade_3/fen.json"},
+        {"id": "ingilizce", "name": "İngilizce", "dataFile": "./data/grade_3/ingilizce.json"}
+      ]
+    },
+    {
       "grade": 4,
       "gradeName": "4. Sınıf",
       "subjects": [
-        {
-          "id": "fen",
-          "name": "Fen Bilimleri",
-          "dataFile": "./data/grade_4/fen.json"
-        },
-        {
-          "id": "ingilizce",
-          "name": "İngilizce",
-          "dataFile": "./data/grade_4/ingilizce.json"
-        }
+        {"id": "turkce", "name": "Türkçe", "dataFile": "./data/grade_4/turkce.json"},
+        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_4/matematik.json"},
+        {"id": "fen", "name": "Fen Bilimleri", "dataFile": "./data/grade_4/fen.json"},
+        {"id": "sosyal", "name": "Sosyal Bilgiler", "dataFile": "./data/grade_4/sosyal.json"},
+        {"id": "ingilizce", "name": "İngilizce", "dataFile": "./data/grade_4/ingilizce.json"}
       ]
     },
     {
       "grade": 5,
       "gradeName": "5. Sınıf",
       "subjects": [
-        {
-          "id": "sosyal",
-          "name": "Sosyal Bilgiler",
-          "dataFile": "./data/grade_5/sosyal.json"
-        }
+        {"id": "turkce", "name": "Türkçe", "dataFile": "./data/grade_5/turkce.json"},
+        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_5/matematik.json"},
+        {"id": "fen", "name": "Fen Bilimleri", "dataFile": "./data/grade_5/fen.json"},
+        {"id": "sosyal", "name": "Sosyal Bilgiler", "dataFile": "./data/grade_5/sosyal.json"},
+        {"id": "ingilizce", "name": "İngilizce", "dataFile": "./data/grade_5/ingilizce.json"}
+      ]
+    },
+    {
+      "grade": 6,
+      "gradeName": "6. Sınıf",
+      "subjects": [
+        {"id": "turkce", "name": "Türkçe", "dataFile": "./data/grade_6/turkce.json"},
+        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_6/matematik.json"},
+        {"id": "fen", "name": "Fen Bilimleri", "dataFile": "./data/grade_6/fen.json"},
+        {"id": "sosyal", "name": "Sosyal Bilgiler", "dataFile": "./data/grade_6/sosyal.json"},
+        {"id": "ingilizce", "name": "İngilizce", "dataFile": "./data/grade_6/ingilizce.json"}
+      ]
+    },
+    {
+      "grade": 7,
+      "gradeName": "7. Sınıf",
+      "subjects": [
+        {"id": "turkce", "name": "Türkçe", "dataFile": "./data/grade_7/turkce.json"},
+        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_7/matematik.json"},
+        {"id": "fen", "name": "Fen Bilimleri", "dataFile": "./data/grade_7/fen.json"},
+        {"id": "sosyal", "name": "Sosyal Bilgiler", "dataFile": "./data/grade_7/sosyal.json"},
+        {"id": "ingilizce", "name": "İngilizce", "dataFile": "./data/grade_7/ingilizce.json"}
+      ]
+    },
+    {
+      "grade": 8,
+      "gradeName": "8. Sınıf",
+      "subjects": [
+        {"id": "turkce", "name": "Türkçe", "dataFile": "./data/grade_8/turkce.json"},
+        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_8/matematik.json"},
+        {"id": "fen", "name": "Fen Bilimleri", "dataFile": "./data/grade_8/fen.json"},
+        {"id": "inkilap", "name": "T.C. İnkılap Tarihi", "dataFile": "./data/grade_8/inkilap.json"},
+        {"id": "ingilizce", "name": "İngilizce", "dataFile": "./data/grade_8/ingilizce.json"}
+      ]
+    },
+    {
+      "grade": 9,
+      "gradeName": "9. Sınıf",
+      "subjects": [
+        {"id": "edebiyat", "name": "Türk Dili ve Edebiyatı", "dataFile": "./data/grade_9/edebiyat.json"},
+        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_9/matematik.json"},
+        {"id": "fizik", "name": "Fizik", "dataFile": "./data/grade_9/fizik.json"},
+        {"id": "kimya", "name": "Kimya", "dataFile": "./data/grade_9/kimya.json"},
+        {"id": "biyoloji", "name": "Biyoloji", "dataFile": "./data/grade_9/biyoloji.json"},
+        {"id": "tarih", "name": "Tarih", "dataFile": "./data/grade_9/tarih.json"},
+        {"id": "cografya", "name": "Coğrafya", "dataFile": "./data/grade_9/cografya.json"},
+        {"id": "ingilizce", "name": "İngilizce", "dataFile": "./data/grade_9/ingilizce.json"}
+      ]
+    },
+    {
+      "grade": 10,
+      "gradeName": "10. Sınıf",
+      "subjects": [
+        {"id": "edebiyat", "name": "Türk Dili ve Edebiyatı", "dataFile": "./data/grade_10/edebiyat.json"},
+        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_10/matematik.json"},
+        {"id": "fizik", "name": "Fizik", "dataFile": "./data/grade_10/fizik.json"},
+        {"id": "kimya", "name": "Kimya", "dataFile": "./data/grade_10/kimya.json"},
+        {"id": "biyoloji", "name": "Biyoloji", "dataFile": "./data/grade_10/biyoloji.json"},
+        {"id": "tarih", "name": "Tarih", "dataFile": "./data/grade_10/tarih.json"},
+        {"id": "cografya", "name": "Coğrafya", "dataFile": "./data/grade_10/cografya.json"},
+        {"id": "ingilizce", "name": "İngilizce", "dataFile": "./data/grade_10/ingilizce.json"}
+      ]
+    },
+    {
+      "grade": 11,
+      "gradeName": "11. Sınıf",
+      "subjects": [
+        {"id": "edebiyat", "name": "Türk Dili ve Edebiyatı", "dataFile": "./data/grade_11/edebiyat.json"},
+        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_11/matematik.json"},
+        {"id": "fizik", "name": "Fizik", "dataFile": "./data/grade_11/fizik.json"},
+        {"id": "kimya", "name": "Kimya", "dataFile": "./data/grade_11/kimya.json"},
+        {"id": "biyoloji", "name": "Biyoloji", "dataFile": "./data/grade_11/biyoloji.json"},
+        {"id": "tarih", "name": "Tarih", "dataFile": "./data/grade_11/tarih.json"},
+        {"id": "cografya", "name": "Coğrafya", "dataFile": "./data/grade_11/cografya.json"},
+        {"id": "ingilizce", "name": "İngilizce", "dataFile": "./data/grade_11/ingilizce.json"}
+      ]
+    },
+    {
+      "grade": 12,
+      "gradeName": "12. Sınıf",
+      "subjects": [
+        {"id": "edebiyat", "name": "Türk Dili ve Edebiyatı", "dataFile": "./data/grade_12/edebiyat.json"},
+        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_12/matematik.json"},
+        {"id": "fizik", "name": "Fizik", "dataFile": "./data/grade_12/fizik.json"},
+        {"id": "kimya", "name": "Kimya", "dataFile": "./data/grade_12/kimya.json"},
+        {"id": "biyoloji", "name": "Biyoloji", "dataFile": "./data/grade_12/biyoloji.json"},
+        {"id": "inkilap", "name": "T.C. İnkılap Tarihi", "dataFile": "./data/grade_12/inkilap.json"},
+        {"id": "cografya", "name": "Coğrafya", "dataFile": "./data/grade_12/cografya.json"},
+        {"id": "ingilizce", "name": "İngilizce", "dataFile": "./data/grade_12/ingilizce.json"}
       ]
     }
   ]
