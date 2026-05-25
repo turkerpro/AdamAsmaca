@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "matematik_u1",
+      "name": "1. Ünite: Türev",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "TÜREV", "hint": "Bir fonksiyonun değişim hızını veren işlem"},
+        {"word": "LİMİT", "hint": "Bir fonksiyonun belirli noktaya yaklaşma değeri"},
+        {"word": "TEĞET", "hint": "Eğriye tek noktada dokunan doğru"},
+        {"word": "EĞİM", "hint": "Doğrunun x ekseniyle yaptığı açının tanjantı"},
+        {"word": "MAKSİMUM", "hint": "Fonksiyonun en büyük değerine ulaştığı nokta"}
+      ]
+    },
+    {
+      "id": "matematik_u2",
+      "name": "2. Ünite: Logaritma",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "LOGARİTMA", "hint": "Üstel ifadenin tersini bulmaya yarayan işlem"},
+        {"word": "TABAN", "hint": "Logaritmada üs alınan sayı"},
+        {"word": "ÜSTEL", "hint": "Değişkenin üst olarak yer aldığı fonksiyon türü"},
+        {"word": "ANTİLOGARİTMA", "hint": "Logaritmanın tersine verilen ad"},
+        {"word": "DOĞAL LOGARİTMA", "hint": "Tabanı e sayısı olan logaritma türü"}
+      ]
+    }
+  ]
+}

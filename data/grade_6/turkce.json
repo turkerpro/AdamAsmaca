@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "turkce6_u1",
+      "name": "1. Ünite: Söz Sanatları",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "BENZETME", "hint": "Bir şeyi başka bir şeye benzetme sanatı"},
+        {"word": "KİŞİLEŞTİRME", "hint": "İnsan dışı varlıklara insan özelliği verme"},
+        {"word": "ABARTMA", "hint": "Bir durumu olduğundan büyük gösterme sanatı"},
+        {"word": "KONUŞTURMA", "hint": "İnsan dışı varlıkları konuşturma sanatı"},
+        {"word": "MECAZ", "hint": "Sözcüğün gerçek anlamı dışında kullanılması"}
+      ]
+    },
+    {
+      "id": "turkce6_u2",
+      "name": "2. Ünite: Paragraf",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "PARAGRAF", "hint": "Bir düşünceyi anlatan cümleler bütünü"},
+        {"word": "BAŞLIK", "hint": "Yazının konusunu özetleyen kısa ifade"},
+        {"word": "ANAFIKIR", "hint": "Paragrafta verilmek istenen temel düşünce"},
+        {"word": "GİRİŞ", "hint": "Paragrafın konuya başlangıç yapan bölümü"},
+        {"word": "SONUÇ", "hint": "Paragrafın bitirici ve özetleyici bölümü"}
+      ]
+    }
+  ]
+}

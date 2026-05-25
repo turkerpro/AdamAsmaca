@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "cografya_u1",
+      "name": "1. Ünite: Nüfus",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "NÜFUS YOĞUNLUĞU", "hint": "Birim alandaki kişi sayısını gösteren ölçü"},
+        {"word": "SAYIM", "hint": "Ülkedeki toplam nüfusu belirlemek için yapılan işlem"},
+        {"word": "KENTLEŞME", "hint": "Nüfusun kırsal alanlardan şehirlere yoğunlaşması"},
+        {"word": "DOĞURGANLIK", "hint": "Belirli dönemde gerçekleşen doğum oranı"},
+        {"word": "NÜFUS PİRAMİDİ", "hint": "Yaş ve cinsiyet dağılımını gösteren grafik"}
+      ]
+    },
+    {
+      "id": "cografya_u2",
+      "name": "2. Ünite: Göç",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "GÖÇ", "hint": "İnsanların yaşam yerini değiştirmesi olayı"},
+        {"word": "MÜLTECİ", "hint": "Savaş veya zulümden kaçarak başka ülkeye sığınan kişi"},
+        {"word": "GÖÇEBE", "hint": "Sürekli yer değiştirerek yaşayan topluluk"},
+        {"word": "KIRSAL GÖÇ", "hint": "Köylerden şehirlere yapılan nüfus hareketi"},
+        {"word": "BEYİN GÖÇÜ", "hint": "Nitelikli iş gücünün yurt dışına gitmesi"}
+      ]
+    }
+  ]
+}

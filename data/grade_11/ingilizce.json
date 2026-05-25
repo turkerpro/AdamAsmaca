@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "ingilizce_u1",
+      "name": "1. Ünite: Psychology",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "BEHAVIOR", "hint": "Observable actions and reactions of a person"},
+        {"word": "ANXIETY", "hint": "A feeling of worry and nervousness"},
+        {"word": "COGNITION", "hint": "Mental process of acquiring knowledge"},
+        {"word": "EMPATHY", "hint": "Ability to understand another person's feelings"},
+        {"word": "PERCEPTION", "hint": "The way we interpret sensory information"}
+      ]
+    },
+    {
+      "id": "ingilizce_u2",
+      "name": "2. Ünite: Sociology",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "COMMUNITY", "hint": "A group of people living in the same area"},
+        {"word": "DIVERSITY", "hint": "Variety of different cultures and backgrounds"},
+        {"word": "INEQUALITY", "hint": "Unequal distribution of resources in society"},
+        {"word": "PREJUDICE", "hint": "Unfair opinion formed without enough knowledge"},
+        {"word": "GLOBALIZATION", "hint": "Process of worldwide economic and cultural integration"}
+      ]
+    }
+  ]
+}

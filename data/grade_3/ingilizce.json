@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "ingilizce_u1",
+      "name": "1. Ünite: Animals",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "RABBIT", "hint": "Uzun kulaklı ve havuç seven hayvan"},
+        {"word": "ELEPHANT", "hint": "Çok büyük ve hortumlu hayvan"},
+        {"word": "MONKEY", "hint": "Ağaçlara tırmanan ve muz seven hayvan"},
+        {"word": "TURTLE", "hint": "Sırtında kabuğu olan yavaş hayvan"},
+        {"word": "DOLPHIN", "hint": "Denizde yaşayan zeki ve sevimli memeli"}
+      ]
+    },
+    {
+      "id": "ingilizce_u2",
+      "name": "2. Ünite: Colors",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "YELLOW", "hint": "Güneşin ve limonun rengi"},
+        {"word": "PURPLE", "hint": "Mor rengin İngilizcesi"},
+        {"word": "ORANGE", "hint": "Portakalın rengi, turuncu demek"},
+        {"word": "GREEN", "hint": "Yaprakların ve çimenlerin rengi"},
+        {"word": "BROWN", "hint": "Toprağın ve çikolatanın rengi"}
+      ]
+    }
+  ]
+}

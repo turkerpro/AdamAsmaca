@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "fizik_u1",
+      "name": "1. Ünite: Elektrik",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "AKIM", "hint": "Elektrik yüklerinin iletken boyunca hareketi"},
+        {"word": "GERİLİM", "hint": "İki nokta arasındaki elektriksel potansiyel farkı"},
+        {"word": "DİRENÇ", "hint": "İletkenin elektrik akımına gösterdiği zorluk"},
+        {"word": "VOLT", "hint": "Elektriksel gerilimin ölçüm birimi"},
+        {"word": "AMPER", "hint": "Elektrik akım şiddetinin ölçüm birimi"}
+      ]
+    },
+    {
+      "id": "fizik_u2",
+      "name": "2. Ünite: Manyetizma",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "MIKNATIS", "hint": "Demir ve çeliği çekme özelliği olan cisim"},
+        {"word": "MANYETIK ALAN", "hint": "Mıknatısın çevresinde oluşturduğu etki bölgesi"},
+        {"word": "KUTUP", "hint": "Mıknatısın çekme gücünün en fazla olduğu uçlar"},
+        {"word": "İNDÜKSİYON", "hint": "Değişen manyetik alanın elektrik akımı oluşturması"},
+        {"word": "BOBIN", "hint": "Telin silindir şeklinde sarılmasıyla oluşan yapı"}
+      ]
+    }
+  ]
+}

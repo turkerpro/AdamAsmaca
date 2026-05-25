@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "sosyal6_u1",
+      "name": "1. Ünite: Türk Tarihi",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "GÖKTÜRKLER", "hint": "İlk Türk alfabesini kullanan devlet"},
+        {"word": "UYGURLAR", "hint": "Yerleşik hayata geçen ilk Türk devleti"},
+        {"word": "SELÇUKLULAR", "hint": "Anadoluyu Türk yurdu yapan büyük devlet"},
+        {"word": "SULTANLAR", "hint": "Türk İslam devletlerinin hükümdar unvanı"},
+        {"word": "FETRET", "hint": "Osmanlıda taht kavgalarının yaşandığı dönem"}
+      ]
+    },
+    {
+      "id": "sosyal6_u2",
+      "name": "2. Ünite: Demokrasi",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "DEMOKRASİ", "hint": "Halkın kendi kendini yönetme biçimi"},
+        {"word": "SEÇİM", "hint": "Halkın temsilcilerini belirlemesi süreci"},
+        {"word": "MECLİS", "hint": "Milletvekillerinin toplandığı yasama organı"},
+        {"word": "CUMHURBAŞKANI", "hint": "Devletin en üst düzey yöneticisi"},
+        {"word": "OYLAMA", "hint": "Bir konuda oy kullanarak karar verme"}
+      ]
+    }
+  ]
+}

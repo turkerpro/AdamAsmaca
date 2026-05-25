@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "mat_u1",
+      "name": "1. Ünite: Sayılar",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "SAYI", "hint": "Bir miktarı gösteren değer"},
+        {"word": "SIFIR", "hint": "Hiç olmayan, en küçük sayı"},
+        {"word": "BİRLİK", "hint": "Sayıların en küçük basamağı"},
+        {"word": "ONLUK", "hint": "On tane birlikten oluşan basamak"},
+        {"word": "RAKAM", "hint": "Sayıları yazmak için kullanılan işaret"}
+      ]
+    },
+    {
+      "id": "mat_u2",
+      "name": "2. Ünite: Toplama",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "TOPLAM", "hint": "Sayıları birleştirince bulunan sonuç"},
+        {"word": "SONUÇ", "hint": "İşlemin en sonunda bulunan değer"},
+        {"word": "EŞİTTİR", "hint": "İki tarafın aynı olduğunu gösteren işaret"},
+        {"word": "ARTI", "hint": "Toplama işleminde kullanılan işaret"},
+        {"word": "EKSİ", "hint": "Çıkarma işleminde kullanılan işaret"}
+      ]
+    }
+  ]
+}

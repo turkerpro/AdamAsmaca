@@ -2,22 +2,26 @@
   "units": [
     {
       "id": "fen_u1",
-      "name": "1. Ünite: Yer Kabuğu ve Dünyamızın Hareketleri",
-      "months": [9, 10],
+      "name": "1. Ünite: Gezegenler",
+      "months": [9, 10, 11, 12],
       "words": [
-        {"word": "KAYAÇ", "hint": "Yer kabuğunu oluşturan büyük ve sert taş kütleleri"},
-        {"word": "FOSIL", "hint": "Geçmişte yaşamış canlıların taşlaşmış kalıntıları"},
-        {"word": "MADEN", "hint": "Ekonomik değeri olan kayaçlar"}
+        {"word": "MERKÜR", "hint": "Güneşe en yakın olan küçük gezegen"},
+        {"word": "VENÜS", "hint": "Dünyaya en yakın ve en parlak gezegen"},
+        {"word": "JÜPITER", "hint": "Güneş sistemindeki en büyük gezegen"},
+        {"word": "SATÜRN", "hint": "Çevresinde halkaları olan güzel gezegen"},
+        {"word": "MARS", "hint": "Kırmızı gezegen olarak bilinen komşumuz"}
       ]
     },
     {
       "id": "fen_u2",
-      "name": "2. Ünite: Besinlerimiz",
-      "months": [10, 11],
+      "name": "2. Ünite: Kuvvet",
+      "months": [1, 2, 3, 4, 5, 6],
       "words": [
-        {"word": "PROTEIN", "hint": "Vücudumuzda yapıcı ve onarıcı görev yapan besin içeriği"},
-        {"word": "KARBONHIDRAT", "hint": "Vücudumuza enerji veren besin içeriği"},
-        {"word": "VITAMIN", "hint": "Vücudumuzu hastalıklara karşı koruyan besin içeriği"}
+        {"word": "KUVVET", "hint": "Cisimleri iten veya çeken etki"},
+        {"word": "SÜRTÜNME", "hint": "Yüzeylerin birbirine sürtünmesiyle oluşan kuvvet"},
+        {"word": "YERÇEKİMİ", "hint": "Dünyanın cisimleri kendine çekmesi"},
+        {"word": "MIKNATISLANMA", "hint": "Demir cisimleri çekebilme özelliği"},
+        {"word": "HAREKET", "hint": "Bir cismin yer değiştirmesi olayı"}
       ]
     }
   ]

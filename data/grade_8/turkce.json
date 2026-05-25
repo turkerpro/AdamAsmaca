@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "turkce8_u1",
+      "name": "1. Ünite: Cümle Vurgusu",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "VURGU", "hint": "Sözcük veya hecenin baskılı söylenmesi"},
+        {"word": "TONLAMA", "hint": "Sesin alçalıp yükselmesiyle anlam ayrımı"},
+        {"word": "ÖZNE", "hint": "Cümlede eylemi gerçekleştiren öge"},
+        {"word": "YÜKLEM", "hint": "Cümlede oluş kılış veya durum bildiren öge"},
+        {"word": "NESNE", "hint": "Yüklemin bildirdiği işten etkilenen öge"}
+      ]
+    },
+    {
+      "id": "turkce8_u2",
+      "name": "2. Ünite: Yazım Kuralları",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "BÜYÜK HARF", "hint": "Cümle başında ve özel isimlerde kullanılan harf"},
+        {"word": "NOKTALAMA", "hint": "Cümlelerde anlam ayrımı sağlayan işaretler"},
+        {"word": "KESME İŞARETİ", "hint": "Özel isimlere ek getirilirken kullanılan işaret"},
+        {"word": "TIRNAK İŞARETİ", "hint": "Alıntı yapılan sözleri belirten işaret"},
+        {"word": "KISA ÇİZGİ", "hint": "Satır sonunda sözcük bölmede kullanılan işaret"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "biyoloji_u1",
+      "name": "1. Ünite: Kalıtım",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "GEN", "hint": "Kalıtsal özellikleri belirleyen DNA parçası"},
+        {"word": "MUTASYON", "hint": "DNA diziliminde meydana gelen kalıcı değişiklik"},
+        {"word": "GENOTİP", "hint": "Canlının genetik yapısını ifade eden kavram"},
+        {"word": "FENOTİP", "hint": "Canlının dış görünüşünü ifade eden kavram"},
+        {"word": "ALLELİ", "hint": "Aynı genin farklı formlarına verilen ad"}
+      ]
+    },
+    {
+      "id": "biyoloji_u2",
+      "name": "2. Ünite: Evrim",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "ADAPTASYON", "hint": "Canlının çevresine uyum sağlama süreci"},
+        {"word": "DOĞAL SEÇİLİM", "hint": "Ortama uyum sağlayan bireylerin hayatta kalması"},
+        {"word": "FOSİL", "hint": "Geçmişte yaşamış canlıların taşlaşmış kalıntısı"},
+        {"word": "TÜRLEŞME", "hint": "Yeni biyolojik türlerin ortaya çıkma süreci"},
+        {"word": "VARYASYON", "hint": "Aynı türdeki bireyler arasındaki kalıtsal farklılıklar"}
+      ]
+    }
+  ]
+}

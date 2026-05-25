@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "kimya_u1",
+      "name": "1. Ünite: Gazlar",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "BASINÇ", "hint": "Birim alana uygulanan kuvvet miktarı"},
+        {"word": "İDEAL GAZ", "hint": "Moleküller arası etkileşimi olmayan varsayılan gaz"},
+        {"word": "DİFÜZYON", "hint": "Gaz moleküllerinin yayılma hareketi"},
+        {"word": "AVOGADRO", "hint": "Eşit koşullarda gazların eşit hacim kapladığını bulan bilgin"},
+        {"word": "MOL HACİM", "hint": "Normal koşullarda bir mol gazın kapladığı hacim"}
+      ]
+    },
+    {
+      "id": "kimya_u2",
+      "name": "2. Ünite: Çözeltiler",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "ÇÖZELTİ", "hint": "Çözücü ve çözünenin homojen karışımı"},
+        {"word": "MOLAR", "hint": "Bir litre çözeltideki çözünen mol sayısı birimi"},
+        {"word": "DOYGUN", "hint": "Daha fazla madde çözemeyen çözelti türü"},
+        {"word": "ÇÖZÜNÜRLÜK", "hint": "Belirli sıcaklıkta çözünebilecek maksimum madde miktarı"},
+        {"word": "KOLİGATİF", "hint": "Çözünen tanecik sayısına bağlı özellikler"}
+      ]
+    }
+  ]
+}

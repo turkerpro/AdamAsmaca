@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "matematik5_u1",
+      "name": "1. Ünite: Doğal Sayılar",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "TOPLAMA", "hint": "İki veya daha fazla sayıyı birleştirme işlemi"},
+        {"word": "ÇARPMA", "hint": "Tekrarlı toplama işleminin kısa yolu"},
+        {"word": "BÖLME", "hint": "Bir sayıyı eşit gruplara ayırma işlemi"},
+        {"word": "ÇIKARTMA", "hint": "Bir sayıdan diğerini eksiltme işlemi"},
+        {"word": "BASAMAK", "hint": "Sayıdaki rakamların bulunduğu konum"}
+      ]
+    },
+    {
+      "id": "matematik5_u2",
+      "name": "2. Ünite: Geometrik Cisimler",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "PRİZMA", "hint": "Tabanları çokgen olan geometrik cisim"},
+        {"word": "PİRAMİT", "hint": "Sivri tepesi olan çok yüzlü cisim"},
+        {"word": "SİLİNDİR", "hint": "İki daire tabanı olan yuvarlak cisim"},
+        {"word": "KÜRE", "hint": "Her noktası merkeze eşit uzaklıkta olan cisim"},
+        {"word": "KONİ", "hint": "Bir daire tabanı ve sivri tepesi olan cisim"}
+      ]
+    }
+  ]
+}

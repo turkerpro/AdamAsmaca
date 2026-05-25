@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "sosyal7_u1",
+      "name": "1. Ünite: Osmanlı Devleti",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "PADİŞAH", "hint": "Osmanlı Devletinin en üst yöneticisi"},
+        {"word": "SADRAZAM", "hint": "Padişahtan sonra gelen en yetkili devlet adamı"},
+        {"word": "YENIÇERI", "hint": "Osmanlı ordusunun en seçkin piyade birliği"},
+        {"word": "TIMAR", "hint": "Osmanlıda askerlere verilen toprak sistemi"},
+        {"word": "DİVAN", "hint": "Osmanlıda devlet işlerinin görüşüldüğü kurul"}
+      ]
+    },
+    {
+      "id": "sosyal7_u2",
+      "name": "2. Ünite: İletişim ve Medya",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "İLETİŞİM", "hint": "İnsanlar arasında duygu ve düşünce aktarımı"},
+        {"word": "MEDYA", "hint": "Kitle iletişim araçlarının genel adı"},
+        {"word": "HABER", "hint": "Güncel olayların aktarıldığı bilgi içeriği"},
+        {"word": "PROPAGANDA", "hint": "Bir düşünceyi yaymak için yapılan etkileme çalışması"},
+        {"word": "KAYNAK", "hint": "Bilginin çıkış noktası veya ilk üreticisi"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "hayat_u1",
+      "name": "1. Ünite: Okulumuz",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "OKUL", "hint": "Her gün gidip ders gördüğümüz yer"},
+        {"word": "SINIF", "hint": "Okulda ders yaptığımız oda"},
+        {"word": "ÖĞRETMEN", "hint": "Bize ders anlatan kişi"},
+        {"word": "ARKADAŞ", "hint": "Okulda birlikte oynadığımız kişi"},
+        {"word": "BAHÇE", "hint": "Okulda teneffüste oynadığımız alan"}
+      ]
+    },
+    {
+      "id": "hayat_u2",
+      "name": "2. Ünite: Ailemiz",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "ANNE", "hint": "Bizi doğuran ve büyüten kadın"},
+        {"word": "BABA", "hint": "Ailedeki erkek büyüğümüz"},
+        {"word": "KARDEŞ", "hint": "Annemizin diğer çocuğu"},
+        {"word": "AİLE", "hint": "Anne baba ve çocuklardan oluşan topluluk"},
+        {"word": "BÜYÜKANNE", "hint": "Annemizin veya babamızın annesi"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "ingilizce7_u1",
+      "name": "1. Ünite: Travel",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "PASSPORT", "hint": "Yurt dışı seyahat için gerekli kimlik belgesi"},
+        {"word": "LUGGAGE", "hint": "Seyahatte taşınan bavul ve çantalar"},
+        {"word": "BOARDING", "hint": "Uçağa veya gemiye biniş işlemi"},
+        {"word": "DESTINATION", "hint": "Yolculuğun son varış noktası"},
+        {"word": "JOURNEY", "hint": "Bir yerden başka bir yere yapılan yolculuk"}
+      ]
+    },
+    {
+      "id": "ingilizce7_u2",
+      "name": "2. Ünite: Environment",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "POLLUTION", "hint": "Çevreyi kirleten zararlı maddelerin yayılması"},
+        {"word": "RECYCLE", "hint": "Atıkları yeniden kullanılabilir hale getirme"},
+        {"word": "CLIMATE", "hint": "Bir bölgenin uzun süreli hava koşulları"},
+        {"word": "ENDANGERED", "hint": "Nesli tükenme tehlikesi altında olan"},
+        {"word": "HABITAT", "hint": "Canlıların doğal yaşam alanı"}
+      ]
+    }
+  ]
+}

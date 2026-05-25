@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "hayat_u1",
+      "name": "1. Ünite: Sağlığımız",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "BESLENME", "hint": "Vücudumuzu sağlıklı tutmak için yemek yeme"},
+        {"word": "HİJYEN", "hint": "Temizlik kurallarına uyma ve mikroplardan korunma"},
+        {"word": "VİTAMİN", "hint": "Meyve ve sebzelerde bulunan yararlı maddeler"},
+        {"word": "EGZERSIZ", "hint": "Vücudu güçlendirmek için yapılan hareketler"},
+        {"word": "UYKU", "hint": "Vücudun dinlenmesi için gerekli olan dinlenme"}
+      ]
+    },
+    {
+      "id": "hayat_u2",
+      "name": "2. Ünite: Doğal Afetler",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "DEPREM", "hint": "Yer kabuğunun sarsılmasıyla oluşan doğa olayı"},
+        {"word": "SEL", "hint": "Aşırı yağmurla suların taşması olayı"},
+        {"word": "HEYELAN", "hint": "Toprağın kayarak aşağı doğru akması"},
+        {"word": "YANGIN", "hint": "Kontrolsüz ateşin yayılarak zarar vermesi"},
+        {"word": "ÇIĞIN", "hint": "Dağlardan aşağı kayan büyük kar kütlesi"}
+      ]
+    }
+  ]
+}

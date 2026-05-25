@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "ingilizce_u1",
+      "name": "1. Ünite: Science",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "HYPOTHESIS", "hint": "A proposed explanation tested by experiments"},
+        {"word": "EXPERIMENT", "hint": "A scientific test to discover something new"},
+        {"word": "MOLECULE", "hint": "The smallest unit of a chemical compound"},
+        {"word": "EVOLUTION", "hint": "Gradual change in species over generations"},
+        {"word": "RESEARCH", "hint": "Systematic investigation to establish facts"}
+      ]
+    },
+    {
+      "id": "ingilizce_u2",
+      "name": "2. Ünite: Medicine",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "DIAGNOSIS", "hint": "Identifying a disease based on symptoms"},
+        {"word": "SYMPTOM", "hint": "A sign indicating the presence of illness"},
+        {"word": "PRESCRIPTION", "hint": "A doctor's written order for medicine"},
+        {"word": "VACCINE", "hint": "Substance that provides immunity against disease"},
+        {"word": "SURGERY", "hint": "Medical treatment involving physical operation"}
+      ]
+    }
+  ]
+}

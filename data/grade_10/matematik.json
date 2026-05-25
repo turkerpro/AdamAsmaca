@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "matematik_u1",
+      "name": "1. Ünite: Polinomlar",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "POLİNOM", "hint": "Değişken ve katsayılardan oluşan cebirsel ifade"},
+        {"word": "DERECE", "hint": "Polinomdaki en yüksek üslü terimin kuvveti"},
+        {"word": "KATSAYI", "hint": "Değişkenin önündeki sayısal çarpan"},
+        {"word": "KÖK", "hint": "Polinomu sıfır yapan değişken değeri"},
+        {"word": "BÖLME", "hint": "Bir polinomu başka bir polinomla işleme sokma"}
+      ]
+    },
+    {
+      "id": "matematik_u2",
+      "name": "2. Ünite: Trigonometri",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "SİNÜS", "hint": "Dik üçgende karşı kenarın hipotenüse oranı"},
+        {"word": "KOSİNÜS", "hint": "Dik üçgende komşu kenarın hipotenüse oranı"},
+        {"word": "TANJANT", "hint": "Sinüsün kosinüse bölümüyle elde edilen oran"},
+        {"word": "HİPOTENÜS", "hint": "Dik üçgenin dik açının karşısındaki en uzun kenarı"},
+        {"word": "RADYAN", "hint": "Açı ölçüsünde derece yerine kullanılan birim"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "mat_u1",
+      "name": "1. Ünite: Çarpma",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "ÇARPIM", "hint": "İki sayının çarpılmasıyla bulunan sonuç"},
+        {"word": "ÇARPAN", "hint": "Çarpma işlemindeki sayılardan biri"},
+        {"word": "ÇARPI", "hint": "Çarpma işleminde kullanılan işaret"},
+        {"word": "KAT", "hint": "Bir sayının kaç kere tekrarlandığı"},
+        {"word": "TABLO", "hint": "Çarpma sonuçlarının gösterildiği çizelge"}
+      ]
+    },
+    {
+      "id": "mat_u2",
+      "name": "2. Ünite: Bölme",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "BÖLME", "hint": "Bir sayıyı eşit parçalara ayırma işlemi"},
+        {"word": "BÖLÜM", "hint": "Bölme işleminin sonucu"},
+        {"word": "KALAN", "hint": "Bölme işleminde artan kısım"},
+        {"word": "PAYLAŞMA", "hint": "Eşit şekilde dağıtma işlemi"},
+        {"word": "YARIM", "hint": "Bir bütünün ikiye bölünmüş parçası"}
+      ]
+    }
+  ]
+}

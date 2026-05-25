@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "fizik_u1",
+      "name": "1. Ünite: Dalga Mekaniği",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "DALGA BOYU", "hint": "İki ardışık tepe noktası arasındaki uzaklık"},
+        {"word": "FREKANS", "hint": "Birim zamandaki titreşim sayısı"},
+        {"word": "GENLİK", "hint": "Dalganın denge noktasından en uzak konumu"},
+        {"word": "REZONANS", "hint": "Titreşim frekanslarının eşitlendiği durum"},
+        {"word": "KIRINIM", "hint": "Dalganın engel arkasına dolanması olayı"}
+      ]
+    },
+    {
+      "id": "fizik_u2",
+      "name": "2. Ünite: Optik",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "YANSIMA", "hint": "Işığın bir yüzeyden geri dönmesi olayı"},
+        {"word": "KIRILMA", "hint": "Işığın farklı ortama geçerken yön değiştirmesi"},
+        {"word": "MERCEK", "hint": "Işığı kırarak odaklayan saydam optik araç"},
+        {"word": "PRİZMA", "hint": "Beyaz ışığı renklerine ayıran optik araç"},
+        {"word": "ODAK NOKTASI", "hint": "Paralel ışınların mercekte toplandığı nokta"}
+      ]
+    }
+  ]
+}

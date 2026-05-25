@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "turkce5_u1",
+      "name": "1. Ünite: Fiiller",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "FİİL", "hint": "Hareket, oluş veya durum bildiren sözcük"},
+        {"word": "EYLEM", "hint": "Fiil sözcüğünün eş anlamlısı"},
+        {"word": "MASTAR", "hint": "Fiilin -mek, -mak ekli temel hâli"},
+        {"word": "KÖKLER", "hint": "Sözcüğün anlamlı en küçük parçaları"},
+        {"word": "ZAMAN", "hint": "Fiilin geçmiş, şimdiki veya gelecek olması"}
+      ]
+    },
+    {
+      "id": "turkce5_u2",
+      "name": "2. Ünite: İsimler",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "SÖZCÜK", "hint": "Anlamlı ses birliği, kelime demektir"},
+        {"word": "SIFAT", "hint": "İsimleri niteleyen veya belirten sözcük"},
+        {"word": "ÖZNE", "hint": "Cümlede eylemi gerçekleştiren öge"},
+        {"word": "TÜMCE", "hint": "Duygu veya düşünce bildiren söz dizisi"},
+        {"word": "YÜKLEM", "hint": "Cümlenin temel ögesi, eylemi bildirir"}
+      ]
+    }
+  ]
+}

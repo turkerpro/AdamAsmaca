@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "matematik7_u1",
+      "name": "1. Ünite: Cebir",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "DEĞİŞKEN", "hint": "Farklı değerler alabilen harfle gösterilen büyüklük"},
+        {"word": "KATSAYI", "hint": "Değişkenin önündeki sayısal çarpan"},
+        {"word": "CEBİRSEL İFADE", "hint": "Sayılar ve değişkenlerle oluşturulan matematiksel ifade"},
+        {"word": "POLİNOM", "hint": "Birden fazla terimden oluşan cebirsel ifade"},
+        {"word": "SABIT TERİM", "hint": "Değişken içermeyen sayısal terim"}
+      ]
+    },
+    {
+      "id": "matematik7_u2",
+      "name": "2. Ünite: Denklemler",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "DENKLEM", "hint": "Eşittir işareti içeren cebirsel ifade"},
+        {"word": "BİLİNMEYEN", "hint": "Denklemde değeri aranan değişken"},
+        {"word": "EŞİTLİK", "hint": "İki ifadenin birbirine eşit olması durumu"},
+        {"word": "ÇÖZÜM KÜMESİ", "hint": "Denklemi sağlayan değerlerin oluşturduğu küme"},
+        {"word": "DOĞRUSAL", "hint": "Birinci dereceden olan denklem türü"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "ingilizce5_u1",
+      "name": "1. Ünite: Daily Routines",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "BREAKFAST", "hint": "Günün ilk öğünü, sabah yemeği"},
+        {"word": "SHOWER", "hint": "Her gün yapılan temizlik, duş almak"},
+        {"word": "HOMEWORK", "hint": "Okuldan sonra yapılan ev ödevi"},
+        {"word": "SCHEDULE", "hint": "Günlük yapılacaklar listesi, program"},
+        {"word": "ROUTINE", "hint": "Her gün tekrarlanan alışkanlıklar dizisi"}
+      ]
+    },
+    {
+      "id": "ingilizce5_u2",
+      "name": "2. Ünite: Hobbies",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "PAINTING", "hint": "Boya ve fırça ile resim yapma hobisi"},
+        {"word": "CYCLING", "hint": "Bisiklet sürme etkinliği"},
+        {"word": "READING", "hint": "Kitap veya dergi okuma hobisi"},
+        {"word": "FISHING", "hint": "Olta ile balık tutma etkinliği"},
+        {"word": "CAMPING", "hint": "Doğada çadır kurarak vakit geçirme"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "ingilizce6_u1",
+      "name": "1. Ünite: Weather",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "CLOUDY", "hint": "Gökyüzünün bulutlarla kaplı olması"},
+        {"word": "SNOWY", "hint": "Kar yağışının olduğu hava durumu"},
+        {"word": "STORMY", "hint": "Fırtınalı ve şiddetli hava durumu"},
+        {"word": "FOGGY", "hint": "Sisli ve görüşün düşük olduğu hava"},
+        {"word": "TEMPERATURE", "hint": "Havanın sıcaklık derecesi, ısı ölçüsü"}
+      ]
+    },
+    {
+      "id": "ingilizce6_u2",
+      "name": "2. Ünite: Sports",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "BASKETBALL", "hint": "Potaya top atılan takım sporu"},
+        {"word": "SWIMMING", "hint": "Suda yapılan bireysel spor dalı"},
+        {"word": "VOLLEYBALL", "hint": "File üzerinden top geçirilen takım sporu"},
+        {"word": "WRESTLING", "hint": "Türklerin geleneksel güreş sporu"},
+        {"word": "ATHLETICS", "hint": "Koşu, atlama ve atma dallarını içeren spor"}
+      ]
+    }
+  ]
+}

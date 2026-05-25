@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "kimya_u1",
+      "name": "1. Ünite: Organik Kimya",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "HİDROKARBON", "hint": "Yalnızca karbon ve hidrojenden oluşan bileşik"},
+        {"word": "ALKAN", "hint": "Tekli bağ içeren doymuş hidrokarbon serisi"},
+        {"word": "ALKEN", "hint": "Çift bağ içeren doymamış hidrokarbon grubu"},
+        {"word": "İZOMER", "hint": "Aynı formüle sahip farklı yapıdaki bileşikler"},
+        {"word": "ESTER", "hint": "Asit ve alkolün tepkimesiyle oluşan hoş kokulu bileşik"}
+      ]
+    },
+    {
+      "id": "kimya_u2",
+      "name": "2. Ünite: Enerji",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "ENTALPİ", "hint": "Sistemin sabit basınçtaki ısı değişimi"},
+        {"word": "ENTROPİ", "hint": "Sistemdeki düzensizliğin ölçüsü"},
+        {"word": "EKZOTERMİK", "hint": "Dışarıya ısı veren kimyasal tepkime türü"},
+        {"word": "ENDOTERMİK", "hint": "Dışarıdan ısı alan kimyasal tepkime türü"},
+        {"word": "KATALİZÖR", "hint": "Tepkimeyi hızlandıran ama değişmeden kalan madde"}
+      ]
+    }
+  ]
+}

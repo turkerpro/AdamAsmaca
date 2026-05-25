@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "edebiyat_u1",
+      "name": "1. Ünite: Şiir Türleri",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "GAZEL", "hint": "Divan şiirinde aşk ve güzellik konulu nazım biçimi"},
+        {"word": "KASIDE", "hint": "Övgü amacıyla yazılan uzun divan şiiri türü"},
+        {"word": "MESNEVI", "hint": "Her beyti kendi içinde kafiyeli uzun şiir türü"},
+        {"word": "RUBAI", "hint": "Dört mısradan oluşan felsefi içerikli şiir türü"},
+        {"word": "MÜNACAT", "hint": "Allah'a yakarış ve dua içeren şiir türü"}
+      ]
+    },
+    {
+      "id": "edebiyat_u2",
+      "name": "2. Ünite: Edebi Akımlar",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "KLASİSİZM", "hint": "Akıl ve kuralları ön plana çıkaran edebi akım"},
+        {"word": "ROMANTİZM", "hint": "Duygu ve hayal gücünü öne çıkaran edebi akım"},
+        {"word": "REALİZM", "hint": "Gerçekliği olduğu gibi yansıtmayı amaçlayan akım"},
+        {"word": "NATÜRALİZM", "hint": "Realizmi bilimsel yöntemlerle destekleyen edebi akım"},
+        {"word": "SÜRREALİZM", "hint": "Bilinçaltı ve rüyaları esas alan sanat akımı"}
+      ]
+    }
+  ]
+}

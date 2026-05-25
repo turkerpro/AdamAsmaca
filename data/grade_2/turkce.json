@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "turkce_u1",
+      "name": "1. Ünite: Okuma",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "KİTAP", "hint": "Sayfaları olan ve okuduğumuz eser"},
+        {"word": "HİKÂYE", "hint": "Olayları anlatan kısa yazı türü"},
+        {"word": "MASAL", "hint": "Hayali kahramanları olan eğlenceli anlatı"},
+        {"word": "SAYFA", "hint": "Kitabın her bir yaprağı"},
+        {"word": "BAŞLIK", "hint": "Yazının en üstündeki isim"}
+      ]
+    },
+    {
+      "id": "turkce_u2",
+      "name": "2. Ünite: Yazma",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "KALEM", "hint": "Yazı yazmak için kullandığımız araç"},
+        {"word": "DEFTER", "hint": "İçine yazı yazdığımız çizgili kitapçık"},
+        {"word": "PARAGRAF", "hint": "Cümlelerin oluşturduğu yazı bölümü"},
+        {"word": "VİRGÜL", "hint": "Cümlede durak işareti olarak kullanılır"},
+        {"word": "YAZIM", "hint": "Kelimeleri doğru şekilde yazma kuralı"}
+      ]
+    }
+  ]
+}

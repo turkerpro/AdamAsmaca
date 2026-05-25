@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "tarih_u1",
+      "name": "1. Ünite: Birinci Dünya Savaşı",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "İTİLAF", "hint": "İngiltere, Fransa ve Rusya'nın oluşturduğu blok"},
+        {"word": "İTTİFAK", "hint": "Almanya ve Osmanlı'nın yer aldığı savaş bloğu"},
+        {"word": "ÇANAKKALE", "hint": "Osmanlı'nın büyük zafer kazandığı cephe"},
+        {"word": "SUVEYŞ", "hint": "Osmanlı'nın Mısır'a açtığı kanal cephesi"},
+        {"word": "MÜTAREKENİN", "hint": "Savaşın sona ermesini sağlayan ateşkes anlaşması türü"}
+      ]
+    },
+    {
+      "id": "tarih_u2",
+      "name": "2. Ünite: Mondros Mütarekesi ve Sonrası",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "MONDROS", "hint": "Osmanlı'nın imzaladığı ağır ateşkes antlaşması"},
+        {"word": "İŞGAL", "hint": "Bir ülke topraklarının yabancı güçlerce ele geçirilmesi"},
+        {"word": "KUVAYIMILLIYE", "hint": "Halkın düşmana karşı kurduğu direniş güçleri"},
+        {"word": "MÜDAFAA", "hint": "İşgale karşı kurulan savunma amaçlı cemiyetler"},
+        {"word": "WİLSON", "hint": "On dört ilkeyi açıklayan ABD başkanı"}
+      ]
+    }
+  ]
+}

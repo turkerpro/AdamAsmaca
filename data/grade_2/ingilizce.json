@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "ing_u1",
+      "name": "1. Ünite: Greetings",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "HELLO", "hint": "İngilizce merhaba anlamına gelir"},
+        {"word": "GOODBYE", "hint": "İngilizce hoşça kal demektir"},
+        {"word": "FRIEND", "hint": "İngilizce arkadaş anlamına gelir"},
+        {"word": "PLEASE", "hint": "İngilizce lütfen anlamına gelir"},
+        {"word": "THANKS", "hint": "İngilizce teşekkürler demektir"}
+      ]
+    },
+    {
+      "id": "ing_u2",
+      "name": "2. Ünite: Numbers",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "THREE", "hint": "İngilizce üç sayısının yazılışı"},
+        {"word": "SEVEN", "hint": "İngilizce yedi sayısının yazılışı"},
+        {"word": "EIGHT", "hint": "İngilizce sekiz sayısının yazılışı"},
+        {"word": "COUNT", "hint": "İngilizce saymak anlamına gelir"},
+        {"word": "NUMBER", "hint": "İngilizce sayı anlamına gelir"}
+      ]
+    }
+  ]
+}

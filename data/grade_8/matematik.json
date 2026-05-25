@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "matematik8_u1",
+      "name": "1. Ünite: Üslü İfadeler",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "ÜSLÜ SAYI", "hint": "Bir sayının kendisiyle çarpımını gösteren ifade"},
+        {"word": "TABAN", "hint": "Üslü ifadede tekrar çarpılan sayı"},
+        {"word": "KUVVET", "hint": "Üslü ifadenin diğer adıdır"},
+        {"word": "ÜSTEL", "hint": "Üs ile ilgili olan büyüme veya fonksiyon türü"},
+        {"word": "KARE KÖK", "hint": "Bir sayının ikinci dereceden kökü"}
+      ]
+    },
+    {
+      "id": "matematik8_u2",
+      "name": "2. Ünite: Olasılık",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "OLASILIK", "hint": "Bir olayın gerçekleşme şansının sayısal değeri"},
+        {"word": "DENEY", "hint": "Sonucu önceden bilinmeyen olasılık etkinliği"},
+        {"word": "ÖRNEKLEM", "hint": "Bir deneyden çıkabilecek tüm sonuçların kümesi"},
+        {"word": "KESİN OLAY", "hint": "Her durumda gerçekleşen olasılığı bir olan olay"},
+        {"word": "İMKANSIZ OLAY", "hint": "Hiçbir durumda gerçekleşmeyen olasılığı sıfır olay"}
+      ]
+    }
+  ]
+}

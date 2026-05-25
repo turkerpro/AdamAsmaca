@@ -1,13 +1,27 @@
 {
   "units": [
     {
-      "id": "ing_u1",
-      "name": "Unit 1: Classroom Rules",
-      "months": [9, 10],
+      "id": "ingilizce_u1",
+      "name": "1. Ünite: Family",
+      "months": [9, 10, 11, 12],
       "words": [
-        {"word": "PENCIL", "hint": "Yazı yazmak için kullanılan araç"},
-        {"word": "ERASER", "hint": "Yazılanları silmek için kullanılan araç"},
-        {"word": "TEACHER", "hint": "Ders anlatan kişi"}
+        {"word": "MOTHER", "hint": "Annenin İngilizcesi"},
+        {"word": "FATHER", "hint": "Babanın İngilizcesi"},
+        {"word": "SISTER", "hint": "Kız kardeşin İngilizcesi"},
+        {"word": "BROTHER", "hint": "Erkek kardeşin İngilizcesi"},
+        {"word": "GRANDMA", "hint": "Büyükannenin İngilizcesi"}
+      ]
+    },
+    {
+      "id": "ingilizce_u2",
+      "name": "2. Ünite: Food",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "CHEESE", "hint": "Peynirin İngilizcesi, sütten yapılır"},
+        {"word": "CHICKEN", "hint": "Tavuğun İngilizcesi, eti çok sevilir"},
+        {"word": "BREAD", "hint": "Ekmeğin İngilizcesi, her yemekte bulunur"},
+        {"word": "TOMATO", "hint": "Domatesin İngilizcesi, kırmızı sebze"},
+        {"word": "BUTTER", "hint": "Tereyağının İngilizcesi, ekmeğe sürülür"}
       ]
     }
   ]

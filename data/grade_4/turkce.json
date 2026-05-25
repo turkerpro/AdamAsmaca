@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "turkce_u1",
+      "name": "1. Ünite: Sözcük Türleri",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "İSİM", "hint": "Varlıklara ve kavramlara verilen adlar"},
+        {"word": "SIFAT", "hint": "İsimlerin özelliklerini bildiren sözcük türü"},
+        {"word": "FİİL", "hint": "Hareketleri ve oluşları anlatan sözcük türü"},
+        {"word": "ZAMIR", "hint": "İsimlerin yerine kullanılan sözcükler"},
+        {"word": "EDAT", "hint": "Sözcükler arasında ilgi kuran kelime türü"}
+      ]
+    },
+    {
+      "id": "turkce_u2",
+      "name": "2. Ünite: Cümle Bilgisi",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "ÖZNE", "hint": "Cümlede işi yapan varlığı gösteren öge"},
+        {"word": "YÜKLEM", "hint": "Cümlede yapılan işi bildiren temel öge"},
+        {"word": "TÜMLEÇ", "hint": "Yüklemi zaman, yer gibi yönlerden tamamlayan öge"},
+        {"word": "NESNE", "hint": "Cümlede işten etkilenen varlığı gösteren öge"},
+        {"word": "SORU", "hint": "Yanıt bekleyen ve soru işareti ile biten cümle"}
+      ]
+    }
+  ]
+}

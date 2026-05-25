@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "fen8_u1",
+      "name": "1. Ünite: DNA ve Genetik",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "KROMOZOM", "hint": "DNA ipliğinin yoğunlaşarak oluşturduğu yapı"},
+        {"word": "GEN", "hint": "Kalıtsal özellikleri belirleyen DNA parçası"},
+        {"word": "MUTASYON", "hint": "DNA diziliminde meydana gelen kalıcı değişiklik"},
+        {"word": "KALITIM", "hint": "Özelliklerin ebeveynlerden yavruya aktarılması"},
+        {"word": "NÜKLEOTİT", "hint": "DNA zincirinin temel yapı taşı birimi"}
+      ]
+    },
+    {
+      "id": "fen8_u2",
+      "name": "2. Ünite: Basınç",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "BASINÇ", "hint": "Birim yüzeye dik olarak uygulanan kuvvet"},
+        {"word": "PASCAL", "hint": "Basıncın uluslararası birim sistemindeki birimi"},
+        {"word": "GAZ BASINCI", "hint": "Gaz moleküllerinin kap çeperine uyguladığı kuvvet"},
+        {"word": "ATMOSFER", "hint": "Hava kütlesinin yeryüzüne uyguladığı basınç birimi"},
+        {"word": "KALDIRMA KUVVETİ", "hint": "Sıvının cisme yukarı yönde uyguladığı kuvvet"}
+      ]
+    }
+  ]
+}

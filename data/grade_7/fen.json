@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "fen7_u1",
+      "name": "1. Ünite: Atom",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "PROTON", "hint": "Atom çekirdeğinde bulunan artı yüklü parçacık"},
+        {"word": "NÖTRON", "hint": "Atom çekirdeğinde bulunan yüksüz parçacık"},
+        {"word": "ELEKTRON", "hint": "Atom çekirdeği etrafında dönen eksi yüklü parçacık"},
+        {"word": "ÇEKİRDEK", "hint": "Atomun merkezinde bulunan yoğun bölge"},
+        {"word": "KATMAN", "hint": "Elektronların çekirdek etrafında dizildiği enerji seviyesi"}
+      ]
+    },
+    {
+      "id": "fen7_u2",
+      "name": "2. Ünite: Elektrik",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "AKIM", "hint": "Elektrik yüklerinin iletken boyunca hareketi"},
+        {"word": "GERİLİM", "hint": "İki nokta arasındaki elektriksel potansiyel farkı"},
+        {"word": "DİRENÇ", "hint": "Akıma karşı gösterilen zorluk birimi ohm"},
+        {"word": "DEVRE", "hint": "Elektrik akımının izlediği kapalı yol"},
+        {"word": "İLETKEN", "hint": "Elektrik akımını kolayca geçiren madde türü"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "edebiyat_u1",
+      "name": "1. Ünite: Tanzimat Dönemi Edebiyatı",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "TANZİMAT", "hint": "Osmanlı'da Batılılaşma hareketinin başladığı dönem"},
+        {"word": "ŞINASI", "hint": "İlk Türk tiyatro eserini yazan sanatçı"},
+        {"word": "MAKALELER", "hint": "Şinasi'nin gazetecilik alanında öncü olduğu yazı türü"},
+        {"word": "NAMİK KEMAL", "hint": "Vatan yahut Silistre oyununu yazan yazar"},
+        {"word": "ZİYA PAŞA", "hint": "Terkib-i Bent ile tanınan Tanzimat şairi"}
+      ]
+    },
+    {
+      "id": "edebiyat_u2",
+      "name": "2. Ünite: Servetifünun Edebiyatı",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "SERVETİFÜNUN", "hint": "Edebiyat-ı Cedide olarak da bilinen edebi dönem"},
+        {"word": "TEVFİK FİKRET", "hint": "Servetifünun'un en önemli şairi"},
+        {"word": "MAİ VE SİYAH", "hint": "Halit Ziya'nın ünlü romanı"},
+        {"word": "HALİT ZİYA", "hint": "Türk romanını Batılı teknikle yazan ilk romancı"},
+        {"word": "SONE", "hint": "Servetifünun şairlerinin sıkça kullandığı nazım biçimi"}
+      ]
+    }
+  ]
+}

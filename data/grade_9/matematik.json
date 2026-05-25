@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "matematik_u1",
+      "name": "1. Ünite: Kümeler",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "ALTKÜME", "hint": "Bir kümenin elemanlarından oluşan daha küçük küme"},
+        {"word": "KESİŞİM", "hint": "İki kümenin ortak elemanlarından oluşan küme"},
+        {"word": "BİRLEŞİM", "hint": "İki kümenin tüm elemanlarını içeren küme"},
+        {"word": "TÜMLEME", "hint": "Evrensel kümedeki bir kümeye ait olmayan elemanlar"},
+        {"word": "ELEMAN", "hint": "Bir kümeyi oluşturan nesnelerin her biri"}
+      ]
+    },
+    {
+      "id": "matematik_u2",
+      "name": "2. Ünite: Fonksiyonlar",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "FONKSİYON", "hint": "Her elemana tek bir değer karşılık getiren bağıntı"},
+        {"word": "TANIM KÜMESİ", "hint": "Fonksiyonun başlangıç değerlerini içeren küme"},
+        {"word": "GÖRÜNTÜ", "hint": "Bir elemanın fonksiyon altındaki karşılığı"},
+        {"word": "BİREBİR", "hint": "Farklı elemanları farklı görüntülere eşleyen fonksiyon"},
+        {"word": "ÖRTEN", "hint": "Değer kümesindeki her elemanın eşlendiği fonksiyon türü"}
+      ]
+    }
+  ]
+}

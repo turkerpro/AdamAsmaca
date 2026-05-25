@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "edebiyat_u1",
+      "name": "1. Ünite: Cumhuriyet Dönemi Edebiyatı",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "GARİP AKIMI", "hint": "Orhan Veli'nin öncülük ettiği şiir hareketi"},
+        {"word": "ORHAN VELİ", "hint": "Serbest şiirin öncüsü olan Garip akımı şairi"},
+        {"word": "YAŞAR KEMAL", "hint": "İnce Memed romanının yazarı"},
+        {"word": "TOPLUMCU", "hint": "Sosyal sorunları konu alan gerçekçi edebiyat anlayışı"},
+        {"word": "HİKÂYE", "hint": "Kısa anlatıya dayanan düzyazı türü"}
+      ]
+    },
+    {
+      "id": "edebiyat_u2",
+      "name": "2. Ünite: Çağdaş Türk Edebiyatı",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "POSTMODERN", "hint": "Geleneksel anlatı kalıplarını kıran çağdaş yaklaşım"},
+        {"word": "ORHAN PAMUK", "hint": "Nobel Edebiyat Ödülü alan Türk yazar"},
+        {"word": "İÇ MONOLOG", "hint": "Kahramanın iç dünyasını aktaran anlatım tekniği"},
+        {"word": "BİLİNÇ AKIŞI", "hint": "Düşüncelerin kesintisiz aktarıldığı anlatım yöntemi"},
+        {"word": "MİNİMALİZM", "hint": "Az sözle çok anlatan yalın edebiyat anlayışı"}
+      ]
+    }
+  ]
+}

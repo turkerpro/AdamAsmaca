@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "cografya_u1",
+      "name": "1. Ünite: Doğal Kaynaklar",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "PETROL", "hint": "Fosil kaynaklı en önemli sıvı enerji hammaddesi"},
+        {"word": "JEOTERMAL", "hint": "Yer altındaki sıcak su kaynaklarından elde edilen enerji"},
+        {"word": "MADENCİLİK", "hint": "Yer altı kaynaklarının çıkarılması faaliyeti"},
+        {"word": "YENİLENEBİLİR", "hint": "Tükenmeden sürekli kullanılabilen enerji kaynağı türü"},
+        {"word": "RÜZGÂR ENERJİSİ", "hint": "Türbinlerle elektrik üreten doğal enerji kaynağı"}
+      ]
+    },
+    {
+      "id": "cografya_u2",
+      "name": "2. Ünite: Çevre Sorunları",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "SERA ETKİSİ", "hint": "Atmosferde ısının tutulmasıyla oluşan ısınma olayı"},
+        {"word": "KÜRESEL ISINMA", "hint": "Dünya sıcaklığının giderek artması sorunu"},
+        {"word": "OZON TABAKASİ", "hint": "Zararlı ultraviyole ışınlarını filtreleyen atmosfer katmanı"},
+        {"word": "ORMANSIZLAŞMA", "hint": "Orman alanlarının hızla azalması sorunu"},
+        {"word": "GERİ DÖNÜŞÜM", "hint": "Atık maddelerin yeniden kullanılabilir hâle getirilmesi"}
+      ]
+    }
+  ]
+}

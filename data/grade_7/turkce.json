@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "turkce7_u1",
+      "name": "1. Ünite: Fiilimsiler",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "SIFAT FİİL", "hint": "Fiilden türeyen ve ismi niteleyen sözcük"},
+        {"word": "ZARF FİİL", "hint": "Fiilden türeyen ve eylemi belirten sözcük"},
+        {"word": "İSİM FİİL", "hint": "Fiilden türeyen ve isim gibi kullanılan sözcük"},
+        {"word": "ULAÇ", "hint": "Zarf fiillerin diğer adı"},
+        {"word": "ORTAÇ", "hint": "Sıfat fiillerin diğer adı"}
+      ]
+    },
+    {
+      "id": "turkce7_u2",
+      "name": "2. Ünite: Edat ve Bağlaç",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "BAĞLAÇ", "hint": "Cümleleri veya sözcükleri birbirine bağlayan sözcük"},
+        {"word": "İLGEÇ", "hint": "Edatın diğer adıdır"},
+        {"word": "ÇÜNKÜ", "hint": "Neden bildiren bir bağlaçtır"},
+        {"word": "FAKAT", "hint": "Karşıtlık bildiren bir bağlaçtır"},
+        {"word": "GÖRE", "hint": "Karşılaştırma anlamı katan bir edattır"}
+      ]
+    }
+  ]
+}

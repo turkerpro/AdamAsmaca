@@ -1,0 +1,28 @@
+{
+  "units": [
+    {
+      "id": "inkilap_u1",
+      "name": "1. Ünite: Atatürk İlkeleri",
+      "months": [9, 10, 11, 12],
+      "words": [
+        {"word": "CUMHURİYETÇİLİK", "hint": "Egemenliğin millete ait olduğunu savunan ilke"},
+        {"word": "LAİKLİK", "hint": "Din ve devlet işlerinin ayrılması ilkesi"},
+        {"word": "MİLLİYETÇİLİK", "hint": "Ulusal birlik ve beraberliği esas alan ilke"},
+        {"word": "DEVLETÇİLİK", "hint": "Ekonomide devletin aktif rol alması ilkesi"},
+        {"word": "İNKILAPÇILIK", "hint": "Yapılan devrimleri koruma ve geliştirme ilkesi"}
+      ]
+    },
+    {
+      "id": "inkilap_u2",
+      "name": "2. Ünite: Çok Partili Dönem",
+      "months": [1, 2, 3, 4, 5, 6],
+      "words": [
+        {"word": "DEMOKRAT PARTİ", "hint": "1946'da kurulan ve iktidarı kazanan muhalefet partisi"},
+        {"word": "SEÇİM", "hint": "Halkın temsilcilerini belirlemek için oy kullanması"},
+        {"word": "MUHALEFETİN", "hint": "İktidar dışında kalan siyasi partilerin konumu"},
+        {"word": "MENDERES", "hint": "Demokrat Parti'nin başbakan olan lideri"},
+        {"word": "ANAYASA", "hint": "Devletin temel yapısını belirleyen en üst hukuk metni"}
+      ]
+    }
+  ]
+}
