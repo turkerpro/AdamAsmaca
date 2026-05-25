@@ -187,7 +187,7 @@ async function pushToGitHub(token, path, newUnitsObj) {
     log("GitHub'a yükleniyor (Push)...");
     
     const putBody = {
-      message: isOverwrite ? "fix: Bozuk JSON üzerine yazıldı (Admin)" : "feat: Admin panelinden yeni sorular eklendi",
+      message: isOverwrite ? "fix: Bozuk JSON üzerine yazıldı (Öğretmen Paneli)" : "feat: Öğretmen panelinden yeni sorular eklendi",
       content: updatedBase64,
       branch: "main"
     };

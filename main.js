@@ -117,6 +117,7 @@ async function startRandomGame() {
       const data = await res.json();
       if(data.units && data.units.length > 0) {
         selectedGrade = rGrade;
+        applyGradeTheme(selectedGrade.grade);
         selectedSubject = rSubj;
         const rUnit = data.units[Math.floor(Math.random() * data.units.length)];
         selectedUnit = rUnit;
@@ -154,8 +155,28 @@ function switchScreen(screenId) {
   document.getElementById(screenId).classList.add('active');
 }
 
+// ── THEME HELPERS ──────────────────────────────────────────────────────────
+function getGradeThemeGroup(gradeNum) {
+  const g = parseInt(gradeNum);
+  if (g >= 1 && g <= 3) return { group: "primary", emoji: "🎈" };
+  if (g >= 4 && g <= 5) return { group: "adventure", emoji: "🌲" };
+  if (g >= 6 && g <= 8) return { group: "tech", emoji: "👾" };
+  if (g >= 9 && g <= 12) return { group: "academic", emoji: "🏛️" };
+  return { group: "", emoji: "📚" };
+}
+
+function applyGradeTheme(gradeNum) {
+  if (!gradeNum) {
+    document.body.removeAttribute("data-grade-group");
+    return;
+  }
+  const theme = getGradeThemeGroup(gradeNum);
+  document.body.setAttribute("data-grade-group", theme.group);
+}
+
 function showGradeScreen() {
   selectedGrade = null;
+  applyGradeTheme(null);
   switchScreen('grade-screen');
 }
 
@@ -176,10 +197,22 @@ function populateGrades() {
   
   CURRICULUM_DATA.forEach(gradeItem => {
     const btn = document.createElement('button');
-    btn.className = 'grid-card';
-    btn.textContent = gradeItem.gradeName;
+    const theme = getGradeThemeGroup(gradeItem.grade);
+    btn.className = `grid-card theme-${theme.group}`;
+    
+    const emojiSpan = document.createElement('span');
+    emojiSpan.className = 'card-emoji';
+    emojiSpan.textContent = theme.emoji;
+    
+    const textSpan = document.createElement('span');
+    textSpan.textContent = gradeItem.gradeName;
+    
+    btn.appendChild(emojiSpan);
+    btn.appendChild(textSpan);
+    
     btn.addEventListener('click', () => {
       selectedGrade = gradeItem;
+      applyGradeTheme(selectedGrade.grade);
       populateSubjects();
       showSubjectScreen();
     });

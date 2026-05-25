@@ -39,10 +39,206 @@
     --shadow-md:0 4px 12px oklch(0 0 0/0.3);
     --shadow-lg:0 12px 32px oklch(0 0 0/0.4);
   }
+
+  /* 1. Oyun ve Bulutlar Teması (1, 2, 3. Sınıflar): Pastel Sarı / Sevimli Turuncu / Pembe */
+  [data-grade-group="primary"],
+  [data-theme="light"][data-grade-group="primary"] {
+    --color-bg: #fffcf2;
+    --color-surface: #fffae8;
+    --color-surface-2: #fffdf5;
+    --color-surface-offset: #fbf0d5;
+    --color-border: #ebdcb9;
+    --color-divider: #f0e3c5;
+    --color-text: #5c4308;
+    --color-text-muted: #8c6e2b;
+    --color-text-faint: #bda268;
+    --color-primary: #ff8a3d;
+    --color-primary-hover: #e06c20;
+    --color-primary-highlight: #ffecd6;
+    --color-error: #ff477e;
+    --color-error-highlight: #ffe3eb;
+    --color-success: #2ec4b6;
+    --color-success-highlight: #cbf3f0;
+    --color-warning: #ff9f1c;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
+    --radius-md: 16px;
+    --shadow-md: 0 8px 24px rgba(255, 138, 61, 0.08);
+  }
+  [data-theme="dark"][data-grade-group="primary"] {
+    --color-bg: #2b2210;
+    --color-surface: #362b16;
+    --color-surface-2: #3d3119;
+    --color-surface-offset: #231c0a;
+    --color-border: #4f3f22;
+    --color-divider: #3d3119;
+    --color-text: #ffeebb;
+    --color-text-muted: #d4bf88;
+    --color-text-faint: #99834e;
+    --color-primary: #ffae6d;
+    --color-primary-hover: #ffcf9e;
+    --color-primary-highlight: #473216;
+    --color-error: #ff7597;
+    --color-error-highlight: #5c1b2c;
+    --color-success: #45ebd9;
+    --color-success-highlight: #114a43;
+    --color-warning: #ffbe4d;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
+    --radius-md: 16px;
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  /* 2. Macera ve Keşif Teması (4, 5. Sınıflar): Doğa Yeşili / Toprak / Gökyüzü */
+  [data-grade-group="adventure"],
+  [data-theme="light"][data-grade-group="adventure"] {
+    --color-bg: #f4fcf6;
+    --color-surface: #e9f7ee;
+    --color-surface-2: #effaf2;
+    --color-surface-offset: #daecd7;
+    --color-border: #bed2b8;
+    --color-divider: #cbdfc5;
+    --color-text: #1d3319;
+    --color-text-muted: #3a5c32;
+    --color-text-faint: #688a5f;
+    --color-primary: #2d8a4e;
+    --color-primary-hover: #1e6435;
+    --color-primary-highlight: #d1ebd8;
+    --color-error: #b52a2a;
+    --color-error-highlight: #f7d2d2;
+    --color-success: #2d8a4e;
+    --color-success-highlight: #d1ebd8;
+    --color-warning: #cca21b;
+    --radius-lg: 18px;
+    --radius-xl: 24px;
+    --radius-md: 12px;
+    --shadow-md: 0 8px 24px rgba(45, 138, 78, 0.08);
+  }
+  [data-theme="dark"][data-grade-group="adventure"] {
+    --color-bg: #0f1c11;
+    --color-surface: #172a1a;
+    --color-surface-2: #1c3320;
+    --color-surface-offset: #0a130b;
+    --color-border: #2c4a32;
+    --color-divider: #1f3624;
+    --color-text: #ccebd2;
+    --color-text-muted: #7fa886;
+    --color-text-faint: #4e7354;
+    --color-primary: #59d184;
+    --color-primary-hover: #8ae4aa;
+    --color-primary-highlight: #183d23;
+    --color-error: #ff7373;
+    --color-error-highlight: #4a1919;
+    --color-success: #59d184;
+    --color-success-highlight: #183d23;
+    --color-warning: #f2cb44;
+    --radius-lg: 18px;
+    --radius-xl: 24px;
+    --radius-md: 12px;
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  /* 3. Uzay ve Teknoloji Teması (6, 7, 8. Sınıflar): Neon Mor / Elektrik Mavisi */
+  [data-grade-group="tech"],
+  [data-theme="light"][data-grade-group="tech"] {
+    --color-bg: #f9f6fc;
+    --color-surface: #f1ecf7;
+    --color-surface-2: #f6f2fa;
+    --color-surface-offset: #e5daf0;
+    --color-border: #cfbedf;
+    --color-divider: #d9cae9;
+    --color-text: #2f1947;
+    --color-text-muted: #5e3f85;
+    --color-text-faint: #8e73b3;
+    --color-primary: #822faf;
+    --color-primary-hover: #5e1c84;
+    --color-primary-highlight: #eddcf7;
+    --color-error: #bf1753;
+    --color-error-highlight: #f9d8e5;
+    --color-success: #198c6d;
+    --color-success-highlight: #cef0e6;
+    --color-warning: #c25c15;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+    --radius-md: 6px;
+    --shadow-md: 0 8px 24px rgba(130, 47, 175, 0.08);
+  }
+  [data-theme="dark"][data-grade-group="tech"] {
+    --color-bg: #0e0a17;
+    --color-surface: #171124;
+    --color-surface-2: #1d152d;
+    --color-surface-offset: #07050b;
+    --color-border: #3b2a59;
+    --color-divider: #291e3e;
+    --color-text: #eddffa;
+    --color-text-muted: #ad8ce2;
+    --color-text-faint: #7555aa;
+    --color-primary: #ca7cfa;
+    --color-primary-hover: #dfaeff;
+    --color-primary-highlight: #33154f;
+    --color-error: #ff5e9c;
+    --color-error-highlight: #54102d;
+    --color-success: #2ae6b7;
+    --color-success-highlight: #0b4f3e;
+    --color-warning: #ffa15e;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+    --radius-md: 6px;
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  /* 4. Klasik Akademi Teması (9, 10, 11, 12. Sınıflar): Lacivert / Bordo / Altın */
+  [data-grade-group="academic"],
+  [data-theme="light"][data-grade-group="academic"] {
+    --color-bg: #f5f6f8;
+    --color-surface: #eaedf2;
+    --color-surface-2: #f0f2f5;
+    --color-surface-offset: #dde2eb;
+    --color-border: #b8c3d4;
+    --color-divider: #c7d1e0;
+    --color-text: #17253d;
+    --color-text-muted: #3a4d70;
+    --color-text-faint: #6c7c9e;
+    --color-primary: #174276;
+    --color-primary-hover: #0c294d;
+    --color-primary-highlight: #d6e2f5;
+    --color-error: #8b1e1e;
+    --color-error-highlight: #f5d3d3;
+    --color-success: #1f6b57;
+    --color-success-highlight: #d1ebe5;
+    --color-warning: #9e7518;
+    --radius-lg: 4px;
+    --radius-xl: 6px;
+    --radius-md: 3px;
+    --shadow-md: 0 8px 24px rgba(23, 66, 118, 0.08);
+  }
+  [data-theme="dark"][data-grade-group="academic"] {
+    --color-bg: #090e17;
+    --color-surface: #101826;
+    --color-surface-2: #141f30;
+    --color-surface-offset: #05070a;
+    --color-border: #253652;
+    --color-divider: #1b283d;
+    --color-text: #e1e7f0;
+    --color-text-muted: #8ba0c2;
+    --color-text-faint: #596b8a;
+    --color-primary: #5495e2;
+    --color-primary-hover: #7db0ee;
+    --color-primary-highlight: #122540;
+    --color-error: #ff5c5c;
+    --color-error-highlight: #4f1515;
+    --color-success: #2ee6bc;
+    --color-success-highlight: #0b4a3c;
+    --color-warning: #f2c03f;
+    --radius-lg: 4px;
+    --radius-xl: 6px;
+    --radius-md: 3px;
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
   body{min-height:100dvh;font-family:var(--font-body);font-size:var(--text-base);
-    color:var(--color-text);background:var(--color-bg);display:flex;flex-direction:column;
+    color:var(--color-text);background:radial-gradient(circle at top, var(--color-surface-2) 0%, var(--color-bg) 100%);display:flex;flex-direction:column;
     align-items:center;padding:var(--space-6) var(--space-4);transition:background var(--transition-interactive),color var(--transition-interactive)}
   h1,h2,h3{font-family:var(--font-display);line-height:1.15;text-wrap:balance}
   button{cursor:pointer;background:none;border:none;font:inherit;color:inherit;
@@ -85,11 +281,105 @@
   }
 
   /* GRID LIST (Grades) */
-  .grid-list{display:grid;grid-template-columns:repeat(auto-fill, minmax(120px, 1fr));gap:var(--space-4);width:100%}
+  .grid-list{display:grid;grid-template-columns:repeat(auto-fill, minmax(130px, 1fr));gap:var(--space-4);width:100%}
   .grid-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);
     padding:var(--space-6) var(--space-4);text-align:center;font-weight:700;font-size:var(--text-lg);
-    box-shadow:var(--shadow-sm);transition:all 0.2s;display:flex;flex-direction:column;gap:var(--space-2)}
-  .grid-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);border-color:var(--color-primary);color:var(--color-primary)}
+    box-shadow:var(--shadow-sm);transition:all 0.2s;display:flex;flex-direction:column;gap:var(--space-2);align-items:center;justify-content:center;
+    min-height: 120px;}
+  
+  /* Sınıf Kartlarının Temalara Göre Renkleri */
+  .grid-card.theme-primary {
+    border-color: #ebdcb9;
+    background: #fffae8;
+    color: #5c4308;
+  }
+  .grid-card.theme-primary:hover {
+    border-color: #ff8a3d;
+    color: #ff8a3d;
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(255, 138, 61, 0.15);
+  }
+  .grid-card.theme-adventure {
+    border-color: #bed2b8;
+    background: #e9f7ee;
+    color: #1d3319;
+  }
+  .grid-card.theme-adventure:hover {
+    border-color: #2d8a4e;
+    color: #2d8a4e;
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(45, 138, 78, 0.15);
+  }
+  .grid-card.theme-tech {
+    border-color: #cfbedf;
+    background: #f1ecf7;
+    color: #2f1947;
+  }
+  .grid-card.theme-tech:hover {
+    border-color: #822faf;
+    color: #822faf;
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(130, 47, 175, 0.15);
+  }
+  .grid-card.theme-academic {
+    border-color: #b8c3d4;
+    background: #eaedf2;
+    color: #17253d;
+  }
+  .grid-card.theme-academic:hover {
+    border-color: #174276;
+    color: #174276;
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(23, 66, 118, 0.15);
+  }
+
+  /* Dark mode kart stilleri */
+  [data-theme="dark"] .grid-card.theme-primary {
+    border-color: #4f3f22;
+    background: #362b16;
+    color: #ffeebb;
+  }
+  [data-theme="dark"] .grid-card.theme-primary:hover {
+    border-color: #ffae6d;
+    color: #ffae6d;
+  }
+  [data-theme="dark"] .grid-card.theme-adventure {
+    border-color: #2c4a32;
+    background: #172a1a;
+    color: #ccebd2;
+  }
+  [data-theme="dark"] .grid-card.theme-adventure:hover {
+    border-color: #59d184;
+    color: #59d184;
+  }
+  [data-theme="dark"] .grid-card.theme-tech {
+    border-color: #3b2a59;
+    background: #171124;
+    color: #eddffa;
+  }
+  [data-theme="dark"] .grid-card.theme-tech:hover {
+    border-color: #ca7cfa;
+    color: #ca7cfa;
+  }
+  [data-theme="dark"] .grid-card.theme-academic {
+    border-color: #253652;
+    background: #101826;
+    color: #e1e7f0;
+  }
+  [data-theme="dark"] .grid-card.theme-academic:hover {
+    border-color: #5495e2;
+    color: #5495e2;
+  }
+
+  .grid-card .card-emoji {
+    font-size: 2rem;
+    margin-bottom: var(--space-1);
+    transition: transform 0.2s ease;
+  }
+  .grid-card:hover .card-emoji {
+    transform: scale(1.2) rotate(5deg);
+  }
+
 
   /* ACCORDION (Subjects & Units) */
   .accordion-list{width:100%;display:flex;flex-direction:column;gap:var(--space-4)}
