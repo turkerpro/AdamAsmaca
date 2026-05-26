@@ -3,25 +3,435 @@
     {
       "id": "biyoloji_u1",
       "name": "1. Ünite: Kalıtım",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "GEN", "hint": "Kalıtsal özellikleri belirleyen DNA parçası"},
-        {"word": "MUTASYON", "hint": "DNA diziliminde meydana gelen kalıcı değişiklik"},
-        {"word": "GENOTİP", "hint": "Canlının genetik yapısını ifade eden kavram"},
-        {"word": "FENOTİP", "hint": "Canlının dış görünüşünü ifade eden kavram"},
-        {"word": "ALLELİ", "hint": "Aynı genin farklı formlarına verilen ad"}
+        {
+          "word": "GEN",
+          "hint": "Kalıtsal özellikleri belirleyen DNA parçası"
+        },
+        {
+          "word": "MUTASYON",
+          "hint": "DNA diziliminde meydana gelen kalıcı değişiklik"
+        },
+        {
+          "word": "GENOTİP",
+          "hint": "Canlının genetik yapısını ifade eden kavram"
+        },
+        {
+          "word": "FENOTİP",
+          "hint": "Canlının dış görünüşünü ifade eden kavram"
+        },
+        {
+          "word": "ALLELİ",
+          "hint": "Aynı genin farklı formlarına verilen ad"
+        },
+        {
+          "word": "KROMOZOM",
+          "hint": "Hücre çekirdeğinde bulunan, genetik bilgiyi taşıyan ipliksi yapılar."
+        },
+        {
+          "word": "DNA",
+          "hint": "Canlıların genetik yapısını oluşturan, çift sarmal şeklinde molekül."
+        },
+        {
+          "word": "Mİ̇TOZ",
+          "hint": "Eşeyli ve eşeysiz üreyen canlılarda görülen, tek hücreliden çok hücreliye geçişi sağlayan hücre bölünmesi."
+        },
+        {
+          "word": "MAYÖZ",
+          "hint": "Eşeyli üreyen canlılarda gamet oluşumu sırasında gerçekleşen, kromozom sayısını yarıya indiren hücre bölünmesi."
+        },
+        {
+          "word": "MENDEL",
+          "hint": "Kalıtımın babası olarak bilinen, bezelyelerle yaptığı deneylerle kalıtım yasalarını ortaya koyan bilim insanı."
+        },
+        {
+          "word": "DOMİ̇NANT",
+          "hint": "Bir karakterin ortaya çıkması için tek başına yeterli olan özellik."
+        },
+        {
+          "word": "RESESİ̇F",
+          "hint": "Bir karakterin ortaya çıkabilmesi için anneden ve babadan aynı gelmesi gereken, çekinik özellik."
+        },
+        {
+          "word": "HOMOZİ̇GOT",
+          "hint": "Bir karakter için aynı genleri taşıyan canlı."
+        },
+        {
+          "word": "HETEROZİ̇GOT",
+          "hint": "Bir karakter için farklı genleri taşıyan canlı."
+        },
+        {
+          "word": "GAMET",
+          "hint": "Eşeyli üremenin temelini oluşturan, ana canlının genetik bilgisinin yarısını taşıyan üreme hücresi."
+        },
+        {
+          "word": "Sİ̇TOPLAZMA",
+          "hint": "Hücre zarının içinde, organelleri çevreleyen sıvı kısım."
+        },
+        {
+          "word": "ÇEKİ̇RDEK",
+          "hint": "Hücrenin yönetim merkezi, genetik materyali barındıran organel."
+        },
+        {
+          "word": "ALEOMORF",
+          "hint": "Bir genin farklı biçimlerinden her biri."
+        },
+        {
+          "word": "KARYOTİ̇P",
+          "hint": "Bir canlıdaki tüm kromozomların sayısı ve şekline göre düzenlenmiş hali."
+        },
+        {
+          "word": "SENTROMER",
+          "hint": "Kromozomları oluşturan kardeş kromatitlerin birleştiği orta nokta."
+        },
+        {
+          "word": "KROMATİ̇T",
+          "hint": "Hücre bölünmesi öncesinde oluşan, DNA'nın iki özdeş kopyasından her biri."
+        },
+        {
+          "word": "ÖRÜNTÜ",
+          "hint": "Tekrarlanan, düzenli bir şekilde ilerleyen desen."
+        },
+        {
+          "word": "KODON",
+          "hint": "DNA veya RNA'daki üç nükleotitlik birim, bir amino asidi şifreler."
+        },
+        {
+          "word": "ANTİ̇KODON",
+          "hint": "Taşıyıcı RNA (tRNA) üzerindeki, mRNA'daki kodona bağlanan üç nükleotitlik kısım."
+        },
+        {
+          "word": "TRANSKRİ̇PSİ̇YON",
+          "hint": "DNA'daki genetik bilginin RNA'ya aktarılması süreci."
+        },
+        {
+          "word": "TRANSLASYON",
+          "hint": "RNA'daki genetik bilginin protein sentezinde kullanılması süreci."
+        },
+        {
+          "word": "PROTEİ̇N",
+          "hint": "Amino asitlerden oluşan, canlı vücudunda pek çok görevi yerine getiren büyük molekül."
+        },
+        {
+          "word": "AMİ̇NOASİ̇T",
+          "hint": "Proteinlerin yapı taşları."
+        },
+        {
+          "word": "ENZİ̇M",
+          "hint": "Biyolojik reaksiyonları hızlandıran protein yapılı molekül."
+        },
+        {
+          "word": "ÜRÜN",
+          "hint": "Bir olayın veya işlemin sonucu olarak ortaya çıkan şey."
+        },
+        {
+          "word": "ÖZELLİ̇K",
+          "hint": "Bir canlının sahip olduğu belirgin nitelik veya durum."
+        },
+        {
+          "word": "KİZİLİR",
+          "hint": "Mendel'in bezelye deneylerinde kullandığı, farklı renklerde çiçek açan bir bitki."
+        },
+        {
+          "word": "BAĞLANTİ",
+          "hint": "Genlerin aynı kromozom üzerinde bulunma durumu."
+        },
+        {
+          "word": "DOLAŞİM",
+          "hint": "Kanın vücutta sürekli olarak dönmesi."
+        },
+        {
+          "word": "Sİ̇LGİ̇",
+          "hint": "Yanlışları ortadan kaldırmak için kullanılan araç."
+        },
+        {
+          "word": "KATLANMA",
+          "hint": "Bir nesnenin üzerine doğru kıvrılması."
+        },
+        {
+          "word": "KOŞUL",
+          "hint": "Bir olayın gerçekleşmesi için gerekli olan şart."
+        },
+        {
+          "word": "BAĞİMSİZLİK",
+          "hint": "Genlerin farklı kromozomlar üzerinde bulunması ve kalıtımda birbirini etkilememesi durumu."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Verilerin düzenli bir şekilde gösterildiği çizelge."
+        },
+        {
+          "word": "ÇEKİ̇RDEKSİ̇",
+          "hint": "Çekirdeği olmayan hücre."
+        },
+        {
+          "word": "ÇEKİ̇RDEKLİ̇",
+          "hint": "Çekirdeği olan hücre."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Bir şeye yardımcı olma, dayanma gücü verme."
+        },
+        {
+          "word": "ÜRKEK",
+          "hint": "Kolayca korkan, çekingen."
+        },
+        {
+          "word": "BOŞLUK",
+          "hint": "İçinde bir şey olmayan, verili alan."
+        },
+        {
+          "word": "AKTARİM",
+          "hint": "Bir yerden bir yere taşıma veya geçirme."
+        },
+        {
+          "word": "YAKİT",
+          "hint": "Enerji üreten madde."
+        },
+        {
+          "word": "DOLAŞİK",
+          "hint": "Birbiri içine geçmiş, karışık."
+        },
+        {
+          "word": "DÜZENLİ̇",
+          "hint": "Belirli bir sıraya göre, intizamlı."
+        },
+        {
+          "word": "BEZELYE",
+          "hint": "Mendel'in kalıtım çalışmalarında kullandığı baklagil türü."
+        },
+        {
+          "word": "SEMOLİ̇NE",
+          "hint": "İtalyan mutfağında makarnalık bulgur veya irmik."
+        },
+        {
+          "word": "KARAKTER",
+          "hint": "Bir organizmanın dış görünüşünü veya biyokimyasal özelliklerini belirleyen kalıtsal özellik."
+        },
+        {
+          "word": "VERİ̇",
+          "hint": "Bir olgu veya durum hakkında toplanan bilgi parçası."
+        }
       ]
     },
     {
       "id": "biyoloji_u2",
       "name": "2. Ünite: Evrim",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "ADAPTASYON", "hint": "Canlının çevresine uyum sağlama süreci"},
-        {"word": "DOĞAL SEÇİLİM", "hint": "Ortama uyum sağlayan bireylerin hayatta kalması"},
-        {"word": "FOSİL", "hint": "Geçmişte yaşamış canlıların taşlaşmış kalıntısı"},
-        {"word": "TÜRLEŞME", "hint": "Yeni biyolojik türlerin ortaya çıkma süreci"},
-        {"word": "VARYASYON", "hint": "Aynı türdeki bireyler arasındaki kalıtsal farklılıklar"}
+        {
+          "word": "ADAPTASYON",
+          "hint": "Canlının çevresine uyum sağlama süreci"
+        },
+        {
+          "word": "DOĞAL SEÇİLİM",
+          "hint": "Ortama uyum sağlayan bireylerin hayatta kalması"
+        },
+        {
+          "word": "FOSİL",
+          "hint": "Geçmişte yaşamış canlıların taşlaşmış kalıntısı"
+        },
+        {
+          "word": "TÜRLEŞME",
+          "hint": "Yeni biyolojik türlerin ortaya çıkma süreci"
+        },
+        {
+          "word": "VARYASYON",
+          "hint": "Aynı türdeki bireyler arasındaki kalıtsal farklılıklar"
+        },
+        {
+          "word": "KALİTİM",
+          "hint": "Anne babadan çocuğa geçen özellikler"
+        },
+        {
+          "word": "MUTASYON",
+          "hint": "DNA'daki ani ve kalıcı değişiklik"
+        },
+        {
+          "word": "SELEKSİ̇YON",
+          "hint": "Doğal veya yapay olarak bireylerin seçilmesi"
+        },
+        {
+          "word": "İRSİYET",
+          "hint": "Canlıların özelliklerinin nesilden nesile aktarılması"
+        },
+        {
+          "word": "HOMOLOG",
+          "hint": "Kökenleri aynı, görevleri farklı olabilen yapılar"
+        },
+        {
+          "word": "ANALOG",
+          "hint": "Kökenleri farklı, görevleri benzer olabilen yapılar"
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Canlıların yaşamak için kullandığı temel gereksinim"
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Bir canlının içinde yaşadığı dış koşullar"
+        },
+        {
+          "word": "YOK OLMA",
+          "hint": "Bir türün veya canlının neslinin tükenmesi"
+        },
+        {
+          "word": "KANİT",
+          "hint": "Bir olgunun doğruluğunu gösteren delil"
+        },
+        {
+          "word": "KÖKEN",
+          "hint": "Bir canlının soyunun başlangıcı"
+        },
+        {
+          "word": "SÜRDÜRME",
+          "hint": "Neslin devamını sağlama eylemi"
+        },
+        {
+          "word": "DÖLLENME",
+          "hint": "Erkek ve dişi üreme hücrelerinin birleşmesi"
+        },
+        {
+          "word": "ERKEK",
+          "hint": "Dişi organın karşılığı olan eşey hücresi"
+        },
+        {
+          "word": "Dİ̇Şİ̇",
+          "hint": "Erkek organın karşılığı olan eşey hücresi"
+        },
+        {
+          "word": "MAYOTİ̇K",
+          "hint": "Eşey hücrelerinin oluştuğu özel bölünme"
+        },
+        {
+          "word": "Mİ̇TOZ",
+          "hint": "Vücut hücrelerinin bölünme şekli"
+        },
+        {
+          "word": "GENETİ̇K",
+          "hint": "Kalıtım bilimi"
+        },
+        {
+          "word": "ALEL",
+          "hint": "Bir genin farklı versiyonları"
+        },
+        {
+          "word": "GENOTİ̇P",
+          "hint": "Bir canlının genetik yapısı"
+        },
+        {
+          "word": "FENOTİ̇P",
+          "hint": "Bir canlının dış görünüşü"
+        },
+        {
+          "word": "YAPAY",
+          "hint": "İnsan eliyle oluşturulan"
+        },
+        {
+          "word": "DOĞAL",
+          "hint": "Kendiliğinden oluşan"
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Bir yüzeye uygulanan dik kuvvet"
+        },
+        {
+          "word": "SİCAKLİK",
+          "hint": "Ortamın ısı derecesi"
+        },
+        {
+          "word": "NEM",
+          "hint": "Havadaki su buharı miktarı"
+        },
+        {
+          "word": "BESLENME",
+          "hint": "Canlıların enerji ve yapı taşı kazanma şekli"
+        },
+        {
+          "word": "ÜREME",
+          "hint": "Canlıların neslini devam ettirme biçimi"
+        },
+        {
+          "word": "SOLUNUM",
+          "hint": "Canlıların enerji ürettiği kimyasal süreç"
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Canlıların yer değiştirmesi veya duruşunu değiştirmesi"
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "Canlıların belirli bölgelere veya uzaklara gitmesi"
+        },
+        {
+          "word": "Mİ̇GRASYON",
+          "hint": "Canlıların mevsimlere göre yer değiştirmesi"
+        },
+        {
+          "word": "TERKİ̇P",
+          "hint": "Bir şeyin oluştuğu öğeler bütünü"
+        },
+        {
+          "word": "DÜZENLENME",
+          "hint": "Bir sistemin belirli bir duruma getirilmesi"
+        },
+        {
+          "word": "KOZALAK",
+          "hint": "Çam ağaçlarının tohumlarını taşıyan yapısı"
+        },
+        {
+          "word": "YUMRU",
+          "hint": "Bitkilerin toprak altı organı"
+        },
+        {
+          "word": "SOĞAN",
+          "hint": "Bitkilerin toprak altı depolama organı"
+        },
+        {
+          "word": "DALLANMA",
+          "hint": "Bir yapının birden fazla kola ayrılması"
+        },
+        {
+          "word": "İ̇LERLEME",
+          "hint": "Gelişim gösterme, daha iyi duruma gelme"
+        },
+        {
+          "word": "GERİ̇LEME",
+          "hint": "Gelişimini kaybetme, zayıflama"
+        },
+        {
+          "word": "TEKNOLOJİ̇",
+          "hint": "Bilimsel bilgilerin kullanılarak yapılan ürünler"
+        },
+        {
+          "word": "KÜRESELLEŞME",
+          "hint": "Dünya üzerindeki etkileşimlerin artması"
+        },
+        {
+          "word": "EKOSİ̇STEM",
+          "hint": "Canlı ve cansız varlıkların oluşturduğu topluluk"
+        },
+        {
+          "word": "Bİ̇YOÇEŞİ̇TLİ̇Lİ̇K",
+          "hint": "Bir bölgedeki canlı türlerinin zenginliği"
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Yapılması gereken bir işin üstlenilmesi"
+        }
       ]
     }
   ]

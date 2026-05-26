@@ -3,25 +3,435 @@
     {
       "id": "ingilizce6_u1",
       "name": "1. Ünite: Weather",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "CLOUDY", "hint": "Gökyüzünün bulutlarla kaplı olması"},
-        {"word": "SNOWY", "hint": "Kar yağışının olduğu hava durumu"},
-        {"word": "STORMY", "hint": "Fırtınalı ve şiddetli hava durumu"},
-        {"word": "FOGGY", "hint": "Sisli ve görüşün düşük olduğu hava"},
-        {"word": "TEMPERATURE", "hint": "Havanın sıcaklık derecesi, ısı ölçüsü"}
+        {
+          "word": "CLOUDY",
+          "hint": "Gökyüzünün bulutlarla kaplı olması"
+        },
+        {
+          "word": "SNOWY",
+          "hint": "Kar yağışının olduğu hava durumu"
+        },
+        {
+          "word": "STORMY",
+          "hint": "Fırtınalı ve şiddetli hava durumu"
+        },
+        {
+          "word": "FOGGY",
+          "hint": "Sisli ve görüşün düşük olduğu hava"
+        },
+        {
+          "word": "TEMPERATURE",
+          "hint": "Havanın sıcaklık derecesi, ısı ölçüsü"
+        },
+        {
+          "word": "GÜNEŞLİ̇",
+          "hint": "Gök kubbede parlak yıldızımızın parladığı hava durumu."
+        },
+        {
+          "word": "YAĞMURLU",
+          "hint": "Gökyüzünden damlalar halinde suyun düştüğü hava."
+        },
+        {
+          "word": "RÜZGARLİ",
+          "hint": "Havanın hareket ettiği, yaprakları savurduğu durum."
+        },
+        {
+          "word": "SOĞUK",
+          "hint": "Hava sıcaklığının düşük olduğu, üşütücü durum."
+        },
+        {
+          "word": "SİCAK",
+          "hint": "Hava sıcaklığının yüksek olduğu, bunaltıcı durum."
+        },
+        {
+          "word": "BEYAZ",
+          "hint": "Karın rengi, saflığı temsil eden renk."
+        },
+        {
+          "word": "PARLAK",
+          "hint": "Güneşin veya yıldızların ışık yayan hali."
+        },
+        {
+          "word": "BULUTLU",
+          "hint": "Gökyüzünün gri veya beyaz yumrularla kaplı olduğu durum."
+        },
+        {
+          "word": "KİŞ",
+          "hint": "Soğuk havanın ve karın hakim olduğu mevsim."
+        },
+        {
+          "word": "YAZ",
+          "hint": "Sıcak havanın ve güneşin bol olduğu mevsim."
+        },
+        {
+          "word": "BAHAR",
+          "hint": "Doğanın canlandığı, çiçeklerin açtığı mevsim."
+        },
+        {
+          "word": "SONBAHAR",
+          "hint": "Yaprakların sararıp döküldüğü mevsim."
+        },
+        {
+          "word": "DONDURUCU",
+          "hint": "Hava sıcaklığının çok çok düştüğü, her şeyin donduğu durum."
+        },
+        {
+          "word": "UYARİCİ",
+          "hint": "Tehlikeli hava koşullarının habercisi."
+        },
+        {
+          "word": "Sİ̇S",
+          "hint": "Gökyüzünden değil, yerden yükselen bir tür su buharı."
+        },
+        {
+          "word": "GÖKTAŞİ",
+          "hint": "Gökyüzünden düşen, ışıklı bir cisim."
+        },
+        {
+          "word": "ORTALAMA",
+          "hint": "Bir değerin genel durumu, en yaygın hali."
+        },
+        {
+          "word": "SEVİ̇YE",
+          "hint": "Belirli bir derecenin ölçüsü."
+        },
+        {
+          "word": "TERMOMETRE",
+          "hint": "Hava sıcaklığını ölçmeye yarayan alet."
+        },
+        {
+          "word": "MEVSİ̇M",
+          "hint": "Yılın belirli bir dönemini tanımlayan zaman dilimi."
+        },
+        {
+          "word": "DERECE",
+          "hint": "Sıcaklık ölçüm birimi."
+        },
+        {
+          "word": "İ̇KLİ̇M",
+          "hint": "Belirli bir bölgenin uzun süreli hava durumu."
+        },
+        {
+          "word": "HAFTA",
+          "hint": "Yedi günlük zaman dilimi."
+        },
+        {
+          "word": "GÜN",
+          "hint": "Yirmi dört saatlik zaman dilimi."
+        },
+        {
+          "word": "GECE",
+          "hint": "Güneşin batıp karanlığın olduğu zaman."
+        },
+        {
+          "word": "SABAH",
+          "hint": "Güneşin doğduğu ve günün başladığı zaman."
+        },
+        {
+          "word": "ÖĞLEN",
+          "hint": "Günün en yüksek ışık aldığı zaman."
+        },
+        {
+          "word": "AKŞAM",
+          "hint": "Güneşin battığı ve havanın kararmaya başladığı zaman."
+        },
+        {
+          "word": "Şİ̇MŞEK",
+          "hint": "Fırtınalı havalarda görülen ani ışık parlaması."
+        },
+        {
+          "word": "GÖK GÜRÜLTÜSÜ",
+          "hint": "Şimşeğin ardından gelen ses."
+        },
+        {
+          "word": "KAR FİRTİNASİ",
+          "hint": "Şiddetli rüzgarla birlikte yağan kar."
+        },
+        {
+          "word": "SEL",
+          "hint": "Aşırı yağmurun neden olduğu su baskını."
+        },
+        {
+          "word": "Çİ̇Ğ",
+          "hint": "Sabahları otların üzerinde görülen küçük su damlacıkları."
+        },
+        {
+          "word": "DON",
+          "hint": "Suyun buz haline geldiği durum."
+        },
+        {
+          "word": "Çİ̇Y DAMLASİ",
+          "hint": "Çimlerin üzerindeki küçük su boncuğu."
+        },
+        {
+          "word": "SOĞUK HAVA",
+          "hint": "Hava sıcaklığının düşük olduğu durum."
+        },
+        {
+          "word": "SİCAK HAVA",
+          "hint": "Hava sıcaklığının yüksek olduğu durum."
+        },
+        {
+          "word": "SAĞANAK",
+          "hint": "Aniden başlayan ve yoğun yağan yağmur."
+        },
+        {
+          "word": "TROPİ̇KAL",
+          "hint": "Çok sıcak ve nemli iklim."
+        },
+        {
+          "word": "KUTSAL",
+          "hint": "Çok soğuk, buzlarla kaplı bölge."
+        },
+        {
+          "word": "EKVATOR",
+          "hint": "Dünyanın ortasından geçen hayali çizgi, genellikle sıcak."
+        },
+        {
+          "word": "YÜKSEKLİ̇K",
+          "hint": "Yer seviyesinden olan uzaklık, genellikle yukarısı daha soğuktur."
+        },
+        {
+          "word": "HAVA OLAYİ",
+          "hint": "Gerçekleşen veya gerçekleşmekte olan atmosferik durum."
+        },
+        {
+          "word": "HAVA DURUMU",
+          "hint": "Belirli bir yerdeki anlık atmosferik koşullar."
+        },
+        {
+          "word": "BEYAZ YAĞİŞ",
+          "hint": "Karın diğer adı."
+        },
+        {
+          "word": "SU DAMLASİ",
+          "hint": "Yağmurun veya çiyin küçük parçası."
+        },
+        {
+          "word": "RÜZGAR GÜCÜ",
+          "hint": "Havanın ne kadar hızlı estiğinin ölçüsü."
+        }
       ]
     },
     {
       "id": "ingilizce6_u2",
       "name": "2. Ünite: Sports",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "BASKETBALL", "hint": "Potaya top atılan takım sporu"},
-        {"word": "SWIMMING", "hint": "Suda yapılan bireysel spor dalı"},
-        {"word": "VOLLEYBALL", "hint": "File üzerinden top geçirilen takım sporu"},
-        {"word": "WRESTLING", "hint": "Türklerin geleneksel güreş sporu"},
-        {"word": "ATHLETICS", "hint": "Koşu, atlama ve atma dallarını içeren spor"}
+        {
+          "word": "BASKETBALL",
+          "hint": "Potaya top atılan takım sporu"
+        },
+        {
+          "word": "SWIMMING",
+          "hint": "Suda yapılan bireysel spor dalı"
+        },
+        {
+          "word": "VOLLEYBALL",
+          "hint": "File üzerinden top geçirilen takım sporu"
+        },
+        {
+          "word": "WRESTLING",
+          "hint": "Türklerin geleneksel güreş sporu"
+        },
+        {
+          "word": "ATHLETICS",
+          "hint": "Koşu, atlama ve atma dallarını içeren spor"
+        },
+        {
+          "word": "FUTBOL",
+          "hint": "Ayakla oynanan, fileli kaleye atılan bir top oyunu."
+        },
+        {
+          "word": "TENİ̇S",
+          "hint": "Raketle file üzerinden topu karşı tarafa atılan oyun."
+        },
+        {
+          "word": "BOKS",
+          "hint": "Eldivenlerle yumrukların kullanıldığı bir dövüş sporu."
+        },
+        {
+          "word": "JUDO",
+          "hint": "Japonya kökenli, rakibi yere atmaya veya etkisiz hale getirmeye dayalı bir spor."
+        },
+        {
+          "word": "GÜREŞ",
+          "hint": "İki kişinin birbirini yenmeye çalıştığı kuvvet sporu."
+        },
+        {
+          "word": "TEKVANDO",
+          "hint": "Ayak ve el tekniklerinin kullanıldığı Kore kökenli bir dövüş sanatı."
+        },
+        {
+          "word": "HENTBOL",
+          "hint": "Ellerle topu kaleye atarak oynanan takım oyunu."
+        },
+        {
+          "word": "BEYZBOL",
+          "hint": "Sopa ve topla oynanan, kale çalma esasına dayalı bir Amerikan oyunu."
+        },
+        {
+          "word": "GOLF",
+          "hint": "Sopayla topu özel bir alandaki küçük çukurlara atmaya dayalı spor."
+        },
+        {
+          "word": "KOŞU",
+          "hint": "Ayakları kullanarak hızlıca ilerleme eylemi."
+        },
+        {
+          "word": "ATLAMA",
+          "hint": "Yerçekimine karşı yerden yükselme eylemi."
+        },
+        {
+          "word": "ATMA",
+          "hint": "Bir nesneyi uzağa fırlatma eylemi."
+        },
+        {
+          "word": "YÜZME",
+          "hint": "Suda hareket ederek ilerleme."
+        },
+        {
+          "word": "BİSİKLET",
+          "hint": "İki tekerlekli, pedallı ulaşım aracı."
+        },
+        {
+          "word": "PATEN",
+          "hint": "Ayakkabıların altına takılan ve üzerinde kayılan araç."
+        },
+        {
+          "word": "KAYAK",
+          "hint": "Kar üzerinde uzun tahtalarla kayma sporu."
+        },
+        {
+          "word": "KAR",
+          "hint": "Soğuk havalarda gökyüzünden düşen buz kristalleri."
+        },
+        {
+          "word": "SU",
+          "hint": "Hayatın kaynağı olan renksiz sıvı."
+        },
+        {
+          "word": "TOP",
+          "hint": "Genellikle yuvarlak, oyunlarda kullanılan araç."
+        },
+        {
+          "word": "RAKET",
+          "hint": "Topu vurmak için kullanılan saplı araç."
+        },
+        {
+          "word": "FİLE",
+          "hint": "Sahayı ikiye ayıran örgü."
+        },
+        {
+          "word": "KALE",
+          "hint": "Gol atmaya çalışılan alan."
+        },
+        {
+          "word": "SAHA",
+          "hint": "Spor oyunlarının oynandığı alan."
+        },
+        {
+          "word": "STADYUM",
+          "hint": "Çok sayıda seyircinin izlediği büyük spor alanı."
+        },
+        {
+          "word": "ANTRENÖR",
+          "hint": "Sporcuları çalıştıran ve yönlendiren kişi."
+        },
+        {
+          "word": "OYUNCU",
+          "hint": "Spor müsabakalarında yer alan kişi."
+        },
+        {
+          "word": "TAKİM",
+          "hint": "Birlikte mücadele eden sporcu grubu."
+        },
+        {
+          "word": "MAÇ",
+          "hint": "İki takım veya sporcu arasındaki yarışma."
+        },
+        {
+          "word": "SKOR",
+          "hint": "Maçtaki puan durumu."
+        },
+        {
+          "word": "GOL",
+          "hint": "Topun kaleye girmesiyle kazanılan puan."
+        },
+        {
+          "word": "REKOR",
+          "hint": "Bir alanda ulaşılan en iyi derece."
+        },
+        {
+          "word": "MADALYA",
+          "hint": "Başarıyı simgeleyen ödül."
+        },
+        {
+          "word": "ŞAMPİYON",
+          "hint": "Yarışmayı kazanan kişi veya takım."
+        },
+        {
+          "word": "HİZ",
+          "hint": "Bir hareketin ne kadar hızlı olduğunu belirten ölçü."
+        },
+        {
+          "word": "GÜÇ",
+          "hint": "Bir nesneyi hareket ettirme veya değiştirme yeteneği."
+        },
+        {
+          "word": "ESNEKLİK",
+          "hint": "Vücudun hareket kabiliyeti."
+        },
+        {
+          "word": "DAYANİKLİLİK",
+          "hint": "Uzun süre yorulmadan devam edebilme yeteneği."
+        },
+        {
+          "word": "DOSTLUK",
+          "hint": "Sporun birleştirici yönü."
+        },
+        {
+          "word": "EĞLENCE",
+          "hint": "Spor yaparken hissedilen keyif."
+        },
+        {
+          "word": "SAĞLİK",
+          "hint": "Sporun vücudumuza olan faydası."
+        },
+        {
+          "word": "SPORCU",
+          "hint": "Sporla uğraşan kişi."
+        },
+        {
+          "word": "KAPTAN",
+          "hint": "Takımın lideri."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek amacıyla yapılan etkinlik."
+        },
+        {
+          "word": "BÖLGE",
+          "hint": "Sahada belirli bir alan."
+        },
+        {
+          "word": "DÜDÜK",
+          "hint": "Maçı başlatan veya bitiren sesli alet."
+        }
       ]
     }
   ]

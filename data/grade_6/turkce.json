@@ -3,25 +3,451 @@
     {
       "id": "turkce6_u1",
       "name": "1. Ünite: Söz Sanatları",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "BENZETME", "hint": "Bir şeyi başka bir şeye benzetme sanatı"},
-        {"word": "KİŞİLEŞTİRME", "hint": "İnsan dışı varlıklara insan özelliği verme"},
-        {"word": "ABARTMA", "hint": "Bir durumu olduğundan büyük gösterme sanatı"},
-        {"word": "KONUŞTURMA", "hint": "İnsan dışı varlıkları konuşturma sanatı"},
-        {"word": "MECAZ", "hint": "Sözcüğün gerçek anlamı dışında kullanılması"}
+        {
+          "word": "BENZETME",
+          "hint": "Bir şeyi başka bir şeye benzetme sanatı"
+        },
+        {
+          "word": "KİŞİLEŞTİRME",
+          "hint": "İnsan dışı varlıklara insan özelliği verme"
+        },
+        {
+          "word": "ABARTMA",
+          "hint": "Bir durumu olduğundan büyük gösterme sanatı"
+        },
+        {
+          "word": "KONUŞTURMA",
+          "hint": "İnsan dışı varlıkları konuşturma sanatı"
+        },
+        {
+          "word": "MECAZ",
+          "hint": "Sözcüğün gerçek anlamı dışında kullanılması"
+        },
+        {
+          "word": "EŞANLAMLİ",
+          "hint": "Anlamları birbirine çok benzeyen kelimeler."
+        },
+        {
+          "word": "ZİT ANLAMLİ",
+          "hint": "Anlamları birbirinden tamamen farklı olan kelimeler."
+        },
+        {
+          "word": "SÖZCÜK",
+          "hint": "Dilin temel yapı taşı, harflerin bir araya gelmesiyle oluşan anlamlı bütün."
+        },
+        {
+          "word": "ANLAM",
+          "hint": "Bir kelimenin veya cümlenin taşıdığı düşünce, mana."
+        },
+        {
+          "word": "GÖNDERME",
+          "hint": "Bir kelimenin başka bir şeyi akla getirmesi, çağrıştırması."
+        },
+        {
+          "word": "SESTEŞ",
+          "hint": "Yazılışları ve okunuşları aynı, anlamları farklı kelimeler."
+        },
+        {
+          "word": "DEYİ̇M",
+          "hint": "Kalıplaşmış söz grubu, mecazi anlam taşıyabilir."
+        },
+        {
+          "word": "ATASÖZÜ",
+          "hint": "Kısa ve özlü, öğüt veren kalıplaşmış söz."
+        },
+        {
+          "word": "EDEBİ̇YAT",
+          "hint": "Olay, düşünce ve duyguların dil aracılığıyla estetik bir şekilde aktarılması sanatı."
+        },
+        {
+          "word": "SES OLAYİ",
+          "hint": "Kelimelerin söylenirken geçirdiği değişiklikler (ünlü düşmesi, ünsüz benzeşmesi gibi)."
+        },
+        {
+          "word": "ÜNSÜZ",
+          "hint": "Ağızdan çıkarken havanın bir engelle çıkmasıyla oluşan harfler (b, c, d, f... gibi)."
+        },
+        {
+          "word": "ÜNLÜ",
+          "hint": "Ağızdan çıkarken havanın serbestçe çıktığı harfler (a, e, ı, i... gibi)."
+        },
+        {
+          "word": "HECE",
+          "hint": "Bir solukta çıkarılan ses veya ses topluluğu."
+        },
+        {
+          "word": "TAMLAMA",
+          "hint": "İki ismin bir araya gelerek yeni bir varlığı veya kavramı oluşturması (sıfat tamlaması, isim tamlaması)."
+        },
+        {
+          "word": "EDAT",
+          "hint": "Tek başına anlamı olmayan, cümledeki kelimeleri birbirine bağlayan küçük kelimeler (ile, için, gibi, kadar... gibi)."
+        },
+        {
+          "word": "BAĞLAÇ",
+          "hint": "Cümleleri veya kelimeleri birbirine bağlayan kelimeler (ve, ama, veya, çünkü... gibi)."
+        },
+        {
+          "word": "ZARF",
+          "hint": "Fiillerin, fiilimsilerin, sıfatların veya kendi türünden olan kelimelerin anlamını durum, zaman, yer, miktar gibi yönlerden belirten kelime."
+        },
+        {
+          "word": "SİFAT",
+          "hint": "İsimlerin önüne gelerek onları renk, durum, biçim, sayı gibi yönlerden niteleyen veya belirten kelime."
+        },
+        {
+          "word": "İ̇Sİ̇M",
+          "hint": "Varlıkların, kavramların, duyguların adını bildiren kelime."
+        },
+        {
+          "word": "Fİ̇İ̇L",
+          "hint": "İş, oluş veya hareket bildiren kelime."
+        },
+        {
+          "word": "YAZİM",
+          "hint": "Kelimelerin doğru harflerle yazılması."
+        },
+        {
+          "word": "NOKTALAMA",
+          "hint": "Cümleleri ve sözleri ayırmak, anlamı belirginleştirmek için kullanılan işaretler (nokta, virgül, soru işareti... gibi)."
+        },
+        {
+          "word": "TARİ̇F",
+          "hint": "Bir şeyi veya birini anlatma, tanıtma."
+        },
+        {
+          "word": "ÖRNEK",
+          "hint": "Bir konuyu daha iyi anlatmak için verilen benzer durum veya şey."
+        },
+        {
+          "word": "KARŞİLAŞTİRMA",
+          "hint": "İki veya daha fazla şeyi benzerlik veya farklılık yönünden inceleme."
+        },
+        {
+          "word": "ÖZET",
+          "hint": "Bir yazının veya konunun ana fikirlerini kısa bir şekilde anlatma."
+        },
+        {
+          "word": "Gİ̇Rİ̇Ş",
+          "hint": "Bir yazıya veya konuya başlama bölümü."
+        },
+        {
+          "word": "GELİ̇ŞME",
+          "hint": "Bir yazı veya konunun ana fikirlerinin açıklandığı bölüm."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir yazı veya konunun bittiği, toparlandığı bölüm."
+        },
+        {
+          "word": "BAŞLİK",
+          "hint": "Yazının veya metnin ne hakkında olduğunu belirten kısa ifade."
+        },
+        {
+          "word": "PARAGRAF",
+          "hint": "Bir yazıdaki düşünce birimini oluşturan cümleler topluluğu."
+        },
+        {
+          "word": "DÜŞÜNCE",
+          "hint": "Bir konu hakkında zihinde oluşan tasarı, fikir."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Sevinç, üzüntü, öfke gibi içsel yaşantılar."
+        },
+        {
+          "word": "ÇAĞRİŞİM",
+          "hint": "Bir kelimenin akla başka kelimeleri veya durumları getirmesi."
+        },
+        {
+          "word": "İ̇FADE",
+          "hint": "Bir düşünceyi veya duyguyu dile getirme biçimi."
+        },
+        {
+          "word": "METİ̇N",
+          "hint": "Yazılı veya sözlü anlatım bütünü."
+        },
+        {
+          "word": "ANLATİM",
+          "hint": "Bir konuyu sözle veya yazıyla aktarma."
+        },
+        {
+          "word": "ÇOK ANLAMLİ",
+          "hint": "Bir kelimenin birden fazla anlamı olması."
+        },
+        {
+          "word": "TEK ANLAMLİ",
+          "hint": "Bir kelimenin sadece bir anlamı olması."
+        },
+        {
+          "word": "ÖZGÜN",
+          "hint": "Benzeri olmayan, kendine has olan."
+        },
+        {
+          "word": "YARATİCİ",
+          "hint": "Yeni şeyler ortaya koyabilen, hayal gücü geniş."
+        },
+        {
+          "word": "ANLATİM BOZUKLUĞU",
+          "hint": "Cümlelerde anlamın veya yapısal bozukluklar nedeniyle doğru ifade edilememesi."
+        },
+        {
+          "word": "GEREKSİ̇Z SÖZCÜK",
+          "hint": "Anlama katkısı olmayan kelimelerin kullanılması."
+        },
+        {
+          "word": "SÖZCÜK TÜKETİ̇Mİ̇",
+          "hint": "Kelimeleri doğru ve yerinde kullanma."
+        },
+        {
+          "word": "VURGU",
+          "hint": "Bir kelimeyi veya cümleyi diğerlerinden ayırmak için yapılan baskı."
+        },
+        {
+          "word": "TONLAMA",
+          "hint": "Konuşurken sesin yükselip alçalmasıyla anlamı değiştirme."
+        },
+        {
+          "word": "MAHREM",
+          "hint": "Gizli, başkasına gösterilmeyen, kişiye özel."
+        },
+        {
+          "word": "NEZAKET",
+          "hint": "Kibarca davranma, incelik gösterme."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Başkalarının düşünce ve davranışlarını anlayışla karşılama."
+        },
+        {
+          "word": "EMPATİ̇",
+          "hint": "Kendini karşısındakinin yerine koyarak onun duygularını anlama."
+        },
+        {
+          "word": "ANLAYİŞ",
+          "hint": "Bir durumu veya kişiyi kavrama, bilme."
+        }
       ]
     },
     {
       "id": "turkce6_u2",
       "name": "2. Ünite: Paragraf",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "PARAGRAF", "hint": "Bir düşünceyi anlatan cümleler bütünü"},
-        {"word": "BAŞLIK", "hint": "Yazının konusunu özetleyen kısa ifade"},
-        {"word": "ANAFIKIR", "hint": "Paragrafta verilmek istenen temel düşünce"},
-        {"word": "GİRİŞ", "hint": "Paragrafın konuya başlangıç yapan bölümü"},
-        {"word": "SONUÇ", "hint": "Paragrafın bitirici ve özetleyici bölümü"}
+        {
+          "word": "PARAGRAF",
+          "hint": "Bir düşünceyi anlatan cümleler bütünü"
+        },
+        {
+          "word": "BAŞLIK",
+          "hint": "Yazının konusunu özetleyen kısa ifade"
+        },
+        {
+          "word": "ANAFIKIR",
+          "hint": "Paragrafta verilmek istenen temel düşünce"
+        },
+        {
+          "word": "GİRİŞ",
+          "hint": "Paragrafın konuya başlangıç yapan bölümü"
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Paragrafın bitirici ve özetleyici bölümü"
+        },
+        {
+          "word": "KONU",
+          "hint": "Bir metnin ne hakkında olduğunu belirten temel öğe."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Bir fikri veya düşünceyi güçlendiren bilgi veya örnek."
+        },
+        {
+          "word": "ÖRNEK",
+          "hint": "Bir genellemenin veya fikrin anlaşılmasına yardımcı olan somut bir durum."
+        },
+        {
+          "word": "BAĞLAM",
+          "hint": "Bir kelimenin veya cümlenin geçtiği cümlenin veya metnin tamamı."
+        },
+        {
+          "word": "AMAÇ",
+          "hint": "Bir yazının okuyucuya ne anlatmak veya ne öğretmek istediği."
+        },
+        {
+          "word": "DÜŞÜNCE",
+          "hint": "Bir metinde dile getirilen temel fikir veya görüş."
+        },
+        {
+          "word": "ANLAMAK",
+          "hint": "Okunan bir metnin içeriğini kavramak."
+        },
+        {
+          "word": "SİRALAMA",
+          "hint": "Olayların veya bilgilerin oluş sırasına göre dizilmesi."
+        },
+        {
+          "word": "KARŞİLAŞTİRMA",
+          "hint": "Benzerlikleri ve farklılıkları ortaya koyma."
+        },
+        {
+          "word": "SEBEP",
+          "hint": "Bir olayın veya durumun neden meydana geldiğini açıklayan etken."
+        },
+        {
+          "word": "ETKİ̇",
+          "hint": "Bir olayın başka bir olay üzerinde yarattığı değişiklik."
+        },
+        {
+          "word": "VARLİK",
+          "hint": "Gerçekte bulunan, mevcut olan şey."
+        },
+        {
+          "word": "KAVRAM",
+          "hint": "Genel bir düşünce veya fikir."
+        },
+        {
+          "word": "BELİ̇RTMEK",
+          "hint": "Bir şeyi açıkça ifade etmek, göstermek."
+        },
+        {
+          "word": "AÇİKLAMAK",
+          "hint": "Bir konuyu daha anlaşılır hale getirmek."
+        },
+        {
+          "word": "ÖZETLEMEK",
+          "hint": "Bir metnin ana fikirlerini kısa ve anlaşılır bir şekilde anlatmak."
+        },
+        {
+          "word": "SENTEZ",
+          "hint": "Farklı bilgileri birleştirerek yeni bir bütün oluşturma."
+        },
+        {
+          "word": "ANALİ̇Z",
+          "hint": "Bir konuyu parçalarına ayırarak inceleme."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Çevreyi dikkatle inceleyerek bilgi edinme."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Bir metin veya olay hakkındaki kişisel düşünce."
+        },
+        {
+          "word": "ÖZGÜNLÜK",
+          "hint": "Başka örneği olmayan, kendine has olma durumu."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Bir olayın veya nesnenin içinde bulunduğu hal."
+        },
+        {
+          "word": "Bİ̇LGİ̇",
+          "hint": "Bir konu hakkında edinilen gerçek."
+        },
+        {
+          "word": "GERÇEK",
+          "hint": "Doğruluğu kanıtlanmış, şüpheye yer bırakmayan durum."
+        },
+        {
+          "word": "OLAY",
+          "hint": "Gerçekleşen bir durum veya hadise."
+        },
+        {
+          "word": "YAZAR",
+          "hint": "Metni oluşturan kişi."
+        },
+        {
+          "word": "OKUR",
+          "hint": "Metni okuyup anlayan kişi."
+        },
+        {
+          "word": "BAĞLANTİ",
+          "hint": "Cümleler veya fikirler arasındaki ilişki."
+        },
+        {
+          "word": "DURAKSAMA",
+          "hint": "Bir metinde anlamı pekiştirmek için verilen kısa duraklama."
+        },
+        {
+          "word": "VURGU",
+          "hint": "Bir kelime veya fikrin önemini belirtmek için yapılan vurgu."
+        },
+        {
+          "word": "TON",
+          "hint": "Yazarın okuyucuya karşı tutumu; neşeli, üzgün, ciddi gibi."
+        },
+        {
+          "word": "TARZ",
+          "hint": "Yazarın anlatım biçimi, üslubu."
+        },
+        {
+          "word": "METİ̇N",
+          "hint": "Yazılmış veya basılmış yazı dizisi."
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Belirli bir düşünceyi tam olarak anlatan kelime topluluğu."
+        },
+        {
+          "word": "KELİ̇ME",
+          "hint": "Tek başına anlamı olan ses veya ses birliği."
+        },
+        {
+          "word": "EK",
+          "hint": "Kök veya gövdeye eklenerek yeni kelime türeten veya kelimeyi cümle içinde görevlendiren ses veya ses birliği."
+        },
+        {
+          "word": "KÖK",
+          "hint": "Bir kelimenin anlamlı en küçük parçası."
+        },
+        {
+          "word": "GÖVDE",
+          "hint": "Kök ve yapım eklerinden oluşan kelime."
+        },
+        {
+          "word": "EDAT",
+          "hint": "Tek başına anlamı olmayan, cümledeki kelimeler arasında anlam ilgisi kuran kelime (örn: ile, için, gibi)."
+        },
+        {
+          "word": "BAĞLAÇ",
+          "hint": "Cümleleri veya kelimeleri birbirine bağlayan kelime (örn: ve, ama, çünkü)."
+        },
+        {
+          "word": "ZARF",
+          "hint": "Fiillerin, fiilimsilerin, sıfatların veya kendi türünden kelimelerin anlamını durum, zaman, yer, miktar, azlık-çokluk, nicelik gibi yönlerden belirten kelime."
+        },
+        {
+          "word": "SIFAT",
+          "hint": "İsimleri renk, durum, biçim, sıra, nicelik gibi çeşitli yönlerden niteleyen veya belirten kelime."
+        },
+        {
+          "word": "ZAMİ̇R",
+          "hint": "İsimlerin yerine kullanılan kelime (örn: ben, sen, o, bu)."
+        },
+        {
+          "word": "İ̇Sİ̇M",
+          "hint": "Var olan veya kavramı duygu veya düşünce yoluyla algılanan, somut veya soyut varlıkları bildiren kelime."
+        },
+        {
+          "word": "Fİ̇İ̇L",
+          "hint": "Bir işi, bir oluşu veya bir durumu anlatmak için kullanılan kelime."
+        }
       ]
     }
   ]

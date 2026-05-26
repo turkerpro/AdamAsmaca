@@ -3,25 +3,427 @@
     {
       "id": "turkce8_u1",
       "name": "1. Ünite: Cümle Vurgusu",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "VURGU", "hint": "Sözcük veya hecenin baskılı söylenmesi"},
-        {"word": "TONLAMA", "hint": "Sesin alçalıp yükselmesiyle anlam ayrımı"},
-        {"word": "ÖZNE", "hint": "Cümlede eylemi gerçekleştiren öge"},
-        {"word": "YÜKLEM", "hint": "Cümlede oluş kılış veya durum bildiren öge"},
-        {"word": "NESNE", "hint": "Yüklemin bildirdiği işten etkilenen öge"}
+        {
+          "word": "VURGU",
+          "hint": "Sözcük veya hecenin baskılı söylenmesi"
+        },
+        {
+          "word": "TONLAMA",
+          "hint": "Sesin alçalıp yükselmesiyle anlam ayrımı"
+        },
+        {
+          "word": "ÖZNE",
+          "hint": "Cümlede eylemi gerçekleştiren öge"
+        },
+        {
+          "word": "YÜKLEM",
+          "hint": "Cümlede oluş kılış veya durum bildiren öge"
+        },
+        {
+          "word": "NESNE",
+          "hint": "Yüklemin bildirdiği işten etkilenen öge"
+        },
+        {
+          "word": "SELAMLAŞMA",
+          "hint": "İnsanlarla karşılaştığında ilk söylediğin şey."
+        },
+        {
+          "word": "VEDALAŞMA",
+          "hint": "Birinden ayrılırken kullandığın sözler."
+        },
+        {
+          "word": "TEŞEKKÜR",
+          "hint": "Bir iyilik gördüğünde söylenen nazik söz."
+        },
+        {
+          "word": "ÖZÜR",
+          "hint": "Yanlış bir şey yaptığında başkalarından istediğin şey."
+        },
+        {
+          "word": "KUTLAMA",
+          "hint": "Mutlu bir olayı alkışlarla veya sözlerle paylaşmak."
+        },
+        {
+          "word": "HATİRLATMA",
+          "hint": "Bir şeyi unutmamak için söylenen söz."
+        },
+        {
+          "word": "BAŞARİ",
+          "hint": "Bir işte iyi bir sonuç almak."
+        },
+        {
+          "word": "GAYRET",
+          "hint": "Bir işi yapmak için gösterilen çaba."
+        },
+        {
+          "word": "SABİR",
+          "hint": "Zorluklar karşısında sakin kalabilme durumu."
+        },
+        {
+          "word": "EMPATİ̇",
+          "hint": "Başkalarının duygularını anlayabilme."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Farklılıklara saygı gösterme."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Herkesin hakkını alması durumu."
+        },
+        {
+          "word": "DOSTLUK",
+          "hint": "İki veya daha fazla kişi arasındaki sevgi bağı."
+        },
+        {
+          "word": "İ̇Yİ̇Lİ̇K",
+          "hint": "Başkalarına karşı nazik ve yardımsever olma."
+        },
+        {
+          "word": "KÖTÜLÜK",
+          "hint": "Başkalarına zarar verme durumu."
+        },
+        {
+          "word": "CESARET",
+          "hint": "Korkuya rağmen harekete geçme."
+        },
+        {
+          "word": "MERAK",
+          "hint": "Yeni şeyler öğrenme isteği."
+        },
+        {
+          "word": "HEYECAN",
+          "hint": "Beklenen bir şey olduğunda duyulan coşku."
+        },
+        {
+          "word": "ÜZÜNTÜ",
+          "hint": "Can sıkıcı bir olay karşısında duyulan duygu."
+        },
+        {
+          "word": "SEVİ̇NÇ",
+          "hint": "Mutlu bir durum karşısında duyulan duygu."
+        },
+        {
+          "word": "KORKU",
+          "hint": "Tehlike anında hissedilen duygu."
+        },
+        {
+          "word": "ÖFKE",
+          "hint": "Bir şeye veya birine karşı duyulan kızgınlık."
+        },
+        {
+          "word": "ŞÜKRAN",
+          "hint": "Yapılan bir iyilikten duyulan memnuniyet."
+        },
+        {
+          "word": "TARİ̇F",
+          "hint": "Bir yemeğin nasıl yapıldığını anlatan yazı."
+        },
+        {
+          "word": "TANİM",
+          "hint": "Bir kelimenin anlamını açıklayan cümle."
+        },
+        {
+          "word": "ÖNERİ̇",
+          "hint": "Bir konu hakkında sunulan tavsiye."
+        },
+        {
+          "word": "İ̇STEK",
+          "hint": "Bir şeyi yapmayı veya sahip olmayı dileme."
+        },
+        {
+          "word": "EMİ̇R",
+          "hint": "Kesin bir şekilde yaptırılması istenen şey."
+        },
+        {
+          "word": "TALEP",
+          "hint": "Resmi bir şekilde bir şeyin yapılmasını istemek."
+        },
+        {
+          "word": "Bİ̇LGİ̇",
+          "hint": "Öğrenilen veya keşfedilen şey."
+        },
+        {
+          "word": "HABER",
+          "hint": "Ortaya çıkan yeni olay."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Mevcut vaziyet."
+        },
+        {
+          "word": "GÖREV",
+          "hint": "Yapılması gereken sorumluluk."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Bir işi yerine getirme yükümlülüğü."
+        },
+        {
+          "word": "KARAR",
+          "hint": "Bir konuda sonuca varma."
+        },
+        {
+          "word": "SEÇENEK",
+          "hint": "Birkaç farklı olasılıktan biri."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Bir sorunu giderme yolu."
+        },
+        {
+          "word": "PLAN",
+          "hint": "Bir işi yapmadan önce hazırlanan taslak."
+        },
+        {
+          "word": "TARTİŞMA",
+          "hint": "Farklı görüşlerin konuşulduğu ortam."
+        },
+        {
+          "word": "KAVGACİLİK",
+          "hint": "Sürekli anlaşmazlık çıkarma eğilimi."
+        },
+        {
+          "word": "BAĞİRMAK",
+          "hint": "Yüksek sesle konuşmak."
+        },
+        {
+          "word": "SESLENMEK",
+          "hint": "Birinin dikkatini çekmek için konuşmak."
+        },
+        {
+          "word": "FİSİLDAMAK",
+          "hint": "Çok kısık sesle konuşmak."
+        },
+        {
+          "word": "GÜLÜMSEMEK",
+          "hint": "Mutluluk ifadesi olarak yüz hareketleri yapmak."
+        },
+        {
+          "word": "KAŞ ÇATMAK",
+          "hint": "Sinirlilik veya şüphe ifadesi yapmak."
+        }
       ]
     },
     {
       "id": "turkce8_u2",
       "name": "2. Ünite: Yazım Kuralları",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "BÜYÜK HARF", "hint": "Cümle başında ve özel isimlerde kullanılan harf"},
-        {"word": "NOKTALAMA", "hint": "Cümlelerde anlam ayrımı sağlayan işaretler"},
-        {"word": "KESME İŞARETİ", "hint": "Özel isimlere ek getirilirken kullanılan işaret"},
-        {"word": "TIRNAK İŞARETİ", "hint": "Alıntı yapılan sözleri belirten işaret"},
-        {"word": "KISA ÇİZGİ", "hint": "Satır sonunda sözcük bölmede kullanılan işaret"}
+        {
+          "word": "BÜYÜK HARF",
+          "hint": "Cümle başında ve özel isimlerde kullanılan harf"
+        },
+        {
+          "word": "NOKTALAMA",
+          "hint": "Cümlelerde anlam ayrımı sağlayan işaretler"
+        },
+        {
+          "word": "KESME İŞARETİ",
+          "hint": "Özel isimlere ek getirilirken kullanılan işaret"
+        },
+        {
+          "word": "TIRNAK İŞARETİ",
+          "hint": "Alıntı yapılan sözleri belirten işaret"
+        },
+        {
+          "word": "KISA ÇİZGİ",
+          "hint": "Satır sonunda sözcük bölmede kullanılan işaret"
+        },
+        {
+          "word": "HARF",
+          "hint": "Bir sesin, bir kelimenin yazılışını gösteren işaret."
+        },
+        {
+          "word": "SESLİ̇",
+          "hint": "Ağızdan çıkan ve tek başına söylenebilen harf türü (ünlü)."
+        },
+        {
+          "word": "SESSİ̇Z",
+          "hint": "Tek başına söylenemeyen, başka seslilerle birleşince anlam kazanan harf (ünsüz)."
+        },
+        {
+          "word": "HECE",
+          "hint": "Bir solukta çıkarılabilen ses veya sesler topluluğu."
+        },
+        {
+          "word": "KELİ̇ME",
+          "hint": "Anlamlı harfler topluluğu."
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Bir düşünceyi, duyguyu tam olarak anlatan kelime dizisi."
+        },
+        {
+          "word": "YAZİM",
+          "hint": "Kelimelerin doğru şekilde kaleme alınması."
+        },
+        {
+          "word": "İ̇MLA",
+          "hint": "Yazım kurallarına uyma durumu."
+        },
+        {
+          "word": "SORU",
+          "hint": "Cevap bekleyen bir ifadeyi bitiren işaret."
+        },
+        {
+          "word": "ÜNLEM",
+          "hint": "Sevinç, korku, şaşırma gibi duyguları belirten işaret."
+        },
+        {
+          "word": "KESME",
+          "hint": "Özel adlara gelen ekleri ayırmak için kullanılan işaret."
+        },
+        {
+          "word": "BAĞLAÇ",
+          "hint": "Kelimeleri veya cümleleri birbirine bağlayan kelime (ve, ama, fakat gibi)."
+        },
+        {
+          "word": "EDAT",
+          "hint": "Tek başına anlamı olmayan ama cümledeki anlamı güçlendiren kelime (ile, için, göre gibi)."
+        },
+        {
+          "word": "ZARF",
+          "hint": "Fiilleri, fiilimsileri, sıfatları veya kendi türünden kelimeleri durum, zaman, yer, miktar yönünden niteleyen kelime."
+        },
+        {
+          "word": "SİFAT",
+          "hint": "İsimleri renk, durum, biçim, sayı, sıra, yer, ölçü vb. yönlerinden niteleyen kelime."
+        },
+        {
+          "word": "İ̇Sİ̇M",
+          "hint": "Var olan veya tasavvur edilen her şeyin adını bildiren kelime."
+        },
+        {
+          "word": "Fİ̇İ̇L",
+          "hint": "İş, oluş veya hareket bildiren kelime."
+        },
+        {
+          "word": "EK",
+          "hint": "Kök veya gövdeye eklenerek yeni kelime türeten veya kelimeyi cümle içinde başka kelimelere bağlayan harf veya harf grubu."
+        },
+        {
+          "word": "KÖK",
+          "hint": "Bir kelimenin anlamca en uzak bölümü."
+        },
+        {
+          "word": "GÖVDE",
+          "hint": "Kök ile yapım eklerinin birleşmesiyle oluşan, yeni kelimeler türetebilen bölüm."
+        },
+        {
+          "word": "YAPİM",
+          "hint": "Yeni kelimeler türeten ek çeşidi."
+        },
+        {
+          "word": "ÇEKİ̇M",
+          "hint": "Kelimeleri cümle içinde duruma sokan ek çeşidi (iyelik, durum, zaman ekleri gibi)."
+        },
+        {
+          "word": "TAMLAMA",
+          "hint": "Belirtisiz veya belirtili olarak birbirini tamamlayan iki ismin oluşturduğu kelime grubu (kapının kolu gibi)."
+        },
+        {
+          "word": "DEVRİK",
+          "hint": "Yüklemi başta veya ortada olan cümle türü."
+        },
+        {
+          "word": "KURALLİ",
+          "hint": "Yüklemi sonda olan temel cümle türü."
+        },
+        {
+          "word": "ÖZNE",
+          "hint": "Cümlede işi yapan veya oluşu gerçekleştiren öge."
+        },
+        {
+          "word": "YÜKLEM",
+          "hint": "Cümlede öznenin işini, oluşunu veya durumunu bildiren öge."
+        },
+        {
+          "word": "TAMLAYİCİ",
+          "hint": "Belirtili isim tamlamasında tamlananı belirten isim."
+        },
+        {
+          "word": "TAMLANAN",
+          "hint": "Belirtili veya belirtisiz isim tamlamasında tamlayıcı tarafından tamamlanan isim."
+        },
+        {
+          "word": "SAYİ",
+          "hint": "Miktarı belirten kelime (bir, iki, üç gibi)."
+        },
+        {
+          "word": "TARİ̇H",
+          "hint": "Belirli bir olayın olduğu gün, ay, yıl bilgisi."
+        },
+        {
+          "word": "SAAT",
+          "hint": "Zamanı gösteren ölçü birimi ve yazımında dikkat edilmesi gereken durumlar."
+        },
+        {
+          "word": "YEREL",
+          "hint": "Bir bölgeye veya ülkeye özgü olan."
+        },
+        {
+          "word": "ULUSAL",
+          "hint": "Tüm ulusu ilgilendiren, ülke çapında olan."
+        },
+        {
+          "word": "ULUSLARARASİ",
+          "hint": "Birden çok ulusu ilgilendiren, dünya çapında olan."
+        },
+        {
+          "word": "UNVAN",
+          "hint": "Kişilere verilen meslek veya makam belirten kelimeler (Avukat, Profesör gibi)."
+        },
+        {
+          "word": "ÖRNEK",
+          "hint": "Benzerlerinin anlaşılması için verilen, gösterilen şey."
+        },
+        {
+          "word": "ÖZEL",
+          "hint": "Herkes için olmayan, yalnızca bir kişiye, yere veya şeye ait olan."
+        },
+        {
+          "word": "GENEL",
+          "hint": "Tümünü ilgilendiren, kapsayan."
+        },
+        {
+          "word": "DEĞİ̇NME",
+          "hint": "Bir konuyu kısaca anlatma, bahsetme."
+        },
+        {
+          "word": "ÖZETLEME",
+          "hint": "Bir yazının veya konuşmanın ana fikirlerini kısaca çıkarma."
+        },
+        {
+          "word": "VURGU",
+          "hint": "Bir kelime veya söz grubunu diğerlerinden ayırmak için yapılan vurgu."
+        },
+        {
+          "word": "KARŞİT",
+          "hint": "Birbirine tamamen zıt olan."
+        },
+        {
+          "word": "BENZER",
+          "hint": "Birbirine yakın, birbirine benzeyen."
+        },
+        {
+          "word": "TÜRETME",
+          "hint": "Ekler aracılığıyla yeni bir kelime meydana getirme."
+        }
       ]
     }
   ]

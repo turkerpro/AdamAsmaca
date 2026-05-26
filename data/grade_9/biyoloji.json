@@ -3,25 +3,435 @@
     {
       "id": "biyoloji_u1",
       "name": "1. Ünite: Hücre Bölünmesi",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "MİTOZ", "hint": "Vücut hücrelerinde gerçekleşen eşit bölünme türü"},
-        {"word": "MAYOZ", "hint": "Üreme hücrelerinde kromozom sayısını yarıya indiren bölünme"},
-        {"word": "KROMOZOM", "hint": "DNA ve proteinlerden oluşan genetik bilgi taşıyıcısı"},
-        {"word": "SENTROZOİM", "hint": "Hücre bölünmesinde iğ ipliklerini oluşturan organel"},
-        {"word": "SİTOKİNEZ", "hint": "Sitoplazmanın bölünerek iki hücre oluşturması aşaması"}
+        {
+          "word": "MİTOZ",
+          "hint": "Vücut hücrelerinde gerçekleşen eşit bölünme türü"
+        },
+        {
+          "word": "MAYOZ",
+          "hint": "Üreme hücrelerinde kromozom sayısını yarıya indiren bölünme"
+        },
+        {
+          "word": "KROMOZOM",
+          "hint": "DNA ve proteinlerden oluşan genetik bilgi taşıyıcısı"
+        },
+        {
+          "word": "SENTROZOİM",
+          "hint": "Hücre bölünmesinde iğ ipliklerini oluşturan organel"
+        },
+        {
+          "word": "SİTOKİNEZ",
+          "hint": "Sitoplazmanın bölünerek iki hücre oluşturması aşaması"
+        },
+        {
+          "word": "TELOFAZ",
+          "hint": "Hücre bölünmesinin son evresi."
+        },
+        {
+          "word": "ANAFAZ",
+          "hint": "Kardeş kromatitlerin ayrıldığı evre."
+        },
+        {
+          "word": "PROFAZ",
+          "hint": "Çekirdek zarının eridiği ve kromatinlerin yoğunlaştığı evre."
+        },
+        {
+          "word": "METAFAZ",
+          "hint": "Kromozomların hücrenin ortasında sıralandığı evre."
+        },
+        {
+          "word": "İNTERFAZ",
+          "hint": "Hücrenin bölünmeye hazırlık yaptığı evre."
+        },
+        {
+          "word": "KROMATİ̇N",
+          "hint": "DNA ve proteinlerin oluşturduğu ipliksi yapı."
+        },
+        {
+          "word": "SENTROMER",
+          "hint": "Kardeş kromatitleri bir arada tutan bölge."
+        },
+        {
+          "word": "HÜCRE DÖNGÜSÜ",
+          "hint": "Hücrenin büyümesi, kopyalanması ve bölünmesini içeren süreç."
+        },
+        {
+          "word": "ARAŞEVİ",
+          "hint": "Hücre döngüsünün interfaz evresi."
+        },
+        {
+          "word": "BÖLÜNME",
+          "hint": "Ana hücrenin yavru hücrelere ayrılması."
+        },
+        {
+          "word": "YAVRU HÜCRE",
+          "hint": "Ana hücreden oluşan yeni hücre."
+        },
+        {
+          "word": "DNA",
+          "hint": "Genetik bilgiyi taşıyan molekül."
+        },
+        {
+          "word": "EŞEY HÜCRE",
+          "hint": "Üreme hücreleri (sperm ve yumurta)."
+        },
+        {
+          "word": "DÖLLENME",
+          "hint": "Erkek ve dişi eşey hücrelerinin birleşmesi."
+        },
+        {
+          "word": "GEN",
+          "hint": "Karakterleri belirleyen DNA parçası."
+        },
+        {
+          "word": "ALELL",
+          "hint": "Bir genin farklı versiyonları."
+        },
+        {
+          "word": "HOMOZİ̇GOT",
+          "hint": "Aynı alellere sahip olma durumu."
+        },
+        {
+          "word": "HETEROZİ̇GOT",
+          "hint": "Farklı alellere sahip olma durumu."
+        },
+        {
+          "word": "FENOTİ̇P",
+          "hint": "Canlının gözlemlenebilir özellikleri."
+        },
+        {
+          "word": "GENOTİ̇P",
+          "hint": "Canlının genetik yapısı."
+        },
+        {
+          "word": "Sİ̇TOPLAZMA",
+          "hint": "Hücre zarının içindeki jel benzeri sıvı."
+        },
+        {
+          "word": "ORGANEL",
+          "hint": "Hücre içinde özelleşmiş yapı."
+        },
+        {
+          "word": "MİTOKONDRİ̇",
+          "hint": "Hücrenin enerji santrali."
+        },
+        {
+          "word": "RİBOZOM",
+          "hint": "Protein sentezleyen organel."
+        },
+        {
+          "word": "ÇEKİ̇RDEK",
+          "hint": "Hücrenin genetik materyalini içeren bölge."
+        },
+        {
+          "word": "HÜCRE ZARI",
+          "hint": "Hücreyi dış etkilerden koruyan zar."
+        },
+        {
+          "word": "Bİ̇TKİ̇ HÜCRESİ",
+          "hint": "Hücre duvarı olan hücre türü."
+        },
+        {
+          "word": "HAYVAN HÜCRESİ",
+          "hint": "Hücre duvarı olmayan hücre türü."
+        },
+        {
+          "word": "MERİ̇STEM",
+          "hint": "Bitkilerde sürekli bölünen hücre dokusu."
+        },
+        {
+          "word": "ÖKARYOT",
+          "hint": "Çekirdeği olan hücre tipi."
+        },
+        {
+          "word": "PROKARYOT",
+          "hint": "Çekirdeği olmayan hücre tipi."
+        },
+        {
+          "word": "YAŞAM SÜRESİ",
+          "hint": "Bir canlının varlığını sürdürdüğü zaman."
+        },
+        {
+          "word": "BÜYÜME",
+          "hint": "Canlı organizmanın boyutunun artması."
+        },
+        {
+          "word": "FARKLILAŞMA",
+          "hint": "Hücrelerin özelleşme süreci."
+        },
+        {
+          "word": "KANSER",
+          "hint": "Kontrolsüz hücre bölünmesi hastalığı."
+        },
+        {
+          "word": "APOPTOZ",
+          "hint": "Programlanmış hücre ölümü."
+        },
+        {
+          "word": "SPİ̇RAL",
+          "hint": "DNA'nın sarmal yapısı."
+        },
+        {
+          "word": "ÇİFT SARMAL",
+          "hint": "DNA'nın iki zincirli yapısı."
+        },
+        {
+          "word": "NÜKLEOTİ̇T",
+          "hint": "DNA'nın yapı taşı."
+        },
+        {
+          "word": "ŞEKER",
+          "hint": "DNA'nın iskeletini oluşturan bileşen."
+        },
+        {
+          "word": "FOSFAT",
+          "hint": "DNA'nın iskeletini oluşturan bileşen."
+        },
+        {
+          "word": "BASAMAK",
+          "hint": "DNA sarmalının yapısındaki özel bir parça."
+        },
+        {
+          "word": "Tİ̇MİN",
+          "hint": "DNA'daki dört bazdan biri."
+        },
+        {
+          "word": "Sİ̇TOZİ̇N",
+          "hint": "DNA'daki dört bazdan biri."
+        },
+        {
+          "word": "GUANİ̇N",
+          "hint": "DNA'daki dört bazdan biri."
+        },
+        {
+          "word": "ADENİ̇N",
+          "hint": "DNA'daki dört bazdan biri."
+        }
       ]
     },
     {
       "id": "biyoloji_u2",
       "name": "2. Ünite: Ekosistem",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "BESİN ZİNCİRİ", "hint": "Canlılar arasındaki beslenme ilişkisini gösteren sıra"},
-        {"word": "ÜRETİCİ", "hint": "Fotosentez yaparak besin üreten canlılar"},
-        {"word": "TÜKETİCİ", "hint": "Besinini başka canlılardan karşılayan organizmalar"},
-        {"word": "AYRIŞTIRICI", "hint": "Ölü organizmaları parçalayarak geri dönüşüm sağlayan canlılar"},
-        {"word": "HABİTAT", "hint": "Bir canlı türünün doğal yaşam alanı"}
+        {
+          "word": "BESİN ZİNCİRİ",
+          "hint": "Canlılar arasındaki beslenme ilişkisini gösteren sıra"
+        },
+        {
+          "word": "ÜRETİCİ",
+          "hint": "Fotosentez yaparak besin üreten canlılar"
+        },
+        {
+          "word": "TÜKETİCİ",
+          "hint": "Besinini başka canlılardan karşılayan organizmalar"
+        },
+        {
+          "word": "AYRIŞTIRICI",
+          "hint": "Ölü organizmaları parçalayarak geri dönüşüm sağlayan canlılar"
+        },
+        {
+          "word": "HABİTAT",
+          "hint": "Bir canlı türünün doğal yaşam alanı"
+        },
+        {
+          "word": "EKOSİ̇STEM",
+          "hint": "Canlı ve cansız varlıkların etkileşimde bulunduğu bir alan."
+        },
+        {
+          "word": "Bİ̇YOM",
+          "hint": "Geniş coğrafi bölgeleri kapsayan büyük ekosistem türü."
+        },
+        {
+          "word": "Bİ̇YOÇEŞİ̇TLİ̇Lİ̇K",
+          "hint": "Bir bölgedeki farklı canlı türlerinin toplamı."
+        },
+        {
+          "word": "OTOTROF",
+          "hint": "Kendi besinini kendi üretebilen canlı."
+        },
+        {
+          "word": "HETEROTROF",
+          "hint": "Besinini dışarıdan alan canlı."
+        },
+        {
+          "word": "SAPROFİ̇T",
+          "hint": "Ölü organizmaları ayrıştırarak beslenen canlı."
+        },
+        {
+          "word": "KOMÜNİ̇TE",
+          "hint": "Belirli bir alanda yaşayan farklı türdeki canlı topluluğu."
+        },
+        {
+          "word": "POPÜLASYON",
+          "hint": "Belirli bir alanda yaşayan aynı türden canlı topluluğu."
+        },
+        {
+          "word": "YER Bİ̇Lİ̇Mİ̇",
+          "hint": "Canlıların yeryüzündeki dağılımını inceleyen bilim dalı."
+        },
+        {
+          "word": "Nİ̇Ş",
+          "hint": "Bir canlının ekosistemdeki rolü ve yeri."
+        },
+        {
+          "word": "MADDE DÖNGÜSÜ",
+          "hint": "Doğadaki elementlerin devamlılığı."
+        },
+        {
+          "word": "KARBON DÖNGÜSÜ",
+          "hint": "Atmosferdeki karbondioksitin canlılar ve çevre arasında dolaşımı."
+        },
+        {
+          "word": "AZOT DÖNGÜSÜ",
+          "hint": "Topraktaki azotun canlılar tarafından kullanılabilir hale gelmesi."
+        },
+        {
+          "word": "SU DÖNGÜSÜ",
+          "hint": "Suyun yeryüzü, atmosfer ve canlılar arasındaki hareketi."
+        },
+        {
+          "word": "FOTOSENTEZ",
+          "hint": "Bitkilerin ışık enerjisiyle besin üretmesi."
+        },
+        {
+          "word": "SOLUNUM",
+          "hint": "Canlıların enerji elde etmek için besinleri yıkması."
+        },
+        {
+          "word": "ENERJİ̇ AKİŞİ",
+          "hint": "Ekosistemdeki canlılar arası enerji transferi."
+        },
+        {
+          "word": "BESİ̇N AĞİ",
+          "hint": "Birbirine bağlı besin zincirlerinin karmaşık yapısı."
+        },
+        {
+          "word": "OLUMLU ETKİ̇",
+          "hint": "Canlıların birbirine fayda sağladığı etkileşim."
+        },
+        {
+          "word": "OLUMSUZ ETKİ̇",
+          "hint": "Canlıların birbirine zarar verdiği etkileşim."
+        },
+        {
+          "word": "PARAZİ̇Tİ̇ZM",
+          "hint": "Bir canlının başka bir canlıdan zarar vererek beslenmesi."
+        },
+        {
+          "word": "MUTUALİ̇ZM",
+          "hint": "İki canlının birbirine fayda sağladığı birlikte yaşama."
+        },
+        {
+          "word": "KOMENSALİ̇ZM",
+          "hint": "Bir canlının fayda sağladığı, diğerinin etkilenmediği ilişki."
+        },
+        {
+          "word": "PREDASYON",
+          "hint": "Bir canlının avını avlayarak beslenmesi."
+        },
+        {
+          "word": "İ̇NTERSPESİ̇Fİ̇K",
+          "hint": "Farklı türler arasındaki etkileşim."
+        },
+        {
+          "word": "İ̇NTRA SPESİ̇Fİ̇K",
+          "hint": "Aynı tür içindeki canlılar arasındaki etkileşim."
+        },
+        {
+          "word": "SÜKSESYON",
+          "hint": "Bir ekosistemin zamanla değişmesi."
+        },
+        {
+          "word": "Bİ̇OTİ̇K",
+          "hint": "Ekosistemdeki canlı faktörler."
+        },
+        {
+          "word": "ABİ̇OTİ̇K",
+          "hint": "Ekosistemdeki cansız faktörler."
+        },
+        {
+          "word": "KLİ̇MA",
+          "hint": "Belirli bir bölgenin uzun süreli hava durumu."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Bitkilerin yetiştiği, mineraller ve organik maddeler içeren katman."
+        },
+        {
+          "word": "SU KAYNAĞİ",
+          "hint": "Hayat için gerekli olan suyun bulunduğu yer."
+        },
+        {
+          "word": "YÜZEY SUYU",
+          "hint": "Göller, nehirler gibi yeryüzündeki sular."
+        },
+        {
+          "word": "YER ALTİ SUYU",
+          "hint": "Toprağın derinliklerinde bulunan sular."
+        },
+        {
+          "word": "Sİ̇YANOBАКTERİ̇",
+          "hint": "Fotosentez yapabilen tek hücreli canlı."
+        },
+        {
+          "word": "ALGLER",
+          "hint": "Su ortamlarında yaşayan fotosentetik canlılar."
+        },
+        {
+          "word": "MANTARLAR",
+          "hint": "Genellikle ayrıştırıcı olan, bitkiler aleminden olmayan canlılar."
+        },
+        {
+          "word": "BAKTERİ̇LER",
+          "hint": "Çok çeşitli yaşam alanlarında bulunan mikroskobik canlılar."
+        },
+        {
+          "word": "İ̇NCE BAĞİRSAK",
+          "hint": "Besinlerin emiliminin büyük kısmının gerçekleştiği organ."
+        },
+        {
+          "word": "KALİN BAĞİRSAK",
+          "hint": "Suyun emildiği ve atıkların depolandığı organ."
+        },
+        {
+          "word": "VERİ̇MLİ̇Lİ̇K",
+          "hint": "Bir ekosistemin belirli bir alanda üretebildiği biyokütle miktarı."
+        },
+        {
+          "word": "EKOLOJİ̇K AYAK İ̇Zİ̇",
+          "hint": "İnsanların doğadan tükettiği ve uzaklaştırdığı kaynakların toplamı."
+        },
+        {
+          "word": "KÜRESEL İSİNMA",
+          "hint": "Dünya atmosferinin ortalama sıcaklığının artması."
+        },
+        {
+          "word": "ASİ̇T YAĞMURLARİ",
+          "hint": "Havadaki kirleticilerin yağmurla yeryüzüne inmesi."
+        },
+        {
+          "word": "SERA ETKİ̇Sİ̇",
+          "hint": "Atmosferin, Dünya'dan yayılan ısıyı tutması."
+        },
+        {
+          "word": "Kİ̇RLİ̇Lİ̇K",
+          "hint": "Çevreye zarar veren yabancı maddelerin varlığı."
+        }
       ]
     }
   ]

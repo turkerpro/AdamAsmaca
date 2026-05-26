@@ -3,25 +3,431 @@
     {
       "id": "fizik_u1",
       "name": "1. Ünite: Modern Fizik",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "FOTON", "hint": "Işığın enerji taşıyan temel parçacığı"},
-        {"word": "KUANTUM", "hint": "Enerjinin kesikli paketler hâlinde olduğu teori"},
-        {"word": "GÖRELİLİK", "hint": "Einstein'ın uzay-zaman ilişkisini açıklayan teorisi"},
-        {"word": "FOTOELEKTRIK", "hint": "Işığın metal yüzeyden elektron koparması olayı"},
-        {"word": "DALGA PARÇACIK", "hint": "Maddenin hem dalga hem parçacık özelliği göstermesi"}
+        {
+          "word": "FOTON",
+          "hint": "Işığın enerji taşıyan temel parçacığı"
+        },
+        {
+          "word": "KUANTUM",
+          "hint": "Enerjinin kesikli paketler hâlinde olduğu teori"
+        },
+        {
+          "word": "GÖRELİLİK",
+          "hint": "Einstein'ın uzay-zaman ilişkisini açıklayan teorisi"
+        },
+        {
+          "word": "FOTOELEKTRIK",
+          "hint": "Işığın metal yüzeyden elektron koparması olayı"
+        },
+        {
+          "word": "DALGA PARÇACIK",
+          "hint": "Maddenin hem dalga hem parçacık özelliği göstermesi"
+        },
+        {
+          "word": "ATOM",
+          "hint": "Maddenin en küçük yapı taşı"
+        },
+        {
+          "word": "NÜKLEON",
+          "hint": "Atom çekirdeğindeki parçacık (proton veya nötron)"
+        },
+        {
+          "word": "İZOTOP",
+          "hint": "Aynı sayıda protonu olan ama nötron sayısı farklı atom"
+        },
+        {
+          "word": "RADYOAKTİ̇F",
+          "hint": "Kararsız çekirdeklerin enerji yayımlaması durumu"
+        },
+        {
+          "word": "BOHR",
+          "hint": "Atom modelini geliştiren bilim insanı"
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme yeteneği"
+        },
+        {
+          "word": "GÖRELİ̇Lİ̇K",
+          "hint": "Einstein'ın zaman ve uzay anlayışını değiştiren teori (Bu kelimeyi kullanmayın)"
+        },
+        {
+          "word": "FOTOELEKTRİ̇K",
+          "hint": "Işığın metal yüzeyinden elektron sökmesi olayı (Bu kelimeyi kullanmayın)"
+        },
+        {
+          "word": "DALGABOYU",
+          "hint": "Dalganın tepecikleri arasındaki uzaklık"
+        },
+        {
+          "word": "FREKANS",
+          "hint": "Birim zamanda oluşan dalga sayısı"
+        },
+        {
+          "word": "SPEKTRUM",
+          "hint": "Işığın renklerine ayrılmış hali"
+        },
+        {
+          "word": "UYARİLMA",
+          "hint": "Bir atomun düşük enerji seviyesinden yüksek enerji seviyesine geçmesi"
+        },
+        {
+          "word": "TEMEL",
+          "hint": "Bir atomun en düşük enerji seviyesi"
+        },
+        {
+          "word": "ENERJİ̇_SEVİ̇YESİ̇",
+          "hint": "Atomun sahip olabileceği belirli enerji değerleri"
+        },
+        {
+          "word": "EMİ̇SYON",
+          "hint": "Atomun enerji yayımlayarak üst seviyeden alt seviyeye inmesi"
+        },
+        {
+          "word": "ABSORBSİ̇YON",
+          "hint": "Atomun enerji alarak alt seviyeden üst seviyeye çıkması"
+        },
+        {
+          "word": "FOTOĞRAF",
+          "hint": "Işığın kimyasal bir yüzeyde iz bırakmasıyla oluşan görüntü"
+        },
+        {
+          "word": "MATERYAL",
+          "hint": "Fiziksel varlığı olan her şey"
+        },
+        {
+          "word": "ELEKTRON",
+          "hint": "Negatif yüklü atom altı parçacık"
+        },
+        {
+          "word": "PROTON",
+          "hint": "Pozitif yüklü atom çekirdeği parçacığı"
+        },
+        {
+          "word": "NÖTRON",
+          "hint": "Yüksüz atom çekirdeği parçacığı"
+        },
+        {
+          "word": "YÖRÜNGE",
+          "hint": "Elektronun atom çekirdeği etrafındaki hareketi (Bohr modeline göre)"
+        },
+        {
+          "word": "ÇEKİ̇RDEK",
+          "hint": "Atomun merkezinde bulunan pozitif yüklü kısım"
+        },
+        {
+          "word": "BOŞLUK",
+          "hint": "Atomun büyük bir kısmını oluşturan yapı"
+        },
+        {
+          "word": "PLANK",
+          "hint": "Enerjinin kuantizasyonunu ilk öneren fizikçi"
+        },
+        {
+          "word": "İ̇ŞİK",
+          "hint": "Görmemizi sağlayan elektromanyetik dalga"
+        },
+        {
+          "word": "VARLİK",
+          "hint": "Bir şeyin olma durumu, mevcudiyet"
+        },
+        {
+          "word": "MADDESEL",
+          "hint": "Maddenin özelliklerini taşıyan"
+        },
+        {
+          "word": "KATİ",
+          "hint": "Belirli şekli ve hacmi olan madde hali"
+        },
+        {
+          "word": "SİVİ",
+          "hint": "Belirli hacmi olan ama şekli kabına göre değişen madde hali"
+        },
+        {
+          "word": "GAZ",
+          "hint": "Belirli şekli ve hacmi olmayan madde hali"
+        },
+        {
+          "word": "PLAZMA",
+          "hint": "Yüksek sıcaklıktaki iyonlaşmış gaz hali"
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Bir doğru boyunca hareket eden"
+        },
+        {
+          "word": "BAĞ",
+          "hint": "Atomları bir arada tutan kuvvet"
+        },
+        {
+          "word": "YAYİLİM",
+          "hint": "Bir dalganın veya parçacığın etrafa dağılması"
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Bir cismi hareket ettiren veya şeklini değiştiren etki"
+        },
+        {
+          "word": "MOMENTUM",
+          "hint": "Bir cismin hareket miktarını belirten nicelik"
+        },
+        {
+          "word": "HİZ",
+          "hint": "Bir cismin birim zamanda aldığı yol"
+        },
+        {
+          "word": "KÜTLE",
+          "hint": "Bir cisimdeki madde miktarı"
+        },
+        {
+          "word": "UZAY",
+          "hint": "Her şeyin içinde bulunduğu sonsuz boşluk"
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Olayların sıralandığı ve ölçüldüğü boyut"
+        },
+        {
+          "word": "DURUM",
+          "hint": "Bir nesnenin veya sistemin o anki hali"
+        },
+        {
+          "word": "BELİ̇RSİ̇ZLİ̇K",
+          "hint": "Heisenberg'in kuantum mekaniğindeki temel prensibi"
+        },
+        {
+          "word": "PARÇACİK",
+          "hint": "Maddenin en küçük birimi (Dalga özelliği de gösterebilir)"
+        },
+        {
+          "word": "DALGA",
+          "hint": "Enerjinin ortamda veya boşlukta yayılması (Parçacık özelliği de gösterebilir)"
+        }
       ]
     },
     {
       "id": "fizik_u2",
       "name": "2. Ünite: Atom Fiziği",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "ATOM", "hint": "Maddenin kimyasal özellik taşıyan en küçük birimi"},
-        {"word": "ÇEKIRDEK", "hint": "Atomun proton ve nötron içeren merkez bölgesi"},
-        {"word": "ELEKTRON", "hint": "Atom çekirdeği etrafında dolanan negatif parçacık"},
-        {"word": "RADYOAKTİF", "hint": "Kendiliğinden ışıma yapan kararsız atom özelliği"},
-        {"word": "FİSYON", "hint": "Ağır çekirdeğin parçalanarak enerji açığa çıkarması"}
+        {
+          "word": "ATOM",
+          "hint": "Maddenin kimyasal özellik taşıyan en küçük birimi"
+        },
+        {
+          "word": "ÇEKIRDEK",
+          "hint": "Atomun proton ve nötron içeren merkez bölgesi"
+        },
+        {
+          "word": "ELEKTRON",
+          "hint": "Atom çekirdeği etrafında dolanan negatif parçacık"
+        },
+        {
+          "word": "RADYOAKTİF",
+          "hint": "Kendiliğinden ışıma yapan kararsız atom özelliği"
+        },
+        {
+          "word": "FİSYON",
+          "hint": "Ağır çekirdeğin parçalanarak enerji açığa çıkarması"
+        },
+        {
+          "word": "NÖTRON",
+          "hint": "Atom çekirdeğinde bulunan, yüksüz temel parçacık."
+        },
+        {
+          "word": "PROTON",
+          "hint": "Atom çekirdeğinde bulunan, pozitif yüklü temel parçacık."
+        },
+        {
+          "word": "İ̇ZOTOP",
+          "hint": "Proton sayıları aynı, nötron sayıları farklı atomlar."
+        },
+        {
+          "word": "İ̇YON",
+          "hint": "Elektron almış veya vermiş atom veya molekül."
+        },
+        {
+          "word": "KATMAN",
+          "hint": "Elektronların bulunabileceği enerji düzeyleri."
+        },
+        {
+          "word": "YÖRÜNGE",
+          "hint": "Elektronların çekirdek etrafında izlediği varsayılan yol."
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "Bir sistemin iş yapabilme yeteneği."
+        },
+        {
+          "word": "FOTON",
+          "hint": "Işık enerjisinin temel birimi."
+        },
+        {
+          "word": "DALGA",
+          "hint": "Enerjinin ortam aracılığıyla yayılması."
+        },
+        {
+          "word": "PARÇACİK",
+          "hint": "Çok küçük madde birimi."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Bir sistemin belirli bir andaki hali."
+        },
+        {
+          "word": "GEÇİ̇Ş",
+          "hint": "Bir enerji seviyesinden diğerine hareket."
+        },
+        {
+          "word": "SALİNİM",
+          "hint": "Periyodik hareket veya titreşim."
+        },
+        {
+          "word": "SPOR",
+          "hint": "Atomlarda elektronların bulunabileceği enerji seviyeleri."
+        },
+        {
+          "word": "KANAL",
+          "hint": "Enerjinin veya parçacıkların aktığı yol."
+        },
+        {
+          "word": "YAYİLMA",
+          "hint": "Bir maddenin veya enerjinin geniş alanlara dağılması."
+        },
+        {
+          "word": "SOĞURMA",
+          "hint": "Enerjinin bir madde tarafından emilmesi."
+        },
+        {
+          "word": "GÖNDERİ̇M",
+          "hint": "Enerjinin veya sinyalin iletilmesi."
+        },
+        {
+          "word": "MADDESEL",
+          "hint": "Madde ile ilgili olan."
+        },
+        {
+          "word": "BOŞALTİM",
+          "hint": "Bir sistemden bir şeyin dışarı çıkması."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir olayı dikkatle izleme ve anlama."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Bir hipotezi test etmek için yapılan işlem."
+        },
+        {
+          "word": "TEORİ̇",
+          "hint": "Bir olguyu açıklayan mantıksal sistem."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Gerçek bir sistemi basitleştirerek temsil etme."
+        },
+        {
+          "word": "YASASAL",
+          "hint": "Doğa yasalarına uygun olan."
+        },
+        {
+          "word": "BAĞİNTİ",
+          "hint": "Nesneler veya olaylar arasındaki ilişki."
+        },
+        {
+          "word": "YAYİNİM",
+          "hint": "Işık veya radyasyonun yayılması."
+        },
+        {
+          "word": "Mİ̇KTAR",
+          "hint": "Bir şeyin ne kadar olduğunu belirten ölçü."
+        },
+        {
+          "word": "DEĞİ̇Şİ̇M",
+          "hint": "Bir durumdan başka bir duruma geçiş."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Cisimlerin hareketini değiştiren etki."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir kuvvetin etkili olduğu bölge."
+        },
+        {
+          "word": "ETKİ̇LEŞİ̇M",
+          "hint": "İki veya daha fazla şeyin birbirini karşılıklı olarak değiştirme."
+        },
+        {
+          "word": "Sİ̇STEM",
+          "hint": "Birbirine bağlı parçalardan oluşan bütün."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Bir şeyin oluştuğu temel düzen."
+        },
+        {
+          "word": "BOYUT",
+          "hint": "Bir nesnenin uzaydaki ölçüsü."
+        },
+        {
+          "word": "SÜRAT",
+          "hint": "Bir cismin birim zamanda aldığı yol."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Olayların birbirini takip etmesiyle oluşan süre."
+        },
+        {
+          "word": "UZAY",
+          "hint": "Var olan her şeyin içinde bulunduğu sonsuz boşluk."
+        },
+        {
+          "word": "BOZUNMA",
+          "hint": "Kararsız atom çekirdeklerinin parçalanması."
+        },
+        {
+          "word": "YARİ",
+          "hint": "Bir niceliğin tamamının yarısı."
+        },
+        {
+          "word": "PARÇACİKLAŞMA",
+          "hint": "Daha küçük parçalara ayrılma süreci."
+        },
+        {
+          "word": "Bİ̇LEŞKE",
+          "hint": "Birden fazla kuvvetin tek bir kuvvet gibi davranması."
+        },
+        {
+          "word": "EŞZAMANLİ",
+          "hint": "Aynı anda gerçekleşen."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Bir cismin dış kısmı veya sınırı."
+        },
+        {
+          "word": "ORTAM",
+          "hint": "Bir olayın gerçekleştiği çevre."
+        },
+        {
+          "word": "Mİ̇ZAÇ",
+          "hint": "Bir atomun veya maddenin kendine özgü karakteristiği."
+        }
       ]
     }
   ]

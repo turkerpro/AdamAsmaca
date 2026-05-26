@@ -3,25 +3,451 @@
     {
       "id": "ingilizce7_u1",
       "name": "1. Ünite: Travel",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "PASSPORT", "hint": "Yurt dışı seyahat için gerekli kimlik belgesi"},
-        {"word": "LUGGAGE", "hint": "Seyahatte taşınan bavul ve çantalar"},
-        {"word": "BOARDING", "hint": "Uçağa veya gemiye biniş işlemi"},
-        {"word": "DESTINATION", "hint": "Yolculuğun son varış noktası"},
-        {"word": "JOURNEY", "hint": "Bir yerden başka bir yere yapılan yolculuk"}
+        {
+          "word": "PASSPORT",
+          "hint": "Yurt dışı seyahat için gerekli kimlik belgesi"
+        },
+        {
+          "word": "LUGGAGE",
+          "hint": "Seyahatte taşınan bavul ve çantalar"
+        },
+        {
+          "word": "BOARDING",
+          "hint": "Uçağa veya gemiye biniş işlemi"
+        },
+        {
+          "word": "DESTINATION",
+          "hint": "Yolculuğun son varış noktası"
+        },
+        {
+          "word": "JOURNEY",
+          "hint": "Bir yerden başka bir yere yapılan yolculuk"
+        },
+        {
+          "word": "UÇAK",
+          "hint": "Gökyüzünde seyahat etmemizi sağlayan büyük bir araç."
+        },
+        {
+          "word": "Bİ̇LET",
+          "hint": "Uçağa veya trene binmek için gereken kağıt ya da dijital belge."
+        },
+        {
+          "word": "VALİ̇Z",
+          "hint": "Eşyalarımızı taşımak için kullandığımız büyük çanta."
+        },
+        {
+          "word": "PASAPORT",
+          "hint": "Yurt dışına seyahat ederken kimliğimizi kanıtlayan resmi belge."
+        },
+        {
+          "word": "GÜMRÜK",
+          "hint": "Ülkeye girerken veya çıkarken eşyalarımızı kontrol eden yer."
+        },
+        {
+          "word": "REHBER",
+          "hint": "Gezdiğimiz yerleri tanıtan ve bize yol gösteren kişi."
+        },
+        {
+          "word": "OLEY",
+          "hint": "Genellikle tatillerde kullanılan, dinlenmek ve eğlenmek için gidilen yer."
+        },
+        {
+          "word": "SEYAHAT",
+          "hint": "Bir yerden başka bir yere gitme eylemi."
+        },
+        {
+          "word": "BAGAJ",
+          "hint": "Uçak veya otobüsle taşınan eşyaların tümü."
+        },
+        {
+          "word": "BAKİYORUM",
+          "hint": "Bir yere gitmeden önce aldığımız, uçuş saatini gösteren belge."
+        },
+        {
+          "word": "HAVAALANİ",
+          "hint": "Uçakların kalktığı ve indiği büyük tesis."
+        },
+        {
+          "word": "Gİ̇DEN",
+          "hint": "Uçağa binmeden önce kimliğimizi kontrol eden görevli."
+        },
+        {
+          "word": "SAAT",
+          "hint": "Uçağın veya trenin kalkacağı zamanı gösteren."
+        },
+        {
+          "word": "VARACAĞİM",
+          "hint": "Gideceğimiz yer, tatil yapacağımız şehir veya ülke."
+        },
+        {
+          "word": "YOLCULUK",
+          "hint": "Bir yere gitmek için harcanan zaman ve mesafe."
+        },
+        {
+          "word": "OTEL",
+          "hint": "Seyahat edenlerin konakladığı yer."
+        },
+        {
+          "word": "MANZARA",
+          "hint": "Görülecek yerlerin güzelliği."
+        },
+        {
+          "word": "HATİRA",
+          "hint": "Seyahatten alınacak küçük hediyelik eşyalar."
+        },
+        {
+          "word": "TATİ̇L",
+          "hint": "Okul veya işten uzaklaşıp dinlenilen zaman."
+        },
+        {
+          "word": "KEŞFETMEK",
+          "hint": "Yeni yerler ve kültürler öğrenmek."
+        },
+        {
+          "word": "GÖRMEK",
+          "hint": "Seyahat ettiğimiz yerlerdeki ilginç yapıları incelemek."
+        },
+        {
+          "word": "Dİ̇NLENMEK",
+          "hint": "Tatil sırasında yapılan sakinleştirici aktiviteler."
+        },
+        {
+          "word": "EĞLENMEK",
+          "hint": "Seyahat sırasında keyifli vakit geçirmek."
+        },
+        {
+          "word": "FOTOĞRAF",
+          "hint": "Seyahat anılarını ölümsüzleştirmek için çekilen resim."
+        },
+        {
+          "word": "YOL",
+          "hint": "Bir yere ulaşmak için izlenen güzergah."
+        },
+        {
+          "word": "BAŞKA",
+          "hint": "Farklı, değişik."
+        },
+        {
+          "word": "ÜLKE",
+          "hint": "Bir milletin yaşadığı ve kendi yönetiminin olduğu toprak parçası."
+        },
+        {
+          "word": "ŞEHİ̇R",
+          "hint": "Büyük yerleşim yeri."
+        },
+        {
+          "word": "KÖY",
+          "hint": "Küçük yerleşim yeri."
+        },
+        {
+          "word": "DENİ̇Z",
+          "hint": "Geniş ve tuzlu su kütlesi."
+        },
+        {
+          "word": "DAĞ",
+          "hint": "Yüksek yeryüzü şekli."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Ağaçlarla kaplı geniş alan."
+        },
+        {
+          "word": "MÜZE",
+          "hint": "Tarihi ve sanatsal eserlerin sergilendiği yer."
+        },
+        {
+          "word": "TARİ̇Hİ̇",
+          "hint": "Geçmişe ait, eski."
+        },
+        {
+          "word": "YER",
+          "hint": "Bir mekan, bir bölge."
+        },
+        {
+          "word": "Vİ̇Zİ̇T",
+          "hint": "Belirli bir ülkeye giriş izni."
+        },
+        {
+          "word": "YAKİT",
+          "hint": "Uçağın veya arabanın çalışmasını sağlayan madde."
+        },
+        {
+          "word": "KAPTAN",
+          "hint": "Uçağın veya geminin idarecisi."
+        },
+        {
+          "word": "Pİ̇LOT",
+          "hint": "Uçağı uçuran kişi."
+        },
+        {
+          "word": "KABİ̇N",
+          "hint": "Uçağın yolcu bölümü."
+        },
+        {
+          "word": "KOKPİ̇T",
+          "hint": "Uçağın pilotların oturduğu ön bölümü."
+        },
+        {
+          "word": "İ̇STASYON",
+          "hint": "Trenlerin durduğu ve yolcu aldığı yer."
+        },
+        {
+          "word": "İ̇Nİ̇Ş",
+          "hint": "Uçağın yere konması."
+        },
+        {
+          "word": "KALKİŞ",
+          "hint": "Uçağın yerden havalanması."
+        },
+        {
+          "word": "BAĞLANTİ",
+          "hint": "Aktarma yapılan uçuş veya şehir."
+        },
+        {
+          "word": "HARİ̇TA",
+          "hint": "Yerleri gösteren çizim."
+        },
+        {
+          "word": "VAKİ̇T",
+          "hint": "Zaman, süre."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Tatilde hissedilen rahatlık."
+        },
+        {
+          "word": "MACERA",
+          "hint": "Heyecan verici, riskli deneyim."
+        },
+        {
+          "word": "BELGESEL",
+          "hint": "Seyahatle ilgili eğitici film."
+        },
+        {
+          "word": "GEZİ̇",
+          "hint": "Kısa süreli seyahat."
+        }
       ]
     },
     {
       "id": "ingilizce7_u2",
       "name": "2. Ünite: Environment",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "POLLUTION", "hint": "Çevreyi kirleten zararlı maddelerin yayılması"},
-        {"word": "RECYCLE", "hint": "Atıkları yeniden kullanılabilir hale getirme"},
-        {"word": "CLIMATE", "hint": "Bir bölgenin uzun süreli hava koşulları"},
-        {"word": "ENDANGERED", "hint": "Nesli tükenme tehlikesi altında olan"},
-        {"word": "HABITAT", "hint": "Canlıların doğal yaşam alanı"}
+        {
+          "word": "POLLUTION",
+          "hint": "Çevreyi kirleten zararlı maddelerin yayılması"
+        },
+        {
+          "word": "RECYCLE",
+          "hint": "Atıkları yeniden kullanılabilir hale getirme"
+        },
+        {
+          "word": "CLIMATE",
+          "hint": "Bir bölgenin uzun süreli hava koşulları"
+        },
+        {
+          "word": "ENDANGERED",
+          "hint": "Nesli tükenme tehlikesi altında olan"
+        },
+        {
+          "word": "HABITAT",
+          "hint": "Canlıların doğal yaşam alanı"
+        },
+        {
+          "word": "DOĞA",
+          "hint": "Üzerinde yaşadığımız, canlı ve cansız varlıkları barındıran geniş alan."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Bir canlının içinde yaşadığı, onu etkileyen her şey."
+        },
+        {
+          "word": "AĞAÇ",
+          "hint": "Yaprakları olan, kereste ve meyve veren büyük bitki."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Birçok ağacın bir arada bulunduğu geniş alan."
+        },
+        {
+          "word": "NEHİ̇R",
+          "hint": "Denize veya göle dökülen büyük su yolu."
+        },
+        {
+          "word": "GÖL",
+          "hint": "Etrafı kara ile çevrili büyük durgun su kütlesi."
+        },
+        {
+          "word": "OKYANUS",
+          "hint": "Dünyanın büyük bir kısmını kaplayan çok büyük tuzlu su kütlesi."
+        },
+        {
+          "word": "DAĞ",
+          "hint": "Yüksek ve sarp yeryüzü şekli."
+        },
+        {
+          "word": "OVA",
+          "hint": "Düz ve geniş arazi."
+        },
+        {
+          "word": "VAHA",
+          "hint": "Çöl içindeki su kaynağı ve çevresindeki yeşil alan."
+        },
+        {
+          "word": "Bİ̇TKİ̇",
+          "hint": "Kökü, gövdesi ve yaprakları olan canlı varlık."
+        },
+        {
+          "word": "HAYVAN",
+          "hint": "Yürüyebilen, beslenebilen, çoğalabilen canlı varlık."
+        },
+        {
+          "word": "KUŞ",
+          "hint": "Kanatları olan, uçabilen hayvan."
+        },
+        {
+          "word": "BALİK",
+          "hint": "Suda yaşayan, solungaçlarıyla nefes alan hayvan."
+        },
+        {
+          "word": "BÖCEK",
+          "hint": "Küçük, genellikle altı bacaklı eklembacaklı."
+        },
+        {
+          "word": "SOYU TÜKENMEK",
+          "hint": "Bir canlının artık yeryüzünde hiç kalmaması durumu."
+        },
+        {
+          "word": "YAŞAM ALANİ",
+          "hint": "Bir canlının beslenip barındığı yer."
+        },
+        {
+          "word": "GEZEGEN",
+          "hint": "Güneş etrafında dönen gök cismi."
+        },
+        {
+          "word": "ATMOSFER",
+          "hint": "Dünyayı saran gaz tabakası."
+        },
+        {
+          "word": "İ̇KLİ̇M DEĞİ̇Şİ̇KLİ̇Ğİ̇",
+          "hint": "Uzun süreli hava durumu değişimleri."
+        },
+        {
+          "word": "KÜRESEL İSİNMA",
+          "hint": "Dünya'nın ortalama sıcaklığının artması."
+        },
+        {
+          "word": "TEHLİ̇KE",
+          "hint": "Zarar görme veya kötü bir şey olma ihtimali."
+        },
+        {
+          "word": "Kİ̇RLİ̇Lİ̇K",
+          "hint": "Çevreye zararlı maddelerin karışması."
+        },
+        {
+          "word": "ATİK",
+          "hint": "Kullanıldıktan sonra işe yaramayan madde."
+        },
+        {
+          "word": "GERİ̇ DÖNÜŞÜM",
+          "hint": "Kullanılmış eşyaları tekrar kullanılabilir hale getirme süreci."
+        },
+        {
+          "word": "KORUMAK",
+          "hint": "Bir şeyi zarar görmekten sakınmak."
+        },
+        {
+          "word": "TASARRUF",
+          "hint": "Meydana gelen israfı önlemek."
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme gücü."
+        },
+        {
+          "word": "SU KAYNAĞİ",
+          "hint": "Suyun bulunduğu yer veya elde edildiği yer."
+        },
+        {
+          "word": "HAVA KALİ̇TESİ̇",
+          "hint": "Soluduğumuz havanın temizlik derecesi."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Yeryüzünün üst katmanı, bitkilerin yetiştiği yer."
+        },
+        {
+          "word": "Bİ̇YOSFER",
+          "hint": "Canlıların yaşadığı, atmosfer, litosfer ve hidrosferin birleştiği alan."
+        },
+        {
+          "word": "EKOSİ̇STEM",
+          "hint": "Belirli bir alandaki canlılar ve cansız çevre arasındaki etkileşim."
+        },
+        {
+          "word": "Mİ̇GRASYON",
+          "hint": "Hayvanların mevsimlere göre yer değiştirmesi."
+        },
+        {
+          "word": "SOY",
+          "hint": "Ortak atadan gelen canlı topluluğu."
+        },
+        {
+          "word": "ÇEVRE Bİ̇Lİ̇NCİ̇",
+          "hint": "Çevre sorunları hakkında bilgi sahibi olma ve duyarlılık."
+        },
+        {
+          "word": "DOĞAL AFET",
+          "hint": "Deprem, sel, fırtına gibi doğanın sebep olduğu büyük olay."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Bir şeyin elde edildiği veya üretildiği yer."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİ̇Lİ̇RLİ̇K",
+          "hint": "Doğal kaynakları tüketmeden gelecek nesillerin ihtiyaçlarını karşılama."
+        },
+        {
+          "word": "Vİ̇RÜS",
+          "hint": "Çok küçük, canlı hücrelere zarar verebilen mikroskobik varlık."
+        },
+        {
+          "word": "BAKTERİ̇",
+          "hint": "Tek hücreli mikroskobik canlı."
+        },
+        {
+          "word": "MASKE",
+          "hint": "Yüzü örtmek için kullanılan araç."
+        },
+        {
+          "word": "EL YİKAMA",
+          "hint": "Elleri sabun ve suyla temizleme eylemi."
+        },
+        {
+          "word": "MESAFE",
+          "hint": "İki nokta arasındaki uzaklık."
+        },
+        {
+          "word": "ECOSYSTEM",
+          "hint": "A biological community of interacting organisms and their physical environment"
+        }
       ]
     }
   ]

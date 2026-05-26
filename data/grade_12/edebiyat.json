@@ -3,25 +3,487 @@
     {
       "id": "edebiyat_u1",
       "name": "1. Ünite: Cumhuriyet Dönemi Edebiyatı",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "GARİP AKIMI", "hint": "Orhan Veli'nin öncülük ettiği şiir hareketi"},
-        {"word": "ORHAN VELİ", "hint": "Serbest şiirin öncüsü olan Garip akımı şairi"},
-        {"word": "YAŞAR KEMAL", "hint": "İnce Memed romanının yazarı"},
-        {"word": "TOPLUMCU", "hint": "Sosyal sorunları konu alan gerçekçi edebiyat anlayışı"},
-        {"word": "HİKÂYE", "hint": "Kısa anlatıya dayanan düzyazı türü"}
+        {
+          "word": "GARİP AKIMI",
+          "hint": "Orhan Veli'nin öncülük ettiği şiir hareketi"
+        },
+        {
+          "word": "ORHAN VELİ",
+          "hint": "Serbest şiirin öncüsü olan Garip akımı şairi"
+        },
+        {
+          "word": "YAŞAR KEMAL",
+          "hint": "İnce Memed romanının yazarı"
+        },
+        {
+          "word": "TOPLUMCU",
+          "hint": "Sosyal sorunları konu alan gerçekçi edebiyat anlayışı"
+        },
+        {
+          "word": "HİKÂYE",
+          "hint": "Kısa anlatıya dayanan düzyazı türü"
+        },
+        {
+          "word": "REALİ̇ZM",
+          "hint": "Gerçekleri olduğu gibi yansıtan sanat akımı."
+        },
+        {
+          "word": "NATÜRALİ̇ZM",
+          "hint": "Bilimsel yöntemleri edebiyata uygulayan akım."
+        },
+        {
+          "word": "SEMMBOLİ̇ZM",
+          "hint": "Duygu ve düşünceleri sembollerle anlatan akım."
+        },
+        {
+          "word": "PARNASİ̇ZM",
+          "hint": "Şiirde güzelliği ve biçimi ön plana çıkaran akım."
+        },
+        {
+          "word": "Sİ̇MGECİ̇Lİ̇K",
+          "hint": "Anlamı dolaylı yollardan anlatan, kapalılık içeren sanat."
+        },
+        {
+          "word": "EPİ̇K",
+          "hint": "Kahramanlık, yiğitlik konularını işleyen destansı."
+        },
+        {
+          "word": "Lİ̇Rİ̇K",
+          "hint": "Duygu ve coşkuyu dile getiren şiir türü."
+        },
+        {
+          "word": "ROMANTİ̇ZM",
+          "hint": "Duygusal yoğunluk ve hayal gücünü öne çıkaran akım."
+        },
+        {
+          "word": "MODERNİ̇ZM",
+          "hint": "Eski kalıpları yıkan, yenilikçi sanat anlayışı."
+        },
+        {
+          "word": "POSTMODERNİ̇ZM",
+          "hint": "Modernizmin eleştirisi, çok seslilik, ironi."
+        },
+        {
+          "word": "Mİ̇TOLOJİ̇",
+          "hint": "Tanrılar, kahramanlar ve doğaüstü olayları konu alan anlatılar."
+        },
+        {
+          "word": "Bİ̇REYSELLEŞME",
+          "hint": "Toplumdan ziyade kişinin kendi iç dünyasına yönelmesi."
+        },
+        {
+          "word": "TOPLUMSALLİK",
+          "hint": "Edebiyatta toplumsal sorunlara, halka odaklanma."
+        },
+        {
+          "word": "HALK EDEBİ̇YATİ",
+          "hint": "Cönklerde, nefeslerde yaşayan sözlü gelenek."
+        },
+        {
+          "word": "Dİ̇VAN EDEBİ̇YATİ",
+          "hint": "Saray ve çevresinde gelişen, aruz ölçülü sanat."
+        },
+        {
+          "word": "TENKİ̇T",
+          "hint": "Eserleri değerlendirme, eleştirme sanatı."
+        },
+        {
+          "word": "DENEME",
+          "hint": "Yazarın kendi düşüncelerini serbestçe anlattığı yazı türü."
+        },
+        {
+          "word": "ROPORAJ",
+          "hint": "Gazetecilikte, bir konu hakkında derinlemesine inceleme."
+        },
+        {
+          "word": "ANİ",
+          "hint": "Geçmişte yaşanmış olayların üzerinden zaman geçince anlatılması."
+        },
+        {
+          "word": "GEZİ̇ YAZİSİ",
+          "hint": "Farklı yerler hakkında bilgi veren eser."
+        },
+        {
+          "word": "Bİ̇YOGRAFİ̇",
+          "hint": "Bir kişinin yaşam öyküsünü anlatan eser."
+        },
+        {
+          "word": "OTOBİ̇YOGRAFİ̇",
+          "hint": "Yazarın kendi yaşamını anlattığı eser."
+        },
+        {
+          "word": "MEKTUP",
+          "hint": "İki kişi arasındaki yazılı iletişim aracı."
+        },
+        {
+          "word": "SÖYLEV",
+          "hint": "Topluluk önünde yapılan konuşma, nutuk."
+        },
+        {
+          "word": "OTOPORTRE",
+          "hint": "Sanatçının kendi kendisini tasvir etmesi."
+        },
+        {
+          "word": "BELGESEL",
+          "hint": "Gerçek olayları konu alan film."
+        },
+        {
+          "word": "Dİ̇YALEKTİ̇K",
+          "hint": "Karşılıklı konuşma ve tartışma yoluyla gerçeği bulma."
+        },
+        {
+          "word": "İ̇RONİ̇",
+          "hint": "Söylenenin tam tersini kastetme."
+        },
+        {
+          "word": "ALİ̇ TERİ̇ZM",
+          "hint": "Gerçeküstücü, bilinçaltını yansıtan akım."
+        },
+        {
+          "word": "SÜREALİ̇ZM",
+          "hint": "Gerçeküstücülük, rüya ve bilinçaltını konu alan akım."
+        },
+        {
+          "word": "SOYUT",
+          "hint": "Somut olmayan, kafa ve duyularla kavranan."
+        },
+        {
+          "word": "SOMUT",
+          "hint": "Dokunulabilen, görülebilen, elle tutulur."
+        },
+        {
+          "word": "ANLATİM",
+          "hint": "Bir olayı veya düşünceyi sözle veya yazıyla ifade etme."
+        },
+        {
+          "word": "Bİ̇Çİ̇M",
+          "hint": "Eserin dış yapısı, sanatsal düzen."
+        },
+        {
+          "word": "İ̇ÇERİ̇K",
+          "hint": "Eserin ele aldığı konu, tema."
+        },
+        {
+          "word": "Dİ̇L Bİ̇RLİ̇Ğİ̇",
+          "hint": "Milletlerin ortak kullandığı yazı ve konuşma dili."
+        },
+        {
+          "word": "Kİ̇TLE İ̇LETİ̇Şİ̇Mİ̇",
+          "hint": "Büyük kitlelere mesaj ulaştırma."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Bir eserin anlamını açıklama."
+        },
+        {
+          "word": "ELEŞTİ̇Rİ̇",
+          "hint": "Bir eseri değerlendirme, olumlu ve olumsuz yönlerini belirtme."
+        },
+        {
+          "word": "SANAT AKİMİ",
+          "hint": "Belirli özelliklere sahip sanatçıların oluşturduğu topluluk."
+        },
+        {
+          "word": "Bİ̇Lİ̇NÇ AKİMİ",
+          "hint": "Kişinin düşüncelerini olduğu gibi aktarma tekniği."
+        },
+        {
+          "word": "MONOLOG",
+          "hint": "Tek kişinin kendi kendine konuştuğu tiyatro formu."
+        },
+        {
+          "word": "Dİ̇YALOG",
+          "hint": "İki veya daha fazla kişinin konuşması."
+        },
+        {
+          "word": "KARAKTER",
+          "hint": "Bir eserde rol alan kişi."
+        },
+        {
+          "word": "OLAY ÖRGÜSÜ",
+          "hint": "Bir eserdeki gelişmelerin sıralanışı."
+        },
+        {
+          "word": "BAĞLAM",
+          "hint": "Bir kelime veya cümlenin içinde bulunduğu durum."
+        },
+        {
+          "word": "DEYİ̇M",
+          "hint": "Kalıplaşmış söz grubu, mecazi anlam taşıyan."
+        },
+        {
+          "word": "ATASÖZÜ",
+          "hint": "Kısa ve özlü öğüt veren kalıplaşmış söz."
+        },
+        {
+          "word": "MECRA",
+          "hint": "Bir şeyin aktığı veya ilerlediği yol."
+        },
+        {
+          "word": "Vİ̇ZYON",
+          "hint": "Geleceğe yönelik tasarı, öngörü."
+        },
+        {
+          "word": "Mİ̇SYON",
+          "hint": "Görevi, amacı."
+        },
+        {
+          "word": "ESTETİ̇K",
+          "hint": "Güzellik duygusu ve bilimi."
+        },
+        {
+          "word": "ENTELLEKTÜEL",
+          "hint": "Aydın, düşünür kimse."
+        },
+        {
+          "word": "FOLKLOR",
+          "hint": "Halk bilimi, halkın sözlü ve yazılı ürünleri."
+        }
       ]
     },
     {
       "id": "edebiyat_u2",
       "name": "2. Ünite: Çağdaş Türk Edebiyatı",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "POSTMODERN", "hint": "Geleneksel anlatı kalıplarını kıran çağdaş yaklaşım"},
-        {"word": "ORHAN PAMUK", "hint": "Nobel Edebiyat Ödülü alan Türk yazar"},
-        {"word": "İÇ MONOLOG", "hint": "Kahramanın iç dünyasını aktaran anlatım tekniği"},
-        {"word": "BİLİNÇ AKIŞI", "hint": "Düşüncelerin kesintisiz aktarıldığı anlatım yöntemi"},
-        {"word": "MİNİMALİZM", "hint": "Az sözle çok anlatan yalın edebiyat anlayışı"}
+        {
+          "word": "POSTMODERN",
+          "hint": "Geleneksel anlatı kalıplarını kıran çağdaş yaklaşım"
+        },
+        {
+          "word": "ORHAN PAMUK",
+          "hint": "Nobel Edebiyat Ödülü alan Türk yazar"
+        },
+        {
+          "word": "İÇ MONOLOG",
+          "hint": "Kahramanın iç dünyasını aktaran anlatım tekniği"
+        },
+        {
+          "word": "BİLİNÇ AKIŞI",
+          "hint": "Düşüncelerin kesintisiz aktarıldığı anlatım yöntemi"
+        },
+        {
+          "word": "MİNİMALİZM",
+          "hint": "Az sözle çok anlatan yalın edebiyat anlayışı"
+        },
+        {
+          "word": "SEZGİ",
+          "hint": "Doğrudan akıl yürütme olmaksızın bir şeyin anlaşılması veya bilinmesi."
+        },
+        {
+          "word": "PARODİ",
+          "hint": "Bir yazarın veya sanatçının tarzını taklit ederek mizahi bir etki yaratma sanatı."
+        },
+        {
+          "word": "METİN",
+          "hint": "Herhangi bir iletinin yazılı veya sözlü hali."
+        },
+        {
+          "word": "ANLATİCİ",
+          "hint": "Bir hikayeyi veya olayı aktaran kişi veya ses."
+        },
+        {
+          "word": "PERSPEKTİF",
+          "hint": "Bir olaya veya duruma bakış açısı."
+        },
+        {
+          "word": "SEMBOLİZM",
+          "hint": "Soyut fikirleri veya duyguları temsil etmek için sembollerin kullanıldığı edebi akım."
+        },
+        {
+          "word": "GERÇEKÇİLİK",
+          "hint": "Hayatı olduğu gibi, süslemeden yansıtmayı amaçlayan edebi akım."
+        },
+        {
+          "word": "NATÜRALİZM",
+          "hint": "Gerçekçiliğin daha da ileri götürülerek, insanın biyolojik ve çevresel etkenlerle belirlendiğini savunan akım."
+        },
+        {
+          "word": "SÜREALLİZM",
+          "hint": "Bilinçaltı dünyasını, rüyaları konu edinen sanat akımı."
+        },
+        {
+          "word": "Mİ̇TOLOJİ̇",
+          "hint": "Bir topluluğun kültürel veya dini inançlarını oluşturan efsaneler bütünü."
+        },
+        {
+          "word": "ARKETİP",
+          "hint": "Psikolojide ve edebiyatta, evrensel olarak tanınan orijinal model veya örnek."
+        },
+        {
+          "word": "DURUŞ",
+          "hint": "Sanatçının veya eserin dünyaya bakış açısı, tavrı."
+        },
+        {
+          "word": "İ̇RONİ̇",
+          "hint": "Söylenenin tam tersini kastetme sanatı."
+        },
+        {
+          "word": "MECAZ",
+          "hint": "Bir kelimeyi veya ifadeyi gerçek anlamından farklı bir anlamda kullanma sanatı."
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Bir şeyi temsil eden işaret veya nesne."
+        },
+        {
+          "word": "ANLAM",
+          "hint": "Bir kelimenin, cümlenin veya eserin taşıdığı düşünce."
+        },
+        {
+          "word": "MESAJ",
+          "hint": "Eserin okuyucuya iletmek istediği ana fikir."
+        },
+        {
+          "word": "ÜSLUP",
+          "hint": "Yazarın kendine özgü anlatım biçimi."
+        },
+        {
+          "word": "BİÇEM",
+          "hint": "Yazarın kelime seçimi, cümle yapısı ve anlatım tekniği."
+        },
+        {
+          "word": "ÖZGÜNLÜK",
+          "hint": "Daha önce benzeri görülmemiş, kendine has olma durumu."
+        },
+        {
+          "word": "KÜRESELLEŞME",
+          "hint": "Dünyanın siyasi, ekonomik, kültürel ve teknolojik olarak bütünleşmesi süreci."
+        },
+        {
+          "word": "Kİ̇MLİ̇K",
+          "hint": "Bireyin veya toplumun kendini tanımlama biçimi."
+        },
+        {
+          "word": "BELLEK",
+          "hint": "Geçmiş yaşantıların zihinde saklanması ve hatırlanması."
+        },
+        {
+          "word": "GEÇMİŞ",
+          "hint": "Yaşanmış zaman dilimi."
+        },
+        {
+          "word": "GELECEK",
+          "hint": "Henüz yaşanmamış zaman dilimi."
+        },
+        {
+          "word": "DENEYİ̇M",
+          "hint": "Bir olayı yaşayarak edinilen bilgi veya beceri."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "İç dünyada yaşanan coşku, keder, korku gibi tepkiler."
+        },
+        {
+          "word": "DÜŞÜNCE",
+          "hint": "Zihinde oluşan fikir, tasarı."
+        },
+        {
+          "word": "EĞİLİM",
+          "hint": "Bir şeye karşı olan yatkınlık veya yönelim."
+        },
+        {
+          "word": "ETKİLEŞİM",
+          "hint": "Birbirini karşılıklı olarak etkileme durumu."
+        },
+        {
+          "word": "FARKLİLAŞMA",
+          "hint": "Kendine özgü nitelikler kazanma, diğerlerinden ayrılma."
+        },
+        {
+          "word": "GENELLEYEN",
+          "hint": "Özelden genele doğru bir çıkarım yapan."
+        },
+        {
+          "word": "Hİ̇KAYECİ̇",
+          "hint": "Olay anlatan, hikaye yazan kişi."
+        },
+        {
+          "word": "KAOS",
+          "hint": "Tam bir düzensizlik, karışıklık durumu."
+        },
+        {
+          "word": "KARMAŞA",
+          "hint": "Çok sayıda unsurun birbirine girdiği, anlaşılması güç durum."
+        },
+        {
+          "word": "KONTRAST",
+          "hint": "Zıtlık, karşıtlık."
+        },
+        {
+          "word": "MELANKOLİ̇",
+          "hint": "Derin bir üzüntü, keder hali."
+        },
+        {
+          "word": "METAFOR",
+          "hint": "Bir şeyi başka bir şeye benzeterek anlatma sanatı, eğretileme."
+        },
+        {
+          "word": "MOZAİ̇K",
+          "hint": "Küçük parçaların bir araya gelerek oluşturduğu büyük bütün."
+        },
+        {
+          "word": "OBJEKTİ̇F",
+          "hint": "Kişisel duygu ve düşüncelerden uzak, somut gerçeklere dayanan."
+        },
+        {
+          "word": "OPERA",
+          "hint": "Sahne sanatlarının bir türü; müzik ve oyunun birleşimi."
+        },
+        {
+          "word": "PARALLEL",
+          "hint": "Aynı doğrultuda giden, birbirine benzeyen."
+        },
+        {
+          "word": "PLATO",
+          "hint": "Bir fikrin veya konunun teorik çerçevesi."
+        },
+        {
+          "word": "REFLEKS",
+          "hint": "İçgüdüsel tepki, ani hareket."
+        },
+        {
+          "word": "RETORİ̇K",
+          "hint": "Etkili konuşma ve yazma sanatı."
+        },
+        {
+          "word": "SEMANTİK",
+          "hint": "Kelimelerin ve ifadelerin anlamlarıyla ilgili inceleme."
+        },
+        {
+          "word": "Sİ̇MGESEL",
+          "hint": "Sembollere dayanan, sembolik anlamlar taşıyan."
+        },
+        {
+          "word": "TARTİŞMACİ",
+          "hint": "Bir konuda fikirlerini savunan ve karşı çıkan kişi."
+        },
+        {
+          "word": "TEZLİ̇",
+          "hint": "Savunulan bir görüşü olan, iddialı."
+        },
+        {
+          "word": "TUTARLİLİK",
+          "hint": "Çelişki olmaksızın birbirine uyumlu olma durumu."
+        },
+        {
+          "word": "YANSİMA",
+          "hint": "Bir durumu veya olayı başka bir varlıkta gösterme."
+        }
       ]
     }
   ]

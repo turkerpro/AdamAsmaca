@@ -3,25 +3,431 @@
     {
       "id": "ingilizce_u1",
       "name": "1. Ünite: Psychology",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "BEHAVIOR", "hint": "Observable actions and reactions of a person"},
-        {"word": "ANXIETY", "hint": "A feeling of worry and nervousness"},
-        {"word": "COGNITION", "hint": "Mental process of acquiring knowledge"},
-        {"word": "EMPATHY", "hint": "Ability to understand another person's feelings"},
-        {"word": "PERCEPTION", "hint": "The way we interpret sensory information"}
+        {
+          "word": "BEHAVIOR",
+          "hint": "Observable actions and reactions of a person"
+        },
+        {
+          "word": "ANXIETY",
+          "hint": "A feeling of worry and nervousness"
+        },
+        {
+          "word": "COGNITION",
+          "hint": "Mental process of acquiring knowledge"
+        },
+        {
+          "word": "EMPATHY",
+          "hint": "Ability to understand another person's feelings"
+        },
+        {
+          "word": "PERCEPTION",
+          "hint": "The way we interpret sensory information"
+        },
+        {
+          "word": "PSİ̇KOLOJİ̇",
+          "hint": "İnsan zihnini ve davranışlarını inceleyen bilim dalı."
+        },
+        {
+          "word": "Bİ̇Lİ̇NÇ",
+          "hint": "Kendinin ve çevresinin farkında olma durumu."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Sevinç, üzüntü, korku gibi içsel yaşantılar."
+        },
+        {
+          "word": "HAFİZA",
+          "hint": "Bilgileri depolama, saklama ve geri çağırma yeteneği."
+        },
+        {
+          "word": "ÖĞRENME",
+          "hint": "Deneyimler yoluyla bilgi veya beceri kazanma süreci."
+        },
+        {
+          "word": "Kİ̇Şİ̇Lİ̇K",
+          "hint": "Bir bireyi diğerlerinden ayıran düşünce, duygu ve davranış kalıpları."
+        },
+        {
+          "word": "MOTİ̇VASYON",
+          "hint": "Bir hedefe ulaşmak için gösterilen çaba ve isteklilik."
+        },
+        {
+          "word": "STRES",
+          "hint": "Zihinsel veya duygusal baskı durumu."
+        },
+        {
+          "word": "DEPRESYON",
+          "hint": "Sürekli üzgünlük ve ilgi kaybı ile karakterize bir ruh hali bozukluğu."
+        },
+        {
+          "word": "PANİ̇K",
+          "hint": "Ani ve yoğun korku veya endişe duygusu."
+        },
+        {
+          "word": "FOBİ̇",
+          "hint": "Belirli bir nesneye veya duruma karşı mantıksız korku."
+        },
+        {
+          "word": "TRAVMA",
+          "hint": "Zihinsel veya duygusal olarak yaralayıcı bir olay."
+        },
+        {
+          "word": "TERAPİ̇",
+          "hint": "Ruh sağlığı sorunlarını çözmek için uygulanan tedavi yöntemi."
+        },
+        {
+          "word": "DURUMSAL",
+          "hint": "Belirli bir duruma veya bağlama bağlı olan."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Bir şeyi elde etmenin veya kullanmanın yolu."
+        },
+        {
+          "word": "BAŞA ÇİKMA",
+          "hint": "Zor durumlarla başa çıkma mekanizması."
+        },
+        {
+          "word": "GELİ̇Şİ̇M",
+          "hint": "Yaşam boyunca devam eden fiziksel, zihinsel ve duygusal değişiklikler."
+        },
+        {
+          "word": "UYUM",
+          "hint": "Çevresel koşullara göre kendini ayarlama."
+        },
+        {
+          "word": "İ̇ÇGÖRÜ",
+          "hint": "Bir durumun veya problemin derinlemesine anlaşılması."
+        },
+        {
+          "word": "YARGİLAMA",
+          "hint": "Bir kişinin veya durumun değerini veya doğruluğunu değerlendirme."
+        },
+        {
+          "word": "SAVUNMA",
+          "hint": "Zarardan korunmak için geliştirilen psikolojik mekanizma."
+        },
+        {
+          "word": "KAYİP",
+          "hint": "Sevilen bir şeyi veya kişiyi yitirme durumu."
+        },
+        {
+          "word": "YAS",
+          "hint": "Kayıp sonrası yaşanan duygusal süreç."
+        },
+        {
+          "word": "İ̇LETİ̇Şİ̇M",
+          "hint": "Bilgi, duygu veya düşüncelerin paylaşılması."
+        },
+        {
+          "word": "İ̇DDİ̇A",
+          "hint": "Bir şeyin doğru olduğuna inanma."
+        },
+        {
+          "word": "YANSİTMA",
+          "hint": "Kendi düşünce veya duygularını başkasına atfetme."
+        },
+        {
+          "word": "DÖNÜŞTÜRME",
+          "hint": "Bir şeyi başka bir şeye çevirme."
+        },
+        {
+          "word": "KONTROL",
+          "hint": "Bir şeyi yönetme veya sınırlama yeteneği."
+        },
+        {
+          "word": "ÖZGÜVEN",
+          "hint": "Kişinin kendine olan inancı ve değeri."
+        },
+        {
+          "word": "YALNİZLİK",
+          "hint": "Toplumsal bağlardan kopuk hissetme durumu."
+        },
+        {
+          "word": "GÜVEN",
+          "hint": "Birine veya bir şeye inanma ve yaslanma."
+        },
+        {
+          "word": "DENGESİ̇ZLİ̇K",
+          "hint": "Ruhsal veya duygusal istikrarsızlık hali."
+        },
+        {
+          "word": "Bİ̇Lİ̇NÇALTİ",
+          "hint": "Bilincimizin derinliklerinde yer alan, farkında olmadığımız düşünce ve dürtüler."
+        },
+        {
+          "word": "İ̇ÇSEL ÇATİŞMA",
+          "hint": "Bir kişinin kendi içinde yaşadığı zıt istekler veya değerler arasındaki mücadele."
+        },
+        {
+          "word": "OLUMLAMA",
+          "hint": "Olumlu düşünceleri tekrarlayarak zihni yeniden programlama."
+        },
+        {
+          "word": "GERİ̇LMİ̇Ş",
+          "hint": "Aşırı baskı veya stres altında olma durumu."
+        },
+        {
+          "word": "TUTUM",
+          "hint": "Bir konuya karşı eğilim veya hazırlıklı olma hali."
+        },
+        {
+          "word": "DAVRANİŞSAL",
+          "hint": "Gözlemlenebilir eylemlerle ilgili olan."
+        },
+        {
+          "word": "Bİ̇Lİ̇ŞSEL ÇARPİTMA",
+          "hint": "Gerçekçi olmayan veya olumsuz düşünce kalıpları."
+        },
+        {
+          "word": "DUYARLİLİK",
+          "hint": "Başkalarının duygularını anlama ve paylaşma yeteneği."
+        },
+        {
+          "word": "SÜREKLİ̇Lİ̇K",
+          "hint": "Devamlılık, kesintisizlik."
+        },
+        {
+          "word": "KORUYUCU",
+          "hint": "Zarardan veya tehlikeden koruyan."
+        },
+        {
+          "word": "YAPİLANDİRMA",
+          "hint": "Bir şeyi organize etme veya düzenleme."
+        },
+        {
+          "word": "ÖNYARGİ",
+          "hint": "Bir kişi veya grup hakkında peşin hükümlü olma."
+        },
+        {
+          "word": "SORGULAMA",
+          "hint": "Bir konu hakkında derinlemesine araştırma yapma."
+        }
       ]
     },
     {
       "id": "ingilizce_u2",
       "name": "2. Ünite: Sociology",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "COMMUNITY", "hint": "A group of people living in the same area"},
-        {"word": "DIVERSITY", "hint": "Variety of different cultures and backgrounds"},
-        {"word": "INEQUALITY", "hint": "Unequal distribution of resources in society"},
-        {"word": "PREJUDICE", "hint": "Unfair opinion formed without enough knowledge"},
-        {"word": "GLOBALIZATION", "hint": "Process of worldwide economic and cultural integration"}
+        {
+          "word": "COMMUNITY",
+          "hint": "A group of people living in the same area"
+        },
+        {
+          "word": "DIVERSITY",
+          "hint": "Variety of different cultures and backgrounds"
+        },
+        {
+          "word": "INEQUALITY",
+          "hint": "Unequal distribution of resources in society"
+        },
+        {
+          "word": "PREJUDICE",
+          "hint": "Unfair opinion formed without enough knowledge"
+        },
+        {
+          "word": "GLOBALIZATION",
+          "hint": "Process of worldwide economic and cultural integration"
+        },
+        {
+          "word": "TOPLUMSAL YAPİ",
+          "hint": "İnsanların bir arada yaşama biçimlerinin bütünü."
+        },
+        {
+          "word": "KÜRESELLEŞME",
+          "hint": "Dünyanın ekonomik, kültürel ve siyasi olarak birbirine bağlanması."
+        },
+        {
+          "word": "SOSYAL ADALET",
+          "hint": "Herkesin eşit haklara ve fırsatlara sahip olması."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların bir yerden başka bir yere taşınması."
+        },
+        {
+          "word": "KÜLTÜREL ÇEŞİ̇TLİ̇Lİ̇K",
+          "hint": "Farklı gelenek, görenek ve inançların bir arada bulunması."
+        },
+        {
+          "word": "AYRİMCİLİK",
+          "hint": "Belirli gruplara karşı haksız muamele."
+        },
+        {
+          "word": "ÖNYARGİ",
+          "hint": "Bir kişi veya grup hakkında yeterli bilgi olmadan olumsuz düşünce."
+        },
+        {
+          "word": "KENTLEŞME",
+          "hint": "Kırsal bölgelerden şehirlere doğru nüfusun artması."
+        },
+        {
+          "word": "KİRSAL ALAN",
+          "hint": "Şehir dışındaki, daha az nüfuslu bölgeler."
+        },
+        {
+          "word": "SOSYAL TABAKA",
+          "hint": "Toplumdaki farklı ekonomik ve statü grupları."
+        },
+        {
+          "word": "ROL KESME",
+          "hint": "Toplumda bireyin üstlenmesi beklenen davranışlar."
+        },
+        {
+          "word": "STATÜ",
+          "hint": "Toplumdaki bir bireyin konumu veya yeri."
+        },
+        {
+          "word": "NORM",
+          "hint": "Bir toplumda kabul gören davranış kuralları."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir toplumda önemli kabul edilen düşünce veya ilkeler."
+        },
+        {
+          "word": "GELENEK",
+          "hint": "Kuşaktan kuşağa aktarılan adetler."
+        },
+        {
+          "word": "GÖRENEK",
+          "hint": "Belirli bir toplulukta yerleşmiş adetler."
+        },
+        {
+          "word": "ETKİ̇LEŞİ̇M",
+          "hint": "Bireyler veya gruplar arasındaki karşılıklı davranış."
+        },
+        {
+          "word": "SOSYALLEŞME",
+          "hint": "Bireyin toplumsal kuralları ve değerleri öğrenme süreci."
+        },
+        {
+          "word": "GRUPLAŞMA",
+          "hint": "İnsanların ortak amaçlar için bir araya gelmesi."
+        },
+        {
+          "word": "AZİNLİK",
+          "hint": "Bir toplumda sayıca az olan grup."
+        },
+        {
+          "word": "ÇOĞUNLUK",
+          "hint": "Bir toplumda sayıca fazla olan grup."
+        },
+        {
+          "word": "ENTEGRASYON",
+          "hint": "Farklı grupların topluma uyum sağlaması."
+        },
+        {
+          "word": "ASİ̇Mİ̇LASYON",
+          "hint": "Bir grubun baskın kültür tarafından eritilmesi."
+        },
+        {
+          "word": "PLURALİ̇ZM",
+          "hint": "Farklı kültürlerin bir arada hoşgörüyle yaşaması."
+        },
+        {
+          "word": "YABANCİLAŞMA",
+          "hint": "Toplumdan veya kendinden uzaklaşma hissi."
+        },
+        {
+          "word": "YOKSULLUK",
+          "hint": "Temel ihtiyaçları karşılayamama durumu."
+        },
+        {
+          "word": "ZENGİ̇NLİ̇K",
+          "hint": "Bol maddi imkana sahip olma durumu."
+        },
+        {
+          "word": "İ̇STİ̇HDAM",
+          "hint": "İş gücünün çalıştırılması."
+        },
+        {
+          "word": "İ̇ŞSİ̇ZLİ̇K",
+          "hint": "Çalışmak isteyenlerin iş bulamaması."
+        },
+        {
+          "word": "EĞİ̇Tİ̇M SEVİ̇YESİ̇",
+          "hint": "Bireyin aldığı eğitimin düzeyi."
+        },
+        {
+          "word": "SAĞLİK Hİ̇ZMETLERİ̇",
+          "hint": "Halkın sağlığını korumaya yönelik hizmetler."
+        },
+        {
+          "word": "KANUN",
+          "hint": "Devletin koyduğu yazılı kurallar."
+        },
+        {
+          "word": "YÖNETİ̇M",
+          "hint": "Toplumu idare etme işi."
+        },
+        {
+          "word": "Sİ̇YASET",
+          "hint": "Devlet yönetimiyle ilgili düşünce ve faaliyetler."
+        },
+        {
+          "word": "EKONOMİ̇",
+          "hint": "Mal ve hizmet üretimi, dağıtımı ve tüketimiyle ilgili alan."
+        },
+        {
+          "word": "DEMOGRAFİ̇",
+          "hint": "Nüfusun yapısını ve hareketlerini inceleyen bilim dalı."
+        },
+        {
+          "word": "KURUMSAL YAPİ",
+          "hint": "Belirli amaçlara hizmet eden örgütlenmiş yapılar."
+        },
+        {
+          "word": "Kİ̇MLİ̇K",
+          "hint": "Bireyin kendisini tanımlama biçimi."
+        },
+        {
+          "word": "BENLİ̇K",
+          "hint": "Kişinin kendine dair algısı."
+        },
+        {
+          "word": "YETENEK",
+          "hint": "Bir işi başarabilme gücü."
+        },
+        {
+          "word": "ÇATİŞMA",
+          "hint": "Uyuşmazlık, anlaşmazlık."
+        },
+        {
+          "word": "UZLAŞMA",
+          "hint": "Anlaşmaya varma, barışma."
+        },
+        {
+          "word": "DEĞİ̇Şİ̇M",
+          "hint": "Bir durumdan başka bir duruma geçme."
+        },
+        {
+          "word": "DURGUNLUK",
+          "hint": "Gelişmenin olmadığı, hareketsiz hal."
+        },
+        {
+          "word": "İ̇NOVASYON",
+          "hint": "Yenilik yapma, yeni fikirler üretme."
+        },
+        {
+          "word": "TEKNOLOJİ̇",
+          "hint": "Bilimsel bilgiyi kullanarak yapılan üretim ve hizmetler."
+        }
       ]
     }
   ]

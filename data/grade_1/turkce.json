@@ -3,25 +3,487 @@
     {
       "id": "turkce_u1",
       "name": "1. Ünite: Harfler",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "HARF", "hint": "Alfabedeki işaretlerden her biri"},
-        {"word": "ALFABE", "hint": "Tüm harflerin sıralı listesi"},
-        {"word": "ÜNLÜ", "hint": "A, E, I, İ gibi sesli harfler"},
-        {"word": "ÜNSÜZ", "hint": "B, C, D gibi sessiz harfler"},
-        {"word": "HECE", "hint": "Kelimenin bölünebilen küçük parçası"}
+        {
+          "word": "HARF",
+          "hint": "Alfabedeki işaretlerden her biri"
+        },
+        {
+          "word": "ALFABE",
+          "hint": "Tüm harflerin sıralı listesi"
+        },
+        {
+          "word": "ÜNLÜ",
+          "hint": "A, E, I, İ gibi sesli harfler"
+        },
+        {
+          "word": "ÜNSÜZ",
+          "hint": "B, C, D gibi sessiz harfler"
+        },
+        {
+          "word": "HECE",
+          "hint": "Kelimenin bölünebilen küçük parçası"
+        },
+        {
+          "word": "ANNE",
+          "hint": "Bizi çok seven, yemek yapan kişidir."
+        },
+        {
+          "word": "BABA",
+          "hint": "Ailemizin babası, bize destek olandır."
+        },
+        {
+          "word": "EV",
+          "hint": "İçinde yaşadığımız sıcak yuvamız."
+        },
+        {
+          "word": "KAPİ",
+          "hint": "Eve girip çıkarken açtığımız yer."
+        },
+        {
+          "word": "PENCERE",
+          "hint": "Dışarıyı görmek için baktığımız yer."
+        },
+        {
+          "word": "ELMA",
+          "hint": "Kırmızı, yeşil veya sarı renkte, tatlı bir meyve."
+        },
+        {
+          "word": "SU",
+          "hint": "Susayınca içtiğimiz, hayat veren sıvı."
+        },
+        {
+          "word": "SÜT",
+          "hint": "Güçlü olmak için içtiğimiz beyaz içecek."
+        },
+        {
+          "word": "TOP",
+          "hint": "Yuvarlak, zıplayan bir oyuncak."
+        },
+        {
+          "word": "ARABA",
+          "hint": "Tekerlekleri olan, bizi taşıyan araç."
+        },
+        {
+          "word": "KEDİ̇",
+          "hint": "Miyavlayan, tüylü evcil hayvan."
+        },
+        {
+          "word": "KÖPEK",
+          "hint": "Havlayan, sadık bir dost."
+        },
+        {
+          "word": "KUŞ",
+          "hint": "Gökyüzünde uçan, ötücü hayvan."
+        },
+        {
+          "word": "Çİ̇ÇEK",
+          "hint": "Rengarenk, güzel kokulu bitki."
+        },
+        {
+          "word": "AĞAÇ",
+          "hint": "Gövdesi, dalları ve yaprakları olan büyük bitki."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Gökyüzünde parlayan, dünyamızı ısıtan yıldız."
+        },
+        {
+          "word": "AY",
+          "hint": "Geceleri gökyüzünde gördüğümüz parlak yuvarlak."
+        },
+        {
+          "word": "YİLDİZ",
+          "hint": "Geceleri gökyüzünde pırıl pırıl parlayan."
+        },
+        {
+          "word": "BULUT",
+          "hint": "Gökyüzünde yüzen, yağmur getiren beyaz kütleler."
+        },
+        {
+          "word": "YAĞMUR",
+          "hint": "Bulutlardan damla damla düşen su."
+        },
+        {
+          "word": "KAR",
+          "hint": "Kışın yağan, beyaz ve soğuk örtü."
+        },
+        {
+          "word": "SİCAK",
+          "hint": "Elini yakabilen, sıcaklık hissi veren şey."
+        },
+        {
+          "word": "SOĞUK",
+          "hint": "Üşüten, dondurucu bir his."
+        },
+        {
+          "word": "OKUL",
+          "hint": "Okumayı ve yazmayı öğrendiğimiz yer."
+        },
+        {
+          "word": "SİNİF",
+          "hint": "Okulda ders yaptığımız oda."
+        },
+        {
+          "word": "MASA",
+          "hint": "Üzerine kitaplarımızı koyduğumuz eşya."
+        },
+        {
+          "word": "SANDALYE",
+          "hint": "Üzerine oturduğumuz eşya."
+        },
+        {
+          "word": "Kİ̇TAP",
+          "hint": "İçinde öykülerin ve bilgilerin olduğu basılı sayfalar."
+        },
+        {
+          "word": "DEFTER",
+          "hint": "Üzerine yazı yazdığımız boş sayfalar."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Yazı yazmak için kullandığımız araç."
+        },
+        {
+          "word": "Sİ̇L",
+          "hint": "Yanlış yazdığımızı defterden yok etmek."
+        },
+        {
+          "word": "YAZİ",
+          "hint": "Kalemle veya parmakla oluşturduğumuz işaretler."
+        },
+        {
+          "word": "OKU",
+          "hint": "Kitaptaki harfleri birleştirip anlamak."
+        },
+        {
+          "word": "SES",
+          "hint": "Kulaklarımızla duyduğumuz her şey; kuş sesi, müzik veya konuşma gibi."
+        },
+        {
+          "word": "SÖZCÜK",
+          "hint": "Harflerin birleşip anlam kazandığı küçük kelimelerden biri."
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Birçok sözcüğün bir araya gelerek bize tam bir şey anlattığı ifade."
+        },
+        {
+          "word": "RENK",
+          "hint": "Kırmızı, mavi, sarı gibi gördüğümüz çeşitlilik."
+        },
+        {
+          "word": "BÜYÜK",
+          "hint": "Çok geniş veya uzun olan."
+        },
+        {
+          "word": "KÜÇÜK",
+          "hint": "Az geniş veya kısa olan."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek için yaptığımız etkinlik."
+        },
+        {
+          "word": "ARKADAŞ",
+          "hint": "Birlikte oynadığımız, sevdiğimiz kişi."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Okulda bize yeni şeyler öğreten kişi."
+        },
+        {
+          "word": "GÜZEL",
+          "hint": "Baktığımızda hoşumuza giden."
+        },
+        {
+          "word": "GEL",
+          "hint": "Bir yere doğru hareket etmek için söylenir."
+        },
+        {
+          "word": "Gİ̇T",
+          "hint": "Bir yerden uzaklaşmak için söylenir."
+        },
+        {
+          "word": "DUR",
+          "hint": "Hareket etmeyi bırakmak."
+        },
+        {
+          "word": "BAK",
+          "hint": "Gözlerimizle bir şeyi görmek."
+        },
+        {
+          "word": "Dİ̇NLE",
+          "hint": "Kulaklarımızla bir sesi algılamak."
+        },
+        {
+          "word": "KONUŞ",
+          "hint": "Ağzımızdan sesler çıkararak fikirlerimizi söylemek."
+        },
+        {
+          "word": "SAYİ",
+          "hint": "Bir şeyin kaç tane olduğunu gösteren işaret (1, 2, 3 gibi)."
+        },
+        {
+          "word": "SAY",
+          "hint": "Nesneleri teker teker adlandırmak (1, 2, 3 gibi)."
+        }
       ]
     },
     {
       "id": "turkce_u2",
       "name": "2. Ünite: Sesler",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "SES", "hint": "Kulağımızla duyduğumuz titreşim"},
-        {"word": "KELİME", "hint": "Harflerin birleşerek oluşturduğu anlamlı söz"},
-        {"word": "CÜMLE", "hint": "Kelimelerin bir araya gelerek oluşturduğu yapı"},
-        {"word": "NOKTA", "hint": "Cümlenin sonuna konan işaret"},
-        {"word": "OKUMA", "hint": "Yazılı harfleri seslendirme işi"}
+        {
+          "word": "SES",
+          "hint": "Kulağımızla duyduğumuz titreşim"
+        },
+        {
+          "word": "KELİME",
+          "hint": "Harflerin birleşerek oluşturduğu anlamlı söz"
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Kelimelerin bir araya gelerek oluşturduğu yapı"
+        },
+        {
+          "word": "NOKTA",
+          "hint": "Cümlenin sonuna konan işaret"
+        },
+        {
+          "word": "OKUMA",
+          "hint": "Yazılı harfleri seslendirme işi"
+        },
+        {
+          "word": "ANNE",
+          "hint": "Bizi çok seven kadın."
+        },
+        {
+          "word": "BABA",
+          "hint": "Bizi koruyan erkek."
+        },
+        {
+          "word": "KEDİ̇",
+          "hint": "Miyavlayan ev hayvanı."
+        },
+        {
+          "word": "KÖPEK",
+          "hint": "Havlayan sadık dost."
+        },
+        {
+          "word": "KUŞ",
+          "hint": "Gökyüzünde uçan hayvan."
+        },
+        {
+          "word": "EV",
+          "hint": "İçinde yaşadığımız yer."
+        },
+        {
+          "word": "TOP",
+          "hint": "Yuvarlak, oynadığımız eşya."
+        },
+        {
+          "word": "ELMA",
+          "hint": "Kırmızı veya yeşil, tatlı meyve."
+        },
+        {
+          "word": "SU",
+          "hint": "İçtiğimiz berrak sıvı."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek için yaptığımız aktivite."
+        },
+        {
+          "word": "OKUL",
+          "hint": "Yeni şeyler öğrendiğimiz yer."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Bize ders öğreten kişi."
+        },
+        {
+          "word": "Kİ̇TAP",
+          "hint": "İçinde hikayeler olan sayfa yığını."
+        },
+        {
+          "word": "DEFTER",
+          "hint": "Üzerine yazı yazdığımız kağıtlar."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Yazı yazmamızı sağlayan araç."
+        },
+        {
+          "word": "Sİ̇LGİ̇",
+          "hint": "Yazı yanlışımızı düzelten eşya."
+        },
+        {
+          "word": "ÇANTA",
+          "hint": "Kitaplarımızı taşıdığımız şey."
+        },
+        {
+          "word": "SİRA",
+          "hint": "Okulda oturduğumuz masa ve koltuk."
+        },
+        {
+          "word": "BAHÇE",
+          "hint": "Etrafı yeşil olan açık alan."
+        },
+        {
+          "word": "AĞAÇ",
+          "hint": "Gövdesi ve dalları olan büyük bitki."
+        },
+        {
+          "word": "Çİ̇ÇEK",
+          "hint": "Güzel kokan renkli bitki."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Bizi ısıtan büyük yıldız."
+        },
+        {
+          "word": "AY",
+          "hint": "Geceleri gökyüzünde parlayan cisim."
+        },
+        {
+          "word": "YİLDİZ",
+          "hint": "Gece gökyüzündeki parlak noktalar."
+        },
+        {
+          "word": "BULUT",
+          "hint": "Gökyüzünde yüzen su buharı."
+        },
+        {
+          "word": "YAĞMUR",
+          "hint": "Gökyüzünden düşen su damlaları."
+        },
+        {
+          "word": "KAR",
+          "hint": "Kışın yağan beyaz ve soğuk örtü."
+        },
+        {
+          "word": "KOŞMAK",
+          "hint": "Ayaklarla hızlı hareket etmek."
+        },
+        {
+          "word": "YÜRÜMEK",
+          "hint": "Adım adım ilerlemek."
+        },
+        {
+          "word": "OTURMAK",
+          "hint": "Bir yere yerleşip dinlenmek."
+        },
+        {
+          "word": "KALKMAK",
+          "hint": "Oturduğumuz yerden ayağa kalkmak."
+        },
+        {
+          "word": "GÜLMEK",
+          "hint": "Mutlu olunca çıkan neşeli ses."
+        },
+        {
+          "word": "AĞLAMAK",
+          "hint": "Üzgün olunca gözden akan su."
+        },
+        {
+          "word": "YEMEK",
+          "hint": "Karnımızı doyurmak için bir şeyler çiğnemek."
+        },
+        {
+          "word": "İ̇ÇMEK",
+          "hint": "Susuzluğumuzu gidermek için sıvı yutmak."
+        },
+        {
+          "word": "GÖRMEK",
+          "hint": "Gözlerimizle etrafa bakmak."
+        },
+        {
+          "word": "DUYMAK",
+          "hint": "Kulaklarımızla sesleri algılamak."
+        },
+        {
+          "word": "MUTLU",
+          "hint": "Sevinçli, keyifli hissetmek."
+        },
+        {
+          "word": "ÜZGÜN",
+          "hint": "Mutsuz, kederli olmak."
+        },
+        {
+          "word": "RENK",
+          "hint": "Kırmızı, mavi, sarı gibi."
+        },
+        {
+          "word": "BÜYÜK",
+          "hint": "Normalden daha iri, kocaman."
+        },
+        {
+          "word": "KÜÇÜK",
+          "hint": "Normalden daha minik, ufak."
+        },
+        {
+          "word": "SİCAK",
+          "hint": "Isısı yüksek, yakıcı."
+        },
+        {
+          "word": "SOĞUK",
+          "hint": "Isısı düşük, dondurucu."
+        },
+        {
+          "word": "HARF",
+          "hint": "Alfabelerdeki her bir işaret."
+        },
+        {
+          "word": "HECE",
+          "hint": "Kelimeleri oluşturan ses parçası."
+        },
+        {
+          "word": "SÖZ",
+          "hint": "Anlamı olan, bir düşünceyi anlatan birim."
+        },
+        {
+          "word": "KONUŞMA",
+          "hint": "Ağzımızdan çıkan seslerle iletişim kurma."
+        },
+        {
+          "word": "ŞARKİ",
+          "hint": "Müzikle söylenen sözlü eser."
+        },
+        {
+          "word": "Dİ̇NLEMEK",
+          "hint": "Seslere kulak vererek anlamak."
+        },
+        {
+          "word": "YAZMAK",
+          "hint": "Harfleri kağıda dökmek."
+        },
+        {
+          "word": "ALFABE",
+          "hint": "Tüm harflerin sıraya diziliş hali."
+        },
+        {
+          "word": "Bİ̇LMEK",
+          "hint": "Bir şeyi öğrenmiş olmak."
+        },
+        {
+          "word": "ÖĞRENMEK",
+          "hint": "Yeni bilgiler edinmek."
+        }
       ]
     }
   ]

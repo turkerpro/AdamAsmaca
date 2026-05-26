@@ -3,25 +3,431 @@
     {
       "id": "edebiyat_u1",
       "name": "1. Ünite: Şiir Türleri",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "GAZEL", "hint": "Divan şiirinde aşk ve güzellik konulu nazım biçimi"},
-        {"word": "KASIDE", "hint": "Övgü amacıyla yazılan uzun divan şiiri türü"},
-        {"word": "MESNEVI", "hint": "Her beyti kendi içinde kafiyeli uzun şiir türü"},
-        {"word": "RUBAI", "hint": "Dört mısradan oluşan felsefi içerikli şiir türü"},
-        {"word": "MÜNACAT", "hint": "Allah'a yakarış ve dua içeren şiir türü"}
+        {
+          "word": "GAZEL",
+          "hint": "Divan şiirinde aşk ve güzellik konulu nazım biçimi"
+        },
+        {
+          "word": "KASIDE",
+          "hint": "Övgü amacıyla yazılan uzun divan şiiri türü"
+        },
+        {
+          "word": "MESNEVI",
+          "hint": "Her beyti kendi içinde kafiyeli uzun şiir türü"
+        },
+        {
+          "word": "RUBAI",
+          "hint": "Dört mısradan oluşan felsefi içerikli şiir türü"
+        },
+        {
+          "word": "MÜNACAT",
+          "hint": "Allah'a yakarış ve dua içeren şiir türü"
+        },
+        {
+          "word": "MANZUME",
+          "hint": "Duygu ve düşünceleri ahenkli sözlerle anlatan edebî eser."
+        },
+        {
+          "word": "HALK",
+          "hint": "Genellikle aynı dili konuşan, aynı coğrafyayı paylaşan ve ortak bir kültürü olan insan topluluğu."
+        },
+        {
+          "word": "EDEBİ̇YAT",
+          "hint": "İnsanların duygu, düşünce ve hayallerini dil aracılığıyla estetik bir biçimde aktaran sanat dalı."
+        },
+        {
+          "word": "NAAT",
+          "hint": "Peygamberimize duyulan sevgi ve hayranlığı dile getiren şiir."
+        },
+        {
+          "word": "SEMBOLLÜK",
+          "hint": "Bir şeyin başka bir şeyi temsil etmesi durumu."
+        },
+        {
+          "word": "Lİ̇Rİ̇K",
+          "hint": "Genellikle bireysel duyguları coşkulu bir dille anlatan şiir türü."
+        },
+        {
+          "word": "Dİ̇ZGE",
+          "hint": "Birbirine bağlı ve bir bütün oluşturan unsurlar topluluğu."
+        },
+        {
+          "word": "ARUZ",
+          "hint": "Şiirde hecelerin uzunluk ve kısalığına dayanan ölçü."
+        },
+        {
+          "word": "HECE",
+          "hint": "Bir solukta çıkarılabilen ses veya ses topluluğu."
+        },
+        {
+          "word": "BAĞDAŞİKLİK",
+          "hint": "Parçaların uyum içinde bir araya gelmesi."
+        },
+        {
+          "word": "SOYLUTURK",
+          "hint": "Türklerin soylu kökenini anlatan edebi eser türü."
+        },
+        {
+          "word": "İ̇NTİ̇SAL",
+          "hint": "Bir şairin başka bir şairin şiirini örnek alıp ona benzer bir şiir yazması."
+        },
+        {
+          "word": "TELMİ̇H",
+          "hint": "Şiirde bilinen bir olayı, kişiyi veya eseri hatırlatma sanatı."
+        },
+        {
+          "word": "İ̇RSALİ̇MESEL",
+          "hint": "Şiirde anlatılanı daha iyi açıklamak için bir atasözü veya özdeyişten yararlanma."
+        },
+        {
+          "word": "TEŞBİ̇H",
+          "hint": "Bir şeyi başka bir şeye benzetme sanatı."
+        },
+        {
+          "word": "İ̇STİ̇ARE",
+          "hint": "Benzetmenin temel unsurlarından biriyle (benzeyen veya benzetilen) yapılması."
+        },
+        {
+          "word": "MECAZİMÜRSEL",
+          "hint": "Bir sözcüğü ilgili olduğu başka bir sözcük yerine kullanma sanatı (eğretileme)."
+        },
+        {
+          "word": "KİNAYE",
+          "hint": "Bir sözü hem gerçek hem de mecaz anlama gelecek şekilde kullanma."
+        },
+        {
+          "word": "LEYLEK",
+          "hint": "Göçmen bir kuş türü, bazen şiirlerde sembol olarak kullanılır."
+        },
+        {
+          "word": "SEMÂÎ",
+          "hint": "Genellikle 8'li hece ölçüsüyle yazılan halk şiiri nazım biçimi."
+        },
+        {
+          "word": "KOŞMA",
+          "hint": "Genellikle 11'li hece ölçüsüyle yazılan halk şiiri nazım biçimi."
+        },
+        {
+          "word": "VARAK",
+          "hint": "Cilt kapağına veya ilk birkaç sayfasına konulan, genellikle süslü kağıt."
+        },
+        {
+          "word": "MÜELLİ̇F",
+          "hint": "Bir eseri meydana getiren, yazan kişi."
+        },
+        {
+          "word": "MÜSTESNA",
+          "hint": "Ayrı tutulan, istisnai olan."
+        },
+        {
+          "word": "VAZ",
+          "hint": "Öğüt veren, ders veren."
+        },
+        {
+          "word": "TARİ̇H",
+          "hint": "Olayların geçtiği zaman dilimi."
+        },
+        {
+          "word": "Rİ̇TM",
+          "hint": "Şiirde seslerin uyumlu tekrarıyla oluşan ahenk."
+        },
+        {
+          "word": "KAFFİ̇YE",
+          "hint": "Şiirde dize sonlarında tekrarlanan ses veya sesler (uyak)."
+        },
+        {
+          "word": "TAKMİ̇S",
+          "hint": "Bir şiirin her dizesinin başına üç dize ekleyerek beş dize haline getirme."
+        },
+        {
+          "word": "TAHMİ̇S",
+          "hint": "Bir şiire beş dizelik yeni bentler ekleyerek onu genişletme."
+        },
+        {
+          "word": "TASDİ̇R",
+          "hint": "Şiirin başına veya sonuna bir kelime veya kelime grubunu tekrarlama."
+        },
+        {
+          "word": "CÂMİ̇",
+          "hint": "Hem edebi hem de dini öğeler taşıyan."
+        },
+        {
+          "word": "SEKİ̇Z",
+          "hint": "Halk şiirinde sıkça kullanılan bir hece sayısı."
+        },
+        {
+          "word": "DOKUZ",
+          "hint": "Nadiren kullanılan bir hece sayısı."
+        },
+        {
+          "word": "ON Bİ̇R",
+          "hint": "Halk şiirinde en yaygın kullanılan hece sayısı."
+        },
+        {
+          "word": "ON DÖRT",
+          "hint": "Bazı nazım biçimlerinde kullanılan bir hece sayısı."
+        },
+        {
+          "word": "KOŞUK",
+          "hint": "Sığır ve toy gibi törenlerde söylenen eski Türk şiiri."
+        },
+        {
+          "word": "DESTAN",
+          "hint": "Ulusal olayları, kahramanlıkları konu alan uzun şiir."
+        },
+        {
+          "word": "SAYHA",
+          "hint": "Bağırış, çağırış."
+        },
+        {
+          "word": "AYRET",
+          "hint": "Bir şeyi diğerlerinden ayırma, farkı bulma."
+        },
+        {
+          "word": "FERAH",
+          "hint": "Sevinçli, iç açıcı."
+        },
+        {
+          "word": "CENAH",
+          "hint": "Kanat, taraf."
+        },
+        {
+          "word": "HEYBET",
+          "hint": "Görkemli, korku uyandıran büyüklük."
+        },
+        {
+          "word": "Mİ̇SAL",
+          "hint": "Örnek."
+        },
+        {
+          "word": "VEZN",
+          "hint": "Ölçü, tartı. Şiirde aruz ölçüsü anlamında kullanılır."
+        }
       ]
     },
     {
       "id": "edebiyat_u2",
       "name": "2. Ünite: Edebi Akımlar",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "KLASİSİZM", "hint": "Akıl ve kuralları ön plana çıkaran edebi akım"},
-        {"word": "ROMANTİZM", "hint": "Duygu ve hayal gücünü öne çıkaran edebi akım"},
-        {"word": "REALİZM", "hint": "Gerçekliği olduğu gibi yansıtmayı amaçlayan akım"},
-        {"word": "NATÜRALİZM", "hint": "Realizmi bilimsel yöntemlerle destekleyen edebi akım"},
-        {"word": "SÜRREALİZM", "hint": "Bilinçaltı ve rüyaları esas alan sanat akımı"}
+        {
+          "word": "KLASİSİZM",
+          "hint": "Akıl ve kuralları ön plana çıkaran edebi akım"
+        },
+        {
+          "word": "ROMANTİZM",
+          "hint": "Duygu ve hayal gücünü öne çıkaran edebi akım"
+        },
+        {
+          "word": "REALİZM",
+          "hint": "Gerçekliği olduğu gibi yansıtmayı amaçlayan akım"
+        },
+        {
+          "word": "NATÜRALİZM",
+          "hint": "Realizmi bilimsel yöntemlerle destekleyen edebi akım"
+        },
+        {
+          "word": "SÜRREALİZM",
+          "hint": "Bilinçaltı ve rüyaları esas alan sanat akımı"
+        },
+        {
+          "word": "EKOL",
+          "hint": "Bilim, sanat veya felsefede belirli bir görüşü benimseyen topluluk."
+        },
+        {
+          "word": "AKİM",
+          "hint": "Belirli bir düşünce veya sanatı benimseyenlerin oluşturduğu topluluk."
+        },
+        {
+          "word": "DÖNEM",
+          "hint": "Tarihte belirli bir özelliğiyle öne çıkan zaman dilimi."
+        },
+        {
+          "word": "ESTETİ̇K",
+          "hint": "Güzellik ve sanatla ilgili anlayış."
+        },
+        {
+          "word": "SANAT",
+          "hint": "İnsanın duygu ve düşüncelerini estetik biçimde yansıtma."
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "İnsanı, hayatı, duyguları ve düşünceleri dil aracılığıyla anlatan sanat."
+        },
+        {
+          "word": "ÜSLUP",
+          "hint": "Yazarın kendine özgü anlatım biçimi."
+        },
+        {
+          "word": "TEMA",
+          "hint": "Eserin ana fikri, konusu."
+        },
+        {
+          "word": "İ̇LHAM",
+          "hint": "Yaratıcılığı tetikleyen duygu veya düşünce."
+        },
+        {
+          "word": "SEMBOLİZM",
+          "hint": "Anlamı derinleştirmek için sembollerden yararlanan akım."
+        },
+        {
+          "word": "PARNASİZM",
+          "hint": "Şiirde biçim güzelliğine ve kalıcılığa önem veren akım."
+        },
+        {
+          "word": "EMPRESYONİZM",
+          "hint": "Sanatta izlenimleri, anlık duyguları yansıtmayı amaçlayan akım."
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Soyut bir kavramı temsil eden somut nesne."
+        },
+        {
+          "word": "MİSTİK",
+          "hint": "Aşkın güçlerle veya evrenle ruhsal bağ kurmayı amaçlayan."
+        },
+        {
+          "word": "ANLATI",
+          "hint": "Olayları söz veya yazı ile aktarma."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "İç dünyamızda beliren coşkular, üzüntüler, sevinçler."
+        },
+        {
+          "word": "DÜŞÜNCE",
+          "hint": "Zihinde oluşan fikir, tasarı."
+        },
+        {
+          "word": "OLAY",
+          "hint": "Gerçekleşmiş veya gerçekleşmesi beklenen durum."
+        },
+        {
+          "word": "KARAKTER",
+          "hint": "Bir eserde yer alan canlıyı temsil eden kişi."
+        },
+        {
+          "word": "MEKAN",
+          "hint": "Olayların geçtiği yer."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Olayların geçtiği an veya süre."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Çevreyi dikkatle inceleme."
+        },
+        {
+          "word": "DENEYİM",
+          "hint": "Bir olayı yaşayarak kazanılan bilgi."
+        },
+        {
+          "word": "RUH",
+          "hint": "İnsanın manevi yönü, canlılığı."
+        },
+        {
+          "word": "İ̇ÇSEL",
+          "hint": "Kişinin kendi içine dönük, dışa yansımayan."
+        },
+        {
+          "word": "DIŞSAL",
+          "hint": "Kişinin dış dünyaya dönük, görünen."
+        },
+        {
+          "word": "BİLİNÇ",
+          "hint": "Zihnin farkında olma durumu."
+        },
+        {
+          "word": "BİLİNÇALTI",
+          "hint": "Zihnin farkında olunmayan derinlikleri."
+        },
+        {
+          "word": "ABSÜRT",
+          "hint": "Saçma, anlamsız, mantık dışı."
+        },
+        {
+          "word": "METAFOR",
+          "hint": "Bir kavramı başka bir kavramla anlatma sanatı (eğretileme)."
+        },
+        {
+          "word": "MİZAH",
+          "hint": "Gülünç durumlardan espri çıkarma."
+        },
+        {
+          "word": "PARODİ",
+          "hint": "Ciddi bir eserin alaylı taklidi."
+        },
+        {
+          "word": "İ̇RONİ",
+          "hint": "Söylenenin tam tersini kastederek alay etme."
+        },
+        {
+          "word": "DİDAKTİK",
+          "hint": "Öğretici nitelik taşıyan."
+        },
+        {
+          "word": "LİRİK",
+          "hint": "Duygusal, coşkulu."
+        },
+        {
+          "word": "EPİK",
+          "hint": "Kahramanlık ve savaş konularını işleyen."
+        },
+        {
+          "word": "DRAMATİK",
+          "hint": "Tiyatroya özgü, çatışma içeren."
+        },
+        {
+          "word": "VAROLUŞÇULUK",
+          "hint": "İnsanın özgürlüğüne ve sorumluluğuna odaklanan felsefe."
+        },
+        {
+          "word": "PSİKANALİZ",
+          "hint": "Ruhsal çözümlemeye dayanan tedavi yöntemi."
+        },
+        {
+          "word": "MİTOLOJİ",
+          "hint": "Efsaneler ve tanrılar bilimi."
+        },
+        {
+          "word": "FOLKLOR",
+          "hint": "Bir topluluğun sözlü gelenekleri, inanışları."
+        },
+        {
+          "word": "ARKETİP",
+          "hint": "Evrensel düzeyde bilinen ilk örnek."
+        },
+        {
+          "word": "ANLAM",
+          "hint": "Bir kelimenin, cümlenin veya eserin taşıdığı mana."
+        },
+        {
+          "word": "BİÇİM",
+          "hint": "Bir eserin dış yapısı, düzeni."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Bir eserin anlamını açıklama, değerlendirme."
+        },
+        {
+          "word": "ETKİ",
+          "hint": "Bir olayın veya eserin başka bir şey üzerindeki tesiri."
+        }
       ]
     }
   ]

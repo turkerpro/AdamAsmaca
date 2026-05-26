@@ -3,25 +3,459 @@
     {
       "id": "biyoloji_u1",
       "name": "1. Ünite: Sinir Sistemi",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "NÖRON", "hint": "Sinir sisteminin temel yapı ve işlev birimi"},
-        {"word": "SİNAPS", "hint": "İki sinir hücresi arasındaki bağlantı bölgesi"},
-        {"word": "AKSON", "hint": "Nöronun uyartıyı ileten uzun uzantısı"},
-        {"word": "REFLEKS", "hint": "İstemsiz ve hızlı gerçekleşen tepki hareketi"},
-        {"word": "BEYİN SAPI", "hint": "Solunum ve kalp atışını kontrol eden beyin bölümü"}
+        {
+          "word": "NÖRON",
+          "hint": "Sinir sisteminin temel yapı ve işlev birimi"
+        },
+        {
+          "word": "SİNAPS",
+          "hint": "İki sinir hücresi arasındaki bağlantı bölgesi"
+        },
+        {
+          "word": "AKSON",
+          "hint": "Nöronun uyartıyı ileten uzun uzantısı"
+        },
+        {
+          "word": "REFLEKS",
+          "hint": "İstemsiz ve hızlı gerçekleşen tepki hareketi"
+        },
+        {
+          "word": "BEYİN SAPI",
+          "hint": "Solunum ve kalp atışını kontrol eden beyin bölümü"
+        },
+        {
+          "word": "DENDRİ̇T",
+          "hint": "Sinir hücresinin diğer nöronlardan uyarı alan, ağaç dalları gibi uzanan kısa uzantıları."
+        },
+        {
+          "word": "Mİ̇YELİ̇N",
+          "hint": "Sinir liflerinin etrafını saran ve iletim hızını artıran yağlı kılıf."
+        },
+        {
+          "word": "DÜĞÜM",
+          "hint": "Ranvier boğumları arasındaki miyelin kılıf boşlukları."
+        },
+        {
+          "word": "AKSON TEPE",
+          "hint": "Nöronun gövdesinden çıkan ve aksonun başladığı bölge."
+        },
+        {
+          "word": "DÜZENSİ̇Z",
+          "hint": "Sinirsel iletimde aniden ortaya çıkan veya kesilen durumları ifade eden."
+        },
+        {
+          "word": "UÇ PLATFORM",
+          "hint": "Aksonun sonundaki dallanmaların uyartıyı diğer nörona aktardığı kısım."
+        },
+        {
+          "word": "İ̇LETKEN",
+          "hint": "Sinirsel uyartıları taşıyan yapıların genel adı."
+        },
+        {
+          "word": "YALİTKAN",
+          "hint": "Sinirsel uyartıların geçişini engelleyen madde veya yapı."
+        },
+        {
+          "word": "ARA NÖRON",
+          "hint": "Merkezi sinir sisteminde bulunan ve duyu ile motor nöronlar arasında bağlantı kuran."
+        },
+        {
+          "word": "MOTOR NÖRON",
+          "hint": "Merkezi sinir sisteminden aldığı emri ilgili organa taşıyan."
+        },
+        {
+          "word": "DUYU NÖRONU",
+          "hint": "Çevreden aldığı uyarıları merkezi sinir sistemine ileten."
+        },
+        {
+          "word": "EKZİ̇TASYON",
+          "hint": "Nöronun uyarılma eğilimini artıran kimyasal süreç."
+        },
+        {
+          "word": "İ̇N Hİ̇Bİ̇SYON",
+          "hint": "Nöronun uyarılma eşiğini yükselten veya engelleme durumu."
+        },
+        {
+          "word": "POTANSİ̇YEL",
+          "hint": "Nöron zarının iki yüzeyi arasındaki elektriksel yük farkı."
+        },
+        {
+          "word": "MEMBRAN",
+          "hint": "Nöronun dış çevreden ayıran seçici geçirgen zar yapısı."
+        },
+        {
+          "word": "İ̇MPULS",
+          "hint": "Sinir hücresinde iletilen elektriksel ve kimyasal sinyal."
+        },
+        {
+          "word": "SODYUM",
+          "hint": "Polarizasyonun bozulmasında ve aksiyon potansiyelinin oluşumunda rol oynayan iyon."
+        },
+        {
+          "word": "POTASYUM",
+          "hint": "Dinlenme potansiyelinin yeniden oluşmasında ve repolarizasyonda görevli iyon."
+        },
+        {
+          "word": "POMPA",
+          "hint": "İyonların zar boyunca aktif olarak taşınmasını sağlayan protein yapısı."
+        },
+        {
+          "word": "EŞİ̇K DEĞER",
+          "hint": "Bir nöronun uyarılarak aksiyon potansiyeli oluşturması için gereken minimum uyartı şiddeti."
+        },
+        {
+          "word": "LEYDİ̇NG",
+          "hint": "Aksiyon potansiyelinin miyelinli akson boyunca atlamalı iletimi."
+        },
+        {
+          "word": "OTORİ̇TE",
+          "hint": "Merkezi sinir sisteminin genel yönetim ve kontrol merkezi."
+        },
+        {
+          "word": "MERKEZ",
+          "hint": "İşlemlerin toplandığı ve yönetildiği yer."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Merkezi sinir sistemi dışında kalan tüm sinir dokusu."
+        },
+        {
+          "word": "OMURİ̇Lİ̇K",
+          "hint": "Merkezi sinir sisteminin omurga içinde yer alan uzun, ip benzeri kısmı."
+        },
+        {
+          "word": "BEYİ̇NCİ̇K",
+          "hint": "Beynin arka alt kısmında bulunan, denge ve hareket koordinasyonundan sorumlu yapı."
+        },
+        {
+          "word": "ARA BEYİ̇N",
+          "hint": "Talamus, hipotalamus gibi yapıları içeren beynin orta bölümü."
+        },
+        {
+          "word": "DURAMATER",
+          "hint": "Beyni ve omuriliği saran en dıştaki sert beyin zarı."
+        },
+        {
+          "word": "PAKYOTER",
+          "hint": "Orta beyin zarı, örümcek ağına benzeyen yapısı."
+        },
+        {
+          "word": "PAYAMATER",
+          "hint": "Beynin yüzeyine en yakın, ince ve damarlı beyin zarı."
+        },
+        {
+          "word": "BEYİ̇N OMURİ̇Lİ̇K SİVİSİ",
+          "hint": "Beyin ve omuriliği saran, koruyucu ve besleyici sıvı."
+        },
+        {
+          "word": "VENTRİ̇KÜL",
+          "hint": "Beyin içinde yer alan, beyin omurilik sıvısı ile dolu boşluklar."
+        },
+        {
+          "word": "KORPUS KALLOZUM",
+          "hint": "İki beyin yarım küresini birbirine bağlayan sinir lifi demeti."
+        },
+        {
+          "word": "LOB",
+          "hint": "Beyin yarım kürelerinin her biri üzerinde bulunan belirgin bölümlerden her biri."
+        },
+        {
+          "word": "KORTEX",
+          "hint": "Beynin en dışındaki kıvrımlı tabaka, düşünme ve bilinçli eylemlerin merkezi."
+        },
+        {
+          "word": "MEDULLA",
+          "hint": "Beyin sapının en alt kısmı, hayati merkezleri barındırır (örn. omurilik soğanı)."
+        },
+        {
+          "word": "PONS",
+          "hint": "Beyin sapında bulunan, solunum gibi işlevleri düzenleyen köprü."
+        },
+        {
+          "word": "TALA MUS",
+          "hint": "Ara beyinde yer alan, duyu organlarından gelen bilgileri ilgili beyin merkezlerine ileten istasyon."
+        },
+        {
+          "word": "Hİ̇POTALA MUS",
+          "hint": "Ara beyinde yer alan, vücut sıcaklığı, açlık, susuzluk gibi temel fizyolojik olayları düzenleyen merkez."
+        },
+        {
+          "word": "AMİ̇GDALA",
+          "hint": "Beynin derinliklerinde bulunan, duygusal tepkilerde, özellikle korku ve hafızada rol oynayan badem şeklinde yapı."
+        },
+        {
+          "word": "Hİ̇POKAMPÜS",
+          "hint": "Hafıza oluşumunda ve mekansal navigasyonda önemli rol oynayan beyin yapısı."
+        },
+        {
+          "word": "Kİ̇REÇLENME",
+          "hint": "Sinir sisteminde miyelin kılıfın hasar gördüğü dejeneratif hastalık."
+        },
+        {
+          "word": "PARALİ̇Zİ̇",
+          "hint": "Sinir sistemindeki hasar sonucu oluşan kas hareketlerinin kaybı."
+        },
+        {
+          "word": "İ̇LETİ̇",
+          "hint": "Nöronlar arasında aktarılan sinirsel bilgi."
+        },
+        {
+          "word": "YAY",
+          "hint": "Bir refleks sırasında uyartının izlediği yol."
+        },
+        {
+          "word": "ORGANİ̇ZASYON",
+          "hint": "Sinir sisteminin işlevsel ve yapısal düzenlenişi."
+        }
       ]
     },
     {
       "id": "biyoloji_u2",
       "name": "2. Ünite: Endokrin Sistem",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "HORMON", "hint": "Endokrin bezlerin salgıladığı kimyasal haberci"},
-        {"word": "HİPOFİZ", "hint": "Diğer bezleri yöneten ana endokrin bez"},
-        {"word": "İNSÜLİN", "hint": "Kan şekerini düşüren pankreas hormonu"},
-        {"word": "TİROİT", "hint": "Metabolizma hızını düzenleyen bez"},
-        {"word": "ADRENALİN", "hint": "Stres anında salgılanan savaş ya da kaç hormonu"}
+        {
+          "word": "HORMON",
+          "hint": "Endokrin bezlerin salgıladığı kimyasal haberci"
+        },
+        {
+          "word": "HİPOFİZ",
+          "hint": "Diğer bezleri yöneten ana endokrin bez"
+        },
+        {
+          "word": "İNSÜLİN",
+          "hint": "Kan şekerini düşüren pankreas hormonu"
+        },
+        {
+          "word": "TİROİT",
+          "hint": "Metabolizma hızını düzenleyen bez"
+        },
+        {
+          "word": "ADRENALİN",
+          "hint": "Stres anında salgılanan savaş ya da kaç hormonu"
+        },
+        {
+          "word": "ENDOKRİ̇N",
+          "hint": "İç salgı bezi anlamına gelen, salgılarını doğrudan kana veren bez sistemi."
+        },
+        {
+          "word": "SALGİ",
+          "hint": "Bezlerin ürettiği ve vücutta görev yapan kimyasal madde."
+        },
+        {
+          "word": "BEZ",
+          "hint": "Belirli bir madde üreten organ veya hücre topluluğu."
+        },
+        {
+          "word": "KAN",
+          "hint": "Vücutta dolaşan, oksijen ve besin taşıyan sıvı."
+        },
+        {
+          "word": "KANA",
+          "hint": "Dolaşım sisteminde yer alan ve vücuda yayılan sıvı."
+        },
+        {
+          "word": "DOLAŞİM",
+          "hint": "Kanın veya diğer vücut sıvılarının bir devre içinde sürekli hareket etmesi."
+        },
+        {
+          "word": "DÜZENLEME",
+          "hint": "Bir sistemin veya organın işleyişini belirli bir düzeye getirme."
+        },
+        {
+          "word": "BÜYÜME",
+          "hint": "Canlıların boyut ve ağırlık olarak artması süreci."
+        },
+        {
+          "word": "METABOLİ̇ZMA",
+          "hint": "Canlı vücudunda gerçekleşen yapım ve yıkım olaylarının tümü."
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme yeteneği, güç."
+        },
+        {
+          "word": "BAĞİŞİKLİK",
+          "hint": "Vücudun hastalıklara karşı savunma sistemi."
+        },
+        {
+          "word": "ÜREME",
+          "hint": "Canlıların nesillerini devam ettirme yeteneği."
+        },
+        {
+          "word": "YUMURTALİK",
+          "hint": "Dişi üreme organı, östrojen ve progesteron salgılar."
+        },
+        {
+          "word": "TESTİ̇S",
+          "hint": "Erkek üreme organı, testosteron salgılar."
+        },
+        {
+          "word": "OVARYUM",
+          "hint": "Yumurtalıkların diğer adı."
+        },
+        {
+          "word": "EPİ̇Fİ̇Z",
+          "hint": "Beynin arka kısmında bulunan, melatonini salgılayan bez."
+        },
+        {
+          "word": "MELATONİ̇N",
+          "hint": "Uyku-uyanıklık döngüsünü düzenleyen hormon."
+        },
+        {
+          "word": "PANKREAS",
+          "hint": "Hem sindirim hem de endokrin sistemde görevli karma bez."
+        },
+        {
+          "word": "GLUKAGON",
+          "hint": "Kan şekerini yükselten, pankreasın ürettiği hormon."
+        },
+        {
+          "word": "KARACİ̇ĞER",
+          "hint": "Vücudun en büyük organı, metabolizmanın merkezi."
+        },
+        {
+          "word": "BÖBREK",
+          "hint": "Kanı süzerek idrar oluşturan organ."
+        },
+        {
+          "word": "BÖBREK ÜSTÜ",
+          "hint": "Böbreklerin üzerinde bulunan bezler."
+        },
+        {
+          "word": "KORTİ̇ZOL",
+          "hint": "Stres durumunda salgılanan, metabolizmayı etkileyen hormon."
+        },
+        {
+          "word": "ALDÜSTERON",
+          "hint": "Vücudun su ve tuz dengesini düzenleyen hormon."
+        },
+        {
+          "word": "Tİ̇MUS",
+          "hint": "Bağışıklık sisteminde rol alan, göğüs boşluğunda bulunan bez."
+        },
+        {
+          "word": "LENF",
+          "hint": "Bağışıklık sisteminin bir parçası olan sıvı."
+        },
+        {
+          "word": "BÖBREKÇİ̇K",
+          "hint": "Böbrek üstü bezlerinin diğer adı."
+        },
+        {
+          "word": "PARATİ̇ROİ̇T",
+          "hint": "Tiroit bezinin arkasında bulunan, kalsiyum dengesini ayarlayan bezler."
+        },
+        {
+          "word": "KALSİ̇YUM",
+          "hint": "Kemiklerin yapısında bulunan ve kan seviyesi önemli olan mineral."
+        },
+        {
+          "word": "FOSFOR",
+          "hint": "Kemik sağlığı ve enerji metabolizması için gerekli mineral."
+        },
+        {
+          "word": "KEMİ̇K",
+          "hint": "Vücut destek ve hareketini sağlayan sert doku."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Bir şeyin oluştuğu düzen, biçim."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Aynı görevdeki hücrelerin bir araya gelmesiyle oluşan yapı."
+        },
+        {
+          "word": "ORGAN",
+          "hint": "Belirli bir görevi yerine getiren doku topluluğu."
+        },
+        {
+          "word": "Sİ̇STEM",
+          "hint": "Belirli bir işlevi yerine getiren organlar topluluğu."
+        },
+        {
+          "word": "VÜCUT",
+          "hint": "Bir canlının fiziksel yapısı."
+        },
+        {
+          "word": "YOL",
+          "hint": "Bir yerden bir yere gitmek için kullanılan açıklık."
+        },
+        {
+          "word": "KANA Gİ̇Rİ̇Ş",
+          "hint": "Bir maddenin dolaşım sistemine dahil olması."
+        },
+        {
+          "word": "KANALSİZ",
+          "hint": "Salgılarını bir kanal aracılığıyla değil, doğrudan kana veren."
+        },
+        {
+          "word": "TUZA",
+          "hint": "Sodyum klorür, vücutta su dengesi için önemli."
+        },
+        {
+          "word": "Dİ̇YABET",
+          "hint": "Kan şekerinin düzenlenemediği hastalık."
+        },
+        {
+          "word": "RAHİ̇M",
+          "hint": "Dişi üreme organı, gebeliğin oluştuğu yer."
+        },
+        {
+          "word": "KANAL",
+          "hint": "Bir yerden bir yere taşımayı sağlayan dar geçit."
+        },
+        {
+          "word": "ANTİ̇Dİ̇ÜRETİ̇K",
+          "hint": "İdrar söktürmeyen, vücutta su tutulmasına yardımcı hormon."
+        },
+        {
+          "word": "OVARİ̇AL",
+          "hint": "Yumurtalıklarla ilgili."
+        },
+        {
+          "word": "UTERUS",
+          "hint": "Rahmin diğer adı."
+        },
+        {
+          "word": "Sİ̇NDİ̇Rİ̇M",
+          "hint": "Besinlerin parçalanarak emilebilir hale gelmesi."
+        },
+        {
+          "word": "GUATR",
+          "hint": "Tiroit bezinin büyümesi durumu."
+        },
+        {
+          "word": "KANİT",
+          "hint": "Bir olayı veya durumu doğrulayan gösterge."
+        },
+        {
+          "word": "Bİ̇Lİ̇MSEL",
+          "hint": "Bilim yöntemlerine uygun."
+        },
+        {
+          "word": "ARAŞTİRMA",
+          "hint": "Bir konuyu derinlemesine inceleme."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Bir hipotezi test etmek için yapılan kontrollü işlem."
+        }
       ]
     }
   ]

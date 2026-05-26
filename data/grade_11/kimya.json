@@ -3,25 +3,435 @@
     {
       "id": "kimya_u1",
       "name": "1. Ünite: Gazlar",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "BASINÇ", "hint": "Birim alana uygulanan kuvvet miktarı"},
-        {"word": "İDEAL GAZ", "hint": "Moleküller arası etkileşimi olmayan varsayılan gaz"},
-        {"word": "DİFÜZYON", "hint": "Gaz moleküllerinin yayılma hareketi"},
-        {"word": "AVOGADRO", "hint": "Eşit koşullarda gazların eşit hacim kapladığını bulan bilgin"},
-        {"word": "MOL HACİM", "hint": "Normal koşullarda bir mol gazın kapladığı hacim"}
+        {
+          "word": "BASINÇ",
+          "hint": "Birim alana uygulanan kuvvet miktarı"
+        },
+        {
+          "word": "İDEAL GAZ",
+          "hint": "Moleküller arası etkileşimi olmayan varsayılan gaz"
+        },
+        {
+          "word": "DİFÜZYON",
+          "hint": "Gaz moleküllerinin yayılma hareketi"
+        },
+        {
+          "word": "AVOGADRO",
+          "hint": "Eşit koşullarda gazların eşit hacim kapladığını bulan bilgin"
+        },
+        {
+          "word": "MOL HACİM",
+          "hint": "Normal koşullarda bir mol gazın kapladığı hacim"
+        },
+        {
+          "word": "GAZ",
+          "hint": "Maddenin hallerinden biri, belirli şekli ve hacmi olmayan."
+        },
+        {
+          "word": "SİVİ",
+          "hint": "Belirli bir şekli olmayan ancak belirli bir hacmi olan madde hali."
+        },
+        {
+          "word": "KATİ",
+          "hint": "Belirli bir şekli ve hacmi olan madde hali."
+        },
+        {
+          "word": "MOLEKÜL",
+          "hint": "Bir kimyasal bileşiğin en küçük birimi."
+        },
+        {
+          "word": "ATOM",
+          "hint": "Maddenin en temel yapı taşı."
+        },
+        {
+          "word": "SİCAKLİK",
+          "hint": "Bir cisimdeki moleküllerin ortalama kinetik enerjisinin ölçüsü."
+        },
+        {
+          "word": "HAL DEĞİ̇Şİ̇Mİ̇",
+          "hint": "Bir maddenin bir halden başka bir hale geçmesi (erime, donma, buharlaşma vb.)."
+        },
+        {
+          "word": "KİNETİ̇K ENERJİ̇",
+          "hint": "Hareket halindeki cisimlerin sahip olduğu enerji."
+        },
+        {
+          "word": "POTANSİ̇YEL ENERJİ̇",
+          "hint": "Cisimlerin konumlarından dolayı sahip olduğu enerji."
+        },
+        {
+          "word": "KALDİ̇RME KUVVETİ̇",
+          "hint": "Akışkanların (sıvı ve gazların) içinde bulunan cisimlere uyguladığı yukarı yönlü kuvvet."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Birim hacimdeki madde miktarı."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Bir cismin konumunun zamanla değişmesi."
+        },
+        {
+          "word": "TEPKİ̇ME",
+          "hint": "Kimyasal maddelerin birbirleriyle etkileşerek yeni maddeler oluşturması."
+        },
+        {
+          "word": "KATİ BASİNÇ",
+          "hint": "Gazların bir yüzeye uyguladığı dik kuvvettir."
+        },
+        {
+          "word": "KATİ SİCAKLİK",
+          "hint": "Gazların hareket enerjisiyle doğrudan ilişkili bir nicelik."
+        },
+        {
+          "word": "KATİ HACİ̇M",
+          "hint": "Gazların kapladığı alan."
+        },
+        {
+          "word": "KATİ KÜTLE",
+          "hint": "Bir gazın içerdiği madde miktarı."
+        },
+        {
+          "word": "KATİ DERİ̇Şİ̇M",
+          "hint": "Birim hacimdeki mol sayısı."
+        },
+        {
+          "word": "KATİ KATSAYİ",
+          "hint": "Gaz yasalarındaki sabit bir değer."
+        },
+        {
+          "word": "KATİ SABİ̇Tİ̇",
+          "hint": "Evrensel gaz sabiti R'nin sembolü."
+        },
+        {
+          "word": "KATİ Mİ̇KTAR",
+          "hint": "Bir gazın madde miktarı, genellikle mol cinsinden ifade edilir."
+        },
+        {
+          "word": "KATİ ORAN",
+          "hint": "Gaz moleküllerinin hacimdeki oranı."
+        },
+        {
+          "word": "KATİ BOŞLUK",
+          "hint": "Gaz molekülleri arasındaki ortalama mesafe."
+        },
+        {
+          "word": "KATİ ETKİ̇LEŞİ̇M",
+          "hint": "Gaz moleküllerinin birbirleriyle olan çekim veya itme kuvvetleri."
+        },
+        {
+          "word": "KATİ SERBEST",
+          "hint": "Gaz moleküllerinin birbirleriyle etkileşmeden serbestçe hareket edebilmesi."
+        },
+        {
+          "word": "KATİ YAYİLMA",
+          "hint": "Gazların bulundukları ortama rastgele hareket ederek dağılması."
+        },
+        {
+          "word": "KATİ BASKİ",
+          "hint": "Gazların bir yüzeye uyguladığı kuvvet."
+        },
+        {
+          "word": "KATİ DEĞİ̇Şİ̇M",
+          "hint": "Gazların sıcaklık veya basınç etkisiyle fiziksel durumlarının değişmesi."
+        },
+        {
+          "word": "KATİ Mİ̇SAR",
+          "hint": "Belirli bir hacimdeki gazın kütlesi."
+        },
+        {
+          "word": "KATİ ZAMAN",
+          "hint": "Gazların bir yerden başka bir yere hareket etmesi için geçen süre."
+        },
+        {
+          "word": "KATİ HİZ",
+          "hint": "Gaz moleküllerinin ortalama hareket hızı."
+        },
+        {
+          "word": "KATİ RASTGELE",
+          "hint": "Gaz moleküllerinin belirli bir yönü olmayan hareketi."
+        },
+        {
+          "word": "KATİ ÇARPMA",
+          "hint": "Gaz moleküllerinin birbirleriyle veya kap duvarlarıyla etkileşimi."
+        },
+        {
+          "word": "KATİ KUVVET",
+          "hint": "Gaz moleküllerinin uyguladığı itme veya çekme gücü."
+        },
+        {
+          "word": "KATİ HAREKETLİ̇",
+          "hint": "Gaz moleküllerinin sürekli hareket halinde olması."
+        },
+        {
+          "word": "KATİ DAĞİLİM",
+          "hint": "Gazların ortama yayılması."
+        },
+        {
+          "word": "KATİ TOPLAM",
+          "hint": "Gaz içindeki tüm moleküllerin etkileşimi."
+        },
+        {
+          "word": "KATİ ORANTİLİ",
+          "hint": "Gaz yasalarındaki niceliklerin birbirine bağlılığı."
+        },
+        {
+          "word": "KATİ Bİ̇Rİ̇M",
+          "hint": "Gaz miktarlarını ölçmek için kullanılan temel birim (mol)."
+        },
+        {
+          "word": "KATİ ÇEKİ̇RDEK",
+          "hint": "Bir atomun merkezindeki pozitif yüklü kısım."
+        },
+        {
+          "word": "KATİ YÖRÜNGE",
+          "hint": "Elektronların çekirdek etrafında döndüğü varsayılan yol."
+        },
+        {
+          "word": "KATİ DEPLASEMAN",
+          "hint": "Bir cismin başlangıç ve bitiş konumları arasındaki en kısa mesafe."
+        },
+        {
+          "word": "KATİ YOL",
+          "hint": "Bir cismin hareket ettiği toplam mesafe."
+        },
+        {
+          "word": "KATİ ENERJİ̇",
+          "hint": "Maddenin yapısını oluşturan temel birimlerin sahip olduğu güç."
+        },
+        {
+          "word": "KATİ DEPOLAMA",
+          "hint": "Gazların bir kap içinde tutulması."
+        },
+        {
+          "word": "KATİ AKİŞKAN",
+          "hint": "Kolayca şekil değiştirebilen madde (sıvı veya gaz)."
+        }
       ]
     },
     {
       "id": "kimya_u2",
       "name": "2. Ünite: Çözeltiler",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "ÇÖZELTİ", "hint": "Çözücü ve çözünenin homojen karışımı"},
-        {"word": "MOLAR", "hint": "Bir litre çözeltideki çözünen mol sayısı birimi"},
-        {"word": "DOYGUN", "hint": "Daha fazla madde çözemeyen çözelti türü"},
-        {"word": "ÇÖZÜNÜRLÜK", "hint": "Belirli sıcaklıkta çözünebilecek maksimum madde miktarı"},
-        {"word": "KOLİGATİF", "hint": "Çözünen tanecik sayısına bağlı özellikler"}
+        {
+          "word": "ÇÖZELTİ",
+          "hint": "Çözücü ve çözünenin homojen karışımı"
+        },
+        {
+          "word": "MOLAR",
+          "hint": "Bir litre çözeltideki çözünen mol sayısı birimi"
+        },
+        {
+          "word": "DOYGUN",
+          "hint": "Daha fazla madde çözemeyen çözelti türü"
+        },
+        {
+          "word": "ÇÖZÜNÜRLÜK",
+          "hint": "Belirli sıcaklıkta çözünebilecek maksimum madde miktarı"
+        },
+        {
+          "word": "KOLİGATİF",
+          "hint": "Çözünen tanecik sayısına bağlı özellikler"
+        },
+        {
+          "word": "KONSANTRE",
+          "hint": "Çözeltinin içindeki çözünen madde miktarının çok olduğu durumu anlatır."
+        },
+        {
+          "word": "SEYRELİ̇K",
+          "hint": "Çözeltinin içindeki çözünen madde miktarının az olduğu durum."
+        },
+        {
+          "word": "ÇÖZÜCÜ",
+          "hint": "Diğer maddeyi içinde çözen sıvı veya gaz."
+        },
+        {
+          "word": "ÇÖZÜNEN",
+          "hint": "Çözücü içinde dağılan madde."
+        },
+        {
+          "word": "ELEKTROLİ̇T",
+          "hint": "Suda çözündüğünde iyonlarına ayrışarak elektrik akımını ileten madde."
+        },
+        {
+          "word": "NON-ELEKTROLİ̇T",
+          "hint": "Suda çözündüğünde iyonlarına ayrışmayan ve elektrik akımını iletmeyen madde."
+        },
+        {
+          "word": "İ̇ZOTONİ̇K",
+          "hint": "Aynı ozmotik basınca sahip çözeltiler için kullanılır."
+        },
+        {
+          "word": "Hİ̇PERTONİ̇K",
+          "hint": "Daha yoğun, ozmotik basıncı yüksek çözelti."
+        },
+        {
+          "word": "Hİ̇POTONİ̇K",
+          "hint": "Daha seyreltik, ozmotik basıncı düşük çözelti."
+        },
+        {
+          "word": "KARİŞİM",
+          "hint": "İki veya daha fazla maddenin bir araya geldiği, kimyasal bağ oluşturmayan yapı."
+        },
+        {
+          "word": "HOMOJEN",
+          "hint": "Her yerinde aynı özelliklere sahip, tek fazlı karışım türü."
+        },
+        {
+          "word": "HETEROJEN",
+          "hint": "Farklı bölgelerinde farklı özellikler gösterebilen, çok fazlı karışım."
+        },
+        {
+          "word": "SÜSPANSİ̇YON",
+          "hint": "Katı parçacıkların sıvı içinde askıda kaldığı, heterojen karışım."
+        },
+        {
+          "word": "EMÜLSİ̇YON",
+          "hint": "Birbiri içinde çözünmeyen sıvıların oluşturduğu heterojen karışım."
+        },
+        {
+          "word": "AEROSOL",
+          "hint": "Katı veya sıvı zerreciklerinin gaz içinde dağılmasıyla oluşan karışım."
+        },
+        {
+          "word": "TENDİ̇RDİ̇ME",
+          "hint": "Sıvı içinde askıda kalan katı parçacıkların zamanla dibe çökmesi."
+        },
+        {
+          "word": "KOLLOİ̇D",
+          "hint": "Tanecikleri homojen karışımlardan büyük, süspansiyonlardan küçük olan karışım türü."
+        },
+        {
+          "word": "OZMOZ",
+          "hint": "Suyun yarı geçirgen bir zardan derişimi az olan yerden çok olana doğru geçişi."
+        },
+        {
+          "word": "Dİ̇FÜZYON",
+          "hint": "Maddelerin derişim farkından dolayı çok derişik yerden az derişik yere yayılması."
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Birim alana uygulanan kuvvet; ozmotik basınç da bir türüdür."
+        },
+        {
+          "word": "KAYNAMA",
+          "hint": "Çözeltiye eklenen madde ile kaynama noktasının yükselmesi olayı."
+        },
+        {
+          "word": "DONMA",
+          "hint": "Çözeltiye eklenen madde ile donma noktasının düşmesi olayı."
+        },
+        {
+          "word": "BUHARLAŞMA",
+          "hint": "Çözeltinin yüzeyindeki sıvı moleküllerinin gaz haline geçmesi."
+        },
+        {
+          "word": "YÜZEY GERİ̇Lİ̇Mİ̇",
+          "hint": "Sıvıların yüzeyindeki moleküllerin birbirini çekmesiyle oluşan kuvvet."
+        },
+        {
+          "word": "KAPİLAR",
+          "hint": "Çözeltilerdeki geçişleri kontrol eden, yarı geçirgen zarlar."
+        },
+        {
+          "word": "Mİ̇KTAR",
+          "hint": "Bir maddenin ne kadar bulunduğunu gösteren nicelik."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki farklı niceliğin birbirine bölünmesiyle elde edilen değer."
+        },
+        {
+          "word": "YÜZDE",
+          "hint": "Her yüz birimdeki miktarı gösteren oran türü."
+        },
+        {
+          "word": "MOLALİK",
+          "hint": "Çözücü kütlesine göre mol sayısını ifade eden derişim birimi."
+        },
+        {
+          "word": "KÜTLECE",
+          "hint": "Çözeltinin kütlesine göre çözünenin kütlesini belirten ifade."
+        },
+        {
+          "word": "HAL DEĞİ̇Şİ̇Mİ̇",
+          "hint": "Maddenin katı, sıvı, gaz gibi haller arasında geçişi."
+        },
+        {
+          "word": "EKZOTERMİ̇K",
+          "hint": "Isı veren çözünme tepkimesi."
+        },
+        {
+          "word": "ENDOTERMİ̇K",
+          "hint": "Isı alan çözünme tepkimesi."
+        },
+        {
+          "word": "DENGE",
+          "hint": "İleri ve geri tepkimelerin eşit hızda olduğu durum."
+        },
+        {
+          "word": "KATKİ",
+          "hint": "Çözeltinin özelliklerini değiştiren yabancı madde."
+        },
+        {
+          "word": "MAYİ̇",
+          "hint": "Akıcı ve akışkan madde anlamına gelen genel bir terim."
+        },
+        {
+          "word": "ESANS",
+          "hint": "Özellikle sıvı içinde çözünmüş hoş kokulu madde."
+        },
+        {
+          "word": "ÇÖKTÜRME",
+          "hint": "Çözeltideki çözünenin katı hale geçirilmesi işlemi."
+        },
+        {
+          "word": "SÜPERDOYGUN",
+          "hint": "Doygun çözeltiden daha fazla madde içeren, kararsız çözelti."
+        },
+        {
+          "word": "ARTİK",
+          "hint": "Çözünmeyen ve dipte kalan katı madde."
+        },
+        {
+          "word": "SİHHİ̇",
+          "hint": "Sağlık açısından faydalı veya temizleyici çözeltiler için kullanılabilir."
+        },
+        {
+          "word": "ALKOL",
+          "hint": "Genellikle etil alkol gibi hidrokarbon zincirine bağlı -OH grubunu içeren bileşik."
+        },
+        {
+          "word": "GLİ̇SERİ̇N",
+          "hint": "Tatlımsı, renksiz, viskoz bir sıvı; nem çekici özelliği vardır."
+        },
+        {
+          "word": "ANTİ̇Fİ̇Rİ̇Z",
+          "hint": "Sıvıların donma noktasını düşürmek için kullanılan madde."
+        },
+        {
+          "word": "KROMATOGRAFİ̇",
+          "hint": "Karışımları ayırmak için kullanılan bir ayrıştırma tekniği."
+        },
+        {
+          "word": "SİTMA",
+          "hint": "Sıcaklık artışıyla çözünürlüğün değişimiyle ilgili bir durum."
+        }
       ]
     }
   ]

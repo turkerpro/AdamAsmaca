@@ -3,25 +3,471 @@
     {
       "id": "ing_u1",
       "name": "1. Ünite: Greetings",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "HELLO", "hint": "İngilizce merhaba anlamına gelir"},
-        {"word": "GOODBYE", "hint": "İngilizce hoşça kal demektir"},
-        {"word": "FRIEND", "hint": "İngilizce arkadaş anlamına gelir"},
-        {"word": "PLEASE", "hint": "İngilizce lütfen anlamına gelir"},
-        {"word": "THANKS", "hint": "İngilizce teşekkürler demektir"}
+        {
+          "word": "HELLO",
+          "hint": "İngilizce merhaba anlamına gelir"
+        },
+        {
+          "word": "GOODBYE",
+          "hint": "İngilizce hoşça kal demektir"
+        },
+        {
+          "word": "FRIEND",
+          "hint": "İngilizce arkadaş anlamına gelir"
+        },
+        {
+          "word": "PLEASE",
+          "hint": "İngilizce lütfen anlamına gelir"
+        },
+        {
+          "word": "THANKS",
+          "hint": "İngilizce teşekkürler demektir"
+        },
+        {
+          "word": "MERHABA",
+          "hint": "Birini gördüğünde söylediğin ilk söz."
+        },
+        {
+          "word": "GÜNAYDIN",
+          "hint": "Sabah uyandığında veya ilk gördüğünde söylersin."
+        },
+        {
+          "word": "İ̇Yİ GÜNLER",
+          "hint": "Gündüz vakti vedalaşırken veya selamlaşırken söylenir."
+        },
+        {
+          "word": "İ̇Yİ AKŞAMLAR",
+          "hint": "Akşam olup hava kararmaya başlayınca söylenir."
+        },
+        {
+          "word": "İ̇Yİ GECELER",
+          "hint": "Yatmadan önce veya gece vedalaşırken söylenir."
+        },
+        {
+          "word": "HOŞ GELDİNİZ",
+          "hint": "Bir yere gelen misafirleri karşılamak için denir."
+        },
+        {
+          "word": "HOŞ BULDUK",
+          "hint": "\"Hoş geldiniz\" diyene verilen cevaptır."
+        },
+        {
+          "word": "NASILSIN",
+          "hint": "Birinin iyi olup olmadığını sormak için kullanılır."
+        },
+        {
+          "word": "İ̇YİYİM",
+          "hint": "\"Nasılsın?\" sorusuna verilen olumlu cevap."
+        },
+        {
+          "word": "ADIN",
+          "hint": "Senin kendini tanıttığın kelime."
+        },
+        {
+          "word": "SOYADIN",
+          "hint": "Ailenin ortak ismi."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Okulda sana yeni şeyler öğreten kişi."
+        },
+        {
+          "word": "ÖĞRENCİ",
+          "hint": "Okula gidip ders çalışan çocuk."
+        },
+        {
+          "word": "SINIF",
+          "hint": "Ders yaptığın, arkadaşlarınla oturduğun yer."
+        },
+        {
+          "word": "OKUL",
+          "hint": "Dersler öğrendiğin, yeni bilgiler edindiğin büyük bina."
+        },
+        {
+          "word": "KİTAP",
+          "hint": "Okuduğun, resimli veya yazılı sayfaları olan nesne."
+        },
+        {
+          "word": "DEFTER",
+          "hint": "İçine yazı yazdığın veya resim çizdiğin sayfalı şey."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Yazı yazmak veya resim çizmek için kullanılır."
+        },
+        {
+          "word": "SİLGİ",
+          "hint": "Yanlış yazdığın yazıları veya çizimleri düzeltmeye yarar."
+        },
+        {
+          "word": "SIRA",
+          "hint": "Sınıfta oturduğun, üzerine kitaplarını koyduğun masa."
+        },
+        {
+          "word": "ÇANTA",
+          "hint": "Kitaplarını, defterlerini taşıdığın şey."
+        },
+        {
+          "word": "OTUR",
+          "hint": "Ayakta durmak yerine bir yere konmak."
+        },
+        {
+          "word": "KALK",
+          "hint": "Oturduğun yerden ayağa durmak."
+        },
+        {
+          "word": "DİNLE",
+          "hint": "Kulaklarınla sesleri duymak ve anlamak."
+        },
+        {
+          "word": "BAK",
+          "hint": "Gözlerinle bir şeyi görmek."
+        },
+        {
+          "word": "AÇ",
+          "hint": "Kapalı bir şeyi görünür veya erişilebilir hale getirmek."
+        },
+        {
+          "word": "KAPAT",
+          "hint": "Açık bir şeyi örtmek veya erişilmez hale getirmek."
+        },
+        {
+          "word": "YARDIM",
+          "hint": "Birine zor bir işinde destek olmak."
+        },
+        {
+          "word": "ARKADAŞ",
+          "hint": "Beraber oyun oynadığın, sırlarını paylaştığın kişi."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek için tek başına veya başkalarıyla yaptığın etkinlik."
+        },
+        {
+          "word": "MÜZİK",
+          "hint": "Kulakla dinlenen güzel sesler topluluğu."
+        },
+        {
+          "word": "RESİM",
+          "hint": "Boyalarla veya kalemle kağıda yapılan çizim."
+        },
+        {
+          "word": "SAYI",
+          "hint": "Miktarları belirtmek için kullandığımız işaretler."
+        },
+        {
+          "word": "HARF",
+          "hint": "Kelimeleri oluşturmak için kullandığımız işaretler."
+        },
+        {
+          "word": "ANNE",
+          "hint": "Seni doğuran veya büyüten kadın."
+        },
+        {
+          "word": "BABA",
+          "hint": "Seni doğuran veya büyüten erkek."
+        },
+        {
+          "word": "KARDEŞ",
+          "hint": "Seninle aynı anneden veya babadan olan çocuk."
+        },
+        {
+          "word": "ABLA",
+          "hint": "Senin büyük kız kardeşin."
+        },
+        {
+          "word": "ABİ",
+          "hint": "Senin büyük erkek kardeşin."
+        },
+        {
+          "word": "AİLE",
+          "hint": "Anne, baba, kardeşler ve akrabalardan oluşan grup."
+        },
+        {
+          "word": "ÇOCUK",
+          "hint": "Küçük yaştaki insan."
+        },
+        {
+          "word": "İ̇NSAN",
+          "hint": "Düşünebilen, konuşabilen canlı varlık."
+        },
+        {
+          "word": "MUTLU",
+          "hint": "İçin sevinçle dolu, gülen yüz."
+        },
+        {
+          "word": "ÜZGÜN",
+          "hint": "Morali bozuk, neşesi olmayan hal."
+        },
+        {
+          "word": "HEYECANLI",
+          "hint": "Yeni bir şey beklerken duyduğun coşku."
+        },
+        {
+          "word": "YORGUN",
+          "hint": "Çok iş yaptıktan sonra dinlenmek isteyen hal."
+        },
+        {
+          "word": "LÜTFEN",
+          "hint": "Bir şey isterken kullandığın nazik kelime."
+        },
+        {
+          "word": "TEŞEKKÜR",
+          "hint": "Birine iyilik yaptığında söylenen minnet sözü."
+        },
+        {
+          "word": "ÖZÜR",
+          "hint": "Hata yaptığında dilediğin bağışlama."
+        },
+        {
+          "word": "GÜLÜMSE",
+          "hint": "Yüzünde beliren mutlu ifade."
+        }
       ]
     },
     {
       "id": "ing_u2",
       "name": "2. Ünite: Numbers",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "THREE", "hint": "İngilizce üç sayısının yazılışı"},
-        {"word": "SEVEN", "hint": "İngilizce yedi sayısının yazılışı"},
-        {"word": "EIGHT", "hint": "İngilizce sekiz sayısının yazılışı"},
-        {"word": "COUNT", "hint": "İngilizce saymak anlamına gelir"},
-        {"word": "NUMBER", "hint": "İngilizce sayı anlamına gelir"}
+        {
+          "word": "THREE",
+          "hint": "İngilizce üç sayısının yazılışı"
+        },
+        {
+          "word": "SEVEN",
+          "hint": "İngilizce yedi sayısının yazılışı"
+        },
+        {
+          "word": "EIGHT",
+          "hint": "İngilizce sekiz sayısının yazılışı"
+        },
+        {
+          "word": "COUNT",
+          "hint": "İngilizce saymak anlamına gelir"
+        },
+        {
+          "word": "NUMBER",
+          "hint": "İngilizce sayı anlamına gelir"
+        },
+        {
+          "word": "Bİ̇R",
+          "hint": "En küçük miktar. Bir parmakla gösterebiliriz."
+        },
+        {
+          "word": "İ̇Kİ̇",
+          "hint": "Bir insan yüzünde kaç göz olduğunu düşün."
+        },
+        {
+          "word": "DÖRT",
+          "hint": "Bir arabanın kaç tekerleği vardır?"
+        },
+        {
+          "word": "BEŞ",
+          "hint": "Bir elindeki parmak sayısı."
+        },
+        {
+          "word": "ALTİ",
+          "hint": "Bir zarın üzerinde bir yüzdeki nokta adedi olabilir."
+        },
+        {
+          "word": "DOKUZ",
+          "hint": "Ondan hemen önce gelir."
+        },
+        {
+          "word": "ON",
+          "hint": "İki elinin toplam parmak sayısı."
+        },
+        {
+          "word": "SİFİR",
+          "hint": "Hiçbir şeyin olmadığı miktar."
+        },
+        {
+          "word": "TOPLAMAK",
+          "hint": "Nesneleri bir araya getirerek çoğaltma."
+        },
+        {
+          "word": "ÇİKARMAK",
+          "hint": "Nesneleri bir gruptan ayırarak azaltma."
+        },
+        {
+          "word": "EŞİ̇T",
+          "hint": "İki şeyin aynı olması, denge durumu."
+        },
+        {
+          "word": "ARTİRMAK",
+          "hint": "Bir şeyi daha çok yapmak veya eklemek."
+        },
+        {
+          "word": "AZALTMAK",
+          "hint": "Bir şeyi daha az yapmak veya eksiltmek."
+        },
+        {
+          "word": "TEK",
+          "hint": "İkişerli gruplara ayrılamayan miktar. Örnek: bir elma."
+        },
+        {
+          "word": "Çİ̇FT",
+          "hint": "İkişerli gruplara ayrılabilen miktar. Örnek: iki elma."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir şeyin önemi veya sahip olduğu miktar."
+        },
+        {
+          "word": "SİRA",
+          "hint": "Bir şeylerin belli bir düzene göre dizilişi."
+        },
+        {
+          "word": "İ̇LK",
+          "hint": "Başlangıçtaki, en baştaki."
+        },
+        {
+          "word": "SON",
+          "hint": "En sondaki, bitişteki."
+        },
+        {
+          "word": "HEPSİ̇",
+          "hint": "Tamamı, hiçbiri kalmadan."
+        },
+        {
+          "word": "Hİ̇Ç",
+          "hint": "Sıfır miktarında, hiçbiri yok."
+        },
+        {
+          "word": "PARÇA",
+          "hint": "Bir bütünün bir kısmı."
+        },
+        {
+          "word": "TAM",
+          "hint": "Eksiksiz, bütün halde."
+        },
+        {
+          "word": "Mİ̇KTAR",
+          "hint": "Bir şeyin ne kadar olduğu."
+        },
+        {
+          "word": "ÇOK",
+          "hint": "Büyük miktarda, bolca."
+        },
+        {
+          "word": "AZ",
+          "hint": "Küçük miktarda, azıcık."
+        },
+        {
+          "word": "FAZLA",
+          "hint": "Gerekenden daha çok."
+        },
+        {
+          "word": "EKSİ̇K",
+          "hint": "Gerekenden daha az."
+        },
+        {
+          "word": "TOPLAMA",
+          "hint": "Miktarları birleştirme işlemi."
+        },
+        {
+          "word": "ÇİKARMA",
+          "hint": "Miktarları ayırma işlemi."
+        },
+        {
+          "word": "İ̇ŞLEM",
+          "hint": "Bir şeyi yapmak için yapılan adımlar."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlemin bitiminde ulaşılan şey."
+        },
+        {
+          "word": "ÖRÜNTÜ",
+          "hint": "Tekrar eden bir düzen veya şekil."
+        },
+        {
+          "word": "SİRALAMA",
+          "hint": "Nesneleri veya miktarları belli bir düzene koymak."
+        },
+        {
+          "word": "GRUPLAMA",
+          "hint": "Benzer şeyleri bir araya getirmek."
+        },
+        {
+          "word": "KARŞİLAŞTİRMA",
+          "hint": "İki veya daha fazla şeyi farklılıklarını veya benzerliklerini bulmak için incelemek."
+        },
+        {
+          "word": "AYNİ",
+          "hint": "Birbirine tıpatıp benzeyen, hiç farklı olmayan."
+        },
+        {
+          "word": "FARKLİ",
+          "hint": "Birbirine benzemeyen, değişik."
+        },
+        {
+          "word": "BÜYÜK",
+          "hint": "Hacmi, boyutu fazla olan."
+        },
+        {
+          "word": "KÜÇÜK",
+          "hint": "Hacmi, boyutu az olan."
+        },
+        {
+          "word": "DAHA",
+          "hint": "Karşılaştırma yaparken kullanılan bir kelime, örneğin 'daha çok'."
+        },
+        {
+          "word": "ÖNCE",
+          "hint": "Bir zamandan veya sıradan önceki an."
+        },
+        {
+          "word": "SONRA",
+          "hint": "Bir zamandan veya sıradan sonraki an."
+        },
+        {
+          "word": "BAŞLANGİÇ",
+          "hint": "Bir şeyin ilk adımı veya zamanı."
+        },
+        {
+          "word": "Bİ̇Tİ̇Ş",
+          "hint": "Bir şeyin sonu."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Bir araya gelmiş şeylerin hepsi."
+        },
+        {
+          "word": "İ̇Kİ̇Lİ̇",
+          "hint": "İki nesnenin bir arada olması. Örneğin: bir çift çorap."
+        },
+        {
+          "word": "Bİ̇RLİ̇K",
+          "hint": "Bir tane olan nesne veya miktar."
+        },
+        {
+          "word": "ONLUK",
+          "hint": "On tane birliğin bir araya gelmesiyle oluşan miktar."
+        },
+        {
+          "word": "YÜZ",
+          "hint": "On tane onluğun bir araya gelmesiyle oluşan büyük bir miktar."
+        },
+        {
+          "word": "Bİ̇N",
+          "hint": "On tane yüzlüğün bir araya gelmesiyle oluşan, çok büyük bir miktar."
+        }
       ]
     }
   ]

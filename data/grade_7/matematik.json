@@ -3,25 +3,427 @@
     {
       "id": "matematik7_u1",
       "name": "1. Ünite: Cebir",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "DEĞİŞKEN", "hint": "Farklı değerler alabilen harfle gösterilen büyüklük"},
-        {"word": "KATSAYI", "hint": "Değişkenin önündeki sayısal çarpan"},
-        {"word": "CEBİRSEL İFADE", "hint": "Sayılar ve değişkenlerle oluşturulan matematiksel ifade"},
-        {"word": "POLİNOM", "hint": "Birden fazla terimden oluşan cebirsel ifade"},
-        {"word": "SABIT TERİM", "hint": "Değişken içermeyen sayısal terim"}
+        {
+          "word": "DEĞİŞKEN",
+          "hint": "Farklı değerler alabilen harfle gösterilen büyüklük"
+        },
+        {
+          "word": "KATSAYI",
+          "hint": "Değişkenin önündeki sayısal çarpan"
+        },
+        {
+          "word": "CEBİRSEL İFADE",
+          "hint": "Sayılar ve değişkenlerle oluşturulan matematiksel ifade"
+        },
+        {
+          "word": "POLİNOM",
+          "hint": "Birden fazla terimden oluşan cebirsel ifade"
+        },
+        {
+          "word": "SABIT TERİM",
+          "hint": "Değişken içermeyen sayısal terim"
+        },
+        {
+          "word": "EKLEM",
+          "hint": "Cebirsel ifadelerde terimleri birbirine bağlayan işaret (+ veya -)."
+        },
+        {
+          "word": "TERİ̇M",
+          "hint": "Cebirsel ifadedeki her bir parçadır, değişken ve katsayılardan oluşabilir."
+        },
+        {
+          "word": "İ̇ŞLEM",
+          "hint": "Toplama, çıkarma, çarpma, bölme gibi matematiksel hareketler."
+        },
+        {
+          "word": "DENKLEM",
+          "hint": "Eşitlik sembolüyle ( = ) birbirine bağlanmış iki cebirsel ifadedir."
+        },
+        {
+          "word": "EŞİ̇TLİ̇K",
+          "hint": "İki ifadenin değerlerinin aynı olduğunu gösteren durum."
+        },
+        {
+          "word": "ÜS",
+          "hint": "Bir sayının kendisiyle kaç kere çarpılacağını gösteren küçük sayı."
+        },
+        {
+          "word": "TABAN",
+          "hint": "Üslü ifadede, çarpılacak olan ana sayıdır."
+        },
+        {
+          "word": "BASİ̇T",
+          "hint": "Karmaşık olmayan, anlaşılması kolay."
+        },
+        {
+          "word": "TAM SAYİ",
+          "hint": "Sıfır, pozitif ve negatif tamsayıları içeren küme."
+        },
+        {
+          "word": "KESİ̇R",
+          "hint": "Bir bütünün parçalarını gösteren sayı türü (örn: 1/2)."
+        },
+        {
+          "word": "PECETE",
+          "hint": "Yemek yerken elleri veya ağzı silmek için kullanılan kağıt."
+        },
+        {
+          "word": "PUZZLE",
+          "hint": "Parçaları birleştirerek resim veya şekil oluşturan oyun."
+        },
+        {
+          "word": "Bİ̇LGİ̇SAYAR",
+          "hint": "Hesaplama ve veri işleme yapan elektronik alet."
+        },
+        {
+          "word": "MANTİK",
+          "hint": "Doğru düşünme ve akıl yürütme yeteneği."
+        },
+        {
+          "word": "STRATEJİ̇",
+          "hint": "Bir amaca ulaşmak için izlenen yol veya plan."
+        },
+        {
+          "word": "MODELLEME",
+          "hint": "Gerçek dünyadaki bir durumu matematiksel olarak anlatma."
+        },
+        {
+          "word": "VERİ̇",
+          "hint": "Bilgi parçacıkları, sayılar veya gözlemler."
+        },
+        {
+          "word": "GRAFİ̇K",
+          "hint": "Verileri görsel olarak temsil etme şekli."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Verileri satır ve sütunlarda düzenleme."
+        },
+        {
+          "word": "ORTALAMA",
+          "hint": "Bir veri grubundaki sayıların toplamının, veri sayısına bölümü."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir sayının veya ifadenin niceliği."
+        },
+        {
+          "word": "ÖRÜNTÜ",
+          "hint": "Belirli bir kurala göre tekrarlanan dizi."
+        },
+        {
+          "word": "İ̇Lİ̇ŞKİ̇",
+          "hint": "İki şey arasındaki bağlantı veya uygunluk."
+        },
+        {
+          "word": "FONKSİ̇YON",
+          "hint": "Bir girdiye karşılık bir çıktı üreten kural."
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Düz bir çizgi şeklinde ilerleyen."
+        },
+        {
+          "word": "EĞİ̇M",
+          "hint": "Bir doğrunun ne kadar dik olduğunu gösteren ölçü."
+        },
+        {
+          "word": "KESİ̇Şİ̇M",
+          "hint": "İki çizginin veya şeklin birbirini deldiği nokta."
+        },
+        {
+          "word": "BAĞİMLİ",
+          "hint": "Bir şeyin diğerine bağlı olduğu durum."
+        },
+        {
+          "word": "BAĞİMSİZ",
+          "hint": "Bir şeye bağlı olmayan durum."
+        },
+        {
+          "word": "PARAMETRE",
+          "hint": "Bir durumu veya denklemi belirleyen etken."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Yapılması veya uyulması gereken belirli bir düzen."
+        },
+        {
+          "word": "YÖNTEM",
+          "hint": "Bir işi yapma şekli, usul."
+        },
+        {
+          "word": "ANALİ̇Z",
+          "hint": "Bir şeyi parçalarına ayırarak inceleme."
+        },
+        {
+          "word": "SENTEZ",
+          "hint": "Parçaları birleştirerek bütün oluşturma."
+        },
+        {
+          "word": "GENELLEME",
+          "hint": "Özel durumlardan genel bir sonuca varma."
+        },
+        {
+          "word": "TÜMEVARİM",
+          "hint": "Özelden genele doğru akıl yürütme yolu."
+        },
+        {
+          "word": "TÜMDENGELİ̇M",
+          "hint": "Genelden özele doğru akıl yürütme yolu."
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Bir şeyi temsil eden işaret veya resim."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Matematiksel bir ilişkiyi gösteren denklem."
+        },
+        {
+          "word": "Bİ̇Rİ̇M",
+          "hint": "Ölçülerin temel parçası (örn: metre, kilogram)."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki niceliğin karşılaştırılması (örn: 2/3)."
+        },
+        {
+          "word": "ORANTİ",
+          "hint": "İki oranın eşitliği."
+        },
+        {
+          "word": "ÇARPAN",
+          "hint": "Çarpma işleminde kullanılan sayılardan biri."
+        },
+        {
+          "word": "BÖLEN",
+          "hint": "Bölme işleminde, bölünen sayıyı bölen sayı."
+        },
+        {
+          "word": "KAT",
+          "hint": "Bir sayının kendisiyle çarpımının tekrarı (örn: 2'nin katları: 2, 4, 6...)."
+        }
       ]
     },
     {
       "id": "matematik7_u2",
       "name": "2. Ünite: Denklemler",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "DENKLEM", "hint": "Eşittir işareti içeren cebirsel ifade"},
-        {"word": "BİLİNMEYEN", "hint": "Denklemde değeri aranan değişken"},
-        {"word": "EŞİTLİK", "hint": "İki ifadenin birbirine eşit olması durumu"},
-        {"word": "ÇÖZÜM KÜMESİ", "hint": "Denklemi sağlayan değerlerin oluşturduğu küme"},
-        {"word": "DOĞRUSAL", "hint": "Birinci dereceden olan denklem türü"}
+        {
+          "word": "DENKLEM",
+          "hint": "Eşittir işareti içeren cebirsel ifade"
+        },
+        {
+          "word": "BİLİNMEYEN",
+          "hint": "Denklemde değeri aranan değişken"
+        },
+        {
+          "word": "EŞİTLİK",
+          "hint": "İki ifadenin birbirine eşit olması durumu"
+        },
+        {
+          "word": "ÇÖZÜM KÜMESİ",
+          "hint": "Denklemi sağlayan değerlerin oluşturduğu küme"
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Birinci dereceden olan denklem türü"
+        },
+        {
+          "word": "SAYİ",
+          "hint": "Dört, beş, altı gibi bir miktar belirten şey."
+        },
+        {
+          "word": "DEĞİ̇ŞKEN",
+          "hint": "Değeri değişebilen sembol veya harf."
+        },
+        {
+          "word": "İ̇ŞLEM",
+          "hint": "Toplama, çıkarma gibi matematiksel bir hareket."
+        },
+        {
+          "word": "TERİ̇M",
+          "hint": "Bir ifadenin toplama veya çıkarma ile ayrılan parçası."
+        },
+        {
+          "word": "SABİ̇T",
+          "hint": "Değeri değişmeyen sayı."
+        },
+        {
+          "word": "KOŞUL",
+          "hint": "Bir şeyin gerçekleşmesi için gereken şart."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlemin veya hesaplamanın çıktısı."
+        },
+        {
+          "word": "EKLEM",
+          "hint": "Bir denkleme bir terim eklemek."
+        },
+        {
+          "word": "ÇİKAR",
+          "hint": "Bir denklemden bir terim azaltmak."
+        },
+        {
+          "word": "ÇARPMA",
+          "hint": "Bir sayıyı kendisiyle tekrar tekrar toplama işlemi."
+        },
+        {
+          "word": "BÖLME",
+          "hint": "Bir bütünün eşit parçalara ayrılması işlemi."
+        },
+        {
+          "word": "KAT",
+          "hint": "Bir sayının başka bir sayıyla çarpımından elde edilen değer."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki sayının birbirine bölümü."
+        },
+        {
+          "word": "KESİ̇R",
+          "hint": "Bütünün parçalarını gösteren sayı."
+        },
+        {
+          "word": "PARANTEZ",
+          "hint": "İşlem önceliğini belirten yuvarlak işaretler."
+        },
+        {
+          "word": "ÖNCELİ̇K",
+          "hint": "İşlemlerin hangi sırada yapılacağını belirleyen kural."
+        },
+        {
+          "word": "BASİ̇T",
+          "hint": "Karmaşık olmayan, sade."
+        },
+        {
+          "word": "TÜMLEME",
+          "hint": "Bir eksikliği tamamlama."
+        },
+        {
+          "word": "KARŞİLİK",
+          "hint": "Bir şeyin denk veya eşit olduğu değer."
+        },
+        {
+          "word": "İ̇SPAT",
+          "hint": "Bir ifadenin doğruluğunu gösterme."
+        },
+        {
+          "word": "GENELLEME",
+          "hint": "Belirli durumlardan genel bir kural çıkarma."
+        },
+        {
+          "word": "MODELLEME",
+          "hint": "Gerçek bir durumu matematiksel olarak ifade etme."
+        },
+        {
+          "word": "GRAFİ̇K",
+          "hint": "Verileri görsel olarak gösterme yolu."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Verileri satır ve sütunlarda düzenleme."
+        },
+        {
+          "word": "VARİ̇ANT",
+          "hint": "Bir şeyin farklı biçimi."
+        },
+        {
+          "word": "SEZGİ",
+          "hint": "Doğrudan anlama, akıl yürütmeden sonuca varma."
+        },
+        {
+          "word": "DEDÜKSİ̇YON",
+          "hint": "Genel bilgilerden özel sonuçlar çıkarma."
+        },
+        {
+          "word": "ENDÜKSİ̇YON",
+          "hint": "Özel bilgilerden genel sonuçlar çıkarma."
+        },
+        {
+          "word": "METOT",
+          "hint": "Bir işi yapma şekli, yöntem."
+        },
+        {
+          "word": "STRATEJİ̇",
+          "hint": "Bir amaca ulaşmak için izlenen yol."
+        },
+        {
+          "word": "ALGORİTMA",
+          "hint": "Bir problemi çözmek veya bir görevi yerine getirmek için izlenen adım adım işlem dizisi."
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Bir şeyi temsil eden işaret."
+        },
+        {
+          "word": "VERİ̇",
+          "hint": "Bilgi, veri yığını."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Matematiksel bir ilişkiyi gösteren denklem."
+        },
+        {
+          "word": "KURALLİ",
+          "hint": "Belirli bir düzene uyan."
+        },
+        {
+          "word": "UYGUN",
+          "hint": "Gereken niteliklere sahip."
+        },
+        {
+          "word": "DEĞERLENDİ̇RME",
+          "hint": "Bir şeyin önemini veya değerini ölçme."
+        },
+        {
+          "word": "KARŞİLAŞTİRMA",
+          "hint": "İki veya daha fazla şeyi birbirine göre inceleme."
+        },
+        {
+          "word": "SENTEZ",
+          "hint": "Farklı parçaları birleştirerek yeni bir bütün oluşturma."
+        },
+        {
+          "word": "ANALİ̇Z",
+          "hint": "Bir bütünün parçalarını inceleme."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Bir şeyi açıklama veya anlamlandırma."
+        },
+        {
+          "word": "GEREKSİ̇Nİ̇M",
+          "hint": "İhtiyaç duyulan şey."
+        },
+        {
+          "word": "BAĞLAM",
+          "hint": "Bir olayın veya ifadenin içinde bulunduğu durum."
+        },
+        {
+          "word": "İ̇LETİ̇Şİ̇M",
+          "hint": "Bilgi veya duygu alışverişi."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Bir bilgiyi veya teoriyi kullanma şekli."
+        }
       ]
     }
   ]

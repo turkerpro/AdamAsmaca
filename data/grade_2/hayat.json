@@ -3,25 +3,475 @@
     {
       "id": "hayat_u1",
       "name": "1. Ünite: Çevremiz",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "MAHALLE", "hint": "Evlerimizin bulunduğu yakın çevre"},
-        {"word": "KOMŞU", "hint": "Yan evde ya da yakınımızda yaşayan kişi"},
-        {"word": "MARKET", "hint": "Yiyecek ve içecek satın aldığımız yer"},
-        {"word": "HASTANE", "hint": "Hasta olunca gittiğimiz sağlık yeri"},
-        {"word": "İTFAİYE", "hint": "Yangın söndüren ekip ve araç"}
+        {
+          "word": "MAHALLE",
+          "hint": "Evlerimizin bulunduğu yakın çevre"
+        },
+        {
+          "word": "KOMŞU",
+          "hint": "Yan evde ya da yakınımızda yaşayan kişi"
+        },
+        {
+          "word": "MARKET",
+          "hint": "Yiyecek ve içecek satın aldığımız yer"
+        },
+        {
+          "word": "HASTANE",
+          "hint": "Hasta olunca gittiğimiz sağlık yeri"
+        },
+        {
+          "word": "İTFAİYE",
+          "hint": "Yangın söndüren ekip ve araç"
+        },
+        {
+          "word": "EV",
+          "hint": "Yaşadığımız ve ailemizle bir arada olduğumuz yer."
+        },
+        {
+          "word": "AİLE",
+          "hint": "Anne, baba, kardeşler ve diğer yakınlarımızdan oluşan grup."
+        },
+        {
+          "word": "OKUL",
+          "hint": "Okuma, yazma ve yeni şeyler öğrendiğimiz bina."
+        },
+        {
+          "word": "SINIF",
+          "hint": "Okulda ders dinlediğimiz, arkadaşlarımızla oturduğumuz oda."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Okulda bize ders anlatan, yol gösteren kişi."
+        },
+        {
+          "word": "ÖĞRENCİ",
+          "hint": "Okula gidip bilgi edinen, ders çalışan çocuk."
+        },
+        {
+          "word": "PARK",
+          "hint": "Oyun oynadığımız, sallandığımız, kaydıraktan kaydığımız yer."
+        },
+        {
+          "word": "CADDE",
+          "hint": "Şehirde arabaların ve insanların geçtiği geniş yol."
+        },
+        {
+          "word": "SOKAK",
+          "hint": "Evimizin önünden geçen, caddeden daha küçük yol."
+        },
+        {
+          "word": "TRAFİK",
+          "hint": "Yollarda hareket eden arabalar, otobüsler ve diğer taşıtların oluşturduğu kalabalık."
+        },
+        {
+          "word": "YAYA",
+          "hint": "Yolda yürüyerek ilerleyen kişi."
+        },
+        {
+          "word": "TAŞIT",
+          "hint": "İnsanları veya eşyaları bir yerden bir yere götüren araç."
+        },
+        {
+          "word": "DURAK",
+          "hint": "Otobüslerin veya dolmuşların yolcu alıp indirdiği yer."
+        },
+        {
+          "word": "YOL",
+          "hint": "Bir yerden başka bir yere ulaşmak için kullandığımız geçit."
+        },
+        {
+          "word": "AĞAÇ",
+          "hint": "Gövdesi ve dalları olan, bize oksijen veren büyük bitki."
+        },
+        {
+          "word": "ÇİÇEK",
+          "hint": "Bahçede veya saksıda büyüyen, rengarenk ve güzel kokulu bitki."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Üzerinde yürüdüğümüz, bitkilerin büyüdüğü, dünyanın üst tabakası."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Gökyüzünde bizi ısıtan ve her yeri aydınlatan yıldız."
+        },
+        {
+          "word": "AY",
+          "hint": "Gece gökyüzünde parlak görünen, bazen yuvarlak bazen yarım olan cisim."
+        },
+        {
+          "word": "YILDIZ",
+          "hint": "Gece gökyüzünde pırıl pırıl parlayan küçük ışıklar."
+        },
+        {
+          "word": "HAVA",
+          "hint": "Nefes aldığımız, etrafımızı saran görünmez gaz."
+        },
+        {
+          "word": "BULUT",
+          "hint": "Gökyüzünde pamuk gibi görünen, yağmur ve kar getiren şey."
+        },
+        {
+          "word": "YAĞMUR",
+          "hint": "Bulutlardan yeryüzüne düşen su damlacıkları."
+        },
+        {
+          "word": "KAR",
+          "hint": "Soğuk havada yağan, bembeyaz ve yumuşak su taneleri."
+        },
+        {
+          "word": "RÜZGAR",
+          "hint": "Havanın hareket etmesiyle oluşan, yaprakları sallayan esinti."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Etrafımızdaki bütün canlı ve cansız varlıkların hepsi."
+        },
+        {
+          "word": "DOĞA",
+          "hint": "Ağaçların, hayvanların, derelerin ve dağların olduğu yer."
+        },
+        {
+          "word": "HAYVAN",
+          "hint": "Kuş, kedi, köpek gibi yürüyen, uçan veya yüzen canlılar."
+        },
+        {
+          "word": "BİTKİ",
+          "hint": "Toprakta büyüyen, çiçek açan, meyve veren canlı varlıklar."
+        },
+        {
+          "word": "ÇÖP",
+          "hint": "İşimize yaramayan, atılması gereken eski veya kullanılmış şeyler."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Atık maddeleri tekrar kullanılabilir hale getirme."
+        },
+        {
+          "word": "TEMİZLİK",
+          "hint": "Kirlilikten arınma, çevremizi ve kendimizi düzenli tutma."
+        },
+        {
+          "word": "KÜTÜPHANE",
+          "hint": "İçinde birçok kitabın olduğu, okumak ve ödünç almak için gidilen yer."
+        },
+        {
+          "word": "POSTANE",
+          "hint": "Mektup, kargo ve paket gönderip aldığımız kurum."
+        },
+        {
+          "word": "POLİS",
+          "hint": "Şehrimizde güvenliği sağlayan, kurallara uymayanları denetleyen görevli."
+        },
+        {
+          "word": "FIRIN",
+          "hint": "Ekmek, simit, poğaça gibi unlu mamulleri pişirip satan dükkan."
+        },
+        {
+          "word": "ECZANE",
+          "hint": "Hasta olduğumuzda ilaç aldığımız yer."
+        },
+        {
+          "word": "BANK",
+          "hint": "Parkta veya otobüs durağında oturmak için yapılmış uzun sandalye."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek ve vakit geçirmek için yapılan etkinlik."
+        },
+        {
+          "word": "DOST",
+          "hint": "Güvendiğimiz, sevdiğimiz ve iyi anlaştığımız arkadaş."
+        },
+        {
+          "word": "YARDIMSEVER",
+          "hint": "Başkalarına destek olmayı ve iyilik yapmayı seven kişi."
+        },
+        {
+          "word": "GÜVENLİ",
+          "hint": "Tehlikesiz, korunaklı ve emniyetli yer veya durum."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Ne yapıp yapamayacağımızı gösteren, düzeni sağlayan ilke."
+        },
+        {
+          "word": "YAYA GEÇİDİ",
+          "hint": "Yayaların karşıya güvenle geçmesi için asfalt üzerindeki çizgiler."
+        },
+        {
+          "word": "ÇEŞME",
+          "hint": "Su içmek veya elimizi yıkamak için kullandığımız su musluğu."
+        },
+        {
+          "word": "BAHÇE",
+          "hint": "Evimizin etrafındaki ağaçların, çiçeklerin olduğu yeşil alan."
+        },
+        {
+          "word": "ÇOCUK",
+          "hint": "Henüz büyümekte olan genç insan."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "İnsanların bir araya gelmesi, beraber hareket etmesi."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Birkaç kişinin veya nesnenin bir arada olması."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Yapmamız gereken bir iş veya görev."
+        },
+        {
+          "word": "ULAŞIM",
+          "hint": "Bir yerden başka bir yere gitme veya gitmeyi sağlayan yolculuk."
+        },
+        {
+          "word": "YÖN",
+          "hint": "Bir yerin nerede olduğunu gösteren taraf (sağ, sol, kuzey, güney)."
+        }
       ]
     },
     {
       "id": "hayat_u2",
       "name": "2. Ünite: Doğa",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "AĞAÇ", "hint": "Gövdesi ve yaprakları olan uzun bitki"},
-        {"word": "ÇİÇEK", "hint": "Renkli ve güzel kokan bitki"},
-        {"word": "GÜNEŞ", "hint": "Gökyüzündeki ısı ve ışık kaynağı"},
-        {"word": "YAĞMUR", "hint": "Bulutlardan düşen su damlaları"},
-        {"word": "TOPRAK", "hint": "Bitkilerin yetiştiği kahverengi zemin"}
+        {
+          "word": "AĞAÇ",
+          "hint": "Gövdesi ve yaprakları olan uzun bitki"
+        },
+        {
+          "word": "ÇİÇEK",
+          "hint": "Renkli ve güzel kokan bitki"
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Gökyüzündeki ısı ve ışık kaynağı"
+        },
+        {
+          "word": "YAĞMUR",
+          "hint": "Bulutlardan düşen su damlaları"
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Bitkilerin yetiştiği kahverengi zemin"
+        },
+        {
+          "word": "BİTKİ",
+          "hint": "Toprakta büyüyen canlılardır."
+        },
+        {
+          "word": "YAPRAK",
+          "hint": "Ağaçların yeşil giysileri gibidir."
+        },
+        {
+          "word": "MEYVE",
+          "hint": "Ağaçların bize verdiği lezzetli yiyecekler."
+        },
+        {
+          "word": "SEBZE",
+          "hint": "Topraktan çıkan sağlıklı yiyecekler."
+        },
+        {
+          "word": "TOHUM",
+          "hint": "Yeni bir bitkinin küçük başlangıcı."
+        },
+        {
+          "word": "DAL",
+          "hint": "Ağacın kolları gibi uzayan kısımlarıdır."
+        },
+        {
+          "word": "KÖK",
+          "hint": "Bitkinin toprağın altında tutunduğu yerdir."
+        },
+        {
+          "word": "OT",
+          "hint": "Yerden çıkan küçük, ince yeşil bitkiler."
+        },
+        {
+          "word": "ÇİMEN",
+          "hint": "Üzerinde yürüdüğümüz yeşil halı gibidir."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Bir sürü ağacın bir arada olduğu yer."
+        },
+        {
+          "word": "DAĞ",
+          "hint": "Çok yüksek, büyük toprak yığınıdır."
+        },
+        {
+          "word": "TEPE",
+          "hint": "Dağdan daha alçak, yuvarlak bir yükseltidir."
+        },
+        {
+          "word": "VADİ",
+          "hint": "İki dağ arasındaki çukur alandır."
+        },
+        {
+          "word": "NEHİR",
+          "hint": "Uzun ve akıp giden su yoludur."
+        },
+        {
+          "word": "GÖL",
+          "hint": "Etrafı karayla çevrili büyük su birikintisidir."
+        },
+        {
+          "word": "DENİZ",
+          "hint": "Çok büyük ve tuzlu su kütlesidir."
+        },
+        {
+          "word": "ADA",
+          "hint": "Her yanı sularla çevrili kara parçasıdır."
+        },
+        {
+          "word": "KUM",
+          "hint": "Sahildeki minik, ince taş parçacıklarıdır."
+        },
+        {
+          "word": "TAŞ",
+          "hint": "Yerden topladığımız sert küçük parçalardır."
+        },
+        {
+          "word": "KAYA",
+          "hint": "Çok büyük ve sert bir taştır."
+        },
+        {
+          "word": "SU",
+          "hint": "Susadığımızda içtiğimiz, yaşam kaynağıdır."
+        },
+        {
+          "word": "HAVA",
+          "hint": "Nefes aldığımız, gözle göremediğimiz şeydir."
+        },
+        {
+          "word": "RÜZGAR",
+          "hint": "Havanın hareket etmesiyle oluşan esintidir."
+        },
+        {
+          "word": "BULUT",
+          "hint": "Gökyüzündeki pamuk gibi beyaz kümelerdir."
+        },
+        {
+          "word": "KAR",
+          "hint": "Soğuk havada gökten yağan beyaz taneler."
+        },
+        {
+          "word": "BUZ",
+          "hint": "Donmuş su, çok soğuk ve kaygan olur."
+        },
+        {
+          "word": "GÖKKUŞAĞI",
+          "hint": "Yağmur sonrası çıkan renkli yayıdır."
+        },
+        {
+          "word": "ŞİMŞEK",
+          "hint": "Gökyüzünde aniden çakan parlak ışıktır."
+        },
+        {
+          "word": "YILDIZ",
+          "hint": "Gece gökyüzünde parlayan minik ışıklardır."
+        },
+        {
+          "word": "AY",
+          "hint": "Gece gökyüzünü aydınlatan büyük yuvarlaktır."
+        },
+        {
+          "word": "DÜNYA",
+          "hint": "Üzerinde yaşadığımız gezegenin adıdır."
+        },
+        {
+          "word": "MEVSİM",
+          "hint": "Yılın farklı zamanlarıdır (ilkbahar, yaz, sonbahar, kış)."
+        },
+        {
+          "word": "HAYVAN",
+          "hint": "Doğa'da yaşayan canlı varlıklardır."
+        },
+        {
+          "word": "KUŞ",
+          "hint": "Gökyüzünde uçan tüylü canlıdır."
+        },
+        {
+          "word": "BALIK",
+          "hint": "Suda yaşayan ve yüzebilen hayvandır."
+        },
+        {
+          "word": "BÖCEK",
+          "hint": "Altı bacaklı, küçük canlılardır."
+        },
+        {
+          "word": "KELEBEK",
+          "hint": "Renkli kanatlı, uçan güzel bir böcektir."
+        },
+        {
+          "word": "ARI",
+          "hint": "Bal yapan, vızıldayan bir böcektir."
+        },
+        {
+          "word": "KARINCA",
+          "hint": "Çok çalışkan, küçük bir böcektir."
+        },
+        {
+          "word": "TAVŞAN",
+          "hint": "Uzun kulaklı, havuç seven bir hayvandır."
+        },
+        {
+          "word": "KURT",
+          "hint": "Ormanda yaşayan vahşi bir hayvandır."
+        },
+        {
+          "word": "TİLKİ",
+          "hint": "Kurnaz ve kırmızımsı tüyleri olan bir hayvandır."
+        },
+        {
+          "word": "AYI",
+          "hint": "Büyük, tüylü ve kış uykusuna yatan bir hayvandır."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Etrafımızdaki her şeyin toplamıdır."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Eskileri yeniden değerlendirerek doğayı korumaktır."
+        },
+        {
+          "word": "YAŞAM",
+          "hint": "Canlıların doğma, büyüme, yaşama durumudur."
+        },
+        {
+          "word": "BESİN",
+          "hint": "Canlıların yaşamak için yedikleri yiyeceklerdir."
+        },
+        {
+          "word": "DOĞA KORUMA",
+          "hint": "Doğayı temiz ve güzel tutmak için çabalamaktır."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "Bir iş yapmak için duyduğumuz güçtür."
+        },
+        {
+          "word": "OKYANUS",
+          "hint": "Çok büyük ve derin denizlere verilen addır."
+        }
       ]
     }
   ]

@@ -3,25 +3,427 @@
     {
       "id": "fen6_u1",
       "name": "1. Ünite: Hücre",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "HÜCRE", "hint": "Canlıların yapı ve görev birimi"},
-        {"word": "ÇEKİRDEK", "hint": "Hücrenin yönetim merkezi olan organel"},
-        {"word": "SİTOPLAZMA", "hint": "Hücre zarı ile çekirdek arası jölemsi madde"},
-        {"word": "MİTOKONDRİ", "hint": "Hücrenin enerji üreten organeli"},
-        {"word": "RİBOZOM", "hint": "Hücrede protein sentezi yapan organel"}
+        {
+          "word": "HÜCRE",
+          "hint": "Canlıların yapı ve görev birimi"
+        },
+        {
+          "word": "ÇEKİRDEK",
+          "hint": "Hücrenin yönetim merkezi olan organel"
+        },
+        {
+          "word": "SİTOPLAZMA",
+          "hint": "Hücre zarı ile çekirdek arası jölemsi madde"
+        },
+        {
+          "word": "MİTOKONDRİ",
+          "hint": "Hücrenin enerji üreten organeli"
+        },
+        {
+          "word": "RİBOZOM",
+          "hint": "Hücrede protein sentezi yapan organel"
+        },
+        {
+          "word": "Bİ̇YOLOJİ̇",
+          "hint": "Canlıları inceleyen bilim dalı."
+        },
+        {
+          "word": "ORGANİ̇ZMA",
+          "hint": "Tek başına yaşayabilen canlı varlık."
+        },
+        {
+          "word": "MEMBRAN",
+          "hint": "Hücrenin dışını saran ince zar."
+        },
+        {
+          "word": "KOŞUL",
+          "hint": "Canlıların yaşamak için ihtiyaç duyduğu temel gereksinim."
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme yeteneği, güç."
+        },
+        {
+          "word": "BESLENME",
+          "hint": "Canlıların yaşamak için ihtiyaç duyduğu maddeleri alma süreci."
+        },
+        {
+          "word": "SOLUNUM",
+          "hint": "Canlıların enerji elde etmek için oksijen alıp karbondioksit verme olayı."
+        },
+        {
+          "word": "BOŞALTİM",
+          "hint": "Canlıların vücudundaki zararlı maddeleri atması."
+        },
+        {
+          "word": "BÜYÜME",
+          "hint": "Canlıların boyutlarının artması."
+        },
+        {
+          "word": "ÜREME",
+          "hint": "Canlıların nesillerini devam ettirmesi."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Canlıların yer değiştirmesi veya yerinde bazı değişiklikler yapması."
+        },
+        {
+          "word": "DUYARLİLİK",
+          "hint": "Çevreye tepki verme yeteneği."
+        },
+        {
+          "word": "TABAKA",
+          "hint": "Bir şeyin üst üste gelmiş katmanlarından biri, zar."
+        },
+        {
+          "word": "Sİ̇STEM",
+          "hint": "Belirli bir görevi yerine getiren organlar topluluğu."
+        },
+        {
+          "word": "ORGANEL",
+          "hint": "Hücre içindeki küçük yapılar, organların küçüğü."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Bir şeyin nasıl oluştuğunu gösteren düzen."
+        },
+        {
+          "word": "İ̇ŞLEV",
+          "hint": "Bir organın veya yapının görevi."
+        },
+        {
+          "word": "CANLİ",
+          "hint": "Yaşayan varlık."
+        },
+        {
+          "word": "KALİTİM",
+          "hint": "Anne babadan çocuğa geçen özellikler."
+        },
+        {
+          "word": "MATERYAL",
+          "hint": "Bir şeyin yapıldığı madde."
+        },
+        {
+          "word": "İ̇HTİ̇YAÇ",
+          "hint": "Olması gereken, eksikliği hissedilen şey."
+        },
+        {
+          "word": "KORUYUCU",
+          "hint": "Zarar görmeyi engelleyen."
+        },
+        {
+          "word": "BOŞLUK",
+          "hint": "İçi olmayan, yer."
+        },
+        {
+          "word": "YÖNETİ̇M",
+          "hint": "Bir yeri veya şeyi idare etme."
+        },
+        {
+          "word": "İ̇LETİ̇Şİ̇M",
+          "hint": "Bilgi veya duygu alışverişi."
+        },
+        {
+          "word": "KONTROL",
+          "hint": "Bir şeyi denetleme, yönlendirme."
+        },
+        {
+          "word": "Bİ̇TKİ̇",
+          "hint": "Kökü, gövdesi, yaprağı olan, kendi besinini üretebilen canlı."
+        },
+        {
+          "word": "HAYVAN",
+          "hint": "Kendi besinini üretemeyen, hareket edebilen canlı."
+        },
+        {
+          "word": "MANTAR",
+          "hint": "Bitkilere benzeyen ama kendi besinini üretemeyen canlı."
+        },
+        {
+          "word": "BAKTERİ̇",
+          "hint": "Çok küçük, tek hücreli canlı."
+        },
+        {
+          "word": "Vİ̇RÜS",
+          "hint": "Canlı olup olmadığı tartışmalı, hastalıklara yol açabilen çok küçük yapı."
+        },
+        {
+          "word": "OZMOZ",
+          "hint": "Suyun yarı geçirgen zardan geçişi."
+        },
+        {
+          "word": "Dİ̇FÜZYON",
+          "hint": "Maddelerin çok yoğun olduğu yerden az yoğun olduğu yere geçişi."
+        },
+        {
+          "word": "FOTOSENTEZ",
+          "hint": "Bitkilerin ışık enerjisiyle besin üretmesi."
+        },
+        {
+          "word": "GENETİ̇K",
+          "hint": "Kalıtımın bilimsel incelemesi."
+        },
+        {
+          "word": "DNA",
+          "hint": "Canlıların genetik bilgisini taşıyan molekül."
+        },
+        {
+          "word": "KROMOZOM",
+          "hint": "Hücre çekirdeğinde bulunan, DNA'nın paketlenmiş hali."
+        },
+        {
+          "word": "HÜCRE ZARİ",
+          "hint": "Hücreyi dış ortamdan ayıran seçici geçirgen yapı."
+        },
+        {
+          "word": "HÜCRE DUVARİ",
+          "hint": "Bitki hücrelerinde bulunan, hücreye desteklik veren sert katman."
+        },
+        {
+          "word": "EKOSİ̇STEM",
+          "hint": "Belirli bir alandaki canlı ve cansız varlıkların etkileşimi."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Canlının içinde yaşadığı ortam."
+        },
+        {
+          "word": "KAÇAK",
+          "hint": "Hücre zarından geçebilen madde."
+        },
+        {
+          "word": "Sİ̇NDİ̇Rİ̇M",
+          "hint": "Besinlerin parçalanıp emilebilecek hale gelmesi."
+        },
+        {
+          "word": "METABOLİ̇ZMA",
+          "hint": "Canlıda gerçekleşen kimyasal olayların tümü."
+        },
+        {
+          "word": "KLOROPLAST",
+          "hint": "Bitki hücrelerine yeşil rengini veren ve besin üreten organel"
+        }
       ]
     },
     {
       "id": "fen6_u2",
       "name": "2. Ünite: Sindirim Sistemi",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "YEMEKBORUSU", "hint": "Ağızdan mideye besin taşıyan organ"},
-        {"word": "MİDE", "hint": "Besinlerin asitle parçalandığı organ"},
-        {"word": "KARACİĞER", "hint": "Safra üreten vücudun en büyük organı"},
-        {"word": "PANKREAS", "hint": "Sindirim enzimleri ve insülin salgılayan organ"},
-        {"word": "İNCEBAĞIRSAK", "hint": "Besinlerin kana karıştığı uzun organ"}
+        {
+          "word": "YEMEKBORUSU",
+          "hint": "Ağızdan mideye besin taşıyan organ"
+        },
+        {
+          "word": "MİDE",
+          "hint": "Besinlerin asitle parçalandığı organ"
+        },
+        {
+          "word": "KARACİĞER",
+          "hint": "Safra üreten vücudun en büyük organı"
+        },
+        {
+          "word": "PANKREAS",
+          "hint": "Sindirim enzimleri ve insülin salgılayan organ"
+        },
+        {
+          "word": "İNCEBAĞIRSAK",
+          "hint": "Besinlerin kana karıştığı uzun organ"
+        },
+        {
+          "word": "AĞİZ",
+          "hint": "Yiyeceklerin ilk girdiği ve çiğnendiği yer."
+        },
+        {
+          "word": "Dİ̇Ş",
+          "hint": "Yiyecekleri parçalamaya yarayan sert yapılar."
+        },
+        {
+          "word": "Dİ̇L",
+          "hint": "Yiyecekleri karıştırmaya ve tat almaya yarayan kaslı organ."
+        },
+        {
+          "word": "SALYA",
+          "hint": "Ağızda üretilen ve yiyecekleri yumuşatan sıvı."
+        },
+        {
+          "word": "KOŞULMA",
+          "hint": "Yutkunma eyleminin başlangıcı."
+        },
+        {
+          "word": "YUTAK",
+          "hint": "Ağızdan sonra gelen, soluk ve yemek borusunun kesiştiği bölüm."
+        },
+        {
+          "word": "Mİ̇DE",
+          "hint": "Yiyeceklerin çalkalandığı ve kimyasal sindirimin başladığı kese."
+        },
+        {
+          "word": "Pİ̇LORA",
+          "hint": "Midenin ince bağırsağa açıldığı dar kısım."
+        },
+        {
+          "word": "İ̇ENCEBAĞİRSAK",
+          "hint": "Besinlerin emildiği uzun ve kıvrımlı organ."
+        },
+        {
+          "word": "KALİNBAĞİRSAK",
+          "hint": "Sindirilemeyen atıkların suyunu çeken bölüm."
+        },
+        {
+          "word": "KAKİ",
+          "hint": "Sindirim sonunda vücuttan atılan katı atık."
+        },
+        {
+          "word": "KARACİ̇ĞER",
+          "hint": "Safra üreten, vücudun en büyük organı."
+        },
+        {
+          "word": "SAFRA",
+          "hint": "Yağların sindirimine yardımcı olan yeşilimsi sıvı."
+        },
+        {
+          "word": "ENZİ̇M",
+          "hint": "Besinleri daha küçük parçalara ayıran protein."
+        },
+        {
+          "word": "EMİ̇Lİ̇M",
+          "hint": "Besinlerin bağırsaklardan kana geçmesi."
+        },
+        {
+          "word": "Sİ̇NDİ̇Rİ̇M",
+          "hint": "Besinlerin parçalanarak vücut tarafından kullanılabilir hale gelmesi."
+        },
+        {
+          "word": "BESİ̇N",
+          "hint": "Vücudun enerji ve yapı taşı ihtiyacını karşılayan madde."
+        },
+        {
+          "word": "KARBONHİ̇DRAT",
+          "hint": "Vücudun ana enerji kaynağıdır (örneğin şeker, nişasta)."
+        },
+        {
+          "word": "PROTEİ̇N",
+          "hint": "Vücudun yapı taşıdır (örneğin et, yumurta)."
+        },
+        {
+          "word": "YAĞ",
+          "hint": "Enerji depolamaya ve bazı vitaminlerin emilimine yardımcı olur."
+        },
+        {
+          "word": "Vİ̇TAMİ̇N",
+          "hint": "Vücut fonksiyonları için az miktarda gerekli olan madde."
+        },
+        {
+          "word": "Mİ̇NERAL",
+          "hint": "Vücut için gerekli olan inorganik maddeler (örneğin demir, kalsiyum)."
+        },
+        {
+          "word": "SU",
+          "hint": "Vücudun en temel ihtiyacı, tüm reaksiyonlarda rol oynar."
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "Canlıların yaşaması ve hareket etmesi için gereken güç."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Vücudumuzun hücrelerden oluşan temel maddesi."
+        },
+        {
+          "word": "ORGANEL",
+          "hint": "Hücrenin içindeki küçük yapılar."
+        },
+        {
+          "word": "HÜCRE",
+          "hint": "Canlıların en küçük yapı taşı."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Benzer görevleri yapan hücrelerin bir araya gelmesi."
+        },
+        {
+          "word": "Sİ̇STEM",
+          "hint": "Belirli bir görevi yerine getiren organlar topluluğu."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Vücudun yer değiştirmesi veya konumunu değiştirmesi."
+        },
+        {
+          "word": "Çİ̇ĞNEME",
+          "hint": "Yiyecekleri dişlerle küçük parçalara ayırma."
+        },
+        {
+          "word": "YUTMA",
+          "hint": "Besinleri ağızdan yemek borusuna gönderme."
+        },
+        {
+          "word": "GAZ",
+          "hint": "Sindirim sırasında ince bağırsaklarda oluşan hava."
+        },
+        {
+          "word": "RAHATSİZLİK",
+          "hint": "Sindirim sorunlarında hissedilen olumsuz durum."
+        },
+        {
+          "word": "PARÇALAMA",
+          "hint": "Besinlerin mekanik veya kimyasal olarak ayrılması."
+        },
+        {
+          "word": "ÖDEM",
+          "hint": "Vücutta sıvı birikmesi."
+        },
+        {
+          "word": "BESLENME",
+          "hint": "Vücudun ihtiyaç duyduğu maddeleri alma süreci."
+        },
+        {
+          "word": "BOŞALTİM",
+          "hint": "Vücuttaki atık maddelerin atılması."
+        },
+        {
+          "word": "DİŞKİ",
+          "hint": "Sindirim sisteminin son ürünü."
+        },
+        {
+          "word": "EMME",
+          "hint": "Besinlerin bağırsaktan kana geçmesi işlemi."
+        },
+        {
+          "word": "Kİ̇MYASAL",
+          "hint": "Sindirimin enzimler yardımıyla gerçekleşen bölümü."
+        },
+        {
+          "word": "MEKANİ̇K",
+          "hint": "Sindirimin çiğneme ve kas hareketleriyle gerçekleşen bölümü."
+        },
+        {
+          "word": "YAVAŞLAMA",
+          "hint": "Sindirim sisteminin bazen yavaş çalışması durumu."
+        },
+        {
+          "word": "HİZLANMA",
+          "hint": "Sindirim sisteminin bazen hızlı çalışması durumu."
+        },
+        {
+          "word": "ÜRÜN",
+          "hint": "Sindirim sonucunda oluşan veya salgılanan madde."
+        }
       ]
     }
   ]

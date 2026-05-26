@@ -3,25 +3,435 @@
     {
       "id": "tarih_u1",
       "name": "1. Ünite: İlk Uygarlıklar",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "SÜMERLER", "hint": "Yazıyı icat eden Mezopotamya uygarlığı"},
-        {"word": "HİTİTLER", "hint": "Anadolu'da kurulan ilk büyük medeniyet"},
-        {"word": "ÇİVİ YAZISI", "hint": "Sümerlerin kil tabletlere yazdığı ilk yazı türü"},
-        {"word": "MISIR", "hint": "Nil Nehri kenarında kurulan eski uygarlık"},
-        {"word": "FİRAVUN", "hint": "Eski Mısır'da hükümdarların unvanı"}
+        {
+          "word": "SÜMERLER",
+          "hint": "Yazıyı icat eden Mezopotamya uygarlığı"
+        },
+        {
+          "word": "HİTİTLER",
+          "hint": "Anadolu'da kurulan ilk büyük medeniyet"
+        },
+        {
+          "word": "ÇİVİ YAZISI",
+          "hint": "Sümerlerin kil tabletlere yazdığı ilk yazı türü"
+        },
+        {
+          "word": "MISIR",
+          "hint": "Nil Nehri kenarında kurulan eski uygarlık"
+        },
+        {
+          "word": "FİRAVUN",
+          "hint": "Eski Mısır'da hükümdarların unvanı"
+        },
+        {
+          "word": "MEZOPOTAMYA",
+          "hint": "İki nehir arasındaki verimli topraklar, ilk uygarlıklara ev sahipliği yaptı."
+        },
+        {
+          "word": "URARTULAR",
+          "hint": "Van Gölü çevresinde kurulan, maden işçiliğinde usta bir Anadolu uygarlığı."
+        },
+        {
+          "word": "Lİ̇DYALİLAR",
+          "hint": "Parayı icat eden, Batı Anadolu'da yaşayan uygarlık."
+        },
+        {
+          "word": "İ̇LGİ̇TÇELER",
+          "hint": "Hititlerin kullandığı, çivi yazısından farklı bir yazı türü."
+        },
+        {
+          "word": "Gİ̇RGİ̇R",
+          "hint": "Mezopotamya'da kullanılan, tekerlekli araçların atası sayılan icat."
+        },
+        {
+          "word": "HAMMURABİ̇",
+          "hint": "Babil Kralı, ünlü kanunlarıyla tanınır."
+        },
+        {
+          "word": "BABİ̇L",
+          "hint": "Mezopotamya'da kurulmuş, Hammurabi Kanunları ile ünlü bir imparatorluk."
+        },
+        {
+          "word": "ASURLULAR",
+          "hint": "Ticaret kolonileri kurmalarıyla bilinen, Mezopotamya uygarlığı."
+        },
+        {
+          "word": "Nİ̇LO",
+          "hint": "Mısır uygarlığının can damarı olan nehir."
+        },
+        {
+          "word": "Pİ̇RAMİ̇T",
+          "hint": "Firavunların mezarları olarak yapılan devasa yapılar."
+        },
+        {
+          "word": "Hİ̇YEROGLİ̇F",
+          "hint": "Antik Mısır'da kullanılan resim yazısı."
+        },
+        {
+          "word": "PAPİ̇RÜS",
+          "hint": "Mısırlıların yazı malzemesi olarak kullandığı bitki."
+        },
+        {
+          "word": "ASTROLOJİ̇",
+          "hint": "Yıldızların ve gök cisimlerinin insan yaşamı üzerindeki etkisini inceleyen bilim dalı."
+        },
+        {
+          "word": "MATEMATİ̇K",
+          "hint": "Sayılar, şekiller ve ölçümlerle ilgili bilim dalı."
+        },
+        {
+          "word": "GEOMETRİ̇",
+          "hint": "Şekillerin ve uzayın incelenmesi, ilk uygarlıklar tarafından geliştirildi."
+        },
+        {
+          "word": "EKONOMİ̇",
+          "hint": "Üretim, dağıtım ve tüketimle ilgili sistem."
+        },
+        {
+          "word": "TARİM",
+          "hint": "Toprağı ekip ürün yetiştirme faaliyeti, uygarlıkların temeli."
+        },
+        {
+          "word": "SULAMA",
+          "hint": "Tarım alanlarına su taşıma tekniği."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir toprak parçası üzerinde yaşayan insan topluluğunun örgütlenmiş yapısı."
+        },
+        {
+          "word": "KANUN",
+          "hint": "Devletin veya toplumun uyması gereken kurallar bütünü."
+        },
+        {
+          "word": "Dİ̇N",
+          "hint": "Tanrı veya tanrılara duyulan inanç ve tapınma."
+        },
+        {
+          "word": "TAPİNAK",
+          "hint": "Dini törenlerin yapıldığı kutsal yapı."
+        },
+        {
+          "word": "RAHİP",
+          "hint": "Dini işleri yöneten, tanrılarla insanlar arasında aracılık yapan kişi."
+        },
+        {
+          "word": "YÖNETİ̇M",
+          "hint": "Bir devleti veya topluluğu idare etme biçimi."
+        },
+        {
+          "word": "ASKER",
+          "hint": "Devleti veya ülkeyi korumakla görevli kişi."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Devletler veya gruplar arasındaki silahlı mücadele."
+        },
+        {
+          "word": "ANLAŞMA",
+          "hint": "Tarafların karşılıklı rızasıyla varılan karar."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir topluluğun yaşayış biçimi, inançları, sanat anlayışı."
+        },
+        {
+          "word": "SANAT",
+          "hint": "İnsanların duygu ve düşüncelerini estetik biçimde ifade etme yolu."
+        },
+        {
+          "word": "Mİ̇MARİ̇",
+          "hint": "Binaların projelendirilmesi ve inşa edilmesi sanatı."
+        },
+        {
+          "word": "HEYKEL",
+          "hint": "Genellikle taş, maden veya başka bir malzemeden yapılan yontulmuş figür."
+        },
+        {
+          "word": "Şİ̇İ̇R",
+          "hint": "Duyguları etkili sözlerle anlatan edebi tür."
+        },
+        {
+          "word": "EPOS",
+          "hint": "Kahramanlık olaylarını anlatan uzun şiir."
+        },
+        {
+          "word": "TEKERLEK",
+          "hint": "Araçların hareket etmesini sağlayan dairesel parça."
+        },
+        {
+          "word": "ARABA",
+          "hint": "Tekerlekler üzerinde hareket eden ulaşım aracı."
+        },
+        {
+          "word": "Tİ̇CARET",
+          "hint": "Mal ve hizmetlerin alınıp satılması."
+        },
+        {
+          "word": "PAZAR",
+          "hint": "Alışverişin yapıldığı yer."
+        },
+        {
+          "word": "PARA",
+          "hint": "Değişim aracı olarak kullanılan nesne."
+        },
+        {
+          "word": "MEDENİ̇YET",
+          "hint": "Toplumların bilim, sanat, teknoloji alanlarındaki gelişmişlik düzeyi."
+        },
+        {
+          "word": "ŞEHİ̇R",
+          "hint": "İnsanların toplu halde yaşadığı büyük yerleşim yeri."
+        },
+        {
+          "word": "Kİ̇T",
+          "hint": "Mezopotamya'da kullanılan bir tür yazı tableti."
+        },
+        {
+          "word": "Zİ̇GURAT",
+          "hint": "Mezopotamya'da tapınma ve rasathane olarak kullanılan basamaklı yapılar."
+        },
+        {
+          "word": "İ̇MÂRAT",
+          "hint": "Yapı, inşa edilmiş eser."
+        },
+        {
+          "word": "KRAL",
+          "hint": "Bir devletin en üst düzey yöneticisi."
+        },
+        {
+          "word": "YAZİ",
+          "hint": "Düşünceleri ve bilgileri kaydetmeye yarayan işaretler sistemi."
+        },
+        {
+          "word": "KADİ̇M",
+          "hint": "Çok eski, antik."
+        }
       ]
     },
     {
       "id": "tarih_u2",
       "name": "2. Ünite: Türk Devletleri",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "GÖKTÜRKLER", "hint": "Orhun Yazıtlarını dikmiş olan ilk Türk devleti"},
-        {"word": "UYGURLAR", "hint": "Yerleşik hayata geçen ilk Türk devleti"},
-        {"word": "KAĞAN", "hint": "Türk devletlerinde hükümdara verilen unvan"},
-        {"word": "KURULTAY", "hint": "Türklerde devlet işlerinin görüşüldüğü meclis"},
-        {"word": "BALBAL", "hint": "Ölen savaşçı için dikilen anıt taş"}
+        {
+          "word": "GÖKTÜRKLER",
+          "hint": "Orhun Yazıtlarını dikmiş olan ilk Türk devleti"
+        },
+        {
+          "word": "UYGURLAR",
+          "hint": "Yerleşik hayata geçen ilk Türk devleti"
+        },
+        {
+          "word": "KAĞAN",
+          "hint": "Türk devletlerinde hükümdara verilen unvan"
+        },
+        {
+          "word": "KURULTAY",
+          "hint": "Türklerde devlet işlerinin görüşüldüğü meclis"
+        },
+        {
+          "word": "BALBAL",
+          "hint": "Ölen savaşçı için dikilen anıt taş"
+        },
+        {
+          "word": "ASYA HUN",
+          "hint": "Orta Asya'da kurulan ilk büyük Türk devleti."
+        },
+        {
+          "word": "AVARLAR",
+          "hint": "Avrupa'ya göç eden ve Macaristan'a yerleşen Türk topluluğu."
+        },
+        {
+          "word": "HAZARLAR",
+          "hint": "Hazar Denizi çevresinde kurulmuş, geniş ticaret ağına sahip devlet."
+        },
+        {
+          "word": "KARAHANLİLAR",
+          "hint": "Türkistan'da kurulmuş, İslamiyet'i benimseyen ilk Türk devletlerinden."
+        },
+        {
+          "word": "GAZNELİ̇LER",
+          "hint": "Hindistan'a yaptığı akınlarla tanınan Türk devleti."
+        },
+        {
+          "word": "SELÇUKLULAR",
+          "hint": "Anadolu'nun kapılarını Türklere açan büyük Türk devleti."
+        },
+        {
+          "word": "BÜYÜKSELÇUKLU",
+          "hint": "Anadolu Selçuklu Devleti'nin öncüsü olan devlet."
+        },
+        {
+          "word": "ANADOLUSELÇUKLU",
+          "hint": "Anadolu'da kurulan ve Haçlı Seferleri ile mücadele eden devlet."
+        },
+        {
+          "word": "HARZEMŞAHLAR",
+          "hint": "Selçuklulardan sonra Maveraünnehir'de kurulan devlet."
+        },
+        {
+          "word": "EMEVİ̇LER",
+          "hint": "Arap İslam devleti olup Türklerle ilk ciddi mücadeleleri yapan."
+        },
+        {
+          "word": "ABBASİ̇LER",
+          "hint": "Emevilerden sonra kurulan ve Türkleri ordu gücü olarak kullanan devlet."
+        },
+        {
+          "word": "SEMBOLLER",
+          "hint": "Devletlerin veya toplulukların kendilerini temsil etmek için kullandığı işaretler."
+        },
+        {
+          "word": "BAYRAK",
+          "hint": "Bir devletin veya topluluğun bağımsızlık sembolü olan renkli bez."
+        },
+        {
+          "word": "TUĞ",
+          "hint": "Hükümdarlık sembolü olarak kullanılan, at kuyruklarından yapılan sancak."
+        },
+        {
+          "word": "ORHUNABİ̇DELERİ̇",
+          "hint": "Göktürk Yazıtları olarak da bilinen, Türk edebiyatının ilk örnekleri."
+        },
+        {
+          "word": "YAZİTİ",
+          "hint": "Taşlara kazınmış eski Türkçe metin."
+        },
+        {
+          "word": "ALFABE",
+          "hint": "Sesleri göstermek için kullanılan harf dizisi."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "Bir yerden bir yere topluca yer değiştirme."
+        },
+        {
+          "word": "YERLEŞİ̇K",
+          "hint": "Bir yerde kalıcı olarak yaşamaya başlamış."
+        },
+        {
+          "word": "GÖÇEBE",
+          "hint": "Hayvancılıkla uğraşıp sürekli yer değiştiren."
+        },
+        {
+          "word": "KOÇBAYRAĞİ",
+          "hint": "Türklerde eski bir savaş sancağı."
+        },
+        {
+          "word": "AYYİLDİZ",
+          "hint": "Türk bayrağının üzerinde bulunan sembol."
+        },
+        {
+          "word": "DEVLETÇİ̇Lİ̇K",
+          "hint": "Devlet kurma ve yönetme yeteneği."
+        },
+        {
+          "word": "TEŞKİ̇LAT",
+          "hint": "Belirli bir amaç için bir araya gelmiş topluluk veya kurum."
+        },
+        {
+          "word": "ORDU",
+          "hint": "Devleti koruyan ve savaşan silahlı güç."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Devletler veya gruplar arasındaki silahlı çatışma."
+        },
+        {
+          "word": "ANAYASA",
+          "hint": "Bir devletin temel yasası."
+        },
+        {
+          "word": "VERGİ̇",
+          "hint": "Devletin vatandaşlarından topladığı para veya ürün."
+        },
+        {
+          "word": "Tİ̇CARET",
+          "hint": "Mal ve hizmet alıp satma."
+        },
+        {
+          "word": "İ̇PEKYOLU",
+          "hint": "Asya'dan Avrupa'ya uzanan tarihi ticaret yolu."
+        },
+        {
+          "word": "TEŞEKKÜR",
+          "hint": "Yapılan iyiliğe karşı duyulan minnet."
+        },
+        {
+          "word": "VEDA",
+          "hint": "Ayrılırken söylenen sözler."
+        },
+        {
+          "word": "SELAM",
+          "hint": "Karşılama veya tanışma anında söylenen söz."
+        },
+        {
+          "word": "İ̇SLAMİ̇YET",
+          "hint": "Hz. Muhammed tarafından tebliğ edilen din."
+        },
+        {
+          "word": "KARAHAN",
+          "hint": "Karahanlı Devleti'nin hükümdarı."
+        },
+        {
+          "word": "GAZİ̇",
+          "hint": "Dini inançları uğruna savaşan kimse."
+        },
+        {
+          "word": "MELİ̇K",
+          "hint": "Selçuklu ve Osmanlılarda şehzadelere verilen unvan."
+        },
+        {
+          "word": "ŞEHZADE",
+          "hint": "Osmanlı padişahlarının erkek çocuklarına verilen ad."
+        },
+        {
+          "word": "ATA",
+          "hint": "Büyükbaba veya atalar."
+        },
+        {
+          "word": "ATABEY",
+          "hint": "Selçuklularda şehzadelere hocalık yapan devlet adamı."
+        },
+        {
+          "word": "BAŞBUĞ",
+          "hint": "Eski Türklerde komutan veya lider."
+        },
+        {
+          "word": "HAN",
+          "hint": "Türk ve Moğol hükümdarlarına verilen unvan."
+        },
+        {
+          "word": "HATUN",
+          "hint": "Türk ve Moğol hükümdarlarının eşlerine verilen unvan."
+        },
+        {
+          "word": "BEY",
+          "hint": "Eski Türklerde yönetici veya lider."
+        },
+        {
+          "word": "EMİ̇R",
+          "hint": "İslam devletlerinde askerî veya idari yönetici."
+        },
+        {
+          "word": "VALİ̇",
+          "hint": "Bir bölgeyi yönetmekle görevli kimse."
+        }
       ]
     }
   ]

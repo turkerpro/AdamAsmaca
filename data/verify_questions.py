@@ -62,7 +62,7 @@ if issues:
     for issue in issues:
         print("  " + issue)
 else:
-    print("\n✅ TEBRİKLER! Tüm sınıfların tüm ünitelerinde en az 50 soru var. Sistem kusursuz çalışıyor!")
+    print("\n[TEBRİKLER] Tüm sınıfların tüm ünitelerinde en az 50 soru var. Sistem kusursuz çalışıyor!")
 
 print(f"\nÖzet:")
 print(f"  Toplam Taranan Ünite: {total_units}")

@@ -3,25 +3,447 @@
     {
       "id": "hayat_u1",
       "name": "1. Ünite: Sağlığımız",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "BESLENME", "hint": "Vücudumuzu sağlıklı tutmak için yemek yeme"},
-        {"word": "HİJYEN", "hint": "Temizlik kurallarına uyma ve mikroplardan korunma"},
-        {"word": "VİTAMİN", "hint": "Meyve ve sebzelerde bulunan yararlı maddeler"},
-        {"word": "EGZERSIZ", "hint": "Vücudu güçlendirmek için yapılan hareketler"},
-        {"word": "UYKU", "hint": "Vücudun dinlenmesi için gerekli olan dinlenme"}
+        {
+          "word": "BESLENME",
+          "hint": "Vücudumuzu sağlıklı tutmak için yemek yeme"
+        },
+        {
+          "word": "HİJYEN",
+          "hint": "Temizlik kurallarına uyma ve mikroplardan korunma"
+        },
+        {
+          "word": "VİTAMİN",
+          "hint": "Meyve ve sebzelerde bulunan yararlı maddeler"
+        },
+        {
+          "word": "EGZERSIZ",
+          "hint": "Vücudu güçlendirmek için yapılan hareketler"
+        },
+        {
+          "word": "UYKU",
+          "hint": "Vücudun dinlenmesi için gerekli olan dinlenme"
+        },
+        {
+          "word": "MEYVE",
+          "hint": "Ağaçlarda ve bitkilerde yetişen, tatlı ve sağlıklı yiyecekler."
+        },
+        {
+          "word": "SEBZE",
+          "hint": "Toprakta veya bitkilerde yetişen, yemeklerimize renk ve sağlık katan yiyecekler."
+        },
+        {
+          "word": "SU",
+          "hint": "Vücudumuzun en çok ihtiyacı olan, renksiz ve tatsız içecek."
+        },
+        {
+          "word": "DOKTOR",
+          "hint": "Hastalandığımızda bizi muayene edip iyileşmemize yardım eden kişi."
+        },
+        {
+          "word": "HEMŞİ̇RE",
+          "hint": "Doktorlara yardım eden, hastaların bakımıyla ilgilenen sağlık çalışanı."
+        },
+        {
+          "word": "HASTANE",
+          "hint": "Hastaların tedavi edildiği, içinde doktor ve hemşirelerin çalıştığı büyük bina."
+        },
+        {
+          "word": "İ̇LAÇ",
+          "hint": "Hastalıklardan kurtulmak için doktorun önerdiği özel maddeler."
+        },
+        {
+          "word": "AŞİ",
+          "hint": "Vücudumuzu bazı hastalıklara karşı koruyan küçük iğne."
+        },
+        {
+          "word": "HASTALİK",
+          "hint": "Vücudumuzun normal çalışmadığı, bazen bizi yorgun hissettiren durum."
+        },
+        {
+          "word": "GRİ̇P",
+          "hint": "Burun akıntısı, öksürük ve ateşle gelen yaygın bir rahatsızlık."
+        },
+        {
+          "word": "ATEŞ",
+          "hint": "Vücut sıcaklığımızın normalden daha yüksek olması."
+        },
+        {
+          "word": "ÖKSÜRÜK",
+          "hint": "Boğazımız tahriş olduğunda çıkan, havayı dışarı atma hareketi."
+        },
+        {
+          "word": "TER",
+          "hint": "Koşunca veya sıcaklayınca vücudumuzdan çıkan tuzlu su."
+        },
+        {
+          "word": "SPOR",
+          "hint": "Koşma, zıplama, top oynama gibi vücudumuzu hareket ettiren etkinlikler."
+        },
+        {
+          "word": "DENGELİ̇",
+          "hint": "Her şeyden yeteri kadar alıp kararında olma durumu, mesela yemeklerde."
+        },
+        {
+          "word": "BAĞİŞİKLİK",
+          "hint": "Vücudumuzun mikroplara karşı kendini koruma gücü."
+        },
+        {
+          "word": "GÜNEŞLENME",
+          "hint": "Güneşin sıcak ışınlarından faydalanma, kemiklerimiz için iyi."
+        },
+        {
+          "word": "TEMİ̇ZLİ̇K",
+          "hint": "Kirlerden, tozdan ve mikroplardan arınma, pırıl pırıl olma."
+        },
+        {
+          "word": "Mİ̇KROP",
+          "hint": "Gözle göremediğimiz, bizi hasta edebilen çok küçük canlılar."
+        },
+        {
+          "word": "Kİ̇Şİ̇SEL BAKİM",
+          "hint": "Saçımızı taramak, tırnaklarımızı kesmek gibi kendimize yaptığımız bakım."
+        },
+        {
+          "word": "SAĞLİK",
+          "hint": "Hastalıksız, güçlü ve iyi hissetme hali."
+        },
+        {
+          "word": "VÜCUT",
+          "hint": "İnsanların ve hayvanların tüm bedeni."
+        },
+        {
+          "word": "KEMİ̇K",
+          "hint": "Vücudumuza şekil veren, iskeletimizi oluşturan sert yapılar."
+        },
+        {
+          "word": "KAS",
+          "hint": "Kemiklerimizin hareket etmesini sağlayan, gücümüzü veren yapılar."
+        },
+        {
+          "word": "AKCİ̇ĞER",
+          "hint": "Nefes alıp vermemizi sağlayan, göğsümüzdeki iki önemli organ."
+        },
+        {
+          "word": "KALP",
+          "hint": "Kanımızı tüm vücudumuza pompalayan, ritmik çalışan organ."
+        },
+        {
+          "word": "BEYİ̇N",
+          "hint": "Düşünmemizi, öğrenmemizi ve her şeyi yönetmemizi sağlayan organ."
+        },
+        {
+          "word": "GÖZ",
+          "hint": "Dünyayı görmemizi sağlayan, en değerli duyu organımız."
+        },
+        {
+          "word": "KULAK",
+          "hint": "Sesleri duymamızı sağlayan, işitme duyu organımız."
+        },
+        {
+          "word": "BURUN",
+          "hint": "Kokuları almamızı ve nefes almamızı sağlayan duyu organımız."
+        },
+        {
+          "word": "Dİ̇L",
+          "hint": "Tatları almamızı ve konuşmamızı sağlayan duyu organımız."
+        },
+        {
+          "word": "DERİ̇",
+          "hint": "Vücudumuzu tamamen saran, bizi dış etkenlerden koruyan tabaka."
+        },
+        {
+          "word": "KARBONHİ̇DRAT",
+          "hint": "Ekmek, makarna gibi yiyeceklerde bulunan, bize enerji veren besin maddesi."
+        },
+        {
+          "word": "PROTEİ̇N",
+          "hint": "Et, yumurta, süt gibi yiyeceklerde bulunan, kaslarımızı güçlendiren besin maddesi."
+        },
+        {
+          "word": "YAĞ",
+          "hint": "Vücudumuza enerji depolayan, az miktarda almamız gereken besin maddesi."
+        },
+        {
+          "word": "Mİ̇NERAL",
+          "hint": "Kemik ve diş sağlığımız için gerekli olan, yiyeceklerde bulunan maddeler."
+        },
+        {
+          "word": "TAHİL",
+          "hint": "Ekmek, pilav, bulgur gibi yiyeceklerin yapıldığı bitkiler, enerji verir."
+        },
+        {
+          "word": "Dİ̇NLENME",
+          "hint": "Yorulduğumuzda vücudumuzun ve zihnimizin rahatlaması için verdiğimiz ara."
+        },
+        {
+          "word": "NEFES ALMA",
+          "hint": "Ciğerlerimize temiz hava çekip, kirli havayı dışarı verme işlemi."
+        },
+        {
+          "word": "Kİ̇RLİ̇Lİ̇K",
+          "hint": "Çevremizin çöplerle veya zararlı maddelerle dolu olması durumu."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Etrafımızdaki tüm canlılar, bitkiler, binalar ve hava."
+        },
+        {
+          "word": "MUTLULUK",
+          "hint": "Sevinçli, neşeli ve iyi hissetme hali."
+        },
+        {
+          "word": "SAKİ̇NLİ̇K",
+          "hint": "Telaşsız, huzurlu ve rahat olma durumu."
+        },
+        {
+          "word": "OKUL SAĞLİĞİ",
+          "hint": "Okulda sağlıklı ve güvenli bir şekilde eğitim görmek için dikkat ettiklerimiz."
+        },
+        {
+          "word": "KAZA",
+          "hint": "Beklenmedik bir anda olan, bize veya başkalarına zarar verebilen olay."
+        },
+        {
+          "word": "GÜVENLİ̇K",
+          "hint": "Tehlikelerden uzak olma, kendini emniyette hissetme durumu."
+        },
+        {
+          "word": "İ̇LK YARDİM",
+          "hint": "Kaza veya yaralanma durumunda, doktor gelmeden yapılan ilk yardım."
+        },
+        {
+          "word": "Dİ̇Ş SAĞLİĞİ",
+          "hint": "Ağzımızdaki dişleri çürüklerden koruma, düzenli fırçalama."
+        },
+        {
+          "word": "GÖZ KONTROLÜ",
+          "hint": "Gözlerimizin iyi görüp görmediğini öğrenmek için doktora gitme."
+        },
+        {
+          "word": "ŞEKER",
+          "hint": "Tatlı yiyeceklerde çok bulunan, fazla yenirse dişlere zararlı olabilecek madde."
+        }
       ]
     },
     {
       "id": "hayat_u2",
       "name": "2. Ünite: Doğal Afetler",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "DEPREM", "hint": "Yer kabuğunun sarsılmasıyla oluşan doğa olayı"},
-        {"word": "SEL", "hint": "Aşırı yağmurla suların taşması olayı"},
-        {"word": "HEYELAN", "hint": "Toprağın kayarak aşağı doğru akması"},
-        {"word": "YANGIN", "hint": "Kontrolsüz ateşin yayılarak zarar vermesi"},
-        {"word": "ÇIĞIN", "hint": "Dağlardan aşağı kayan büyük kar kütlesi"}
+        {
+          "word": "DEPREM",
+          "hint": "Yer kabuğunun sarsılmasıyla oluşan doğa olayı"
+        },
+        {
+          "word": "SEL",
+          "hint": "Aşırı yağmurla suların taşması olayı"
+        },
+        {
+          "word": "HEYELAN",
+          "hint": "Toprağın kayarak aşağı doğru akması"
+        },
+        {
+          "word": "YANGIN",
+          "hint": "Kontrolsüz ateşin yayılarak zarar vermesi"
+        },
+        {
+          "word": "ÇIĞIN",
+          "hint": "Dağlardan aşağı kayan büyük kar kütlesi"
+        },
+        {
+          "word": "AFET",
+          "hint": "Can ve mal kaybına yol açan büyük doğal olay."
+        },
+        {
+          "word": "TEHLİKE",
+          "hint": "Kötü bir şeyin gerçekleşme ihtimali olan durum."
+        },
+        {
+          "word": "RİSK",
+          "hint": "Bir olayın zarar verme olasılığı."
+        },
+        {
+          "word": "ACİL",
+          "hint": "Hemen yapılması gereken durum."
+        },
+        {
+          "word": "KURTARMA",
+          "hint": "Zor durumdaki kişilere veya şeylere yardım etme."
+        },
+        {
+          "word": "KORUNMA",
+          "hint": "Kendini tehlikelerden sakınma."
+        },
+        {
+          "word": "ÖNLEM",
+          "hint": "Kötü bir şey olmadan önce alınan tedbir."
+        },
+        {
+          "word": "ZARAR",
+          "hint": "Bir şeye gelen kötü durum veya hasar."
+        },
+        {
+          "word": "GÜVENLİK",
+          "hint": "Tehlikelerden uzak olma hali."
+        },
+        {
+          "word": "HAZIRLIK",
+          "hint": "Bir olay veya iş için önceden yapılan şey."
+        },
+        {
+          "word": "TAHLİYE",
+          "hint": "Bir yerden güvenli bir alana gitme."
+        },
+        {
+          "word": "YARDIM",
+          "hint": "Birine destek olma, el uzatma."
+        },
+        {
+          "word": "MAĞDUR",
+          "hint": "Bir olaydan zarar gören kişi."
+        },
+        {
+          "word": "DAYANIŞMA",
+          "hint": "Zor zamanda birbirine destek olma."
+        },
+        {
+          "word": "BİLİNÇLİ",
+          "hint": "Ne yapacağını iyi bilen, farkında olan."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Yeni bilgiler öğrenme süreci."
+        },
+        {
+          "word": "SARSINTI",
+          "hint": "Yerin titremesi, sallanması."
+        },
+        {
+          "word": "YIKIM",
+          "hint": "Bir binanın veya yapının tamamen bozulması."
+        },
+        {
+          "word": "ENKAZ",
+          "hint": "Yıkılmış bir binadan kalan parçalar."
+        },
+        {
+          "word": "FAY",
+          "hint": "Yer kabuğundaki büyük kırık çizgi."
+        },
+        {
+          "word": "ARTÇI",
+          "hint": "Büyük sarsıntıdan sonra gelen küçük sarsıntı."
+        },
+        {
+          "word": "MERKEZ",
+          "hint": "Bir olayın başladığı ana yer."
+        },
+        {
+          "word": "SU BASKINI",
+          "hint": "Aşırı suyun bir yeri kaplaması durumu."
+        },
+        {
+          "word": "TAŞKIN",
+          "hint": "Suyun yatağından taşıp etrafı kaplaması."
+        },
+        {
+          "word": "AKINTI",
+          "hint": "Suyun veya havanın güçlü hareketi."
+        },
+        {
+          "word": "DERE",
+          "hint": "Küçük bir akarsu."
+        },
+        {
+          "word": "NEHİR",
+          "hint": "Büyük bir akarsu."
+        },
+        {
+          "word": "BOĞULMA",
+          "hint": "Su altında nefes alamama durumu."
+        },
+        {
+          "word": "TOPRAK KAYMASI",
+          "hint": "Toprağın eğimli yerden aşağı doğru inmesi."
+        },
+        {
+          "word": "YAMAÇ",
+          "hint": "Dağın veya tepenin eğimli kısmı."
+        },
+        {
+          "word": "ÇAMUR",
+          "hint": "Su ile karışmış yumuşak toprak."
+        },
+        {
+          "word": "ALEV",
+          "hint": "Yanan bir şeyden çıkan parlak ışık."
+        },
+        {
+          "word": "DUMAN",
+          "hint": "Yanan şeylerden yükselen gri veya siyah gaz."
+        },
+        {
+          "word": "KÜL",
+          "hint": "Yanan bir şeyden arta kalan toz."
+        },
+        {
+          "word": "İ̇TFAİYE",
+          "hint": "Yangınları söndüren özel ekip."
+        },
+        {
+          "word": "SÖNDÜRME",
+          "hint": "Yanan bir şeyi durdurma eylemi."
+        },
+        {
+          "word": "HORTUM",
+          "hint": "Yangın söndürmek için kullanılan uzun su borusu."
+        },
+        {
+          "word": "YANICI",
+          "hint": "Kolayca alev alabilen madde."
+        },
+        {
+          "word": "FIRTINA",
+          "hint": "Çok şiddetli rüzgar ve yağmur."
+        },
+        {
+          "word": "RÜZGAR",
+          "hint": "Havanın hareketi."
+        },
+        {
+          "word": "KASIRGA",
+          "hint": "Çok güçlü ve dönerek esen rüzgar türü."
+        },
+        {
+          "word": "ŞİMŞEK",
+          "hint": "Bulutlar arasında çakan ani ışık."
+        },
+        {
+          "word": "YILDIRIM",
+          "hint": "Şimşeğin yere düşen güçlü elektrik akımı."
+        },
+        {
+          "word": "GÖK GÜRÜLTÜSÜ",
+          "hint": "Şimşekten sonra duyulan yüksek ses."
+        },
+        {
+          "word": "TİPİ",
+          "hint": "Kar ve şiddetli rüzgarla oluşan fırtına."
+        }
       ]
     }
   ]

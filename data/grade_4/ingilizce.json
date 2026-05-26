@@ -3,25 +3,435 @@
     {
       "id": "ingilizce_u1",
       "name": "1. Ünite: Family",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "MOTHER", "hint": "Annenin İngilizcesi"},
-        {"word": "FATHER", "hint": "Babanın İngilizcesi"},
-        {"word": "SISTER", "hint": "Kız kardeşin İngilizcesi"},
-        {"word": "BROTHER", "hint": "Erkek kardeşin İngilizcesi"},
-        {"word": "GRANDMA", "hint": "Büyükannenin İngilizcesi"}
+        {
+          "word": "MOTHER",
+          "hint": "Annenin İngilizcesi"
+        },
+        {
+          "word": "FATHER",
+          "hint": "Babanın İngilizcesi"
+        },
+        {
+          "word": "SISTER",
+          "hint": "Kız kardeşin İngilizcesi"
+        },
+        {
+          "word": "BROTHER",
+          "hint": "Erkek kardeşin İngilizcesi"
+        },
+        {
+          "word": "GRANDMA",
+          "hint": "Büyükannenin İngilizcesi"
+        },
+        {
+          "word": "Aİ̇LE",
+          "hint": "Anne, baba, çocuklar gibi birbirine bağlı kişiler topluluğu."
+        },
+        {
+          "word": "ANNE",
+          "hint": "Çocuğu olan kadın, ebeveyn."
+        },
+        {
+          "word": "BABA",
+          "hint": "Çocuğu olan erkek, ebeveyn."
+        },
+        {
+          "word": "KARDEŞ",
+          "hint": "Aynı anne babadan olan erkek veya kız çocuk."
+        },
+        {
+          "word": "KİZ KARDEŞ",
+          "hint": "Erkek kardeşin kız olanı."
+        },
+        {
+          "word": "ERKEK KARDEŞ",
+          "hint": "Kız kardeşin erkek olanı."
+        },
+        {
+          "word": "BÜYÜK ANNE",
+          "hint": "Annenin veya babanın annesi."
+        },
+        {
+          "word": "BÜYÜK BABA",
+          "hint": "Annenin veya babanın babası."
+        },
+        {
+          "word": "DEDE",
+          "hint": "Büyükbaba ile aynı anlamda kullanılır."
+        },
+        {
+          "word": "Nİ̇NE",
+          "hint": "Büyükana ile aynı anlamda kullanılır."
+        },
+        {
+          "word": "AMCA",
+          "hint": "Babanın erkek kardeşi."
+        },
+        {
+          "word": "HALA",
+          "hint": "Babanın kız kardeşi."
+        },
+        {
+          "word": "TEYZE",
+          "hint": "Annenin kız kardeşi."
+        },
+        {
+          "word": "DAYİ",
+          "hint": "Annenin erkek kardeşi."
+        },
+        {
+          "word": "YEĞEN",
+          "hint": "Kardeşin çocuğu."
+        },
+        {
+          "word": "KUZEN",
+          "hint": "Amca, hala, dayı veya teyzenin çocuğu."
+        },
+        {
+          "word": "ELTİ̇",
+          "hint": "Kocaların kardeşleri arasındaki ilişki."
+        },
+        {
+          "word": "GÖRÜMCE",
+          "hint": "Kocanın kız kardeşi."
+        },
+        {
+          "word": "BALDİZ",
+          "hint": "Karının kız kardeşi."
+        },
+        {
+          "word": "ENİ̇ŞTE",
+          "hint": "Kız kardeşin kocası."
+        },
+        {
+          "word": "YENGESİ̇",
+          "hint": "Erkek kardeşin karısı."
+        },
+        {
+          "word": "TÜR",
+          "hint": "İnsanların veya varlıkların ortak özelliklere sahip grupları."
+        },
+        {
+          "word": "AKRABA",
+          "hint": "Aynı soydan gelen veya evlilik yoluyla bağlanan kişiler."
+        },
+        {
+          "word": "ÇEKİ̇RDEK Aİ̇LE",
+          "hint": "Anne, baba ve çocuklardan oluşan en küçük aile yapısı."
+        },
+        {
+          "word": "GENİ̇Ş Aİ̇LE",
+          "hint": "Büyükanneler, büyükbabalar ve diğer akrabaları da içeren aile."
+        },
+        {
+          "word": "BAĞ",
+          "hint": "İnsanlar arasındaki sevgi ve dayanışma ilişkisi."
+        },
+        {
+          "word": "SEVGİ̇",
+          "hint": "Birine karşı duyulan derin şefkat ve bağlılık."
+        },
+        {
+          "word": "SAYGİ",
+          "hint": "Birine değer verme ve itibar gösterme."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Yapılması gereken görevleri yerine getirme yükümlülüğü."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Yardımcı olma ve güç verme."
+        },
+        {
+          "word": "İ̇Lİ̇ŞKİ̇",
+          "hint": "İki veya daha fazla insan arasındaki etkileşim."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Bir şeyin nasıl düzenlendiği veya oluşturulduğu."
+        },
+        {
+          "word": "Bİ̇REY",
+          "hint": "Bir grubun veya toplumun tek üyesi."
+        },
+        {
+          "word": "Mİ̇RAS",
+          "hint": "Geçmişten günümüze aktarılan özellikler veya eşyalar."
+        },
+        {
+          "word": "İ̇NSAN",
+          "hint": "Birey olarak ailemizin bir parçası."
+        },
+        {
+          "word": "ÇOCUK",
+          "hint": "Ailenin en küçük bireyi."
+        },
+        {
+          "word": "YAŞAM",
+          "hint": "Aile üyeleriyle paylaşılan zaman."
+        },
+        {
+          "word": "EV",
+          "hint": "Ailenin birlikte yaşadığı yer."
+        },
+        {
+          "word": "HATİRA",
+          "hint": "Geçmişte yaşanmış güzel anılar."
+        },
+        {
+          "word": "GELENEK",
+          "hint": "Aileden aileye aktarılan adetler."
+        },
+        {
+          "word": "BAYRAM",
+          "hint": "Ailece kutlanan özel günler."
+        },
+        {
+          "word": "DOĞUM GÜNÜ",
+          "hint": "Bir kişinin dünyaya geldiği günü kutlama."
+        },
+        {
+          "word": "TATİ̇L",
+          "hint": "Ailece dinlenilen zaman."
+        },
+        {
+          "word": "ORTAK",
+          "hint": "Aile üyelerinin paylaştığı değerler."
+        },
+        {
+          "word": "İ̇LETİ̇Şİ̇M",
+          "hint": "Düşünce ve duyguları birbirine aktarma."
+        },
+        {
+          "word": "GÜVEN",
+          "hint": "Birine inanma ve dayanma duygusu."
+        }
       ]
     },
     {
       "id": "ingilizce_u2",
       "name": "2. Ünite: Food",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "CHEESE", "hint": "Peynirin İngilizcesi, sütten yapılır"},
-        {"word": "CHICKEN", "hint": "Tavuğun İngilizcesi, eti çok sevilir"},
-        {"word": "BREAD", "hint": "Ekmeğin İngilizcesi, her yemekte bulunur"},
-        {"word": "TOMATO", "hint": "Domatesin İngilizcesi, kırmızı sebze"},
-        {"word": "BUTTER", "hint": "Tereyağının İngilizcesi, ekmeğe sürülür"}
+        {
+          "word": "CHEESE",
+          "hint": "Peynirin İngilizcesi, sütten yapılır"
+        },
+        {
+          "word": "CHICKEN",
+          "hint": "Tavuğun İngilizcesi, eti çok sevilir"
+        },
+        {
+          "word": "BREAD",
+          "hint": "Ekmeğin İngilizcesi, her yemekte bulunur"
+        },
+        {
+          "word": "TOMATO",
+          "hint": "Domatesin İngilizcesi, kırmızı sebze"
+        },
+        {
+          "word": "BUTTER",
+          "hint": "Tereyağının İngilizcesi, ekmeğe sürülür"
+        },
+        {
+          "word": "ELMA",
+          "hint": "Kırmızı veya yeşil renkli, sulu bir meyve. Ağaçta yetişir."
+        },
+        {
+          "word": "MUZ",
+          "hint": "Sarı renkli, uzun ve tatlı bir meyve. Maymunların sevdiği söylenir."
+        },
+        {
+          "word": "PORTAKAL",
+          "hint": "Turuncu renkli, yuvarlak ve sulu bir narenciye meyvesi. C vitamini deposu."
+        },
+        {
+          "word": "ÜZÜM",
+          "hint": "Küçük taneler halinde salkımlarda yetişen tatlı bir meyve. Kuru haliyle de sevilir."
+        },
+        {
+          "word": "ÇİLEK",
+          "hint": "Kırmızı renkli, küçük ve tatlı bir yaz meyvesi. Genellikle kahvaltıda yenir."
+        },
+        {
+          "word": "HAVUÇ",
+          "hint": "Turuncu renkli, kök sebze. Göz sağlığı için faydalı olduğu söylenir."
+        },
+        {
+          "word": "BROKOLİ",
+          "hint": "Yeşil renkli, ağaca benzeyen bir sebze. Çok sağlıklı olduğu bilinir."
+        },
+        {
+          "word": "PATATES",
+          "hint": "Toprağın altında yetişen, birçok yemeğin ana malzemesi olan nişastalı yumru."
+        },
+        {
+          "word": "SOĞAN",
+          "hint": "Katmanlı yapısı olan, yemeklere lezzet katan bir sebze. Doğrayınca gözler yaşarabilir."
+        },
+        {
+          "word": "DOMATES",
+          "hint": "Kırmızı renkli, sulu ve hafif ekşi bir meyvemsi sebze. Salataların vazgeçilmezi."
+        },
+        {
+          "word": "SALATALIK",
+          "hint": "Yeşil renkli, sulu ve serinletici bir sebze. Genellikle çiğ olarak tüketilir."
+        },
+        {
+          "word": "MISIR",
+          "hint": "Sarı taneleri olan, koçan üzerinde yetişen tahıl. Haşlanmış veya patlamış haliyle sevilir."
+        },
+        {
+          "word": "PEYNİR",
+          "hint": "Sütten yapılan, katı veya yarı katı halde olabilen besin. Kahvaltıların olmazsa olmazı."
+        },
+        {
+          "word": "SÜT",
+          "hint": "Beyaz renkli, memeli hayvanlardan elde edilen besleyici sıvı. Çocukların kemik gelişimi için önemlidir."
+        },
+        {
+          "word": "YOĞURT",
+          "hint": "Sütün mayalanmasıyla elde edilen ekşimsi tatlı besin. Kalsiyum kaynağıdır."
+        },
+        {
+          "word": "YUMURTA",
+          "hint": "Beyaz veya kahverengi kabuklu, içinde sarısı ve beyazı olan besin. Tavuklardan elde edilir."
+        },
+        {
+          "word": "BAL",
+          "hint": "Arıların çiçek nektarından ürettiği tatlı, yapışkan madde. Boğaza iyi geldiği söylenir."
+        },
+        {
+          "word": "ŞEKER",
+          "hint": "Tatlı tadıyla bilinen, bitkilerden elde edilen kristal madde. Fazlası zararlıdır."
+        },
+        {
+          "word": "TUZ",
+          "hint": "Kristalize halde bulunan, yemeklere tat veren mineral. Azı karar, çoğu zarar."
+        },
+        {
+          "word": "UN",
+          "hint": "Tahıl tanelerinin öğütülmesiyle elde edilen toz. Ekmek ve hamur işlerinin ana maddesidir."
+        },
+        {
+          "word": "MAKARNA",
+          "hint": "Buğday unundan yapılan, çeşitli şekilleri olan bir yiyecek. Haşlanarak yenir."
+        },
+        {
+          "word": "PİRİNÇ",
+          "hint": "Küçük taneli, beyaz veya kahverengi bir tahıl. Pilavın ana malzemesidir."
+        },
+        {
+          "word": "MERCİMEK",
+          "hint": "Baklagil ailesinden, kırmızı, yeşil veya sarı renklerde olabilen küçük tohumlar. Çorbası meşhurdur."
+        },
+        {
+          "word": "NOHUT",
+          "hint": "Yuvarlak, bej renkli bir baklagil. Humus ve yemeklerde kullanılır."
+        },
+        {
+          "word": "FASULYE",
+          "hint": "Uzun veya yuvarlak olabilen, baklagil ailesinden bir sebze. Kuru veya taze olarak tüketilir."
+        },
+        {
+          "word": "EKMEK",
+          "hint": "Un, su ve mayanın yoğrulup pişirilmesiyle yapılan temel besin. Dilimlenerek yenir."
+        },
+        {
+          "word": "KEK",
+          "hint": "Un, şeker, yumurta gibi malzemelerle yapılan tatlı hamur işi. Genellikle fırında pişirilir."
+        },
+        {
+          "word": "KURABİYE",
+          "hint": "Genellikle tatlı, küçük ve gevrek bir hamur işi. Çay veya süt ile iyi gider."
+        },
+        {
+          "word": "BİSKÜVİ",
+          "hint": "Kuru, gevrek ve genellikle tatlı bir hamur işi. Küçük çocuklar tarafından da sevilir."
+        },
+        {
+          "word": "ÇİKOLATA",
+          "hint": "Kakao çekirdeklerinden yapılan, tatlı ve lezzetli bir yiyecek. Genellikle kahverengi renktedir."
+        },
+        {
+          "word": "DONDURMA",
+          "hint": "Süt, krema ve şeker ile yapılan, soğuk yenilen tatlı. Yaz aylarının favorisidir."
+        },
+        {
+          "word": "LİMON",
+          "hint": "Sarı renkli, ekşi tadı olan bir narenciye meyvesi. Suyu içeceklere eklenir."
+        },
+        {
+          "word": "KİRAZ",
+          "hint": "Küçük, kırmızı ve tatlı/ekşi lezzetli bir yaz meyvesi. Sapıyla birlikte yenir."
+        },
+        {
+          "word": "KARPUZ",
+          "hint": "Büyük, yeşil kabuklu, kırmızı etli ve sulu bir yaz meyvesi. Bol çekirdeği olabilir."
+        },
+        {
+          "word": "KAYISI",
+          "hint": "Turuncu renkli, tatlı ve tüylü bir yaz meyvesi. Kurusu da oldukça sevilir."
+        },
+        {
+          "word": "ERİK",
+          "hint": "Yeşil, mor veya kırmızı renklerde olabilen, tatlı veya ekşi bir meyve."
+        },
+        {
+          "word": "BEZELYE",
+          "hint": "Yeşil renkli, küçük ve yuvarlak taneler halinde baklagil. Taze veya konserve olarak bulunur."
+        },
+        {
+          "word": "İSPANAK",
+          "hint": "Yeşil yapraklı, demir açısından zengin olduğu bilinen bir sebze. Kavrulmuş hali lezzetlidir."
+        },
+        {
+          "word": "KABAK",
+          "hint": "Genellikle yeşil veya sarı renkli, uzun veya yuvarlak olabilen bir sebze. Kızartması veya yemeği yapılır."
+        },
+        {
+          "word": "PIRASA",
+          "hint": "Uzun, yeşil yapraklı ve beyaz saplı bir sebze. Çorbası veya yemeği yapılır."
+        },
+        {
+          "word": "LAHANA",
+          "hint": "Yaprakları sıkıca birbirine geçmiş, yeşil veya mor renkli bir sebze. Salata veya yemeği yapılır."
+        },
+        {
+          "word": "KARNABAHAR",
+          "hint": "Beyaz renkli, dallı yapısıyla ilgi çekici bir sebze. Haşlanmış veya fırında pişirilebilir."
+        },
+        {
+          "word": "MANTAR",
+          "hint": "Toprakta veya ağaçlarda yetişen, şapkalı bir yiyecek. Çeşitli yemeklerde kullanılır."
+        },
+        {
+          "word": "AYRAN",
+          "hint": "Yoğurt ve suyun karıştırılmasıyla elde edilen köpüklü içecek. Yemeklerin yanında iyi gider."
+        },
+        {
+          "word": "REÇEL",
+          "hint": "Meyvelerin şekerle kaynatılmasıyla elde edilen tatlı yiyecek. Genellikle kahvaltıda ekmeğe sürülür."
+        },
+        {
+          "word": "ZEYTİN",
+          "hint": "Yeşil veya siyah renkli, çekirdekli bir meyve. Salatalarda ve kahvaltıda sıkça kullanılır."
+        }
       ]
     }
   ]

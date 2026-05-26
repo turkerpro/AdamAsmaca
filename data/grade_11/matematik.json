@@ -3,25 +3,427 @@
     {
       "id": "matematik_u1",
       "name": "1. Ünite: Türev",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "TÜREV", "hint": "Bir fonksiyonun değişim hızını veren işlem"},
-        {"word": "LİMİT", "hint": "Bir fonksiyonun belirli noktaya yaklaşma değeri"},
-        {"word": "TEĞET", "hint": "Eğriye tek noktada dokunan doğru"},
-        {"word": "EĞİM", "hint": "Doğrunun x ekseniyle yaptığı açının tanjantı"},
-        {"word": "MAKSİMUM", "hint": "Fonksiyonun en büyük değerine ulaştığı nokta"}
+        {
+          "word": "TÜREV",
+          "hint": "Bir fonksiyonun değişim hızını veren işlem"
+        },
+        {
+          "word": "LİMİT",
+          "hint": "Bir fonksiyonun belirli noktaya yaklaşma değeri"
+        },
+        {
+          "word": "TEĞET",
+          "hint": "Eğriye tek noktada dokunan doğru"
+        },
+        {
+          "word": "EĞİM",
+          "hint": "Doğrunun x ekseniyle yaptığı açının tanjantı"
+        },
+        {
+          "word": "MAKSİMUM",
+          "hint": "Fonksiyonun en büyük değerine ulaştığı nokta"
+        },
+        {
+          "word": "ARTAN",
+          "hint": "Fonksiyonun değerlerinin yükseldiği durum."
+        },
+        {
+          "word": "AZALAN",
+          "hint": "Fonksiyonun değerlerinin düştüğü durum."
+        },
+        {
+          "word": "SABİ̇T",
+          "hint": "Fonksiyonun değerinin değişmediği, düz çizgi olduğu durum."
+        },
+        {
+          "word": "KRİ̇Tİ̇K",
+          "hint": "Fonksiyonun artan veya azalanlığının değiştiği özel nokta."
+        },
+        {
+          "word": "ANLİK",
+          "hint": "Çok kısa bir zamandaki değişim hızı."
+        },
+        {
+          "word": "ORTALAMA",
+          "hint": "Belirli bir aralıktaki ortalama değişim."
+        },
+        {
+          "word": "YAKLAŞİM",
+          "hint": "Bir değere doğru giderkenki hareket."
+        },
+        {
+          "word": "GÖSTERGE",
+          "hint": "Bir durumun veya özelliğin belirtisi."
+        },
+        {
+          "word": "HİZLANMA",
+          "hint": "Değişim hızının daha da artması."
+        },
+        {
+          "word": "YAVAŞLAMA",
+          "hint": "Değişim hızının azalması."
+        },
+        {
+          "word": "Zİ̇NCİ̇R",
+          "hint": "Birbiriyle bağlantılı fonksiyonların türevi."
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Düz bir çizgi şeklinde ilerleyen fonksiyon."
+        },
+        {
+          "word": "KAREKÖK",
+          "hint": "Karesi kendisini veren sayı."
+        },
+        {
+          "word": "ÜSTEL",
+          "hint": "Üssü değişken olan fonksiyon türü."
+        },
+        {
+          "word": "LOGARİ̇TMA",
+          "hint": "Üslü ifadenin tersi."
+        },
+        {
+          "word": "GRAFİ̇K",
+          "hint": "Fonksiyonun görsel temsili."
+        },
+        {
+          "word": "ANALİ̇Z",
+          "hint": "Bir konuyu derinlemesine inceleme."
+        },
+        {
+          "word": "YAKİNSAMA",
+          "hint": "Bir değere doğru yaklaşma eğilimi."
+        },
+        {
+          "word": "İRAKSAMA",
+          "hint": "Bir değerden uzaklaşma eğilimi."
+        },
+        {
+          "word": "Bİ̇Rİ̇M",
+          "hint": "Ölçü birimi."
+        },
+        {
+          "word": "DEĞİ̇ŞKEN",
+          "hint": "Değeri değişebilen sembol."
+        },
+        {
+          "word": "SÜREKLİ̇",
+          "hint": "Kesintisi olmayan, kopukluksuz."
+        },
+        {
+          "word": "Sİ̇METRİ̇",
+          "hint": "Aynılık, denklik."
+        },
+        {
+          "word": "EKSTREMUM",
+          "hint": "En büyük veya en küçük değer."
+        },
+        {
+          "word": "BELİ̇RSİ̇Z",
+          "hint": "Net olarak ifade edilemeyen durum."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Teorik bilginin gerçek hayatta kullanımı."
+        },
+        {
+          "word": "SENARYO",
+          "hint": "Olası durum veya olaylar dizisi."
+        },
+        {
+          "word": "ORTAM",
+          "hint": "Çevresel koşullar."
+        },
+        {
+          "word": "SİRA",
+          "hint": "Bir düzen içinde olma."
+        },
+        {
+          "word": "YAPAY",
+          "hint": "Doğal olmayan, insan tarafından oluşturulan."
+        },
+        {
+          "word": "ÖLÇÜM",
+          "hint": "Miktarı belirleme işlemi."
+        },
+        {
+          "word": "KARAR",
+          "hint": "Seçim yapma."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Uyulması gereken ilke."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlemin veya olayın bitiminde elde edilen."
+        },
+        {
+          "word": "SÜREÇ",
+          "hint": "Belirli bir amaca ulaşmak için izlenen yol."
+        },
+        {
+          "word": "VERİ̇",
+          "hint": "Bilgi parçacığı."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Sayısal bilgilerin düzenli sunumu."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Matematiksel işlem kuralları bütünü."
+        },
+        {
+          "word": "DEĞİ̇Şİ̇M",
+          "hint": "Bir halden başka bir hale geçme."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki niceliğin birbirine bölünmesiyle bulunan değer."
+        },
+        {
+          "word": "YAKİN",
+          "hint": "Bir değere çok az farkla ulaşan."
+        },
+        {
+          "word": "DİZGE",
+          "hint": "Birbirini etkileyen parçaların bütünü."
+        },
+        {
+          "word": "YÖNELİ̇M",
+          "hint": "Bir doğrultuda ilerleme isteği veya şekli."
+        },
+        {
+          "word": "YAKLAŞİK",
+          "hint": "Tam olmayan, 'neredeyse' anlamında."
+        },
+        {
+          "word": "ANLIKHIZ",
+          "hint": "Bir hareketlinin belirli bir andaki yer değiştirme oranı"
+        }
       ]
     },
     {
       "id": "matematik_u2",
       "name": "2. Ünite: Logaritma",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "LOGARİTMA", "hint": "Üstel ifadenin tersini bulmaya yarayan işlem"},
-        {"word": "TABAN", "hint": "Logaritmada üs alınan sayı"},
-        {"word": "ÜSTEL", "hint": "Değişkenin üst olarak yer aldığı fonksiyon türü"},
-        {"word": "ANTİLOGARİTMA", "hint": "Logaritmanın tersine verilen ad"},
-        {"word": "DOĞAL LOGARİTMA", "hint": "Tabanı e sayısı olan logaritma türü"}
+        {
+          "word": "LOGARİTMA",
+          "hint": "Üstel ifadenin tersini bulmaya yarayan işlem"
+        },
+        {
+          "word": "TABAN",
+          "hint": "Logaritmada üs alınan sayı"
+        },
+        {
+          "word": "ÜSTEL",
+          "hint": "Değişkenin üst olarak yer aldığı fonksiyon türü"
+        },
+        {
+          "word": "ANTİLOGARİTMA",
+          "hint": "Logaritmanın tersine verilen ad"
+        },
+        {
+          "word": "DOĞAL LOGARİTMA",
+          "hint": "Tabanı e sayısı olan logaritma türü"
+        },
+        {
+          "word": "EŞİ̇TLİ̇K",
+          "hint": "İki ifadenin aynı değerde olduğunu gösteren matematiksel ifade."
+        },
+        {
+          "word": "DENKLEM",
+          "hint": "Bilinmeyen içeren eşitlik."
+        },
+        {
+          "word": "Bİ̇Lİ̇NMEYEN",
+          "hint": "Değeri henüz bilinmeyen değişken."
+        },
+        {
+          "word": "DEĞİ̇ŞKEN",
+          "hint": "Farklı değerler alabilen sembol."
+        },
+        {
+          "word": "ÜS",
+          "hint": "Bir sayının kendisiyle kaç kez çarpılacağını belirten rakam."
+        },
+        {
+          "word": "TABAN SAYİSİ",
+          "hint": "Üslü ifadede çarpılan temel sayı."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlemin çıktısı veya değeri."
+        },
+        {
+          "word": "İ̇ŞLEM",
+          "hint": "Matematiksel bir hesaplama süreci."
+        },
+        {
+          "word": "ÇARPMA",
+          "hint": "Tekrarlı toplama işlemi."
+        },
+        {
+          "word": "BÖLME",
+          "hint": "Eşit paylaştırma veya gruplama işlemi."
+        },
+        {
+          "word": "TOPLAMA",
+          "hint": "Birleştirme veya artırma işlemi."
+        },
+        {
+          "word": "ÇİKARMA",
+          "hint": "Azaltma veya fark bulma işlemi."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Üslü ifadede tabanın aldığı değer."
+        },
+        {
+          "word": "İ̇RRASYONEL",
+          "hint": "Kesir olarak ifade edilemeyen sayılar."
+        },
+        {
+          "word": "GERÇEL",
+          "hint": "Tüm rasyonel ve irrasyonel sayıları kapsayan sayı kümesi."
+        },
+        {
+          "word": "SAYİ DOĞRUSU",
+          "hint": "Sayıların sıralandığı çizgisel gösterim."
+        },
+        {
+          "word": "OLASİLİK",
+          "hint": "Bir olayın gerçekleşme şansını belirten değer."
+        },
+        {
+          "word": "FONKSİ̇YON",
+          "hint": "Girdileri çıktılara dönüştüren kural veya ilişki."
+        },
+        {
+          "word": "GRAFİ̇K",
+          "hint": "Verileri görsel olarak temsil etme yöntemi."
+        },
+        {
+          "word": "EĞİ̇M",
+          "hint": "Bir doğrunun dikliğinin ölçüsü."
+        },
+        {
+          "word": "KESİ̇Şİ̇M",
+          "hint": "İki veya daha fazla nesnenin ortak noktası."
+        },
+        {
+          "word": "TEPE NOKTASİ",
+          "hint": "Bir parabolün veya eğrinin en yüksek veya en alçak noktası."
+        },
+        {
+          "word": "ASİ̇MPTOT",
+          "hint": "Bir eğrinin sonsuzda yaklaştığı doğru."
+        },
+        {
+          "word": "İ̇NTEGRAL",
+          "hint": "Bir fonksiyonun altındaki alanı hesaplama işlemi."
+        },
+        {
+          "word": "TÜREV",
+          "hint": "Bir fonksiyonun değişim hızını ölçme işlemi."
+        },
+        {
+          "word": "SERİ̇",
+          "hint": "Sıralı sayıların toplamı."
+        },
+        {
+          "word": "Dİ̇Zİ̇",
+          "hint": "Belirli bir kurala göre sıralanmış sayılar kümesi."
+        },
+        {
+          "word": "ARTAN",
+          "hint": "Değeri giderek büyüyen."
+        },
+        {
+          "word": "AZALAN",
+          "hint": "Değeri giderek küçülen."
+        },
+        {
+          "word": "SABİ̇T",
+          "hint": "Değeri değişmeyen."
+        },
+        {
+          "word": "DÖNÜŞÜM",
+          "hint": "Bir şeklin veya ifadenin başka bir şekle veya ifadeye geçişi."
+        },
+        {
+          "word": "SEKTÖR",
+          "hint": "Bir dairenin merkezinden çizilen iki yarıçapla sınırlı bölge."
+        },
+        {
+          "word": "YAY",
+          "hint": "Bir çemberin veya elipsin parçası."
+        },
+        {
+          "word": "MERKEZ",
+          "hint": "Bir çemberin veya kürenin ortasındaki nokta."
+        },
+        {
+          "word": "YARİÇAP",
+          "hint": "Bir çemberin merkezinden çevresine olan uzaklık."
+        },
+        {
+          "word": "ÇAP",
+          "hint": "Bir çemberin merkezinden geçen ve iki noktayı birleştiren doğru parçası."
+        },
+        {
+          "word": "ALAN",
+          "hint": "İki boyutlu bir şeklin kapladığı yer."
+        },
+        {
+          "word": "HACİ̇M",
+          "hint": "Üç boyutlu bir cismin kapladığı yer."
+        },
+        {
+          "word": "KALİNLİK",
+          "hint": "Bir nesnenin bir yüzeyden diğerine olan uzaklığı."
+        },
+        {
+          "word": "GENİ̇ŞLİ̇K",
+          "hint": "Bir nesnenin yan yana olan uzaklığı."
+        },
+        {
+          "word": "UZUNLUK",
+          "hint": "Bir nesnenin bir ucundan diğerine olan mesafesi."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "Yönü sabit, sonsuz uzanan düz çizgi."
+        },
+        {
+          "word": "GÖSTERGE",
+          "hint": "Bir değeri temsil eden sembol."
+        },
+        {
+          "word": "YAKLAŞİM",
+          "hint": "Bir değere giderek daha çok benzeme durumu."
+        },
+        {
+          "word": "SİNİR",
+          "hint": "Bir bölgenin bittiği veya başladığı yer."
+        }
       ]
     }
   ]

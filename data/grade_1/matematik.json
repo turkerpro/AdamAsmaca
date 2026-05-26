@@ -3,25 +3,491 @@
     {
       "id": "mat_u1",
       "name": "1. Ünite: Sayılar",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "SAYI", "hint": "Bir miktarı gösteren değer"},
-        {"word": "SIFIR", "hint": "Hiç olmayan, en küçük sayı"},
-        {"word": "BİRLİK", "hint": "Sayıların en küçük basamağı"},
-        {"word": "ONLUK", "hint": "On tane birlikten oluşan basamak"},
-        {"word": "RAKAM", "hint": "Sayıları yazmak için kullanılan işaret"}
+        {
+          "word": "SAYI",
+          "hint": "Bir miktarı gösteren değer"
+        },
+        {
+          "word": "SIFIR",
+          "hint": "Hiç olmayan, en küçük sayı"
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Sayıların en küçük basamağı"
+        },
+        {
+          "word": "ONLUK",
+          "hint": "On tane birlikten oluşan basamak"
+        },
+        {
+          "word": "RAKAM",
+          "hint": "Sayıları yazmak için kullanılan işaret"
+        },
+        {
+          "word": "Bİ̇R",
+          "hint": "En küçük sayma sayısı, tek olan."
+        },
+        {
+          "word": "İ̇Kİ̇",
+          "hint": "Bir tane daha ekleyince oluşan sayı."
+        },
+        {
+          "word": "ÜÇ",
+          "hint": "İkiden sonra gelen sayı."
+        },
+        {
+          "word": "DÖRT",
+          "hint": "Üçten sonra gelen, bir eldeki çoğu parmak."
+        },
+        {
+          "word": "BEŞ",
+          "hint": "Bir elin bütün parmakları."
+        },
+        {
+          "word": "ALTİ",
+          "hint": "Beşten sonra gelen sayı."
+        },
+        {
+          "word": "YEDİ̇",
+          "hint": "Haftanın gün sayısı."
+        },
+        {
+          "word": "SEKİ̇Z",
+          "hint": "Yedi ile dokuz arasındaki sayı."
+        },
+        {
+          "word": "DOKUZ",
+          "hint": "On'dan önce gelen en büyük tek basamaklı sayı."
+        },
+        {
+          "word": "ON",
+          "hint": "İki elin tüm parmakları, dokuzdan sonra gelen."
+        },
+        {
+          "word": "TOPLAMA",
+          "hint": "İki şeyi birleştirme, sayısını artırma işlemi."
+        },
+        {
+          "word": "ÇİKARMA",
+          "hint": "Bir şeyden azaltma, eksiltme işlemi."
+        },
+        {
+          "word": "FAZLA",
+          "hint": "Diğerinden daha çok olan."
+        },
+        {
+          "word": "AZ",
+          "hint": "Diğerinden daha az olan."
+        },
+        {
+          "word": "EŞİ̇T",
+          "hint": "İki şeyin aynı sayıda veya aynı miktarda olması."
+        },
+        {
+          "word": "BÜYÜK",
+          "hint": "Sayı değeri çok olan."
+        },
+        {
+          "word": "KÜÇÜK",
+          "hint": "Sayı değeri az olan."
+        },
+        {
+          "word": "SİRA",
+          "hint": "Nesnelerin veya sayıların art arda dizilişi."
+        },
+        {
+          "word": "ÖNCE",
+          "hint": "Bir şeyden evvel gelen zaman veya yer."
+        },
+        {
+          "word": "SONRA",
+          "hint": "Bir şeyden geç gelen zaman veya yer."
+        },
+        {
+          "word": "İ̇LK",
+          "hint": "Başlangıçta olan, en başta gelen."
+        },
+        {
+          "word": "SON",
+          "hint": "Bitimde olan, en sonda gelen."
+        },
+        {
+          "word": "ÇOK",
+          "hint": "Miktarı fazla olan, bol."
+        },
+        {
+          "word": "HEPSİ̇",
+          "hint": "Bir grubun tamamı, bütünü."
+        },
+        {
+          "word": "Hİ̇Ç",
+          "hint": "Bir şeyin olmaması durumu, sıfır tane."
+        },
+        {
+          "word": "EKSİ̇K",
+          "hint": "Tamamlanmamış, noksan olan kısım."
+        },
+        {
+          "word": "TAMAM",
+          "hint": "Bütün, eksiksiz, bir şeyin bitmiş hali."
+        },
+        {
+          "word": "NESNE",
+          "hint": "Gözle görülen, elle tutulan her şey."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Toplama işleminin sonucu, birikmiş miktar."
+        },
+        {
+          "word": "FARK",
+          "hint": "Çıkarma işleminin sonucu, aradaki ayrım."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Bir araya gelmiş nesneler veya canlılar."
+        },
+        {
+          "word": "Çİ̇FT",
+          "hint": "İkişerli olan, iki tane bir araya gelmiş."
+        },
+        {
+          "word": "TEK",
+          "hint": "Yalnız, bir tane olan, çift olmayan."
+        },
+        {
+          "word": "SAYMA",
+          "hint": "Nesneleri veya sayıları ardışık olarak söyleme."
+        },
+        {
+          "word": "SİRALAMA",
+          "hint": "Nesneleri veya sayıları belli bir düzene göre dizme."
+        },
+        {
+          "word": "Mİ̇KTAR",
+          "hint": "Bir şeyin ne kadar olduğu, çokluğu veya azlığı."
+        },
+        {
+          "word": "TAHMİ̇N",
+          "hint": "Bir şeyin sonucunu yaklaşık olarak söyleme, kestirme."
+        },
+        {
+          "word": "ÖRÜNTÜ",
+          "hint": "Belirli bir kurala göre tekrar eden dizi veya şekil."
+        },
+        {
+          "word": "ARTMA",
+          "hint": "Bir şeyin çoğalması, büyümesi."
+        },
+        {
+          "word": "AZALMA",
+          "hint": "Bir şeyin eksilmesi, küçülmesi."
+        },
+        {
+          "word": "ADİM",
+          "hint": "Bir yere doğru atılan hareket, bir işlemdeki basamak."
+        },
+        {
+          "word": "İ̇ŞLEM",
+          "hint": "Matematikte yapılan hesaplama, toplama veya çıkarma gibi."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlemin bitiminde elde edilen değer."
+        },
+        {
+          "word": "BAŞLANGİÇ",
+          "hint": "Bir şeyin ilk noktası, başladığı yer."
+        },
+        {
+          "word": "BÜTÜN",
+          "hint": "Parçalara ayrılmamış, tamamı."
+        },
+        {
+          "word": "PARÇA",
+          "hint": "Bütünden ayrılmış, küçük kısım."
+        },
+        {
+          "word": "DÜZEN",
+          "hint": "Bir şeyin belirli bir kurala göre sıralanışı, tertip."
+        },
+        {
+          "word": "KARŞİLAŞTİRMA",
+          "hint": "İki veya daha fazla şeyi benzerlik veya farklılık yönünden inceleme."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "Yanlış olmayan, gerçek olan."
+        },
+        {
+          "word": "YANLİŞ",
+          "hint": "Doğru olmayan, hatalı."
+        },
+        {
+          "word": "PROBLEM",
+          "hint": "Çözülmesi gereken bir matematik sorusu."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Bir problemin doğru cevabı veya yolu."
+        },
+        {
+          "word": "EŞLEME",
+          "hint": "İki grup arasında birebir ilişki kurma."
+        },
+        {
+          "word": "TOPLANAN",
+          "hint": "Toplama işleminde bir araya getirilen sayılardan her biri."
+        },
+        {
+          "word": "EKLENEN",
+          "hint": "Bir şeye katılan, eklenen şey."
+        },
+        {
+          "word": "ÇİKARİLAN",
+          "hint": "Bir bütünden ayrılan, eksiltilen kısım veya sayı."
+        }
       ]
     },
     {
       "id": "mat_u2",
       "name": "2. Ünite: Toplama",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "TOPLAM", "hint": "Sayıları birleştirince bulunan sonuç"},
-        {"word": "SONUÇ", "hint": "İşlemin en sonunda bulunan değer"},
-        {"word": "EŞİTTİR", "hint": "İki tarafın aynı olduğunu gösteren işaret"},
-        {"word": "ARTI", "hint": "Toplama işleminde kullanılan işaret"},
-        {"word": "EKSİ", "hint": "Çıkarma işleminde kullanılan işaret"}
+        {
+          "word": "TOPLAM",
+          "hint": "Sayıları birleştirince bulunan sonuç"
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "İşlemin en sonunda bulunan değer"
+        },
+        {
+          "word": "EŞİTTİR",
+          "hint": "İki tarafın aynı olduğunu gösteren işaret"
+        },
+        {
+          "word": "ARTI",
+          "hint": "Toplama işleminde kullanılan işaret"
+        },
+        {
+          "word": "EKSİ",
+          "hint": "Çıkarma işleminde kullanılan işaret"
+        },
+        {
+          "word": "Bİ̇R",
+          "hint": "Saymaya başladığımız sayı."
+        },
+        {
+          "word": "İ̇Kİ̇",
+          "hint": "Bir ve bir daha."
+        },
+        {
+          "word": "ÜÇ",
+          "hint": "İki ile birin toplamı."
+        },
+        {
+          "word": "DÖRT",
+          "hint": "İki tane iki."
+        },
+        {
+          "word": "BEŞ",
+          "hint": "Bir eldeki parmak sayısı."
+        },
+        {
+          "word": "ALTİ",
+          "hint": "Beşten bir fazla."
+        },
+        {
+          "word": "YEDİ̇",
+          "hint": "Haftanın günleri sayısı."
+        },
+        {
+          "word": "SEKİ̇Z",
+          "hint": "Dört tane iki eder."
+        },
+        {
+          "word": "DOKUZ",
+          "hint": "Üç tane üç demek."
+        },
+        {
+          "word": "ON",
+          "hint": "İki eldeki parmakların hepsi."
+        },
+        {
+          "word": "SİFİR",
+          "hint": "Hiç yok demek."
+        },
+        {
+          "word": "SAYİ",
+          "hint": "Ne kadar olduğunu gösteren işaret."
+        },
+        {
+          "word": "SAYMAK",
+          "hint": "Nesnelerin kaç tane olduğunu bulmak."
+        },
+        {
+          "word": "EKLEMEK",
+          "hint": "Bir şeye başka bir şey katmak, yanına koymak."
+        },
+        {
+          "word": "KATMAK",
+          "hint": "Bir şeyin içine veya üstüne eklemek."
+        },
+        {
+          "word": "Bİ̇RLEŞMEK",
+          "hint": "Farklı şeylerin bir araya gelmesi."
+        },
+        {
+          "word": "TOPLAMAK",
+          "hint": "Nesneleri bir araya getirip hepsini saymak."
+        },
+        {
+          "word": "ÇOĞALMAK",
+          "hint": "Sayının artması."
+        },
+        {
+          "word": "ARTİRMAK",
+          "hint": "Bir şeye daha fazla eklemek."
+        },
+        {
+          "word": "İ̇LAVE",
+          "hint": "Var olana eklenen fazlalık."
+        },
+        {
+          "word": "ADET",
+          "hint": "Bir şeyin kaç tane olduğunu gösterir."
+        },
+        {
+          "word": "TANE",
+          "hint": "Saydığımız her bir şey."
+        },
+        {
+          "word": "NESNE",
+          "hint": "Gördüğümüz, dokunduğumuz her şey."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Benzer şeylerin bir araya gelmesi."
+        },
+        {
+          "word": "KÜME",
+          "hint": "Aynı özellikleri olan şeylerin topluluğu."
+        },
+        {
+          "word": "DESTE",
+          "hint": "On tane şeyin bir arada olması."
+        },
+        {
+          "word": "Mİ̇KTAR",
+          "hint": "Bir şeyin ne kadar olduğu."
+        },
+        {
+          "word": "PROBLEM",
+          "hint": "Cevabını bulmamız gereken soru."
+        },
+        {
+          "word": "BULMAK",
+          "hint": "Bir sorunun cevabını öğrenmek."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Bir problemin doğru cevabı."
+        },
+        {
+          "word": "PARMAK",
+          "hint": "Saymak için kullandığımız el organımız."
+        },
+        {
+          "word": "BONCUK",
+          "hint": "Saymak ve oynamak için kullanılan küçük renkli top."
+        },
+        {
+          "word": "ÇUBUK",
+          "hint": "Saymada kullanılan uzun, ince sopa."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Yazı yazmak veya resim yapmak için araç."
+        },
+        {
+          "word": "Kİ̇TAP",
+          "hint": "İçinde bilgiler ve hikayeler olan sayfalar."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek için yaptığımız etkinlik."
+        },
+        {
+          "word": "RESİ̇M",
+          "hint": "Gördüğümüz bir şeyin çizimi veya fotoğrafı."
+        },
+        {
+          "word": "BÜTÜN",
+          "hint": "Bir şeyin tamamı."
+        },
+        {
+          "word": "HEPSİ̇",
+          "hint": "Bir grubun içindeki tümü."
+        },
+        {
+          "word": "FAZLA",
+          "hint": "Daha çok."
+        },
+        {
+          "word": "DAHA",
+          "hint": "Bir şeye ek olarak."
+        },
+        {
+          "word": "BERABER",
+          "hint": "Birlikte."
+        },
+        {
+          "word": "ORTAK",
+          "hint": "İki veya daha fazla şeyin paylaştığı."
+        },
+        {
+          "word": "ÖĞRENMEK",
+          "hint": "Yeni şeyler anlamak, bilmek."
+        },
+        {
+          "word": "BAŞLANGİÇ",
+          "hint": "Bir şeyin ilk yeri veya zamanı."
+        },
+        {
+          "word": "Bİ̇Tİ̇Ş",
+          "hint": "Bir şeyin sonu."
+        },
+        {
+          "word": "TEK",
+          "hint": "Yalnız başına olan sayı (1, 3, 5 gibi)."
+        },
+        {
+          "word": "Çİ̇FT",
+          "hint": "İkişerli sayılan sayı (2, 4, 6 gibi)."
+        },
+        {
+          "word": "KOYMAK",
+          "hint": "Bir şeyi bir yere bırakmak."
+        },
+        {
+          "word": "ALMAK",
+          "hint": "Bir şeyi ele geçirmek."
+        }
       ]
     }
   ]

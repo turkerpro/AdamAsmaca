@@ -3,25 +3,427 @@
     {
       "id": "biyoloji_u1",
       "name": "1. Ünite: Genetik Mühendisliği",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "KLONLAMA", "hint": "Bir canlının genetik kopyasının üretilmesi"},
-        {"word": "GEN TEDAVİSİ", "hint": "Hastalıklı genin sağlıklı olanla değiştirilmesi"},
-        {"word": "TRANSGENIK", "hint": "Farklı türden gen aktarılmış organizma"},
-        {"word": "RESTRİKSİYON", "hint": "DNA'yı belirli bölgelerden kesen enzim türü"},
-        {"word": "PLAZMIT", "hint": "Bakterilerde bulunan halkasal DNA parçası"}
+        {
+          "word": "KLONLAMA",
+          "hint": "Bir canlının genetik kopyasının üretilmesi"
+        },
+        {
+          "word": "GEN TEDAVİSİ",
+          "hint": "Hastalıklı genin sağlıklı olanla değiştirilmesi"
+        },
+        {
+          "word": "TRANSGENIK",
+          "hint": "Farklı türden gen aktarılmış organizma"
+        },
+        {
+          "word": "RESTRİKSİYON",
+          "hint": "DNA'yı belirli bölgelerden kesen enzim türü"
+        },
+        {
+          "word": "PLAZMIT",
+          "hint": "Bakterilerde bulunan halkasal DNA parçası"
+        },
+        {
+          "word": "DNA",
+          "hint": "Canlıların kalıtsal bilgisini taşıyan molekül."
+        },
+        {
+          "word": "RNA",
+          "hint": "DNA'daki bilgiyi protein sentezine taşıyan molekül."
+        },
+        {
+          "word": "GENOM",
+          "hint": "Bir canlının sahip olduğu tüm genetik materyalin bütünü."
+        },
+        {
+          "word": "ALLEL",
+          "hint": "Bir genin farklı biçimleri, örneğin göz rengi."
+        },
+        {
+          "word": "MUTASYON",
+          "hint": "DNA dizilimindeki kalıcı değişiklikler."
+        },
+        {
+          "word": "REKOMBİNANT",
+          "hint": "Farklı kaynaklardan alınan genetik materyallerin birleşimi."
+        },
+        {
+          "word": "ENTEGRASYON",
+          "hint": "Genetik materyalin bir genom içine yerleştirilmesi."
+        },
+        {
+          "word": "EKSPRESYON",
+          "hint": "Bir genin etkisini göstererek protein üretmesi."
+        },
+        {
+          "word": "PROMOTER",
+          "hint": "Bir genin okunmaya başlamasını sağlayan DNA dizisi."
+        },
+        {
+          "word": "TERMİNATÖR",
+          "hint": "Gen okunmasının sona erdiği DNA dizisi."
+        },
+        {
+          "word": "VEKTÖR",
+          "hint": "Genetik materyali hücre içine taşıyan taşıyıcı molekül."
+        },
+        {
+          "word": "LİGAZ",
+          "hint": "DNA parçalarını birbirine yapıştıran enzim."
+        },
+        {
+          "word": "POLİMERAZ",
+          "hint": "DNA veya RNA sentezini gerçekleştiren enzim."
+        },
+        {
+          "word": "ELEKTROFOREZ",
+          "hint": "DNA veya proteinleri boyutlarına göre ayıran yöntem."
+        },
+        {
+          "word": "PCR",
+          "hint": "Belirli bir DNA parçasının çok sayıda kopyasını üreten teknik."
+        },
+        {
+          "word": "KAZANİLMİŞ ÖZELLİ̇K",
+          "hint": "Çevresel etkilerle sonradan edinilen özellik."
+        },
+        {
+          "word": "KALİTSAL ÖZELLİ̇K",
+          "hint": "Ebeveynlerden yavrulara aktarılan özellik."
+        },
+        {
+          "word": "Bİ̇YOTEKNOLOJİ̇",
+          "hint": "Canlıları veya onların parçalarını kullanarak ürün geliştirme."
+        },
+        {
+          "word": "MOLEKÜLER Bİ̇YOLOJİ̇",
+          "hint": "Canlıların moleküler düzeydeki çalışmalarını inceleyen bilim dalı."
+        },
+        {
+          "word": "GENETİK MÜHENDİSLİĞİ",
+          "hint": "Canlıların genetik yapılarında değişiklik yapma bilimi."
+        },
+        {
+          "word": "Dİ̇Zİ̇LEME",
+          "hint": "DNA'nın nükleotit sırasını belirleme işlemi."
+        },
+        {
+          "word": "HOMOLOG",
+          "hint": "Aynı genetik kökene sahip kromozomlar veya genler."
+        },
+        {
+          "word": "HETEROLOG",
+          "hint": "Farklı genetik kökene sahip kromozomlar veya genler."
+        },
+        {
+          "word": "DOKU KÜLTÜRÜ",
+          "hint": "Canlıdan alınan doku örneklerinin laboratuvarda yetiştirilmesi."
+        },
+        {
+          "word": "EMBRYO",
+          "hint": "Gelişimin erken evresindeki canlı yavru."
+        },
+        {
+          "word": "SELEKSİ̇YON",
+          "hint": "Belirli özelliklere sahip bireylerin seçilerek üretilmesi."
+        },
+        {
+          "word": "HİBRİDİZASYON",
+          "hint": "Farklı tür veya çeşitlerin çaprazlanması."
+        },
+        {
+          "word": "MARKİR",
+          "hint": "Genetik analizde kullanılan belirli DNA bölgeleri."
+        },
+        {
+          "word": "PROBE",
+          "hint": "Belirli bir nükleotit dizisini tespit etmek için kullanılan işaretli molekül."
+        },
+        {
+          "word": "SÜPERSOY",
+          "hint": "Yüksek verimli veya istenen özelliklere sahip bitki veya hayvan soyu."
+        },
+        {
+          "word": "ANTİSENSİ TEKNOLOJİSİ",
+          "hint": "Gen ekspresyonunu engelleyen RNA molekülleri üretme."
+        },
+        {
+          "word": "SİRNA",
+          "hint": "Gen susturma mekanizmasında rol alan RNA molekülü."
+        },
+        {
+          "word": "ANTİBİOTİK Dİ̇RENCİ̇",
+          "hint": "Bakterilerin antibiyotiklere karşı direnç kazanması."
+        },
+        {
+          "word": "ETİK",
+          "hint": "Genetik mühendisliğinde ahlaki ve toplumsal boyut."
+        },
+        {
+          "word": "REGULASYON",
+          "hint": "Genlerin çalışma düzenini kontrol eden mekanizma."
+        },
+        {
+          "word": "REPLİKASYON",
+          "hint": "DNA'nın kendini eşlemesi."
+        },
+        {
+          "word": "TRANSKRİPSİYON",
+          "hint": "DNA'dan RNA sentezlenmesi."
+        },
+        {
+          "word": "TRANSLASYON",
+          "hint": "RNA'dan protein sentezlenmesi."
+        },
+        {
+          "word": "EPO",
+          "hint": "Kırmızı kan hücresi üretimini uyaran hormon (genetik mühendisliği ürünü)."
+        },
+        {
+          "word": "İNSÜLİN",
+          "hint": "Kan şekerini düzenleyen, genetik mühendisliğiyle üretilen hormon."
+        },
+        {
+          "word": "GEN KARTALAMA",
+          "hint": "Genomdaki genlerin yerini ve fonksiyonunu belirleme."
+        },
+        {
+          "word": "SİSTEM GENOMİK",
+          "hint": "Canlıların genetik sistemlerini bütünsel olarak inceleme."
+        },
+        {
+          "word": "PROTEOMİK",
+          "hint": "Bir organizmadaki tüm proteinleri inceleme."
+        },
+        {
+          "word": "METABOLOMİK",
+          "hint": "Hücrelerdeki küçük molekülleri ve metabolizmayı inceleme."
+        },
+        {
+          "word": "Bİ̇YOSENSÖR",
+          "hint": "Biyolojik bir bileşeni ölçüm için kullanan cihaz."
+        }
       ]
     },
     {
       "id": "biyoloji_u2",
       "name": "2. Ünite: Biyoteknoloji",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "FERMANTASYON", "hint": "Mikroorganizmaların oksijensiz ortamda enerji üretmesi"},
-        {"word": "ANTİBİYOTİK", "hint": "Bakterilere karşı kullanılan ilaç türü"},
-        {"word": "AŞI", "hint": "Bağışıklık kazandırmak için verilen biyolojik preparat"},
-        {"word": "GDO", "hint": "Genetiği değiştirilmiş organizmaların kısaltması"},
-        {"word": "BİYOYAKIT", "hint": "Biyolojik kaynaklardan elde edilen enerji türü"}
+        {
+          "word": "FERMANTASYON",
+          "hint": "Mikroorganizmaların oksijensiz ortamda enerji üretmesi"
+        },
+        {
+          "word": "ANTİBİYOTİK",
+          "hint": "Bakterilere karşı kullanılan ilaç türü"
+        },
+        {
+          "word": "AŞI",
+          "hint": "Bağışıklık kazandırmak için verilen biyolojik preparat"
+        },
+        {
+          "word": "GDO",
+          "hint": "Genetiği değiştirilmiş organizmaların kısaltması"
+        },
+        {
+          "word": "BİYOYAKIT",
+          "hint": "Biyolojik kaynaklardan elde edilen enerji türü"
+        },
+        {
+          "word": "KLONLAMA",
+          "hint": "Genetik olarak özdeş bir canlı üretme tekniği."
+        },
+        {
+          "word": "GENETİK",
+          "hint": "Kalıtımın bilimsel incelemesi, genlerle ilgili."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Benzer yapı ve görevdeki hücrelerin topluluğu."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Hücrelerin veya dokuların laboratuvar ortamında yetiştirilmesi."
+        },
+        {
+          "word": "REKOMBİNANT",
+          "hint": "Farklı canlılardan alınan genlerin birleştirilmesiyle oluşan."
+        },
+        {
+          "word": "DNA",
+          "hint": "Canlıların genetik bilgilerini taşıyan molekül."
+        },
+        {
+          "word": "RNA",
+          "hint": "DNA'daki bilgiyi protein sentezi için taşıyan molekül."
+        },
+        {
+          "word": "ENZİM",
+          "hint": "Biyolojik tepkimeleri hızlandıran protein."
+        },
+        {
+          "word": "PLAZMİT",
+          "hint": "Bakterilerde bulunan, genetik madde taşıyan halkasal DNA parçası."
+        },
+        {
+          "word": "SÜSPANSİYON",
+          "hint": "Katı parçacıkların sıvı içinde dağıldığı karışım."
+        },
+        {
+          "word": "YAPAY",
+          "hint": "Doğal olmayan, insan eliyle üretilmiş."
+        },
+        {
+          "word": "SEÇİLİM",
+          "hint": "Belirli özelliklere sahip bireylerin yaşama ve üreme şansının artması."
+        },
+        {
+          "word": "HİBRİT",
+          "hint": "Farklı tür veya çeşitlerin çaprazlanmasıyla oluşan."
+        },
+        {
+          "word": "KROMOZOM",
+          "hint": "Hücre çekirdeğinde bulunan, genleri taşıyan yapı."
+        },
+        {
+          "word": "MUTASYON",
+          "hint": "Genetik yapıda meydana gelen kalıcı değişiklik."
+        },
+        {
+          "word": "PROTEİN",
+          "hint": "Canlıların yapısını oluşturan ve işlevlerini yerine getiren temel molekül."
+        },
+        {
+          "word": "POLİMERAZ",
+          "hint": "Nükleik asit sentezinde görevli enzim."
+        },
+        {
+          "word": "REPLİKASYON",
+          "hint": "DNA'nın kendi kopyasını çıkarma süreci."
+        },
+        {
+          "word": "TRANSKRİPSİYON",
+          "hint": "DNA bilgisinin RNA'ya aktarılması."
+        },
+        {
+          "word": "TRANSLASYON",
+          "hint": "RNA bilgisinin proteinlere çevrilmesi."
+        },
+        {
+          "word": "SENTETİK",
+          "hint": "Yapay olarak üretilmiş, doğada bulunmayan."
+        },
+        {
+          "word": "BİYOREMEDİASYON",
+          "hint": "Canlı organizmaların kirleticileri temizleme süreci."
+        },
+        {
+          "word": "BİYOSENSÖR",
+          "hint": "Biyolojik bir maddeyi algılayıp elektriksel sinyale dönüştüren cihaz."
+        },
+        {
+          "word": "BİYOPROSEDİNG",
+          "hint": "Biyolojik süreçlerin endüstriyel ölçekte kullanılması."
+        },
+        {
+          "word": "BİTKİ",
+          "hint": "Kök, gövde, yaprak gibi organları olan canlı türü."
+        },
+        {
+          "word": "HAYVAN",
+          "hint": "Hareket edebilen, genellikle bitkilerle beslenen canlı türü."
+        },
+        {
+          "word": "MİKROORGANİZMA",
+          "hint": "Gözle görülemeyen küçük canlılar (bakteri, virüs vb.)."
+        },
+        {
+          "word": "BAKTERİ",
+          "hint": "Tek hücreli, prokaryot bir mikroorganizma."
+        },
+        {
+          "word": "VİRÜS",
+          "hint": "Canlı olmayan ancak canlı hücre içinde çoğalabilen, zorunlu parazit."
+        },
+        {
+          "word": "MAYA",
+          "hint": "Tek hücreli bir mantar türü, genellikle ekmek yapımında kullanılır."
+        },
+        {
+          "word": "ENJEKSİYON",
+          "hint": "Sıvı bir maddeyi vücuda verme işlemi."
+        },
+        {
+          "word": "İ̇ZOLASYON",
+          "hint": "Bir maddeyi veya organizmayı diğerlerinden ayırma işlemi."
+        },
+        {
+          "word": "SANTRİFÜJ",
+          "hint": "Hücreleri veya molekülleri yoğunluklarına göre ayırma cihazı."
+        },
+        {
+          "word": "ELEKTROFOREZ",
+          "hint": "Yüklerine göre molekülleri ayırma tekniği."
+        },
+        {
+          "word": "SPEKTROFOTOMETRİ",
+          "hint": "Işığın madde tarafından soğurulmasını ölçerek madde miktarını belirleme."
+        },
+        {
+          "word": "DEGRADASYON",
+          "hint": "Bir maddenin daha basit maddelere ayrışması."
+        },
+        {
+          "word": "METABOLİZMA",
+          "hint": "Canlı vücudunda gerçekleşen kimyasal olayların tümü."
+        },
+        {
+          "word": "SİTOPLAZMA",
+          "hint": "Hücre zarının içindeki, organelleri içeren sıvı kısım."
+        },
+        {
+          "word": "ORGANEL",
+          "hint": "Hücre içinde belirli bir görevi yapan yapı."
+        },
+        {
+          "word": "HÜCRE",
+          "hint": "Canlılığın temel yapısal ve fonksiyonel birimi."
+        },
+        {
+          "word": "MEMBRAN",
+          "hint": "Hücreleri veya organelleri çevreleyen zar."
+        },
+        {
+          "word": "BİYOMOLEKÜL",
+          "hint": "Canlılarda bulunan organik moleküller (karbonhidrat, yağ, protein, nükleik asit)."
+        },
+        {
+          "word": "NÜKLEOTİD",
+          "hint": "DNA ve RNA'nın yapıtaşı."
+        },
+        {
+          "word": "KATALİZÖR",
+          "hint": "Bir kimyasal reaksiyonun hızını değiştiren madde (enzim gibi)."
+        },
+        {
+          "word": "TRANSGENİK",
+          "hint": "Genetiği değiştirilmiş, başka canlıdan gen aktarılmış."
+        }
       ]
     }
   ]

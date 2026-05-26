@@ -3,25 +3,431 @@
     {
       "id": "matematik_u1",
       "name": "1. Ünite: Kesirler",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "KESİR", "hint": "Bir bütünün eşit parçalarını gösteren sayı"},
-        {"word": "PAY", "hint": "Kesirde çizginin üstündeki sayı"},
-        {"word": "PAYDA", "hint": "Kesirde çizginin altındaki sayı"},
-        {"word": "BÜTÜN", "hint": "Tüm parçaların bir araya geldiği tam şekil"},
-        {"word": "YARIM", "hint": "Bir bütünün iki eşit parçasından biri"}
+        {
+          "word": "KESİR",
+          "hint": "Bir bütünün eşit parçalarını gösteren sayı"
+        },
+        {
+          "word": "PAY",
+          "hint": "Kesirde çizginin üstündeki sayı"
+        },
+        {
+          "word": "PAYDA",
+          "hint": "Kesirde çizginin altındaki sayı"
+        },
+        {
+          "word": "BÜTÜN",
+          "hint": "Tüm parçaların bir araya geldiği tam şekil"
+        },
+        {
+          "word": "YARIM",
+          "hint": "Bir bütünün iki eşit parçasından biri"
+        },
+        {
+          "word": "ÇEYREK",
+          "hint": "Bir bütünün dört eşit parçasından biri."
+        },
+        {
+          "word": "BÖLME",
+          "hint": "Bir bütünün eşit parçalara ayrılması işlemi."
+        },
+        {
+          "word": "TOPLAMA",
+          "hint": "Kesirleri birleştirme işlemi."
+        },
+        {
+          "word": "ÇİKARMA",
+          "hint": "Kesirleri azaltma işlemi."
+        },
+        {
+          "word": "KARŞİLAŞTİRMA",
+          "hint": "Kesirlerin hangisinin büyük veya küçük olduğunu bulma."
+        },
+        {
+          "word": "Bİ̇RLEŞTİ̇RME",
+          "hint": "Aynı paydada olan kesirleri toplama."
+        },
+        {
+          "word": "AZALTMA",
+          "hint": "Aynı paydada olan kesirleri çıkarma."
+        },
+        {
+          "word": "TAM",
+          "hint": "Bütün anlamına gelen, kesir olmayan ifade."
+        },
+        {
+          "word": "EKSİK",
+          "hint": "Bütün olmayan, tamdan az olan durum."
+        },
+        {
+          "word": "FAZLA",
+          "hint": "Birden büyük olan kesir durumu."
+        },
+        {
+          "word": "ESİT",
+          "hint": "Aynı değere sahip olma durumu."
+        },
+        {
+          "word": "BELİRTECİ",
+          "hint": "Kesrin büyüklüğünü gösteren işaret."
+        },
+        {
+          "word": "ADET",
+          "hint": "Kaç tane olduğunu gösteren sayı (pay)."
+        },
+        {
+          "word": "TAMAMİ",
+          "hint": "Bütün oluşturan parça sayısı (payda)."
+        },
+        {
+          "word": "PARÇA",
+          "hint": "Kesirle ifade edilen bütünün bir bölümü."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "Sayı doğrusunda kesirleri gösterme."
+        },
+        {
+          "word": "SİRALAMA",
+          "hint": "Kesirleri küçükten büyüğe veya büyükten küçüğe dizme."
+        },
+        {
+          "word": "ETKİNLİK",
+          "hint": "Kesirlerle ilgili oyun veya alıştırma."
+        },
+        {
+          "word": "OLCEK",
+          "hint": "Kesirlerin oranını gösteren birim."
+        },
+        {
+          "word": "ORTAK",
+          "hint": "Kesirleri toplamak veya çıkarmak için paydaları eşitleme."
+        },
+        {
+          "word": "YEDEK",
+          "hint": "Bir bütünün ayrılan ama kullanılmayan kısmı."
+        },
+        {
+          "word": "GUNES",
+          "hint": "Bir tam günün yarısı veya çeyreği gibi düşünülebilir."
+        },
+        {
+          "word": "AY",
+          "hint": "Bir ayın günlerinin kesirlerle ifade edilmesi."
+        },
+        {
+          "word": "HAFTA",
+          "hint": "Bir haftanın günlerinin kesirlerle anlatımı."
+        },
+        {
+          "word": "SAAT",
+          "hint": "Bir saatin dakikalarla kesir ilişkisi."
+        },
+        {
+          "word": "PİZZA",
+          "hint": "Dilimlere ayrılabilen yuvarlak bir yiyecek."
+        },
+        {
+          "word": "PASTA",
+          "hint": "Kesilerek paylaşılan tatlı."
+        },
+        {
+          "word": "ELMA",
+          "hint": "Ortadan ikiye bölünebilen meyve."
+        },
+        {
+          "word": "PORTAKAL",
+          "hint": "Dilimlere ayrılabilen bir meyve."
+        },
+        {
+          "word": "KATİ",
+          "hint": "Kesirlerin üzerinde işlem yapılan nesne."
+        },
+        {
+          "word": "SEBZE",
+          "hint": "Meyveler gibi kesirlerle ifade edilebilir."
+        },
+        {
+          "word": "OYUNCAK",
+          "hint": "Bir grubun kesir olarak ifade edilmesi."
+        },
+        {
+          "word": "RENK",
+          "hint": "Resimdeki boyalı alanların kesirle gösterimi."
+        },
+        {
+          "word": "YAZİ",
+          "hint": "Metindeki harf veya kelime sayısının kesri."
+        },
+        {
+          "word": "SEKİL",
+          "hint": "Geometrik şekillerin kesirleri."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Bir yüzeyin kesirlerle anlatımı."
+        },
+        {
+          "word": "YOL",
+          "hint": "Gidilen mesafenin bütün yolun kesri."
+        },
+        {
+          "word": "ÇİZGİ",
+          "hint": "Bir çizginin belirli bir bölümü."
+        },
+        {
+          "word": "TABAK",
+          "hint": "İçindeki yiyeceğin miktarı kesirle ifade edilebilir."
+        },
+        {
+          "word": "KUTU",
+          "hint": "İçindekilerin kesir olarak temsili."
+        },
+        {
+          "word": "DEV",
+          "hint": "Büyük bir bütün."
+        },
+        {
+          "word": "KUCUK",
+          "hint": "Bir bütünün küçük bir parçası."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki sayının birbirine göre büyüklüğü."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Kesir işlemlerinin neticesi."
+        },
+        {
+          "word": "GÖSTERGE",
+          "hint": "Kesri sayı doğrusunda veya modelde gösterme."
+        }
       ]
     },
     {
       "id": "matematik_u2",
       "name": "2. Ünite: Geometri",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "ÜÇGEN", "hint": "Üç kenarı ve üç köşesi olan şekil"},
-        {"word": "KARE", "hint": "Dört kenarı eşit olan dörtgen şekil"},
-        {"word": "DAİRE", "hint": "Yuvarlak olan geometrik şekil"},
-        {"word": "KENAR", "hint": "Bir şeklin dış çizgilerine verilen ad"},
-        {"word": "KÖŞE", "hint": "İki kenarın birleştiği nokta"}
+        {
+          "word": "ÜÇGEN",
+          "hint": "Üç kenarı ve üç köşesi olan şekil"
+        },
+        {
+          "word": "KARE",
+          "hint": "Dört kenarı eşit olan dörtgen şekil"
+        },
+        {
+          "word": "DAİRE",
+          "hint": "Yuvarlak olan geometrik şekil"
+        },
+        {
+          "word": "KENAR",
+          "hint": "Bir şeklin dış çizgilerine verilen ad"
+        },
+        {
+          "word": "KÖŞE",
+          "hint": "İki kenarın birleştiği nokta"
+        },
+        {
+          "word": "Dİ̇KDÖRTGEN",
+          "hint": "Dört kenarı ve dört köşesi olan, karşılıklı kenarları eşit ve paralel olan bir şekil."
+        },
+        {
+          "word": "PARALELKENAR",
+          "hint": "Karşılıklı kenarları birbirine paralel olan dörtgen."
+        },
+        {
+          "word": "EŞKENAR",
+          "hint": "Bütün kenar uzunlukları birbirine eşit olan."
+        },
+        {
+          "word": "YAMUK",
+          "hint": "Sadece bir çift kenarı paralel olan dörtgen."
+        },
+        {
+          "word": "ÇEMBER",
+          "hint": "Ortasında sabit bir nokta bulunan ve bu noktaya eşit uzaklıktaki noktaların birleşimiyle oluşan kapalı eğri."
+        },
+        {
+          "word": "YARİÇAP",
+          "hint": "Çemberin merkezinden çevresine kadar olan uzaklık."
+        },
+        {
+          "word": "ÇAP",
+          "hint": "Çemberin merkezinden geçen ve iki noktayı birleştiren en uzun doğru parçası."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir şeklin kapladığı iki boyutlu yüzey miktarı."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Bir şeklin dış sınırlarının toplam uzunluğu."
+        },
+        {
+          "word": "Dİ̇K",
+          "hint": "Birbirine 90 derecelik açıyla kesişen."
+        },
+        {
+          "word": "AÇİ",
+          "hint": "İki ışının birleştiği nokta."
+        },
+        {
+          "word": "GENİ̇Ş",
+          "hint": "90 dereceden büyük, 180 dereceden küçük açı."
+        },
+        {
+          "word": "DAR",
+          "hint": "90 dereceden küçük açı."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "Uçları sonsuza giden düz çizgi."
+        },
+        {
+          "word": "İŞİN",
+          "hint": "Bir başlangıç noktası olan ve sonsuza uzanan düz çizgi."
+        },
+        {
+          "word": "DOĞRU PARÇASİ",
+          "hint": "İki noktası belli olan düz çizgi bölümü."
+        },
+        {
+          "word": "UZUNLUK",
+          "hint": "Bir nesnenin bir ucundan diğer ucuna kadar olan mesafe."
+        },
+        {
+          "word": "KİSA",
+          "hint": "Uzunluğun tersi."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Bir cismin dışındaki kaplama."
+        },
+        {
+          "word": "BOYUT",
+          "hint": "Uzayda bir noktanın yerini belirlemek için gereken sayı."
+        },
+        {
+          "word": "ŞEKİ̇L",
+          "hint": "Belirli bir biçimi olan nesne."
+        },
+        {
+          "word": "Bİ̇Çİ̇M",
+          "hint": "Bir nesnenin dış görünüşü."
+        },
+        {
+          "word": "Sİ̇METRİ̇",
+          "hint": "Bir şeklin tam ortadan ikiye katlandığında her iki yarısının birbirinin aynısı olması."
+        },
+        {
+          "word": "EKSEN",
+          "hint": "Simetri çizgisi."
+        },
+        {
+          "word": "MERKEZ",
+          "hint": "Bir şeklin tam ortası."
+        },
+        {
+          "word": "DÜZLEM",
+          "hint": "Her yöne sonsuz yayılan düz yüzey."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Bir hesaplama yapmak için kullanılan matematiksel kural."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Gerçek bir nesnenin küçültülmüş veya büyütülmüş temsili."
+        },
+        {
+          "word": "Çİ̇Zİ̇M",
+          "hint": "Bir nesnenin kagıt üzerindeki tasviri."
+        },
+        {
+          "word": "ÖLÇME",
+          "hint": "Bir büyüklüğü sayısal bir değerle ifade etme."
+        },
+        {
+          "word": "KARŞİLAŞTİRMA",
+          "hint": "İki veya daha fazla şeyi birbirine göre değerlendirme."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki sayının birbirine bölümü."
+        },
+        {
+          "word": "YAKLAŞİK",
+          "hint": "Tam olmayan, en yakın değere yakın."
+        },
+        {
+          "word": "GÖRSEL",
+          "hint": "Gözle görülebilen."
+        },
+        {
+          "word": "EŞLEŞTİ̇RME",
+          "hint": "Aynı özelliklere sahip olanları bir araya getirme."
+        },
+        {
+          "word": "GRUPLANDİRMA",
+          "hint": "Benzer özelliklere sahip olanları bir araya toplama."
+        },
+        {
+          "word": "TASARİM",
+          "hint": "Bir şeyin nasıl yapılacağını planlama."
+        },
+        {
+          "word": "Ç VÉRİTÉ",
+          "hint": "Bir şeyin doğru olduğunu gösteren kanıt."
+        },
+        {
+          "word": "DOĞRULTU",
+          "hint": "Bir çizginin izlediği yön."
+        },
+        {
+          "word": "BASİ̇T",
+          "hint": "Karmaşık olmayan, kolay anlaşılır."
+        },
+        {
+          "word": "Bİ̇RLEŞTİ̇RME",
+          "hint": "Parçaları bir araya getirme."
+        },
+        {
+          "word": "AYİRMA",
+          "hint": "Bütünleri parçalara bölme."
+        },
+        {
+          "word": "ÇOKGEN",
+          "hint": "Üç veya daha fazla doğru parçasının birleşmesiyle oluşan kapalı şekil."
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Bir doğru üzerinde bulunan."
+        },
+        {
+          "word": "YATAY",
+          "hint": "Yere paralel olan."
+        },
+        {
+          "word": "Dİ̇KEY",
+          "hint": "Yere dik olan."
+        }
       ]
     }
   ]

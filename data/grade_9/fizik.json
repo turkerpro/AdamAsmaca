@@ -3,25 +3,427 @@
     {
       "id": "fizik_u1",
       "name": "1. Ünite: Hareket",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "İVME", "hint": "Hızın birim zamandaki değişim miktarı"},
-        {"word": "SÜRAT", "hint": "Birim zamanda alınan yol miktarı"},
-        {"word": "YERÇEKİMİ", "hint": "Cisimleri yerin merkezine doğru çeken kuvvet"},
-        {"word": "SERBEST DÜŞME", "hint": "Cismin yalnızca yerçekimi etkisiyle düşmesi"},
-        {"word": "YOL", "hint": "Hareket eden cismin izlediği toplam mesafe"}
+        {
+          "word": "İVME",
+          "hint": "Hızın birim zamandaki değişim miktarı"
+        },
+        {
+          "word": "SÜRAT",
+          "hint": "Birim zamanda alınan yol miktarı"
+        },
+        {
+          "word": "YERÇEKİMİ",
+          "hint": "Cisimleri yerin merkezine doğru çeken kuvvet"
+        },
+        {
+          "word": "SERBEST DÜŞME",
+          "hint": "Cismin yalnızca yerçekimi etkisiyle düşmesi"
+        },
+        {
+          "word": "YOL",
+          "hint": "Hareket eden cismin izlediği toplam mesafe"
+        },
+        {
+          "word": "KONUM",
+          "hint": "Bir cismin uzaydaki yerini belirten nicelik."
+        },
+        {
+          "word": "DEĞİ̇Şİ̇M",
+          "hint": "Bir durumdan başka bir duruma geçme."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Olayların birbirini takip ettiği süre."
+        },
+        {
+          "word": "SÜRE",
+          "hint": "Bir olayın gerçekleşmesi için geçen vakit."
+        },
+        {
+          "word": "BAŞLANGİÇ",
+          "hint": "Bir hareketin ilk noktası veya durumu."
+        },
+        {
+          "word": "Bİ̇Tİ̇Ş",
+          "hint": "Bir hareketin sonlandığı nokta veya durum."
+        },
+        {
+          "word": "YER",
+          "hint": "Cisimlerin üzerinde durduğu, bulunduğu düzlem."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki niceliğin birbirine bölünmesiyle elde edilen değer."
+        },
+        {
+          "word": "VEKTÖR",
+          "hint": "Hem büyüklüğü hem de yönü olan nicelik."
+        },
+        {
+          "word": "SKALER",
+          "hint": "Sadece büyüklüğü olan nicelik."
+        },
+        {
+          "word": "MESAFE",
+          "hint": "Bir noktadan diğerine olan uzunluk."
+        },
+        {
+          "word": "YERDEĞİ̇ŞTİ̇RME",
+          "hint": "Başlangıç ve bitiş konumları arasındaki en kısa uzaklık."
+        },
+        {
+          "word": "ORTALAMA",
+          "hint": "Bir grup değerin toplamının, o değerlerin sayısına bölünmesi."
+        },
+        {
+          "word": "HİZ",
+          "hint": "Bir cismin birim zamanda yer değiştirmesi."
+        },
+        {
+          "word": "EĞİ̇M",
+          "hint": "Bir doğrunun yatayla yaptığı açının tanjantı."
+        },
+        {
+          "word": "DÜZLEM",
+          "hint": "İki boyutlu, sonsuz yüzey."
+        },
+        {
+          "word": "YAY",
+          "hint": "Bir eğri boyunca ilerlenen yol parçası."
+        },
+        {
+          "word": "Dİ̇K",
+          "hint": "Birbirine 90 derecelik açıyla duran."
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Hiçbir zaman kesişmeyen doğrular."
+        },
+        {
+          "word": "Dİ̇Kİ̇",
+          "hint": "Düzlemde, birbirine dik olan iki eksen."
+        },
+        {
+          "word": "DAİ̇RE",
+          "hint": "Merkeze eşit uzaklıktaki noktalar kümesi."
+        },
+        {
+          "word": "TEĞET",
+          "hint": "Bir eğriye sadece bir noktada dokunan doğru."
+        },
+        {
+          "word": "YÖRÜNGE",
+          "hint": "Bir gök cisminin başka bir cisim etrafında izlediği yol."
+        },
+        {
+          "word": "DEVRİ̇M",
+          "hint": "Bir tam turu tamamlama süresi."
+        },
+        {
+          "word": "FREKANS",
+          "hint": "Bir saniyede tekrar eden olay sayısı."
+        },
+        {
+          "word": "GENLİ̇K",
+          "hint": "Bir dalganın denge konumundan ulaşabildiği en büyük uzaklık."
+        },
+        {
+          "word": "DALGA",
+          "hint": "Enerjinin ortamda yayılması."
+        },
+        {
+          "word": "Tİ̇TREŞİ̇M",
+          "hint": "Hızlı ve tekrarlanan hareket."
+        },
+        {
+          "word": "DENGELENMİ̇Ş",
+          "hint": "Net kuvvetin sıfır olduğu durum."
+        },
+        {
+          "word": "DENGELENMEMİ̇Ş",
+          "hint": "Net kuvvetin sıfır olmadığı durum."
+        },
+        {
+          "word": "ATALET",
+          "hint": "Cisimlerin hareket durumlarını koruma eğilimi."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Cisimlerde şekil veya hareket değişikliğine neden olan etki."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Birden fazla niceliğin bir araya gelmesi."
+        },
+        {
+          "word": "TESİ̇R",
+          "hint": "Bir etkinin sonucu olarak ortaya çıkan durum."
+        },
+        {
+          "word": "ETKİ̇",
+          "hint": "Bir nesnenin başka bir nesne üzerindeki rolü."
+        },
+        {
+          "word": "TÜRDEŞ",
+          "hint": "Aynı cins, aynı çeşit."
+        },
+        {
+          "word": "FARKLİ",
+          "hint": "Benzer olmayan, ayrı."
+        },
+        {
+          "word": "BÜYÜKLÜK",
+          "hint": "Bir niceliğin nicel olarak ifade edilen değeri."
+        },
+        {
+          "word": "YÖNELİ̇M",
+          "hint": "Bir niceliğin etki ettiği istikamet."
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Düz bir çizgi boyunca olan hareket."
+        },
+        {
+          "word": "EĞRİ̇SEL",
+          "hint": "Düz olmayan, bükümlü bir yol izleyen."
+        },
+        {
+          "word": "DAİ̇RESEL",
+          "hint": "Bir çember etrafında dönme hareketi."
+        },
+        {
+          "word": "YAVAŞLAMA",
+          "hint": "Hareket hızının azalması."
+        },
+        {
+          "word": "HİZLANMA",
+          "hint": "Hareket hızının artması."
+        },
+        {
+          "word": "DEĞİ̇ŞKEN",
+          "hint": "Zamanla değeri değişebilen nicelik."
+        }
       ]
     },
     {
       "id": "fizik_u2",
       "name": "2. Ünite: Enerji",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "KİNETİK", "hint": "Hareket halindeki cisimlerin sahip olduğu enerji türü"},
-        {"word": "POTANSİYEL", "hint": "Konumundan dolayı cismin depoladığı enerji türü"},
-        {"word": "JOULE", "hint": "Enerji ve işin ölçüm birimi"},
-        {"word": "KORUNUM", "hint": "Enerjinin yok olmayıp dönüştüğünü ifade eden ilke"},
-        {"word": "MEKANİK", "hint": "Kinetik ve potansiyel enerjinin toplamı"}
+        {
+          "word": "KİNETİK",
+          "hint": "Hareket halindeki cisimlerin sahip olduğu enerji türü"
+        },
+        {
+          "word": "POTANSİYEL",
+          "hint": "Konumundan dolayı cismin depoladığı enerji türü"
+        },
+        {
+          "word": "JOULE",
+          "hint": "Enerji ve işin ölçüm birimi"
+        },
+        {
+          "word": "KORUNUM",
+          "hint": "Enerjinin yok olmayıp dönüştüğünü ifade eden ilke"
+        },
+        {
+          "word": "MEKANİK",
+          "hint": "Kinetik ve potansiyel enerjinin toplamı"
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme kapasitesi, gücün temel kaynağı."
+        },
+        {
+          "word": "İ̇Ş",
+          "hint": "Kuvvetin uygulanmasıyla yer değiştiren nesnelerin durumu."
+        },
+        {
+          "word": "GÜÇ",
+          "hint": "Birim zamanda yapılan iş miktarı, enerjinin harcanma hızı."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Fiziksel bağıntıları gösteren matematiksel ifade."
+        },
+        {
+          "word": "Nİ̇TELİ̇K",
+          "hint": "Bir şeyin ne olduğuna dair tanımlama."
+        },
+        {
+          "word": "NİCELİ̇K",
+          "hint": "Bir şeyin miktarına dair ölçüm."
+        },
+        {
+          "word": "SİKLİK",
+          "hint": "Dalgaların birim zamanda tekrar sayısı."
+        },
+        {
+          "word": "DALGA",
+          "hint": "Enerjinin yayılma şekli, titreşimlerin hareketi."
+        },
+        {
+          "word": "Tİ̇TREŞİ̇M",
+          "hint": "Geriye ve ileriye doğru hızlı hareket."
+        },
+        {
+          "word": "YAY",
+          "hint": "Esnek bir cismin şekil değiştirdikten sonra eski haline dönme eğilimi."
+        },
+        {
+          "word": "YAY SABİ̇Tİ̇",
+          "hint": "Bir yayın esneklik derecesini gösteren ölçü."
+        },
+        {
+          "word": "DEFORMASYON",
+          "hint": "Bir cismin uygulanan kuvvetle şekil değiştirmesi."
+        },
+        {
+          "word": "ESNEKLİ̇K",
+          "hint": "Cisimlerin uygulanan kuvvet kalkınca eski haline dönme özelliği."
+        },
+        {
+          "word": "Dİ̇RENÇ",
+          "hint": "Bir malzemenin içinden akım geçmesine karşı gösterdiği zorluk."
+        },
+        {
+          "word": "AKİM",
+          "hint": "Elektrik yüklerinin belirli bir yönde hareketi."
+        },
+        {
+          "word": "VOLTAJ",
+          "hint": "Elektrik devresindeki potansiyel farkı."
+        },
+        {
+          "word": "REZİ̇STANS",
+          "hint": "Elektrik akımına karşı gösterilen zorluk."
+        },
+        {
+          "word": "TERMİ̇K",
+          "hint": "Isıyla ilgili olan."
+        },
+        {
+          "word": "İSİ",
+          "hint": "Maddelerin moleküllerinin hareketi sonucu sahip olduğu enerji."
+        },
+        {
+          "word": "SİCAKLİK",
+          "hint": "Bir cismin termal enerjisinin ölçüsü."
+        },
+        {
+          "word": "FAZ",
+          "hint": "Bir maddenin katı, sıvı veya gaz olma durumu."
+        },
+        {
+          "word": "HAL",
+          "hint": "Maddenin bulunduğu durum (katı, sıvı, gaz)."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Bir cismin birim hacmindeki kütlesi."
+        },
+        {
+          "word": "ÖZGÜL",
+          "hint": "Belirli bir maddeye ait olan."
+        },
+        {
+          "word": "BAĞİL",
+          "hint": "Başka bir şeye göre değerlendirilen."
+        },
+        {
+          "word": "VERİ̇MLİ̇Lİ̇K",
+          "hint": "Yapılan işin beklenen sonuca oranı."
+        },
+        {
+          "word": "SÜRTÜNME",
+          "hint": "Hareket eden yüzeyler arasındaki temas."
+        },
+        {
+          "word": "YAĞLAMA",
+          "hint": "Sürtünmeyi azaltmak için kullanılan madde."
+        },
+        {
+          "word": "AYRİŞMA",
+          "hint": "Enerjinin farklı türlere dönüşmesi."
+        },
+        {
+          "word": "Sİ̇STEM",
+          "hint": "Belirli bir amaçla bir araya gelmiş unsurların bütünü."
+        },
+        {
+          "word": "DİŞ ETKEN",
+          "hint": "Bir sistemin dışından gelen ve onu etkileyen faktör."
+        },
+        {
+          "word": "İ̇ÇSEL",
+          "hint": "Bir sistemin kendi içinden kaynaklanan."
+        },
+        {
+          "word": "DEĞİ̇ŞKEN",
+          "hint": "Farklı değerler alabilen nicelik."
+        },
+        {
+          "word": "SABİ̇T",
+          "hint": "Değeri değişmeyen nicelik."
+        },
+        {
+          "word": "GRAFİ̇K",
+          "hint": "Değişkenler arasındaki ilişkiyi gösteren görsel çizim."
+        },
+        {
+          "word": "EĞİ̇M",
+          "hint": "Bir doğru parçasının yatayla yaptığı açı."
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Düz bir çizgi şeklinde olan."
+        },
+        {
+          "word": "EĞRİ̇SEL",
+          "hint": "Düz olmayan, bükümlü bir çizgi şeklinde olan."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Bir cismin dış sınırı veya kapladığı alan."
+        },
+        {
+          "word": "DERİ̇NLİ̇K",
+          "hint": "Yukarıdan aşağıya doğru olan mesafe."
+        },
+        {
+          "word": "ÇEKİ̇M",
+          "hint": "Bir cismin başka bir cismi kendine doğru kuvvetle çekmesi."
+        },
+        {
+          "word": "Dİ̇NAMİ̇K",
+          "hint": "Hareket ve kuvvet arasındaki ilişkiyi inceleyen bilim dalı."
+        },
+        {
+          "word": "STATİ̇K",
+          "hint": "Durgun haldeki cisimleri inceleyen bilim dalı."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Bir sistemin net kuvvet veya net torkun sıfır olduğu durum."
+        },
+        {
+          "word": "ÖRNEKLEM",
+          "hint": "Bir bütünden alınmış temsili parça."
+        }
       ]
     }
   ]

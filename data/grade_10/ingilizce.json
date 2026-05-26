@@ -3,25 +3,467 @@
     {
       "id": "ingilizce_u1",
       "name": "1. Ünite: Literature",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "NARRATIVE", "hint": "Olayları anlatan hikaye veya anlatı türü"},
-        {"word": "METAPHOR", "hint": "Bir şeyi başka bir şeye benzeten söz sanatı"},
-        {"word": "PROTAGONIST", "hint": "Hikayedeki ana karakter veya baş kahraman"},
-        {"word": "FICTION", "hint": "Hayal ürünü olan kurgusal edebi eser türü"},
-        {"word": "POETRY", "hint": "Ölçü ve kafiye ile yazılan edebi tür"}
+        {
+          "word": "NARRATIVE",
+          "hint": "Olayları anlatan hikaye veya anlatı türü"
+        },
+        {
+          "word": "METAPHOR",
+          "hint": "Bir şeyi başka bir şeye benzeten söz sanatı"
+        },
+        {
+          "word": "PROTAGONIST",
+          "hint": "Hikayedeki ana karakter veya baş kahraman"
+        },
+        {
+          "word": "FICTION",
+          "hint": "Hayal ürünü olan kurgusal edebi eser türü"
+        },
+        {
+          "word": "POETRY",
+          "hint": "Ölçü ve kafiye ile yazılan edebi tür"
+        },
+        {
+          "word": "ANLATİM",
+          "hint": "Bir olayı veya durumu sözlü veya yazılı olarak aktarma biçimi."
+        },
+        {
+          "word": "BENZETME",
+          "hint": "İki farklı şeyi birbirine benzeterek anlatma sanatı."
+        },
+        {
+          "word": "BAŞKARAKTER",
+          "hint": "Hikayenin veya eserin en önemli kişisi."
+        },
+        {
+          "word": "KURGU",
+          "hint": "Gerçekte var olmayan, hayal ürünü bir olay örgüsü."
+        },
+        {
+          "word": "Şİ̇İ̇R",
+          "hint": "Duyguları ve düşünceleri ahenkli sözlerle dile getiren yazı türü."
+        },
+        {
+          "word": "EDEBİ̇YAT",
+          "hint": "İnsanların duygu ve düşüncelerini estetik bir şekilde aktaran sanat."
+        },
+        {
+          "word": "ROMAN",
+          "hint": "Uzun soluklu, olay örgüsü olan kurgusal eser."
+        },
+        {
+          "word": "ÖYKÜ",
+          "hint": "Kısa, yoğun olay örgüsüne sahip kurgusal eser."
+        },
+        {
+          "word": "MASAL",
+          "hint": "Olağanüstü olaylar ve karakterler içeren geleneksel hikaye."
+        },
+        {
+          "word": "FABL",
+          "hint": "Hayvanların konuşturulduğu, ders veren kısa öykü."
+        },
+        {
+          "word": "DESTAN",
+          "hint": "Bir milletin tarihini veya kahramanlıklarını anlatan uzun şiir."
+        },
+        {
+          "word": "TRAJEDİ̇",
+          "hint": "Acıklı sonla biten tiyatro oyunu."
+        },
+        {
+          "word": "KOMEDİ̇",
+          "hint": "Güldürücü olaylarla dolu tiyatro oyunu."
+        },
+        {
+          "word": "DRAM",
+          "hint": "Hem acıklı hem de gülünç öğeler içerebilen tiyatro oyunu."
+        },
+        {
+          "word": "OYUNCU",
+          "hint": "Tiyatro veya sinemada rol alan kişi."
+        },
+        {
+          "word": "SAHNE",
+          "hint": "Tiyatro eserinde perdenin bir bölümü veya oyunun oynandığı yer."
+        },
+        {
+          "word": "ŞAİ̇R",
+          "hint": "Şiir yazan kişi."
+        },
+        {
+          "word": "YAZAR",
+          "hint": "Kitap, makale gibi eserler oluşturan kişi."
+        },
+        {
+          "word": "ELEŞTİ̇Rİ̇",
+          "hint": "Bir eserin olumlu ve olumsuz yönlerini değerlendirme."
+        },
+        {
+          "word": "İ̇NCELEME",
+          "hint": "Bir konuyu veya eseri detaylıca araştırma."
+        },
+        {
+          "word": "GÖNDERME",
+          "hint": "Bir kişiye veya olaya üstü kapalı şekilde değinme."
+        },
+        {
+          "word": "SEMBOBOLÜZM",
+          "hint": "Soyut kavramları somut nesnelerle ifade etme akımı."
+        },
+        {
+          "word": "REALİ̇ZM",
+          "hint": "Gerçekleri olduğu gibi yansıtmayı amaçlayan sanat akımı."
+        },
+        {
+          "word": "ROMANTİ̇ZM",
+          "hint": "Duyguları ve hayalleri ön plana çıkaran sanat akımı."
+        },
+        {
+          "word": "SÜREALİ̇ZM",
+          "hint": "Bilinçaltını ve rüyaları konu alan sanat akımı."
+        },
+        {
+          "word": "KLASİ̇Sİ̇ZM",
+          "hint": "Antik Yunan ve Roma sanatından esinlenen akım."
+        },
+        {
+          "word": "KARAKTER",
+          "hint": "Bir eserde yer alan kişi, hayvan veya canlı varlık."
+        },
+        {
+          "word": "OLAY ÖRGÜSÜ",
+          "hint": "Hikayedeki başından sonuna kadar birbirini takip eden gelişmeler."
+        },
+        {
+          "word": "MEKAN",
+          "hint": "Hikayenin geçtiği yer."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Hikayenin gerçekleştiği dönem veya tarih."
+        },
+        {
+          "word": "ANLATİCİ",
+          "hint": "Hikayeyi anlatan kişi veya varlık."
+        },
+        {
+          "word": "Dİ̇YALOG",
+          "hint": "Karakterlerin birbirleriyle konuşmaları."
+        },
+        {
+          "word": "MONOLOG",
+          "hint": "Bir karakterin kendi kendine konuşması."
+        },
+        {
+          "word": "KONSEPT",
+          "hint": "Bir eserin temel fikri veya ana düşüncesi."
+        },
+        {
+          "word": "TARZ",
+          "hint": "Bir yazarın veya sanatçının kendine özgü üslubu."
+        },
+        {
+          "word": "TEMA",
+          "hint": "Bir eserin ana fikri veya tekrar eden konu."
+        },
+        {
+          "word": "MESAJ",
+          "hint": "Eserin okuyucuya iletmek istediği anlam."
+        },
+        {
+          "word": "ÇATİŞMA",
+          "hint": "Karakterler arasındaki anlaşmazlık veya mücadele."
+        },
+        {
+          "word": "GELİ̇ŞME",
+          "hint": "Olay örgüsündeki ilerleme ve olayların derinleşmesi."
+        },
+        {
+          "word": "DÖNÜM NOKTASİ",
+          "hint": "Hikayenin gidişatını değiştiren önemli an."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Olay örgüsünün bittiği ve çözümün sunulduğu bölüm."
+        },
+        {
+          "word": "Kİ̇TAP",
+          "hint": "Sayfalardan oluşan, bilgi veya hikaye içeren basılı eser."
+        },
+        {
+          "word": "BÖLÜM",
+          "hint": "Bir kitabın veya uzun eserin ana kısımlarından biri."
+        },
+        {
+          "word": "Dİ̇ZE",
+          "hint": "Şiiri oluşturan her bir satır."
+        },
+        {
+          "word": "BEYİ̇T",
+          "hint": "İki dizeden oluşan nazım birimi."
+        },
+        {
+          "word": "BAĞDAŞİKLİK",
+          "hint": "Kelimelerin veya düşüncelerin birbiriyle uyumu."
+        },
+        {
+          "word": "Kİ̇TAPÇİK",
+          "hint": "Küçük ve ince kitap."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Bir metnin veya eserin anlamını açıklama."
+        },
+        {
+          "word": "EDEBİ̇",
+          "hint": "Edebiyatla ilgili, sanatsal."
+        },
+        {
+          "word": "METİ̇N",
+          "hint": "Yazılı veya sözlü her türlü anlatım."
+        },
+        {
+          "word": "KAVRAM",
+          "hint": "Bir şeyi zihinde temsil eden soyut fikir."
+        },
+        {
+          "word": "SÖZLÜK",
+          "hint": "Kelimelerin anlamlarını ve kullanımlarını içeren kitap."
+        },
+        {
+          "word": "GÖRSEL",
+          "hint": "Görüntüyle ilgili, resim veya çizim."
+        },
+        {
+          "word": "İ̇Şİ̇TSEL",
+          "hint": "İşitme duyusuyla ilgili, ses veya müzik."
+        }
       ]
     },
     {
       "id": "ingilizce_u2",
       "name": "2. Ünite: Philosophy",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "WISDOM", "hint": "Bilgelik ve derin anlayış anlamına gelen kavram"},
-        {"word": "ETHICS", "hint": "Doğru ve yanlışı inceleyen ahlak felsefesi dalı"},
-        {"word": "LOGIC", "hint": "Doğru düşünme ve akıl yürütme bilimi"},
-        {"word": "EXISTENCE", "hint": "Var olma durumunu ifade eden felsefi kavram"},
-        {"word": "CONSCIENCE", "hint": "İnsanın iyi kötüyü ayırt eden iç sesi"}
+        {
+          "word": "WISDOM",
+          "hint": "Bilgelik ve derin anlayış anlamına gelen kavram"
+        },
+        {
+          "word": "ETHICS",
+          "hint": "Doğru ve yanlışı inceleyen ahlak felsefesi dalı"
+        },
+        {
+          "word": "LOGIC",
+          "hint": "Doğru düşünme ve akıl yürütme bilimi"
+        },
+        {
+          "word": "EXISTENCE",
+          "hint": "Var olma durumunu ifade eden felsefi kavram"
+        },
+        {
+          "word": "CONSCIENCE",
+          "hint": "İnsanın iyi kötüyü ayırt eden iç sesi"
+        },
+        {
+          "word": "ANLAMLİLİK",
+          "hint": "Bir şeyin bir amaca hizmet etmesi veya bir anlam taşıması."
+        },
+        {
+          "word": "GERÇEKLİ̇K",
+          "hint": "Olduğu gibi var olan veya meydana gelen durum."
+        },
+        {
+          "word": "Bİ̇Lİ̇NÇ",
+          "hint": "Çevreyi ve kendini algılama yeteneği."
+        },
+        {
+          "word": "GERÇEK",
+          "hint": "Doğru, aslına uygun olan."
+        },
+        {
+          "word": "ANLAM",
+          "hint": "Bir kelime, cümle veya sembolün ifade ettiği düşünce."
+        },
+        {
+          "word": "İ̇DEAL",
+          "hint": "Ulaşılmak istenen en iyi durum veya örnek."
+        },
+        {
+          "word": "GERÇEKÇİ̇Lİ̇K",
+          "hint": "Olayları ve durumları olduğu gibi kabul etme eğilimi."
+        },
+        {
+          "word": "SEZGİ̇",
+          "hint": "Mantıksal bir çıkarım olmaksızın bir şeyi anlama veya bilme yeteneği."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir şeyin önemi veya yararlılığı."
+        },
+        {
+          "word": "TEMEL",
+          "hint": "Bir şeyin dayandığı ana ilke veya esas."
+        },
+        {
+          "word": "EVREN",
+          "hint": "Tüm varoluşu kapsayan sonsuz alan."
+        },
+        {
+          "word": "KAİ̇NAT",
+          "hint": "Evrenle eş anlamlı, her şeyi içine alan bütün."
+        },
+        {
+          "word": "DÜŞÜNCE",
+          "hint": "Zihinde oluşan fikir veya tasavvur."
+        },
+        {
+          "word": "SORGU",
+          "hint": "Bir konuyu derinlemesine araştırmak için sorular sorma."
+        },
+        {
+          "word": "BAKİŞ",
+          "hint": "Bir konuya yaklaşım tarzı veya görüş."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Bir metin, olay veya durum hakkında yapılan açıklama."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Kısıtlamalardan veya esaretten kurtulmuş olma durumu."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Doğru ve hakkaniyetli olma durumu."
+        },
+        {
+          "word": "DOĞRULUK",
+          "hint": "Gerçeğe uygun olma, hakkaniyet."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Yapılan eylemlerin sonuçlarını üstlenme yükümlülüğü."
+        },
+        {
+          "word": "ANLAYİŞ",
+          "hint": "Bir konuyu kavrama veya farkına varma."
+        },
+        {
+          "word": "Bİ̇LGELİ̇K",
+          "hint": "Derin bilgi, tecrübe ve anlayış."
+        },
+        {
+          "word": "ÖZ",
+          "hint": "Bir şeyin temel, değişmez niteliği."
+        },
+        {
+          "word": "VARLİK",
+          "hint": "Mevcut olma durumu, gerçeklik."
+        },
+        {
+          "word": "YOKLUK",
+          "hint": "Mevcut olmama durumu, hiçlik."
+        },
+        {
+          "word": "KAVRAM",
+          "hint": "Zihinde oluşan soyut fikir veya taslak."
+        },
+        {
+          "word": "YÖNTEM",
+          "hint": "Bir işi başarma veya bir sorunu çözme yolu."
+        },
+        {
+          "word": "İ̇LKE",
+          "hint": "Temel kabul edilen, doğruluğu genel olarak benimsenmiş düşünce."
+        },
+        {
+          "word": "AMAÇ",
+          "hint": "Ulaşılmak istenen hedef."
+        },
+        {
+          "word": "GAYE",
+          "hint": "Amaçla eş anlamlı, hedef."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Bir olayın veya kişinin içinde bulunduğu koşullar."
+        },
+        {
+          "word": "OLGU",
+          "hint": "Gerçekleşmiş olay veya durum."
+        },
+        {
+          "word": "SORGULAMA",
+          "hint": "Bir konuyu derinlemesine araştırmak için yapılan süreç."
+        },
+        {
+          "word": "ARAŞTİRMA",
+          "hint": "Bir konu hakkında bilgi edinmek için yapılan çalışma."
+        },
+        {
+          "word": "TASAVVUF",
+          "hint": "Manevi aydınlanma ve içsel bilgi arayışı."
+        },
+        {
+          "word": "AKİL",
+          "hint": "Düşünme, anlama ve kavrama yetisi."
+        },
+        {
+          "word": "BAĞLAM",
+          "hint": "Bir kelime veya cümlenin içinde bulunduğu durum veya çevre."
+        },
+        {
+          "word": "Nİ̇TELİ̇K",
+          "hint": "Bir şeyin nasıl olduğunu belirten özellik."
+        },
+        {
+          "word": "ÖZELLİ̇K",
+          "hint": "Bir varlığa, kavrama veya duruma ait belirleyici özellik."
+        },
+        {
+          "word": "Bİ̇RLİ̇K",
+          "hint": "Ayrılmaz bir bütün olma durumu."
+        },
+        {
+          "word": "KARŞİT",
+          "hint": "Tamamen zıt olan şey."
+        },
+        {
+          "word": "KÖKEN",
+          "hint": "Bir şeyin çıktığı yer veya başlangıç noktası."
+        },
+        {
+          "word": "DENEYİ̇M",
+          "hint": "Yaşayarak öğrenme, tecrübe."
+        },
+        {
+          "word": "Bİ̇LGİ̇",
+          "hint": "Öğrenme veya araştırma yoluyla edinilen gerçek."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir olayın veya işlemin doğurduğu netice."
+        },
+        {
+          "word": "YARGİ",
+          "hint": "Bir konuda verilmiş hüküm veya kanaat."
+        }
       ]
     }
   ]

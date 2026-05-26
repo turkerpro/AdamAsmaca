@@ -3,25 +3,435 @@
     {
       "id": "matematik_u1",
       "name": "1. Ünite: Kümeler",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "ALTKÜME", "hint": "Bir kümenin elemanlarından oluşan daha küçük küme"},
-        {"word": "KESİŞİM", "hint": "İki kümenin ortak elemanlarından oluşan küme"},
-        {"word": "BİRLEŞİM", "hint": "İki kümenin tüm elemanlarını içeren küme"},
-        {"word": "TÜMLEME", "hint": "Evrensel kümedeki bir kümeye ait olmayan elemanlar"},
-        {"word": "ELEMAN", "hint": "Bir kümeyi oluşturan nesnelerin her biri"}
+        {
+          "word": "ALTKÜME",
+          "hint": "Bir kümenin elemanlarından oluşan daha küçük küme"
+        },
+        {
+          "word": "KESİŞİM",
+          "hint": "İki kümenin ortak elemanlarından oluşan küme"
+        },
+        {
+          "word": "BİRLEŞİM",
+          "hint": "İki kümenin tüm elemanlarını içeren küme"
+        },
+        {
+          "word": "TÜMLEME",
+          "hint": "Evrensel kümedeki bir kümeye ait olmayan elemanlar"
+        },
+        {
+          "word": "ELEMAN",
+          "hint": "Bir kümeyi oluşturan nesnelerin her biri"
+        },
+        {
+          "word": "KÜME",
+          "hint": "Belirli ve ayırt edilebilir nesneler topluluğu."
+        },
+        {
+          "word": "BOŞKÜME",
+          "hint": "Hiçbir elemanı olmayan küme."
+        },
+        {
+          "word": "EVRENSEL",
+          "hint": "Bahsedilen her şeyi içeren en geniş küme."
+        },
+        {
+          "word": "AYRİK",
+          "hint": "Kesişimleri boş küme olan kümeler."
+        },
+        {
+          "word": "DENK",
+          "hint": "Eleman sayıları eşit olan kümeler."
+        },
+        {
+          "word": "EŞİ̇T",
+          "hint": "Hem denk hem de aynı elemanlara sahip kümeler."
+        },
+        {
+          "word": "ALT",
+          "hint": "Bir kümenin içindeki daha küçük küme parçası."
+        },
+        {
+          "word": "İ̇ÇERİ̇R",
+          "hint": "Bir kümenin başka bir kümenin elemanı olması durumu."
+        },
+        {
+          "word": "DİŞARDA",
+          "hint": "Bir kümenin evrensel kümede olup o kümede olmaması."
+        },
+        {
+          "word": "ORTAK",
+          "hint": "İki kümede de bulunan eleman."
+        },
+        {
+          "word": "TÜM",
+          "hint": "Bir kümedeki her şeyi kapsayan ifade."
+        },
+        {
+          "word": "VARLİK",
+          "hint": "Bir kümenin bir nesnesi."
+        },
+        {
+          "word": "YOKLUK",
+          "hint": "Bir kümede bir nesnenin bulunmaması."
+        },
+        {
+          "word": "TOPLULUK",
+          "hint": "Bir kümenin anlamdaşı."
+        },
+        {
+          "word": "KAPSAM",
+          "hint": "Bir kümenin diğerini içine alması."
+        },
+        {
+          "word": "AYRİM",
+          "hint": "Kümelerin birbirinden farklı olan kısımları."
+        },
+        {
+          "word": "İ̇Lİ̇ŞKİ̇",
+          "hint": "Kümeler arasındaki bağ."
+        },
+        {
+          "word": "SEÇME",
+          "hint": "Kümeden eleman seçme işlemi."
+        },
+        {
+          "word": "GRUPLA",
+          "hint": "Elemanları bir araya getirme."
+        },
+        {
+          "word": "SİNİFLANDİR",
+          "hint": "Kümeleri özelliklerine göre ayırma."
+        },
+        {
+          "word": "BELİ̇RTE",
+          "hint": "Bir kümenin elemanlarını net olarak tanımla."
+        },
+        {
+          "word": "SAY",
+          "hint": "Bir kümedeki eleman adedini bul."
+        },
+        {
+          "word": "KODLA",
+          "hint": "Küme bilgisini sembollerle ifade et."
+        },
+        {
+          "word": "GÖSTER",
+          "hint": "Kümeyi görsel olarak temsil et."
+        },
+        {
+          "word": "BELİ̇RLEYİ̇Cİ̇",
+          "hint": "Kümenin elemanlarını tanımlayan özellik."
+        },
+        {
+          "word": "AYİRT EDİ̇Cİ̇",
+          "hint": "Bir kümenin diğerlerinden farkını ortaya koyan özellik."
+        },
+        {
+          "word": "BÜTÜN",
+          "hint": "Evrensel küme için kullanılan bir diğer kelime."
+        },
+        {
+          "word": "PARÇA",
+          "hint": "Alt küme için kullanılan bir terim."
+        },
+        {
+          "word": "FAZLALİK",
+          "hint": "Bir kümedeki elemanların hiçbiri diğerinde yoksa."
+        },
+        {
+          "word": "Bİ̇RKAÇ",
+          "hint": "Az sayıda elemanı olan küme."
+        },
+        {
+          "word": "HEPSİ̇",
+          "hint": "Evrensel kümedeki tüm elemanlar."
+        },
+        {
+          "word": "Hİ̇ÇBİ̇Rİ̇",
+          "hint": "Boş küme ile ilgili bir durum."
+        },
+        {
+          "word": "ÖZELLİ̇K",
+          "hint": "Küme elemanlarını tanımlayan nitelik."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Kümelerin genel düzeni."
+        },
+        {
+          "word": "Çİ̇ZELGE",
+          "hint": "Kümeleri göstermeye yarayan diyagram."
+        },
+        {
+          "word": "SEMBOLLÜ",
+          "hint": "Matematiksel işaretlerle ifade edilen."
+        },
+        {
+          "word": "GRAFİ̇K",
+          "hint": "Kümeleri görselleştiren çizim."
+        },
+        {
+          "word": "Sİ̇METRİ̇K",
+          "hint": "İki küme için geçerli olabilecek bir özellik."
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Tek bir sıra halinde ilerleyen."
+        },
+        {
+          "word": "Çİ̇ZGİ̇",
+          "hint": "Venn şemasındaki sınırı andıran."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Bir elemanın kümeye ait olup olmama hali."
+        },
+        {
+          "word": "FAZ",
+          "hint": "Kümelerin ayrışmış bölümleri."
+        },
+        {
+          "word": "DAĞİLİM",
+          "hint": "Elemanların küme içindeki yayılımı."
+        },
+        {
+          "word": "BAĞLANTİ",
+          "hint": "Kümeler arasındaki ilişkiyi ifade eder."
+        },
+        {
+          "word": "ÖRGÜ",
+          "hint": "Kümelerin birbiriyle ilişkili yapısı."
+        }
       ]
     },
     {
       "id": "matematik_u2",
       "name": "2. Ünite: Fonksiyonlar",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "FONKSİYON", "hint": "Her elemana tek bir değer karşılık getiren bağıntı"},
-        {"word": "TANIM KÜMESİ", "hint": "Fonksiyonun başlangıç değerlerini içeren küme"},
-        {"word": "GÖRÜNTÜ", "hint": "Bir elemanın fonksiyon altındaki karşılığı"},
-        {"word": "BİREBİR", "hint": "Farklı elemanları farklı görüntülere eşleyen fonksiyon"},
-        {"word": "ÖRTEN", "hint": "Değer kümesindeki her elemanın eşlendiği fonksiyon türü"}
+        {
+          "word": "FONKSİYON",
+          "hint": "Her elemana tek bir değer karşılık getiren bağıntı"
+        },
+        {
+          "word": "TANIM KÜMESİ",
+          "hint": "Fonksiyonun başlangıç değerlerini içeren küme"
+        },
+        {
+          "word": "GÖRÜNTÜ",
+          "hint": "Bir elemanın fonksiyon altındaki karşılığı"
+        },
+        {
+          "word": "BİREBİR",
+          "hint": "Farklı elemanları farklı görüntülere eşleyen fonksiyon"
+        },
+        {
+          "word": "ÖRTEN",
+          "hint": "Değer kümesindeki her elemanın eşlendiği fonksiyon türü"
+        },
+        {
+          "word": "EŞLEME",
+          "hint": "İki kümenin elemanları arasında kurulan ilişki."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir fonksiyonun çıktısı olabilecek sayı."
+        },
+        {
+          "word": "BAĞİNTİ",
+          "hint": "İki küme arasındaki her türlü eşleşmeyi gösteren küme."
+        },
+        {
+          "word": "Gİ̇RDİ̇",
+          "hint": "Fonksiyona verilen, işlenmeden önceki eleman."
+        },
+        {
+          "word": "ÇİKTİ",
+          "hint": "Fonksiyonun işlediği girdiye verdiği sonuç."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Bir fonksiyonun girdiyi çıktıya nasıl dönüştürdüğünü belirten ifade."
+        },
+        {
+          "word": "KÜME",
+          "hint": "Belirli özelliklere sahip nesnelerin topluluğu."
+        },
+        {
+          "word": "BOŞKÜME",
+          "hint": "Hiçbir elemanı olmayan küme."
+        },
+        {
+          "word": "ALTKÜME",
+          "hint": "Bir kümenin içinden alınan ve o kümenin tüm elemanlarını içeren küme."
+        },
+        {
+          "word": "KESİ̇Şİ̇M",
+          "hint": "İki kümenin ortak elemanlarının oluşturduğu küme."
+        },
+        {
+          "word": "Bİ̇RLEŞİ̇M",
+          "hint": "İki kümenin tüm elemanlarını içeren küme."
+        },
+        {
+          "word": "FARKİ",
+          "hint": "Bir kümede olup diğerinde olmayan elemanların kümesi."
+        },
+        {
+          "word": "KARTEZYEN",
+          "hint": "İki kümenin tüm sıralı ikililerini içeren küme."
+        },
+        {
+          "word": "SİRA",
+          "hint": "Bir elemanın listedeki veya kümedeki konumu."
+        },
+        {
+          "word": "İ̇Kİ̇Lİ̇",
+          "hint": "İki elemandan oluşan sıralı dizilim."
+        },
+        {
+          "word": "GÖRSE",
+          "hint": "Fonksiyonun çıktılarının oluşturduğu küme."
+        },
+        {
+          "word": "GÖRDÜ",
+          "hint": "Fonksiyonun aldığı girdilerin oluşturduğu küme."
+        },
+        {
+          "word": "SABİ̇T",
+          "hint": "Değişmeyen, her zaman aynı kalan değer."
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Grafiği düz çizgi olan fonksiyon türü."
+        },
+        {
+          "word": "KAREKÖK",
+          "hint": "Bir sayının kendisiyle çarpımının verdiği sayının kendisi."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Bir sayının kendisiyle tekrarlı çarpımı."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Verileri satır ve sütunlarda gösteren düzen."
+        },
+        {
+          "word": "GRAFİ̇K",
+          "hint": "Verileri görsel olarak gösteren çizim."
+        },
+        {
+          "word": "EKSEN",
+          "hint": "Grafiğin üzerinde bulunan yatay veya dikey çizgi."
+        },
+        {
+          "word": "ORİ̇Jİ̇N",
+          "hint": "Koordinat sisteminin başlangıç noktası."
+        },
+        {
+          "word": "NOKT A",
+          "hint": "Grafik üzerindeki bir konumu belirten işaret."
+        },
+        {
+          "word": "Sİ̇METRİ̇",
+          "hint": "Bir şeklin ayna görüntüsü gibi olma durumu."
+        },
+        {
+          "word": "EŞİ̇TLİ̇K",
+          "hint": "İki ifadenin birbirine denk olması."
+        },
+        {
+          "word": "DENKLEM",
+          "hint": "Bilinmeyen içeren eşitlik."
+        },
+        {
+          "word": "İ̇ŞLEM",
+          "hint": "Matematiksel bir hesaplama yapma süreci."
+        },
+        {
+          "word": "İ̇NDEKS",
+          "hint": "Bir dizideki elemanın konumunu belirten sayı."
+        },
+        {
+          "word": "Dİ̇Zİ̇",
+          "hint": "Sıralanmış elemanlar topluluğu."
+        },
+        {
+          "word": "TERİ̇M",
+          "hint": "Bir dizinin veya ifadenin parçası olan sayı veya değişken."
+        },
+        {
+          "word": "SERİ̇",
+          "hint": "Bir dizinin terimlerinin toplamı."
+        },
+        {
+          "word": "BÖLÜM",
+          "hint": "Bir sayının diğerine bölünmesiyle elde edilen sonuç."
+        },
+        {
+          "word": "KALAN",
+          "hint": "Bölme işleminden sonra artan değer."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki sayının birbirine bölümü."
+        },
+        {
+          "word": "YÜZDE",
+          "hint": "Yüz eşit parçadan alınan miktar."
+        },
+        {
+          "word": "ARTAN",
+          "hint": "Fonksiyonun değerlerinin yükseldiği aralık."
+        },
+        {
+          "word": "AZALAN",
+          "hint": "Fonksiyonun değerlerinin düştüğü aralık."
+        },
+        {
+          "word": "EKSTREMUM",
+          "hint": "Bir fonksiyonun en büyük veya en küçük değeri."
+        },
+        {
+          "word": "MUTLAK",
+          "hint": "Sıfırdan uzaklığı gösteren pozitif değer."
+        },
+        {
+          "word": "İ̇NVERS",
+          "hint": "Bir fonksiyonun tersi, işlemi geri alan."
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Asla kesişmeyen, her zaman eşit uzaklıkta olan doğrular."
+        },
+        {
+          "word": "Dİ̇K",
+          "hint": "Kesştiklerinde 90 derecelik açı oluşturan doğrular."
+        },
+        {
+          "word": "EĞİ̇M",
+          "hint": "Bir doğrunun yatayla yaptığı açı ve dikliği."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Matematiksel bir ilişkiyi gösteren sembolik ifade."
+        }
       ]
     }
   ]

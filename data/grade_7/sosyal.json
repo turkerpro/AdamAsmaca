@@ -3,25 +3,427 @@
     {
       "id": "sosyal7_u1",
       "name": "1. Ünite: Osmanlı Devleti",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "PADİŞAH", "hint": "Osmanlı Devletinin en üst yöneticisi"},
-        {"word": "SADRAZAM", "hint": "Padişahtan sonra gelen en yetkili devlet adamı"},
-        {"word": "YENIÇERI", "hint": "Osmanlı ordusunun en seçkin piyade birliği"},
-        {"word": "TIMAR", "hint": "Osmanlıda askerlere verilen toprak sistemi"},
-        {"word": "DİVAN", "hint": "Osmanlıda devlet işlerinin görüşüldüğü kurul"}
+        {
+          "word": "PADİŞAH",
+          "hint": "Osmanlı Devletinin en üst yöneticisi"
+        },
+        {
+          "word": "SADRAZAM",
+          "hint": "Padişahtan sonra gelen en yetkili devlet adamı"
+        },
+        {
+          "word": "YENIÇERI",
+          "hint": "Osmanlı ordusunun en seçkin piyade birliği"
+        },
+        {
+          "word": "TIMAR",
+          "hint": "Osmanlıda askerlere verilen toprak sistemi"
+        },
+        {
+          "word": "DİVAN",
+          "hint": "Osmanlıda devlet işlerinin görüşüldüğü kurul"
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir toprak parçası üzerinde yaşayan, siyasi teşkilatı olan topluluk."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Üzerinde yaşadığımız yeryüzü parçası."
+        },
+        {
+          "word": "YÖNETİ̇M",
+          "hint": "Bir ülkeyi veya topluluğu idare etme işi."
+        },
+        {
+          "word": "KURULUŞ",
+          "hint": "Bir şeyin var olmaya başlaması, meydana gelmesi."
+        },
+        {
+          "word": "YÜKSELİ̇Ş",
+          "hint": "Makam, mertebe veya güç olarak ilerleme."
+        },
+        {
+          "word": "GÜÇLENME",
+          "hint": "Daha kuvvetli hale gelme."
+        },
+        {
+          "word": "ZAYİFLAMA",
+          "hint": "Kuvvetini, etkisini kaybetme."
+        },
+        {
+          "word": "YİKİLİŞ",
+          "hint": "Bir şeyin temelden çökmesi, yok olması."
+        },
+        {
+          "word": "BAŞKENT",
+          "hint": "Bir devletin yönetim merkezi olan şehir."
+        },
+        {
+          "word": "SULTAN",
+          "hint": "Osmanlı Devleti'nde padişahın unvanı."
+        },
+        {
+          "word": "HANEDAN",
+          "hint": "Devlet yönetiminde bulunan soy."
+        },
+        {
+          "word": "SARAY",
+          "hint": "Padişahın ve ailesinin yaşadığı görkemli yapı."
+        },
+        {
+          "word": "ORDU",
+          "hint": "Devletin savunmasını ve güvenliğini sağlayan silahlı kuvvetler."
+        },
+        {
+          "word": "ASKER",
+          "hint": "Orduda görev yapan kişi."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "İki veya daha fazla grup arasındaki silahlı çatışma."
+        },
+        {
+          "word": "BARİŞ",
+          "hint": "Savaşın olmadığı, huzurlu durum."
+        },
+        {
+          "word": "ANLAŞMA",
+          "hint": "Karşılıklı rızayla varılan ortak karar."
+        },
+        {
+          "word": "ZAFER",
+          "hint": "Savaşta kazanılan üstünlük."
+        },
+        {
+          "word": "MALİ̇YE",
+          "hint": "Devletin para işleriyle ilgili bölümü."
+        },
+        {
+          "word": "VERGİ̇",
+          "hint": "Devlete ödenen para veya ürün."
+        },
+        {
+          "word": "EKONOMİ̇",
+          "hint": "Bir ülkenin üretim, tüketim ve ticaret durumu."
+        },
+        {
+          "word": "Tİ̇CARET",
+          "hint": "Mal alıp satma işi."
+        },
+        {
+          "word": "SANAT",
+          "hint": "İnsanın duygu ve düşüncelerini estetik biçimde yansıtması."
+        },
+        {
+          "word": "Mİ̇MARİ̇",
+          "hint": "Binaları tasarlama ve inşa etme sanatı."
+        },
+        {
+          "word": "Bİ̇Lİ̇M",
+          "hint": "Gerçekleri inceleyip anlama çabası."
+        },
+        {
+          "word": "TARİ̇H",
+          "hint": "Geçmişte olan olayları inceleyen bilim dalı."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun yaşayış biçimi, değerleri ve sanat."
+        },
+        {
+          "word": "GELENEK",
+          "hint": "Bir toplumda eskiden beri süregelen göreneksel davranışlar."
+        },
+        {
+          "word": "GÖRENEK",
+          "hint": "Kuşaktan kuşağa aktarılan toplumsal alışkanlıklar."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Doğruluk, hakkaniyet ve eşitlik."
+        },
+        {
+          "word": "HAK",
+          "hint": "Bireylerin yasal olarak sahip olduğu imkanlar."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "İstediğini yapabilme durumu."
+        },
+        {
+          "word": "VATAN",
+          "hint": "Doğup büyüdüğümüz, uğruna mücadele ettiğimiz ülke."
+        },
+        {
+          "word": "Mİ̇LLET",
+          "hint": "Ortak dil, kültür ve tarihe sahip insan topluluğu."
+        },
+        {
+          "word": "İ̇NSANLİK",
+          "hint": "İnsan olmanın getirdiği erdemler."
+        },
+        {
+          "word": "Vİ̇CDAN",
+          "hint": "Doğru ile yanlışı ayıran iç ses."
+        },
+        {
+          "word": "Sİ̇YASET",
+          "hint": "Devlet işlerini yürütme sanatı."
+        },
+        {
+          "word": "TEŞKİ̇LAT",
+          "hint": "Belirli bir amaca ulaşmak için kurulan yapı."
+        },
+        {
+          "word": "YAYİLMA",
+          "hint": "Bir şeyin geniş alana doğru ilerlemesi."
+        },
+        {
+          "word": "ETKİ̇",
+          "hint": "Bir şeyin başka bir şey üzerinde meydana getirdiği sonuç."
+        },
+        {
+          "word": "DEĞİ̇Şİ̇M",
+          "hint": "Bir durumdan başka bir duruma geçme."
+        },
+        {
+          "word": "DÖNEM",
+          "hint": "Belirli bir zaman dilimi."
+        },
+        {
+          "word": "ETKİ̇LEŞİ̇M",
+          "hint": "Karşılıklı olarak birbirini etkileme durumu."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların bir yerden başka bir yere taşınması."
+        },
+        {
+          "word": "YENİÇERİ",
+          "hint": "Osmanlı Devleti'nde padişahı koruyan ve maaş alan profesyonel yaya asker ordusu"
+        }
       ]
     },
     {
       "id": "sosyal7_u2",
       "name": "2. Ünite: İletişim ve Medya",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "İLETİŞİM", "hint": "İnsanlar arasında duygu ve düşünce aktarımı"},
-        {"word": "MEDYA", "hint": "Kitle iletişim araçlarının genel adı"},
-        {"word": "HABER", "hint": "Güncel olayların aktarıldığı bilgi içeriği"},
-        {"word": "PROPAGANDA", "hint": "Bir düşünceyi yaymak için yapılan etkileme çalışması"},
-        {"word": "KAYNAK", "hint": "Bilginin çıkış noktası veya ilk üreticisi"}
+        {
+          "word": "İLETİŞİM",
+          "hint": "İnsanlar arasında duygu ve düşünce aktarımı"
+        },
+        {
+          "word": "MEDYA",
+          "hint": "Kitle iletişim araçlarının genel adı"
+        },
+        {
+          "word": "HABER",
+          "hint": "Güncel olayların aktarıldığı bilgi içeriği"
+        },
+        {
+          "word": "PROPAGANDA",
+          "hint": "Bir düşünceyi yaymak için yapılan etkileme çalışması"
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Bilginin çıkış noktası veya ilk üreticisi"
+        },
+        {
+          "word": "SANSÜR",
+          "hint": "Yayınlanması istenmeyen yazı veya görüntülerin engellenmesi."
+        },
+        {
+          "word": "DEZENFORMASYON",
+          "hint": "Bilinçli olarak yayılan yanlış bilgi."
+        },
+        {
+          "word": "REKLAM",
+          "hint": "Bir ürünün veya hizmetin tanıtılması."
+        },
+        {
+          "word": "GÜVENİ̇Lİ̇R",
+          "hint": "Sözüne inanılan, doğruluğu kanıtlanmış."
+        },
+        {
+          "word": "DÜNYA",
+          "hint": "Tüm gezegen, yerküre."
+        },
+        {
+          "word": "TOPLUM",
+          "hint": "İnsanların bir arada yaşadığı büyük grup."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Uymamız gereken zorunlu iş."
+        },
+        {
+          "word": "MESAJ",
+          "hint": "Düşünce veya duygu aktarma."
+        },
+        {
+          "word": "GÖNDERİ̇",
+          "hint": "Sosyal medyada paylaşılan yazı, fotoğraf veya video."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Bir konu hakkındaki görüş belirtme."
+        },
+        {
+          "word": "BEĞENİ̇",
+          "hint": "Hoşlandığını gösterme."
+        },
+        {
+          "word": "PAYLAŞİM",
+          "hint": "Başkalarıyla bir şeyi ortak kullanma."
+        },
+        {
+          "word": "TAKİ̇PÇİ̇",
+          "hint": "Birini sosyal medyada izleyen kişi."
+        },
+        {
+          "word": "ETKİ̇LEŞİ̇M",
+          "hint": "Karşılıklı ilgi ve alaka."
+        },
+        {
+          "word": "İ̇NTERNET",
+          "hint": "Bilgisayarların birbirine bağlandığı küresel ağ."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Akıllı telefonlarda kullanılan program."
+        },
+        {
+          "word": "Sİ̇TE",
+          "hint": "İnternet'teki bir web adresi."
+        },
+        {
+          "word": "BLOG",
+          "hint": "Kişisel yazıların yayınlandığı internet sayfası."
+        },
+        {
+          "word": "VLOG",
+          "hint": "Videolu günlük veya yazı."
+        },
+        {
+          "word": "PODCAST",
+          "hint": "Sesli yayın."
+        },
+        {
+          "word": "KANAL",
+          "hint": "Televizyonda veya internette yayın yapan yayın organı."
+        },
+        {
+          "word": "STÜDYO",
+          "hint": "Sesli veya görüntülü yayın yapılan yer."
+        },
+        {
+          "word": "EKİ̇P",
+          "hint": "Birlikte çalışan grup."
+        },
+        {
+          "word": "PROJE",
+          "hint": "Belirli bir amaca ulaşmak için yapılan çalışma."
+        },
+        {
+          "word": "SÖZEL",
+          "hint": "Dil ile ilgili olan."
+        },
+        {
+          "word": "GÖRSEL",
+          "hint": "Gözle algılanan."
+        },
+        {
+          "word": "İ̇Şİ̇TSEL",
+          "hint": "Kulakla algılanan."
+        },
+        {
+          "word": "Kİ̇NAYA",
+          "hint": "Dolaylı anlatım."
+        },
+        {
+          "word": "KARİ̇KATÜR",
+          "hint": "Kişileri veya olayları alaycı çizim."
+        },
+        {
+          "word": "BELGESEL",
+          "hint": "Gerçek olayları anlatan film."
+        },
+        {
+          "word": "DERLEME",
+          "hint": "Çeşitli yerlerden toplanan."
+        },
+        {
+          "word": "KOPYA",
+          "hint": "Benzeri, taklit."
+        },
+        {
+          "word": "ORİ̇Jİ̇NAL",
+          "hint": "Özgün, ilk üretilen."
+        },
+        {
+          "word": "Fİ̇LTRE",
+          "hint": "Görüntü veya sesi düzenleyen araç."
+        },
+        {
+          "word": "SAHTE",
+          "hint": "Gerçek olmayan, düzmece."
+        },
+        {
+          "word": "GERÇEK",
+          "hint": "Doğru, asıl."
+        },
+        {
+          "word": "TARTİŞMA",
+          "hint": "Fikirlerin karşılıklı olarak ileri sürülüp değerlendirilmesi."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Bir olayın veya kişinin bulunduğu hal."
+        },
+        {
+          "word": "KÜRESEL",
+          "hint": "Dünya çapında olan."
+        },
+        {
+          "word": "YEREL",
+          "hint": "Bir bölgeye ait olan."
+        },
+        {
+          "word": "ÇEVRİ̇Mİ̇Çİ̇",
+          "hint": "İnternet'e bağlı olma durumu."
+        },
+        {
+          "word": "ÇEVRİ̇MDİŞİ",
+          "hint": "İnternet'e bağlı olmama durumu."
+        },
+        {
+          "word": "YAYİN",
+          "hint": "Ortaya koyma, duyurma."
+        },
+        {
+          "word": "ARŞİ̇V",
+          "hint": "Saklanan bilgi ve belgeler topluluğu."
+        },
+        {
+          "word": "KAMUOYU",
+          "hint": "Bir konu hakkında halkın genel düşüncesi ve ortak fikri"
+        }
       ]
     }
   ]

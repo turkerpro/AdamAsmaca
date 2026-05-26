@@ -3,25 +3,459 @@
     {
       "id": "mat_u1",
       "name": "1. Ünite: Çarpma",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "ÇARPIM", "hint": "İki sayının çarpılmasıyla bulunan sonuç"},
-        {"word": "ÇARPAN", "hint": "Çarpma işlemindeki sayılardan biri"},
-        {"word": "ÇARPI", "hint": "Çarpma işleminde kullanılan işaret"},
-        {"word": "KAT", "hint": "Bir sayının kaç kere tekrarlandığı"},
-        {"word": "TABLO", "hint": "Çarpma sonuçlarının gösterildiği çizelge"}
+        {
+          "word": "ÇARPIM",
+          "hint": "İki sayının çarpılmasıyla bulunan sonuç"
+        },
+        {
+          "word": "ÇARPAN",
+          "hint": "Çarpma işlemindeki sayılardan biri"
+        },
+        {
+          "word": "ÇARPI",
+          "hint": "Çarpma işleminde kullanılan işaret"
+        },
+        {
+          "word": "KAT",
+          "hint": "Bir sayının kaç kere tekrarlandığı"
+        },
+        {
+          "word": "TABLO",
+          "hint": "Çarpma sonuçlarının gösterildiği çizelge"
+        },
+        {
+          "word": "SAYI",
+          "hint": "Bir miktarı göstermek için kullandığımız işaretlere denir."
+        },
+        {
+          "word": "TOPLAMA",
+          "hint": "İki veya daha fazla sayıyı bir araya getirip toplamını bulma işlemi."
+        },
+        {
+          "word": "TEKRAR",
+          "hint": "Bir şeyi birden fazla kez, yeniden yapma durumu."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Bir araya gelmiş benzer şeylerin bütünü veya topluluğu."
+        },
+        {
+          "word": "ADET",
+          "hint": "Bir şeyin kaç tane olduğunu belirten miktar."
+        },
+        {
+          "word": "EŞİT",
+          "hint": "Birbirine denk veya aynı büyüklükte olan şeyler için söylenir."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlemin sonunda ortaya çıkan şey veya cevap."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Bütün sayıların bir araya gelmesiyle oluşan miktar."
+        },
+        {
+          "word": "SAYMAK",
+          "hint": "Nesnelerin veya miktarın kaç tane olduğunu belirleme işi."
+        },
+        {
+          "word": "ÇOĞALTMAK",
+          "hint": "Bir şeyin miktarını veya sayısını artırmak, daha fazla yapmak."
+        },
+        {
+          "word": "KERE",
+          "hint": "Bir olayın kaç defa olduğunu belirtir, 'defa' kelimesiyle aynı anlama gelir."
+        },
+        {
+          "word": "DEFA",
+          "hint": "Bir işin kaç kez yapıldığını gösteren sözcük."
+        },
+        {
+          "word": "ÖRÜNTÜ",
+          "hint": "Belli bir düzene göre tekrarlayan şekiller veya sayılar dizisi."
+        },
+        {
+          "word": "RİTMİK",
+          "hint": "Belli bir düzene veya sıraya göre tekrarlanan hareket veya ses."
+        },
+        {
+          "word": "TEK",
+          "hint": "İkiye bölündüğünde kalanı olan sayılar, mesela 1, 3, 5 gibi."
+        },
+        {
+          "word": "ÇİFT",
+          "hint": "İkiye kalansız bölünebilen sayılar, mesela 2, 4, 6 gibi."
+        },
+        {
+          "word": "NESNE",
+          "hint": "Görebildiğimiz, dokunabildiğimiz veya kullanabildiğimiz her şey."
+        },
+        {
+          "word": "PROBLEM",
+          "hint": "Çözülmesi gereken bir soru veya durum."
+        },
+        {
+          "word": "İ̇ŞLEM",
+          "hint": "Bir problemi çözmek için yapılan adımlar veya matematiksel yöntemler."
+        },
+        {
+          "word": "BASAMAK",
+          "hint": "Sayılardaki rakamların yerini gösteren bölümlerdir, örneğin birler basamağı."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Sayıdaki en küçük değerin olduğu yer, birler basamağı."
+        },
+        {
+          "word": "ONLUK",
+          "hint": "Sayıdaki onlar basamağının değeri, on tane birlikten oluşur."
+        },
+        {
+          "word": "SIRA",
+          "hint": "Nesnelerin yan yana veya alt alta düzenli bir şekilde dizilmesi."
+        },
+        {
+          "word": "SÜTUN",
+          "hint": "Nesnelerin dikey olarak, yani yukarıdan aşağıya doğru dizilmesi."
+        },
+        {
+          "word": "DESTE",
+          "hint": "On tane nesneden oluşan grup."
+        },
+        {
+          "word": "DÜZİNE",
+          "hint": "On iki tane nesneden oluşan grup."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Bir şeyi daha kolay anlamak veya göstermek için yapılan örnek şekil."
+        },
+        {
+          "word": "ÖRNEK",
+          "hint": "Bir şeyi açıklamak veya göstermek için verilen benzer durum veya parça."
+        },
+        {
+          "word": "HESAP",
+          "hint": "Sayılarla yapılan işlemlerin genel adı."
+        },
+        {
+          "word": "GRUPLANDIRMA",
+          "hint": "Nesneleri belirli özelliklerine göre ayırma veya bir araya getirme."
+        },
+        {
+          "word": "EŞLEŞTİRME",
+          "hint": "İki veya daha fazla şeyi birbiriyle uygun hale getirme veya yan yana koyma."
+        },
+        {
+          "word": "AYNI",
+          "hint": "Birbiriyle tıpatıp benzeyen, hiç farkı olmayan."
+        },
+        {
+          "word": "FARKLI",
+          "hint": "Birbirinden ayrı olan, benzemeyen."
+        },
+        {
+          "word": "ÇUBUK",
+          "hint": "Sayı saymak veya işlem yapmak için kullanılan uzun, ince parça."
+        },
+        {
+          "word": "BONCUK",
+          "hint": "Sayı saymak veya süsleme için kullanılan küçük, delikli taneler."
+        },
+        {
+          "word": "BİRER",
+          "hint": "Her seferinde bir tane artırarak veya azaltarak sayma."
+        },
+        {
+          "word": "İ̇KİŞER",
+          "hint": "Her seferinde iki tane artırarak veya azaltarak sayma."
+        },
+        {
+          "word": "ÜÇER",
+          "hint": "Her seferinde üç tane artırarak veya azaltarak sayma."
+        },
+        {
+          "word": "DÖRDER",
+          "hint": "Her seferinde dört tane artırarak veya azaltarak sayma."
+        },
+        {
+          "word": "BEŞER",
+          "hint": "Her seferinde beş tane artırarak veya azaltarak sayma."
+        },
+        {
+          "word": "ALTIŞAR",
+          "hint": "Her seferinde altı tane artırarak veya azaltarak sayma."
+        },
+        {
+          "word": "YEDİŞER",
+          "hint": "Her seferinde yedi tane artırarak veya azaltarak sayma."
+        },
+        {
+          "word": "SEKİZER",
+          "hint": "Her seferinde sekiz tane artırarak veya azaltarak sayma."
+        },
+        {
+          "word": "DOKUZAR",
+          "hint": "Her seferinde dokuz tane artırarak veya azaltarak sayma."
+        },
+        {
+          "word": "ONAR",
+          "hint": "Her seferinde on tane artırarak veya azaltarak sayma."
+        },
+        {
+          "word": "ARTIRMAK",
+          "hint": "Bir şeyin miktarını veya sayısını çoğaltmak, büyütmek."
+        },
+        {
+          "word": "TANE",
+          "hint": "Bir nesnenin tek bir adedini ifade etmek için kullanılır."
+        },
+        {
+          "word": "BÜTÜN",
+          "hint": "Bir şeyin tamamı, hepsi veya eksiksiz hali."
+        }
       ]
     },
     {
       "id": "mat_u2",
       "name": "2. Ünite: Bölme",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "BÖLME", "hint": "Bir sayıyı eşit parçalara ayırma işlemi"},
-        {"word": "BÖLÜM", "hint": "Bölme işleminin sonucu"},
-        {"word": "KALAN", "hint": "Bölme işleminde artan kısım"},
-        {"word": "PAYLAŞMA", "hint": "Eşit şekilde dağıtma işlemi"},
-        {"word": "YARIM", "hint": "Bir bütünün ikiye bölünmüş parçası"}
+        {
+          "word": "BÖLME",
+          "hint": "Bir sayıyı eşit parçalara ayırma işlemi"
+        },
+        {
+          "word": "BÖLÜM",
+          "hint": "Bölme işleminin sonucu"
+        },
+        {
+          "word": "KALAN",
+          "hint": "Bölme işleminde artan kısım"
+        },
+        {
+          "word": "PAYLAŞMA",
+          "hint": "Eşit şekilde dağıtma işlemi"
+        },
+        {
+          "word": "YARIM",
+          "hint": "Bir bütünün ikiye bölünmüş parçası"
+        },
+        {
+          "word": "EŞİ̇T",
+          "hint": "Herkesin veya her grubun aynı miktarda olması durumu."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Benzer şeylerin bir araya gelerek oluşturduğu topluluk."
+        },
+        {
+          "word": "DAĞİTMA",
+          "hint": "Bir şeyi birkaç kişiye veya yere eşit olarak verme."
+        },
+        {
+          "word": "SAYİ",
+          "hint": "Miktar belirtmek için kullandığımız işaretler veya sözcükler."
+        },
+        {
+          "word": "NESNE",
+          "hint": "Dokunabildiğimiz, görebildiğimiz cansız varlık."
+        },
+        {
+          "word": "SİRA",
+          "hint": "Bir çizgi halinde veya düzenli bir şekilde yan yana durma durumu."
+        },
+        {
+          "word": "TEKRAR",
+          "hint": "Bir şeyi bir daha yapmak veya aynı işlemi yinelemek."
+        },
+        {
+          "word": "ÇARPMA",
+          "hint": "Aynı sayıyı defalarca toplamanın kısa yolu."
+        },
+        {
+          "word": "KAT",
+          "hint": "Bir sayıyı başka bir sayıyla çarptığımızda bulduğumuz sonuç."
+        },
+        {
+          "word": "PROBLEM",
+          "hint": "Çözülmesi gereken bir soru veya durum."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Bir problemin veya sorunun cevabı."
+        },
+        {
+          "word": "İ̇ŞLEM",
+          "hint": "Matematikte sayılarla yaptığımız toplama, çıkarma, çarpma gibi işlemlerin genel adı."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlemin sonunda bulduğumuz sayı veya cevap."
+        },
+        {
+          "word": "TOPLAMA",
+          "hint": "İki veya daha fazla sayıyı bir araya getirerek toplamını bulma işlemi."
+        },
+        {
+          "word": "ÇİKARMA",
+          "hint": "Bir sayıdan başka bir sayıyı eksiltme, aradaki farkı bulma işlemi."
+        },
+        {
+          "word": "AYİRMA",
+          "hint": "Bir bütünü parçalara bölme veya farklı gruplara dağıtma."
+        },
+        {
+          "word": "HERBİ̇R",
+          "hint": "Bir gruptaki tüm elemanların tek tek hepsi."
+        },
+        {
+          "word": "ADET",
+          "hint": "Bir şeyin kaç tane olduğunu gösteren miktar."
+        },
+        {
+          "word": "TAM",
+          "hint": "Eksiksiz, bütün halde olan."
+        },
+        {
+          "word": "PARA",
+          "hint": "Alışveriş yapmak için kullandığımız madeni veya kağıt değerler."
+        },
+        {
+          "word": "ELMA",
+          "hint": "Ağaçta yetişen, yuvarlak ve tatlı bir meyve."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Yazı yazmak veya resim çizmek için kullandığımız araç."
+        },
+        {
+          "word": "ÇOCUK",
+          "hint": "Küçük yaştaki insan."
+        },
+        {
+          "word": "ÖĞRENCİ̇",
+          "hint": "Okula gidip ders çalışan kişi."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Çocuklara ders öğreten kişi."
+        },
+        {
+          "word": "EŞLEŞTİ̇RME",
+          "hint": "Birbirine uyan şeyleri bir araya getirme."
+        },
+        {
+          "word": "BÜTÜN",
+          "hint": "Hiç ayrılmamış, tek parça olan şey."
+        },
+        {
+          "word": "PARÇA",
+          "hint": "Bir bütünün ayrılmış küçük bir kısmı."
+        },
+        {
+          "word": "SAYMA",
+          "hint": "Nesnelerin veya kişilerin miktarını teker teker belirleme."
+        },
+        {
+          "word": "ONAR",
+          "hint": "Her defasında on tane ekleyerek veya çıkararak ilerleme."
+        },
+        {
+          "word": "İ̇Kİ̇ŞER",
+          "hint": "Her defasında iki tane ekleyerek veya çıkararak ilerleme."
+        },
+        {
+          "word": "ÜÇER",
+          "hint": "Her defasında üç tane ekleyerek veya çıkararak ilerleme."
+        },
+        {
+          "word": "DÖRDER",
+          "hint": "Her defasında dört tane ekleyerek veya çıkararak ilerleme."
+        },
+        {
+          "word": "BEŞER",
+          "hint": "Her defasında beş tane ekleyerek veya çıkararak ilerleme."
+        },
+        {
+          "word": "DESTE",
+          "hint": "On tane aynı şeyin bir araya gelmesiyle oluşan grup."
+        },
+        {
+          "word": "DÜZİ̇NE",
+          "hint": "On iki tane aynı şeyin bir araya gelmesiyle oluşan grup."
+        },
+        {
+          "word": "PUAN",
+          "hint": "Bir oyunda veya sınavda kazandığımız sayısal değer."
+        },
+        {
+          "word": "SÜRE",
+          "hint": "Bir olayın başlangıcı ile bitişi arasındaki zaman dilimi."
+        },
+        {
+          "word": "UZUNLUK",
+          "hint": "Bir şeyin ne kadar uzun olduğunu gösteren ölçü."
+        },
+        {
+          "word": "AĞİRLİK",
+          "hint": "Bir şeyin ne kadar ağır olduğunu gösteren ölçü."
+        },
+        {
+          "word": "KAPASİ̇TE",
+          "hint": "Bir kabın ne kadar sıvı veya nesne alabildiği."
+        },
+        {
+          "word": "Çİ̇FT",
+          "hint": "İki aynı şeyin bir araya gelmesi veya ikiye bölünebilen sayılar."
+        },
+        {
+          "word": "TEK",
+          "hint": "İkiye tam olarak bölünemeyen sayılar."
+        },
+        {
+          "word": "AYNİ",
+          "hint": "Birbirine benzeyen, farklı olmayan."
+        },
+        {
+          "word": "FARKLİ",
+          "hint": "Birbirinden ayrılan, benzemeyen."
+        },
+        {
+          "word": "SAYİ DOĞRUSU",
+          "hint": "Sayıların düzenli bir şekilde sıralandığı düz çizgi."
+        },
+        {
+          "word": "HESAP",
+          "hint": "Sayılarla yapılan işlemlerin tümü."
+        },
+        {
+          "word": "ÖLÇME",
+          "hint": "Bir şeyin miktarını, boyutunu veya ağırlığını belirleme."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "Yanlış olmayan, gerçeğe uygun olan."
+        },
+        {
+          "word": "YANLİŞ",
+          "hint": "Doğru olmayan, hata içeren."
+        }
       ]
     }
   ]

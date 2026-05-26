@@ -3,25 +3,455 @@
     {
       "id": "kimya_u1",
       "name": "1. Ünite: Kimyasal Bağlar",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "İYONİK BAĞ", "hint": "Elektron alışverişiyle oluşan kimyasal bağ türü"},
-        {"word": "KOVALENT BAĞ", "hint": "Elektronların ortaklaşa kullanılmasıyla oluşan bağ"},
-        {"word": "METALİK BAĞ", "hint": "Metal atomları arasında elektron denizi ile kurulan bağ"},
-        {"word": "ELEKTRON", "hint": "Kimyasal bağ oluşumunda paylaşılan negatif parçacık"},
-        {"word": "MOLEKÜL", "hint": "İki veya daha fazla atomun bağlanmasıyla oluşan yapı"}
+        {
+          "word": "İYONİK BAĞ",
+          "hint": "Elektron alışverişiyle oluşan kimyasal bağ türü"
+        },
+        {
+          "word": "KOVALENT BAĞ",
+          "hint": "Elektronların ortaklaşa kullanılmasıyla oluşan bağ"
+        },
+        {
+          "word": "METALİK BAĞ",
+          "hint": "Metal atomları arasında elektron denizi ile kurulan bağ"
+        },
+        {
+          "word": "ELEKTRON",
+          "hint": "Kimyasal bağ oluşumunda paylaşılan negatif parçacık"
+        },
+        {
+          "word": "MOLEKÜL",
+          "hint": "İki veya daha fazla atomun bağlanmasıyla oluşan yapı"
+        },
+        {
+          "word": "PERİ̇YOTİ̇K",
+          "hint": "Elementlerin belirli aralıklarla tekrarlanan fiziksel ve kimyasal özelliklerini ifade eden terim."
+        },
+        {
+          "word": "KATMAN",
+          "hint": "Bir atomun çekirdeği etrafındaki elektronların bulunduğu enerji düzeyi."
+        },
+        {
+          "word": "ELEKTRONEGATİ̇FLİ̇K",
+          "hint": "Bir atomun kimyasal bağda elektronları kendine çekme isteği."
+        },
+        {
+          "word": "POLARİ̇TE",
+          "hint": "Bir molekülün yüklerinin dengesiz dağılması sonucu oluşan kutuplaşma."
+        },
+        {
+          "word": "APOLAR",
+          "hint": "Yük dağılımı simetrik olan, kutupları bulunmayan molekül türü."
+        },
+        {
+          "word": "VAN DER WAALS",
+          "hint": "Kalıcı dipolü olmayan moleküller arasındaki zayıf etkileşim türü."
+        },
+        {
+          "word": "Dİ̇POL",
+          "hint": "Aynı büyüklükte zıt yüklere sahip, birbirine yakın iki nokta."
+        },
+        {
+          "word": "İ̇LETKENLİ̇K",
+          "hint": "Maddelerin elektrik akımını veya ısıyı geçirme yeteneği."
+        },
+        {
+          "word": "KRİ̇STAL",
+          "hint": "Belirli bir geometrik yapıya sahip katı madde."
+        },
+        {
+          "word": "ALEVLENME",
+          "hint": "Bir maddenin tutuşarak yanmaya başladığı en düşük sıcaklık."
+        },
+        {
+          "word": "REAKTİ̇FLİ̇K",
+          "hint": "Bir maddenin kimyasal tepkimeye girme eğilimi."
+        },
+        {
+          "word": "VALANS",
+          "hint": "Bir atomun başka atomlarla bağ oluştururken kullanabildiği en dış elektron sayısı."
+        },
+        {
+          "word": "KATİYON",
+          "hint": "Pozitif yüklü iyondur, elektron kaybetmiş atom."
+        },
+        {
+          "word": "ANYON",
+          "hint": "Negatif yüklü iyondur, elektron kazanmış atom."
+        },
+        {
+          "word": "İ̇YONLAŞMA",
+          "hint": "Nötr bir atomun veya molekülün elektron kazanarak veya kaybederek yüklü hale gelmesi."
+        },
+        {
+          "word": "KÖPRÜ",
+          "hint": "Kimyasal bağlar aracılığıyla atomları bir arada tutan bağlantı."
+        },
+        {
+          "word": "Kİ̇MYASAL",
+          "hint": "Maddelerin yapısını ve özelliklerini inceleyen bilim dalı ile ilgili."
+        },
+        {
+          "word": "SEMBOLLER",
+          "hint": "Elementleri ve bileşikleri temsil eden harfler veya gruplar."
+        },
+        {
+          "word": "MADDELER",
+          "hint": "Boşlukta yer kaplayan ve kütlesi olan her şey."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Elementlerin atom numaralarına göre düzenlenmiş hali (Periyodik ...)."
+        },
+        {
+          "word": "YÖRÜNGE",
+          "hint": "Elektronların atom çekirdeği etrafında izlediği düşünülen yol."
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme yeteneği, elektronların bulunduğu seviyeler."
+        },
+        {
+          "word": "ETKİ̇LEŞİ̇M",
+          "hint": "Atomlar veya moleküller arasındaki çekme veya itme kuvvetleri."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Bir cismi hareket ettirebilen veya şeklini değiştirebilen etki."
+        },
+        {
+          "word": "YÜKSELTGENME",
+          "hint": "Bir atomun elektron vermesi olayı."
+        },
+        {
+          "word": "İ̇NDİ̇GENME",
+          "hint": "Bir atomun elektron alması olayı."
+        },
+        {
+          "word": "REDOKS",
+          "hint": "Yükseltgenme ve indirgenme olaylarının birlikte gerçekleştiği tepkimeler."
+        },
+        {
+          "word": "ÇÖZÜNÜRLÜK",
+          "hint": "Bir maddenin başka bir madde içinde eriyebilme derecesi."
+        },
+        {
+          "word": "ZAYİF",
+          "hint": "Kolayca kırılan veya kopan, az enerji gerektiren bağ türü."
+        },
+        {
+          "word": "GÜÇLÜ",
+          "hint": "Kırılması zor, çok enerji gerektiren bağ türü."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Maddeleri oluşturan atomların veya moleküllerin düzenlenme şekli."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Bir bileşiği oluşturan atomların türünü ve sayısını gösteren semboller dizisi."
+        },
+        {
+          "word": "LEYTİ̇S",
+          "hint": "Kristal yapıdaki atomların sıralanmış düzeni."
+        },
+        {
+          "word": "SAFLİK",
+          "hint": "Bir maddenin başka maddelerle karışmamış olma durumu."
+        },
+        {
+          "word": "HALDEĞİ̇Şİ̇Mİ̇",
+          "hint": "Bir maddenin bir halden başka bir hale geçmesi (katıdan sıvıya gibi)."
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Bir yüzeye uygulanan dik kuvvet."
+        },
+        {
+          "word": "SİCAKLİK",
+          "hint": "Bir cismin taneciklerinin ortalama kinetik enerjisinin bir ölçüsü."
+        },
+        {
+          "word": "KUTUPSUZLUK",
+          "hint": "Moleküllerde yüklerin eşit dağılımı."
+        },
+        {
+          "word": "ENTEALPİ̇",
+          "hint": "Bir sistemin iç enerjisi ve basınç-hacim çarpımının toplamı, kimyasal tepkimelerdeki enerji değişimi."
+        },
+        {
+          "word": "KRİ̇STALLEŞME",
+          "hint": "Çözeltiden katı kristallerin oluşması süreci."
+        },
+        {
+          "word": "MOBİ̇Lİ̇TE",
+          "hint": "Taneciklerin hareket edebilme yeteneği."
+        },
+        {
+          "word": "TERMODİ̇NAMİ̇K",
+          "hint": "Enerji ve iş arasındaki ilişkiyi inceleyen bilim dalı."
+        },
+        {
+          "word": "Dİ̇NAMİ̇K",
+          "hint": "Sürekli hareket ve değişimle ilgili olan."
+        },
+        {
+          "word": "İ̇NFRARED",
+          "hint": "Kızılötesi ışın, moleküllerin titreşimlerini incelemede kullanılır."
+        },
+        {
+          "word": "SPEKTROSKOPİ̇",
+          "hint": "Maddelerin ışıkla etkileşimini inceleyen yöntem."
+        },
+        {
+          "word": "KROMATOGRAFİ̇",
+          "hint": "Karışımları ayırma tekniği."
+        },
+        {
+          "word": "ELEKTROKİ̇MYA",
+          "hint": "Kimyasal enerji ile elektrik enerjisi arasındaki ilişkiyi inceler."
+        },
+        {
+          "word": "NÜKLEUS",
+          "hint": "Atomun merkezinde bulunan, proton ve nötronlardan oluşan kısım."
+        },
+        {
+          "word": "İ̇ZOTOP",
+          "hint": "Aynı elementin farklı nötron sayısına sahip atomları."
+        },
+        {
+          "word": "RADYOAKTİ̇F",
+          "hint": "Kararsız çekirdeğin kendiliğinden bozunarak enerji yayması."
+        }
       ]
     },
     {
       "id": "kimya_u2",
       "name": "2. Ünite: Asitler Bazlar",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "ASİT", "hint": "Suda çözününce hidrojen iyonu veren bileşik"},
-        {"word": "BAZ", "hint": "Suda çözününce hidroksit iyonu veren bileşik"},
-        {"word": "NÖTRALLEŞME", "hint": "Asit ve bazın birleşerek tuz ve su oluşturması"},
-        {"word": "İNDİKATÖR", "hint": "Asit veya baz varlığını renk değişimiyle gösteren madde"},
-        {"word": "TURNUSOL", "hint": "Asit ve baz ayırt etmede kullanılan kağıt türü"}
+        {
+          "word": "ASİT",
+          "hint": "Suda çözününce hidrojen iyonu veren bileşik"
+        },
+        {
+          "word": "BAZ",
+          "hint": "Suda çözününce hidroksit iyonu veren bileşik"
+        },
+        {
+          "word": "NÖTRALLEŞME",
+          "hint": "Asit ve bazın birleşerek tuz ve su oluşturması"
+        },
+        {
+          "word": "İNDİKATÖR",
+          "hint": "Asit veya baz varlığını renk değişimiyle gösteren madde"
+        },
+        {
+          "word": "TURNUSOL",
+          "hint": "Asit ve baz ayırt etmede kullanılan kağıt türü"
+        },
+        {
+          "word": "TUZ",
+          "hint": "Asit ve baz tepkimesinde oluşan madde"
+        },
+        {
+          "word": "PH",
+          "hint": "Bir çözeltinin asitlik veya bazlık derecesini ölçen birim"
+        },
+        {
+          "word": "ASİ̇TLİ̇K",
+          "hint": "Bir maddenin asit olma özelliği"
+        },
+        {
+          "word": "BAZLİK",
+          "hint": "Bir maddenin baz olma özelliği"
+        },
+        {
+          "word": "TEPKİ̇ME",
+          "hint": "Kimyasal maddelerin birbirleriyle etkileşimi"
+        },
+        {
+          "word": "ÇÖZELTİ̇",
+          "hint": "Bir maddenin başka bir madde içinde homojen olarak dağılmasıyla oluşan karışım"
+        },
+        {
+          "word": "MOLEKÜL",
+          "hint": "Bir kimyasal bileşiğin en küçük birimi"
+        },
+        {
+          "word": "İ̇YON",
+          "hint": "Elektrik yükü taşıyan atom veya atom grubu"
+        },
+        {
+          "word": "KATYON",
+          "hint": "Pozitif yüklü iyon"
+        },
+        {
+          "word": "ANYON",
+          "hint": "Negatif yüklü iyon"
+        },
+        {
+          "word": "SU",
+          "hint": "Asit ve bazların sulu çözeltilerinde önemli rol oynayan bileşik"
+        },
+        {
+          "word": "ELEKTROLİ̇T",
+          "hint": "Suda çözündüğünde iyonlarına ayrılan ve elektrik akımını ileten madde"
+        },
+        {
+          "word": "PH METRE",
+          "hint": "PH değerini hassas bir şekilde ölçen elektronik cihaz"
+        },
+        {
+          "word": "ASİ̇D YAĞMURLARİ",
+          "hint": "Havadaki kirlilik nedeniyle pH'ı düşen yağmurlar"
+        },
+        {
+          "word": "LAVİ̇",
+          "hint": "Yanardağlardan çıkan akışkan ve sıcak madde, asidik olabilir"
+        },
+        {
+          "word": "Vİ̇NEGAR",
+          "hint": "Sirkenin diğer adı, asetik asit içerir"
+        },
+        {
+          "word": "AMONYAK",
+          "hint": "Temizlik ürünlerinde kullanılan, keskin kokulu bazik madde"
+        },
+        {
+          "word": "KALSİ̇YUM KARBONAT",
+          "hint": "Tebeşir ve mermerin ana bileşeni, bazik özellik gösterir"
+        },
+        {
+          "word": "SODYUM Hİ̇DROKSİ̇T",
+          "hint": "Kostik soda olarak da bilinen, güçlü bir baz"
+        },
+        {
+          "word": "SÜLFÜRİ̇K ASİ̇T",
+          "hint": "Akülerde kullanılan kuvvetli bir asit"
+        },
+        {
+          "word": "Nİ̇TRİ̇K ASİ̇T",
+          "hint": "Gübre üretiminde kullanılan kuvvetli bir asit"
+        },
+        {
+          "word": "FOSFORİ̇K ASİ̇T",
+          "hint": "Gazlı içeceklerde tatlandırıcı olarak kullanılan asit"
+        },
+        {
+          "word": "ASETİ̇K ASİ̇T",
+          "hint": "Sirkenin ana bileşeni olan zayıf asit"
+        },
+        {
+          "word": "KARBONİ̇K ASİ̇T",
+          "hint": "Gazlı içeceklere gazlılık veren zayıf asit"
+        },
+        {
+          "word": "Lİ̇MON ASİ̇Dİ̇",
+          "hint": "Limonda bulunan ve ekşi tat veren asit"
+        },
+        {
+          "word": "OKSALİ̇K ASİ̇T",
+          "hint": "Ispanak gibi bazı sebzelerde bulunan asit"
+        },
+        {
+          "word": "FORMİ̇K ASİ̇T",
+          "hint": "Karıncaların savunma salgısında bulunan asit"
+        },
+        {
+          "word": "Hİ̇DROKLORİ̇K ASİ̇T",
+          "hint": "Mide öz suyunda bulunan ve sindirime yardımcı olan kuvvetli asit"
+        },
+        {
+          "word": "KUVVETLİ̇ ASİ̇T",
+          "hint": "Suda tamamen iyonlaşan asit türü"
+        },
+        {
+          "word": "ZAYİF ASİ̇T",
+          "hint": "Suda kısmen iyonlaşan asit türü"
+        },
+        {
+          "word": "KUVVETLİ̇ BAZ",
+          "hint": "Suda tamamen iyonlaşan baz türü"
+        },
+        {
+          "word": "ZAYİF BAZ",
+          "hint": "Suda kısmen iyonlaşan baz türü"
+        },
+        {
+          "word": "TÜKENMEZ KALEM",
+          "hint": "Bu tür kalemlerin mürekkebi bazen asidik olabilir"
+        },
+        {
+          "word": "ÇAMAŞİR SUYU",
+          "hint": "Güçlü bir baz içeren temizlik maddesi"
+        },
+        {
+          "word": "Kİ̇REÇ",
+          "hint": "İnşaatta kullanılan bazik bir madde"
+        },
+        {
+          "word": "SABUN",
+          "hint": "Genellikle bazik özellik gösteren temizlik maddesi"
+        },
+        {
+          "word": "Pİ̇L",
+          "hint": "Kimyasal enerjiyi elektrik enerjisine çeviren araç, içindeki elektrolitler önemlidir"
+        },
+        {
+          "word": "ELEKTROLİ̇Z",
+          "hint": "Elektrik akımı yardımıyla bileşikleri ayrıştırma işlemi"
+        },
+        {
+          "word": "DAMİ̇Tİ̇",
+          "hint": "Asit veya baz çözeltilerini seyreltmek için kullanılır, önce su eklenir"
+        },
+        {
+          "word": "TERAZİ̇",
+          "hint": "Maddelerin kütlesini ölçmeye yarayan araç"
+        },
+        {
+          "word": "BÜRET",
+          "hint": "Titrasyon işlemlerinde kullanılan, üzerinde derecelendirme bulunan cam araç"
+        },
+        {
+          "word": "ERLEN",
+          "hint": "Kimyasal tepkimelerin yapıldığı konik tabanlı cam kap"
+        },
+        {
+          "word": "HACİ̇M",
+          "hint": "Bir maddenin kapladığı yer miktarı"
+        },
+        {
+          "word": "KONSANTRASYON",
+          "hint": "Çözeltideki çözünen madde miktarının ölçüsü"
+        },
+        {
+          "word": "MOLARİ̇TE",
+          "hint": "Çözeltinin litresindeki mol sayısını ifade eden derişim birimi"
+        },
+        {
+          "word": "DERECE",
+          "hint": "Sıcaklık veya bir ölçümün seviyesi"
+        },
+        {
+          "word": "EMME",
+          "hint": "Sıvıları içine çekme özelliği, sünger gibi"
+        }
       ]
     }
   ]

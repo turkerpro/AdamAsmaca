@@ -3,25 +3,431 @@
     {
       "id": "ingilizce5_u1",
       "name": "1. Ünite: Daily Routines",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "BREAKFAST", "hint": "Günün ilk öğünü, sabah yemeği"},
-        {"word": "SHOWER", "hint": "Her gün yapılan temizlik, duş almak"},
-        {"word": "HOMEWORK", "hint": "Okuldan sonra yapılan ev ödevi"},
-        {"word": "SCHEDULE", "hint": "Günlük yapılacaklar listesi, program"},
-        {"word": "ROUTINE", "hint": "Her gün tekrarlanan alışkanlıklar dizisi"}
+        {
+          "word": "BREAKFAST",
+          "hint": "Günün ilk öğünü, sabah yemeği"
+        },
+        {
+          "word": "SHOWER",
+          "hint": "Her gün yapılan temizlik, duş almak"
+        },
+        {
+          "word": "HOMEWORK",
+          "hint": "Okuldan sonra yapılan ev ödevi"
+        },
+        {
+          "word": "SCHEDULE",
+          "hint": "Günlük yapılacaklar listesi, program"
+        },
+        {
+          "word": "ROUTINE",
+          "hint": "Her gün tekrarlanan alışkanlıklar dizisi"
+        },
+        {
+          "word": "UYANMAK",
+          "hint": "Sabahları yataktan kalkma eylemi."
+        },
+        {
+          "word": "Gİ̇Yİ̇NMEK",
+          "hint": "Üzerine kıyafetler geçirme."
+        },
+        {
+          "word": "YİKANMAK",
+          "hint": "Vücudu temizlemek için su ve sabun kullanmak."
+        },
+        {
+          "word": "SAÇ TARAMAK",
+          "hint": "Saçları düzeltme ve düzenleme işlemi."
+        },
+        {
+          "word": "Dİ̇Ş FİRÇALAMAK",
+          "hint": "Ağız ve diş sağlığı için yapılan temizlik."
+        },
+        {
+          "word": "YEMEK",
+          "hint": "Beslenmek için ağızdan alınan yiyecek."
+        },
+        {
+          "word": "KAHVALTİ",
+          "hint": "Sabahları yapılan ilk öğün."
+        },
+        {
+          "word": "ÖĞLE YEMEĞİ̇",
+          "hint": "Gün ortasında yenilen ana öğün."
+        },
+        {
+          "word": "AKŞAM YEMEĞİ̇",
+          "hint": "Günün son büyük öğünü."
+        },
+        {
+          "word": "SÜT",
+          "hint": "Beyaz, besleyici içecek."
+        },
+        {
+          "word": "EKMEK",
+          "hint": "Un, su ve maya ile yapılan temel gıda."
+        },
+        {
+          "word": "TABAĞİ",
+          "hint": "Yemek yediğimiz kap."
+        },
+        {
+          "word": "BARDAK",
+          "hint": "İçecek içtiğimiz kap."
+        },
+        {
+          "word": "ÇATAL",
+          "hint": "Yemek yemek için kullanılan metal araç."
+        },
+        {
+          "word": "KAŞİK",
+          "hint": "Çorba veya yoğurt gibi şeyleri yemek için kullanılır."
+        },
+        {
+          "word": "BİÇAK",
+          "hint": "Yiyecekleri kesmeye yarayan alet."
+        },
+        {
+          "word": "OKUL",
+          "hint": "Bilgi öğrendiğimiz yer."
+        },
+        {
+          "word": "SİNİF",
+          "hint": "Okulda ders yaptığımız oda."
+        },
+        {
+          "word": "DERS Kİ̇TABİ",
+          "hint": "Öğrenmek için okuduğumuz kitap."
+        },
+        {
+          "word": "SÖZLÜK",
+          "hint": "Kelime anlamlarını bulduğumuz kitap."
+        },
+        {
+          "word": "SİRA",
+          "hint": "Okulda oturduğumuz yer."
+        },
+        {
+          "word": "Sİ̇LGİ̇",
+          "hint": "Kalemle yazdığımız hataları yok eden araç."
+        },
+        {
+          "word": "KALEMTRAŞ",
+          "hint": "Kalemin ucunu açmaya yarayan alet."
+        },
+        {
+          "word": "SİRT ÇANTASİ",
+          "hint": "Okul eşyalarımızı taşıdığımız çanta."
+        },
+        {
+          "word": "OYUN OYNAMAK",
+          "hint": "Eğlenmek için yapılan aktivite."
+        },
+        {
+          "word": "TV İ̇ZLEMEK",
+          "hint": "Ekrandan hareketli görüntüler seyretmek."
+        },
+        {
+          "word": "Kİ̇TAP OKUMAK",
+          "hint": "Yazıları takip ederek bilgi edinmek."
+        },
+        {
+          "word": "MÜZİ̇K Dİ̇NLEMEK",
+          "hint": "Seslerden oluşan hoşnutluk verici uyarıcıları duymak."
+        },
+        {
+          "word": "UYUMAK",
+          "hint": "Dinlenmek için gözleri kapatıp hareketsiz kalmak."
+        },
+        {
+          "word": "YATAK",
+          "hint": "Üzerinde uyuduğumuz eşya."
+        },
+        {
+          "word": "Pİ̇JAMA",
+          "hint": "Uyurken giyilen rahat kıyafet."
+        },
+        {
+          "word": "ÖRTMEMEK",
+          "hint": "Üzerine bir şey örtmek."
+        },
+        {
+          "word": "YASTİK",
+          "hint": "Başımızı koyduğumuz yumuşak eşya."
+        },
+        {
+          "word": "ELBİ̇SE",
+          "hint": "Giysi, kıyafet."
+        },
+        {
+          "word": "AYAKKABİ",
+          "hint": "Ayaklarımıza giydiğimiz koruyucu eşya."
+        },
+        {
+          "word": "ÇORAP",
+          "hint": "Ayaklarımıza giydiğimiz kumaş."
+        },
+        {
+          "word": "SAAT",
+          "hint": "Zamanı gösteren alet."
+        },
+        {
+          "word": "GÜNDÜZ",
+          "hint": "Güneşin aydınlattığı zaman."
+        },
+        {
+          "word": "GECE",
+          "hint": "Güneşin olmadığı karanlık zaman."
+        },
+        {
+          "word": "PAZARTESİ̇",
+          "hint": "Haftanın ilk günü."
+        },
+        {
+          "word": "SALİ",
+          "hint": "Haftanın ikinci günü."
+        },
+        {
+          "word": "ÇARŞAMBA",
+          "hint": "Haftanın ortasındaki gün."
+        },
+        {
+          "word": "PERŞEMBE",
+          "hint": "Haftanın dördüncü günü."
+        },
+        {
+          "word": "CUMA",
+          "hint": "Haftanın beşinci günü."
+        },
+        {
+          "word": "CUMARTESİ̇",
+          "hint": "Haftanın altıncı günü, okul olmayan gün."
+        },
+        {
+          "word": "PAZAR",
+          "hint": "Haftanın yedinci günü, dinlenme günü."
+        }
       ]
     },
     {
       "id": "ingilizce5_u2",
       "name": "2. Ünite: Hobbies",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "PAINTING", "hint": "Boya ve fırça ile resim yapma hobisi"},
-        {"word": "CYCLING", "hint": "Bisiklet sürme etkinliği"},
-        {"word": "READING", "hint": "Kitap veya dergi okuma hobisi"},
-        {"word": "FISHING", "hint": "Olta ile balık tutma etkinliği"},
-        {"word": "CAMPING", "hint": "Doğada çadır kurarak vakit geçirme"}
+        {
+          "word": "PAINTING",
+          "hint": "Boya ve fırça ile resim yapma hobisi"
+        },
+        {
+          "word": "CYCLING",
+          "hint": "Bisiklet sürme etkinliği"
+        },
+        {
+          "word": "READING",
+          "hint": "Kitap veya dergi okuma hobisi"
+        },
+        {
+          "word": "FISHING",
+          "hint": "Olta ile balık tutma etkinliği"
+        },
+        {
+          "word": "CAMPING",
+          "hint": "Doğada çadır kurarak vakit geçirme"
+        },
+        {
+          "word": "MÜZİ̇K Dİ̇NLEMEK",
+          "hint": "Kulaklıkla veya hoparlörden melodileri duymak"
+        },
+        {
+          "word": "FOTOĞRAF ÇEKMEK",
+          "hint": "Anıları yakalamak için kamerayı kullanmak"
+        },
+        {
+          "word": "BAHÇECİ̇Lİ̇K",
+          "hint": "Bitkileri büyütmek ve onlara bakmak"
+        },
+        {
+          "word": "YEMEK YAPMAK",
+          "hint": "Lezzetli yiyecekler hazırlama sanatı"
+        },
+        {
+          "word": "YÜZME",
+          "hint": "Suda ilerlemek ve serinlemek"
+        },
+        {
+          "word": "DANS ETMEK",
+          "hint": "Müzikle ritmik hareketler yapmak"
+        },
+        {
+          "word": "OYUN OYNAMAK",
+          "hint": "Eğlenceli aktivitelerle vakit geçirmek (bilgisayar oyunu, kutu oyunu vb.)"
+        },
+        {
+          "word": "ARABA YARİŞİ",
+          "hint": "Hızlı araçlarla yapılan bir yarışma"
+        },
+        {
+          "word": "Bİ̇Sİ̇KLETE Bİ̇NMEK",
+          "hint": "İki tekerlekli bir araçla gezinmek"
+        },
+        {
+          "word": "SATRANÇ OYNAMAK",
+          "hint": "Zeka gerektiren strateji oyunu"
+        },
+        {
+          "word": "TELLİ̇ ÇALGİ ÇALMAK",
+          "hint": "Gitar, keman gibi enstrümanları çalmak"
+        },
+        {
+          "word": "NEFESLİ̇ ÇALGİ ÇALMAK",
+          "hint": "Flüt, trompet gibi aletlerle melodi üretmek"
+        },
+        {
+          "word": "YAZMA",
+          "hint": "Hikaye, şiir gibi metinler oluşturmak"
+        },
+        {
+          "word": "Çİ̇Zİ̇M YAPMAK",
+          "hint": "Kağıt üzerine şekiller ve resimler oluşturmak"
+        },
+        {
+          "word": "VOLEYBOL OYNAMAK",
+          "hint": "File üzerinden topu karşılıklı atma oyunu"
+        },
+        {
+          "word": "BASKETBOL OYNAMAK",
+          "hint": "Topu çemberden geçirme spor dalı"
+        },
+        {
+          "word": "FUTBOL OYNAMAK",
+          "hint": "Ayakla topu kaleye gönderme oyunu"
+        },
+        {
+          "word": "TİYATRO İ̇ZLEMEK",
+          "hint": "Sahnedeki oyuncuları izlemek"
+        },
+        {
+          "word": "SİNEMA İ̇ZLEMEK",
+          "hint": "Büyük perdede film seyretmek"
+        },
+        {
+          "word": "KİTAP OKUMAK",
+          "hint": "Sayfalar arasındaki bilgileri ve öyküleri keşfetmek"
+        },
+        {
+          "word": "TIRMANIŞ",
+          "hint": "Yüksek yerlere çıkma aktivitesi"
+        },
+        {
+          "word": "KAYAK YAPMAK",
+          "hint": "Kar üzerinde kayma sporu"
+        },
+        {
+          "word": "BUZ PATENİ",
+          "hint": "Buz üzerinde kayma ayakkabılarıyla yapılan aktivite"
+        },
+        {
+          "word": "KUKLA OYUNU",
+          "hint": "Elle veya iple yönetilen karakterlerle oynanan oyun"
+        },
+        {
+          "word": "HEYKEL YAPMAK",
+          "hint": "Kil veya benzeri malzemelerle üç boyutlu şekiller oluşturmak"
+        },
+        {
+          "word": "MOZAİK YAPMAK",
+          "hint": "Küçük renkli taşlarla desen oluşturma"
+        },
+        {
+          "word": "ORİGAMİ",
+          "hint": "Kağıdı katlayarak şekiller yapma sanatı"
+        },
+        {
+          "word": "MODEL UÇAK YAPIMI",
+          "hint": "Maket uçakları birleştirme ve boyama"
+        },
+        {
+          "word": "PUL KOLEKSİYONCULUĞU",
+          "hint": "Farklı ülkelerin posta pullarını toplama"
+        },
+        {
+          "word": "PARA KOLEKSİYONCULUĞU",
+          "hint": "Farklı ülkelerin paralarını biriktirme"
+        },
+        {
+          "word": "TARİHİ MEKANLARI GEZMEK",
+          "hint": "Geçmişten kalan yapıları ve yerleri ziyaret etmek"
+        },
+        {
+          "word": "DOĞA YÜRÜYÜŞÜ",
+          "hint": "Ormanlık veya dağlık alanlarda yürüme"
+        },
+        {
+          "word": "SIRT ÇANTASIYLA GEZMEK",
+          "hint": "Yanına eşyalarını alıp uzun süreli seyahat etmek"
+        },
+        {
+          "word": "BALE YAPMAK",
+          "hint": "Klasik müzik eşliğinde zarif dans figürleri"
+        },
+        {
+          "word": "HALK OYUNLARI",
+          "hint": "Belirli bir yörenin geleneksel dansları"
+        },
+        {
+          "word": "SÖRF YAPMAK",
+          "hint": "Dalgaların üzerinde tahta ile kayma"
+        },
+        {
+          "word": "KÜREK ÇEKMEK",
+          "hint": "Botu veya tekneyi küreklerle ilerletmek"
+        },
+        {
+          "word": "RAFTİNG",
+          "hint": "Raft denilen botlarla hızlı nehirlerde ilerlemek"
+        },
+        {
+          "word": "MEKTUP YAZMAK",
+          "hint": "El yazısıyla düşünceleri kağıda dökmek"
+        },
+        {
+          "word": "TIRMANMA DUVARI",
+          "hint": "Yapısal olarak tırmanışa uygun duvar"
+        },
+        {
+          "word": "KUŞ GÖZLEMCİLİĞİ",
+          "hint": "Farklı kuş türlerini izleme ve tanıma"
+        },
+        {
+          "word": "ARKEOLOJİ",
+          "hint": "Kazı yaparak geçmişi araştırma bilimi"
+        },
+        {
+          "word": "ASTRONOMİ",
+          "hint": "Uzaydaki gök cisimlerini inceleme bilimi"
+        },
+        {
+          "word": "FOSFORLU KALEMLE BOYAMA",
+          "hint": "Parlak renkli boyalarla resim yapma"
+        },
+        {
+          "word": "SICAK HAVA BALONU",
+          "hint": "Büyük bir balonla gökyüzünde süzülme"
+        }
       ]
     }
   ]

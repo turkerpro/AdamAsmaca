@@ -3,25 +3,431 @@
     {
       "id": "cografya_u1",
       "name": "1. Ünite: İklim",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "YAĞIŞ", "hint": "Atmosferdeki su buharının yoğunlaşarak yere düşmesi"},
-        {"word": "SICAKLIK", "hint": "Havanın ısı derecesini ifade eden ölçü"},
-        {"word": "NEM", "hint": "Havadaki su buharı miktarını belirten kavram"},
-        {"word": "RÜZGAR", "hint": "Basınç farkı nedeniyle yatay esen hava akımı"},
-        {"word": "İKLİM", "hint": "Uzun yıllar gözlemlenen ortalama hava durumu"}
+        {
+          "word": "YAĞIŞ",
+          "hint": "Atmosferdeki su buharının yoğunlaşarak yere düşmesi"
+        },
+        {
+          "word": "SICAKLIK",
+          "hint": "Havanın ısı derecesini ifade eden ölçü"
+        },
+        {
+          "word": "NEM",
+          "hint": "Havadaki su buharı miktarını belirten kavram"
+        },
+        {
+          "word": "RÜZGAR",
+          "hint": "Basınç farkı nedeniyle yatay esen hava akımı"
+        },
+        {
+          "word": "İKLİM",
+          "hint": "Uzun yıllar gözlemlenen ortalama hava durumu"
+        },
+        {
+          "word": "ATMOSFER",
+          "hint": "Dünyayı çepeçevre saran gaz tabakası."
+        },
+        {
+          "word": "MEVSİ̇M",
+          "hint": "Belirli bir süre boyunca tekrar eden hava durumu döngüsü (ilkbahar, yaz, sonbahar, kış)."
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Havanın uyguladığı ağırlık veya kuvvet."
+        },
+        {
+          "word": "ALÇAK",
+          "hint": "Hava basıncının düşük olduğu, genellikle yağışlı ve bulutlu hava durumu bölgeleri."
+        },
+        {
+          "word": "YÜKSEK",
+          "hint": "Hava basıncının yüksek olduğu, genellikle açık ve güneşli hava durumu bölgeleri."
+        },
+        {
+          "word": "HAVA KÜTLESİ̇",
+          "hint": "Belirli bir sıcaklık ve nem özelliğine sahip geniş hava alanı."
+        },
+        {
+          "word": "ÖNCÜ",
+          "hint": "Bir hava kütlesinin diğerini iterek oluşturduğu sınır."
+        },
+        {
+          "word": "YER",
+          "hint": "Hava kütlesinin hareketini etkileyen, deniz, dağ gibi yeryüzü şekilleri."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Hava kütlesinin altında bulunan kara veya deniz alanı."
+        },
+        {
+          "word": "YÖRÜNGE",
+          "hint": "Bir gök cisminin başka bir gök cismi etrafında izlediği yol."
+        },
+        {
+          "word": "EĞİ̇M",
+          "hint": "Güneş ışınlarının yeryüzüne düşme açısı."
+        },
+        {
+          "word": "GÖLGE",
+          "hint": "Bir cismin ışık geçirmeyen bir yüzeyde oluşturduğu karanlık alan."
+        },
+        {
+          "word": "ALBEDO",
+          "hint": "Bir yüzeyin güneş ışığını yansıtma derecesi."
+        },
+        {
+          "word": "SERA",
+          "hint": "Cam veya plastik örtüyle kaplı, kontrollü tarım alanı."
+        },
+        {
+          "word": "KARBONDİ̇OKSİ̇T",
+          "hint": "Sera etkisi yaratan, fosil yakıtların yanmasıyla oluşan gaz."
+        },
+        {
+          "word": "METAN",
+          "hint": "Güçlü bir sera gazı, hayvancılık ve çöp depolama alanlarından salınır."
+        },
+        {
+          "word": "SU BUHARİ",
+          "hint": "Atmosferdeki en yaygın sera gazı, sıcaklık arttıkça miktarı artar."
+        },
+        {
+          "word": "OZON",
+          "hint": "Güneşin zararlı morötesi ışınlarını engelleyen gaz tabakası."
+        },
+        {
+          "word": "ANTROPOJENİ̇K",
+          "hint": "İnsan faaliyetleri sonucu oluşan."
+        },
+        {
+          "word": "İ̇NSAN",
+          "hint": "Yeryüzündeki tüm canlılar içinde en büyük etkiye sahip olan."
+        },
+        {
+          "word": "ENDÜSTRİ̇",
+          "hint": "Fabrika ve sanayi üretimiyle ilgili alan."
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme kapasitesi, elektrik, kömür, petrol gibi kaynaklar."
+        },
+        {
+          "word": "TARİM",
+          "hint": "Bitki yetiştirme ve hayvan bakımıyla ilgili faaliyetler."
+        },
+        {
+          "word": "ULAŞİM",
+          "hint": "İnsanların ve eşyaların bir yerden bir yere gitmesi (kara, hava, deniz)."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Çok sayıda ağacın bir arada bulunduğu geniş alan."
+        },
+        {
+          "word": "Kİ̇RLİ̇Lİ̇K",
+          "hint": "Çevreye yayılan zararlı maddeler."
+        },
+        {
+          "word": "DEĞİ̇Şİ̇M",
+          "hint": "Bir durumdan başka bir duruma geçiş."
+        },
+        {
+          "word": "ÖLÇÜM",
+          "hint": "Bir niceliğin değerini belirleme işlemi."
+        },
+        {
+          "word": "GRAFİ̇K",
+          "hint": "Verileri görsel olarak gösteren çizim."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Verilerin satır ve sütunlarda düzenlenmiş hali."
+        },
+        {
+          "word": "HARİ̇TA",
+          "hint": "Yeryüzünün belirli bir bölümünün kuşbakışı görünümünü gösteren çizim."
+        },
+        {
+          "word": "UYDU",
+          "hint": "Dünya etrafında dönen, gözlem ve iletişim sağlayan araç."
+        },
+        {
+          "word": "YEREL",
+          "hint": "Belirli bir bölgeye ait olan."
+        },
+        {
+          "word": "BÖLGE",
+          "hint": "Belirli özelliklere sahip yeryüzü parçası."
+        },
+        {
+          "word": "KANAL",
+          "hint": "Yapay su yolu."
+        },
+        {
+          "word": "DERE",
+          "hint": "Küçük akarsu."
+        },
+        {
+          "word": "GÖL",
+          "hint": "Çevresi kara ile kaplı büyük su birikintisi."
+        },
+        {
+          "word": "DENİ̇Z",
+          "hint": "Geniş ve tuzlu su kütlesi."
+        },
+        {
+          "word": "OKYANUS",
+          "hint": "Kıtaları ayıran devasa tuzlu su kütlesi."
+        },
+        {
+          "word": "AKİNTİ",
+          "hint": "Deniz veya nehirlerdeki su hareketi."
+        },
+        {
+          "word": "DALGA",
+          "hint": "Deniz yüzeyindeki hareketli kabartı."
+        },
+        {
+          "word": "Çİ̇Ğ",
+          "hint": "Sabahları bitkilerin üzerinde oluşan minik su damlacıkları."
+        },
+        {
+          "word": "KİRİLGAN",
+          "hint": "Kolayca bozulabilen, hassas."
+        },
+        {
+          "word": "KORUMA",
+          "hint": "Zarar görmesini engelleme, saklama."
+        },
+        {
+          "word": "FARKİNDALİK",
+          "hint": "Bir konu hakkında bilgi sahibi olma ve bilinçli davranma."
+        }
       ]
     },
     {
       "id": "cografya_u2",
       "name": "2. Ünite: Yer Şekilleri",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "PLATO", "hint": "Akarsular tarafından yarılmış yüksek düzlük"},
-        {"word": "OVA", "hint": "Deniz seviyesine yakın geniş düz arazi"},
-        {"word": "DAĞ", "hint": "Çevresine göre yüksek ve eğimli yer şekli"},
-        {"word": "DELTA", "hint": "Akarsuların denize döküldüğü yerde oluşan düzlük"},
-        {"word": "VADI", "hint": "Akarsuyun aşındırmasıyla oluşan uzun çukurluk"}
+        {
+          "word": "PLATO",
+          "hint": "Akarsular tarafından yarılmış yüksek düzlük"
+        },
+        {
+          "word": "OVA",
+          "hint": "Deniz seviyesine yakın geniş düz arazi"
+        },
+        {
+          "word": "DAĞ",
+          "hint": "Çevresine göre yüksek ve eğimli yer şekli"
+        },
+        {
+          "word": "DELTA",
+          "hint": "Akarsuların denize döküldüğü yerde oluşan düzlük"
+        },
+        {
+          "word": "VADI",
+          "hint": "Akarsuyun aşındırmasıyla oluşan uzun çukurluk"
+        },
+        {
+          "word": "TEPE",
+          "hint": "Dağdan daha alçak, çevresine göre yükseltilmiş düz veya eğimli yeryüzü parçası."
+        },
+        {
+          "word": "KRATER",
+          "hint": "Yanardağın ağzındaki çanak şeklindeki çukur."
+        },
+        {
+          "word": "KALDERA",
+          "hint": "Büyük yanardağ patlaması sonucu oluşan devasa çukur."
+        },
+        {
+          "word": "MANTAR KAYA",
+          "hint": "Rüzgarın aşındırmasıyla oluşan, şapka gibi görünen kaya."
+        },
+        {
+          "word": "KÖPRÜ KAYAS",
+          "hint": "Doğal yollarla oluşmuş, üzerinde yürünebilen kaya kemeri."
+        },
+        {
+          "word": "STALAKTİ̇T",
+          "hint": "Madenlerde tavandan sarkan sarkıt."
+        },
+        {
+          "word": "STALAGMİ̇T",
+          "hint": "Madenlerde yerden tavana doğru büyüyen dikit."
+        },
+        {
+          "word": "OBRUK",
+          "hint": "Yeraltı sularının kireçtaşını eritmesiyle oluşan derin çukur."
+        },
+        {
+          "word": "Sİ̇NÜS",
+          "hint": "Kıyıların girintili çıkıntılı şekli."
+        },
+        {
+          "word": "Fİ̇YORT",
+          "hint": "Buzul aşındırmasıyla oluşmuş, denize dik inen derin ve dar körfez."
+        },
+        {
+          "word": "RİF",
+          "hint": "Deniz altında veya yüzeyine yakın, mercanlardan oluşan set."
+        },
+        {
+          "word": "KÖRFEZ",
+          "hint": "Denizin kara içine sokulmuş büyük girintisi."
+        },
+        {
+          "word": "BOĞAZ",
+          "hint": "İki denizi birbirine bağlayan dar su geçidi."
+        },
+        {
+          "word": "KAPUZ",
+          "hint": "Denizin karaya dik olarak uzanan dar ve uzun girintisi."
+        },
+        {
+          "word": "TÜNE",
+          "hint": "Dağların altından açılan yapay yollar."
+        },
+        {
+          "word": "Vİ̇ADÜK",
+          "hint": "Vadi veya alçak alanlar üzerinden geçen köprü."
+        },
+        {
+          "word": "KANYON",
+          "hint": "Derin ve dik yamaçlı vadilere verilen ad."
+        },
+        {
+          "word": "TÜFEK",
+          "hint": "Dağların zirvelerinde bulunan sivri kaya."
+        },
+        {
+          "word": "PERİ̇ BACALARİ",
+          "hint": "Nevşehir'de görülen, şapkalı koni şeklindeki ilginç oluşumlar."
+        },
+        {
+          "word": "MENDERES",
+          "hint": "Akarsuların taşıdığı alüvyonlarla oluşturduğu eğri büğrü yatak."
+        },
+        {
+          "word": "ERİ̇ME",
+          "hint": "Katı halden sıvı hale geçiş."
+        },
+        {
+          "word": "DONMA",
+          "hint": "Sıvı halden katı hale geçiş."
+        },
+        {
+          "word": "BUHARLAŞMA",
+          "hint": "Sıvı halden gaz hale geçiş."
+        },
+        {
+          "word": "YOĞUNLAŞMA",
+          "hint": "Gaz halden sıvı hale geçiş."
+        },
+        {
+          "word": "EROZYON",
+          "hint": "Toprağın su veya rüzgarla taşınması."
+        },
+        {
+          "word": "Bİ̇Rİ̇Kİ̇M",
+          "hint": "Taşınan malzemenin bir yere yığılması."
+        },
+        {
+          "word": "DİKİLMA",
+          "hint": "Yeraltı magmasının yüzeye çıkmadan katılaşması."
+        },
+        {
+          "word": "KİZİLİRMA",
+          "hint": "Yeraltı magmasının yüzeye çıkıp katılaşması."
+        },
+        {
+          "word": "SEKİ̇",
+          "hint": "Akarsu vadilerinde basamak şeklinde görülen düzlükler."
+        },
+        {
+          "word": "TİMAR",
+          "hint": "Volkanik arazilerde oluşan küçük koni şeklindeki yükseltiler."
+        },
+        {
+          "word": "KORU",
+          "hint": "Yeraltı sularının yüzeye çıktığı yer."
+        },
+        {
+          "word": "TUNDRA",
+          "hint": "Rusya'da görülen, ağaç yetişmeyen soğuk iklim bitki örtüsü."
+        },
+        {
+          "word": "STEP",
+          "hint": "Kurak ve yarı kurak bölgelerde görülen otsu bitki örtüsü."
+        },
+        {
+          "word": "SAVANA",
+          "hint": "Tropikal bölgelerde görülen, seyrek ağaçlı ot toplulukları."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Ağaçların yoğun olarak bulunduğu geniş alan."
+        },
+        {
+          "word": "YAĞMUR ORMANLARİ",
+          "hint": "Ekvatoral bölgedeki çok yağışlı ve gür bitki örtülü ormanlar."
+        },
+        {
+          "word": "MAKİ̇",
+          "hint": "Akdeniz iklimine özgü, bodur ağaç ve çalılardan oluşan bitki örtüsü."
+        },
+        {
+          "word": "KARSTİ̇K",
+          "hint": "Kireçtaşının eritilmesiyle oluşan arazilerle ilgili."
+        },
+        {
+          "word": "BUZUL",
+          "hint": "Kalın buz tabakası."
+        },
+        {
+          "word": "SELMAL",
+          "hint": "Buzulların taşıdığı toprak ve kaya parçaları."
+        },
+        {
+          "word": "MORAYN",
+          "hint": "Buzulların hareketleriyle oluşan yığıntı tepeleri."
+        },
+        {
+          "word": "DİYABAZ",
+          "hint": "Yeraltında katılaşmış, bazaltik kayaç."
+        },
+        {
+          "word": "GRANİ̇T",
+          "hint": "Yeraltında katılaşmış, asit karakterli kayaç."
+        },
+        {
+          "word": "BAZALT",
+          "hint": "Yüzeyde katılaşmış, bazik karakterli kayaç."
+        },
+        {
+          "word": "SEDİ̇MANTER",
+          "hint": "Tortullardan oluşan kayaç türü."
+        },
+        {
+          "word": "METAMORFİ̇K",
+          "hint": "Başka kayaçların yüksek sıcaklık ve basınç altında değişmesiyle oluşan kayaç."
+        }
       ]
     }
   ]

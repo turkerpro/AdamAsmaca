@@ -3,25 +3,427 @@
     {
       "id": "fizik_u1",
       "name": "1. Ünite: Dalga Mekaniği",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "DALGA BOYU", "hint": "İki ardışık tepe noktası arasındaki uzaklık"},
-        {"word": "FREKANS", "hint": "Birim zamandaki titreşim sayısı"},
-        {"word": "GENLİK", "hint": "Dalganın denge noktasından en uzak konumu"},
-        {"word": "REZONANS", "hint": "Titreşim frekanslarının eşitlendiği durum"},
-        {"word": "KIRINIM", "hint": "Dalganın engel arkasına dolanması olayı"}
+        {
+          "word": "DALGA BOYU",
+          "hint": "İki ardışık tepe noktası arasındaki uzaklık"
+        },
+        {
+          "word": "FREKANS",
+          "hint": "Birim zamandaki titreşim sayısı"
+        },
+        {
+          "word": "GENLİK",
+          "hint": "Dalganın denge noktasından en uzak konumu"
+        },
+        {
+          "word": "REZONANS",
+          "hint": "Titreşim frekanslarının eşitlendiği durum"
+        },
+        {
+          "word": "KIRINIM",
+          "hint": "Dalganın engel arkasına dolanması olayı"
+        },
+        {
+          "word": "YAYİLMA",
+          "hint": "Bir dalganın bir ortamda ilerleme şekli."
+        },
+        {
+          "word": "PERİ̇YOT",
+          "hint": "Bir tam dalganın oluşması için geçen süre."
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "Dalgaların taşıdığı temel nicelik."
+        },
+        {
+          "word": "ORTAM",
+          "hint": "Dalganın içinde hareket ettiği madde veya boşluk."
+        },
+        {
+          "word": "DENGELENME",
+          "hint": "Bir dalganın denge konumundan sapması."
+        },
+        {
+          "word": "Sİ̇NYAL",
+          "hint": "Bilgi taşımak için kullanılan dalga."
+        },
+        {
+          "word": "TİTREŞİ̇M",
+          "hint": "Bir noktanın ileri geri hareketi."
+        },
+        {
+          "word": "İ̇LERLEME",
+          "hint": "Dalganın bir noktadan diğerine geçişi."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Dalgaları inceleme eylemi."
+        },
+        {
+          "word": "HİZ",
+          "hint": "Dalganın birim zamanda aldığı yol."
+        },
+        {
+          "word": "GÜÇ",
+          "hint": "Dalganın taşıdığı enerjinin değişim hızı."
+        },
+        {
+          "word": "ETKİ̇",
+          "hint": "Dalganın çevreye verdiği tepki."
+        },
+        {
+          "word": "BAĞİL",
+          "hint": "Bir dalganın başka bir dalgaya göre durumu."
+        },
+        {
+          "word": "ETKEN",
+          "hint": "Dalga oluşturan sebep."
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Düz bir çizgi boyunca ilerleyen dalga."
+        },
+        {
+          "word": "Sİ̇METRİ̇",
+          "hint": "Dalganın denge konumuna göre düzenli yapısı."
+        },
+        {
+          "word": "GÜÇLENDİ̇RME",
+          "hint": "Dalganın genliğinin artması."
+        },
+        {
+          "word": "ZAYİFLAMA",
+          "hint": "Dalganın genliğinin azalması."
+        },
+        {
+          "word": "YANSİMA",
+          "hint": "Dalganın bir yüzeyden geri dönmesi."
+        },
+        {
+          "word": "Gİ̇RME",
+          "hint": "Dalganın farklı bir ortama geçmesi."
+        },
+        {
+          "word": "DALGALANMA",
+          "hint": "Dalgaların oluşma süreci."
+        },
+        {
+          "word": "MADDE",
+          "hint": "Dalganın yayıldığı temel varlık."
+        },
+        {
+          "word": "BOŞLUK",
+          "hint": "Dalganın yayılabildiği, madde içermeyen yer."
+        },
+        {
+          "word": "ETKİ̇LEŞİ̇M",
+          "hint": "Dalgaların birbirleriyle olan teması."
+        },
+        {
+          "word": "GÜRÜLTÜ",
+          "hint": "İstenmeyen dalgaların oluşturduğu ses."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Dalganın şekli ve düzeni."
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Bazı dalgaların (ses gibi) oluşturduğu etki."
+        },
+        {
+          "word": "UYARİLMA",
+          "hint": "Bir kaynağın dalga üretmesi."
+        },
+        {
+          "word": "BAŞLANGİÇ",
+          "hint": "Dalganın oluştuğu ilk nokta."
+        },
+        {
+          "word": "Bİ̇Tİ̇Ş",
+          "hint": "Dalganın sonlandığı yer."
+        },
+        {
+          "word": "DALGALETKEN",
+          "hint": "Dalga oluşturan güç."
+        },
+        {
+          "word": "İ̇LETKEN",
+          "hint": "Dalganın kolayca yayıldığı ortam."
+        },
+        {
+          "word": "YALİTKAN",
+          "hint": "Dalganın zor yayıldığı ortam."
+        },
+        {
+          "word": "Dİ̇NAMİ̇K",
+          "hint": "Sürekli hareket halinde olan."
+        },
+        {
+          "word": "STATİ̇K",
+          "hint": "Durgun, hareketsiz."
+        },
+        {
+          "word": "ETKİ̇NLİ̇K",
+          "hint": "Dalganın bir olayı başlatma kabiliyeti."
+        },
+        {
+          "word": "YAKLAŞİM",
+          "hint": "Dalgaları inceleme yöntemi."
+        },
+        {
+          "word": "KARŞİT",
+          "hint": "Birbirine zıt özellik gösteren."
+        },
+        {
+          "word": "KAPSAM",
+          "hint": "Dalganın etki alanının genişliği."
+        },
+        {
+          "word": "DÜZENLİ̇Lİ̇K",
+          "hint": "Dalganın belirli bir kurala uyumu."
+        },
+        {
+          "word": "ÇAPRAZ",
+          "hint": "Birbirini kesen, dik olmayan."
+        },
+        {
+          "word": "OYUNSAL",
+          "hint": "Eğlenceli, dersle ilgili olmayan."
+        },
+        {
+          "word": "YÖNLÜ",
+          "hint": "Belirli bir doğrultuda ilerleyen."
+        },
+        {
+          "word": "Bİ̇LGİ̇",
+          "hint": "Dalgaların taşıdığı ana unsur."
+        },
+        {
+          "word": "YÖRÜNGE",
+          "hint": "Dalganın izlediği yol."
+        }
       ]
     },
     {
       "id": "fizik_u2",
       "name": "2. Ünite: Optik",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "YANSIMA", "hint": "Işığın bir yüzeyden geri dönmesi olayı"},
-        {"word": "KIRILMA", "hint": "Işığın farklı ortama geçerken yön değiştirmesi"},
-        {"word": "MERCEK", "hint": "Işığı kırarak odaklayan saydam optik araç"},
-        {"word": "PRİZMA", "hint": "Beyaz ışığı renklerine ayıran optik araç"},
-        {"word": "ODAK NOKTASI", "hint": "Paralel ışınların mercekte toplandığı nokta"}
+        {
+          "word": "YANSIMA",
+          "hint": "Işığın bir yüzeyden geri dönmesi olayı"
+        },
+        {
+          "word": "KIRILMA",
+          "hint": "Işığın farklı ortama geçerken yön değiştirmesi"
+        },
+        {
+          "word": "MERCEK",
+          "hint": "Işığı kırarak odaklayan saydam optik araç"
+        },
+        {
+          "word": "PRİZMA",
+          "hint": "Beyaz ışığı renklerine ayıran optik araç"
+        },
+        {
+          "word": "ODAK NOKTASI",
+          "hint": "Paralel ışınların mercekte toplandığı nokta"
+        },
+        {
+          "word": "AYNA",
+          "hint": "Nesnelerin görüntüsünü oluşturan parlak yüzey."
+        },
+        {
+          "word": "TELESKOP",
+          "hint": "Uzak gök cisimlerini yakından görmeyi sağlayan araç."
+        },
+        {
+          "word": "BÜYÜTEÇ",
+          "hint": "Küçük nesneleri daha büyük gösteren cam."
+        },
+        {
+          "word": "GÖLGE",
+          "hint": "Işığın bir cisim tarafından engellenmesiyle oluşan karanlık alan."
+        },
+        {
+          "word": "RENK",
+          "hint": "Işığın farklı dalga boylarının görsel algısı."
+        },
+        {
+          "word": "YUMUŞAK",
+          "hint": "Sert olmayan, kolayca şekil değiştirebilen."
+        },
+        {
+          "word": "Sİ̇LOSKOP",
+          "hint": "Görselleştirme cihazı, özellikle ışık dalgalarını incelemek için."
+        },
+        {
+          "word": "Dİ̇FRAKSİ̇YON",
+          "hint": "Işığın engeller etrafından bükülerek yayılması."
+        },
+        {
+          "word": "Gİ̇Rİ̇Şİ̇M",
+          "hint": "Dalgaların üst üste binerek yeni bir desen oluşturması."
+        },
+        {
+          "word": "POLARİ̇ZASYON",
+          "hint": "Işık dalgalarının belirli bir düzlemde titreşim yapması durumu."
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme yeteneği."
+        },
+        {
+          "word": "FOTON",
+          "hint": "Işığın temel parçacığı."
+        },
+        {
+          "word": "DALGABOYU",
+          "hint": "Bir dalganın tekrarlayan kısımları arasındaki mesafe."
+        },
+        {
+          "word": "FREKANS",
+          "hint": "Bir saniyedeki dalga sayısı."
+        },
+        {
+          "word": "İ̇LETKEN",
+          "hint": "Elektriği veya ısıyı iyi geçiren madde."
+        },
+        {
+          "word": "YALİTKAN",
+          "hint": "Elektriği veya ısıyı iyi geçirmeyen madde."
+        },
+        {
+          "word": "Sİ̇METRİ̇",
+          "hint": "Bir şeklin aynadaki görüntüsüyle aynı olması."
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Düz bir çizgi boyunca ilerleyen."
+        },
+        {
+          "word": "PERSPEKTİ̇F",
+          "hint": "Nesnelerin uzaklıklarına göre görünümünün değişmesi."
+        },
+        {
+          "word": "OPTİ̇K EKİ̇PMAN",
+          "hint": "Işıkla ilgili incelemeler için kullanılan aletler."
+        },
+        {
+          "word": "İŞİK HİZİ",
+          "hint": "Evrendeki en yüksek hız."
+        },
+        {
+          "word": "KARANLİK",
+          "hint": "Işığın olmaması durumu."
+        },
+        {
+          "word": "Sİ̇YAH",
+          "hint": "Tüm ışığı emen renk."
+        },
+        {
+          "word": "BEYAZ",
+          "hint": "Tüm ışığı yansıtan renk."
+        },
+        {
+          "word": "KİRMİZİ",
+          "hint": "En uzun dalga boylu ana renklere ait bir renk."
+        },
+        {
+          "word": "MAVİ̇",
+          "hint": "Gökyüzünün rengi olarak bilinen bir renk."
+        },
+        {
+          "word": "YEŞİ̇L",
+          "hint": "Doğada sıkça rastlanan bir renk."
+        },
+        {
+          "word": "GÖRÜNTÜ",
+          "hint": "Bir nesnenin optik sistemlerde oluşan yansıması."
+        },
+        {
+          "word": "KAVİ̇SLİ̇",
+          "hint": "Düz olmayan, eğri bir yüzeye sahip."
+        },
+        {
+          "word": "DÜZLEM",
+          "hint": "İki boyutlu düz yüzey."
+        },
+        {
+          "word": "MADDESEL",
+          "hint": "Fiziksel varlığı olan, yer kaplayan."
+        },
+        {
+          "word": "YANSİTİCİ",
+          "hint": "Işığı geri gönderen yüzey."
+        },
+        {
+          "word": "SOĞURUCU",
+          "hint": "Işığı emen yüzey."
+        },
+        {
+          "word": "SAÇİLMA",
+          "hint": "Işığın yüzeylerden farklı yönlere dağılması."
+        },
+        {
+          "word": "UZAKLAŞMA",
+          "hint": "Birbirinden uzaklaşma eğilimi."
+        },
+        {
+          "word": "YAKLAŞMA",
+          "hint": "Birbirine doğru hareket etme eğilimi."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Bir şeyin başladığı yer."
+        },
+        {
+          "word": "YOL",
+          "hint": "Bir noktanın diğerine ulaşması için izlediği hat."
+        },
+        {
+          "word": "DEĞİ̇Şİ̇M",
+          "hint": "Bir halden başka bir hale geçme."
+        },
+        {
+          "word": "YAKİNSAK",
+          "hint": "Işınları bir noktada toplayan mercek türü."
+        },
+        {
+          "word": "İRAKSAK",
+          "hint": "Işınları dağıtan mercek türü."
+        },
+        {
+          "word": "TEMAS",
+          "hint": "Birbirine değme durumu."
+        },
+        {
+          "word": "Sİ̇LT",
+          "hint": "Bir ışık demetini daraltan veya şekillendiren optik parça."
+        },
+        {
+          "word": "RENK Sİ̇STEMİ̇",
+          "hint": "Renklerin nasıl oluştuğunu ve algılandığını açıklayan model."
+        },
+        {
+          "word": "KONTRAST",
+          "hint": "Renkler veya tonlar arasındaki farkın belirginliği."
+        }
       ]
     }
   ]

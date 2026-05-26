@@ -3,25 +3,431 @@
     {
       "id": "sosyal5_u1",
       "name": "1. Ünite: Haklarımız",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "ÖZGÜRLÜK", "hint": "Kişinin kendi iradesiyle hareket edebilmesi"},
-        {"word": "EŞİTLİK", "hint": "Herkesin aynı haklara sahip olması"},
-        {"word": "ADALET", "hint": "Hak ve hukuka uygun davranma ilkesi"},
-        {"word": "ANAYASA", "hint": "Devletin temel yasasını içeren belge"},
-        {"word": "VATANDAŞ", "hint": "Bir devlete bağlı olan kişi"}
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Kişinin kendi iradesiyle hareket edebilmesi"
+        },
+        {
+          "word": "EŞİTLİK",
+          "hint": "Herkesin aynı haklara sahip olması"
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hak ve hukuka uygun davranma ilkesi"
+        },
+        {
+          "word": "ANAYASA",
+          "hint": "Devletin temel yasasını içeren belge"
+        },
+        {
+          "word": "VATANDAŞ",
+          "hint": "Bir devlete bağlı olan kişi"
+        },
+        {
+          "word": "HAK",
+          "hint": "Kişilerin yasal olarak sahip olduğu yetkiler veya yararlanabildikleri şeylerdir."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Yapılması gereken bir görevi veya eylemi yerine getirme yükümlülüğüdür."
+        },
+        {
+          "word": "TEMEL",
+          "hint": "Bir şeyin dayandığı, onsuz olamayacağı en önemli ve vazgeçilmez parçasıdır."
+        },
+        {
+          "word": "YAŞAMA",
+          "hint": "Var olma, nefes alma ve hayatını sürdürme eylemidir."
+        },
+        {
+          "word": "EĞİ̇Tİ̇M",
+          "hint": "Bilgi, beceri ve ahlak edinme sürecidir."
+        },
+        {
+          "word": "SAĞLİK",
+          "hint": "Bedenen, ruhsal ve sosyal olarak tam bir iyilik halidir."
+        },
+        {
+          "word": "GÜVENLİ̇K",
+          "hint": "Tehlikeden, zarardan veya tehditten uzak olma durumudur."
+        },
+        {
+          "word": "SEÇME",
+          "hint": "Birkaç seçenek arasından birini tercih etme eylemidir."
+        },
+        {
+          "word": "SEÇİ̇LME",
+          "hint": "Başkaları tarafından bir göreve veya mevkiye getirilme durumudur."
+        },
+        {
+          "word": "OY",
+          "hint": "Bir seçme veya karar verme işleminde kullanılan tercih beyanıdır."
+        },
+        {
+          "word": "DÜŞÜNCE",
+          "hint": "Zihinde beliren fikir, tasavvur veya kanıdır."
+        },
+        {
+          "word": "İ̇FADE",
+          "hint": "Düşünce veya duyguları sözle, yazıyla veya başka yollarla anlatma biçimidir."
+        },
+        {
+          "word": "DERNEK",
+          "hint": "Belirli amaçlar için bir araya gelmiş insanların oluşturduğu topluluktur."
+        },
+        {
+          "word": "Bİ̇RLİ̇K",
+          "hint": "Beraberlik, dayanışma ve tek vücut olma halidir."
+        },
+        {
+          "word": "YETİ̇ŞKİ̇N",
+          "hint": "Büyümüş, olgunlaşmış ve kendi ayakları üzerinde durabilen kişidir."
+        },
+        {
+          "word": "ÇOCUK",
+          "hint": "Henüz yetişkin olmamış, genç insan."
+        },
+        {
+          "word": "MAHKEME",
+          "hint": "Hukuki anlaşmazlıkları çözen, kanunlara göre karar veren yerdir."
+        },
+        {
+          "word": "YARGİLAMA",
+          "hint": "Bir olayın veya kişinin hukuka uygun olup olmadığını inceleme sürecidir."
+        },
+        {
+          "word": "MAĞDUR",
+          "hint": "Haksızlığa uğramış, zarar görmüş kişidir."
+        },
+        {
+          "word": "FAİ̇L",
+          "hint": "Bir olayı gerçekleştiren, yapan kişidir."
+        },
+        {
+          "word": "TOPLUM",
+          "hint": "Belirli bir alanda yaşayan, birbirleriyle etkileşimde bulunan insan topluluğudur."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir toprak parçası üzerinde egemenliği olan siyasi kuruluştur."
+        },
+        {
+          "word": "YÖNETİ̇M",
+          "hint": "Bir devletin veya kurumun işleyişini sağlayan mekanizmadır."
+        },
+        {
+          "word": "KANUN",
+          "hint": "Devlet tarafından konulan ve herkesin uyması gereken kuraldır."
+        },
+        {
+          "word": "Dİ̇LEK",
+          "hint": "Gerçekleşmesi istenen şeydir."
+        },
+        {
+          "word": "TALEP",
+          "hint": "Bir şeyi isteme ve elde etme isteğidir."
+        },
+        {
+          "word": "TÖRE",
+          "hint": "Bir toplumda nesilden nesile aktarılan gelenek ve göreneklerdir."
+        },
+        {
+          "word": "ÖRF",
+          "hint": "Belirli bir toplumda yerleşmiş, benimsenmiş adet ve uygulamalardır."
+        },
+        {
+          "word": "GÖREV",
+          "hint": "Yapılması gereken zorunlu iş veya sorumluluktur."
+        },
+        {
+          "word": "YÜKÜMLÜLÜK",
+          "hint": "Yerine getirilmesi gereken görev veya borçtur."
+        },
+        {
+          "word": "FEDAKARLİK",
+          "hint": "Bir amaç veya başkaları için kendi çıkarından vazgeçme durumudur."
+        },
+        {
+          "word": "SAYGİ",
+          "hint": "Bir kimseye veya bir şeye değer vererek, üstün tutarak gösterilen sevgi ve hürmettir."
+        },
+        {
+          "word": "SEVGİ̇",
+          "hint": "Bir kişiye veya bir şeye karşı duyulan yakın ilgi ve bağlılıktır."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Farklılıklara anlayışla yaklaşma ve kabullenme tutumudur."
+        },
+        {
+          "word": "ANLAYİŞ",
+          "hint": "Bir konuyu, durumu veya kişiyi kavrama yeteneğidir."
+        },
+        {
+          "word": "YARDİM",
+          "hint": "Zor durumda olan birine destek olma eylemidir."
+        },
+        {
+          "word": "DAYANİŞMA",
+          "hint": "Birlikte hareket ederek birbirine destek olma durumudur."
+        },
+        {
+          "word": "GÜVEN",
+          "hint": "Birine veya bir şeye inanma, itimat etme duygusudur."
+        },
+        {
+          "word": "İ̇NSAN",
+          "hint": "Toplum içinde yaşayan, düşünen, konuşan canlı varlık."
+        },
+        {
+          "word": "Bİ̇REY",
+          "hint": "Toplumu oluşturan tek kişidir."
+        },
+        {
+          "word": "GALEBE",
+          "hint": "Üstün gelme, kazanma durumudur."
+        },
+        {
+          "word": "DAVA",
+          "hint": "Mahkemede görülen hukuki anlaşmazlık."
+        },
+        {
+          "word": "DURUŞMA",
+          "hint": "Mahkemede bir davanın görüşüldüğü oturum."
+        },
+        {
+          "word": "SAVUNMA",
+          "hint": "Suçlamalara karşı kendini veya bir başkasını koruma çabasıdır."
+        },
+        {
+          "word": "TARAFLİ",
+          "hint": "Bir davada hak iddia eden veya savunma yapan kişi."
+        },
+        {
+          "word": "TAZMİ̇NAT",
+          "hint": "Verilen zararın karşılığında ödenen para."
+        }
       ]
     },
     {
       "id": "sosyal5_u2",
       "name": "2. Ünite: Bölgeler",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "KARASAL", "hint": "İç kesimlerde görülen kara iklim türü"},
-        {"word": "AKARSULAR", "hint": "Belirli bir yatakta akan su kütleleri"},
-        {"word": "PLATOLAR", "hint": "Yüksek ve düz geniş arazi şekilleri"},
-        {"word": "OVALAR", "hint": "Alçak ve düz geniş arazi şekilleri"},
-        {"word": "DAĞLAR", "hint": "Yeryüzündeki yüksek ve engebeli oluşumlar"}
+        {
+          "word": "KARASAL",
+          "hint": "İç kesimlerde görülen kara iklim türü"
+        },
+        {
+          "word": "AKARSULAR",
+          "hint": "Belirli bir yatakta akan su kütleleri"
+        },
+        {
+          "word": "PLATOLAR",
+          "hint": "Yüksek ve düz geniş arazi şekilleri"
+        },
+        {
+          "word": "OVALAR",
+          "hint": "Alçak ve düz geniş arazi şekilleri"
+        },
+        {
+          "word": "DAĞLAR",
+          "hint": "Yeryüzündeki yüksek ve engebeli oluşumlar"
+        },
+        {
+          "word": "İ̇KLİ̇M",
+          "hint": "Bir yerin uzun süreli hava durumu durumu."
+        },
+        {
+          "word": "Bİ̇TKİ̇ ÖRTÜSÜ",
+          "hint": "Bir bölgede doğal olarak yetişen otlar, ağaçlar."
+        },
+        {
+          "word": "NÜFUS",
+          "hint": "Bir bölgede yaşayan insan sayısı."
+        },
+        {
+          "word": "EKONOMİ̇",
+          "hint": "Bir bölgenin para kazanma ve harcama şekli."
+        },
+        {
+          "word": "TARİM",
+          "hint": "Topraktan yiyecek yetiştirme işi."
+        },
+        {
+          "word": "SANAYİ̇",
+          "hint": "Fabrikalarda mal üretme."
+        },
+        {
+          "word": "TURİ̇ZM",
+          "hint": "İnsanların tatil için başka yerlere gitmesi."
+        },
+        {
+          "word": "ULAŞİM",
+          "hint": "İnsanların ve eşyaların bir yerden bir yere gitmesi."
+        },
+        {
+          "word": "MADEN",
+          "hint": "Yerin altından çıkarılan değerli taşlar veya metaller."
+        },
+        {
+          "word": "YER ŞEKİ̇LLERİ̇",
+          "hint": "Dağ, ova, plato gibi yerin oluşumları."
+        },
+        {
+          "word": "GÖL",
+          "hint": "Etrafı kara ile çevrili büyük su birikintisi."
+        },
+        {
+          "word": "DENİ̇Z",
+          "hint": "Çok büyük, tuzlu su kütlesi."
+        },
+        {
+          "word": "OKYANUS",
+          "hint": "Dünyanın en büyük tuzlu su kütleleri."
+        },
+        {
+          "word": "BARAJ",
+          "hint": "Akarsuları durdurup su biriktiren yapı."
+        },
+        {
+          "word": "KANAL",
+          "hint": "İnsanların açtığı su yolları."
+        },
+        {
+          "word": "VADİ̇",
+          "hint": "Genellikle akarsuların oluşturduğu çukur alan."
+        },
+        {
+          "word": "TÜMÜLÜS",
+          "hint": "Eski mezarların üzerini toprakla doldurarak yapılan tepeler."
+        },
+        {
+          "word": "İ̇ZCİ̇Lİ̇K",
+          "hint": "Doğada kamp kurma ve macera dolu bir uğraş."
+        },
+        {
+          "word": "MAĞARA",
+          "hint": "Yerin içinde doğal olarak oluşan boşluk."
+        },
+        {
+          "word": "YAYLA",
+          "hint": "Yüksek yerlerde yazın serinlemek için kullanılan alan."
+        },
+        {
+          "word": "BÖLGE",
+          "hint": "Belirli özellikleri olan yeryüzü parçası."
+        },
+        {
+          "word": "ERİ̇ME",
+          "hint": "Katı bir maddenin sıvı hale gelmesi, özellikle kar veya buz için."
+        },
+        {
+          "word": "DONMA",
+          "hint": "Sıvı bir maddenin katı hale gelmesi, özellikle su için."
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Bir kuvvete uygulanan alan."
+        },
+        {
+          "word": "RÜZGAR",
+          "hint": "Havanın hareket etmesi."
+        },
+        {
+          "word": "YAĞİŞ",
+          "hint": "Gökyüzünden yeryüzüne su inmesi (yağmur, kar gibi)."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Çok sayıda ağacın bir arada bulunduğu geniş alan."
+        },
+        {
+          "word": "ÇAYİR",
+          "hint": "Ağaçsız, otlarla kaplı geniş alan."
+        },
+        {
+          "word": "BOZKİR",
+          "hint": "Seyrek otların ve çalılıkların olduğu kurak alan."
+        },
+        {
+          "word": "YER ALTİ SULARİ",
+          "hint": "Toprağın altında birikmiş su."
+        },
+        {
+          "word": "KAYNAK SU",
+          "hint": "Yeraltından çıkan temiz su."
+        },
+        {
+          "word": "FABRİ̇KA",
+          "hint": "Sanayi ürünlerinin üretildiği yer."
+        },
+        {
+          "word": "Lİ̇MAN",
+          "hint": "Gemilerin yanaşıp yük aldığı yer."
+        },
+        {
+          "word": "HAVALİ̇MANİ",
+          "hint": "Uçakların inip kalktığı yer."
+        },
+        {
+          "word": "TREN GARİ",
+          "hint": "Trenlerin yolcu ve yük alıp verdiği istasyon."
+        },
+        {
+          "word": "BAŞKENT",
+          "hint": "Bir ülkenin yönetim merkezi."
+        },
+        {
+          "word": "NÜFUS YOĞUNLUĞU",
+          "hint": "Bir alanda yaşayan insan sayısının o alanın büyüklüğüne oranı."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların bir yerden başka bir yere taşınması."
+        },
+        {
+          "word": "UZMANLİK",
+          "hint": "Bir konuda çok bilgili ve yetenekli olma."
+        },
+        {
+          "word": "GEZİ̇",
+          "hint": "Belirli bir amaçla yapılan yolculuk."
+        },
+        {
+          "word": "SEYAHAT",
+          "hint": "Uzak yerlere yapılan yolculuk."
+        },
+        {
+          "word": "KARAYOLU",
+          "hint": "Arabaların üzerinde gittiği yollar."
+        },
+        {
+          "word": "DEMİ̇RYOLU",
+          "hint": "Trenlerin üzerinde gittiği raylar."
+        },
+        {
+          "word": "KİYİ",
+          "hint": "Denizin karayla birleştiği yer."
+        },
+        {
+          "word": "MAKİ",
+          "hint": "Akdeniz iklimine özgü kısa ve bodur ağaçlardan oluşan bitki örtüsü"
+        }
       ]
     }
   ]

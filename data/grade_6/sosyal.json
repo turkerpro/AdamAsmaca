@@ -3,25 +3,427 @@
     {
       "id": "sosyal6_u1",
       "name": "1. Ünite: Türk Tarihi",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "GÖKTÜRKLER", "hint": "İlk Türk alfabesini kullanan devlet"},
-        {"word": "UYGURLAR", "hint": "Yerleşik hayata geçen ilk Türk devleti"},
-        {"word": "SELÇUKLULAR", "hint": "Anadoluyu Türk yurdu yapan büyük devlet"},
-        {"word": "SULTANLAR", "hint": "Türk İslam devletlerinin hükümdar unvanı"},
-        {"word": "FETRET", "hint": "Osmanlıda taht kavgalarının yaşandığı dönem"}
+        {
+          "word": "GÖKTÜRKLER",
+          "hint": "İlk Türk alfabesini kullanan devlet"
+        },
+        {
+          "word": "UYGURLAR",
+          "hint": "Yerleşik hayata geçen ilk Türk devleti"
+        },
+        {
+          "word": "SELÇUKLULAR",
+          "hint": "Anadoluyu Türk yurdu yapan büyük devlet"
+        },
+        {
+          "word": "SULTANLAR",
+          "hint": "Türk İslam devletlerinin hükümdar unvanı"
+        },
+        {
+          "word": "FETRET",
+          "hint": "Osmanlıda taht kavgalarının yaşandığı dönem"
+        },
+        {
+          "word": "TÜRKLER",
+          "hint": "Orta Asya'dan göç eden ilk Türk devletlerini kuran topluluk."
+        },
+        {
+          "word": "ORHUN",
+          "hint": "Göktürk Yazıtları'nın bulunduğu ve edebiyatımız için önemli olan nehir."
+        },
+        {
+          "word": "YAZİT",
+          "hint": "Eski Türklerin önemli olayları anlattığı, taşlara kazınmış metin."
+        },
+        {
+          "word": "KARAHANLİLAR",
+          "hint": "Türk tarihinde İslamiyet'i resmi din olarak kabul eden ilk devlet."
+        },
+        {
+          "word": "GAZNEVİ̇LER",
+          "hint": "Bugünkü Afganistan merkezli olup Hindistan'a yaptığı akınlarla bilinen devlet."
+        },
+        {
+          "word": "ŞAMANİ̇ZM",
+          "hint": "Eski Türklerin doğaüstü güçlere inandığı din."
+        },
+        {
+          "word": "KÖKEN",
+          "hint": "Bir şeyin başladığı yer, ana kaynak."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların bir yerden başka bir yere toplu olarak taşınması."
+        },
+        {
+          "word": "ORDA",
+          "hint": "Eski Türklerde ordu veya konaklama yeri."
+        },
+        {
+          "word": "HAN",
+          "hint": "Eski Türklerde devlet başkanı, hükümdar."
+        },
+        {
+          "word": "KAĞAN",
+          "hint": "Göktürklerde kullanılan, Handan daha yetkili devlet başkanı."
+        },
+        {
+          "word": "ÇADİR",
+          "hint": "Gezgin Türklerin kullandığı, kolay kurulup sökülebilen ev."
+        },
+        {
+          "word": "AT",
+          "hint": "Türklerin en çok değer verdiği, ulaşımda ve savaşta kullandığı hayvan."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Devletler veya gruplar arasında yapılan silahlı mücadele."
+        },
+        {
+          "word": "YAZİLİ",
+          "hint": "Üzerinde harfler veya işaretler bulunan."
+        },
+        {
+          "word": "EFSANE",
+          "hint": "Gerçekliği tam olarak bilinmeyen, hayali hikaye."
+        },
+        {
+          "word": "DESTAN",
+          "hint": "Kahramanlık olaylarını anlatan uzun şiir veya hikaye."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir topluma ait yaşayış biçimi, gelenek ve görenekler."
+        },
+        {
+          "word": "MİRAS",
+          "hint": "Geçmişten günümüze kalan maddi ve manevi değerler."
+        },
+        {
+          "word": "BAĞIMSIZLIK",
+          "hint": "Bir ülkenin kendi kendini yönetme hakkı."
+        },
+        {
+          "word": "BAŞKENT",
+          "hint": "Bir devletin yönetim merkezi olan şehir."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Mal ve hizmetlerin alınıp satılması."
+        },
+        {
+          "word": "PARA",
+          "hint": "Alışverişte kullanılan, değerli metallerden yapılan araç."
+        },
+        {
+          "word": "VERGİ",
+          "hint": "Devlete ödenen zorunlu para veya mal."
+        },
+        {
+          "word": "ORDU",
+          "hint": "Devleti korumakla görevli silahlı güç."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir toprak üzerinde yaşayan örgütlü toplum."
+        },
+        {
+          "word": "KURULUŞ",
+          "hint": "Bir devletin veya yapının meydana getirilmesi."
+        },
+        {
+          "word": "YÖNETİM",
+          "hint": "Devleti idare etme işi."
+        },
+        {
+          "word": "KANUN",
+          "hint": "Devlet yönetiminde uyulması gereken kurallar."
+        },
+        {
+          "word": "YAZIŞMA",
+          "hint": "Mektup veya belge gönderme."
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "Yazılı ve sözlü sanat ürünleri."
+        },
+        {
+          "word": "MİMARİ",
+          "hint": "Binaların yapım sanatı."
+        },
+        {
+          "word": "SANAT",
+          "hint": "İnsanın duygu ve düşüncelerini estetik biçimde ifade etmesi."
+        },
+        {
+          "word": "BİLİM",
+          "hint": "Gözlem ve deneye dayanan bilgi."
+        },
+        {
+          "word": "FELSEFE",
+          "hint": "Varoluş, bilgi, değerler üzerine düşünen bilim dalı."
+        },
+        {
+          "word": "DİN",
+          "hint": "İnanışları ve ibadetleri olan sistem."
+        },
+        {
+          "word": "ESKİ",
+          "hint": "Çok uzun zaman önce var olmuş."
+        },
+        {
+          "word": "UZAK",
+          "hint": "Mesafesi çok olan."
+        },
+        {
+          "word": "ANADOLU",
+          "hint": "Türkiye'nin Asya kıtasındaki toprakları."
+        },
+        {
+          "word": "ORTA ASYA",
+          "hint": "Asya kıtasının iç kesimlerindeki geniş coğrafya."
+        },
+        {
+          "word": "İ̇SLAMİYET",
+          "hint": "Hz. Muhammed tarafından kurulan din."
+        },
+        {
+          "word": "HÜKÜMDAR",
+          "hint": "Devletin en yetkili yöneticisi."
+        },
+        {
+          "word": "YAZITLAR",
+          "hint": "Eski Türklerin tarihini anlatan taşlar üzerindeki yazılar."
+        },
+        {
+          "word": "YERLEŞİK",
+          "hint": "Bir yerde sürekli oturma durumu."
+        },
+        {
+          "word": "GÖÇEBE",
+          "hint": "Devamlı yer değiştiren, hayvancılıkla uğraşan topluluk."
+        }
       ]
     },
     {
       "id": "sosyal6_u2",
       "name": "2. Ünite: Demokrasi",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "DEMOKRASİ", "hint": "Halkın kendi kendini yönetme biçimi"},
-        {"word": "SEÇİM", "hint": "Halkın temsilcilerini belirlemesi süreci"},
-        {"word": "MECLİS", "hint": "Milletvekillerinin toplandığı yasama organı"},
-        {"word": "CUMHURBAŞKANI", "hint": "Devletin en üst düzey yöneticisi"},
-        {"word": "OYLAMA", "hint": "Bir konuda oy kullanarak karar verme"}
+        {
+          "word": "DEMOKRASİ",
+          "hint": "Halkın kendi kendini yönetme biçimi"
+        },
+        {
+          "word": "SEÇİM",
+          "hint": "Halkın temsilcilerini belirlemesi süreci"
+        },
+        {
+          "word": "MECLİS",
+          "hint": "Milletvekillerinin toplandığı yasama organı"
+        },
+        {
+          "word": "CUMHURBAŞKANI",
+          "hint": "Devletin en üst düzey yöneticisi"
+        },
+        {
+          "word": "OYLAMA",
+          "hint": "Bir konuda oy kullanarak karar verme"
+        },
+        {
+          "word": "Mİ̇LLETVEKİ̇Lİ̇",
+          "hint": "Halkın temsilcisi olarak meclise giren kişi."
+        },
+        {
+          "word": "YURTTAŞ",
+          "hint": "Bir devletin ülkesinde yaşayan ve o devletin haklarına sahip olan kişi."
+        },
+        {
+          "word": "TEMSİ̇L",
+          "hint": "Bir başkasının yerine hareket etmek veya konuşmak."
+        },
+        {
+          "word": "KANUN",
+          "hint": "Devlet yönetiminde uyulması gereken kurallar bütünü."
+        },
+        {
+          "word": "HAK",
+          "hint": "Kişilerin yasal olarak sahip olduğu yetki veya imtiyaz."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Kısıtlamalardan veya zorlamalardan kurtulma durumu."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Yapılması veya yapılmaması gereken bir işten doğan yükümlülük."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Doğruluk ve hakkaniyete uygunluk."
+        },
+        {
+          "word": "EŞİ̇TLİ̇K",
+          "hint": "Herkesin aynı haklara ve imkanlara sahip olması durumu."
+        },
+        {
+          "word": "KATİLİM",
+          "hint": "Bir olaya veya sürece dahil olma."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Bir kimseyi seçmek veya bir konuda karar vermek için verilen destek."
+        },
+        {
+          "word": "KARAR",
+          "hint": "Bir konuda varılan sonuç veya hüküm."
+        },
+        {
+          "word": "TOPLANTİ",
+          "hint": "Belirli bir amaçla bir araya gelme."
+        },
+        {
+          "word": "BAŞKAN",
+          "hint": "Bir toplulukta en yetkili kimse."
+        },
+        {
+          "word": "HALK",
+          "hint": "Belirli bir ülkede yaşayan, ortak bir kültürü paylaşan topluluk."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir toprak parçası üzerinde yaşayan organize bir topluluk."
+        },
+        {
+          "word": "HÜKÜMET",
+          "hint": "Devleti yöneten organ."
+        },
+        {
+          "word": "YASAMA",
+          "hint": "Kanun yapma yetkisi."
+        },
+        {
+          "word": "YÜRÜTME",
+          "hint": "Kanunları uygulama yetkisi."
+        },
+        {
+          "word": "YARGİLAMA",
+          "hint": "Kanunlara göre uyuşmazlıkları çözme yetkisi."
+        },
+        {
+          "word": "ANAYASA",
+          "hint": "Bir devletin temel yasası."
+        },
+        {
+          "word": "MUHALEFET",
+          "hint": "Yönetimdeki görüşlere karşı çıkan grup."
+        },
+        {
+          "word": "İ̇TTİ̇FAK",
+          "hint": "Ortak bir amaç için kurulan birlik."
+        },
+        {
+          "word": "SEÇMEN",
+          "hint": "Oy kullanma hakkına sahip kişi."
+        },
+        {
+          "word": "PROPAGANDA",
+          "hint": "Bir görüşü yaymak için yapılan çalışma."
+        },
+        {
+          "word": "KAMPANYA",
+          "hint": "Belirli bir amaç için yapılan toplu çalışma."
+        },
+        {
+          "word": "BAĞİMSİZLİK",
+          "hint": "Başka bir güce bağlı olmama durumu."
+        },
+        {
+          "word": "Bİ̇RLİ̇K",
+          "hint": "Ayrılık göstermeyen, beraberlik."
+        },
+        {
+          "word": "Bİ̇RLİ̇KTE",
+          "hint": "Bir arada, hep beraber."
+        },
+        {
+          "word": "DAYANİŞMA",
+          "hint": "Zor zamanlarda birbirine yardım etme."
+        },
+        {
+          "word": "GÖNÜLLÜ",
+          "hint": "İstekle, karşılık beklemeden yapılan."
+        },
+        {
+          "word": "Sİ̇Vİ̇L",
+          "hint": "Askeri olmayan, halktan olan."
+        },
+        {
+          "word": "TOPLUM",
+          "hint": "İnsanların bir arada yaşama biçimi."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun yaşayış biçimi, gelenekleri, inançları."
+        },
+        {
+          "word": "TARİ̇H",
+          "hint": "Geçmişte yaşanmış olaylar."
+        },
+        {
+          "word": "COĞRAFYA",
+          "hint": "Yeryüzünü ve üzerindeki canlıları inceleyen bilim dalı."
+        },
+        {
+          "word": "VATANDAŞLİK",
+          "hint": "Bir devletle kişi arasındaki hukuki bağ."
+        },
+        {
+          "word": "PANTOLON",
+          "hint": "Bacakları ayrı ayrı kapatan bir giysi türü."
+        },
+        {
+          "word": "AYAKKABİ",
+          "hint": "Ayakları koruyan ve süsleyen giyecek."
+        },
+        {
+          "word": "ELBİ̇SE",
+          "hint": "Kadınların giydiği tek parça giysi."
+        },
+        {
+          "word": "CUMHURİ̇YET",
+          "hint": "Halkın egemen olduğu yönetim şekli."
+        },
+        {
+          "word": "BAŞBAKAN",
+          "hint": "Hükümetin başında bulunan kişi."
+        },
+        {
+          "word": "Mİ̇LLİ̇",
+          "hint": "Ulusal, ülke ile ilgili."
+        },
+        {
+          "word": "BAYRAK",
+          "hint": "Bir ülkeyi veya kurumu temsil eden kumaş parçası."
+        },
+        {
+          "word": "ÇOĞULCULUK",
+          "hint": "Farklı görüş ve düşüncelerin yönetimde temsil edilmesi"
+        }
       ]
     }
   ]

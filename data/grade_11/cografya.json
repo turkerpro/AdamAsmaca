@@ -3,25 +3,435 @@
     {
       "id": "cografya_u1",
       "name": "1. Ünite: Biyomlar",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "BİYOM", "hint": "Benzer iklim ve bitki örtüsüne sahip büyük ekosistem"},
-        {"word": "TUNDRA", "hint": "Kutuplara yakın soğuk ve ağaçsız biyom"},
-        {"word": "SAVAN", "hint": "Tropikal bölgelerdeki uzun otlak alanları"},
-        {"word": "TAYGA", "hint": "İğne yapraklı ağaçların baskın olduğu orman biyomu"},
-        {"word": "MAKİ", "hint": "Akdeniz ikliminde yetişen sert yapraklı bitki örtüsü"}
+        {
+          "word": "BİYOM",
+          "hint": "Benzer iklim ve bitki örtüsüne sahip büyük ekosistem"
+        },
+        {
+          "word": "TUNDRA",
+          "hint": "Kutuplara yakın soğuk ve ağaçsız biyom"
+        },
+        {
+          "word": "SAVAN",
+          "hint": "Tropikal bölgelerdeki uzun otlak alanları"
+        },
+        {
+          "word": "TAYGA",
+          "hint": "İğne yapraklı ağaçların baskın olduğu orman biyomu"
+        },
+        {
+          "word": "MAKİ",
+          "hint": "Akdeniz ikliminde yetişen sert yapraklı bitki örtüsü"
+        },
+        {
+          "word": "EKOSİ̇STEM",
+          "hint": "Canlı ve cansız varlıkların bir arada yaşadığı çevre."
+        },
+        {
+          "word": "KARASAL",
+          "hint": "Kara üzerine kurulu, denizlerden uzak yaşam alanları."
+        },
+        {
+          "word": "SUCUL",
+          "hint": "Yaşamın büyük ölçüde su kaynaklarına bağlı olduğu alanlar."
+        },
+        {
+          "word": "SEDİ̇R",
+          "hint": "Akdeniz iklimine özgü, yaprak dökmeyen bir ağaç türü."
+        },
+        {
+          "word": "PALMİ̇YE",
+          "hint": "Sıcak iklimlerde yetişen, geniş yapraklı bir bitki."
+        },
+        {
+          "word": "DURUMEN",
+          "hint": "Kuru tropikal ormanlarda görülen, kısa süreli yağışlı dönemi."
+        },
+        {
+          "word": "YAĞMURORMANİ",
+          "hint": "Yıl boyunca bol yağış alan, çok çeşitli canlı türüne ev sahipliği yapan orman."
+        },
+        {
+          "word": "ÇAYİR",
+          "hint": "Ağaçsız, otlarla kaplı geniş düzlükler."
+        },
+        {
+          "word": "BOZKİR",
+          "hint": "Karasal iklimin etkisiyle kurak geçen, seyrek bitki örtüsüne sahip alan."
+        },
+        {
+          "word": "KUTUP",
+          "hint": "Dünyanın en soğuk bölgeleri, buzullar ve kalıcı kar örtüsü ile kaplı."
+        },
+        {
+          "word": "MUSON",
+          "hint": "Mevsimlere göre yön değiştiren rüzgarların etkisiyle oluşan iklim."
+        },
+        {
+          "word": "YERBİ̇Lİ̇M",
+          "hint": "Yeryüzünü ve üzerindeki canlıları inceleyen bilim dalı."
+        },
+        {
+          "word": "İ̇KLİ̇M",
+          "hint": "Belirli bir bölgedeki uzun süreli hava durumu ortalaması."
+        },
+        {
+          "word": "Bİ̇TKİ̇ÖRÜTÜSÜ",
+          "hint": "Bir bölgedeki bitki türlerinin bütünü."
+        },
+        {
+          "word": "FAUNA",
+          "hint": "Belirli bir bölgede yaşayan hayvan topluluğu."
+        },
+        {
+          "word": "FLORA",
+          "hint": "Belirli bir bölgede yaşayan bitki topluluğu."
+        },
+        {
+          "word": "AYİRİCİ",
+          "hint": "Farklı biyomları birbirinden ayıran özellik."
+        },
+        {
+          "word": "SİCAKLİK",
+          "hint": "Bir yerin ne kadar soğuk veya sıcak olduğunu belirten etken."
+        },
+        {
+          "word": "NEM",
+          "hint": "Havada bulunan su buharı miktarı."
+        },
+        {
+          "word": "YAĞİŞ",
+          "hint": "Yağmur, kar, dolu gibi gökyüzünden yeryüzüne inen su."
+        },
+        {
+          "word": "GÜNEŞLENME",
+          "hint": "Güneş ışığına maruz kalma süresi."
+        },
+        {
+          "word": "YÜKSELTİ̇",
+          "hint": "Deniz seviyesinden olan dik mesafe."
+        },
+        {
+          "word": "EKVATORKUŞAĞİ",
+          "hint": "Dünyanın ekvator çizgisine yakın, sıcak ve nemli bölgeleri."
+        },
+        {
+          "word": "ÇÖL",
+          "hint": "Çok kurak ve sıcak, bitki örtüsünün yok denecek kadar az olduğu yer."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Ağaçların yoğun olarak bulunduğu geniş arazi."
+        },
+        {
+          "word": "MERA",
+          "hint": "Hayvanların otladığı, çayır ve otlarla kaplı alan."
+        },
+        {
+          "word": "GÖLİ̇Çİ̇",
+          "hint": "Göl ekosisteminin içindeki yaşam."
+        },
+        {
+          "word": "KİYİ",
+          "hint": "Deniz veya okyanus kenarındaki kara parçası."
+        },
+        {
+          "word": "DAĞLİK",
+          "hint": "Yüksek tepelerin ve dağların bulunduğu coğrafi alan."
+        },
+        {
+          "word": "TABAKALAŞMA",
+          "hint": "Ormanlarda farklı yüksekliklerde oluşan bitki katmanları."
+        },
+        {
+          "word": "ALTARMAN",
+          "hint": "Yer altı sularının bulunduğu katman."
+        },
+        {
+          "word": "YERALTİSUYU",
+          "hint": "Toprak altında biriken su."
+        },
+        {
+          "word": "AKARSU",
+          "hint": "Dere, çay, nehir gibi sürekli akan su."
+        },
+        {
+          "word": "Bİ̇YORİ̇Tİ̇M",
+          "hint": "Canlıların belirli zaman aralıklarında tekrarlanan doğal faaliyetleri."
+        },
+        {
+          "word": "ADAPTASYON",
+          "hint": "Canlıların çevrelerine uyum sağlama yeteneği."
+        },
+        {
+          "word": "ENDEMİ̇K",
+          "hint": "Sadece belirli bir bölgede yaşayan canlı türü."
+        },
+        {
+          "word": "Mİ̇GRASYON",
+          "hint": "Canlıların mevsimsel veya başka nedenlerle yer değiştirmesi."
+        },
+        {
+          "word": "BESİ̇NGÜCÜ",
+          "hint": "Bir ekosistemdeki canlıların birbirini beslemesi."
+        },
+        {
+          "word": "FOTOSENTEZ",
+          "hint": "Bitkilerin ışık enerjisiyle besin üretmesi."
+        },
+        {
+          "word": "TERLEME",
+          "hint": "Bitkilerin yapraklarından su buharı atması."
+        },
+        {
+          "word": "NÜFUZ",
+          "hint": "Bir bölgedeki canlıların yoğunluğu."
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Hava kütlelerinin uyguladığı kuvvet."
+        },
+        {
+          "word": "MEVSİ̇M",
+          "hint": "Yılın belirli dönemleri, hava durumunun değiştiği zamanlar."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK",
+          "hint": "Bir bölgedeki gen, tür ve ekosistemlerin oluşturduğu yaşam çeşitliliği"
+        },
+        {
+          "word": "AEROSOL",
+          "hint": "Rüzgarlarla atmosfere taşınan ve yağışlarla toprağa düşen deniz tuzu tanecikleri"
+        }
       ]
     },
     {
       "id": "cografya_u2",
       "name": "2. Ünite: Toprak Yapısı",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "HUMUS", "hint": "Toprağın verimliliğini artıran organik madde"},
-        {"word": "EROZYON", "hint": "Toprağın su ve rüzgârla aşınıp taşınması"},
-        {"word": "LATERIT", "hint": "Tropikal iklimlerde oluşan kırmızı renkli toprak"},
-        {"word": "ALÜVİYAL", "hint": "Akarsuların taşıyıp biriktirdiği verimli toprak"},
-        {"word": "ÇORAKLAŞMA", "hint": "Toprağın tuzlanarak tarıma elverişsiz hâle gelmesi"}
+        {
+          "word": "HUMUS",
+          "hint": "Toprağın verimliliğini artıran organik madde"
+        },
+        {
+          "word": "EROZYON",
+          "hint": "Toprağın su ve rüzgârla aşınıp taşınması"
+        },
+        {
+          "word": "LATERIT",
+          "hint": "Tropikal iklimlerde oluşan kırmızı renkli toprak"
+        },
+        {
+          "word": "ALÜVİYAL",
+          "hint": "Akarsuların taşıyıp biriktirdiği verimli toprak"
+        },
+        {
+          "word": "ÇORAKLAŞMA",
+          "hint": "Toprağın tuzlanarak tarıma elverişsiz hâle gelmesi"
+        },
+        {
+          "word": "PEDOLOJİ̇",
+          "hint": "Toprak bilimi, toprağın oluşumu, yapısı, dağılımı ve sınıflandırılması ile ilgilenen bilim dalı."
+        },
+        {
+          "word": "HORİ̇ZONT",
+          "hint": "Toprak profilindeki katmanlara verilen genel isim. A, B, C gibi harflerle gösterilir."
+        },
+        {
+          "word": "Dİ̇RENAJ",
+          "hint": "Suyun toprak içinden veya yüzeyinden akıp uzaklaştırılması işlemi."
+        },
+        {
+          "word": "TEKSTÜR",
+          "hint": "Toprağı oluşturan kum, silt ve kil gibi minerallerin büyüklük oranları."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Toprak parçacıklarının bir araya gelerek oluşturduğu kümeleşme şekli."
+        },
+        {
+          "word": "TAŞİNİM",
+          "hint": "Su veya rüzgar gibi etkenlerle toprağın sürüklenmesi veya yer değiştirmesi."
+        },
+        {
+          "word": "SEDİ̇MAN",
+          "hint": "Taşınım sonucu biriken toprak parçacıkları veya diğer maddeler."
+        },
+        {
+          "word": "OLUŞUM",
+          "hint": "Toprağın ana materyalden başlayarak zamanla nasıl meydana geldiği süreci."
+        },
+        {
+          "word": "ANA MATERYAL",
+          "hint": "Toprağın oluşmaya başladığı kayaçlar veya organik birikintiler."
+        },
+        {
+          "word": "İ̇KLİ̇M",
+          "hint": "Sıcaklık, yağış gibi atmosfer olaylarının toprak oluşumu üzerindeki etkisi."
+        },
+        {
+          "word": "Bİ̇TKİ̇ ÖRTÜSÜ",
+          "hint": "Toprak yüzeyini kaplayan ağaçlar, otlar ve diğer bitkiler."
+        },
+        {
+          "word": "FAUNA",
+          "hint": "Toprak içinde yaşayan solucanlar, böcekler gibi canlılar."
+        },
+        {
+          "word": "TOPOĞRAFYA",
+          "hint": "Yeryüzü şekillerinin (dağ, ova, plato vb.) toprak dağılımına etkisi."
+        },
+        {
+          "word": "PARÇACİK",
+          "hint": "Toprağı oluşturan en küçük kum, silt veya kil birimleri."
+        },
+        {
+          "word": "AGREGAT",
+          "hint": "Toprak parçacıklarının birbirine yapışarak oluşturduğu kümeler."
+        },
+        {
+          "word": "GÖZENEKLİ̇Lİ̇K",
+          "hint": "Toprak içindeki boşlukların hacmi ve birbirine bağlılığı."
+        },
+        {
+          "word": "SU TUTMA",
+          "hint": "Toprağın içerisine aldığı suyu bünyesinde barındırma kapasitesi."
+        },
+        {
+          "word": "NÜFUZ",
+          "hint": "Suyun toprağın derinliklerine doğru sızma yeteneği."
+        },
+        {
+          "word": "YÜZEY AKİŞİ",
+          "hint": "Yağmur suyunun toprağın üzerinden akıp gitmesi."
+        },
+        {
+          "word": "İ̇ZOLASYON",
+          "hint": "Toprağın ısı transferini engelleme özelliği."
+        },
+        {
+          "word": "YER ÇEKİ̇Mİ̇",
+          "hint": "Kütlesi olan her şeyin birbirini çekme kuvveti, suyun akışını etkiler."
+        },
+        {
+          "word": "ASİ̇TLİ̇Lİ̇K",
+          "hint": "Toprağın pH değerinin düşük olması, suyun içeriğindeki hidrojen iyonu miktarı."
+        },
+        {
+          "word": "ALKALİ̇Lİ̇K",
+          "hint": "Toprağın pH değerinin yüksek olması, suyun içeriğindeki baz miktarı."
+        },
+        {
+          "word": "PH",
+          "hint": "Bir çözeltinin asitlik veya bazlık derecesini ölçen birim."
+        },
+        {
+          "word": "BESİ̇N MADDESİ̇",
+          "hint": "Bitkilerin büyümesi ve gelişmesi için topraktan aldığı gerekli elementler."
+        },
+        {
+          "word": "ORGANİ̇K MADDE",
+          "hint": "Ölmüş bitki ve hayvan kalıntılarının ayrışmasıyla oluşan madde."
+        },
+        {
+          "word": "RENK",
+          "hint": "Toprağın bileşimindeki minerallerin ve organik maddenin türüne göre aldığı görünüm."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Toprağın pürüzlülük veya yumuşaklık derecesi, parmakla hissedilen özelliği."
+        },
+        {
+          "word": "PED",
+          "hint": "Toprak agregatlarının farklı şekil ve boyutlardaki birimleri."
+        },
+        {
+          "word": "TABAKA",
+          "hint": "Toprak profilindeki belirli bir katman veya horizon."
+        },
+        {
+          "word": "YAVAŞLAMA",
+          "hint": "Akarsuların akış hızının azaldığı ve alüvyal biriktirme yaptığı alan."
+        },
+        {
+          "word": "DEBRİ̇S",
+          "hint": "Erozyonla taşınan toprak ve kayaç parçacıkları yığını."
+        },
+        {
+          "word": "Kİ̇MYASAL AYRİŞMA",
+          "hint": "Kayaçların kimyasal reaksiyonlar sonucu parçalanması süreci."
+        },
+        {
+          "word": "Fİ̇Zİ̇KSEL AYRİŞMA",
+          "hint": "Kayaçların sıcaklık farkları, donma-çözülme gibi fiziksel etkenlerle parçalanması."
+        },
+        {
+          "word": "Bİ̇YOLOJİ̇K AYRİŞMA",
+          "hint": "Canlıların kayaçları parçalaması (kökler, mikroorganizmalar)."
+        },
+        {
+          "word": "Mİ̇NERAL",
+          "hint": "Toprakta bulunan inorganik, doğal katı maddeler."
+        },
+        {
+          "word": "KAOLİ̇N",
+          "hint": "Bir tür kil minerali, genellikle açık renkli."
+        },
+        {
+          "word": "MONTMORİLLONİ̇T",
+          "hint": "Su aldıkça şişen, kabarabilen bir kil minerali."
+        },
+        {
+          "word": "JEOMORFOLOJİ̇",
+          "hint": "Yer şekillerinin oluşumunu ve gelişimini inceleyen coğrafya dalı."
+        },
+        {
+          "word": "Sİ̇DERİ̇T",
+          "hint": "Demir içeren bir toprak minerali, kahverengi renge neden olabilir."
+        },
+        {
+          "word": "KALSİ̇YUM",
+          "hint": "Toprak verimliliği için önemli bir besin elementi."
+        },
+        {
+          "word": "MAGNEZYUM",
+          "hint": "Bitkiler için gerekli bir diğer besin elementi."
+        },
+        {
+          "word": "POTASYUM",
+          "hint": "Bitki gelişimi için önemli bir besin elementi."
+        },
+        {
+          "word": "Nİ̇TROJEN",
+          "hint": "Bitkilerin en çok ihtiyaç duyduğu temel besin elementlerinden biri."
+        },
+        {
+          "word": "FOSFOR",
+          "hint": "Bitki kök gelişimi ve çiçeklenmesi için gerekli bir besin elementi."
+        },
+        {
+          "word": "KÜKÜRT",
+          "hint": "Bitkiler için önemli bir besin elementi, toprakta da bulunur."
+        },
+        {
+          "word": "İ̇Z ELEMENT",
+          "hint": "Bitkiler için az miktarda gerekli olan besin elementleri (demir, çinko vb.)."
+        }
       ]
     }
   ]

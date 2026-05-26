@@ -3,25 +3,443 @@
     {
       "id": "edebiyat_u1",
       "name": "1. Ünite: Divan Edebiyatı",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "MAZMUN", "hint": "Divan şiirinde kalıplaşmış mecazi anlam taşıyan söz"},
-        {"word": "ARUZ", "hint": "Hecelerin uzunluk ve kısalığına dayanan ölçü sistemi"},
-        {"word": "BEYİT", "hint": "Divan şiirinde anlam bütünlüğü taşıyan iki mısra"},
-        {"word": "DIVAN", "hint": "Şairin tüm şiirlerini topladığı eser"},
-        {"word": "MAHLAS", "hint": "Divan şairlerinin kullandığı takma ad"}
+        {
+          "word": "MAZMUN",
+          "hint": "Divan şiirinde kalıplaşmış mecazi anlam taşıyan söz"
+        },
+        {
+          "word": "ARUZ",
+          "hint": "Hecelerin uzunluk ve kısalığına dayanan ölçü sistemi"
+        },
+        {
+          "word": "BEYİT",
+          "hint": "Divan şiirinde anlam bütünlüğü taşıyan iki mısra"
+        },
+        {
+          "word": "DIVAN",
+          "hint": "Şairin tüm şiirlerini topladığı eser"
+        },
+        {
+          "word": "MAHLAS",
+          "hint": "Divan şairlerinin kullandığı takma ad"
+        },
+        {
+          "word": "GAZEL",
+          "hint": "Aşk, şarap gibi konuları işleyen, 5-10 beyitten oluşan nazım biçimi."
+        },
+        {
+          "word": "KASİ̇DE",
+          "hint": "Övgü veya eleştiri amacıyla yazılan, daha çok devlet büyüklerini övmek için kullanılan nazım biçimi."
+        },
+        {
+          "word": "MESNEVİ̇",
+          "hint": "Her beyitin kendi arasında kafiyeli olduğu, uzun soluklu hikayeler anlatmak için kullanılan nazım biçimi."
+        },
+        {
+          "word": "RUBATİ̇",
+          "hint": "Dört dizeden oluşan, genellikle felsefi düşünceleri işleyen nazım biçimi."
+        },
+        {
+          "word": "TUYUĞ",
+          "hint": "Anonim halk edebiyatından Divan edebiyatına geçen dörtlük nazım biçimi."
+        },
+        {
+          "word": "TERKİ̇B-İ̇ BEND",
+          "hint": "Bentlerle kurulan, bentlerin kendi içinde kafiyeli olduğu, farklı konularda yazılabilen nazım biçimi."
+        },
+        {
+          "word": "TERİ̇F-İ̇ BEND",
+          "hint": "Terkiib-i bendin bir türü, bendler arasındaki bağlantının nakaratla sağlandığı nazım biçimi."
+        },
+        {
+          "word": "MURABBA",
+          "hint": "Dörtlüklerden oluşan, her dörtlük kendi içinde kafiyeli olan nazım biçimi."
+        },
+        {
+          "word": "MÜSTEZAT",
+          "hint": "Gazelin nazım biçiminin bir uzantısı, kısa dizelerle zenginleştirilmiş biçimi."
+        },
+        {
+          "word": "KİTA",
+          "hint": "İki beyitten oluşan, anlam bütünlüğü taşıyan nazım biçimi."
+        },
+        {
+          "word": "NAAT",
+          "hint": "Hz. Muhammed'i övmek amacıyla yazılan eser."
+        },
+        {
+          "word": "METİ̇H",
+          "hint": "Övme, yüceltme."
+        },
+        {
+          "word": "Hİ̇CV",
+          "hint": "Yerme, eleştirme."
+        },
+        {
+          "word": "TEZAKİ̇R",
+          "hint": "Genellikle olayları anlatan, anı niteliği taşıyan eser türü."
+        },
+        {
+          "word": "SEYAHATNAME",
+          "hint": "Yolculukları anlatan eser."
+        },
+        {
+          "word": "TEZKİ̇RE",
+          "hint": "Divan şairlerini tanıtan, eserlerinden örnekler veren eser."
+        },
+        {
+          "word": "PEYKER",
+          "hint": "Suret, tasvir."
+        },
+        {
+          "word": "SAHİ̇B-İ̇ Dİ̇VAN",
+          "hint": "Birden fazla divan oluşturan şair."
+        },
+        {
+          "word": "KÜTÜPHANE",
+          "hint": "Kitapların toplandığı yer."
+        },
+        {
+          "word": "MÜELLİ̇F",
+          "hint": "Yazar."
+        },
+        {
+          "word": "MÜTERCİ̇M",
+          "hint": "Çevirmen."
+        },
+        {
+          "word": "ŞERH",
+          "hint": "Bir metnin açıklanması."
+        },
+        {
+          "word": "HAŞİ̇YE",
+          "hint": "Dipnot, açıklama."
+        },
+        {
+          "word": "TALİ̇K",
+          "hint": "Divan edebiyatında görülen güzel yazı sanatı."
+        },
+        {
+          "word": "NEŞİ̇R",
+          "hint": "Yayma, dağıtma."
+        },
+        {
+          "word": "Rİ̇SALE",
+          "hint": "Küçük eser, inceleme yazısı."
+        },
+        {
+          "word": "SEBK-İ̇ Hİ̇NDİ̇",
+          "hint": "Divan edebiyatında bir akım, ağır ve süslü dil."
+        },
+        {
+          "word": "SEBK-İ̇ HORASANİ̇",
+          "hint": "Divan edebiyatında bir akım, sade ve anlaşılır dil."
+        },
+        {
+          "word": "GÜZİ̇DE",
+          "hint": "Seçkin, beğenilmiş."
+        },
+        {
+          "word": "İ̇LM-İ̇ HAL",
+          "hint": "Dini bilgileri içeren eser türü."
+        },
+        {
+          "word": "MANSUR",
+          "hint": "Düz yazı."
+        },
+        {
+          "word": "MANZUM",
+          "hint": "Şiir."
+        },
+        {
+          "word": "MUTASAVVİF",
+          "hint": "Tasavvuf düşüncesini benimseyen kişi."
+        },
+        {
+          "word": "HALKA",
+          "hint": "Tasavvufta irşat için oluşturulan topluluk."
+        },
+        {
+          "word": "FEVAR",
+          "hint": "Birbirine yakın olma, aynı çağda yaşama."
+        },
+        {
+          "word": "VASİL",
+          "hint": "Ulaşma, kavuşma."
+        },
+        {
+          "word": "VUSLAT",
+          "hint": "Ayrılıktan sonra kavuşma."
+        },
+        {
+          "word": "NİGAH",
+          "hint": "Bakış, görüş."
+        },
+        {
+          "word": "MAHREM",
+          "hint": "Gizli, özel."
+        },
+        {
+          "word": "KEYFİ̇YET",
+          "hint": "Nitelik, özellik."
+        },
+        {
+          "word": "MUKAYESE",
+          "hint": "Karşılaştırma."
+        },
+        {
+          "word": "TENASÜP",
+          "hint": "Uyum, uygunluk."
+        },
+        {
+          "word": "KÜNK",
+          "hint": "Altın."
+        },
+        {
+          "word": "LALEZAR",
+          "hint": "Lale bahçesi."
+        },
+        {
+          "word": "GÜLİ̇STAN",
+          "hint": "Gül bahçesi."
+        },
+        {
+          "word": "BOSTAN",
+          "hint": "Sebze bahçesi."
+        },
+        {
+          "word": "ŞUHUD",
+          "hint": "Tanıklar, görenler."
+        },
+        {
+          "word": "BEZM",
+          "hint": "Meclis, toplantı, eğlence yeri."
+        },
+        {
+          "word": "CAZİ̇BE",
+          "hint": "Çekicilik, albeni."
+        }
       ]
     },
     {
       "id": "edebiyat_u2",
       "name": "2. Ünite: Halk Edebiyatı",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "KOŞMA", "hint": "Halk edebiyatının en yaygın nazım biçimi"},
-        {"word": "SEMAİ", "hint": "Sekizli hece ölçüsüyle söylenen halk şiiri türü"},
-        {"word": "DESTAN", "hint": "Kahramanlık olaylarını anlatan uzun manzum eser"},
-        {"word": "AŞIK", "hint": "Halk edebiyatında saz eşliğinde şiir söyleyen ozan"},
-        {"word": "MANİ", "hint": "Yedili hece ölçüsüyle söylenen dört mısralık şiir"}
+        {
+          "word": "KOŞMA",
+          "hint": "Halk edebiyatının en yaygın nazım biçimi"
+        },
+        {
+          "word": "SEMAİ",
+          "hint": "Sekizli hece ölçüsüyle söylenen halk şiiri türü"
+        },
+        {
+          "word": "DESTAN",
+          "hint": "Kahramanlık olaylarını anlatan uzun manzum eser"
+        },
+        {
+          "word": "AŞIK",
+          "hint": "Halk edebiyatında saz eşliğinde şiir söyleyen ozan"
+        },
+        {
+          "word": "MANİ",
+          "hint": "Yedili hece ölçüsüyle söylenen dört mısralık şiir"
+        },
+        {
+          "word": "TEKERLEME",
+          "hint": "Çocukların eğlenerek ezberlediği, genellikle kafiyeli söz dizisi."
+        },
+        {
+          "word": "SAZ",
+          "hint": "Halk ozanlarının sıklıkla kullandığı telli çalgı."
+        },
+        {
+          "word": "OZAN",
+          "hint": "Halk şiiri söyleyen, saz çalan sanatçı."
+        },
+        {
+          "word": "HALK MASALİ",
+          "hint": "Kuşaktan kuşağa aktarılan, olağanüstü ögeler içerebilen anlatı."
+        },
+        {
+          "word": "MENKİBE",
+          "hint": "Evliya veya din büyüklerinin başından geçen olağanüstü olayları anlatan hikaye."
+        },
+        {
+          "word": "Kİ̇T'ABE",
+          "hint": "Genellikle cami kapıları gibi yerlerde bulunan, şiir veya dua şeklinde yazılmış yazı."
+        },
+        {
+          "word": "LUGAT",
+          "hint": "Kelime anlamlarını açıklayan eser, sözlük."
+        },
+        {
+          "word": "MAHALLİ̇",
+          "hint": "Belirli bir yere, bölgeye ait olan."
+        },
+        {
+          "word": "ESKİ̇ TÜRKÜ",
+          "hint": "Geçmişten günümüze ulaşan, duygusal veya anlatısal ezgili söz."
+        },
+        {
+          "word": "EPİ̇K",
+          "hint": "Kahramanlık veya büyük olayları konu alan edebi tür."
+        },
+        {
+          "word": "Lİ̇Rİ̇K",
+          "hint": "Duyguları, sevinci veya üzüntüyü dile getiren edebi tür."
+        },
+        {
+          "word": "KOŞUG",
+          "hint": "Eski Türk edebiyatında nazım biçimlerinden biri, koşmaya benzer."
+        },
+        {
+          "word": "VARAK",
+          "hint": "Eski kitapların bir sayfası."
+        },
+        {
+          "word": "NÜSHA",
+          "hint": "Bir eserin kopyası, örneği."
+        },
+        {
+          "word": "İ̇NCİ̇",
+          "hint": "Değerli, parlak süs eşyası; aynı zamanda güzel söz anlamında da kullanılır."
+        },
+        {
+          "word": "GÜFTE",
+          "hint": "Şarkıların söz bölümü."
+        },
+        {
+          "word": "MÜZEHHEP",
+          "hint": "El yazması eserlerde altın yaldızla süslenmiş bölüm."
+        },
+        {
+          "word": "HAT",
+          "hint": "Güzel yazı sanatı."
+        },
+        {
+          "word": "TENKİ̇T",
+          "hint": "Bir eseri inceleyip değerlendirme, eleştiri."
+        },
+        {
+          "word": "HAZİRLAYİCİ",
+          "hint": "Bir sonraki aşama veya durum için önceden yapılan hazırlık."
+        },
+        {
+          "word": "GELENEK",
+          "hint": "Bir toplulukta nesilden nesile aktarılan alışkanlık, adet."
+        },
+        {
+          "word": "Mİ̇RAS",
+          "hint": "Geçmişten bugüne kalan kültürel veya maddi değerler."
+        },
+        {
+          "word": "ANLATİCİ",
+          "hint": "Hikaye, masal veya destan gibi öyküleri aktaran kişi."
+        },
+        {
+          "word": "DOĞAÇLAMA",
+          "hint": "Hazırlıksız, o an akla geldiği gibi konuşma veya yazma."
+        },
+        {
+          "word": "MECMUADAN",
+          "hint": "Eskiden basılmış, çeşitli yazıların bir araya toplandığı yayın."
+        },
+        {
+          "word": "DERLEME",
+          "hint": "Farklı kaynaklardan bilgi veya eseri bir araya getirme."
+        },
+        {
+          "word": "Kİ̇TAPLİK",
+          "hint": "Kitapların konulduğu yer veya eser."
+        },
+        {
+          "word": "İ̇CAZETNAME",
+          "hint": "Sanatçıya belirli bir geleneği sürdürme yetkisi veren belge."
+        },
+        {
+          "word": "VAK'A",
+          "hint": "Gerçekleşmiş olay, hadise."
+        },
+        {
+          "word": "SEMBOLE",
+          "hint": "Bir fikri veya kavramı temsil eden işaret."
+        },
+        {
+          "word": "YEDİ̇Lİ̇",
+          "hint": "Halk edebiyatında sekizli ölçüye karşılık gelen bir nazım ölçüsü türü."
+        },
+        {
+          "word": "BEYİ̇T",
+          "hint": "İki mısradan oluşan nazım birimi."
+        },
+        {
+          "word": "Rİ̇TMİ̇K",
+          "hint": "Belirli bir düzeni ve akışı olan, ahenkli."
+        },
+        {
+          "word": "EDEBİ̇ SANAT",
+          "hint": "Dilin etkili ve güzel kullanılmasını sağlayan yollar."
+        },
+        {
+          "word": "RETORİ̇K",
+          "hint": "Etkili konuşma veya yazma sanatı."
+        },
+        {
+          "word": "METİ̇N",
+          "hint": "Yazılı veya sözlü anlatım bütünü."
+        },
+        {
+          "word": "BAŞLANGİÇ",
+          "hint": "Bir şeyin ilk başladığı yer veya zaman."
+        },
+        {
+          "word": "YAZİLİŞ",
+          "hint": "Bir kelimenin veya eserin harflerle ifade edilmesi."
+        },
+        {
+          "word": "ANLATİM",
+          "hint": "Düşünce, duygu veya olayı sözle veya yazıyla ifade etme biçimi."
+        },
+        {
+          "word": "YORUMLAMA",
+          "hint": "Bir metnin veya olayın anlamını çözme."
+        },
+        {
+          "word": "BAĞLAM",
+          "hint": "Bir kelimenin veya cümlenin içinde bulunduğu bütünlük, durum."
+        },
+        {
+          "word": "TEMA",
+          "hint": "Bir eserin ana fikri veya konusu."
+        },
+        {
+          "word": "KİSA Hİ̇KAYE",
+          "hint": "Az sözcükle okuyucuyu etkilemeyi amaçlayan anlatı türü."
+        },
+        {
+          "word": "OLAY ÖRGÜSÜ",
+          "hint": "Bir hikayedeki gelişmelerin birbirini izleyen zinciri."
+        },
+        {
+          "word": "KARAKTER",
+          "hint": "Bir hikayedeki kişi, varlık."
+        }
       ]
     }
   ]

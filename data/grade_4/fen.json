@@ -3,25 +3,435 @@
     {
       "id": "fen_u1",
       "name": "1. Ünite: Gezegenler",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "MERKÜR", "hint": "Güneşe en yakın olan küçük gezegen"},
-        {"word": "VENÜS", "hint": "Dünyaya en yakın ve en parlak gezegen"},
-        {"word": "JÜPITER", "hint": "Güneş sistemindeki en büyük gezegen"},
-        {"word": "SATÜRN", "hint": "Çevresinde halkaları olan güzel gezegen"},
-        {"word": "MARS", "hint": "Kırmızı gezegen olarak bilinen komşumuz"}
+        {
+          "word": "MERKÜR",
+          "hint": "Güneşe en yakın olan küçük gezegen"
+        },
+        {
+          "word": "VENÜS",
+          "hint": "Dünyaya en yakın ve en parlak gezegen"
+        },
+        {
+          "word": "JÜPITER",
+          "hint": "Güneş sistemindeki en büyük gezegen"
+        },
+        {
+          "word": "SATÜRN",
+          "hint": "Çevresinde halkaları olan güzel gezegen"
+        },
+        {
+          "word": "MARS",
+          "hint": "Kırmızı gezegen olarak bilinen komşumuz"
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Sistemin merkezindeki devasa yıldız."
+        },
+        {
+          "word": "DÜNYA",
+          "hint": "Yaşadığımız, üzerinde hayat olan gezegen."
+        },
+        {
+          "word": "NEPTÜN",
+          "hint": "Güneş'ten en uzak sekizinci gezegen."
+        },
+        {
+          "word": "URANÜS",
+          "hint": "Yana yatmış gibi dönen, mavi-yeşil renkli gezegen."
+        },
+        {
+          "word": "UYDU",
+          "hint": "Bir gezegenin etrafında dönen gök cismi."
+        },
+        {
+          "word": "YİLDİZ",
+          "hint": "Kendi ışığı olan, çok sıcak gök cismi."
+        },
+        {
+          "word": "ASTEROİ̇T",
+          "hint": "Mars ve Jüpiter arasında dönen küçük kaya parçası."
+        },
+        {
+          "word": "KUYRUKLUYİLDİZ",
+          "hint": "Buzlu, tozlu bir top olup Güneş'e yaklaştıkça kuyruk oluşturan cisim."
+        },
+        {
+          "word": "YÖRÜNGE",
+          "hint": "Bir gök cisminin başka bir gök cismi etrafında izlediği yol."
+        },
+        {
+          "word": "EKVATOR",
+          "hint": "Dünya'yı Kuzey ve Güney Yarım Küre olarak ikiye bölen hayali çizgi."
+        },
+        {
+          "word": "KUTUP",
+          "hint": "Dünya'nın dönme ekseninin geçtiği en uç noktalar."
+        },
+        {
+          "word": "MESAFE",
+          "hint": "İki nokta arasındaki uzaklık, ölçüsü."
+        },
+        {
+          "word": "İŞİKYİLİ",
+          "hint": "Işığın bir yılda aldığı çok uzun mesafe."
+        },
+        {
+          "word": "YAKİN",
+          "hint": "İki şey arasındaki az uzaklık."
+        },
+        {
+          "word": "UZAK",
+          "hint": "İki şey arasındaki çok uzaklık."
+        },
+        {
+          "word": "KATMAN",
+          "hint": "Bir şeyin iç içe geçmiş bölümlerinden her biri."
+        },
+        {
+          "word": "Sİ̇STEM",
+          "hint": "Birbiriyle ilişkili parçalardan oluşan bütün."
+        },
+        {
+          "word": "YARİÇAP",
+          "hint": "Bir dairenin veya kürenin merkezinden kenarına olan uzaklık."
+        },
+        {
+          "word": "ÇAP",
+          "hint": "Bir dairenin veya kürenin merkezinden geçerek iki kenarını birleştiren doğru parçası."
+        },
+        {
+          "word": "DÖNME",
+          "hint": "Bir cismin kendi ekseni etrafında hareket etmesi."
+        },
+        {
+          "word": "DOLANMA",
+          "hint": "Bir cismin başka bir cisim etrafında dönmesi."
+        },
+        {
+          "word": "BAKİŞ",
+          "hint": "Bir şeye bakma şekli, görünüşü."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir şeyi dikkatle izleme ve inceleme."
+        },
+        {
+          "word": "ARAŞTİRMA",
+          "hint": "Bir konu hakkında bilgi toplama."
+        },
+        {
+          "word": "Bİ̇Lİ̇M",
+          "hint": "Evreni anlama çabası, bilgi edinme yolu."
+        },
+        {
+          "word": "TELESKOP",
+          "hint": "Uzak gök cisimlerini yakından görmeye yarayan alet."
+        },
+        {
+          "word": "UZAY",
+          "hint": "Dünya ve diğer gök cisimlerinin içinde bulunduğu sonsuz boşluk."
+        },
+        {
+          "word": "GÖKBİ̇Lİ̇M",
+          "hint": "Gök cisimleri ve olaylarını inceleyen bilim dalı."
+        },
+        {
+          "word": "GECE",
+          "hint": "Güneş battıktan sonraki karanlık zaman."
+        },
+        {
+          "word": "GÜNDÜZ",
+          "hint": "Güneş'in göründüğü aydınlık zaman."
+        },
+        {
+          "word": "MEVSİ̇M",
+          "hint": "Yılın belirli bir zaman dilimi (ilkbahar, yaz, sonbahar, kış)."
+        },
+        {
+          "word": "ALACA",
+          "hint": "Çok renkli, benekli anlamına gelebilir."
+        },
+        {
+          "word": "SİCAKLİK",
+          "hint": "Bir cismin veya ortamın ısısı."
+        },
+        {
+          "word": "SOĞUKLUK",
+          "hint": "Sıcaklığın az olması durumu."
+        },
+        {
+          "word": "BÜYÜKLÜK",
+          "hint": "Bir şeyin boyutunun fazla olması."
+        },
+        {
+          "word": "GÖKYÜZÜ",
+          "hint": "Başımızı kaldırıp baktığımız, bulutların ve yıldızların olduğu yer."
+        },
+        {
+          "word": "YAKİT",
+          "hint": "Enerji üretmek için kullanılan madde."
+        },
+        {
+          "word": "YANSİMA",
+          "hint": "Işığın bir yüzeye çarpıp geri dönmesi."
+        },
+        {
+          "word": "PARLAMA",
+          "hint": "Işık saçma, ışıldama."
+        },
+        {
+          "word": "BOYUT",
+          "hint": "Bir cismin en, boy, yükseklik gibi özelliklerinin ölçüsü."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Bir şeyin nasıl oluştuğu, temel elemanları."
+        },
+        {
+          "word": "MADDELER",
+          "hint": "Uzayda yer kaplayan ve kütlesi olan her şey."
+        },
+        {
+          "word": "DONMA",
+          "hint": "Sıvı halden katı hale geçme."
+        },
+        {
+          "word": "ERİ̇ME",
+          "hint": "Katı halden sıvı hale geçme."
+        },
+        {
+          "word": "ATMOSFER",
+          "hint": "Gezegenleri çevreleyen gaz tabakası."
+        },
+        {
+          "word": "HALAKA",
+          "hint": "Bazı gezegenlerin etrafındaki halkalar."
+        },
+        {
+          "word": "KAYAÇ",
+          "hint": "Yer kabuğunu oluşturan doğal madde."
+        }
       ]
     },
     {
       "id": "fen_u2",
       "name": "2. Ünite: Kuvvet",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "KUVVET", "hint": "Cisimleri iten veya çeken etki"},
-        {"word": "SÜRTÜNME", "hint": "Yüzeylerin birbirine sürtünmesiyle oluşan kuvvet"},
-        {"word": "YERÇEKİMİ", "hint": "Dünyanın cisimleri kendine çekmesi"},
-        {"word": "MIKNATISLANMA", "hint": "Demir cisimleri çekebilme özelliği"},
-        {"word": "HAREKET", "hint": "Bir cismin yer değiştirmesi olayı"}
+        {
+          "word": "KUVVET",
+          "hint": "Cisimleri iten veya çeken etki"
+        },
+        {
+          "word": "SÜRTÜNME",
+          "hint": "Yüzeylerin birbirine sürtünmesiyle oluşan kuvvet"
+        },
+        {
+          "word": "YERÇEKİMİ",
+          "hint": "Dünyanın cisimleri kendine çekmesi"
+        },
+        {
+          "word": "MIKNATISLANMA",
+          "hint": "Demir cisimleri çekebilme özelliği"
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Bir cismin yer değiştirmesi olayı"
+        },
+        {
+          "word": "İ̇TME",
+          "hint": "Bir cismi kendimizden uzaklaştırdığımız uyguladığımız güç."
+        },
+        {
+          "word": "ÇEKME",
+          "hint": "Bir cismi kendimize doğru çektiğimiz uyguladığımız güç."
+        },
+        {
+          "word": "DURGUN",
+          "hint": "Hareket etmeyen, yerinde sabit kalan durum."
+        },
+        {
+          "word": "YAVAŞ",
+          "hint": "Az hızla yapılan hareket."
+        },
+        {
+          "word": "HİZLİ",
+          "hint": "Çok hızla yapılan hareket."
+        },
+        {
+          "word": "YÖN",
+          "hint": "Bir cismin ilerlediği, gittiği taraf."
+        },
+        {
+          "word": "DURDURMAK",
+          "hint": "Hareket halindeki bir şeyi yavaşlatıp tamamen durdurma eylemi."
+        },
+        {
+          "word": "BAŞLATMAK",
+          "hint": "Duran bir cismi harekete geçirme eylemi."
+        },
+        {
+          "word": "DEĞİ̇ŞTİ̇RMEK",
+          "hint": "Bir cismin hareketini, hızını veya yönünü farklı bir hale getirmek."
+        },
+        {
+          "word": "DÜZ ZEMİ̇N",
+          "hint": "Yüzeyi engebeli olmayan, pürüzsüz yer."
+        },
+        {
+          "word": "EĞİ̇MLİ̇ ZEMİ̇N",
+          "hint": "Yukarı veya aşağı doğru belli bir açıyla duran yüzey."
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Birbirine hiç değmeden yan yana giden çizgiler veya yüzeyler."
+        },
+        {
+          "word": "Dİ̇KEY",
+          "hint": "Yukarıdan aşağıya veya aşağıdan yukarıya doğru olan çizgi veya yön."
+        },
+        {
+          "word": "YATAY",
+          "hint": "Sağdan sola veya soldan sağa doğru olan çizgi veya yön."
+        },
+        {
+          "word": "SAHA",
+          "hint": "Bir spor oyununun oynandığı alan."
+        },
+        {
+          "word": "TOP",
+          "hint": "Genellikle yuvarlak, oyunlarda kullanılan araç."
+        },
+        {
+          "word": "ARABA",
+          "hint": "Tekerlekli, insan veya eşya taşıyan kara taşıtı."
+        },
+        {
+          "word": "Bİ̇Sİ̇KLET",
+          "hint": "İki tekerlekli, pedallarla hareket eden araç."
+        },
+        {
+          "word": "TAHTEREVAN",
+          "hint": "Ortasından desteklenmiş, iki ucuna oturulan ve zıplayarak hareket eden oyuncak."
+        },
+        {
+          "word": "SALİNCAK",
+          "hint": "Asılı duran ve ileri geri hareket eden oturak."
+        },
+        {
+          "word": "YAY",
+          "hint": "Esneyip büzülebilen, bırakıldığında eski haline dönen metal veya lastik parça."
+        },
+        {
+          "word": "PARÇA",
+          "hint": "Bir bütünün ayrılmış kısmı."
+        },
+        {
+          "word": "SABİ̇T",
+          "hint": "Yerinden oynatılması zor olan, sabit duran."
+        },
+        {
+          "word": "SERBEST",
+          "hint": "Engellenmeyen, kendi başına hareket edebilen."
+        },
+        {
+          "word": "KAYMAK",
+          "hint": "Pürüzsüz bir yüzey üzerinde altı sürtünmeden dolayı az hareket etmek."
+        },
+        {
+          "word": "DÖNMEK",
+          "hint": "Bir nokta etrafında dairesel olarak hareket etmek."
+        },
+        {
+          "word": "ESNEK",
+          "hint": "Bükülebilen, gerilebilen ve sonra eski haline dönebilen."
+        },
+        {
+          "word": "SERT",
+          "hint": "Kolayca şekil değiştirmeyen, dayanıklı madde."
+        },
+        {
+          "word": "YUMUŞAK",
+          "hint": "Kolayca şekil değiştiren, dokunulduğunda ele gelen madde."
+        },
+        {
+          "word": "AĞİRLİK",
+          "hint": "Bir cismin kütlesinin yerçekimi etkisiyle dünyaya uyguladığı çekim gücü."
+        },
+        {
+          "word": "HAFİ̇F",
+          "hint": "Ağırlığı az olan, kolayca kaldırılabilen."
+        },
+        {
+          "word": "DENGEDE",
+          "hint": "Ağırlığı eşit olan, sağlam duran."
+        },
+        {
+          "word": "KALDURMAK",
+          "hint": "Bir şeyi aşağıdan yukarıya doğru taşımak, yükseltmek."
+        },
+        {
+          "word": "İ̇NDİ̇RMEK",
+          "hint": "Yukarıdan aşağıya doğru bırakmak, alçaltmak."
+        },
+        {
+          "word": "İ̇LERLEMEK",
+          "hint": "Öne doğru gitmek, yol almak."
+        },
+        {
+          "word": "GERİ̇LEMEK",
+          "hint": "Arkaya doğru gitmek, uzaklaşmak."
+        },
+        {
+          "word": "ÇARPİŞMA",
+          "hint": "İki veya daha fazla cismin birbirine hızla temas etmesi."
+        },
+        {
+          "word": "VURMAK",
+          "hint": "Bir cisme kuvvet uygulayarak temas etmek."
+        },
+        {
+          "word": "SEKMEK",
+          "hint": "Bir yüzeye çarpıp geri fırlamak."
+        },
+        {
+          "word": "İ̇LERİ̇",
+          "hint": "Ön tarafa doğru yapılan hareket."
+        },
+        {
+          "word": "GERİ̇",
+          "hint": "Arka tarafa doğru yapılan hareket."
+        },
+        {
+          "word": "SAĞ",
+          "hint": "Vücudumuzun veya bir yönün sağ tarafı."
+        },
+        {
+          "word": "SOL",
+          "hint": "Vücudumuzun veya bir yönün sol tarafı."
+        },
+        {
+          "word": "YUKARİ",
+          "hint": "Yukarı doğru yapılan hareket veya yön."
+        },
+        {
+          "word": "AŞAĞİ",
+          "hint": "Aşağı doğru yapılan hareket veya yön."
+        }
       ]
     }
   ]

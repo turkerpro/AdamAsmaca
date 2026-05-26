@@ -3,25 +3,475 @@
     {
       "id": "ingilizce_u1",
       "name": "1. Ünite: Communication",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "CONVERSATION", "hint": "İki veya daha fazla kişi arasında yapılan konuşma"},
-        {"word": "LANGUAGE", "hint": "İnsanların iletişim kurmak için kullandığı sistem"},
-        {"word": "EXPRESSION", "hint": "Duygu ve düşünceleri ifade etme biçimi"},
-        {"word": "DIALOGUE", "hint": "İki kişi arasında gerçekleşen karşılıklı konuşma"},
-        {"word": "VOCABULARY", "hint": "Bir dildeki kelimelerin tamamını ifade eden kavram"}
+        {
+          "word": "CONVERSATION",
+          "hint": "İki veya daha fazla kişi arasında yapılan konuşma"
+        },
+        {
+          "word": "LANGUAGE",
+          "hint": "İnsanların iletişim kurmak için kullandığı sistem"
+        },
+        {
+          "word": "EXPRESSION",
+          "hint": "Duygu ve düşünceleri ifade etme biçimi"
+        },
+        {
+          "word": "DIALOGUE",
+          "hint": "İki kişi arasında gerçekleşen karşılıklı konuşma"
+        },
+        {
+          "word": "VOCABULARY",
+          "hint": "Bir dildeki kelimelerin tamamını ifade eden kavram"
+        },
+        {
+          "word": "İ̇LETİ̇Şİ̇M",
+          "hint": "İnsanlar arasındaki duygu, düşünce ve bilgi alışverişi."
+        },
+        {
+          "word": "ANLAŞMA",
+          "hint": "Ortak bir noktada buluşma, uzlaşma."
+        },
+        {
+          "word": "GÖSTERGE",
+          "hint": "Bir şeyi anlatan veya temsil eden işaret."
+        },
+        {
+          "word": "BEDEN",
+          "hint": "Vücut dilimizle de anlatırız."
+        },
+        {
+          "word": "SES",
+          "hint": "Konuşurken veya müzik yaparken kullandığımız titreşim."
+        },
+        {
+          "word": "YÜZ",
+          "hint": "Duygularımızı en çok gösterdiğimiz yer."
+        },
+        {
+          "word": "EL",
+          "hint": "Hareketleriyle de çok şey anlatabiliriz."
+        },
+        {
+          "word": "Bİ̇LGİ̇",
+          "hint": "Öğrendiğimiz veya keşfettiğimiz her şey."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Sevinç, üzüntü gibi içsel durumlarımız."
+        },
+        {
+          "word": "DÜŞÜNCE",
+          "hint": "Zihnimizde oluşan fikirler."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Bir toplulukta uyulması gereken temel prensip."
+        },
+        {
+          "word": "GÖREV",
+          "hint": "Yapmamız gereken sorumlu iş."
+        },
+        {
+          "word": "AMAÇ",
+          "hint": "Ulaşmak istediğimiz hedef."
+        },
+        {
+          "word": "YÖNTEM",
+          "hint": "Bir işi başarma yolu veya tekniği."
+        },
+        {
+          "word": "İ̇PUCU",
+          "hint": "Gizli bir şeyi anlamamıza yardımcı olan belirti."
+        },
+        {
+          "word": "ANLAMAK",
+          "hint": "Bir şeyin ne demek olduğunu kavramak."
+        },
+        {
+          "word": "Bİ̇LMEK",
+          "hint": "Bir konu hakkında bilgi sahibi olmak."
+        },
+        {
+          "word": "SÖYLEMEK",
+          "hint": "Düşüncelerimizi sesli olarak dile getirmek."
+        },
+        {
+          "word": "Dİ̇NLEMEK",
+          "hint": "Sesleri algılamak ve anlamaya çalışmak."
+        },
+        {
+          "word": "GÖSTERMEK",
+          "hint": "Bir şeyi başkalarının görmesini sağlamak."
+        },
+        {
+          "word": "YAZMAK",
+          "hint": "Düşünceleri kağıda dökmek."
+        },
+        {
+          "word": "OKUMAK",
+          "hint": "Yazılı metinleri anlamak."
+        },
+        {
+          "word": "Çİ̇Vİ̇",
+          "hint": "Keskin bir metal nesne, çekiçle vurulur."
+        },
+        {
+          "word": "SOFRA",
+          "hint": "Yemek yediğimiz masa."
+        },
+        {
+          "word": "SAÇ",
+          "hint": "Başımızdaki kıllar."
+        },
+        {
+          "word": "BAŞ",
+          "hint": "Vücudumuzun en üst kısmı."
+        },
+        {
+          "word": "AYAK",
+          "hint": "Yürümeye yarayan uzuv."
+        },
+        {
+          "word": "KULAK",
+          "hint": "İşitmeye yarayan duyu organı."
+        },
+        {
+          "word": "BURUN",
+          "hint": "Koklama ve nefes almaya yarar."
+        },
+        {
+          "word": "AĞİZ",
+          "hint": "Yeme, içme ve konuşma organı."
+        },
+        {
+          "word": "GÖZ",
+          "hint": "Görmeye yarayan organımız."
+        },
+        {
+          "word": "GÜVEN",
+          "hint": "Birine veya bir şeye inanma hali."
+        },
+        {
+          "word": "SAYGİ",
+          "hint": "Değer verme, hürmet etme."
+        },
+        {
+          "word": "DOSTLUK",
+          "hint": "Kişiler arasındaki yakın ilişki."
+        },
+        {
+          "word": "SEVGİ̇",
+          "hint": "Karşılıklı sıcak bağlılık."
+        },
+        {
+          "word": "ORTAKLİK",
+          "hint": "Birlikte yapılan iş veya sahip olunan şey."
+        },
+        {
+          "word": "FARKLİLİK",
+          "hint": "Benzemeyen yönler, çeşitlilik."
+        },
+        {
+          "word": "BENZERLİ̇K",
+          "hint": "Birbirine yakın olma durumu."
+        },
+        {
+          "word": "Bİ̇RLEŞİ̇M",
+          "hint": "Ayrı parçaların bir araya gelmesi."
+        },
+        {
+          "word": "AYRİLİK",
+          "hint": "Birbirinden uzaklaşma durumu."
+        },
+        {
+          "word": "BAŞARİ",
+          "hint": "Hedefe ulaşma, istediğini elde etme."
+        },
+        {
+          "word": "GAYRET",
+          "hint": "Bir işi başarmak için gösterilen çaba."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Yardım etmek, arka çıkmak."
+        },
+        {
+          "word": "ÖNERİ̇",
+          "hint": "Bir konuda tavsiyede bulunma."
+        },
+        {
+          "word": "İ̇STEK",
+          "hint": "Bir şeyi arzu etme hali."
+        },
+        {
+          "word": "BAŞLAMAK",
+          "hint": "Bir işe girişmek, ilk adımı atmak."
+        },
+        {
+          "word": "DEVAM",
+          "hint": "Bir işi sürdürmek, ara vermemek."
+        },
+        {
+          "word": "Bİ̇Tİ̇RMEK",
+          "hint": "Bir işin sonuna gelmek."
+        },
+        {
+          "word": "TESLİ̇M",
+          "hint": "Birine bırakmak, vermek."
+        },
+        {
+          "word": "GURUR",
+          "hint": "Kendisiyle veya başkasıyla duyulan sevinç."
+        },
+        {
+          "word": "UTANÇ",
+          "hint": "Mahcubiyet hissi."
+        },
+        {
+          "word": "KORKU",
+          "hint": "Tehlike veya kötü bir durum karşısında duyulan endişe."
+        },
+        {
+          "word": "NEŞE",
+          "hint": "Sevinçli, mutlu olma hali."
+        }
       ]
     },
     {
       "id": "ingilizce_u2",
       "name": "2. Ünite: Culture",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "TRADITION", "hint": "Nesilden nesile aktarılan gelenek ve görenekler"},
-        {"word": "HERITAGE", "hint": "Geçmişten miras kalan kültürel değerler"},
-        {"word": "CEREMONY", "hint": "Özel günlerde yapılan resmi tören"},
-        {"word": "DIVERSITY", "hint": "Farklı kültür ve toplulukların bir arada olması"},
-        {"word": "FESTIVAL", "hint": "Toplulukça kutlanan eğlence ve şenlik etkinliği"}
+        {
+          "word": "TRADITION",
+          "hint": "Nesilden nesile aktarılan gelenek ve görenekler"
+        },
+        {
+          "word": "HERITAGE",
+          "hint": "Geçmişten miras kalan kültürel değerler"
+        },
+        {
+          "word": "CEREMONY",
+          "hint": "Özel günlerde yapılan resmi tören"
+        },
+        {
+          "word": "DIVERSITY",
+          "hint": "Farklı kültür ve toplulukların bir arada olması"
+        },
+        {
+          "word": "FESTIVAL",
+          "hint": "Toplulukça kutlanan eğlence ve şenlik etkinliği"
+        },
+        {
+          "word": "GELENEKSEL",
+          "hint": "Bir toplumda nesilden nesile aktarılan, köklü alışkanlıklar veya inanışlar."
+        },
+        {
+          "word": "KÜLTÜREL MİRAS",
+          "hint": "Bir toplumun geçmişten günümüze taşıdığı, korunması gereken maddi ve manevi değerler."
+        },
+        {
+          "word": "TÖREN",
+          "hint": "Belirli bir amaçla veya kutlama için yapılan resmi toplantı."
+        },
+        {
+          "word": "ÇEŞİTLİLİK",
+          "hint": "Farklılıkların bir arada bulunması durumu, zenginlik kaynağı."
+        },
+        {
+          "word": "ŞENLİK",
+          "hint": "Eğlence ve kutlama amacıyla yapılan büyük toplu etkinlik."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun sanat, tarih, dil, din gibi ögelerinin bütünü."
+        },
+        {
+          "word": "ÖRF",
+          "hint": "Bir toplumda yerleşmiş, dinlenmiş ve töre haline gelmiş adet."
+        },
+        {
+          "word": "ADET",
+          "hint": "Gelenek, alışkanlık, görenek."
+        },
+        {
+          "word": "GÖRENEK",
+          "hint": "Bir toplumda eskiden beri sürüp gelen alışkanlık."
+        },
+        {
+          "word": "DEĞERLER",
+          "hint": "Bir toplumun benimsediği, önemli bulduğu, saygı duyduğu soyut veya somut şeyler."
+        },
+        {
+          "word": "ANANE",
+          "hint": "Eski adet, gelenek."
+        },
+        {
+          "word": "ATATÜRKÇÜLÜK",
+          "hint": "Atatürk'ün kurduğu cumhuriyet ve ilkeleri."
+        },
+        {
+          "word": "MİRAS",
+          "hint": "Birinden kalan mal, para veya hak."
+        },
+        {
+          "word": "ETNİK",
+          "hint": "Bir topluluğun dil, kültür, tarih bakımından ortak özellikler taşıyan bölümü."
+        },
+        {
+          "word": "KİMLİK",
+          "hint": "Bir bireyin veya grubun diğerlerinden ayırt edilmesini sağlayan özellikler bütünü."
+        },
+        {
+          "word": "YEMEK KÜLTÜRÜ",
+          "hint": "Bir toplumun yeme alışkanlıkları ve bu konudaki bilgisi."
+        },
+        {
+          "word": "MÜZİK",
+          "hint": "Seslerin uyumlu bir şekilde düzenlenmesiyle ortaya çıkan sanat."
+        },
+        {
+          "word": "DANS",
+          "hint": "Müziğe ayak uydurarak yapılan ritmik hareketler."
+        },
+        {
+          "word": "SANAT",
+          "hint": "İnsanın duygu ve düşüncelerini estetik biçimde ifade etmesi."
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "Duygu ve düşünceleri söz ve yazıyla estetik bir biçimde anlatma sanatı."
+        },
+        {
+          "word": "DİL",
+          "hint": "İnsanlar arasındaki iletişimi sağlayan temel araç."
+        },
+        {
+          "word": "DİN",
+          "hint": "İnanışlara dayalı, kutsal sayılan değerleri içeren sistem."
+        },
+        {
+          "word": "MİTOLOJİ",
+          "hint": "Bir toplumun doğaüstü varlıklar ve olaylar hakkındaki hayali anlatıları."
+        },
+        {
+          "word": "FOLKLOR",
+          "hint": "Bir topluluğun gelenek, görenek, inanç ve sanat gibi ögelerinin bütünü."
+        },
+        {
+          "word": "MİMARİ",
+          "hint": "Yapı tasarlama ve inşa etme sanatı."
+        },
+        {
+          "word": "GELENEKSEL GİYSİLER",
+          "hint": "Bir toplumun geçmişte giydiği özel kıyafetler."
+        },
+        {
+          "word": "EL SANATLARI",
+          "hint": "Kişinin el becerisiyle yaptığı sanatsal ürünler."
+        },
+        {
+          "word": "SERAMİK",
+          "hint": "Kil gibi maddelerden yapılan kap kacak ve süs eşyası."
+        },
+        {
+          "word": "DOKUMACILIK",
+          "hint": "İplikten kumaş üretme sanatı."
+        },
+        {
+          "word": "HALICILIK",
+          "hint": "İpliklerle ilmek atılarak zemin üzerine desen işlenen sanat."
+        },
+        {
+          "word": "ÇÖMLEKÇİLİK",
+          "hint": "Topraktan kap kacak yapma sanatı."
+        },
+        {
+          "word": "BOYACILIK",
+          "hint": "Doğal veya sentetik maddelerle renk verme sanatı."
+        },
+        {
+          "word": "GELENEKSEL MUTFAK",
+          "hint": "Bir bölgeye veya topluma özgü yemek pişirme ve sunma biçimi."
+        },
+        {
+          "word": "TARİHİ ESER",
+          "hint": "Geçmiş dönemlerden kalan, korunması gereken yapılar veya objeler."
+        },
+        {
+          "word": "ARKEOLOJİ",
+          "hint": "Kazı bilimi, geçmiş medeniyetleri inceleyen bilim dalı."
+        },
+        {
+          "word": "ANTROPOLOJİ",
+          "hint": "İnsanları ve toplumlarını inceleyen bilim dalı."
+        },
+        {
+          "word": "SOSYAL ANTROPOLOJİ",
+          "hint": "İnsanların toplumsal yapılarını ve kültürel davranışlarını inceleyen bilim dalı."
+        },
+        {
+          "word": "KÜLTÜREL ETKİLEŞİM",
+          "hint": "Farklı kültürlerin birbirini etkilemesi."
+        },
+        {
+          "word": "KÜLTÜREL ÇATIŞMA",
+          "hint": "Farklı kültürlerin birbirleriyle uyumsuzluk yaşaması."
+        },
+        {
+          "word": "KÜLTÜREL ASİMİLASYON",
+          "hint": "Bir kültürün diğer kültür tarafından yutulması."
+        },
+        {
+          "word": "KÜLTÜRLEŞME",
+          "hint": "Farklı kültürlerin birbirlerinden etkilenerek değişmesi."
+        },
+        {
+          "word": "ULUSLARARASI KÜLTÜR",
+          "hint": "Dünya genelinde kabul gören ortak kültürel ögeler."
+        },
+        {
+          "word": "YEREL KÜLTÜR",
+          "hint": "Belirli bir bölgeye veya topluluğa özgü kültür."
+        },
+        {
+          "word": "EVRENSEL KÜLTÜR",
+          "hint": "Tüm insanlığı ilgilendiren kültürel ögeler."
+        },
+        {
+          "word": "YAZILI KÜLTÜR",
+          "hint": "Bilgi ve düşüncelerin yazı aracılığıyla aktarıldığı kültür."
+        },
+        {
+          "word": "SÖZLÜ KÜLTÜR",
+          "hint": "Bilgi ve düşüncelerin sözlü olarak aktarıldığı kültür."
+        },
+        {
+          "word": "KÜLTÜREL BELLEK",
+          "hint": "Bir toplumun geçmişine dair hatırladığı ve taşıdığı bilgiler."
+        },
+        {
+          "word": "DİLBİLİM",
+          "hint": "Dillerin yapısını, kökenini ve gelişimini inceleyen bilim dalı."
+        },
+        {
+          "word": "ETNOGRAFYA",
+          "hint": "Kültürleri ve toplumları yerinde inceleyerek anlatan bilim dalı."
+        }
       ]
     }
   ]

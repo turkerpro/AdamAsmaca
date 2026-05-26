@@ -3,25 +3,431 @@
     {
       "id": "tarih_u1",
       "name": "1. Ünite: Birinci Dünya Savaşı",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "İTİLAF", "hint": "İngiltere, Fransa ve Rusya'nın oluşturduğu blok"},
-        {"word": "İTTİFAK", "hint": "Almanya ve Osmanlı'nın yer aldığı savaş bloğu"},
-        {"word": "ÇANAKKALE", "hint": "Osmanlı'nın büyük zafer kazandığı cephe"},
-        {"word": "SUVEYŞ", "hint": "Osmanlı'nın Mısır'a açtığı kanal cephesi"},
-        {"word": "MÜTAREKENİN", "hint": "Savaşın sona ermesini sağlayan ateşkes anlaşması türü"}
+        {
+          "word": "İTİLAF",
+          "hint": "İngiltere, Fransa ve Rusya'nın oluşturduğu blok"
+        },
+        {
+          "word": "İTTİFAK",
+          "hint": "Almanya ve Osmanlı'nın yer aldığı savaş bloğu"
+        },
+        {
+          "word": "ÇANAKKALE",
+          "hint": "Osmanlı'nın büyük zafer kazandığı cephe"
+        },
+        {
+          "word": "SUVEYŞ",
+          "hint": "Osmanlı'nın Mısır'a açtığı kanal cephesi"
+        },
+        {
+          "word": "MÜTAREKENİN",
+          "hint": "Savaşın sona ermesini sağlayan ateşkes anlaşması türü"
+        },
+        {
+          "word": "Sİ̇PER",
+          "hint": "Savaşta askerlerin korunmak için kazdığı çukur."
+        },
+        {
+          "word": "CEPHE",
+          "hint": "Savaşın sürdüğü ana bölge."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Ülkeler arasında silahlı mücadele."
+        },
+        {
+          "word": "TAARUZ",
+          "hint": "Düşmana doğru yapılan ani ve güçlü saldırı."
+        },
+        {
+          "word": "SAVUNMA",
+          "hint": "Düşman saldırısını engelleme çabası."
+        },
+        {
+          "word": "GERİ̇LLM",
+          "hint": "Savaşın sebep olduğu toplumsal ve ekonomik sıkıntılar."
+        },
+        {
+          "word": "PROPAGANDA",
+          "hint": "Belirli bir düşünceyi yaymak için yapılan yayın."
+        },
+        {
+          "word": "EMPERYALİ̇ZM",
+          "hint": "Güçlü devletlerin zayıf ülkeleri sömürme isteği."
+        },
+        {
+          "word": "ULUSALİ̇ZM",
+          "hint": "Her milletin kendi devletini kurma ve yaşatma düşüncesi."
+        },
+        {
+          "word": "BLOK",
+          "hint": "Birbirine yakın görüşlere sahip ülkelerin oluşturduğu grup."
+        },
+        {
+          "word": "AYRİLİKÇİLİK",
+          "hint": "Bir topluluğun kendi başına devlet kurma isteği."
+        },
+        {
+          "word": "Sİ̇LAHLANMA",
+          "hint": "Askeri gücü artırma."
+        },
+        {
+          "word": "LOJİ̇STİ̇K",
+          "hint": "Askeri birliklerin ihtiyaçlarının karşılanması."
+        },
+        {
+          "word": "SEFERBERLİ̇K",
+          "hint": "Savaş için tüm gücün toplanması."
+        },
+        {
+          "word": "TAŞKİRAN",
+          "hint": "Savaş gemilerinin taşıdığı büyük toplar."
+        },
+        {
+          "word": "BOMBARDİMAN",
+          "hint": "Uçaklardan atılan bombalarla yapılan saldırı."
+        },
+        {
+          "word": "Sİ̇LAHALTİ",
+          "hint": "Savaşa hazır olma durumu."
+        },
+        {
+          "word": "TOPRAKYOLU",
+          "hint": "Savaş sırasında erzak ve asker taşınan yol."
+        },
+        {
+          "word": "YENİ̇LGİ̇",
+          "hint": "Savaşta kaybedilen taraf olma."
+        },
+        {
+          "word": "ZAFER",
+          "hint": "Savaşta kazanılan başarı."
+        },
+        {
+          "word": "ANLAŞMA",
+          "hint": "Savaş sonunda tarafların vardığı mutabakat."
+        },
+        {
+          "word": "TAVİ̇Z",
+          "hint": "Karşılıklı ödün verme."
+        },
+        {
+          "word": "Mİ̇SAKİMİ̇LLİ̇",
+          "hint": "Ulusal yemin."
+        },
+        {
+          "word": "HALKİRRİ",
+          "hint": "Bir ulusun kendi geleceğini belirleme hakkı."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Bir devletin egemen olduğu alan."
+        },
+        {
+          "word": "BAĞİMSİZLİK",
+          "hint": "Başka bir gücün egemenliği altında olmama durumu."
+        },
+        {
+          "word": "MEHMETÇİ̇K",
+          "hint": "Türk askerine verilen sevgi dolu ad."
+        },
+        {
+          "word": "MECBURİ̇",
+          "hint": "Yapılması zorunlu olan."
+        },
+        {
+          "word": "ASKER",
+          "hint": "Ülkesi için savaşan kişi."
+        },
+        {
+          "word": "KOMUTAN",
+          "hint": "Askeri bir birliğin başındaki kişi."
+        },
+        {
+          "word": "TÜMEN",
+          "hint": "Büyük askeri birlik."
+        },
+        {
+          "word": "ALAY",
+          "hint": "Tümenden küçük askeri birlik."
+        },
+        {
+          "word": "TABUR",
+          "hint": "Alaydan küçük askeri birlik."
+        },
+        {
+          "word": "BÖLÜK",
+          "hint": "Taburdan küçük askeri birlik."
+        },
+        {
+          "word": "Tİ̇M",
+          "hint": "En küçük askeri birlik."
+        },
+        {
+          "word": "KARARGÂH",
+          "hint": "Komutanlığın bulunduğu yer."
+        },
+        {
+          "word": "İ̇ŞGAL",
+          "hint": "Bir ülkenin başka bir ülke toprağını zorla ele geçirmesi."
+        },
+        {
+          "word": "MANDA",
+          "hint": "Bağımsızlığı kısıtlanmış devlet."
+        },
+        {
+          "word": "KURTULUŞ",
+          "hint": "Esaretten veya sıkıntıdan kurtulma."
+        },
+        {
+          "word": "YURTTAŞ",
+          "hint": "Bir devletin vatandaşı."
+        },
+        {
+          "word": "VATAN",
+          "hint": "Ülke, memleket."
+        },
+        {
+          "word": "BAYRAK",
+          "hint": "Bir ulusun sembolü olan kumaş."
+        },
+        {
+          "word": "MARŞ",
+          "hint": "Ulusal marş."
+        },
+        {
+          "word": "GAZİ̇",
+          "hint": "Savaşta yaralanan kahraman."
+        },
+        {
+          "word": "ŞEHİ̇T",
+          "hint": "Vatan uğruna can veren kişi."
+        }
       ]
     },
     {
       "id": "tarih_u2",
       "name": "2. Ünite: Mondros Mütarekesi ve Sonrası",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "MONDROS", "hint": "Osmanlı'nın imzaladığı ağır ateşkes antlaşması"},
-        {"word": "İŞGAL", "hint": "Bir ülke topraklarının yabancı güçlerce ele geçirilmesi"},
-        {"word": "KUVAYIMILLIYE", "hint": "Halkın düşmana karşı kurduğu direniş güçleri"},
-        {"word": "MÜDAFAA", "hint": "İşgale karşı kurulan savunma amaçlı cemiyetler"},
-        {"word": "WİLSON", "hint": "On dört ilkeyi açıklayan ABD başkanı"}
+        {
+          "word": "MONDROS",
+          "hint": "Osmanlı'nın imzaladığı ağır ateşkes antlaşması"
+        },
+        {
+          "word": "İŞGAL",
+          "hint": "Bir ülke topraklarının yabancı güçlerce ele geçirilmesi"
+        },
+        {
+          "word": "KUVAYIMILLIYE",
+          "hint": "Halkın düşmana karşı kurduğu direniş güçleri"
+        },
+        {
+          "word": "MÜDAFAA",
+          "hint": "İşgale karşı kurulan savunma amaçlı cemiyetler"
+        },
+        {
+          "word": "WİLSON",
+          "hint": "On dört ilkeyi açıklayan ABD başkanı"
+        },
+        {
+          "word": "MÜTAREKE",
+          "hint": "Savaş durumuna son veren geçici anlaşma."
+        },
+        {
+          "word": "Mİ̇LLİ̇",
+          "hint": "Ulusal veya ulusla ilgili olan."
+        },
+        {
+          "word": "TEŞKİ̇LAT",
+          "hint": "Belirli bir amaca ulaşmak için kurulan yapı veya grup."
+        },
+        {
+          "word": "HAREKAT",
+          "hint": "Belirli bir amaçla yapılan eylem veya askeri operasyon."
+        },
+        {
+          "word": "BATİ",
+          "hint": "Anadolu'nun batı kesimi veya Batı devletleri."
+        },
+        {
+          "word": "DOĞU",
+          "hint": "Anadolu'nun doğu kesimi veya Doğu Anadolu Bölgesi."
+        },
+        {
+          "word": "İ̇ZMİ̇R",
+          "hint": "Ege Bölgesi'nde önemli bir liman şehri."
+        },
+        {
+          "word": "İ̇STANBUL",
+          "hint": "Osmanlı Devleti'nin başkenti ve önemli bir şehir."
+        },
+        {
+          "word": "ANKARA",
+          "hint": "Daha sonra Türkiye Cumhuriyeti'nin başkenti olacak şehir."
+        },
+        {
+          "word": "HÜKÜMET",
+          "hint": "Devleti yöneten kurul."
+        },
+        {
+          "word": "SULTAN",
+          "hint": "Osmanlı Devleti'nin padişahı."
+        },
+        {
+          "word": "HALİ̇FE",
+          "hint": "İslam dünyasının dini ve siyasi lideri."
+        },
+        {
+          "word": "VATAN",
+          "hint": "Doğup büyüdüğümüz ve uğruna mücadele ettiğimiz topraklar."
+        },
+        {
+          "word": "BAĞİMSİZLİK",
+          "hint": "Başka bir devlete bağlı olmadan yaşama durumu."
+        },
+        {
+          "word": "EGEMENLİ̇K",
+          "hint": "Bir devletin kendi topraklarında en üstün söz hakkına sahip olması."
+        },
+        {
+          "word": "Mİ̇SAKİMİ̇LLİ̇",
+          "hint": "Milli Misak'ın kabul ettiği temel esaslar."
+        },
+        {
+          "word": "ULUSAL",
+          "hint": "Tüm milleti kapsayan, milli."
+        },
+        {
+          "word": "MECLİ̇S",
+          "hint": "Milletvekillerinin toplanıp ülkeyi ilgilendiren kararlar aldığı yer."
+        },
+        {
+          "word": "DEVRİ̇SAKİR",
+          "hint": "Devrin sonu, eski düzenin yıkılması."
+        },
+        {
+          "word": "ASKER",
+          "hint": "Ülkesini koruyan silahlı kuvvetler mensubu."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Yeryüzü parçası, vatanın bütünü."
+        },
+        {
+          "word": "Sİ̇LAHALTİ",
+          "hint": "Askerlik görevi yapmakta olan."
+        },
+        {
+          "word": "TÜRKİ̇YE",
+          "hint": "Kurtuluş Savaşı sonrası kurulan yeni devletin adı."
+        },
+        {
+          "word": "AVRUPA",
+          "hint": "Batı'da yer alan kıta."
+        },
+        {
+          "word": "İ̇NGİ̇LTERE",
+          "hint": "Birleşik Krallık."
+        },
+        {
+          "word": "FRANSA",
+          "hint": "Avrupa'da bir ülke."
+        },
+        {
+          "word": "İ̇TALYA",
+          "hint": "Avrupa'da bir ülke."
+        },
+        {
+          "word": "RUSYA",
+          "hint": "Doğuda yer alan büyük ülke."
+        },
+        {
+          "word": "BOĞAZLAR",
+          "hint": "Marmara Denizi'ni Karadeniz'e ve Ege'ye bağlayan su yolları."
+        },
+        {
+          "word": "TAVİ̇Z",
+          "hint": "Verilen ödün, vazgeçilen hak."
+        },
+        {
+          "word": "TEBLİ̇Ğ",
+          "hint": "Resmi duyuru veya bildirim."
+        },
+        {
+          "word": "TELGRAF",
+          "hint": "Mesaj iletme yöntemi."
+        },
+        {
+          "word": "KARAR",
+          "hint": "Bir konuda varılan sonuç."
+        },
+        {
+          "word": "PROTESTO",
+          "hint": "Kınama, karşı çıkma."
+        },
+        {
+          "word": "MEKTUP",
+          "hint": "Yazılı iletişim aracı."
+        },
+        {
+          "word": "DELEGE",
+          "hint": "Temsilci, elçi."
+        },
+        {
+          "word": "SEVR",
+          "hint": "Osmanlı Devleti'nin imzaladığı antlaşma."
+        },
+        {
+          "word": "DOKTOR",
+          "hint": "Sağlıkla ilgili uzman."
+        },
+        {
+          "word": "RAHATSİZLİK",
+          "hint": "Sağlık durumu veya huzursuzluk."
+        },
+        {
+          "word": "HALKİN",
+          "hint": "Toplumun, ulusun."
+        },
+        {
+          "word": "BOYUN",
+          "hint": "Teslimiyet gösterme."
+        },
+        {
+          "word": "YETKİ̇",
+          "hint": "Kullanma hakkı, salahiyet."
+        },
+        {
+          "word": "Sİ̇YASİ̇",
+          "hint": "Devlet yönetimiyle ilgili."
+        },
+        {
+          "word": "EKONOMİ̇K",
+          "hint": "Ekonomik konularla ilgili."
+        },
+        {
+          "word": "TOPLANTİ",
+          "hint": "Birlikte görüşmek için yapılan bir araya geliş."
+        },
+        {
+          "word": "BASİN",
+          "hint": "Gazete, dergi gibi yayın organları."
+        }
       ]
     }
   ]

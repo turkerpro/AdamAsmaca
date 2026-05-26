@@ -3,25 +3,431 @@
     {
       "id": "fizik_u1",
       "name": "1. Ünite: Elektrik",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "AKIM", "hint": "Elektrik yüklerinin iletken boyunca hareketi"},
-        {"word": "GERİLİM", "hint": "İki nokta arasındaki elektriksel potansiyel farkı"},
-        {"word": "DİRENÇ", "hint": "İletkenin elektrik akımına gösterdiği zorluk"},
-        {"word": "VOLT", "hint": "Elektriksel gerilimin ölçüm birimi"},
-        {"word": "AMPER", "hint": "Elektrik akım şiddetinin ölçüm birimi"}
+        {
+          "word": "AKIM",
+          "hint": "Elektrik yüklerinin iletken boyunca hareketi"
+        },
+        {
+          "word": "GERİLİM",
+          "hint": "İki nokta arasındaki elektriksel potansiyel farkı"
+        },
+        {
+          "word": "DİRENÇ",
+          "hint": "İletkenin elektrik akımına gösterdiği zorluk"
+        },
+        {
+          "word": "VOLT",
+          "hint": "Elektriksel gerilimin ölçüm birimi"
+        },
+        {
+          "word": "AMPER",
+          "hint": "Elektrik akım şiddetinin ölçüm birimi"
+        },
+        {
+          "word": "ELEKTRON",
+          "hint": "Atomun çekirdeği etrafında dönen negatif yüklü parçacık"
+        },
+        {
+          "word": "YÜK",
+          "hint": "Elektriksel özelliğin temel birimi"
+        },
+        {
+          "word": "KUVVET",
+          "hint": "İki yüklü cisim arasındaki çekme veya itme etkisi"
+        },
+        {
+          "word": "ALAN",
+          "hint": "Yüklü cisimlerin çevresinde oluşturduğu etki bölgesi"
+        },
+        {
+          "word": "POTANSİ̇YEL",
+          "hint": "Bir yükün bir noktada sahip olduğu enerji durumu"
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme kapasitesi, elektrikle ilgili olarak depolanabilir veya iletilebilir"
+        },
+        {
+          "word": "İ̇LETKEN",
+          "hint": "Elektriği kolayca geçiren madde"
+        },
+        {
+          "word": "YALİTKAN",
+          "hint": "Elektriği geçirmeyen madde"
+        },
+        {
+          "word": "DEVRE",
+          "hint": "Elektrik akımının aktığı kapalı yol"
+        },
+        {
+          "word": "ANAHTAR",
+          "hint": "Devreyi açıp kapatmaya yarayan alet"
+        },
+        {
+          "word": "Lİ̇TYUM",
+          "hint": "Cep telefonlarında sıklıkla kullanılan bir pil malzemesi"
+        },
+        {
+          "word": "KABLO",
+          "hint": "Elektriği iletmek için kullanılan yalıtımlı tel"
+        },
+        {
+          "word": "Pİ̇L",
+          "hint": "Elektrik enerjisi üreten kimyasal düzenek"
+        },
+        {
+          "word": "AKÜ",
+          "hint": "Araçlarda kullanılan, tekrar şarj edilebilen enerji deposu"
+        },
+        {
+          "word": "JENERATÖR",
+          "hint": "Mekanik enerjiyi elektrik enerjisine çeviren makine"
+        },
+        {
+          "word": "TRANSFORMATÖR",
+          "hint": "Gerilimi yükseltip alçaltmaya yarayan alet"
+        },
+        {
+          "word": "BAĞLANTİ",
+          "hint": "Devre elemanlarının birbirine bağlanma şekli"
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Devre elemanlarının akım yolu üzerindeki dallanarak bağlanması"
+        },
+        {
+          "word": "SERİ̇",
+          "hint": "Devre elemanlarının art arda bağlanması"
+        },
+        {
+          "word": "YÖNLÜ",
+          "hint": "Akımın belirli bir yönde aktığı durum"
+        },
+        {
+          "word": "Sİ̇GORTA",
+          "hint": "Aşırı akıma karşı devreyi koruyan parça"
+        },
+        {
+          "word": "TOPRAKLAMA",
+          "hint": "Elektrikli aletlerin gövdelerinin güvenliği için yapılan bağlantı"
+        },
+        {
+          "word": "STATİ̇K",
+          "hint": "Duran yüklerin oluşturduğu elektriklenme durumu"
+        },
+        {
+          "word": "Dİ̇NAMİ̇K",
+          "hint": "Hareket halindeki yüklerin oluşturduğu elektrik akımı durumu"
+        },
+        {
+          "word": "KUTUP",
+          "hint": "Mıknatısların veya pillerin uçları (N/S veya +/-)"
+        },
+        {
+          "word": "İ̇LETKENLİ̇K",
+          "hint": "Bir malzemenin elektriği iletme derecesi"
+        },
+        {
+          "word": "YALITKANLIK",
+          "hint": "Bir malzemenin elektriği iletmeme derecesi"
+        },
+        {
+          "word": "ÖZGÜL",
+          "hint": "Malzemenin kendi yapısına ait olan (örneğin özgül direnç)"
+        },
+        {
+          "word": "SİKLİK",
+          "hint": "Alternatif akımda saniyedeki salınım sayısı (Hertz)"
+        },
+        {
+          "word": "DALGA",
+          "hint": "Elektromanyetik alanın yayılması (ışık gibi)"
+        },
+        {
+          "word": "BOŞALMA",
+          "hint": "Pilin veya kapasitörün depoladığı enerjiyi verme işlemi"
+        },
+        {
+          "word": "KAZANÇ",
+          "hint": "Enerjinin bir formdan diğerine dönüşmesiyle elde edilen fayda"
+        },
+        {
+          "word": "VERİ̇M",
+          "hint": "Sistemin iş yaparken harcadığı enerjiye karşılık aldığı fayda oranı"
+        },
+        {
+          "word": "İSİ",
+          "hint": "Direnç üzerinden akım geçerken ortaya çıkan enerji türü"
+        },
+        {
+          "word": "İŞİK",
+          "hint": "Bazı elektrik devre elemanlarının çalışması sonucu yayılan enerji"
+        },
+        {
+          "word": "MANYETİ̇ZMA",
+          "hint": "Elektrik akımının ve yüklerin oluşturduğu manyetik alanla ilgili olgu"
+        },
+        {
+          "word": "KATİ",
+          "hint": "Maddenin en yoğun hallerinden biri, iletkenliği etkiler"
+        },
+        {
+          "word": "SİVİ",
+          "hint": "Maddenin akışkan hallerinden biri, bazı elektrolitler iletkendir"
+        },
+        {
+          "word": "GAZ",
+          "hint": "Maddenin en seyrek hallerinden biri, bazı durumlarda iletken olabilir"
+        },
+        {
+          "word": "ELEKTROLİ̇T",
+          "hint": "Suda çözündüğünde iyonlaşarak akımı ileten madde"
+        },
+        {
+          "word": "DEPOLAMA",
+          "hint": "Enerjinin bir yerde saklanması (kapasitör gibi)"
+        },
+        {
+          "word": "İ̇MPEDANS",
+          "hint": "AC devrelerinde akıma karşı gösterilen toplam zorluk"
+        },
+        {
+          "word": "FAZ",
+          "hint": "AC devrelerinde akım ve gerilimin zamansal ilişkisi"
+        },
+        {
+          "word": "REAKTANS",
+          "hint": "AC devrelerinde bobin veya kondansatörün akıma karşı gösterdiği zorluk"
+        },
+        {
+          "word": "OHMMETRE",
+          "hint": "Bir elektrik devresindeki direnci ölçmek için kullanılan alet"
+        }
       ]
     },
     {
       "id": "fizik_u2",
       "name": "2. Ünite: Manyetizma",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "MIKNATIS", "hint": "Demir ve çeliği çekme özelliği olan cisim"},
-        {"word": "MANYETIK ALAN", "hint": "Mıknatısın çevresinde oluşturduğu etki bölgesi"},
-        {"word": "KUTUP", "hint": "Mıknatısın çekme gücünün en fazla olduğu uçlar"},
-        {"word": "İNDÜKSİYON", "hint": "Değişen manyetik alanın elektrik akımı oluşturması"},
-        {"word": "BOBIN", "hint": "Telin silindir şeklinde sarılmasıyla oluşan yapı"}
+        {
+          "word": "MIKNATIS",
+          "hint": "Demir ve çeliği çekme özelliği olan cisim"
+        },
+        {
+          "word": "MANYETIK ALAN",
+          "hint": "Mıknatısın çevresinde oluşturduğu etki bölgesi"
+        },
+        {
+          "word": "KUTUP",
+          "hint": "Mıknatısın çekme gücünün en fazla olduğu uçlar"
+        },
+        {
+          "word": "İNDÜKSİYON",
+          "hint": "Değişen manyetik alanın elektrik akımı oluşturması"
+        },
+        {
+          "word": "BOBIN",
+          "hint": "Telin silindir şeklinde sarılmasıyla oluşan yapı"
+        },
+        {
+          "word": "DEMİ̇R",
+          "hint": "Mıknatısların çektiği, parlak gri bir metal."
+        },
+        {
+          "word": "PERMEABİ̇Lİ̇TE",
+          "hint": "Mıknatıslı alanın bir madde içinden ne kadar kolay geçebileceğini gösteren özellik."
+        },
+        {
+          "word": "AKİM",
+          "hint": "Elektrik yüklerinin bir iletken içindeki hareketi."
+        },
+        {
+          "word": "MANYETİ̇K",
+          "hint": "Mıknatıslarla veya elektrik akımlarıyla ilgili olan."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Belirli bir etki alanını kapsayan boşluk."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Bir cismi hareket ettiren veya şeklini değiştiren etki."
+        },
+        {
+          "word": "İ̇TME",
+          "hint": "Birbirinden uzaklaştıran manyetik etki."
+        },
+        {
+          "word": "ÇEKME",
+          "hint": "Birbirine yaklaştıran manyetik etki."
+        },
+        {
+          "word": "İ̇LETKEN",
+          "hint": "Elektriği veya ısıyı iyi geçiren madde."
+        },
+        {
+          "word": "YALİTKAN",
+          "hint": "Elektriği veya ısıyı geçirmeyen madde."
+        },
+        {
+          "word": "ELEKTRİ̇K",
+          "hint": "Yüklü parçacıkların hareketiyle oluşan enerji."
+        },
+        {
+          "word": "FARADAY",
+          "hint": "Manyetik indüksiyon yasasını bulan bilim insanı."
+        },
+        {
+          "word": "LENZ",
+          "hint": "İndüksiyon akımının yönünü belirleyen kuralı bulan bilim insanı."
+        },
+        {
+          "word": "EKVATOR",
+          "hint": "Manyetik alan çizgilerinin en seyrek olduğu hayali çizgi."
+        },
+        {
+          "word": "KUTUP NOKTASİ",
+          "hint": "Dünya'nın manyetik alanının dikey olduğu nokta."
+        },
+        {
+          "word": "MANYETİK KALKANLAMA",
+          "hint": "Manyetik alan etkisini azaltma veya engelleme yöntemi."
+        },
+        {
+          "word": "PARAMANYETİ̇K",
+          "hint": "Zayıfça manyetik alan tarafından çekilen maddeler."
+        },
+        {
+          "word": "Dİ̇YAMANYETİ̇K",
+          "hint": "Zayıfça manyetik alan tarafından itilen maddeler."
+        },
+        {
+          "word": "FERROMANYETİ̇K",
+          "hint": "Güçlü bir şekilde manyetik alan tarafından çekilen maddeler."
+        },
+        {
+          "word": "MANYETİK MOMENT",
+          "hint": "Bir manyetik kaynağın alan oluşturma gücünü ölçen nicelik."
+        },
+        {
+          "word": "JİROSKOP",
+          "hint": "Dönen bir cismin uzaydaki yönünü koruma eğilimini kullanan alet."
+        },
+        {
+          "word": "MANYETİK ALAN ŞİDDETİ",
+          "hint": "Manyetik alanın bir noktadaki büyüklüğünü ifade eden değer."
+        },
+        {
+          "word": "MANYETİK AKI",
+          "hint": "Belirli bir yüzeyden geçen toplam manyetik alan çizgisi sayısı."
+        },
+        {
+          "word": "MANYETİK DENGE",
+          "hint": "Zıt manyetik kuvvetlerin birbirini dengelediği durum."
+        },
+        {
+          "word": "ELEKTROMIKNATIS",
+          "hint": "Üzerinden akım geçen bir bobinin oluşturduğu geçici mıknatıs."
+        },
+        {
+          "word": "MANYETİK DEPOLAMA",
+          "hint": "Bilgiyi manyetik alan kullanarak saklama yöntemi."
+        },
+        {
+          "word": "MANYETİK REZONANS",
+          "hint": "Manyetik alan ve radyo dalgalarının etkileşimiyle ilgilidir (Tıpta kullanılır)."
+        },
+        {
+          "word": "MANYETİK LEVİTATİON",
+          "hint": "Manyetik kuvvetler yardımıyla bir cismi havada tutma."
+        },
+        {
+          "word": "TORK",
+          "hint": "Dönme etkisi yaratan kuvvet."
+        },
+        {
+          "word": "ORYANTASYON",
+          "hint": "Bir cismin uzaydaki konumu ve duruşu."
+        },
+        {
+          "word": "MANYETİK SAPMA",
+          "hint": "Manyetik alanın bir parçacığın hareketini değiştirme etkisi."
+        },
+        {
+          "word": "DOĞAL MIKNATIS",
+          "hint": "Kendiliğinden manyetik özellik gösteren kayaçlar (Mıknatıstaşı gibi)."
+        },
+        {
+          "word": "YAPAY MIKNATIS",
+          "hint": "İnsanlar tarafından manyetize edilen nesneler."
+        },
+        {
+          "word": "MANYETİK ALAN ÇİZGİLERİ",
+          "hint": "Manyetik alanın yönünü ve şiddetini gösteren hayali çizgiler."
+        },
+        {
+          "word": "MANYETİK TEK KUTUP",
+          "hint": "Henüz gözlemlenmemiş, yalnızca N veya S kutbu olan varsayımsal parçacık."
+        },
+        {
+          "word": "MANYETİK ALAN ÖLÇER",
+          "hint": "Manyetik alanın şiddetini ölçmeye yarayan alet (Gaussmetre gibi)."
+        },
+        {
+          "word": "MANYETİK ETKİ",
+          "hint": "Mıknatısların birbirleri veya manyetik maddeler üzerindeki tesiri."
+        },
+        {
+          "word": "MANYETİK SÜREKLİLİK",
+          "hint": "Manyetik alanın bir bölgedeki kesintisizliği."
+        },
+        {
+          "word": "MANYETİK GEÇİRGENLİK",
+          "hint": "Bir malzemenin mıknatıslanma yeteneği."
+        },
+        {
+          "word": "MANYETİK ALAN VEKTÖRÜ",
+          "hint": "Manyetik alanın hem büyüklüğünü hem de yönünü belirten vektör."
+        },
+        {
+          "word": "MANYETİK DİPOL",
+          "hint": "Birbirine yakın, zıt iki manyetik kutuptan oluşan sistem."
+        },
+        {
+          "word": "LORENTZ KUVVETİ",
+          "hint": "Manyetik alanda hareket eden yüklü bir parçacığa etki eden kuvvet."
+        },
+        {
+          "word": "MANYETİK AKI YOĞUNLUĞU",
+          "hint": "Manyetik akının birim alana düşen miktarı (Manyetik alan şiddeti ile aynı)."
+        },
+        {
+          "word": "MIKNATISLANMA",
+          "hint": "Bir maddeyi mıknatıs haline getirme süreci."
+        },
+        {
+          "word": "GEÇİCİ MIKNATIS",
+          "hint": "Manyetik alanı kaldırıldığında özelliklerini kaybeden mıknatıs."
+        },
+        {
+          "word": "KALICI MIKNATIS",
+          "hint": "Manyetik özelliği uzun süre devam eden mıknatıs."
+        }
       ]
     }
   ]

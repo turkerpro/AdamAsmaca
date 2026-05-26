@@ -3,25 +3,443 @@
     {
       "id": "cografya_u1",
       "name": "1. Ünite: Nüfus",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "NÜFUS YOĞUNLUĞU", "hint": "Birim alandaki kişi sayısını gösteren ölçü"},
-        {"word": "SAYIM", "hint": "Ülkedeki toplam nüfusu belirlemek için yapılan işlem"},
-        {"word": "KENTLEŞME", "hint": "Nüfusun kırsal alanlardan şehirlere yoğunlaşması"},
-        {"word": "DOĞURGANLIK", "hint": "Belirli dönemde gerçekleşen doğum oranı"},
-        {"word": "NÜFUS PİRAMİDİ", "hint": "Yaş ve cinsiyet dağılımını gösteren grafik"}
+        {
+          "word": "NÜFUS YOĞUNLUĞU",
+          "hint": "Birim alandaki kişi sayısını gösteren ölçü"
+        },
+        {
+          "word": "SAYIM",
+          "hint": "Ülkedeki toplam nüfusu belirlemek için yapılan işlem"
+        },
+        {
+          "word": "KENTLEŞME",
+          "hint": "Nüfusun kırsal alanlardan şehirlere yoğunlaşması"
+        },
+        {
+          "word": "DOĞURGANLIK",
+          "hint": "Belirli dönemde gerçekleşen doğum oranı"
+        },
+        {
+          "word": "NÜFUS PİRAMİDİ",
+          "hint": "Yaş ve cinsiyet dağılımını gösteren grafik"
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "Bir yerden bir yere topluca veya bireysel olarak yer değiştirme."
+        },
+        {
+          "word": "DÜNYA",
+          "hint": "İnsanların yaşadığı gezegen."
+        },
+        {
+          "word": "KİYA",
+          "hint": "Bir bölgedeki insan sayısıdır."
+        },
+        {
+          "word": "YAŞAM",
+          "hint": "Hayatın devam etme durumu."
+        },
+        {
+          "word": "ORTALAMA",
+          "hint": "Sayıların toplamının adede bölünmesiyle elde edilen değer."
+        },
+        {
+          "word": "Mİ̇LLİ̇",
+          "hint": "Bir ulusa ait olan."
+        },
+        {
+          "word": "HİZ",
+          "hint": "Değişimin ne kadar çabuk olduğunu gösterir."
+        },
+        {
+          "word": "BEBEK",
+          "hint": "Çok küçük çocuk."
+        },
+        {
+          "word": "HAYAT",
+          "hint": "Doğumdan ölüme kadar geçen süre."
+        },
+        {
+          "word": "EKONOMİ̇",
+          "hint": "Üretim, tüketim ve dağıtımla ilgili sistem."
+        },
+        {
+          "word": "TARİM",
+          "hint": "Bitki yetiştirme ve hayvan bakımı."
+        },
+        {
+          "word": "SANAYİ̇",
+          "hint": "Fabrikalarda üretim yapma."
+        },
+        {
+          "word": "Hİ̇ZMET",
+          "hint": "İnsanlara yapılan yardım veya faaliyet."
+        },
+        {
+          "word": "YOLCU",
+          "hint": "Bir yere giden veya gelen kimse."
+        },
+        {
+          "word": "İ̇STASYON",
+          "hint": "Ulaşım araçlarının durduğu yer."
+        },
+        {
+          "word": "TRAFİ̇K",
+          "hint": "Araçların ve insanların yollardaki hareketi."
+        },
+        {
+          "word": "Bİ̇LGİ̇",
+          "hint": "Öğrenilen veya keşfedilen gerçekler."
+        },
+        {
+          "word": "HARİ̇TA",
+          "hint": "Yeryüzünün veya bir bölümünün küçültülmüş temsili."
+        },
+        {
+          "word": "SİNİR",
+          "hint": "Bir ülkenin veya bölgenin bittiği çizgi."
+        },
+        {
+          "word": "BÖLGE",
+          "hint": "Belirli özelliklere sahip coğrafi alan."
+        },
+        {
+          "word": "İ̇KLİ̇M",
+          "hint": "Uzun süreli hava durumu örüntüsü."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Ağaçlarla kaplı geniş arazi."
+        },
+        {
+          "word": "DENİ̇Z",
+          "hint": "Geniş tuzlu su kütlesi."
+        },
+        {
+          "word": "OKUL",
+          "hint": "Öğrenim görülen yer."
+        },
+        {
+          "word": "HASTANE",
+          "hint": "Sağlık hizmeti verilen yer."
+        },
+        {
+          "word": "GELECEK",
+          "hint": "Henüz yaşanmamış zaman."
+        },
+        {
+          "word": "GEÇMİ̇Ş",
+          "hint": "Yaşanmış zaman."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Mevcut hal veya vaziyet."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Verilerin veya bilgilerin düzenli bir şekilde gösterildiği çizelge."
+        },
+        {
+          "word": "ARTİS",
+          "hint": "Bir şeyin miktarının veya sayısının çoğalması."
+        },
+        {
+          "word": "AZALİŞ",
+          "hint": "Bir şeyin miktarının veya sayısının azalması."
+        },
+        {
+          "word": "VERİ̇",
+          "hint": "Toplanan veya işlenen bilgi."
+        },
+        {
+          "word": "YOLCULUK",
+          "hint": "Bir yerden bir yere gitme eylemi."
+        },
+        {
+          "word": "GELİ̇R",
+          "hint": "Para kazanma."
+        },
+        {
+          "word": "Gİ̇DER",
+          "hint": "Para harcama."
+        },
+        {
+          "word": "EĞİ̇Tİ̇M",
+          "hint": "Bilgi ve beceri kazandırma süreci."
+        },
+        {
+          "word": "SAĞLİK",
+          "hint": "Vücudun iyilik hali."
+        },
+        {
+          "word": "MESLEK",
+          "hint": "Kişinin geçimini sağlamak için yaptığı iş."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir topluma ait değerler, inançlar, gelenekler."
+        },
+        {
+          "word": "GEZİ̇",
+          "hint": "Dinlenmek veya görmek amacıyla yapılan kısa yolculuk."
+        },
+        {
+          "word": "YAŞLİLİK",
+          "hint": "İleri yaş dönemi."
+        },
+        {
+          "word": "GENÇLİ̇K",
+          "hint": "Ergenlik sonrası ve yaşlılık öncesi dönem."
+        },
+        {
+          "word": "ÇOCUKLUK",
+          "hint": "Doğumdan ergenliğe kadar olan dönem."
+        },
+        {
+          "word": "GÜNLÜK",
+          "hint": "Her gün olan veya yapılan."
+        },
+        {
+          "word": "DEĞİ̇Şİ̇M",
+          "hint": "Bir durumdan başka bir duruma geçme."
+        }
       ]
     },
     {
       "id": "cografya_u2",
       "name": "2. Ünite: Göç",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "GÖÇ", "hint": "İnsanların yaşam yerini değiştirmesi olayı"},
-        {"word": "MÜLTECİ", "hint": "Savaş veya zulümden kaçarak başka ülkeye sığınan kişi"},
-        {"word": "GÖÇEBE", "hint": "Sürekli yer değiştirerek yaşayan topluluk"},
-        {"word": "KIRSAL GÖÇ", "hint": "Köylerden şehirlere yapılan nüfus hareketi"},
-        {"word": "BEYİN GÖÇÜ", "hint": "Nitelikli iş gücünün yurt dışına gitmesi"}
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların yaşam yerini değiştirmesi olayı"
+        },
+        {
+          "word": "MÜLTECİ",
+          "hint": "Savaş veya zulümden kaçarak başka ülkeye sığınan kişi"
+        },
+        {
+          "word": "GÖÇEBE",
+          "hint": "Sürekli yer değiştirerek yaşayan topluluk"
+        },
+        {
+          "word": "KIRSAL GÖÇ",
+          "hint": "Köylerden şehirlere yapılan nüfus hareketi"
+        },
+        {
+          "word": "BEYİN GÖÇÜ",
+          "hint": "Nitelikli iş gücünün yurt dışına gitmesi"
+        },
+        {
+          "word": "İ̇STİ̇HDAM",
+          "hint": "İş bulma veya iş verme durumu"
+        },
+        {
+          "word": "PLANLAMA",
+          "hint": "Geleceği düşünerek hazırlık yapma"
+        },
+        {
+          "word": "SÜRDÜRÜLEBİ̇Lİ̇RLİ̇K",
+          "hint": "Devamlılığı sağlama, geleceği düşünme"
+        },
+        {
+          "word": "GELECEK",
+          "hint": "Henüz yaşanmamış zaman dilimi"
+        },
+        {
+          "word": "TARİM",
+          "hint": "Bitki yetiştirme ve hayvan bakımı"
+        },
+        {
+          "word": "SANAYİ̇",
+          "hint": "Ham maddeleri işleyerek üretim yapma"
+        },
+        {
+          "word": "Hİ̇ZMET",
+          "hint": "İnsanlara sunulan karşılıklı fayda"
+        },
+        {
+          "word": "İ̇NSAN",
+          "hint": "Dünyadaki akıllı canlı varlık"
+        },
+        {
+          "word": "NÜFUS",
+          "hint": "Bir bölgede yaşayan toplam insan sayısı"
+        },
+        {
+          "word": "ARTİRMA",
+          "hint": "Sayıyı çoğaltma, yükseltme"
+        },
+        {
+          "word": "AZALTMA",
+          "hint": "Sayıyı düşürme, eksiltme"
+        },
+        {
+          "word": "GELİ̇R",
+          "hint": "Çalışarak kazanılan para"
+        },
+        {
+          "word": "Gİ̇DER",
+          "hint": "Harcamalar, para çıkışı"
+        },
+        {
+          "word": "REFİ̇YAHL",
+          "hint": "Zenginlik, bolluk ve mutluluk durumu"
+        },
+        {
+          "word": "EĞİ̇Tİ̇M",
+          "hint": "Bilgi ve beceri kazanma süreci"
+        },
+        {
+          "word": "SAĞLİK",
+          "hint": "Hastalık durumu olmayan iyilik hali"
+        },
+        {
+          "word": "ALTYAPİ",
+          "hint": "Yollar, köprüler gibi temel yapılar"
+        },
+        {
+          "word": "ÜST YAPİ",
+          "hint": "Binalar, okullar, hastaneler gibi yapılar"
+        },
+        {
+          "word": "SORUN",
+          "hint": "Çözülmesi gereken problem"
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Sorunu giderme yolu"
+        },
+        {
+          "word": "TEKNOLOJİ̇",
+          "hint": "Bilimsel bilgilerin pratik uygulamaları"
+        },
+        {
+          "word": "İ̇LETİ̇Şİ̇M",
+          "hint": "Bilgi ve duygu paylaşımı"
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir topluma ait yaşam biçimi, inançlar"
+        },
+        {
+          "word": "KENTLEŞME",
+          "hint": "Şehirlerin büyümesi ve yayılması"
+        },
+        {
+          "word": "PLANSİZ",
+          "hint": "Önceden düşünülmemiş, programsız"
+        },
+        {
+          "word": "GECEKONDU",
+          "hint": "İzinsiz ve plansız yapılan konutlar"
+        },
+        {
+          "word": "Sİ̇YASET",
+          "hint": "Devlet yönetimiyle ilgili uğraş"
+        },
+        {
+          "word": "EKONOMİ̇",
+          "hint": "Üretim, tüketim ve dağıtımla ilgili bilim dalı"
+        },
+        {
+          "word": "SOSYAL",
+          "hint": "Toplumsal, insanlar arası ilişkilerle ilgili"
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Canlıların yaşamını etkileyen dış etkenler"
+        },
+        {
+          "word": "Kİ̇RLİ̇Lİ̇K",
+          "hint": "Çevrenin bozulması, temiz olmaması"
+        },
+        {
+          "word": "DOĞAL",
+          "hint": "Yapay olmayan, kendiliğinden oluşan"
+        },
+        {
+          "word": "AFET",
+          "hint": "Büyük yıkıma neden olan doğal olay"
+        },
+        {
+          "word": "DEPREM",
+          "hint": "Yerin sarsılması"
+        },
+        {
+          "word": "SEL",
+          "hint": "Suyun taşması, yatağından çıkması"
+        },
+        {
+          "word": "KURAKLİK",
+          "hint": "Uzun süren yağışsızlık dönemi"
+        },
+        {
+          "word": "VOLKAN",
+          "hint": "Yeryüzünden lav, kül ve gaz püskürten dağ"
+        },
+        {
+          "word": "Tİ̇CARET",
+          "hint": "Alım satım, mal değişimi"
+        },
+        {
+          "word": "ÜRETİ̇M",
+          "hint": "Mal veya hizmet ortaya çıkarma"
+        },
+        {
+          "word": "KONSÜM",
+          "hint": "Kullanım, tüketim"
+        },
+        {
+          "word": "Mİ̇GRASYON",
+          "hint": "İnsanların yer değiştirmesi (GÖÇ'ün eş anlamlısı gibi düşünülebilir)"
+        },
+        {
+          "word": "İ̇KLİ̇M",
+          "hint": "Bir bölgenin uzun süreli hava durumu"
+        },
+        {
+          "word": "YERLEŞİ̇M",
+          "hint": "İnsanların oturmak için seçtiği yer"
+        },
+        {
+          "word": "TARİ̇Hİ̇",
+          "hint": "Geçmişe ait, eski zamanlarla ilgili"
+        },
+        {
+          "word": "KÜLTÜREL",
+          "hint": "Kültürle ilgili, kültüre ait"
+        },
+        {
+          "word": "Bİ̇Lİ̇M",
+          "hint": "Gözlem ve deneye dayanan bilgi topluluğu"
+        },
+        {
+          "word": "HARİ̇TA",
+          "hint": "Yeryüzünün veya bir kısmının belirli bir ölçekte küçültülerek bir düzlem üzerine çizilmiş biçimi"
+        },
+        {
+          "word": "COĞRAFYA",
+          "hint": "Yeryüzünü, üzerindeki doğal ve beşeri unsurları inceleyen bilim dalı"
+        },
+        {
+          "word": "ALAN",
+          "hint": "Yüzey ölçüsü, saha"
+        }
       ]
     }
   ]

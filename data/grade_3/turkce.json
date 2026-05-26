@@ -3,25 +3,451 @@
     {
       "id": "turkce_u1",
       "name": "1. Ünite: Eş Anlamlılar",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "CESUR", "hint": "Yiğit kelimesinin eş anlamlısı"},
-        {"word": "GÜZEL", "hint": "Hoş ve latif kelimesinin eş anlamlısı"},
-        {"word": "MUTLU", "hint": "Sevinçli ve bahtiyar kelimesinin eş anlamlısı"},
-        {"word": "HIZLI", "hint": "Süratli ve çabuk kelimesinin eş anlamlısı"},
-        {"word": "YARDIM", "hint": "İmdat ve destek kelimesinin eş anlamlısı"}
+        {
+          "word": "CESUR",
+          "hint": "Yiğit kelimesinin eş anlamlısı"
+        },
+        {
+          "word": "GÜZEL",
+          "hint": "Hoş ve latif kelimesinin eş anlamlısı"
+        },
+        {
+          "word": "MUTLU",
+          "hint": "Sevinçli ve bahtiyar kelimesinin eş anlamlısı"
+        },
+        {
+          "word": "HIZLI",
+          "hint": "Süratli ve çabuk kelimesinin eş anlamlısı"
+        },
+        {
+          "word": "YARDIM",
+          "hint": "İmdat ve destek kelimesinin eş anlamlısı"
+        },
+        {
+          "word": "OKUL",
+          "hint": "Bilgi öğrendiğimiz ve arkadaşlarımızla buluştuğumuz yer."
+        },
+        {
+          "word": "MEKTEP",
+          "hint": "Eğitimin verildiği, okul ile eş anlamlı bir kelime."
+        },
+        {
+          "word": "SİYAH",
+          "hint": "Gece gibi, kömür gibi çok koyu renk."
+        },
+        {
+          "word": "KARA",
+          "hint": "En koyu renktir, siyah ile aynı anlama gelir."
+        },
+        {
+          "word": "AK",
+          "hint": "Kar gibi, süt gibi açık renk."
+        },
+        {
+          "word": "BEYAZ",
+          "hint": "Saflığı simgeleyen, karın rengi."
+        },
+        {
+          "word": "DOKTOR",
+          "hint": "Bizi iyileştiren, sağlığımıza dikkat eden kişi."
+        },
+        {
+          "word": "HEKİM",
+          "hint": "Hastaları tedavi eden, doktor ile eş anlamlı meslek adı."
+        },
+        {
+          "word": "ÖĞRENCİ",
+          "hint": "Okula giden, yeni şeyler öğrenen çocuk."
+        },
+        {
+          "word": "TALEBE",
+          "hint": "Öğrenim gören, öğrenci ile aynı anlama gelen kişi."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Bize dersleri anlatan, bilgi veren kişi."
+        },
+        {
+          "word": "MUALLİM",
+          "hint": "Çocuklara ve gençlere bilgi öğreten, öğretmen ile eş anlamlı."
+        },
+        {
+          "word": "KÜÇÜK",
+          "hint": "Boyutu az, minicik olan."
+        },
+        {
+          "word": "UFAK",
+          "hint": "Boyut olarak büyük olmayana denir."
+        },
+        {
+          "word": "YAŞLI",
+          "hint": "Çok yıl yaşamış, büyüklerimiz."
+        },
+        {
+          "word": "İ̇HTİYAR",
+          "hint": "Yaşı ileri olan, yaşlı ile aynı anlamda."
+        },
+        {
+          "word": "YIL",
+          "hint": "On iki aydan oluşan zaman dilimi."
+        },
+        {
+          "word": "SENE",
+          "hint": "Otuz altı beş gün süren zaman, yıl ile eş anlamlı."
+        },
+        {
+          "word": "MİSAFİR",
+          "hint": "Evimize gelen konuklarımız."
+        },
+        {
+          "word": "KONUK",
+          "hint": "Bir yere ziyarete gelen kişiye denir."
+        },
+        {
+          "word": "RÜYA",
+          "hint": "Uyurken gördüğümüz hayali olaylar."
+        },
+        {
+          "word": "DÜŞ",
+          "hint": "Geceleri uyurken zihnimizde canlanan görüntüler."
+        },
+        {
+          "word": "SÖZCÜK",
+          "hint": "Cümleleri oluşturan, anlamı olan birim."
+        },
+        {
+          "word": "KELİME",
+          "hint": "Tek başına anlamı olan ve cümle kurmak için kullandığımız."
+        },
+        {
+          "word": "YURT",
+          "hint": "Ülkemizin bir başka adı."
+        },
+        {
+          "word": "VATAN",
+          "hint": "Üzerinde yaşadığımız, uğruna savaştığımız topraklar."
+        },
+        {
+          "word": "CEVAP",
+          "hint": "Sorulan bir soruya verilen karşılık."
+        },
+        {
+          "word": "YANIT",
+          "hint": "Bir soruya karşılık olarak verilen söz veya yazı."
+        },
+        {
+          "word": "KALP",
+          "hint": "Göğsümüzde atan, kan pompalayan organımız."
+        },
+        {
+          "word": "YÜREK",
+          "hint": "Vücudumuzdaki kanı pompalayan kaslı organ."
+        },
+        {
+          "word": "FAKİR",
+          "hint": "Parası ve malı az olan, ihtiyaç sahibi."
+        },
+        {
+          "word": "YOKSUL",
+          "hint": "Maddi durumu iyi olmayan, fakir ile aynı anlama gelir."
+        },
+        {
+          "word": "SIHHAT",
+          "hint": "Sağlıklı olma durumu."
+        },
+        {
+          "word": "SAĞLIK",
+          "hint": "Hastalıklı olmama, iyi ve dinç olma hali."
+        },
+        {
+          "word": "AD",
+          "hint": "İnsanlara veya eşyalara verilen isim."
+        },
+        {
+          "word": "İ̇SİM",
+          "hint": "Bizi diğerlerinden ayıran özel sözcük."
+        },
+        {
+          "word": "GÖREV",
+          "hint": "Yapmamız gereken iş veya sorumluluk."
+        },
+        {
+          "word": "VAZİFE",
+          "hint": "Bir işi yapma zorunluluğu, görev ile eş anlamlı."
+        },
+        {
+          "word": "AMAÇ",
+          "hint": "Hedeflediğimiz şey, ulaşmak istediğimiz nokta."
+        },
+        {
+          "word": "HEDEF",
+          "hint": "Ulaşılmak istenen sonuç, amaç ile aynı anlamda."
+        },
+        {
+          "word": "ANI",
+          "hint": "Geçmişte yaşadığımız, hatırladığımız bir olay."
+        },
+        {
+          "word": "HATIRA",
+          "hint": "Yaşanmış olayların belleğimizde kalan izleri."
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Duygu ve düşüncelerimizi anlatan söz dizisi."
+        },
+        {
+          "word": "TÜMCE",
+          "hint": "Bir düşünceyi tam olarak anlatan sözcükler topluluğu."
+        },
+        {
+          "word": "DOĞA",
+          "hint": "Etrafımızdaki ağaçlar, dağlar, denizler, hayvanlar."
+        },
+        {
+          "word": "TABİAT",
+          "hint": "Çevremizdeki her şey, canlı ve cansız varlıkların tümü."
+        },
+        {
+          "word": "ESİR",
+          "hint": "Özgürlüğü elinden alınmış, tutsak edilmiş kişi."
+        },
+        {
+          "word": "TUTSAK",
+          "hint": "Hürriyeti olmayan, özgürlüğünü kaybetmiş."
+        },
+        {
+          "word": "HARP",
+          "hint": "İki ülke arasında yaşanan büyük kavga."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Ülkeler arasında askeri güçlerle yapılan mücadele."
+        }
       ]
     },
     {
       "id": "turkce_u2",
       "name": "2. Ünite: Zıt Anlamlılar",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "SICAK", "hint": "Soğuk kelimesinin zıt anlamlısı"},
-        {"word": "KARANLIK", "hint": "Aydınlık kelimesinin zıt anlamlısı"},
-        {"word": "YAKIN", "hint": "Uzak kelimesinin zıt anlamlısı"},
-        {"word": "GÜÇLÜ", "hint": "Zayıf kelimesinin zıt anlamlısı"},
-        {"word": "DOLU", "hint": "Boş kelimesinin zıt anlamlısı"}
+        {
+          "word": "SICAK",
+          "hint": "Soğuk kelimesinin zıt anlamlısı"
+        },
+        {
+          "word": "KARANLIK",
+          "hint": "Aydınlık kelimesinin zıt anlamlısı"
+        },
+        {
+          "word": "YAKIN",
+          "hint": "Uzak kelimesinin zıt anlamlısı"
+        },
+        {
+          "word": "GÜÇLÜ",
+          "hint": "Zayıf kelimesinin zıt anlamlısı"
+        },
+        {
+          "word": "DOLU",
+          "hint": "Boş kelimesinin zıt anlamlısı"
+        },
+        {
+          "word": "SOĞUK",
+          "hint": "Sıcak kelimesinin tersidir. Vücudumuzun üşümesine neden olur."
+        },
+        {
+          "word": "AYDİNLİK",
+          "hint": "Karanlık kelimesinin tersidir. Gözlerimizin etrafı görmesini sağlar."
+        },
+        {
+          "word": "UZAK",
+          "hint": "Yakın kelimesinin tersidir. Arada çok mesafe olan yer."
+        },
+        {
+          "word": "ZAYİF",
+          "hint": "Güçlü kelimesinin tersidir. Kolayca kırılabilen."
+        },
+        {
+          "word": "BOŞ",
+          "hint": "Dolu kelimesinin tersidir. İçinde hiç eşya olmayan."
+        },
+        {
+          "word": "BÜYÜK",
+          "hint": "Küçük kelimesinin tersidir. Hacmi fazla olan."
+        },
+        {
+          "word": "YAŞLİ",
+          "hint": "Genç kelimesinin tersidir. Ömrü uzun olan."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "Yanlış kelimesinin tersidir. Gerçeğe uygun olan."
+        },
+        {
+          "word": "CESUR",
+          "hint": "Korkak kelimesinin tersidir. Tehlike karşısında yılmayan."
+        },
+        {
+          "word": "SESLİ̇",
+          "hint": "Sessiz kelimesinin tersidir. Çıkarılan sesin duyulduğu."
+        },
+        {
+          "word": "GECE",
+          "hint": "Gündüz kelimesinin tersidir. Güneşin batıp ayın çıktığı zaman."
+        },
+        {
+          "word": "ACİ",
+          "hint": "Tatlı kelimesinin tersidir. Yediğimiz bazı yiyeceklerin verdiği his."
+        },
+        {
+          "word": "BAŞLANGİÇ",
+          "hint": "Bitiş kelimesinin tersidir. Bir olayın ilk kısmı."
+        },
+        {
+          "word": "GÜZEL",
+          "hint": "Çirkin kelimesinin tersidir. Hoşa giden görünüş."
+        },
+        {
+          "word": "SAĞLAM",
+          "hint": "Kırılgan kelimesinin tersidir. Kolayca zarar görmeyen."
+        },
+        {
+          "word": "ÖNCE",
+          "hint": "Sonra kelimesinin tersidir. Bir şeyden evvel gelen."
+        },
+        {
+          "word": "TEMİ̇Z",
+          "hint": "Kirli kelimesinin tersidir. Lekesiz, pürüzsüz."
+        },
+        {
+          "word": "YAVAŞ",
+          "hint": "Hızlı kelimesinin tersidir. Acele etmeyen."
+        },
+        {
+          "word": "DOST",
+          "hint": "Düşman kelimesinin tersidir. Birbirini seven, yardım eden."
+        },
+        {
+          "word": "SAĞ",
+          "hint": "Sol kelimesinin tersidir. Vücudumuzun bir tarafı."
+        },
+        {
+          "word": "DOĞUM",
+          "hint": "Ölüm kelimesinin tersidir. Bir canlının dünyaya gelmesi."
+        },
+        {
+          "word": "ALT",
+          "hint": "Üst kelimesinin tersidir. Bir şeyin daha aşağı seviyesi."
+        },
+        {
+          "word": "İ̇Ç",
+          "hint": "Dış kelimesinin tersidir. Bir şeyin ortasında kalan kısım."
+        },
+        {
+          "word": "UZUN",
+          "hint": "Kısa kelimesinin tersidir. Yüksekliği veya boyu fazla olan."
+        },
+        {
+          "word": "SAHİ̇P",
+          "hint": "Sahipsiz kelimesinin tersidir. Elinde bir şey bulunan."
+        },
+        {
+          "word": "SERBEST",
+          "hint": "Tutsak kelimesinin tersidir. Özgür, engelsiz."
+        },
+        {
+          "word": "ZENGİ̇N",
+          "hint": "Fakir kelimesinin tersidir. Çok parası olan."
+        },
+        {
+          "word": "TASARRUF",
+          "hint": "İsraf kelimesinin tersidir. Bir şeyi idareli kullanma."
+        },
+        {
+          "word": "GELİ̇R",
+          "hint": "Gider kelimesinin tersidir. Kazanç, para kazanma."
+        },
+        {
+          "word": "KAZANÇ",
+          "hint": "Kayıp kelimesinin tersidir. Bir işten elde edilen fayda."
+        },
+        {
+          "word": "UMUT",
+          "hint": "Umutsuzluk kelimesinin tersidir. Bir şeyin olacağına inanma."
+        },
+        {
+          "word": "VERİ̇MLİ̇",
+          "hint": "Verimsiz kelimesinin tersidir. Çok ürün veya sonuç veren."
+        },
+        {
+          "word": "YAŞAM",
+          "hint": "Ölüm kelimesinin tersidir. Canlılığın devamı."
+        },
+        {
+          "word": "KOLAY",
+          "hint": "Zor kelimesinin tersidir. Yapılması güç olmayan."
+        },
+        {
+          "word": "Gİ̇Rİ̇Ş",
+          "hint": "Çıkış kelimesinin tersidir. Bir yere girilen kapı."
+        },
+        {
+          "word": "GENİ̇Ş",
+          "hint": "Dar kelimesinin tersidir. Eni fazla olan."
+        },
+        {
+          "word": "AŞİRİ",
+          "hint": "Az kelimesinin tersidir. Gereğinden fazla olan."
+        },
+        {
+          "word": "SAĞLİKLİ",
+          "hint": "Sağlıksız kelimesinin tersidir. Vücudu iyi olan."
+        },
+        {
+          "word": "BASİ̇T",
+          "hint": "Karmaşık kelimesinin tersidir. Anlaşılması kolay."
+        },
+        {
+          "word": "ÖĞLE",
+          "hint": "Akşam kelimesinin tersidir. Günün ortası."
+        },
+        {
+          "word": "AĞİR",
+          "hint": "Hafif kelimesinin tersidir. Tartıda çok gelen."
+        },
+        {
+          "word": "BAŞARİ",
+          "hint": "Başarısızlık kelimesinin tersidir. Bir işte istenen sonucu alma."
+        },
+        {
+          "word": "KALİCİ",
+          "hint": "Geçici kelimesinin tersidir. Uzun süre devam eden."
+        },
+        {
+          "word": "DOĞAL",
+          "hint": "Yapay kelimesinin tersidir. Oluşumu kendiliğinden olan."
+        },
+        {
+          "word": "UYGAR",
+          "hint": "Vahşi kelimesinin tersidir. Medeni, gelişmiş."
+        },
+        {
+          "word": "YUMUŞAK",
+          "hint": "Sert kelimesinin tersidir. Kolayca ezilebilen."
+        }
       ]
     }
   ]

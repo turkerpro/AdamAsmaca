@@ -3,25 +3,459 @@
     {
       "id": "hayat_u1",
       "name": "1. Ünite: Okulumuz",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "OKUL", "hint": "Her gün gidip ders gördüğümüz yer"},
-        {"word": "SINIF", "hint": "Okulda ders yaptığımız oda"},
-        {"word": "ÖĞRETMEN", "hint": "Bize ders anlatan kişi"},
-        {"word": "ARKADAŞ", "hint": "Okulda birlikte oynadığımız kişi"},
-        {"word": "BAHÇE", "hint": "Okulda teneffüste oynadığımız alan"}
+        {
+          "word": "OKUL",
+          "hint": "Her gün gidip ders gördüğümüz yer"
+        },
+        {
+          "word": "SINIF",
+          "hint": "Okulda ders yaptığımız oda"
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Bize ders anlatan kişi"
+        },
+        {
+          "word": "ARKADAŞ",
+          "hint": "Okulda birlikte oynadığımız kişi"
+        },
+        {
+          "word": "BAHÇE",
+          "hint": "Okulda teneffüste oynadığımız alan"
+        },
+        {
+          "word": "MÜDÜR",
+          "hint": "Okulun en büyük yöneticisi, bize yardımcı olan kişi."
+        },
+        {
+          "word": "KANTİN",
+          "hint": "Acıktığımızda yiyecek, içecek alabileceğimiz yer."
+        },
+        {
+          "word": "KORİDOR",
+          "hint": "Sınıflar arasında yürüdüğümüz uzun yol."
+        },
+        {
+          "word": "TUVALET",
+          "hint": "El yıkadığımız ve kişisel ihtiyaçlarımızı giderdiğimiz yer."
+        },
+        {
+          "word": "DERS",
+          "hint": "Okulda yeni şeyler öğrendiğimiz zaman dilimi."
+        },
+        {
+          "word": "KİTAP",
+          "hint": "İçinde hikayeler ve bilgiler olan, okuduğumuz şey."
+        },
+        {
+          "word": "DEFTER",
+          "hint": "Kalemle yazı yazdığımız veya resim çizdiğimiz kağıt yığını."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Deftere yazı yazmak veya resim çizmek için kullandığımız araç."
+        },
+        {
+          "word": "SİLGİ",
+          "hint": "Kalemle yazdığımız yanlışları sildiğimiz nesne."
+        },
+        {
+          "word": "ÇANTA",
+          "hint": "Kitaplarımızı ve defterlerimizi taşıdığımız eşya."
+        },
+        {
+          "word": "SIRA",
+          "hint": "Sınıfta oturduğumuz, üstünde defterimizi koyduğumuz yer."
+        },
+        {
+          "word": "TAHTA",
+          "hint": "Öğretmenin yazı yazdığı veya resim çizdiği büyük levha."
+        },
+        {
+          "word": "TEBEŞİR",
+          "hint": "Kara tahtaya yazı yazmak için kullanılan beyaz çubuk."
+        },
+        {
+          "word": "CETVEL",
+          "hint": "Düz çizgi çizmek için kullandığımız uzun araç."
+        },
+        {
+          "word": "MAKAS",
+          "hint": "Kağıt kesmek için kullandığımız keskin alet."
+        },
+        {
+          "word": "BOYALAR",
+          "hint": "Resimlerimizi renklendirmek için kullandığımız malzemeler."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Öğrenirken eğlendiğimiz veya teneffüste yaptığımız etkinlik."
+        },
+        {
+          "word": "ZİL",
+          "hint": "Dersin başlayıp bittiğini haber veren ses."
+        },
+        {
+          "word": "TENEFFÜS",
+          "hint": "Dersler arasında dinlendiğimiz ve oyun oynadığımız kısa ara."
+        },
+        {
+          "word": "ÖĞRENCİ",
+          "hint": "Okula giden, yeni şeyler öğrenen çocuk."
+        },
+        {
+          "word": "MASA",
+          "hint": "Üzerine kitap koyduğumuz, ders çalıştığımız düz yüzey."
+        },
+        {
+          "word": "SANDALYE",
+          "hint": "Oturmak için kullandığımız, sıramızla birlikte olan eşya."
+        },
+        {
+          "word": "DOLAP",
+          "hint": "Eşyalarımızı koyduğumuz kapaklı yer."
+        },
+        {
+          "word": "PENCERE",
+          "hint": "Dışarıyı görmek ve hava almak için açılan camlı yer."
+        },
+        {
+          "word": "KAPI",
+          "hint": "Sınıfa girip çıktığımız yer."
+        },
+        {
+          "word": "DUVAR",
+          "hint": "Sınıfımızı oluşturan dört büyük yüzey."
+        },
+        {
+          "word": "PANO",
+          "hint": "Üzerine resimler, duyurular astığımız yer."
+        },
+        {
+          "word": "ASKILIK",
+          "hint": "Montlarımızı veya çantalarımızı astığımız yer."
+        },
+        {
+          "word": "POSTER",
+          "hint": "Duvara asılan büyük resimli kağıt."
+        },
+        {
+          "word": "HARİTA",
+          "hint": "Dünyayı veya bir ülkeyi gösteren resimli kağıt."
+        },
+        {
+          "word": "MERDİVEN",
+          "hint": "Katlar arasında yukarı veya aşağı çıktığımız basamaklar."
+        },
+        {
+          "word": "ÇÖP KUTUSU",
+          "hint": "Atıkları attığımız yer."
+        },
+        {
+          "word": "SU SEBİLİ",
+          "hint": "Su içmek için kullandığımız cihaz."
+        },
+        {
+          "word": "KALEMTIRAŞ",
+          "hint": "Kalemimizin ucunu sivriltmek için kullandığımız küçük alet."
+        },
+        {
+          "word": "BOYA KALEMİ",
+          "hint": "Resim yapmak için kullandığımız renkli kalem."
+        },
+        {
+          "word": "OYUN ALANI",
+          "hint": "Teneffüste oyun oynadığımız yer."
+        },
+        {
+          "word": "BESLENME",
+          "hint": "Karnımızı doyurduğumuz, sağlıklı yemek yediğimiz zaman."
+        },
+        {
+          "word": "ÖDEV",
+          "hint": "Evde yaptığımız, derslerimizi pekiştiren çalışma."
+        },
+        {
+          "word": "SIRA ARKADAŞI",
+          "hint": "Sırada yanımızda oturan, ders paylaştığımız kişi."
+        },
+        {
+          "word": "MÜZİK ODASI",
+          "hint": "Şarkı söylediğimiz, enstrüman çaldığımız yer."
+        },
+        {
+          "word": "SPOR SALONU",
+          "hint": "Hareket ettiğimiz, spor yaptığımız büyük oda."
+        },
+        {
+          "word": "RESİM",
+          "hint": "Fırça veya kalemle yapılan çizim."
+        },
+        {
+          "word": "MAKET",
+          "hint": "Bir şeyin küçültülmüş modeli."
+        },
+        {
+          "word": "GÜNLÜK",
+          "hint": "Her gün yaşadıklarımızı yazdığımız küçük kitap."
+        },
+        {
+          "word": "YAPIŞTIRICI",
+          "hint": "Kağıtları birbirine yapıştırmak için kullandığımız malzeme."
+        },
+        {
+          "word": "MASA LAMBASI",
+          "hint": "Ders çalışırken masamızı aydınlatan ışık."
+        },
+        {
+          "word": "TAKVİM",
+          "hint": "Hangi gün veya ayda olduğumuzu gösteren çizelge."
+        },
+        {
+          "word": "SAAT",
+          "hint": "Zamanı gösteren, okula zamanında gelmemizi sağlayan araç."
+        }
       ]
     },
     {
       "id": "hayat_u2",
       "name": "2. Ünite: Ailemiz",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "ANNE", "hint": "Bizi doğuran ve büyüten kadın"},
-        {"word": "BABA", "hint": "Ailedeki erkek büyüğümüz"},
-        {"word": "KARDEŞ", "hint": "Annemizin diğer çocuğu"},
-        {"word": "AİLE", "hint": "Anne baba ve çocuklardan oluşan topluluk"},
-        {"word": "BÜYÜKANNE", "hint": "Annemizin veya babamızın annesi"}
+        {
+          "word": "ANNE",
+          "hint": "Bizi doğuran ve büyüten kadın"
+        },
+        {
+          "word": "BABA",
+          "hint": "Ailedeki erkek büyüğümüz"
+        },
+        {
+          "word": "KARDEŞ",
+          "hint": "Annemizin diğer çocuğu"
+        },
+        {
+          "word": "AİLE",
+          "hint": "Anne baba ve çocuklardan oluşan topluluk"
+        },
+        {
+          "word": "BÜYÜKANNE",
+          "hint": "Annemizin veya babamızın annesi"
+        },
+        {
+          "word": "DEDE",
+          "hint": "Anne veya babanın babası."
+        },
+        {
+          "word": "HALA",
+          "hint": "Babanın kız kardeşi."
+        },
+        {
+          "word": "AMCA",
+          "hint": "Babanın erkek kardeşi."
+        },
+        {
+          "word": "TEYZE",
+          "hint": "Annenin kız kardeşi."
+        },
+        {
+          "word": "DAYI",
+          "hint": "Annenin erkek kardeşi."
+        },
+        {
+          "word": "KUZEN",
+          "hint": "Teyze, dayı, amca veya halanın çocuğu."
+        },
+        {
+          "word": "AKŞAM",
+          "hint": "Gün batınca ailenin bir araya geldiği vakit."
+        },
+        {
+          "word": "YEMEK",
+          "hint": "Ailenle birlikte yediğin lezzetli öğün."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Evde veya bahçede ailenle oynadığın eğlenceli etkinlik."
+        },
+        {
+          "word": "SEVGİ",
+          "hint": "Aile üyelerinin birbirine duyduğu güzel duygu."
+        },
+        {
+          "word": "EV",
+          "hint": "Ailenle birlikte yaşadığın sıcak yuvan."
+        },
+        {
+          "word": "ODA",
+          "hint": "Evdeki her bir bölüme verilen ad."
+        },
+        {
+          "word": "FOTOĞRAF",
+          "hint": "Ailenle çektiğin anıları saklayan resim."
+        },
+        {
+          "word": "HATIRA",
+          "hint": "Geçmişte yaşadığın güzel bir an."
+        },
+        {
+          "word": "PAYLAŞIM",
+          "hint": "Sahip olduklarını başkalarıyla bölüşme eylemi."
+        },
+        {
+          "word": "YARDIM",
+          "hint": "Birine zor bir işte destek olmak."
+        },
+        {
+          "word": "ZİYARET",
+          "hint": "Akrabalarını veya arkadaşlarını görmeye gitmek."
+        },
+        {
+          "word": "MİSAFİR",
+          "hint": "Evine gelen konuk."
+        },
+        {
+          "word": "BAYRAM",
+          "hint": "Tüm ailenin bir araya geldiği özel, mutlu gün."
+        },
+        {
+          "word": "NEŞE",
+          "hint": "Çok sevinçli ve mutlu olma hali."
+        },
+        {
+          "word": "GÜLÜCÜK",
+          "hint": "Yüzdeki sevinç ifadesi, tebessüm."
+        },
+        {
+          "word": "ÖPÜCÜK",
+          "hint": "Sevdiğin birine dudaklarınla verdiğin sevgi işareti."
+        },
+        {
+          "word": "HEDİYE",
+          "hint": "Özel günlerde sevdiklerine verilen sürpriz."
+        },
+        {
+          "word": "DOĞUM GÜNÜ",
+          "hint": "Bir kişinin dünyaya geldiği yıl dönümü."
+        },
+        {
+          "word": "KAHVALTI",
+          "hint": "Sabah ailenle birlikte yediğin ilk öğün."
+        },
+        {
+          "word": "UYKU",
+          "hint": "Vücudumuzun dinlenmek için yaptığı şey."
+        },
+        {
+          "word": "KOMŞU",
+          "hint": "Evinin yakınında oturan kişiler."
+        },
+        {
+          "word": "BİRLİKTELİK",
+          "hint": "Ailece bir arada, beraber olma hali."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Birbirine moral vermek, yardımcı olmak."
+        },
+        {
+          "word": "SOHBET",
+          "hint": "Ailece oturup karşılıklı konuşmak."
+        },
+        {
+          "word": "SAYGI",
+          "hint": "Büyüklerine ve küçüklere karşı iyi davranma."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Evde uyulması gereken anlaşma veya yasak."
+        },
+        {
+          "word": "GÖREV",
+          "hint": "Evde sana düşen küçük sorumluluk, iş."
+        },
+        {
+          "word": "MUTLULUK",
+          "hint": "Keyifli ve sevinçli hissetme durumu."
+        },
+        {
+          "word": "HUZUR",
+          "hint": "İçinin rahat, sakin olması."
+        },
+        {
+          "word": "GÜVEN",
+          "hint": "Birbirine inanmak, arkasında olmak."
+        },
+        {
+          "word": "BEBEK",
+          "hint": "Yeni doğmuş veya çok küçük çocuk."
+        },
+        {
+          "word": "ÇOCUK",
+          "hint": "Ailedeki genç, küçük birey."
+        },
+        {
+          "word": "TORUN",
+          "hint": "Dedenin ve büyükannenin sevdiği küçük çocuk."
+        },
+        {
+          "word": "KOMŞULUK",
+          "hint": "Komşularla iyi ilişkiler içinde olma durumu."
+        },
+        {
+          "word": "GEZİ",
+          "hint": "Ailece yapılan kısa seyahat veya piknik."
+        },
+        {
+          "word": "YATAK",
+          "hint": "Uyumak için kullandığımız rahat yer."
+        },
+        {
+          "word": "MASA",
+          "hint": "Yemek yediğimiz veya kitap okuduğumuz eşya."
+        },
+        {
+          "word": "KOLTUK",
+          "hint": "Oturmak veya uzanmak için kullanılan rahat eşya."
+        },
+        {
+          "word": "RESİM",
+          "hint": "Kalem veya fırça ile yapılan çizim."
+        },
+        {
+          "word": "KİTAP",
+          "hint": "Bilgi edindiğimiz veya hikaye okuduğumuz nesne."
+        },
+        {
+          "word": "GÜNAYDIN",
+          "hint": "Sabah uyandığında söylenen hoş bir söz."
+        },
+        {
+          "word": "İ̇Yİ GECELER",
+          "hint": "Yatmadan önce söylenen bir dilek."
+        },
+        {
+          "word": "BÜYÜMEK",
+          "hint": "Zamanla boyunun uzaması, gelişmek."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Üstüne düşen işi yapma görevi."
+        }
       ]
     }
   ]

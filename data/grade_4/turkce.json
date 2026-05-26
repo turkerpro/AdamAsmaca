@@ -3,25 +3,435 @@
     {
       "id": "turkce_u1",
       "name": "1. Ünite: Sözcük Türleri",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "İSİM", "hint": "Varlıklara ve kavramlara verilen adlar"},
-        {"word": "SIFAT", "hint": "İsimlerin özelliklerini bildiren sözcük türü"},
-        {"word": "FİİL", "hint": "Hareketleri ve oluşları anlatan sözcük türü"},
-        {"word": "ZAMIR", "hint": "İsimlerin yerine kullanılan sözcükler"},
-        {"word": "EDAT", "hint": "Sözcükler arasında ilgi kuran kelime türü"}
+        {
+          "word": "İSİM",
+          "hint": "Varlıklara ve kavramlara verilen adlar"
+        },
+        {
+          "word": "SIFAT",
+          "hint": "İsimlerin özelliklerini bildiren sözcük türü"
+        },
+        {
+          "word": "FİİL",
+          "hint": "Hareketleri ve oluşları anlatan sözcük türü"
+        },
+        {
+          "word": "ZAMIR",
+          "hint": "İsimlerin yerine kullanılan sözcükler"
+        },
+        {
+          "word": "EDAT",
+          "hint": "Sözcükler arasında ilgi kuran kelime türü"
+        },
+        {
+          "word": "Bİ̇LGİ̇SAYAR",
+          "hint": "İşlem yapan, hesaplayan, bilgiyi depolayan elektronik alet."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Yazmak veya çizmek için kullanılan araç."
+        },
+        {
+          "word": "SAAT",
+          "hint": "Zamanı ölçmek ve göstermek için kullanılan alet."
+        },
+        {
+          "word": "Sİ̇LGİ̇",
+          "hint": "Yazılanları veya çizilenleri yok etmek için kullanılan nesne."
+        },
+        {
+          "word": "SİRT",
+          "hint": "Vücudumuzun arka tarafı."
+        },
+        {
+          "word": "Kİ̇TAP",
+          "hint": "Okumak için sayfaları bir araya getirilmiş eser."
+        },
+        {
+          "word": "PERDE",
+          "hint": "Pencereleri kapatmaya yarayan kumaş."
+        },
+        {
+          "word": "YORGAN",
+          "hint": "Soğuktan korunmak için üzerine örtülen kalın örtü."
+        },
+        {
+          "word": "ÇORAP",
+          "hint": "Ayaklara giyilen giysi."
+        },
+        {
+          "word": "AYAKKABİ",
+          "hint": "Dışarıda ayaklara giyilen koruyucu."
+        },
+        {
+          "word": "ELBİ̇SE",
+          "hint": "Kadınların veya kızların giydiği tek parçalı giysi."
+        },
+        {
+          "word": "PUZZLE",
+          "hint": "Parçaları birleştirerek resim oluşturan oyuncak."
+        },
+        {
+          "word": "KUMANDA",
+          "hint": "Televizyon gibi aletleri uzaktan çalıştırmaya yarayan araç."
+        },
+        {
+          "word": "BEYİ̇N",
+          "hint": "Vücudumuzdaki düşünme ve yönetme merkezi."
+        },
+        {
+          "word": "GÖZ",
+          "hint": "Görme organımız."
+        },
+        {
+          "word": "BURUN",
+          "hint": "Koku alma organımız."
+        },
+        {
+          "word": "KULAK",
+          "hint": "İşitme organımız."
+        },
+        {
+          "word": "Dİ̇L",
+          "hint": "Tat alma ve konuşma organımız."
+        },
+        {
+          "word": "DERİ̇",
+          "hint": "Vücudumuzu kaplayan en dış katman."
+        },
+        {
+          "word": "SAÇ",
+          "hint": "Başımızdaki ince teller."
+        },
+        {
+          "word": "TİRNAK",
+          "hint": "Parmaklarımızın ucundaki sert kısım."
+        },
+        {
+          "word": "BOYUN",
+          "hint": "Başımızla gövdemizi bağlayan kısım."
+        },
+        {
+          "word": "EL",
+          "hint": "Kollarımızın ucundaki tutmaya yarayan kısım."
+        },
+        {
+          "word": "Bİ̇LEK",
+          "hint": "El ile kol arasındaki ince kısım."
+        },
+        {
+          "word": "Dİ̇Z",
+          "hint": "Bacağın ortasındaki bükülen kısım."
+        },
+        {
+          "word": "TOPUK",
+          "hint": "Ayak tabanının arka kısmı."
+        },
+        {
+          "word": "KAŞ",
+          "hint": "Gözümüzün üstündeki kıllı kısım."
+        },
+        {
+          "word": "Kİ̇RPİ̇K",
+          "hint": "Göz kapağındaki kısa, sık tüyler."
+        },
+        {
+          "word": "YÜZÜK",
+          "hint": "Parmaklara takılan süs eşyası."
+        },
+        {
+          "word": "KOLYE",
+          "hint": "Boyna takılan süs eşyası."
+        },
+        {
+          "word": "KÜPE",
+          "hint": "Kulağa takılan süs eşyası."
+        },
+        {
+          "word": "BRONZ",
+          "hint": "Altın rengine çalan esmerlik."
+        },
+        {
+          "word": "NAR",
+          "hint": "İçi taneli, kırmızı renkli bir meyve."
+        },
+        {
+          "word": "BUĞDAY",
+          "hint": "Ekmek yapımında kullanılan tahıl."
+        },
+        {
+          "word": "Çİ̇LEK",
+          "hint": "Kırmızı, tatlı ve küçük bir meyve."
+        },
+        {
+          "word": "DOKTOR",
+          "hint": "İnsanları iyileştiren meslek sahibi."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Bilgi ve beceri öğreten meslek sahibi."
+        },
+        {
+          "word": "ÖĞRENCİ̇",
+          "hint": "Öğretmenden ders alan kişi."
+        },
+        {
+          "word": "HEMŞİ̇RE",
+          "hint": "Doktora yardım eden sağlık çalışanı."
+        },
+        {
+          "word": "ASKER",
+          "hint": "Ülkesini koruyan görevli."
+        },
+        {
+          "word": "AVUKAT",
+          "hint": "Hukuki konularda yardımcı olan kişi."
+        },
+        {
+          "word": "BAKKAL",
+          "hint": "Temel gıda maddeleri satan esnaf."
+        },
+        {
+          "word": "ŞOFÖR",
+          "hint": "Araç kullanan meslek sahibi."
+        },
+        {
+          "word": "Çİ̇FTÇİ̇",
+          "hint": "Tarım ürünleri yetiştiren kişi."
+        },
+        {
+          "word": "Bİ̇Lİ̇M İ̇NSANİ",
+          "hint": "Araştırma yapan ve yeni bilgiler bulan kişi."
+        },
+        {
+          "word": "YAZAR",
+          "hint": "Kitap veya yazı yazan kişi."
+        }
       ]
     },
     {
       "id": "turkce_u2",
       "name": "2. Ünite: Cümle Bilgisi",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "ÖZNE", "hint": "Cümlede işi yapan varlığı gösteren öge"},
-        {"word": "YÜKLEM", "hint": "Cümlede yapılan işi bildiren temel öge"},
-        {"word": "TÜMLEÇ", "hint": "Yüklemi zaman, yer gibi yönlerden tamamlayan öge"},
-        {"word": "NESNE", "hint": "Cümlede işten etkilenen varlığı gösteren öge"},
-        {"word": "SORU", "hint": "Yanıt bekleyen ve soru işareti ile biten cümle"}
+        {
+          "word": "ÖZNE",
+          "hint": "Cümlede işi yapan varlığı gösteren öge"
+        },
+        {
+          "word": "YÜKLEM",
+          "hint": "Cümlede yapılan işi bildiren temel öge"
+        },
+        {
+          "word": "TÜMLEÇ",
+          "hint": "Yüklemi zaman, yer gibi yönlerden tamamlayan öge"
+        },
+        {
+          "word": "NESNE",
+          "hint": "Cümlede işten etkilenen varlığı gösteren öge"
+        },
+        {
+          "word": "SORU",
+          "hint": "Yanıt bekleyen ve soru işareti ile biten cümle"
+        },
+        {
+          "word": "ANNE",
+          "hint": "Bizi dünyaya getiren, çok seven kişi."
+        },
+        {
+          "word": "BABA",
+          "hint": "Ailenin babası, bizi koruyan ve seven kişi."
+        },
+        {
+          "word": "KARDEŞ",
+          "hint": "Aynı anne babadan olan erkek veya kız."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Bize yeni şeyler öğreten, bilgili kişi."
+        },
+        {
+          "word": "OKUL",
+          "hint": "Her gün gidip ders öğrendiğimiz yer."
+        },
+        {
+          "word": "DERS",
+          "hint": "Okulda öğrendiğimiz konular."
+        },
+        {
+          "word": "Sİ̇LGİ̇",
+          "hint": "Yazdıklarımızı hatadan kurtaran araç."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Üzerine bir şeyler yazdığımız araç."
+        },
+        {
+          "word": "Kİ̇TAP",
+          "hint": "İçinde hikayeler, bilgiler olan eşya."
+        },
+        {
+          "word": "SİRA",
+          "hint": "Okulda oturarak ders dinlediğimiz mobilya."
+        },
+        {
+          "word": "ÇANTA",
+          "hint": "Okul eşyalarımızı taşıdığımız torba."
+        },
+        {
+          "word": "ÇOCUK",
+          "hint": "Küçük yaşta olan insan."
+        },
+        {
+          "word": "OYUNCAK",
+          "hint": "Çocukların eğlenmek için kullandığı eşya."
+        },
+        {
+          "word": "TOP",
+          "hint": "Yuvarlak, genellikle spor yapılan eşya."
+        },
+        {
+          "word": "ARKADAŞ",
+          "hint": "Birlikte oyun oynadığımız, sevdiğimiz kişi."
+        },
+        {
+          "word": "GÜLÜMSEM",
+          "hint": "Mutlu olduğumuzda yüzümüzde oluşan ifade."
+        },
+        {
+          "word": "SEVİ̇NÇ",
+          "hint": "Çok mutlu olma durumu."
+        },
+        {
+          "word": "ÜZÜNTÜ",
+          "hint": "Mutsuzluk, can sıkıntısı."
+        },
+        {
+          "word": "KORKU",
+          "hint": "Tehlike anında duyulan endişe."
+        },
+        {
+          "word": "UYKU",
+          "hint": "Dinlenmek için gözlerimizi kapattığımız zaman."
+        },
+        {
+          "word": "YEMEK",
+          "hint": "Vücudumuzun enerji alması için yediklerimiz."
+        },
+        {
+          "word": "SU",
+          "hint": "Yaşam için içtiğimiz berrak sıvı."
+        },
+        {
+          "word": "EV",
+          "hint": "Ailemizle birlikte yaşadığımız yer."
+        },
+        {
+          "word": "ODA",
+          "hint": "Evimizin bölümlerinden biri."
+        },
+        {
+          "word": "YATAK",
+          "hint": "Üzerinde uyuduğumuz eşya."
+        },
+        {
+          "word": "PERDE",
+          "hint": "Pencereleri örten kumaş."
+        },
+        {
+          "word": "MASA",
+          "hint": "Üzerine bir şeyler koyduğumuz düz yüzey."
+        },
+        {
+          "word": "SANDALYE",
+          "hint": "Üzerine oturulan mobilya."
+        },
+        {
+          "word": "Bİ̇LGİ̇SAYAR",
+          "hint": "İşlem yapan, bilgi depolayan elektronik alet."
+        },
+        {
+          "word": "TELEVİ̇ZYON",
+          "hint": "Hareketli resimler ve ses gösteren alet."
+        },
+        {
+          "word": "RADYO",
+          "hint": "Sadece ses yayınlayan alet."
+        },
+        {
+          "word": "ARABA",
+          "hint": "Yolda giden, insan taşıyan araç."
+        },
+        {
+          "word": "OTOBÜS",
+          "hint": "Çok insan taşıyan büyük kara aracı."
+        },
+        {
+          "word": "UÇAK",
+          "hint": "Gökyüzünde uçan büyük taşıt."
+        },
+        {
+          "word": "GEMİ̇",
+          "hint": "Denizde yüzen büyük taşıt."
+        },
+        {
+          "word": "YAĞMUR",
+          "hint": "Gökyüzünden damla damla düşen su."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Gökyüzünde parlayan, ısı ve ışık veren yıldız."
+        },
+        {
+          "word": "AY",
+          "hint": "Gece gökyüzünde gördüğümüz parlak cisim."
+        },
+        {
+          "word": "YİLDİZ",
+          "hint": "Gece gökyüzünde parlayan küçük ışıklar."
+        },
+        {
+          "word": "Bİ̇TKİ̇",
+          "hint": "Kökü toprakta olan canlı varlık."
+        },
+        {
+          "word": "AĞAÇ",
+          "hint": "Büyük, dallı budaklı bitki."
+        },
+        {
+          "word": "Çİ̇ÇEK",
+          "hint": "Bitkilerin renkli ve güzel kısımları."
+        },
+        {
+          "word": "KUŞ",
+          "hint": "Kanatları olan, uçan hayvan."
+        },
+        {
+          "word": "BALİK",
+          "hint": "Suda yaşayan, solungaçlı hayvan."
+        },
+        {
+          "word": "KEDİ̇",
+          "hint": "Miyavlayan, evcil hayvan."
+        },
+        {
+          "word": "KÖPEK",
+          "hint": "Havlayan, sadık hayvan."
+        }
       ]
     }
   ]

@@ -3,25 +3,511 @@
     {
       "id": "fen_u1",
       "name": "1. Ünite: Duyu Organları",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "GÖRME", "hint": "Gözlerimizle yaptığımız duyu"},
-        {"word": "İŞİTME", "hint": "Kulaklarımızla sesleri algılama duyusu"},
-        {"word": "DOKUNMA", "hint": "Derimizle hissetme duyusu"},
-        {"word": "TATMA", "hint": "Dilimizle lezzet algılama duyusu"},
-        {"word": "KOKLAMA", "hint": "Burnumuzla kokuları algılama duyusu"}
+        {
+          "word": "GÖRME",
+          "hint": "Gözlerimizle yaptığımız duyu"
+        },
+        {
+          "word": "İŞİTME",
+          "hint": "Kulaklarımızla sesleri algılama duyusu"
+        },
+        {
+          "word": "DOKUNMA",
+          "hint": "Derimizle hissetme duyusu"
+        },
+        {
+          "word": "TATMA",
+          "hint": "Dilimizle lezzet algılama duyusu"
+        },
+        {
+          "word": "KOKLAMA",
+          "hint": "Burnumuzla kokuları algılama duyusu"
+        },
+        {
+          "word": "GÖZ",
+          "hint": "Renkleri ve şekilleri algılamamızı sağlayan duyu organımız."
+        },
+        {
+          "word": "KULAK",
+          "hint": "Sesleri duymamıza ve dengede kalmamıza yardımcı olan organımız."
+        },
+        {
+          "word": "BURUN",
+          "hint": "Havada uçuşan kokuları algılayan duyu organımız."
+        },
+        {
+          "word": "AĞİZ",
+          "hint": "Yiyeceklerin tadını aldığımız ve konuştuğumuz yer."
+        },
+        {
+          "word": "Dİ̇L",
+          "hint": "Yiyeceklerin tatlı, ekşi, tuzlu veya acı olduğunu anlamamızı sağlayan kaslı organ."
+        },
+        {
+          "word": "DERİ̇",
+          "hint": "Vücudumuzu kaplayan ve dokunma hissini veren en büyük organımız."
+        },
+        {
+          "word": "RETİ̇NA",
+          "hint": "Gözümüzün arkasındaki ışığa duyarlı tabaka, görüntü burada oluşur."
+        },
+        {
+          "word": "İ̇RİS",
+          "hint": "Gözümüzün renkli kısmı, ışığın gözümüze girmesini kontrol eder."
+        },
+        {
+          "word": "KORNEA",
+          "hint": "Gözümüzün en dışındaki şeffaf tabaka, ışığın ilk kırıldığı yer."
+        },
+        {
+          "word": "MERCEK",
+          "hint": "Gözümüzdeki ışığı retinanın üzerine odaklayan şeffaf yapı."
+        },
+        {
+          "word": "ÖĞRENCİ̇K",
+          "hint": "İrisin ortasındaki delik, ışığın göze girmesini sağlar."
+        },
+        {
+          "word": "SARAÇ",
+          "hint": "Kulağın dışarıdan görünen kısmı, sesleri toplar."
+        },
+        {
+          "word": "ORTA KULAK",
+          "hint": "Ses titreşimlerini iç kulağa ileten bölüm."
+        },
+        {
+          "word": "İ̇Ç KULAK",
+          "hint": "İşitme ve denge sinyallerini beyne gönderen bölüm."
+        },
+        {
+          "word": "Sİ̇VRİ̇Sİ̇NEK",
+          "hint": "Burnumuzun içindeki küçük tüycükler, havadaki tozları tutar."
+        },
+        {
+          "word": "ALVEOL",
+          "hint": "Burnumuzdaki koku alma hücrelerinin bulunduğu minik kesecikler."
+        },
+        {
+          "word": "TAT TOMURCUKLARİ",
+          "hint": "Dilimizin üzerindeki, tatları algılayan küçük yapılar."
+        },
+        {
+          "word": "ACİ̇",
+          "hint": "Dilimizin algıladığı bir tat türü, acı biber gibi."
+        },
+        {
+          "word": "EKŞİ̇",
+          "hint": "Limon gibi yiyeceklerin verdiği bir tat."
+        },
+        {
+          "word": "TUZLU",
+          "hint": "Peynir veya zeytin gibi yiyeceklerin verdiği bir tat."
+        },
+        {
+          "word": "TATLİ",
+          "hint": "Şeker veya bal gibi yiyeceklerin verdiği bir tat."
+        },
+        {
+          "word": "SİCAKLİK",
+          "hint": "Cildimizle bir şeyin ne kadar sıcak olduğunu hissetmek."
+        },
+        {
+          "word": "SOĞUKLUK",
+          "hint": "Cildimizle bir şeyin ne kadar serin olduğunu hissetmek."
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Bir şeye bastırdığımızda hissettiğimiz kuvvet."
+        },
+        {
+          "word": "AĞRİ",
+          "hint": "Vücudumuzda bir yerimiz incindiğinde hissettiğimiz rahatsızlık."
+        },
+        {
+          "word": "KAŞİNTİ",
+          "hint": "Cildimizde bazen hissettiğimiz rahatsız edici dürtü."
+        },
+        {
+          "word": "Tİ̇TREŞİ̇M",
+          "hint": "Bir şeyin hafifçe hareket ettiğini hissetmek."
+        },
+        {
+          "word": "UZUNLUK",
+          "hint": "Bir nesnenin el yordamıyla ne kadar büyük olduğunu anlamak."
+        },
+        {
+          "word": "KİVAM",
+          "hint": "Bir yiyeceğin katı mı, sıvı mı yoksa macun gibi mi olduğunu hissetmek."
+        },
+        {
+          "word": "PUYLU",
+          "hint": "Bir yüzeyin pürüzsüz olmaması durumu."
+        },
+        {
+          "word": "YUMUŞAK",
+          "hint": "Kolayca ezilebilen veya şekil değiştirebilen bir yüzey."
+        },
+        {
+          "word": "SERT",
+          "hint": "Kolayca ezilemeyen veya şekil değiştirmeyen bir yüzey."
+        },
+        {
+          "word": "KALİN",
+          "hint": "Bir nesnenin bir yüzden diğer yüzüne olan mesafesi."
+        },
+        {
+          "word": "İ̇NCELİ̇KLİ̇",
+          "hint": "Bir nesnenin çok az kalınlığa sahip olması."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Bir kokunun ne kadar güçlü olduğunu anlamak."
+        },
+        {
+          "word": "HAFİ̇F",
+          "hint": "Burnumuza gelen kokunun az olması durumu."
+        },
+        {
+          "word": "ŞEKER",
+          "hint": "Tatlı tadı veren madde."
+        },
+        {
+          "word": "Lİ̇MON",
+          "hint": "Ekşi tadı veren bir meyve."
+        },
+        {
+          "word": "TUZ",
+          "hint": "Tuzlu tadı veren madde."
+        },
+        {
+          "word": "Bİ̇BER",
+          "hint": "Acı tadı verebilen bir sebze."
+        },
+        {
+          "word": "SES",
+          "hint": "Kulağımızın algıladığı titreşimler."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Etrafımızda olan biten her şey."
+        },
+        {
+          "word": "ORTAM",
+          "hint": "Bulunduğumuz yer ve koşullar."
+        },
+        {
+          "word": "ALGİLAMA",
+          "hint": "Duyu organlarımızla çevremizdeki bilgileri fark etmek."
+        },
+        {
+          "word": "Hİ̇S",
+          "hint": "Duyularımız aracılığıyla çevremizi anlama biçimimiz."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Bir şeyin nasıl oluştuğu veya neyden yapıldığı."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Bir şeyin yer değiştirmesi veya yerinde kalmaması durumu."
+        },
+        {
+          "word": "VURMA",
+          "hint": "Bir şeye kuvvetlice dokunmak veya çarpmak."
+        },
+        {
+          "word": "BASMA",
+          "hint": "Bir yüzeyin üzerine kuvvet uygulamak."
+        }
       ]
     },
     {
       "id": "fen_u2",
       "name": "2. Ünite: Canlılar",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "BİTKİ", "hint": "Toprakta yetişen ve fotosentez yapan canlı"},
-        {"word": "HAYVAN", "hint": "Hareket edebilen ve beslenen canlı türü"},
-        {"word": "BÜYÜME", "hint": "Canlıların zamanla gelişip boy atması"},
-        {"word": "ÜREME", "hint": "Canlıların yeni yavrular oluşturması"},
-        {"word": "SOLUNUM", "hint": "Canlıların oksijen alıp karbondioksit vermesi"}
+        {
+          "word": "BİTKİ",
+          "hint": "Toprakta yetişen ve fotosentez yapan canlı"
+        },
+        {
+          "word": "HAYVAN",
+          "hint": "Hareket edebilen ve beslenen canlı türü"
+        },
+        {
+          "word": "BÜYÜME",
+          "hint": "Canlıların zamanla gelişip boy atması"
+        },
+        {
+          "word": "ÜREME",
+          "hint": "Canlıların yeni yavrular oluşturması"
+        },
+        {
+          "word": "SOLUNUM",
+          "hint": "Canlıların oksijen alıp karbondioksit vermesi"
+        },
+        {
+          "word": "YAŞAM",
+          "hint": "Canlıların sahip olduğu temel özellik."
+        },
+        {
+          "word": "Mİ̇KROP",
+          "hint": "Çok küçük canlı varlık, gözle zor görülür."
+        },
+        {
+          "word": "EKOSİ̇STEM",
+          "hint": "Canlıların ve cansız varlıkların bir arada yaşadığı ortam."
+        },
+        {
+          "word": "ORTAM",
+          "hint": "Canlıların yaşayabileceği yer."
+        },
+        {
+          "word": "YETİ̇ŞME",
+          "hint": "Bir canlının olgunlaşma süreci."
+        },
+        {
+          "word": "BESLENME",
+          "hint": "Canlıların enerji alması."
+        },
+        {
+          "word": "GEVİ̇Ş GETİ̇RME",
+          "hint": "Bazı hayvanların yediklerini tekrar çiğnemesi."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "Hayvanların mevsimlere göre yer değiştirmesi."
+        },
+        {
+          "word": "MAMA",
+          "hint": "Bebek hayvanların yediği özel yiyecek."
+        },
+        {
+          "word": "YAVRU",
+          "hint": "Yeni doğmuş küçük hayvan."
+        },
+        {
+          "word": "TÜY",
+          "hint": "Kuşların vücudunu kaplayan yumuşak örtü."
+        },
+        {
+          "word": "KİL",
+          "hint": "Memelilerin vücudunu kaplayan sert lifler."
+        },
+        {
+          "word": "PATE",
+          "hint": "Kedi ve köpek gibi hayvanların ayaklarındaki yumuşak kısım."
+        },
+        {
+          "word": "PENÇE",
+          "hint": "Kedilerin ve bazı kuşların tırmanmak için kullandığı keskin uzuv."
+        },
+        {
+          "word": "KABUK",
+          "hint": "Kaplumbağa, salyangoz gibi canlıların sert dış örtüsü."
+        },
+        {
+          "word": "PUL",
+          "hint": "Balıkların vücudunu kaplayan sert, ince yapılar."
+        },
+        {
+          "word": "SOLUNGAÇ",
+          "hint": "Balıkların suda nefes almasını sağlayan organ."
+        },
+        {
+          "word": "AKCİ̇ĞER",
+          "hint": "İnsanların ve bazı hayvanların havadan nefes almasını sağlayan organ."
+        },
+        {
+          "word": "METAMORFİ̇ZM",
+          "hint": "Bazı canlıların yaşam döngüsünde geçirdiği başkalaşım."
+        },
+        {
+          "word": "İ̇PEKBÖCEĞİ̇",
+          "hint": "Kelebek olmadan önce kozada yaşayan böcek."
+        },
+        {
+          "word": "KURBAĞA",
+          "hint": "Suda ve karada yaşayabilen, yavrusu semender olan canlı."
+        },
+        {
+          "word": "LARVA",
+          "hint": "Böceklerin yumurtadan çıktıktan sonraki ilk evresi."
+        },
+        {
+          "word": "KOZA",
+          "hint": "İpekböceğinin kendi etrafına ördüğü yuva."
+        },
+        {
+          "word": "MANTAR",
+          "hint": "Ne bitki ne hayvandır, topraktan beslenir."
+        },
+        {
+          "word": "ALGLER",
+          "hint": "Suda yaşayan, genellikle yeşil renkte olan basit canlılar."
+        },
+        {
+          "word": "BAKTERİ̇",
+          "hint": "Çok küçük, tek hücreli canlı."
+        },
+        {
+          "word": "Vİ̇RÜS",
+          "hint": "Bakterilerden bile küçük, hastalık yapabilen etken."
+        },
+        {
+          "word": "PARAZİ̇T",
+          "hint": "Başka bir canlıdan beslenerek yaşayan canlı."
+        },
+        {
+          "word": "DOĞAL",
+          "hint": "İnsan eli değmeden oluşan."
+        },
+        {
+          "word": "YAPAY",
+          "hint": "İnsanlar tarafından üretilen."
+        },
+        {
+          "word": "ÇEKİ̇RDEK",
+          "hint": "Meyvelerin içinde bulunan tohum."
+        },
+        {
+          "word": "TOHUM",
+          "hint": "Yeni bir bitkinin oluşmasını sağlayan parça."
+        },
+        {
+          "word": "KOVALAK",
+          "hint": "Çam ağaçlarının tohumlarını taşıyan bölümü."
+        },
+        {
+          "word": "MEYVE",
+          "hint": "Bitkilerin çiçeklerinden sonra oluşan yenilebilir kısım."
+        },
+        {
+          "word": "KÖK",
+          "hint": "Bitkinin topraktaki tutunma ve besin alma organı."
+        },
+        {
+          "word": "GÖVDE",
+          "hint": "Bitkinin kök ve dallarını birbirine bağlayan ana bölümü."
+        },
+        {
+          "word": "DALİ",
+          "hint": "Bitkinin gövdesinden çıkan kollar."
+        },
+        {
+          "word": "YAPRAK",
+          "hint": "Bitkinin fotosentez yapan yeşil bölümü."
+        },
+        {
+          "word": "Çİ̇ÇEK",
+          "hint": "Bitkinin üremeye yardımcı olan renkli bölümü."
+        },
+        {
+          "word": "NEKTAR",
+          "hint": "Çiçeklerin böcekleri çekmek için ürettiği tatlı sıvı."
+        },
+        {
+          "word": "POLEN",
+          "hint": "Çiçek tozları, bitkinin üremesi için gereklidir."
+        },
+        {
+          "word": "OTOSENTEZ",
+          "hint": "Bitkilerin güneş ışığıyla kendi besinini üretmesi."
+        },
+        {
+          "word": "SU",
+          "hint": "Yaşam için olmazsa olmaz temel madde."
+        },
+        {
+          "word": "HAVA",
+          "hint": "İçinde yaşadığımız gaz karışımı."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Dünyayı ısıtan ve aydınlatan gök cismi."
+        },
+        {
+          "word": "İSİ",
+          "hint": "Bir cismin sıcaklığını belirten enerji."
+        },
+        {
+          "word": "İŞİK",
+          "hint": "Görmemizi sağlayan enerji türü."
+        },
+        {
+          "word": "Mİ̇NERAL",
+          "hint": "Topraktaki canlılar için gerekli olan maddeler."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Bitkilerin yetiştiği, canlıların yaşadığı yer."
+        },
+        {
+          "word": "SUYA BAĞLİ",
+          "hint": "Yaşamını sürdürmek için suya muhtaç olan."
+        },
+        {
+          "word": "KARASAL",
+          "hint": "Karada yaşayan."
+        },
+        {
+          "word": "SUCUL",
+          "hint": "Suda yaşayan."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Bir şeyin başladığı veya geldiği yer."
+        },
+        {
+          "word": "SÜRDÜRME",
+          "hint": "Bir yaşamı devam ettirme."
+        },
+        {
+          "word": "DOLAŞİM",
+          "hint": "Kanın vücutta gezinmesi."
+        },
+        {
+          "word": "BOŞALTİM",
+          "hint": "Vücuttaki atık maddelerin atılması."
+        },
+        {
+          "word": "ALGİ",
+          "hint": "Çevreyi hissedebilme yeteneği."
+        },
+        {
+          "word": "İ̇LETİ̇Şİ̇M",
+          "hint": "Canlıların birbirleriyle haberleşmesi."
+        },
+        {
+          "word": "TEPKİ̇",
+          "hint": "Bir olaya karşılık verme."
+        },
+        {
+          "word": "KORUNMA",
+          "hint": "Zarardan sakınma."
+        },
+        {
+          "word": "YAŞAM ALANİ",
+          "hint": "Canlıların barındığı ve beslendiği yer."
+        },
+        {
+          "word": "ÇEŞİ̇TLİ̇Lİ̇K",
+          "hint": "Farklı türlerin bir arada bulunması."
+        }
       ]
     }
   ]

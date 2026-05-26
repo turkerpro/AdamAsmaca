@@ -3,25 +3,443 @@
     {
       "id": "ingilizce8_u1",
       "name": "1. Ünite: Technology",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "SOFTWARE", "hint": "Bilgisayarı çalıştıran program ve uygulamalar"},
-        {"word": "HARDWARE", "hint": "Bilgisayarın fiziksel donanım parçaları"},
-        {"word": "INTERNET", "hint": "Dünya çapında bilgisayarları birbirine bağlayan ağ"},
-        {"word": "DATABASE", "hint": "Verilerin düzenli biçimde saklandığı dijital yapı"},
-        {"word": "ALGORITHM", "hint": "Bir problemi çözmek için izlenen adımlar dizisi"}
+        {
+          "word": "SOFTWARE",
+          "hint": "Bilgisayarı çalıştıran program ve uygulamalar"
+        },
+        {
+          "word": "HARDWARE",
+          "hint": "Bilgisayarın fiziksel donanım parçaları"
+        },
+        {
+          "word": "INTERNET",
+          "hint": "Dünya çapında bilgisayarları birbirine bağlayan ağ"
+        },
+        {
+          "word": "DATABASE",
+          "hint": "Verilerin düzenli biçimde saklandığı dijital yapı"
+        },
+        {
+          "word": "ALGORITHM",
+          "hint": "Bir problemi çözmek için izlenen adımlar dizisi"
+        },
+        {
+          "word": "TELEFON",
+          "hint": "Ceple taşınan, konuşmaya ve internete yarayan alet."
+        },
+        {
+          "word": "TABLET",
+          "hint": "Taşınabilir, dokunmatik ekranlı bilgisayar."
+        },
+        {
+          "word": "Bİ̇LGİ̇SAYAR",
+          "hint": "İşlem yapan ve bilgi depolayan elektronik cihaz."
+        },
+        {
+          "word": "EKRAN",
+          "hint": "Bilgisayar veya telefonun görüntü gösteren bölümü."
+        },
+        {
+          "word": "KLAVYE",
+          "hint": "Harfleri ve rakamları tuşlarla girme aracı."
+        },
+        {
+          "word": "FARE",
+          "hint": "Bilgisayarda işaretçiyi hareket ettiren aygıt."
+        },
+        {
+          "word": "KAMERA",
+          "hint": "Görüntü veya video kaydetmeye yarayan alet."
+        },
+        {
+          "word": "HOPARLÖR",
+          "hint": "Sesleri duymamızı sağlayan çıkış birimi."
+        },
+        {
+          "word": "Mİ̇KROFON",
+          "hint": "Sesleri alıp kaydeden giriş aygıtı."
+        },
+        {
+          "word": "ŞARJ",
+          "hint": "Elektronik cihazlara elektrik verme işlemi."
+        },
+        {
+          "word": "Pİ̇L",
+          "hint": "Cihazlara enerji sağlayan taşınabilir güç kaynağı."
+        },
+        {
+          "word": "KABLO",
+          "hint": "Cihazları birbirine bağlayan veya enerji veren ince uzun nesne."
+        },
+        {
+          "word": "Sİ̇STEM",
+          "hint": "Bir bütün oluşturan parçaların bütünü (örneğin işletim sistemi)."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Telefon veya bilgisayarda belirli bir işi yapan program."
+        },
+        {
+          "word": "PROGRAM",
+          "hint": "Bilgisayara ne yapacağını anlatan komutlar dizisi."
+        },
+        {
+          "word": "GÜVENLİ̇K",
+          "hint": "Bilgilerin korunması, yetkisiz erişimin engellenmesi."
+        },
+        {
+          "word": "Şİ̇FRE",
+          "hint": "Bir hesaba veya cihaza giriş için kullanılan gizli kelime veya kod."
+        },
+        {
+          "word": "AĞ",
+          "hint": "Birden fazla bilgisayarın birbirine bağlanması (network)."
+        },
+        {
+          "word": "ROTER",
+          "hint": "Ağlar arası veri iletişimini sağlayan cihaz."
+        },
+        {
+          "word": "MODEM",
+          "hint": "Bilgisayar verisini telefon hattı üzerinden göndermeye yarayan araç."
+        },
+        {
+          "word": "BULUT",
+          "hint": "Verilerin internet üzerindeki sunucularda saklanması (cloud)."
+        },
+        {
+          "word": "YEDEKLEME",
+          "hint": "Verilerin kaybolmaması için kopyasını alma işlemi (backup)."
+        },
+        {
+          "word": "Sİ̇LME",
+          "hint": "Veriyi veya dosyayı bilgisayardan kaldırma."
+        },
+        {
+          "word": "KOPYALA",
+          "hint": "Bir şeyi olduğu gibi çoğaltma (copy)."
+        },
+        {
+          "word": "YAPİŞTİR",
+          "hint": "Kopyalanan şeyi yeni bir yere ekleme (paste)."
+        },
+        {
+          "word": "İ̇NDİ̇RME",
+          "hint": "İnternetten bilgisayara dosya alma (download)."
+        },
+        {
+          "word": "YÜKLEME",
+          "hint": "Bilgisayardan internete dosya gönderme (upload)."
+        },
+        {
+          "word": "GÜNCELLEME",
+          "hint": "Program veya sistemi en son haline getirme (update)."
+        },
+        {
+          "word": "AVRUPA",
+          "hint": "Oyunlarda karakteri hareket ettiren yön tuşları."
+        },
+        {
+          "word": "MÜHENDİ̇S",
+          "hint": "Teknoloji ürünlerini tasarlayan ve geliştiren uzman."
+        },
+        {
+          "word": "TASARİM",
+          "hint": "Bir ürünün veya sistemin görünüşünün ve yapısının planlanması."
+        },
+        {
+          "word": "YAZİCİ",
+          "hint": "Bilgisayar çıktısını kağıda aktaran cihaz (printer)."
+        },
+        {
+          "word": "TARAYİCİ",
+          "hint": "Kağıttaki bilgiyi bilgisayara aktaran cihaz (scanner)."
+        },
+        {
+          "word": "BAĞLANTİ",
+          "hint": "İki cihazın veya ağın birbirine bağlanması (connection)."
+        },
+        {
+          "word": "Sİ̇MGELERİ̇",
+          "hint": "Ekranda görülen küçük resimler, ikonlar."
+        },
+        {
+          "word": "KUTUCUĞU",
+          "hint": "Seçenekleri işaretlemek için kullanılan küçük kare."
+        },
+        {
+          "word": "MENÜ",
+          "hint": "Programda yapılabilecek işlemlerin listesi."
+        },
+        {
+          "word": "ARAMA",
+          "hint": "İstenilen bilgiyi veya dosyayı bulma işlemi."
+        },
+        {
+          "word": "PENCERE",
+          "hint": "Bilgisayar ekranında açık olan program veya dosya bölümü."
+        },
+        {
+          "word": "DOKUNMATİ̇K",
+          "hint": "Ekranı parmakla kontrol etme özelliği."
+        },
+        {
+          "word": "SESLİ̇",
+          "hint": "Komutları konuşarak verme özelliği (voice command)."
+        },
+        {
+          "word": "ÇEVİ̇Rİ̇",
+          "hint": "Bir dilden başka bir dile aktarma (translation)."
+        },
+        {
+          "word": "Vİ̇RÜS",
+          "hint": "Bilgisayarlara zarar veren zararlı program."
+        },
+        {
+          "word": "MÜZİ̇K",
+          "hint": "Bilgisayarda veya telefonda dinlenen sesli eserler."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek için oynanan dijital aktiviteler."
+        },
+        {
+          "word": "Vİ̇DEO",
+          "hint": "Hareketli görüntüler ve ses kaydı."
+        }
       ]
     },
     {
       "id": "ingilizce8_u2",
       "name": "2. Ünite: Science",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "EXPERIMENT", "hint": "Bir hipotezi test etmek için yapılan bilimsel deneme"},
-        {"word": "HYPOTHESIS", "hint": "Deney öncesi öne sürülen geçici bilimsel tahmin"},
-        {"word": "MOLECULE", "hint": "İki veya daha fazla atomun birleşmesiyle oluşan yapı"},
-        {"word": "GRAVITY", "hint": "Cisimleri birbirine çeken evrensel kütleçekim kuvveti"},
-        {"word": "LABORATORY", "hint": "Bilimsel deneylerin yapıldığı özel çalışma mekanı"}
+        {
+          "word": "EXPERIMENT",
+          "hint": "Bir hipotezi test etmek için yapılan bilimsel deneme"
+        },
+        {
+          "word": "HYPOTHESIS",
+          "hint": "Deney öncesi öne sürülen geçici bilimsel tahmin"
+        },
+        {
+          "word": "MOLECULE",
+          "hint": "İki veya daha fazla atomun birleşmesiyle oluşan yapı"
+        },
+        {
+          "word": "GRAVITY",
+          "hint": "Cisimleri birbirine çeken evrensel kütleçekim kuvveti"
+        },
+        {
+          "word": "LABORATORY",
+          "hint": "Bilimsel deneylerin yapıldığı özel çalışma mekanı"
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme yeteneği, güç"
+        },
+        {
+          "word": "MATERYAL",
+          "hint": "Bir şeyin yapıldığı, nesnelerin hammaddesi"
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Kimyasal bileşikleri temsil eden semboller dizisi"
+        },
+        {
+          "word": "YERÇEKİ̇Mİ̇",
+          "hint": "Dünyanın nesneleri kendine doğru çekme kuvveti"
+        },
+        {
+          "word": "MEKANİ̇K",
+          "hint": "Hareket ve kuvvet bilimi"
+        },
+        {
+          "word": "İ̇CAD",
+          "hint": "Daha önce var olmayan bir şeyi ilk kez yapma"
+        },
+        {
+          "word": "BULUŞ",
+          "hint": "Yeni bir şey keşfetme veya yaratma"
+        },
+        {
+          "word": "TEKNOLOJİ̇",
+          "hint": "Bilimin pratik uygulaması, aletler ve makineler"
+        },
+        {
+          "word": "EKOSİ̇STEM",
+          "hint": "Canlıların ve cansızların bir arada yaşadığı ortam"
+        },
+        {
+          "word": "EVRİ̇M",
+          "hint": "Canlı türlerinin zamanla değişmesi"
+        },
+        {
+          "word": "Bİ̇YOLOJİ̇",
+          "hint": "Canlıları inceleyen bilim dalı"
+        },
+        {
+          "word": "Kİ̇MYA",
+          "hint": "Maddelerin yapısını ve değişimini inceleyen bilim dalı"
+        },
+        {
+          "word": "Fİ̇Zİ̇K",
+          "hint": "Madde, enerji, hareket ve kuvveti inceleyen bilim dalı"
+        },
+        {
+          "word": "ASTRONOMİ̇",
+          "hint": "Gök cisimlerini inceleyen bilim dalı"
+        },
+        {
+          "word": "JEOLOJİ̇",
+          "hint": "Yerkabuğunu ve oluşumunu inceleyen bilim dalı"
+        },
+        {
+          "word": "METEOROLOJİ̇",
+          "hint": "Hava olaylarını inceleyen bilim dalı"
+        },
+        {
+          "word": "ORGANİ̇ZMA",
+          "hint": "Canlı varlık"
+        },
+        {
+          "word": "HÜCRE",
+          "hint": "Canlıların en küçük yapı taşı"
+        },
+        {
+          "word": "DNA",
+          "hint": "Kalıtsal bilgiyi taşıyan molekül"
+        },
+        {
+          "word": "GEN",
+          "hint": "Kalıtsal özellikleri belirleyen birim"
+        },
+        {
+          "word": "FOTOSENTEZ",
+          "hint": "Bitkilerin ışık enerjisini kullanarak besin üretmesi"
+        },
+        {
+          "word": "SOLUNUM",
+          "hint": "Canlıların enerji elde etmek için oksijen alıp karbondioksit vermesi"
+        },
+        {
+          "word": "KÜTLE",
+          "hint": "Bir cisimdeki madde miktarı"
+        },
+        {
+          "word": "AĞİRLİK",
+          "hint": "Kütleye etki eden yerçekimi kuvveti"
+        },
+        {
+          "word": "HİZ",
+          "hint": "Bir nesnenin birim zamanda aldığı yol"
+        },
+        {
+          "word": "İ̇VME",
+          "hint": "Hızın zamanla değişme oranı"
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Belirli bir alana uygulanan kuvvet"
+        },
+        {
+          "word": "SİCAKLİK",
+          "hint": "Bir cismin veya ortamın ısı derecesi"
+        },
+        {
+          "word": "İSİ",
+          "hint": "Enerji türlerinden biri, sıcaklık farkından iletilir"
+        },
+        {
+          "word": "DALGA",
+          "hint": "Enerjinin ortamda yayılma şekli"
+        },
+        {
+          "word": "ELEKTRON",
+          "hint": "Atomun çekirdeği etrafında dönen negatif yüklü parçacığı"
+        },
+        {
+          "word": "PROTON",
+          "hint": "Atomun çekirdeğinde bulunan pozitif yüklü parçacığı"
+        },
+        {
+          "word": "NÖTRON",
+          "hint": "Atomun çekirdeğinde bulunan yüksüz parçacığı"
+        },
+        {
+          "word": "ATOM",
+          "hint": "Maddenin temel yapı taşı"
+        },
+        {
+          "word": "İ̇ZOTOP",
+          "hint": "Aynı elementin farklı nötron sayısına sahip atomları"
+        },
+        {
+          "word": "BAĞ",
+          "hint": "Atomları bir arada tutan kuvvet"
+        },
+        {
+          "word": "KAZE",
+          "hint": "Bir maddeyi oluşturan en küçük birim"
+        },
+        {
+          "word": "ELEKTROLİ̇Z",
+          "hint": "Elektrik akımı ile kimyasal bağları kırma işlemi"
+        },
+        {
+          "word": "KATALİ̇ZÖR",
+          "hint": "Kimyasal reaksiyonları hızlandıran madde"
+        },
+        {
+          "word": "ASİ̇T",
+          "hint": "PH değeri 7'den küçük olan madde"
+        },
+        {
+          "word": "BAZ",
+          "hint": "PH değeri 7'den büyük olan madde"
+        },
+        {
+          "word": "TUZ",
+          "hint": "Asit ve bazın tepkimesinden oluşan madde"
+        },
+        {
+          "word": "POLİ̇MER",
+          "hint": "Birbirine bağlanmış çok sayıda küçük molekülün oluşturduğu büyük molekül"
+        },
+        {
+          "word": "KATİ",
+          "hint": "Belirli bir şekli ve hacmi olan madde hali"
+        },
+        {
+          "word": "SİVİ",
+          "hint": "Belirli bir hacmi olan ama şekli akışkan olan madde hali"
+        },
+        {
+          "word": "GAZ",
+          "hint": "Belirli bir şekli ve hacmi olmayan madde hali"
+        },
+        {
+          "word": "PLAZMA",
+          "hint": "Yüksek enerjili gaz hali"
+        },
+        {
+          "word": "DEĞİ̇ŞKEN",
+          "hint": "Değeri değişebilen nicelik"
+        }
       ]
     }
   ]

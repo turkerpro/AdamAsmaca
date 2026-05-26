@@ -3,25 +3,443 @@
     {
       "id": "ingilizce_u1",
       "name": "1. Ünite: Science",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "HYPOTHESIS", "hint": "A proposed explanation tested by experiments"},
-        {"word": "EXPERIMENT", "hint": "A scientific test to discover something new"},
-        {"word": "MOLECULE", "hint": "The smallest unit of a chemical compound"},
-        {"word": "EVOLUTION", "hint": "Gradual change in species over generations"},
-        {"word": "RESEARCH", "hint": "Systematic investigation to establish facts"}
+        {
+          "word": "HYPOTHESIS",
+          "hint": "A proposed explanation tested by experiments"
+        },
+        {
+          "word": "EXPERIMENT",
+          "hint": "A scientific test to discover something new"
+        },
+        {
+          "word": "MOLECULE",
+          "hint": "The smallest unit of a chemical compound"
+        },
+        {
+          "word": "EVOLUTION",
+          "hint": "Gradual change in species over generations"
+        },
+        {
+          "word": "RESEARCH",
+          "hint": "Systematic investigation to establish facts"
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme kapasitesi veya güç."
+        },
+        {
+          "word": "MATERYAL",
+          "hint": "Bir şeyin yapıldığı veya oluşturulduğu nesne veya madde."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Kimyasal bileşikleri temsil eden semboller dizisi."
+        },
+        {
+          "word": "VERİ̇",
+          "hint": "Gözlemlerden veya ölçümlerden elde edilen bilgiler."
+        },
+        {
+          "word": "ANALİ̇Z",
+          "hint": "Bileşenlerine ayırarak inceleme süreci."
+        },
+        {
+          "word": "SENTEZ",
+          "hint": "Parçaları birleştirerek bütün oluşturma."
+        },
+        {
+          "word": "TEORİ̇",
+          "hint": "Gözlemlenen olguları açıklayan sistemli düşünce."
+        },
+        {
+          "word": "YASAS",
+          "hint": "Doğanın belirli bir şekilde davranacağını belirten ilke."
+        },
+        {
+          "word": "DEĞİ̇ŞKEN",
+          "hint": "Durum veya koşullara göre değişebilen faktör."
+        },
+        {
+          "word": "KONTROL",
+          "hint": "Bir deneyde sabit tutulan unsur."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlem veya olayın nihai çıktısı."
+        },
+        {
+          "word": "İ̇PLEML",
+          "hint": "Bilimsel bir keşif veya buluşun temelini oluşturan düşünce."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Karmaşık bir sistemi basitleştirerek temsil etme."
+        },
+        {
+          "word": "Sİ̇STEM",
+          "hint": "Birbirine bağlı parçalardan oluşan bütün."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Bir nesnenin veya organizmanın düzenlenmiş şekli."
+        },
+        {
+          "word": "FONKSİ̇YON",
+          "hint": "Bir nesnenin veya sistemin çalışma şekli."
+        },
+        {
+          "word": "SÜREÇ",
+          "hint": "Belirli bir amaca ulaşmak için yapılan bir dizi adım."
+        },
+        {
+          "word": "MEKANİ̇ZMA",
+          "hint": "Bir olayın nasıl gerçekleştiğini açıklayan çalışma prensibi."
+        },
+        {
+          "word": "İ̇LERLEME",
+          "hint": "Bilgi veya teknolojideki gelişme."
+        },
+        {
+          "word": "YENİ̇Lİ̇K",
+          "hint": "Daha önce var olmayan yeni bir şey."
+        },
+        {
+          "word": "OTOMASYON",
+          "hint": "İşlemlerin insan müdahalesi olmadan yapılması."
+        },
+        {
+          "word": "ROBOTİ̇K",
+          "hint": "Robot bilimi ve mühendisliği."
+        },
+        {
+          "word": "YAPAY ZEKA",
+          "hint": "Bilgisayarların insan benzeri zeka göstermesi."
+        },
+        {
+          "word": "ALGORİ̇TMA",
+          "hint": "Bir problemi çözmek veya bir görevi yerine getirmek için adım adım talimatlar."
+        },
+        {
+          "word": "PROGRAMLAMA",
+          "hint": "Bilgisayarlara komut verme sanatı."
+        },
+        {
+          "word": "Sİ̇MÜLASYON",
+          "hint": "Bir sistemin veya sürecin bilgisayar ortamında taklit edilmesi."
+        },
+        {
+          "word": "Dİ̇Jİ̇TAL",
+          "hint": "Sayısal verilerle çalışan."
+        },
+        {
+          "word": "SANAL",
+          "hint": "Gerçek olmayan, bilgisayar ortamında oluşturulan."
+        },
+        {
+          "word": "Bİ̇YOTEKNOLOJİ̇",
+          "hint": "Canlı organizmaların veya parçalarının kullanıldığı teknoloji."
+        },
+        {
+          "word": "GENETİ̇K",
+          "hint": "Kalıtım bilimi."
+        },
+        {
+          "word": "DNA",
+          "hint": "Canlıların genetik bilgisini taşıyan molekül."
+        },
+        {
+          "word": "KLONLAMA",
+          "hint": "Genetik olarak özdeş bir kopyasını yaratma."
+        },
+        {
+          "word": "NANOTEKNOLOJİ̇",
+          "hint": "Atom ve molekül düzeyinde mühendislik."
+        },
+        {
+          "word": "KUANTUM",
+          "hint": "Çok küçük ölçeklerdeki fizik prensipleri."
+        },
+        {
+          "word": "ASTROFİ̇Zİ̇K",
+          "hint": "Gök cisimlerinin fiziği."
+        },
+        {
+          "word": "KOZMOS",
+          "hint": "Evrenin tamamı."
+        },
+        {
+          "word": "KARADELİ̇K",
+          "hint": "Çekim kuvveti çok yüksek olan gök cismi."
+        },
+        {
+          "word": "KORUNUM",
+          "hint": "Miktarının değişmeden kaldığı ilke."
+        },
+        {
+          "word": "DENG",
+          "hint": "Karşılıklı etkilerin birbirini dengelediği durum."
+        },
+        {
+          "word": "DOĞRUSALLİK",
+          "hint": "Orantılı bir şekilde artış veya azalış."
+        },
+        {
+          "word": "İ̇VMELENME",
+          "hint": "Hızın zamanla değişmesi."
+        },
+        {
+          "word": "YERÇEKİ̇Mİ̇",
+          "hint": "Kütlelerin birbirini çekme kuvveti."
+        },
+        {
+          "word": "MADDELER",
+          "hint": "Hacmi ve kütlesi olan her şey."
+        },
+        {
+          "word": "KATMAN",
+          "hint": "Bir şeyin üzerine veya içine konulan ince tabaka."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Dikkatle inceleme."
+        },
+        {
+          "word": "SİNİFLANDİRMA",
+          "hint": "Benzer özelliklere göre gruplandırma."
+        }
       ]
     },
     {
       "id": "ingilizce_u2",
       "name": "2. Ünite: Medicine",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "DIAGNOSIS", "hint": "Identifying a disease based on symptoms"},
-        {"word": "SYMPTOM", "hint": "A sign indicating the presence of illness"},
-        {"word": "PRESCRIPTION", "hint": "A doctor's written order for medicine"},
-        {"word": "VACCINE", "hint": "Substance that provides immunity against disease"},
-        {"word": "SURGERY", "hint": "Medical treatment involving physical operation"}
+        {
+          "word": "DIAGNOSIS",
+          "hint": "Identifying a disease based on symptoms"
+        },
+        {
+          "word": "SYMPTOM",
+          "hint": "A sign indicating the presence of illness"
+        },
+        {
+          "word": "PRESCRIPTION",
+          "hint": "A doctor's written order for medicine"
+        },
+        {
+          "word": "VACCINE",
+          "hint": "Substance that provides immunity against disease"
+        },
+        {
+          "word": "SURGERY",
+          "hint": "Medical treatment involving physical operation"
+        },
+        {
+          "word": "SAĞLİK",
+          "hint": "Hastalık ve sakatlık durumunun olmaması hali."
+        },
+        {
+          "word": "TEDAVİ̇",
+          "hint": "Hastalığı iyileştirmek için uygulanan yöntem."
+        },
+        {
+          "word": "DOKTOR",
+          "hint": "Sağlık sorunlarıyla ilgilenen ve hastalara yardım eden kişi."
+        },
+        {
+          "word": "HASTA",
+          "hint": "Sağlık sorunu yaşayan ve yardım alan kişi."
+        },
+        {
+          "word": "İ̇LAÇ",
+          "hint": "Hastalığı iyileştirmek veya belirtilerini hafifletmek için kullanılan madde."
+        },
+        {
+          "word": "ECZANE",
+          "hint": "İlaçların satıldığı yer."
+        },
+        {
+          "word": "HASTANELER",
+          "hint": "Yaralı veya hastaların tedavi edildiği yerler."
+        },
+        {
+          "word": "AMELİ̇YAT",
+          "hint": "Vücuttaki bir sorunu cerrahi müdahale ile giderme işlemi."
+        },
+        {
+          "word": "PANSUMAN",
+          "hint": "Yara bakımı ve temizliği işlemi."
+        },
+        {
+          "word": "DERMA",
+          "hint": "Ciltle ilgili hastalıkları inceleyen tıp dalı."
+        },
+        {
+          "word": "KARDİ̇YOLOJİ̇",
+          "hint": "Kalp ve damar sağlığıyla ilgilenen tıp dalı."
+        },
+        {
+          "word": "NÖROLOJİ̇",
+          "hint": "Sinir sistemi hastalıklarını inceleyen tıp dalı."
+        },
+        {
+          "word": "PEDİ̇ATRİ̇",
+          "hint": "Çocuk sağlığı ve hastalıklarıyla ilgilenen tıp dalı."
+        },
+        {
+          "word": "ONKOLOJİ̇",
+          "hint": "Kanser hastalığıyla ilgilenen tıp dalı."
+        },
+        {
+          "word": "ORTOPEDİ̇",
+          "hint": "Kemik ve kas sistemiyle ilgilenen tıp dalı."
+        },
+        {
+          "word": "ANESTEZİ̇",
+          "hint": "Ameliyat sırasında hastayı uyuşturma bilimi."
+        },
+        {
+          "word": "Dİ̇YET",
+          "hint": "Sağlıklı beslenme planı."
+        },
+        {
+          "word": "EGZERSİ̇Z",
+          "hint": "Fiziksel aktivite yaparak vücudu güçlendirme."
+        },
+        {
+          "word": "Fİ̇ZYOTERAPİ̇",
+          "hint": "Fiziksel yöntemlerle tedavi."
+        },
+        {
+          "word": "REHABİ̇Lİ̇TASYON",
+          "hint": "Kaybedilen yetenekleri geri kazandırma süreci."
+        },
+        {
+          "word": "ALERJİ̇",
+          "hint": "Vücudun belirli maddelere aşırı tepki vermesi."
+        },
+        {
+          "word": "BAĞİŞİKLİK",
+          "hint": "Vücudun hastalıklara karşı savunma sistemi."
+        },
+        {
+          "word": "ENFEKSİ̇YON",
+          "hint": "Mikropların vücuda girip çoğalması."
+        },
+        {
+          "word": "Mİ̇KROP",
+          "hint": "Gözle görülmeyen, hastalık yapabilen canlı."
+        },
+        {
+          "word": "Vİ̇RÜS",
+          "hint": "Hastalık yapabilen, hücre içinde çoğalan bir mikrop türü."
+        },
+        {
+          "word": "BAKTERİ̇",
+          "hint": "Hastalık yapabilen veya faydalı olabilen tek hücreli canlı."
+        },
+        {
+          "word": "GENETİ̇K",
+          "hint": "Kalıtım bilimi, özelliklerin nesilden nesile aktarılması."
+        },
+        {
+          "word": "DNA",
+          "hint": "Canlıların genetik bilgisini taşıyan molekül."
+        },
+        {
+          "word": "KÖK HÜCRE",
+          "hint": "Farklı hücre tiplerine dönüşebilen özel hücre."
+        },
+        {
+          "word": "ORGAN",
+          "hint": "Belirli bir görevi yerine getiren vücut parçası."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Benzer hücrelerden oluşan yapı."
+        },
+        {
+          "word": "DAMAR",
+          "hint": "Kanın vücutta dolaştığı boru şeklindeki yapı."
+        },
+        {
+          "word": "KEMİ̇K",
+          "hint": "Vücuda destek veren sert yapı."
+        },
+        {
+          "word": "KAS",
+          "hint": "Hareket etmemizi sağlayan vücut bölümü."
+        },
+        {
+          "word": "BEYİ̇N",
+          "hint": "Sinir sisteminin merkezi, düşünme ve kontrol organı."
+        },
+        {
+          "word": "AKCİ̇ĞER",
+          "hint": "Solunum organı."
+        },
+        {
+          "word": "KALP",
+          "hint": "Kanı vücuda pompalayan organ."
+        },
+        {
+          "word": "KARACİ̇ĞER",
+          "hint": "Vücudun önemli bir metabolizma organı."
+        },
+        {
+          "word": "BÖBREK",
+          "hint": "Kanı süzüp idrar üreten organ."
+        },
+        {
+          "word": "Mİ̇DE",
+          "hint": "Yiyeceklerin sindirildiği organ."
+        },
+        {
+          "word": "ENSEFALİ̇T",
+          "hint": "Beyin iltihabı."
+        },
+        {
+          "word": "GASTRİ̇T",
+          "hint": "Mide duvarının iltihabı."
+        },
+        {
+          "word": "NEFRİ̇T",
+          "hint": "Böbrek iltihabı."
+        },
+        {
+          "word": "PANKREATİ̇T",
+          "hint": "Pankreas iltihabı."
+        },
+        {
+          "word": "MENENJİ̇T",
+          "hint": "Beyin ve omuriliği saran zarların iltihabı."
+        },
+        {
+          "word": "ANTİ̇Bİ̇YOTİ̇K",
+          "hint": "Bakteri enfeksiyonlarını tedavi eden ilaç türü."
+        },
+        {
+          "word": "ANALJEZİ̇K",
+          "hint": "Ağrı kesici ilaç."
+        },
+        {
+          "word": "ANTİ̇SEPTİ̇K",
+          "hint": "Mikropları öldüren veya üremelerini durduran madde."
+        }
       ]
     }
   ]

@@ -3,25 +3,435 @@
     {
       "id": "matematik_u1",
       "name": "1. Ünite: Doğal Sayılar",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "TOPLAMA", "hint": "İki veya daha fazla sayıyı birleştirme işlemi"},
-        {"word": "ÇIKARMA", "hint": "Bir sayıdan başka bir sayıyı eksiltme işlemi"},
-        {"word": "ÇARPMA", "hint": "Bir sayıyı tekrarlı toplama ile bulma işlemi"},
-        {"word": "BÖLME", "hint": "Bir sayıyı eşit gruplara ayırma işlemi"},
-        {"word": "BASAMAK", "hint": "Bir sayıdaki rakamın bulunduğu konum"}
+        {
+          "word": "TOPLAMA",
+          "hint": "İki veya daha fazla sayıyı birleştirme işlemi"
+        },
+        {
+          "word": "ÇIKARMA",
+          "hint": "Bir sayıdan başka bir sayıyı eksiltme işlemi"
+        },
+        {
+          "word": "ÇARPMA",
+          "hint": "Bir sayıyı tekrarlı toplama ile bulma işlemi"
+        },
+        {
+          "word": "BÖLME",
+          "hint": "Bir sayıyı eşit gruplara ayırma işlemi"
+        },
+        {
+          "word": "BASAMAK",
+          "hint": "Bir sayıdaki rakamın bulunduğu konum"
+        },
+        {
+          "word": "Mİ̇LYON",
+          "hint": "Çok büyük bir sayıyı ifade eden 1'in ardından altı sıfır gelen sayı."
+        },
+        {
+          "word": "Mİ̇LYAR",
+          "hint": "Milyondan da büyük, 1'in ardından dokuz sıfır gelen dev bir sayı."
+        },
+        {
+          "word": "KAT",
+          "hint": "Bir sayının kendisiyle veya başka bir sayıyla kaç kez tekrarlandığını gösteren terim."
+        },
+        {
+          "word": "ÇARPİLİR",
+          "hint": "Bir sayıyı başka bir sayıyla art arda toplamanın kısa yolu."
+        },
+        {
+          "word": "BÜYÜK",
+          "hint": "Değeri diğerinden fazla olan sayılar için kullanılır."
+        },
+        {
+          "word": "KÜÇÜK",
+          "hint": "Değeri diğerinden az olan sayılar için kullanılır."
+        },
+        {
+          "word": "SİRA",
+          "hint": "Nesnelerin dizildiği düzgün düzen."
+        },
+        {
+          "word": "ALTLİLAR",
+          "hint": "Sayıların birler basamağındaki rakamın 6 olduğu durum."
+        },
+        {
+          "word": "ONLULAR",
+          "hint": "Sayıların basamak değerinin 10 olduğu grup."
+        },
+        {
+          "word": "YÜZLÜKLER",
+          "hint": "100'lük grupları ifade eden basamak."
+        },
+        {
+          "word": "Bİ̇NLER",
+          "hint": "1000'lik grupları ifade eden basamak."
+        },
+        {
+          "word": "YERİ̇",
+          "hint": "Bir rakamın sayıda bulunduğu konuma verilen ad."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir rakamın bulunduğu basamağa göre kazandığı önem."
+        },
+        {
+          "word": "ARTAR",
+          "hint": "Bir sayının miktarının yükselmesi durumu."
+        },
+        {
+          "word": "AZALİR",
+          "hint": "Bir sayının miktarının düşmesi durumu."
+        },
+        {
+          "word": "ARTİK",
+          "hint": "Bölme işleminde, tam olarak bölünemeyen ve kalan kısım."
+        },
+        {
+          "word": "KALAN",
+          "hint": "Bir bölme işleminde, paylaştırılamayan nesne sayısı."
+        },
+        {
+          "word": "POZİ̇Tİ̇F",
+          "hint": "Sıfırdan büyük olan sayılar."
+        },
+        {
+          "word": "NEGATİ̇F",
+          "hint": "Sıfırdan küçük olan sayılar (4. sınıfta bu kavram detaylı işlenmez ama mantığı kavratılabilir)."
+        },
+        {
+          "word": "SAYİ",
+          "hint": "Miktarları, sıraları veya ölçüleri belirtmek için kullanılan semboller."
+        },
+        {
+          "word": "RAKAM",
+          "hint": "Sayıları oluşturmak için kullanılan tekli semboller (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)."
+        },
+        {
+          "word": "Dİ̇Zİ̇",
+          "hint": "Sayıların veya nesnelerin belirli bir sıraya göre yan yana gelmesi."
+        },
+        {
+          "word": "SİRALAMA",
+          "hint": "Sayıları küçükten büyüğe veya büyükten küçüğe doğru dizme işlemi."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Aynı türden nesnelerin bir araya gelmesi."
+        },
+        {
+          "word": "Bİ̇Rİ̇M",
+          "hint": "Ölçülerin en küçük temel parçası."
+        },
+        {
+          "word": "BÜTÜN",
+          "hint": "Tamamlanmış, eksiksiz olan sayı veya nesne."
+        },
+        {
+          "word": "YARİ",
+          "hint": "Bütünün iki eşit parçasından biri (Kesirler ünitesine giriş)."
+        },
+        {
+          "word": "DÖRTLÜ",
+          "hint": "Dört tane nesnenin bir araya gelmesi."
+        },
+        {
+          "word": "BEŞLİ̇",
+          "hint": "Beş tane nesnenin bir araya gelmesi."
+        },
+        {
+          "word": "YEDEKLİ̇",
+          "hint": "Toplama işleminde, bir basamaktaki toplamın bir sonraki basamağa taşınması."
+        },
+        {
+          "word": "YEDEKSİ̇Z",
+          "hint": "Toplama işleminde, bir basamaktaki toplamın bir sonraki basamağa taşınmaması."
+        },
+        {
+          "word": "BORÇ",
+          "hint": "Çıkarma işleminde, eksilen sayıdan çıkarılan sayının alınması."
+        },
+        {
+          "word": "ELDE",
+          "hint": "Çıkarma işleminde, yeterli rakam olmadığında komşu basamaktan alınan miktar."
+        },
+        {
+          "word": "FAZLA",
+          "hint": "Birinden diğerine göre daha çok olma durumu."
+        },
+        {
+          "word": "EKSİ̇K",
+          "hint": "Gereken miktardan daha az olma durumu."
+        },
+        {
+          "word": "DOĞAL",
+          "hint": "Sıfırdan başlayıp sonsuza kadar giden sayılar kümesi."
+        },
+        {
+          "word": "SAYMAK",
+          "hint": "Nesnelerin niceliğini belirlemek için yapılan işlem."
+        },
+        {
+          "word": "ÖLÇÜ",
+          "hint": "Bir niceliğin miktarını belirten sayı."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Toplama işlemi sonucunda elde edilen sayı."
+        },
+        {
+          "word": "FARKİ",
+          "hint": "Çıkarma işlemi sonucunda elde edilen sayı."
+        },
+        {
+          "word": "ÇARPİM",
+          "hint": "Çarpma işlemi sonucunda elde edilen sayı."
+        },
+        {
+          "word": "BÖLÜM",
+          "hint": "Bölme işlemi sonucunda elde edilen sayı."
+        },
+        {
+          "word": "ORTAK",
+          "hint": "Birden fazla sayıda bulunan özellik."
+        },
+        {
+          "word": "ETİ̇KET",
+          "hint": "Nesneleri veya sayıları tanımlayan açıklama."
+        },
+        {
+          "word": "VARLİK",
+          "hint": "Bir şeyin bulunma durumu veya miktarı."
+        },
+        {
+          "word": "DEĞİ̇ŞKEN",
+          "hint": "Farklı değerler alabilen sembol (4. sınıfta daha çok bilinmeyen olarak işlenir)."
+        }
       ]
     },
     {
       "id": "matematik_u2",
       "name": "2. Ünite: Uzunluk Ölçme",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "METRE", "hint": "Uzunluk ölçmede kullanılan temel birim"},
-        {"word": "SANTİMETRE", "hint": "Metrenin yüzde biri olan küçük uzunluk birimi"},
-        {"word": "MİLİMETRE", "hint": "Santimetrenin onda biri olan çok küçük birim"},
-        {"word": "KİLOMETRE", "hint": "Bin metreye eşit olan uzun mesafe birimi"},
-        {"word": "CETVEL", "hint": "Uzunluk ölçmek için kullanılan düz araç"}
+        {
+          "word": "METRE",
+          "hint": "Uzunluk ölçmede kullanılan temel birim"
+        },
+        {
+          "word": "SANTİMETRE",
+          "hint": "Metrenin yüzde biri olan küçük uzunluk birimi"
+        },
+        {
+          "word": "MİLİMETRE",
+          "hint": "Santimetrenin onda biri olan çok küçük birim"
+        },
+        {
+          "word": "KİLOMETRE",
+          "hint": "Bin metreye eşit olan uzun mesafe birimi"
+        },
+        {
+          "word": "CETVEL",
+          "hint": "Uzunluk ölçmek için kullanılan düz araç"
+        },
+        {
+          "word": "UZUNLUK",
+          "hint": "Bir nesnenin veya mesafenin bir ucundan diğer ucuna kadar olan büyüklüğü."
+        },
+        {
+          "word": "ÖLÇÜM",
+          "hint": "Bir niceliğin değerini belirleme işlemi."
+        },
+        {
+          "word": "Bİ̇Rİ̇M",
+          "hint": "Ölçüleri karşılaştırmak için kullanılan temel miktar."
+        },
+        {
+          "word": "UZUN",
+          "hint": "Boyutu büyük olan, çok fazla yer kaplayan."
+        },
+        {
+          "word": "KİSA",
+          "hint": "Boyutu küçük olan, az yer kaplayan."
+        },
+        {
+          "word": "YÜKSEK",
+          "hint": "Dikey olarak ilerleyen mesafe, göğe doğru olan."
+        },
+        {
+          "word": "ALÇAK",
+          "hint": "Yükseklik olarak az olan, yere yakın."
+        },
+        {
+          "word": "DERİ̇N",
+          "hint": "Yüzeyden dibe kadar olan mesafe."
+        },
+        {
+          "word": "GENİ̇Ş",
+          "hint": "Yan yana olan mesafesi fazla olan."
+        },
+        {
+          "word": "DAR",
+          "hint": "Yan yana olan mesafesi az olan."
+        },
+        {
+          "word": "ME SAF E",
+          "hint": "İki nokta arasındaki boşluk."
+        },
+        {
+          "word": "PERGEL",
+          "hint": "Çember çizmeye yarayan, iki kollu ölçme aracı."
+        },
+        {
+          "word": "Mİ̇KROMETRE",
+          "hint": "Çok küçük uzunlukları ölçmek için kullanılan hassas alet."
+        },
+        {
+          "word": "MEZURA",
+          "hint": "Esnek ve uzunlukları ölçmek için kullanılan şerit."
+        },
+        {
+          "word": "UZUNLUK ÖLÇER",
+          "hint": "Uzunlukları ölçmeye yarayan aletler genel adı."
+        },
+        {
+          "word": "Nİ̇ŞAN ALMAK",
+          "hint": "Bir hedefi ölçmek veya belirlemek için gözüyle hizalamak."
+        },
+        {
+          "word": "KARŞİLAŞTİRMA",
+          "hint": "İki veya daha fazla şeyi özelliklerine göre değerlendirme."
+        },
+        {
+          "word": "ESNEK",
+          "hint": "Kolayca bükülebilen, şekli değişebilen."
+        },
+        {
+          "word": "SABİ̇T",
+          "hint": "Değişmeyen, durağan."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "Düz çizgi, en kısa mesafe."
+        },
+        {
+          "word": "EĞRİ̇",
+          "hint": "Düz olmayan, kıvrımlı çizgi."
+        },
+        {
+          "word": "TARTMAK",
+          "hint": "Bir nesnenin ağırlığını ölçmek."
+        },
+        {
+          "word": "Mİ̇KTAR",
+          "hint": "Bir şeyin ne kadar olduğunun belirtilmesi."
+        },
+        {
+          "word": "VERİ̇",
+          "hint": "Ölçüm sonucunda elde edilen bilgi."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Gerçek bir nesnenin küçültülmüş veya büyütülmüş hali."
+        },
+        {
+          "word": "HESAP",
+          "hint": "Sayıları kullanarak işlem yapma."
+        },
+        {
+          "word": "ÖLÇEK",
+          "hint": "Haritalarda veya modellerde kullanılan küçültme oranı."
+        },
+        {
+          "word": "BOYUT",
+          "hint": "Bir nesnenin uzunluk, genişlik, yükseklik gibi ölçüleri."
+        },
+        {
+          "word": "BELİ̇RLEMEK",
+          "hint": "Bir şeyi tespit etmek, ortaya çıkarmak."
+        },
+        {
+          "word": "AYARLAMAK",
+          "hint": "Bir aleti doğru ölçüm için hazırlamak."
+        },
+        {
+          "word": "GÖRSEL",
+          "hint": "Görmeye dayalı, resimle ilgili."
+        },
+        {
+          "word": "ŞERİ̇T",
+          "hint": "Uzun ve ince parça, mezura gibi."
+        },
+        {
+          "word": "GÖSTERGE",
+          "hint": "Ölçüm sonucunu bildiren işaret veya rakam."
+        },
+        {
+          "word": "HASSASİ̇YET",
+          "hint": "Ölçümün doğruluğu ve küçüklükleri fark edebilme yeteneği."
+        },
+        {
+          "word": "Çİ̇ZELGE",
+          "hint": "Verileri düzenli bir şekilde gösteren tablo."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Satır ve sütunlardan oluşan bilgi gösterimi."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlemin veya ölçümün çıktısı."
+        },
+        {
+          "word": "ÜRÜN",
+          "hint": "Yapılan bir işten ortaya çıkan şey."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Bir hipotezi test etmek için yapılan işlem."
+        },
+        {
+          "word": "BULMAK",
+          "hint": "Bir şeyi keşfetmek, ortaya çıkarmak."
+        },
+        {
+          "word": "YAKLAŞİK",
+          "hint": "Tam olmayan, tama yakın."
+        },
+        {
+          "word": "DOĞRULUK",
+          "hint": "Ölçümün gerçeğe uygunluğu."
+        },
+        {
+          "word": "KESİ̇NLİ̇K",
+          "hint": "İki nokta arasındaki en kısa mesafe."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Bilgiyi kullanarak bir iş yapma."
+        },
+        {
+          "word": "KAVRAM",
+          "hint": "Bir fikir veya anlayış."
+        },
+        {
+          "word": "GÖREV",
+          "hint": "Yapılması gereken iş veya sorumluluk."
+        }
       ]
     }
   ]

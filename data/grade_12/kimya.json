@@ -3,25 +3,431 @@
     {
       "id": "kimya_u1",
       "name": "1. Ünite: Organik Kimya",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "HİDROKARBON", "hint": "Yalnızca karbon ve hidrojenden oluşan bileşik"},
-        {"word": "ALKAN", "hint": "Tekli bağ içeren doymuş hidrokarbon serisi"},
-        {"word": "ALKEN", "hint": "Çift bağ içeren doymamış hidrokarbon grubu"},
-        {"word": "İZOMER", "hint": "Aynı formüle sahip farklı yapıdaki bileşikler"},
-        {"word": "ESTER", "hint": "Asit ve alkolün tepkimesiyle oluşan hoş kokulu bileşik"}
+        {
+          "word": "HİDROKARBON",
+          "hint": "Yalnızca karbon ve hidrojenden oluşan bileşik"
+        },
+        {
+          "word": "ALKAN",
+          "hint": "Tekli bağ içeren doymuş hidrokarbon serisi"
+        },
+        {
+          "word": "ALKEN",
+          "hint": "Çift bağ içeren doymamış hidrokarbon grubu"
+        },
+        {
+          "word": "İZOMER",
+          "hint": "Aynı formüle sahip farklı yapıdaki bileşikler"
+        },
+        {
+          "word": "ESTER",
+          "hint": "Asit ve alkolün tepkimesiyle oluşan hoş kokulu bileşik"
+        },
+        {
+          "word": "ORGANİK",
+          "hint": "Canlıların yapısında bulunan, karbon temelli bileşikler için kullanılan sıfat."
+        },
+        {
+          "word": "KİMYA",
+          "hint": "Maddelerin yapısını, özelliklerini ve tepkimelerini inceleyen bilim dalı."
+        },
+        {
+          "word": "BİLEŞİK",
+          "hint": "İki veya daha fazla farklı atomun belirli oranlarda birleşmesiyle oluşan saf madde."
+        },
+        {
+          "word": "YAPI",
+          "hint": "Bir molekülün atomlarının birbirine bağlanma biçimi."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Bir bileşiğin yapısını ve atom türlerini gösteren sembolik gösterim."
+        },
+        {
+          "word": "KOVALENT",
+          "hint": "Atomların elektronlarını ortaklaşa kullanarak oluşturduğu kimyasal bağ türü."
+        },
+        {
+          "word": "POLARİTE",
+          "hint": "Bir molekül içindeki yük dağılımının dengesiz olmasından kaynaklanan özellik."
+        },
+        {
+          "word": "APOLAR",
+          "hint": "Molekül içinde elektronların eşit olarak dağıldığı ve net bir dipol momentinin olmadığı durum."
+        },
+        {
+          "word": "HİDROFİL",
+          "hint": "Suyu seven, suyla etkileşime giren madde özelliği."
+        },
+        {
+          "word": "HİDROFOB",
+          "hint": "Suyu sevmeyen, suyla itilen madde özelliği."
+        },
+        {
+          "word": "REAKSİYON",
+          "hint": "Maddelerin kimyasal değişimlere uğrayarak yeni maddeler oluşturduğu süreç."
+        },
+        {
+          "word": "KATALİZÖR",
+          "hint": "Bir kimyasal reaksiyonun hızını değiştiren ancak reaksiyon sonunda değişmeden kalan madde."
+        },
+        {
+          "word": "SENTEZ",
+          "hint": "Basit maddelerden karmaşık maddeler üretme süreci."
+        },
+        {
+          "word": "ANALİZ",
+          "hint": "Bileşikleri oluşturan öğeleri belirleme süreci."
+        },
+        {
+          "word": "FONKSİYONEL",
+          "hint": "Organik bileşiklerde belirli bir kimyasal reaksiyon verme eğiliminde olan atom veya atom grupları."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Birbirine benzeyen özellikler gösteren atomlar topluluğu."
+        },
+        {
+          "word": "SİKLOALKAN",
+          "hint": "Halka yapısındaki doymuş hidrokarbonlar."
+        },
+        {
+          "word": "ALİSİKLİK",
+          "hint": "Halka yapısında olan ancak aromatik olmayan organik bileşikler."
+        },
+        {
+          "word": "AROMATİK",
+          "hint": "Benzen halkası içeren veya ona benzer yapıya sahip bileşikler."
+        },
+        {
+          "word": "NAFTALİN",
+          "hint": "İki benzen halkasının birleşmesiyle oluşan katı ve kokulu madde."
+        },
+        {
+          "word": "ANİLİN",
+          "hint": "Benzen halkasına bağlı amino grubu içeren organik baz."
+        },
+        {
+          "word": "FENOL",
+          "hint": "Benzen halkasına bağlı hidroksil grubu içeren organik bileşik."
+        },
+        {
+          "word": "ALDEHİT",
+          "hint": "Yapısında -CHO grubu bulunduran organik bileşik."
+        },
+        {
+          "word": "KETON",
+          "hint": "Karbonil grubunun iki karbon atomuna bağlı olduğu organik bileşik."
+        },
+        {
+          "word": "KARBOKSİL",
+          "hint": "Bir asidin yapısında bulunan -COOH grubu."
+        },
+        {
+          "word": "ASİT",
+          "hint": "Proton verebilen veya elektron çifti alabilen madde."
+        },
+        {
+          "word": "BAZ",
+          "hint": "Proton alabilen veya elektron çifti verebilen madde."
+        },
+        {
+          "word": "TUZ",
+          "hint": "Asit ve baz tepkimesi sonucu oluşan bileşik."
+        },
+        {
+          "word": "POLİMER",
+          "hint": "Tekrarlanan küçük birimlerin (monomerlerin) birbirine bağlanmasıyla oluşan büyük molekül."
+        },
+        {
+          "word": "MONOMER",
+          "hint": "Polimerleri oluşturan küçük molekül birimi."
+        },
+        {
+          "word": "PLASTİK",
+          "hint": "Isıtıldığında şekil değiştirebilen sentetik polimer madde."
+        },
+        {
+          "word": "KAUÇUK",
+          "hint": "Esnek ve elastik özelliklere sahip bir polimer."
+        },
+        {
+          "word": "LİF",
+          "hint": "Tekstil üretiminde kullanılan uzun, ince teller."
+        },
+        {
+          "word": "BOYAR",
+          "hint": "Renkli maddeler."
+        },
+        {
+          "word": "ÇÖZÜCÜ",
+          "hint": "Başka maddeleri çözme yeteneğine sahip madde."
+        },
+        {
+          "word": "ÇÖZÜNEN",
+          "hint": "Çözücü içinde çözünen madde."
+        },
+        {
+          "word": "VİSKOZİTE",
+          "hint": "Bir akışkanın akmaya karşı gösterdiği direnç."
+        },
+        {
+          "word": "KAYNAMA",
+          "hint": "Bir sıvının buhar basıncının dış basınca eşit olduğu sıcaklık."
+        },
+        {
+          "word": "ERİME",
+          "hint": "Katı bir maddenin sıvı hale geçtiği sıcaklık."
+        },
+        {
+          "word": "YOĞUNLAŞMA",
+          "hint": "Gaz halindeki bir maddenin sıvı hale geçmesi."
+        },
+        {
+          "word": "BUHARLAŞMA",
+          "hint": "Sıvı haldeki bir maddenin gaz hale geçmesi."
+        },
+        {
+          "word": "DOYMUŞ",
+          "hint": "Yapısında sadece tekli bağlar bulunan doymuş hidrokarbonlar için kullanılır."
+        },
+        {
+          "word": "DOYMAMIŞ",
+          "hint": "Yapısında çift veya üçlü bağlar bulunan hidrokarbonlar."
+        },
+        {
+          "word": "ZEHİRLİ",
+          "hint": "Canlılara zarar verebilen madde özelliği."
+        },
+        {
+          "word": "YANICI",
+          "hint": "Kolayca tutuşup alev alabilen madde özelliği."
+        },
+        {
+          "word": "KOROZYON",
+          "hint": "Maddelerin (özellikle metallerin) kimyasal yollarla aşınması."
+        }
       ]
     },
     {
       "id": "kimya_u2",
       "name": "2. Ünite: Enerji",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "ENTALPİ", "hint": "Sistemin sabit basınçtaki ısı değişimi"},
-        {"word": "ENTROPİ", "hint": "Sistemdeki düzensizliğin ölçüsü"},
-        {"word": "EKZOTERMİK", "hint": "Dışarıya ısı veren kimyasal tepkime türü"},
-        {"word": "ENDOTERMİK", "hint": "Dışarıdan ısı alan kimyasal tepkime türü"},
-        {"word": "KATALİZÖR", "hint": "Tepkimeyi hızlandıran ama değişmeden kalan madde"}
+        {
+          "word": "ENTALPİ",
+          "hint": "Sistemin sabit basınçtaki ısı değişimi"
+        },
+        {
+          "word": "ENTROPİ",
+          "hint": "Sistemdeki düzensizliğin ölçüsü"
+        },
+        {
+          "word": "EKZOTERMİK",
+          "hint": "Dışarıya ısı veren kimyasal tepkime türü"
+        },
+        {
+          "word": "ENDOTERMİK",
+          "hint": "Dışarıdan ısı alan kimyasal tepkime türü"
+        },
+        {
+          "word": "KATALİZÖR",
+          "hint": "Tepkimeyi hızlandıran ama değişmeden kalan madde"
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme yeteneği."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Kimyasal bir olayı veya maddeyi temsil eden semboller dizisi."
+        },
+        {
+          "word": "Kİ̇MYASAL",
+          "hint": "Maddelerin yapısı ve tepkimeleri ile ilgili."
+        },
+        {
+          "word": "TEPKİ̇ME",
+          "hint": "Maddelerin birbirine dönüşmesi olayı."
+        },
+        {
+          "word": "Sİ̇STEM",
+          "hint": "Enerji veya madde alışverişi yapan bir bütün."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Sistemin dışındaki her şey."
+        },
+        {
+          "word": "İSİ",
+          "hint": "Sıcaklık farkından dolayı aktarılan enerji."
+        },
+        {
+          "word": "DEĞİ̇Şİ̇M",
+          "hint": "Bir durumdan başka bir duruma geçme."
+        },
+        {
+          "word": "POTANSİ̇YEL",
+          "hint": "Bir sistemin sahip olduğu saklı enerji."
+        },
+        {
+          "word": "Kİ̇NETİ̇K",
+          "hint": "Hareket halindeki cisimlerin sahip olduğu enerji."
+        },
+        {
+          "word": "BAĞ",
+          "hint": "Atomları bir arada tutan kuvvet."
+        },
+        {
+          "word": "GEREKEN",
+          "hint": "Bir tepkimenin gerçekleşmesi için ihtiyaç duyulan."
+        },
+        {
+          "word": "ORTAM",
+          "hint": "Tepkimenin gerçekleştiği yer."
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Bir kuvvete karşılık gelen yüzey alanı."
+        },
+        {
+          "word": "HAL",
+          "hint": "Maddenin katı, sıvı veya gaz olduğu durum."
+        },
+        {
+          "word": "MOL",
+          "hint": "Maddenin miktarını belirten bir ölçü birimi."
+        },
+        {
+          "word": "AVOGADRO",
+          "hint": "Mol sayısını belirlemeye yarayan sabit sayı."
+        },
+        {
+          "word": "KRİ̇STAL",
+          "hint": "Düzenli atomik yapıya sahip katı madde."
+        },
+        {
+          "word": "SİVİ",
+          "hint": "Akışkan, belirli bir şekli olmayan madde hali."
+        },
+        {
+          "word": "GAZ",
+          "hint": "Hacmi ve şekli olmayan, serbestçe hareket eden madde hali."
+        },
+        {
+          "word": "KATMAN",
+          "hint": "Maddelerin üst üste veya yan yana bulunması."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Bir cismin dış sınırı."
+        },
+        {
+          "word": "GERİ̇Lİ̇M",
+          "hint": "Yüzeyde oluşan çekme kuvveti."
+        },
+        {
+          "word": "KOHEZYON",
+          "hint": "Aynı tür moleküller arasındaki çekim kuvveti."
+        },
+        {
+          "word": "ADEZYON",
+          "hint": "Farklı tür moleküller arasındaki çekim kuvveti."
+        },
+        {
+          "word": "BASAMAK",
+          "hint": "Bir tepkimenin oluşumunda izlenen adımlar."
+        },
+        {
+          "word": "AKTİ̇FLEŞME",
+          "hint": "Tepkimeye girecek moleküllerin yeterli enerjiye ulaşması."
+        },
+        {
+          "word": "DENGEDE",
+          "hint": "İleri ve geri tepkimelerin eşit hızda olduğu durum."
+        },
+        {
+          "word": "KATKİ",
+          "hint": "Bir sisteme eklenen madde."
+        },
+        {
+          "word": "SÜRAT",
+          "hint": "Bir olayın ne kadar hızlı gerçekleştiği."
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Bir doğru boyunca ilerleyen."
+        },
+        {
+          "word": "KARARLİ",
+          "hint": "Değişime karşı direnç gösteren."
+        },
+        {
+          "word": "KARARSİZ",
+          "hint": "Kolayca değişebilen."
+        },
+        {
+          "word": "Bİ̇Rİ̇Kİ̇M",
+          "hint": "Maddelerin bir araya toplanması."
+        },
+        {
+          "word": "AYRİM",
+          "hint": "Maddelerin birbirinden ayrılması."
+        },
+        {
+          "word": "YAYİLİM",
+          "hint": "Gaz moleküllerinin her yere dağılması."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Birim hacimdeki kütle miktarı."
+        },
+        {
+          "word": "SAFLİK",
+          "hint": "Bir maddenin içinde başka madde olmaması durumu."
+        },
+        {
+          "word": "KARMAŞİK",
+          "hint": "İç içe geçmiş, anlaşılması zor."
+        },
+        {
+          "word": "BASİ̇T",
+          "hint": "Anlaşılması kolay, yalın."
+        },
+        {
+          "word": "DÖNGÜ",
+          "hint": "Tekrar eden sıra."
+        },
+        {
+          "word": "ELEKTRON",
+          "hint": "Atomun çekirdeği etrafında dönen negatif yüklü tanecik."
+        },
+        {
+          "word": "Vİ̇DEO",
+          "hint": "Hareketli görüntüler."
+        },
+        {
+          "word": "GRAFİ̇K",
+          "hint": "Verileri görselleştiren çizim."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Verilerin satır ve sütunlarda düzenlenmiş hali."
+        }
       ]
     }
   ]

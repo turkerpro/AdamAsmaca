@@ -3,25 +3,507 @@
     {
       "id": "matematik6_u1",
       "name": "1. Ünite: Tam Sayılar",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "NEGATİF", "hint": "Sıfırdan küçük olan sayıların işareti"},
-        {"word": "POZİTİF", "hint": "Sıfırdan büyük olan sayıların işareti"},
-        {"word": "MUTLAKDEĞERİ", "hint": "Sayının sıfıra olan uzaklığı"},
-        {"word": "TAMSAYİ", "hint": "Negatif, sıfır ve pozitif sayıların tümü"},
-        {"word": "SIRALAMA", "hint": "Sayıları küçükten büyüğe dizme işlemi"}
+        {
+          "word": "NEGATİF",
+          "hint": "Sıfırdan küçük olan sayıların işareti"
+        },
+        {
+          "word": "POZİTİF",
+          "hint": "Sıfırdan büyük olan sayıların işareti"
+        },
+        {
+          "word": "MUTLAKDEĞERİ",
+          "hint": "Sayının sıfıra olan uzaklığı"
+        },
+        {
+          "word": "TAMSAYİ",
+          "hint": "Negatif, sıfır ve pozitif sayıların tümü"
+        },
+        {
+          "word": "SIRALAMA",
+          "hint": "Sayıları küçükten büyüğe dizme işlemi"
+        },
+        {
+          "word": "AZALMA",
+          "hint": "Bir şeyin miktarının düşmesi, küçülmesi."
+        },
+        {
+          "word": "ARTMA",
+          "hint": "Bir şeyin miktarının çoğalması, büyümesi."
+        },
+        {
+          "word": "BORÇ",
+          "hint": "Başkasına olan ödeme yükümlülüğü, ödenmesi gereken para."
+        },
+        {
+          "word": "ÇİKARMA",
+          "hint": "Bir sayıdan başka bir sayıyı eksiltme işlemi."
+        },
+        {
+          "word": "DERECELENDİ̇RME",
+          "hint": "Sıcaklığı ölçmek için kullanılan birimlerden biri."
+        },
+        {
+          "word": "Dİ̇KEY",
+          "hint": "Yukarı veya aşağı doğru uzanan çizgi yönü."
+        },
+        {
+          "word": "EKLEME",
+          "hint": "Bir sayıya başka bir sayıyı katma işlemi."
+        },
+        {
+          "word": "EKSİ̇",
+          "hint": "Sıfırın sol tarafında yer alan sayılar için kullanılan işaret."
+        },
+        {
+          "word": "EŞİ̇T",
+          "hint": "Aynı değerde olma durumu."
+        },
+        {
+          "word": "FAZLA",
+          "hint": "Gerekenin veya bekleneninden çok olma durumu."
+        },
+        {
+          "word": "FARK",
+          "hint": "İki sayının birbirinden çıkarılması sonucu bulunan değer."
+        },
+        {
+          "word": "GELİ̇R",
+          "hint": "Para kazanma, elde edilen kazanç."
+        },
+        {
+          "word": "Gİ̇DER",
+          "hint": "Harcanan para, yapılan ödeme."
+        },
+        {
+          "word": "GÖSTERGE",
+          "hint": "Değerleri işaret eden çizelge veya sayı."
+        },
+        {
+          "word": "GUNES",
+          "hint": "Gündüzleri gökyüzünde parlayan, ısı ve ışık yayan gök cismi."
+        },
+        {
+          "word": "İ̇KAME",
+          "hint": "Bir şeyin yerine başka bir şeyin kullanılması."
+        },
+        {
+          "word": "KALDİRMA",
+          "hint": "Bir yerden bir şeyi alma, yok etme."
+        },
+        {
+          "word": "KARŞİLİK",
+          "hint": "Bir eyleme verilen tepki veya elde edilen sonuç."
+        },
+        {
+          "word": "KAZANÇ",
+          "hint": "Yapılan işten elde edilen para veya fayda."
+        },
+        {
+          "word": "KOLAY",
+          "hint": "Zor olmayan, basit."
+        },
+        {
+          "word": "KOŞUL",
+          "hint": "Bir şeyin gerçekleşmesi için gereken şart."
+        },
+        {
+          "word": "KOYU",
+          "hint": "Rengi derin ve parlak olmayan."
+        },
+        {
+          "word": "KONUM",
+          "hint": "Bir yerdeki bulunma durumu, yerleşme."
+        },
+        {
+          "word": "KORUMA",
+          "hint": "Bir şeyi zarar görmekten saklama."
+        },
+        {
+          "word": "KOŞUT",
+          "hint": "Birbirine paralel olan iki çizgi veya yüzey."
+        },
+        {
+          "word": "KÖKEN",
+          "hint": "Bir şeyin başlangıç noktası veya kaynağı."
+        },
+        {
+          "word": "KÜÇÜLME",
+          "hint": "Boyut, hacim veya değer olarak azalma."
+        },
+        {
+          "word": "MAKSİ̇MUM",
+          "hint": "En yüksek, en büyük değer."
+        },
+        {
+          "word": "MEKAN",
+          "hint": "Bir şeyin bulunduğu yer, alan."
+        },
+        {
+          "word": "Mİ̇Nİ̇MUM",
+          "hint": "En az, en küçük değer."
+        },
+        {
+          "word": "ÖDEME",
+          "hint": "Yapılması gereken parayı verme işi."
+        },
+        {
+          "word": "ÖLÇÜ",
+          "hint": "Bir niceliğin karşılaştırılması için kullanılan standart."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki sayının birbirine bölünmesiyle bulunan ilişki."
+        },
+        {
+          "word": "ÖRNEK",
+          "hint": "Bir bütünün tamamını temsil eden parça."
+        },
+        {
+          "word": "RAKAM",
+          "hint": "Sayıları yazmaya yarayan işaret."
+        },
+        {
+          "word": "RAHAT",
+          "hint": "Sıkıntısız, huzurlu."
+        },
+        {
+          "word": "SAATLİ̇K",
+          "hint": "Bir saat süresince gerçekleşen."
+        },
+        {
+          "word": "SADECE",
+          "hint": "Başka hiçbir şey olmadan, yalnızca."
+        },
+        {
+          "word": "SAHA",
+          "hint": "Geniş, açık alan."
+        },
+        {
+          "word": "SAYFA",
+          "hint": "Bir kitabın veya derginin her bir yüzü."
+        },
+        {
+          "word": "SEVİ̇YE",
+          "hint": "Bir şeyin bulunduğu yükseklik veya düzey."
+        },
+        {
+          "word": "SEZON",
+          "hint": "Belirli bir zaman dilimi içinde yapılan etkinlik."
+        },
+        {
+          "word": "SİRA",
+          "hint": "Ardı ardına dizilmiş nesnelerin veya kişilerin durumu."
+        },
+        {
+          "word": "SİTMA",
+          "hint": "Hava sıcaklığının düşmesi durumu."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlemin veya olayın ortaya çıkardığı netice."
+        },
+        {
+          "word": "SORGU",
+          "hint": "Bilgi almak için yapılan karşılıklı konuşma."
+        },
+        {
+          "word": "SORUMLU",
+          "hint": "Bir işin yapılması veya ortaya çıkan durumdan yükümlü olan."
+        },
+        {
+          "word": "SÜRE",
+          "hint": "Bir olayın ne kadar zamana yayıldığı."
+        },
+        {
+          "word": "TARTMA",
+          "hint": "Bir cismin ağırlığını ölçme işlemi."
+        },
+        {
+          "word": "TEKİ̇L",
+          "hint": "Bir tane olan, çoğul olmayan."
+        },
+        {
+          "word": "TESİ̇R",
+          "hint": "Bir olayın başka bir olay üzerindeki etkisi."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Bir araya getirme, bütünleştirme işlemi."
+        },
+        {
+          "word": "TON",
+          "hint": "Bir renkteki açıklık veya koyuluk derecesi."
+        },
+        {
+          "word": "ÜRETİ̇M",
+          "hint": "Bir malı veya hizmeti meydana getirme süreci."
+        },
+        {
+          "word": "YANİT",
+          "hint": "Bir soruya verilen cevap."
+        },
+        {
+          "word": "YAYİLMA",
+          "hint": "Bir şeyin alan olarak genişlemesi."
+        },
+        {
+          "word": "YOKSUL",
+          "hint": "Parası veya malı az olan."
+        },
+        {
+          "word": "YÜKSELME",
+          "hint": "Bir şeyin seviyesinin artması, yukarı çıkması."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Olayların birbirini izlediği veya sürdüğü süre."
+        },
+        {
+          "word": "ZARAR",
+          "hint": "Kötü sonuç, kayıp."
+        },
+        {
+          "word": "ZENGİ̇N",
+          "hint": "Parası veya malı çok olan."
+        },
+        {
+          "word": "Zİ̇RO",
+          "hint": "Sıfırın diğer adı, başlangıç noktası."
+        }
       ]
     },
     {
       "id": "matematik6_u2",
       "name": "2. Ünite: Oran Orantı",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "ORAN", "hint": "İki çokluğun birbirine bölümü"},
-        {"word": "ORANTI", "hint": "İki oranın birbirine eşit olması"},
-        {"word": "PAYDA", "hint": "Kesirde çizginin altındaki sayı"},
-        {"word": "PAY", "hint": "Kesirde çizginin üstündeki sayı"},
-        {"word": "YÜZDE", "hint": "Yüz üzerinden yapılan oran hesabı"}
+        {
+          "word": "ORAN",
+          "hint": "İki çokluğun birbirine bölümü"
+        },
+        {
+          "word": "ORANTI",
+          "hint": "İki oranın birbirine eşit olması"
+        },
+        {
+          "word": "PAYDA",
+          "hint": "Kesirde çizginin altındaki sayı"
+        },
+        {
+          "word": "PAY",
+          "hint": "Kesirde çizginin üstündeki sayı"
+        },
+        {
+          "word": "YÜZDE",
+          "hint": "Yüz üzerinden yapılan oran hesabı"
+        },
+        {
+          "word": "KESİ̇R",
+          "hint": "Bütünün parçalarını göstermeye yarayan matematiksel ifade."
+        },
+        {
+          "word": "Mİ̇KTAR",
+          "hint": "Bir şeyin ne kadar olduğunu belirten ölçü."
+        },
+        {
+          "word": "BÜTÜN",
+          "hint": "Parçalara ayrılmamış, tam olan."
+        },
+        {
+          "word": "PARÇA",
+          "hint": "Bütünden ayrılmış küçük bölüm."
+        },
+        {
+          "word": "KARŞİLAŞTİRMA",
+          "hint": "İki veya daha fazla şeyi benzerlik ve farklılık yönünden inceleme."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Bilgileri düzenli bir şekilde göstermeye yarayan çizelge."
+        },
+        {
+          "word": "GRAFİ̇K",
+          "hint": "Verileri görsel olarak sunan çizim."
+        },
+        {
+          "word": "ÖLÇÜ",
+          "hint": "Bir niceliği belirlemeye yarayan standart değer."
+        },
+        {
+          "word": "Bİ̇Rİ̇M",
+          "hint": "Ölçülerin karşılaştırılmasını sağlayan temel miktar."
+        },
+        {
+          "word": "SAYİ",
+          "hint": "Nicelikleri ifade etmek için kullanılan sembol."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir şeyin taşıdığı önem veya nicelik."
+        },
+        {
+          "word": "ARTMA",
+          "hint": "Miktar veya büyüklük olarak çoğalma."
+        },
+        {
+          "word": "AZALMA",
+          "hint": "Miktar veya büyüklük olarak küçülme."
+        },
+        {
+          "word": "SABİT",
+          "hint": "Değişmeyen, aynı kalan."
+        },
+        {
+          "word": "DEĞİŞKEN",
+          "hint": "Değeri farklılık gösterebilen."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "İki yönlü sınırsız, düz çizgi."
+        },
+        {
+          "word": "EĞRİ̇",
+          "hint": "Düz olmayan, kıvrımlı çizgi."
+        },
+        {
+          "word": "GEOMETRİ̇",
+          "hint": "Şekilleri, boyutları ve konumları inceleyen matematik dalı."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir yüzeyin kapladığı miktar."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Bir şeklin dış kenarının uzunluğu."
+        },
+        {
+          "word": "HACİ̇M",
+          "hint": "Katı bir cismin kapladığı boşluk."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Gerçek bir nesnenin basitleştirilmiş gösterimi."
+        },
+        {
+          "word": "ÖRNEKLEM",
+          "hint": "Bir bütünün tamamını temsil eden küçük grup."
+        },
+        {
+          "word": "ORANLAMA",
+          "hint": "Oranlar arasında kurulan eşitlik ilişkisi."
+        },
+        {
+          "word": "BENZERLİ̇K",
+          "hint": "İki şeklin aynı oranda büyümesi veya küçülmesi."
+        },
+        {
+          "word": "FARK",
+          "hint": "İki sayının birbirinden çıkarılması sonucu elde edilen sonuç."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Birkaç sayının bir araya getirilmesi."
+        },
+        {
+          "word": "ÇARPİM",
+          "hint": "Sayıların birbirini tekrarlamasıyla oluşan sonuç."
+        },
+        {
+          "word": "BÖLÜM",
+          "hint": "Bir sayının diğerine bölünmesi sonucu elde edilen sonuç."
+        },
+        {
+          "word": "KESME",
+          "hint": "Bir bütünün parçalara ayrılması işlemi."
+        },
+        {
+          "word": "YAPİŞTİRMA",
+          "hint": "Parçaların bir araya getirilmesi."
+        },
+        {
+          "word": "BASİ̇TLEŞTİ̇RME",
+          "hint": "Karmaşık bir ifadeyi daha anlaşılır hale getirme."
+        },
+        {
+          "word": "GELİ̇ŞTİ̇RME",
+          "hint": "Daha iyi bir duruma getirme."
+        },
+        {
+          "word": "TASARİM",
+          "hint": "Bir şeyin planı veya projesi."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Bir fikri veya planı hayata geçirme."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlemin sonunda elde edilen durum."
+        },
+        {
+          "word": "VERİ̇",
+          "hint": "Toplanan veya elde edilen bilgi."
+        },
+        {
+          "word": "ANALİ̇Z",
+          "hint": "Bilgileri inceleme ve yorumlama."
+        },
+        {
+          "word": "SENTEZ",
+          "hint": "Farklı parçaları birleştirerek yeni bir bütün oluşturma."
+        },
+        {
+          "word": "KARGO",
+          "hint": "Taşınan ürün miktarı veya ağırlığı."
+        },
+        {
+          "word": "TARİ̇F",
+          "hint": "Bir yemeğin veya ilacın hazırlanış şekli."
+        },
+        {
+          "word": "HARİ̇TA",
+          "hint": "Bir bölgenin kuşbakışı çizilmiş ölçekli gösterimi."
+        },
+        {
+          "word": "ÖLÇEKLİ̇",
+          "hint": "Gerçek boyutları küçültülerek temsil edilmiş."
+        },
+        {
+          "word": "UZAKLİK",
+          "hint": "İki nokta arasındaki mesafe."
+        },
+        {
+          "word": "YAKİNLİK",
+          "hint": "İki nokta arasındaki kısa mesafe."
+        },
+        {
+          "word": "HİZ",
+          "hint": "Bir cismin birim zamanda aldığı yol."
+        },
+        {
+          "word": "SÜRE",
+          "hint": "Bir olayın veya hareketin ne kadar zaman aldığı."
+        },
+        {
+          "word": "MESAFE",
+          "hint": "İki yer arasındaki uzaklık."
+        }
       ]
     }
   ]

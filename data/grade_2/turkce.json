@@ -3,25 +3,467 @@
     {
       "id": "turkce_u1",
       "name": "1. Ünite: Okuma",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "KİTAP", "hint": "Sayfaları olan ve okuduğumuz eser"},
-        {"word": "HİKÂYE", "hint": "Olayları anlatan kısa yazı türü"},
-        {"word": "MASAL", "hint": "Hayali kahramanları olan eğlenceli anlatı"},
-        {"word": "SAYFA", "hint": "Kitabın her bir yaprağı"},
-        {"word": "BAŞLIK", "hint": "Yazının en üstündeki isim"}
+        {
+          "word": "KİTAP",
+          "hint": "Sayfaları olan ve okuduğumuz eser"
+        },
+        {
+          "word": "HİKÂYE",
+          "hint": "Olayları anlatan kısa yazı türü"
+        },
+        {
+          "word": "MASAL",
+          "hint": "Hayali kahramanları olan eğlenceli anlatı"
+        },
+        {
+          "word": "SAYFA",
+          "hint": "Kitabın her bir yaprağı"
+        },
+        {
+          "word": "BAŞLIK",
+          "hint": "Yazının en üstündeki isim"
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Bize okumayı, yazmayı ve birçok bilgiyi öğreten kişi."
+        },
+        {
+          "word": "ÖĞRENCİ̇",
+          "hint": "Okula giden, dersler öğrenen ve ödev yapan çocuk."
+        },
+        {
+          "word": "OKUL",
+          "hint": "Öğrenci ve öğretmenlerin bir araya gelip eğitim aldığı yer."
+        },
+        {
+          "word": "DEFTER",
+          "hint": "Yazı yazdığımız, resim çizdiğimiz boş kağıtların birleşimi."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Deftere yazı yazmak veya resim çizmek için kullandığımız araç."
+        },
+        {
+          "word": "DERS",
+          "hint": "Okulda belirli bir konuda bilgi öğrendiğimiz zaman dilimi."
+        },
+        {
+          "word": "YAZİ",
+          "hint": "Harfleri yan yana getirerek oluşturduğumuz işaretler dizisi."
+        },
+        {
+          "word": "HARF",
+          "hint": "Alfabenin en küçük parçası, sözcükleri oluşturan işaret (A, B, C gibi)."
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Bir düşünceyi anlatan, sözcüklerden oluşan ve sonuna nokta konan ifade."
+        },
+        {
+          "word": "OKUMA",
+          "hint": "Yazılı harfleri tanıyıp anlamını çözme eylemi."
+        },
+        {
+          "word": "YAZMA",
+          "hint": "Düşündüklerimizi harflerle kağıda dökme işi."
+        },
+        {
+          "word": "SÖZCÜK",
+          "hint": "Tek başına anlamı olan harf topluluğu, kelime."
+        },
+        {
+          "word": "PARAGRAF",
+          "hint": "Bir ana fikir etrafında toplanmış birkaç cümlenin birleşimi."
+        },
+        {
+          "word": "KÜTÜPHANE",
+          "hint": "Çok sayıda kitabın bulunduğu, ödünç alıp okuyabildiğimiz yer."
+        },
+        {
+          "word": "SİNİF",
+          "hint": "Okulda ders yaptığımız, sıraların olduğu oda."
+        },
+        {
+          "word": "TAHTA",
+          "hint": "Öğretmenin tebeşirle veya kalemle yazı yazdığı büyük levha."
+        },
+        {
+          "word": "Sİ̇LGİ̇",
+          "hint": "Kalemle yazdığımız yanlışları sildiğimiz küçük araç."
+        },
+        {
+          "word": "SİRA",
+          "hint": "Okulda üzerinde oturduğumuz ve yazı yazdığımız masa ve koltuk birleşimi."
+        },
+        {
+          "word": "TENEFFÜS",
+          "hint": "Ders aralarında dinlendiğimiz, koridorda veya bahçede oynadığımız kısa zaman."
+        },
+        {
+          "word": "ÖDEV",
+          "hint": "Öğretmenimizin okuldan sonra evde yapmamızı istediği çalışma."
+        },
+        {
+          "word": "Bİ̇LGİ̇",
+          "hint": "Yeni öğrendiğimiz şeyler, zihnimizde depoladığımız dersler."
+        },
+        {
+          "word": "ÖĞRENMEK",
+          "hint": "Yeni bir şeyi anlamak, yetenek kazanmak veya aklımıza kaydetmek."
+        },
+        {
+          "word": "METİ̇N",
+          "hint": "Okuduğumuz yazıların tümüne verilen isim, yazılı parça."
+        },
+        {
+          "word": "ALFABE",
+          "hint": "Tüm harflerin belirli bir sıraya göre dizilmiş hali."
+        },
+        {
+          "word": "HECE",
+          "hint": "Bir sözcüğün ağzımızdan tek nefeste çıkan parçası (örneğin: ka-lem)."
+        },
+        {
+          "word": "SES",
+          "hint": "Kulağımızla duyduğumuz titreşim, harflerin veya varlıkların çıkardığı duyum."
+        },
+        {
+          "word": "ANLAM",
+          "hint": "Bir sözcüğün, cümlenin veya olayın ne demek istediği, neyi ifade ettiği."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Bir işin nasıl yapılması gerektiğini gösteren, uyulması gereken yol."
+        },
+        {
+          "word": "YAZAR",
+          "hint": "Kitap, hikaye veya farklı yazılı eserler oluşturan kişi."
+        },
+        {
+          "word": "ŞAİ̇R",
+          "hint": "Şiir yazan, duygu ve düşüncelerini dizelerle anlatan kişi."
+        },
+        {
+          "word": "EV",
+          "hint": "Ailemizle birlikte yaşadığımız, içinde uyuduğumuz ve yemek yediğimiz yer."
+        },
+        {
+          "word": "Aİ̇LE",
+          "hint": "Anne, baba, kardeşler ve bazen büyükanne, büyükbabalardan oluşan topluluk."
+        },
+        {
+          "word": "ARKADAŞ",
+          "hint": "Birlikte oyun oynadığımız, güvendiğimiz ve sevdiğimiz kişi."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek için yapılan, kuralları olabilen etkinlik (saklambaç, top oyunu gibi)."
+        },
+        {
+          "word": "Çİ̇ÇEK",
+          "hint": "Bahçelerde, parklarda açan, güzel kokulu ve renkli bitki."
+        },
+        {
+          "word": "AĞAÇ",
+          "hint": "Parklarda, ormanlarda bulunan, gövdesi ve dalları olan büyük bitki."
+        },
+        {
+          "word": "KUŞ",
+          "hint": "Gökyüzünde uçan, kanatlı ve tüylü bir hayvan."
+        },
+        {
+          "word": "KÖPEK",
+          "hint": "Evde besleyebildiğimiz, havlayan ve insanlara sadık bir hayvan."
+        },
+        {
+          "word": "KEDİ̇",
+          "hint": "Miyavlayan, evde beslenen tüylü ve sevimli bir hayvan."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Bizi ısıtan, ışık veren ve gündüz gökyüzünde parlayan büyük yıldız."
+        },
+        {
+          "word": "AY",
+          "hint": "Geceleri gökyüzünde gördüğümüz, yuvarlak veya hilal şeklinde ışık veren gök cismi."
+        },
+        {
+          "word": "YİLDİZ",
+          "hint": "Geceleri gökyüzünde parlayan, küçük noktalar gibi görünen ışıklar."
+        },
+        {
+          "word": "SU",
+          "hint": "Yaşamak için içtiğimiz, renksiz, kokusuz ve tatsız sıvı."
+        },
+        {
+          "word": "EKMEK",
+          "hint": "Fırından aldığımız, yemeklerin yanında yediğimiz temel yiyecek."
+        },
+        {
+          "word": "SÜT",
+          "hint": "İnekten veya başka hayvanlardan gelen, içtiğimiz sağlıklı beyaz sıvı."
+        },
+        {
+          "word": "MEYVE",
+          "hint": "Ağaçlarda yetişen, tatlı ve sağlıklı yiyecek (elma, armut, çilek gibi)."
+        },
+        {
+          "word": "SEBZE",
+          "hint": "Toprakta yetişen, sağlıklı ve vitaminli yiyecek (havuç, domates, marul gibi)."
+        },
+        {
+          "word": "YEMEK",
+          "hint": "Açlığımızı gidermek için yediğimiz yiyecekler bütünü."
+        },
+        {
+          "word": "UYUMAK",
+          "hint": "Geceleri veya gündüzleri dinlenmek için gözlerimizi kapatıp dinlenmek."
+        },
+        {
+          "word": "KOŞMAK",
+          "hint": "Hızlıca ilerlemek için bacaklarımızı art arda ve hızla hareket ettirmek."
+        }
       ]
     },
     {
       "id": "turkce_u2",
       "name": "2. Ünite: Yazma",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "KALEM", "hint": "Yazı yazmak için kullandığımız araç"},
-        {"word": "DEFTER", "hint": "İçine yazı yazdığımız çizgili kitapçık"},
-        {"word": "PARAGRAF", "hint": "Cümlelerin oluşturduğu yazı bölümü"},
-        {"word": "VİRGÜL", "hint": "Cümlede durak işareti olarak kullanılır"},
-        {"word": "YAZIM", "hint": "Kelimeleri doğru şekilde yazma kuralı"}
+        {
+          "word": "KALEM",
+          "hint": "Yazı yazmak için kullandığımız araç"
+        },
+        {
+          "word": "DEFTER",
+          "hint": "İçine yazı yazdığımız çizgili kitapçık"
+        },
+        {
+          "word": "PARAGRAF",
+          "hint": "Cümlelerin oluşturduğu yazı bölümü"
+        },
+        {
+          "word": "VİRGÜL",
+          "hint": "Cümlede durak işareti olarak kullanılır"
+        },
+        {
+          "word": "YAZIM",
+          "hint": "Kelimeleri doğru şekilde yazma kuralı"
+        },
+        {
+          "word": "Hİ̇KAYE",
+          "hint": "Başından sonuna kadar bir olayı anlatan kısa yazı."
+        },
+        {
+          "word": "Kİ̇TAP",
+          "hint": "İçinde hikayeler, bilgiler olan, sayfaları bir arada duran nesne."
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Bir anlamı olan, birkaç kelimenin bir araya gelmesiyle oluşan söz."
+        },
+        {
+          "word": "HARF",
+          "hint": "Kelimeleri oluşturan küçük işaretler, örneğin A, B, C gibi."
+        },
+        {
+          "word": "KELİ̇ME",
+          "hint": "Harflerin birleşmesiyle oluşan, tek başına bir anlamı olan ses veya yazı birimi."
+        },
+        {
+          "word": "OKUMAK",
+          "hint": "Yazıları gözlerinle takip edip ne yazdığını anlamak."
+        },
+        {
+          "word": "METİ̇N",
+          "hint": "Bir konuyu anlatan, yazılmış uzunca bir yazı."
+        },
+        {
+          "word": "KAĞİT",
+          "hint": "Üzerine yazı yazdığımız veya resim çizdiğimiz ince, düz madde."
+        },
+        {
+          "word": "Sİ̇LGİ̇",
+          "hint": "Yazarken yaptığımız hataları silmemize yarayan araç."
+        },
+        {
+          "word": "KALEMLİ̇K",
+          "hint": "Kalemlerimizi, silgilerimizi koyduğumuz kutu."
+        },
+        {
+          "word": "ÖYKÜ",
+          "hint": "Hikaye ile aynı anlama gelen, kısa anlatı."
+        },
+        {
+          "word": "ANLATMAK",
+          "hint": "Bir şeyi başkasına sözlerle veya yazıyla açıklamak."
+        },
+        {
+          "word": "BAŞLİK",
+          "hint": "Bir yazının veya kitabın en üstünde yazan, konuyu anlatan isim."
+        },
+        {
+          "word": "YAZAR",
+          "hint": "Kitap veya hikaye yazan kişi."
+        },
+        {
+          "word": "Şİ̇İ̇R",
+          "hint": "Dizeler halinde yazılan, duyguları veya düşünceleri anlatan özel bir yazı türü."
+        },
+        {
+          "word": "SATİR",
+          "hint": "Yazının yan yana sıralanmış, kelimelerden oluşan her bir çizgisi."
+        },
+        {
+          "word": "SAYFA",
+          "hint": "Kitabın veya defterin iki yüzünden her biri."
+        },
+        {
+          "word": "MASA",
+          "hint": "Üzerinde yazı yazdığımız, eşyalarımızı koyduğumuz düz yüzeyli mobilya."
+        },
+        {
+          "word": "HECE",
+          "hint": "Kelimeleri kolay okumak için ayırdığımız ses parçaları, örneğin ka-lem."
+        },
+        {
+          "word": "NOKTA",
+          "hint": "Cümlenin bittiğini gösteren küçük yuvarlak işaret (.)."
+        },
+        {
+          "word": "SORU İ̇ŞARETİ̇",
+          "hint": "Bir soru sorduğumuzu gösteren işaret (?)."
+        },
+        {
+          "word": "ÜNLEM İ̇ŞARETİ̇",
+          "hint": "Şaşkınlık, sevinç gibi güçlü duyguları gösteren işaret (!)."
+        },
+        {
+          "word": "BOŞLUK",
+          "hint": "Kelimeler arasında bıraktığımız yer, aralık."
+        },
+        {
+          "word": "Çİ̇ZGİ̇",
+          "hint": "Bir yerden başka bir yere doğru uzanan ince iz."
+        },
+        {
+          "word": "SÖZCÜK",
+          "hint": "Kelime ile aynı anlama gelen başka bir kelime."
+        },
+        {
+          "word": "MACERA",
+          "hint": "Heyecanlı ve ilginç olaylarla dolu bir yolculuk veya hikaye."
+        },
+        {
+          "word": "KARAKTER",
+          "hint": "Hikayenin içindeki kişiler veya hayvanlar."
+        },
+        {
+          "word": "OLAY",
+          "hint": "Hikayede geçen, yaşanan durum veya durumlar."
+        },
+        {
+          "word": "YER",
+          "hint": "Hikayenin geçtiği mekan, örneğin orman, ev, okul."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Hikayenin ne zaman geçtiği, örneğin sabah, dün, kış mevsimi."
+        },
+        {
+          "word": "RESİ̇M",
+          "hint": "Gördüğümüz bir şeyi kağıda çizerek veya boyayarak anlatma."
+        },
+        {
+          "word": "DÜŞÜNMEK",
+          "hint": "Bir konu hakkında akıl yürütmek, fikir üretmek."
+        },
+        {
+          "word": "Fİ̇Kİ̇R",
+          "hint": "Bir şey hakkında aklımıza gelen yeni düşünce."
+        },
+        {
+          "word": "KONU",
+          "hint": "Bir yazının, hikayenin veya konuşmanın ne hakkında olduğu."
+        },
+        {
+          "word": "MEKTUP",
+          "hint": "Bir kişiye yazılan, zarfla gönderilen özel yazı."
+        },
+        {
+          "word": "GÜNLÜK",
+          "hint": "Her gün yaşanan olayları, duyguları yazdığımız özel defter."
+        },
+        {
+          "word": "BAŞLANGİÇ",
+          "hint": "Bir hikayenin veya işin ilk kısmı, ilk adımı."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir hikayenin veya işin bitimindeki durum, son kısım."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Sevgi, korku, sevinç gibi içimizde hissettiğimiz durumlar."
+        },
+        {
+          "word": "HAYAL",
+          "hint": "Gerçek olmayan şeyleri zihnimizde canlandırmak."
+        },
+        {
+          "word": "DÜŞ",
+          "hint": "Uyurken gördüğümüz veya gerçek olmasını istediğimiz şeyler."
+        },
+        {
+          "word": "AÇİKLAMA",
+          "hint": "Bir şeyi daha iyi anlamak için detaylı anlatma."
+        },
+        {
+          "word": "OKUL",
+          "hint": "Okuma ve yazmayı öğrendiğimiz yer."
+        },
+        {
+          "word": "ÖDEV",
+          "hint": "Öğretmenin evde yapmamız için verdiği çalışma."
+        },
+        {
+          "word": "ANİ",
+          "hint": "Geçmişte yaşadığımız önemli ve hatırlanmaya değer olay."
+        },
+        {
+          "word": "BAKMAK",
+          "hint": "Gözlerimizle bir şeyi görmek, dikkatlice incelemek."
+        },
+        {
+          "word": "ANİMSAMAK",
+          "hint": "Bir şeyi hatırlamak."
+        },
+        {
+          "word": "Bİ̇Çİ̇M",
+          "hint": "Bir şeyin dış görünüşü, şekli."
+        },
+        {
+          "word": "YÖNERGE",
+          "hint": "Bir işin nasıl yapılacağını anlatan talimat."
+        },
+        {
+          "word": "ALFABE",
+          "hint": "Dilimizdeki tüm harflerin sıralı listesi, A'dan Z'ye gibi."
+        }
       ]
     }
   ]

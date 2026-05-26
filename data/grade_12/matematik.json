@@ -3,25 +3,427 @@
     {
       "id": "matematik_u1",
       "name": "1. Ünite: İntegral",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "İNTEGRAL", "hint": "Türevin tersine yapılan toplama işlemi"},
-        {"word": "BELİRLİ", "hint": "Alt ve üst sınırları olan integral türü"},
-        {"word": "İLKEL FONKSİYON", "hint": "Türevi alındığında orijinal fonksiyonu veren fonksiyon"},
-        {"word": "ALAN HESABI", "hint": "Eğri altında kalan bölgenin ölçümü"},
-        {"word": "RİEMANN", "hint": "Toplam yöntemiyle integral tanımlayan matematikçi"}
+        {
+          "word": "İNTEGRAL",
+          "hint": "Türevin tersine yapılan toplama işlemi"
+        },
+        {
+          "word": "BELİRLİ",
+          "hint": "Alt ve üst sınırları olan integral türü"
+        },
+        {
+          "word": "İLKEL FONKSİYON",
+          "hint": "Türevi alındığında orijinal fonksiyonu veren fonksiyon"
+        },
+        {
+          "word": "ALAN HESABI",
+          "hint": "Eğri altında kalan bölgenin ölçümü"
+        },
+        {
+          "word": "RİEMANN",
+          "hint": "Toplam yöntemiyle integral tanımlayan matematikçi"
+        },
+        {
+          "word": "TÜREV",
+          "hint": "Bir fonksiyonun değişim hızını gösteren kavram."
+        },
+        {
+          "word": "SÜREKLİ̇Lİ̇K",
+          "hint": "Bir fonksiyonun grafiğinin kopukluk olmadan çizilebilmesi durumu."
+        },
+        {
+          "word": "GRAFİ̇K",
+          "hint": "Fonksiyonların görsel olarak ifade edildiği çizim."
+        },
+        {
+          "word": "EĞRİ̇",
+          "hint": "Düz olmayan, bükümlü çizgi."
+        },
+        {
+          "word": "TOPLAMİ",
+          "hint": "Parçaların bir araya getirilmesiyle oluşan bütün."
+        },
+        {
+          "word": "ARALİK",
+          "hint": "İki nokta arasındaki mesafe veya bölge."
+        },
+        {
+          "word": "ALT SİNİR",
+          "hint": "Belirli bir integralde hesaplamanın başladığı değer."
+        },
+        {
+          "word": "ÜST SİNİR",
+          "hint": "Belirli bir integralde hesaplamanın bittiği değer."
+        },
+        {
+          "word": "DEĞİ̇ŞKEN",
+          "hint": "Fonksiyonda değeri değişebilen sembol."
+        },
+        {
+          "word": "SABİT",
+          "hint": "Değeri değişmeyen nicelik."
+        },
+        {
+          "word": "BELİ̇RSİ̇Z",
+          "hint": "Kesin veya net olmayan."
+        },
+        {
+          "word": "Dİ̇Zİ̇",
+          "hint": "Belirli bir kurala göre sıralanmış terimler topluluğu."
+        },
+        {
+          "word": "Lİ̇Mİ̇T",
+          "hint": "Bir fonksiyonun bir noktadaki veya sonsuzdaki davranışı."
+        },
+        {
+          "word": "YAKLAŞİM",
+          "hint": "Bir değere doğru ilerleme."
+        },
+        {
+          "word": "Bİ̇RLEŞİ̇M",
+          "hint": "Ayrı ayrı şeylerin bir araya gelmesi."
+        },
+        {
+          "word": "TOPLAMA",
+          "hint": "Sayıları bir araya getirme işlemi."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Bir nesnenin yer değiştirmesi."
+        },
+        {
+          "word": "HİZ",
+          "hint": "Birim zamanda alınan yol."
+        },
+        {
+          "word": "YOL",
+          "hint": "Bir noktadan diğerine gitmek için katedilen mesafe."
+        },
+        {
+          "word": "EKLEM",
+          "hint": "İki parçanın birbirine bağlanması."
+        },
+        {
+          "word": "DÖNÜŞÜM",
+          "hint": "Bir halden başka bir hale geçiş."
+        },
+        {
+          "word": "ARTMA",
+          "hint": "Bir değerin yükselmesi."
+        },
+        {
+          "word": "AZALMA",
+          "hint": "Bir değerin düşmesi."
+        },
+        {
+          "word": "TEĞET",
+          "hint": "Bir eğriye sadece bir noktada dokunan doğru."
+        },
+        {
+          "word": "NORMAL",
+          "hint": "Bir yüzeye dik olan doğru veya düzlem."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "İki ucundan sonsuza uzanan düz çizgi."
+        },
+        {
+          "word": "PARÇA",
+          "hint": "Bütünün bir bölümü."
+        },
+        {
+          "word": "KATSAYİ",
+          "hint": "Bir değişkene bağlı olan sayı."
+        },
+        {
+          "word": "KÖK",
+          "hint": "Bir denklemi sağlayan değer."
+        },
+        {
+          "word": "DENKLEM",
+          "hint": "Eşitlik sembolü içeren matematiksel ifade."
+        },
+        {
+          "word": "FONKSİ̇YON",
+          "hint": "Girdilere karşılık çıkan çıktılar üreten kural."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir değişkenin veya ifadenin aldığı nicelik."
+        },
+        {
+          "word": "KARE",
+          "hint": "Dört kenarı eşit ve dört açısı dik dörtgen."
+        },
+        {
+          "word": "KÜP",
+          "hint": "Altı yüzü kare olan geometrik cisim."
+        },
+        {
+          "word": "HACİ̇M",
+          "hint": "Bir cismin kapladığı boşluk ölçüsü."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Birim hacimdeki madde miktarı."
+        },
+        {
+          "word": "VERİ̇M",
+          "hint": "Elde edilen sonuç veya kazanç."
+        },
+        {
+          "word": "Gİ̇RDİ̇",
+          "hint": "Bir sisteme verilen veri veya madde."
+        },
+        {
+          "word": "ÇİKTİ",
+          "hint": "Bir sistemin ürettiği sonuç."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki sayının birbirine bölümü."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Bir cismin dışını kaplayan alan."
+        },
+        {
+          "word": "YAKLAŞİK",
+          "hint": "Tam olmayan, olabildiğince yakın."
+        },
+        {
+          "word": "KESME",
+          "hint": "Bir bütünün parçalara ayrılması."
+        },
+        {
+          "word": "Bİ̇RLEŞTİ̇RME",
+          "hint": "Ayrı parçaların tek bir bütün haline getirilmesi."
+        },
+        {
+          "word": "ORTALAMA",
+          "hint": "Bir veri grubundaki değerlerin toplamının veri sayısına bölümü."
+        }
       ]
     },
     {
       "id": "matematik_u2",
       "name": "2. Ünite: Limit",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "SÜREKLİLİK", "hint": "Fonksiyonun kesintisiz devam etme özelliği"},
-        {"word": "SAĞDAN LİMİT", "hint": "Bir noktaya sağ taraftan yaklaşma değeri"},
-        {"word": "SOLDAN LİMİT", "hint": "Bir noktaya sol taraftan yaklaşma değeri"},
-        {"word": "BELİRSİZLİK", "hint": "Sıfıra bölme gibi tanımsız limit durumu"},
-        {"word": "SONSUZ", "hint": "Limitin sonsuza gitmesi durumundaki kavram"}
+        {
+          "word": "SÜREKLİLİK",
+          "hint": "Fonksiyonun kesintisiz devam etme özelliği"
+        },
+        {
+          "word": "SAĞDAN LİMİT",
+          "hint": "Bir noktaya sağ taraftan yaklaşma değeri"
+        },
+        {
+          "word": "SOLDAN LİMİT",
+          "hint": "Bir noktaya sol taraftan yaklaşma değeri"
+        },
+        {
+          "word": "BELİRSİZLİK",
+          "hint": "Sıfıra bölme gibi tanımsız limit durumu"
+        },
+        {
+          "word": "SONSUZ",
+          "hint": "Limitin sonsuza gitmesi durumundaki kavram"
+        },
+        {
+          "word": "YAKLAŞİM",
+          "hint": "Bir değere doğru gitme eylemi"
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir ifadenin sayısal karşılığı"
+        },
+        {
+          "word": "FONKSİ̇YON",
+          "hint": "Girdi alıp çıktı üreten kural"
+        },
+        {
+          "word": "GRAFİ̇K",
+          "hint": "Fonksiyonun görsel temsili"
+        },
+        {
+          "word": "EĞİ̇M",
+          "hint": "Bir doğrunun dikliği veya yataylığı"
+        },
+        {
+          "word": "TÜREV",
+          "hint": "Anlık değişim oranını ölçen kavram"
+        },
+        {
+          "word": "İ̇NTEGRAL",
+          "hint": "Alan hesaplamada kullanılan işlem"
+        },
+        {
+          "word": "ASİ̇MPTOT",
+          "hint": "Grafiğin sonsuzda yaklaştığı doğru"
+        },
+        {
+          "word": "BÜYÜME",
+          "hint": "Bir fonksiyonun artış eğilimi"
+        },
+        {
+          "word": "AZALMA",
+          "hint": "Bir fonksiyonun düşüş eğilimi"
+        },
+        {
+          "word": "KESİ̇KLİ̇",
+          "hint": "Grafikte kopukluk veya boşluk olma durumu"
+        },
+        {
+          "word": "YAKİN",
+          "hint": "Bir noktaya çok çok az farkla ulaşma"
+        },
+        {
+          "word": "UZAK",
+          "hint": "Bir noktadan çok çok az farkla ayrılma"
+        },
+        {
+          "word": "SİNİR",
+          "hint": "Ulaşılmaya çalışılan son nokta"
+        },
+        {
+          "word": "YÖN",
+          "hint": "Değerin hangi taraftan yaklaştığını belirten durum"
+        },
+        {
+          "word": "MUTLAK",
+          "hint": "Sıfıra olan uzaklık, önemsiz işaret"
+        },
+        {
+          "word": "KAREKÖK",
+          "hint": "Karesi bilinen sayının kendisini bulma"
+        },
+        {
+          "word": "KÜP",
+          "hint": "Üç kez kendisiyle çarpım"
+        },
+        {
+          "word": "ÜSTEL",
+          "hint": "Değişkenin üs olduğu fonksiyon türü"
+        },
+        {
+          "word": "LOGARİ̇TMA",
+          "hint": "Üslü ifadenin tersi işlem"
+        },
+        {
+          "word": "TRİ̇GONOMETRİ̇",
+          "hint": "Üçgenlerin kenar ve açılarını inceleyen dal"
+        },
+        {
+          "word": "TETRAHEDRON",
+          "hint": "Dört yüzlü geometrik cisim"
+        },
+        {
+          "word": "PARABOL",
+          "hint": "İkinci dereceden fonksiyonun grafiği"
+        },
+        {
+          "word": "ELİ̇PS",
+          "hint": "Oval şeklinde geometrik şekil"
+        },
+        {
+          "word": "Hİ̇PERBOL",
+          "hint": "İki kola ayrılan eğri"
+        },
+        {
+          "word": "Dİ̇K",
+          "hint": "90 derecelik açı"
+        },
+        {
+          "word": "DAR",
+          "hint": "Küçük bir açı ölçüsü"
+        },
+        {
+          "word": "GENİ̇Ş",
+          "hint": "90'dan büyük açı ölçüsü"
+        },
+        {
+          "word": "YAKİNSAMA",
+          "hint": "Bir dizi veya serinin belirli bir değere ulaşması"
+        },
+        {
+          "word": "İRAKSAMA",
+          "hint": "Bir dizi veya serinin sınırsız büyümesi veya küçülmesi"
+        },
+        {
+          "word": "Dİ̇Zİ̇",
+          "hint": "Sıralanmış sayılar kümesi"
+        },
+        {
+          "word": "SERİ̇",
+          "hint": "Bir dizinin terimlerinin toplamı"
+        },
+        {
+          "word": "YAKİNSAL",
+          "hint": "Yakınsama özelliği gösteren"
+        },
+        {
+          "word": "İ̇LERLEME",
+          "hint": "Bir sürecin pozitif yönde değişimi"
+        },
+        {
+          "word": "GERİ̇LEME",
+          "hint": "Bir sürecin negatif yönde değişimi"
+        },
+        {
+          "word": "Bİ̇Rİ̇M",
+          "hint": "Ölçü birimi, temel miktar"
+        },
+        {
+          "word": "GÖSTERGE",
+          "hint": "Bir şeyi işaret eden işaret, sembol"
+        },
+        {
+          "word": "EŞİ̇K",
+          "hint": "Bir durumun başlangıç veya bitiş noktası"
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Bir alana düşen miktar"
+        },
+        {
+          "word": "HİZ",
+          "hint": "Mesafe bölü zaman, değişim oranı"
+        },
+        {
+          "word": "KARARLİLİK",
+          "hint": "Değişmeyen, sabit kalma durumu"
+        },
+        {
+          "word": "YAVAŞLAMA",
+          "hint": "Hızın azalması"
+        },
+        {
+          "word": "HİZLANMA",
+          "hint": "Hızın artması"
+        },
+        {
+          "word": "YAKİNİK",
+          "hint": "Özdeş, aynı değere sahip"
+        },
+        {
+          "word": "SAPMA",
+          "hint": "Beklenen değerden ayrılma"
+        }
       ]
     }
   ]

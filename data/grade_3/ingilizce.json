@@ -3,25 +3,435 @@
     {
       "id": "ingilizce_u1",
       "name": "1. Ünite: Animals",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "RABBIT", "hint": "Uzun kulaklı ve havuç seven hayvan"},
-        {"word": "ELEPHANT", "hint": "Çok büyük ve hortumlu hayvan"},
-        {"word": "MONKEY", "hint": "Ağaçlara tırmanan ve muz seven hayvan"},
-        {"word": "TURTLE", "hint": "Sırtında kabuğu olan yavaş hayvan"},
-        {"word": "DOLPHIN", "hint": "Denizde yaşayan zeki ve sevimli memeli"}
+        {
+          "word": "RABBIT",
+          "hint": "Uzun kulaklı ve havuç seven hayvan"
+        },
+        {
+          "word": "ELEPHANT",
+          "hint": "Çok büyük ve hortumlu hayvan"
+        },
+        {
+          "word": "MONKEY",
+          "hint": "Ağaçlara tırmanan ve muz seven hayvan"
+        },
+        {
+          "word": "TURTLE",
+          "hint": "Sırtında kabuğu olan yavaş hayvan"
+        },
+        {
+          "word": "DOLPHIN",
+          "hint": "Denizde yaşayan zeki ve sevimli memeli"
+        },
+        {
+          "word": "ASLAN",
+          "hint": "Ormanın kralı olarak bilinen, güçlü ve görkemli bir kedi türü."
+        },
+        {
+          "word": "KAPLAN",
+          "hint": "Üzerinde siyah çizgiler olan, büyük ve güçlü bir kedigil."
+        },
+        {
+          "word": "ZÜRAFA",
+          "hint": "Çok uzun boynuyla tanınan, yaprak yiyen bir otobur."
+        },
+        {
+          "word": "ZEBRA",
+          "hint": "Üzerinde siyah beyaz çizgiler olan, atgillerden bir hayvan."
+        },
+        {
+          "word": "AYI",
+          "hint": "Kış uykusuna yatan, etçil veya otçul olabilen iri bir memeli."
+        },
+        {
+          "word": "KURT",
+          "hint": "Sürü halinde yaşayan, tilkiye benzeyen vahşi bir köpek türü."
+        },
+        {
+          "word": "TİLKİ",
+          "hint": "Kurnazlığıyla bilinen, sivri burunlu ve kabarık kuyruklu vahşi bir hayvan."
+        },
+        {
+          "word": "SİNCAP",
+          "hint": "Ağaçlarda yaşayan, fındık ve ceviz toplayan küçük kemirgen."
+        },
+        {
+          "word": "KELEBEK",
+          "hint": "Rengarenk kanatlarıyla bilinen, çiçeklerden beslenen uçan böcek."
+        },
+        {
+          "word": "ARI",
+          "hint": "Bal yapan, vızıldayan ve sokabilen bir böcek."
+        },
+        {
+          "word": "KARINCA",
+          "hint": "Toplu halde çalışan, küçük ve güçlü bir böcek türü."
+        },
+        {
+          "word": "ÖRÜMCEK",
+          "hint": "Ağ ören ve böcek yakalayan sekiz ayaklı canlı."
+        },
+        {
+          "word": "YILAN",
+          "hint": "Ayakları olmayan, sürünerek hareket eden sürüngen."
+        },
+        {
+          "word": "TİMSAH",
+          "hint": "Su kenarlarında yaşayan, iri ağızlı ve sert derili sürüngen."
+        },
+        {
+          "word": "KURBAĞA",
+          "hint": "Suda ve karada yaşayabilen, zıplayan yeşil hayvan."
+        },
+        {
+          "word": "BALIK",
+          "hint": "Suda yaşayan, solungaçlarıyla nefes alan omurgalı canlı."
+        },
+        {
+          "word": "PENGUEN",
+          "hint": "Uçamayan ama iyi yüzen, kutuplarda yaşayan kuş."
+        },
+        {
+          "word": "PAPAĞAN",
+          "hint": "Konuşabilen, rengarenk tüyleri olan bir kuş türü."
+        },
+        {
+          "word": "KARTAL",
+          "hint": "Keskin gözleri olan, havada süzülen yırtıcı kuş."
+        },
+        {
+          "word": "BAYKUŞ",
+          "hint": "Geceleri avlanan, büyük gözlü ve sessiz uçan bir kuş."
+        },
+        {
+          "word": "KOYUN",
+          "hint": "Yün veren, otlayan uysal evcil hayvan."
+        },
+        {
+          "word": "KEÇİ",
+          "hint": "Dağlarda yaşayabilen, boynuzlu ve ot yiyen evcil hayvan."
+        },
+        {
+          "word": "İ̇NEK",
+          "hint": "Süt veren, çiftliklerde beslenen otçul hayvan."
+        },
+        {
+          "word": "AT",
+          "hint": "Hızlı koşmasıyla bilinen, binicilikte kullanılan evcil hayvan."
+        },
+        {
+          "word": "EŞEK",
+          "hint": "Yük taşımada kullanılan, atgillerden sabırlı evcil hayvan."
+        },
+        {
+          "word": "DOMUZ",
+          "hint": "Çiftliklerde beslenen, koku alma duyusu gelişmiş memeli."
+        },
+        {
+          "word": "TAVŞAN",
+          "hint": "Uzun kulakları ve hızlı koşmasıyla bilinen, sebze seven hayvan."
+        },
+        {
+          "word": "KEDİ",
+          "hint": "Miyavlayan, evlerde beslenen küçük etçil hayvan."
+        },
+        {
+          "word": "KÖPEK",
+          "hint": "Havlayan, sadakatiyle bilinen ve insanlarla yaşayan evcil hayvan."
+        },
+        {
+          "word": "FARE",
+          "hint": "Peynir seven, küçük ve hızlı kemirgen."
+        },
+        {
+          "word": "SİVRİSİNEK",
+          "hint": "Kan emen, vızıldayan küçük uçan böcek."
+        },
+        {
+          "word": "HAMAM BÖCEĞİ",
+          "hint": "Genellikle karanlık ve pis yerlerde yaşayan böcek."
+        },
+        {
+          "word": "KERTENKELE",
+          "hint": "Sürüngen, genellikle küçük ve hızlı hareket eden hayvan."
+        },
+        {
+          "word": "KAPLUMBAĞA",
+          "hint": "Sırtında sert kabuğu olan, yavaş hareket eden sürüngen."
+        },
+        {
+          "word": "BALİNA",
+          "hint": "Denizde yaşayan en büyük memeli hayvan."
+        },
+        {
+          "word": "KÖPEK BALIĞI",
+          "hint": "Denizlerin yırtıcı balığı, çok keskin dişleri vardır."
+        },
+        {
+          "word": "AHTAPOT",
+          "hint": "Sekiz kolu olan, denizde yaşayan omurgasız."
+        },
+        {
+          "word": "DENİZ ATI",
+          "hint": "Küçük, at başına benzeyen, suda yaşayan balık."
+        },
+        {
+          "word": "YUNUS",
+          "hint": "Zeki ve oyunbaz deniz memelisi, insanlara dosttur."
+        },
+        {
+          "word": "SALYANGOZ",
+          "hint": "Yavaş hareket eden, evini sırtında taşıyan yumuşakç."
+        },
+        {
+          "word": "KUĞU",
+          "hint": "Zarif boynu olan, suda yaşayan güzel kuş."
+        },
+        {
+          "word": "DEVE",
+          "hint": "Çöllerde yaşayan, hörgücü olan dayanıklı hayvan."
+        },
+        {
+          "word": "GERGEDAN",
+          "hint": "Kalın derili, burnunda boynuzu olan büyük Afrika memelisi."
+        },
+        {
+          "word": "HİPOPOTAM",
+          "hint": "Suda yaşamayı seven, iri ağızlı ve ağır Afrika memelisi."
+        },
+        {
+          "word": "KUTUP AYISI",
+          "hint": "Kuzey kutbunda yaşayan, beyaz kürklü büyük etçil hayvan."
+        }
       ]
     },
     {
       "id": "ingilizce_u2",
       "name": "2. Ünite: Colors",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "YELLOW", "hint": "Güneşin ve limonun rengi"},
-        {"word": "PURPLE", "hint": "Mor rengin İngilizcesi"},
-        {"word": "ORANGE", "hint": "Portakalın rengi, turuncu demek"},
-        {"word": "GREEN", "hint": "Yaprakların ve çimenlerin rengi"},
-        {"word": "BROWN", "hint": "Toprağın ve çikolatanın rengi"}
+        {
+          "word": "YELLOW",
+          "hint": "Güneşin ve limonun rengi"
+        },
+        {
+          "word": "PURPLE",
+          "hint": "Mor rengin İngilizcesi"
+        },
+        {
+          "word": "ORANGE",
+          "hint": "Portakalın rengi, turuncu demek"
+        },
+        {
+          "word": "GREEN",
+          "hint": "Yaprakların ve çimenlerin rengi"
+        },
+        {
+          "word": "BROWN",
+          "hint": "Toprağın ve çikolatanın rengi"
+        },
+        {
+          "word": "MAVİ̇",
+          "hint": "Gökyüzünün ve denizin rengi."
+        },
+        {
+          "word": "KİRMİZİ",
+          "hint": "Çileklerin, elmaların ve itfaiye araçlarının rengi."
+        },
+        {
+          "word": "PEMBE",
+          "hint": "Bazen şekerlemelerde ve çiçeklerde görülen açık kırmızı tonu."
+        },
+        {
+          "word": "Sİ̇YAH",
+          "hint": "Gecenin, kömürün ve bazı kedilerin rengi."
+        },
+        {
+          "word": "BEYAZ",
+          "hint": "Karın, sütün ve bulutların rengi."
+        },
+        {
+          "word": "GRİ̇",
+          "hint": "Bazen fillerin ve fırtınalı havanın rengi."
+        },
+        {
+          "word": "BEJ",
+          "hint": "Kumun, bazı kumaşların ve buğdayın rengi."
+        },
+        {
+          "word": "LACİ̇VERT",
+          "hint": "Koyu mavi rengi, gece gökyüzüne benzer."
+        },
+        {
+          "word": "KAHVERENGİ̇",
+          "hint": "Toprağın, çikolatanın ve ağaçların kabuğunun rengi."
+        },
+        {
+          "word": "ALTİN SARİSİ",
+          "hint": "Altının parlak rengi, sıcak bir sarı tonu."
+        },
+        {
+          "word": "GÜMÜŞİ̇",
+          "hint": "Gümüşün parlak rengi, soluk bir beyaz."
+        },
+        {
+          "word": "TURUNCU",
+          "hint": "Portakalların, havucun ve güneşin rengi."
+        },
+        {
+          "word": "YEŞİ̇L",
+          "hint": "Çimenlerin, yaprakların ve salatalıkların rengi."
+        },
+        {
+          "word": "MOR",
+          "hint": "Bazen üzümlerin ve patlıcanların rengi."
+        },
+        {
+          "word": "BEYAZ KÖPÜK",
+          "hint": "Deniz dalgalarının tepesindeki köpüğün rengi."
+        },
+        {
+          "word": "Çİ̇KOLATA",
+          "hint": "Tatlı bir lezzet ve kahverengi bir renk."
+        },
+        {
+          "word": "KESTANE",
+          "hint": "Ağaçlarda yetişen ve kahverengi bir renge sahip bir meyve."
+        },
+        {
+          "word": "KUMAŞ",
+          "hint": "Giysi veya mobilya yapmak için kullanılan yumuşak malzeme, farklı renklerde olabilir."
+        },
+        {
+          "word": "BOYA",
+          "hint": "Nesneleri renklendirmek için kullanılan sıvı veya macun."
+        },
+        {
+          "word": "MUREKKEP",
+          "hint": "Yazmak veya çizmek için kullanılan siyah veya renkli sıvı."
+        },
+        {
+          "word": "LEKE",
+          "hint": "Bir yüzeye bulaşan ve rengini değiştiren şey."
+        },
+        {
+          "word": "NAR",
+          "hint": "Kırmızı taneleri olan bir meyve."
+        },
+        {
+          "word": "DOMATES",
+          "hint": "Genellikle kırmızı olan bir sebze (veya meyve)."
+        },
+        {
+          "word": "ELMA",
+          "hint": "Kırmızı, yeşil veya sarı olabilen bir meyve."
+        },
+        {
+          "word": "ÜZÜM",
+          "hint": "Mor veya yeşil olabilen küçük, yuvarlak meyveler."
+        },
+        {
+          "word": "PORTAKAL",
+          "hint": "Turuncu renkli ve sulu bir meyve."
+        },
+        {
+          "word": "Bİ̇BER",
+          "hint": "Kırmızı, yeşil veya sarı olabilen bir sebze."
+        },
+        {
+          "word": "PATLİCAN",
+          "hint": "Mor renkli, uzun bir sebze."
+        },
+        {
+          "word": "Çİ̇LEK",
+          "hint": "Kırmızı, tatlı ve küçük bir meyve."
+        },
+        {
+          "word": "HAVUÇ",
+          "hint": "Turuncu renkli, tatlı bir kök sebze."
+        },
+        {
+          "word": "KARPUZ",
+          "hint": "Dışı yeşil, içi kırmızı olan büyük bir meyve."
+        },
+        {
+          "word": "KAVUN",
+          "hint": "Dışı sarı veya yeşil, içi turuncu veya beyaz olabilen bir meyve."
+        },
+        {
+          "word": "AY Çİ̇ÇEĞİ̇",
+          "hint": "Büyük, sarı yapraklı bir çiçek."
+        },
+        {
+          "word": "GÜL",
+          "hint": "Genellikle kırmızı, pembe veya beyaz olan güzel kokulu bir çiçek."
+        },
+        {
+          "word": "LALE",
+          "hint": "Bahar aylarında açan, çeşitli renklerde olabilen bir çiçek."
+        },
+        {
+          "word": "PAPATYA",
+          "hint": "Ortası sarı, yaprakları beyaz olan basit bir çiçek."
+        },
+        {
+          "word": "GÖKYÜZÜ",
+          "hint": "Gün içinde genellikle mavi olan üstümüzdeki alan."
+        },
+        {
+          "word": "DENİ̇Z",
+          "hint": "Genellikle mavi veya yeşil olan büyük su kütlesi."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Bitkilerin yetiştiği kahverengi madde."
+        },
+        {
+          "word": "AĞAÇ",
+          "hint": "Kahverengi gövdesi ve yeşil yaprakları olan büyük bitki."
+        },
+        {
+          "word": "OT",
+          "hint": "Yerleri kaplayan yeşil bitki örtüsü."
+        },
+        {
+          "word": "BULUT",
+          "hint": "Gökyüzünde süzülen beyaz veya gri su damlacıkları."
+        },
+        {
+          "word": "KAR",
+          "hint": "Soğukta yağan beyaz, donmuş su."
+        },
+        {
+          "word": "GÖKKUŞAĞİ",
+          "hint": "Yağmurdan sonra görünen renkli kemer (kırmızı, turuncu, sarı, yeşil, mavi, mor)."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Gökyüzündeki parlak, sarı yıldız."
+        },
+        {
+          "word": "AY",
+          "hint": "Geceleri gökyüzünde görünen beyaz veya sarı cisim."
+        },
+        {
+          "word": "YİLDİZ",
+          "hint": "Geceleri gökyüzünde parlayan küçük ışık noktaları."
+        }
       ]
     }
   ]

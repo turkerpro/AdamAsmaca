@@ -15,6 +15,226 @@
         {
           "word": "FOSİL",
           "hint": "Geçmişte yaşamış canlı kalıntıları"
+        },
+        {
+          "word": "YER KABUĞU",
+          "hint": "Dünyamızın en dışındaki katman."
+        },
+        {
+          "word": "İ̇Ç KABUK",
+          "hint": "Yer kabuğunun altında bulunan, daha sıcak ve yoğun olan bölüm."
+        },
+        {
+          "word": "DİŞ ÇEKİ̇RDEK",
+          "hint": "Erimeş halinde demir ve nikelden oluşan katman."
+        },
+        {
+          "word": "İ̇Ç ÇEKİ̇RDEK",
+          "hint": "Çok sıcak, katı haldeki gezegenimizin en iç kısmı."
+        },
+        {
+          "word": "TEKTONİ̇K",
+          "hint": "Yer kabuğunu oluşturan levhaların hareketi ile ilgili."
+        },
+        {
+          "word": "LEVHA",
+          "hint": "Yer kabuğunun parçalarından her biri."
+        },
+        {
+          "word": "DEPREM",
+          "hint": "Levhaların hareketinden kaynaklanan sarsıntı."
+        },
+        {
+          "word": "VOLKAN",
+          "hint": "Yerin içindeki erimiş maddelerin dışarı çıktığı dağ."
+        },
+        {
+          "word": "MAGMA",
+          "hint": "Volkanların içindeki erimiş kaya."
+        },
+        {
+          "word": "LAVA",
+          "hint": "Yüzeye çıkmış, akışkan sıcak kaya."
+        },
+        {
+          "word": "ÇATLAK",
+          "hint": "Yerin kabuğunda oluşan yarık."
+        },
+        {
+          "word": "DAĞ",
+          "hint": "Yer kabuğunun yükselerek oluşturduğu yeryüzü şekli."
+        },
+        {
+          "word": "OVA",
+          "hint": "Genellikle düz ve geniş arazi."
+        },
+        {
+          "word": "DENİ̇Z",
+          "hint": "Büyük tuzlu su kütlesi."
+        },
+        {
+          "word": "OKYANUS",
+          "hint": "Dünyanın en büyük su kütleleri."
+        },
+        {
+          "word": "GÖL",
+          "hint": "Kara içindeki tatlı veya tuzlu su birikintisi."
+        },
+        {
+          "word": "AKARSU",
+          "hint": "Yeryüzünde akan su."
+        },
+        {
+          "word": "ERİ̇ZYON",
+          "hint": "Rüzgar veya suyun toprağı taşıması."
+        },
+        {
+          "word": "SEDİ̇MAN",
+          "hint": "Erozyonla taşınan malzemelerin birikmesi."
+        },
+        {
+          "word": "ÇAKİL",
+          "hint": "Küçük yuvarlak taş."
+        },
+        {
+          "word": "KUM",
+          "hint": "Çok küçük kaya ve mineral parçacıkları."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Canlıların yaşaması için gerekli, mineraller ve organik maddelerden oluşan örtü."
+        },
+        {
+          "word": "Mİ̇NERAL",
+          "hint": "Doğada bulunan katı, inorganik madde."
+        },
+        {
+          "word": "KÖKEN",
+          "hint": "Bir şeyin başladığı yer veya sebep."
+        },
+        {
+          "word": "OLUŞUM",
+          "hint": "Bir şeyin meydana gelmesi."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Bir şeyin nasıl düzenlendiği."
+        },
+        {
+          "word": "KATMAN",
+          "hint": "Üst üste bulunan benzer tabakalardan biri."
+        },
+        {
+          "word": "MOLLUSK",
+          "hint": "Kabuklu deniz canlıları."
+        },
+        {
+          "word": "Dİ̇NOZOR",
+          "hint": "Nesli tükenmiş büyük sürüngenler."
+        },
+        {
+          "word": "İSİRGAN",
+          "hint": "Vücudu yakıcı tüylerle kaplı bitki."
+        },
+        {
+          "word": "Bİ̇TKİ̇",
+          "hint": "Kökü, gövdesi ve yaprakları olan canlı."
+        },
+        {
+          "word": "HÜCRE",
+          "hint": "Canlıların yapı taşı."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Dikkatli bir şekilde bakma ve inceleme."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Bir hipotezi test etmek için yapılan çalışma."
+        },
+        {
+          "word": "VERİ̇",
+          "hint": "Deney veya gözlemden elde edilen bilgi."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir çalışmanın sonunda ulaşılan bilgi."
+        },
+        {
+          "word": "MODELL",
+          "hint": "Gerçek bir yapının basit bir benzeri."
+        },
+        {
+          "word": "BENZERLİ̇K",
+          "hint": "İki şey arasındaki ortak özellik."
+        },
+        {
+          "word": "FARKLİLİK",
+          "hint": "İki şey arasındaki ayrılık."
+        },
+        {
+          "word": "TABAKA",
+          "hint": "Bir şeyin üst üste dizilmiş katlarından her biri."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Birim hacimdeki kütle miktarı."
+        },
+        {
+          "word": "SİCAKLİK",
+          "hint": "Bir cismin veya ortamın ısısı."
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Bir yüzeye dik olarak uygulanan kuvvet."
+        },
+        {
+          "word": "MADEN",
+          "hint": "Yerin altından çıkarılan değerli mineraller."
+        },
+        {
+          "word": "Dİ̇NAMİ̇K",
+          "hint": "Sürekli hareket halinde olan."
+        },
+        {
+          "word": "SÜRTÜNME",
+          "hint": "İki yüzeyin birbirine temas ettiğinde oluşan engel."
+        },
+        {
+          "word": "ENLEM",
+          "hint": "Ekvatordan uzaklığı gösteren çizgi."
+        },
+        {
+          "word": "BOKLAM",
+          "hint": "Yeryüzü şekillerinin incelenmesi."
+        },
+        {
+          "word": "KİVRİM",
+          "hint": "Yer kabuğunun bükülmesiyle oluşan şekil."
+        },
+        {
+          "word": "FALYA",
+          "hint": "Yerin altındaki boşluk."
+        },
+        {
+          "word": "ERİ̇ME",
+          "hint": "Katı halden sıvı hale geçme."
+        },
+        {
+          "word": "SOĞUMA",
+          "hint": "Sıcaklığın azalması."
+        },
+        {
+          "word": "GAZ",
+          "hint": "Maddenin serbestçe hareket eden hali."
+        },
+        {
+          "word": "SİVİ",
+          "hint": "Hacmi belirli, şekli belirsiz madde."
+        },
+        {
+          "word": "KATİ",
+          "hint": "Hacmi ve şekli belirli madde."
         }
       ]
     },
@@ -33,6 +253,214 @@
         {
           "word": "VİTAMİN",
           "hint": "Hastalıklara karşı koruyan besin"
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "Vücudumuzun hareket etmesi için gereken güç."
+        },
+        {
+          "word": "KARBONHİ̇DRAT",
+          "hint": "Vücudun ana yakıt kaynağıdır, ekmek ve pirinçte bulunur."
+        },
+        {
+          "word": "YAĞ",
+          "hint": "Enerji depolarımızdır, cilt sağlığına iyi gelir."
+        },
+        {
+          "word": "Mİ̇NERAL",
+          "hint": "Kemiklerin güçlü olmasını sağlayan temel yapı taşı."
+        },
+        {
+          "word": "SU",
+          "hint": "Hayatın kaynağı, vücudun büyük bir kısmını oluşturur."
+        },
+        {
+          "word": "BESİ̇N",
+          "hint": "Vücudumuzun büyümesi ve gelişmesi için aldığı her şey."
+        },
+        {
+          "word": "BESLENME",
+          "hint": "Yiyecek seçme ve yeme süreci."
+        },
+        {
+          "word": "DENGELİ̇",
+          "hint": "Tüm besin gruplarından yeterli miktarda almak."
+        },
+        {
+          "word": "SAĞLİKLİ",
+          "hint": "Zinde ve hastalıklardan uzak olmak."
+        },
+        {
+          "word": "HAZİRLİK",
+          "hint": "Yiyecekleri pişirme veya hazırlama aşaması."
+        },
+        {
+          "word": "Pİ̇Şİ̇RME",
+          "hint": "Yiyecekleri ısı ile yenebilir hale getirme."
+        },
+        {
+          "word": "YİKAMA",
+          "hint": "Meyve ve sebzeleri temizleme işlemi."
+        },
+        {
+          "word": "DOĞAL",
+          "hint": "Fabrika ürünü olmayan, olduğu gibi."
+        },
+        {
+          "word": "İ̇ŞLENMİ̇Ş",
+          "hint": "Fabrika ortamında değiştirilmiş yiyecekler."
+        },
+        {
+          "word": "KATKİ",
+          "hint": "Yiyeceklere eklenen maddeler, bazen zararlı olabilir."
+        },
+        {
+          "word": "ELDE",
+          "hint": "Doğrudan tarladan veya ağaçtan almak."
+        },
+        {
+          "word": "MEYVE",
+          "hint": "Ağaçlardan veya bitkilerden elde edilen tatlı yiyecekler."
+        },
+        {
+          "word": "SEBZE",
+          "hint": "Bitkilerin kök, yaprak veya gövdesinden alınan yenilebilir kısımlar."
+        },
+        {
+          "word": "TAHİL",
+          "hint": "Ekmek, makarna gibi ürünlerin ana maddesi."
+        },
+        {
+          "word": "SÜT",
+          "hint": "Hayvanlardan elde edilen, kalsiyum deposu beyaz sıvı."
+        },
+        {
+          "word": "ET",
+          "hint": "Hayvanların kaslarından elde edilen, demir kaynağı besin."
+        },
+        {
+          "word": "BALİK",
+          "hint": "Denizlerden veya tatlı sulardan çıkan, Omega-3 kaynağı."
+        },
+        {
+          "word": "YUMURTA",
+          "hint": "Tavuk gibi hayvanların bırakttığı, besleyici kapsül."
+        },
+        {
+          "word": "KURUYEMİ̇Ş",
+          "hint": "Ceviz, fındık, badem gibi kabuklu yiyecekler."
+        },
+        {
+          "word": "ŞEKER",
+          "hint": "Tatlı tadı veren, fazla tüketimi zararlı olabilir."
+        },
+        {
+          "word": "TUZ",
+          "hint": "Yiyeceklere lezzet katan, azı karar çoğu zarar."
+        },
+        {
+          "word": "HÜCRE",
+          "hint": "Canlıların en küçük yapı taşı."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Bir şeyin nasıl oluştuğu veya şekli."
+        },
+        {
+          "word": "GELİ̇Şİ̇M",
+          "hint": "Büyüme ve olgunlaşma süreci."
+        },
+        {
+          "word": "BAĞİŞİKLİK",
+          "hint": "Vücudun hastalıklara karşı savunması."
+        },
+        {
+          "word": "EMİ̇Lİ̇M",
+          "hint": "Besinlerin vücut tarafından emilmesi."
+        },
+        {
+          "word": "Sİ̇NDİ̇Rİ̇M",
+          "hint": "Yiyeceklerin parçalanarak kana karışması süreci."
+        },
+        {
+          "word": "AĞİZ",
+          "hint": "Yiyeceklerin ilk girdiği ve çiğnendiği yer."
+        },
+        {
+          "word": "Mİ̇DE",
+          "hint": "Yiyeceklerin çalkalandığı ve asitle karıştığı organ."
+        },
+        {
+          "word": "BAĞİRSAK",
+          "hint": "Besinlerin emildiği uzun boru."
+        },
+        {
+          "word": "KALORİ̇",
+          "hint": "Besinlerdeki enerji miktarı."
+        },
+        {
+          "word": "PORSİ̇YON",
+          "hint": "Yiyeceğin bir öğünde tüketilen miktarı."
+        },
+        {
+          "word": "Kİ̇LO",
+          "hint": "Vücut ağırlığı."
+        },
+        {
+          "word": "ANTRENMAN",
+          "hint": "Fiziksel aktivite, egzersiz."
+        },
+        {
+          "word": "DAYANİKLİLİK",
+          "hint": "Uzun süreli efor yapabilme gücü."
+        },
+        {
+          "word": "ESNEKLİ̇K",
+          "hint": "Vücudun hareket kabiliyeti."
+        },
+        {
+          "word": "KAS",
+          "hint": "Vücudun hareketini sağlayan doku."
+        },
+        {
+          "word": "KEMİ̇K",
+          "hint": "Vücudun destekleyici iskelet yapısı."
+        },
+        {
+          "word": "Dİ̇Ş",
+          "hint": "Yiyecekleri çiğnemeye yarayan sert yapılar."
+        },
+        {
+          "word": "SAFRAR",
+          "hint": "Yiyecekleri çorbaya veya tencereye koyma eylemi."
+        },
+        {
+          "word": "KAVURMA",
+          "hint": "Yağda hızlıca pişirme yöntemi."
+        },
+        {
+          "word": "HAŞLAMA",
+          "hint": "Kaynar suda pişirme tekniği."
+        },
+        {
+          "word": "FİRİNLAMA",
+          "hint": "Sıcak hava ile pişirme."
+        },
+        {
+          "word": "ÖĞÜTME",
+          "hint": "Un veya toz haline getirme."
+        },
+        {
+          "word": "PAKET",
+          "hint": "Hazır yiyeceklerin içinde bulunduğu kap."
+        },
+        {
+          "word": "SON",
+          "hint": "Bir paketin üzerinde yazan, son tüketme tarihi."
+        },
+        {
+          "word": "TARİ̇H",
+          "hint": "Bir ürünün ne zamana kadar taze kalacağını belirten bilgi."
         }
       ]
     },
@@ -75,6 +503,182 @@
         {
           "word": "MEVSIM",
           "hint": "Yılın dört farklı iklim dönemi"
+        },
+        {
+          "word": "GALAKSİ̇",
+          "hint": "Milyarlarca yıldızdan oluşan devasa bir topluluk."
+        },
+        {
+          "word": "KOZMİ̇K",
+          "hint": "Evrenle ilgili, evrene ait."
+        },
+        {
+          "word": "NEBULA",
+          "hint": "Yıldızların doğduğu gaz ve toz bulutu."
+        },
+        {
+          "word": "MUHAREBE",
+          "hint": "Gökyüzündeki iki büyük cismin birbirini örtmesi durumu."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Bir cismin uzaydaki konumu veya hareketi."
+        },
+        {
+          "word": "YÖRÜNGE",
+          "hint": "Bir gök cisminin başka bir gök cisminin etrafında izlediği yol."
+        },
+        {
+          "word": "GEZEGEN",
+          "hint": "Bir yıldızın etrafında dönen büyük gök cismi."
+        },
+        {
+          "word": "UYDU",
+          "hint": "Bir gezegenin etrafında dönen gök cismi."
+        },
+        {
+          "word": "ASTEROİ̇T",
+          "hint": "Gezegenlerden küçük, kayalık gök cismi."
+        },
+        {
+          "word": "KUYRUKLUYİLDİZ",
+          "hint": "Buzlu ve tozlu bir top olup güneşe yaklaştıkça kuyruk oluşturan cisim."
+        },
+        {
+          "word": "METEOR",
+          "hint": "Yeryüzüne düşmeden atmosferde yanan gök taşı."
+        },
+        {
+          "word": "METEORİ̇T",
+          "hint": "Yeryüzüne düşmeyi başaran gök taşı."
+        },
+        {
+          "word": "KRATER",
+          "hint": "Gök cisimlerine düşen meteorların oluşturduğu çukur."
+        },
+        {
+          "word": "DURGUN",
+          "hint": "Hareket etmeyen, sabit."
+        },
+        {
+          "word": "UZAYBOŞLUĞU",
+          "hint": "İki gök cismi arasındaki neredeyse hiç madde olmayan yer."
+        },
+        {
+          "word": "MERKEZ",
+          "hint": "Bir sistemin ortasındaki nokta veya cisim."
+        },
+        {
+          "word": "ÇEKİ̇M",
+          "hint": "Kütlelerin birbirini doğru çeken kuvvet."
+        },
+        {
+          "word": "İŞİKYİLİ",
+          "hint": "Işığın bir yılda aldığı yol."
+        },
+        {
+          "word": "EVREN",
+          "hint": "Var olan her şey."
+        },
+        {
+          "word": "BOYUT",
+          "hint": "Uzaydaki yöne ait bir ölçü."
+        },
+        {
+          "word": "DÜZLEM",
+          "hint": "Genişliği ve uzunluğu olan, kalınlığı olmayan iki boyutlu yüzey."
+        },
+        {
+          "word": "KÜRESEL",
+          "hint": "Yuvarlak, top şeklinde."
+        },
+        {
+          "word": "KESİ̇T",
+          "hint": "Bir cismin içini görmek için yapılan görünür bölüm."
+        },
+        {
+          "word": "BOYUTLU",
+          "hint": "Belirli sayıda boyutu olan."
+        },
+        {
+          "word": "GÖZLÜK",
+          "hint": "Gökyüzünü incelemeye yarayan araç."
+        },
+        {
+          "word": "TÜRBÜLANS",
+          "hint": "Hava veya akışkan içindeki düzensiz hareket."
+        },
+        {
+          "word": "Sİ̇STEM",
+          "hint": "Birbirine bağlı ve etkileşimli parçalardan oluşan bütün."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Dikkatle ve özenle bakma."
+        },
+        {
+          "word": "TELESKOP",
+          "hint": "Uzak nesneleri yakına getiren araç."
+        },
+        {
+          "word": "DÜRBÜN",
+          "hint": "İki gözle görülen nesneleri büyüten araç."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir bölge veya uzay parçası."
+        },
+        {
+          "word": "UZAYLİ̇",
+          "hint": "Başka gezegenlerden geldiği düşünülen varlık."
+        },
+        {
+          "word": "BULUTSU",
+          "hint": "Buluta benzeyen."
+        },
+        {
+          "word": "BAŞLANGİÇ",
+          "hint": "Bir şeyin ilk başladığı nokta."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir olayın bittiği yer."
+        },
+        {
+          "word": "ETKİ̇",
+          "hint": "Bir şeyin başka bir şey üzerinde yarattığı değişiklik."
+        },
+        {
+          "word": "KUANTUM",
+          "hint": "Çok küçük enerji paketleri."
+        },
+        {
+          "word": "Sİ̇METRİ̇",
+          "hint": "Aynadaki gibi karşılıklı uyum."
+        },
+        {
+          "word": "BELİ̇RSİ̇Z",
+          "hint": "Net olmayan, anlaşılmayan."
+        },
+        {
+          "word": "BELİ̇RLİ̇",
+          "hint": "Net, açıkça ifade edilen."
+        },
+        {
+          "word": "YAKLAŞİM",
+          "hint": "Bir konuya bakış açısı veya onu ele alma biçimi."
+        },
+        {
+          "word": "SÜREÇ",
+          "hint": "Belirli bir sonuca ulaşmak için izlenen işlemler dizisi."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Bir şeyin oluştuğu parçaların bütünü."
+        },
+        {
+          "word": "KADEME",
+          "hint": "Bir işin veya gelişmenin aşamalarından her biri."
         }
       ]
     },
@@ -117,6 +721,174 @@
         {
           "word": "DENGE",
           "hint": "Kuvvetlerin birbirini dengelemesi durumu"
+        },
+        {
+          "word": "İ̇TME",
+          "hint": "Bir cismi uzakta tutmak için yapılan hareket."
+        },
+        {
+          "word": "ÇEKME",
+          "hint": "Bir cismi kendine doğru hareket ettirme."
+        },
+        {
+          "word": "YÖN",
+          "hint": "Bir kuvvetin etki ettiği doğrultu ve taraf."
+        },
+        {
+          "word": "DOĞRULTU",
+          "hint": "Bir kuvvetin izlediği çizgi."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Bir cismin yer değiştirmesi."
+        },
+        {
+          "word": "DURGUN",
+          "hint": "Hareket etmeyen varlık durumu."
+        },
+        {
+          "word": "SAYKO",
+          "hint": "Bir nesneye uygulanan kuvvetin büyüklüğünü ölçmeye yarayan aletin eski adı."
+        },
+        {
+          "word": "BAŞLANGİÇ",
+          "hint": "Hareketin veya kuvvetin başladığı nokta."
+        },
+        {
+          "word": "SON",
+          "hint": "Bir hareketin veya kuvvetin bittiği yer."
+        },
+        {
+          "word": "YOL",
+          "hint": "Bir cismin hareket ederken izlediği mesafe."
+        },
+        {
+          "word": "MESAFE",
+          "hint": "İki nokta arasındaki uzunluk."
+        },
+        {
+          "word": "HİZ",
+          "hint": "Bir cismin birim zamanda aldığı yol."
+        },
+        {
+          "word": "YAVAŞ",
+          "hint": "Düşük hızla hareket eden."
+        },
+        {
+          "word": "HİZLİ",
+          "hint": "Yüksek hızla hareket eden."
+        },
+        {
+          "word": "SÜRAT",
+          "hint": "Hızın büyüklüğü."
+        },
+        {
+          "word": "ARTMAK",
+          "hint": "Miktarının çoğalması."
+        },
+        {
+          "word": "AZALMAK",
+          "hint": "Miktarının eksilmesi."
+        },
+        {
+          "word": "DEĞİ̇ŞMEK",
+          "hint": "Farklı bir duruma gelmek."
+        },
+        {
+          "word": "ETKİ̇",
+          "hint": "Bir kuvvetin yarattığı sonuç."
+        },
+        {
+          "word": "UYGULAMAK",
+          "hint": "Bir kuvvete maruz bırakmak."
+        },
+        {
+          "word": "MADDELER",
+          "hint": "Çevremizdeki her şey."
+        },
+        {
+          "word": "VARLİK",
+          "hint": "Gerçekte olan, mevcut olan."
+        },
+        {
+          "word": "YAPİŞKAN",
+          "hint": "Birbirine tutunan madde özelliği."
+        },
+        {
+          "word": "İ̇Tİ̇Ş",
+          "hint": "Birbirinden uzaklaşmayı sağlayan kuvvet."
+        },
+        {
+          "word": "ÇEKİ̇Ş",
+          "hint": "Birbirine yaklaşmayı sağlayan kuvvet."
+        },
+        {
+          "word": "TEKERLEK",
+          "hint": "Dönerek hareketi kolaylaştıran yuvarlak parça."
+        },
+        {
+          "word": "RULMAN",
+          "hint": "Dönen parçalar arasındaki sürtünmeyi azaltan alet."
+        },
+        {
+          "word": "PEDAL",
+          "hint": "Bisiklet gibi araçlarda ayakla basılan parça."
+        },
+        {
+          "word": "FREN",
+          "hint": "Hareket halindeki bir aracı durduran mekanizma."
+        },
+        {
+          "word": "ZEMİ̇N",
+          "hint": "Yerin veya bir yüzeyin alt kısmı."
+        },
+        {
+          "word": "PUAN",
+          "hint": "Sürtünmenin azaltıldığı veya artırıldığı özel yüzey."
+        },
+        {
+          "word": "YAĞLAMAK",
+          "hint": "Sürtünmeyi azaltmak için üzerine sıvı veya katı madde sürmek."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Bir cismin dış kısmı."
+        },
+        {
+          "word": "PÜRÜZLÜ",
+          "hint": "Düzgün olmayan, engebeli doku."
+        },
+        {
+          "word": "PÜRÜZSÜZ",
+          "hint": "Düzgün, kaygan doku."
+        },
+        {
+          "word": "YAYLANMAK",
+          "hint": "Esneyip eski haline dönmek."
+        },
+        {
+          "word": "GERİ̇LMEK",
+          "hint": "Uzar gibi olmak."
+        },
+        {
+          "word": "SİKİŞMAK",
+          "hint": "Dar bir alana girmek, hacminin küçülmesi."
+        },
+        {
+          "word": "DOĞAL",
+          "hint": "Yapılı olmayan, kendiliğinden olan."
+        },
+        {
+          "word": "YAPAY",
+          "hint": "İnsan eliyle yapılmış."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Bir olayı araştırmak için yapılan işlem."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir olayın veya deneyin ortaya çıkardığı durum."
         }
       ]
     },
@@ -159,6 +931,182 @@
         {
           "word": "HÜCRE ZARI",
           "hint": "Hücreyi çevreleyen ince tabaka"
+        },
+        {
+          "word": "ÇEKİ̇RDEK",
+          "hint": "Hücrenin yönetim merkezi, DNA'yı barındırır."
+        },
+        {
+          "word": "Sİ̇TOPLAZMA",
+          "hint": "Hücrenin içini dolduran jel benzeri sıvı."
+        },
+        {
+          "word": "HÜCRE DUVARİ",
+          "hint": "Bitki hücrelerinde dışarıda bulunan sert tabaka."
+        },
+        {
+          "word": "KOŞUL",
+          "hint": "Canlıların yaşamak için ihtiyaç duyduğu temel şeyler."
+        },
+        {
+          "word": "BESLENME",
+          "hint": "Canlıların enerji almak için yiyecek tüketmesi."
+        },
+        {
+          "word": "SOLUNUM",
+          "hint": "Canlıların havadan aldığı gazı kullanarak enerji üretmesi."
+        },
+        {
+          "word": "BOŞALTİM",
+          "hint": "Canlıların vücutlarındaki atıkları dışarı atması."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Canlıların yer değiştirmesi veya yerinde tepkiler vermesi."
+        },
+        {
+          "word": "BÜYÜME",
+          "hint": "Canlıların boyut ve ağırlık olarak artması."
+        },
+        {
+          "word": "ÜREME",
+          "hint": "Canlıların nesillerini devam ettirmesi."
+        },
+        {
+          "word": "BİTKİ",
+          "hint": "Kendi besinini üretebilen canlı türü."
+        },
+        {
+          "word": "HAYVAN",
+          "hint": "Hareket edebilen ve besin ihtiyacını başka canlılardan karşılayan tür."
+        },
+        {
+          "word": "MANTAR",
+          "hint": "Kendi besinini üretemeyen, çürükçül canlılar."
+        },
+        {
+          "word": "BAKTERİ",
+          "hint": "Çok küçük, tek hücreli canlılar."
+        },
+        {
+          "word": "VİRÜS",
+          "hint": "Canlı özelliği göstermeyen, başka hücrelerde çoğalan mikroskobik varlık."
+        },
+        {
+          "word": "MİKROSKOP",
+          "hint": "Çok küçük canlıları görebilmemizi sağlayan alet."
+        },
+        {
+          "word": "BÜYÜTEÇ",
+          "hint": "Nesneleri olduğundan daha büyük gösteren cam."
+        },
+        {
+          "word": "LENSA",
+          "hint": "Işığı kıran, mikroskopta kullanılan parçalardan biri."
+        },
+        {
+          "word": "İŞİK",
+          "hint": "Görmeyi sağlayan enerji türü, fotosentez için gerekli."
+        },
+        {
+          "word": "KARBONDİOKSİT",
+          "hint": "Bitkilerin fotosentezde kullandığı gaz."
+        },
+        {
+          "word": "OKSİJEN",
+          "hint": "Canlıların solunumda kullandığı gaz."
+        },
+        {
+          "word": "SU",
+          "hint": "Hayatın kaynağı, bitkiler ve hayvanlar için temel ihtiyaç."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Bitkilerin kök saldığı, beslendiği zemin."
+        },
+        {
+          "word": "ELEKTRİK",
+          "hint": "Hücrelerdeki bazı olaylarda rol oynayan enerji türü."
+        },
+        {
+          "word": "İSİ",
+          "hint": "Sıcaklık ölçüsü, canlılar için önemli."
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Bir yüzeye uygulanan dik kuvvet."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Hareket ettiren veya şekil değiştiren etki."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme yeteneği, canlıların yaşamak için kullandığı güç."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Canlıların veya nesnelerin oluşturduğu biçim."
+        },
+        {
+          "word": "İ̇ŞLEV",
+          "hint": "Bir organın veya yapının görevi."
+        },
+        {
+          "word": "SİNİFLANDİRMA",
+          "hint": "Canlıları benzerliklerine göre gruplama."
+        },
+        {
+          "word": "ORTAM",
+          "hint": "Canlıların yaşadığı yer ve çevre."
+        },
+        {
+          "word": "METABOLİZMA",
+          "hint": "Canlıların vücudunda gerçekleşen tüm kimyasal olaylar."
+        },
+        {
+          "word": "DİZİ",
+          "hint": "Birbiri ardına sıralanmış benzer öğeler."
+        },
+        {
+          "word": "KATMAN",
+          "hint": "Üst üste bulunma durumu, tabaka."
+        },
+        {
+          "word": "TASLAK",
+          "hint": "Çalışmanın ilk şekli, plan."
+        },
+        {
+          "word": "SÜREÇ",
+          "hint": "Belirli bir amaca ulaşmak için izlenen yol."
+        },
+        {
+          "word": "BELİRTEÇ",
+          "hint": "Fiilleri veya fiilimsileri niteleyen kelime."
+        },
+        {
+          "word": "SİFAT",
+          "hint": "İsimleri niteleyen kelime."
+        },
+        {
+          "word": "İSİM",
+          "hint": "Var olan her şeyi karşılayan kelime."
+        },
+        {
+          "word": "FİİL",
+          "hint": "Yapılan işi, oluşu veya hareketi bildiren kelime."
+        },
+        {
+          "word": "EDAT",
+          "hint": "Tek başına anlamı olmayan, cümledeki kelimeleri birbirine bağlayan kelime."
+        },
+        {
+          "word": "BAGLAÇ",
+          "hint": "Cümleleri veya kelimeleri birbirine bağlayan kelime."
+        },
+        {
+          "word": "UNSUR",
+          "hint": "Kimyasal olarak daha basit maddelere ayrılmayan saf madde."
         }
       ]
     },
@@ -201,6 +1149,174 @@
         {
           "word": "RENK",
           "hint": "Işığın gözle algılanan spektrum bileşeni"
+        },
+        {
+          "word": "AYNA",
+          "hint": "Yüzeyi düzgün olan ve görüntü yansıtan cisim."
+        },
+        {
+          "word": "PARLAK",
+          "hint": "Işık veren veya ışığı iyi yansıtan."
+        },
+        {
+          "word": "KARANLİK",
+          "hint": "Hiç ışığın olmadığı ortam."
+        },
+        {
+          "word": "GÖRME",
+          "hint": "Gözlerimizle etrafımızdaki varlıkları algılama."
+        },
+        {
+          "word": "NESNE",
+          "hint": "Görülebilen, dokunulabilen her şey."
+        },
+        {
+          "word": "AYDİNLİK",
+          "hint": "Işık olan, içi görülen ortam."
+        },
+        {
+          "word": "YAĞMUR",
+          "hint": "Gökyüzünden damlalar halinde düşen su."
+        },
+        {
+          "word": "GÖKKUŞAĞİ",
+          "hint": "Yağmur sonrası havada beliren yedi renkli kemer."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Dünyamıza ışık ve ısı veren yıldız."
+        },
+        {
+          "word": "AY",
+          "hint": "Gece gökyüzünde gördüğümüz, Güneş'ten ışık alan gök cismi."
+        },
+        {
+          "word": "YİLDİZ",
+          "hint": "Gece gökyüzünde parlayan, uzaktaki büyük ateş topları."
+        },
+        {
+          "word": "SARİ",
+          "hint": "Güneş'in rengine benzeyen ana renklerden biri."
+        },
+        {
+          "word": "MAVİ̇",
+          "hint": "Denizin ve gökyüzünün rengi."
+        },
+        {
+          "word": "YEŞİ̇L",
+          "hint": "Ağaç yapraklarının rengi."
+        },
+        {
+          "word": "KİRMİZİ",
+          "hint": "Elma ve çileğin rengi."
+        },
+        {
+          "word": "TURUNCU",
+          "hint": "Portakalın rengi."
+        },
+        {
+          "word": "MOR",
+          "hint": "Üzümün rengine benzeyen bir renk."
+        },
+        {
+          "word": "BEYAZ",
+          "hint": "Karın ve bulutların rengi."
+        },
+        {
+          "word": "Sİ̇YAH",
+          "hint": "Karanlığın ve kömürün rengi."
+        },
+        {
+          "word": "CİSİM",
+          "hint": "Bir varlık, bir şey."
+        },
+        {
+          "word": "UZAK",
+          "hint": "Mesafesi çok olan."
+        },
+        {
+          "word": "YAKİN",
+          "hint": "Mesafesi az olan."
+        },
+        {
+          "word": "BÜYÜK",
+          "hint": "Boyutu fazla olan."
+        },
+        {
+          "word": "KÜÇÜK",
+          "hint": "Boyutu az olan."
+        },
+        {
+          "word": "DÜZGÜN",
+          "hint": "Pürüzsüz, engebeli olmayan."
+        },
+        {
+          "word": "PÜRÜZLÜ",
+          "hint": "Yüzeyi engebeli olan."
+        },
+        {
+          "word": "Dİ̇NAMİ̇K",
+          "hint": "Sürekli hareket halinde olan."
+        },
+        {
+          "word": "STATİ̇K",
+          "hint": "Durağan, hareketsiz olan."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Bilimsel bir gerçeği ortaya çıkarmak için yapılan çalışma."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir olayı dikkatle izleme."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir olayın veya deneyin ortaya çıkardığı durum."
+        },
+        {
+          "word": "KANİT",
+          "hint": "Bir olayın doğruluğunu gösteren belge veya işaret."
+        },
+        {
+          "word": "İ̇LETKEN",
+          "hint": "Isıyı veya elektriği iyi geçiren madde."
+        },
+        {
+          "word": "YALİTKAN",
+          "hint": "Isıyı veya elektriği iyi geçirmeyen madde."
+        },
+        {
+          "word": "GÜÇLÜ",
+          "hint": "Etkisi fazla olan."
+        },
+        {
+          "word": "ZAYİF",
+          "hint": "Etkisi az olan."
+        },
+        {
+          "word": "HİZLİ",
+          "hint": "Çok çabuk hareket eden."
+        },
+        {
+          "word": "YAVAŞ",
+          "hint": "Az çabuk hareket eden."
+        },
+        {
+          "word": "UZAY",
+          "hint": "Gök cisimlerinin bulunduğu boşluk."
+        },
+        {
+          "word": "GÜNLÜK",
+          "hint": "Her gün olan."
+        },
+        {
+          "word": "GECE",
+          "hint": "Güneş battıktan sonra başlayan karanlık zaman."
+        },
+        {
+          "word": "Sİ̇LUET",
+          "hint": "Bir nesnenin sadece dış çizgilerinin göründüğü, içi karanlık şekli."
         }
       ]
     },
@@ -243,6 +1359,178 @@
         {
           "word": "HAL DEĞİŞİMİ",
           "hint": "Maddenin katı, sıvı veya gaz forma geçmesi"
+        },
+        {
+          "word": "KÜTLE",
+          "hint": "Bir cisimdeki madde miktarıdır."
+        },
+        {
+          "word": "HAL",
+          "hint": "Maddenin katı, sıvı veya gaz olması durumudur."
+        },
+        {
+          "word": "ÖLÇÜ",
+          "hint": "Miktarı belirlemeye yarayan şey."
+        },
+        {
+          "word": "KATMAN",
+          "hint": "Bir şeyin üzeri veya altında bulunan bölüm."
+        },
+        {
+          "word": "MOLEKÜL",
+          "hint": "Maddelerin en küçük yapı taşıdır."
+        },
+        {
+          "word": "ATOM",
+          "hint": "Molekülü oluşturan daha da küçük parçacık."
+        },
+        {
+          "word": "YAPİ",
+          "hint": "Bir şeyin nasıl oluştuğunu gösteren düzen."
+        },
+        {
+          "word": "BAĞ",
+          "hint": "Atomları bir arada tutan kuvvettir."
+        },
+        {
+          "word": "AYİRMA",
+          "hint": "Karışık maddeleri tek tek bulma işlemidir."
+        },
+        {
+          "word": "SÜZME",
+          "hint": "Sıvıları katı parçacıklardan ayırma yöntemi."
+        },
+        {
+          "word": "DAMİTMA",
+          "hint": "Sıvıları ısıtıp soğutarak ayırma tekniği."
+        },
+        {
+          "word": "ÇÖZÜNME",
+          "hint": "Bir maddenin başka bir maddede görünmez olması."
+        },
+        {
+          "word": "ÇÖZELTİ̇",
+          "hint": "Bir maddenin başka bir maddede tamamen karıştığı sıvı."
+        },
+        {
+          "word": "ÇÖZÜCÜ",
+          "hint": "Başka bir maddeyi içinde eriten sıvı."
+        },
+        {
+          "word": "ÇÖZÜNEN",
+          "hint": "Çözücü içinde eriyen madde."
+        },
+        {
+          "word": "Mİ̇KTAR",
+          "hint": "Bir şeyin ne kadar olduğunu belirten nicelik."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Birim hacimdeki kütlesidir, bir maddenin ne kadar ağır veya hafif olduğunu gösterir."
+        },
+        {
+          "word": "HOMOJEN",
+          "hint": "Her yerinde aynı özelliklere sahip karışım."
+        },
+        {
+          "word": "HETEROJEN",
+          "hint": "Her yerinde aynı özelliklere sahip olmayan karışım."
+        },
+        {
+          "word": "SİKMAK",
+          "hint": "Bir şeyi bastırarak hacmini azaltmak."
+        },
+        {
+          "word": "GENLEŞME",
+          "hint": "Isının etkisiyle maddenin hacminin artması."
+        },
+        {
+          "word": "BÜZÜŞME",
+          "hint": "Soğuğun etkisiyle maddenin hacminin azalması."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir olayı dikkatle izleme ve not alma."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Bir olayın nedenini araştırmak için yapılan kontrollü çalışma."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir deneme veya araştırmanın sonunda ulaşılan bilgi."
+        },
+        {
+          "word": "DEĞİ̇Şİ̇M",
+          "hint": "Bir şeyin durumunda meydana gelen farklılık."
+        },
+        {
+          "word": "KANİT",
+          "hint": "Bir iddianın doğruluğunu gösteren belge veya bilgi."
+        },
+        {
+          "word": "ÖRNEKLEM",
+          "hint": "İncelenecek bir grup içinden seçilen küçük bölüm."
+        },
+        {
+          "word": "KARMAŞİK",
+          "hint": "Birbirine girmiş, anlaşılması zor."
+        },
+        {
+          "word": "SAFLİK",
+          "hint": "Tek çeşit maddeden oluşma durumu."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki sayının birbirine bölünmesiyle elde edilen değer."
+        },
+        {
+          "word": "ETKİ̇",
+          "hint": "Bir olayın başka bir olaya neden olması."
+        },
+        {
+          "word": "KOHEZYON",
+          "hint": "Aynı tür tanecikler arasındaki çekim gücü."
+        },
+        {
+          "word": "ADEZYON",
+          "hint": "Farklı tür tanecikler arasındaki çekim gücü."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Bir cismin dış kısmı."
+        },
+        {
+          "word": "NEM",
+          "hint": "Havadaki su buharı miktarı."
+        },
+        {
+          "word": "PUFLAMA",
+          "hint": "Maddenin gaz çıkararak kabarması."
+        },
+        {
+          "word": "Sİ̇NDİ̇Rİ̇M",
+          "hint": "Yediğimiz besinlerin vücutta parçalanması."
+        },
+        {
+          "word": "GAZ",
+          "hint": "Hacmi ve şekli olmayan madde hali."
+        },
+        {
+          "word": "SİVİ",
+          "hint": "Şekli olmayan ama hacmi olan madde hali."
+        },
+        {
+          "word": "KATİ",
+          "hint": "Hem şekli hem de hacmi belirli madde hali."
+        },
+        {
+          "word": "Bİ̇RLEŞME",
+          "hint": "Ayrı olan şeylerin bir araya gelmesi."
+        },
+        {
+          "word": "AYRİLMA",
+          "hint": "Bir araya gelmiş şeylerin birbirinden uzaklaşması."
         }
       ]
     },
@@ -281,6 +1569,178 @@
         {
           "word": "YALİTKAN",
           "hint": "Elektriği geçirmeyen madde"
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme yeteneği."
+        },
+        {
+          "word": "VOLTAJ",
+          "hint": "Elektriği hareket ettiren güç."
+        },
+        {
+          "word": "AKİM",
+          "hint": "Elektriğin bir yerden bir yere akması."
+        },
+        {
+          "word": "Dİ̇RENC",
+          "hint": "Akımın geçmesine karşı gösterilen zorluk."
+        },
+        {
+          "word": "KUTUP",
+          "hint": "Pil veya mıknatısın uç noktaları."
+        },
+        {
+          "word": "POZİ̇Tİ̇F",
+          "hint": "Artı (+) işareti ile gösterilen, pilin bir ucu."
+        },
+        {
+          "word": "NEGATİ̇F",
+          "hint": "Eksi (-) işareti ile gösterilen, pilin diğer ucu."
+        },
+        {
+          "word": "KİSA DEVRE",
+          "hint": "Elektriğin beklenmedik şekilde dolanması."
+        },
+        {
+          "word": "Sİ̇GORTA",
+          "hint": "Aşırı akıma karşı devreyi koruyan alet."
+        },
+        {
+          "word": "TOPRAKLAMA",
+          "hint": "Elektrikli aletleri güvenli hale getirme yöntemi."
+        },
+        {
+          "word": "YALİTİM",
+          "hint": "Elektriğin geçmesini engelleme."
+        },
+        {
+          "word": "İ̇LETKENLİ̇K",
+          "hint": "Elektriği iyi iletme özelliği."
+        },
+        {
+          "word": "BAŞLATMA",
+          "hint": "Bir şeyi çalıştırmaya başlama."
+        },
+        {
+          "word": "DURDURMA",
+          "hint": "Bir şeyi çalışmaktan alıkoyma."
+        },
+        {
+          "word": "KONTROL",
+          "hint": "Bir şeyin düzgün çalışıp çalışmadığını inceleme."
+        },
+        {
+          "word": "GÜVENLİ̇K",
+          "hint": "Tehlikelerden korunma durumu."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Elektriğin elde edildiği yer."
+        },
+        {
+          "word": "ÜRETİ̇M",
+          "hint": "Bir şeyin yapılması, meydana getirilmesi."
+        },
+        {
+          "word": "KULLANİM",
+          "hint": "Bir şeyi faydalanma."
+        },
+        {
+          "word": "BOZULMA",
+          "hint": "Bir şeyin çalışamaz hale gelmesi."
+        },
+        {
+          "word": "ONARİM",
+          "hint": "Bozulan bir şeyi tamir etme."
+        },
+        {
+          "word": "VERİ̇MLİ̇Lİ̇K",
+          "hint": "Yapılan işin karşılığında alınan fayda."
+        },
+        {
+          "word": "TEHLİ̇KE",
+          "hint": "Kötü sonuçlar doğurabilecek durum."
+        },
+        {
+          "word": "ÖNLEM",
+          "hint": "Tehlikeleri engellemek için yapılan iş."
+        },
+        {
+          "word": "KABLO",
+          "hint": "Elektriği taşımaya yarayan tel."
+        },
+        {
+          "word": "DUY",
+          "hint": "Ampulün takıldığı yer."
+        },
+        {
+          "word": "SOKET",
+          "hint": "Elektrik fişinin takıldığı yer."
+        },
+        {
+          "word": "STATİ̇K",
+          "hint": "Hareket etmeyen elektrik yükü."
+        },
+        {
+          "word": "YÜK",
+          "hint": "Elektrikli parçacık."
+        },
+        {
+          "word": "KUTUPBAŞİ",
+          "hint": "Pil üzerindeki artı veya eksi uç."
+        },
+        {
+          "word": "BAĞLANTİ",
+          "hint": "Parçaların birbirine eklenmesi."
+        },
+        {
+          "word": "KAPALİ DEVRE",
+          "hint": "Akımın kesintisiz aktığı devre."
+        },
+        {
+          "word": "AÇİK DEVRE",
+          "hint": "Akımın akmadığı devre."
+        },
+        {
+          "word": "YÜKSEK GERİ̇Lİ̇M",
+          "hint": "Çok güçlü elektrik akımı."
+        },
+        {
+          "word": "ALÇAK GERİ̇Lİ̇M",
+          "hint": "Daha az tehlikeli elektrik akımı."
+        },
+        {
+          "word": "JENERATÖR",
+          "hint": "Elektrik üreten makine."
+        },
+        {
+          "word": "Dİ̇NAMO",
+          "hint": "Hareket enerjisini elektrik enerjisine çeviren alet."
+        },
+        {
+          "word": "İSİ",
+          "hint": "Elektrik akımının bir sonucu olarak ortaya çıkan sıcaklık."
+        },
+        {
+          "word": "İŞİK",
+          "hint": "Ampulün yaydığı enerji türü."
+        },
+        {
+          "word": "SES",
+          "hint": "Bazı elektrikli aletlerin ürettiği duyulabilen titreşim."
+        },
+        {
+          "word": "MANYETİ̇ZMA",
+          "hint": "Mıknatısların sahip olduğu özellik."
+        },
+        {
+          "word": "MOTOR",
+          "hint": "Elektrik enerjisini hareket enerjisine çeviren alet."
+        },
+        {
+          "word": "PİLYATAĞI",
+          "hint": "Pillerin devrede düzgün durması için yerleştirildiği bölme"
         }
       ]
     },
@@ -319,6 +1779,178 @@
         {
           "word": "BİYOÇEŞİTLİLİK",
           "hint": "Doğadaki canlı türlerinin çeşitliliği"
+        },
+        {
+          "word": "KAĞİT",
+          "hint": "Ağaçlardan elde edilen, üzerine yazı yazılan, baskı yapılan ince malzeme."
+        },
+        {
+          "word": "CAM",
+          "hint": "Sıcakta eriyen, soğuyunca katılaşan şeffaf veya renkli malzeme."
+        },
+        {
+          "word": "METAL",
+          "hint": "Parlak, ısıyı ve elektriği iyi ileten element veya alaşım."
+        },
+        {
+          "word": "PLASTİ̇K",
+          "hint": "Petrol türevlerinden yapılan, kolay şekillendirilebilen sentetik madde."
+        },
+        {
+          "word": "ORGANİ̇K",
+          "hint": "Canlılardan elde edilen veya canlılarca üretilebilen madde."
+        },
+        {
+          "word": "Pİ̇L",
+          "hint": "Elektrik enerjisi üreten, kullanıldıktan sonra özel atılması gereken alet."
+        },
+        {
+          "word": "TEKSTİ̇L",
+          "hint": "Kumaş ve giysi gibi ürünleri kapsayan terim."
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme yeteneği, güç."
+        },
+        {
+          "word": "DOĞA",
+          "hint": "Yeryüzündeki canlı ve cansız varlıkların tümü."
+        },
+        {
+          "word": "FABRİ̇KA",
+          "hint": "Mal üretilen büyük sanayi tesisi."
+        },
+        {
+          "word": "TASARRUF",
+          "hint": "Bir şeyi idareli kullanarak artırma, saklama."
+        },
+        {
+          "word": "TEKRAR",
+          "hint": "Bir şeyin yeniden kullanılması."
+        },
+        {
+          "word": "YARİN",
+          "hint": "Gelecek zaman, ertesi gün."
+        },
+        {
+          "word": "TASARİM",
+          "hint": "Bir şeyin nasıl yapılacağının planı, projesi."
+        },
+        {
+          "word": "VERİ̇MLİ̇Lİ̇K",
+          "hint": "Yapılan işten alınan sonuçla harcanan çabanın oranı."
+        },
+        {
+          "word": "MALZEME",
+          "hint": "Bir şeyin yapıldığı, elde edildiği köken."
+        },
+        {
+          "word": "DEPOLAMA",
+          "hint": "Bir şeyleri biriktirip saklama yeri veya eylemi."
+        },
+        {
+          "word": "İ̇SRAF",
+          "hint": "Bir şeyi gereksiz yere harcama veya tüketme."
+        },
+        {
+          "word": "SEÇME",
+          "hint": "Belirli bir amaca uygun olanları ayırma."
+        },
+        {
+          "word": "ÖZETLEME",
+          "hint": "Bir yazının ana fikirlerini kısaca çıkarma."
+        },
+        {
+          "word": "YÖNTEM",
+          "hint": "Bir işi yapma biçimi, usul."
+        },
+        {
+          "word": "AYRİŞTİRMA",
+          "hint": "Farklı özelliklerine göre gruplara ayırma."
+        },
+        {
+          "word": "DÖNGÜ",
+          "hint": "Bir olayın başladığı noktaya tekrar dönmesi."
+        },
+        {
+          "word": "Kİ̇MYASAL",
+          "hint": "Kimya bilimiyle ilgili olan madde."
+        },
+        {
+          "word": "EKOLOJİ̇",
+          "hint": "Canlıların çevreleriyle ilişkisini inceleyen bilim dalı."
+        },
+        {
+          "word": "SEBZE",
+          "hint": "Yemeklerde kullanılan bitkisel gıdalar."
+        },
+        {
+          "word": "MEYVE",
+          "hint": "Ağaçlardan, bitkilerden elde edilen tatlı yiyecek."
+        },
+        {
+          "word": "DEPOLİ̇",
+          "hint": "İçinde bir şeyler biriktirilmiş olan."
+        },
+        {
+          "word": "KOKU",
+          "hint": "Bir maddenin burna gelen etkisi."
+        },
+        {
+          "word": "LEYLEK",
+          "hint": "Gagası uzun, bacakları ince, göç eden bir kuş türü."
+        },
+        {
+          "word": "TERSİ̇NE",
+          "hint": "Zıt yönde, aşağı yukarı, sağ sol."
+        },
+        {
+          "word": "AYRİ",
+          "hint": "Birlikte olmayan, tek başına."
+        },
+        {
+          "word": "ÇÖP",
+          "hint": "Kullanılmış, atılmış değersiz eşya veya madde."
+        },
+        {
+          "word": "SUYUNSUL",
+          "hint": "Sıvı halde bulunan."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Yeryüzünün üst katmanı, bitkilerin yetiştiği yer."
+        },
+        {
+          "word": "YENİ̇DEN",
+          "hint": "Bir daha, tekrar."
+        },
+        {
+          "word": "UZUN",
+          "hint": "Boyu veya mesafesi fazla olan."
+        },
+        {
+          "word": "Bİ̇TKİ̇",
+          "hint": "Kök, gövde, yaprak gibi bölümleri olan canlı."
+        },
+        {
+          "word": "YAŞAM",
+          "hint": "Canlılığın sürdürülmesi."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Dünyamıza ışık ve ısı veren gök cismi."
+        },
+        {
+          "word": "RÜZGAR",
+          "hint": "Havanın hareketi."
+        },
+        {
+          "word": "KATİ",
+          "hint": "Belirli bir şekli ve hacmi olan madde durumu."
+        },
+        {
+          "word": "SİVİ",
+          "hint": "Belirli bir şekli olmayan, aktığında şekil değiştiren madde durumu."
         }
       ]
     }

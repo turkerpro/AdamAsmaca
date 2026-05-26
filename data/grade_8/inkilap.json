@@ -3,25 +3,443 @@
     {
       "id": "inkilap8_u1",
       "name": "1. Ünite: Kurtuluş Savaşı",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "MUSTAFA KEMAL", "hint": "Kurtuluş Savaşının önderi ve Türkiye kurucusu"},
-        {"word": "SAMSUN", "hint": "Milli mücadelenin başladığı Karadeniz şehri"},
-        {"word": "AMASYA GENELGESİ", "hint": "Vatanın bütünlüğünün tehlikede olduğunu ilan eden belge"},
-        {"word": "SAKARYA", "hint": "Türk ordusunun büyük zafer kazandığı meydan muharebesi"},
-        {"word": "MUDANYA", "hint": "Silahlı mücadeleyi sona erdiren ateşkes antlaşması"}
+        {
+          "word": "MUSTAFA KEMAL",
+          "hint": "Kurtuluş Savaşının önderi ve Türkiye kurucusu"
+        },
+        {
+          "word": "SAMSUN",
+          "hint": "Milli mücadelenin başladığı Karadeniz şehri"
+        },
+        {
+          "word": "AMASYA GENELGESİ",
+          "hint": "Vatanın bütünlüğünün tehlikede olduğunu ilan eden belge"
+        },
+        {
+          "word": "SAKARYA",
+          "hint": "Türk ordusunun büyük zafer kazandığı meydan muharebesi"
+        },
+        {
+          "word": "MUDANYA",
+          "hint": "Silahlı mücadeleyi sona erdiren ateşkes antlaşması"
+        },
+        {
+          "word": "Mİ̇LLİ̇ MÜDAFAA",
+          "hint": "Vatanın savunması için halkın oluşturduğu teşkilat."
+        },
+        {
+          "word": "TEŞKİ̇LAT",
+          "hint": "Belirli bir amaç için bir araya gelen topluluk."
+        },
+        {
+          "word": "MANDATER",
+          "hint": "Bağımsız olamayan, başka bir devletin himayesine giren."
+        },
+        {
+          "word": "MÜDAFAA-İ̇ HUKUK",
+          "hint": "Milli hakların korunması için kurulan cemiyet."
+        },
+        {
+          "word": "ULUSAL EGEMENLİ̇K",
+          "hint": "Milletin kendi kaderini belirleme hakkı."
+        },
+        {
+          "word": "HAKKİNDA",
+          "hint": "Bir konuyla ilgili, ona dair."
+        },
+        {
+          "word": "TAVİ̇Z",
+          "hint": "Bir hakkı veya isteği bırakma, vazgeçme."
+        },
+        {
+          "word": "TEMSİ̇LCİ̇LER KURULU",
+          "hint": "Millet adına hareket eden heyet."
+        },
+        {
+          "word": "ŞURA",
+          "hint": "Danışma kurulu, meclis."
+        },
+        {
+          "word": "KONGRE",
+          "hint": "Belirli bir amaçla toplanan geniş katılımlı toplantı."
+        },
+        {
+          "word": "HEYET",
+          "hint": "Bir işi yapmakla görevlendirilmiş topluluk."
+        },
+        {
+          "word": "TBMM",
+          "hint": "Türkiye Büyük Millet Meclisi'nin kısaltması."
+        },
+        {
+          "word": "KURTULUŞ",
+          "hint": "Baskıdan, esaretten kurtulma durumu."
+        },
+        {
+          "word": "Sİ̇PER",
+          "hint": "Düşman ateşinden korunmak için kazılan hendek veya duvar."
+        },
+        {
+          "word": "CEPHANE",
+          "hint": "Savaşta kullanılan mermi, fişek gibi şeyler."
+        },
+        {
+          "word": "ASKER",
+          "hint": "Ülkesi için savaşan kişi."
+        },
+        {
+          "word": "KOMUTAN",
+          "hint": "Askerlere emir veren kişi."
+        },
+        {
+          "word": "TAARRUZ",
+          "hint": "Saldırı, hücum."
+        },
+        {
+          "word": "SAVUNMA",
+          "hint": "Bir saldırıyı engelleme, karşılık verme."
+        },
+        {
+          "word": "GERİ̇LLA",
+          "hint": "Düzenli orduya karşı savaşan küçük birlik."
+        },
+        {
+          "word": "İ̇STİ̇HBARAT",
+          "hint": "Düşman hakkında bilgi toplama."
+        },
+        {
+          "word": "MEKTUP",
+          "hint": "Duygu ve düşünceleri yazı ile bildirme."
+        },
+        {
+          "word": "TELGRAF",
+          "hint": "Uzaktaki kişilere mesaj gönderme yöntemi."
+        },
+        {
+          "word": "HAZİ̇NE",
+          "hint": "Devlete ait para ve değerli eşyaların saklandığı yer."
+        },
+        {
+          "word": "VERGİ̇",
+          "hint": "Devletin halktan topladığı para."
+        },
+        {
+          "word": "KANUN",
+          "hint": "Devletin yönetimi için koyduğu kurallar."
+        },
+        {
+          "word": "ANAYASA",
+          "hint": "Devletin temel kurallarını belirleyen en üst düzey kanun."
+        },
+        {
+          "word": "BAYRAK",
+          "hint": "Bir ulusu, devleti veya orduyu simgeleyen bez parçası."
+        },
+        {
+          "word": "MARŞ",
+          "hint": "Coşkulu ve marşlı ezgi."
+        },
+        {
+          "word": "GAZETE",
+          "hint": "Güncel olayları duyuran yayın organı."
+        },
+        {
+          "word": "DEVRİ̇M",
+          "hint": "Köklü değişiklik, inkılap."
+        },
+        {
+          "word": "HALK",
+          "hint": "Bir ülkenin bütün vatandaşları."
+        },
+        {
+          "word": "Mİ̇LLET",
+          "hint": "Ortak bir kültüre, dile sahip insan topluluğu."
+        },
+        {
+          "word": "VATAN",
+          "hint": "Doğup büyüdüğümüz, üzerinde yaşadığımız toprak."
+        },
+        {
+          "word": "BAĞİMSİZLİK",
+          "hint": "Başka bir güce bağlı olmadan yaşama durumu."
+        },
+        {
+          "word": "YURTTAŞ",
+          "hint": "Bir devletin vatandaşı."
+        },
+        {
+          "word": "CESARET",
+          "hint": "Korkusuzluk, yüreklilik."
+        },
+        {
+          "word": "FEDAKARLİK",
+          "hint": "Bir amaç için kendi çıkarından vazgeçme."
+        },
+        {
+          "word": "UMUT",
+          "hint": "İyi bir şeyin olacağına inanma."
+        },
+        {
+          "word": "BAŞARİ",
+          "hint": "Bir işte istenilen sonuca ulaşma."
+        },
+        {
+          "word": "MÜZAKERE",
+          "hint": "Anlaşmaya varmak için görüşme."
+        },
+        {
+          "word": "ANTLAŞMA",
+          "hint": "İki veya daha fazla taraf arasında yapılan sözleşme."
+        },
+        {
+          "word": "TAVSİ̇YE",
+          "hint": "Öneri, öğüt."
+        },
+        {
+          "word": "KARAR",
+          "hint": "Bir konuda ulaşılan sonuç."
+        },
+        {
+          "word": "TARİ̇H",
+          "hint": "Geçmişte yaşanmış olayları inceleyen bilim dalı."
+        },
+        {
+          "word": "GEÇMİ̇Ş",
+          "hint": "Şimdiki zamandan önceki zaman."
+        },
+        {
+          "word": "GELECEK",
+          "hint": "Şimdiki zamandan sonra gelecek zaman."
+        },
+        {
+          "word": "MÜFREZE",
+          "hint": "Küçük askeri birlik."
+        }
       ]
     },
     {
       "id": "inkilap8_u2",
       "name": "2. Ünite: Cumhuriyet Dönemi",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "CUMHURİYET", "hint": "Egemenliğin millete ait olduğu yönetim biçimi"},
-        {"word": "LAİKLİK", "hint": "Din ve devlet işlerinin birbirinden ayrılması"},
-        {"word": "HARF DEVRİMİ", "hint": "Arap alfabesinden Latin alfabesine geçiş inkılabı"},
-        {"word": "MEDENİ KANUN", "hint": "Aile ve miras hukukunu düzenleyen temel yasa"},
-        {"word": "ANAYASA", "hint": "Devletin temel yapısını belirleyen en üst yasa"}
+        {
+          "word": "CUMHURİYET",
+          "hint": "Egemenliğin millete ait olduğu yönetim biçimi"
+        },
+        {
+          "word": "LAİKLİK",
+          "hint": "Din ve devlet işlerinin birbirinden ayrılması"
+        },
+        {
+          "word": "HARF DEVRİMİ",
+          "hint": "Arap alfabesinden Latin alfabesine geçiş inkılabı"
+        },
+        {
+          "word": "MEDENİ KANUN",
+          "hint": "Aile ve miras hukukunu düzenleyen temel yasa"
+        },
+        {
+          "word": "ANAYASA",
+          "hint": "Devletin temel yapısını belirleyen en üst yasa"
+        },
+        {
+          "word": "Mİ̇LLİ̇YETÇİ̇Lİ̇K",
+          "hint": "Bir millete duyulan bağlılık ve sevgi hissi."
+        },
+        {
+          "word": "HALKÇİLİK",
+          "hint": "Devlet yönetiminde halkın egemenliğini esas alan ilke."
+        },
+        {
+          "word": "DEVLETÇİ̇Lİ̇K",
+          "hint": "Ekonomik kalkınmada devletin rol alması prensibi."
+        },
+        {
+          "word": "İ̇NKİLAP",
+          "hint": "Toplum düzeninde köklü değişiklikler yapma."
+        },
+        {
+          "word": "SEVR",
+          "hint": "Osmanlı Devleti'nin Birinci Dünya Savaşı sonrası imzalamak zorunda kaldığı ağır anlaşma."
+        },
+        {
+          "word": "LOZAN",
+          "hint": "Yeni Türkiye Cumhuriyeti'nin bağımsızlığını ve sınırlarını uluslararası alanda tanıtan anlaşma."
+        },
+        {
+          "word": "SÜLFRAJE",
+          "hint": "Kadınların oy kullanma ve seçilme hakkı."
+        },
+        {
+          "word": "TÜZÜK",
+          "hint": "Kanunların uygulanmasını kolaylaştıran yönetmelik."
+        },
+        {
+          "word": "TEŞKİ̇LAT",
+          "hint": "Belirli bir amaca ulaşmak için kurulan yapı veya düzen."
+        },
+        {
+          "word": "BATİ",
+          "hint": "Genellikle Avrupa ve Amerika'daki gelişmiş ülkeleri ifade eden coğrafi yön."
+        },
+        {
+          "word": "ŞERİ̇AT",
+          "hint": "İslam dini kurallarına dayanan hukuk sistemi."
+        },
+        {
+          "word": "MODERN",
+          "hint": "Çağdaş, yenilikçi ve gelişmiş anlamına gelen sıfat."
+        },
+        {
+          "word": "AYRİMCİLİK",
+          "hint": "İnsanlar arasında din, dil, ırk gibi nedenlerle yapılan haksız tutum."
+        },
+        {
+          "word": "EĞİ̇Tİ̇M",
+          "hint": "Bireyin bilgi, beceri ve ahlak kazanmasını sağlayan süreç."
+        },
+        {
+          "word": "BAĞİMSİZLİK",
+          "hint": "Başka bir ülkenin egemenliği altında olmadan yaşama durumu."
+        },
+        {
+          "word": "EGEMENLİ̇K",
+          "hint": "Devletin kendi sınırları içinde en üst karar verme yetkisi."
+        },
+        {
+          "word": "ULUSAL",
+          "hint": "Bir ulusa veya millete ait olan."
+        },
+        {
+          "word": "ÖRGÜT",
+          "hint": "Ortak bir amaç için bir araya gelmiş topluluk."
+        },
+        {
+          "word": "GAZETE",
+          "hint": "Güncel olayları duyuran basılı yayın."
+        },
+        {
+          "word": "Tİ̇YATRO",
+          "hint": "Sahnelenen dramatik eser."
+        },
+        {
+          "word": "SANAT",
+          "hint": "İnsanların duygu ve düşüncelerini estetik biçimde yansıtma uğraşı."
+        },
+        {
+          "word": "EKONOMİ̇",
+          "hint": "Bir ülkenin mal ve hizmet üretimi, tüketimi ve dağıtımıyla ilgili faaliyetler."
+        },
+        {
+          "word": "TARİM",
+          "hint": "Toprağı ekerek bitki yetiştirme ve hayvan yetiştirme işi."
+        },
+        {
+          "word": "SANAYİ̇",
+          "hint": "Ham maddeleri işleyerek fabrika ürünleri üretme faaliyeti."
+        },
+        {
+          "word": "Mİ̇SYON",
+          "hint": "Özel bir görevi veya amacı yerine getirme."
+        },
+        {
+          "word": "Vİ̇ZYON",
+          "hint": "Geleceğe yönelik uzun vadeli hedef ve amaçlar."
+        },
+        {
+          "word": "PLATFORM",
+          "hint": "Belli bir amaç için bir araya gelmiş toplulukların oluşturduğu zemin."
+        },
+        {
+          "word": "YAYİNCİLİK",
+          "hint": "Kitap, dergi gibi eserleri basıp dağıtma işi."
+        },
+        {
+          "word": "SEÇİ̇M",
+          "hint": "Yönetimi belirlemek için oy kullanma işlemi."
+        },
+        {
+          "word": "KADİN",
+          "hint": "Toplumun erkek olmayan yarısı."
+        },
+        {
+          "word": "ÇOCUK",
+          "hint": "Genç yaşta olan insan yavrusu."
+        },
+        {
+          "word": "GENÇLİ̇K",
+          "hint": "İnsanların çocukluktan sonraki yetişkinlik öncesi dönemi."
+        },
+        {
+          "word": "ASKER",
+          "hint": "Ülkesi için silahlı görev yapan kişi."
+        },
+        {
+          "word": "MÜLTECİ̇",
+          "hint": "Savaştan veya zulümden kaçıp başka ülkeye sığınan kişi."
+        },
+        {
+          "word": "DÜNYA",
+          "hint": "Yaşadığımız gezegen."
+        },
+        {
+          "word": "BARİŞ",
+          "hint": "Savaşın olmaması durumu, huzur."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Ülkeler veya gruplar arasındaki silahlı çatışma."
+        },
+        {
+          "word": "AND",
+          "hint": "Bir konuda verilen kuvvetli söz, yemin."
+        },
+        {
+          "word": "BAYRAK",
+          "hint": "Bir ulusu veya kurumu simgeleyen renkli kumaş."
+        },
+        {
+          "word": "MARŞ",
+          "hint": "Genellikle törenlerde çalınan coşkulu müzik."
+        },
+        {
+          "word": "HALKEVİ̇",
+          "hint": "Halkın kültürel ve sosyal gelişimini amaçlayan kurum."
+        },
+        {
+          "word": "MÜZİ̇K",
+          "hint": "Seslerin uyumlu bir şekilde bir araya gelmesiyle oluşan sanat dalı."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun kendine özgü yaşam biçimi, inançları ve sanatları."
+        },
+        {
+          "word": "GELENEK",
+          "hint": "Bir toplumda kuşaktan kuşağa aktarılan görenek."
+        },
+        {
+          "word": "VAKİF",
+          "hint": "Yardım amacıyla kurulan tüzel kişilik."
+        },
+        {
+          "word": "DERNEK",
+          "hint": "Belirli bir amaç için bir araya gelen gönüllü kişilerin oluşturduğu topluluk."
+        }
       ]
     }
   ]

@@ -3,25 +3,431 @@
     {
       "id": "sosyal_u1",
       "name": "1. Ünite: Haritalar",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "HARİTA", "hint": "Yeryüzünün kuşbakışı çizilmiş küçültülmüş şekli"},
-        {"word": "ÖLÇEK", "hint": "Haritadaki küçültme oranını gösteren değer"},
-        {"word": "PUSULA", "hint": "Yön bulmak için kullanılan mıknatıslı araç"},
-        {"word": "KÜRE", "hint": "Dünyanın küçük modeli olan yuvarlak araç"},
-        {"word": "SEMBOL", "hint": "Haritada bir şeyi temsil eden küçük işaret"}
+        {
+          "word": "HARİTA",
+          "hint": "Yeryüzünün kuşbakışı çizilmiş küçültülmüş şekli"
+        },
+        {
+          "word": "ÖLÇEK",
+          "hint": "Haritadaki küçültme oranını gösteren değer"
+        },
+        {
+          "word": "PUSULA",
+          "hint": "Yön bulmak için kullanılan mıknatıslı araç"
+        },
+        {
+          "word": "KÜRE",
+          "hint": "Dünyanın küçük modeli olan yuvarlak araç"
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Haritada bir şeyi temsil eden küçük işaret"
+        },
+        {
+          "word": "YERYÜZÜ",
+          "hint": "Yaşadığımız gezegenin dış kısmı."
+        },
+        {
+          "word": "BÖLGE",
+          "hint": "Belirli özelliklere sahip geniş alan."
+        },
+        {
+          "word": "ÖLÇÜ",
+          "hint": "Bir şeyin ne kadar büyük veya küçük olduğunu belirten değer."
+        },
+        {
+          "word": "YÖN",
+          "hint": "Bir yerin nerede olduğunu gösteren işaret."
+        },
+        {
+          "word": "KİTA",
+          "hint": "Çok büyük kara parçası."
+        },
+        {
+          "word": "OKYANUS",
+          "hint": "Çok büyük tuzlu su kütlesi."
+        },
+        {
+          "word": "DENİ̇Z",
+          "hint": "Okyanustan küçük tuzlu su alanı."
+        },
+        {
+          "word": "GÖL",
+          "hint": "Etrafı karayla çevrili tatlı su veya tuzlu su kümesi."
+        },
+        {
+          "word": "AKARSU",
+          "hint": "Bir yerden bir yere akan doğal su yolu."
+        },
+        {
+          "word": "DAĞ",
+          "hint": "Yeryüzünün engebeli ve yüksek yeri."
+        },
+        {
+          "word": "OVA",
+          "hint": "Düz ve geniş yeryüzü şekli."
+        },
+        {
+          "word": "VADİ̇",
+          "hint": "Genellikle akarsuların açtığı, iki yanından yüksek dağlarla çevrili alan."
+        },
+        {
+          "word": "TÜRBE",
+          "hint": "Dini ve tarihi önemi olan kişilerin mezarlarının bulunduğu yapılar."
+        },
+        {
+          "word": "CAMİ̇",
+          "hint": "Müslümanların ibadet ettiği yer."
+        },
+        {
+          "word": "SARAY",
+          "hint": "Eski zamanlarda kralların, sultanların yaşadığı büyük ve gösterişli ev."
+        },
+        {
+          "word": "MÜZE",
+          "hint": "Tarihi ve sanatsal eserlerin sergilendiği yer."
+        },
+        {
+          "word": "ANİT",
+          "hint": "Önemli bir olayı veya kişiyi anmak için yapılan abide."
+        },
+        {
+          "word": "OKUL",
+          "hint": "Çocukların ders gördüğü, bilgi öğrendiği yer."
+        },
+        {
+          "word": "HASTANE",
+          "hint": "Sağlığı bozulanların tedavi edildiği yer."
+        },
+        {
+          "word": "BELEDİ̇YE",
+          "hint": "Şehirlerin veya kasabaların yönetildiği resmi kurum."
+        },
+        {
+          "word": "POSTANE",
+          "hint": "Mektupların ve paketlerin gönderilip alındığı yer."
+        },
+        {
+          "word": "KÜTÜPHANE",
+          "hint": "Kitapların saklandığı ve ödünç alındığı yer."
+        },
+        {
+          "word": "BAŞKENT",
+          "hint": "Bir ülkenin yönetim merkezi olan en önemli şehri."
+        },
+        {
+          "word": "SİNİR",
+          "hint": "İki ülke veya bölge arasındaki çizgi."
+        },
+        {
+          "word": "NÜFUS",
+          "hint": "Bir yerde yaşayan insan sayısı."
+        },
+        {
+          "word": "TARİ̇H",
+          "hint": "Geçmişte yaşanmış olaylar."
+        },
+        {
+          "word": "YER ŞEKİ̇LLERİ̇",
+          "hint": "Yeryüzünün görünüşünü oluşturan oluşumlar."
+        },
+        {
+          "word": "UZUNLUK",
+          "hint": "Bir şeyin bir ucundan diğer ucuna kadar olan mesafesi."
+        },
+        {
+          "word": "GENİ̇ŞLİ̇K",
+          "hint": "Bir şeyin bir kenarından diğer kenarına kadar olan mesafesi."
+        },
+        {
+          "word": "YÜKSEKLİ̇K",
+          "hint": "Bir şeyin tabanından tepesine kadar olan mesafesi."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir yüzeyin kapladığı yer miktarı."
+        },
+        {
+          "word": "BOYUT",
+          "hint": "Bir şeyin uzunluk, genişlik ve yükseklik gibi ölçüleri."
+        },
+        {
+          "word": "MESAFE",
+          "hint": "İki nokta arasındaki uzaklık."
+        },
+        {
+          "word": "GÖRÜNTÜ",
+          "hint": "Bir yerin uzaktan veya yukarıdan çekilmiş resmi."
+        },
+        {
+          "word": "DOĞAL",
+          "hint": "İnsan eli değmeden oluşmuş."
+        },
+        {
+          "word": "BEŞERİ̇",
+          "hint": "İnsanlar tarafından yapılmış."
+        },
+        {
+          "word": "BATİ",
+          "hint": "Güneşin battığı yön."
+        },
+        {
+          "word": "DOĞU",
+          "hint": "Güneşin doğduğu yön."
+        },
+        {
+          "word": "KUZEY",
+          "hint": "Cepheden bakıldığında sol taraf."
+        },
+        {
+          "word": "GÜNEY",
+          "hint": "Cepheden bakıldığında sağ taraf."
+        },
+        {
+          "word": "Çİ̇ZELGE",
+          "hint": "Bilgileri göstermek için satır ve sütunlardan oluşan tablo."
+        },
+        {
+          "word": "GÖSTERGE",
+          "hint": "Bir şeyin anlamını anlatan işaret veya resim."
+        },
+        {
+          "word": "TÜM",
+          "hint": "Bütünü kapsayan, hepsi."
+        },
+        {
+          "word": "PARÇA",
+          "hint": "Bütünden ayrılmış bölüm."
+        },
+        {
+          "word": "TÜRLÜ",
+          "hint": "Çeşitli, farklı türde."
+        },
+        {
+          "word": "Bİ̇RLEŞİ̇K",
+          "hint": "Bir araya gelmiş, bitişik."
+        }
       ]
     },
     {
       "id": "sosyal_u2",
       "name": "2. Ünite: Yönler",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "KUZEY", "hint": "Kutup yıldızının bulunduğu ana yön"},
-        {"word": "GÜNEY", "hint": "Kuzeyin tam karşısındaki ana yön"},
-        {"word": "DOĞU", "hint": "Güneşin doğduğu taraftaki ana yön"},
-        {"word": "BATI", "hint": "Güneşin battığı taraftaki ana yön"},
-        {"word": "GÜNEYDOĞU", "hint": "Güney ile doğu arasındaki ara yön"}
+        {
+          "word": "KUZEY",
+          "hint": "Kutup yıldızının bulunduğu ana yön"
+        },
+        {
+          "word": "GÜNEY",
+          "hint": "Kuzeyin tam karşısındaki ana yön"
+        },
+        {
+          "word": "DOĞU",
+          "hint": "Güneşin doğduğu taraftaki ana yön"
+        },
+        {
+          "word": "BATI",
+          "hint": "Güneşin battığı taraftaki ana yön"
+        },
+        {
+          "word": "GÜNEYDOĞU",
+          "hint": "Güney ile doğu arasındaki ara yön"
+        },
+        {
+          "word": "PUSULA",
+          "hint": "Yönleri bulmaya yarayan alet"
+        },
+        {
+          "word": "YÖN",
+          "hint": "Bir şeyin gideceği tarafı belirten ilke"
+        },
+        {
+          "word": "KAVŞAK",
+          "hint": "Birçok yolun birleştiği yer"
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Bir yerin etrafı"
+        },
+        {
+          "word": "HARİTA",
+          "hint": "Yeryüzünün veya bir bölümünün bir düzlem üzerine çizilmiş şekli"
+        },
+        {
+          "word": "KONUM",
+          "hint": "Bir yerin ne nerede olduğu"
+        },
+        {
+          "word": "MERKEZ",
+          "hint": "Bir yerin ortası"
+        },
+        {
+          "word": "İZDÜŞÜM",
+          "hint": "Bir şeklin düzlem üzerine yansıması"
+        },
+        {
+          "word": "ANA",
+          "hint": "En önemli, esas olan"
+        },
+        {
+          "word": "TALİ",
+          "hint": "Önemli olmayan, ikincil"
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Dünyamıza ışık ve ısı veren gök cismi"
+        },
+        {
+          "word": "DOĞMAK",
+          "hint": "Güneşin ufuktan yükselmesi"
+        },
+        {
+          "word": "BATMAK",
+          "hint": "Güneşin ufukta kaybolması"
+        },
+        {
+          "word": "SABAH",
+          "hint": "Güneşin doğduğu vakit"
+        },
+        {
+          "word": "AKŞAM",
+          "hint": "Güneşin battığı vakit"
+        },
+        {
+          "word": "GÜNDÜZ",
+          "hint": "Sabah ile akşam arasındaki zaman dilimi"
+        },
+        {
+          "word": "GECE",
+          "hint": "Akşam ile sabah arasındaki karanlık zaman dilimi"
+        },
+        {
+          "word": "UFUK",
+          "hint": "Gök ile yerin veya denizin birleştiği çizgi"
+        },
+        {
+          "word": "ÇİZGİ",
+          "hint": "İki noktayı birleştiren temel şekil"
+        },
+        {
+          "word": "DÜZLEM",
+          "hint": "Geniş ve yassı yüzey"
+        },
+        {
+          "word": "UZAK",
+          "hint": "Mesafesi çok olan"
+        },
+        {
+          "word": "YAKIN",
+          "hint": "Mesafesi az olan"
+        },
+        {
+          "word": "SAĞ",
+          "hint": "Solun karşıtı yön"
+        },
+        {
+          "word": "SOL",
+          "hint": "Sağın karşıtı yön"
+        },
+        {
+          "word": "ÖN",
+          "hint": "Bir şeyin yüzü, görünen tarafı"
+        },
+        {
+          "word": "ARKA",
+          "hint": "Bir şeyin ön tarafının karşıtı"
+        },
+        {
+          "word": "YUKARI",
+          "hint": "Tavan yönü"
+        },
+        {
+          "word": "AŞAĞI",
+          "hint": "Yer yönü"
+        },
+        {
+          "word": "YOL",
+          "hint": "Gidilecek veya ulaşılacak yere gitmek için üzerinde gidilen toprak, çakıl vb. ile kaplı veya asfaltlı döşeli veya doğal olarak açık bulunan çizgi"
+        },
+        {
+          "word": "İSTİKAMET",
+          "hint": "Gidilecek yön"
+        },
+        {
+          "word": "GÖSTERGE",
+          "hint": "Bir şeyi belirten işaret"
+        },
+        {
+          "word": "ÖLÇMEK",
+          "hint": "Boyutları, miktarı belirlemek"
+        },
+        {
+          "word": "BELİRLEMEK",
+          "hint": "Bir şeyi açıkça ortaya koymak, saptamak"
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Bir fikri, nesneyi veya ilişkiyi temsil eden işaret"
+        },
+        {
+          "word": "İŞARET",
+          "hint": "Bir şeyi anlatmak, belirtmek veya uyarmak için kullanılan hareket, ses, yazı veya nesne"
+        },
+        {
+          "word": "HARİTA ELEMANLARI",
+          "hint": "Haritanın anlaşılmasını sağlayan yardımcı bilgiler (yön oku, lejant vb.)"
+        },
+        {
+          "word": "LEJANT",
+          "hint": "Haritadaki işaretlerin ne anlama geldiğini açıklayan bölüm"
+        },
+        {
+          "word": "ÖLÇEK",
+          "hint": "Haritadaki uzaklık ile gerçek uzaklık arasındaki orantı"
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Her noktası eşit uzaklıkta olan, kesişmeyen doğrular"
+        },
+        {
+          "word": "MERİDYEN",
+          "hint": "Kutupları birleştiren yarım çemberler"
+        },
+        {
+          "word": "ENLEM",
+          "hint": "Ekvator'a olan açısal uzaklık"
+        },
+        {
+          "word": "BOYLAM",
+          "hint": "Başlangıç meridyenine olan açısal uzaklık"
+        },
+        {
+          "word": "EKVATOR",
+          "hint": "Dünyayı kuzey ve güney olarak ikiye bölen hayali çizgi"
+        },
+        {
+          "word": "KUTUPLAR",
+          "hint": "Dünyanın en uç noktaları (Kuzey ve Güney)"
+        },
+        {
+          "word": "COĞRAFYA",
+          "hint": "Yeryüzünü ve üzerindeki canlıları inceleyen bilim dalı"
+        }
       ]
     }
   ]

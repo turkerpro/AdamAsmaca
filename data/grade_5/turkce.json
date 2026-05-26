@@ -3,25 +3,447 @@
     {
       "id": "turkce5_u1",
       "name": "1. Ünite: Fiiller",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "FİİL", "hint": "Hareket, oluş veya durum bildiren sözcük"},
-        {"word": "EYLEM", "hint": "Fiil sözcüğünün eş anlamlısı"},
-        {"word": "MASTAR", "hint": "Fiilin -mek, -mak ekli temel hâli"},
-        {"word": "KÖKLER", "hint": "Sözcüğün anlamlı en küçük parçaları"},
-        {"word": "ZAMAN", "hint": "Fiilin geçmiş, şimdiki veya gelecek olması"}
+        {
+          "word": "FİİL",
+          "hint": "Hareket, oluş veya durum bildiren sözcük"
+        },
+        {
+          "word": "EYLEM",
+          "hint": "Fiil sözcüğünün eş anlamlısı"
+        },
+        {
+          "word": "MASTAR",
+          "hint": "Fiilin -mek, -mak ekli temel hâli"
+        },
+        {
+          "word": "KÖKLER",
+          "hint": "Sözcüğün anlamlı en küçük parçaları"
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Fiilin geçmiş, şimdiki veya gelecek olması"
+        },
+        {
+          "word": "KOŞMAK",
+          "hint": "Hızlı adımlarla ilerlemek."
+        },
+        {
+          "word": "YÜRÜMEK",
+          "hint": "Ayağını yerden keserek ilerlemek."
+        },
+        {
+          "word": "ATLAMAK",
+          "hint": "Yerden yükselip tekrar yere inmek."
+        },
+        {
+          "word": "Sİ̇MMER",
+          "hint": "Bir yerden bir yere gitmek."
+        },
+        {
+          "word": "OTURMAK",
+          "hint": "Vücudunun ağırlığını bir yere vermek."
+        },
+        {
+          "word": "YATMAK",
+          "hint": "Sırt üstü veya yüz üstü uzanmak."
+        },
+        {
+          "word": "BAŞLAMAK",
+          "hint": "Bir işe girişmek, ilk adımı atmak."
+        },
+        {
+          "word": "Bİ̇Tİ̇RMEK",
+          "hint": "Bir işi sonlandırmak."
+        },
+        {
+          "word": "OKUMAK",
+          "hint": "Yazılı bir şeyi anlamaya çalışmak."
+        },
+        {
+          "word": "YAZMAK",
+          "hint": "Harfleri veya şekilleri kağıda dökmek."
+        },
+        {
+          "word": "GÖRMEK",
+          "hint": "Gözleriyle bir şeyi fark etmek."
+        },
+        {
+          "word": "DUYMAK",
+          "hint": "Kulaklarıyla bir ses almak."
+        },
+        {
+          "word": "SÖYLEMEK",
+          "hint": "Konuşarak bir şey anlatmak."
+        },
+        {
+          "word": "Dİ̇NLEMEK",
+          "hint": "Sesleri dikkatle anlamaya çalışmak."
+        },
+        {
+          "word": "ANLAMAK",
+          "hint": "Bir şeyi kavrayıp öğrenmek."
+        },
+        {
+          "word": "Bİ̇LMEK",
+          "hint": "Bir konuda bilgi sahibi olmak."
+        },
+        {
+          "word": "İ̇STEMEK",
+          "hint": "Bir şeye sahip olmayı veya yapmayı arzulamak."
+        },
+        {
+          "word": "VERMEK",
+          "hint": "Bir şeyi başkasına sunmak."
+        },
+        {
+          "word": "ALMAK",
+          "hint": "Bir şeyi elde etmek."
+        },
+        {
+          "word": "YAPMAK",
+          "hint": "Ortaya bir şey çıkarmak, üretmek."
+        },
+        {
+          "word": "ETMEK",
+          "hint": "Bir işi gerçekleştirmek."
+        },
+        {
+          "word": "OLMAK",
+          "hint": "Mevcut bulunmak veya bir duruma gelmek."
+        },
+        {
+          "word": "GELMEK",
+          "hint": "Bir yere varmak."
+        },
+        {
+          "word": "Gİ̇TMEK",
+          "hint": "Bir yerden ayrılıp uzaklaşmak."
+        },
+        {
+          "word": "ÇİKMAK",
+          "hint": "Yukarı doğru hareket etmek."
+        },
+        {
+          "word": "İ̇NMEK",
+          "hint": "Aşağı doğru hareket etmek."
+        },
+        {
+          "word": "Gİ̇RMEY",
+          "hint": "Bir yere içeriye doğru hareket etmek."
+        },
+        {
+          "word": "BAKARAK",
+          "hint": "Gözleriyle bir şeye odaklanmak."
+        },
+        {
+          "word": "SEVMEK",
+          "hint": "Bir şeye karşı olumlu duygu beslemek."
+        },
+        {
+          "word": "SEVMEMEK",
+          "hint": "Bir şeye karşı olumsuz duygu beslemek."
+        },
+        {
+          "word": "BEĞENMEK",
+          "hint": "Bir şeyi hoş bulmak."
+        },
+        {
+          "word": "KAZANMAK",
+          "hint": "Çabası sonucu bir şey elde etmek."
+        },
+        {
+          "word": "KAYBETMEK",
+          "hint": "Sahip olduğu bir şeyi yitirmek."
+        },
+        {
+          "word": "BAŞARMAK",
+          "hint": "Bir işi istenilen şekilde tamamlamak."
+        },
+        {
+          "word": "ÇALİŞMAK",
+          "hint": "Bir hedef için uğraşmak."
+        },
+        {
+          "word": "OYNAMAK",
+          "hint": "Eğlenmek için hareketlerde bulunmak."
+        },
+        {
+          "word": "BULDUR",
+          "hint": "Kaybolmuş bir şeyi yeniden bulmak."
+        },
+        {
+          "word": "DÜŞÜNMEK",
+          "hint": "Zihninde fikirler üretmek."
+        },
+        {
+          "word": "HATİRLAMAK",
+          "hint": "Geçmişte olanları zihinde canlandırmak."
+        },
+        {
+          "word": "UNUTMAK",
+          "hint": "Bilgileri veya olanları zihinden çıkarmak."
+        },
+        {
+          "word": "UYUMAK",
+          "hint": "Dinlenmek için gözleri kapalı kalmak."
+        },
+        {
+          "word": "UYANMAK",
+          "hint": "Uyku durumundan çıkmak."
+        },
+        {
+          "word": "GÜLMEK",
+          "hint": "Neşeli bir duyguyla yüz ifadesini değiştirmek."
+        },
+        {
+          "word": "AĞLAMAK",
+          "hint": "Üzüntülü bir duyguyla gözlerden yaş akıtmak."
+        },
+        {
+          "word": "YARDİM ETMEK",
+          "hint": "Birine destek olmak, muhtaç olduğu şeyi sağlamak."
+        },
+        {
+          "word": "YEMEK",
+          "hint": "Beslenmek için ağızdan bir şey almak."
+        },
+        {
+          "word": "İ̇ÇMEK",
+          "hint": "Sıvı bir şeyi ağızdan almak."
+        },
+        {
+          "word": "TEMİ̇ZLEMEK",
+          "hint": "Kirleri veya dağınıklığı gidermek."
+        },
+        {
+          "word": "Gİ̇YMEK",
+          "hint": "Üzerine elbise veya aksesuar almak."
+        }
       ]
     },
     {
       "id": "turkce5_u2",
       "name": "2. Ünite: İsimler",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "SÖZCÜK", "hint": "Anlamlı ses birliği, kelime demektir"},
-        {"word": "SIFAT", "hint": "İsimleri niteleyen veya belirten sözcük"},
-        {"word": "ÖZNE", "hint": "Cümlede eylemi gerçekleştiren öge"},
-        {"word": "TÜMCE", "hint": "Duygu veya düşünce bildiren söz dizisi"},
-        {"word": "YÜKLEM", "hint": "Cümlenin temel ögesi, eylemi bildirir"}
+        {
+          "word": "SÖZCÜK",
+          "hint": "Anlamlı ses birliği, kelime demektir"
+        },
+        {
+          "word": "SIFAT",
+          "hint": "İsimleri niteleyen veya belirten sözcük"
+        },
+        {
+          "word": "ÖZNE",
+          "hint": "Cümlede eylemi gerçekleştiren öge"
+        },
+        {
+          "word": "TÜMCE",
+          "hint": "Duygu veya düşünce bildiren söz dizisi"
+        },
+        {
+          "word": "YÜKLEM",
+          "hint": "Cümlenin temel ögesi, eylemi bildirir"
+        },
+        {
+          "word": "AD",
+          "hint": "Bir varlığı, kavramı veya duyguyu temsil eden kelime."
+        },
+        {
+          "word": "VARLİK",
+          "hint": "Gerçek veya düşünsel olarak bulunan her şey."
+        },
+        {
+          "word": "KAVRAM",
+          "hint": "Zihinde oluşan genel fikir veya anlayış."
+        },
+        {
+          "word": "DUGU",
+          "hint": "Sevinç, üzüntü, korku gibi içsel tepkiler."
+        },
+        {
+          "word": "NESNE",
+          "hint": "Eliyle dokunulabilen, görülebilen şeyler."
+        },
+        {
+          "word": "CANLİ",
+          "hint": "Nefes alan, beslenen, büyüyen varlıklar."
+        },
+        {
+          "word": "SOYUT",
+          "hint": "Elle tutulamayan, gözle görülemeyen, akılla kavranan isimler."
+        },
+        {
+          "word": "SOMUT",
+          "hint": "Elle tutulabilen, gözle görülebilen isimler."
+        },
+        {
+          "word": "OZEL",
+          "hint": "Tek bir kişiyi, yeri veya şeyi belirten isim."
+        },
+        {
+          "word": "UMUMİ̇",
+          "hint": "Türü içindeki her varlığı belirten isim."
+        },
+        {
+          "word": "TEKLİ̇K",
+          "hint": "Sayı olarak bir tane olan isim."
+        },
+        {
+          "word": "COĞUL",
+          "hint": "Sayı olarak birden çok olan isim."
+        },
+        {
+          "word": "YAPİM",
+          "hint": "Kökten yeni kelimeler türeten ek."
+        },
+        {
+          "word": "ÇEKİ̇M",
+          "hint": "Kelimeye durum veya zaman anlamı katan ek."
+        },
+        {
+          "word": "EK",
+          "hint": "Kök veya gövdeye eklenen harf veya harf grubu."
+        },
+        {
+          "word": "KÖK",
+          "hint": "Bir kelimenin anlamlı en küçük parçası."
+        },
+        {
+          "word": "GÖVDE",
+          "hint": "Kök ve yapım eklerinden oluşan kelime bölümü."
+        },
+        {
+          "word": "ADLAK",
+          "hint": "İsim soylu kelimelerin genel adı."
+        },
+        {
+          "word": "BENZER",
+          "hint": "Aynı türden olan isimler."
+        },
+        {
+          "word": "ZİT",
+          "hint": "Anlamca birbirinin tersi olan isimler."
+        },
+        {
+          "word": "ES",
+          "hint": "Anlamdaşı, yakın anlamlı kelimeler."
+        },
+        {
+          "word": "GÖSTERGE",
+          "hint": "Bir şeyi temsil eden işaret."
+        },
+        {
+          "word": "İ̇ŞARET",
+          "hint": "Bir anlamı iletmek için kullanılan belirti."
+        },
+        {
+          "word": "BELİ̇RTİ̇",
+          "hint": "Bir şeyin varlığını veya durumunu gösteren özellik."
+        },
+        {
+          "word": "TANİM",
+          "hint": "Bir kelimenin anlamını açıklama."
+        },
+        {
+          "word": "AÇİKLAMA",
+          "hint": "Bir konuyu daha anlaşılır kılma."
+        },
+        {
+          "word": "ÖRNEK",
+          "hint": "Belirli bir durumu veya olayı somutlaştıran misal."
+        },
+        {
+          "word": "SİNİFLAMA",
+          "hint": "Benzer özelliklere sahip varlıkları gruplama."
+        },
+        {
+          "word": "GRUPLAMA",
+          "hint": "Aynı nitelikteki şeyleri bir araya getirme."
+        },
+        {
+          "word": "AYİRMA",
+          "hint": "Farklılıkları ortaya çıkarma."
+        },
+        {
+          "word": "Bİ̇RLEŞTİ̇RME",
+          "hint": "Ayrı olanları bir araya getirme."
+        },
+        {
+          "word": "İ̇LGİ̇",
+          "hint": "İki şey arasındaki bağ."
+        },
+        {
+          "word": "BAĞ",
+          "hint": "İki şeyin birbirine tutunması veya bağlanması."
+        },
+        {
+          "word": "İ̇Lİ̇ŞKİ̇",
+          "hint": "Varlıklar arasındaki bağlantı."
+        },
+        {
+          "word": "YAKİNLİK",
+          "hint": "Birbirine az çok benzeyen durum."
+        },
+        {
+          "word": "UZAKLİK",
+          "hint": "Birbirinden mesafesi veya farkı olan durum."
+        },
+        {
+          "word": "ORTAK",
+          "hint": "Birçok kişiye veya şeye ait olan."
+        },
+        {
+          "word": "BAĞİMSİZ",
+          "hint": "Kendi kendine yeten, başkasına bağlı olmayan."
+        },
+        {
+          "word": "BAĞLİ",
+          "hint": "Bir şeye veya birine ait olan, ilişkili."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Bir varlığın veya olayın içinde bulunduğu hal."
+        },
+        {
+          "word": "HAL",
+          "hint": "Var olanın içinde bulunduğu koşullar."
+        },
+        {
+          "word": "KOŞUL",
+          "hint": "Gerçekleşmesi istenen şart."
+        },
+        {
+          "word": "ŞART",
+          "hint": "Bir olayın meydana gelmesi için gereken ön koşul."
+        },
+        {
+          "word": "DEĞİ̇ŞKEN",
+          "hint": "Durumu veya değeri değişebilen."
+        },
+        {
+          "word": "SABİ̇T",
+          "hint": "Değişmeyen, aynı kalan."
+        },
+        {
+          "word": "TEMEL",
+          "hint": "Her şeyin dayandığı ana unsur."
+        }
       ]
     }
   ]

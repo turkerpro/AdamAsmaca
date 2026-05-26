@@ -3,25 +3,431 @@
     {
       "id": "fen7_u1",
       "name": "1. Ünite: Atom",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "PROTON", "hint": "Atom çekirdeğinde bulunan artı yüklü parçacık"},
-        {"word": "NÖTRON", "hint": "Atom çekirdeğinde bulunan yüksüz parçacık"},
-        {"word": "ELEKTRON", "hint": "Atom çekirdeği etrafında dönen eksi yüklü parçacık"},
-        {"word": "ÇEKİRDEK", "hint": "Atomun merkezinde bulunan yoğun bölge"},
-        {"word": "KATMAN", "hint": "Elektronların çekirdek etrafında dizildiği enerji seviyesi"}
+        {
+          "word": "PROTON",
+          "hint": "Atom çekirdeğinde bulunan artı yüklü parçacık"
+        },
+        {
+          "word": "NÖTRON",
+          "hint": "Atom çekirdeğinde bulunan yüksüz parçacık"
+        },
+        {
+          "word": "ELEKTRON",
+          "hint": "Atom çekirdeği etrafında dönen eksi yüklü parçacık"
+        },
+        {
+          "word": "ÇEKİRDEK",
+          "hint": "Atomun merkezinde bulunan yoğun bölge"
+        },
+        {
+          "word": "KATMAN",
+          "hint": "Elektronların çekirdek etrafında dizildiği enerji seviyesi"
+        },
+        {
+          "word": "ATOM",
+          "hint": "Maddenin en küçük yapı taşıdır."
+        },
+        {
+          "word": "MOLEKÜL",
+          "hint": "Aynı veya farklı atomların bir araya gelmesiyle oluşan yapıdır."
+        },
+        {
+          "word": "ELEMENT",
+          "hint": "Aynı tür atomlardan oluşan saf maddedir."
+        },
+        {
+          "word": "Bİ̇LEŞİ̇K",
+          "hint": "Farklı tür atomların belirli oranlarda birleşmesiyle oluşan maddedir."
+        },
+        {
+          "word": "YÜK",
+          "hint": "Protonlarda pozitif, elektronlarda negatif olan temel özelliktir."
+        },
+        {
+          "word": "İ̇NDİ̇RGENME",
+          "hint": "Elektron alma olayıdır."
+        },
+        {
+          "word": "YÜKSELTGENME",
+          "hint": "Elektron verme olayıdır."
+        },
+        {
+          "word": "İ̇YON",
+          "hint": "Yüklenmiş atom veya atom grubudur."
+        },
+        {
+          "word": "KATYON",
+          "hint": "Pozitif yüklü iyondur, elektron vermiştir."
+        },
+        {
+          "word": "ANYON",
+          "hint": "Negatif yüklü iyondur, elektron almıştır."
+        },
+        {
+          "word": "DEĞERLİ̇K",
+          "hint": "Atomun bağ yapma kapasitesini gösteren elektron sayısıdır."
+        },
+        {
+          "word": "PERİ̇YOT",
+          "hint": "Elementlerin atom numaralarına göre sıralandığı yatay sıradır."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Elementlerin benzer kimyasal özellik gösterdiği dikey sütundur."
+        },
+        {
+          "word": "SEMBOLLER",
+          "hint": "Elementleri temsil eden harflerdir."
+        },
+        {
+          "word": "İZOTOP",
+          "hint": "Nötron sayısı farklı, proton sayısı aynı atomlardır."
+        },
+        {
+          "word": "KUTUPSAL",
+          "hint": "Elektronların eşit paylaşılmadığı bağ türüdür."
+        },
+        {
+          "word": "APOLAR",
+          "hint": "Elektronların eşit paylaşıldığı bağ türüdür."
+        },
+        {
+          "word": "KOVALENT",
+          "hint": "Atomların elektronlarını ortaklaşa kullandığı bağdır."
+        },
+        {
+          "word": "İ̇YONİ̇K",
+          "hint": "Atomların elektron alışverişi yaptığı bağdır."
+        },
+        {
+          "word": "METAL",
+          "hint": "Genellikle parlak, iletken, elektron veren elementlerdir."
+        },
+        {
+          "word": "AMETAL",
+          "hint": "Genellikle mat, iletken olmayan, elektron alan elementlerdir."
+        },
+        {
+          "word": "SOYGAZ",
+          "hint": "Kararlı yapıdaki, tepkimeye girmeyen elementlerdir."
+        },
+        {
+          "word": "MADDELER",
+          "hint": "Boşlukta yer kaplayan ve kütlesi olan her şey."
+        },
+        {
+          "word": "YAPİTAŞİ",
+          "hint": "Bir şeyi oluşturan en küçük parça."
+        },
+        {
+          "word": "ÖZELLİ̇K",
+          "hint": "Bir varlığın kendine has durumu."
+        },
+        {
+          "word": "Mİ̇KTAR",
+          "hint": "Bir şeyin ne kadar olduğunun ölçüsü."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki niceliğin birbirine bölünmesiyle elde edilen değer."
+        },
+        {
+          "word": "SİKLİĞİ",
+          "hint": "Bir olayın ne kadar sık tekrarlandığı."
+        },
+        {
+          "word": "DALGA",
+          "hint": "Enerjinin bir yerden bir yere titreşimlerle aktarılmasıdır."
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme yeteneğidir."
+        },
+        {
+          "word": "Tİ̇TREŞİ̇M",
+          "hint": "Bir şeyin hızlı ileri geri hareketi."
+        },
+        {
+          "word": "BOŞLUK",
+          "hint": "İçinde hiçbir şey olmayan yer."
+        },
+        {
+          "word": "BAĞ",
+          "hint": "Atomların bir arada durmasını sağlayan kuvvettir."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Bir cismi hareket ettirebilen veya şeklini değiştirebilen etki."
+        },
+        {
+          "word": "VARLİK",
+          "hint": "Gerçekte bulunan, mevcut olan şey."
+        },
+        {
+          "word": "TANECİ̇K",
+          "hint": "Çok küçük, bölünemez olduğu düşünülen parçacık."
+        },
+        {
+          "word": "BÖLÜNEBİ̇Lİ̇R",
+          "hint": "Parçalara ayrılabilen."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Elementlerin sınıflandırıldığı ve özelliklerinin gösterildiği çizelgedir."
+        },
+        {
+          "word": "BASİNÇ",
+          "hint": "Bir yüzeye dik olarak uygulanan kuvvettir."
+        },
+        {
+          "word": "SİCAKLİK",
+          "hint": "Bir cismin atomlarının kinetik enerjisinin bir ölçüsüdür."
+        },
+        {
+          "word": "Kİ̇NETİ̇K",
+          "hint": "Hareketle ilgili olan."
+        },
+        {
+          "word": "FAZ",
+          "hint": "Maddenin katı, sıvı veya gaz hali."
+        },
+        {
+          "word": "DEĞİ̇Şİ̇M",
+          "hint": "Bir durumdan başka bir duruma geçiş."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Bir bileşiği oluşturan atomları ve sayılarını gösteren sembollerdir."
+        },
+        {
+          "word": "KARARLİ",
+          "hint": "Kolay kolay değişmeyen, dengede olan."
+        },
+        {
+          "word": "KARARSİZ",
+          "hint": "Kolayca tepkimeye giren, dengesiz."
+        }
       ]
     },
     {
       "id": "fen7_u2",
       "name": "2. Ünite: Elektrik",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "AKIM", "hint": "Elektrik yüklerinin iletken boyunca hareketi"},
-        {"word": "GERİLİM", "hint": "İki nokta arasındaki elektriksel potansiyel farkı"},
-        {"word": "DİRENÇ", "hint": "Akıma karşı gösterilen zorluk birimi ohm"},
-        {"word": "DEVRE", "hint": "Elektrik akımının izlediği kapalı yol"},
-        {"word": "İLETKEN", "hint": "Elektrik akımını kolayca geçiren madde türü"}
+        {
+          "word": "AKIM",
+          "hint": "Elektrik yüklerinin iletken boyunca hareketi"
+        },
+        {
+          "word": "GERİLİM",
+          "hint": "İki nokta arasındaki elektriksel potansiyel farkı"
+        },
+        {
+          "word": "DİRENÇ",
+          "hint": "Akıma karşı gösterilen zorluk birimi ohm"
+        },
+        {
+          "word": "DEVRE",
+          "hint": "Elektrik akımının izlediği kapalı yol"
+        },
+        {
+          "word": "İLETKEN",
+          "hint": "Elektrik akımını kolayca geçiren madde türü"
+        },
+        {
+          "word": "VOLTAJ",
+          "hint": "Elektrik yüklerinin hareketini sağlayan itici güç."
+        },
+        {
+          "word": "AMPUL",
+          "hint": "Elektrik enerjisini ışık enerjisine çeviren aydınlatma aracı."
+        },
+        {
+          "word": "Pİ̇L",
+          "hint": "Elektrik enerjisi üreten kimyasal enerji kaynağı."
+        },
+        {
+          "word": "ANAHTAR",
+          "hint": "Elektrik devresini açıp kapatmaya yarayan parça."
+        },
+        {
+          "word": "KABLO",
+          "hint": "Elektriği ileten, genellikle yalıtkan bir maddeyle kaplanmış teller."
+        },
+        {
+          "word": "YALİTKAN",
+          "hint": "Elektriği iyi iletmeyen maddelerin genel adı."
+        },
+        {
+          "word": "ELEKTRON",
+          "hint": "Atomun çekirdeği etrafında dönen negatif yüklü tanecik."
+        },
+        {
+          "word": "STATİ̇K",
+          "hint": "Hareket etmeyen, durgun haldeki elektrik yükleriyle ilgili."
+        },
+        {
+          "word": "KUTUP",
+          "hint": "Mıknatısların veya pillerin kuzey ve güney gibi iki ucundan her biri."
+        },
+        {
+          "word": "ENERJİ̇",
+          "hint": "İş yapabilme yeteneği, elektrik de bir türü."
+        },
+        {
+          "word": "KİSA DEVRE",
+          "hint": "Elektriğin beklenmedik ve tehlikeli bir şekilde yolunu bulması durumu."
+        },
+        {
+          "word": "JULL",
+          "hint": "Enerji birimi."
+        },
+        {
+          "word": "BAĞLANTİ",
+          "hint": "Elektrikli aletlerin birbirine veya enerji kaynağına bağlanması şekli."
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Bir devre türü; birden fazla yolun olduğu bağlantı şekli."
+        },
+        {
+          "word": "SERİ̇",
+          "hint": "Bir devre türü; tek bir yolun olduğu bağlantı şekli."
+        },
+        {
+          "word": "MANYETİ̇ZMA",
+          "hint": "Mıknatısların çekme veya itme gücüyle ilgili bilim dalı, elektrikle de bağlantılı."
+        },
+        {
+          "word": "KORNA",
+          "hint": "Elektrikle çalışan, ses çıkaran uyarıcı araç."
+        },
+        {
+          "word": "MOTOR",
+          "hint": "Elektrik enerjisini hareket enerjisine çeviren alet."
+        },
+        {
+          "word": "JENERATÖR",
+          "hint": "Mekanik enerjiyi elektrik enerjisine çeviren aygıt."
+        },
+        {
+          "word": "ŞARJ",
+          "hint": "Pilin tekrar elektrik enerjisiyle doldurulması işlemi."
+        },
+        {
+          "word": "ELEKTROT",
+          "hint": "Pillerde veya elektrikle yapılan bazı işlemlerde akımı ileten iletken uç."
+        },
+        {
+          "word": "YÜK",
+          "hint": "Elektriklenmiş parçacıkların sahip olduğu özellik, pozitif veya negatif olabilir."
+        },
+        {
+          "word": "FREKANS",
+          "hint": "Alternatif akımın saniyedeki salınım sayısı."
+        },
+        {
+          "word": "OSİ̇LOSKOP",
+          "hint": "Elektrik sinyallerinin şeklini ve genliğini gösteren ölçüm cihazı."
+        },
+        {
+          "word": "KUTUPLAMA",
+          "hint": "Bir elektrik devresindeki kutupların doğru şekilde bağlanması."
+        },
+        {
+          "word": "BOŞALMA",
+          "hint": "Pilin içindeki enerjinin tükenmesi durumu."
+        },
+        {
+          "word": "İ̇NDÜKSİ̇YON",
+          "hint": "Değişen manyetik alanın bir devrede elektrik akımı oluşturması olayı."
+        },
+        {
+          "word": "TRANSFORMATÖR",
+          "hint": "Elektrik voltajını yükseltip alçaltmaya yarayan aygıt."
+        },
+        {
+          "word": "KONTROL",
+          "hint": "Elektrik akışını düzenleme veya durdurma işlemi."
+        },
+        {
+          "word": "Sİ̇GORTA",
+          "hint": "Devreden geçen akım fazlalaştığında devreyi korumak için atarak devreyi kesen parça."
+        },
+        {
+          "word": "TOPRAKLAMA",
+          "hint": "Elektrikli aletlerin gövdesini güvenli bir şekilde toprağa bağlama işlemi."
+        },
+        {
+          "word": "Dİ̇NAMO",
+          "hint": "Mekanik enerjiyi doğru akıma çeviren elektrik makinesi."
+        },
+        {
+          "word": "KONTROL KALEMİ̇",
+          "hint": "Elektrik olup olmadığını anlamaya yarayan basit alet."
+        },
+        {
+          "word": "ALTERNATÖR",
+          "hint": "Mekanik enerjiyi alternatif akıma çeviren makine."
+        },
+        {
+          "word": "İ̇ZOLASYON",
+          "hint": "Elektrik akımının iletilmesini engellemek için kullanılan yalıtım malzemeleri."
+        },
+        {
+          "word": "KAPASETÖR",
+          "hint": "Elektrik enerjisini depolayan alet."
+        },
+        {
+          "word": "ELEKTROSKOP",
+          "hint": "Cisimlerin elektriklendiğini ve yükünün işaretini anlamaya yarayan araç."
+        },
+        {
+          "word": "POTANSİ̇YEL",
+          "hint": "Elektrik yüklerinin sahip olduğu enerji durumu, gerilimin karşılığı."
+        },
+        {
+          "word": "YÜKLEYİ̇Cİ̇",
+          "hint": "Bir cismi elektrikle yükleyen aygıt veya işlem."
+        },
+        {
+          "word": "VERİ̇MLİ̇Lİ̇K",
+          "hint": "Elektrik enerjisinin ne kadarının faydalı işe dönüştürüldüğü oranı."
+        },
+        {
+          "word": "İ̇LETKENLİ̇K",
+          "hint": "Bir malzemenin elektriği ne kadar iyi ilettiğini gösteren özellik."
+        },
+        {
+          "word": "ORTAM",
+          "hint": "Elektrik akımının geçtiği veya etkilendiği çevre koşulları."
+        },
+        {
+          "word": "KORUYUCU",
+          "hint": "Elektrik devrelerini aşırı akımdan koruyan eleman."
+        },
+        {
+          "word": "KESİ̇TLİ̇ ALAN",
+          "hint": "Bir iletkenin enine kesitinin yüzölçümü, akıma etkisi vardır."
+        },
+        {
+          "word": "YÜZEY GERİ̇Lİ̇Mİ̇",
+          "hint": "Sıvıların yüzeyinde oluşan gerilim, elektrikle ilgisi azdır ama ilginç bir fen terimidir."
+        }
       ]
     }
   ]

@@ -3,25 +3,435 @@
     {
       "id": "tarih_u1",
       "name": "1. Ünite: Beylikler",
-      "months": [9, 10, 11, 12],
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "DANIŞMENTLER", "hint": "Sivas ve Tokat çevresinde kurulan Anadolu beyliği"},
-        {"word": "SALTUKLULAR", "hint": "Erzurum çevresinde kurulan ilk Türk beyliklerinden"},
-        {"word": "MENGÜCEKLER", "hint": "Erzincan ve Divriği çevresinde kurulan beylik"},
-        {"word": "ARTUKLULAR", "hint": "Güneydoğu Anadolu'da kurulan Türkmen beyliği"},
-        {"word": "ÇAKA BEY", "hint": "İlk Türk denizcisi olarak bilinen beylik kurucusu"}
+        {
+          "word": "DANIŞMENTLER",
+          "hint": "Sivas ve Tokat çevresinde kurulan Anadolu beyliği"
+        },
+        {
+          "word": "SALTUKLULAR",
+          "hint": "Erzurum çevresinde kurulan ilk Türk beyliklerinden"
+        },
+        {
+          "word": "MENGÜCEKLER",
+          "hint": "Erzincan ve Divriği çevresinde kurulan beylik"
+        },
+        {
+          "word": "ARTUKLULAR",
+          "hint": "Güneydoğu Anadolu'da kurulan Türkmen beyliği"
+        },
+        {
+          "word": "ÇAKA BEY",
+          "hint": "İlk Türk denizcisi olarak bilinen beylik kurucusu"
+        },
+        {
+          "word": "ANADOLU",
+          "hint": "Türkiye'nin Asya kıtasında kalan büyük bölümü."
+        },
+        {
+          "word": "SELÇUKLU",
+          "hint": "Anadolu'da kurulan büyük Türk devleti."
+        },
+        {
+          "word": "BEYLİK",
+          "hint": "Küçük Türk devletçiklerine verilen isim."
+        },
+        {
+          "word": "FETİH",
+          "hint": "Bir yeri alıp egemenlik altına alma."
+        },
+        {
+          "word": "MİRASI",
+          "hint": "Önceki nesillerden kalan değerler."
+        },
+        {
+          "word": "TEŞKİLAT",
+          "hint": "Belirli bir amaca ulaşmak için kurulan yapı."
+        },
+        {
+          "word": "İ̇SKAN",
+          "hint": "Bir yere yerleşme ve orayı vatan edinme."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Mal ve hizmet alıp satma."
+        },
+        {
+          "word": "SARAY",
+          "hint": "Hükümdarın yaşadığı büyük ve gösterişli yapı."
+        },
+        {
+          "word": "KALE",
+          "hint": "Savunma amaçlı inşa edilmiş yüksek duvarlı yapı."
+        },
+        {
+          "word": "MEDRESE",
+          "hint": "Bilim ve eğitim verilen yüksekokul."
+        },
+        {
+          "word": "MİMARİ",
+          "hint": "Yapı sanatı."
+        },
+        {
+          "word": "ESKİŞEHİR",
+          "hint": "Kuruluşu eski olan şehir."
+        },
+        {
+          "word": "ERZİNCAN",
+          "hint": "Mengücekliler'in önemli merkezlerinden."
+        },
+        {
+          "word": "MARDİN",
+          "hint": "Artuklular'ın hakim olduğu şehir."
+        },
+        {
+          "word": "İ̇ZMİR",
+          "hint": "Çaka Bey'in donanma kurduğu liman."
+        },
+        {
+          "word": "KAYSERİ",
+          "hint": "Danişmentliler'in merkezi."
+        },
+        {
+          "word": "SİVAS",
+          "hint": "Danişmentliler'in önemli şehirlerinden."
+        },
+        {
+          "word": "MALATYA",
+          "hint": "Mengücekliler'in hakimiyetindeki şehirlerden."
+        },
+        {
+          "word": "HARPUT",
+          "hint": "Artuklular'ın önemli kalelerinden."
+        },
+        {
+          "word": "DİVAN",
+          "hint": "Hükümdarın danışma ve karar alma kurulu."
+        },
+        {
+          "word": "VEZİR",
+          "hint": "Hükümdardan sonra gelen en yetkili kişi."
+        },
+        {
+          "word": "EMİR",
+          "hint": "Ordu komutanı veya yönetici."
+        },
+        {
+          "word": "SULTAN",
+          "hint": "Hükümdar."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir toprak parçası üzerinde yaşayan örgütlü toplum."
+        },
+        {
+          "word": "TARİHÇİ",
+          "hint": "Geçmişi inceleyen ve yazan kişi."
+        },
+        {
+          "word": "ARKEOLOG",
+          "hint": "Kazılarla geçmişi araştıran bilim insanı."
+        },
+        {
+          "word": "YAZIT",
+          "hint": "Tarihi bilgileri içeren taş."
+        },
+        {
+          "word": "DESTAN",
+          "hint": "Kahramanlıkları anlatan uzun şiir."
+        },
+        {
+          "word": "EFSANE",
+          "hint": "Gerçekle ilgisi şüpheli hikaye."
+        },
+        {
+          "word": "ANLATI",
+          "hint": "Bir olayı veya durumu sözle veya yazıyla aktarma."
+        },
+        {
+          "word": "BELGE",
+          "hint": "Tarihi olayları ispatlayan yazılı kaynak."
+        },
+        {
+          "word": "TARİHSEL",
+          "hint": "Tarih ile ilgili olan."
+        },
+        {
+          "word": "DÖNEM",
+          "hint": "Belirli bir zaman dilimi."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun yaşayış biçimi, inançları."
+        },
+        {
+          "word": "SANAT",
+          "hint": "Güzellik duygusunu ifade etme biçimi."
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "Yazılı eserler bütünü."
+        },
+        {
+          "word": "FELSEFE",
+          "hint": "Hayatın ve varlığın anlamını sorgulama."
+        },
+        {
+          "word": "BİLİM",
+          "hint": "Gözlem ve deneye dayalı bilgi."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Bireyin bilgisini, becerisini artırma."
+        },
+        {
+          "word": "SOYKÜTÜK",
+          "hint": "Bir ailenin geçmişini gösteren kayıt."
+        },
+        {
+          "word": "VAKIF",
+          "hint": "Hayır işleri için kurulan kurum."
+        },
+        {
+          "word": "MANİ",
+          "hint": "Kısa, kafiyeli halk şiiri."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Yardım etme, arka çıkma."
+        },
+        {
+          "word": "STRATEJİ",
+          "hint": "Amaca ulaşmak için izlenen plan."
+        },
+        {
+          "word": "BAŞKENT",
+          "hint": "Bir devletin yönetim merkezi."
+        },
+        {
+          "word": "FETRET",
+          "hint": "Taht kavgaları yüzünden devletin zayıfladığı dönem."
+        }
       ]
     },
     {
       "id": "tarih_u2",
       "name": "2. Ünite: Osmanlı Devleti",
-      "months": [1, 2, 3, 4, 5, 6],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "words": [
-        {"word": "FATİH", "hint": "İstanbul'u fetheden Osmanlı padişahı"},
-        {"word": "DIVAN", "hint": "Osmanlı'da devlet işlerinin görüşüldüğü kurul"},
-        {"word": "TIMAR", "hint": "Askerlere hizmet karşılığı verilen toprak geliri"},
-        {"word": "KAPIKULU", "hint": "Padişaha bağlı maaşlı merkez ordusu askerleri"},
-        {"word": "ENDERUN", "hint": "Saray içinde devlet adamı yetiştiren okul"}
+        {
+          "word": "FATİH",
+          "hint": "İstanbul'u fetheden Osmanlı padişahı"
+        },
+        {
+          "word": "DIVAN",
+          "hint": "Osmanlı'da devlet işlerinin görüşüldüğü kurul"
+        },
+        {
+          "word": "TIMAR",
+          "hint": "Askerlere hizmet karşılığı verilen toprak geliri"
+        },
+        {
+          "word": "KAPIKULU",
+          "hint": "Padişaha bağlı maaşlı merkez ordusu askerleri"
+        },
+        {
+          "word": "ENDERUN",
+          "hint": "Saray içinde devlet adamı yetiştiren okul"
+        },
+        {
+          "word": "OSMANLİ",
+          "hint": "1299-1922 yılları arasında Anadolu ve Balkanlar'da hüküm sürmüş büyük Türk devleti."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir toprak parçası üzerinde egemenliği bulunan siyasi kuruluş."
+        },
+        {
+          "word": "SULTAN",
+          "hint": "Osmanlı Devleti'nde en yüksek yönetici, padişah."
+        },
+        {
+          "word": "PAŞA",
+          "hint": "Osmanlı Devleti'nde yüksek rütbeli asker veya devlet görevlilerine verilen unvan."
+        },
+        {
+          "word": "VEZİ̇R",
+          "hint": "Padişahın en yakın danışmanı ve hükümetin başı."
+        },
+        {
+          "word": "BEYLERBEYİ̇",
+          "hint": "Eyaletlerin en büyük yöneticisi."
+        },
+        {
+          "word": "SANCARBEYİ̇",
+          "hint": "Livaların (sancakların) yöneticisi."
+        },
+        {
+          "word": "KADİ",
+          "hint": "Şeri ve hukuki davalara bakan yargıç."
+        },
+        {
+          "word": "MÜFTÜ",
+          "hint": "Dini konularda fetva veren din bilgini."
+        },
+        {
+          "word": "DEFTERDAR",
+          "hint": "Mali işlerden sorumlu devlet görevlisi."
+        },
+        {
+          "word": "Mİ̇RALEM",
+          "hint": "Bayrakları taşıyan ve koruyan asker."
+        },
+        {
+          "word": "SERASKER",
+          "hint": "Ordunun başkomutanı."
+        },
+        {
+          "word": "AKİNCİ",
+          "hint": "Sınır boylarında akınlar düzenleyen hafif süvari birliği."
+        },
+        {
+          "word": "YAYA",
+          "hint": "Yürüyerek savaşan asker."
+        },
+        {
+          "word": "MÜSELLEH",
+          "hint": "Ağır silahlı asker."
+        },
+        {
+          "word": "TÜFEK",
+          "hint": "İptidai barutlu ateşli silah."
+        },
+        {
+          "word": "TOP",
+          "hint": "Ağır mühimmat taşıyan ve fırlatan savaş aracı."
+        },
+        {
+          "word": "KALE",
+          "hint": "Savunma amaçlı inşa edilmiş sağlam yapı."
+        },
+        {
+          "word": "SUR",
+          "hint": "Şehirleri çeviren yüksek duvar."
+        },
+        {
+          "word": "KULE",
+          "hint": "Sur veya kalelerde savunma ve gözetleme için yapılan yüksek yapı."
+        },
+        {
+          "word": "KÖPRÜ",
+          "hint": "Su veya engellerin üzerinden geçmeyi sağlayan yapı."
+        },
+        {
+          "word": "KERVANSARAY",
+          "hint": "Ticaret yolları üzerinde yolcuların konakladığı yapı."
+        },
+        {
+          "word": "HAN",
+          "hint": "Ticaret yapanların konakladığı, eşyalarını sakladığı yapı."
+        },
+        {
+          "word": "BEDESTEN",
+          "hint": "Değerli kumaş ve eşyaların alınıp satıldığı kapalı çarşı."
+        },
+        {
+          "word": "ARASTA",
+          "hint": "Belirli bir zanaata ait esnafın dükkanlarının bulunduğu dar sokak."
+        },
+        {
+          "word": "İ̇MAM",
+          "hint": "Camide namaz kıldıran kişi."
+        },
+        {
+          "word": "HATİ̇P",
+          "hint": "Cami ve cuma namazlarında hutbe okuyan kişi."
+        },
+        {
+          "word": "MÜEZZİ̇N",
+          "hint": "Ezan okuyan kişi."
+        },
+        {
+          "word": "DARÜŞŞİ̇FA",
+          "hint": "Sağlık hizmeti sunulan yer, hastane."
+        },
+        {
+          "word": "MEDRESE",
+          "hint": "Yükseköğretim kurumu, okul."
+        },
+        {
+          "word": "KÜTÜPHANE",
+          "hint": "Kitapların saklandığı ve okunduğu yer."
+        },
+        {
+          "word": "SAHAF",
+          "hint": "İkinci el veya eski kitap satan kişi."
+        },
+        {
+          "word": "NAKKAAŞ",
+          "hint": "Desen ve süsleme yapan sanatçı."
+        },
+        {
+          "word": "Mİ̇MAR",
+          "hint": "Yapıları tasarlayan ve projesini çizen kişi."
+        },
+        {
+          "word": "HAT(T)AT",
+          "hint": "Güzel yazı yazma sanatı ustası."
+        },
+        {
+          "word": "EBAT",
+          "hint": "Bir nesnenin uzunluk, genişlik, yükseklik ölçüsü."
+        },
+        {
+          "word": "SEBİ̇L",
+          "hint": "Hayır amaçlı olarak halka parasız su dağıtılan yer."
+        },
+        {
+          "word": "ÇEŞME",
+          "hint": "Sokağa konulmuş, su akan mimari yapı."
+        },
+        {
+          "word": "KASİ̇DE",
+          "hint": "Genellikle övmek amacıyla yazılan uzun şiir."
+        },
+        {
+          "word": "GAZEL",
+          "hint": "Genellikle aşk ve güzellik konularını işleyen lirik şiir."
+        },
+        {
+          "word": "MESNEVİ̇",
+          "hint": "Her beyiti kendi arasında kafiyeli olan, uzun hikayeler anlatılan nazım biçimi."
+        },
+        {
+          "word": "RİHLET",
+          "hint": "Göç etme, ayrılma, ölme."
+        },
+        {
+          "word": "SEFER",
+          "hint": "Savaşmak amacıyla yapılan yolculuk, savaş."
+        },
+        {
+          "word": "ANADOLU",
+          "hint": "Türkiye'nin Asya kıtasında kalan büyük bölümü."
+        },
+        {
+          "word": "BALKANLAR",
+          "hint": "Güneydoğu Avrupa'da yer alan coğrafi bölge."
+        }
       ]
     }
   ]
