@@ -4,10 +4,7 @@
       "id": "inkilap_u1",
       "name": "1. Ünite: Atatürk İlkeleri",
       "months": [
-        9,
-        10,
-        11,
-        12
+        9
       ],
       "words": [
         {
@@ -220,12 +217,8 @@
       "id": "inkilap_u2",
       "name": "2. Ünite: Çok Partili Dönem",
       "months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        10,
+        11
       ],
       "words": [
         {
@@ -433,6 +426,41 @@
           "hint": "Birden fazla partinin bir araya gelerek hükümet kurması."
         }
       ]
+    },
+    {
+      "id": "inkilap_u3",
+      "name": "3. Ünite: Ya İstiklal Ya Ölüm! (Kurtuluş Savaşı)",
+      "months": [
+        12,
+        1
+      ],
+      "words": []
+    },
+    {
+      "id": "inkilap_u4",
+      "name": "4. Ünite: Atatürkçülük ve Çağdaşlaşan Türkiye (İnkılaplar)",
+      "months": [
+        2,
+        3
+      ],
+      "words": []
+    },
+    {
+      "id": "inkilap_u5",
+      "name": "5. Ünite: Demokratikleşme Çabaları ve Dış Politika",
+      "months": [
+        4,
+        5
+      ],
+      "words": []
+    },
+    {
+      "id": "inkilap_u6",
+      "name": "6. Ünite: Atatürk'ün Ölümü ve İkinci Dünya Savaşı",
+      "months": [
+        6
+      ],
+      "words": []
     }
   ]
 }

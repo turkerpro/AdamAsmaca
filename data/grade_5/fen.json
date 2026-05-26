@@ -242,8 +242,8 @@
       "id": "fen_u2",
       "name": "2. Ünite: Besinlerimiz",
       "months": [
-        10,
-        11
+        11,
+        12
       ],
       "words": [
         {
@@ -468,8 +468,8 @@
       "id": "fen_u3",
       "name": "3. Ünite: Gökyüzündeki Komşularımız ve Biz",
       "months": [
-        11,
-        12
+        1,
+        2
       ],
       "words": [
         {
@@ -686,8 +686,7 @@
       "id": "fen_u4",
       "name": "4. Ünite: Kuvveti Tanıyalım",
       "months": [
-        12,
-        1
+        3
       ],
       "words": [
         {
@@ -896,8 +895,7 @@
       "id": "fen_u5",
       "name": "5. Ünite: Canlıların Yapısına Yolculuk",
       "months": [
-        1,
-        2
+        4
       ],
       "words": [
         {
@@ -1114,8 +1112,7 @@
       "id": "fen_u6",
       "name": "6. Ünite: Işığın Dünyası",
       "months": [
-        2,
-        3
+        5
       ],
       "words": [
         {
@@ -1324,8 +1321,7 @@
       "id": "fen_u7",
       "name": "7. Ünite: Maddenin Doğası",
       "months": [
-        3,
-        4
+        6
       ],
       "words": [
         {
@@ -1531,426 +1527,6 @@
         {
           "word": "AYRİLMA",
           "hint": "Bir araya gelmiş şeylerin birbirinden uzaklaşması."
-        }
-      ]
-    },
-    {
-      "id": "fen_u8",
-      "name": "8. Ünite: Yaşamımızdaki Elektrik",
-      "months": [
-        4,
-        5
-      ],
-      "words": [
-        {
-          "word": "ELEKTRİK",
-          "hint": "Elektron hareketinden oluşan enerji türü"
-        },
-        {
-          "word": "DEVRE",
-          "hint": "Elektriğin akabileceği kapalı yol"
-        },
-        {
-          "word": "PİL",
-          "hint": "Kimyasal enerjiyi elektriğe dönüştüren kaynak"
-        },
-        {
-          "word": "AMPUL",
-          "hint": "Elektriği ışığa çeviren devre elemanı"
-        },
-        {
-          "word": "ANAHTAR",
-          "hint": "Devreyi açıp kapatan eleman"
-        },
-        {
-          "word": "İLETKEN",
-          "hint": "Elektriği kolayca geçiren madde"
-        },
-        {
-          "word": "YALİTKAN",
-          "hint": "Elektriği geçirmeyen madde"
-        },
-        {
-          "word": "ENERJİ̇",
-          "hint": "İş yapabilme yeteneği."
-        },
-        {
-          "word": "VOLTAJ",
-          "hint": "Elektriği hareket ettiren güç."
-        },
-        {
-          "word": "AKİM",
-          "hint": "Elektriğin bir yerden bir yere akması."
-        },
-        {
-          "word": "Dİ̇RENC",
-          "hint": "Akımın geçmesine karşı gösterilen zorluk."
-        },
-        {
-          "word": "KUTUP",
-          "hint": "Pil veya mıknatısın uç noktaları."
-        },
-        {
-          "word": "POZİ̇Tİ̇F",
-          "hint": "Artı (+) işareti ile gösterilen, pilin bir ucu."
-        },
-        {
-          "word": "NEGATİ̇F",
-          "hint": "Eksi (-) işareti ile gösterilen, pilin diğer ucu."
-        },
-        {
-          "word": "KİSA DEVRE",
-          "hint": "Elektriğin beklenmedik şekilde dolanması."
-        },
-        {
-          "word": "Sİ̇GORTA",
-          "hint": "Aşırı akıma karşı devreyi koruyan alet."
-        },
-        {
-          "word": "TOPRAKLAMA",
-          "hint": "Elektrikli aletleri güvenli hale getirme yöntemi."
-        },
-        {
-          "word": "YALİTİM",
-          "hint": "Elektriğin geçmesini engelleme."
-        },
-        {
-          "word": "İ̇LETKENLİ̇K",
-          "hint": "Elektriği iyi iletme özelliği."
-        },
-        {
-          "word": "BAŞLATMA",
-          "hint": "Bir şeyi çalıştırmaya başlama."
-        },
-        {
-          "word": "DURDURMA",
-          "hint": "Bir şeyi çalışmaktan alıkoyma."
-        },
-        {
-          "word": "KONTROL",
-          "hint": "Bir şeyin düzgün çalışıp çalışmadığını inceleme."
-        },
-        {
-          "word": "GÜVENLİ̇K",
-          "hint": "Tehlikelerden korunma durumu."
-        },
-        {
-          "word": "KAYNAK",
-          "hint": "Elektriğin elde edildiği yer."
-        },
-        {
-          "word": "ÜRETİ̇M",
-          "hint": "Bir şeyin yapılması, meydana getirilmesi."
-        },
-        {
-          "word": "KULLANİM",
-          "hint": "Bir şeyi faydalanma."
-        },
-        {
-          "word": "BOZULMA",
-          "hint": "Bir şeyin çalışamaz hale gelmesi."
-        },
-        {
-          "word": "ONARİM",
-          "hint": "Bozulan bir şeyi tamir etme."
-        },
-        {
-          "word": "VERİ̇MLİ̇Lİ̇K",
-          "hint": "Yapılan işin karşılığında alınan fayda."
-        },
-        {
-          "word": "TEHLİ̇KE",
-          "hint": "Kötü sonuçlar doğurabilecek durum."
-        },
-        {
-          "word": "ÖNLEM",
-          "hint": "Tehlikeleri engellemek için yapılan iş."
-        },
-        {
-          "word": "KABLO",
-          "hint": "Elektriği taşımaya yarayan tel."
-        },
-        {
-          "word": "DUY",
-          "hint": "Ampulün takıldığı yer."
-        },
-        {
-          "word": "SOKET",
-          "hint": "Elektrik fişinin takıldığı yer."
-        },
-        {
-          "word": "STATİ̇K",
-          "hint": "Hareket etmeyen elektrik yükü."
-        },
-        {
-          "word": "YÜK",
-          "hint": "Elektrikli parçacık."
-        },
-        {
-          "word": "KUTUPBAŞİ",
-          "hint": "Pil üzerindeki artı veya eksi uç."
-        },
-        {
-          "word": "BAĞLANTİ",
-          "hint": "Parçaların birbirine eklenmesi."
-        },
-        {
-          "word": "KAPALİ DEVRE",
-          "hint": "Akımın kesintisiz aktığı devre."
-        },
-        {
-          "word": "AÇİK DEVRE",
-          "hint": "Akımın akmadığı devre."
-        },
-        {
-          "word": "YÜKSEK GERİ̇Lİ̇M",
-          "hint": "Çok güçlü elektrik akımı."
-        },
-        {
-          "word": "ALÇAK GERİ̇Lİ̇M",
-          "hint": "Daha az tehlikeli elektrik akımı."
-        },
-        {
-          "word": "JENERATÖR",
-          "hint": "Elektrik üreten makine."
-        },
-        {
-          "word": "Dİ̇NAMO",
-          "hint": "Hareket enerjisini elektrik enerjisine çeviren alet."
-        },
-        {
-          "word": "İSİ",
-          "hint": "Elektrik akımının bir sonucu olarak ortaya çıkan sıcaklık."
-        },
-        {
-          "word": "İŞİK",
-          "hint": "Ampulün yaydığı enerji türü."
-        },
-        {
-          "word": "SES",
-          "hint": "Bazı elektrikli aletlerin ürettiği duyulabilen titreşim."
-        },
-        {
-          "word": "MANYETİ̇ZMA",
-          "hint": "Mıknatısların sahip olduğu özellik."
-        },
-        {
-          "word": "MOTOR",
-          "hint": "Elektrik enerjisini hareket enerjisine çeviren alet."
-        },
-        {
-          "word": "PİLYATAĞI",
-          "hint": "Pillerin devrede düzgün durması için yerleştirildiği bölme"
-        }
-      ]
-    },
-    {
-      "id": "fen_u9",
-      "name": "9. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
-      "months": [
-        5,
-        6
-      ],
-      "words": [
-        {
-          "word": "GERİ DÖNÜŞÜM",
-          "hint": "Atıkların yeniden kullanıma kazandırılması"
-        },
-        {
-          "word": "ATIK",
-          "hint": "Kullanılmaz hale gelen madde"
-        },
-        {
-          "word": "ÇEVRE KİRLİLİĞİ",
-          "hint": "Doğanın zarar görmesi"
-        },
-        {
-          "word": "SÜRDÜRÜLEBİLİRLİK",
-          "hint": "Kaynakları gelecek nesillere koruyarak kullanmak"
-        },
-        {
-          "word": "YENİLENEBİLİR ENERJİ",
-          "hint": "Tükenmez enerji kaynakları (güneş, rüzgar)"
-        },
-        {
-          "word": "KOMPOST",
-          "hint": "Organik atıklardan elde edilen doğal gübre"
-        },
-        {
-          "word": "BİYOÇEŞİTLİLİK",
-          "hint": "Doğadaki canlı türlerinin çeşitliliği"
-        },
-        {
-          "word": "KAĞİT",
-          "hint": "Ağaçlardan elde edilen, üzerine yazı yazılan, baskı yapılan ince malzeme."
-        },
-        {
-          "word": "CAM",
-          "hint": "Sıcakta eriyen, soğuyunca katılaşan şeffaf veya renkli malzeme."
-        },
-        {
-          "word": "METAL",
-          "hint": "Parlak, ısıyı ve elektriği iyi ileten element veya alaşım."
-        },
-        {
-          "word": "PLASTİ̇K",
-          "hint": "Petrol türevlerinden yapılan, kolay şekillendirilebilen sentetik madde."
-        },
-        {
-          "word": "ORGANİ̇K",
-          "hint": "Canlılardan elde edilen veya canlılarca üretilebilen madde."
-        },
-        {
-          "word": "Pİ̇L",
-          "hint": "Elektrik enerjisi üreten, kullanıldıktan sonra özel atılması gereken alet."
-        },
-        {
-          "word": "TEKSTİ̇L",
-          "hint": "Kumaş ve giysi gibi ürünleri kapsayan terim."
-        },
-        {
-          "word": "ENERJİ̇",
-          "hint": "İş yapabilme yeteneği, güç."
-        },
-        {
-          "word": "DOĞA",
-          "hint": "Yeryüzündeki canlı ve cansız varlıkların tümü."
-        },
-        {
-          "word": "FABRİ̇KA",
-          "hint": "Mal üretilen büyük sanayi tesisi."
-        },
-        {
-          "word": "TASARRUF",
-          "hint": "Bir şeyi idareli kullanarak artırma, saklama."
-        },
-        {
-          "word": "TEKRAR",
-          "hint": "Bir şeyin yeniden kullanılması."
-        },
-        {
-          "word": "YARİN",
-          "hint": "Gelecek zaman, ertesi gün."
-        },
-        {
-          "word": "TASARİM",
-          "hint": "Bir şeyin nasıl yapılacağının planı, projesi."
-        },
-        {
-          "word": "VERİ̇MLİ̇Lİ̇K",
-          "hint": "Yapılan işten alınan sonuçla harcanan çabanın oranı."
-        },
-        {
-          "word": "MALZEME",
-          "hint": "Bir şeyin yapıldığı, elde edildiği köken."
-        },
-        {
-          "word": "DEPOLAMA",
-          "hint": "Bir şeyleri biriktirip saklama yeri veya eylemi."
-        },
-        {
-          "word": "İ̇SRAF",
-          "hint": "Bir şeyi gereksiz yere harcama veya tüketme."
-        },
-        {
-          "word": "SEÇME",
-          "hint": "Belirli bir amaca uygun olanları ayırma."
-        },
-        {
-          "word": "ÖZETLEME",
-          "hint": "Bir yazının ana fikirlerini kısaca çıkarma."
-        },
-        {
-          "word": "YÖNTEM",
-          "hint": "Bir işi yapma biçimi, usul."
-        },
-        {
-          "word": "AYRİŞTİRMA",
-          "hint": "Farklı özelliklerine göre gruplara ayırma."
-        },
-        {
-          "word": "DÖNGÜ",
-          "hint": "Bir olayın başladığı noktaya tekrar dönmesi."
-        },
-        {
-          "word": "Kİ̇MYASAL",
-          "hint": "Kimya bilimiyle ilgili olan madde."
-        },
-        {
-          "word": "EKOLOJİ̇",
-          "hint": "Canlıların çevreleriyle ilişkisini inceleyen bilim dalı."
-        },
-        {
-          "word": "SEBZE",
-          "hint": "Yemeklerde kullanılan bitkisel gıdalar."
-        },
-        {
-          "word": "MEYVE",
-          "hint": "Ağaçlardan, bitkilerden elde edilen tatlı yiyecek."
-        },
-        {
-          "word": "DEPOLİ̇",
-          "hint": "İçinde bir şeyler biriktirilmiş olan."
-        },
-        {
-          "word": "KOKU",
-          "hint": "Bir maddenin burna gelen etkisi."
-        },
-        {
-          "word": "LEYLEK",
-          "hint": "Gagası uzun, bacakları ince, göç eden bir kuş türü."
-        },
-        {
-          "word": "TERSİ̇NE",
-          "hint": "Zıt yönde, aşağı yukarı, sağ sol."
-        },
-        {
-          "word": "AYRİ",
-          "hint": "Birlikte olmayan, tek başına."
-        },
-        {
-          "word": "ÇÖP",
-          "hint": "Kullanılmış, atılmış değersiz eşya veya madde."
-        },
-        {
-          "word": "SUYUNSUL",
-          "hint": "Sıvı halde bulunan."
-        },
-        {
-          "word": "TOPRAK",
-          "hint": "Yeryüzünün üst katmanı, bitkilerin yetiştiği yer."
-        },
-        {
-          "word": "YENİ̇DEN",
-          "hint": "Bir daha, tekrar."
-        },
-        {
-          "word": "UZUN",
-          "hint": "Boyu veya mesafesi fazla olan."
-        },
-        {
-          "word": "Bİ̇TKİ̇",
-          "hint": "Kök, gövde, yaprak gibi bölümleri olan canlı."
-        },
-        {
-          "word": "YAŞAM",
-          "hint": "Canlılığın sürdürülmesi."
-        },
-        {
-          "word": "GÜNEŞ",
-          "hint": "Dünyamıza ışık ve ısı veren gök cismi."
-        },
-        {
-          "word": "RÜZGAR",
-          "hint": "Havanın hareketi."
-        },
-        {
-          "word": "KATİ",
-          "hint": "Belirli bir şekli ve hacmi olan madde durumu."
-        },
-        {
-          "word": "SİVİ",
-          "hint": "Belirli bir şekli olmayan, aktığında şekil değiştiren madde durumu."
         }
       ]
     }

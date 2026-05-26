@@ -5,9 +5,7 @@
       "name": "1. Ünite: Divan Edebiyatı",
       "months": [
         9,
-        10,
-        11,
-        12
+        10
       ],
       "words": [
         {
@@ -232,12 +230,8 @@
       "id": "edebiyat_u2",
       "name": "2. Ünite: Halk Edebiyatı",
       "months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        11,
+        12
       ],
       "words": [
         {
@@ -441,6 +435,40 @@
           "hint": "Bir hikayedeki kişi, varlık."
         }
       ]
+    },
+    {
+      "id": "edebiyat_u3",
+      "name": "3. Ünite: Şiir Bilgisi ve Nazım Biçimleri",
+      "months": [
+        1,
+        2
+      ],
+      "words": []
+    },
+    {
+      "id": "edebiyat_u4",
+      "name": "4. Ünite: Masal, Fabl ve Destan",
+      "months": [
+        3
+      ],
+      "words": []
+    },
+    {
+      "id": "edebiyat_u5",
+      "name": "5. Ünite: Tiyatro ve Roman",
+      "months": [
+        4,
+        5
+      ],
+      "words": []
+    },
+    {
+      "id": "edebiyat_u6",
+      "name": "6. Ünite: Öğretici Metinler ve Dil Bilgisi",
+      "months": [
+        6
+      ],
+      "words": []
     }
   ]
 }

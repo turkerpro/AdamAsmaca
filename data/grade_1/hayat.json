@@ -5,9 +5,7 @@
       "name": "1. Ünite: Okulumuz",
       "months": [
         9,
-        10,
-        11,
-        12
+        10
       ],
       "words": [
         {
@@ -228,12 +226,8 @@
       "id": "hayat_u2",
       "name": "2. Ünite: Ailemiz",
       "months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        11,
+        12
       ],
       "words": [
         {
@@ -457,6 +451,40 @@
           "hint": "Üstüne düşen işi yapma görevi."
         }
       ]
+    },
+    {
+      "id": "hayat_u3",
+      "name": "3. Ünite: Sağlıklı Hayat",
+      "months": [
+        1,
+        2
+      ],
+      "words": []
+    },
+    {
+      "id": "hayat_u4",
+      "name": "4. Ünite: Güvenli Hayat",
+      "months": [
+        3
+      ],
+      "words": []
+    },
+    {
+      "id": "hayat_u5",
+      "name": "5. Ünite: Ülkemizde Hayat",
+      "months": [
+        4,
+        5
+      ],
+      "words": []
+    },
+    {
+      "id": "hayat_u6",
+      "name": "6. Ünite: Doğada Hayat",
+      "months": [
+        6
+      ],
+      "words": []
     }
   ]
 }

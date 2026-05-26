@@ -5,9 +5,7 @@
       "name": "1. Ünite: Duyu Organları",
       "months": [
         9,
-        10,
-        11,
-        12
+        10
       ],
       "words": [
         {
@@ -232,12 +230,8 @@
       "id": "fen_u2",
       "name": "2. Ünite: Canlılar",
       "months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        11,
+        12
       ],
       "words": [
         {
@@ -509,6 +503,47 @@
           "hint": "Farklı türlerin bir arada bulunması."
         }
       ]
+    },
+    {
+      "id": "fen_u3",
+      "name": "3. Ünite: Kuvvet ve Hareket",
+      "months": [
+        1,
+        2
+      ],
+      "words": []
+    },
+    {
+      "id": "fen_u4",
+      "name": "4. Ünite: Madde ve Isı İlişkisi",
+      "months": [
+        3
+      ],
+      "words": []
+    },
+    {
+      "id": "fen_u5",
+      "name": "5. Ünite: Işığın Yayılması ve Yansıması",
+      "months": [
+        4
+      ],
+      "words": []
+    },
+    {
+      "id": "fen_u6",
+      "name": "6. Ünite: İnsan ve Çevre Etkileşimi",
+      "months": [
+        5
+      ],
+      "words": []
+    },
+    {
+      "id": "fen_u7",
+      "name": "7. Ünite: Basit Elektrik Devreleri",
+      "months": [
+        6
+      ],
+      "words": []
     }
   ]
 }

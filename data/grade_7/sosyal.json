@@ -1,13 +1,11 @@
 {
   "units": [
     {
-      "id": "sosyal7_u1",
+      "id": "sosyal_u1",
       "name": "1. Ünite: Osmanlı Devleti",
       "months": [
         9,
-        10,
-        11,
-        12
+        10
       ],
       "words": [
         {
@@ -213,15 +211,11 @@
       ]
     },
     {
-      "id": "sosyal7_u2",
+      "id": "sosyal_u2",
       "name": "2. Ünite: İletişim ve Medya",
       "months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        11,
+        12
       ],
       "words": [
         {
@@ -425,6 +419,47 @@
           "hint": "Bir konu hakkında halkın genel düşüncesi ve ortak fikri"
         }
       ]
+    },
+    {
+      "id": "sosyal_u3",
+      "name": "3. Ünite: İnsanlar, Yerler ve Çevreler",
+      "months": [
+        1,
+        2
+      ],
+      "words": []
+    },
+    {
+      "id": "sosyal_u4",
+      "name": "4. Ünite: Bilim, Teknoloji ve Toplumsal Gelişim",
+      "months": [
+        3
+      ],
+      "words": []
+    },
+    {
+      "id": "sosyal_u5",
+      "name": "5. Ünite: Üretim, Dağıtım ve Tüketim Ekonomisi",
+      "months": [
+        4
+      ],
+      "words": []
+    },
+    {
+      "id": "sosyal_u6",
+      "name": "6. Ünite: Etkin Vatandaşlık ve Yönetim Şekilleri",
+      "months": [
+        5
+      ],
+      "words": []
+    },
+    {
+      "id": "sosyal_u7",
+      "name": "7. Ünite: Küresel Bağlantılar ve Uluslararası İlişkiler",
+      "months": [
+        6
+      ],
+      "words": []
     }
   ]
 }

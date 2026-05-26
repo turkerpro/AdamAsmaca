@@ -4,10 +4,7 @@
       "id": "tarih_u1",
       "name": "1. Ünite: İlk Uygarlıklar",
       "months": [
-        9,
-        10,
-        11,
-        12
+        9
       ],
       "words": [
         {
@@ -220,12 +217,8 @@
       "id": "tarih_u2",
       "name": "2. Ünite: Türk Devletleri",
       "months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        10,
+        11
       ],
       "words": [
         {
@@ -433,6 +426,41 @@
           "hint": "Bir bölgeyi yönetmekle görevli kimse."
         }
       ]
+    },
+    {
+      "id": "tarih_u3",
+      "name": "3. Ünite: Orta Çağ'da Dünya ve Türk Dünyası",
+      "months": [
+        12,
+        1
+      ],
+      "words": []
+    },
+    {
+      "id": "tarih_u4",
+      "name": "4. Ünite: İslam Medeniyetinin Doğuşu ve Yayılışı",
+      "months": [
+        2,
+        3
+      ],
+      "words": []
+    },
+    {
+      "id": "tarih_u5",
+      "name": "5. Ünite: Türklerin İslamiyet'i Kabulü ve İlk Devletler",
+      "months": [
+        4,
+        5
+      ],
+      "words": []
+    },
+    {
+      "id": "tarih_u6",
+      "name": "6. Ünite: Yerleşme, Devletleşme ve Beylikten Devlete",
+      "months": [
+        6
+      ],
+      "words": []
     }
   ]
 }

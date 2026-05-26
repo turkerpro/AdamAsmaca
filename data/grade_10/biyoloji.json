@@ -5,9 +5,7 @@
       "name": "1. Ünite: Kalıtım",
       "months": [
         9,
-        10,
-        11,
-        12
+        10
       ],
       "words": [
         {
@@ -224,12 +222,8 @@
       "id": "biyoloji_u2",
       "name": "2. Ünite: Evrim",
       "months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        11,
+        12
       ],
       "words": [
         {
@@ -433,6 +427,40 @@
           "hint": "Yapılması gereken bir işin üstlenilmesi"
         }
       ]
+    },
+    {
+      "id": "biyoloji_u3",
+      "name": "3. Ünite: Hücre Bölünmeleri ve Üreme",
+      "months": [
+        1,
+        2
+      ],
+      "words": []
+    },
+    {
+      "id": "biyoloji_u4",
+      "name": "4. Ünite: Kalıtımın Temel İlkeleri",
+      "months": [
+        3,
+        4
+      ],
+      "words": []
+    },
+    {
+      "id": "biyoloji_u5",
+      "name": "5. Ünite: Ekosistem Ekolojisi ve Çevre Sorunları",
+      "months": [
+        5
+      ],
+      "words": []
+    },
+    {
+      "id": "biyoloji_u6",
+      "name": "6. Ünite: Genden Proteine ve Canlılarda Enerji Dönüşümleri",
+      "months": [
+        6
+      ],
+      "words": []
     }
   ]
 }

@@ -5,9 +5,7 @@
       "name": "1. Ünite: Atom Modelleri",
       "months": [
         9,
-        10,
-        11,
-        12
+        10
       ],
       "words": [
         {
@@ -220,12 +218,8 @@
       "id": "kimya_u2",
       "name": "2. Ünite: Periyodik Tablo",
       "months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        11,
+        12
       ],
       "words": [
         {
@@ -433,6 +427,40 @@
           "hint": "Bir sürecin veya olayın bitiminde ortaya çıkan durum."
         }
       ]
+    },
+    {
+      "id": "kimya_u3",
+      "name": "3. Ünite: Kimyasal Türler Arası Etkileşimler",
+      "months": [
+        1,
+        2
+      ],
+      "words": []
+    },
+    {
+      "id": "kimya_u4",
+      "name": "4. Ünite: Maddenin Fiziksel Halleri",
+      "months": [
+        3,
+        4
+      ],
+      "words": []
+    },
+    {
+      "id": "kimya_u5",
+      "name": "5. Ünite: Doğa, Kimya ve Karışımlar",
+      "months": [
+        5
+      ],
+      "words": []
+    },
+    {
+      "id": "kimya_u6",
+      "name": "6. Ünite: Asitler, Bazlar, Tuzlar ve Kimya Her Yerde",
+      "months": [
+        6
+      ],
+      "words": []
     }
   ]
 }

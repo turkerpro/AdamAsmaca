@@ -4,10 +4,7 @@
       "id": "ingilizce_u1",
       "name": "1. Ünite: Psychology",
       "months": [
-        9,
-        10,
-        11,
-        12
+        9
       ],
       "words": [
         {
@@ -216,12 +213,7 @@
       "id": "ingilizce_u2",
       "name": "2. Ünite: Sociology",
       "months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        10
       ],
       "words": [
         {
@@ -429,6 +421,70 @@
           "hint": "Bilimsel bilgiyi kullanarak yapılan üretim ve hizmetler."
         }
       ]
+    },
+    {
+      "id": "ingilizce_u3",
+      "name": "Unit 3: In the Classroom",
+      "months": [
+        11
+      ],
+      "words": []
+    },
+    {
+      "id": "ingilizce_u4",
+      "name": "Unit 4: Numbers and Colors",
+      "months": [
+        12
+      ],
+      "words": []
+    },
+    {
+      "id": "ingilizce_u5",
+      "name": "Unit 5: Toys and Games",
+      "months": [
+        1
+      ],
+      "words": []
+    },
+    {
+      "id": "ingilizce_u6",
+      "name": "Unit 6: My Body and Clothes",
+      "months": [
+        2
+      ],
+      "words": []
+    },
+    {
+      "id": "ingilizce_u7",
+      "name": "Unit 7: Pets and Animals",
+      "months": [
+        3
+      ],
+      "words": []
+    },
+    {
+      "id": "ingilizce_u8",
+      "name": "Unit 8: My Daily Routine",
+      "months": [
+        4
+      ],
+      "words": []
+    },
+    {
+      "id": "ingilizce_u9",
+      "name": "Unit 9: Fruits and Food",
+      "months": [
+        5
+      ],
+      "words": []
+    },
+    {
+      "id": "ingilizce_u10",
+      "name": "Unit 10: Animal Shelter and Nature",
+      "months": [
+        6
+      ],
+      "words": []
     }
   ]
 }

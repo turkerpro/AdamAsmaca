@@ -6,8 +6,7 @@
       "months": [
         9,
         10,
-        11,
-        12
+        11
       ],
       "words": [
         {
@@ -216,12 +215,9 @@
       "id": "cografya_u2",
       "name": "2. Ünite: Yer Şekilleri",
       "months": [
+        12,
         1,
-        2,
-        3,
-        4,
-        5,
-        6
+        2
       ],
       "words": [
         {
@@ -429,6 +425,24 @@
           "hint": "Başka kayaçların yüksek sıcaklık ve basınç altında değişmesiyle oluşan kayaç."
         }
       ]
+    },
+    {
+      "id": "cografya_u3",
+      "name": "3. Ünite: Küresel Ortam: Bölgeler ve Ülkeler",
+      "months": [
+        3,
+        4
+      ],
+      "words": []
+    },
+    {
+      "id": "cografya_u4",
+      "name": "4. Ünite: Çevre ve Toplum, Doğal Afetler",
+      "months": [
+        5,
+        6
+      ],
+      "words": []
     }
   ]
 }

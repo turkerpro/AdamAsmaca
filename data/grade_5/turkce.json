@@ -1,13 +1,11 @@
 {
   "units": [
     {
-      "id": "turkce5_u1",
+      "id": "turkce_u1",
       "name": "1. Ünite: Fiiller",
       "months": [
         9,
-        10,
-        11,
-        12
+        10
       ],
       "words": [
         {
@@ -229,15 +227,11 @@
       ]
     },
     {
-      "id": "turkce5_u2",
+      "id": "turkce_u2",
       "name": "2. Ünite: İsimler",
       "months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        11,
+        12
       ],
       "words": [
         {
@@ -445,6 +439,40 @@
           "hint": "Her şeyin dayandığı ana unsur."
         }
       ]
+    },
+    {
+      "id": "turkce_u3",
+      "name": "3. Ünite: Paragrafta Anlam ve Noktalama",
+      "months": [
+        1,
+        2
+      ],
+      "words": []
+    },
+    {
+      "id": "turkce_u4",
+      "name": "4. Ünite: Metin Türleri ve Söz Sanatları",
+      "months": [
+        3,
+        4
+      ],
+      "words": []
+    },
+    {
+      "id": "turkce_u5",
+      "name": "5. Ünite: Dil Bilgisi ve Ses Olayları",
+      "months": [
+        5
+      ],
+      "words": []
+    },
+    {
+      "id": "turkce_u6",
+      "name": "6. Ünite: Sözlü İletişim ve Anlatım Bozuklukları",
+      "months": [
+        6
+      ],
+      "words": []
     }
   ]
 }

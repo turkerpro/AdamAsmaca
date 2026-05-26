@@ -5,9 +5,7 @@
       "name": "1. Ünite: Haritalar",
       "months": [
         9,
-        10,
-        11,
-        12
+        10
       ],
       "words": [
         {
@@ -220,12 +218,8 @@
       "id": "sosyal_u2",
       "name": "2. Ünite: Yönler",
       "months": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        11,
+        12
       ],
       "words": [
         {
@@ -429,6 +423,47 @@
           "hint": "Yeryüzünü ve üzerindeki canlıları inceleyen bilim dalı"
         }
       ]
+    },
+    {
+      "id": "sosyal_u3",
+      "name": "3. Ünite: İnsanlar, Yerler ve Çevreler",
+      "months": [
+        1,
+        2
+      ],
+      "words": []
+    },
+    {
+      "id": "sosyal_u4",
+      "name": "4. Ünite: Bilim, Teknoloji ve Toplumsal Gelişim",
+      "months": [
+        3
+      ],
+      "words": []
+    },
+    {
+      "id": "sosyal_u5",
+      "name": "5. Ünite: Üretim, Dağıtım ve Tüketim Ekonomisi",
+      "months": [
+        4
+      ],
+      "words": []
+    },
+    {
+      "id": "sosyal_u6",
+      "name": "6. Ünite: Etkin Vatandaşlık ve Yönetim Şekilleri",
+      "months": [
+        5
+      ],
+      "words": []
+    },
+    {
+      "id": "sosyal_u7",
+      "name": "7. Ünite: Küresel Bağlantılar ve Uluslararası İlişkiler",
+      "months": [
+        6
+      ],
+      "words": []
     }
   ]
 }
