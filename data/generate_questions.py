@@ -23,61 +23,78 @@ except ImportError:
     print("Lütfen terminalde 'pip install google-genai' komutunu çalıştırın.")
     sys.exit(1)
 
-api_key = os.environ.get("GEMINI_API_KEY")
-if not api_key:
-    print("====================================================")
-    print("           GEMINI SORU ÜRETME SİSTEMİ               ")
-    print("====================================================")
-    print("Lütfen Google AI Studio'dan aldığınız ücretsiz API anahtarını girin.")
-    api_key = input("API Key: ").strip()
+def load_api_keys():
+    keys = []
+    # Check current directory and parent directory for api_keys.txt
+    for path in ["api_keys.txt", "../api_keys.txt"]:
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                for line in f:
+                    k = line.strip()
+                    if k and not k.startswith("#"):
+                        keys.append(k)
+            if keys:
+                print(f"[SİSTEM] {path} dosyasından {len(keys)} adet API anahtarı yüklendi.")
+                return keys
+    return []
 
-if not api_key:
-    print("Hata: API anahtarı boş bırakılamaz.")
+api_keys = load_api_keys()
+if not api_keys:
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        print("====================================================")
+        print("           GEMINI SORU ÜRETME SİSTEMİ               ")
+        print("====================================================")
+        print("Lütfen Google AI Studio'dan aldığınız ücretsiz API anahtarını girin.")
+        api_key = input("API Key: ").strip()
+    if api_key:
+        api_keys = [api_key]
+
+if not api_keys:
+    print("Hata: API anahtarı bulunamadı.")
     sys.exit(1)
 
-# Yeni SDK: Client nesnesi oluştur
-client = genai.Client(api_key=api_key)
+current_key_index = 0
+client = genai.Client(api_key=api_keys[current_key_index])
+
+def rotate_key():
+    global current_key_index, client
+    if len(api_keys) <= 1:
+        return False
+    current_key_index = (current_key_index + 1) % len(api_keys)
+    next_key = api_keys[current_key_index]
+    print(f"\n[SİSTEM] Kota limiti veya hata nedeniyle sıradaki API anahtarına geçiliyor (İndeks: {current_key_index})...")
+    client = genai.Client(api_key=next_key)
+    return True
 
 # Kullanılabilir modelleri listele ve çalışanı bul
-print("Kullanılabilir yapay zeka modelleri test ediliyor...")
-available_models = []
-try:
-    for m in client.models.list():
-        if hasattr(m, 'name'):
-            model_id = m.name.replace("models/", "")
-            available_models.append(model_id)
-except Exception as e:
-    print(f"[UYARI] Modeller listelenemedi (Hata: {str(e)})")
-    # Güncel fallback modeller
-    available_models = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash"]
-
-def model_priority(model_name):
-    name = model_name.lower()
-    if "gemini-2.5-flash-lite" in name: return 0
-    if "gemini-2.5-flash" in name: return 1
-    if "gemini-2.0-flash" in name: return 2
-    if "gemini-2.5-pro" in name: return 3
-    return 99
-
-available_models.sort(key=model_priority)
-
 working_model_name = None
-for model_name in available_models:
-    print(f"Deneniyor: {model_name}...")
-    try:
-        test_response = client.models.generate_content(
-            model=model_name,
-            contents="test"
-        )
-        working_model_name = model_name
-        print(f"-> Başarılı! Kullanılacak model: {working_model_name}")
-        break
-    except Exception as e:
-        print(f"-> Başarısız (Hata: {str(e)})")
+test_success = False
 
-if not working_model_name:
-    print("Hata: Çalışan hiçbir model bulunamadı. API Key yetkilerini veya internet bağlantınızı kontrol edin.")
-    sys.exit(1)
+while not test_success:
+    print(f"Kullanılabilir yapay zeka modelleri test ediliyor (Mevcut Anahtar İndeksi: {current_key_index})...")
+    test_models = ["gemini-1.5-flash", "gemini-2.5-flash", "gemini-2.0-flash"]
+    for model_name in test_models:
+        print(f"Deneniyor: {model_name}...")
+        try:
+            test_response = client.models.generate_content(
+                model=model_name,
+                contents="test"
+            )
+            working_model_name = model_name
+            print(f"-> Başarılı! Kullanılacak model: {working_model_name}")
+            test_success = True
+            break
+        except Exception as e:
+            print(f"-> Başarısız (Hata: {str(e)})")
+            
+    if not test_success:
+        print("[UYARI] Mevcut API anahtarı ile test başarısız oldu.")
+        if len(api_keys) > 1 and current_key_index + 1 < len(api_keys):
+            rotate_key()
+        else:
+            print("Hata: Çalışan hiçbir API anahtarı veya model bulunamadı.")
+            sys.exit(1)
 
 # JSON response config (yeni SDK'da types.GenerateContentConfig kullanılır)
 generate_config = types.GenerateContentConfig(
@@ -185,8 +202,19 @@ for grade_item in curriculum_data.get("curriculum", []):
                     time.sleep(2.5)
 
                 except Exception as e:
+                    err_msg = str(e)
+                    print(f"    [HATA] {err_msg}")
+                    
+                    # Check if we should rotate the key
+                    is_quota_or_auth = any(kw in err_msg.lower() for kw in ["429", "403", "quota", "exhausted", "invalid", "limit"])
+                    if is_quota_or_auth and len(api_keys) > 1:
+                        if rotate_key():
+                            print("    -> Yeni anahtar ile yeniden deneniyor...")
+                            time.sleep(2)
+                            continue
+                            
                     retries -= 1
-                    print(f"    [HATA] {str(e)}. Kalan deneme: {retries}")
+                    print(f"    -> Kalan deneme: {retries}")
                     time.sleep(5)
 
             if not success:
