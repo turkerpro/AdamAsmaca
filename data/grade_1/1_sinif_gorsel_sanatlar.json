@@ -55,11 +55,11 @@
           "hint": "Sanat eseri yapan kişi."
         },
         {
-          "word": "ESERs",
+          "word": "ESER",
           "hint": "Bir sanatçının ortaya koyduğu yapıt."
         },
         {
-          "word": "MÜZEy",
+          "word": "MÜZE",
           "hint": "Sanat eserlerinin sergilendiği yer."
         },
         {
@@ -69,6 +69,146 @@
         {
           "word": "ÖZGÜN",
           "hint": "Başkasına benzemez, özgün olan."
+        },
+        {
+          "word": "KAĞIT",
+          "hint": "Üzerine resim yaptığımız düz ve ince yüzey."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Çizim yapmamıza yardımcı olan araç."
+        },
+        {
+          "word": "KİL",
+          "hint": "Şekil vererek heykel yapmamızı sağlayan yumuşak toprak."
+        },
+        {
+          "word": "MAKAS",
+          "hint": "Kağıtları parçalara ayırmak için kullanılan kesici alet."
+        },
+        {
+          "word": "YAPIŞTIRICI",
+          "hint": "İki parçayı birbirine tutturmaya yarayan sıvı madde."
+        },
+        {
+          "word": "HEYKEL",
+          "hint": "Taş, kil veya metalden yapılan üç boyutlu eser."
+        },
+        {
+          "word": "KOLAJ",
+          "hint": "Farklı kağıt parçalarını birleştirerek yapılan çalışma."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Bir yüzeye dokunduğumuzda hissettiğimiz pürüzlü veya yumuşak yapı."
+        },
+        {
+          "word": "TON",
+          "hint": "Bir rengin koyu veya açık hali."
+        },
+        {
+          "word": "KARIŞIM",
+          "hint": "İki rengi birbirine katarak yeni bir renk oluşturma."
+        },
+        {
+          "word": "ÇERÇEVE",
+          "hint": "Resmimizi içine koyup koruyan kenarlık."
+        },
+        {
+          "word": "ÖNLÜK",
+          "hint": "Resim yaparken kıyafetlerimizi koruyan giysi."
+        },
+        {
+          "word": "DÜZEN",
+          "hint": "Nesneleri resim üzerinde güzelce sıralama."
+        },
+        {
+          "word": "SİLUET",
+          "hint": "Bir şeyin sadece dış hatlarının görünen gölgesi."
+        },
+        {
+          "word": "TASARIM",
+          "hint": "Zihnimizdeki bir fikri kağıda dökmek."
+        },
+        {
+          "word": "FON",
+          "hint": "Resmin en arkasında kalan boşluk veya renk alanı."
+        },
+        {
+          "word": "ŞABLON",
+          "hint": "İçini boyayarak şekil çıkarmamıza yarayan delikli karton."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Üzerinde çalışma yaptığımız her türlü alan."
+        },
+        {
+          "word": "BASKI",
+          "hint": "Bir nesneyi boyaya batırıp kağıda izini çıkarmak."
+        },
+        {
+          "word": "GÖLGE",
+          "hint": "Işığın vurduğu nesnenin arkasında oluşan karanlık alan."
+        },
+        {
+          "word": "DETAY",
+          "hint": "Resimdeki küçük ama önemli ayrıntılar."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Resmi süsleyen tekrarlayan çizgiler ve şekiller."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Sanat çalışması için kullandığımız malzemeler."
+        },
+        {
+          "word": "ATÖLYE",
+          "hint": "Sanatçıların resim veya heykel yaptığı özel yer."
+        },
+        {
+          "word": "İZ",
+          "hint": "Boya veya kalemle kağıtta bıraktığımız işaret."
+        },
+        {
+          "word": "KİTAP",
+          "hint": "İçinde resimler ve hikayeler bulunan öğrenme aracı."
+        },
+        {
+          "word": "DOĞA",
+          "hint": "Etrafımızdaki ağaçlar, çiçekler ve hayvanların olduğu yer."
+        },
+        {
+          "word": "PORTRE",
+          "hint": "Bir insanın yüzünün resmedilmesi."
+        },
+        {
+          "word": "MANZARA",
+          "hint": "Dışarıdaki yerlerin (dağ, deniz, ağaç) resmedilmesi."
+        },
+        {
+          "word": "GÖKKUŞAĞI",
+          "hint": "Birçok rengin bir arada olduğu doğa olayı."
+        },
+        {
+          "word": "SÜS",
+          "hint": "Bir şeyi daha güzel göstermek için eklenen detay."
+        },
+        {
+          "word": "YARATICI",
+          "hint": "Farklı ve yeni şeyler düşünebilen kişi."
+        },
+        {
+          "word": "ÇİZGİ",
+          "hint": "İki noktayı birleştiren düz veya eğri yol."
+        },
+        {
+          "word": "FORM",
+          "hint": "Nesnelerin sahip olduğu şekil."
+        },
+        {
+          "word": "KARTON",
+          "hint": "Kağıttan daha kalın ve sert olan malzeme."
         }
       ]
     },
@@ -157,8 +297,128 @@
           "hint": "İki ya da daha fazla rengi birleştirme."
         },
         {
-          "word": "RENK ÇARKII",
+          "word": "RENK ÇARKI",
           "hint": "Renklerin ilişkisini gösteren yuvarlak diyagram."
+        },
+        {
+          "word": "FIRÇA",
+          "hint": "Resim yaparken boyayı kağıda sürmemizi sağlayan araç."
+        },
+        {
+          "word": "PALET",
+          "hint": "Resim yaparken boyaları karıştırıp üzerine koyduğumuz düz zemin."
+        },
+        {
+          "word": "TUVAL",
+          "hint": "Üzerine resim yaptığımız gergin kumaş."
+        },
+        {
+          "word": "BOYA",
+          "hint": "Resimlerimizi renklendirmek için kullandığımız madde."
+        },
+        {
+          "word": "KÂĞIT",
+          "hint": "Üzerine kalemle veya boyayla resim çizdiğimiz ince beyaz nesne."
+        },
+        {
+          "word": "ÇİZGİ",
+          "hint": "Bir noktadan başlayıp uzayan ince iz."
+        },
+        {
+          "word": "ŞEKİL",
+          "hint": "Kare, daire veya üçgen gibi nesnelerin biçimi."
+        },
+        {
+          "word": "KARIŞTIRMAK",
+          "hint": "İki farklı rengi birbirine katarak yeni bir renk oluşturmak."
+        },
+        {
+          "word": "SULUBOYA",
+          "hint": "Su ile ıslatılarak kullanılan bir boya türü."
+        },
+        {
+          "word": "KURUBOYA",
+          "hint": "Sivri uçlu ve ıslatılmadan kullanılan boya kalemleri."
+        },
+        {
+          "word": "PASTELBOYA",
+          "hint": "Yağlı ve yumuşak yapısıyla kağıdı hızlıca boyayan kalem."
+        },
+        {
+          "word": "PARLAK",
+          "hint": "Güneş vurduğunda çok ışıldayan renk veya yüzey."
+        },
+        {
+          "word": "MAT",
+          "hint": "Işıldamayan, parlak olmayan renk veya yüzey."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Yüzeylerin üzerine çizilen tekrarlayan süslemeler."
+        },
+        {
+          "word": "KONTUR",
+          "hint": "Bir şeklin veya nesnenin etrafından geçen belirgin çizgi."
+        },
+        {
+          "word": "GÖLGE",
+          "hint": "Işığın vurduğu nesnenin arkasında oluşan karanlık alan."
+        },
+        {
+          "word": "AÇIK",
+          "hint": "Rengin beyaza yakın, daha az yoğun hali."
+        },
+        {
+          "word": "KOYU",
+          "hint": "Rengin siyaha yakın, daha yoğun ve derin hali."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Nesnelere dokunduğumuzda hissettiğimiz pürüzlü veya düz yapı."
+        },
+        {
+          "word": "TASARIM",
+          "hint": "Zihnimizdeki resmi kâğıda planlayarak aktarmak."
+        },
+        {
+          "word": "HAYAL GÜCÜ",
+          "hint": "Gerçekte olmayan şeyleri zihnimizde resmedebilme yeteneği."
+        },
+        {
+          "word": "PORTRE",
+          "hint": "Bir insanın yüzünün resmedilmesi."
+        },
+        {
+          "word": "MANZARA",
+          "hint": "Doğadaki ağaç, dağ ve gökyüzü gibi yerlerin resmi."
+        },
+        {
+          "word": "DOĞA",
+          "hint": "Etrafımızdaki canlı ve cansız tüm güzellikler."
+        },
+        {
+          "word": "EBRU",
+          "hint": "Su üzerine boyalar damlatılarak yapılan geleneksel sanat."
+        },
+        {
+          "word": "KALEMLİK",
+          "hint": "Boyalarımızı ve kalemlerimizi düzenli tutan kutu."
+        },
+        {
+          "word": "ÖNLÜK",
+          "hint": "Resim yaparken kıyafetlerimizi kirlenmekten koruyan giysi."
+        },
+        {
+          "word": "DÜZLEM",
+          "hint": "Resim yaptığımız yer gibi düz olan alan."
+        },
+        {
+          "word": "VURGU",
+          "hint": "Resmin en çok dikkat çeken yeri."
+        },
+        {
+          "word": "YARATICI",
+          "hint": "Yeni ve farklı şeyler düşünmek."
         }
       ]
     },
@@ -224,12 +484,152 @@
           "hint": "Boyaya basılarak iz bırakan nesne."
         },
         {
-          "word": "BASKII",
+          "word": "BASKI",
           "hint": "Bir yüzeye boya sürüp başka yüzeye aktarmak."
         },
         {
           "word": "HEYKEL",
           "hint": "Üç boyutlu sanat eseri."
+        },
+        {
+          "word": "DAİRE",
+          "hint": "Yuvarlak ve hiçbir köşesi olmayan şekil."
+        },
+        {
+          "word": "KARE",
+          "hint": "Dört kenarı birbirine eşit olan şekil."
+        },
+        {
+          "word": "ÜÇGEN",
+          "hint": "Üç kenarı ve üç köşesi olan şekil."
+        },
+        {
+          "word": "DİKDÖRTGEN",
+          "hint": "Karşılıklı kenarları eşit olan dört köşeli şekil."
+        },
+        {
+          "word": "YILDIZ",
+          "hint": "Gökyüzünde parlayan, sivri uçları olan şekil."
+        },
+        {
+          "word": "ÇİZGİ",
+          "hint": "İki nokta arasını birleştiren düz veya eğri iz."
+        },
+        {
+          "word": "NOKTA",
+          "hint": "Kalemin kağıda dokunduğu en küçük iz."
+        },
+        {
+          "word": "RENK",
+          "hint": "Nesneleri birbirinden ayıran görsel özellik."
+        },
+        {
+          "word": "KIRMIZI",
+          "hint": "Elma ve çilek gibi meyvelerin canlı rengi."
+        },
+        {
+          "word": "MAVİ",
+          "hint": "Gökyüzünün ve denizin rengi."
+        },
+        {
+          "word": "SARI",
+          "hint": "Güneşin ve limonun parlak rengi."
+        },
+        {
+          "word": "YEŞİL",
+          "hint": "Yaprakların ve çimenlerin doğadaki rengi."
+        },
+        {
+          "word": "TURUNCU",
+          "hint": "Kırmızı ve sarının karışımıyla oluşan renk."
+        },
+        {
+          "word": "MOR",
+          "hint": "Patlıcanın rengine benzeyen koyu renk."
+        },
+        {
+          "word": "KONTUR",
+          "hint": "Bir resmin etrafını çevreleyen sınır çizgisi."
+        },
+        {
+          "word": "BOYA",
+          "hint": "Resim yaparken kağıdımızı renklendiren araç."
+        },
+        {
+          "word": "FIRÇA",
+          "hint": "Boyayı kağıda yaymak için kullandığımız alet."
+        },
+        {
+          "word": "PALET",
+          "hint": "Boyaları karıştırmak için kullanılan tabak."
+        },
+        {
+          "word": "KAYGAN",
+          "hint": "Üzerinde tutunmanın zor olduğu pürüzsüz yüzey."
+        },
+        {
+          "word": "TIRTILLI",
+          "hint": "Üzerinde küçük küçük çıkıntılar olan yüzey."
+        },
+        {
+          "word": "PARLAK",
+          "hint": "Üzerine ışık vurduğunda parıldayan yüzey."
+        },
+        {
+          "word": "MAT",
+          "hint": "Parlamayan, ışığı yansıtmayan yüzey."
+        },
+        {
+          "word": "KAĞIT",
+          "hint": "Resim çizmek ve katlamak için kullanılan malzeme."
+        },
+        {
+          "word": "MAKAS",
+          "hint": "Kağıtları kesmek için kullanılan güvenlikli alet."
+        },
+        {
+          "word": "YAPIŞTIRICI",
+          "hint": "Parçaları birbirine tutturmaya yarayan madde."
+        },
+        {
+          "word": "KATI",
+          "hint": "Elde tutulduğunda şekli bozulmayan nesneler."
+        },
+        {
+          "word": "BOŞLUK",
+          "hint": "Nesnelerin çevresinde kalan doldurulmamış alan."
+        },
+        {
+          "word": "HİZALAMA",
+          "hint": "Nesneleri belirli bir düzenle yan yana dizmek."
+        },
+        {
+          "word": "KATLAMA",
+          "hint": "Kağıdı ikiye veya daha fazla parçaya bükme işlemi."
+        },
+        {
+          "word": "SİM",
+          "hint": "Kağıtları parlatmak için üzerine serpiştirilen madde."
+        },
+        {
+          "word": "KALIP",
+          "hint": "Aynı şekli tekrar tekrar çizmek için kullanılan çerçeve."
+        },
+        {
+          "word": "ÇERÇEVE",
+          "hint": "Resmin kenarlarını koruyan ve süsleyen yapı."
+        },
+        {
+          "word": "FON",
+          "hint": "Resmin arkasında kalan arka plan."
+        },
+        {
+          "word": "KARIŞIM",
+          "hint": "İki rengi birleştirerek yeni bir renk elde etmek."
+        },
+        {
+          "word": "DOĞA",
+          "hint": "Ağaçların, çiçeklerin ve hayvanların bulunduğu ortam."
         }
       ]
     },
@@ -277,7 +677,7 @@
           "hint": "Bitkinin küçük yavrusu, çoğalma birimi."
         },
         {
-          "word": "SÜNGERs",
+          "word": "SÜNGER",
           "hint": "Su emen, pürüzlü dokulu nesne."
         },
         {
@@ -285,7 +685,7 @@
           "hint": "Ağaçtan düşmüş, kurumuş yaprak."
         },
         {
-          "word": "MİNİATÜR",
+          "word": "MİNYATÜR",
           "hint": "Çok küçük boyutlu ayrıntılı resim."
         },
         {
@@ -303,6 +703,162 @@
         {
           "word": "ESKİZ",
           "hint": "Bir resmin taslak, ön çalışması."
+        },
+        {
+          "word": "KOZALAK",
+          "hint": "Çam ağaçlarının meyvesi gibidir, pullu ve sert bir yapısı vardır."
+        },
+        {
+          "word": "DENİZ KABUĞU",
+          "hint": "Deniz kıyısında bulabileceğimiz, sert ve içi boş canlı evleri."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Bir yüzeye dokunduğumuzda hissettiğimiz pürüzlü veya pürüzsüz olma durumu."
+        },
+        {
+          "word": "KİL",
+          "hint": "Su ile karıştırılınca kolayca şekil alan, kuruyunca sertleşen doğal toprak."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Bir resim veya heykelde tüm parçaların birbirini tamamlaması durumu."
+        },
+        {
+          "word": "RENK",
+          "hint": "Gözümüzle algıladığımız kırmızı, mavi, sarı gibi her türlü görüntü."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Bir yüzeyin üzerindeki çizgilerle oluşturulan süslemeler."
+        },
+        {
+          "word": "GÖLGE",
+          "hint": "Işık bir nesneye çarptığında arkasında oluşan karanlık alan."
+        },
+        {
+          "word": "ŞEKİL",
+          "hint": "Daire, kare veya üçgen gibi nesnelerin dış görünüşü."
+        },
+        {
+          "word": "FIRÇA",
+          "hint": "Boya yaparken kullandığımız, uç kısmında kıllar olan araç."
+        },
+        {
+          "word": "TUVAL",
+          "hint": "Üzerine resim yaptığımız gergin bez."
+        },
+        {
+          "word": "KOLAJ",
+          "hint": "Kağıt, kumaş veya doğadan parçaları birleştirerek resim yapma sanatı."
+        },
+        {
+          "word": "ÇİZGİ",
+          "hint": "Bir noktadan başlayıp diğerine uzanan en temel resim aracı."
+        },
+        {
+          "word": "KÖK",
+          "hint": "Bitkiyi toprağa bağlayan, altında gizlenen kısım."
+        },
+        {
+          "word": "PETEK",
+          "hint": "Arıların altıgen şeklinde yaptığı, bal depoladığı yapı."
+        },
+        {
+          "word": "PÜRÜZLÜ",
+          "hint": "Dokunduğumuzda elimize engebeli gelen yüzeyler."
+        },
+        {
+          "word": "YUMUŞAK",
+          "hint": "Sıkıldığında kolayca şekil değiştiren, sert olmayan nesneler."
+        },
+        {
+          "word": "PARLAK",
+          "hint": "Işığı yansıtan ve ışıl ışıl görünen yüzeyler."
+        },
+        {
+          "word": "MAT",
+          "hint": "Parlamayan, ışığı yansıtmayan yüzeyler."
+        },
+        {
+          "word": "HEYKEL",
+          "hint": "Doğadan gelen malzemelerle yapılan üç boyutlu eserler."
+        },
+        {
+          "word": "MEVSİM",
+          "hint": "Doğanın renk değiştirdiği dört farklı dönem."
+        },
+        {
+          "word": "GÖKYÜZÜ",
+          "hint": "Yukarı baktığımızda gördüğümüz, güneş ve bulutların olduğu yer."
+        },
+        {
+          "word": "İSTİRİDYE",
+          "hint": "İçinden inci çıkabilen, sert kabuklu deniz canlısı."
+        },
+        {
+          "word": "DALIŞ",
+          "hint": "Suyun altındaki renkli dünyayı görmek için yapılan eylem."
+        },
+        {
+          "word": "BOYA",
+          "hint": "Resimlerimize renk katmak için kullandığımız sıvı veya toz madde."
+        },
+        {
+          "word": "ÇERÇEVE",
+          "hint": "Yaptığımız resmi korumak ve güzel göstermek için kenarına taktığımız nesne."
+        },
+        {
+          "word": "DOĞAL",
+          "hint": "İnsan eli değmeden, kendiliğinden oluşan."
+        },
+        {
+          "word": "YARATICILIK",
+          "hint": "Daha önce yapılmamış yeni şeyler ortaya çıkarma yeteneği."
+        },
+        {
+          "word": "SİMETRİ",
+          "hint": "Bir şeklin iki tarafının tıpatıp aynı olması durumu."
+        },
+        {
+          "word": "AĞAÇ",
+          "hint": "Doğanın bize sunduğu, gövdesi odunsu olan büyük bitki."
+        },
+        {
+          "word": "BUZ",
+          "hint": "Suyun soğukta donarak katılaşmış hali."
+        },
+        {
+          "word": "KAYIK",
+          "hint": "Denizlerde ulaşım için kullanılan, doğadan esinlenerek yapılan araç."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Resimlerimizde ışığı ve sıcaklığı temsil eden sarı büyük gök cismi."
+        },
+        {
+          "word": "YANSIMA",
+          "hint": "Bir nesnenin su birikintisi veya aynadaki görüntüsü."
+        },
+        {
+          "word": "BİTKİ",
+          "hint": "Topraktan büyüyen, kökleri olan canlı varlıklara verilen genel isimdir."
+        },
+        {
+          "word": "ÇAMUR",
+          "hint": "Toprağın suyla karışmasıyla oluşan, şekil vermeye uygun yumuşak bir malzemedir."
+        },
+        {
+          "word": "DALGA",
+          "hint": "Denizlerde rüzgarla oluşan su hareketidir, resimlerde kıvrımlı çizgilerle çizilir."
+        },
+        {
+          "word": "TIRTIL",
+          "hint": "Doğada gördüğümüz, yaprakların üzerinde gezinen küçük ve renkli canlıdır."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Üzerinde yürüdüğümüz, bitkilerin kök saldığı ve sanat eserlerinde kullandığımız doğal malzeme."
         }
       ]
     }

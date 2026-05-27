@@ -47,7 +47,7 @@
           "hint": "Bir şarkının müzik kısmı, ezgisi."
         },
         {
-          "word": "KOROsing",
+          "word": "KORO",
           "hint": "Bir grup insanın birlikte şarkı söylemesi."
         },
         {
@@ -69,6 +69,162 @@
         {
           "word": "KONSER",
           "hint": "Müzisyenlerin sahnede çaldığı etkinlik."
+        },
+        {
+          "word": "ENSTRÜMAN",
+          "hint": "Ses çıkarmamızı sağlayan müzik aletlerine verilen isim."
+        },
+        {
+          "word": "PİYANO",
+          "hint": "Tuşlarına basınca içindeki tellerin titreşmesiyle ses çıkaran büyük bir müzik aleti."
+        },
+        {
+          "word": "GİTAR",
+          "hint": "Tellerine parmaklarımızla dokunarak çaldığımız, genellikle altı teli olan telli çalgı."
+        },
+        {
+          "word": "DAVUL",
+          "hint": "Tokmakla derisine vurarak ritim tuttuğumuz vurmalı bir çalgı."
+        },
+        {
+          "word": "FLÜT",
+          "hint": "Üfleyerek çaldığımız, ince ve neşeli sesler çıkaran çubuk şeklinde çalgı."
+        },
+        {
+          "word": "KEMAN",
+          "hint": "Yayı tellere sürterek çalınan, küçük ve zarif bir yaylı çalgı."
+        },
+        {
+          "word": "SAZ",
+          "hint": "Türk kültüründe çok önemli yeri olan, telli ve saplı bir halk çalgımız."
+        },
+        {
+          "word": "SAHNE",
+          "hint": "Sanatçıların şarkılarını söylemek veya müzik aleti çalmak için çıktıkları yüksek yer."
+        },
+        {
+          "word": "DİNAMİK",
+          "hint": "Müziğin sesinin bazen çok gür, bazen de çok hafif olması."
+        },
+        {
+          "word": "SAZAN",
+          "hint": "Müzik yaparken ellerimizle tuttuğumuz eşya."
+        },
+        {
+          "word": "KULAK",
+          "hint": "Etrafımızdaki müzikleri ve sesleri duymamızı sağlayan organımız."
+        },
+        {
+          "word": "VURMAK",
+          "hint": "Ritim tutarken elimizi veya bir çubuğu bir yere değdirme hareketi."
+        },
+        {
+          "word": "ÜFLEMEK",
+          "hint": "Nefesimizi bir çalgının içine göndererek ses çıkarma yöntemi."
+        },
+        {
+          "word": "TUŞ",
+          "hint": "Piyano gibi aletlerin üzerinde parmağımızla bastığımız küçük parçalar."
+        },
+        {
+          "word": "TEL",
+          "hint": "Gitar veya keman gibi aletlerde sesin çıkmasını sağlayan ince metal ipler."
+        },
+        {
+          "word": "GÜLÜMSEMEK",
+          "hint": "Güzel bir şarkı dinlediğimizde yüzümüzde oluşan mutlu ifade."
+        },
+        {
+          "word": "BAĞLAMA",
+          "hint": "Sazın diğer bir adı olan telli müzik aletimiz."
+        },
+        {
+          "word": "MARAKAS",
+          "hint": "İçinde küçük taneler olan, sallayınca şıkırtı çıkaran eğlenceli bir alet."
+        },
+        {
+          "word": "ZİL",
+          "hint": "Birbirine çarpınca çınlama sesi çıkaran küçük metal parçalar."
+        },
+        {
+          "word": "ŞEF",
+          "hint": "Müzik grubunu veya orkestrayı elleriyle yöneten kişi."
+        },
+        {
+          "word": "SAKİN",
+          "hint": "Yavaş ve huzur verici müzikler için kullanılan bir kelime."
+        },
+        {
+          "word": "NEŞELİ",
+          "hint": "Mutlu şarkılar çalarken hissettiğimiz duygu."
+        },
+        {
+          "word": "BİRLİKTE",
+          "hint": "Koroda herkesin aynı anda şarkı söylemesi."
+        },
+        {
+          "word": "İSİM",
+          "hint": "Enstrümanların veya sanatçıların birbirinden ayrılmasını sağlayan adları."
+        },
+        {
+          "word": "TİTREŞİM",
+          "hint": "Ses oluşurken havanın veya telin hızlıca hareket etmesi."
+        },
+        {
+          "word": "UYUM",
+          "hint": "Çalan tüm aletlerin birbirine yakışması ve güzel duyulması."
+        },
+        {
+          "word": "DİKKAT",
+          "hint": "Müzik dinlerken sesleri kaçırmamak için yaptığımız şey."
+        },
+        {
+          "word": "ÖĞRENMEK",
+          "hint": "Yeni bir şarkı veya müzik aleti çalmayı kavramak."
+        },
+        {
+          "word": "ÇALMAK",
+          "hint": "Bir müzik aletini kullanarak sesler üretmek."
+        },
+        {
+          "word": "TEKRAR",
+          "hint": "Şarkının bir bölümünü daha sonra bir kez daha söylemek."
+        },
+        {
+          "word": "BEĞENMEK",
+          "hint": "Bir müziği dinledikten sonra onu sevdiğimizi ifade etmek."
+        },
+        {
+          "word": "ÖYKÜ",
+          "hint": "Bazı şarkıların içinde anlatılan kısa hikayeler."
+        },
+        {
+          "word": "TÜRKÜ",
+          "hint": "Halkımızın dilden dile dolaşan geleneksel şarkıları."
+        },
+        {
+          "word": "EĞLENCE",
+          "hint": "Müzik eşliğinde dans edip zaman geçirmek."
+        },
+        {
+          "word": "ÇALGICI",
+          "hint": "Enstrüman kullanan, müzik aleti çalan kişiye verilen isimdir."
+        },
+        {
+          "word": "SESLENİŞ",
+          "hint": "Birine duyurmak için yüksek sesle ses çıkarmak, çağırmak demektir."
+        },
+        {
+          "word": "KAYIT",
+          "hint": "Müziği veya sesi sonradan tekrar dinleyebilmek için saklama işlemidir."
+        },
+        {
+          "word": "DÜDÜK",
+          "hint": "İçine hava üfleyerek ince ve tiz bir ses çıkaran küçük müzik aracıdır."
+        },
+        {
+          "word": "AYAK",
+          "hint": "Müzik yaparken tempo tutmak için yere vurduğumuz vücut bölümümüzdür."
         }
       ]
     },
@@ -130,7 +286,7 @@
           "hint": "Hava üflenerek çalınan çalgı türü."
         },
         {
-          "word": "VURMALII",
+          "word": "VURMALI",
           "hint": "Vurularak ses çıkarılan çalgı türü."
         },
         {
@@ -140,6 +296,146 @@
         {
           "word": "ENSTRÜMAN",
           "hint": "Müzik yapmak için kullanılan alet."
+        },
+        {
+          "word": "NOTA",
+          "hint": "Müziği yazmaya yarayan küçük işaretler."
+        },
+        {
+          "word": "MELODİ",
+          "hint": "Kulağa hoş gelen seslerin arka arkaya dizilmesi."
+        },
+        {
+          "word": "RİTİM",
+          "hint": "Seslerin belirli bir düzende tekrarlanması."
+        },
+        {
+          "word": "SES",
+          "hint": "Kulağımızla duyabildiğimiz her türlü titreşim."
+        },
+        {
+          "word": "SAZ",
+          "hint": "Türk kültüründe telli çalgılara verilen genel ad."
+        },
+        {
+          "word": "TEMPO",
+          "hint": "Müziğin ne kadar hızlı veya yavaş olduğunu belirler."
+        },
+        {
+          "word": "KORO",
+          "hint": "Birlikte şarkı söyleyen insanların oluşturduğu grup."
+        },
+        {
+          "word": "SOLO",
+          "hint": "Tek bir kişinin yaptığı müzik gösterisi."
+        },
+        {
+          "word": "ŞARKI",
+          "hint": "Sözlü ve müzikli küçük eser."
+        },
+        {
+          "word": "SESLİ",
+          "hint": "Duyulabilir titreşimlerin olduğu durum."
+        },
+        {
+          "word": "TİZ",
+          "hint": "İnce, çocuk sesi gibi yüksek perdeli ses."
+        },
+        {
+          "word": "PES",
+          "hint": "Kalın, ayı sesi gibi derinden gelen ses."
+        },
+        {
+          "word": "OKTAV",
+          "hint": "Müzikte sekiz notalık ses aralığı."
+        },
+        {
+          "word": "ÇALGI",
+          "hint": "Müzik yapmaya yarayan her türlü alet."
+        },
+        {
+          "word": "SAHNE",
+          "hint": "Müzisyenlerin gösteri yaptığı yüksek yer."
+        },
+        {
+          "word": "DİNLEME",
+          "hint": "Çevredeki sesleri anlamak için dikkat etmek."
+        },
+        {
+          "word": "ALKIŞ",
+          "hint": "Beğendiğimiz bir müzik bittiğinde yaptığımız hareket."
+        },
+        {
+          "word": "AKUSTİK",
+          "hint": "Sesin yansıması ve duyulması ile ilgili özellik."
+        },
+        {
+          "word": "TİTREŞİM",
+          "hint": "Bir nesnenin hızla ileri geri hareket ederek ses çıkarması."
+        },
+        {
+          "word": "ALKIŞLAMAK",
+          "hint": "Ellerimizi birbirine vurarak sesi beğendiğimizi göstermek."
+        },
+        {
+          "word": "MARŞ",
+          "hint": "Coşkuyla söylenen, adımlara uygun ritimli eser."
+        },
+        {
+          "word": "GÜRÜLTÜ",
+          "hint": "Kulağımızı rahatsız eden düzensiz sesler."
+        },
+        {
+          "word": "DÜZEN",
+          "hint": "Müzikte seslerin kurallı bir şekilde ilerlemesi."
+        },
+        {
+          "word": "KONSER",
+          "hint": "Müzisyenlerin topluluk önünde çalması."
+        },
+        {
+          "word": "DİNAMİK",
+          "hint": "Müzikte sesin gücü, yani gür veya hafif olması."
+        },
+        {
+          "word": "VURUŞ",
+          "hint": "Ritmi tutmak için ellerimizle veya ayaklarımızla yaptığımız hareket."
+        },
+        {
+          "word": "MÜZİK",
+          "hint": "Duygularımızı sesler aracılığıyla ifade etme sanatı."
+        },
+        {
+          "word": "ALFABE",
+          "hint": "Müzikte sadece 7 harf vardır (Do, Re, Mi, Fa, Sol, La, Si)."
+        },
+        {
+          "word": "FİSKE",
+          "hint": "Bazı enstrümanlarda tellere parmakla hafifçe vurmak."
+        },
+        {
+          "word": "SAZAN",
+          "hint": "Saz çalan kişi için kullanılan yöresel bir ifade."
+        },
+        {
+          "word": "YANKI",
+          "hint": "Sesin bir duvara çarpıp bize geri gelmesi."
+        },
+        {
+          "word": "DİJİTAL",
+          "hint": "Elektronik cihazlar yardımıyla üretilen sesler."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Müziğin ritmine göre vücudumuzu sallamak."
+        },
+        {
+          "word": "BESTE",
+          "hint": "Yeni bir müzik eserinin yazılması."
+        },
+        {
+          "word": "SESSİZLİK",
+          "hint": "Müzikte seslerin kesildiği kısa boşluklar."
         }
       ]
     },
@@ -210,6 +506,146 @@
         {
           "word": "DANS",
           "hint": "Müzik eşliğinde yapılan ritmik hareket."
+        },
+        {
+          "word": "BAĞLAMA",
+          "hint": "Üç, yedi veya daha fazla telli, gövdesi armut şeklinde olan telli bir çalgı."
+        },
+        {
+          "word": "SAZ",
+          "hint": "Bağlamanın diğer adı olan, halk müziğimizin en temel çalgısı."
+        },
+        {
+          "word": "MEYDAN",
+          "hint": "Ozanların türkülerini söylemek için toplandığı geniş açık alan."
+        },
+        {
+          "word": "KAVAL",
+          "hint": "Kamıştan yapılan, çobanların çok sevdiği üflemeli bir çalgı."
+        },
+        {
+          "word": "DAVUL",
+          "hint": "Tokmakla vurularak çalınan, ritim tutmamızı sağlayan büyük vurmalı çalgı."
+        },
+        {
+          "word": "ZURNA",
+          "hint": "Düğünlerde davulun yanına eşlik eden, sesi çok yüksek çıkan üflemeli bir çalgı."
+        },
+        {
+          "word": "TÜRKÜCÜ",
+          "hint": "Halk türkülerini söylemeyi meslek edinen kişilere verilen isim."
+        },
+        {
+          "word": "KÖY",
+          "hint": "Şehirden uzak, geleneklerimizin ve türkülerimizin daha çok yaşatıldığı yerleşim yeri."
+        },
+        {
+          "word": "DÜĞÜN",
+          "hint": "İnsanların bir araya gelip eğlendiği, genellikle müziklerin çalındığı kutlama."
+        },
+        {
+          "word": "RİTİM",
+          "hint": "Müziğin içindeki vuruşların düzenli bir şekilde tekrar etmesi."
+        },
+        {
+          "word": "NOTA",
+          "hint": "Seslerin yüksekliklerini ve sürelerini gösteren müzik işaretleri."
+        },
+        {
+          "word": "SES",
+          "hint": "Kulağımızla duyduğumuz, müzik yapmamızı sağlayan titreşimler."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir topluma ait olan yemek, müzik ve oyun gibi değerlerin bütünü."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Müzik eşliğinde yapılan, yöresel figürler içeren hareketler bütünü."
+        },
+        {
+          "word": "MIZRAP",
+          "hint": "Bağlama çalarken tellere vurmak için kullanılan küçük parça."
+        },
+        {
+          "word": "DİZE",
+          "hint": "Şiir ve türkü sözlerinin her bir satırı."
+        },
+        {
+          "word": "KITA",
+          "hint": "Şiir ve türkülerdeki dört dizelik bölümler."
+        },
+        {
+          "word": "YÖRESEL",
+          "hint": "Bir bölgeye veya şehre özgü olan özellikler."
+        },
+        {
+          "word": "ANADOLU",
+          "hint": "Türkülerimizin doğduğu, çok zengin müzik kültürüne sahip güzel topraklarımız."
+        },
+        {
+          "word": "ÇOBAN",
+          "hint": "Kırlarda hayvanları otlatırken kaval çalan kişi."
+        },
+        {
+          "word": "AĞIT",
+          "hint": "Üzüntülü duyguları ifade eden, genellikle yavaş söylenen türkü çeşidi."
+        },
+        {
+          "word": "KİRAZ",
+          "hint": "Türkülerde sevilen, baharı müjdeleyen kırmızı bir meyve."
+        },
+        {
+          "word": "DAĞ",
+          "hint": "Türkülerde çok sık geçen, yüksek yer şekilleri."
+        },
+        {
+          "word": "DERLEME",
+          "hint": "Dilden dile dolaşan türkülerin yazıya geçirilip korunması."
+        },
+        {
+          "word": "MÜZİSYEN",
+          "hint": "Müzik aleti çalan veya şarkı söyleyen sanatçı."
+        },
+        {
+          "word": "EZGİ",
+          "hint": "Türkülerin kulağımıza hoş gelen melodik yapısı."
+        },
+        {
+          "word": "TEMPO",
+          "hint": "Müziğin hızlı veya yavaş olma derecesi."
+        },
+        {
+          "word": "BEŞİK",
+          "hint": "Annelerin bebeklerini uyuturken türkü söylediği yer."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Türküler aracılığıyla sevgi, özlem veya sevinç gibi hislerimizi paylaşmamız."
+        },
+        {
+          "word": "KİTAP",
+          "hint": "Türkü sözlerinin ve hikayelerinin yazılı olduğu kaynak."
+        },
+        {
+          "word": "ŞENLİK",
+          "hint": "İnsanların bir araya gelip müzik eşliğinde coşkuyla kutlama yapması."
+        },
+        {
+          "word": "MİRAS",
+          "hint": "Geçmişten bizlere kalan değerli türküler ve bilgiler."
+        },
+        {
+          "word": "TELLİ",
+          "hint": "Bağlama gibi üzerinde ses çıkarmaya yarayan ipler olan çalgılar."
+        },
+        {
+          "word": "ÜFLEME",
+          "hint": "Kaval veya zurna gibi nefesle çalınan çalgılar için kullanılan yöntem."
+        },
+        {
+          "word": "KADİM",
+          "hint": "Çok eski zamanlardan beri var olan gelenekler ve türküler."
         }
       ]
     },
@@ -265,7 +701,7 @@
           "hint": "Müzikle hareketin birlikte güzel görünmesi."
         },
         {
-          "word": "HEYECANl",
+          "word": "HEYECAN",
           "hint": "Müzik dinlerken duyulan coşku."
         },
         {
@@ -283,6 +719,146 @@
         {
           "word": "GÖSTERI",
           "hint": "Seyirciye sunulan dans ya da müzik etkinliği."
+        },
+        {
+          "word": "RİTİM",
+          "hint": "Müziğin içindeki düzenli vuruşlar bütünü."
+        },
+        {
+          "word": "TEMPO",
+          "hint": "Müziğin hızına verilen ad."
+        },
+        {
+          "word": "MELODİ",
+          "hint": "Müzikteki kulaklara hoş gelen ses dizisi."
+        },
+        {
+          "word": "NOTA",
+          "hint": "Sesleri yazılı olarak gösteren işaretler."
+        },
+        {
+          "word": "DANS",
+          "hint": "Müziğin ritmine göre yapılan estetik hareketler."
+        },
+        {
+          "word": "TÜRKÜ",
+          "hint": "Halkın duygularını anlatan yöresel müzik parçası."
+        },
+        {
+          "word": "ALKIŞ",
+          "hint": "Beğenimizi göstermek için ellerimizi birbirine vurmak."
+        },
+        {
+          "word": "ORKESTRA",
+          "hint": "Birçok müzik aletinin birlikte çaldığı grup."
+        },
+        {
+          "word": "ENSTRÜMAN",
+          "hint": "Müzik yapmaya yarayan her türlü alet."
+        },
+        {
+          "word": "ŞARKI",
+          "hint": "Sözleri olan ve müzikle söylenen eser."
+        },
+        {
+          "word": "BESTE",
+          "hint": "Yeni bir müzik eserinin oluşturulması."
+        },
+        {
+          "word": "KORO",
+          "hint": "Birlikte şarkı söyleyen insan topluluğu."
+        },
+        {
+          "word": "SOLO",
+          "hint": "Tek bir kişinin söylediği veya çaldığı müzik."
+        },
+        {
+          "word": "SAZ",
+          "hint": "Tellere dokunarak ses çıkaran geleneksel bir alet."
+        },
+        {
+          "word": "PİYANO",
+          "hint": "Tuşlarına basarak ses çıkaran büyük bir çalgı."
+        },
+        {
+          "word": "DAVUL",
+          "hint": "Tokmakla vurularak ritim tutulan çalgı."
+        },
+        {
+          "word": "FLÜT",
+          "hint": "Üfleyerek ses çıkardığımız ince uzun çalgı."
+        },
+        {
+          "word": "KEMAN",
+          "hint": "Yay çekilerek çalınan telli bir çalgı."
+        },
+        {
+          "word": "MÜZİSYEN",
+          "hint": "Müzikle uğraşan veya alet çalan kişi."
+        },
+        {
+          "word": "SES",
+          "hint": "Kulağımızla duyabildiğimiz her türlü titreşim."
+        },
+        {
+          "word": "AĞIR",
+          "hint": "Yavaş ve sakin yapılan müzik veya hareket."
+        },
+        {
+          "word": "HIZLI",
+          "hint": "Çabuk ve seri yapılan müzik veya hareket."
+        },
+        {
+          "word": "KULAK",
+          "hint": "Sesleri ve müzikleri duymamızı sağlayan organımız."
+        },
+        {
+          "word": "NOTA DEFTERİ",
+          "hint": "Müziklerin notalarla yazıldığı kitap."
+        },
+        {
+          "word": "SAHNE",
+          "hint": "Sanatçıların gösteri yaptığı yükseltilmiş yer."
+        },
+        {
+          "word": "PROVA",
+          "hint": "Gösteri öncesi yapılan hazırlık çalışması."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Müzik dinlerken içimizde hissettiğimiz mutluluk veya hüzün."
+        },
+        {
+          "word": "MOLA",
+          "hint": "Müziğe kısa süreliğine ara vermek."
+        },
+        {
+          "word": "TAKİP",
+          "hint": "Müziğin hızına veya hareketine uyum sağlamak."
+        },
+        {
+          "word": "DURMAK",
+          "hint": "Müzik bittiğinde veya işaret verildiğinde hareketsiz kalmak."
+        },
+        {
+          "word": "SEKMEK",
+          "hint": "Müziğin ritmine göre tek ayak üzerinde sıçramak."
+        },
+        {
+          "word": "YÜRÜMEK",
+          "hint": "Müziğin temposuna göre düzenli adımlar atmak."
+        },
+        {
+          "word": "VURGULU",
+          "hint": "Müziğin daha güçlü ve belirgin çıkan kısımları."
+        },
+        {
+          "word": "SERBEST",
+          "hint": "Kendi istediğimiz dans figürlerini yapmak."
+        },
+        {
+          "word": "RİTMİK",
+          "hint": "Müziğin ritmine uygun hareket eden, ritim içeren."
         }
       ]
     }

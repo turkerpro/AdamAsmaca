@@ -44,7 +44,7 @@
           "hint": "İleri geri ya da sağa sola hareket etmek."
         },
         {
-          "word": "SÜRÜNMEKii",
+          "word": "SÜRÜNMEK",
           "hint": "Yerde yatarak ellerin yardımıyla ilerlemek."
         },
         {
@@ -70,6 +70,146 @@
         {
           "word": "DAYANIKLILIK",
           "hint": "Uzun süre yorulmadan hareket edebilmek."
+        },
+        {
+          "word": "ADIM",
+          "hint": "Yürürken ayağımızı bir ileriye atma hareketidir."
+        },
+        {
+          "word": "SEKMEK",
+          "hint": "Tek ayak üzerinde yerden hafifçe yükselmektir."
+        },
+        {
+          "word": "DURMAK",
+          "hint": "Hareket halindeyken aniden hareketsiz kalmaktır."
+        },
+        {
+          "word": "HIZLANMAK",
+          "hint": "Hareketin süratini artırmaktır."
+        },
+        {
+          "word": "YAVAŞLAMAK",
+          "hint": "Hareketin süratini azaltmaktır."
+        },
+        {
+          "word": "SEKİŞ",
+          "hint": "Bir veya iki ayakla yerden sıçrama şeklidir."
+        },
+        {
+          "word": "İLERİ",
+          "hint": "Yüzümüzün baktığı yöne doğru gitmektir."
+        },
+        {
+          "word": "GERİ",
+          "hint": "Sırtımızın baktığı yöne doğru gitmektir."
+        },
+        {
+          "word": "SAĞ",
+          "hint": "Kalp tarafımızın tersi olan yöndür."
+        },
+        {
+          "word": "SOL",
+          "hint": "Kalbimizin bulunduğu taraftaki yöndür."
+        },
+        {
+          "word": "ÇÖMELMEK",
+          "hint": "Dizleri bükerek yere yakınlaşmaktır."
+        },
+        {
+          "word": "DİZ",
+          "hint": "Bacağımızın orta kısmında bulunan eklem yeridir."
+        },
+        {
+          "word": "KOL",
+          "hint": "Omuzdan parmak ucuna kadar olan uzuvdur."
+        },
+        {
+          "word": "BAŞ",
+          "hint": "Vücudumuzun en üstünde bulunan bölümdür."
+        },
+        {
+          "word": "BEL",
+          "hint": "Vücudun tam orta kısmıdır."
+        },
+        {
+          "word": "PARMAK",
+          "hint": "El ve ayaklarımızın uç kısmındaki küçük bölümlerdir."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek ve öğrenmek için yapılan kurallı etkinliktir."
+        },
+        {
+          "word": "TAKIM",
+          "hint": "Birlikte hareket eden arkadaş grubudur."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Oyunu düzenli oynamamızı sağlayan sınırlardır."
+        },
+        {
+          "word": "TOP",
+          "hint": "Üzerinde zıpladığımız veya fırlattığımız yuvarlak araçtır."
+        },
+        {
+          "word": "ÇEMBER",
+          "hint": "İçinden geçtiğimiz veya çevirdiğimiz yuvarlak halkadır."
+        },
+        {
+          "word": "İP",
+          "hint": "Üzerinden atladığımız uzun ve ince araçtır."
+        },
+        {
+          "word": "HEDEF",
+          "hint": "Topu veya kendimizi yönlendirdiğimiz yerdir."
+        },
+        {
+          "word": "ÇİZGİ",
+          "hint": "Üzerinde yürüdüğümüz düz veya eğri işarettir."
+        },
+        {
+          "word": "SIRA",
+          "hint": "Arka arkaya dizildiğimiz düzenli sıradır."
+        },
+        {
+          "word": "NEFES",
+          "hint": "Hareket ederken akciğerimize çektiğimiz havadır."
+        },
+        {
+          "word": "TER",
+          "hint": "Hareket edince vücudumuzdan çıkan sudur."
+        },
+        {
+          "word": "TUTMAK",
+          "hint": "Bir nesneyi elimizle kavramaktır."
+        },
+        {
+          "word": "FIRLATMAK",
+          "hint": "Nesneyi ileriye doğru hızla atmaktır."
+        },
+        {
+          "word": "YAKALAMAK",
+          "hint": "Gelen bir nesneyi havada tutmaktır."
+        },
+        {
+          "word": "GÖVDE",
+          "hint": "Vücudumuzun baş, kollar ve bacaklar dışındaki ana kısmıdır."
+        },
+        {
+          "word": "DURUŞ",
+          "hint": "Vücudumuzu belli bir şekilde sabitlemektir."
+        },
+        {
+          "word": "ÖLÇÜ",
+          "hint": "Hareketin ne kadar uzakta veya ne kadar sürede yapıldığıdır."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Oyunumuzu oynadığımız boş yerdir."
+        },
+        {
+          "word": "TEMPO",
+          "hint": "Hareketin ritmidir."
         }
       ]
     },
@@ -103,7 +243,7 @@
           "hint": "Oyunu ya da yarışmayı birinci bitirmek."
         },
         {
-          "word": "KAYBETMEKs",
+          "word": "KAYBETMEK",
           "hint": "Oyunda birinci olamamak."
         },
         {
@@ -141,6 +281,154 @@
         {
           "word": "ESTAFET",
           "hint": "Takım hâlinde sırayla koşulan yarış."
+        },
+        {
+          "word": "KOŞU",
+          "hint": "Ayaklarımızı hızla hareket ettirerek yaptığımız eylem."
+        },
+        {
+          "word": "SEKMEK",
+          "hint": "Tek ayak üzerinde zıplayarak ilerlemek."
+        },
+        {
+          "word": "DENGELENMEK",
+          "hint": "Düşmeden sabit veya hareketli durabilme yeteneği."
+        },
+        {
+          "word": "SIRALANMAK",
+          "hint": "Arka arkaya veya yan yana düzenli durmak."
+        },
+        {
+          "word": "İŞBİRLİĞİ",
+          "hint": "Bir işi başarmak için arkadaşlarla beraber çalışmak."
+        },
+        {
+          "word": "ESNEME",
+          "hint": "Vücudumuzu rahatlatmak için yapılan germe hareketleri."
+        },
+        {
+          "word": "ZAMANLAMA",
+          "hint": "Bir hareketi tam doğru anında yapabilmek."
+        },
+        {
+          "word": "ÇEVİKLİK",
+          "hint": "Hareketleri hızlı ve kolay yapabilme yeteneği."
+        },
+        {
+          "word": "HEDEFLENMEK",
+          "hint": "Bir şeyi tutturmaya veya ona ulaşmaya çalışmak."
+        },
+        {
+          "word": "YERDEŞ",
+          "hint": "Aynı oyunda veya alanda bulunan arkadaş."
+        },
+        {
+          "word": "DİKKAT",
+          "hint": "Gözümüzü ve zihnimizi oyuna odaklamak."
+        },
+        {
+          "word": "NİŞAN",
+          "hint": "Bir hedefi vurmak için yönü ayarlamak."
+        },
+        {
+          "word": "ADIM",
+          "hint": "Yürürken attığımız her bir ayak hareketi."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Oyun oynadığımız boş ve geniş yer."
+        },
+        {
+          "word": "TUTMAK",
+          "hint": "Atılan veya gelen bir şeyi elinle yakalamak."
+        },
+        {
+          "word": "FIRLATMAK",
+          "hint": "Bir şeyi gücünü kullanarak uzağa atmak."
+        },
+        {
+          "word": "ÇİZGİ",
+          "hint": "Oyun alanını belirlemek için yere çizilen hat."
+        },
+        {
+          "word": "SÜRE",
+          "hint": "Oyunun ne kadar devam edeceği."
+        },
+        {
+          "word": "DÖNMEK",
+          "hint": "Kendi etrafında veya bir nokta çevresinde hareket etmek."
+        },
+        {
+          "word": "EĞİLMEK",
+          "hint": "Yere doğru gövdemizi bükmek."
+        },
+        {
+          "word": "ZIRLAMAK",
+          "hint": "Ayakları yerden keserek yukarı doğru sıçramak."
+        },
+        {
+          "word": "YÖN",
+          "hint": "Gideceğimiz veya bakacağımız taraf."
+        },
+        {
+          "word": "PARKUR",
+          "hint": "Üzerinde engellerin olduğu oyun yolu."
+        },
+        {
+          "word": "ENGELLİ",
+          "hint": "Üzerinde aşılması gereken nesneler olan parkur."
+        },
+        {
+          "word": "TEMPO",
+          "hint": "Hareketlerin hızı ve ritmi."
+        },
+        {
+          "word": "UYUM",
+          "hint": "Arkadaşlarla aynı zamanda veya aynı şekilde hareket etmek."
+        },
+        {
+          "word": "MOLA",
+          "hint": "Oyuna kısa bir süre ara vermek."
+        },
+        {
+          "word": "ISINMA",
+          "hint": "Oyun öncesi vücudu hazırlamak."
+        },
+        {
+          "word": "HIZ",
+          "hint": "Bir hareketi ne kadar çabuk yaptığımız."
+        },
+        {
+          "word": "MESAFE",
+          "hint": "İki kişi veya iki nokta arasındaki açıklık."
+        },
+        {
+          "word": "BEKLEMEK",
+          "hint": "Sıranın sana gelmesi için durmak."
+        },
+        {
+          "word": "GÜVENLİK",
+          "hint": "Oynarken zarar görmemek için dikkatli olmak."
+        },
+        {
+          "word": "NEFES",
+          "hint": "Koşarken vücudumuza aldığımız hava."
+        },
+        {
+          "word": "GÜÇ",
+          "hint": "Hareketi yapmak için kullandığımız kas kuvveti."
+        },
+        {
+          "word": "KUTU",
+          "hint": "İçine nesneler koyduğumuz veya engellerde kullandığımız kutu."
+        },
+        {
+          "word": "EL SIKIŞMA",
+          "hint": "Oyun sonunda arkadaşına başarı dilemek."
+        },
+        {
+          "word": "DAVET",
+          "hint": "Bir arkadaşını oyuna çağırmak."
         }
       ]
     },
@@ -215,6 +503,150 @@
         {
           "word": "MUTLULUK",
           "hint": "Spor yapınca kazanılan iyi duygu hali."
+        },
+        {
+          "word": "MEYVE",
+          "hint": "Sağlıklı büyümemiz için yediğimiz tatlı bitkiler."
+        },
+        {
+          "word": "SEBZE",
+          "hint": "Gelişimimiz için sofradan eksik etmememiz gereken bitkiler."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Arkadaşlarla koşup eğlenerek hareket ettiğimiz etkinlik."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Vücudumuzun yer değiştirmesi veya kıpırdaması."
+        },
+        {
+          "word": "ENSTRÜMAN",
+          "hint": "Bazı oyunlarda müziğe eşlik etmek için kullanılır."
+        },
+        {
+          "word": "KOŞU",
+          "hint": "Hızlı adımlarla ilerlemek, kalbimizi hızlandırır."
+        },
+        {
+          "word": "YÜRÜYÜŞ",
+          "hint": "Adım adım ilerleyerek yapılan hafif egzersiz."
+        },
+        {
+          "word": "DİKKAT",
+          "hint": "Oyun kurallarını anlamak için odaklanmamız gereken durum."
+        },
+        {
+          "word": "TAKIM",
+          "hint": "Bir oyunu kazanmak için birlikte çabalayan arkadaş grubu."
+        },
+        {
+          "word": "KURALLAR",
+          "hint": "Oyunun adil ve güvenli olması için koyulan şartlar."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "Hareket etmek ve oynamak için ihtiyaç duyduğumuz güç."
+        },
+        {
+          "word": "TERLEMEK",
+          "hint": "Koşarken vücudumuzun ısınması sonucu oluşan su damlacıkları."
+        },
+        {
+          "word": "VİTAMİN",
+          "hint": "Meyve ve sebzelerde bulunan vücudu koruyan maddeler."
+        },
+        {
+          "word": "SÜT",
+          "hint": "Kemiklerimizi güçlendiren beyaz ve sağlıklı içecek."
+        },
+        {
+          "word": "DİNLENME",
+          "hint": "Çok yorulduğumuzda vücudumuzu sakinleştirme süreci."
+        },
+        {
+          "word": "ESNEKLİK",
+          "hint": "Vücudumuzu kolayca bükebilme yeteneği."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Bir ayağımızın üzerinde düşmeden durabilme durumu."
+        },
+        {
+          "word": "SAĞLIKLI",
+          "hint": "Vücudumuzun hastalıklara karşı güçlü olması."
+        },
+        {
+          "word": "DİRENÇ",
+          "hint": "Vücudun dış etkilere karşı güçlü durması."
+        },
+        {
+          "word": "KAHVALTI",
+          "hint": "Güne enerji dolu başlamak için yediğimiz ilk öğün."
+        },
+        {
+          "word": "DİŞLER",
+          "hint": "Yemekleri parçalamak için ağzımızda bulunan sert yapılar."
+        },
+        {
+          "word": "ELLER",
+          "hint": "Mikroplardan korunmak için yemekten önce yıkadığımız organımız."
+        },
+        {
+          "word": "DURUŞ",
+          "hint": "Dik oturmak ve yürümek için vücudumuzu doğru tutma."
+        },
+        {
+          "word": "MÜZİK",
+          "hint": "Oyun oynarken ritim tutmamızı sağlayan sesler."
+        },
+        {
+          "word": "ARKADAŞ",
+          "hint": "Oyunları birlikte oynadığımız kişiler."
+        },
+        {
+          "word": "GÜVENLİK",
+          "hint": "Oyun sırasında dikkatli olarak kendimizi koruma."
+        },
+        {
+          "word": "ISLANMAK",
+          "hint": "Temizlik için suyla temas etme durumu."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Bir şeyi kaldırmak veya itmek için gereken güç."
+        },
+        {
+          "word": "ZİNDE",
+          "hint": "Vücudun uykusunu almış ve enerjik olma hali."
+        },
+        {
+          "word": "GÖZLÜK",
+          "hint": "Güneşin yakıcı etkisinden korumak için takılabilir."
+        },
+        {
+          "word": "ŞAPKA",
+          "hint": "Sıcak havalarda başımızı güneşten koruyan aksesuar."
+        },
+        {
+          "word": "TIRMANMA",
+          "hint": "Parktaki oyun gruplarında yukarı doğru tırmanma eylemi."
+        },
+        {
+          "word": "ZIPLAMA",
+          "hint": "Ayaklarımızla yerden havaya doğru sıçrama."
+        },
+        {
+          "word": "BAĞCIK",
+          "hint": "Koşarken düşmemek için spor ayakkabılarımızı bağladığımız ipler."
+        },
+        {
+          "word": "DİSİPLİN",
+          "hint": "Oyun saatlerine ve kurallarına uymak."
+        },
+        {
+          "word": "HUZUR",
+          "hint": "Vücudumuzun ve zihnimizin rahat olması."
         }
       ]
     }
