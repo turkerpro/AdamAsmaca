@@ -4,9 +4,11 @@
       "grade": 1,
       "gradeName": "1. Sınıf",
       "subjects": [
-        {"id": "hayat", "name": "Hayat Bilgisi", "dataFile": "./data/grade_1/hayat.json"},
-        {"id": "turkce", "name": "Türkçe", "dataFile": "./data/grade_1/turkce.json"},
-        {"id": "matematik", "name": "Matematik", "dataFile": "./data/grade_1/matematik.json"}
+		{"id": "görselsanat", "name": "Görsel Sanatlar", "dataFile": ".data/grade_1/1_sinif_gorsel_sanatlar.json"},
+		{"id": "hayat2", "name": "Hayan Bilgisi cc", "dataFile": ".data/grade_1/1_sinif_hayat_bilgisi.json"},
+		{"id": "matematik2", "name": "Matematik cc, "dataFile": ".data/grade_1/1_sinif_matematik.json"},
+		{"id": "turkce2", "name": "Türkçe cc", "dataFile": ".data/grade_1/1_sinif_turkce.json"},
+		{"id": "Oyun", "name": "Oyun Fiziki cc", "dataFile": ".data/grade_1/1_sinif_oyun_fiziki.json"}
       ]
     },
     {
