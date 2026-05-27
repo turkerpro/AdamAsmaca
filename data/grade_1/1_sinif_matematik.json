@@ -1,0 +1,665 @@
+{
+  "ders": "Matematik",
+  "sinif": 1,
+  "units": [
+    {
+      "id": "mat_1_u1",
+      "name": "1. Ünite: Sayılar ve Sayma (1-10)",
+      "months": [
+        9,
+        10
+      ],
+      "words": [
+        {
+          "word": "BİR",
+          "hint": "En küçük doğal sayı, parmakla gösterilen ilk sayı."
+        },
+        {
+          "word": "İKİ",
+          "hint": "1'den sonra gelen çift sayı."
+        },
+        {
+          "word": "ÜÇ",
+          "hint": "2'den sonra gelen sayı."
+        },
+        {
+          "word": "DÖRT",
+          "hint": "3'ten sonra gelen sayı."
+        },
+        {
+          "word": "BEŞ",
+          "hint": "Elinin parmak sayısı."
+        },
+        {
+          "word": "ALTI",
+          "hint": "5'ten sonra gelen çift sayı."
+        },
+        {
+          "word": "YEDİ",
+          "hint": "Haftanın gün sayısı."
+        },
+        {
+          "word": "SEKİZ",
+          "hint": "7'den sonra gelen çift sayı."
+        },
+        {
+          "word": "DOKUZ",
+          "hint": "10'dan bir önceki sayı."
+        },
+        {
+          "word": "ON",
+          "hint": "İki elin parmak sayısı."
+        },
+        {
+          "word": "SAYMAK",
+          "hint": "Nesneleri teker teker sıralamak."
+        },
+        {
+          "word": "RAKAM",
+          "hint": "Sayıları yazmak için kullandığımız işaret."
+        },
+        {
+          "word": "SAYI",
+          "hint": "Miktarı ifade etmek için kullandığımız kavram."
+        },
+        {
+          "word": "SIFIR",
+          "hint": "Hiç olmadığını gösteren sayı."
+        },
+        {
+          "word": "EŞİT",
+          "hint": "İki tarafın aynı miktarda olması."
+        },
+        {
+          "word": "FAZLA",
+          "hint": "Diğerinden daha çok olan."
+        },
+        {
+          "word": "AZ",
+          "hint": "Diğerinden daha az olan."
+        },
+        {
+          "word": "ÇIFT",
+          "hint": "İkiye bölünebilen sayı."
+        },
+        {
+          "word": "TEK",
+          "hint": "İkiye bölünemeyen sayı."
+        },
+        {
+          "word": "SIRA",
+          "hint": "Nesnelerin belirli bir düzende dizilmesi."
+        },
+        {
+          "word": "İLK",
+          "hint": "Sırada en önde olan."
+        },
+        {
+          "word": "SON",
+          "hint": "Sırada en arkada olan."
+        },
+        {
+          "word": "ORTA",
+          "hint": "İki uç arasındaki yer."
+        },
+        {
+          "word": "KAÇ",
+          "hint": "Sayıyı sormak için kullanılan soru sözcüğü."
+        },
+        {
+          "word": "TANE",
+          "hint": "Nesneleri saymakta kullanılan birim."
+        }
+      ]
+    },
+    {
+      "id": "mat_1_u2",
+      "name": "2. Ünite: Toplama ve Çıkarma",
+      "months": [
+        10,
+        11
+      ],
+      "words": [
+        {
+          "word": "TOPLAMA",
+          "hint": "İki sayıyı bir araya getirme işlemi."
+        },
+        {
+          "word": "ÇIKARMA",
+          "hint": "Bir sayıdan başkasını azaltma işlemi."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "İşlemin çıktısı, cevap."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Toplama işleminin cevabı."
+        },
+        {
+          "word": "FARK",
+          "hint": "Çıkarma işleminin cevabı."
+        },
+        {
+          "word": "ARTIRMAK",
+          "hint": "Miktarı büyütmek, çoğaltmak."
+        },
+        {
+          "word": "AZALTMAK",
+          "hint": "Miktarı küçültmek, eksiltmek."
+        },
+        {
+          "word": "EŞİT",
+          "hint": "İki tarafın değerinin aynı olması."
+        },
+        {
+          "word": "PROBLEM",
+          "hint": "Çözmemiz gereken matematik sorusu."
+        },
+        {
+          "word": "SAYMAK",
+          "hint": "Nesneleri birer birer artırarak ilerlemek."
+        },
+        {
+          "word": "GERİ SAYMAK",
+          "hint": "Büyük sayıdan küçüğe doğru saymak."
+        },
+        {
+          "word": "KOMŞU SAYI",
+          "hint": "Bir sayının hemen öncesi veya sonrası."
+        },
+        {
+          "word": "BASAMAK",
+          "hint": "Bir sayının yazıldığı her bir hane."
+        },
+        {
+          "word": "BİRLER",
+          "hint": "Sayının en sağındaki hane."
+        },
+        {
+          "word": "ONLAR",
+          "hint": "Sayının birler basamağının solundaki hane."
+        },
+        {
+          "word": "ONLUK",
+          "hint": "On birinin bir arada bulunduğu grup."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Tek başına bir nesne."
+        },
+        {
+          "word": "TOPLAM SAYMA",
+          "hint": "Her iki grubu birleştirerek saymak."
+        },
+        {
+          "word": "ÇIKARMA İŞLEMİ",
+          "hint": "Bir miktardan azaltma yapma."
+        },
+        {
+          "word": "SAYMA ÇUBUĞU",
+          "hint": "Saymada kullanılan küçük çubuklar."
+        }
+      ]
+    },
+    {
+      "id": "mat_1_u3",
+      "name": "3. Ünite: Sayılar (11-100)",
+      "months": [
+        11,
+        12
+      ],
+      "words": [
+        {
+          "word": "ON BİR",
+          "hint": "10'dan sonra gelen sayı."
+        },
+        {
+          "word": "ON BEŞ",
+          "hint": "Yarım saatin dakika değeri."
+        },
+        {
+          "word": "YİRMİ",
+          "hint": "İki onluktan oluşan sayı."
+        },
+        {
+          "word": "OTUZ",
+          "hint": "Üç onluktan oluşan sayı."
+        },
+        {
+          "word": "KIRK",
+          "hint": "Dört onluktan oluşan sayı."
+        },
+        {
+          "word": "ELLİ",
+          "hint": "Beş onluktan oluşan sayı."
+        },
+        {
+          "word": "ALTMIŞ",
+          "hint": "Bir saatin dakika sayısı."
+        },
+        {
+          "word": "YETMİŞ",
+          "hint": "Yedi onluktan oluşan sayı."
+        },
+        {
+          "word": "SEKSEN",
+          "hint": "Sekiz onluktan oluşan sayı."
+        },
+        {
+          "word": "DOKSAN",
+          "hint": "100'den bir önceki onluk sayı."
+        },
+        {
+          "word": "YÜZ",
+          "hint": "On onluktan oluşan sayı."
+        },
+        {
+          "word": "BÜYÜK SAYI",
+          "hint": "Karşılaştırmada değeri fazla olan sayı."
+        },
+        {
+          "word": "KÜÇÜK SAYI",
+          "hint": "Karşılaştırmada değeri az olan sayı."
+        },
+        {
+          "word": "SIRALAMA",
+          "hint": "Sayıları küçükten büyüğe ya da büyükten küçüğe dizmek."
+        },
+        {
+          "word": "ONLAR BASAMAĞI",
+          "hint": "Sayıda on gruplarını gösteren hane."
+        },
+        {
+          "word": "BİRLER BASAMAĞI",
+          "hint": "Sayıda tek nesneleri gösteren hane."
+        },
+        {
+          "word": "ÇİFT SAYI",
+          "hint": "2'ye tam bölünebilen sayı."
+        },
+        {
+          "word": "TEK SAYI",
+          "hint": "2'ye tam bölünemeyen sayı."
+        },
+        {
+          "word": "KOMŞU",
+          "hint": "Bir sayının hemen önceki ya da sonraki sayısı."
+        },
+        {
+          "word": "SAYIL DOĞRUSU",
+          "hint": "Sayıların sıralı gösterildiği çizgi."
+        }
+      ]
+    },
+    {
+      "id": "mat_1_u4",
+      "name": "4. Ünite: Geometri",
+      "months": [
+        1,
+        2
+      ],
+      "words": [
+        {
+          "word": "KARE",
+          "hint": "Dört kenarı eşit olan dörtgen."
+        },
+        {
+          "word": "DİKDÖRTGEN",
+          "hint": "Karşılıklı kenarları eşit olan dörtgen."
+        },
+        {
+          "word": "ÜÇGEN",
+          "hint": "Üç kenarı ve üç köşesi olan şekil."
+        },
+        {
+          "word": "DAİRE",
+          "hint": "Yuvarlak, köşesiz kapalı şekil."
+        },
+        {
+          "word": "ŞEKİL",
+          "hint": "Bir nesnenin dış görünüşü."
+        },
+        {
+          "word": "KÖŞE",
+          "hint": "İki kenarın birleştiği nokta."
+        },
+        {
+          "word": "KENAR",
+          "hint": "Geometrik şeklin dış çizgisi."
+        },
+        {
+          "word": "KÜRE",
+          "hint": "Top gibi yuvarlak üç boyutlu cisim."
+        },
+        {
+          "word": "KÜPÜ",
+          "hint": "Altı yüzü kare olan üç boyutlu cisim."
+        },
+        {
+          "word": "SİLİNDİR",
+          "hint": "Konserve kutusu gibi yuvarlak üç boyutlu cisim."
+        },
+        {
+          "word": "KONİ",
+          "hint": "Dondurma külahı şeklinde üç boyutlu cisim."
+        },
+        {
+          "word": "DÜZLEM",
+          "hint": "Düz, sonsuz yüzey."
+        },
+        {
+          "word": "NOKTA",
+          "hint": "Geometride konumu belirten işaret."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "İki yönde sonsuz uzanan çizgi."
+        },
+        {
+          "word": "YATAY",
+          "hint": "Soldan sağa uzanan yön."
+        },
+        {
+          "word": "DİKEY",
+          "hint": "Yukarıdan aşağıya uzanan yön."
+        },
+        {
+          "word": "EĞRİ",
+          "hint": "Kıvrımlı, düz olmayan çizgi."
+        },
+        {
+          "word": "SIMETRI",
+          "hint": "Şeklin iki eşit parçaya bölünmesi."
+        },
+        {
+          "word": "İÇ",
+          "hint": "Bir şeklin iç kısmı."
+        },
+        {
+          "word": "DIŞ",
+          "hint": "Bir şeklin dış kısmı."
+        },
+        {
+          "word": "BÜYÜK",
+          "hint": "Boyutu fazla olan."
+        },
+        {
+          "word": "KÜÇÜK",
+          "hint": "Boyutu az olan."
+        },
+        {
+          "word": "UZUN",
+          "hint": "Boyu fazla olan."
+        },
+        {
+          "word": "KISA",
+          "hint": "Boyu az olan."
+        },
+        {
+          "word": "GENİŞ",
+          "hint": "Eni fazla olan."
+        }
+      ]
+    },
+    {
+      "id": "mat_1_u5",
+      "name": "5. Ünite: Ölçme",
+      "months": [
+        2,
+        3
+      ],
+      "words": [
+        {
+          "word": "UZUNLUK",
+          "hint": "Bir cismin başından sonuna olan mesafe."
+        },
+        {
+          "word": "AĞIRLIK",
+          "hint": "Bir cismin ne kadar yoğun olduğunu ölçen değer."
+        },
+        {
+          "word": "SIVIÖLÇÜM",
+          "hint": "Bir sıvının hacmini belirleme."
+        },
+        {
+          "word": "CETVEL",
+          "hint": "Uzunluk ölçmek için kullanılan araç."
+        },
+        {
+          "word": "TERAZI",
+          "hint": "Ağırlık ölçmek için kullanılan araç."
+        },
+        {
+          "word": "BARDAK",
+          "hint": "Sıvı ölçmekte kullanılan birim."
+        },
+        {
+          "word": "KARŞILAŞTIRMA",
+          "hint": "İki şeyin özelliklerini yan yana incelemek."
+        },
+        {
+          "word": "TAHMİN",
+          "hint": "Doğru değere yaklaşmaya çalışmak."
+        },
+        {
+          "word": "ÖLÇÜ",
+          "hint": "Bir şeyin belirli bir birimle ifade edilen miktarı."
+        },
+        {
+          "word": "DAHA UZUN",
+          "hint": "Karşılaştırmada boyu fazla olan."
+        },
+        {
+          "word": "DAHA KISA",
+          "hint": "Karşılaştırmada boyu az olan."
+        },
+        {
+          "word": "DAHA AĞIR",
+          "hint": "Karşılaştırmada tartısı fazla olan."
+        },
+        {
+          "word": "DAHA HAFİF",
+          "hint": "Karşılaştırmada tartısı az olan."
+        },
+        {
+          "word": "DOLU",
+          "hint": "İçi tamamen dolu olan kap."
+        },
+        {
+          "word": "BOŞ",
+          "hint": "İçinde hiçbir şey olmayan kap."
+        },
+        {
+          "word": "YARI DOLU",
+          "hint": "İçi yarıya kadar dolu olan kap."
+        },
+        {
+          "word": "BIRIM",
+          "hint": "Ölçmek için kullanılan standart miktar."
+        },
+        {
+          "word": "ÖLÇMEK",
+          "hint": "Bir şeyin boyutunu ya da miktarını belirlemek."
+        },
+        {
+          "word": "TARTMAK",
+          "hint": "Ağırlığı terazide belirlemek."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Geçen süreyi ifade eden kavram."
+        }
+      ]
+    },
+    {
+      "id": "mat_1_u6",
+      "name": "6. Ünite: Zaman",
+      "months": [
+        3,
+        4
+      ],
+      "words": [
+        {
+          "word": "SAAT",
+          "hint": "Zamanı gösteren araç ya da zaman birimi."
+        },
+        {
+          "word": "DAKİKA",
+          "hint": "Bir saatin altmışta biri."
+        },
+        {
+          "word": "GÜN",
+          "hint": "24 saatlik zaman dilimi."
+        },
+        {
+          "word": "HAFTA",
+          "hint": "Yedi günden oluşan zaman dilimi."
+        },
+        {
+          "word": "AY",
+          "hint": "Yaklaşık otuz günden oluşan zaman dilimi."
+        },
+        {
+          "word": "YIL",
+          "hint": "On iki aydan oluşan zaman dilimi."
+        },
+        {
+          "word": "SABAH",
+          "hint": "Günün ilk saatleri."
+        },
+        {
+          "word": "ÖĞLE",
+          "hint": "Günün ortası, 12.00 civarı."
+        },
+        {
+          "word": "AKŞAM",
+          "hint": "Günün sona erdiği, güneşin battığı vakit."
+        },
+        {
+          "word": "GECE",
+          "hint": "Güneşin battıktan sonraki karanlık zaman."
+        },
+        {
+          "word": "DÜN",
+          "hint": "Bugünden bir önceki gün."
+        },
+        {
+          "word": "BUGÜN",
+          "hint": "İçinde bulunduğumuz gün."
+        },
+        {
+          "word": "YARIN",
+          "hint": "Bugünden bir sonraki gün."
+        },
+        {
+          "word": "PAZARTESİ",
+          "hint": "Haftanın ilk iş günü."
+        },
+        {
+          "word": "CUMA",
+          "hint": "Haftanın beşinci günü."
+        },
+        {
+          "word": "PAZAR",
+          "hint": "Haftanın son günü."
+        },
+        {
+          "word": "TAKVİM",
+          "hint": "Günleri, haftaları ve ayları gösteren çizelge."
+        },
+        {
+          "word": "MEVSIM",
+          "hint": "Yılın dört bölümünden her biri."
+        },
+        {
+          "word": "İLKBAHAR",
+          "hint": "Çiçeklerin açtığı, havanın ısındığı mevsim."
+        },
+        {
+          "word": "YAZ",
+          "hint": "En sıcak mevsim."
+        },
+        {
+          "word": "SONBAHAR",
+          "hint": "Yaprakların döküldüğü mevsim."
+        },
+        {
+          "word": "KIŞ",
+          "hint": "En soğuk mevsim, kar yağabilir."
+        }
+      ]
+    },
+    {
+      "id": "mat_1_u7",
+      "name": "7. Ünite: Veri",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "words": [
+        {
+          "word": "VERİ",
+          "hint": "Toplanan bilgi ya da sayı."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Verilerin satır ve sütunlara dizildiği çizelge."
+        },
+        {
+          "word": "GRAFİK",
+          "hint": "Verilerin şekillerle gösterildiği sunum."
+        },
+        {
+          "word": "SAYMA",
+          "hint": "Nesneleri teker teker belirleme."
+        },
+        {
+          "word": "EN FAZLA",
+          "hint": "Sayısı en çok olan."
+        },
+        {
+          "word": "EN AZ",
+          "hint": "Sayısı en düşük olan."
+        },
+        {
+          "word": "SIRALAMA",
+          "hint": "Verileri belirli bir düzene koyma."
+        },
+        {
+          "word": "SÜTUN GRAFİĞİ",
+          "hint": "Verilerin dikey çubuklarla gösterildiği grafik."
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Bir şeyi temsil eden işaret ya da resim."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Tüm değerlerin bir araya getirilmesi."
+        },
+        {
+          "word": "KARŞILAŞTIRMA",
+          "hint": "İki veriyi yan yana incelemek."
+        },
+        {
+          "word": "AÇIKLAMA",
+          "hint": "Grafiğin ne anlattığını belirten söz."
+        },
+        {
+          "word": "RENK",
+          "hint": "Grafiklerde farklı grupları ayırt etmek için kullanılır."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Verilere bakarak çıkarılan bilgi."
+        },
+        {
+          "word": "ANKET",
+          "hint": "Bilgi toplamak için yapılan soru listesi."
+        }
+      ]
+    }
+  ]
+}

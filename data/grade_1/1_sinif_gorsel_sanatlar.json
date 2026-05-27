@@ -1,0 +1,310 @@
+{
+  "ders": "Görsel Sanatlar",
+  "sinif": 1,
+  "units": [
+    {
+      "id": "gsa_1_u1",
+      "name": "1. Ünite: Sanatla Tanışıyorum",
+      "months": [
+        9,
+        10
+      ],
+      "words": [
+        {
+          "word": "SANAT",
+          "hint": "Güzellik yaratmak için yapılan yaratıcı etkinlik."
+        },
+        {
+          "word": "RESİM",
+          "hint": "Boya ya da kalemle yapılan görsel eser."
+        },
+        {
+          "word": "BOYA",
+          "hint": "Resimlere renk katmak için kullanılan madde."
+        },
+        {
+          "word": "FIRÇA",
+          "hint": "Boya sürmek için kullanılan araç."
+        },
+        {
+          "word": "PALET",
+          "hint": "Boyaların karıştırıldığı yüzey."
+        },
+        {
+          "word": "TUVAL",
+          "hint": "Resim yapılan bez ya da karton zemin."
+        },
+        {
+          "word": "RENK",
+          "hint": "Gözümüzün algıladığı görsel özellik."
+        },
+        {
+          "word": "ÇIZMEK",
+          "hint": "Kalemle bir şeyin şeklini kâğıda geçirmek."
+        },
+        {
+          "word": "BOYAMAK",
+          "hint": "Bir resme boya sürmek."
+        },
+        {
+          "word": "SERGI",
+          "hint": "Yapılan eserlerin herkese gösterildiği etkinlik."
+        },
+        {
+          "word": "SANATÇI",
+          "hint": "Sanat eseri yapan kişi."
+        },
+        {
+          "word": "ESERs",
+          "hint": "Bir sanatçının ortaya koyduğu yapıt."
+        },
+        {
+          "word": "MÜZEy",
+          "hint": "Sanat eserlerinin sergilendiği yer."
+        },
+        {
+          "word": "HAYAL GÜCÜ",
+          "hint": "Zihinde yeni şeyler yaratma yeteneği."
+        },
+        {
+          "word": "ÖZGÜN",
+          "hint": "Başkasına benzemez, özgün olan."
+        }
+      ]
+    },
+    {
+      "id": "gsa_1_u2",
+      "name": "2. Ünite: Renkler Dünyası",
+      "months": [
+        10,
+        11
+      ],
+      "words": [
+        {
+          "word": "KIRMIZI",
+          "hint": "Kanın ve elmanın rengi."
+        },
+        {
+          "word": "MAVI",
+          "hint": "Gökyüzünün ve denizin rengi."
+        },
+        {
+          "word": "SARI",
+          "hint": "Güneşin ve muzun rengi."
+        },
+        {
+          "word": "YEŞİL",
+          "hint": "Yaprakların ve çimlerin rengi."
+        },
+        {
+          "word": "TURUNCU",
+          "hint": "Portakal ve mandalina rengi."
+        },
+        {
+          "word": "MOR",
+          "hint": "Üzüm ve menekşenin rengi."
+        },
+        {
+          "word": "PEMBE",
+          "hint": "Kırmızıya benzer, açık ve tatlı ton."
+        },
+        {
+          "word": "KAHVE",
+          "hint": "Toprak ve çikolatanın rengi."
+        },
+        {
+          "word": "GRİ",
+          "hint": "Siyah ile beyazın karışımından oluşan renk."
+        },
+        {
+          "word": "BEYAZ",
+          "hint": "Karın ve bulutların rengi."
+        },
+        {
+          "word": "SİYAH",
+          "hint": "Gecenin ve kömürün rengi."
+        },
+        {
+          "word": "ANA RENK",
+          "hint": "Kırmızı, sarı ve mavi; başka renklerden yapılamaz."
+        },
+        {
+          "word": "ARA RENK",
+          "hint": "İki ana rengin karışımından oluşan renk."
+        },
+        {
+          "word": "SICAK RENK",
+          "hint": "Kırmızı, sarı, turuncu gibi enerji veren renkler."
+        },
+        {
+          "word": "SOĞUK RENK",
+          "hint": "Mavi, yeşil, mor gibi sakinleştiren renkler."
+        },
+        {
+          "word": "KONTRAST",
+          "hint": "Birbirine zıt renklerin yan yana gelmesi."
+        },
+        {
+          "word": "TONU",
+          "hint": "Bir rengin açık ya da koyu derecesi."
+        },
+        {
+          "word": "GÖKKUŞAĞI",
+          "hint": "Yağmurdan sonra görülen yedi renkli kemer."
+        },
+        {
+          "word": "KARIŞIM",
+          "hint": "İki ya da daha fazla rengi birleştirme."
+        },
+        {
+          "word": "RENK ÇARKII",
+          "hint": "Renklerin ilişkisini gösteren yuvarlak diyagram."
+        }
+      ]
+    },
+    {
+      "id": "gsa_1_u3",
+      "name": "3. Ünite: Şekiller ve Dokular",
+      "months": [
+        11,
+        12,
+        1
+      ],
+      "words": [
+        {
+          "word": "ŞEKİL",
+          "hint": "Bir nesnenin dış görünüşü."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Yüzeyin pürüzlü, pürüzsüz, sert ya da yumuşak hissi."
+        },
+        {
+          "word": "PÜRÜZSÜZ",
+          "hint": "Yüzeyi düz ve akıcı olan."
+        },
+        {
+          "word": "PÜRÜZLÜ",
+          "hint": "Yüzeyi engebeli, sert hissettiren."
+        },
+        {
+          "word": "YUMUŞAK",
+          "hint": "Dokunulduğunda çok az direnç hissettiren."
+        },
+        {
+          "word": "SERT",
+          "hint": "Dokunulduğunda yoğun direnç hissettiren."
+        },
+        {
+          "word": "GEOMETRİK",
+          "hint": "Kare, üçgen gibi düzenli matematiksel şekil."
+        },
+        {
+          "word": "ORGANİK",
+          "hint": "Doğada bulunan düzensiz, serbest biçimli şekil."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Tekrar eden süsleme ya da şekil düzeni."
+        },
+        {
+          "word": "SIMETRI",
+          "hint": "Bir şeklin iki eşit parçaya bölünmesi."
+        },
+        {
+          "word": "KOLAJ",
+          "hint": "Kağıt ve nesneler yapıştırılarak yapılan resim."
+        },
+        {
+          "word": "YIRTMA",
+          "hint": "Kağıdı elle yırttıktan sonra düzenleyerek resim yapmak."
+        },
+        {
+          "word": "DAMGA",
+          "hint": "Boyaya basılarak iz bırakan nesne."
+        },
+        {
+          "word": "BASKII",
+          "hint": "Bir yüzeye boya sürüp başka yüzeye aktarmak."
+        },
+        {
+          "word": "HEYKEL",
+          "hint": "Üç boyutlu sanat eseri."
+        }
+      ]
+    },
+    {
+      "id": "gsa_1_u4",
+      "name": "4. Ünite: Doğadan Sanata",
+      "months": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "words": [
+        {
+          "word": "DOĞA",
+          "hint": "Canlı ve cansız varlıkların yaşadığı ortam."
+        },
+        {
+          "word": "YAPRAK",
+          "hint": "Ağaçların yeşil, düz organı."
+        },
+        {
+          "word": "ÇİÇEK",
+          "hint": "Bitkinin renkli ve güzel organı."
+        },
+        {
+          "word": "TAŞ",
+          "hint": "Doğada bulunan sert, katı nesne."
+        },
+        {
+          "word": "KABUK",
+          "hint": "Ağacın ya da meyvenin dış katmanı."
+        },
+        {
+          "word": "KUM",
+          "hint": "Küçük taneciklerden oluşan ince zemin."
+        },
+        {
+          "word": "DAL",
+          "hint": "Ağacın gövdesinden çıkan kolları."
+        },
+        {
+          "word": "TOHUM",
+          "hint": "Bitkinin küçük yavrusu, çoğalma birimi."
+        },
+        {
+          "word": "SÜNGERs",
+          "hint": "Su emen, pürüzlü dokulu nesne."
+        },
+        {
+          "word": "KURU YAPRAK",
+          "hint": "Ağaçtan düşmüş, kurumuş yaprak."
+        },
+        {
+          "word": "MİNİATÜR",
+          "hint": "Çok küçük boyutlu ayrıntılı resim."
+        },
+        {
+          "word": "ÖZGÜNLÜK",
+          "hint": "Hiçbir şeye benzemez, kendi tarzında olan."
+        },
+        {
+          "word": "İLHAM",
+          "hint": "Bir şeyden fikir alarak yaratma isteği duymak."
+        },
+        {
+          "word": "GÖZLEMLEMEK",
+          "hint": "Doğadaki ayrıntıları dikkatlice incelemek."
+        },
+        {
+          "word": "ESKİZ",
+          "hint": "Bir resmin taslak, ön çalışması."
+        }
+      ]
+    }
+  ]
+}

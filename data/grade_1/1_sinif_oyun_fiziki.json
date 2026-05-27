@@ -1,0 +1,222 @@
+{
+  "ders": "Oyun ve Fiziki Etkinlikler",
+  "sinif": 1,
+  "units": [
+    {
+      "id": "ofe_1_u1",
+      "name": "1. Ünite: Hareket Ediyoruz",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "words": [
+        {
+          "word": "KOŞMAK",
+          "hint": "Hızlı adımlarla ilerlemek."
+        },
+        {
+          "word": "YÜRÜMEK",
+          "hint": "Adım adım ilerleme hareketi."
+        },
+        {
+          "word": "ZIPLAMAK",
+          "hint": "Yerden havaya sıçramak."
+        },
+        {
+          "word": "EĞİLMEK",
+          "hint": "Vücudu öne doğru bükmek."
+        },
+        {
+          "word": "GERİLMEK",
+          "hint": "Kolları ve bacakları uzatmak."
+        },
+        {
+          "word": "DÖNMEK",
+          "hint": "Kendi etrafında daire çizerek hareket etmek."
+        },
+        {
+          "word": "TIRMAMAK",
+          "hint": "El ve ayaklarla bir yüzeye çıkmak."
+        },
+        {
+          "word": "SALLANMAK",
+          "hint": "İleri geri ya da sağa sola hareket etmek."
+        },
+        {
+          "word": "SÜRÜNMEKii",
+          "hint": "Yerde yatarak ellerin yardımıyla ilerlemek."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Düşmeden durabilme ya da hareket edebilme."
+        },
+        {
+          "word": "KOORDİNASYON",
+          "hint": "El ve ayakların uyum içinde çalışması."
+        },
+        {
+          "word": "ESNEKLIK",
+          "hint": "Vücudun rahatça bükülüp uzayabilmesi."
+        },
+        {
+          "word": "GÜÇ",
+          "hint": "Kas kuvveti ile iş yapabilme kapasitesi."
+        },
+        {
+          "word": "HIZ",
+          "hint": "Kısa sürede uzun mesafe katedebilme."
+        },
+        {
+          "word": "DAYANIKLILIK",
+          "hint": "Uzun süre yorulmadan hareket edebilmek."
+        }
+      ]
+    },
+    {
+      "id": "ofe_1_u2",
+      "name": "2. Ünite: Oyunlar Oynuyoruz",
+      "months": [
+        11,
+        12,
+        1
+      ],
+      "words": [
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek için yapılan kuralları olan etkinlik."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Oyunda herkesin uyması gereken ilke."
+        },
+        {
+          "word": "TAKIM",
+          "hint": "Birlikte oynayan kişiler grubu."
+        },
+        {
+          "word": "RAKIP",
+          "hint": "Oyunda karşı tarafta olan kişi ya da grup."
+        },
+        {
+          "word": "KAZANMAK",
+          "hint": "Oyunu ya da yarışmayı birinci bitirmek."
+        },
+        {
+          "word": "KAYBETMEKs",
+          "hint": "Oyunda birinci olamamak."
+        },
+        {
+          "word": "SPORTMENLIK",
+          "hint": "Kaybetmeyi de kazanmayı da olgunlukla karşılamak."
+        },
+        {
+          "word": "EŞIT",
+          "hint": "Her iki tarafın aynı puanı alması."
+        },
+        {
+          "word": "HAKEM",
+          "hint": "Oyunun kurallarını uygulayan kişi."
+        },
+        {
+          "word": "PUAN",
+          "hint": "Oyunda kazanılan değer."
+        },
+        {
+          "word": "TOP",
+          "hint": "Yuvarlak, zıplayabilen oyun aleti."
+        },
+        {
+          "word": "İP ATLAMA",
+          "hint": "Dönen ipin altından geçerek oynanan oyun."
+        },
+        {
+          "word": "SAKLAMBAÇ",
+          "hint": "Birinin gözleri kapalıyken diğerlerinin saklandığı oyun."
+        },
+        {
+          "word": "KÖREBE",
+          "hint": "Gözleri kapalı kişinin diğerlerini yakaladığı oyun."
+        },
+        {
+          "word": "ESTAFET",
+          "hint": "Takım hâlinde sırayla koşulan yarış."
+        }
+      ]
+    },
+    {
+      "id": "ofe_1_u3",
+      "name": "3. Ünite: Sağlıklı Yaşam",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "words": [
+        {
+          "word": "SAĞLIK",
+          "hint": "Vücut ve zihnin iyi olma durumu."
+        },
+        {
+          "word": "SPOR",
+          "hint": "Bedenimizi geliştiren fiziksel etkinlikler."
+        },
+        {
+          "word": "ISIMMA",
+          "hint": "Spora başlamadan önce yapılan hafif hareketler."
+        },
+        {
+          "word": "SOĞUMA",
+          "hint": "Spordan sonra yapılan yavaşlatma hareketleri."
+        },
+        {
+          "word": "ESNEME",
+          "hint": "Kasları uzatmak için yapılan hareket."
+        },
+        {
+          "word": "BESLENME",
+          "hint": "Vücudumuzu beslemek için yediğimiz besinler."
+        },
+        {
+          "word": "SU",
+          "hint": "Spor yaparken en çok ihtiyaç duyduğumuz içecek."
+        },
+        {
+          "word": "UYKU",
+          "hint": "Vücudun kendini yenilediği dinlenme süreci."
+        },
+        {
+          "word": "TEMİZLİK",
+          "hint": "Spor sonrası vücudumuzu temizlemek."
+        },
+        {
+          "word": "POSTURE",
+          "hint": "Vücudu dik ve doğru tutma biçimi."
+        },
+        {
+          "word": "NEFES",
+          "hint": "Spor yaparken ritmik olarak alıp verdiğimiz hava."
+        },
+        {
+          "word": "KAS",
+          "hint": "Hareketlerimizi sağlayan vücut dokusu."
+        },
+        {
+          "word": "KEMİK",
+          "hint": "Vücudun iskeleti, sert yapısı."
+        },
+        {
+          "word": "KALP",
+          "hint": "Kan pompalayan, egzersizde hızlanan organ."
+        },
+        {
+          "word": "MUTLULUK",
+          "hint": "Spor yapınca kazanılan iyi duygu hali."
+        }
+      ]
+    }
+  ]
+}

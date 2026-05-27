@@ -1,0 +1,290 @@
+{
+  "ders": "Müzik",
+  "sinif": 1,
+  "units": [
+    {
+      "id": "muzik_1_u1",
+      "name": "1. Ünite: Müzikle Tanışıyorum",
+      "months": [
+        9,
+        10
+      ],
+      "words": [
+        {
+          "word": "MÜZİK",
+          "hint": "Seslerden oluşan güzel sanat dalı."
+        },
+        {
+          "word": "ŞARKI",
+          "hint": "Sesle söylenen melodili eser."
+        },
+        {
+          "word": "RİTİM",
+          "hint": "Seslerin düzenli tekrarı."
+        },
+        {
+          "word": "MELODİ",
+          "hint": "Ard arda gelen notaların oluşturduğu ezgi."
+        },
+        {
+          "word": "SES",
+          "hint": "Kulağımızın duyduğu titreşim."
+        },
+        {
+          "word": "NOTA",
+          "hint": "Müzikal sesleri gösteren işaret."
+        },
+        {
+          "word": "TEMPO",
+          "hint": "Müziğin hızı."
+        },
+        {
+          "word": "GÜFTE",
+          "hint": "Şarkının söz kısmı."
+        },
+        {
+          "word": "BESTE",
+          "hint": "Bir şarkının müzik kısmı, ezgisi."
+        },
+        {
+          "word": "KOROsing",
+          "hint": "Bir grup insanın birlikte şarkı söylemesi."
+        },
+        {
+          "word": "SOLIST",
+          "hint": "Tek başına şarkı söyleyen kişi."
+        },
+        {
+          "word": "DİNLEMEK",
+          "hint": "Müziğe kulak vererek zevk almak."
+        },
+        {
+          "word": "SÖYLEMEK",
+          "hint": "Sesimizle müzik üretmek."
+        },
+        {
+          "word": "ALKIŞ",
+          "hint": "Beğeni ifade etmek için el çırpmak."
+        },
+        {
+          "word": "KONSER",
+          "hint": "Müzisyenlerin sahnede çaldığı etkinlik."
+        }
+      ]
+    },
+    {
+      "id": "muzik_1_u2",
+      "name": "2. Ünite: Sesler ve Enstrümanlar",
+      "months": [
+        10,
+        11,
+        12
+      ],
+      "words": [
+        {
+          "word": "DAVUL",
+          "hint": "Tokmakla vurularak çalınan büyük yuvarlak çalgı."
+        },
+        {
+          "word": "KAVAL",
+          "hint": "Üfleyerek çalınan geleneksel tahta çalgı."
+        },
+        {
+          "word": "BAĞLAMA",
+          "hint": "Telli, Türk halk müziğinin simgesi olan çalgı."
+        },
+        {
+          "word": "KİTARA",
+          "hint": "Telli, parmakla ya da tezeneyle çalınan çalgı."
+        },
+        {
+          "word": "PİYANO",
+          "hint": "Tuşlara basılarak çalınan büyük çalgı."
+        },
+        {
+          "word": "KEMAN",
+          "hint": "Yay ile çalınan telli çalgı."
+        },
+        {
+          "word": "FLÜT",
+          "hint": "Üfleyerek çalınan ince metalden yapılmış çalgı."
+        },
+        {
+          "word": "ZÜRNA",
+          "hint": "Düğün ve bayramlarda çalınan üflemeli çalgı."
+        },
+        {
+          "word": "ZİL",
+          "hint": "Çalındığında tınlayan metal çalgı."
+        },
+        {
+          "word": "DAVULCU",
+          "hint": "Davul çalan kişi."
+        },
+        {
+          "word": "TELLI",
+          "hint": "Teller titreştirilerek ses çıkarılan çalgı türü."
+        },
+        {
+          "word": "ÜFLEMELİ",
+          "hint": "Hava üflenerek çalınan çalgı türü."
+        },
+        {
+          "word": "VURMALII",
+          "hint": "Vurularak ses çıkarılan çalgı türü."
+        },
+        {
+          "word": "MÜZİSYEN",
+          "hint": "Enstrüman çalan ya da şarkı söyleyen sanatçı."
+        },
+        {
+          "word": "ENSTRÜMAN",
+          "hint": "Müzik yapmak için kullanılan alet."
+        }
+      ]
+    },
+    {
+      "id": "muzik_1_u3",
+      "name": "3. Ünite: Türküler ve Halk Müziği",
+      "months": [
+        1,
+        2
+      ],
+      "words": [
+        {
+          "word": "TÜRKÜ",
+          "hint": "Halk tarafından söylenen geleneksel şarkı."
+        },
+        {
+          "word": "NINNI",
+          "hint": "Bebekleri uyutmak için söylenen ezgi."
+        },
+        {
+          "word": "MANI",
+          "hint": "Halk arasında söylenen kısa dörtlük şiir."
+        },
+        {
+          "word": "DESTAN",
+          "hint": "Kahramanlık hikâyelerini anlatan uzun halk şiiri."
+        },
+        {
+          "word": "HALK MÜZİĞİ",
+          "hint": "Halktan halkın benimsediği müzik türü."
+        },
+        {
+          "word": "YÖRE",
+          "hint": "Belirli bir bölgeye ait."
+        },
+        {
+          "word": "GELENEK",
+          "hint": "Nesilden nesile aktarılan alışkanlık."
+        },
+        {
+          "word": "ZEYBEK",
+          "hint": "Ege yöresine ait geleneksel halk dansı."
+        },
+        {
+          "word": "HORON",
+          "hint": "Karadeniz yöresine ait halk dansı."
+        },
+        {
+          "word": "HALAY",
+          "hint": "Doğu Anadolu'ya ait halk dansı."
+        },
+        {
+          "word": "OZAN",
+          "hint": "Bağlamayla şiir söyleyen halk sanatçısı."
+        },
+        {
+          "word": "DEYIŞ",
+          "hint": "Ozanların söylediği anlamlı sözler."
+        },
+        {
+          "word": "MİZAH",
+          "hint": "Şaka ve eğlence içeren hafif müzik."
+        },
+        {
+          "word": "NEŞE",
+          "hint": "Müziğin insana verdiği sevinç hissi."
+        },
+        {
+          "word": "DANS",
+          "hint": "Müzik eşliğinde yapılan ritmik hareket."
+        }
+      ]
+    },
+    {
+      "id": "muzik_1_u4",
+      "name": "4. Ünite: Müzik ve Hareket",
+      "months": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "words": [
+        {
+          "word": "HAREKET",
+          "hint": "Vücudu ritme uygun oynatmak."
+        },
+        {
+          "word": "ADIM",
+          "hint": "Dans yaparken atılan her bir ayak hareketi."
+        },
+        {
+          "word": "EL ÇIRPMAK",
+          "hint": "Ritmi hissetmek için elleri vurmak."
+        },
+        {
+          "word": "AYAK VURMAK",
+          "hint": "Ritme uyarak ayağı yere vurmak."
+        },
+        {
+          "word": "DÖNMEK",
+          "hint": "Kendi etrafında daire çizerek hareket etmek."
+        },
+        {
+          "word": "ZIPLMAK",
+          "hint": "Yerden havaya sıçramak."
+        },
+        {
+          "word": "EĞİLMEK",
+          "hint": "Vücudu öne ya da yana bükmek."
+        },
+        {
+          "word": "GERİLMEK",
+          "hint": "Vücudu açıp uzatmak."
+        },
+        {
+          "word": "SALLANMAK",
+          "hint": "Sağa sola ya da öne arkaya hafifçe hareket etmek."
+        },
+        {
+          "word": "UYUM",
+          "hint": "Müzikle hareketin birlikte güzel görünmesi."
+        },
+        {
+          "word": "HEYECANl",
+          "hint": "Müzik dinlerken duyulan coşku."
+        },
+        {
+          "word": "EĞLENCELİ",
+          "hint": "Keyif veren, güldüren özellik."
+        },
+        {
+          "word": "SAHNEYAP",
+          "hint": "Seyirci önünde müzik ve dans gösterisi yapılan yer."
+        },
+        {
+          "word": "KOSTÜM",
+          "hint": "Dans ya da tiyatroda giyilen özel kıyafet."
+        },
+        {
+          "word": "GÖSTERI",
+          "hint": "Seyirciye sunulan dans ya da müzik etkinliği."
+        }
+      ]
+    }
+  ]
+}
