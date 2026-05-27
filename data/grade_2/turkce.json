@@ -2,10 +2,9 @@
   "units": [
     {
       "id": "turkce_u1",
-      "name": "1. Ünite: Okuma",
+      "name": "1. Ünite: Birey ve Toplum",
       "months": [
-        9,
-        10
+        9
       ],
       "words": [
         {
@@ -33,7 +32,7 @@
           "hint": "Bize okumayı, yazmayı ve birçok bilgiyi öğreten kişi."
         },
         {
-          "word": "ÖĞRENCİ̇",
+          "word": "ÖĞRENCİ",
           "hint": "Okula giden, dersler öğrenen ve ödev yapan çocuk."
         },
         {
@@ -53,7 +52,7 @@
           "hint": "Okulda belirli bir konuda bilgi öğrendiğimiz zaman dilimi."
         },
         {
-          "word": "YAZİ",
+          "word": "YAZI",
           "hint": "Harfleri yan yana getirerek oluşturduğumuz işaretler dizisi."
         },
         {
@@ -93,11 +92,11 @@
           "hint": "Öğretmenin tebeşirle veya kalemle yazı yazdığı büyük levha."
         },
         {
-          "word": "Sİ̇LGİ̇",
+          "word": "SİLGİ",
           "hint": "Kalemle yazdığımız yanlışları sildiğimiz küçük araç."
         },
         {
-          "word": "SİRA",
+          "word": "SIRA",
           "hint": "Okulda üzerinde oturduğumuz ve yazı yazdığımız masa ve koltuk birleşimi."
         },
         {
@@ -109,7 +108,7 @@
           "hint": "Öğretmenimizin okuldan sonra evde yapmamızı istediği çalışma."
         },
         {
-          "word": "Bİ̇LGİ̇",
+          "word": "BİLGİ",
           "hint": "Yeni öğrendiğimiz şeyler, zihnimizde depoladığımız dersler."
         },
         {
@@ -117,7 +116,7 @@
           "hint": "Yeni bir şeyi anlamak, yetenek kazanmak veya aklımıza kaydetmek."
         },
         {
-          "word": "METİ̇N",
+          "word": "METİN",
           "hint": "Okuduğumuz yazıların tümüne verilen isim, yazılı parça."
         },
         {
@@ -145,7 +144,7 @@
           "hint": "Kitap, hikaye veya farklı yazılı eserler oluşturan kişi."
         },
         {
-          "word": "ŞAİ̇R",
+          "word": "ŞAİR",
           "hint": "Şiir yazan, duygu ve düşüncelerini dizelerle anlatan kişi."
         },
         {
@@ -153,7 +152,7 @@
           "hint": "Ailemizle birlikte yaşadığımız, içinde uyuduğumuz ve yemek yediğimiz yer."
         },
         {
-          "word": "Aİ̇LE",
+          "word": "AİLE",
           "hint": "Anne, baba, kardeşler ve bazen büyükanne, büyükbabalardan oluşan topluluk."
         },
         {
@@ -165,7 +164,7 @@
           "hint": "Eğlenmek için yapılan, kuralları olabilen etkinlik (saklambaç, top oyunu gibi)."
         },
         {
-          "word": "Çİ̇ÇEK",
+          "word": "ÇİÇEK",
           "hint": "Bahçelerde, parklarda açan, güzel kokulu ve renkli bitki."
         },
         {
@@ -181,7 +180,7 @@
           "hint": "Evde besleyebildiğimiz, havlayan ve insanlara sadık bir hayvan."
         },
         {
-          "word": "KEDİ̇",
+          "word": "KEDİ",
           "hint": "Miyavlayan, evde beslenen tüylü ve sevimli bir hayvan."
         },
         {
@@ -232,10 +231,9 @@
     },
     {
       "id": "turkce_u2",
-      "name": "2. Ünite: Yazma",
+      "name": "2. Ünite: Çocuk Dünyası",
       "months": [
-        11,
-        12
+        10
       ],
       "words": [
         {
@@ -259,11 +257,11 @@
           "hint": "Kelimeleri doğru şekilde yazma kuralı"
         },
         {
-          "word": "Hİ̇KAYE",
+          "word": "HİKAYE",
           "hint": "Başından sonuna kadar bir olayı anlatan kısa yazı."
         },
         {
-          "word": "Kİ̇TAP",
+          "word": "KİTAP",
           "hint": "İçinde hikayeler, bilgiler olan, sayfaları bir arada duran nesne."
         },
         {
@@ -275,7 +273,7 @@
           "hint": "Kelimeleri oluşturan küçük işaretler, örneğin A, B, C gibi."
         },
         {
-          "word": "KELİ̇ME",
+          "word": "KELİME",
           "hint": "Harflerin birleşmesiyle oluşan, tek başına bir anlamı olan ses veya yazı birimi."
         },
         {
@@ -283,19 +281,19 @@
           "hint": "Yazıları gözlerinle takip edip ne yazdığını anlamak."
         },
         {
-          "word": "METİ̇N",
+          "word": "METİN",
           "hint": "Bir konuyu anlatan, yazılmış uzunca bir yazı."
         },
         {
-          "word": "KAĞİT",
+          "word": "KAĞIT",
           "hint": "Üzerine yazı yazdığımız veya resim çizdiğimiz ince, düz madde."
         },
         {
-          "word": "Sİ̇LGİ̇",
+          "word": "SİLGİ",
           "hint": "Yazarken yaptığımız hataları silmemize yarayan araç."
         },
         {
-          "word": "KALEMLİ̇K",
+          "word": "KALEMLİK",
           "hint": "Kalemlerimizi, silgilerimizi koyduğumuz kutu."
         },
         {
@@ -307,7 +305,7 @@
           "hint": "Bir şeyi başkasına sözlerle veya yazıyla açıklamak."
         },
         {
-          "word": "BAŞLİK",
+          "word": "BAŞLIK",
           "hint": "Bir yazının veya kitabın en üstünde yazan, konuyu anlatan isim."
         },
         {
@@ -315,11 +313,11 @@
           "hint": "Kitap veya hikaye yazan kişi."
         },
         {
-          "word": "Şİ̇İ̇R",
+          "word": "ŞİİR",
           "hint": "Dizeler halinde yazılan, duyguları veya düşünceleri anlatan özel bir yazı türü."
         },
         {
-          "word": "SATİR",
+          "word": "SATIR",
           "hint": "Yazının yan yana sıralanmış, kelimelerden oluşan her bir çizgisi."
         },
         {
@@ -339,11 +337,11 @@
           "hint": "Cümlenin bittiğini gösteren küçük yuvarlak işaret (.)."
         },
         {
-          "word": "SORU İ̇ŞARETİ̇",
+          "word": "SORU İŞARETİ",
           "hint": "Bir soru sorduğumuzu gösteren işaret (?)."
         },
         {
-          "word": "ÜNLEM İ̇ŞARETİ̇",
+          "word": "ÜNLEM İŞARETİ",
           "hint": "Şaşkınlık, sevinç gibi güçlü duyguları gösteren işaret (!)."
         },
         {
@@ -351,7 +349,7 @@
           "hint": "Kelimeler arasında bıraktığımız yer, aralık."
         },
         {
-          "word": "Çİ̇ZGİ̇",
+          "word": "ÇİZGİ",
           "hint": "Bir yerden başka bir yere doğru uzanan ince iz."
         },
         {
@@ -379,7 +377,7 @@
           "hint": "Hikayenin ne zaman geçtiği, örneğin sabah, dün, kış mevsimi."
         },
         {
-          "word": "RESİ̇M",
+          "word": "RESİM",
           "hint": "Gördüğümüz bir şeyi kağıda çizerek veya boyayarak anlatma."
         },
         {
@@ -387,7 +385,7 @@
           "hint": "Bir konu hakkında akıl yürütmek, fikir üretmek."
         },
         {
-          "word": "Fİ̇Kİ̇R",
+          "word": "FİKİR",
           "hint": "Bir şey hakkında aklımıza gelen yeni düşünce."
         },
         {
@@ -403,7 +401,7 @@
           "hint": "Her gün yaşanan olayları, duyguları yazdığımız özel defter."
         },
         {
-          "word": "BAŞLANGİÇ",
+          "word": "BAŞLANGIÇ",
           "hint": "Bir hikayenin veya işin ilk kısmı, ilk adımı."
         },
         {
@@ -423,7 +421,7 @@
           "hint": "Uyurken gördüğümüz veya gerçek olmasını istediğimiz şeyler."
         },
         {
-          "word": "AÇİKLAMA",
+          "word": "AÇIKLAMA",
           "hint": "Bir şeyi daha iyi anlamak için detaylı anlatma."
         },
         {
@@ -443,11 +441,11 @@
           "hint": "Gözlerimizle bir şeyi görmek, dikkatlice incelemek."
         },
         {
-          "word": "ANİMSAMAK",
+          "word": "ANIMSAMAK",
           "hint": "Bir şeyi hatırlamak."
         },
         {
-          "word": "Bİ̇Çİ̇M",
+          "word": "BİÇİM",
           "hint": "Bir şeyin dış görünüşü, şekli."
         },
         {
@@ -462,37 +460,1746 @@
     },
     {
       "id": "turkce_u3",
-      "name": "3. Ünite: Paragrafta Anlam ve Noktalama",
+      "name": "3. Ünite: Değerlerimiz",
       "months": [
-        1,
-        2
+        11
       ],
-      "words": []
+      "words": [
+        {
+          "word": "OKUL",
+          "hint": "Çocukların ders öğrendiği yer."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Bize ders anlatan kişi."
+        },
+        {
+          "word": "ÖĞRENCİ",
+          "hint": "Okula gidip ders gören."
+        },
+        {
+          "word": "DERS",
+          "hint": "Öğretmenin anlattığı konu."
+        },
+        {
+          "word": "KİTAP",
+          "hint": "İçinde yazılar ve resimler olan."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Yazmak için kullandığımız araç."
+        },
+        {
+          "word": "SİLGİ",
+          "hint": "Yazılanları yok eden."
+        },
+        {
+          "word": "SIRMA",
+          "hint": "Çok ince altın veya gümüş tel."
+        },
+        {
+          "word": "TAHTA",
+          "hint": "Öğretmenin üzerine yazdığı büyük pano."
+        },
+        {
+          "word": "SIRA",
+          "hint": "Öğrencilerin oturduğu eşya."
+        },
+        {
+          "word": "ÇANTA",
+          "hint": "Okul eşyalarını taşımak için."
+        },
+        {
+          "word": "BİLGİSAYAR",
+          "hint": "İnternete girilen teknolojik alet."
+        },
+        {
+          "word": "TELEFON",
+          "hint": "Konuşmak için kullanılan alet."
+        },
+        {
+          "word": "RENK",
+          "hint": "Kırmızı, mavi, yeşil gibi."
+        },
+        {
+          "word": "ŞEKİL",
+          "hint": "Yuvarlak, kare, üçgen gibi."
+        },
+        {
+          "word": "BOYA",
+          "hint": "Resim yapmak için kullanılan."
+        },
+        {
+          "word": "KAĞIT",
+          "hint": "Üzerine resim yaptığımız veya yazdığımız."
+        },
+        {
+          "word": "MAKAS",
+          "hint": "Kağıt kesmek için kullanılan."
+        },
+        {
+          "word": "YAPIŞTIRICI",
+          "hint": "Kağıtları birbirine tutturmak için."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek için yapılan aktivite."
+        },
+        {
+          "word": "ARKADAŞ",
+          "hint": "Okulda veya çevredeki dost."
+        },
+        {
+          "word": "SEVİNÇ",
+          "hint": "Mutlu olma durumu."
+        },
+        {
+          "word": "ÜZÜNTÜ",
+          "hint": "Mutsuz olma durumu."
+        },
+        {
+          "word": "ÖFKELİ",
+          "hint": "Çok kızgın olma."
+        },
+        {
+          "word": "KORKU",
+          "hint": "Tehlike karşısında duyulan."
+        },
+        {
+          "word": "MERAK",
+          "hint": "Bir şeyi öğrenme isteği."
+        },
+        {
+          "word": "GÜLÜCÜK",
+          "hint": "Mutluluk belirten yüz ifadesi."
+        },
+        {
+          "word": "UYKU",
+          "hint": "Dinlenmek için yapılan."
+        },
+        {
+          "word": "AÇLIK",
+          "hint": "Yemek yeme isteği."
+        },
+        {
+          "word": "SUSUZLUK",
+          "hint": "Su içme isteği."
+        },
+        {
+          "word": "SAĞLIK",
+          "hint": "İyi olma durumu."
+        },
+        {
+          "word": "HASTALIK",
+          "hint": "İyi olmama durumu."
+        },
+        {
+          "word": "YEMEK",
+          "hint": "Vücudumuzun ihtiyacı olan."
+        },
+        {
+          "word": "İÇECEK",
+          "hint": "Su, süt gibi."
+        },
+        {
+          "word": "MEYVE",
+          "hint": "Elma, armut, portakal gibi."
+        },
+        {
+          "word": "SEBZE",
+          "hint": "Havuç, marul, domates gibi."
+        },
+        {
+          "word": "EKMEK",
+          "hint": "Sabahları yediğimiz temel yiyecek."
+        },
+        {
+          "word": "SÜT",
+          "hint": "Kemikleri güçlendiren beyaz sıvı."
+        },
+        {
+          "word": "PEYNİR",
+          "hint": "Sütten yapılan bir yiyecek."
+        },
+        {
+          "word": "YUMURTA",
+          "hint": "Tavuktan çıkan."
+        },
+        {
+          "word": "SU",
+          "hint": "Hayat kaynağımız."
+        },
+        {
+          "word": "BİTİ",
+          "hint": "Küçük bir canlı."
+        },
+        {
+          "word": "YAĞMUR",
+          "hint": "Gökyüzünden düşen su damlaları."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Gökyüzündeki parlak ışık."
+        },
+        {
+          "word": "AY",
+          "hint": "Gece gökyüzünde gördüğümüz."
+        },
+        {
+          "word": "YİLDİZ",
+          "hint": "Gece gökyüzünde parlayan küçük ışıklar."
+        },
+        {
+          "word": "BULUT",
+          "hint": "Gökyüzündeki beyaz yığın."
+        },
+        {
+          "word": "RÜZGAR",
+          "hint": "Havanın hareketi."
+        },
+        {
+          "word": "DOĞA",
+          "hint": "Ağaçlar, çiçekler, hayvanlar dünyası."
+        },
+        {
+          "word": "AĞAÇ",
+          "hint": "Büyük bitki."
+        },
+        {
+          "word": "ÇİÇEK",
+          "hint": "Güzelliği ve kokusu olan bitki."
+        },
+        {
+          "word": "KEDİ",
+          "hint": "Miyavlayan evcil hayvan."
+        },
+        {
+          "word": "KÖPEK",
+          "hint": "Havlayan evcil hayvan."
+        },
+        {
+          "word": "KUŞ",
+          "hint": "Kanatlı uçan hayvan."
+        },
+        {
+          "word": "BALIK",
+          "hint": "Suda yaşayan hayvan."
+        },
+        {
+          "word": "ARABA",
+          "hint": "Yollarda giden taşıt."
+        },
+        {
+          "word": "OTOBÜS",
+          "hint": "Çok kişiyi taşıyan büyük araç."
+        },
+        {
+          "word": "UÇAK",
+          "hint": "Gökyüzünde uçan büyük taşıt."
+        },
+        {
+          "word": "GEMİ",
+          "hint": "Suda giden büyük taşıt."
+        },
+        {
+          "word": "UYDU",
+          "hint": "Dünya etrafında dönen cihaz."
+        },
+        {
+          "word": "BİSİKLET",
+          "hint": "İki tekerlekli insan gücüyle çalışan."
+        },
+        {
+          "word": "ROKET",
+          "hint": "Uzaya giden füze."
+        },
+        {
+          "word": "YOL",
+          "hint": "Gidilen yer."
+        },
+        {
+          "word": "KÖPRÜ",
+          "hint": "Su veya yol üzerinden geçiş sağlayan."
+        },
+        {
+          "word": "BİNA",
+          "hint": "İçinde yaşanılan veya çalışılan yapı."
+        },
+        {
+          "word": "EV",
+          "hint": "İnsanların yaşadığı yer."
+        },
+        {
+          "word": "ODA",
+          "hint": "Evin bölümlerinden biri."
+        },
+        {
+          "word": "MUTFAK",
+          "hint": "Yemek pişen yer."
+        },
+        {
+          "word": "SALON",
+          "hint": "Oturulan geniş oda."
+        },
+        {
+          "word": "YATAK",
+          "hint": "Üzerinde uyunan eşya."
+        },
+        {
+          "word": "DOLAP",
+          "hint": "Eşyaları sakladığımız."
+        },
+        {
+          "word": "MASA",
+          "hint": "Üzerine eşya koyduğumuz veya çalıştığımız."
+        },
+        {
+          "word": "SANDALYE",
+          "hint": "Oturmak için kullanılan."
+        },
+        {
+          "word": "PERDE",
+          "hint": "Pencereyi kapatan örtü."
+        },
+        {
+          "word": "HALİ",
+          "hint": "Yere serilen."
+        },
+        {
+          "word": "ABJUR",
+          "hint": "Lambanın ışığını dağıtan kapak."
+        },
+        {
+          "word": "AYNA",
+          "hint": "Yüzümüzü gördüğümüz."
+        },
+        {
+          "word": "ÇAMAŞIR",
+          "hint": "Giydiğimiz temiz giysi."
+        },
+        {
+          "word": "KİRLİ",
+          "hint": "Temiz olmayan."
+        },
+        {
+          "word": "HAVA",
+          "hint": "Soluduğumuz."
+        },
+        {
+          "word": "İSİ",
+          "hint": "Sıcaklık."
+        },
+        {
+          "word": "SOĞUK",
+          "hint": "Sıcak olmayan."
+        },
+        {
+          "word": "DONDURMA",
+          "hint": "Yazın yediğimiz soğuk tatlı."
+        },
+        {
+          "word": "DONDURUCU",
+          "hint": "Yiyecekleri donduran alet."
+        },
+        {
+          "word": "BUZDOLABI",
+          "hint": "Yiyecekleri soğuk tutan alet."
+        },
+        {
+          "word": "OMBABA",
+          "hint": "Sıcaklık veren alet."
+        },
+        {
+          "word": "SOBA",
+          "hint": "Eski tip ısıtıcı."
+        },
+        {
+          "word": "KÜTLE",
+          "hint": "Madde miktarının ölçüsü."
+        }
+      ]
     },
     {
       "id": "turkce_u4",
-      "name": "4. Ünite: Metin Türleri ve Söz Sanatları",
+      "name": "4. Ünite: Oyun ve Spor",
       "months": [
-        3,
-        4
+        12
       ],
-      "words": []
+      "words": [
+        {
+          "word": "MASAL",
+          "hint": "İçinde cadı, peri, dev gibi kahramanların olduğu hikaye."
+        },
+        {
+          "word": "FİKRA",
+          "hint": "Kısa, komik ve ders veren anlatı."
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "Öğrenilen veya keşfedilen şey."
+        },
+        {
+          "word": "SESLİ",
+          "hint": "Konuşma veya müzik gibi duyulabilen."
+        },
+        {
+          "word": "SESSİZ",
+          "hint": "Hiçbir sesin çıkmadığı durum."
+        },
+        {
+          "word": "KAFİYE",
+          "hint": "Şiirde veya şarkıda dizelerin sonundaki ses benzerliği."
+        },
+        {
+          "word": "TEKERLEME",
+          "hint": "Kolay söylenmeyen, eğlenceli söz dizisi."
+        },
+        {
+          "word": "BENZETME",
+          "hint": "Bir şeyi başka bir şeye benzetme sanatı."
+        },
+        {
+          "word": "KİŞİLEŞTİRME",
+          "hint": "İnsan dışı varlıklara insani özellikler verme."
+        },
+        {
+          "word": "ŞİİR",
+          "hint": "Duyguları ve düşünceleri ahenkli sözlerle anlatan yazı."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek için yapılan etkinlik."
+        },
+        {
+          "word": "HİKAYE",
+          "hint": "Yaşanmış veya hayal edilmiş olayları anlatan yazı."
+        },
+        {
+          "word": "RESİM",
+          "hint": "Boyalar veya kalemlerle yapılan görsel çalışma."
+        },
+        {
+          "word": "ÇİZDİM",
+          "hint": "Bir şeyi resim defterine veya kağıda yaptım."
+        },
+        {
+          "word": "BOYADIM",
+          "hint": "Resmi renkli kalem, boya veya fırçayla renklendirdim."
+        },
+        {
+          "word": "OKUDUM",
+          "hint": "Yazıları dikkatle izleyip anlamını kavradım."
+        },
+        {
+          "word": "YAZDIM",
+          "hint": "Harfleri ve kelimeleri kağıda döktüm."
+        },
+        {
+          "word": "SÖYLEDİM",
+          "hint": "Kelimeleri ağzımdan çıkan seslerle ifade ettim."
+        },
+        {
+          "word": "DİNLEDİM",
+          "hint": "Sesleri kulaklarımla algıladım ve anladım."
+        },
+        {
+          "word": "GÖRDÜM",
+          "hint": "Gözlerimle bir şeyi algıladım."
+        },
+        {
+          "word": "ANLADIM",
+          "hint": "Bir şeyin ne demek olduğunu kavradım."
+        },
+        {
+          "word": "HATIRLADIM",
+          "hint": "Önce bilinen bir şeyi yeniden zihne getirdim."
+        },
+        {
+          "word": "TAHMİN",
+          "hint": "Henüz kesinleşmemiş bir sonuç hakkında fikir yürütme."
+        },
+        {
+          "word": "SORGU",
+          "hint": "Bilgi edinmek için sorulan soru."
+        },
+        {
+          "word": "CEVAP",
+          "hint": "Sorulan bir soruya verilen yanıt."
+        },
+        {
+          "word": "YARDIM",
+          "hint": "Birine destek olma, zorluğunu giderme."
+        },
+        {
+          "word": "UYKU",
+          "hint": "Dinlenmek için gözlerin kapalı olduğu zaman."
+        },
+        {
+          "word": "RÜYA",
+          "hint": "Uyurken görülen olağanüstü olaylar."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Gökyüzünde parlayan, ısı ve ışık yayan büyük yıldız."
+        },
+        {
+          "word": "AY",
+          "hint": "Gece gökyüzünde görülen, Güneş'ten ışık alan gök cismi."
+        },
+        {
+          "word": "YİLDİZ",
+          "hint": "Gece gökyüzünde parlayan küçük ışık noktaları."
+        },
+        {
+          "word": "BULUT",
+          "hint": "Gökyüzünde görülen su damlacıklarından oluşan yığın."
+        },
+        {
+          "word": "YAĞMUR",
+          "hint": "Bulutlardan yeryüzüne düşen su damlaları."
+        },
+        {
+          "word": "KAR",
+          "hint": "Soğuk havada bulutlardan dökülen buz taneleri."
+        },
+        {
+          "word": "RÜZGAR",
+          "hint": "Hava hareketinin hissedilir hali."
+        },
+        {
+          "word": "BAHAR",
+          "hint": "Kıştan sonra gelen, doğanın canlandığı mevsim."
+        },
+        {
+          "word": "YAZ",
+          "hint": "En sıcak ve uzun günlerin yaşandığı mevsim."
+        },
+        {
+          "word": "SONBAHAR",
+          "hint": "Yazdan sonra gelen, yaprakların döküldüğü mevsim."
+        },
+        {
+          "word": "KİŞ",
+          "hint": "En soğuk ve kısa günlerin yaşandığı mevsim."
+        },
+        {
+          "word": "SEVİNÇ",
+          "hint": "Mutluluk duyulan durum."
+        },
+        {
+          "word": "ÜZÜNTÜ",
+          "hint": "Mutsuzluk, keder duyma."
+        },
+        {
+          "word": "ÖFKELENME",
+          "hint": "Sinirlenme, kızma."
+        },
+        {
+          "word": "KORKU",
+          "hint": "Tehlike karşısında duyulan endişe."
+        },
+        {
+          "word": "MERAK",
+          "hint": "Bir şeyi öğrenme isteği."
+        },
+        {
+          "word": "ŞAŞKINLIK",
+          "hint": "Beklenmedik bir durum karşısında duyulan duygu."
+        },
+        {
+          "word": "SEVGİ",
+          "hint": "Birini veya bir şeyi çok hoş bulma."
+        },
+        {
+          "word": "SAYGI",
+          "hint": "Değer verilen birine gösterilen hürmet."
+        },
+        {
+          "word": "ARKADAŞ",
+          "hint": "Birlikte vakit geçirilen, güvenilen kimse."
+        },
+        {
+          "word": "AİLE",
+          "hint": "Anne, baba ve çocuklardan oluşan topluluk."
+        },
+        {
+          "word": "OKUL",
+          "hint": "Eğitim ve öğrenim görülen yer."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Bilgi ve beceri kazandıran kişi."
+        },
+        {
+          "word": "ÖĞRENCİ",
+          "hint": "Öğretmenden ders alan kimse."
+        },
+        {
+          "word": "DERS",
+          "hint": "Okulda işlenen konu."
+        },
+        {
+          "word": "KİTAP",
+          "hint": "İçinde yazı ve resimler bulunan, bilgi veren yayın."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Yazmak veya çizmek için kullanılan araç."
+        },
+        {
+          "word": "SİLGİ",
+          "hint": "Yazılanı veya çizileni yok eden araç."
+        },
+        {
+          "word": "KAĞIT",
+          "hint": "Yazmak veya çizmek için kullanılan ince, düz yüzey."
+        }
+      ]
     },
     {
       "id": "turkce_u5",
-      "name": "5. Ünite: Dil Bilgisi ve Ses Olayları",
+      "name": "5. Ünite: Sağlık ve Çevre",
       "months": [
-        5
+        1
       ],
-      "words": []
+      "words": [
+        {
+          "word": "İSLİK",
+          "hint": "Elinle veya ıslık çalarak ses çıkarma."
+        },
+        {
+          "word": "SES",
+          "hint": "Kulaklarımızla duyduğumuz şey."
+        },
+        {
+          "word": "HARF",
+          "hint": "Yazının temel birimi."
+        },
+        {
+          "word": "ALFABE",
+          "hint": "Harflerin sırayla dizilmiş hali."
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Anlamlı kelimeler topluluğu."
+        },
+        {
+          "word": "NOKTA",
+          "hint": "Cümlenin bittiğini gösteren işaret."
+        },
+        {
+          "word": "SORU",
+          "hint": "Cevap almak için sorduğumuz şey."
+        },
+        {
+          "word": "İŞARET",
+          "hint": "Belirli bir anlamı olan sembol."
+        },
+        {
+          "word": "RESİM",
+          "hint": "Görsel olarak bir şeyi anlatan eser."
+        },
+        {
+          "word": "DEFTER",
+          "hint": "Üzerine yazı yazdığımız kitapçık."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Yazmak için kullandığımız araç."
+        },
+        {
+          "word": "SİLGİ",
+          "hint": "Yazılanı bozmak için kullanılan eşya."
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "Öğrenilen, edinilen veri."
+        },
+        {
+          "word": "ÖĞRENME",
+          "hint": "Yeni şeyler edinme süreci."
+        },
+        {
+          "word": "DERS",
+          "hint": "Okulda işlenen konu."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Bize ders anlatan kişi."
+        },
+        {
+          "word": "ÖĞRENCİ",
+          "hint": "Ders alan kişi."
+        },
+        {
+          "word": "SAAT",
+          "hint": "Zamanı gösteren alet."
+        },
+        {
+          "word": "DAKİKA",
+          "hint": "Saatin 60'ta 1'i."
+        },
+        {
+          "word": "SANİYE",
+          "hint": "Dk.'nın 60'ta 1'i."
+        },
+        {
+          "word": "GECE",
+          "hint": "Güneşin batınca oluşan zaman."
+        },
+        {
+          "word": "GÜNDÜZ",
+          "hint": "Güneşin olunca oluşan zaman."
+        },
+        {
+          "word": "SABAH",
+          "hint": "Günün ilk ışıkları."
+        },
+        {
+          "word": "AKŞAM",
+          "hint": "Günün son ışıkları."
+        },
+        {
+          "word": "BAYRAK",
+          "hint": "Bir ülkeyi temsil eden renkli kumaş."
+        },
+        {
+          "word": "MARŞ",
+          "hint": "Ulusal marş, milli marş."
+        },
+        {
+          "word": "MİLLİ",
+          "hint": "Bir ulusa ait olan."
+        },
+        {
+          "word": "BAĞIMSIZLIK",
+          "hint": "Kimseye bağlı olmama durumu."
+        },
+        {
+          "word": "DEMOKRASİ",
+          "hint": "Halkın egemenliği."
+        },
+        {
+          "word": "İNSAN",
+          "hint": "Yeryüzünde yaşayan canlı."
+        },
+        {
+          "word": "ÇOCUK",
+          "hint": "Genç insan."
+        },
+        {
+          "word": "YAŞLI",
+          "hint": "İhtiyar, tecrübeli."
+        },
+        {
+          "word": "GENÇ",
+          "hint": "Genellikle 13-20 yaş arası."
+        },
+        {
+          "word": "DOST",
+          "hint": "Yakın arkadaş."
+        },
+        {
+          "word": "ARKADAŞ",
+          "hint": "Birlikte vakit geçirdiğimiz kişi."
+        },
+        {
+          "word": "SELAM",
+          "hint": "Karşıdaki kişiye verilen ilk söz."
+        },
+        {
+          "word": "VEDA",
+          "hint": "Ayrılırken söylenen söz."
+        },
+        {
+          "word": "TEŞEKKÜR",
+          "hint": "Yardım eden birine söylenen söz."
+        },
+        {
+          "word": "AFİYET",
+          "hint": "Sağlık, iyi olma durumu (yemekten önce/sonra)."
+        },
+        {
+          "word": "ŞİFA",
+          "hint": "Hastalığın iyileşmesi."
+        },
+        {
+          "word": "HASTA",
+          "hint": "Sağlıklı olmayan."
+        },
+        {
+          "word": "DOKTOR",
+          "hint": "Sağlığımızla ilgilenen kişi."
+        },
+        {
+          "word": "HEMŞİRE",
+          "hint": "Doktora yardım eden sağlık çalışanı."
+        },
+        {
+          "word": "ECZANE",
+          "hint": "İlaç alınan yer."
+        },
+        {
+          "word": "İLAÇ",
+          "hint": "Hastalığı iyileştiren madde."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek için yapılan etkinlik."
+        },
+        {
+          "word": "SPOR",
+          "hint": "Fiziksel aktivite."
+        },
+        {
+          "word": "BİSİKLET",
+          "hint": "İki tekerlekli, pedal çevrilerek giden araç."
+        },
+        {
+          "word": "TOP",
+          "hint": "Genellikle sporlarda kullanılan yuvarlak nesne."
+        },
+        {
+          "word": "KİTAP",
+          "hint": "İçinde yazı ve resimler olan, okunup bilgi edinilen şey."
+        },
+        {
+          "word": "HİKAYE",
+          "hint": "Kısa anlatılan olay."
+        },
+        {
+          "word": "ŞİİR",
+          "hint": "Kafiyeli ve ölçülü söz."
+        },
+        {
+          "word": "MÜZİK",
+          "hint": "Seslerin uyumlu birleşimi."
+        },
+        {
+          "word": "ŞARKI",
+          "hint": "Melodisi olan sözlü müzik."
+        },
+        {
+          "word": "DANS",
+          "hint": "Müzik eşliğinde yapılan figürler."
+        },
+        {
+          "word": "RESİTAL",
+          "hint": "Müzik dinletisi."
+        },
+        {
+          "word": "KONSER",
+          "hint": "Müzik grubu veya sanatçının dinletisi."
+        }
+      ]
     },
     {
       "id": "turkce_u6",
-      "name": "6. Ünite: Sözlü İletişim ve Anlatım Bozuklukları",
+      "name": "6. Ünite: Bilim ve Teknoloji",
       "months": [
-        6
+        2
       ],
-      "words": []
+      "words": [
+        {
+          "word": "SESLİ",
+          "hint": "Kulağımızla duyabildiğimiz"
+        },
+        {
+          "word": "SESSİZ",
+          "hint": "Hiç ses çıkarmayan"
+        },
+        {
+          "word": "DİNLEME",
+          "hint": "Kulağımızla bir şeyleri anlamaya çalışmak"
+        },
+        {
+          "word": "KONUŞMA",
+          "hint": "Ağzımızdan çıkan seslerle bir şeyler anlatma"
+        },
+        {
+          "word": "ANLATIM",
+          "hint": "Bir fikri veya olayı sözlerle ifade etme"
+        },
+        {
+          "word": "BAŞLIK",
+          "hint": "Bir yazının veya konunun adı"
+        },
+        {
+          "word": "GİRİŞ",
+          "hint": "Bir konuya başlama bölümü"
+        },
+        {
+          "word": "GELİŞME",
+          "hint": "Bir konunun detaylarının anlatıldığı bölüm"
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir konunun bittiği bölüm"
+        },
+        {
+          "word": "ÖZET",
+          "hint": "Anlatılanları kısa bir şekilde söyleme"
+        },
+        {
+          "word": "TABLO",
+          "hint": "Bilgileri satır ve sütunlarda gösterme"
+        },
+        {
+          "word": "GRAFİK",
+          "hint": "Sayıları resimlerle gösterme"
+        },
+        {
+          "word": "DİYAGRAM",
+          "hint": "Şema, çizelge gibi gösterim"
+        },
+        {
+          "word": "YAZILI",
+          "hint": "Harflerle veya rakamlarla oluşturulan"
+        },
+        {
+          "word": "SÖZLÜ",
+          "hint": "Ağızdan çıkan kelimelerle yapılan"
+        },
+        {
+          "word": "İLETİŞİM",
+          "hint": "İnsanların birbirleriyle haberleşmesi"
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Sevinç, üzüntü, korku gibi hisler"
+        },
+        {
+          "word": "İSTEK",
+          "hint": "Bir şeyi yapmayı veya sahip olmayı arzu etme"
+        },
+        {
+          "word": "EMİR",
+          "hint": "Yapılmasını istediğimiz şeyleri söyleme"
+        },
+        {
+          "word": "RİCA",
+          "hint": "Birinden bir şey isteme, yalvarma"
+        },
+        {
+          "word": "ÖĞÜT",
+          "hint": "İyi bir şey yapmamız için verilen tavsiye"
+        },
+        {
+          "word": "SORGU",
+          "hint": "Bir şey öğrenmek için sorulan soru"
+        },
+        {
+          "word": "CEVAP",
+          "hint": "Sorulan bir soruya verilen yanıt"
+        },
+        {
+          "word": "UYARI",
+          "hint": "Dikkat etmemiz gereken bir şeyi söyleme"
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "Bir şey hakkında öğrenilen şey"
+        },
+        {
+          "word": "HATIRLATMA",
+          "hint": "Unutulan bir şeyi tekrar hatırlatma"
+        },
+        {
+          "word": "TEKLİF",
+          "hint": "Bir öneride bulunma"
+        },
+        {
+          "word": "YORUM",
+          "hint": "Bir şey hakkında düşüncelerini söyleme"
+        },
+        {
+          "word": "İHTİYAÇ",
+          "hint": "Olmazsa olmazımız olan şeyler"
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Dikkatlice bakıp anlama"
+        },
+        {
+          "word": "TANIKLIK",
+          "hint": "Bir olayı görmüş ve anlatmış olma"
+        },
+        {
+          "word": "TAHMİN",
+          "hint": "Olacakları önceden tahmin etmeye çalışma"
+        },
+        {
+          "word": "ŞAKA",
+          "hint": "Eğlenmek için söylenen komik söz"
+        },
+        {
+          "word": "ŞİİR",
+          "hint": "Kafiyeli ve uyaklı sözlerle yazılan edebi eser"
+        },
+        {
+          "word": "HİKAYE",
+          "hint": "Yaşanmış veya hayali olayları anlatan yazı"
+        },
+        {
+          "word": "MASAL",
+          "hint": "Ejderhaların, prenseslerin olduğu hayali hikaye"
+        },
+        {
+          "word": "FİKRA",
+          "hint": "Kısa ve komik hikaye"
+        },
+        {
+          "word": "BİLGİSAYAR",
+          "hint": "İşlem yapan elektronik alet"
+        },
+        {
+          "word": "TELEFON",
+          "hint": "Uzaklarla konuşmamızı sağlayan alet"
+        },
+        {
+          "word": "RADYO",
+          "hint": "Ses yayınlarını dinlediğimiz alet"
+        },
+        {
+          "word": "TELEVİZYON",
+          "hint": "Görüntü ve ses yayınlarını izlediğimiz alet"
+        },
+        {
+          "word": "GAZETE",
+          "hint": "Günlük haberleri okuduğumuz yazılı yayın"
+        },
+        {
+          "word": "DERGİ",
+          "hint": "Belirli aralıklarla çıkan resimli yayın"
+        },
+        {
+          "word": "KİTAP",
+          "hint": "Bilgi ve hikayelerin yazılı olduğu defter"
+        },
+        {
+          "word": "ÖĞRENME",
+          "hint": "Bilgi edinme süreci"
+        },
+        {
+          "word": "HATIRLAMA",
+          "hint": "Daha önce öğrenilenleri yeniden akla getirme"
+        },
+        {
+          "word": "UNUTMA",
+          "hint": "Öğrenilenleri akıldan çıkarma"
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "Yanlış olmayan, gerçek"
+        },
+        {
+          "word": "YANLIŞ",
+          "hint": "Hatalı, gerçek olmayan"
+        },
+        {
+          "word": "BASİT",
+          "hint": "Kolay, anlaşılır"
+        },
+        {
+          "word": "KARMAŞIK",
+          "hint": "Çok karışık, anlaşılması zor"
+        },
+        {
+          "word": "ETKİN",
+          "hint": "Aktif, faal"
+        },
+        {
+          "word": "PASİF",
+          "hint": "Etkisiz, tepkisiz"
+        },
+        {
+          "word": "ANLAŞILIR",
+          "hint": "Kolayca kavranabilir"
+        },
+        {
+          "word": "ANLAŞILMAZ",
+          "hint": "Kavranması zor, muğlak"
+        }
+      ]
+    },
+    {
+      "id": "turkce_u7",
+      "name": "7. Ünite: Sanat",
+      "months": [
+        3
+      ],
+      "words": [
+        {
+          "word": "SANAT",
+          "hint": "İnsanların duygu ve düşüncelerini farklı yollarla anlattığı güzel işler."
+        },
+        {
+          "word": "RESSAM",
+          "hint": "Fırça ve boyalarla güzel resimler yapan kişi."
+        },
+        {
+          "word": "RESİM",
+          "hint": "Boyalarla veya kalemle çizilen, bir şeyi gösteren görüntü."
+        },
+        {
+          "word": "BOYA",
+          "hint": "Kağıda veya tuvale renk vermek için kullanılan sıvı madde."
+        },
+        {
+          "word": "FIRÇA",
+          "hint": "Boyayı tuvale sürmek için kullanılan, ucu kıllı araç."
+        },
+        {
+          "word": "TUVAL",
+          "hint": "Ressamların üzerine resim yaptığı özel bez veya kumaş."
+        },
+        {
+          "word": "RENK",
+          "hint": "Gözümüzle gördüğümüz, kırmızı, mavi gibi özellikler."
+        },
+        {
+          "word": "KIRMIZI",
+          "hint": "Kan, çilek ve domates gibi şeylerin rengi."
+        },
+        {
+          "word": "MAVİ",
+          "hint": "Gökyüzü ve denizin rengi."
+        },
+        {
+          "word": "SARI",
+          "hint": "Güneş ve limon gibi şeylerin rengi."
+        },
+        {
+          "word": "YEŞİL",
+          "hint": "Ağaç yaprağı ve çimlerin rengi."
+        },
+        {
+          "word": "TURUNCU",
+          "hint": "Portakal rengi, kırmızı ile sarı karışımı."
+        },
+        {
+          "word": "MOR",
+          "hint": "Patlıcan ve menekşe çiçeğinin rengi."
+        },
+        {
+          "word": "ŞEKİL",
+          "hint": "Bir şeyin dış görünüşü, daire veya kare gibi."
+        },
+        {
+          "word": "DAİRE",
+          "hint": "Yuvarlak olan, kenarı olmayan şekil."
+        },
+        {
+          "word": "KARE",
+          "hint": "Dört kenarı birbirine eşit olan şekil."
+        },
+        {
+          "word": "ÜÇGEN",
+          "hint": "Üç kenarı ve üç köşesi olan şekil."
+        },
+        {
+          "word": "ÇİZGİ",
+          "hint": "Kalemle çekilen ince veya kalın bir yol."
+        },
+        {
+          "word": "NOKTA",
+          "hint": "En küçük çizim işareti, bir yere dokunduğumuzda oluşan iz."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Yazı yazmak veya resim çizmek için kullanılan araç."
+        },
+        {
+          "word": "KAĞIT",
+          "hint": "Üzerine yazı yazdığımız veya resim çizdiğimiz ince tabaka."
+        },
+        {
+          "word": "MÜZE",
+          "hint": "Eski ve değerli eserlerin sergilendiği, gezilen yer."
+        },
+        {
+          "word": "SERGİ",
+          "hint": "Sanatçıların eserlerini insanların görmesi için açtığı gösteri."
+        },
+        {
+          "word": "HEYKEL",
+          "hint": "Taş, kil veya metalden yapılan, üç boyutlu sanat eseri."
+        },
+        {
+          "word": "KİL",
+          "hint": "Şekil verilebilen, yumuşak, kuruyunca sertleşen toprak."
+        },
+        {
+          "word": "HEYKELTIRAŞ",
+          "hint": "Heykel yapan kişi."
+        },
+        {
+          "word": "DANS",
+          "hint": "Müzikle birlikte yapılan ritmik ve estetik hareketler."
+        },
+        {
+          "word": "MÜZİK",
+          "hint": "Seslerin uyumlu şekilde bir araya gelmesiyle oluşan sanat."
+        },
+        {
+          "word": "ŞARKI",
+          "hint": "Sözleri olan, ezgili ve ritmik müzik eseri."
+        },
+        {
+          "word": "ENSTRÜMAN",
+          "hint": "Müzik çalmak için kullanılan gitar, piyano gibi alet."
+        },
+        {
+          "word": "TİYATRO",
+          "hint": "Sahne üzerinde oyuncuların canlandırdığı oyun."
+        },
+        {
+          "word": "OYUNCU",
+          "hint": "Tiyatro oyununda veya filmde rol yapan kişi."
+        },
+        {
+          "word": "SAHNE",
+          "hint": "Tiyatro oyunlarının sergilendiği, seyirciden yüksek yer."
+        },
+        {
+          "word": "KOSTÜM",
+          "hint": "Tiyatroda veya özel bir gösteride giyilen özel giysi."
+        },
+        {
+          "word": "DEKOR",
+          "hint": "Sahneyi veya bir yeri süsleyen, ortama uygun eşyalar."
+        },
+        {
+          "word": "EL SANATLARI",
+          "hint": "İnsanların elleriyle yaptığı, süsleme veya kullanışlı şeyler."
+        },
+        {
+          "word": "NAKIŞ",
+          "hint": "İğne ve iplikle kumaşa desen işleme sanatı."
+        },
+        {
+          "word": "ÖRGÜ",
+          "hint": "İplikleri birbirine geçirerek kazak, atkı gibi şeyler yapma işi."
+        },
+        {
+          "word": "YARATICI",
+          "hint": "Yeni fikirler üreten, farklı şeyler yapabilen."
+        },
+        {
+          "word": "HAYAL",
+          "hint": "Gerçek olmayan ama zihnimizde canlandırdığımız şeyler."
+        },
+        {
+          "word": "ESER",
+          "hint": "Bir sanatçının yaptığı, ortaya koyduğu güzel ve değerli iş."
+        },
+        {
+          "word": "GÜZELLİK",
+          "hint": "Hoşa giden, insana keyif veren nitelik."
+        },
+        {
+          "word": "ÖZGÜN",
+          "hint": "Başka bir şeye benzemeyen, kendine has olan."
+        },
+        {
+          "word": "SANATÇI",
+          "hint": "Resim, müzik, heykel gibi sanat dallarında eser üreten kişi."
+        },
+        {
+          "word": "ATÖLYE",
+          "hint": "Sanatçıların veya zanaatkarların çalıştığı yer."
+        },
+        {
+          "word": "PALET",
+          "hint": "Ressamların boyaları karıştırmak için kullandığı tabla."
+        },
+        {
+          "word": "ŞÖVALE",
+          "hint": "Ressamın tuvalini üzerine koyduğu, üç ayaklı destek."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Bir yüzey üzerine işlenmiş şekil veya süsleme."
+        },
+        {
+          "word": "PANDOMİM",
+          "hint": "Konuşmadan, sadece vücut hareketleriyle hikaye anlatan sanat."
+        },
+        {
+          "word": "OPERA",
+          "hint": "Müzik eşliğinde sahnelenen, şarkı söylenen tiyatro eseri."
+        },
+        {
+          "word": "BALE",
+          "hint": "Müzik ve dansla anlatılan, zarif hareketlerin olduğu sahne gösterisi."
+        },
+        {
+          "word": "HEYECAN",
+          "hint": "Bir olayın veya eserin insanda uyandırdığı coşkulu duygu."
+        },
+        {
+          "word": "İLHAM",
+          "hint": "Yaratıcı işler yapmak için gelen esin veya güzel düşünce."
+        },
+        {
+          "word": "GÖLGE",
+          "hint": "Işığın bir engelle karşılaşmasıyla oluşan karanlık kısım."
+        },
+        {
+          "word": "IŞIK",
+          "hint": "Çevremizdeki her şeyi görmemizi sağlayan parlaklık."
+        }
+      ]
+    },
+    {
+      "id": "turkce_u8",
+      "name": "8. Ünite: Vatanseverlik",
+      "months": [
+        4
+      ],
+      "words": [
+        {
+          "word": "VATAN",
+          "hint": "Üzerinde yaşadığımız ülke, yurdumuz."
+        },
+        {
+          "word": "BAYRAK",
+          "hint": "Ülkemizi temsil eden, kırmızı kumaş."
+        },
+        {
+          "word": "ASKER",
+          "hint": "Vatanımızı koruyan kahraman kişi."
+        },
+        {
+          "word": "MARŞ",
+          "hint": "Ülkemiz için söylenen özel şarkı."
+        },
+        {
+          "word": "ŞEHİT",
+          "hint": "Vatan için canını veren kahraman."
+        },
+        {
+          "word": "GAZİ",
+          "hint": "Savaştan kahramanlıkla dönen kişi."
+        },
+        {
+          "word": "MİLLET",
+          "hint": "Aynı ülkede yaşayan büyük insan topluluğu."
+        },
+        {
+          "word": "ULUS",
+          "hint": "Millet kelimesinin diğer adı."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Ülkeler arası büyük çatışma."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Kavgasız, sakin ve huzurlu durum."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Üzerinde yürüdüğümüz, ekinlerin bittiği yer."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "İstediğini yapabilme, kimseye bağlı olmama."
+        },
+        {
+          "word": "CUMHURİYET",
+          "hint": "Halkın kendini yönettiği yönetim şekli."
+        },
+        {
+          "word": "ATATÜRK",
+          "hint": "Ülkemizin kurucusu, büyük liderimiz."
+        },
+        {
+          "word": "KAHRAMAN",
+          "hint": "Cesur ve iyilik yapan kişi."
+        },
+        {
+          "word": "YİĞİT",
+          "hint": "Çok cesur, korkusuz insan."
+        },
+        {
+          "word": "ANADOLU",
+          "hint": "Türkiye'mizin büyük bir bölümünün adı."
+        },
+        {
+          "word": "MEHMETÇİK",
+          "hint": "Türk askerine verilen sevgi dolu ad."
+        },
+        {
+          "word": "VATANSEVER",
+          "hint": "Vatanını çok seven, koruyan kişi."
+        },
+        {
+          "word": "BAĞIMSIZLIK",
+          "hint": "Kimseden emir almadan yaşama hali."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Hep birlikte, omuz omuza olma durumu."
+        },
+        {
+          "word": "DİRLİK",
+          "hint": "Huzurlu ve mutlu yaşama durumu."
+        },
+        {
+          "word": "ALBAYRAK",
+          "hint": "Kırmızı renkli Türk bayrağımızın adı."
+        },
+        {
+          "word": "HİLAL",
+          "hint": "Ay'ın incecik şekli, bayrağımızda var."
+        },
+        {
+          "word": "YILDIZ",
+          "hint": "Gökyüzünde parlayan, bayrağımızda da olan."
+        },
+        {
+          "word": "ANIT",
+          "hint": "Önemli kişileri veya olayları hatırlatan yapı."
+        },
+        {
+          "word": "ZAFER",
+          "hint": "Bir yarışı veya savaşı kazanma durumu."
+        },
+        {
+          "word": "CESARET",
+          "hint": "Korkusuzluk, zorluklara göğüs germe."
+        },
+        {
+          "word": "HUZUR",
+          "hint": "İç rahatlığı, sakinlik ve mutluluk."
+        },
+        {
+          "word": "GURUR",
+          "hint": "Başarıyla gelen sevinç ve övünç duygusu."
+        },
+        {
+          "word": "EGEMENLİK",
+          "hint": "Ülkeyi yönetme, söz sahibi olma hakkı."
+        },
+        {
+          "word": "TÖREN",
+          "hint": "Özel günlerde yapılan resmi kutlama."
+        },
+        {
+          "word": "KUTLAMA",
+          "hint": "Bir olayı sevinçle ve eğlenerek anma."
+        },
+        {
+          "word": "ŞEREF",
+          "hint": "Onur, saygınlık ve itibar."
+        },
+        {
+          "word": "ONUR",
+          "hint": "Kendi değerine saygı duyma, şeref."
+        },
+        {
+          "word": "COŞKU",
+          "hint": "Büyük bir heyecan ve sevinç."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Birine yardım etme, arka çıkma."
+        },
+        {
+          "word": "KORUMA",
+          "hint": "Tehlikeden uzak tutma, güvenliğini sağlama."
+        },
+        {
+          "word": "FEDAKARLIK",
+          "hint": "Başkası için bir şeylerden vazgeçme."
+        },
+        {
+          "word": "MİNNET",
+          "hint": "Yapılan iyiliğe karşı duyulan teşekkür."
+        },
+        {
+          "word": "İSTİKLAL",
+          "hint": "Bağımsızlık, özgürlük."
+        },
+        {
+          "word": "ECDAT",
+          "hint": "Eskiden yaşamış olan atalarımız."
+        },
+        {
+          "word": "MİRAS",
+          "hint": "Atalarımızdan kalan değerli şeyler."
+        },
+        {
+          "word": "ŞANLI",
+          "hint": "Şan ve şeref dolu, ünlü."
+        },
+        {
+          "word": "ŞEHİTLİK",
+          "hint": "Şehitlerimizin ebedi olarak yattığı yer."
+        },
+        {
+          "word": "MİLLİYET",
+          "hint": "Bir millete ait olma durumu."
+        },
+        {
+          "word": "GÖNÜLLÜ",
+          "hint": "Kendi isteğiyle ve karşılık beklemeden çalışan."
+        },
+        {
+          "word": "DİRENİŞ",
+          "hint": "Bir şeye karşı durma, karşı koyma."
+        },
+        {
+          "word": "HUDUT",
+          "hint": "Bir ülkenin sınır çizgisi."
+        },
+        {
+          "word": "MİLLİ",
+          "hint": "Bir millete veya ülkeye ait olan."
+        }
+      ]
+    },
+    {
+      "id": "turkce_u9",
+      "name": "9. Ünite: Doğa ve Evren",
+      "months": [
+        5
+      ],
+      "words": [
+        {
+          "word": "GÜNEŞ",
+          "hint": "Bize ışık ve sıcaklık veren en büyük yıldız."
+        },
+        {
+          "word": "AY",
+          "hint": "Geceleri gökyüzünde gördüğümüz, Dünya'nın uydusu."
+        },
+        {
+          "word": "YILDIZ",
+          "hint": "Gece gökyüzünde pırıl pırıl parlayan ışık noktası."
+        },
+        {
+          "word": "DÜNYA",
+          "hint": "Üzerinde yaşadığımız, Güneş etrafında dönen gezegen."
+        },
+        {
+          "word": "UZAY",
+          "hint": "Gezegenlerin ve yıldızların olduğu sonsuz boşluk."
+        },
+        {
+          "word": "GEZEGEN",
+          "hint": "Güneş gibi bir yıldızın etrafında dönen gök cismi."
+        },
+        {
+          "word": "ROKET",
+          "hint": "Uzaya gitmek için kullanılan hızlı araç."
+        },
+        {
+          "word": "ASTRONOT",
+          "hint": "Uzaya seyahat eden kişi."
+        },
+        {
+          "word": "AĞAÇ",
+          "hint": "Gövdesi, dalları, yaprakları olan büyük bir bitki."
+        },
+        {
+          "word": "ÇİÇEK",
+          "hint": "Bitkinin renkli, güzel kokan ve tohum oluşturan kısmı."
+        },
+        {
+          "word": "YAPRAK",
+          "hint": "Ağaçların yeşil renkli, güneş ışığı alan kısmı."
+        },
+        {
+          "word": "MEYVE",
+          "hint": "Ağaçlarda yetişen, yediğimiz tatlı veya ekşi yiyecekler."
+        },
+        {
+          "word": "SEBZE",
+          "hint": "Tarlalarda yetişen, yemeklerde kullandığımız faydalı bitkiler."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Bitkilerin büyüdüğü, yeryüzünün üst tabakası."
+        },
+        {
+          "word": "SU",
+          "hint": "Yaşam için çok önemli olan, susayınca içtiğimiz sıvı."
+        },
+        {
+          "word": "HAVA",
+          "hint": "Nefes almamızı sağlayan, gözle göremediğimiz gaz karışımı."
+        },
+        {
+          "word": "RÜZGAR",
+          "hint": "Havanın hareket etmesiyle oluşan doğal olay."
+        },
+        {
+          "word": "BULUT",
+          "hint": "Gökyüzünde asılı duran su buharı topluluğu, yağmur getirir."
+        },
+        {
+          "word": "YAĞMUR",
+          "hint": "Bulutlardan yeryüzüne düşen su damlaları."
+        },
+        {
+          "word": "KAR",
+          "hint": "Soğuk havada gökyüzünden yağan, beyaz ve yumuşak tanecikler."
+        },
+        {
+          "word": "DERE",
+          "hint": "Küçük, dar ve akarsu yolu."
+        },
+        {
+          "word": "GÖL",
+          "hint": "Etrafı karayla çevrili büyük durgun su birikintisi."
+        },
+        {
+          "word": "DENİZ",
+          "hint": "Çok geniş ve tuzlu su kütlesi."
+        },
+        {
+          "word": "OKYANUS",
+          "hint": "Dünyadaki en büyük denizlerin genel adı."
+        },
+        {
+          "word": "DAĞ",
+          "hint": "Çevresine göre çok yüksek, sivri tepeli yeryüzü şekli."
+        },
+        {
+          "word": "VADİ",
+          "hint": "İki dağ veya tepenin arasında kalan alçak bölge."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Çok sayıda ağacın bir arada bulunduğu geniş yeşil alan."
+        },
+        {
+          "word": "ÇÖL",
+          "hint": "Çok sıcak, kurak ve bitki örtüsü az olan yer."
+        },
+        {
+          "word": "KUTUP",
+          "hint": "Dünyanın en soğuk, buzlarla kaplı bölgeleri."
+        },
+        {
+          "word": "HAYVAN",
+          "hint": "Beslenen, hareket eden ve doğada yaşayan canlı varlıklar."
+        },
+        {
+          "word": "BİTKİ",
+          "hint": "Toprakta büyüyen, genellikle yeşil renkli canlılar (ağaç, çiçek)."
+        },
+        {
+          "word": "BÖCEK",
+          "hint": "Altı veya daha fazla bacağı olan küçük hayvanlar (karınca, kelebek)."
+        },
+        {
+          "word": "KUŞ",
+          "hint": "Kanatları olan, genellikle uçabilen ve yumurtlayan hayvan."
+        },
+        {
+          "word": "BALIK",
+          "hint": "Suda yaşayan, yüzgeçleri olan ve solungaçlarıyla nefes alan hayvan."
+        },
+        {
+          "word": "ARI",
+          "hint": "Çiçeklerden bal toplayan ve vızıldayan küçük böcek."
+        },
+        {
+          "word": "KELEBEK",
+          "hint": "Renkli kanatları olan, çiçekten çiçeğe konan güzel böcek."
+        },
+        {
+          "word": "GÖKKUŞAĞI",
+          "hint": "Yağmurdan sonra gökyüzünde oluşan renkli yay."
+        },
+        {
+          "word": "MEVSİM",
+          "hint": "Yılın dört dönemi (ilkbahar, yaz, sonbahar, kış)."
+        },
+        {
+          "word": "DOĞA",
+          "hint": "İnsan eli değmeden oluşan her şey; orman, dağ, deniz gibi."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Etrafımızdaki tüm canlı ve cansız varlıkların bütünü."
+        },
+        {
+          "word": "KİRLİLİK",
+          "hint": "Çevrenin çöp, duman veya atıklarla pislenmesi durumu."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Eski eşyaları işleyerek yeniden kullanıma kazandırma."
+        },
+        {
+          "word": "TOHUM",
+          "hint": "Yeni bir bitkinin büyüyebileceği küçük tanecik."
+        },
+        {
+          "word": "FİLİZ",
+          "hint": "Tohumdan yeni çıkmış, minik bitki."
+        },
+        {
+          "word": "ŞELALE",
+          "hint": "Yüksek bir yerden aşağıya doğru akan su kütlesi."
+        },
+        {
+          "word": "MAĞARA",
+          "hint": "Dağ veya tepelerin içinde doğal olarak oluşmuş büyük oyuk."
+        },
+        {
+          "word": "VOLKAN",
+          "hint": "Yer altındaki lavların yeryüzüne çıktığı dağ."
+        },
+        {
+          "word": "DEPREM",
+          "hint": "Yer kabuğunun aniden sarsılması olayı."
+        },
+        {
+          "word": "KUM",
+          "hint": "Deniz veya çöl gibi yerlerde bulunan ince taneli toprak."
+        },
+        {
+          "word": "KAYA",
+          "hint": "Büyük ve sert taş parçası."
+        },
+        {
+          "word": "BUZUL",
+          "hint": "Yüksek dağlarda veya kutuplarda bulunan çok büyük buz kütlesi."
+        },
+        {
+          "word": "OKSİJEN",
+          "hint": "Nefes almamız için gerekli olan ve havada bulunan gaz."
+        },
+        {
+          "word": "YAŞAM",
+          "hint": "Canlıların doğup büyüyüp ölmesi, hayat."
+        },
+        {
+          "word": "GÜNEŞ SİSTEMİ",
+          "hint": "Güneş ve onun etrafında dönen gezegenlerin oluşturduğu sistem."
+        },
+        {
+          "word": "KÜRE",
+          "hint": "Top gibi yuvarlak bir cisim, Dünya'mızın şekli."
+        },
+        {
+          "word": "KOKU",
+          "hint": "Burnumuzla aldığımız güzel veya kötü his."
+        },
+        {
+          "word": "IŞIK",
+          "hint": "Görmemizi sağlayan, güneşten veya lambadan gelen enerji."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapma veya hareket etme gücü, yakıtlardan elde edilir."
+        }
+      ]
     }
   ]
 }

@@ -6,14 +6,8 @@ import sys
 def to_tr_uppercase(text):
     if not text:
         return ""
-    maps = {
-        'i': 'İ', 'ı': 'I', 'ğ': 'Ğ',
-        'ü': 'Ü', 'ş': 'Ş', 'ö': 'Ö', 'ç': 'Ç'
-    }
-    res = []
-    for char in text.lower():
-        res.append(maps.get(char, char.upper()))
-    return "".join(res)
+    # "İ̇" gibi bozuk karakterleri baştan önle, i'leri çevirip standart upper() kullan
+    return text.replace("İ̇", "İ").replace("i", "İ").replace("ı", "I").upper()
 
 try:
     from google import genai
@@ -149,26 +143,48 @@ for grade_item in curriculum_data.get("curriculum", []):
 
             existing_words = [w.get("word") for w in words_list]
 
-            prompt = f"""
-            Sen eğitim odaklı bir Türkçe kelime ve soru üreticisisin.
-            Sınıf Seviyesi: {grade_name}
-            Ders: {subj_name}
-            Ünite: {unit_name}
-
-            Bu ünite ve sınıf seviyesine uygun, müfredatla birebir örtüşen, çocukların kelime dağarcığını geliştirecek en az {needed} adet farklı Türkçe kelime ve bunlara uygun eğitici/eğlenceli ipuçları üret.
+            is_english = "ingilizce" in data_file_path.lower()
             
-            Kurallar:
-            1. Şu mevcut kelimelerden FARKLI olmalıdır: {", ".join(existing_words)}
-            2. Her nesne "word" ve "hint" içermelidir.
-            3. İpuçları kısa, açıklayıcı ve yaş grubuna uygun olmalıdır.
-            4. Kelimeler tek kelime (veya yaygın birleşik kelime) olmalı, cümle olmamalıdır.
-            5. Çıktı sadece JSON dizisi formatında olmalıdır.
-            
-            JSON Şeması:
-            [{{"word": "KÜTLE", "hint": "Madde miktarının ölçüsü"}}, ...]
-            """
+            if is_english:
+                prompt = f"""
+                Sen eğitim odaklı bir İngilizce kelime ve Türkçe ipucu üreticisisin.
+                Sınıf Seviyesi: {grade_name}
+                Ünite: {unit_name}
 
-            retries = 3
+                Bu ünite ve sınıf seviyesine uygun, müfredatla birebir örtüşen, çocukların kelime dağarcığını geliştirecek en az {needed} adet farklı kelime çifti üret.
+                
+                Kurallar:
+                1. "word" ALANI KESİNLİKLE İNGİLİZCE BİR KELİME VEYA KELİME ÖBEĞİ OLMALIDIR. (Türkçe olamaz!)
+                2. "hint" ALANI BU İNGİLİZCE KELİMENİN TÜRKÇE ÇEVİRİSİ VEYA AÇIKLAMASI OLMALIDIR.
+                3. Şu mevcut kelimelerden FARKLI olmalıdır: {", ".join(existing_words)}
+                4. Her nesne "word" ve "hint" içermelidir.
+                5. Kelimeler tek kelime (veya yaygın birleşik kelime) olmalı, uzun cümle olmamalıdır.
+                6. Çıktı sadece JSON dizisi formatında olmalıdır.
+                
+                JSON Şeması Örneği:
+                [{{"word": "APPLE", "hint": "Kırmızı veya yeşil renkli, tatlı bir meyve (Elma)"}}, {{"word": "FRIENDSHIP", "hint": "Arkadaşlık, dostluk"}}]
+                """
+            else:
+                prompt = f"""
+                Sen eğitim odaklı bir Türkçe kelime ve soru üreticisisin.
+                Sınıf Seviyesi: {grade_name}
+                Ders: {subj_name}
+                Ünite: {unit_name}
+
+                Bu ünite ve sınıf seviyesine uygun, müfredatla birebir örtüşen, çocukların kelime dağarcığını geliştirecek en az {needed} adet farklı Türkçe kelime ve bunlara uygun eğitici/eğlenceli ipuçları üret.
+                
+                Kurallar:
+                1. Şu mevcut kelimelerden FARKLI olmalıdır: {", ".join(existing_words)}
+                2. Her nesne "word" ve "hint" içermelidir.
+                3. İpuçları kısa, açıklayıcı ve yaş grubuna uygun olmalıdır.
+                4. Kelimeler tek kelime (veya yaygın birleşik kelime) olmalı, cümle olmamalıdır.
+                5. Çıktı sadece JSON dizisi formatında olmalıdır.
+                
+                JSON Şeması:
+                [{{"word": "KÜTLE", "hint": "Madde miktarının ölçüsü"}}, ...]
+                """
+
+            retries = 10
             success = False
             while retries > 0 and not success:
                 try:
@@ -188,7 +204,11 @@ for grade_item in curriculum_data.get("curriculum", []):
 
                     added = 0
                     for q in new_questions:
-                        w_word = to_tr_uppercase(q.get("word", "").strip())
+                        raw_word = q.get("word", "").strip()
+                        if is_english:
+                            w_word = raw_word.upper() # English standard uppercase (i -> I)
+                        else:
+                            w_word = to_tr_uppercase(raw_word) # Turkish uppercase (i -> İ)
                         w_hint = q.get("hint", "").strip()
                         if w_word and w_hint and w_word not in existing_words:
                             words_list.append({"word": w_word, "hint": w_hint})
@@ -214,8 +234,8 @@ for grade_item in curriculum_data.get("curriculum", []):
                             continue
                             
                     retries -= 1
-                    print(f"    -> Kalan deneme: {retries}")
-                    time.sleep(5)
+                    print(f"    -> Kalan deneme: {retries} (Sunucu mesgul, 10 saniye bekleniyor...)")
+                    time.sleep(10)
 
             if not success:
                 print(f"    [UYARI] {unit_name} için soru üretilemedi, sonraki üniteye geçiliyor.")

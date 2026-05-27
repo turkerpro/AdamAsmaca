@@ -2,7 +2,7 @@
   "units": [
     {
       "id": "tarih_u1",
-      "name": "1. Ünite: İlk Uygarlıklar",
+      "name": "1. Ünite: Tarih ve Zaman",
       "months": [
         9
       ],
@@ -36,23 +36,23 @@
           "hint": "Van Gölü çevresinde kurulan, maden işçiliğinde usta bir Anadolu uygarlığı."
         },
         {
-          "word": "Lİ̇DYALİLAR",
+          "word": "LİDYALİLAR",
           "hint": "Parayı icat eden, Batı Anadolu'da yaşayan uygarlık."
         },
         {
-          "word": "İ̇LGİ̇TÇELER",
+          "word": "İLGİTÇELER",
           "hint": "Hititlerin kullandığı, çivi yazısından farklı bir yazı türü."
         },
         {
-          "word": "Gİ̇RGİ̇R",
+          "word": "GİRGİR",
           "hint": "Mezopotamya'da kullanılan, tekerlekli araçların atası sayılan icat."
         },
         {
-          "word": "HAMMURABİ̇",
+          "word": "HAMMURABİ",
           "hint": "Babil Kralı, ünlü kanunlarıyla tanınır."
         },
         {
-          "word": "BABİ̇L",
+          "word": "BABİL",
           "hint": "Mezopotamya'da kurulmuş, Hammurabi Kanunları ile ünlü bir imparatorluk."
         },
         {
@@ -60,39 +60,39 @@
           "hint": "Ticaret kolonileri kurmalarıyla bilinen, Mezopotamya uygarlığı."
         },
         {
-          "word": "Nİ̇LO",
+          "word": "NİLO",
           "hint": "Mısır uygarlığının can damarı olan nehir."
         },
         {
-          "word": "Pİ̇RAMİ̇T",
+          "word": "PİRAMİT",
           "hint": "Firavunların mezarları olarak yapılan devasa yapılar."
         },
         {
-          "word": "Hİ̇YEROGLİ̇F",
+          "word": "HİYEROGLİF",
           "hint": "Antik Mısır'da kullanılan resim yazısı."
         },
         {
-          "word": "PAPİ̇RÜS",
+          "word": "PAPİRÜS",
           "hint": "Mısırlıların yazı malzemesi olarak kullandığı bitki."
         },
         {
-          "word": "ASTROLOJİ̇",
+          "word": "ASTROLOJİ",
           "hint": "Yıldızların ve gök cisimlerinin insan yaşamı üzerindeki etkisini inceleyen bilim dalı."
         },
         {
-          "word": "MATEMATİ̇K",
+          "word": "MATEMATİK",
           "hint": "Sayılar, şekiller ve ölçümlerle ilgili bilim dalı."
         },
         {
-          "word": "GEOMETRİ̇",
+          "word": "GEOMETRİ",
           "hint": "Şekillerin ve uzayın incelenmesi, ilk uygarlıklar tarafından geliştirildi."
         },
         {
-          "word": "EKONOMİ̇",
+          "word": "EKONOMİ",
           "hint": "Üretim, dağıtım ve tüketimle ilgili sistem."
         },
         {
-          "word": "TARİM",
+          "word": "TARIM",
           "hint": "Toprağı ekip ürün yetiştirme faaliyeti, uygarlıkların temeli."
         },
         {
@@ -108,11 +108,11 @@
           "hint": "Devletin veya toplumun uyması gereken kurallar bütünü."
         },
         {
-          "word": "Dİ̇N",
+          "word": "DİN",
           "hint": "Tanrı veya tanrılara duyulan inanç ve tapınma."
         },
         {
-          "word": "TAPİNAK",
+          "word": "TAPINAK",
           "hint": "Dini törenlerin yapıldığı kutsal yapı."
         },
         {
@@ -120,7 +120,7 @@
           "hint": "Dini işleri yöneten, tanrılarla insanlar arasında aracılık yapan kişi."
         },
         {
-          "word": "YÖNETİ̇M",
+          "word": "YÖNETİM",
           "hint": "Bir devleti veya topluluğu idare etme biçimi."
         },
         {
@@ -144,7 +144,7 @@
           "hint": "İnsanların duygu ve düşüncelerini estetik biçimde ifade etme yolu."
         },
         {
-          "word": "Mİ̇MARİ̇",
+          "word": "MİMARİ",
           "hint": "Binaların projelendirilmesi ve inşa edilmesi sanatı."
         },
         {
@@ -152,7 +152,7 @@
           "hint": "Genellikle taş, maden veya başka bir malzemeden yapılan yontulmuş figür."
         },
         {
-          "word": "Şİ̇İ̇R",
+          "word": "ŞİİR",
           "hint": "Duyguları etkili sözlerle anlatan edebi tür."
         },
         {
@@ -168,7 +168,7 @@
           "hint": "Tekerlekler üzerinde hareket eden ulaşım aracı."
         },
         {
-          "word": "Tİ̇CARET",
+          "word": "TİCARET",
           "hint": "Mal ve hizmetlerin alınıp satılması."
         },
         {
@@ -180,23 +180,23 @@
           "hint": "Değişim aracı olarak kullanılan nesne."
         },
         {
-          "word": "MEDENİ̇YET",
+          "word": "MEDENİYET",
           "hint": "Toplumların bilim, sanat, teknoloji alanlarındaki gelişmişlik düzeyi."
         },
         {
-          "word": "ŞEHİ̇R",
+          "word": "ŞEHİR",
           "hint": "İnsanların toplu halde yaşadığı büyük yerleşim yeri."
         },
         {
-          "word": "Kİ̇T",
+          "word": "KİT",
           "hint": "Mezopotamya'da kullanılan bir tür yazı tableti."
         },
         {
-          "word": "Zİ̇GURAT",
+          "word": "ZİGURAT",
           "hint": "Mezopotamya'da tapınma ve rasathane olarak kullanılan basamaklı yapılar."
         },
         {
-          "word": "İ̇MÂRAT",
+          "word": "İMÂRAT",
           "hint": "Yapı, inşa edilmiş eser."
         },
         {
@@ -204,18 +204,18 @@
           "hint": "Bir devletin en üst düzey yöneticisi."
         },
         {
-          "word": "YAZİ",
+          "word": "YAZI",
           "hint": "Düşünceleri ve bilgileri kaydetmeye yarayan işaretler sistemi."
         },
         {
-          "word": "KADİ̇M",
+          "word": "KADİM",
           "hint": "Çok eski, antik."
         }
       ]
     },
     {
       "id": "tarih_u2",
-      "name": "2. Ünite: Türk Devletleri",
+      "name": "2. Ünite: İnsanlığın İlk Dönemleri",
       "months": [
         10,
         11
@@ -258,7 +258,7 @@
           "hint": "Türkistan'da kurulmuş, İslamiyet'i benimseyen ilk Türk devletlerinden."
         },
         {
-          "word": "GAZNELİ̇LER",
+          "word": "GAZNELİLER",
           "hint": "Hindistan'a yaptığı akınlarla tanınan Türk devleti."
         },
         {
@@ -278,11 +278,11 @@
           "hint": "Selçuklulardan sonra Maveraünnehir'de kurulan devlet."
         },
         {
-          "word": "EMEVİ̇LER",
+          "word": "EMEVİLER",
           "hint": "Arap İslam devleti olup Türklerle ilk ciddi mücadeleleri yapan."
         },
         {
-          "word": "ABBASİ̇LER",
+          "word": "ABBASİLER",
           "hint": "Emevilerden sonra kurulan ve Türkleri ordu gücü olarak kullanan devlet."
         },
         {
@@ -298,11 +298,11 @@
           "hint": "Hükümdarlık sembolü olarak kullanılan, at kuyruklarından yapılan sancak."
         },
         {
-          "word": "ORHUNABİ̇DELERİ̇",
+          "word": "ORHUN ABİDELERİ",
           "hint": "Göktürk Yazıtları olarak da bilinen, Türk edebiyatının ilk örnekleri."
         },
         {
-          "word": "YAZİTİ",
+          "word": "YAZITI",
           "hint": "Taşlara kazınmış eski Türkçe metin."
         },
         {
@@ -314,7 +314,7 @@
           "hint": "Bir yerden bir yere topluca yer değiştirme."
         },
         {
-          "word": "YERLEŞİ̇K",
+          "word": "YERLEŞİK",
           "hint": "Bir yerde kalıcı olarak yaşamaya başlamış."
         },
         {
@@ -322,19 +322,19 @@
           "hint": "Hayvancılıkla uğraşıp sürekli yer değiştiren."
         },
         {
-          "word": "KOÇBAYRAĞİ",
+          "word": "KOÇBAYRAĞI",
           "hint": "Türklerde eski bir savaş sancağı."
         },
         {
-          "word": "AYYİLDİZ",
+          "word": "AYYILDIZ",
           "hint": "Türk bayrağının üzerinde bulunan sembol."
         },
         {
-          "word": "DEVLETÇİ̇Lİ̇K",
+          "word": "DEVLETÇİLİK",
           "hint": "Devlet kurma ve yönetme yeteneği."
         },
         {
-          "word": "TEŞKİ̇LAT",
+          "word": "TEŞKİLAT",
           "hint": "Belirli bir amaç için bir araya gelmiş topluluk veya kurum."
         },
         {
@@ -350,15 +350,15 @@
           "hint": "Bir devletin temel yasası."
         },
         {
-          "word": "VERGİ̇",
+          "word": "VERGİ",
           "hint": "Devletin vatandaşlarından topladığı para veya ürün."
         },
         {
-          "word": "Tİ̇CARET",
+          "word": "TİCARET",
           "hint": "Mal ve hizmet alıp satma."
         },
         {
-          "word": "İ̇PEKYOLU",
+          "word": "İPEKYOLU",
           "hint": "Asya'dan Avrupa'ya uzanan tarihi ticaret yolu."
         },
         {
@@ -374,7 +374,7 @@
           "hint": "Karşılama veya tanışma anında söylenen söz."
         },
         {
-          "word": "İ̇SLAMİ̇YET",
+          "word": "İSLAMİYET",
           "hint": "Hz. Muhammed tarafından tebliğ edilen din."
         },
         {
@@ -382,11 +382,11 @@
           "hint": "Karahanlı Devleti'nin hükümdarı."
         },
         {
-          "word": "GAZİ̇",
+          "word": "GAZİ",
           "hint": "Dini inançları uğruna savaşan kimse."
         },
         {
-          "word": "MELİ̇K",
+          "word": "MELİK",
           "hint": "Selçuklu ve Osmanlılarda şehzadelere verilen unvan."
         },
         {
@@ -418,49 +418,2572 @@
           "hint": "Eski Türklerde yönetici veya lider."
         },
         {
-          "word": "EMİ̇R",
+          "word": "EMİR",
           "hint": "İslam devletlerinde askerî veya idari yönetici."
         },
         {
-          "word": "VALİ̇",
+          "word": "VALİ",
           "hint": "Bir bölgeyi yönetmekle görevli kimse."
         }
       ]
     },
     {
       "id": "tarih_u3",
-      "name": "3. Ünite: Orta Çağ'da Dünya ve Türk Dünyası",
+      "name": "3. Ünite: İlk ve Orta Çağlarda Türk Dünyası",
       "months": [
         12,
         1
       ],
-      "words": []
+      "words": [
+        {
+          "word": "ORTA ÇAĞ",
+          "hint": "Tarihte, antik çağ ile yeni çağ arasındaki dönem."
+        },
+        {
+          "word": "TÜRK DÜNYASI",
+          "hint": "Türkçe konuşan toplulukların yaşadığı coğrafyalar."
+        },
+        {
+          "word": "FEODALİZM",
+          "hint": "Orta Çağ'da Avrupa'da yaygın olan toprak temelli yönetim sistemi."
+        },
+        {
+          "word": "KRALLIK",
+          "hint": "Bir kral veya kraliçe tarafından yönetilen devlet."
+        },
+        {
+          "word": "SOYLULAR",
+          "hint": "Toprak sahibi, ayrıcalıklı yönetici sınıf."
+        },
+        {
+          "word": "VASAL",
+          "hint": "Lorduna hizmet borcu olan, ona bağlı kimse."
+        },
+        {
+          "word": "SENYÖR",
+          "hint": "Orta Çağ'da geniş topraklara sahip soylu."
+        },
+        {
+          "word": "SERF",
+          "hint": "Toprağa bağlı, efendisinden izinsiz ayrılamayan çiftçi."
+        },
+        {
+          "word": "ORDU",
+          "hint": "Devleti korumak ve savaşmakla görevli silahlı güç."
+        },
+        {
+          "word": "SİPER",
+          "hint": "Savaşta askerlerin korunmak için kullandığı engel."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Yazmak için kullanılan araç."
+        },
+        {
+          "word": "PARŞÖMEN",
+          "hint": "Hayvan derisinden yapılan, yazı malzemesi."
+        },
+        {
+          "word": "MANASTIR",
+          "hint": "Dini bütün kişilerin topluca yaşadığı yer."
+        },
+        {
+          "word": "RAHİP",
+          "hint": "Manastırda yaşayan dindar kişi."
+        },
+        {
+          "word": "AYAZMA",
+          "hint": "Kutsal kabul edilen su kaynağı."
+        },
+        {
+          "word": "SEFER",
+          "hint": "Askere alma veya savaş için yola çıkma."
+        },
+        {
+          "word": "HAÇLI SEFERLERİ",
+          "hint": "Avrupalı Hristiyanların Kutsal Toprakları ele geçirmek için düzenlediği seferler."
+        },
+        {
+          "word": "İSLAM",
+          "hint": "Hz. Muhammed'in getirdiği din."
+        },
+        {
+          "word": "MEDRESE",
+          "hint": "Orta Çağ'da İslam dünyasında eğitim veren yüksek okul."
+        },
+        {
+          "word": "İLİM",
+          "hint": "Bilgi ve fen."
+        },
+        {
+          "word": "ALIM",
+          "hint": "Çok bilgili, bilgin kişi."
+        },
+        {
+          "word": "ÇİN",
+          "hint": "Doğu Asya'da, ipek Yolu'nun başlangıç noktası olan ülke."
+        },
+        {
+          "word": "İPEK YOLU",
+          "hint": "Doğu ile Batı arasında yapılan ticaret yolu."
+        },
+        {
+          "word": "BAHARAT YOLU",
+          "hint": "Baharatların taşındığı ticaret yolu."
+        },
+        {
+          "word": "GÖÇEBELİK",
+          "hint": "Devamlı yer değiştiren, konar-göçer yaşam biçimi."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "Bir yerden bir yere topluca yerleşme."
+        },
+        {
+          "word": "KAVİM",
+          "hint": "Soyca, dille, kültürce birbirine bağlı topluluk."
+        },
+        {
+          "word": "HANEDAN",
+          "hint": "Aynı aileden gelen hükümdarlar sülalesi."
+        },
+        {
+          "word": "EMPRATORLUK",
+          "hint": "Birden çok ulusu veya devleti yöneten büyük devlet."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Mal alıp satma işi."
+        },
+        {
+          "word": "PAZAR",
+          "hint": "Mal alınıp satılan yer."
+        },
+        {
+          "word": "VERGİ",
+          "hint": "Devlete ödenen para veya mal."
+        },
+        {
+          "word": "BARUT",
+          "hint": "Ateşli silahlarda kullanılan patlayıcı madde."
+        },
+        {
+          "word": "PUSULA",
+          "hint": "Yön bulmaya yarayan alet."
+        },
+        {
+          "word": "MATBAA",
+          "hint": "Yazı ve resimleri çoğaltmaya yarayan araç."
+        },
+        {
+          "word": "KAĞAN",
+          "hint": "Eski Türklerde devlet başkanı."
+        },
+        {
+          "word": "HATUN",
+          "hint": "Eski Türklerde hükümdarın eşi veya kağan."
+        },
+        {
+          "word": "YURT",
+          "hint": "Göçebe Türklerin kullandığı çadır."
+        },
+        {
+          "word": "ÇADIR",
+          "hint": "Geçici konut."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Beraberlik, yekvücut olma."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Çatışma, harp."
+        },
+        {
+          "word": "ANAYASA",
+          "hint": "Bir devletin temel yasası."
+        },
+        {
+          "word": "ŞERİAT",
+          "hint": "İslam hukuk kuralları."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir topluma ait yaşayış biçimi, sanat, inanç."
+        },
+        {
+          "word": "SANAT",
+          "hint": "Yaratıcılığın estetik değer taşıyan ürünü."
+        },
+        {
+          "word": "MİMARİ",
+          "hint": "Yapı sanatı."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Bireyi bilgi ve beceri sahibi yapma süreci."
+        },
+        {
+          "word": "YAZI",
+          "hint": "Düşünceleri ve sesleri belirten işaretler."
+        },
+        {
+          "word": "DİL",
+          "hint": "Düşünceleri anlatmaya yarayan sesli veya yazılı işaretler bütünü."
+        },
+        {
+          "word": "EFSANE",
+          "hint": "Gerçekle ilgisi kurulamayan, olağanüstü ögelerle dolu hikaye."
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "Şiir, hikaye, roman gibi yazılı eserler."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir toprak parçası üzerinde yaşayan örgütlü toplum."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Yeryüzünü kaplayan katman."
+        },
+        {
+          "word": "HUKUK",
+          "hint": "Yasalar ve kurallar bütünü."
+        },
+        {
+          "word": "DİN",
+          "hint": "Tanrı inancına dayanan kutsal öğreti."
+        },
+        {
+          "word": "MADEN",
+          "hint": "Yer altından çıkarılan değerli, faydalı cevher."
+        }
+      ]
     },
     {
       "id": "tarih_u4",
-      "name": "4. Ünite: İslam Medeniyetinin Doğuşu ve Yayılışı",
+      "name": "4. Ünite: İslam Medeniyetinin Doğuşu",
       "months": [
         2,
         3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "VAHİY",
+          "hint": "Allah'tan peygamberlere gelen ilahi bilgi"
+        },
+        {
+          "word": "MİRAÇ",
+          "hint": "Hz. Muhammed'in göğe yükseliş yolculuğu"
+        },
+        {
+          "word": "HİCRET",
+          "hint": "Peygamberimizin Mekke'den Medine'ye göçü"
+        },
+        {
+          "word": "BEDİR",
+          "hint": "Müslümanların kazandığı ilk büyük zafer"
+        },
+        {
+          "word": "UHUD",
+          "hint": "Müslümanların stratejik bir yenilgi aldığı savaş"
+        },
+        {
+          "word": "HENDEK",
+          "hint": "Medine'yi savunmak için kazılan savunma hattı"
+        },
+        {
+          "word": "HUDEYBİYE",
+          "hint": "Mekkelilerle yapılan antlaşma"
+        },
+        {
+          "word": "MEKKE",
+          "hint": "İslam'ın doğduğu ve Kabe'nin bulunduğu kutsal şehir"
+        },
+        {
+          "word": "MEDİNE",
+          "hint": "Peygamberimizin hicret ettiği ve devletin kurulduğu şehir"
+        },
+        {
+          "word": "TAİF",
+          "hint": "Peygamberimizin İslam'ı yaymak için gittiği şehir"
+        },
+        {
+          "word": "NÜBÜVVET",
+          "hint": "Peygamberlik görevi"
+        },
+        {
+          "word": "RİSALET",
+          "hint": "Peygamberlik vazifesi ve tebliğ görevi"
+        },
+        {
+          "word": "CAHİLİYE",
+          "hint": "İslam öncesi Arap toplumunun durumu"
+        },
+        {
+          "word": "HANİFLİK",
+          "hint": "Putlara tapmayan, tek tanrı inancına bağlı kişiler"
+        },
+        {
+          "word": "SIFFİN",
+          "hint": "Hz. Ali ile Muaviye arasındaki savaş"
+        },
+        {
+          "word": "CEMEL",
+          "hint": "Hz. Ali'nin Hz. Aişe ile savaşı"
+        },
+        {
+          "word": "EMEVİLER",
+          "hint": "Dört Halife sonrası kurulan devlet"
+        },
+        {
+          "word": "ABBASİ",
+          "hint": "Emevilerden sonra gelen halifelik"
+        },
+        {
+          "word": "ENDÜLÜS",
+          "hint": "İslam devletinin İspanya'da kurduğu bölge"
+        },
+        {
+          "word": "HALİFE",
+          "hint": "Hz. Muhammed'in siyasi ve dini temsilcisi"
+        },
+        {
+          "word": "VEZİR",
+          "hint": "Devlet yönetiminde halifeye yardımcı olan kişi"
+        },
+        {
+          "word": "KADI",
+          "hint": "Hukuk işlerine bakan yargıç"
+        },
+        {
+          "word": "MÜDERRİS",
+          "hint": "Medreselerde ders veren öğretim üyesi"
+        },
+        {
+          "word": "MEDRESE",
+          "hint": "Yüksek öğrenim kurumu, okul"
+        },
+        {
+          "word": "KÜTÜPHANE",
+          "hint": "Kitapların saklandığı ve okunduğu yer"
+        },
+        {
+          "word": "TIP",
+          "hint": "Sağlık bilimi"
+        },
+        {
+          "word": "ASTRONOMİ",
+          "hint": "Gök cisimlerini inceleyen bilim dalı"
+        },
+        {
+          "word": "MATEMATİK",
+          "hint": "Sayılar, şekiller ve uzay ilişkilerini inceleyen bilim"
+        },
+        {
+          "word": "FELSEFE",
+          "hint": "Hayatın ve varoluşun temel sorunlarını sorgulayan bilim"
+        },
+        {
+          "word": "TERCÜME",
+          "hint": "Bir dilden başka bir dile çeviri yapma"
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "Yazılı ve sözlü sanatlar"
+        },
+        {
+          "word": "MİMARİ",
+          "hint": "Binaları tasarlama ve inşa etme sanatı"
+        },
+        {
+          "word": "HAT",
+          "hint": "Güzel yazı sanatı"
+        },
+        {
+          "word": "TEZHİP",
+          "hint": "Kitap süsleme sanatı"
+        },
+        {
+          "word": "MİNYATÜR",
+          "hint": "Küçük boyutlu resim sanatı"
+        },
+        {
+          "word": "İSLAMİYET",
+          "hint": "Tek Tanrı inancına dayanan din"
+        },
+        {
+          "word": "KURAN",
+          "hint": "İslam'ın kutsal kitabı"
+        },
+        {
+          "word": "SÜNNET",
+          "hint": "Hz. Muhammed'in sözleri, davranışları ve onayları"
+        },
+        {
+          "word": "HADİS",
+          "hint": "Hz. Muhammed'in söz ve davranışları"
+        },
+        {
+          "word": "FIKIH",
+          "hint": "İslam hukuku"
+        },
+        {
+          "word": "KELAM",
+          "hint": "İslam inanç esaslarını inceleyen ilim"
+        },
+        {
+          "word": "SİYER",
+          "hint": "Hz. Muhammed'in hayatını anlatan eser"
+        },
+        {
+          "word": "MEZHEP",
+          "hint": "Dini görüş veya yorum ayrılığı"
+        },
+        {
+          "word": "İLİM",
+          "hint": "Bilgi ve bilim"
+        },
+        {
+          "word": "HİKMET",
+          "hint": "Bilgelik, doğru söz"
+        },
+        {
+          "word": "HİKEMİ",
+          "hint": "Hikmete dayanan, bilgece"
+        },
+        {
+          "word": "TASAVVUF",
+          "hint": "Manevi arınma ve Allah'a yakınlaşma yolu"
+        },
+        {
+          "word": "EVLİYA",
+          "hint": "Allah dostu"
+        },
+        {
+          "word": "DERVİŞ",
+          "hint": "Tasavvuf ehli, mistik"
+        },
+        {
+          "word": "MÜSLÜMAN",
+          "hint": "İslam dinine inanan kişi"
+        },
+        {
+          "word": "MÜMİN",
+          "hint": "İnançlı kişi"
+        }
+      ]
     },
     {
       "id": "tarih_u5",
-      "name": "5. Ünite: Türklerin İslamiyet'i Kabulü ve İlk Devletler",
+      "name": "5. Ünite: Türklerin İslamiyet'i Kabulü ve İlk Türk İslam Devletleri",
       "months": [
         4,
         5
       ],
-      "words": []
-    },
-    {
-      "id": "tarih_u6",
-      "name": "6. Ünite: Yerleşme, Devletleşme ve Beylikten Devlete",
-      "months": [
-        6
-      ],
-      "words": []
+      "words": [
+        {
+          "word": "ORHUN",
+          "hint": "Türklerin ilk milli alfabesiyle yazılmış bengü taşların bulunduğu coğrafya."
+        },
+        {
+          "word": "UYGUR",
+          "hint": "Yerleşik hayata geçen, Maniheizm'i benimseyen ve kendi adıyla anılan alfabeyi kullanan Türk devleti."
+        },
+        {
+          "word": "MANİHEİZM",
+          "hint": "Işık ve karanlık mücadelesini anlatan, Uygurların devlet dini olan din."
+        },
+        {
+          "word": "SEMERKANT",
+          "hint": "Orta Asya'da önemli bir ticaret ve kültür merkezi olan şehir."
+        },
+        {
+          "word": "BUHARÂ",
+          "hint": "İslam dünyasının önemli ilim ve kültür merkezlerinden, Gazneliler ve Karahanlılar döneminde de adı geçen şehir."
+        },
+        {
+          "word": "İRŞAD",
+          "hint": "Doğru yolu gösterme, aydınlatma."
+        },
+        {
+          "word": "TEBLİĞ",
+          "hint": "Bir dinin esaslarını yayma, anlatma."
+        },
+        {
+          "word": "EMİR",
+          "hint": "Genellikle askerî komutanlar için kullanılan unvan."
+        },
+        {
+          "word": "GAZNEVÎLER",
+          "hint": "Hindistan'a yaptığı akınlarla tanınan, Türk-İslam devletlerinden ilki."
+        },
+        {
+          "word": "MAVERAÜNNEHİR",
+          "hint": "Ceyhun (Amuderya) ve Seyhun (Sirderya) nehirleri arasındaki verimli topraklar."
+        },
+        {
+          "word": "KARAHANLİLAR",
+          "hint": "Türklerin İslamiyet'i kabulünden sonra kurulan ilk Müslüman Türk devletlerinden biri."
+        },
+        {
+          "word": "BASMALAR",
+          "hint": "Orta Asya'da yaşayan ve Gök Türk devletinin yıkılmasında rol oynayan Türk boyu."
+        },
+        {
+          "word": "TALAŞ",
+          "hint": "Araplarla Çinliler arasında geçen ve Türklerin İslamlaşmasında etkili olan savaş."
+        },
+        {
+          "word": "SEMÂVÎ",
+          "hint": "Gök ile ilgili olan, ilahi."
+        },
+        {
+          "word": "AN'ANE",
+          "hint": "Kültürel miras, gelenek, göreneklik."
+        },
+        {
+          "word": "ASİMİLASYON",
+          "hint": "Bir topluluğun başka bir topluluk tarafından zamanla eritilmesi, yabancılaşması."
+        },
+        {
+          "word": "MEZHEP",
+          "hint": "Dini konularda farklı yorum ve anlayışlara sahip gruplar."
+        },
+        {
+          "word": "İSLAMİ BİLİMLER",
+          "hint": "Kur'an, Hadis, Fıkıh, Kelam gibi alanlardaki bilimsel çalışmalar."
+        },
+        {
+          "word": "FEN BİLİMLERİ",
+          "hint": "Astronomi, matematik, tıp, kimya gibi doğa olaylarını inceleyen bilimler."
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "Şiir, hikaye, roman gibi yazı türlerini içeren sanat dalı."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir topluluğun yaşam biçimi, inançları, sanat ve düşüncesi."
+        },
+        {
+          "word": "MEDENİYET",
+          "hint": "Bir toplumun maddi ve manevi alanda ulaştığı ileri düzey."
+        },
+        {
+          "word": "MİMARİ",
+          "hint": "Yapıların projelendirilmesi ve inşa edilmesi sanatı."
+        },
+        {
+          "word": "KÜTÜPHANE",
+          "hint": "Kitapların saklandığı ve okuyucuların hizmetine sunulduğu yer."
+        },
+        {
+          "word": "MEDRESE",
+          "hint": "İslami ilimlerin okutulduğu yükseköğretim kurumu."
+        },
+        {
+          "word": "ULUSAL",
+          "hint": "Bir millete ait, milli."
+        },
+        {
+          "word": "EVRENSEL",
+          "hint": "Tüm dünyayı ilgilendiren, genel."
+        },
+        {
+          "word": "MİRAS",
+          "hint": "Geçmişten geleceğe aktarılan maddi ve manevi değerler."
+        },
+        {
+          "word": "ETKİLEŞİM",
+          "hint": "Karşılıklı tesir, muhatap olma."
+        },
+        {
+          "word": "DÖNÜŞÜM",
+          "hint": "Değişim, başkalaşım."
+        },
+        {
+          "word": "KİMLİK",
+          "hint": "Bireyin veya toplumun kendine özgü vasıfları."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Başkalarının düşünce ve inançlarına saygı gösterme."
+        },
+        {
+          "word": "SENTEZ",
+          "hint": "Farklı unsurların bir araya gelerek yeni bir bütün oluşturması."
+        },
+        {
+          "word": "SEMBOLLER",
+          "hint": "Bir fikri, inancı veya durumu temsil eden işaretler."
+        },
+        {
+          "word": "GELENEK",
+          "hint": "Bir toplumda kuşaktan kuşağa aktarılan yaşayış biçimi."
+        },
+        {
+          "word": "YENİLİK",
+          "hint": "Daha önce olmayan, yeni ortaya çıkan şey."
+        },
+        {
+          "word": "BÜTÜNLÜK",
+          "hint": "Parçaların bir araya gelerek oluşturduğu tam yapı."
+        },
+        {
+          "word": "FARKLI",
+          "hint": "Ayrılık, benzemezlik."
+        },
+        {
+          "word": "KÖPRÜ",
+          "hint": "İki yakayı birbirine bağlayan yapı. Kültürel etkileşimlerde de kullanılabilir."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Devletler veya gruplar arasındaki silahlı mücadele."
+        },
+        {
+          "word": "BAĞIMSIZLIK",
+          "hint": "Bir devletin başka bir devletin egemenliği altında olmadan yaşama durumu."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Mal ve hizmetlerin alınıp satılması."
+        },
+        {
+          "word": "İMPARATORLUK",
+          "hint": "Birden çok ulusu ve devleti egemenliği altında bulunduran büyük devlet."
+        },
+        {
+          "word": "VERGİ",
+          "hint": "Devletin harcamalarını karşılamak için vatandaşlardan topladığı para."
+        },
+        {
+          "word": "TEBAA",
+          "hint": "Bir devletin egemenliği altında yaşayan halk."
+        },
+        {
+          "word": "ORDU",
+          "hint": "Bir devletin sınırlarını korumakla görevli silahlı gücü."
+        },
+        {
+          "word": "HÜKÜMDAR",
+          "hint": "Bir devleti yöneten kişi."
+        },
+        {
+          "word": "ELÇİ",
+          "hint": "Devletlerarası ilişkilerde gönderilen temsilci."
+        },
+        {
+          "word": "ANLAŞMA",
+          "hint": "Tarafların karşılıklı rızasıyla ortaya çıkan hukuki durum."
+        },
+        {
+          "word": "İTTİFAK",
+          "hint": "Ortak çıkarlar doğrultusunda kurulan birlik."
+        },
+        {
+          "word": "HAK",
+          "hint": "Bir şeye sahip olma yetkisi, hukuk."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Doğruluk, hakkaniyet."
+        },
+        {
+          "word": "TOLERANS",
+          "hint": "Hoşgörü, anlayış."
+        },
+        {
+          "word": "SÜRKLÜLÜK",
+          "hint": "Devamlılık, kesintisizlik."
+        },
+        {
+          "word": "DİPLOMASİ",
+          "hint": "Devletlerin birbirleriyle barış içinde yürütme çabaları."
+        },
+        {
+          "word": "SİYASİ",
+          "hint": "Devlet yönetimi ile ilgili."
+        },
+        {
+          "word": "EKONOMİK",
+          "hint": "Ekonomi ile ilgili, mal ve para ilişkileri."
+        },
+        {
+          "word": "SOSYAL",
+          "hint": "Toplumla ilgili."
+        },
+        {
+          "word": "ASKERÎ",
+          "hint": "Ordu ve savaş ile ilgili."
+        },
+        {
+          "word": "DİNÎ",
+          "hint": "Din ile ilgili."
+        },
+        {
+          "word": "TARİHÎ",
+          "hint": "Tarihle ilgili."
+        },
+        {
+          "word": "COĞRAFİ",
+          "hint": "Coğrafya ile ilgili."
+        },
+        {
+          "word": "KAVİM",
+          "hint": "Belirli bir soy kökenine veya kültüre dayanan topluluk."
+        },
+        {
+          "word": "BOY",
+          "hint": "Tarih öncesi Türklerde ve ilk Türk devletlerinde görülen temel topluluk birimi."
+        },
+        {
+          "word": "SOY",
+          "hint": "Aynı atadan gelen kimseler topluluğu."
+        },
+        {
+          "word": "CEMAAT",
+          "hint": "Belirli bir dini veya toplumsal amacı paylaşan insanlar grubu."
+        },
+        {
+          "word": "ULUS",
+          "hint": "Ortak dil, kültür ve ülküye sahip insanlar topluluğu."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir coğrafya üzerinde yaşayan, siyasi teşkilatı olan toplum."
+        },
+        {
+          "word": "KURULTAY",
+          "hint": "Eski Türklerde devlet işlerinin görüşüldüğü büyük meclis."
+        },
+        {
+          "word": "HATUN",
+          "hint": "Eski Türklerde hükümdarın eşi, devlet yönetiminde söz hakkı olabilen kadın."
+        },
+        {
+          "word": "KAĞAN",
+          "hint": "Eski Türklerde hükümdar."
+        },
+        {
+          "word": "HAN",
+          "hint": "Devlet başkanı veya yönetici."
+        },
+        {
+          "word": "YARGUÇ",
+          "hint": "Eski Türklerde hâkim, yargıç."
+        },
+        {
+          "word": "SİYASETNAME",
+          "hint": "Devlet yönetimiyle ilgili öğütler veren eser."
+        },
+        {
+          "word": "GAZİ",
+          "hint": "Dini inançlar uğruna savaşan kimse."
+        },
+        {
+          "word": "ALIM",
+          "hint": "Bilgi sahibi, bilgin."
+        },
+        {
+          "word": "ŞAİR",
+          "hint": "Şiir yazan kişi."
+        },
+        {
+          "word": "SANATKAR",
+          "hint": "Sanatla uğraşan, sanatçı."
+        },
+        {
+          "word": "HAKANLIK",
+          "hint": "Kağan tarafından yönetilen devlet."
+        },
+        {
+          "word": "HANLIK",
+          "hint": "Han tarafından yönetilen devlet."
+        },
+        {
+          "word": "BEYLİK",
+          "hint": "Bey tarafından yönetilen küçük devlet."
+        },
+        {
+          "word": "TEŞKİLAT",
+          "hint": "Belirli bir amaca ulaşmak için kurulmuş yapı."
+        },
+        {
+          "word": "İDARE",
+          "hint": "Yönetim."
+        },
+        {
+          "word": "BAŞKENT",
+          "hint": "Bir devletin yönetim merkezi olan şehir."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "Bir yerden başka bir yere topluca yerleşme."
+        },
+        {
+          "word": "YERLEŞİK",
+          "hint": "Bir yerde kalıcı olarak oturan."
+        },
+        {
+          "word": "GÖÇEBE",
+          "hint": "Devamlı yer değiştiren, çadırlarda yaşayan."
+        },
+        {
+          "word": "TARIM",
+          "hint": "Toprağı ekip ürün yetiştirme."
+        },
+        {
+          "word": "HAYVANCILIK",
+          "hint": "Hayvan yetiştirme."
+        },
+        {
+          "word": "GÜMÜŞ",
+          "hint": "Değerli bir maden."
+        },
+        {
+          "word": "ALTIN",
+          "hint": "En değerli madenlerden biri."
+        },
+        {
+          "word": "İPEK",
+          "hint": "Özel bir böcekten elde edilen, değerli bir kumaş."
+        },
+        {
+          "word": "BAHARAT",
+          "hint": "Yemeklere tat ve koku veren bitkiler."
+        },
+        {
+          "word": "KİRGİZ",
+          "hint": "Orta Asya'da yaşayan Türk topluluğu."
+        },
+        {
+          "word": "TÜRKMEN",
+          "hint": "Orta Asya ve çevresinde yaşayan Türk topluluğu."
+        },
+        {
+          "word": "ÖZBEK",
+          "hint": "Orta Asya'da yaşayan Türk topluluğu."
+        },
+        {
+          "word": "BAŞKURT",
+          "hint": "Rusya Federasyonu sınırları içinde yaşayan Türk topluluğu."
+        },
+        {
+          "word": "TATAR",
+          "hint": "Rusya ve çevresinde yaşayan Türk topluluğu."
+        },
+        {
+          "word": "KAZAK",
+          "hint": "Orta Asya'da yaşayan Türk topluluğu."
+        },
+        {
+          "word": "SOVYET",
+          "hint": "Sovyetler Birliği'ne mensup veya o döneme ait."
+        },
+        {
+          "word": "İSLAMİFET",
+          "hint": "İslam Dini'ne bağlılık."
+        },
+        {
+          "word": "AKDENİZ",
+          "hint": "Avrupa, Asya ve Afrika kıtaları arasında yer alan büyük deniz."
+        },
+        {
+          "word": "HİNT",
+          "hint": "Asya kıtasında bir ülke ve bölge."
+        },
+        {
+          "word": "ÇİN",
+          "hint": "Asya kıtasında yer alan büyük ülke."
+        },
+        {
+          "word": "İRAN",
+          "hint": "Orta Doğu'da bir ülke."
+        },
+        {
+          "word": "AFGANİSTAN",
+          "hint": "Orta Asya'da bir ülke."
+        },
+        {
+          "word": "ANADOLU",
+          "hint": "Türkiye'nin Asya kıtasında kalan bölümü."
+        },
+        {
+          "word": "ORTA ASYA",
+          "hint": "Asya kıtasının iç kesimlerinde yer alan geniş coğrafya."
+        },
+        {
+          "word": "İRAK",
+          "hint": "Mezopotamya uygarlığının merkezi olan Orta Doğu ülkesi."
+        },
+        {
+          "word": "MİSİR",
+          "hint": "Nil Nehri üzerinde kurulan eski medeniyetlerin ülkesi."
+        },
+        {
+          "word": "GÜRCİSTAN",
+          "hint": "Karadeniz'in doğusunda yer alan ülke."
+        },
+        {
+          "word": "AZERBAYCAN",
+          "hint": "Hazar Denizi'nin batısında yer alan ülke."
+        },
+        {
+          "word": "ARAL",
+          "hint": "Orta Asya'da bulunan ve küçülmekte olan büyük göl."
+        },
+        {
+          "word": "HİMALAYALAR",
+          "hint": "Dünyanın en yüksek sıradağları."
+        },
+        {
+          "word": "TİBET",
+          "hint": "Yüksek platoları ile bilinen Asya bölgesi."
+        },
+        {
+          "word": "VERİMLİ",
+          "hint": "Bolluk ve bereket sağlayan."
+        },
+        {
+          "word": "BOZKIR",
+          "hint": "Ağaçsız, çayırlı, kurakçıl otlarla kaplı geniş düzlük."
+        },
+        {
+          "word": "VİRAN",
+          "hint": "Yıkık, harabe."
+        },
+        {
+          "word": "İNKİLAP",
+          "hint": "Köklü değişiklik, devrim."
+        },
+        {
+          "word": "FETİH",
+          "hint": "Bir yerin silah zoruyla ele geçirilmesi."
+        },
+        {
+          "word": "CİHAD",
+          "hint": "Dini bir görevi yerine getirme, kutsal savaş."
+        },
+        {
+          "word": "TÜRBE",
+          "hint": "Önemli bir kişinin mezarının bulunduğu yapı."
+        },
+        {
+          "word": "CAMİ",
+          "hint": "Müslümanların ibadet ettiği yer."
+        },
+        {
+          "word": "KÜLLİYE",
+          "hint": "Cami etrafında yapılan imarethane, medrese gibi yapıların bütünü."
+        },
+        {
+          "word": "İMAMET",
+          "hint": "Namaz kıldırma görevi veya makamı."
+        },
+        {
+          "word": "MÜFTÜ",
+          "hint": "Dini konularda fetva veren yetkili."
+        },
+        {
+          "word": "MÜEZZİN",
+          "hint": "Ezan okuyan kişi."
+        },
+        {
+          "word": "HALİFE",
+          "hint": "Hz. Muhammed'den sonra Müslüman toplumunun dini ve siyasi lideri."
+        },
+        {
+          "word": "SULTAN",
+          "hint": "Müslüman hükümdarlar için kullanılan unvan."
+        },
+        {
+          "word": "EMİRÜ'L-MÜMİNİN",
+          "hint": "Müminlerin Emiri, Halife için kullanılan unvanlardan biri."
+        },
+        {
+          "word": "ŞERİF",
+          "hint": "Soylu, Hz. Muhammed'in soyundan gelen."
+        },
+        {
+          "word": "SEYİT",
+          "hint": "Hz. Muhammed'in soyundan gelen."
+        },
+        {
+          "word": "ŞİRK",
+          "hint": "Allah'a ortak koşma."
+        },
+        {
+          "word": "TEVHİD",
+          "hint": "Allah'ın birliğine inanma."
+        },
+        {
+          "word": "MECBURİ",
+          "hint": "Zorunlu."
+        },
+        {
+          "word": "İSTİMLÂK",
+          "hint": "Bir malın kamu yararı için özel mülkiyetten alınması."
+        },
+        {
+          "word": "KÂTMA",
+          "hint": "Bir şeyi tamamlayan, onunla birlikte kullanılan."
+        },
+        {
+          "word": "TERİM",
+          "hint": "Belirli bir alana özgü sözcük."
+        },
+        {
+          "word": "ANAHTAR",
+          "hint": "Bir kilidi açmaya yarayan metal parça. Soruları çözmede de kullanılabilir."
+        },
+        {
+          "word": "KÖKEN",
+          "hint": "Başlangıç, kaynak."
+        },
+        {
+          "word": "GELENEKSEL",
+          "hint": "Geleneklere dayanan."
+        },
+        {
+          "word": "YENİLİKÇİ",
+          "hint": "Yenilikleri benimseyen."
+        },
+        {
+          "word": "DEĞİŞİM",
+          "hint": "Başka bir duruma gelme."
+        },
+        {
+          "word": "DURGUNLUK",
+          "hint": "Gelişmenin durması, hareketsizlik."
+        },
+        {
+          "word": "SÜREKLİLİK",
+          "hint": "Devamlılık."
+        },
+        {
+          "word": "KESİNTİ",
+          "hint": "Ara verme, durma."
+        },
+        {
+          "word": "BAĞ",
+          "hint": "İki şey arasındaki ilişki, bağlantı."
+        },
+        {
+          "word": "ETKİ",
+          "hint": "Bir olayın veya nesnenin başka bir şey üzerinde meydana getirdiği değişiklik."
+        },
+        {
+          "word": "GEÇİŞ",
+          "hint": "Bir durumdan başka bir duruma ulaşma."
+        },
+        {
+          "word": "KOLONİ",
+          "hint": "Bir devletin başka bir ülkeyi egemenliği altına alıp yerleştiği bölge."
+        },
+        {
+          "word": "METROPOL",
+          "hint": "Büyük ve önemli şehir."
+        },
+        {
+          "word": "BAĞIMLI",
+          "hint": "Bir başkasına veya bir şeye dayanan, özgür olmayan."
+        },
+        {
+          "word": "ÖZGÜR",
+          "hint": "Bağımsız, hür."
+        },
+        {
+          "word": "HAKİMİYET",
+          "hint": "Üstünlük, egemenlik."
+        },
+        {
+          "word": "BATI",
+          "hint": "Güneşin battığı yön. Coğrafi bir bölge."
+        },
+        {
+          "word": "DOĞU",
+          "hint": "Güneşin doğduğu yön. Coğrafi bir bölge."
+        },
+        {
+          "word": "KUZEY",
+          "hint": "Yeryüzünün üst kısmı, kutup yönü."
+        },
+        {
+          "word": "GÜNEY",
+          "hint": "Yeryüzünün alt kısmı, kutup yönü."
+        },
+        {
+          "word": "İSTANBUL",
+          "hint": "Türkiye'nin en büyük şehri, tarih boyunca önemli başkentler."
+        },
+        {
+          "word": "ANKARA",
+          "hint": "Türkiye'nin başkenti."
+        },
+        {
+          "word": "İZMİR",
+          "hint": "Türkiye'nin batısında yer alan önemli liman şehri."
+        },
+        {
+          "word": "BURSA",
+          "hint": "Osmanlı Devleti'nin ilk başkentlerinden."
+        },
+        {
+          "word": "EDİRNE",
+          "hint": "Osmanlı Devleti'nin Avrupa'daki önemli merkezlerinden."
+        },
+        {
+          "word": "KONYA",
+          "hint": "Anadolu Selçuklu Devleti'nin başkenti."
+        },
+        {
+          "word": "BAĞDAT",
+          "hint": "Abbasi Devleti'nin başkenti, önemli bir İslam şehri."
+        },
+        {
+          "word": "ŞAM",
+          "hint": "Tarihi öneme sahip Suriye'nin başkenti."
+        },
+        {
+          "word": "KUDÜS",
+          "hint": "Dini önemi büyük, kutsal şehir."
+        },
+        {
+          "word": "KAHİRE",
+          "hint": "Mısır'ın başkenti."
+        },
+        {
+          "word": "MEKKE",
+          "hint": "İslamiyet'in doğduğu, Müslümanların kutsal şehri."
+        },
+        {
+          "word": "MEDİNE",
+          "hint": "Hz. Muhammed'in hicret ettiği, Müslümanların önemli şehri."
+        },
+        {
+          "word": "LEYLA",
+          "hint": "Mecnun'un sevgilisi, Arap edebiyatının ünlü karakteri."
+        },
+        {
+          "word": "MECNUN",
+          "hint": "Leyla'ya olan aşkıyla bilinen Arap edebiyatının ünlü karakteri."
+        },
+        {
+          "word": "FERHAT",
+          "hint": "Şirin'e olan aşkıyla bilinen halk hikayesi kahramanı."
+        },
+        {
+          "word": "ŞİRİN",
+          "hint": "Ferhat'ın sevgilisi, halk hikayelerinin kahramanı."
+        },
+        {
+          "word": "NASREDDİN",
+          "hint": "Fıkralarıyla tanınan mizahi karakter."
+        },
+        {
+          "word": "HOCA",
+          "hint": "Bilgi ve deneyim sahibi, öğretici kişi."
+        },
+        {
+          "word": "EVLİYA",
+          "hint": "Dini açıdan üstün kabul edilen kişi."
+        },
+        {
+          "word": "VELİ",
+          "hint": "Allah dostu, evliya."
+        },
+        {
+          "word": "ERDEM",
+          "hint": "Fazilet, iyi huyluluk."
+        },
+        {
+          "word": "BASİRET",
+          "hint": "Sezgi, ileri görüşlülük."
+        },
+        {
+          "word": "FERASET",
+          "hint": "Anlama, kavrama yeteneği."
+        },
+        {
+          "word": "HİKMET",
+          "hint": "Bilgelik, derin anlam."
+        },
+        {
+          "word": "TASAVVUF",
+          "hint": "İslamiyet'te Allah'a ulaşma yolu, mistik akım."
+        },
+        {
+          "word": "MENKİBE",
+          "hint": "Evliyaların veya büyük kişilerin yaşam öykülerinden anlatılan olay."
+        },
+        {
+          "word": "YAKIN",
+          "hint": "Mesafe olarak yakında olma."
+        },
+        {
+          "word": "GEÇMİŞ",
+          "hint": "Yaşanmış zaman."
+        },
+        {
+          "word": "GELECEK",
+          "hint": "Henüz yaşanmamış zaman."
+        },
+        {
+          "word": "GÜÇ",
+          "hint": "Kuvvet, kudret."
+        },
+        {
+          "word": "ZAYİF",
+          "hint": "Güçsüz, kuvvetsiz."
+        },
+        {
+          "word": "BAŞARI",
+          "hint": "Bir işi iyi sonuçlandırma."
+        },
+        {
+          "word": "BAŞARISIZLIK",
+          "hint": "Bir işte istenen sonucu alamama."
+        },
+        {
+          "word": "VARLIK",
+          "hint": "Mevcut olma, zenginlik."
+        },
+        {
+          "word": "YOKLUK",
+          "hint": "Mevcut olmama, fakirlik."
+        },
+        {
+          "word": "BÜYÜK",
+          "hint": "Hacim, ölçü olarak fazla."
+        },
+        {
+          "word": "KÜÇÜK",
+          "hint": "Hacim, ölçü olarak az."
+        },
+        {
+          "word": "DOĞUŞ",
+          "hint": "Haber, bilgi."
+        },
+        {
+          "word": "OLAY",
+          "hint": "Gerçekleşen bir durum."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Bir şeyin içinde bulunduğu hal."
+        },
+        {
+          "word": "SEBEP",
+          "hint": "Bir olayın meydana gelmesini sağlayan etken."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir olayın veya durumun ortaya çıkardığı netice."
+        },
+        {
+          "word": "ÖRNEK",
+          "hint": "Bir şeye benzeyen, benzeri."
+        },
+        {
+          "word": "FARKLIŞAŞMA",
+          "hint": "Birbirinden ayrı duruma gelme."
+        },
+        {
+          "word": "BENZERLİK",
+          "hint": "Aynı olma, birbirine yakınlık."
+        },
+        {
+          "word": "KAŞGA",
+          "hint": "Orta Asya'da yaşamış büyük Türk bilgini ve yazarı."
+        },
+        {
+          "word": "YUSUFHAS",
+          "hint": "İslamiyet'i kabul eden ilk Türk devletlerinden birinde yaşamış büyük bilgini."
+        },
+        {
+          "word": "EDİBALİ",
+          "hint": "Osmanlı Devleti'nin kuruluş döneminde yaşamış önemli alim."
+        },
+        {
+          "word": "AHİEVRAN",
+          "hint": "Anadolu'da Ahilik Teşkilatı'nın kurucusu."
+        },
+        {
+          "word": "HACI",
+          "hint": "Mekke'ye gidip Hac görevini yerine getiren kişi."
+        },
+        {
+          "word": "BEY",
+          "hint": "Eski Türklerde ve Anadolu'da kullanılan yönetici unvanı."
+        },
+        {
+          "word": "ÇERÇEVE",
+          "hint": "Bir yapının dış sınırları. Konuyu sınırlamak için de kullanılır."
+        },
+        {
+          "word": "MUHAFAZA",
+          "hint": "Saklama, koruma."
+        },
+        {
+          "word": "GELİŞTİRME",
+          "hint": "İleri götürme, ilerletme."
+        },
+        {
+          "word": "DEĞERLENDİRME",
+          "hint": "Bir şeyin önemini, faydasını anlama."
+        },
+        {
+          "word": "YANSIMA",
+          "hint": "Bir yüzeyden geri dönme. Başka bir kültürden etkilenme."
+        },
+        {
+          "word": "KAYNAKÇA",
+          "hint": "Kullanılan eserlerin listesi."
+        },
+        {
+          "word": "BELGE",
+          "hint": "Bir olayı veya durumu kanıtlayan yazı veya eşya."
+        },
+        {
+          "word": "YAZILI",
+          "hint": "Harflerle belirtilmiş."
+        },
+        {
+          "word": "SÖZLÜ",
+          "hint": "Sesle ifade edilmiş."
+        },
+        {
+          "word": "METİN",
+          "hint": "Yazılı eser."
+        },
+        {
+          "word": "BAŞLIK",
+          "hint": "Yazı veya eserin adı."
+        },
+        {
+          "word": "GİRİŞ",
+          "hint": "Bir eserin başlangıç bölümü."
+        },
+        {
+          "word": "GELİŞME",
+          "hint": "Bir eserin ana bölümü."
+        },
+        {
+          "word": "DİZİN",
+          "hint": "Kitap sonlarında yer alan konu veya isim listesi."
+        },
+        {
+          "word": "İNDEKKS",
+          "hint": "Dizin ile aynı anlamda."
+        },
+        {
+          "word": "KAVRAM",
+          "hint": "Soyut fikir, düşünce."
+        },
+        {
+          "word": "TANIM",
+          "hint": "Bir kelime veya kavramın ne anlama geldiğini açıklama."
+        },
+        {
+          "word": "ÖRNEKLENDİRME",
+          "hint": "Bir kavramı somutlaştırmak için örnek verme."
+        },
+        {
+          "word": "KARŞILAŞTIRMA",
+          "hint": "Benzerlik ve farklılıkları bulma."
+        },
+        {
+          "word": "SENTEZLEME",
+          "hint": "Farklı bilgileri birleştirerek yeni bir bütün oluşturma."
+        },
+        {
+          "word": "YORUMLAMA",
+          "hint": "Bir metni veya olayı kendi anlayışına göre açıklama."
+        },
+        {
+          "word": "ÇIKARIM",
+          "hint": "Bir bilgiden yeni bir sonuç elde etme."
+        },
+        {
+          "word": "YARGILAMA",
+          "hint": "Bir konu hakkında hüküm verme."
+        },
+        {
+          "word": "SONUÇLAMA",
+          "hint": "Bir konuyu neticeye bağlama."
+        },
+        {
+          "word": "ÖĞRETİ",
+          "hint": "Öğretme, ders verme."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Bireyin bilgisini, becerisini, davranışını geliştirme süreci."
+        },
+        {
+          "word": "ÖĞRENME",
+          "hint": "Bilgi, beceri veya tutum kazanma."
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "Gerçekleri, doğruları anlama ve kavrama."
+        },
+        {
+          "word": "BECERİ",
+          "hint": "Bir işi yapabilme yeteneği."
+        },
+        {
+          "word": "TUTUM",
+          "hint": "Bir konuya veya kişiye karşı davranış biçimi."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir şeyin taşıdığı önem, kıymet."
+        },
+        {
+          "word": "İNANÇ",
+          "hint": "Bir şeye veya kişiye güvenme, kabullenme."
+        },
+        {
+          "word": "GÖREV",
+          "hint": "Bir kimsenin yapmakla yükümlü olduğu iş."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Bir görevi yerine getirme yükümlülüğü."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Bağımsızlık, hürriyet."
+        },
+        {
+          "word": "EŞİTLİK",
+          "hint": "Herkesin aynı haklara sahip olması."
+        },
+        {
+          "word": "SAYGI",
+          "hint": "Bir kimseye veya şeye değer verme, hürmet etme."
+        },
+        {
+          "word": "YARDIMLAŞMA",
+          "hint": "Birbirine destek olma."
+        },
+        {
+          "word": "DAYANIŞMA",
+          "hint": "Ortak amaçlar için birlikte hareket etme."
+        },
+        {
+          "word": "İŞBİRLİĞİ",
+          "hint": "Ortak bir işi birlikte yapma."
+        },
+        {
+          "word": "SORGU",
+          "hint": "Bir konu hakkında bilgi almak için soru sorma."
+        },
+        {
+          "word": "ARAŞTIRMA",
+          "hint": "Bir konu hakkında bilgi toplama."
+        },
+        {
+          "word": "İNCELEME",
+          "hint": "Dikkatle bakıp anlama."
+        },
+        {
+          "word": "ANALİZ",
+          "hint": "Bir bütünün parçalarını ayırarak inceleme."
+        },
+        {
+          "word": "DEĞERLENDİRME",
+          "hint": "Bir şeyin iyi veya kötü olduğuna karar verme."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Bir olayı veya eseri açıklama."
+        },
+        {
+          "word": "ÖNERİ",
+          "hint": "Tavsiye."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Bir sorunu giderme yolu."
+        },
+        {
+          "word": "EZBER",
+          "hint": "Bilgileri hafızaya alma."
+        },
+        {
+          "word": "ANLAMA",
+          "hint": "Bir konuyu kavrama."
+        },
+        {
+          "word": "YARATICILIK",
+          "hint": "Yeni şeyler ortaya koyma."
+        },
+        {
+          "word": "ELEŞTİRİ",
+          "hint": "Bir eseri veya konuyu olumlu/olumsuz yönleriyle değerlendirme."
+        },
+        {
+          "word": "ÖZÜMSEME",
+          "hint": "Bir bilgiyi kendi düşünce yapısına katma."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Öğrenilenleri hayata geçirme."
+        },
+        {
+          "word": "AKTARMA",
+          "hint": "Bilgiyi başkasına iletme."
+        },
+        {
+          "word": "TARTIŞMA",
+          "hint": "Bir konu hakkında farklı görüşleri konuşma."
+        },
+        {
+          "word": "SUNUM",
+          "hint": "Bilgileri topluluk önünde anlatma."
+        },
+        {
+          "word": "SUNUŞ",
+          "hint": "Bir şeyi gösterme, takdim etme."
+        },
+        {
+          "word": "GÖRSEL",
+          "hint": "Görmeye dayalı."
+        },
+        {
+          "word": "İŞİTSEL",
+          "hint": "Duyarak algılama."
+        },
+        {
+          "word": "İŞLEMSEL",
+          "hint": "Uygulamaya dayalı."
+        },
+        {
+          "word": "ÖĞRETİM",
+          "hint": "Bilgi aktarma süreci."
+        },
+        {
+          "word": "MATERYAL",
+          "hint": "Öğretim aracı."
+        },
+        {
+          "word": "ARAÇ",
+          "hint": "Bir işe yarayan gereç."
+        },
+        {
+          "word": "GEREÇ",
+          "hint": "Bir işin yapılması için gereken şey."
+        },
+        {
+          "word": "YÖNTEM",
+          "hint": "Bir işi yapma şekli."
+        },
+        {
+          "word": "TEKNİK",
+          "hint": "Belirli bir yöntemin uygulama şekli."
+        },
+        {
+          "word": "STRATEJİ",
+          "hint": "Uzun vadeli plan."
+        },
+        {
+          "word": "PLANLAMA",
+          "hint": "Önceden tasarlama."
+        },
+        {
+          "word": "HEDEF",
+          "hint": "Ulaşılmak istenen amaç."
+        },
+        {
+          "word": "BECERİ",
+          "hint": "Bir işi yapabilme yeteneği."
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "Gerçekleri anlama."
+        },
+        {
+          "word": "MOTİVASYON",
+          "hint": "Güdülenme, isteklilik."
+        },
+        {
+          "word": "İLGİ",
+          "hint": "Alaka."
+        },
+        {
+          "word": "GÜDÜ",
+          "hint": "Davranışı başlatan içsel güç."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Bilgi aktaran."
+        },
+        {
+          "word": "ÖĞRENCİ",
+          "hint": "Bilgi edinen."
+        },
+        {
+          "word": "SINIF",
+          "hint": "Öğrencilerin toplandığı yer."
+        },
+        {
+          "word": "OKUL",
+          "hint": "Eğitim kurum."
+        },
+        {
+          "word": "MÜFREDAT",
+          "hint": "Eğitim programı."
+        },
+        {
+          "word": "DERS",
+          "hint": "Eğitim konusu."
+        },
+        {
+          "word": "ÜNİTE",
+          "hint": "Dersin bölümlerinden biri."
+        },
+        {
+          "word": "KONU",
+          "hint": "Ünitenin alt başlığı."
+        },
+        {
+          "word": "TANIM",
+          "hint": "Açıklama."
+        },
+        {
+          "word": "BAĞLANTI",
+          "hint": "İlişki."
+        },
+        {
+          "word": "ETKİ",
+          "hint": "Değişiklik yaratma."
+        },
+        {
+          "word": "GELİŞİM",
+          "hint": "İlerleme."
+        },
+        {
+          "word": "DEĞİŞİM",
+          "hint": "Başka bir hale gelme."
+        },
+        {
+          "word": "SÜREKLİLİK",
+          "hint": "Devamlılık."
+        },
+        {
+          "word": "KESİNTİ",
+          "hint": "Ara."
+        },
+        {
+          "word": "YAYILMA",
+          "hint": "Geniş alana dağılma."
+        },
+        {
+          "word": "ETKİLEŞİM",
+          "hint": "Karşılıklı tesir."
+        },
+        {
+          "word": "KÜLTÜRLEŞME",
+          "hint": "Kültürlerin birbirini etkilemesi."
+        },
+        {
+          "word": "UYARLAMA",
+          "hint": "Yeni duruma göre değiştirme."
+        },
+        {
+          "word": "ÖDÜNÇLEME",
+          "hint": "Başkasına ait bir şeyi geçici alma. Kültürel unsurlar için de kullanılır."
+        },
+        {
+          "word": "BÜTÜNLEŞME",
+          "hint": "Parçaların bir araya gelerek tam olma."
+        },
+        {
+          "word": "AYRIŞMA",
+          "hint": "Birbirinden uzaklaşma."
+        },
+        {
+          "word": "YOZLAŞMA",
+          "hint": "Boşalma, değersizleşme."
+        },
+        {
+          "word": "GELİŞME",
+          "hint": "İyileşme, ilerleme."
+        },
+        {
+          "word": "DURAKLAMA",
+          "hint": "Durma, ilerlememe."
+        },
+        {
+          "word": "GERİLEME",
+          "hint": "Geriye gitme."
+        },
+        {
+          "word": "ÇÖKÜŞ",
+          "hint": "Yıkılma, yok olma."
+        },
+        {
+          "word": "YENİDEN DOĞUŞ",
+          "hint": "Tekrar ortaya çıkma."
+        },
+        {
+          "word": "DÖNEM",
+          "hint": "Belirli bir zaman aralığı."
+        },
+        {
+          "word": "ÇAĞ",
+          "hint": "Belirli özellikler taşıyan uzun zaman dilimi."
+        },
+        {
+          "word": "DEVİR",
+          "hint": "Dönemle benzer."
+        },
+        {
+          "word": "EVRE",
+          "hint": "Bir sürecin aşaması."
+        },
+        {
+          "word": "AŞAMA",
+          "hint": "Bir hedefe ulaşmadaki basamaklar."
+        },
+        {
+          "word": "FAZ",
+          "hint": "Bir sürecin belirli bir bölümü."
+        },
+        {
+          "word": "BELİRLİ",
+          "hint": "Net, açık."
+        },
+        {
+          "word": "BELİRSİZ",
+          "hint": "Net olmayan."
+        },
+        {
+          "word": "DOĞRUDAN",
+          "hint": "Dolaysız."
+        },
+        {
+          "word": "DOLAYLI",
+          "hint": "Aracılı."
+        },
+        {
+          "word": "GENEL",
+          "hint": "Tümüyle ilgili."
+        },
+        {
+          "word": "ÖZEL",
+          "hint": "Kısmı ile ilgili."
+        },
+        {
+          "word": "TEMEL",
+          "hint": "Esas, ana."
+        },
+        {
+          "word": "İKİNCİL",
+          "hint": "Asıl olmayan."
+        },
+        {
+          "word": "BİRİNCİL",
+          "hint": "Asıl, ana."
+        },
+        {
+          "word": "NİTEL",
+          "hint": "Nitelikle ilgili."
+        },
+        {
+          "word": "NİCEL",
+          "hint": "Miktar ile ilgili."
+        },
+        {
+          "word": "SOYUT",
+          "hint": "Düşünceyle ilgili, elle tutulmaz."
+        },
+        {
+          "word": "SOMUT",
+          "hint": "Elle tutulur, gözle görülür."
+        },
+        {
+          "word": "GÖRSELLEŞTİRME",
+          "hint": "Görsel hale getirme."
+        },
+        {
+          "word": "ÖZETLEME",
+          "hint": "Kısa ve öz şekilde anlatma."
+        },
+        {
+          "word": "GENELLEME",
+          "hint": "Özelden genele çıkma."
+        },
+        {
+          "word": "SINIFLANDIRMA",
+          "hint": "Gruplara ayırma."
+        },
+        {
+          "word": "ANALOJİ",
+          "hint": "Benzetme yoluyla açıklama."
+        },
+        {
+          "word": "SORGULAMA",
+          "hint": "Soru sorma."
+        },
+        {
+          "word": "İFADE",
+          "hint": "Anlatım."
+        },
+        {
+          "word": "İLETİŞİM",
+          "hint": "Bilgi alışverişi."
+        },
+        {
+          "word": "İLİŞKİ",
+          "hint": "Bağlantı."
+        },
+        {
+          "word": "BAĞLAM",
+          "hint": "Bir olayın geçtiği çevre."
+        },
+        {
+          "word": "DÜZEN",
+          "hint": "Ahenk, tertip."
+        },
+        {
+          "word": "SİSTEM",
+          "hint": "Birlikte çalışan parçalar bütünü."
+        },
+        {
+          "word": "YAPI",
+          "hint": "Bir şeyin oluşumu, düzeni."
+        },
+        {
+          "word": "BİLEŞEN",
+          "hint": "Bir yapıyı oluşturan parça."
+        },
+        {
+          "word": "ÖĞE",
+          "hint": "Parça, unsur."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Uymak gereken prensip."
+        },
+        {
+          "word": "TAKTİK",
+          "hint": "Kısa vadeli plan."
+        },
+        {
+          "word": "VERİMLİLİK",
+          "hint": "Az zamanda çok iş yapma."
+        },
+        {
+          "word": "ETKİNLİK",
+          "hint": "İstenen sonucu alma."
+        },
+        {
+          "word": "BAŞARI",
+          "hint": "Bir işi iyi sonlandırma."
+        },
+        {
+          "word": "KALİTE",
+          "hint": "Bir şeyin niteliği."
+        },
+        {
+          "word": "STANDART",
+          "hint": "Ölçü, örnek."
+        },
+        {
+          "word": "ÖLÇME",
+          "hint": "Bir şeyin miktarını veya derecesini belirleme."
+        },
+        {
+          "word": "SINAV",
+          "hint": "Bilgi veya beceriyi ölçme yöntemi."
+        },
+        {
+          "word": "TEST",
+          "hint": "Sınavın bir türü."
+        },
+        {
+          "word": "ÖDEV",
+          "hint": "Öğrenciye verilen çalışma."
+        },
+        {
+          "word": "PROJE",
+          "hint": "Belirli bir sürede tamamlanması gereken araştırma veya çalışma."
+        },
+        {
+          "word": "RAPOR",
+          "hint": "Yapılan çalışma hakkında yazılı bilgi."
+        },
+        {
+          "word": "ARŞİV",
+          "hint": "Belgelerin saklandığı yer."
+        },
+        {
+          "word": "MÜZE",
+          "hint": "Sanat ve tarih eserlerinin sergilendiği yer."
+        },
+        {
+          "word": "GALERİ",
+          "hint": "Sanat eserlerinin sergilendiği yer."
+        },
+        {
+          "word": "SANAT",
+          "hint": "İnsanın yaratıcılığını ifade etme biçimi."
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "Yazılı sanat."
+        },
+        {
+          "word": "MÜZİK",
+          "hint": "Sesle yapılan sanat."
+        },
+        {
+          "word": "RESİM",
+          "hint": "Görsel sanat."
+        },
+        {
+          "word": "HEYKEL",
+          "hint": "Üç boyutlu sanat eseri."
+        },
+        {
+          "word": "TİYATRO",
+          "hint": "Sahne sanat."
+        },
+        {
+          "word": "SİNEMA",
+          "hint": "Hareketli görüntülerle yapılan sanat."
+        },
+        {
+          "word": "MİMARİ",
+          "hint": "Yapı sanatı."
+        },
+        {
+          "word": "DESTAN",
+          "hint": "Kahramanlık öykülerini anlatan uzun şiir."
+        },
+        {
+          "word": "MASAL",
+          "hint": "Olağanüstü olaylar anlatan hikaye."
+        },
+        {
+          "word": "HİKAYE",
+          "hint": "Kısa öykü."
+        },
+        {
+          "word": "ROMAN",
+          "hint": "Uzun öykü."
+        },
+        {
+          "word": "ŞİİR",
+          "hint": "Duygu ve düşünceleri ölçülü sözlerle anlatma."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "İçsel his."
+        },
+        {
+          "word": "DÜŞÜNCE",
+          "hint": "Fikir."
+        },
+        {
+          "word": "HAYAL",
+          "hint": "Gerçek olmayan tasavvur."
+        },
+        {
+          "word": "GERÇEK",
+          "hint": "Doğru, hakiki."
+        },
+        {
+          "word": "AHLAK",
+          "hint": "Doğru davranış kuralları."
+        },
+        {
+          "word": "HUKUK",
+          "hint": "Kanunlar."
+        },
+        {
+          "word": "EŞİTLİK",
+          "hint": "Aynı haklara sahip olma."
+        },
+        {
+          "word": "KARDEŞLİK",
+          "hint": "Birbirini sevme ve sayma."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Savaşsızlık."
+        },
+        {
+          "word": "DOSTLUK",
+          "hint": "Arkadaşlık."
+        },
+        {
+          "word": "SEVGİ",
+          "hint": "Aşk, muhabbet."
+        },
+        {
+          "word": "SAYGI",
+          "hint": "Hürmet."
+        },
+        {
+          "word": "YARDIM",
+          "hint": "Destek."
+        },
+        {
+          "word": "DAYANIŞMA",
+          "hint": "Birlikte hareket."
+        },
+        {
+          "word": "İŞBİRLİĞİ",
+          "hint": "Ortak çalışma."
+        },
+        {
+          "word": "KATKI",
+          "hint": "Pay."
+        },
+        {
+          "word": "GİRİŞİM",
+          "hint": "Başlama."
+        },
+        {
+          "word": "ÇABA",
+          "hint": "Efor."
+        },
+        {
+          "word": "EMEK",
+          "hint": "Çalışma."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Süre."
+        },
+        {
+          "word": "MEKAN",
+          "hint": "Yer."
+        },
+        {
+          "word": "SÜREÇ",
+          "hint": "Olaylar dizisi."
+        },
+        {
+          "word": "NESİL",
+          "hint": "Aynı zamanda yaşayanlar."
+        },
+        {
+          "word": "KUŞAK",
+          "hint": "Nesil ile benzer."
+        },
+        {
+          "word": "SÜLALE",
+          "hint": "Soyun devamı."
+        },
+        {
+          "word": "AİLE",
+          "hint": "Anne, baba ve çocuklardan oluşan topluluk."
+        },
+        {
+          "word": "TOPLUM",
+          "hint": "İnsanlar topluluğu."
+        },
+        {
+          "word": "BİREY",
+          "hint": "Tek kişi."
+        },
+        {
+          "word": "KİŞİ",
+          "hint": "İnsan."
+        },
+        {
+          "word": "KİMLİK",
+          "hint": "Kendine özgü özellik."
+        },
+        {
+          "word": "ÖZGÜNLÜK",
+          "hint": "Benzersizlik."
+        },
+        {
+          "word": "FARKLILIK",
+          "hint": "Ayrılık."
+        },
+        {
+          "word": "BENZERLİK",
+          "hint": "Aynı olma."
+        },
+        {
+          "word": "ÇEŞİTLİLİK",
+          "hint": "Farklı türlerin olması."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Beraberlik."
+        },
+        {
+          "word": "BERABERLİK",
+          "hint": "Birlik olma."
+        },
+        {
+          "word": "ÇOĞUL",
+          "hint": "Birden fazla."
+        },
+        {
+          "word": "TEKİL",
+          "hint": "Bir tane."
+        },
+        {
+          "word": "YETERLİ",
+          "hint": "İhtiyacı karşılayan."
+        },
+        {
+          "word": "YETERSİZ",
+          "hint": "İhtiyacı karşılamayan."
+        },
+        {
+          "word": "GELİŞMİŞ",
+          "hint": "İleri gitmiş."
+        },
+        {
+          "word": "GELİŞMEMİŞ",
+          "hint": "Geri kalmış."
+        },
+        {
+          "word": "VERİMLİ",
+          "hint": "Bolluk sağlayan."
+        },
+        {
+          "word": "BEREKETSİZ",
+          "hint": "Ürün vermeyen."
+        },
+        {
+          "word": "KULLANIŞLI",
+          "hint": "Faydalı."
+        },
+        {
+          "word": "FAYDALI",
+          "hint": "Yararlı."
+        },
+        {
+          "word": "ZARARLI",
+          "hint": "Kötü etkili."
+        },
+        {
+          "word": "ÖNEMLİ",
+          "hint": "Kıymetli."
+        },
+        {
+          "word": "ÖNEMSİZ",
+          "hint": "Değersiz."
+        },
+        {
+          "word": "KALİTELİ",
+          "hint": "İyi nitelikli."
+        },
+        {
+          "word": "KALİTESİZ",
+          "hint": "Düşük nitelikli."
+        },
+        {
+          "word": "MODERN",
+          "hint": "Çağdaş."
+        },
+        {
+          "word": "ÇAĞDAŞ",
+          "hint": "Modern."
+        },
+        {
+          "word": "YENİLİKÇİ",
+          "hint": "Yeni şeyler getiren."
+        },
+        {
+          "word": "MUHAFAZAKAR",
+          "hint": "Eskiyi koruyan."
+        },
+        {
+          "word": "DEVRİMCİ",
+          "hint": "Kökten değiştiren."
+        },
+        {
+          "word": "REFORMCU",
+          "hint": "Gereken değişiklikleri yapan."
+        },
+        {
+          "word": "İDEAL",
+          "hint": "Ulaşılmak istenen en iyi durum."
+        },
+        {
+          "word": "GERÇEKÇİ",
+          "hint": "Gerçeğe uygun."
+        },
+        {
+          "word": "HAYALCİ",
+          "hint": "Gerçekten uzak."
+        },
+        {
+          "word": "POZİTİF",
+          "hint": "Olumlu."
+        },
+        {
+          "word": "NEGATİF",
+          "hint": "Olumsuz."
+        },
+        {
+          "word": "AVANTAJ",
+          "hint": "Fayda."
+        },
+        {
+          "word": "DEZAVANTAJ",
+          "hint": "Zarar."
+        },
+        {
+          "word": "NEDEN",
+          "hint": "Sebep."
+        },
+        {
+          "word": "ÖNLEM",
+          "hint": "Tedbir."
+        },
+        {
+          "word": "OLASILIK",
+          "hint": "Muhtemel olma."
+        },
+        {
+          "word": "KESİNLİK",
+          "hint": "Şüphesiz olma."
+        },
+        {
+          "word": "İHTİMAL",
+          "hint": "Olasılık."
+        },
+        {
+          "word": "OLASI",
+          "hint": "Muhtemel."
+        },
+        {
+          "word": "KESİN",
+          "hint": "Şüphesiz."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "Yanlış olmayan."
+        },
+        {
+          "word": "YANLIŞ",
+          "hint": "Hatalı."
+        },
+        {
+          "word": "YALAN",
+          "hint": "Yanlış."
+        },
+        {
+          "word": "BİLİNÇ",
+          "hint": "Farkındalık."
+        },
+        {
+          "word": "FARKINDALIK",
+          "hint": "Bilinçli olma."
+        },
+        {
+          "word": "ANLAYIŞ",
+          "hint": "Kavrayış."
+        },
+        {
+          "word": "BİLGELİK",
+          "hint": "Derin bilgi."
+        },
+        {
+          "word": "FELSEFE",
+          "hint": "Hayatı ve evreni anlama çabası."
+        },
+        {
+          "word": "MANTIK",
+          "hint": "Doğru düşünme kuralları."
+        },
+        {
+          "word": "AKIL",
+          "hint": "Düşünme yetisi."
+        },
+        {
+          "word": "ZEKA",
+          "hint": "Öğrenme ve anlama yeteneği."
+        },
+        {
+          "word": "YETENEK",
+          "hint": "Yapabilme gücü."
+        },
+        {
+          "word": "USTALIK",
+          "hint": "Beceri."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Bilgi aktarma."
+        },
+        {
+          "word": "AKADEMİK",
+          "hint": "Bilimle ilgili."
+        },
+        {
+          "word": "TEORİK",
+          "hint": "Kuramsal."
+        },
+        {
+          "word": "PRATİK",
+          "hint": "Uygulama ile ilgili."
+        },
+        {
+          "word": "METOT",
+          "hint": "Yöntem."
+        },
+        {
+          "word": "ARAŞTIRMA",
+          "hint": "Bilgi toplama."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Gözlem yaparak bilgi edinme."
+        },
+        {
+          "word": "KEŞİF",
+          "hint": "Daha önce bilinmeyeni bulma."
+        },
+        {
+          "word": "İCAT",
+          "hint": "Yeni bir şey üretme."
+        },
+        {
+          "word": "BULGU",
+          "hint": "Araştırma sonucu elde edilen bilgi."
+        },
+        {
+          "word": "ÇIKARIM",
+          "hint": "Bir bilgiden yeni bir sonuç çıkarma."
+        },
+        {
+          "word": "YARGI",
+          "hint": "Hüküm."
+        },
+        {
+          "word": "SAVUNMA",
+          "hint": "Bir görüşü veya kişiyi koruma."
+        },
+        {
+          "word": "KANIT",
+          "hint": "Delil."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Bilginin alındığı yer."
+        },
+        {
+          "word": "REFERANS",
+          "hint": "Kaynak gösterme."
+        },
+        {
+          "word": "ATIF",
+          "hint": "Kaynak gösterme."
+        },
+        {
+          "word": "ALINTI",
+          "hint": "Başkasına ait bir yazıyı kullanma."
+        },
+        {
+          "word": "İNTİHAL",
+          "hint": "Başkasına ait fikri kendine mal etme."
+        },
+        {
+          "word": "TELİF HAKKI",
+          "hint": "Yazarlık hakkı."
+        },
+        {
+          "word": "FİKİR",
+          "hint": "Düşünce."
+        },
+        {
+          "word": "VERİ",
+          "hint": "Ham bilgi."
+        },
+        {
+          "word": "ÖRNEKLEME",
+          "hint": "Örnek verme."
+        },
+        {
+          "word": "KARŞILAŞTIRMA",
+          "hint": "Benzerlik ve farklılıkları bulma."
+        },
+        {
+          "word": "SOYUTLAMA",
+          "hint": "Soyut hale getirme."
+        },
+        {
+          "word": "PROBLEM",
+          "hint": "Sorun."
+        },
+        {
+          "word": "YAKLAŞIM",
+          "hint": "Bir konuya bakış açısı."
+        },
+        {
+          "word": "TEORİ",
+          "hint": "Kuram."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Örnek."
+        },
+        {
+          "word": "KATMAN",
+          "hint": "Tabaka."
+        },
+        {
+          "word": "DÜZEY",
+          "hint": "Seviye."
+        },
+        {
+          "word": "KADEM",
+          "hint": "Aşama."
+        },
+        {
+          "word": "BASAMAK",
+          "hint": "Adım."
+        },
+        {
+          "word": "SIRA",
+          "hint": "Diziliş."
+        },
+        {
+          "word": "YÖNETİM",
+          "hint": "İdare."
+        },
+        {
+          "word": "ORGANİZASYON",
+          "hint": "Teşkilat."
+        },
+        {
+          "word": "PLAN",
+          "hint": "Tasarı."
+        },
+        {
+          "word": "PROGRAM",
+          "hint": "Eylem planı."
+        },
+        {
+          "word": "AMAÇ",
+          "hint": "Hedef."
+        },
+        {
+          "word": "GAYE",
+          "hint": "Niyet."
+        },
+        {
+          "word": "NİYET",
+          "hint": "Gaye."
+        },
+        {
+          "word": "MAKSAT",
+          "hint": "Amaç."
+        },
+        {
+          "word": "FAALİYET",
+          "hint": "Etkinlik."
+        },
+        {
+          "word": "EYLEM",
+          "hint": "Hareket."
+        },
+        {
+          "word": "SABIR",
+          "hint": "Tahammül."
+        },
+        {
+          "word": "SEBAT",
+          "hint": "Devamlılık."
+        },
+        {
+          "word": "AZİM",
+          "hint": "Kararlılık."
+        },
+        {
+          "word": "KARARLILIK",
+          "hint": "Azim."
+        },
+        {
+          "word": "İRADE",
+          "hint": "İstek, güç."
+        },
+        {
+          "word": "MANEVİYAT",
+          "hint": "İçsel güç."
+        },
+        {
+          "word": "RUH",
+          "hint": "Manevi varlık."
+        },
+        {
+          "word": "VİCDAN",
+          "hint": "İç ses."
+        },
+        {
+          "word": "DUYARLILIK",
+          "hint": "Hassasiyet."
+        },
+        {
+          "word": "EMPATİ",
+          "hint": "Kendini başkasının yerine koyma."
+        },
+        {
+          "word": "SEMPATİK",
+          "hint": "Sevilen."
+        },
+        {
+          "word": "ANTİPATİK",
+          "hint": "Sevilmeyen."
+        },
+        {
+          "word": "NEFRET",
+          "hint": "Sevginin karşıtı."
+        },
+        {
+          "word": "KORKU",
+          "hint": "Endişe."
+        },
+        {
+          "word": "CESARET",
+          "hint": "Korkusuzluk."
+        },
+        {
+          "word": "UMUT",
+          "hint": "Beklenti."
+        },
+        {
+          "word": "HAYAL KIRIKLIĞI",
+          "hint": "Umutsuzluk."
+        },
+        {
+          "word": "MUTLULUK",
+          "hint": "Sevinç."
+        },
+        {
+          "word": "ÜZÜNTÜ",
+          "hint": "Hüzün."
+        },
+        {
+          "word": "NEŞE",
+          "hint": "Sevinç."
+        },
+        {
+          "word": "HÜZÜN",
+          "hint": "Üzüntü."
+        },
+        {
+          "word": "ÖFKE",
+          "hint": "Kızgınlık."
+        }
+      ]
     }
   ]
 }

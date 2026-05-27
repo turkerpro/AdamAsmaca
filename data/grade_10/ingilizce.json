@@ -2,525 +2,2609 @@
   "units": [
     {
       "id": "ingilizce_u1",
-      "name": "1. Ünite: Literature",
+      "name": "Unit 1: School Life",
       "months": [
         9
       ],
       "words": [
         {
-          "word": "NARRATIVE",
-          "hint": "Olayları anlatan hikaye veya anlatı türü"
+          "word": "ACADEMIC",
+          "hint": "Akademik, öğrenimle ilgili"
         },
         {
-          "word": "METAPHOR",
-          "hint": "Bir şeyi başka bir şeye benzeten söz sanatı"
+          "word": "ACHIEVEMENT",
+          "hint": "Başarı, muvaffakiyet"
         },
         {
-          "word": "PROTAGONIST",
-          "hint": "Hikayedeki ana karakter veya baş kahraman"
+          "word": "ASSIGNMENT",
+          "hint": "Ödev, görev"
         },
         {
-          "word": "FICTION",
-          "hint": "Hayal ürünü olan kurgusal edebi eser türü"
+          "word": "ATTENDANCE",
+          "hint": "Devamlılık, katılım"
         },
         {
-          "word": "POETRY",
-          "hint": "Ölçü ve kafiye ile yazılan edebi tür"
+          "word": "AUDITORIUM",
+          "hint": "Konferans salonu, oditoryum"
         },
         {
-          "word": "ANLATİM",
-          "hint": "Bir olayı veya durumu sözlü veya yazılı olarak aktarma biçimi."
+          "word": "BIOLOGY",
+          "hint": "Biyoloji"
         },
         {
-          "word": "BENZETME",
-          "hint": "İki farklı şeyi birbirine benzeterek anlatma sanatı."
+          "word": "BREAK TIME",
+          "hint": "Teneffüs zamanı"
         },
         {
-          "word": "BAŞKARAKTER",
-          "hint": "Hikayenin veya eserin en önemli kişisi."
+          "word": "CAFETERIA",
+          "hint": "Kafeterya, yemekhane"
         },
         {
-          "word": "KURGU",
-          "hint": "Gerçekte var olmayan, hayal ürünü bir olay örgüsü."
+          "word": "CHEMISTRY",
+          "hint": "Kimya"
         },
         {
-          "word": "Şİ̇İ̇R",
-          "hint": "Duyguları ve düşünceleri ahenkli sözlerle dile getiren yazı türü."
+          "word": "CLASSMATE",
+          "hint": "Sınıf arkadaşı"
         },
         {
-          "word": "EDEBİ̇YAT",
-          "hint": "İnsanların duygu ve düşüncelerini estetik bir şekilde aktaran sanat."
+          "word": "CLASSROOM",
+          "hint": "Sınıf, derslik"
         },
         {
-          "word": "ROMAN",
-          "hint": "Uzun soluklu, olay örgüsü olan kurgusal eser."
+          "word": "COUNSELOR",
+          "hint": "Rehber öğretmen, danışman"
         },
         {
-          "word": "ÖYKÜ",
-          "hint": "Kısa, yoğun olay örgüsüne sahip kurgusal eser."
+          "word": "CURRICULUM",
+          "hint": "Müfredat, ders programı"
         },
         {
-          "word": "MASAL",
-          "hint": "Olağanüstü olaylar ve karakterler içeren geleneksel hikaye."
+          "word": "DEBATE",
+          "hint": "Tartışma, münazara"
         },
         {
-          "word": "FABL",
-          "hint": "Hayvanların konuşturulduğu, ders veren kısa öykü."
+          "word": "DISCIPLINE",
+          "hint": "Disiplin"
         },
         {
-          "word": "DESTAN",
-          "hint": "Bir milletin tarihini veya kahramanlıklarını anlatan uzun şiir."
+          "word": "DORMITORY",
+          "hint": "Yurt, öğrenci yurdu"
         },
         {
-          "word": "TRAJEDİ̇",
-          "hint": "Acıklı sonla biten tiyatro oyunu."
+          "word": "EDUCATION",
+          "hint": "Eğitim, öğretim"
         },
         {
-          "word": "KOMEDİ̇",
-          "hint": "Güldürücü olaylarla dolu tiyatro oyunu."
+          "word": "ESSAY",
+          "hint": "Makale, deneme"
         },
         {
-          "word": "DRAM",
-          "hint": "Hem acıklı hem de gülünç öğeler içerebilen tiyatro oyunu."
+          "word": "EXAM",
+          "hint": "Sınav, imtihan"
         },
         {
-          "word": "OYUNCU",
-          "hint": "Tiyatro veya sinemada rol alan kişi."
+          "word": "EXTRACURRICULAR",
+          "hint": "Ders dışı, müfredat dışı"
         },
         {
-          "word": "SAHNE",
-          "hint": "Tiyatro eserinde perdenin bir bölümü veya oyunun oynandığı yer."
+          "word": "FIELD TRIP",
+          "hint": "Okul gezisi, saha gezisi"
         },
         {
-          "word": "ŞAİ̇R",
-          "hint": "Şiir yazan kişi."
+          "word": "FOREIGN LANGUAGE",
+          "hint": "Yabancı dil"
         },
         {
-          "word": "YAZAR",
-          "hint": "Kitap, makale gibi eserler oluşturan kişi."
+          "word": "GEOGRAPHY",
+          "hint": "Coğrafya"
         },
         {
-          "word": "ELEŞTİ̇Rİ̇",
-          "hint": "Bir eserin olumlu ve olumsuz yönlerini değerlendirme."
+          "word": "GRADE",
+          "hint": "Not, derece; sınıf seviyesi"
         },
         {
-          "word": "İ̇NCELEME",
-          "hint": "Bir konuyu veya eseri detaylıca araştırma."
+          "word": "GRADUATION",
+          "hint": "Mezuniyet"
         },
         {
-          "word": "GÖNDERME",
-          "hint": "Bir kişiye veya olaya üstü kapalı şekilde değinme."
+          "word": "GYMNASIUM",
+          "hint": "Spor salonu, jimnastik salonu"
         },
         {
-          "word": "SEMBOBOLÜZM",
-          "hint": "Soyut kavramları somut nesnelerle ifade etme akımı."
+          "word": "HISTORY",
+          "hint": "Tarih"
         },
         {
-          "word": "REALİ̇ZM",
-          "hint": "Gerçekleri olduğu gibi yansıtmayı amaçlayan sanat akımı."
+          "word": "HOMEWORK",
+          "hint": "Ev ödevi"
         },
         {
-          "word": "ROMANTİ̇ZM",
-          "hint": "Duyguları ve hayalleri ön plana çıkaran sanat akımı."
+          "word": "KNOWLEDGE",
+          "hint": "Bilgi, malumat"
         },
         {
-          "word": "SÜREALİ̇ZM",
-          "hint": "Bilinçaltını ve rüyaları konu alan sanat akımı."
+          "word": "LABORATORY",
+          "hint": "Laboratuvar, lab"
         },
         {
-          "word": "KLASİ̇Sİ̇ZM",
-          "hint": "Antik Yunan ve Roma sanatından esinlenen akım."
+          "word": "LECTURE",
+          "hint": "Ders, konferans"
         },
         {
-          "word": "KARAKTER",
-          "hint": "Bir eserde yer alan kişi, hayvan veya canlı varlık."
+          "word": "LIBRARIAN",
+          "hint": "Kütüphaneci"
         },
         {
-          "word": "OLAY ÖRGÜSÜ",
-          "hint": "Hikayedeki başından sonuna kadar birbirini takip eden gelişmeler."
+          "word": "LIBRARY",
+          "hint": "Kütüphane"
         },
         {
-          "word": "MEKAN",
-          "hint": "Hikayenin geçtiği yer."
+          "word": "LITERATURE",
+          "hint": "Edebiyat"
         },
         {
-          "word": "ZAMAN",
-          "hint": "Hikayenin gerçekleştiği dönem veya tarih."
+          "word": "LOCKER",
+          "hint": "Kilitli dolap"
         },
         {
-          "word": "ANLATİCİ",
-          "hint": "Hikayeyi anlatan kişi veya varlık."
+          "word": "MATHEMATICS",
+          "hint": "Matematik"
         },
         {
-          "word": "Dİ̇YALOG",
-          "hint": "Karakterlerin birbirleriyle konuşmaları."
+          "word": "MENTOR",
+          "hint": "Akıl hocası, rehber"
         },
         {
-          "word": "MONOLOG",
-          "hint": "Bir karakterin kendi kendine konuşması."
+          "word": "NOTEBOOK",
+          "hint": "Defter, not defteri"
         },
         {
-          "word": "KONSEPT",
-          "hint": "Bir eserin temel fikri veya ana düşüncesi."
+          "word": "OPPORTUNITY",
+          "hint": "Fırsat, imkan"
         },
         {
-          "word": "TARZ",
-          "hint": "Bir yazarın veya sanatçının kendine özgü üslubu."
+          "word": "PARTICIPATION",
+          "hint": "Katılım, iştirak"
         },
         {
-          "word": "TEMA",
-          "hint": "Bir eserin ana fikri veya tekrar eden konu."
+          "word": "PHYSICAL EDUCATION",
+          "hint": "Beden eğitimi"
         },
         {
-          "word": "MESAJ",
-          "hint": "Eserin okuyucuya iletmek istediği anlam."
+          "word": "PRINCIPAL",
+          "hint": "Müdür, okul müdürü"
         },
         {
-          "word": "ÇATİŞMA",
-          "hint": "Karakterler arasındaki anlaşmazlık veya mücadele."
+          "word": "PROJECT",
+          "hint": "Proje, tasarı"
         },
         {
-          "word": "GELİ̇ŞME",
-          "hint": "Olay örgüsündeki ilerleme ve olayların derinleşmesi."
+          "word": "RECESS",
+          "hint": "Teneffüs, ara"
         },
         {
-          "word": "DÖNÜM NOKTASİ",
-          "hint": "Hikayenin gidişatını değiştiren önemli an."
+          "word": "REPORT CARD",
+          "hint": "Karne, öğrenci not belgesi"
         },
         {
-          "word": "SONUÇ",
-          "hint": "Olay örgüsünün bittiği ve çözümün sunulduğu bölüm."
+          "word": "RESEARCH",
+          "hint": "Araştırma, inceleme"
         },
         {
-          "word": "Kİ̇TAP",
-          "hint": "Sayfalardan oluşan, bilgi veya hikaye içeren basılı eser."
+          "word": "RESPONSIBILITY",
+          "hint": "Sorumluluk, mesuliyet"
         },
         {
-          "word": "BÖLÜM",
-          "hint": "Bir kitabın veya uzun eserin ana kısımlarından biri."
+          "word": "SCHEDULE",
+          "hint": "Program, takvim"
         },
         {
-          "word": "Dİ̇ZE",
-          "hint": "Şiiri oluşturan her bir satır."
+          "word": "SCHOOL BUS",
+          "hint": "Okul otobüsü, servis"
         },
         {
-          "word": "BEYİ̇T",
-          "hint": "İki dizeden oluşan nazım birimi."
+          "word": "SEMESTER",
+          "hint": "Sömestr, yarıyıl"
         },
         {
-          "word": "BAĞDAŞİKLİK",
-          "hint": "Kelimelerin veya düşüncelerin birbiriyle uyumu."
+          "word": "SKILL",
+          "hint": "Beceri, yetenek"
         },
         {
-          "word": "Kİ̇TAPÇİK",
-          "hint": "Küçük ve ince kitap."
+          "word": "STUDENT",
+          "hint": "Öğrenci"
         },
         {
-          "word": "YORUM",
-          "hint": "Bir metnin veya eserin anlamını açıklama."
+          "word": "STUDY",
+          "hint": "Ders çalışmak, öğrenim görmek"
         },
         {
-          "word": "EDEBİ̇",
-          "hint": "Edebiyatla ilgili, sanatsal."
+          "word": "SUBJECT",
+          "hint": "Ders, konu"
         },
         {
-          "word": "METİ̇N",
-          "hint": "Yazılı veya sözlü her türlü anlatım."
+          "word": "TEACHER",
+          "hint": "Öğretmen"
         },
         {
-          "word": "KAVRAM",
-          "hint": "Bir şeyi zihinde temsil eden soyut fikir."
+          "word": "TEAMWORK",
+          "hint": "Takım çalışması, ekip çalışması"
         },
         {
-          "word": "SÖZLÜK",
-          "hint": "Kelimelerin anlamlarını ve kullanımlarını içeren kitap."
+          "word": "TEST",
+          "hint": "Test, deneme sınavı"
         },
         {
-          "word": "GÖRSEL",
-          "hint": "Görüntüyle ilgili, resim veya çizim."
+          "word": "TEXTBOOK",
+          "hint": "Ders kitabı"
         },
         {
-          "word": "İ̇Şİ̇TSEL",
-          "hint": "İşitme duyusuyla ilgili, ses veya müzik."
+          "word": "TIMETABLE",
+          "hint": "Ders programı, zaman çizelgesi"
+        },
+        {
+          "word": "UNIFORM",
+          "hint": "Üniforma, okul kıyafeti"
+        },
+        {
+          "word": "UNDERSTAND",
+          "hint": "Anlamak, kavramak"
+        },
+        {
+          "word": "VOLUNTEER",
+          "hint": "Gönüllü olmak, gönüllü"
+        },
+        {
+          "word": "WORKSHOP",
+          "hint": "Atölye çalışması, seminer"
         }
       ]
     },
     {
       "id": "ingilizce_u2",
-      "name": "2. Ünite: Philosophy",
+      "name": "Unit 2: Daily Routines and Hobbies",
       "months": [
         10
       ],
       "words": [
         {
-          "word": "WISDOM",
-          "hint": "Bilgelik ve derin anlayış anlamına gelen kavram"
+          "word": "WAKE UP",
+          "hint": "Uyanmak"
         },
         {
-          "word": "ETHICS",
-          "hint": "Doğru ve yanlışı inceleyen ahlak felsefesi dalı"
+          "word": "GET UP",
+          "hint": "Yataktan kalkmak"
         },
         {
-          "word": "LOGIC",
-          "hint": "Doğru düşünme ve akıl yürütme bilimi"
+          "word": "BRUSH TEETH",
+          "hint": "Diş fırçalamak"
         },
         {
-          "word": "EXISTENCE",
-          "hint": "Var olma durumunu ifade eden felsefi kavram"
+          "word": "WASH FACE",
+          "hint": "Yüz yıkamak"
         },
         {
-          "word": "CONSCIENCE",
-          "hint": "İnsanın iyi kötüyü ayırt eden iç sesi"
+          "word": "TAKE A SHOWER",
+          "hint": "Duş almak"
         },
         {
-          "word": "ANLAMLİLİK",
-          "hint": "Bir şeyin bir amaca hizmet etmesi veya bir anlam taşıması."
+          "word": "GET DRESSED",
+          "hint": "Giyinmek"
         },
         {
-          "word": "GERÇEKLİ̇K",
-          "hint": "Olduğu gibi var olan veya meydana gelen durum."
+          "word": "HAVE BREAKFAST",
+          "hint": "Kahvaltı yapmak"
         },
         {
-          "word": "Bİ̇Lİ̇NÇ",
-          "hint": "Çevreyi ve kendini algılama yeteneği."
+          "word": "GO TO SCHOOL",
+          "hint": "Okula gitmek"
         },
         {
-          "word": "GERÇEK",
-          "hint": "Doğru, aslına uygun olan."
+          "word": "STUDY",
+          "hint": "Ders çalışmak"
         },
         {
-          "word": "ANLAM",
-          "hint": "Bir kelime, cümle veya sembolün ifade ettiği düşünce."
+          "word": "HAVE LUNCH",
+          "hint": "Öğle yemeği yemek"
         },
         {
-          "word": "İ̇DEAL",
-          "hint": "Ulaşılmak istenen en iyi durum veya örnek."
+          "word": "FINISH SCHOOL",
+          "hint": "Okulu bitirmek"
         },
         {
-          "word": "GERÇEKÇİ̇Lİ̇K",
-          "hint": "Olayları ve durumları olduğu gibi kabul etme eğilimi."
+          "word": "GO HOME",
+          "hint": "Eve gitmek"
         },
         {
-          "word": "SEZGİ̇",
-          "hint": "Mantıksal bir çıkarım olmaksızın bir şeyi anlama veya bilme yeteneği."
+          "word": "DO HOMEWORK",
+          "hint": "Ödev yapmak"
         },
         {
-          "word": "DEĞER",
-          "hint": "Bir şeyin önemi veya yararlılığı."
+          "word": "HAVE DINNER",
+          "hint": "Akşam yemeği yemek"
         },
         {
-          "word": "TEMEL",
-          "hint": "Bir şeyin dayandığı ana ilke veya esas."
+          "word": "WATCH TV",
+          "hint": "Televizyon izlemek"
         },
         {
-          "word": "EVREN",
-          "hint": "Tüm varoluşu kapsayan sonsuz alan."
+          "word": "READ A BOOK",
+          "hint": "Kitap okumak"
         },
         {
-          "word": "KAİ̇NAT",
-          "hint": "Evrenle eş anlamlı, her şeyi içine alan bütün."
+          "word": "LISTEN TO MUSIC",
+          "hint": "Müzik dinlemek"
         },
         {
-          "word": "DÜŞÜNCE",
-          "hint": "Zihinde oluşan fikir veya tasavvur."
+          "word": "GO TO BED",
+          "hint": "Yatağa gitmek, yatmak"
         },
         {
-          "word": "SORGU",
-          "hint": "Bir konuyu derinlemesine araştırmak için sorular sorma."
+          "word": "SLEEP",
+          "hint": "Uyumak"
         },
         {
-          "word": "BAKİŞ",
-          "hint": "Bir konuya yaklaşım tarzı veya görüş."
+          "word": "MAKE THE BED",
+          "hint": "Yatağı toplamak"
         },
         {
-          "word": "YORUM",
-          "hint": "Bir metin, olay veya durum hakkında yapılan açıklama."
+          "word": "PREPARE BREAKFAST",
+          "hint": "Kahvaltı hazırlamak"
         },
         {
-          "word": "ÖZGÜRLÜK",
-          "hint": "Kısıtlamalardan veya esaretten kurtulmuş olma durumu."
+          "word": "CLEAN THE ROOM",
+          "hint": "Odayı temizlemek"
         },
         {
-          "word": "ADALET",
-          "hint": "Doğru ve hakkaniyetli olma durumu."
+          "word": "TIDY UP",
+          "hint": "Toplamak, düzenlemek"
         },
         {
-          "word": "DOĞRULUK",
-          "hint": "Gerçeğe uygun olma, hakkaniyet."
+          "word": "COMB HAIR",
+          "hint": "Saç taramak"
         },
         {
-          "word": "SORUMLULUK",
-          "hint": "Yapılan eylemlerin sonuçlarını üstlenme yükümlülüğü."
+          "word": "PLAY SPORTS",
+          "hint": "Spor yapmak"
         },
         {
-          "word": "ANLAYİŞ",
-          "hint": "Bir konuyu kavrama veya farkına varma."
+          "word": "PLAY FOOTBALL",
+          "hint": "Futbol oynamak"
         },
         {
-          "word": "Bİ̇LGELİ̇K",
-          "hint": "Derin bilgi, tecrübe ve anlayış."
+          "word": "PLAY BASKETBALL",
+          "hint": "Basketbol oynamak"
         },
         {
-          "word": "ÖZ",
-          "hint": "Bir şeyin temel, değişmez niteliği."
+          "word": "PLAY AN INSTRUMENT",
+          "hint": "Enstrüman çalmak"
         },
         {
-          "word": "VARLİK",
-          "hint": "Mevcut olma durumu, gerçeklik."
+          "word": "DRAW",
+          "hint": "Çizmek, resim yapmak"
         },
         {
-          "word": "YOKLUK",
-          "hint": "Mevcut olmama durumu, hiçlik."
+          "word": "PAINT",
+          "hint": "Boyamak, tablo yapmak"
         },
         {
-          "word": "KAVRAM",
-          "hint": "Zihinde oluşan soyut fikir veya taslak."
+          "word": "SING",
+          "hint": "Şarkı söylemek"
         },
         {
-          "word": "YÖNTEM",
-          "hint": "Bir işi başarma veya bir sorunu çözme yolu."
+          "word": "DANCE",
+          "hint": "Dans etmek"
         },
         {
-          "word": "İ̇LKE",
-          "hint": "Temel kabul edilen, doğruluğu genel olarak benimsenmiş düşünce."
+          "word": "WRITE STORIES",
+          "hint": "Hikaye yazmak"
         },
         {
-          "word": "AMAÇ",
-          "hint": "Ulaşılmak istenen hedef."
+          "word": "GO CYCLING",
+          "hint": "Bisiklete binmek"
         },
         {
-          "word": "GAYE",
-          "hint": "Amaçla eş anlamlı, hedef."
+          "word": "GO HIKING",
+          "hint": "Doğa yürüyüşü yapmak"
         },
         {
-          "word": "DURUM",
-          "hint": "Bir olayın veya kişinin içinde bulunduğu koşullar."
+          "word": "GO SWIMMING",
+          "hint": "Yüzmeye gitmek"
         },
         {
-          "word": "OLGU",
-          "hint": "Gerçekleşmiş olay veya durum."
+          "word": "TAKE PHOTOS",
+          "hint": "Fotoğraf çekmek"
         },
         {
-          "word": "SORGULAMA",
-          "hint": "Bir konuyu derinlemesine araştırmak için yapılan süreç."
+          "word": "COOK",
+          "hint": "Yemek pişirmek"
         },
         {
-          "word": "ARAŞTİRMA",
-          "hint": "Bir konu hakkında bilgi edinmek için yapılan çalışma."
+          "word": "BAKE",
+          "hint": "Fırında pişirmek (kek, kurabiye vb.)"
         },
         {
-          "word": "TASAVVUF",
-          "hint": "Manevi aydınlanma ve içsel bilgi arayışı."
+          "word": "GARDEN",
+          "hint": "Bahçe işleriyle uğraşmak"
         },
         {
-          "word": "AKİL",
-          "hint": "Düşünme, anlama ve kavrama yetisi."
+          "word": "COLLECT STAMPS",
+          "hint": "Pul toplamak"
         },
         {
-          "word": "BAĞLAM",
-          "hint": "Bir kelime veya cümlenin içinde bulunduğu durum veya çevre."
+          "word": "SURF THE INTERNET",
+          "hint": "İnternette gezinmek"
         },
         {
-          "word": "Nİ̇TELİ̇K",
-          "hint": "Bir şeyin nasıl olduğunu belirten özellik."
+          "word": "PLAY VIDEO GAMES",
+          "hint": "Video oyunları oynamak"
         },
         {
-          "word": "ÖZELLİ̇K",
-          "hint": "Bir varlığa, kavrama veya duruma ait belirleyici özellik."
+          "word": "HANG OUT WITH FRIENDS",
+          "hint": "Arkadaşlarla takılmak"
         },
         {
-          "word": "Bİ̇RLİ̇K",
-          "hint": "Ayrılmaz bir bütün olma durumu."
+          "word": "GO TO THE CINEMA",
+          "hint": "Sinemaya gitmek"
         },
         {
-          "word": "KARŞİT",
-          "hint": "Tamamen zıt olan şey."
+          "word": "GO SHOPPING",
+          "hint": "Alışverişe gitmek"
         },
         {
-          "word": "KÖKEN",
-          "hint": "Bir şeyin çıktığı yer veya başlangıç noktası."
+          "word": "VISIT MUSEUMS",
+          "hint": "Müzeleri ziyaret etmek"
         },
         {
-          "word": "DENEYİ̇M",
-          "hint": "Yaşayarak öğrenme, tecrübe."
+          "word": "TRAVEL",
+          "hint": "Seyahat etmek"
         },
         {
-          "word": "Bİ̇LGİ̇",
-          "hint": "Öğrenme veya araştırma yoluyla edinilen gerçek."
+          "word": "LEARN A NEW LANGUAGE",
+          "hint": "Yeni bir dil öğrenmek"
         },
         {
-          "word": "SONUÇ",
-          "hint": "Bir olayın veya işlemin doğurduğu netice."
+          "word": "WORKOUT",
+          "hint": "Egzersiz yapmak"
         },
         {
-          "word": "YARGİ",
-          "hint": "Bir konuda verilmiş hüküm veya kanaat."
+          "word": "JOG",
+          "hint": "Hafif tempo koşu yapmak"
+        },
+        {
+          "word": "WALK THE DOG",
+          "hint": "Köpeği gezdirmek"
+        },
+        {
+          "word": "CHAT ONLINE",
+          "hint": "Çevrimiçi sohbet etmek"
+        },
+        {
+          "word": "HOBBY",
+          "hint": "Hobi, boş zaman etkinliği"
+        },
+        {
+          "word": "ROUTINE",
+          "hint": "Rutin, alışkanlık"
+        },
+        {
+          "word": "LEISURE TIME",
+          "hint": "Boş zaman"
+        },
+        {
+          "word": "DAILY ACTIVITIES",
+          "hint": "Günlük aktiviteler"
+        },
+        {
+          "word": "FREE TIME",
+          "hint": "Boş zaman"
+        },
+        {
+          "word": "PASTIME",
+          "hint": "Boş zaman aktivitesi"
+        },
+        {
+          "word": "WEEKEND",
+          "hint": "Hafta sonu"
+        },
+        {
+          "word": "WEEKDAYS",
+          "hint": "Hafta içi günler"
+        },
+        {
+          "word": "SPEND TIME",
+          "hint": "Zaman geçirmek"
+        },
+        {
+          "word": "RELAX",
+          "hint": "Rahatlamak"
+        },
+        {
+          "word": "EXPLORE",
+          "hint": "Keşfetmek"
+        },
+        {
+          "word": "ADVENTURE",
+          "hint": "Macera"
         }
       ]
     },
     {
       "id": "ingilizce_u3",
-      "name": "Unit 3: In the Classroom",
+      "name": "Unit 3: Sports",
       "months": [
         11
       ],
-      "words": []
+      "words": [
+        {
+          "word": "ATHLETE",
+          "hint": "Sporcu, atlet"
+        },
+        {
+          "word": "COMPETITION",
+          "hint": "Yarışma, müsabaka"
+        },
+        {
+          "word": "TEAM",
+          "hint": "Takım"
+        },
+        {
+          "word": "COACH",
+          "hint": "Antrenör"
+        },
+        {
+          "word": "SPECTATOR",
+          "hint": "Seyirci"
+        },
+        {
+          "word": "STADIUM",
+          "hint": "Stadyum"
+        },
+        {
+          "word": "COURT",
+          "hint": "Saha (tenis, basketbol gibi)"
+        },
+        {
+          "word": "PITCH",
+          "hint": "Saha (futbol, ragbi gibi)"
+        },
+        {
+          "word": "TRACK",
+          "hint": "Koşu pisti"
+        },
+        {
+          "word": "SWIMMING POOL",
+          "hint": "Yüzme havuzu"
+        },
+        {
+          "word": "REFEREE",
+          "hint": "Hakem (futbol, basketbol)"
+        },
+        {
+          "word": "UMPIRE",
+          "hint": "Hakem (tenis, beyzbol)"
+        },
+        {
+          "word": "GOAL",
+          "hint": "Gol, amaç"
+        },
+        {
+          "word": "SCORE",
+          "hint": "Skor, sayı"
+        },
+        {
+          "word": "WIN",
+          "hint": "Kazanmak"
+        },
+        {
+          "word": "LOSE",
+          "hint": "Kaybetmek"
+        },
+        {
+          "word": "DRAW",
+          "hint": "Berabere kalmak"
+        },
+        {
+          "word": "MEDAL",
+          "hint": "Madalya"
+        },
+        {
+          "word": "TROPHY",
+          "hint": "Kupa"
+        },
+        {
+          "word": "CHAMPIONSHIP",
+          "hint": "Şampiyonluk"
+        },
+        {
+          "word": "TOURNAMENT",
+          "hint": "Turnuva"
+        },
+        {
+          "word": "LEAGUE",
+          "hint": "Lig"
+        },
+        {
+          "word": "RECORD",
+          "hint": "Rekor"
+        },
+        {
+          "word": "WARM UP",
+          "hint": "Isınma hareketleri yapmak"
+        },
+        {
+          "word": "COOL DOWN",
+          "hint": "Soğuma hareketleri yapmak"
+        },
+        {
+          "word": "EXERCISE",
+          "hint": "Egzersiz yapmak"
+        },
+        {
+          "word": "FITNESS",
+          "hint": "Zindelik, formda olma"
+        },
+        {
+          "word": "STAMINA",
+          "hint": "Dayanıklılık, kondisyon"
+        },
+        {
+          "word": "STRENGTH",
+          "hint": "Güç, kuvvet"
+        },
+        {
+          "word": "SPEED",
+          "hint": "Hız"
+        },
+        {
+          "word": "AGILITY",
+          "hint": "Çeviklik"
+        },
+        {
+          "word": "FLEXIBILITY",
+          "hint": "Esneklik"
+        },
+        {
+          "word": "INJURY",
+          "hint": "Sakatlık, yaralanma"
+        },
+        {
+          "word": "FAIR PLAY",
+          "hint": "Centilmenlik, dürüst oyun"
+        },
+        {
+          "word": "SPORTSMANSHIP",
+          "hint": "Sportmenlik"
+        },
+        {
+          "word": "OPPONENT",
+          "hint": "Rakip"
+        },
+        {
+          "word": "TRAINING",
+          "hint": "Antrenman, idman"
+        },
+        {
+          "word": "PRACTICE",
+          "hint": "Antrenman yapmak, pratik"
+        },
+        {
+          "word": "CHEER",
+          "hint": "Tezahürat yapmak, alkışlamak"
+        },
+        {
+          "word": "WHISTLE",
+          "hint": "Düdük, düdük çalmak"
+        },
+        {
+          "word": "HELMET",
+          "hint": "Kask"
+        },
+        {
+          "word": "UNIFORM",
+          "hint": "Forma, üniforma"
+        },
+        {
+          "word": "GOGGLES",
+          "hint": "Yüzücü gözlüğü"
+        },
+        {
+          "word": "RACQUET",
+          "hint": "Raket (tenis, badminton)"
+        },
+        {
+          "word": "BALL",
+          "hint": "Top"
+        },
+        {
+          "word": "NET",
+          "hint": "File, ağ"
+        },
+        {
+          "word": "BAT",
+          "hint": "Sopa (beyzbol, kriket)"
+        },
+        {
+          "word": "GLOVE",
+          "hint": "Eldiven"
+        },
+        {
+          "word": "SKIING",
+          "hint": "Kayak sporu"
+        },
+        {
+          "word": "SNOWBOARDING",
+          "hint": "Snowboard sporu"
+        },
+        {
+          "word": "SURFING",
+          "hint": "Sörf yapmak"
+        },
+        {
+          "word": "CYCLING",
+          "hint": "Bisiklete binme, bisiklet sporu"
+        },
+        {
+          "word": "WEIGHTLIFTING",
+          "hint": "Halter kaldırma"
+        },
+        {
+          "word": "ARCHERY",
+          "hint": "Okçuluk"
+        },
+        {
+          "word": "FENCING",
+          "hint": "Eskrim"
+        },
+        {
+          "word": "GYMNASTICS",
+          "hint": "Cimnastik"
+        },
+        {
+          "word": "MARTIAL ARTS",
+          "hint": "Dövüş sanatları"
+        },
+        {
+          "word": "DIVING",
+          "hint": "Dalış (suya atlama)"
+        },
+        {
+          "word": "ROWING",
+          "hint": "Kürek çekme sporu"
+        },
+        {
+          "word": "WORKOUT",
+          "hint": "Antrenman, egzersiz seansı"
+        }
+      ]
     },
     {
       "id": "ingilizce_u4",
-      "name": "Unit 4: Numbers and Colors",
+      "name": "Unit 4: Traditions and Customs",
       "months": [
         12
       ],
-      "words": []
+      "words": [
+        {
+          "word": "TRADITION",
+          "hint": "Gelenek, bir toplumda nesilden nesile aktarılan inanç, adet veya davranış."
+        },
+        {
+          "word": "CUSTOM",
+          "hint": "Adet, bir toplum veya grubun yaygın ve kabul görmüş davranış biçimi."
+        },
+        {
+          "word": "HERITAGE",
+          "hint": "Miras, bir ülkenin veya toplumun geçmişinden gelen değerler, gelenekler ve eserler."
+        },
+        {
+          "word": "RITUAL",
+          "hint": "Ritüel, belirli bir düzene göre yapılan dini veya geleneksel tören."
+        },
+        {
+          "word": "CEREMONY",
+          "hint": "Tören, özel bir olayı kutlamak veya anmak için düzenlenen resmi etkinlik."
+        },
+        {
+          "word": "FESTIVAL",
+          "hint": "Festival, genellikle sanatsal veya kültürel kutlamaların yapıldığı büyük şenlik."
+        },
+        {
+          "word": "CELEBRATION",
+          "hint": "Kutlama, özel bir günü veya olayı şenlikli bir şekilde anma eylemi."
+        },
+        {
+          "word": "BELIEF",
+          "hint": "İnanç, doğru kabul edilen bir fikir veya düşünce."
+        },
+        {
+          "word": "VALUE",
+          "hint": "Değer, bir toplumun veya bireyin önem verdiği ilke veya standart."
+        },
+        {
+          "word": "ANCESTOR",
+          "hint": "Ata, soyundan gelinen önceki kuşaktan kişi."
+        },
+        {
+          "word": "GENERATION",
+          "hint": "Nesil, yaklaşık olarak aynı zamanda doğmuş ve yaşamış insanlar grubu."
+        },
+        {
+          "word": "FOLKLORE",
+          "hint": "Halkbilim, bir halkın geleneksel inançları, hikayeleri ve adetleri."
+        },
+        {
+          "word": "MYTH",
+          "hint": "Mit, genellikle doğaüstü olayları veya eski kahramanları anlatan geleneksel hikaye."
+        },
+        {
+          "word": "LEGEND",
+          "hint": "Efsane, tarihi bir temele dayanan, ancak zamanla abartılmış veya değiştirilmiş hikaye."
+        },
+        {
+          "word": "SUPERSTITION",
+          "hint": "Batıl inanç, genellikle mantıksız ve şansa veya büyülü etkilere dayalı inanç."
+        },
+        {
+          "word": "CONVENTION",
+          "hint": "Konvansiyon, belirli bir konuda kabul görmüş genel kural veya uygulama."
+        },
+        {
+          "word": "ETIQUETTE",
+          "hint": "Görgü kuralları, sosyal durumlarda uygun davranış biçimleri."
+        },
+        {
+          "word": "PRACTICE",
+          "hint": "Uygulama, bir şey yapma veya gerçekleştirme alışkanlığı."
+        },
+        {
+          "word": "OBSERVANCE",
+          "hint": "İcraat, bir kurala, yasaya veya geleneğe uyma eylemi."
+        },
+        {
+          "word": "COMMEMORATION",
+          "hint": "Anma, önemli bir olayı veya kişiyi hatırlama ve kutlama."
+        },
+        {
+          "word": "SPECIAL OCCASION",
+          "hint": "Özel gün, bir kutlama veya anma için ayrılmış önemli bir zaman."
+        },
+        {
+          "word": "LOCAL",
+          "hint": "Yerel, belirli bir bölgeye veya yere ait."
+        },
+        {
+          "word": "GLOBAL",
+          "hint": "Küresel, tüm dünyayı kapsayan."
+        },
+        {
+          "word": "ANCIENT",
+          "hint": "Antik, çok eski zamanlara ait."
+        },
+        {
+          "word": "MODERN",
+          "hint": "Modern, şimdiki zamanla ilgili veya çağdaş."
+        },
+        {
+          "word": "PRESERVE",
+          "hint": "Korumak, bir şeyi bozulmadan veya değişmeden muhafaza etmek."
+        },
+        {
+          "word": "PASS DOWN",
+          "hint": "Aktarmak, nesilden nesile devretmek."
+        },
+        {
+          "word": "RESPECT",
+          "hint": "Saygı duymak, birine veya bir şeye değer vermek."
+        },
+        {
+          "word": "PARTICIPATE",
+          "hint": "Katılmak, bir etkinliğe veya gruba dahil olmak."
+        },
+        {
+          "word": "EMBODY",
+          "hint": "Somutlaştırmak, bir fikri veya niteliği temsil etmek."
+        },
+        {
+          "word": "SYMBOLIZE",
+          "hint": "Sembolize etmek, bir şeyi temsil etmek veya simgelemek."
+        },
+        {
+          "word": "UNIQUE",
+          "hint": "Eşsiz, benzeri olmayan, tek."
+        },
+        {
+          "word": "DIVERSE",
+          "hint": "Çeşitli, farklı türleri veya unsurları içeren."
+        },
+        {
+          "word": "COMMUNITY",
+          "hint": "Topluluk, ortak özelliklere sahip insan grubu."
+        },
+        {
+          "word": "SOCIETY",
+          "hint": "Toplum, ortak bir coğrafyayı veya kültürü paylaşan büyük insan grubu."
+        },
+        {
+          "word": "IDENTITY",
+          "hint": "Kimlik, bir kişinin veya grubun kendisi olmasını sağlayan özellikler."
+        },
+        {
+          "word": "CHARACTERISTIC",
+          "hint": "Karakteristik, bir kişiyi veya şeyi tanımlayan belirleyici özellik."
+        },
+        {
+          "word": "TYPICAL",
+          "hint": "Tipik, bir türün veya grubun genel özelliklerini gösteren."
+        },
+        {
+          "word": "COMMON",
+          "hint": "Yaygın, birçok kişiye veya yere ait olan."
+        },
+        {
+          "word": "SIGNIFICANT",
+          "hint": "Önemli, kayda değer, anlamlı."
+        },
+        {
+          "word": "MEANING",
+          "hint": "Anlam, bir kelimenin, işaretin veya olayın ifade ettiği şey."
+        },
+        {
+          "word": "IMPORTANCE",
+          "hint": "Önem, bir şeyin değer veya etki düzeyi."
+        },
+        {
+          "word": "ROOT",
+          "hint": "Kök, bir şeyin başlangıcı veya kaynağı."
+        },
+        {
+          "word": "ORIGIN",
+          "hint": "Köken, bir şeyin başladığı yer veya nokta."
+        },
+        {
+          "word": "EVOLVE",
+          "hint": "Evrim geçirmek, zamanla kademeli olarak gelişmek veya değişmek."
+        },
+        {
+          "word": "ADAPT",
+          "hint": "Uyum sağlamak, yeni bir duruma veya çevreye alışmak."
+        },
+        {
+          "word": "INFLUENCE",
+          "hint": "Etki, bir şeyin başka bir şey üzerinde sahip olduğu güç."
+        },
+        {
+          "word": "BEHAVE",
+          "hint": "Davranmak, belirli bir şekilde hareket etmek."
+        },
+        {
+          "word": "MANNER",
+          "hint": "Tavır, bir kişinin belirli bir durumda davrandığı yol."
+        },
+        {
+          "word": "GESTURE",
+          "hint": "Jest, bir mesajı iletmek için el, kol veya baş hareketi."
+        }
+      ]
     },
     {
       "id": "ingilizce_u5",
-      "name": "Unit 5: Toys and Games",
+      "name": "Unit 5: Travel",
       "months": [
         1
       ],
-      "words": []
+      "words": [
+        {
+          "word": "ACCOMMODATION",
+          "hint": "Konaklama"
+        },
+        {
+          "word": "ADVENTURE",
+          "hint": "Macera"
+        },
+        {
+          "word": "AIRLINE",
+          "hint": "Havayolu"
+        },
+        {
+          "word": "AIRPORT",
+          "hint": "Havaalanı"
+        },
+        {
+          "word": "ATTRACTION",
+          "hint": "Turistik yer, cazibe merkezi"
+        },
+        {
+          "word": "BACKPACK",
+          "hint": "Sırt çantası"
+        },
+        {
+          "word": "BOARDING PASS",
+          "hint": "Biniş kartı"
+        },
+        {
+          "word": "BORDER",
+          "hint": "Sınır"
+        },
+        {
+          "word": "BROCHURE",
+          "hint": "Broşür"
+        },
+        {
+          "word": "BUDGET",
+          "hint": "Bütçe"
+        },
+        {
+          "word": "BAGGAGE",
+          "hint": "Bagaj"
+        },
+        {
+          "word": "CUSTOMS",
+          "hint": "Gümrük"
+        },
+        {
+          "word": "DEPARTURE",
+          "hint": "Kalkış"
+        },
+        {
+          "word": "DESTINATION",
+          "hint": "Varış yeri"
+        },
+        {
+          "word": "EXPLORER",
+          "hint": "Kaşif"
+        },
+        {
+          "word": "FARE",
+          "hint": "Bilet ücreti, yolculuk ücreti"
+        },
+        {
+          "word": "FOREIGN",
+          "hint": "Yabancı"
+        },
+        {
+          "word": "GUIDEBOOK",
+          "hint": "Rehber kitap"
+        },
+        {
+          "word": "HOSTEL",
+          "hint": "Pansiyon, öğrenci yurdu tarzı konaklama"
+        },
+        {
+          "word": "ITINERARY",
+          "hint": "Seyahat programı"
+        },
+        {
+          "word": "JOURNEY",
+          "hint": "Yolculuk"
+        },
+        {
+          "word": "LANDMARK",
+          "hint": "Önemli yapı/yer, simgesel yapı"
+        },
+        {
+          "word": "MAP",
+          "hint": "Harita"
+        },
+        {
+          "word": "MUSEUM",
+          "hint": "Müze"
+        },
+        {
+          "word": "PASSPORT",
+          "hint": "Pasaport"
+        },
+        {
+          "word": "PACKAGE TOUR",
+          "hint": "Paket tur"
+        },
+        {
+          "word": "RESORT",
+          "hint": "Tatil köyü"
+        },
+        {
+          "word": "SOUVENIR",
+          "hint": "Hatıra eşyası"
+        },
+        {
+          "word": "SIGHTSEEING",
+          "hint": "Gezi, turistik yerleri ziyaret etme"
+        },
+        {
+          "word": "SUITCASE",
+          "hint": "Bavul"
+        },
+        {
+          "word": "TENT",
+          "hint": "Çadır"
+        },
+        {
+          "word": "TOURISM",
+          "hint": "Turizm"
+        },
+        {
+          "word": "TOURIST",
+          "hint": "Turist"
+        },
+        {
+          "word": "TRAVEL AGENCY",
+          "hint": "Seyahat acentesi"
+        },
+        {
+          "word": "VISA",
+          "hint": "Vize"
+        },
+        {
+          "word": "VOYAGE",
+          "hint": "Deniz veya uzay yolculuğu"
+        },
+        {
+          "word": "ABROAD",
+          "hint": "Yurt dışı"
+        },
+        {
+          "word": "CRUISE",
+          "hint": "Gemi yolculuğu"
+        },
+        {
+          "word": "EXCURSION",
+          "hint": "Kısa gezi, seyahat"
+        },
+        {
+          "word": "RENT A CAR",
+          "hint": "Araba kiralamak"
+        },
+        {
+          "word": "BOOK A FLIGHT",
+          "hint": "Uçuş rezervasyonu yapmak"
+        },
+        {
+          "word": "CHECK-IN",
+          "hint": "Giriş yapmak (otel, havaalanı)"
+        },
+        {
+          "word": "DELAY",
+          "hint": "Gecikme"
+        },
+        {
+          "word": "EXPLORE",
+          "hint": "Keşfetmek"
+        },
+        {
+          "word": "EXPERIENCE",
+          "hint": "Deneyimlemek, deneyim"
+        },
+        {
+          "word": "LOCAL CUISINE",
+          "hint": "Yerel mutfak"
+        },
+        {
+          "word": "CURRENCY",
+          "hint": "Para birimi"
+        },
+        {
+          "word": "EXCHANGE RATE",
+          "hint": "Döviz kuru"
+        },
+        {
+          "word": "JET LAG",
+          "hint": "Uçak yolculuğu sonrası yorgunluk/uykusuzluk"
+        },
+        {
+          "word": "OVERNIGHT STAY",
+          "hint": "Gecelik konaklama"
+        },
+        {
+          "word": "ROUND TRIP",
+          "hint": "Gidiş-dönüş"
+        },
+        {
+          "word": "ONE-WAY TICKET",
+          "hint": "Tek yön bilet"
+        },
+        {
+          "word": "DEPARTURE LOUNGE",
+          "hint": "Gidiş salonu"
+        },
+        {
+          "word": "ARRIVALS HALL",
+          "hint": "Gelen yolcu salonu"
+        },
+        {
+          "word": "TRAVEL INSURANCE",
+          "hint": "Seyahat sigortası"
+        }
+      ]
     },
     {
       "id": "ingilizce_u6",
-      "name": "Unit 6: My Body and Clothes",
+      "name": "Unit 6: Health",
       "months": [
         2
       ],
-      "words": []
+      "words": [
+        {
+          "word": "ACHE",
+          "hint": "Ağrı, sızı"
+        },
+        {
+          "word": "ADDICTION",
+          "hint": "Bağımlılık"
+        },
+        {
+          "word": "APPOINTMENT",
+          "hint": "Randevu"
+        },
+        {
+          "word": "BALANCE",
+          "hint": "Denge"
+        },
+        {
+          "word": "BLOOD PRESSURE",
+          "hint": "Kan basıncı"
+        },
+        {
+          "word": "CALORIE",
+          "hint": "Kalori"
+        },
+        {
+          "word": "CHECK-UP",
+          "hint": "Kontrol, genel muayene"
+        },
+        {
+          "word": "CHRONIC",
+          "hint": "Kronik, müzmin (uzun süreli)"
+        },
+        {
+          "word": "CONTAGIOUS",
+          "hint": "Bulaşıcı"
+        },
+        {
+          "word": "CURE",
+          "hint": "Tedavi etmek, iyileştirmek; çare"
+        },
+        {
+          "word": "DEHYDRATION",
+          "hint": "Sıvı kaybı, susuz kalma"
+        },
+        {
+          "word": "DENTAL",
+          "hint": "Diş ile ilgili"
+        },
+        {
+          "word": "DIABETES",
+          "hint": "Diyabet, şeker hastalığı"
+        },
+        {
+          "word": "DISABILITY",
+          "hint": "Engellilik, sakatlık"
+        },
+        {
+          "word": "DISEASE",
+          "hint": "Hastalık"
+        },
+        {
+          "word": "DISORDER",
+          "hint": "Rahatsızlık, bozukluk"
+        },
+        {
+          "word": "EMERGENCY",
+          "hint": "Acil durum"
+        },
+        {
+          "word": "FATIGUE",
+          "hint": "Yorgunluk, bitkinlik"
+        },
+        {
+          "word": "FEVER",
+          "hint": "Ateş"
+        },
+        {
+          "word": "FITNESS",
+          "hint": "Zindelik, fiziksel uygunluk"
+        },
+        {
+          "word": "FLU",
+          "hint": "Grip"
+        },
+        {
+          "word": "GERMS",
+          "hint": "Mikroplar"
+        },
+        {
+          "word": "HABIT",
+          "hint": "Alışkanlık"
+        },
+        {
+          "word": "HARMFUL",
+          "hint": "Zararlı"
+        },
+        {
+          "word": "HEAL",
+          "hint": "İyileşmek, iyileştirmek"
+        },
+        {
+          "word": "HEART ATTACK",
+          "hint": "Kalp krizi"
+        },
+        {
+          "word": "HEALTHY LIFESTYLE",
+          "hint": "Sağlıklı yaşam tarzı"
+        },
+        {
+          "word": "HOSPITAL",
+          "hint": "Hastane"
+        },
+        {
+          "word": "IMMUNITY",
+          "hint": "Bağışıklık"
+        },
+        {
+          "word": "INFECTION",
+          "hint": "Enfeksiyon, iltihaplanma"
+        },
+        {
+          "word": "INJURY",
+          "hint": "Yaralanma, incinme"
+        },
+        {
+          "word": "JUNK FOOD",
+          "hint": "Abur cubur, sağlıksız yiyecekler"
+        },
+        {
+          "word": "LIFESTYLE",
+          "hint": "Yaşam tarzı"
+        },
+        {
+          "word": "MEDICATION",
+          "hint": "İlaç"
+        },
+        {
+          "word": "MENTAL WELL-BEING",
+          "hint": "Zihinsel iyilik hali"
+        },
+        {
+          "word": "NUTRITION",
+          "hint": "Beslenme"
+        },
+        {
+          "word": "OBESITY",
+          "hint": "Obezite, aşırı şişmanlık"
+        },
+        {
+          "word": "OPERATION",
+          "hint": "Ameliyat"
+        },
+        {
+          "word": "PAINKILLER",
+          "hint": "Ağrı kesici"
+        },
+        {
+          "word": "PATIENT",
+          "hint": "Hasta"
+        },
+        {
+          "word": "PHYSICAL ACTIVITY",
+          "hint": "Fiziksel aktivite"
+        },
+        {
+          "word": "PRESCRIPTION",
+          "hint": "Reçete"
+        },
+        {
+          "word": "PREVENTION",
+          "hint": "Önleme, korunma"
+        },
+        {
+          "word": "RECOVERY",
+          "hint": "İyileşme, kendine gelme"
+        },
+        {
+          "word": "REGULAR",
+          "hint": "Düzenli"
+        },
+        {
+          "word": "SICKNESS",
+          "hint": "Hastalık, rahatsızlık"
+        },
+        {
+          "word": "SIDE EFFECT",
+          "hint": "Yan etki"
+        },
+        {
+          "word": "SLEEP DEPRIVATION",
+          "hint": "Uyku yoksunluğu"
+        },
+        {
+          "word": "SORE THROAT",
+          "hint": "Boğaz ağrısı"
+        },
+        {
+          "word": "STRESS",
+          "hint": "Stres"
+        },
+        {
+          "word": "SYMPTOMS",
+          "hint": "Belirtiler"
+        },
+        {
+          "word": "THERAPY",
+          "hint": "Terapi, tedavi"
+        },
+        {
+          "word": "TREATMENT",
+          "hint": "Tedavi"
+        },
+        {
+          "word": "VACCINATION",
+          "hint": "Aşılama"
+        },
+        {
+          "word": "VITAMIN",
+          "hint": "Vitamin"
+        },
+        {
+          "word": "WEIGHT GAIN",
+          "hint": "Kilo alımı"
+        },
+        {
+          "word": "WELL-BEING",
+          "hint": "Esenlik, iyilik hali"
+        },
+        {
+          "word": "WORKOUT",
+          "hint": "Egzersiz yapmak, antrenman"
+        },
+        {
+          "word": "X-RAY",
+          "hint": "Röntgen"
+        }
+      ]
     },
     {
       "id": "ingilizce_u7",
-      "name": "Unit 7: Pets and Animals",
+      "name": "Unit 7: Food and Drinks",
       "months": [
         3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "APPLE",
+          "hint": "Elma"
+        },
+        {
+          "word": "BANANA",
+          "hint": "Muz"
+        },
+        {
+          "word": "ORANGE",
+          "hint": "Portakal"
+        },
+        {
+          "word": "GRAPE",
+          "hint": "Üzüm"
+        },
+        {
+          "word": "STRAWBERRY",
+          "hint": "Çilek"
+        },
+        {
+          "word": "CHERRY",
+          "hint": "Kiraz"
+        },
+        {
+          "word": "PEACH",
+          "hint": "Şeftali"
+        },
+        {
+          "word": "PEAR",
+          "hint": "Armut"
+        },
+        {
+          "word": "PINEAPPLE",
+          "hint": "Ananas"
+        },
+        {
+          "word": "WATERMELON",
+          "hint": "Karpuz"
+        },
+        {
+          "word": "MELON",
+          "hint": "Kavun"
+        },
+        {
+          "word": "CARROT",
+          "hint": "Havuç"
+        },
+        {
+          "word": "POTATO",
+          "hint": "Patates"
+        },
+        {
+          "word": "TOMATO",
+          "hint": "Domates"
+        },
+        {
+          "word": "ONION",
+          "hint": "Soğan"
+        },
+        {
+          "word": "GARLIC",
+          "hint": "Sarımsak"
+        },
+        {
+          "word": "CUCUMBER",
+          "hint": "Salatalık"
+        },
+        {
+          "word": "LETTUCE",
+          "hint": "Marul"
+        },
+        {
+          "word": "BROCCOLI",
+          "hint": "Brokoli"
+        },
+        {
+          "word": "SPINACH",
+          "hint": "Ispanak"
+        },
+        {
+          "word": "CORN",
+          "hint": "Mısır"
+        },
+        {
+          "word": "PEA",
+          "hint": "Bezelye"
+        },
+        {
+          "word": "BEAN",
+          "hint": "Fasulye"
+        },
+        {
+          "word": "PEPPER",
+          "hint": "Biber"
+        },
+        {
+          "word": "EGGPLANT",
+          "hint": "Patlıcan"
+        },
+        {
+          "word": "ZUCCHINI",
+          "hint": "Kabak"
+        },
+        {
+          "word": "MUSHROOM",
+          "hint": "Mantar"
+        },
+        {
+          "word": "CHICKEN",
+          "hint": "Tavuk"
+        },
+        {
+          "word": "BEEF",
+          "hint": "Sığır eti"
+        },
+        {
+          "word": "LAMB",
+          "hint": "Kuzu eti"
+        },
+        {
+          "word": "FISH",
+          "hint": "Balık"
+        },
+        {
+          "word": "MILK",
+          "hint": "Süt"
+        },
+        {
+          "word": "CHEESE",
+          "hint": "Peynir"
+        },
+        {
+          "word": "YOGURT",
+          "hint": "Yoğurt"
+        },
+        {
+          "word": "BUTTER",
+          "hint": "Tereyağı"
+        },
+        {
+          "word": "BREAD",
+          "hint": "Ekmek"
+        },
+        {
+          "word": "RICE",
+          "hint": "Pirinç"
+        },
+        {
+          "word": "PASTA",
+          "hint": "Makarna"
+        },
+        {
+          "word": "CEREAL",
+          "hint": "Kahvaltılık gevrek"
+        },
+        {
+          "word": "CAKE",
+          "hint": "Kek"
+        },
+        {
+          "word": "COOKIE",
+          "hint": "Kurabiye"
+        },
+        {
+          "word": "CHOCOLATE",
+          "hint": "Çikolata"
+        },
+        {
+          "word": "ICE CREAM",
+          "hint": "Dondurma"
+        },
+        {
+          "word": "WATER",
+          "hint": "Su"
+        },
+        {
+          "word": "JUICE",
+          "hint": "Meyve suyu"
+        },
+        {
+          "word": "TEA",
+          "hint": "Çay"
+        },
+        {
+          "word": "COFFEE",
+          "hint": "Kahve"
+        },
+        {
+          "word": "SUGAR",
+          "hint": "Şeker"
+        },
+        {
+          "word": "SALT",
+          "hint": "Tuz"
+        },
+        {
+          "word": "OIL",
+          "hint": "Yağ"
+        },
+        {
+          "word": "OLIVE",
+          "hint": "Zeytin"
+        },
+        {
+          "word": "VINEGAR",
+          "hint": "Sirke"
+        },
+        {
+          "word": "SAUCE",
+          "hint": "Sos"
+        },
+        {
+          "word": "SOUP",
+          "hint": "Çorba"
+        },
+        {
+          "word": "SALAD",
+          "hint": "Salata"
+        },
+        {
+          "word": "JAM",
+          "hint": "Reçel"
+        },
+        {
+          "word": "HONEY",
+          "hint": "Bal"
+        },
+        {
+          "word": "COOK",
+          "hint": "Pişirmek"
+        },
+        {
+          "word": "BAKE",
+          "hint": "Fırında pişirmek"
+        },
+        {
+          "word": "FRY",
+          "hint": "Kızartmak"
+        },
+        {
+          "word": "BOIL",
+          "hint": "Kaynatmak"
+        },
+        {
+          "word": "GRILL",
+          "hint": "Izgara yapmak"
+        },
+        {
+          "word": "ROAST",
+          "hint": "Fırında kızartmak"
+        },
+        {
+          "word": "CHOP",
+          "hint": "Doğramak (küçük parçalar halinde)"
+        },
+        {
+          "word": "SLICE",
+          "hint": "Dilimlemek"
+        },
+        {
+          "word": "PEEL",
+          "hint": "Soymak"
+        },
+        {
+          "word": "MIX",
+          "hint": "Karıştırmak"
+        },
+        {
+          "word": "STIR",
+          "hint": "Karıştırmak (bir kaşıkla)"
+        },
+        {
+          "word": "TASTE",
+          "hint": "Tatmak"
+        },
+        {
+          "word": "EAT",
+          "hint": "Yemek yemek"
+        },
+        {
+          "word": "DRINK",
+          "hint": "İçmek"
+        },
+        {
+          "word": "SERVE",
+          "hint": "Servis yapmak"
+        },
+        {
+          "word": "PREPARE",
+          "hint": "Hazırlamak"
+        },
+        {
+          "word": "CUT",
+          "hint": "Kesmek"
+        },
+        {
+          "word": "POUR",
+          "hint": "Dökmek"
+        },
+        {
+          "word": "RESTAURANT",
+          "hint": "Restoran"
+        },
+        {
+          "word": "CAFE",
+          "hint": "Kafe"
+        },
+        {
+          "word": "KITCHEN",
+          "hint": "Mutfak"
+        },
+        {
+          "word": "DINING ROOM",
+          "hint": "Yemek odası"
+        },
+        {
+          "word": "CHEF",
+          "hint": "Şef aşçı"
+        },
+        {
+          "word": "WAITER",
+          "hint": "Garson"
+        },
+        {
+          "word": "WAITRESS",
+          "hint": "Kadın garson"
+        },
+        {
+          "word": "MENU",
+          "hint": "Menü"
+        },
+        {
+          "word": "RECIPE",
+          "hint": "Yemek tarifi"
+        },
+        {
+          "word": "GROCERY STORE",
+          "hint": "Market, bakkal"
+        },
+        {
+          "word": "SUPERMARKET",
+          "hint": "Süpermarket"
+        },
+        {
+          "word": "MEAL",
+          "hint": "Öğün, yemek"
+        },
+        {
+          "word": "BREAKFAST",
+          "hint": "Kahvaltı"
+        },
+        {
+          "word": "LUNCH",
+          "hint": "Öğle yemeği"
+        },
+        {
+          "word": "DINNER",
+          "hint": "Akşam yemeği"
+        },
+        {
+          "word": "SNACK",
+          "hint": "Atıştırmalık"
+        },
+        {
+          "word": "DESSERT",
+          "hint": "Tatlı"
+        },
+        {
+          "word": "DELICIOUS",
+          "hint": "Lezzetli"
+        },
+        {
+          "word": "TASTY",
+          "hint": "Nefis, lezzetli"
+        },
+        {
+          "word": "HEALTHY",
+          "hint": "Sağlıklı"
+        },
+        {
+          "word": "UNHEALTHY",
+          "hint": "Sağlıksız"
+        },
+        {
+          "word": "SWEET",
+          "hint": "Tatlı (lezzet)"
+        },
+        {
+          "word": "SOUR",
+          "hint": "Ekşi"
+        },
+        {
+          "word": "SPICY",
+          "hint": "Baharatlı, acı"
+        },
+        {
+          "word": "SALTY",
+          "hint": "Tuzlu"
+        }
+      ]
     },
     {
       "id": "ingilizce_u8",
-      "name": "Unit 8: My Daily Routine",
+      "name": "Unit 8: Science and Technology",
       "months": [
         4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "INNOVATION",
+          "hint": "Yenilik, buluş"
+        },
+        {
+          "word": "DISCOVERY",
+          "hint": "Keşif"
+        },
+        {
+          "word": "RESEARCH",
+          "hint": "Araştırma"
+        },
+        {
+          "word": "EXPERIMENT",
+          "hint": "Deney"
+        },
+        {
+          "word": "TECHNOLOGY",
+          "hint": "Teknoloji"
+        },
+        {
+          "word": "SCIENCE",
+          "hint": "Bilim"
+        },
+        {
+          "word": "ALGORITHM",
+          "hint": "Bir problemi çözmek için adım adım yönergeler dizisi."
+        },
+        {
+          "word": "ARTIFICIAL INTELLIGENCE (AI)",
+          "hint": "Makinelerin insan zekasını taklit etme yeteneği."
+        },
+        {
+          "word": "ROBOT",
+          "hint": "Otomatik görevler yapabilen makine."
+        },
+        {
+          "word": "AUTOMATION",
+          "hint": "Görevlerin insan müdahalesi olmadan otomatik olarak yapılması."
+        },
+        {
+          "word": "SOFTWARE",
+          "hint": "Bilgisayarı çalıştıran programlar ve veriler."
+        },
+        {
+          "word": "HARDWARE",
+          "hint": "Bir bilgisayarın fiziksel bileşenleri."
+        },
+        {
+          "word": "INTERNET",
+          "hint": "Dünya çapında bilgisayar ağları sistemi."
+        },
+        {
+          "word": "CYBERSECURITY",
+          "hint": "Bilgisayar sistemlerini ve verilerini yetkisiz erişimden koruma."
+        },
+        {
+          "word": "VIRTUAL REALITY (VR)",
+          "hint": "Sanal Gerçeklik; bilgisayar tarafından oluşturulan üç boyutlu ortam."
+        },
+        {
+          "word": "AUGMENTED REALITY (AR)",
+          "hint": "Artırılmış Gerçeklik; dijital bilgilerin gerçek dünya görüntüsüne eklenmesi."
+        },
+        {
+          "word": "CODING",
+          "hint": "Bilgisayar programları yazma eylemi."
+        },
+        {
+          "word": "PROGRAMMING",
+          "hint": "Bilgisayara belirli görevleri yapması için talimat verme."
+        },
+        {
+          "word": "DATA",
+          "hint": "Bilgi işlemeye veya depolamaya uygun hale getirilmiş gerçekler ve istatistikler."
+        },
+        {
+          "word": "NETWORK",
+          "hint": "Bilgi alışverişi yapabilen bağlı cihazlar grubu."
+        },
+        {
+          "word": "OPERATING SYSTEM",
+          "hint": "İşletim Sistemi; bilgisayar donanımını ve yazılım kaynaklarını yöneten yazılım."
+        },
+        {
+          "word": "APPLICATION",
+          "hint": "Uygulama; belirli bir görevi gerçekleştirmek için tasarlanmış yazılım."
+        },
+        {
+          "word": "DIGITAL",
+          "hint": "Sayısal; bilgiyi elektronik formatta temsil eden."
+        },
+        {
+          "word": "SATELLITE",
+          "hint": "Uydu; Dünya'nın veya başka bir gezegenin yörüngesinde dönen insan yapımı cihaz."
+        },
+        {
+          "word": "TELESCOPE",
+          "hint": "Uzaktaki nesneleri büyütmek için kullanılan optik alet."
+        },
+        {
+          "word": "SPACECRAFT",
+          "hint": "Uzay aracı; uzayda seyahat etmek için tasarlanmış araç."
+        },
+        {
+          "word": "ROCKET",
+          "hint": "Roket; uzaya fırlatmak için kullanılan motorlu araç."
+        },
+        {
+          "word": "EXPLORATION",
+          "hint": "Keşif; bir bölgeyi veya konuyu araştırma eylemi."
+        },
+        {
+          "word": "ASTRONAUT",
+          "hint": "Uzayda seyahat etmek için eğitilmiş kişi."
+        },
+        {
+          "word": "GALAXY",
+          "hint": "Galaksi; yıldızlar, gaz ve tozdan oluşan büyük bir sistem."
+        },
+        {
+          "word": "PLANET",
+          "hint": "Gezegen; bir yıldızın yörüngesinde dönen büyük gök cismi."
+        },
+        {
+          "word": "ORBIT",
+          "hint": "Yörünge; bir gök cisminin başka bir gök cismi etrafındaki yolu."
+        },
+        {
+          "word": "RENEWABLE ENERGY",
+          "hint": "Yenilenebilir Enerji; güneş, rüzgar gibi doğal kaynaklardan elde edilen enerji."
+        },
+        {
+          "word": "SUSTAINABLE",
+          "hint": "Sürdürülebilir; gelecek nesillerin ihtiyaçlarını tehlikeye atmadan bugünkü ihtiyaçları karşılama yeteneği."
+        },
+        {
+          "word": "POLLUTION",
+          "hint": "Kirlilik; çevreyi kirleten zararlı maddeler."
+        },
+        {
+          "word": "CLIMATE CHANGE",
+          "hint": "İklim Değişikliği; gezegenin uzun vadeli hava durumu modellerindeki değişiklikler."
+        },
+        {
+          "word": "SOLAR PANEL",
+          "hint": "Güneş enerjisini elektriğe dönüştüren cihaz."
+        },
+        {
+          "word": "WIND TURBINE",
+          "hint": "Rüzgar enerjisini elektriğe dönüştüren türbin."
+        },
+        {
+          "word": "VACCINE",
+          "hint": "Aşı; hastalıklara karşı bağışıklık sağlayan madde."
+        },
+        {
+          "word": "GENE THERAPY",
+          "hint": "Gen Terapisi; hastalıkları tedavi etmek için genleri değiştiren yöntem."
+        },
+        {
+          "word": "MEDICAL IMAGING",
+          "hint": "Tıbbi Görüntüleme; vücudun içini incelemek için kullanılan teknikler (örn: X-ray, MRI)."
+        },
+        {
+          "word": "BIOTECHNOLOGY",
+          "hint": "Biyoteknoloji; yaşayan organizmaları ürünler yapmak veya sorunları çözmek için kullanma."
+        },
+        {
+          "word": "DIAGNOSIS",
+          "hint": "Teşhis; bir hastalığın veya sorunun doğasını belirleme eylemi."
+        },
+        {
+          "word": "TREATMENT",
+          "hint": "Tedavi; bir hastalığı iyileştirmek veya semptomları hafifletmek için uygulanan yöntem."
+        },
+        {
+          "word": "GENETICS",
+          "hint": "Genetik; kalıtım ve genlerin incelenmesi."
+        },
+        {
+          "word": "ECOSYSTEM",
+          "hint": "Ekosistem; bir bölgedeki canlılar ve fiziksel çevrelerinin etkileşimi."
+        },
+        {
+          "word": "SPECIES",
+          "hint": "Tür; benzer özelliklere sahip ve birbiriyle üreyebilen canlı grubu."
+        },
+        {
+          "word": "EVOLUTION",
+          "hint": "Evrim; canlı popülasyonlarının nesiller boyunca değişimi."
+        },
+        {
+          "word": "CELL",
+          "hint": "Hücre; tüm canlı organizmaların temel yapı birimi."
+        },
+        {
+          "word": "DNA",
+          "hint": "Deoksiribonükleik Asit; canlıların genetik bilgisini taşıyan molekül."
+        },
+        {
+          "word": "ORGANISM",
+          "hint": "Organizma; herhangi bir canlı varlık."
+        },
+        {
+          "word": "PHOTOSYNTHESIS",
+          "hint": "Fotosentez; bitkilerin güneş ışığını kullanarak besin üretmesi."
+        },
+        {
+          "word": "ELEMENT",
+          "hint": "Element; tek tip atomdan oluşan saf madde."
+        },
+        {
+          "word": "COMPOUND",
+          "hint": "Bileşik; iki veya daha fazla farklı elementin kimyasal olarak birleşmesiyle oluşan madde."
+        },
+        {
+          "word": "ATOM",
+          "hint": "Atom; bir elementin kimyasal özelliklerini taşıyan en küçük birimi."
+        },
+        {
+          "word": "GRAVITY",
+          "hint": "Yerçekimi; cisimleri birbirine çeken doğal kuvvet."
+        },
+        {
+          "word": "ENERGY",
+          "hint": "Enerji; iş yapma kapasitesi."
+        },
+        {
+          "word": "THEORY",
+          "hint": "Teori; olayları açıklayan, gözlemlere ve deneylere dayalı bilimsel açıklama."
+        },
+        {
+          "word": "HYPOTHESIS",
+          "hint": "Hipotez; test edilebilir bir açıklama veya varsayım."
+        },
+        {
+          "word": "OBSERVATION",
+          "hint": "Gözlem; bir olayı veya deneyi dikkatle izleme."
+        }
+      ]
     },
     {
       "id": "ingilizce_u9",
-      "name": "Unit 9: Fruits and Food",
+      "name": "Unit 9: Environment",
       "months": [
         5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "ENVIRONMENT",
+          "hint": "Çevre, doğal ortam"
+        },
+        {
+          "word": "POLLUTION",
+          "hint": "Kirlilik"
+        },
+        {
+          "word": "GLOBAL WARMING",
+          "hint": "Küresel ısınma"
+        },
+        {
+          "word": "CLIMATE CHANGE",
+          "hint": "İklim değişikliği"
+        },
+        {
+          "word": "ECOSYSTEM",
+          "hint": "Ekosistem, canlıların ve cansız çevrelerinin oluşturduğu sistem"
+        },
+        {
+          "word": "BIODIVERSITY",
+          "hint": "Biyoçeşitlilik, bir bölgedeki yaşam formlarının çeşitliliği"
+        },
+        {
+          "word": "DEFORESTATION",
+          "hint": "Ormansızlaşma, ormanların yok edilmesi"
+        },
+        {
+          "word": "CONSERVATION",
+          "hint": "Koruma, muhafaza etme (özellikle doğal kaynakları)"
+        },
+        {
+          "word": "RECYCLE",
+          "hint": "Geri dönüştürmek"
+        },
+        {
+          "word": "REDUCE",
+          "hint": "Azaltmak, eksiltmek"
+        },
+        {
+          "word": "REUSE",
+          "hint": "Yeniden kullanmak"
+        },
+        {
+          "word": "RENEWABLE ENERGY",
+          "hint": "Yenilenebilir enerji"
+        },
+        {
+          "word": "SOLAR POWER",
+          "hint": "Güneş enerjisi"
+        },
+        {
+          "word": "WIND POWER",
+          "hint": "Rüzgar enerjisi"
+        },
+        {
+          "word": "HYDROELECTRIC POWER",
+          "hint": "Hidroelektrik enerji, su gücüyle üretilen elektrik"
+        },
+        {
+          "word": "FOSSIL FUELS",
+          "hint": "Fosil yakıtlar (kömür, petrol, doğalgaz gibi)"
+        },
+        {
+          "word": "GREENHOUSE GASES",
+          "hint": "Sera gazları"
+        },
+        {
+          "word": "OZONE LAYER",
+          "hint": "Ozon tabakası"
+        },
+        {
+          "word": "ENDANGERED SPECIES",
+          "hint": "Nesli tükenmekte olan türler"
+        },
+        {
+          "word": "EXTINCTION",
+          "hint": "Neslinin tükenmesi"
+        },
+        {
+          "word": "HABITAT",
+          "hint": "Yaşam alanı, doğal ortam"
+        },
+        {
+          "word": "SUSTAINABLE",
+          "hint": "Sürdürülebilir"
+        },
+        {
+          "word": "CARBON FOOTPRINT",
+          "hint": "Karbon ayak izi"
+        },
+        {
+          "word": "WASTE",
+          "hint": "Atık, çöp"
+        },
+        {
+          "word": "LANDFILL",
+          "hint": "Çöp depolama alanı"
+        },
+        {
+          "word": "AIR POLLUTION",
+          "hint": "Hava kirliliği"
+        },
+        {
+          "word": "WATER POLLUTION",
+          "hint": "Su kirliliği"
+        },
+        {
+          "word": "SOIL POLLUTION",
+          "hint": "Toprak kirliliği"
+        },
+        {
+          "word": "ACID RAIN",
+          "hint": "Asit yağmuru"
+        },
+        {
+          "word": "DESERTIFICATION",
+          "hint": "Çölleşme"
+        },
+        {
+          "word": "NATURAL RESOURCES",
+          "hint": "Doğal kaynaklar"
+        },
+        {
+          "word": "ENVIRONMENTAL PROTECTION",
+          "hint": "Çevre koruma"
+        },
+        {
+          "word": "ECO-FRIENDLY",
+          "hint": "Çevre dostu"
+        },
+        {
+          "word": "COMPOST",
+          "hint": "Kompost, organik gübre"
+        },
+        {
+          "word": "EMISSIONS",
+          "hint": "Emisyonlar, salınımlar (gaz veya partikül)"
+        },
+        {
+          "word": "PLASTIC WASTE",
+          "hint": "Plastik atık"
+        },
+        {
+          "word": "MARINE LIFE",
+          "hint": "Deniz yaşamı, deniz canlıları"
+        },
+        {
+          "word": "WILDLIFE",
+          "hint": "Yaban hayatı, vahşi yaşam"
+        },
+        {
+          "word": "BIODEGRADABLE",
+          "hint": "Biyolojik olarak parçalanabilir"
+        },
+        {
+          "word": "ORGANIC",
+          "hint": "Organik, doğal"
+        },
+        {
+          "word": "POLLUTANT",
+          "hint": "Kirletici madde"
+        },
+        {
+          "word": "CONSERVATIONIST",
+          "hint": "Çevreci, doğa koruyucu"
+        },
+        {
+          "word": "ADVOCATE",
+          "hint": "Savunucu, destekleyici"
+        },
+        {
+          "word": "IMPACT",
+          "hint": "Etki, tesir"
+        },
+        {
+          "word": "SOLUTION",
+          "hint": "Çözüm"
+        },
+        {
+          "word": "THREAT",
+          "hint": "Tehdit"
+        },
+        {
+          "word": "OVERCONSUMPTION",
+          "hint": "Aşırı tüketim"
+        },
+        {
+          "word": "SEA LEVEL RISE",
+          "hint": "Deniz seviyesi yükselmesi"
+        },
+        {
+          "word": "MELTING GLACIERS",
+          "hint": "Buzulların erimesi"
+        },
+        {
+          "word": "WATER SCARCITY",
+          "hint": "Su kıtlığı"
+        },
+        {
+          "word": "REFORESTATION",
+          "hint": "Yeniden ağaçlandırma"
+        },
+        {
+          "word": "DEGRADATION",
+          "hint": "Bozulma, kötüleşme (çevresel)"
+        },
+        {
+          "word": "EROSION",
+          "hint": "Erozyon, toprak aşınması"
+        },
+        {
+          "word": "GREENHOUSE EFFECT",
+          "hint": "Sera etkisi"
+        },
+        {
+          "word": "RECYCLING BIN",
+          "hint": "Geri dönüşüm kutusu"
+        },
+        {
+          "word": "NATURAL DISASTER",
+          "hint": "Doğal afet"
+        },
+        {
+          "word": "EXTINCT SPECIES",
+          "hint": "Nesli tükenmiş türler"
+        }
+      ]
     },
     {
       "id": "ingilizce_u10",
-      "name": "Unit 10: Animal Shelter and Nature",
+      "name": "Unit 10: Social Issues",
       "months": [
         6
       ],
-      "words": []
+      "words": [
+        {
+          "word": "POVERTY",
+          "hint": "Yoksulluk"
+        },
+        {
+          "word": "INEQUALITY",
+          "hint": "Eşitsizlik"
+        },
+        {
+          "word": "DISCRIMINATION",
+          "hint": "Ayrımcılık"
+        },
+        {
+          "word": "PREJUDICE",
+          "hint": "Önyargı"
+        },
+        {
+          "word": "RACISM",
+          "hint": "Irkçılık"
+        },
+        {
+          "word": "GENDER INEQUALITY",
+          "hint": "Cinsiyet eşitsizliği"
+        },
+        {
+          "word": "HOMELESSNESS",
+          "hint": "Evsizlik"
+        },
+        {
+          "word": "UNEMPLOYMENT",
+          "hint": "İşsizlik"
+        },
+        {
+          "word": "EXPLOITATION",
+          "hint": "Sömürü"
+        },
+        {
+          "word": "HUMAN RIGHTS",
+          "hint": "İnsan hakları"
+        },
+        {
+          "word": "REFUGEE",
+          "hint": "Mülteci"
+        },
+        {
+          "word": "IMMIGRANT",
+          "hint": "Göçmen"
+        },
+        {
+          "word": "MIGRATION",
+          "hint": "Göç"
+        },
+        {
+          "word": "POVERTY LINE",
+          "hint": "Yoksulluk sınırı"
+        },
+        {
+          "word": "SOCIAL JUSTICE",
+          "hint": "Sosyal adalet"
+        },
+        {
+          "word": "ADVOCATE",
+          "hint": "Savunucu, bir şeyi destekleyen kişi"
+        },
+        {
+          "word": "ACTIVISM",
+          "hint": "Aktivizm, eylemcilik"
+        },
+        {
+          "word": "VOLUNTEER",
+          "hint": "Gönüllü"
+        },
+        {
+          "word": "CHARITY",
+          "hint": "Hayır kurumu, yardım kuruluşu"
+        },
+        {
+          "word": "DONATION",
+          "hint": "Bağış"
+        },
+        {
+          "word": "ENVIRONMENTAL POLLUTION",
+          "hint": "Çevre kirliliği"
+        },
+        {
+          "word": "CLIMATE CHANGE",
+          "hint": "İklim değişikliği"
+        },
+        {
+          "word": "GLOBAL WARMING",
+          "hint": "Küresel ısınma"
+        },
+        {
+          "word": "DEFORESTATION",
+          "hint": "Ormansızlaşma"
+        },
+        {
+          "word": "SUSTAINABLE DEVELOPMENT",
+          "hint": "Sürdürülebilir kalkınma"
+        },
+        {
+          "word": "RENEWABLE ENERGY",
+          "hint": "Yenilenebilir enerji"
+        },
+        {
+          "word": "WASTE MANAGEMENT",
+          "hint": "Atık yönetimi"
+        },
+        {
+          "word": "RECYCLING",
+          "hint": "Geri dönüşüm"
+        },
+        {
+          "word": "BIODIVERSITY",
+          "hint": "Biyoçeşitlilik"
+        },
+        {
+          "word": "CONSERVATION",
+          "hint": "Koruma, muhafaza etme"
+        },
+        {
+          "word": "CHILD LABOR",
+          "hint": "Çocuk işçiliği"
+        },
+        {
+          "word": "DOMESTIC VIOLENCE",
+          "hint": "Aile içi şiddet"
+        },
+        {
+          "word": "BULLYING",
+          "hint": "Zorbalık"
+        },
+        {
+          "word": "CYBERBULLYING",
+          "hint": "Siber zorbalık"
+        },
+        {
+          "word": "DRUG ABUSE",
+          "hint": "Madde bağımlılığı"
+        },
+        {
+          "word": "ADDICTION",
+          "hint": "Bağımlılık"
+        },
+        {
+          "word": "ILLITERACY",
+          "hint": "Okuryazarlık"
+        },
+        {
+          "word": "ACCESS TO EDUCATION",
+          "hint": "Eğitime erişim"
+        },
+        {
+          "word": "HEALTHCARE",
+          "hint": "Sağlık hizmeti"
+        },
+        {
+          "word": "MENTAL HEALTH",
+          "hint": "Ruh sağlığı"
+        },
+        {
+          "word": "DISABILITY",
+          "hint": "Engellilik"
+        },
+        {
+          "word": "SOCIAL INCLUSION",
+          "hint": "Sosyal içerme"
+        },
+        {
+          "word": "STEREOTYPE",
+          "hint": "Kalıp yargı, basmakalıp düşünce"
+        },
+        {
+          "word": "EMPOWERMENT",
+          "hint": "Güçlendirme, yetkilendirme"
+        },
+        {
+          "word": "AWARENESS",
+          "hint": "Farkındalık"
+        },
+        {
+          "word": "SOLUTION",
+          "hint": "Çözüm"
+        },
+        {
+          "word": "CHALLENGE",
+          "hint": "Zorluk, meydan okuma"
+        },
+        {
+          "word": "COMMUNITY SERVICE",
+          "hint": "Toplum hizmeti"
+        },
+        {
+          "word": "POVERTY ALLEVIATION",
+          "hint": "Yoksulluğu azaltma"
+        },
+        {
+          "word": "SOCIAL WELFARE",
+          "hint": "Sosyal refah"
+        },
+        {
+          "word": "MARGINALIZATION",
+          "hint": "Marjinalleşme"
+        },
+        {
+          "word": "DISPARITY",
+          "hint": "Farklılık, eşitsizlik"
+        },
+        {
+          "word": "GENDER EQUALITY",
+          "hint": "Cinsiyet eşitliği"
+        },
+        {
+          "word": "HUMAN TRAFFICKING",
+          "hint": "İnsan kaçakçılığı"
+        },
+        {
+          "word": "REFUGEE CRISIS",
+          "hint": "Mülteci krizi"
+        },
+        {
+          "word": "SOCIAL RESPONSIBILITY",
+          "hint": "Sosyal sorumluluk"
+        },
+        {
+          "word": "DIGITAL DIVIDE",
+          "hint": "Dijital uçurum"
+        },
+        {
+          "word": "FOOD INSECURITY",
+          "hint": "Gıda güvensizliği"
+        },
+        {
+          "word": "PUBLIC AWARENESS",
+          "hint": "Kamu farkındalığı"
+        },
+        {
+          "word": "ADVOCACY GROUP",
+          "hint": "Savunuculuk grubu"
+        }
+      ]
     }
   ]
 }

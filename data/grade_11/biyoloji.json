@@ -2,7 +2,7 @@
   "units": [
     {
       "id": "biyoloji_u1",
-      "name": "1. Ünite: Sinir Sistemi",
+      "name": "1. Ünite: İnsan Fizyolojisi (Sinir Sistemi, Endokrin Sistem, Destek ve Hareket Sistemi)",
       "months": [
         9,
         10
@@ -29,11 +29,11 @@
           "hint": "Solunum ve kalp atışını kontrol eden beyin bölümü"
         },
         {
-          "word": "DENDRİ̇T",
+          "word": "DENDRİT",
           "hint": "Sinir hücresinin diğer nöronlardan uyarı alan, ağaç dalları gibi uzanan kısa uzantıları."
         },
         {
-          "word": "Mİ̇YELİ̇N",
+          "word": "MİYELİN",
           "hint": "Sinir liflerinin etrafını saran ve iletim hızını artıran yağlı kılıf."
         },
         {
@@ -45,7 +45,7 @@
           "hint": "Nöronun gövdesinden çıkan ve aksonun başladığı bölge."
         },
         {
-          "word": "DÜZENSİ̇Z",
+          "word": "DÜZENSİZ",
           "hint": "Sinirsel iletimde aniden ortaya çıkan veya kesilen durumları ifade eden."
         },
         {
@@ -53,11 +53,11 @@
           "hint": "Aksonun sonundaki dallanmaların uyartıyı diğer nörona aktardığı kısım."
         },
         {
-          "word": "İ̇LETKEN",
+          "word": "İLETKEN",
           "hint": "Sinirsel uyartıları taşıyan yapıların genel adı."
         },
         {
-          "word": "YALİTKAN",
+          "word": "YALITKAN",
           "hint": "Sinirsel uyartıların geçişini engelleyen madde veya yapı."
         },
         {
@@ -73,15 +73,15 @@
           "hint": "Çevreden aldığı uyarıları merkezi sinir sistemine ileten."
         },
         {
-          "word": "EKZİ̇TASYON",
+          "word": "EKZİTASYON",
           "hint": "Nöronun uyarılma eğilimini artıran kimyasal süreç."
         },
         {
-          "word": "İ̇N Hİ̇Bİ̇SYON",
+          "word": "İN HİBİSYON",
           "hint": "Nöronun uyarılma eşiğini yükselten veya engelleme durumu."
         },
         {
-          "word": "POTANSİ̇YEL",
+          "word": "POTANSİYEL",
           "hint": "Nöron zarının iki yüzeyi arasındaki elektriksel yük farkı."
         },
         {
@@ -89,7 +89,7 @@
           "hint": "Nöronun dış çevreden ayıran seçici geçirgen zar yapısı."
         },
         {
-          "word": "İ̇MPULS",
+          "word": "İMPULS",
           "hint": "Sinir hücresinde iletilen elektriksel ve kimyasal sinyal."
         },
         {
@@ -105,15 +105,15 @@
           "hint": "İyonların zar boyunca aktif olarak taşınmasını sağlayan protein yapısı."
         },
         {
-          "word": "EŞİ̇K DEĞER",
+          "word": "EŞİK DEĞER",
           "hint": "Bir nöronun uyarılarak aksiyon potansiyeli oluşturması için gereken minimum uyartı şiddeti."
         },
         {
-          "word": "LEYDİ̇NG",
+          "word": "LEYDİNG",
           "hint": "Aksiyon potansiyelinin miyelinli akson boyunca atlamalı iletimi."
         },
         {
-          "word": "OTORİ̇TE",
+          "word": "OTORİTE",
           "hint": "Merkezi sinir sisteminin genel yönetim ve kontrol merkezi."
         },
         {
@@ -125,15 +125,15 @@
           "hint": "Merkezi sinir sistemi dışında kalan tüm sinir dokusu."
         },
         {
-          "word": "OMURİ̇Lİ̇K",
+          "word": "OMURİLİK",
           "hint": "Merkezi sinir sisteminin omurga içinde yer alan uzun, ip benzeri kısmı."
         },
         {
-          "word": "BEYİ̇NCİ̇K",
+          "word": "BEYİNCİK",
           "hint": "Beynin arka alt kısmında bulunan, denge ve hareket koordinasyonundan sorumlu yapı."
         },
         {
-          "word": "ARA BEYİ̇N",
+          "word": "ARA BEYİN",
           "hint": "Talamus, hipotalamus gibi yapıları içeren beynin orta bölümü."
         },
         {
@@ -149,11 +149,11 @@
           "hint": "Beynin yüzeyine en yakın, ince ve damarlı beyin zarı."
         },
         {
-          "word": "BEYİ̇N OMURİ̇Lİ̇K SİVİSİ",
+          "word": "BEYİN OMURİLİK SİVİSİ",
           "hint": "Beyin ve omuriliği saran, koruyucu ve besleyici sıvı."
         },
         {
-          "word": "VENTRİ̇KÜL",
+          "word": "VENTRİKÜL",
           "hint": "Beyin içinde yer alan, beyin omurilik sıvısı ile dolu boşluklar."
         },
         {
@@ -181,27 +181,27 @@
           "hint": "Ara beyinde yer alan, duyu organlarından gelen bilgileri ilgili beyin merkezlerine ileten istasyon."
         },
         {
-          "word": "Hİ̇POTALA MUS",
+          "word": "HİPOTALA MUS",
           "hint": "Ara beyinde yer alan, vücut sıcaklığı, açlık, susuzluk gibi temel fizyolojik olayları düzenleyen merkez."
         },
         {
-          "word": "AMİ̇GDALA",
+          "word": "AMİGDALA",
           "hint": "Beynin derinliklerinde bulunan, duygusal tepkilerde, özellikle korku ve hafızada rol oynayan badem şeklinde yapı."
         },
         {
-          "word": "Hİ̇POKAMPÜS",
+          "word": "HİPOKAMPÜS",
           "hint": "Hafıza oluşumunda ve mekansal navigasyonda önemli rol oynayan beyin yapısı."
         },
         {
-          "word": "Kİ̇REÇLENME",
+          "word": "KİREÇLENME",
           "hint": "Sinir sisteminde miyelin kılıfın hasar gördüğü dejeneratif hastalık."
         },
         {
-          "word": "PARALİ̇Zİ̇",
+          "word": "PARALİZİ",
           "hint": "Sinir sistemindeki hasar sonucu oluşan kas hareketlerinin kaybı."
         },
         {
-          "word": "İ̇LETİ̇",
+          "word": "İLETİ",
           "hint": "Nöronlar arasında aktarılan sinirsel bilgi."
         },
         {
@@ -209,14 +209,14 @@
           "hint": "Bir refleks sırasında uyartının izlediği yol."
         },
         {
-          "word": "ORGANİ̇ZASYON",
+          "word": "ORGANİZASYON",
           "hint": "Sinir sisteminin işlevsel ve yapısal düzenlenişi."
         }
       ]
     },
     {
       "id": "biyoloji_u2",
-      "name": "2. Ünite: Endokrin Sistem",
+      "name": "2. Ünite: İnsan Fizyolojisi (Sindirim Sistemi, Dolaşım Sistemi, Solunum Sistemi)",
       "months": [
         11,
         12
@@ -243,11 +243,11 @@
           "hint": "Stres anında salgılanan savaş ya da kaç hormonu"
         },
         {
-          "word": "ENDOKRİ̇N",
+          "word": "ENDOKRİN",
           "hint": "İç salgı bezi anlamına gelen, salgılarını doğrudan kana veren bez sistemi."
         },
         {
-          "word": "SALGİ",
+          "word": "SALGI",
           "hint": "Bezlerin ürettiği ve vücutta görev yapan kimyasal madde."
         },
         {
@@ -263,7 +263,7 @@
           "hint": "Dolaşım sisteminde yer alan ve vücuda yayılan sıvı."
         },
         {
-          "word": "DOLAŞİM",
+          "word": "DOLAŞIM",
           "hint": "Kanın veya diğer vücut sıvılarının bir devre içinde sürekli hareket etmesi."
         },
         {
@@ -275,15 +275,15 @@
           "hint": "Canlıların boyut ve ağırlık olarak artması süreci."
         },
         {
-          "word": "METABOLİ̇ZMA",
+          "word": "METABOLİZMA",
           "hint": "Canlı vücudunda gerçekleşen yapım ve yıkım olaylarının tümü."
         },
         {
-          "word": "ENERJİ̇",
+          "word": "ENERJİ",
           "hint": "İş yapabilme yeteneği, güç."
         },
         {
-          "word": "BAĞİŞİKLİK",
+          "word": "BAĞIŞIKLIK",
           "hint": "Vücudun hastalıklara karşı savunma sistemi."
         },
         {
@@ -291,11 +291,11 @@
           "hint": "Canlıların nesillerini devam ettirme yeteneği."
         },
         {
-          "word": "YUMURTALİK",
+          "word": "YUMURTALIK",
           "hint": "Dişi üreme organı, östrojen ve progesteron salgılar."
         },
         {
-          "word": "TESTİ̇S",
+          "word": "TESTİS",
           "hint": "Erkek üreme organı, testosteron salgılar."
         },
         {
@@ -303,11 +303,11 @@
           "hint": "Yumurtalıkların diğer adı."
         },
         {
-          "word": "EPİ̇Fİ̇Z",
+          "word": "EPİFİZ",
           "hint": "Beynin arka kısmında bulunan, melatonini salgılayan bez."
         },
         {
-          "word": "MELATONİ̇N",
+          "word": "MELATONİN",
           "hint": "Uyku-uyanıklık döngüsünü düzenleyen hormon."
         },
         {
@@ -319,7 +319,7 @@
           "hint": "Kan şekerini yükselten, pankreasın ürettiği hormon."
         },
         {
-          "word": "KARACİ̇ĞER",
+          "word": "KARACİĞER",
           "hint": "Vücudun en büyük organı, metabolizmanın merkezi."
         },
         {
@@ -331,7 +331,7 @@
           "hint": "Böbreklerin üzerinde bulunan bezler."
         },
         {
-          "word": "KORTİ̇ZOL",
+          "word": "KORTİZOL",
           "hint": "Stres durumunda salgılanan, metabolizmayı etkileyen hormon."
         },
         {
@@ -339,7 +339,7 @@
           "hint": "Vücudun su ve tuz dengesini düzenleyen hormon."
         },
         {
-          "word": "Tİ̇MUS",
+          "word": "TİMUS",
           "hint": "Bağışıklık sisteminde rol alan, göğüs boşluğunda bulunan bez."
         },
         {
@@ -347,15 +347,15 @@
           "hint": "Bağışıklık sisteminin bir parçası olan sıvı."
         },
         {
-          "word": "BÖBREKÇİ̇K",
+          "word": "BÖBREKÇİK",
           "hint": "Böbrek üstü bezlerinin diğer adı."
         },
         {
-          "word": "PARATİ̇ROİ̇T",
+          "word": "PARATİROİT",
           "hint": "Tiroit bezinin arkasında bulunan, kalsiyum dengesini ayarlayan bezler."
         },
         {
-          "word": "KALSİ̇YUM",
+          "word": "KALSİYUM",
           "hint": "Kemiklerin yapısında bulunan ve kan seviyesi önemli olan mineral."
         },
         {
@@ -363,11 +363,11 @@
           "hint": "Kemik sağlığı ve enerji metabolizması için gerekli mineral."
         },
         {
-          "word": "KEMİ̇K",
+          "word": "KEMİK",
           "hint": "Vücut destek ve hareketini sağlayan sert doku."
         },
         {
-          "word": "YAPİ",
+          "word": "YAPI",
           "hint": "Bir şeyin oluştuğu düzen, biçim."
         },
         {
@@ -379,7 +379,7 @@
           "hint": "Belirli bir görevi yerine getiren doku topluluğu."
         },
         {
-          "word": "Sİ̇STEM",
+          "word": "SİSTEM",
           "hint": "Belirli bir işlevi yerine getiren organlar topluluğu."
         },
         {
@@ -391,11 +391,11 @@
           "hint": "Bir yerden bir yere gitmek için kullanılan açıklık."
         },
         {
-          "word": "KANA Gİ̇Rİ̇Ş",
+          "word": "KANA GİRİŞ",
           "hint": "Bir maddenin dolaşım sistemine dahil olması."
         },
         {
-          "word": "KANALSİZ",
+          "word": "KANALSIZ",
           "hint": "Salgılarını bir kanal aracılığıyla değil, doğrudan kana veren."
         },
         {
@@ -403,11 +403,11 @@
           "hint": "Sodyum klorür, vücutta su dengesi için önemli."
         },
         {
-          "word": "Dİ̇YABET",
+          "word": "DİYABET",
           "hint": "Kan şekerinin düzenlenemediği hastalık."
         },
         {
-          "word": "RAHİ̇M",
+          "word": "RAHİM",
           "hint": "Dişi üreme organı, gebeliğin oluştuğu yer."
         },
         {
@@ -415,11 +415,11 @@
           "hint": "Bir yerden bir yere taşımayı sağlayan dar geçit."
         },
         {
-          "word": "ANTİ̇Dİ̇ÜRETİ̇K",
+          "word": "ANTİDİÜRETİK",
           "hint": "İdrar söktürmeyen, vücutta su tutulmasına yardımcı hormon."
         },
         {
-          "word": "OVARİ̇AL",
+          "word": "OVARİAL",
           "hint": "Yumurtalıklarla ilgili."
         },
         {
@@ -427,7 +427,7 @@
           "hint": "Rahmin diğer adı."
         },
         {
-          "word": "Sİ̇NDİ̇Rİ̇M",
+          "word": "SİNDİRİM",
           "hint": "Besinlerin parçalanarak emilebilir hale gelmesi."
         },
         {
@@ -435,15 +435,15 @@
           "hint": "Tiroit bezinin büyümesi durumu."
         },
         {
-          "word": "KANİT",
+          "word": "KANIT",
           "hint": "Bir olayı veya durumu doğrulayan gösterge."
         },
         {
-          "word": "Bİ̇Lİ̇MSEL",
+          "word": "BİLİMSEL",
           "hint": "Bilim yöntemlerine uygun."
         },
         {
-          "word": "ARAŞTİRMA",
+          "word": "ARAŞTIRMA",
           "hint": "Bir konuyu derinlemesine inceleme."
         },
         {
@@ -454,37 +454,652 @@
     },
     {
       "id": "biyoloji_u3",
-      "name": "3. Ünite: Hücre Bölünmeleri ve Üreme",
+      "name": "3. Ünite: İnsan Fizyolojisi (Üriner Sistem, Üreme Sistemi ve Embriyonik Gelişim)",
       "months": [
         1,
         2
       ],
-      "words": []
+      "words": [
+        {
+          "word": "MİTOZ",
+          "hint": "Vücut hücrelerinin büyüme ve onarım için bölündüğü süreç."
+        },
+        {
+          "word": "MAYOZ",
+          "hint": "Üreme hücrelerinin oluştuğu ve kromozom sayısının yarıya indiği özel bölünme."
+        },
+        {
+          "word": "DNA",
+          "hint": "Canlıların genetik bilgisini taşıyan çift sarmallı molekül."
+        },
+        {
+          "word": "KROMOZOM",
+          "hint": "DNA ve proteinlerden oluşan, genetik bilgiyi içeren yapı."
+        },
+        {
+          "word": "KROMATİN",
+          "hint": "Hücre çekirdeğinde bulunan DNA ve protein yumağı."
+        },
+        {
+          "word": "KROMATİT",
+          "hint": "Eşlenmiş bir kromozomun iki özdeş parçasından her biri."
+        },
+        {
+          "word": "SENTROMER",
+          "hint": "Kardeş kromatitleri bir arada tutan nokta."
+        },
+        {
+          "word": "HAPLOİT",
+          "hint": "Kromozom takımının tek set olduğu hücre durumu (n)."
+        },
+        {
+          "word": "DİPLOİT",
+          "hint": "Kromozom takımının iki set olduğu hücre durumu (2n)."
+        },
+        {
+          "word": "GAMET",
+          "hint": "Üreme için özelleşmiş eşey hücresi (sperm veya yumurta)."
+        },
+        {
+          "word": "ZİGOT",
+          "hint": "Yumurta ve spermin birleşmesiyle oluşan ilk hücre."
+        },
+        {
+          "word": "FERTİLİZASYON",
+          "hint": "Döllenme olarak da bilinen, gametlerin birleşme olayı."
+        },
+        {
+          "word": "EŞEYLİ ÜREME",
+          "hint": "İki farklı ebeveynin genetik materyalinin birleştiği üreme şekli."
+        },
+        {
+          "word": "EŞEYSİZ ÜREME",
+          "hint": "Tek bir ebeveynin genetik olarak aynı yavrular ürettiği üreme şekli."
+        },
+        {
+          "word": "İNTERFAZ",
+          "hint": "Hücre döngüsünün büyüme ve DNA eşlenmesinin gerçekleştiği evresi."
+        },
+        {
+          "word": "PROFAZ",
+          "hint": "Mitozun ilk evresi, kromozomların belirginleştiği aşama."
+        },
+        {
+          "word": "METAFAZ",
+          "hint": "Kromozomların hücrenin ekvator düzleminde hizalandığı evre."
+        },
+        {
+          "word": "ANAFAZ",
+          "hint": "Kardeş kromatitlerin zıt kutuplara çekildiği evre."
+        },
+        {
+          "word": "TELOFAZ",
+          "hint": "Mitozun son evresi, yeni çekirdeklerin oluştuğu aşama."
+        },
+        {
+          "word": "SİTOKİNEZ",
+          "hint": "Hücre sitoplazmasının bölünerek iki yeni hücre oluşturması."
+        },
+        {
+          "word": "HOMOLOG KROMOZOM",
+          "hint": "Biri anneden, diğeri babadan gelen, aynı genleri taşıyan kromozom çifti."
+        },
+        {
+          "word": "KROSSİNG OVER",
+          "hint": "Mayozda homolog kromozomlar arasında parça değişimi."
+        },
+        {
+          "word": "SENTROZOM",
+          "hint": "Hayvan hücrelerinde iğ ipliklerinin oluşumunda rol oynayan organel."
+        },
+        {
+          "word": "İĞ İPLİKLERİ",
+          "hint": "Kromozomların hareketini sağlayan protein yapıları."
+        },
+        {
+          "word": "KİNETOKOR",
+          "hint": "Kromozom üzerinde iğ ipliklerinin bağlandığı özel protein bölgesi."
+        },
+        {
+          "word": "KANSER",
+          "hint": "Hücrelerin kontrolsüz ve anormal şekilde bölünmesi durumu."
+        },
+        {
+          "word": "APİTOZ",
+          "hint": "Programlanmış hücre ölümü, vücudun gereksiz veya hasarlı hücreleri yok etme mekanizması."
+        },
+        {
+          "word": "KLONLAMA",
+          "hint": "Genetik olarak özdeş bir birey veya hücre üretme."
+        },
+        {
+          "word": "KARYOKİNEZ",
+          "hint": "Hücre çekirdeğinin bölünmesi."
+        },
+        {
+          "word": "GONAT",
+          "hint": "Üreme hücrelerini (gametleri) üreten organ (testis veya yumurtalık)."
+        },
+        {
+          "word": "OOGENEZ",
+          "hint": "Dişi üreme hücrelerinin (yumurta) oluşum süreci."
+        },
+        {
+          "word": "SPERMATOGENEZ",
+          "hint": "Erkek üreme hücrelerinin (sperm) oluşum süreci."
+        },
+        {
+          "word": "İNFERTİLİTE",
+          "hint": "Kısırlık, üreme yeteneğinin kaybı."
+        },
+        {
+          "word": "EMBRİYO",
+          "hint": "Gelişimin erken evrelerindeki çok hücreli organizma."
+        },
+        {
+          "word": "FETÜS",
+          "hint": "Memelilerde embriyonik gelişimden sonraki evre."
+        },
+        {
+          "word": "GAMETOGENEZ",
+          "hint": "Gametlerin (üreme hücrelerinin) oluşumu."
+        },
+        {
+          "word": "NÜKLEOTİT",
+          "hint": "DNA ve RNA'nın yapı birimi."
+        },
+        {
+          "word": "GENETİK ÇEŞİTLİLİK",
+          "hint": "Bir tür içindeki genetik farklılıkların bütünü."
+        },
+        {
+          "word": "KARYOTİP",
+          "hint": "Bir organizmanın kromozom setinin düzenli görüntüsü."
+        },
+        {
+          "word": "ANEUPLOİDİ",
+          "hint": "Kromozom sayısındaki anormallik, normalden fazla veya eksik kromozom."
+        },
+        {
+          "word": "PLOİDİT",
+          "hint": "Bir hücrede bulunan kromozom takımının sayısı."
+        },
+        {
+          "word": "PARTENOGENEZ",
+          "hint": "Döllenme olmaksızın dişi gametten yeni bir bireyin gelişimi."
+        },
+        {
+          "word": "TOMURCUKLANMA",
+          "hint": "Bir ebeveynin vücudunda tomurcuk şeklinde yeni bir bireyin geliştiği eşeysiz üreme."
+        },
+        {
+          "word": "REJENERASYON",
+          "hint": "Kaybedilen organ veya vücut parçasının yeniden oluşması."
+        },
+        {
+          "word": "ZİGOTİK MAYOZ",
+          "hint": "Zigotun hemen mayoz geçirmesiyle haploit bireylerin oluşumu."
+        },
+        {
+          "word": "GAMETİK MAYOZ",
+          "hint": "Diploit bireylerde gametlerin oluşumu sırasında gerçekleşen mayoz."
+        },
+        {
+          "word": "SPORİK MAYOZ",
+          "hint": "Bitkilerde spor oluşumu sırasında görülen mayoz."
+        },
+        {
+          "word": "GERM HÜCRELERİ",
+          "hint": "Üreme hücrelerine dönüşecek olan hücreler."
+        },
+        {
+          "word": "SOMATİK HÜCRELER",
+          "hint": "Vücut hücreleri, üreme ile ilgili olmayan hücreler."
+        },
+        {
+          "word": "KROMOZOMAL MUTASYON",
+          "hint": "Kromozom yapısında veya sayısında meydana gelen değişiklik."
+        },
+        {
+          "word": "GEN MUTASYONU",
+          "hint": "Bir genin DNA dizilimindeki kalıcı değişiklik."
+        },
+        {
+          "word": "ONKOGEN",
+          "hint": "Hücre büyümesini ve bölünmesini teşvik eden, mutasyon geçirdiğinde kansere yol açabilen gen."
+        },
+        {
+          "word": "TÜMÖR BASKILAYICI GEN",
+          "hint": "Hücre büyümesini engelleyen ve kanseri önlemeye yardımcı olan gen."
+        },
+        {
+          "word": "EMBRİYONİK KÖK HÜCRE",
+          "hint": "Her türlü hücre tipine dönüşebilme yeteneğine sahip, embriyodan elde edilen hücre."
+        },
+        {
+          "word": "YETİŞKİN KÖK HÜCRE",
+          "hint": "Belirli dokularda bulunan ve hasarlı hücreleri yenileyebilen hücre."
+        }
+      ]
     },
     {
       "id": "biyoloji_u4",
-      "name": "4. Ünite: Kalıtımın Temel İlkeleri",
+      "name": "4. Ünite: Komünite ve Popülasyon Ekolojisi",
       "months": [
         3,
         4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "KALITIM",
+          "hint": "Canlılarda özelliklerin nesilden nesile aktarılması."
+        },
+        {
+          "word": "GEN",
+          "hint": "Kalıtsal bilgiyi taşıyan DNA parçası."
+        },
+        {
+          "word": "KROMOZOM",
+          "hint": "Genleri içeren, hücre çekirdeğindeki ipliksi yapı."
+        },
+        {
+          "word": "ALELE",
+          "hint": "Bir genin farklı versiyonlarından her biri."
+        },
+        {
+          "word": "FENOTİP",
+          "hint": "Bir canlının genlerinin dışa yansıyan görüntüsü."
+        },
+        {
+          "word": "GENOTİP",
+          "hint": "Bir canlının genetik yapısının tamamı."
+        },
+        {
+          "word": "HOMOZİGOT",
+          "hint": "Bir özellik için iki aynı alele sahip olma."
+        },
+        {
+          "word": "HETEROZİGOT",
+          "hint": "Bir özellik için iki farklı alele sahip olma."
+        },
+        {
+          "word": "BASKIN",
+          "hint": "Fenotipte kendini her zaman gösteren alel."
+        },
+        {
+          "word": "ÇEKİNİK",
+          "hint": "Baskın alel varken fenotipte kendini gösteremeyen alel."
+        },
+        {
+          "word": "MELEZ",
+          "hint": "Farklı aleller taşıyan, heterozigot birey."
+        },
+        {
+          "word": "SAF DÖL",
+          "hint": "Aynı alelleri taşıyan, homozigot birey."
+        },
+        {
+          "word": "PUNNETT KARESİ",
+          "hint": "Genetik çaprazlama sonuçlarını gösteren tablo."
+        },
+        {
+          "word": "MONOHİBRİT",
+          "hint": "Tek bir özelliğin kalıtımını inceleyen çaprazlama."
+        },
+        {
+          "word": "DİHİBRİT",
+          "hint": "İki farklı özelliğin kalıtımını inceleyen çaprazlama."
+        },
+        {
+          "word": "GAMET",
+          "hint": "Cinsiyet hücreleri (sperm veya yumurta)."
+        },
+        {
+          "word": "DÖLLENME",
+          "hint": "Sperm ve yumurta hücrelerinin birleşmesi olayı."
+        },
+        {
+          "word": "ZİGOT",
+          "hint": "Döllenmiş yumurta hücresi."
+        },
+        {
+          "word": "MAYOZ",
+          "hint": "Eşey hücrelerinin oluştuğu özel hücre bölünmesi."
+        },
+        {
+          "word": "KROSSİNG OVER",
+          "hint": "Mayoz sırasında homolog kromozomlar arası gen değişimi."
+        },
+        {
+          "word": "BAĞLI GENLER",
+          "hint": "Aynı kromozom üzerinde birbirine yakın bulunan genler."
+        },
+        {
+          "word": "BAĞIMSIZ GENLER",
+          "hint": "Farklı kromozomlarda bulunan veya uzak genler."
+        },
+        {
+          "word": "EŞEY KROMOZOMU",
+          "hint": "Bireyin cinsiyetini belirleyen kromozomlar (X, Y)."
+        },
+        {
+          "word": "OTOZOM",
+          "hint": "Cinsiyet dışındaki vücut özelliklerini belirleyen kromozomlar."
+        },
+        {
+          "word": "EŞ BASKINLIK",
+          "hint": "İki alelin de fenotipte tam olarak kendini göstermesi."
+        },
+        {
+          "word": "EKSİK BASKINLIK",
+          "hint": "Alelilerin birbirine tam baskın olmadığı, ara bir fenotip oluşumu."
+        },
+        {
+          "word": "ÇOK ALELLİLİK",
+          "hint": "Bir özellik için ikiden fazla alelin bulunması."
+        },
+        {
+          "word": "KAN GRUBU",
+          "hint": "İnsanlarda çok alelliliğe örnek genetik özellik."
+        },
+        {
+          "word": "SOY AĞACI",
+          "hint": "Bir ailenin genetik özelliklerini gösteren şema."
+        },
+        {
+          "word": "TAŞIYICI",
+          "hint": "Çekinik bir özelliği geninde bulunduran ama göstermeyen birey."
+        },
+        {
+          "word": "MUTASYON",
+          "hint": "DNA dizisindeki ani ve kalıcı değişiklik."
+        },
+        {
+          "word": "GENETİK HASTALIK",
+          "hint": "Gen veya kromozomlardaki bozukluktan kaynaklanan rahatsızlık."
+        },
+        {
+          "word": "HEMOFİLİ",
+          "hint": "Pıhtılaşmayı sağlayan proteinin eksikliği, kanama hastalığı."
+        },
+        {
+          "word": "RENK KÖRLÜĞÜ",
+          "hint": "Renkleri ayırt edememe, eşeye bağlı bir özellik."
+        },
+        {
+          "word": "DOWN SENDROMU",
+          "hint": "21. kromozom çiftinde üç adet bulunmasıyla oluşan durum."
+        },
+        {
+          "word": "KARYOTİP",
+          "hint": "Bir canlının kromozomlarının büyüklük ve şekillerine göre düzenlenmiş hali."
+        },
+        {
+          "word": "SENTROMER",
+          "hint": "Kromozomun ortasındaki, iki kromatidi birleştiren kısım."
+        },
+        {
+          "word": "HOMOLOG",
+          "hint": "Anne ve babadan gelen, aynı genleri taşıyan kromozom çifti."
+        },
+        {
+          "word": "PLOİD",
+          "hint": "Bir hücredeki kromozom setinin sayısı."
+        },
+        {
+          "word": "DİPLOİT",
+          "hint": "Her kromozomdan iki tane içeren hücre (2n)."
+        },
+        {
+          "word": "HAPLOİT",
+          "hint": "Her kromozomdan bir tane içeren hücre (n)."
+        },
+        {
+          "word": "LOKÜS",
+          "hint": "Bir genin kromozom üzerindeki özgün yeri."
+        },
+        {
+          "word": "POPÜLASYON",
+          "hint": "Belirli bir bölgede yaşayan aynı türe ait canlılar topluluğu."
+        },
+        {
+          "word": "GEN HAVUZU",
+          "hint": "Bir popülasyondaki tüm gen ve alellerin toplamı."
+        },
+        {
+          "word": "REKOMBİNASYON",
+          "hint": "Yeni gen kombinasyonlarının oluşması."
+        },
+        {
+          "word": "SEGREGASYON",
+          "hint": "Mayozda alellerin gametlere ayrılması."
+        },
+        {
+          "word": "BAĞIMSIZ AÇILIM",
+          "hint": "Farklı kromozomlardaki genlerin gametlere rastgele dağılması."
+        },
+        {
+          "word": "KROMATİT",
+          "hint": "Kromozomun iki eş parçasından her biri."
+        },
+        {
+          "word": "KROMATİN",
+          "hint": "Çekirdek içinde DNA ve proteinden oluşan gevşek yapı."
+        },
+        {
+          "word": "NÜKLEOTİT",
+          "hint": "DNA'nın yapı birimi."
+        }
+      ]
     },
     {
       "id": "biyoloji_u5",
-      "name": "5. Ünite: Ekosistem Ekolojisi ve Çevre Sorunları",
+      "name": "5. Ünite: Canlılar ve Çevre",
       "months": [
         5
       ],
-      "words": []
-    },
-    {
-      "id": "biyoloji_u6",
-      "name": "6. Ünite: Genden Proteine ve Canlılarda Enerji Dönüşümleri",
-      "months": [
-        6
-      ],
-      "words": []
+      "words": [
+        {
+          "word": "EKOSİSTEM",
+          "hint": "Canlı ve cansız öğelerin bir araya geldiği sistem."
+        },
+        {
+          "word": "BİYOTİK",
+          "hint": "Bir ekosistemdeki canlı faktörler."
+        },
+        {
+          "word": "ABİYOTİK",
+          "hint": "Bir ekosistemdeki cansız faktörler."
+        },
+        {
+          "word": "POPÜLASYON",
+          "hint": "Belirli bir alandaki aynı tür canlı grubu."
+        },
+        {
+          "word": "KOMÜNİTE",
+          "hint": "Belirli bir alandaki farklı popülasyonların tümü."
+        },
+        {
+          "word": "HABİTAT",
+          "hint": "Bir canlının doğal yaşam alanı."
+        },
+        {
+          "word": "NİŞ",
+          "hint": "Bir canlının ekosistemdeki rolü veya işlevi."
+        },
+        {
+          "word": "ÜRETİCİ",
+          "hint": "Kendi besinini üreten canlı."
+        },
+        {
+          "word": "TÜKETİCİ",
+          "hint": "Besinini başka canlılardan sağlayan organizma."
+        },
+        {
+          "word": "AYRIŞTIRICI",
+          "hint": "Ölü organik maddeleri parçalayan canlı."
+        },
+        {
+          "word": "BESİN ZİNCİRİ",
+          "hint": "Enerjinin canlılar arası aktarım yolu."
+        },
+        {
+          "word": "BESİN AĞI",
+          "hint": "Birçok besin zincirinin karmaşık bağlantısı."
+        },
+        {
+          "word": "ENERJİ AKIŞI",
+          "hint": "Ekosistemdeki enerji dolaşımı."
+        },
+        {
+          "word": "BİYOKÜTLE",
+          "hint": "Belirli bir alandaki toplam canlı madde miktarı."
+        },
+        {
+          "word": "SİMBİYOZ",
+          "hint": "İki farklı türün birlikte yaşaması."
+        },
+        {
+          "word": "MUTUALİZM",
+          "hint": "Her iki canlının da fayda sağladığı simbiyoz."
+        },
+        {
+          "word": "KOMMENSALİZM",
+          "hint": "Birinin fayda gördüğü, diğerinin etkilenmediği simbiyoz."
+        },
+        {
+          "word": "PARAZİTİZM",
+          "hint": "Birinin zarar görüp, diğerinin fayda sağladığı simbiyoz."
+        },
+        {
+          "word": "PREDASYON",
+          "hint": "Avcı-av ilişkisi."
+        },
+        {
+          "word": "REKABET",
+          "hint": "Sınırlı kaynaklar için canlılar arası çekişme."
+        },
+        {
+          "word": "SUKSESYON",
+          "hint": "Ekosistemlerdeki kademeli değişim süreci."
+        },
+        {
+          "word": "KLİMAKS",
+          "hint": "Suksesyonun kararlı ve son aşaması."
+        },
+        {
+          "word": "KARBON DÖNGÜSÜ",
+          "hint": "Karbonun doğadaki sürekli hareketi."
+        },
+        {
+          "word": "AZOT DÖNGÜSÜ",
+          "hint": "Azotun canlılar ve çevre arasındaki dolaşımı."
+        },
+        {
+          "word": "SU DÖNGÜSÜ",
+          "hint": "Suyun yeryüzü ve atmosfer arasındaki dönüşümü."
+        },
+        {
+          "word": "BİYOLOJİK BİRİKİM",
+          "hint": "Zehirli maddelerin besin zincirinde artması."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK",
+          "hint": "Bir bölgedeki canlı türlerinin zenginliği."
+        },
+        {
+          "word": "ENDEMİK",
+          "hint": "Sadece belirli bir bölgede bulunan tür."
+        },
+        {
+          "word": "İSTİLACI TÜR",
+          "hint": "Başka bir ortama dışarıdan gelip yayılan tür."
+        },
+        {
+          "word": "EKOTON",
+          "hint": "İki farklı ekosistemin geçiş bölgesi."
+        },
+        {
+          "word": "BİYOJEOKİMYASAL DÖNGÜ",
+          "hint": "Canlı ve cansız ortam arasındaki madde dolaşımı."
+        },
+        {
+          "word": "OZON TABAKASI",
+          "hint": "Zararlı ultraviyole ışınları emen atmosfer katmanı."
+        },
+        {
+          "word": "KÜRESEL İSINMA",
+          "hint": "Dünya'nın ortalama sıcaklığındaki artış."
+        },
+        {
+          "word": "SERA ETKİSİ",
+          "hint": "Atmosferin ısıyı tutarak gezegeni ısıtması."
+        },
+        {
+          "word": "ASİT YAĞMURLARI",
+          "hint": "Hava kirliliği kaynaklı asidik yağışlar."
+        },
+        {
+          "word": "ÖTROFİKASYON",
+          "hint": "Sulardaki besin fazlalığı nedeniyle aşırı yosunlaşma."
+        },
+        {
+          "word": "DEFORESTASYON",
+          "hint": "Ormanların yok edilmesi."
+        },
+        {
+          "word": "ÇÖLLEŞME",
+          "hint": "Verimli toprakların çorak araziye dönüşmesi."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Atıkların yeniden kullanılması."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Doğal kaynakları koruyarak kalkınma."
+        },
+        {
+          "word": "BİYOREMİDASYON",
+          "hint": "Mikroorganizmalarla kirliliği temizleme."
+        },
+        {
+          "word": "BİYOLOJİK MÜCADELE",
+          "hint": "Zararlıları doğal yollarla kontrol etme."
+        },
+        {
+          "word": "FOSFOR DÖNGÜSÜ",
+          "hint": "Fosforun ekosistemdeki dolaşımı."
+        },
+        {
+          "word": "TAŞIMA KAPASİTESİ",
+          "hint": "Bir alanın destekleyebileceği maksimum birey sayısı."
+        },
+        {
+          "word": "BİYOM",
+          "hint": "Benzer iklim ve canlılara sahip geniş kara alanı."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ",
+          "hint": "İnsan faaliyetlerinin çevreye etkisi."
+        },
+        {
+          "word": "BİYOİNDİKASYON",
+          "hint": "Çevresel değişimleri gösteren canlılar."
+        },
+        {
+          "word": "EROZYON",
+          "hint": "Toprak kaybı."
+        },
+        {
+          "word": "KARBON AYAK İZİ",
+          "hint": "Bir bireyin veya kuruluşun yol açtığı karbon salımı."
+        },
+        {
+          "word": "EKOSİSTEM HİZMETLERİ",
+          "hint": "Ekosistemlerin insanlara sunduğu faydalar."
+        }
+      ]
     }
   ]
 }

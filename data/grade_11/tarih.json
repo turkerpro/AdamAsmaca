@@ -2,7 +2,7 @@
   "units": [
     {
       "id": "tarih_u1",
-      "name": "1. Ünite: Birinci Dünya Savaşı",
+      "name": "1. Ünite: Değişen Dünya Dengeleri Karşısında Osmanlı Devleti (17. Yüzyıl)",
       "months": [
         9
       ],
@@ -28,7 +28,7 @@
           "hint": "Savaşın sona ermesini sağlayan ateşkes anlaşması türü"
         },
         {
-          "word": "Sİ̇PER",
+          "word": "SİPER",
           "hint": "Savaşta askerlerin korunmak için kazdığı çukur."
         },
         {
@@ -48,7 +48,7 @@
           "hint": "Düşman saldırısını engelleme çabası."
         },
         {
-          "word": "GERİ̇LLM",
+          "word": "GERİLLM",
           "hint": "Savaşın sebep olduğu toplumsal ve ekonomik sıkıntılar."
         },
         {
@@ -56,11 +56,11 @@
           "hint": "Belirli bir düşünceyi yaymak için yapılan yayın."
         },
         {
-          "word": "EMPERYALİ̇ZM",
+          "word": "EMPERYALİZM",
           "hint": "Güçlü devletlerin zayıf ülkeleri sömürme isteği."
         },
         {
-          "word": "ULUSALİ̇ZM",
+          "word": "ULUSALCILIK",
           "hint": "Her milletin kendi devletini kurma ve yaşatma düşüncesi."
         },
         {
@@ -68,19 +68,19 @@
           "hint": "Birbirine yakın görüşlere sahip ülkelerin oluşturduğu grup."
         },
         {
-          "word": "AYRİLİKÇİLİK",
+          "word": "AYRILIKÇILIK",
           "hint": "Bir topluluğun kendi başına devlet kurma isteği."
         },
         {
-          "word": "Sİ̇LAHLANMA",
+          "word": "SİLAHLANMA",
           "hint": "Askeri gücü artırma."
         },
         {
-          "word": "LOJİ̇STİ̇K",
+          "word": "LOJİSTİK",
           "hint": "Askeri birliklerin ihtiyaçlarının karşılanması."
         },
         {
-          "word": "SEFERBERLİ̇K",
+          "word": "SEFERBERLİK",
           "hint": "Savaş için tüm gücün toplanması."
         },
         {
@@ -88,11 +88,11 @@
           "hint": "Savaş gemilerinin taşıdığı büyük toplar."
         },
         {
-          "word": "BOMBARDİMAN",
+          "word": "BOMBARDIMAN",
           "hint": "Uçaklardan atılan bombalarla yapılan saldırı."
         },
         {
-          "word": "Sİ̇LAHALTİ",
+          "word": "SİLAH ALTI",
           "hint": "Savaşa hazır olma durumu."
         },
         {
@@ -100,7 +100,7 @@
           "hint": "Savaş sırasında erzak ve asker taşınan yol."
         },
         {
-          "word": "YENİ̇LGİ̇",
+          "word": "YENİLGİ",
           "hint": "Savaşta kaybedilen taraf olma."
         },
         {
@@ -112,15 +112,15 @@
           "hint": "Savaş sonunda tarafların vardığı mutabakat."
         },
         {
-          "word": "TAVİ̇Z",
+          "word": "TAVİZ",
           "hint": "Karşılıklı ödün verme."
         },
         {
-          "word": "Mİ̇SAKİMİ̇LLİ̇",
+          "word": "MİSAKİMİLLİ",
           "hint": "Ulusal yemin."
         },
         {
-          "word": "HALKİRRİ",
+          "word": "HALK ŞİİRİ",
           "hint": "Bir ulusun kendi geleceğini belirleme hakkı."
         },
         {
@@ -128,15 +128,15 @@
           "hint": "Bir devletin egemen olduğu alan."
         },
         {
-          "word": "BAĞİMSİZLİK",
+          "word": "BAĞIMSIZLIK",
           "hint": "Başka bir gücün egemenliği altında olmama durumu."
         },
         {
-          "word": "MEHMETÇİ̇K",
+          "word": "MEHMETÇİK",
           "hint": "Türk askerine verilen sevgi dolu ad."
         },
         {
-          "word": "MECBURİ̇",
+          "word": "MECBURİ",
           "hint": "Yapılması zorunlu olan."
         },
         {
@@ -164,7 +164,7 @@
           "hint": "Taburdan küçük askeri birlik."
         },
         {
-          "word": "Tİ̇M",
+          "word": "TİM",
           "hint": "En küçük askeri birlik."
         },
         {
@@ -172,7 +172,7 @@
           "hint": "Komutanlığın bulunduğu yer."
         },
         {
-          "word": "İ̇ŞGAL",
+          "word": "İŞGAL",
           "hint": "Bir ülkenin başka bir ülke toprağını zorla ele geçirmesi."
         },
         {
@@ -200,21 +200,20 @@
           "hint": "Ulusal marş."
         },
         {
-          "word": "GAZİ̇",
+          "word": "GAZİ",
           "hint": "Savaşta yaralanan kahraman."
         },
         {
-          "word": "ŞEHİ̇T",
+          "word": "ŞEHİT",
           "hint": "Vatan uğruna can veren kişi."
         }
       ]
     },
     {
       "id": "tarih_u2",
-      "name": "2. Ünite: Mondros Mütarekesi ve Sonrası",
+      "name": "2. Ünite: Uluslararası İlişkilerde Denge Stratejisi (18. Yüzyıl)",
       "months": [
-        10,
-        11
+        10
       ],
       "words": [
         {
@@ -242,11 +241,11 @@
           "hint": "Savaş durumuna son veren geçici anlaşma."
         },
         {
-          "word": "Mİ̇LLİ̇",
+          "word": "MİLLİ",
           "hint": "Ulusal veya ulusla ilgili olan."
         },
         {
-          "word": "TEŞKİ̇LAT",
+          "word": "TEŞKİLAT",
           "hint": "Belirli bir amaca ulaşmak için kurulan yapı veya grup."
         },
         {
@@ -254,7 +253,7 @@
           "hint": "Belirli bir amaçla yapılan eylem veya askeri operasyon."
         },
         {
-          "word": "BATİ",
+          "word": "BATI",
           "hint": "Anadolu'nun batı kesimi veya Batı devletleri."
         },
         {
@@ -262,11 +261,11 @@
           "hint": "Anadolu'nun doğu kesimi veya Doğu Anadolu Bölgesi."
         },
         {
-          "word": "İ̇ZMİ̇R",
+          "word": "İZMİR",
           "hint": "Ege Bölgesi'nde önemli bir liman şehri."
         },
         {
-          "word": "İ̇STANBUL",
+          "word": "İSTANBUL",
           "hint": "Osmanlı Devleti'nin başkenti ve önemli bir şehir."
         },
         {
@@ -282,7 +281,7 @@
           "hint": "Osmanlı Devleti'nin padişahı."
         },
         {
-          "word": "HALİ̇FE",
+          "word": "HALİFE",
           "hint": "İslam dünyasının dini ve siyasi lideri."
         },
         {
@@ -290,15 +289,15 @@
           "hint": "Doğup büyüdüğümüz ve uğruna mücadele ettiğimiz topraklar."
         },
         {
-          "word": "BAĞİMSİZLİK",
+          "word": "BAĞIMSIZLIK",
           "hint": "Başka bir devlete bağlı olmadan yaşama durumu."
         },
         {
-          "word": "EGEMENLİ̇K",
+          "word": "EGEMENLİK",
           "hint": "Bir devletin kendi topraklarında en üstün söz hakkına sahip olması."
         },
         {
-          "word": "Mİ̇SAKİMİ̇LLİ̇",
+          "word": "MİSAKİMİLLİ",
           "hint": "Milli Misak'ın kabul ettiği temel esaslar."
         },
         {
@@ -306,11 +305,11 @@
           "hint": "Tüm milleti kapsayan, milli."
         },
         {
-          "word": "MECLİ̇S",
+          "word": "MECLİS",
           "hint": "Milletvekillerinin toplanıp ülkeyi ilgilendiren kararlar aldığı yer."
         },
         {
-          "word": "DEVRİ̇SAKİR",
+          "word": "DEVRİSAKİR",
           "hint": "Devrin sonu, eski düzenin yıkılması."
         },
         {
@@ -322,11 +321,11 @@
           "hint": "Yeryüzü parçası, vatanın bütünü."
         },
         {
-          "word": "Sİ̇LAHALTİ",
+          "word": "SİLAH ALTI",
           "hint": "Askerlik görevi yapmakta olan."
         },
         {
-          "word": "TÜRKİ̇YE",
+          "word": "TÜRKİYE",
           "hint": "Kurtuluş Savaşı sonrası kurulan yeni devletin adı."
         },
         {
@@ -334,7 +333,7 @@
           "hint": "Batı'da yer alan kıta."
         },
         {
-          "word": "İ̇NGİ̇LTERE",
+          "word": "İNGİLTERE",
           "hint": "Birleşik Krallık."
         },
         {
@@ -342,7 +341,7 @@
           "hint": "Avrupa'da bir ülke."
         },
         {
-          "word": "İ̇TALYA",
+          "word": "İTALYA",
           "hint": "Avrupa'da bir ülke."
         },
         {
@@ -354,11 +353,11 @@
           "hint": "Marmara Denizi'ni Karadeniz'e ve Ege'ye bağlayan su yolları."
         },
         {
-          "word": "TAVİ̇Z",
+          "word": "TAVİZ",
           "hint": "Verilen ödün, vazgeçilen hak."
         },
         {
-          "word": "TEBLİ̇Ğ",
+          "word": "TEBLİĞ",
           "hint": "Resmi duyuru veya bildirim."
         },
         {
@@ -390,11 +389,11 @@
           "hint": "Sağlıkla ilgili uzman."
         },
         {
-          "word": "RAHATSİZLİK",
+          "word": "RAHATSIZLIK",
           "hint": "Sağlık durumu veya huzursuzluk."
         },
         {
-          "word": "HALKİN",
+          "word": "HALKIN",
           "hint": "Toplumun, ulusun."
         },
         {
@@ -402,61 +401,1373 @@
           "hint": "Teslimiyet gösterme."
         },
         {
-          "word": "YETKİ̇",
+          "word": "YETKİ",
           "hint": "Kullanma hakkı, salahiyet."
         },
         {
-          "word": "Sİ̇YASİ̇",
+          "word": "SİYASİ",
           "hint": "Devlet yönetimiyle ilgili."
         },
         {
-          "word": "EKONOMİ̇K",
+          "word": "EKONOMİK",
           "hint": "Ekonomik konularla ilgili."
         },
         {
-          "word": "TOPLANTİ",
+          "word": "TOPLANTI",
           "hint": "Birlikte görüşmek için yapılan bir araya geliş."
         },
         {
-          "word": "BASİN",
+          "word": "BASIN",
           "hint": "Gazete, dergi gibi yayın organları."
         }
       ]
     },
     {
       "id": "tarih_u3",
-      "name": "3. Ünite: Orta Çağ'da Dünya ve Türk Dünyası",
+      "name": "3. Ünite: Değişim Çağında Avrupa ve Osmanlı (19. Yüzyıl)",
       "months": [
-        12,
-        1
+        11,
+        12
       ],
-      "words": []
+      "words": [
+        {
+          "word": "FEODALİTE",
+          "hint": "Orta Çağ Avrupa'sında toprak temelli yönetim sistemi."
+        },
+        {
+          "word": "VASAL",
+          "hint": "Bir lorda bağlılık yemini etmiş ve onun adına hizmet eden kişi."
+        },
+        {
+          "word": "SENYÖR",
+          "hint": "Toprak sahibi ve geniş yetkilere sahip feodal yönetici."
+        },
+        {
+          "word": "SÖMÜRGECİLİK",
+          "hint": "Bir devletin başka bir ülkenin topraklarını ele geçirip yönetmesi."
+        },
+        {
+          "word": "HAÇLI SEFERLERİ",
+          "hint": "Hristiyanların kutsal toprakları Müslümanlardan almak için düzenlediği seferler."
+        },
+        {
+          "word": "KRALLIK",
+          "hint": "Kral veya kraliçe tarafından yönetilen devlet."
+        },
+        {
+          "word": "BARON",
+          "hint": "Feodal sistemde yüksek rütbeli soylu."
+        },
+        {
+          "word": "KALE",
+          "hint": "Orta Çağ'da savunma amaçlı yapılmış büyük yapı."
+        },
+        {
+          "word": "ŞÖVALYE",
+          "hint": "Orta Çağ savaşçısı, soylu asker."
+        },
+        {
+          "word": "KİTLE",
+          "hint": "İnsan topluluğu veya yığın."
+        },
+        {
+          "word": "CEMAAT",
+          "hint": "Belirli bir dini veya sosyal gruba ait insanlar topluluğu."
+        },
+        {
+          "word": "MEDRESE",
+          "hint": "İslam dünyasında yüksek öğrenim kurumu."
+        },
+        {
+          "word": "KÜTÜPHANE",
+          "hint": "Kitapların saklandığı ve okunduğu yer."
+        },
+        {
+          "word": "TEKKE",
+          "hint": "Dini eğitim ve tasavvuf çalışmaları yapılan yer."
+        },
+        {
+          "word": "ZAVİYE",
+          "hint": "Gezginlerin ve yoksulların barındığı, dini faaliyetlerin yapıldığı yer."
+        },
+        {
+          "word": "TÜCCAR",
+          "hint": "Ticaretle uğraşan kişi."
+        },
+        {
+          "word": "KERVANSARAY",
+          "hint": "Ticaret yolları üzerinde yolcuların konakladığı yapı."
+        },
+        {
+          "word": "İPEK YOLU",
+          "hint": "Doğu ile Batı arasında yapılan tarihi ticaret yolu."
+        },
+        {
+          "word": "BAHARAT YOLU",
+          "hint": "Baharatların taşındığı önemli ticaret güzergahı."
+        },
+        {
+          "word": "MOĞOL İMPARATORLUĞU",
+          "hint": "Cengiz Han tarafından kurulan büyük Asya devleti."
+        },
+        {
+          "word": "ALTİN ORDA",
+          "hint": "Moğol İmparatorluğu'nun batıdaki kolu."
+        },
+        {
+          "word": "İLHANLİLAR",
+          "hint": "Moğol İmparatorluğu'nun İran ve çevresindeki kolu."
+        },
+        {
+          "word": "KUBİLAY HAN",
+          "hint": "Çin'de Yuan Hanedanlığı'nı kuran Moğol hükümdarı."
+        },
+        {
+          "word": "COĞRAFİ KEŞİFLER",
+          "hint": "Yeni deniz yollarının ve kıtaların bulunması."
+        },
+        {
+          "word": "MATBAA",
+          "hint": "Kitap ve yazı basmaya yarayan alet."
+        },
+        {
+          "word": "RENESANS",
+          "hint": "Avrupa'da sanatta, edebiyatta ve bilimde yeniden doğuş."
+        },
+        {
+          "word": "HUMANİZM",
+          "hint": "İnsanı merkeze alan felsefi akım."
+        },
+        {
+          "word": "SKOLASTİSİZM",
+          "hint": "Orta Çağ felsefesi, dini dogmalarla aklı birleştirmeye çalışır."
+        },
+        {
+          "word": "ASALET",
+          "hint": "Soylu olma durumu, soyluluk."
+        },
+        {
+          "word": "KÖYLÜ",
+          "hint": "Tarım işleriyle uğraşan, toprağı işleyen halk."
+        },
+        {
+          "word": "SERF",
+          "hint": "Toprağa bağlı, özgür olmayan tarım işçisi."
+        },
+        {
+          "word": "BATI ROMA",
+          "hint": "Doğu Roma'dan ayrılan ve MS 476'da yıkılan imparatorluk."
+        },
+        {
+          "word": "DOĞU ROMA",
+          "hint": "Başkenti Konstantinopolis olan ve uzun süre varlığını sürdüren imparatorluk."
+        },
+        {
+          "word": "BİZANS İMPARATORLUĞU",
+          "hint": "Doğu Roma İmparatorluğu'nun devamı."
+        },
+        {
+          "word": "İSLAM BİLİMİ",
+          "hint": "Orta Çağ'da İslam dünyasında gelişen bilim."
+        },
+        {
+          "word": "ALIM",
+          "hint": "Bilgi sahibi, bilgin kişi."
+        },
+        {
+          "word": "HALİFE",
+          "hint": "İslam devletinin siyasi ve dini lideri."
+        },
+        {
+          "word": "EMİR",
+          "hint": "Ordu komutanı veya yönetici."
+        },
+        {
+          "word": "HATUN",
+          "hint": "Türk hükümdarlarının eşi veya hatırı sayılır kadın."
+        },
+        {
+          "word": "BEG",
+          "hint": "Türk ve İslam devletlerinde yönetici veya bey."
+        },
+        {
+          "word": "SULTAN",
+          "hint": "Büyük İslam devletlerinin yöneticisi."
+        },
+        {
+          "word": "ŞERİAT",
+          "hint": "İslam hukuk kuralları."
+        },
+        {
+          "word": "YAZILI HUKUK",
+          "hint": "Kanunlarla belirlenmiş yasal düzen."
+        },
+        {
+          "word": "GELENEK",
+          "hint": "Kuşaktan kuşağa aktarılan alışkanlık ve görenek."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların bir yerden başka bir yere taşınması."
+        },
+        {
+          "word": "KURULTAY",
+          "hint": "Türklerde devlet işlerinin görüşüldüğü meclis."
+        },
+        {
+          "word": "ORHUN YAZITLARI",
+          "hint": "Eski Türk devletlerine ait yazılı belgeler."
+        },
+        {
+          "word": "TÜRBE",
+          "hint": "Önemli kişilerin mezarlarının bulunduğu yapı."
+        },
+        {
+          "word": "CAMİ",
+          "hint": "Müslümanların ibadet ettiği yer."
+        },
+        {
+          "word": "SARAY",
+          "hint": "Hükümdarların yaşadığı görkemli yapı."
+        }
+      ]
     },
     {
       "id": "tarih_u4",
-      "name": "4. Ünite: İslam Medeniyetinin Doğuşu ve Yayılışı",
+      "name": "4. Ünite: Küreselleşen Dünya (20. Yüzyıl Başları)",
       "months": [
-        2,
-        3
+        1
       ],
-      "words": []
+      "words": [
+        {
+          "word": "VAHİY",
+          "hint": "Allah'ın insanlara elçileri aracılığıyla ilettiği mesaj."
+        },
+        {
+          "word": "HİCRET",
+          "hint": "Hz. Muhammed'in Mekke'den Medine'ye göç etmesi."
+        },
+        {
+          "word": "MEDİNE",
+          "hint": "Hz. Muhammed'in hicret sonrası yerleştiği şehir."
+        },
+        {
+          "word": "İSLAM",
+          "hint": "Barış anlamına gelen, tek tanrılı din."
+        },
+        {
+          "word": "MÜSLÜMAN",
+          "hint": "İslam dinine inanan kişi."
+        },
+        {
+          "word": "PEYGAMBER",
+          "hint": "Allah tarafından seçilmiş, insanlara doğru yolu gösteren kişi."
+        },
+        {
+          "word": "KUR'AN",
+          "hint": "Müslümanların kutsal kitabı."
+        },
+        {
+          "word": "SURE",
+          "hint": "Kur'an'ın bölümlerinden her biri."
+        },
+        {
+          "word": "AYET",
+          "hint": "Kur'an'ın en küçük bölümü."
+        },
+        {
+          "word": "NAMAZ",
+          "hint": "Müslümanların günde beş vakit yerine getirdiği ibadet."
+        },
+        {
+          "word": "ORUÇ",
+          "hint": "Ramazan ayında gün boyu yeme içmeden uzak durma."
+        },
+        {
+          "word": "ZEKAT",
+          "hint": "Belirli mal varlığı üzerinden verilen sadaka."
+        },
+        {
+          "word": "HAC",
+          "hint": "Mekke'ye gidilerek yapılan kutsal yolculuk."
+        },
+        {
+          "word": "CAMİ",
+          "hint": "Müslümanların ibadet ettiği yer."
+        },
+        {
+          "word": "MEDRESE",
+          "hint": "İslami ilimlerin okutulduğu okul."
+        },
+        {
+          "word": "HALİFE",
+          "hint": "Hz. Muhammed'den sonra Müslüman toplumunun lideri."
+        },
+        {
+          "word": "HİLAFET",
+          "hint": "Halifenin yönettiği yönetim şekli."
+        },
+        {
+          "word": "EMEVİLER",
+          "hint": "İslam devletini genişleten Emevi ailesinden gelen halifeler."
+        },
+        {
+          "word": "ABBASİ",
+          "hint": "Bilim ve kültüre önem veren halifelik."
+        },
+        {
+          "word": "ENDÜLÜS",
+          "hint": "İslam medeniyetinin Avrupa'daki önemli merkezi."
+        },
+        {
+          "word": "İBN SİNA",
+          "hint": "Tıp ve felsefede önemli eserler veren bilim insanı."
+        },
+        {
+          "word": "HAREZMİ",
+          "hint": "Cebirin temellerini atan matematikçi."
+        },
+        {
+          "word": "FELSEFE",
+          "hint": "Hayatın ve varoluşun temel sorularını sorgulayan bilim dalı."
+        },
+        {
+          "word": "ASTRONOMİ",
+          "hint": "Yıldızları ve gök cisimlerini inceleyen bilim dalı."
+        },
+        {
+          "word": "MATEMATİK",
+          "hint": "Sayılar, şekiller ve mantık üzerine çalışan bilim dalı."
+        },
+        {
+          "word": "TIP",
+          "hint": "Sağlık ve hastalıklarla ilgilenen bilim dalı."
+        },
+        {
+          "word": "KİMYA",
+          "hint": "Maddelerin yapısını ve etkileşimlerini inceleyen bilim dalı."
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "Yazılı ve sözlü sanat."
+        },
+        {
+          "word": "MİMARİ",
+          "hint": "Binaların tasarlanması ve inşa edilmesi."
+        },
+        {
+          "word": "TEZHİP",
+          "hint": "El yazmalarını süsleme sanatı."
+        },
+        {
+          "word": "HAT",
+          "hint": "Güzel yazı yazma sanatı."
+        },
+        {
+          "word": "MİNYATÜR",
+          "hint": "Küçük boyutlu resim sanatı."
+        },
+        {
+          "word": "NAKIŞ",
+          "hint": "Kumaş üzerine iğne ile yapılan süsleme."
+        },
+        {
+          "word": "ŞİİR",
+          "hint": "Duygu ve düşüncelerin ahenkli sözlerle anlatımı."
+        },
+        {
+          "word": "HİKAYE",
+          "hint": "Kısa olay anlatımı."
+        },
+        {
+          "word": "MAKALE",
+          "hint": "Belirli bir konuda yazılmış yazı."
+        },
+        {
+          "word": "TARİH",
+          "hint": "Geçmişte yaşanmış olayları inceleyen bilim dalı."
+        },
+        {
+          "word": "COĞRAFYA",
+          "hint": "Yeryüzünü ve üzerindeki canlıları inceleyen bilim dalı."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun yaşayış biçimi, inançları ve sanatları."
+        },
+        {
+          "word": "MEDENİYET",
+          "hint": "Toplumların geliştirdiği maddi ve manevi değerler."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Mal ve hizmet alıp satma."
+        },
+        {
+          "word": "İLİM",
+          "hint": "Bilgi ve bilim."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hak ve hukuka uygunluk."
+        },
+        {
+          "word": "FETİH",
+          "hint": "Bir bölgenin askeri yollarla alınması."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir toprak parçası üzerinde yaşayan örgütlü toplum."
+        },
+        {
+          "word": "TOPLUM",
+          "hint": "Belirli bir yerde yaşayan insan topluluğu."
+        },
+        {
+          "word": "BEYTÜLHİKME",
+          "hint": "Abbasi döneminde kurulan çeviri ve bilim merkezi."
+        },
+        {
+          "word": "ŞAM",
+          "hint": "Emevi devletinin başkenti."
+        },
+        {
+          "word": "BAĞDAT",
+          "hint": "Abbasi devletinin başkenti."
+        },
+        {
+          "word": "SEMERKANT",
+          "hint": "Orta Asya'da önemli bir bilim ve ticaret merkezi."
+        },
+        {
+          "word": "KURTUBA",
+          "hint": "Endülüs'ün en önemli şehirlerinden biri."
+        }
+      ]
     },
     {
       "id": "tarih_u5",
-      "name": "5. Ünite: Türklerin İslamiyet'i Kabulü ve İlk Devletler",
+      "name": "5. Ünite: Yakın Çağda Avrupa ve Osmanlı (20. Yüzyılın İlk Yarısı)",
       "months": [
-        4,
-        5
+        2
       ],
-      "words": []
+      "words": [
+        {
+          "word": "GAZNELİLER",
+          "hint": "Sultan Mahmut'un kurduğu, Hindistan'a yaptığı akınlarla bilinen devlet."
+        },
+        {
+          "word": "ABBASİLER",
+          "hint": "Emevilerin yıkılmasından sonra kurulan, Bağdat'ı başkent yapan devlet."
+        },
+        {
+          "word": "TALAZ SAVAŞI",
+          "hint": "Türklerin İslamiyet'e geçişini hızlandıran, Araplarla Çinliler arasında yapılan savaş."
+        },
+        {
+          "word": "KARAHANLILAR",
+          "hint": "Orta Asya'da kurulan, ilk Türk-İslam devleti olarak kabul edilen devlet."
+        },
+        {
+          "word": "KAŞGAR",
+          "hint": "Karahanlıların başkenti olan önemli bir Türk-İslam şehri."
+        },
+        {
+          "word": "SEMERKANT",
+          "hint": "Orta Asya'nın önemli ticaret ve kültür merkezlerinden, Türk-İslam devletlerine başkentlik yapmış şehir."
+        },
+        {
+          "word": "UYGURLAR",
+          "hint": "Orta Asya'da yerleşik hayata geçen, Maniheizmi benimseyen ilk Türk devleti."
+        },
+        {
+          "word": "MANİHEİZM",
+          "hint": "İran kökenli, iki zıt güç (aydınlık-karanlık) üzerine kurulu din."
+        },
+        {
+          "word": "BUDİZM",
+          "hint": "Hindistan kökenli, aydınlanma ve nirvana kavramlarına dayanan din."
+        },
+        {
+          "word": "GÖK TANRI",
+          "hint": "Türklerin İslamiyet'ten önceki tek tanrılı inancı."
+        },
+        {
+          "word": "ŞAMANİZM",
+          "hint": "Doğa ruhlarına ve atalara tapınmayı içeren, din adamlarının ruhlar alemine yolculuk yaptığı inanç sistemi."
+        },
+        {
+          "word": "HUDUD'ÜL ALEM",
+          "hint": "Coğrafya alanında yazılmış, 982 tarihli önemli bir eser."
+        },
+        {
+          "word": "DİVAN-I LÜGATİT-TÜRK",
+          "hint": "Kaşgarlı Mahmut tarafından yazılan, ilk Türkçe ansiklopedik sözlük."
+        },
+        {
+          "word": "SAKKA",
+          "hint": "Türklerin İslamiyet'i kabulünden önceki dönemde bilinen su dağıtıcıları."
+        },
+        {
+          "word": "ATSIZ",
+          "hint": "Karahanlı devlet adamı ve bilim insanı, Divan-ı Lügatit-Türk'ün yazarı."
+        },
+        {
+          "word": "MESNEVİ",
+          "hint": "Genellikle aşk ve kahramanlık konularını işleyen, beyitlerden oluşan uzun şiir türü."
+        },
+        {
+          "word": "GAZEL",
+          "hint": "Genellikle aşk ve güzellik temalarını işleyen, aruz ölçüsüyle yazılan kısa nazım biçimi."
+        },
+        {
+          "word": "RUBAİ",
+          "hint": "Dört dizeden oluşan, genellikle felsefi ve didaktik konularda yazılan şiir türü."
+        },
+        {
+          "word": "KUTADGU BİLİG",
+          "hint": "Yusuf Has Hacib tarafından yazılan, devlet yönetimi ve ahlak üzerine didaktik eser."
+        },
+        {
+          "word": "TALAZ",
+          "hint": "Bağdat ile Horasan arasında önemli bir ticaret yolu üzerinde yer alan şehir."
+        },
+        {
+          "word": "HİLAFET",
+          "hint": "Hz. Muhammed'den sonra Müslümanların dini ve siyasi liderliği makamı."
+        },
+        {
+          "word": "HALİFE",
+          "hint": "İslam devletinin başındaki en yüksek dini ve siyasi otorite."
+        },
+        {
+          "word": "EMİR",
+          "hint": "Ordu komutanı veya vilayet valisi gibi unvanlara sahip yönetici."
+        },
+        {
+          "word": "VEZİR",
+          "hint": "Devlet işlerinde halife veya sultana yardım eden en üst düzey devlet görevlisi."
+        },
+        {
+          "word": "KADI",
+          "hint": "İslam hukukuna göre davalara bakan ve adaleti sağlayan yargıç."
+        },
+        {
+          "word": "MÜDERRİS",
+          "hint": "Medreselerde ders veren öğretmen."
+        },
+        {
+          "word": "MEDRESE",
+          "hint": "İslam dünyasında yüksek öğrenim kurumu, üniversite."
+        },
+        {
+          "word": "SARAY",
+          "hint": "Hükümdarın ve ailesinin yaşadığı, yönetim merkezi olan büyük yapı."
+        },
+        {
+          "word": "KERVANSARAY",
+          "hint": "Ticaret yolları üzerinde yolcuların konakladığı, güvenli bir yer."
+        },
+        {
+          "word": "DARBE",
+          "hint": "Yönetimin zorla ele geçirilmesi eylemi."
+        },
+        {
+          "word": "İSYAN",
+          "hint": "Devlete karşı gelme, ayaklanma."
+        },
+        {
+          "word": "FETİH",
+          "hint": "Bir ülkenin veya bölgenin silah zoruyla ele geçirilmesi."
+        },
+        {
+          "word": "GAZA",
+          "hint": "Dini inançları yaymak veya korumak amacıyla yapılan kutsal savaş."
+        },
+        {
+          "word": "CİHAT",
+          "hint": "İslam uğruna yapılan mücadele, hem iç hem dış anlamları var."
+        },
+        {
+          "word": "TEOKRASİ",
+          "hint": "Dini esaslara dayanan yönetim şekli."
+        },
+        {
+          "word": "SALTANAT",
+          "hint": "Bir kişinin veya ailenin babadan oğula geçen yönetim hakkı."
+        },
+        {
+          "word": "BEYLİK",
+          "hint": "Selçukluların yıkılmasından sonra Anadolu'da kurulan küçük Türk devletleri."
+        },
+        {
+          "word": "MİRASI",
+          "hint": "Önceki nesillerden kalan maddi veya manevi değerler."
+        },
+        {
+          "word": "HALK",
+          "hint": "Bir ülkenin insanları, topluluk."
+        },
+        {
+          "word": "KÖLELİK",
+          "hint": "Bir insanın başka bir insan tarafından alınıp satılması, özgürlüğünün kısıtlanması."
+        },
+        {
+          "word": "MÜCADELE",
+          "hint": "Bir amaç uğruna verilen çaba, savaş."
+        },
+        {
+          "word": "TOPRAK",
+          "hint": "Yeryüzünün yüzeyinde bulunan ve üzerinde yerleşim veya tarım yapılabilen kısım."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun yaşayış biçimi, sanat, inanç ve düşünce."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Malların alınıp satılması işi."
+        },
+        {
+          "word": "ZANAAT",
+          "hint": "El becerisiyle yapılan üretim, sanatkarlık."
+        },
+        {
+          "word": "SANAT",
+          "hint": "İnsanın duygu, düşünce ve hayallerini estetik biçimde ifade etmesi."
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "Dilin estetik kurallarına göre kullanılarak duygu ve düşünceleri anlatan yazı."
+        },
+        {
+          "word": "MİMARİ",
+          "hint": "Yapıların tasarlanması ve inşa edilmesi."
+        },
+        {
+          "word": "DİNİ",
+          "hint": "İnançla ilgili."
+        },
+        {
+          "word": "SİYASİ",
+          "hint": "Yönetimle ilgili."
+        },
+        {
+          "word": "EKONOMİK",
+          "hint": "Üretim, tüketim ve dağıtımla ilgili."
+        },
+        {
+          "word": "SOSYAL",
+          "hint": "Toplumla ilgili."
+        },
+        {
+          "word": "COĞRAFİ",
+          "hint": "Yeryüzü şekilleri ve dağılımıyla ilgili."
+        }
+      ]
     },
     {
       "id": "tarih_u6",
-      "name": "6. Ünite: Yerleşme, Devletleşme ve Beylikten Devlete",
+      "name": "6. Ünite: İki Savaş Arası Dönemde Dünya ve Türkiye (1918-1939)",
       "months": [
-        6
+        3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "ANADOLU",
+          "hint": "Türkiye'nin Asya kıtasında bulunan topraklarıdır. Tarihi boyunca birçok medeniyete ev sahipliği yapmıştır."
+        },
+        {
+          "word": "ORHUN",
+          "hint": "Türk tarihinin bilinen ilk yazılı kaynaklarının bulunduğu coğrafyadır."
+        },
+        {
+          "word": "ORHUN KİTABELERİ",
+          "hint": "Göktürkler tarafından dikilmiş, Türkçenin bilinen ilk yazılı belgeleridir."
+        },
+        {
+          "word": "GÖKTÜRK",
+          "hint": "Orta Asya'da kurulmuş, Türk adını devlet adı olarak kullanan ilk büyük Türk devletidir."
+        },
+        {
+          "word": "ETNİK",
+          "hint": "Bir topluluğun köken, dil, kültür gibi özelliklerine dayanan kimliği."
+        },
+        {
+          "word": "İSLAMİYET",
+          "hint": "Hz. Muhammed tarafından Arabistan'da yayılan semavi dindir."
+        },
+        {
+          "word": "HİCRET",
+          "hint": "Hz. Muhammed'in Mekke'den Medine'ye göç etmesi."
+        },
+        {
+          "word": "MEDİNE",
+          "hint": "Hz. Muhammed'in hicret sonrası yerleştiği ve İslam devletinin kurulduğu şehir."
+        },
+        {
+          "word": "UMMET",
+          "hint": "Dini inanç birliği olan topluluk."
+        },
+        {
+          "word": "EMEVİ",
+          "hint": "Dört Halife döneminden sonra kurulan ve İslam dünyasında önemli fetihler yapan Arap devleti."
+        },
+        {
+          "word": "ABBASİ",
+          "hint": "Emevilerden sonra kurulan, ilim ve sanat alanında gelişme gösteren İslam devleti."
+        },
+        {
+          "word": "SEMERKANT",
+          "hint": "Orta Asya'da önemli bir Türk-İslam şehri, bilginlerin toplandığı merkez."
+        },
+        {
+          "word": "BUHARİ",
+          "hint": "Hadis ilminin önde gelen isimlerinden, eserleri günümüzde de başvurulan büyük alim."
+        },
+        {
+          "word": "GAZNEVİ",
+          "hint": "Horasan merkezli, Hindistan'a seferler düzenleyen Türk devletidir."
+        },
+        {
+          "word": "SELÇUKLU",
+          "hint": "Büyük Selçuklu Devleti'nin Anadolu'ya gelmesiyle temelleri atılan güçlü Türk devletidir."
+        },
+        {
+          "word": "TUĞRUL BEY",
+          "hint": "Büyük Selçuklu Devleti'nin kurucusu ve ilk sultanı."
+        },
+        {
+          "word": "ANADOLU SELÇUKLU DEVLETİ",
+          "hint": "Anadolu'da kurulan ve Haçlı Seferleri'ne karşı mücadele veren büyük Türk devletidir."
+        },
+        {
+          "word": "MALAZGİRT SAVAŞI",
+          "hint": "Anadolu'nun kapılarının Türklere açılmasını sağlayan tarihi savaş."
+        },
+        {
+          "word": "ALPARSLAN",
+          "hint": "Malazgirt Savaşı'nda Bizans ordusunu mağlup eden Selçuklu sultanı."
+        },
+        {
+          "word": "KUDÜS",
+          "hint": "Dini önemi yüksek, üç semavi din için kutsal kabul edilen şehir."
+        },
+        {
+          "word": "HAÇLI SEFERLERİ",
+          "hint": "Avrupalı Hristiyanların Kutsal Toprakları Müslümanlardan almak için düzenlediği askeri seferler."
+        },
+        {
+          "word": "KONYA",
+          "hint": "Anadolu Selçuklu Devleti'ne başkentlik yapmış tarihi şehir."
+        },
+        {
+          "word": "KEYKAVUS",
+          "hint": "Anadolu Selçuklu Devleti'nin önemli sultanlarından, iyi bir devlet adamı."
+        },
+        {
+          "word": "KEYHÜSREV",
+          "hint": "Anadolu Selçuklu Devleti'nin en parlak dönemini yaşatan sultanlarından."
+        },
+        {
+          "word": "KOÇHİSAR",
+          "hint": "Anadolu Selçuklu Devleti'nin önemli şehirlerinden, tarihi mekanları barındırır."
+        },
+        {
+          "word": "KİRŞEHİR",
+          "hint": "Ahi Evran'ın yaşadığı ve Ahilik teşkilatının önemli merkezlerinden biri olan şehir."
+        },
+        {
+          "word": "AHİLİK",
+          "hint": "Anadolu'da esnaf ve sanatkarlar arasında yardımlaşma ve dayanışmayı sağlayan teşkilat."
+        },
+        {
+          "word": "AHİ EVRAN",
+          "hint": "Ahilik teşkilatının kurucusu, dönemin önemli alim ve esnaf önderi."
+        },
+        {
+          "word": "MESLEKİ",
+          "hint": "Belirli bir iş veya zanaatla ilgili."
+        },
+        {
+          "word": "TASAVVUF",
+          "hint": "İslamiyet'te Allah'a ulaşma yolu olarak kabul edilen manevi akım."
+        },
+        {
+          "word": "MEVLANA",
+          "hint": "Hoşgörü ve sevgi mesajlarıyla tanınan, Konya'da yaşamış büyük mutasavvıf."
+        },
+        {
+          "word": "MESNEVİ",
+          "hint": "Mevlana'nın eseridir, ahlaki ve tasavvufi öğütler içeren uzun manzumeler."
+        },
+        {
+          "word": "HORASAN",
+          "hint": "Orta Asya'da tarihi bir bölge, Türklerin Anadolu'ya göçünde önemli rol oynamıştır."
+        },
+        {
+          "word": "TÜRKMENLER",
+          "hint": "Anadolu'ya göç eden ve yerleşen Oğuz Türklerinin bir koludur."
+        },
+        {
+          "word": "DİL",
+          "hint": "İletişim kurmaya yarayan sesli veya yazılı işaretler bütünü."
+        },
+        {
+          "word": "ALEVİ",
+          "hint": "Hz. Ali'yi ve Ehl-i Beyt'i seven, farklı yorumları olan bir İslami grup."
+        },
+        {
+          "word": "Şİİ",
+          "hint": "Hz. Ali'nin halifeliğini savunan, İslam'ın mezheplerinden biri."
+        },
+        {
+          "word": "SÜNNİ",
+          "hint": "Hz. Muhammed'in sünnetine uyan, İslam'ın en yaygın mezhebi."
+        },
+        {
+          "word": "KANUNNAME",
+          "hint": "Devletin temel kurallarını belirleyen yazılı metin."
+        },
+        {
+          "word": "TİMAR",
+          "hint": "Devlet adamlarına veya askerlere hizmet karşılığı verilen toprak geliri."
+        },
+        {
+          "word": "İLTİZAM",
+          "hint": "Vergi toplama hakkının belirli bir bedel karşılığında satılması."
+        },
+        {
+          "word": "YAYLAK",
+          "hint": "Yaz aylarında hayvanların otlatıldığı serin dağlık alan."
+        },
+        {
+          "word": "KIŞLAK",
+          "hint": "Kış aylarında ikamet edilen, daha korunaklı yerleşim yeri."
+        },
+        {
+          "word": "BEYLİK",
+          "hint": "Selçuklu Devleti'nin zayıflamasıyla Anadolu'da kurulan küçük Türk devletleri."
+        },
+        {
+          "word": "OSMANLI",
+          "hint": "Anadolu'da kurulan ve üç kıtaya yayılan büyük Türk imparatorluğu."
+        },
+        {
+          "word": "ORHAN GAZİ",
+          "hint": "Osmanlı Devleti'nin ikinci padişahı, devletleşme sürecinde önemli adımlar atmıştır."
+        },
+        {
+          "word": "BURSA",
+          "hint": "Osmanlı Devleti'nin ilk büyük başkentlerinden biri."
+        },
+        {
+          "word": "İZNİK",
+          "hint": "Anadolu Selçuklu ve Osmanlı Devleti'nin önemli şehirlerinden, tarihi önemi büyük."
+        },
+        {
+          "word": "BALKANLAR",
+          "hint": "Avrupa'nın güneydoğusunda yer alan, Osmanlı'nın ilk fetihlerinin yapıldığı bölge."
+        },
+        {
+          "word": "EDİRNE",
+          "hint": "Osmanlı Devleti'nin Avrupa'daki önemli şehirlerinden, bir dönem başkentlik yapmıştır."
+        },
+        {
+          "word": "ÇAKABEY",
+          "hint": "İzmir ve çevresinde ilk Türk denizci beyliğini kuran kişi."
+        },
+        {
+          "word": "SARUHANOĞULLARI",
+          "hint": "Manisa ve çevresinde kurulmuş bir Anadolu beyliği."
+        },
+        {
+          "word": "AYDINOĞULLARI",
+          "hint": "Batı Anadolu'da faaliyet göstermiş denizci Türk beyliği."
+        },
+        {
+          "word": "MENTEŞEOĞULLARI",
+          "hint": "Muğla ve çevresinde kurulmuş, Ege kıyılarında etkili olmuş beylik."
+        }
+      ]
+    },
+    {
+      "id": "tarih_u7",
+      "name": "7. Ünite: II. Dünya Savaşı ve Sonrası (1939-1990)",
+      "months": [
+        4
+      ],
+      "words": [
+        {
+          "word": "MİHVER",
+          "hint": "II. Dünya Savaşı'nda Almanya, İtalya ve Japonya'nın oluşturduğu grup."
+        },
+        {
+          "word": "MÜTTEFİK",
+          "hint": "II. Dünya Savaşı'nda Almanya'ya karşı birleşen ülkeler (ABD, İngiltere, SSCB gibi)."
+        },
+        {
+          "word": "HOLOKOST",
+          "hint": "Nazilerin II. Dünya Savaşı'nda Yahudilere yaptığı büyük katliam."
+        },
+        {
+          "word": "NAZİZM",
+          "hint": "Almanya'da Hitler'in savunduğu aşırı milliyetçi ve ırkçı fikir sistemi."
+        },
+        {
+          "word": "FAŞİZM",
+          "hint": "İtalya'da Mussolini'nin benimsediği tek adam yönetimine dayalı fikir."
+        },
+        {
+          "word": "HİROŞİMA",
+          "hint": "ABD'nin atom bombası attığı ilk Japon şehri."
+        },
+        {
+          "word": "NAGASAKİ",
+          "hint": "Japonya'ya atılan ikinci atom bombasının hedefi olan şehir."
+        },
+        {
+          "word": "PEARL HARBOR",
+          "hint": "Japonların ABD donanmasına ani saldırı yaptığı liman."
+        },
+        {
+          "word": "BLİTZKRİEG",
+          "hint": "Almanların II. Dünya Savaşı'ndaki hızlı ve şaşırtıcı 'yıldırım savaşı' tekniği."
+        },
+        {
+          "word": "SOYKIRIM",
+          "hint": "Bir etnik veya dini grubun tamamen yok edilmesi amacı taşıyan eylem."
+        },
+        {
+          "word": "ANTLAŞMA",
+          "hint": "Ülkeler arasında barışı veya işbirliğini sağlayan resmi belge."
+        },
+        {
+          "word": "CEPHE",
+          "hint": "Savaşta orduların karşılaştığı, çatışmaların yaşandığı yer."
+        },
+        {
+          "word": "PROPAGANDA",
+          "hint": "Halkın düşüncelerini etkilemek için yapılan yoğun tanıtım faaliyeti."
+        },
+        {
+          "word": "İŞGAL",
+          "hint": "Bir ülkenin başka bir ülke topraklarını askeri güçle ele geçirmesi."
+        },
+        {
+          "word": "DİRENİŞ",
+          "hint": "İşgalcilere veya baskıcı yönetime karşı gösterilen mücadele."
+        },
+        {
+          "word": "ATOM",
+          "hint": "Nükleer enerjinin ve atom bombasının temelini oluşturan küçük parçacık."
+        },
+        {
+          "word": "FÜZE",
+          "hint": "Uzun mesafelere patlayıcı taşıyabilen güdümlü roket."
+        },
+        {
+          "word": "SOĞUK SAVAŞ",
+          "hint": "ABD ve SSCB arasındaki doğrudan çatışmaya dönüşmeyen gerilim dönemi."
+        },
+        {
+          "word": "DEMİR PERDE",
+          "hint": "Soğuk Savaş'ta Avrupa'yı ikiye bölen siyasi ve ideolojik sınır."
+        },
+        {
+          "word": "NÜKLEER",
+          "hint": "Atom çekirdeğiyle ilgili, çok büyük enerji üreten teknoloji."
+        },
+        {
+          "word": "NATO",
+          "hint": "Batı ülkelerinin Sovyet tehdidine karşı kurduğu askeri birlik."
+        },
+        {
+          "word": "VARŞOVA PAKTI",
+          "hint": "Doğu Bloku ülkelerinin NATO'ya karşı kurduğu askeri ittifak."
+        },
+        {
+          "word": "BERLİN DUVARI",
+          "hint": "Soğuk Savaş'ta Doğu ve Batı Berlin'i ayıran meşhur yapı."
+        },
+        {
+          "word": "KUŞATMA",
+          "hint": "Bir şehrin veya kalenin düşman tarafından çevrilerek dışarıyla bağının kesilmesi."
+        },
+        {
+          "word": "SİLAHLANMA",
+          "hint": "Ülkelerin ordularını güçlendirmek için silah üretme ve satın alma yarışı."
+        },
+        {
+          "word": "MÜLTECİ",
+          "hint": "Savaş veya zulümden kaçarak başka bir ülkeye sığınan kişi."
+        },
+        {
+          "word": "EKONOMİ",
+          "hint": "Bir ülkenin üretim, tüketim ve ticaret gibi zenginlik yönetimi."
+        },
+        {
+          "word": "İDEOLOJİ",
+          "hint": "Bir toplumsal veya siyasi grubun temel inançlar ve fikirler bütünü."
+        },
+        {
+          "word": "KAPİTALİZM",
+          "hint": "Özel mülkiyet ve serbest piyasanın önemli olduğu ekonomik sistem."
+        },
+        {
+          "word": "KOMÜNİZM",
+          "hint": "Üretim araçlarının toplumun ortak malı olduğu, sınıfsız toplum hedefi."
+        },
+        {
+          "word": "SOSYALİZM",
+          "hint": "Toplumsal eşitliği ve devletin ekonomide daha aktif olmasını savunan görüş."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Savaş ve çatışmaların sona erdiği, huzur ve uyum dönemi."
+        },
+        {
+          "word": "BİRLEŞMİŞ MİLLETLER",
+          "hint": "Dünya barışını ve güvenliğini sağlamak için kurulmuş uluslararası örgüt."
+        },
+        {
+          "word": "MARSHALL PLANI",
+          "hint": "ABD'nin II. Dünya Savaşı sonrası Avrupa'ya ekonomik yardım projesi."
+        },
+        {
+          "word": "TRUMAN DOKTRİNİ",
+          "hint": "ABD'nin komünizm tehlikesine karşı ülkelere askeri ve ekonomik destek vermesi."
+        },
+        {
+          "word": "DEKOLONİZASYON",
+          "hint": "Sömürgelerin bağımsızlıklarını kazanarak kendi kendilerini yönetmeleri süreci."
+        },
+        {
+          "word": "BAĞIMSIZLIK",
+          "hint": "Bir ülkenin başka bir devletin etkisi veya denetimi altında olmaması."
+        },
+        {
+          "word": "ÜÇÜNCÜ DÜNYA",
+          "hint": "Soğuk Savaş'ta ne ABD ne de SSCB blokuna katılmayan, genellikle gelişmekte olan ülkeler."
+        },
+        {
+          "word": "BAĞLANTISIZLAR HAREKETİ",
+          "hint": "Soğuk Savaş'ın iki büyük gücünden bağımsız kalmayı seçen ülkeler grubu."
+        },
+        {
+          "word": "VİETNAM SAVAŞI",
+          "hint": "ABD'nin komünizmin yayılmasını durdurmak için uzun süre savaştığı Güneydoğu Asya ülkesi."
+        },
+        {
+          "word": "KORE SAVAŞI",
+          "hint": "1950'lerde Kuzey ve Güney Kore arasında yaşanan, BM'nin de müdahale ettiği savaş."
+        },
+        {
+          "word": "KRİZ",
+          "hint": "Uluslararası ilişkilerde aniden ortaya çıkan ve büyük tehlikeler içeren gergin durum."
+        },
+        {
+          "word": "UZAY YARIŞI",
+          "hint": "ABD ve SSCB'nin uzayı keşfetme ve uzay teknolojisinde üstünlük sağlama rekabeti."
+        },
+        {
+          "word": "CASUSLUK",
+          "hint": "Bir devletin askeri veya siyasi sırlarını gizlice öğrenme faaliyeti."
+        },
+        {
+          "word": "TERÖR",
+          "hint": "Siyasi amaçlarla halkı korkutmak ve sindirmek için yapılan şiddet eylemleri."
+        },
+        {
+          "word": "DARBE",
+          "hint": "Bir ülkenin yönetiminin askeri güçle veya yasa dışı yollarla ele geçirilmesi."
+        },
+        {
+          "word": "GERİLLA",
+          "hint": "Küçük ve düzensiz askeri birliklerin düşmanlara karşı uyguladığı savaş taktiği."
+        },
+        {
+          "word": "DEVRİM",
+          "hint": "Bir ülkede siyasi veya sosyal sistemde ani ve köklü değişiklikler yaşanması."
+        },
+        {
+          "word": "SENDİKA",
+          "hint": "İşçilerin haklarını korumak ve iyileştirmek için kurduğu mesleki kuruluş."
+        },
+        {
+          "word": "DEMOKRASİ",
+          "hint": "Yönetimin halk tarafından, seçimlerle belirlendiği yönetim şekli."
+        },
+        {
+          "word": "DİKTATÖRLÜK",
+          "hint": "Tüm yetkilerin tek bir kişide toplandığı, halkın söz hakkı olmayan yönetim."
+        },
+        {
+          "word": "EMPERYALİZM",
+          "hint": "Bir ülkenin gücünü artırmak için başka ülkeleri egemenliği altına alma politikası."
+        },
+        {
+          "word": "SÖMÜRGE",
+          "hint": "Büyük bir devletin ele geçirip yönettiği, ekonomik kaynaklarını kullandığı başka bir bölge."
+        },
+        {
+          "word": "ULUS",
+          "hint": "Ortak bir kültüre, dile ve tarihe sahip büyük insan topluluğu."
+        },
+        {
+          "word": "MİLLİYETÇİLİK",
+          "hint": "Kendi ulusunun çıkarlarını ve değerlerini üstün tutan düşünce akımı."
+        }
+      ]
+    },
+    {
+      "id": "tarih_u8",
+      "name": "8. Ünite: Küreselleşen Dünya (1990 Sonrası)",
+      "months": [
+        5
+      ],
+      "words": [
+        {
+          "word": "KÜRESELLEŞME",
+          "hint": "Dünyanın birbirine bağlı hale gelmesi süreci."
+        },
+        {
+          "word": "MULTİLATERALİZM",
+          "hint": "Birden fazla ülkenin işbirliği yapması."
+        },
+        {
+          "word": "TEKNOKRAT",
+          "hint": "Teknik bilgisiyle yönetimde etkili olan kişi."
+        },
+        {
+          "word": "ENFORMASYON",
+          "hint": "Bilgi veya haber."
+        },
+        {
+          "word": "DEZENFORMASYON",
+          "hint": "Yanlış veya yanıltıcı bilgi yayma."
+        },
+        {
+          "word": "SİBER",
+          "hint": "İnternet ve bilgisayar ağlarıyla ilgili."
+        },
+        {
+          "word": "HEGEMONYA",
+          "hint": "Bir devletin diğerleri üzerindeki üstünlüğü."
+        },
+        {
+          "word": "POSTMODERNİZM",
+          "hint": "Modern sonrası felsefi ve kültürel akım."
+        },
+        {
+          "word": "NEOLİBERALİZM",
+          "hint": "Serbest piyasa ekonomisini savunan düşünce."
+        },
+        {
+          "word": "DEMOKRASİLEŞME",
+          "hint": "Yönetimde halkın söz sahibi olması süreci."
+        },
+        {
+          "word": "FUNDAMENTALİZM",
+          "hint": "Bir dinin temel ilkelerine sıkı bağlılık."
+        },
+        {
+          "word": "RADİKALİZM",
+          "hint": "Köklü ve hızlı değişim isteyen görüş."
+        },
+        {
+          "word": "ULUSLARÜSTÜ",
+          "hint": "Devlet sınırlarını aşan, ulusların ötesinde."
+        },
+        {
+          "word": "BÜTÜNLEŞME",
+          "hint": "Farklı unsurların bir araya gelerek uyum sağlaması."
+        },
+        {
+          "word": "İDEOLOJİ",
+          "hint": "Siyasi veya toplumsal düşünceler bütünü."
+        },
+        {
+          "word": "JEOPOLİTİK",
+          "hint": "Coğrafyanın devletlerin dış politikasına etkisi."
+        },
+        {
+          "word": "DİPLOMASİ",
+          "hint": "Devletler arası barışçıl ilişkiler yürütme."
+        },
+        {
+          "word": "AMBARGO",
+          "hint": "Bir ülkeye uygulanan ekonomik veya siyasi kısıtlama."
+        },
+        {
+          "word": "PROTESTO",
+          "hint": "Bir duruma veya karara karşı itiraz gösterisi."
+        },
+        {
+          "word": "SEKÜLERİZM",
+          "hint": "Devlet işlerini dinden ayırma prensibi."
+        },
+        {
+          "word": "ÖZERKLİK",
+          "hint": "Bir bölgenin kendi kendini yönetme hakkı."
+        },
+        {
+          "word": "REFERANDUM",
+          "hint": "Bir konunun halka sunulup oylanması."
+        },
+        {
+          "word": "KOALİSYON",
+          "hint": "Farklı partilerin birleşerek hükümet kurması."
+        },
+        {
+          "word": "KRİZ",
+          "hint": "Ciddi ve ani sorunlar doğuran kritik durum."
+        },
+        {
+          "word": "KONJONKTÜR",
+          "hint": "Belirli bir zamandaki ekonomik, siyasi koşulların bütünü."
+        },
+        {
+          "word": "DEVALÜASYON",
+          "hint": "Bir ülkenin para biriminin değer kaybetmesi."
+        },
+        {
+          "word": "ENFLASYON",
+          "hint": "Fiyatların genel düzeyinde sürekli artış."
+        },
+        {
+          "word": "YOKSULLUK",
+          "hint": "Temel ihtiyaçları karşılayacak gelire sahip olamama durumu."
+        },
+        {
+          "word": "EKOLOJİ",
+          "hint": "Canlıların çevreleriyle ilişkisini inceleyen bilim dalı."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Doğal kaynakları gelecek nesillere koruyarak kullanma."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ",
+          "hint": "Dünya genelindeki hava olaylarının uzun dönemli değişimi."
+        },
+        {
+          "word": "ÇEVRE KİRLİLİĞİ",
+          "hint": "Doğal ortamın insan etkisiyle bozulması."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Atık maddelerin yeniden işlenerek kullanılması."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK",
+          "hint": "Bir bölgedeki farklı canlı türlerinin zenginliği."
+        },
+        {
+          "word": "AFET",
+          "hint": "Doğal veya insan kaynaklı büyük felaket."
+        },
+        {
+          "word": "MÜLTECİ",
+          "hint": "Savaş, zulüm gibi nedenlerle ülkesinden kaçan kişi."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların bir yerden başka bir yere yerleşme amacıyla hareketi."
+        },
+        {
+          "word": "AİDİYET",
+          "hint": "Bir gruba, yere veya kültüre bağlılık hissi."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Farklı görüş ve inançlara saygı gösterme."
+        },
+        {
+          "word": "KÜRESEL ISINMA",
+          "hint": "Dünya atmosferi ve okyanuslarının ortalama sıcaklığının artması."
+        },
+        {
+          "word": "TERÖRİZM",
+          "hint": "Şiddet kullanarak siyasi hedeflere ulaşma amacı güden eylemler."
+        },
+        {
+          "word": "NEO-KOLONYALİZM",
+          "hint": "Eski sömürgelerin ekonomik ve kültürel bağımlılığının devam etmesi."
+        },
+        {
+          "word": "SEKÜLERLEŞME",
+          "hint": "Toplumda dinin etkisinin ve öneminin azalması süreci."
+        },
+        {
+          "word": "POST-ENDÜSTRİYEL",
+          "hint": "Sanayi sonrası, bilgi ve hizmet sektörünün öne çıktığı toplum."
+        },
+        {
+          "word": "TRANSNASYONAL",
+          "hint": "Ulus-ötesi, birden fazla ülkeyi kapsayan veya etkileyen."
+        },
+        {
+          "word": "OTOKRASİ",
+          "hint": "Tek bir kişinin sınırsız yetkiyle yönettiği sistem."
+        },
+        {
+          "word": "KONSENSÜS",
+          "hint": "Fikir birliği, ortaklaşa alınan karar."
+        },
+        {
+          "word": "KÜRESEL KÖY",
+          "hint": "İletişim teknolojileriyle dünyanın küçülmüş gibi algılanması."
+        },
+        {
+          "word": "KÜLTÜRLEŞME",
+          "hint": "Farklı kültürlerin etkileşimi sonucu karşılıklı değişimi."
+        },
+        {
+          "word": "MEDYA OKURYAZARLIĞI",
+          "hint": "Medya mesajlarını eleştirel bir gözle anlama ve değerlendirme becerisi."
+        },
+        {
+          "word": "SİVİL TOPLUM",
+          "hint": "Devletin dışındaki örgütlenmeler ve topluluklar."
+        },
+        {
+          "word": "DİYALOG",
+          "hint": "İki veya daha fazla taraf arasında karşılıklı konuşma."
+        },
+        {
+          "word": "PARADİGMA",
+          "hint": "Bir bilim dalında kabul görmüş temel görüşler ve değerler bütünü."
+        },
+        {
+          "word": "İLETİŞİM",
+          "hint": "Duygu, düşünce veya bilgilerin aktarılması süreci."
+        },
+        {
+          "word": "SINIR ÖTESİ",
+          "hint": "Bir ülkenin sınırlarının dışına taşan, uluslararası."
+        },
+        {
+          "word": "İNSAN HAKLARI",
+          "hint": "Bütün insanların sahip olduğu temel hak ve özgürlükler."
+        },
+        {
+          "word": "ÖZGÜRLÜKLER",
+          "hint": "Bireyin istediğini yapabilme, düşünebilme ve ifade edebilme hakkı."
+        },
+        {
+          "word": "İNTERNET",
+          "hint": "Dünya genelinde bilgisayar ağlarını birbirine bağlayan sistem."
+        },
+        {
+          "word": "DEZAVANTAJLI",
+          "hint": "Sosyal veya ekonomik olarak daha kötü durumda olan."
+        },
+        {
+          "word": "ÇOK KUTUPLU",
+          "hint": "Güç dengesinin birden fazla merkez arasında dağıldığı dünya düzeni."
+        }
+      ]
     }
   ]
 }

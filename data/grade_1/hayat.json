@@ -2,10 +2,9 @@
   "units": [
     {
       "id": "hayat_u1",
-      "name": "1. Ünite: Okulumuz",
+      "name": "1. Ünite: Okul Heyecanım",
       "months": [
-        9,
-        10
+        9
       ],
       "words": [
         {
@@ -224,10 +223,10 @@
     },
     {
       "id": "hayat_u2",
-      "name": "2. Ünite: Ailemiz",
+      "name": "2. Ünite: Benim Eşsiz Yuvam",
       "months": [
-        11,
-        12
+        10,
+        11
       ],
       "words": [
         {
@@ -439,7 +438,7 @@
           "hint": "Sabah uyandığında söylenen hoş bir söz."
         },
         {
-          "word": "İ̇Yİ GECELER",
+          "word": "İYİ GECELER",
           "hint": "Yatmadan önce söylenen bir dilek."
         },
         {
@@ -454,10 +453,10 @@
     },
     {
       "id": "hayat_u3",
-      "name": "3. Ünite: Sağlıklı Hayat",
+      "name": "3. Ünite: Dün, Bugün, Yarın",
       "months": [
-        1,
-        2
+        12,
+        1
       ],
       "words": [
         {
@@ -517,7 +516,7 @@
           "hint": "Arıların yaptığı tatlı, şifalı madde."
         },
         {
-          "word": "SUÇ",
+          "word": "SU",
           "hint": "Genellikle sabahları içeriz, renksizdir."
         },
         {
@@ -665,7 +664,7 @@
           "hint": "Sağlığı yerinde olmayan kişi."
         },
         {
-          "word": "İ̇LAÇ",
+          "word": "İLAÇ",
           "hint": "Hastalandığımızda doktorun verdiği tedavi."
         },
         {
@@ -694,6 +693,7 @@
       "id": "hayat_u4",
       "name": "4. Ünite: Güvenli Hayat",
       "months": [
+        2,
         3
       ],
       "words": [
@@ -936,7 +936,7 @@
           "hint": "Okulda veya özel günlerde söylenen coşkulu şarkı."
         },
         {
-          "word": "Mİ̇LLİ̇",
+          "word": "MİLLİ",
           "hint": "Ülkeye ait, ulusal olan."
         },
         {
@@ -944,7 +944,7 @@
           "hint": "Türkiye Cumhuriyeti'nin kurucusu."
         },
         {
-          "word": "CUMHURİ̇YET",
+          "word": "CUMHURİYET",
           "hint": "Halkın kendi kendini yönettiği yönetim şekli."
         },
         {
@@ -964,11 +964,11 @@
           "hint": "Kibar ve saygılı davranış biçimi."
         },
         {
-          "word": "YARDİM",
+          "word": "YARDIM",
           "hint": "Başkalarına el uzatma, destek olma."
         },
         {
-          "word": "SAYGİ",
+          "word": "SAYGI",
           "hint": "Değer verme, hürmet etme."
         },
         {
@@ -976,11 +976,11 @@
           "hint": "Sevgi ve güvene dayalı arkadaşlık ilişkisi."
         },
         {
-          "word": "Bİ̇RLİ̇K",
+          "word": "BİRLİK",
           "hint": "Beraberlik, dayanışma içinde olma durumu."
         },
         {
-          "word": "Mİ̇SAFİ̇R",
+          "word": "MİSAFİR",
           "hint": "Evimize veya okulumuza gelen konuk."
         },
         {
@@ -1008,11 +1008,11 @@
           "hint": "Önceki olayın ardından gelen."
         },
         {
-          "word": "TEMİ̇ZLİ̇K",
+          "word": "TEMİZLİK",
           "hint": "Kir ve pas olmayan durum."
         },
         {
-          "word": "SAĞLİK",
+          "word": "SAĞLIK",
           "hint": "Vücudun iyi olma durumu."
         },
         {
@@ -1020,23 +1020,23 @@
           "hint": "Eğlenmek için yapılan etkinlik."
         },
         {
-          "word": "MÜZİ̇K",
+          "word": "MÜZİK",
           "hint": "Melodili ve ritimli seslerden oluşan sanat dalı."
         },
         {
-          "word": "RESİ̇M",
+          "word": "RESİM",
           "hint": "Fırça veya kalemle yapılan görsel sanat eseri."
         },
         {
-          "word": "Hİ̇KAYE",
+          "word": "HİKAYE",
           "hint": "Olay anlatan kısa yazı veya söz."
         },
         {
-          "word": "ŞARKİ",
+          "word": "ŞARKI",
           "hint": "Melodisi olan sözlü müzik eseri."
         },
         {
-          "word": "Kİ̇TAP",
+          "word": "KİTAP",
           "hint": "Yazılmış veya basılmış, bilgi içeren eser."
         },
         {
@@ -1044,7 +1044,7 @@
           "hint": "Bilgi ve beceri kazandıran kişi."
         },
         {
-          "word": "ÖĞRENCİ̇",
+          "word": "ÖĞRENCİ",
           "hint": "Öğretmenden ders alan kimse."
         },
         {
@@ -1052,15 +1052,15 @@
           "hint": "Çocukların eğitim gördüğü yer."
         },
         {
-          "word": "SİNİF",
+          "word": "SINIF",
           "hint": "Okuldaki derslik."
         },
         {
-          "word": "SİRA",
+          "word": "SIRA",
           "hint": "Okulda oturulan sıralardan biri."
         },
         {
-          "word": "Sİ̇LGİ̇",
+          "word": "SİLGİ",
           "hint": "Yazılanları temizleyen araç."
         },
         {
@@ -1076,7 +1076,7 @@
           "hint": "Okul eşyalarını taşımak için kullanılan araç."
         },
         {
-          "word": "Çİ̇ÇEK",
+          "word": "ÇİÇEK",
           "hint": "Bitkilerin güzel kokulu ve renkli bölümü."
         },
         {
@@ -1092,7 +1092,7 @@
           "hint": "Gece gökyüzünde beliren uydu."
         },
         {
-          "word": "YİLDİZ",
+          "word": "YILDIZ",
           "hint": "Gece gökyüzünde parıldayan ışık noktası."
         },
         {
@@ -1124,7 +1124,7 @@
           "hint": "Dünyanın etrafındaki gaz tabakası, nefes aldığımız şey."
         },
         {
-          "word": "SEVİ̇NÇ",
+          "word": "SEVİNÇ",
           "hint": "Mutlu olma, neşelenme duygusu."
         },
         {
@@ -1145,6 +1145,7 @@
       "id": "hayat_u6",
       "name": "6. Ünite: Doğada Hayat",
       "months": [
+        5,
         6
       ],
       "words": [
@@ -1153,7 +1154,7 @@
           "hint": "Yeşil yaprakları ve gövdesi olan büyük bitki."
         },
         {
-          "word": "Çİ̇ÇEK",
+          "word": "ÇİÇEK",
           "hint": "Güzelliğiyle bizi sevindiren bitki."
         },
         {
@@ -1193,7 +1194,7 @@
           "hint": "Gökyüzünde yüzen beyaz veya gri yığınlar."
         },
         {
-          "word": "NEHİ̇R",
+          "word": "NEHİR",
           "hint": "İçinden su akan uzun ve dar yeryüzü parçası."
         },
         {
@@ -1201,7 +1202,7 @@
           "hint": "Etrafı karalarla çevrili büyük su birikintisi."
         },
         {
-          "word": "DENİ̇Z",
+          "word": "DENİZ",
           "hint": "Tuzlu su ile dolu, çok büyük su kütlesi."
         },
         {
@@ -1221,7 +1222,7 @@
           "hint": "Düz ve geniş arazi."
         },
         {
-          "word": "VADİ̇",
+          "word": "VADİ",
           "hint": "Dağlar veya tepeler arasındaki çukur alan."
         },
         {
@@ -1237,7 +1238,7 @@
           "hint": "Bir sürü ağacın bir arada bulunduğu yer."
         },
         {
-          "word": "ÇAYİR",
+          "word": "ÇAYIR",
           "hint": "Üzerinde otların bittiği geniş alan."
         },
         {
@@ -1245,7 +1246,7 @@
           "hint": "Koyunun yavrusu."
         },
         {
-          "word": "BUZAĞİ",
+          "word": "BUZAĞI",
           "hint": "Ağanın yavrusu."
         },
         {
@@ -1281,7 +1282,7 @@
           "hint": "Ağacın yere dik duran kalın kısmı."
         },
         {
-          "word": "Şİ̇MŞEK",
+          "word": "ŞİMŞEK",
           "hint": "Gök gürültüsü olmadan çakan parlak ışık."
         },
         {
@@ -1289,7 +1290,7 @@
           "hint": "Yağmurdan önce veya yağmur sırasında duyulan ses."
         },
         {
-          "word": "GÖKKUŞAĞİ",
+          "word": "GÖKKUŞAĞI",
           "hint": "Yağmurdan sonra gökyüzünde beliren renkli kemer."
         },
         {
@@ -1297,11 +1298,11 @@
           "hint": "Hava olaylarının genel hali."
         },
         {
-          "word": "MEVSİ̇M",
+          "word": "MEVSİM",
           "hint": "Yılın belirli zamanları (ilkbahar, yaz, sonbahar, kış)."
         },
         {
-          "word": "İ̇LKBAHAR",
+          "word": "İLKBAHAR",
           "hint": "Ağaçların yeşerdiği, çiçeklerin açtığı mevsim."
         },
         {
@@ -1317,7 +1318,7 @@
           "hint": "Havanın soğuk olduğu, kar yağabilen mevsim."
         },
         {
-          "word": "SİCAK",
+          "word": "SICAK",
           "hint": "Havanın veya bir cismin ısısı yüksek."
         },
         {
@@ -1325,7 +1326,7 @@
           "hint": "Havanın veya bir cismin ısısı düşük."
         },
         {
-          "word": "NEMLİ̇",
+          "word": "NEMLİ",
           "hint": "Havada su buharının fazla olması."
         },
         {
@@ -1333,11 +1334,11 @@
           "hint": "Üzerinde su olmayan."
         },
         {
-          "word": "FARKLİLİK",
+          "word": "FARKLI",
           "hint": "Birbirinden ayrı olma durumu."
         },
         {
-          "word": "BENZERLİ̇K",
+          "word": "BENZERLİK",
           "hint": "Birbirine yakın olma durumu."
         },
         {

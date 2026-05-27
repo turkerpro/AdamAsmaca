@@ -2,501 +2,2101 @@
   "units": [
     {
       "id": "ingilizce_u1",
-      "name": "1. Ünite: Science",
+      "name": "Unit 1: Future Jobs",
       "months": [
         9
       ],
       "words": [
         {
-          "word": "HYPOTHESIS",
-          "hint": "A proposed explanation tested by experiments"
+          "word": "OCCUPATION",
+          "hint": "Meslek, iş, uğraş"
         },
         {
-          "word": "EXPERIMENT",
-          "hint": "A scientific test to discover something new"
+          "word": "PROFESSION",
+          "hint": "Uzmanlık gerektiren meslek"
         },
         {
-          "word": "MOLECULE",
-          "hint": "The smallest unit of a chemical compound"
+          "word": "CAREER PATH",
+          "hint": "Kariyer yolu"
         },
         {
-          "word": "EVOLUTION",
-          "hint": "Gradual change in species over generations"
+          "word": "EMPLOYER",
+          "hint": "İşveren, patron"
         },
         {
-          "word": "RESEARCH",
-          "hint": "Systematic investigation to establish facts"
+          "word": "EMPLOYEE",
+          "hint": "Çalışan, işçi"
         },
         {
-          "word": "ENERJİ̇",
-          "hint": "İş yapabilme kapasitesi veya güç."
+          "word": "QUALIFICATION",
+          "hint": "Nitelik, vasıf, yeterlilik"
         },
         {
-          "word": "MATERYAL",
-          "hint": "Bir şeyin yapıldığı veya oluşturulduğu nesne veya madde."
+          "word": "INTERNSHIP",
+          "hint": "Staj programı"
         },
         {
-          "word": "FORMÜL",
-          "hint": "Kimyasal bileşikleri temsil eden semboller dizisi."
+          "word": "CANDIDATE",
+          "hint": "Aday, başvuru sahibi"
         },
         {
-          "word": "VERİ̇",
-          "hint": "Gözlemlerden veya ölçümlerden elde edilen bilgiler."
+          "word": "APPLICATION",
+          "hint": "Başvuru"
         },
         {
-          "word": "ANALİ̇Z",
-          "hint": "Bileşenlerine ayırarak inceleme süreci."
+          "word": "RESUME",
+          "hint": "Özgeçmiş, CV"
         },
         {
-          "word": "SENTEZ",
-          "hint": "Parçaları birleştirerek bütün oluşturma."
+          "word": "COVER LETTER",
+          "hint": "Ön yazı, başvuru mektubu"
         },
         {
-          "word": "TEORİ̇",
-          "hint": "Gözlemlenen olguları açıklayan sistemli düşünce."
+          "word": "JOB INTERVIEW",
+          "hint": "İş görüşmesi, mülakat"
         },
         {
-          "word": "YASAS",
-          "hint": "Doğanın belirli bir şekilde davranacağını belirten ilke."
+          "word": "SKILL",
+          "hint": "Yetenek, beceri"
         },
         {
-          "word": "DEĞİ̇ŞKEN",
-          "hint": "Durum veya koşullara göre değişebilen faktör."
+          "word": "REMOTE WORK",
+          "hint": "Uzaktan çalışma"
         },
         {
-          "word": "KONTROL",
-          "hint": "Bir deneyde sabit tutulan unsur."
+          "word": "FULL-TIME",
+          "hint": "Tam zamanlı"
         },
         {
-          "word": "SONUÇ",
-          "hint": "Bir işlem veya olayın nihai çıktısı."
+          "word": "PART-TIME",
+          "hint": "Yarı zamanlı"
         },
         {
-          "word": "İ̇PLEML",
-          "hint": "Bilimsel bir keşif veya buluşun temelini oluşturan düşünce."
+          "word": "SALARY",
+          "hint": "Maaş, aylık ücret"
         },
         {
-          "word": "MODEL",
-          "hint": "Karmaşık bir sistemi basitleştirerek temsil etme."
+          "word": "BENEFITS",
+          "hint": "Yan haklar, sosyal haklar"
         },
         {
-          "word": "Sİ̇STEM",
-          "hint": "Birbirine bağlı parçalardan oluşan bütün."
+          "word": "COLLEAGUE",
+          "hint": "İş arkadaşı"
         },
         {
-          "word": "YAPİ",
-          "hint": "Bir nesnenin veya organizmanın düzenlenmiş şekli."
+          "word": "PROMOTION",
+          "hint": "Terfi, yükselme"
         },
         {
-          "word": "FONKSİ̇YON",
-          "hint": "Bir nesnenin veya sistemin çalışma şekli."
+          "word": "RETIREMENT",
+          "hint": "Emeklilik"
         },
         {
-          "word": "SÜREÇ",
-          "hint": "Belirli bir amaca ulaşmak için yapılan bir dizi adım."
+          "word": "VOCATION",
+          "hint": "Meslek, eğilim, tutku"
         },
         {
-          "word": "MEKANİ̇ZMA",
-          "hint": "Bir olayın nasıl gerçekleştiğini açıklayan çalışma prensibi."
+          "word": "APPRENTICESHIP",
+          "hint": "Çıraklık eğitimi"
         },
         {
-          "word": "İ̇LERLEME",
-          "hint": "Bilgi veya teknolojideki gelişme."
+          "word": "WORK ETHIC",
+          "hint": "İş ahlakı"
         },
         {
-          "word": "YENİ̇Lİ̇K",
-          "hint": "Daha önce var olmayan yeni bir şey."
+          "word": "PROFESSIONAL",
+          "hint": "Profesyonel, işiyle ilgili"
         },
         {
-          "word": "OTOMASYON",
-          "hint": "İşlemlerin insan müdahalesi olmadan yapılması."
+          "word": "AMBITION",
+          "hint": "Hırs, başarı tutkusu"
         },
         {
-          "word": "ROBOTİ̇K",
-          "hint": "Robot bilimi ve mühendisliği."
+          "word": "ACHIEVEMENT",
+          "hint": "Başarı, kazanım"
         },
         {
-          "word": "YAPAY ZEKA",
-          "hint": "Bilgisayarların insan benzeri zeka göstermesi."
+          "word": "DEADLINE",
+          "hint": "Son teslim tarihi"
         },
         {
-          "word": "ALGORİ̇TMA",
-          "hint": "Bir problemi çözmek veya bir görevi yerine getirmek için adım adım talimatlar."
+          "word": "RECRUITMENT",
+          "hint": "İşe alım süreci"
         },
         {
-          "word": "PROGRAMLAMA",
-          "hint": "Bilgisayarlara komut verme sanatı."
+          "word": "VACANCY",
+          "hint": "Boş pozisyon, açık iş"
         },
         {
-          "word": "Sİ̇MÜLASYON",
-          "hint": "Bir sistemin veya sürecin bilgisayar ortamında taklit edilmesi."
+          "word": "ENTREPRENEUR",
+          "hint": "Girişimci"
         },
         {
-          "word": "Dİ̇Jİ̇TAL",
-          "hint": "Sayısal verilerle çalışan."
+          "word": "FREELANCE",
+          "hint": "Serbest meslek, bağımsız çalışma"
         },
         {
-          "word": "SANAL",
-          "hint": "Gerçek olmayan, bilgisayar ortamında oluşturulan."
+          "word": "TRAINEE",
+          "hint": "Stajyer, eğitim gören kişi"
         },
         {
-          "word": "Bİ̇YOTEKNOLOJİ̇",
-          "hint": "Canlı organizmaların veya parçalarının kullanıldığı teknoloji."
+          "word": "SECTOR",
+          "hint": "Sektör, iş alanı"
         },
         {
-          "word": "GENETİ̇K",
-          "hint": "Kalıtım bilimi."
+          "word": "COMPETENCE",
+          "hint": "Yetkinlik, beceri"
         },
         {
-          "word": "DNA",
-          "hint": "Canlıların genetik bilgisini taşıyan molekül."
+          "word": "EXPERIENCE",
+          "hint": "Deneyim, tecrübe"
         },
         {
-          "word": "KLONLAMA",
-          "hint": "Genetik olarak özdeş bir kopyasını yaratma."
+          "word": "ACADEMIC",
+          "hint": "Akademik, eğitimle ilgili"
         },
         {
-          "word": "NANOTEKNOLOJİ̇",
-          "hint": "Atom ve molekül düzeyinde mühendislik."
+          "word": "VOCATIONAL SCHOOL",
+          "hint": "Meslek lisesi veya yüksekokulu"
         },
         {
-          "word": "KUANTUM",
-          "hint": "Çok küçük ölçeklerdeki fizik prensipleri."
+          "word": "UNIVERSITY DEGREE",
+          "hint": "Üniversite diploması"
         },
         {
-          "word": "ASTROFİ̇Zİ̇K",
-          "hint": "Gök cisimlerinin fiziği."
+          "word": "CERTIFICATE",
+          "hint": "Sertifika, belge"
         },
         {
-          "word": "KOZMOS",
-          "hint": "Evrenin tamamı."
+          "word": "CO-WORKER",
+          "hint": "Çalışma arkadaşı"
         },
         {
-          "word": "KARADELİ̇K",
-          "hint": "Çekim kuvveti çok yüksek olan gök cismi."
+          "word": "OFFICE CULTURE",
+          "hint": "Ofis kültürü"
         },
         {
-          "word": "KORUNUM",
-          "hint": "Miktarının değişmeden kaldığı ilke."
+          "word": "JOB DESCRIPTION",
+          "hint": "İş tanımı"
         },
         {
-          "word": "DENG",
-          "hint": "Karşılıklı etkilerin birbirini dengelediği durum."
+          "word": "PERSONAL DEVELOPMENT",
+          "hint": "Kişisel gelişim"
         },
         {
-          "word": "DOĞRUSALLİK",
-          "hint": "Orantılı bir şekilde artış veya azalış."
+          "word": "NETWORKING",
+          "hint": "İş çevresi oluşturma"
         },
         {
-          "word": "İ̇VMELENME",
-          "hint": "Hızın zamanla değişmesi."
+          "word": "WORK-LIFE BALANCE",
+          "hint": "İş-özel hayat dengesi"
         },
         {
-          "word": "YERÇEKİ̇Mİ̇",
-          "hint": "Kütlelerin birbirini çekme kuvveti."
+          "word": "CONTRACT",
+          "hint": "Sözleşme, kontrat"
         },
         {
-          "word": "MADDELER",
-          "hint": "Hacmi ve kütlesi olan her şey."
+          "word": "OVERTIME",
+          "hint": "Mesai, fazla çalışma"
         },
         {
-          "word": "KATMAN",
-          "hint": "Bir şeyin üzerine veya içine konulan ince tabaka."
+          "word": "MANAGEMENT",
+          "hint": "Yönetim"
         },
         {
-          "word": "GÖZLEM",
-          "hint": "Dikkatle inceleme."
-        },
-        {
-          "word": "SİNİFLANDİRMA",
-          "hint": "Benzer özelliklere göre gruplandırma."
+          "word": "LEADERSHIP",
+          "hint": "Liderlik, önderlik"
         }
       ]
     },
     {
       "id": "ingilizce_u2",
-      "name": "2. Ünite: Medicine",
+      "name": "Unit 2: Hobbies and Skills",
       "months": [
         10
       ],
       "words": [
         {
-          "word": "DIAGNOSIS",
-          "hint": "Identifying a disease based on symptoms"
+          "word": "ACQUIRE",
+          "hint": "Bir beceri veya bilgi edinmek, kazanmak"
         },
         {
-          "word": "SYMPTOM",
-          "hint": "A sign indicating the presence of illness"
+          "word": "ADAPTABILITY",
+          "hint": "Yeni durumlara uyum sağlama yeteneği"
         },
         {
-          "word": "PRESCRIPTION",
-          "hint": "A doctor's written order for medicine"
+          "word": "AMATEUR",
+          "hint": "Amatör, hobi olarak yapan"
         },
         {
-          "word": "VACCINE",
-          "hint": "Substance that provides immunity against disease"
+          "word": "ARTISAN",
+          "hint": "Zanaatkar, usta"
         },
         {
-          "word": "SURGERY",
-          "hint": "Medical treatment involving physical operation"
+          "word": "ASPIRATION",
+          "hint": "Güçlü arzu, emel, hedef"
         },
         {
-          "word": "SAĞLİK",
-          "hint": "Hastalık ve sakatlık durumunun olmaması hali."
+          "word": "ATTENTIVE",
+          "hint": "Dikkatli, özenli"
         },
         {
-          "word": "TEDAVİ̇",
-          "hint": "Hastalığı iyileştirmek için uygulanan yöntem."
+          "word": "BOREDOM",
+          "hint": "Can sıkıntısı"
         },
         {
-          "word": "DOKTOR",
-          "hint": "Sağlık sorunlarıyla ilgilenen ve hastalara yardım eden kişi."
+          "word": "CAPABILITY",
+          "hint": "Yetenek, yapabilme gücü"
         },
         {
-          "word": "HASTA",
-          "hint": "Sağlık sorunu yaşayan ve yardım alan kişi."
+          "word": "CHALLENGING",
+          "hint": "Zorlayıcı, uğraştırıcı"
         },
         {
-          "word": "İ̇LAÇ",
-          "hint": "Hastalığı iyileştirmek veya belirtilerini hafifletmek için kullanılan madde."
+          "word": "COMMITMENT",
+          "hint": "Bağlılık, kendini adama"
         },
         {
-          "word": "ECZANE",
-          "hint": "İlaçların satıldığı yer."
+          "word": "COMPETENCE",
+          "hint": "Yeterlilik, yetkinlik"
         },
         {
-          "word": "HASTANELER",
-          "hint": "Yaralı veya hastaların tedavi edildiği yerler."
+          "word": "CONSISTENCY",
+          "hint": "Tutarlılık, istikrar"
         },
         {
-          "word": "AMELİ̇YAT",
-          "hint": "Vücuttaki bir sorunu cerrahi müdahale ile giderme işlemi."
+          "word": "CONTEMPORARY",
+          "hint": "Çağdaş, güncel"
         },
         {
-          "word": "PANSUMAN",
-          "hint": "Yara bakımı ve temizliği işlemi."
+          "word": "CRAFT",
+          "hint": "El sanatı, zanaat"
         },
         {
-          "word": "DERMA",
-          "hint": "Ciltle ilgili hastalıkları inceleyen tıp dalı."
+          "word": "CREATIVITY",
+          "hint": "Yaratıcılık"
         },
         {
-          "word": "KARDİ̇YOLOJİ̇",
-          "hint": "Kalp ve damar sağlığıyla ilgilenen tıp dalı."
+          "word": "DEDICATION",
+          "hint": "Adanmışlık, özveri"
         },
         {
-          "word": "NÖROLOJİ̇",
-          "hint": "Sinir sistemi hastalıklarını inceleyen tıp dalı."
+          "word": "DEXTERITY",
+          "hint": "El becerisi, maharet"
         },
         {
-          "word": "PEDİ̇ATRİ̇",
-          "hint": "Çocuk sağlığı ve hastalıklarıyla ilgilenen tıp dalı."
+          "word": "DILIGENCE",
+          "hint": "Gayret, çalışkanlık"
         },
         {
-          "word": "ONKOLOJİ̇",
-          "hint": "Kanser hastalığıyla ilgilenen tıp dalı."
+          "word": "DISCIPLINE",
+          "hint": "Disiplin, öz denetim"
         },
         {
-          "word": "ORTOPEDİ̇",
-          "hint": "Kemik ve kas sistemiyle ilgilenen tıp dalı."
+          "word": "DIVERSE",
+          "hint": "Çeşitli, farklı"
         },
         {
-          "word": "ANESTEZİ̇",
-          "hint": "Ameliyat sırasında hastayı uyuşturma bilimi."
+          "word": "EFFORTLESS",
+          "hint": "Çabasız, zahmetsiz"
         },
         {
-          "word": "Dİ̇YET",
-          "hint": "Sağlıklı beslenme planı."
+          "word": "ELABORATE",
+          "hint": "Ayrıntılı, özenle hazırlanmış"
         },
         {
-          "word": "EGZERSİ̇Z",
-          "hint": "Fiziksel aktivite yaparak vücudu güçlendirme."
+          "word": "EMPOWER",
+          "hint": "Yetkilendirmek, güçlendirmek"
         },
         {
-          "word": "Fİ̇ZYOTERAPİ̇",
-          "hint": "Fiziksel yöntemlerle tedavi."
+          "word": "ENDEAVOUR",
+          "hint": "Çaba, gayret, girişim"
         },
         {
-          "word": "REHABİ̇Lİ̇TASYON",
-          "hint": "Kaybedilen yetenekleri geri kazandırma süreci."
+          "word": "ENGAGING",
+          "hint": "İlgi çekici, sürükleyici"
         },
         {
-          "word": "ALERJİ̇",
-          "hint": "Vücudun belirli maddelere aşırı tepki vermesi."
+          "word": "ENHANCE",
+          "hint": "Geliştirmek, artırmak"
         },
         {
-          "word": "BAĞİŞİKLİK",
-          "hint": "Vücudun hastalıklara karşı savunma sistemi."
+          "word": "ENTHUSIASM",
+          "hint": "Coşku, heves"
         },
         {
-          "word": "ENFEKSİ̇YON",
-          "hint": "Mikropların vücuda girip çoğalması."
+          "word": "EXCEL",
+          "hint": "Bir alanda çok iyi olmak, üstün olmak"
         },
         {
-          "word": "Mİ̇KROP",
-          "hint": "Gözle görülmeyen, hastalık yapabilen canlı."
+          "word": "EXPERT",
+          "hint": "Uzman, işin ehli"
         },
         {
-          "word": "Vİ̇RÜS",
-          "hint": "Hastalık yapabilen, hücre içinde çoğalan bir mikrop türü."
+          "word": "FASCINATING",
+          "hint": "Büyüleyici, çok ilgi çekici"
         },
         {
-          "word": "BAKTERİ̇",
-          "hint": "Hastalık yapabilen veya faydalı olabilen tek hücreli canlı."
+          "word": "FLEXIBILITY",
+          "hint": "Esneklik"
         },
         {
-          "word": "GENETİ̇K",
-          "hint": "Kalıtım bilimi, özelliklerin nesilden nesile aktarılması."
+          "word": "FULFILLING",
+          "hint": "Tatmin edici"
         },
         {
-          "word": "DNA",
-          "hint": "Canlıların genetik bilgisini taşıyan molekül."
+          "word": "GENUINE",
+          "hint": "Gerçek, samimi"
         },
         {
-          "word": "KÖK HÜCRE",
-          "hint": "Farklı hücre tiplerine dönüşebilen özel hücre."
+          "word": "HANDICRAFT",
+          "hint": "El işi"
         },
         {
-          "word": "ORGAN",
-          "hint": "Belirli bir görevi yerine getiren vücut parçası."
+          "word": "IMAGINATIVE",
+          "hint": "Hayal gücü kuvvetli, yaratıcı"
         },
         {
-          "word": "DOKU",
-          "hint": "Benzer hücrelerden oluşan yapı."
+          "word": "IMPROVISE",
+          "hint": "Doğaçlama yapmak"
         },
         {
-          "word": "DAMAR",
-          "hint": "Kanın vücutta dolaştığı boru şeklindeki yapı."
+          "word": "INNOVATIVE",
+          "hint": "Yenilikçi"
         },
         {
-          "word": "KEMİ̇K",
-          "hint": "Vücuda destek veren sert yapı."
+          "word": "INSIGHT",
+          "hint": "İçgörü, kavrayış"
         },
         {
-          "word": "KAS",
-          "hint": "Hareket etmemizi sağlayan vücut bölümü."
+          "word": "INTENSIVE",
+          "hint": "Yoğun"
         },
         {
-          "word": "BEYİ̇N",
-          "hint": "Sinir sisteminin merkezi, düşünme ve kontrol organı."
+          "word": "INTEREST",
+          "hint": "İlgi, alaka"
         },
         {
-          "word": "AKCİ̇ĞER",
-          "hint": "Solunum organı."
+          "word": "LEISURE",
+          "hint": "Boş zaman"
         },
         {
-          "word": "KALP",
-          "hint": "Kanı vücuda pompalayan organ."
+          "word": "MASTER",
+          "hint": "Bir konuda uzmanlaşmak, ustalaşmak"
         },
         {
-          "word": "KARACİ̇ĞER",
-          "hint": "Vücudun önemli bir metabolizma organı."
+          "word": "MOTIVATION",
+          "hint": "Motivasyon, güdülenme"
         },
         {
-          "word": "BÖBREK",
-          "hint": "Kanı süzüp idrar üreten organ."
+          "word": "PASSION",
+          "hint": "Tutku"
         },
         {
-          "word": "Mİ̇DE",
-          "hint": "Yiyeceklerin sindirildiği organ."
+          "word": "PERSISTENCE",
+          "hint": "Azim, kararlılık"
         },
         {
-          "word": "ENSEFALİ̇T",
-          "hint": "Beyin iltihabı."
+          "word": "POTENTIAL",
+          "hint": "Potansiyel, gizli güç"
         },
         {
-          "word": "GASTRİ̇T",
-          "hint": "Mide duvarının iltihabı."
+          "word": "PRACTICE",
+          "hint": "Alıştırma, uygulama"
         },
         {
-          "word": "NEFRİ̇T",
-          "hint": "Böbrek iltihabı."
+          "word": "PROFICIENCY",
+          "hint": "Ustalık, yetkinlik"
         },
         {
-          "word": "PANKREATİ̇T",
-          "hint": "Pankreas iltihabı."
+          "word": "SKILLFUL",
+          "hint": "Becerikli, maharetli"
         },
         {
-          "word": "MENENJİ̇T",
-          "hint": "Beyin ve omuriliği saran zarların iltihabı."
-        },
-        {
-          "word": "ANTİ̇Bİ̇YOTİ̇K",
-          "hint": "Bakteri enfeksiyonlarını tedavi eden ilaç türü."
-        },
-        {
-          "word": "ANALJEZİ̇K",
-          "hint": "Ağrı kesici ilaç."
-        },
-        {
-          "word": "ANTİ̇SEPTİ̇K",
-          "hint": "Mikropları öldüren veya üremelerini durduran madde."
+          "word": "TALENTED",
+          "hint": "Yetenekli"
         }
       ]
     },
     {
       "id": "ingilizce_u3",
-      "name": "Unit 3: In the Classroom",
+      "name": "Unit 3: Hard Times",
       "months": [
         11
       ],
-      "words": []
+      "words": [
+        {
+          "word": "HARDSHIP",
+          "hint": "Zorluk, sıkıntı, meşakkat"
+        },
+        {
+          "word": "RESILIENCE",
+          "hint": "Dayanıklılık, direnç"
+        },
+        {
+          "word": "ADVERSITY",
+          "hint": "Kötü şans, talihsizlik, zorlu durum"
+        },
+        {
+          "word": "PERSEVERANCE",
+          "hint": "Sebat, azim, kararlılık"
+        },
+        {
+          "word": "DEPRIVATION",
+          "hint": "Yoksunluk, mahrumiyet"
+        },
+        {
+          "word": "POVERTY",
+          "hint": "Yoksulluk, fakirlik"
+        },
+        {
+          "word": "STRUGGLE",
+          "hint": "Mücadele etmek, çabalamak"
+        },
+        {
+          "word": "DESTITUTE",
+          "hint": "Muhtaç, beş parasız"
+        },
+        {
+          "word": "FAMINE",
+          "hint": "Kıtlık"
+        },
+        {
+          "word": "INJUSTICE",
+          "hint": "Adaletsizlik, haksızlık"
+        },
+        {
+          "word": "OVERCOME",
+          "hint": "Üstesinden gelmek, yenmek"
+        },
+        {
+          "word": "CRISIS",
+          "hint": "Kriz, buhran"
+        },
+        {
+          "word": "MISFORTUNE",
+          "hint": "Talihsizlik, şanssızlık"
+        },
+        {
+          "word": "DETERMINATION",
+          "hint": "Kararlılık, azim"
+        },
+        {
+          "word": "DESPAIR",
+          "hint": "Umutsuzluk"
+        },
+        {
+          "word": "SUFFERING",
+          "hint": "Izdırap, acı çekme"
+        },
+        {
+          "word": "OPPRESSION",
+          "hint": "Baskı, zulüm"
+        },
+        {
+          "word": "INEQUALITY",
+          "hint": "Eşitsizlik"
+        },
+        {
+          "word": "CHALLENGE",
+          "hint": "Zorlu görev, meydan okuma"
+        },
+        {
+          "word": "ENDURE",
+          "hint": "Dayanmak, katlanmak"
+        },
+        {
+          "word": "PERSIST",
+          "hint": "Israr etmek, devam ettirmek"
+        },
+        {
+          "word": "SURVIVAL",
+          "hint": "Hayatta kalma"
+        },
+        {
+          "word": "SCARCITY",
+          "hint": "Kıtlık, azlık"
+        },
+        {
+          "word": "INEVITABLE",
+          "hint": "Kaçınılmaz"
+        },
+        {
+          "word": "VULNERABLE",
+          "hint": "Savunmasız, incinebilir"
+        },
+        {
+          "word": "ABANDON",
+          "hint": "Terk etmek, vazgeçmek"
+        },
+        {
+          "word": "UNEMPLOYMENT",
+          "hint": "İşsizlik"
+        },
+        {
+          "word": "STABILITY",
+          "hint": "İstikrar, denge"
+        },
+        {
+          "word": "FRUSTRATION",
+          "hint": "Hüsran, hayal kırıklığı"
+        },
+        {
+          "word": "HOPELESSNESS",
+          "hint": "Umutsuzluk"
+        },
+        {
+          "word": "RECOVERY",
+          "hint": "İyileşme, düzelme"
+        },
+        {
+          "word": "TENACITY",
+          "hint": "Azim, kararlılık"
+        },
+        {
+          "word": "AUSTERITY",
+          "hint": "Tasarruf tedbirleri, kemer sıkma"
+        },
+        {
+          "word": "CONFRONT",
+          "hint": "Yüzleşmek, karşı karşıya gelmek"
+        },
+        {
+          "word": "DISADVANTAGED",
+          "hint": "Dezavantajlı, imkanları kısıtlı"
+        },
+        {
+          "word": "BURDEN",
+          "hint": "Yük, sorumluluk"
+        },
+        {
+          "word": "HARD-PRESSED",
+          "hint": "Zorda kalmış, sıkışmış"
+        },
+        {
+          "word": "SUBSISTENCE",
+          "hint": "Geçim, hayatını idame ettirme"
+        },
+        {
+          "word": "AFFLICTION",
+          "hint": "Dert, acı, hastalık"
+        },
+        {
+          "word": "TURMOIL",
+          "hint": "Karmaşa, çalkantı"
+        },
+        {
+          "word": "DREAD",
+          "hint": "Korku, dehşet"
+        },
+        {
+          "word": "CAPACITY",
+          "hint": "Kapasite, yetenek"
+        },
+        {
+          "word": "ENCOUNTER",
+          "hint": "Karşılaşmak, rastlamak"
+        },
+        {
+          "word": "RESIST",
+          "hint": "Direnç göstermek"
+        },
+        {
+          "word": "BATTLE",
+          "hint": "Savaş, mücadele"
+        },
+        {
+          "word": "HARDEN",
+          "hint": "Katılaşmak, sertleşmek"
+        },
+        {
+          "word": "MITIGATE",
+          "hint": "Hafifletmek, azaltmak"
+        },
+        {
+          "word": "PROSPERITY",
+          "hint": "Refah, zenginlik"
+        },
+        {
+          "word": "DETERIORATE",
+          "hint": "Kötüleşmek, bozulmak"
+        },
+        {
+          "word": "TRIUMPH",
+          "hint": "Zafer, başarı"
+        }
+      ]
     },
     {
       "id": "ingilizce_u4",
-      "name": "Unit 4: Numbers and Colors",
+      "name": "Unit 4: Global Warming",
       "months": [
         12
       ],
-      "words": []
+      "words": [
+        {
+          "word": "GLOBAL WARMING",
+          "hint": "Küresel ısınma - dünyanın ortalama sıcaklığının artması"
+        },
+        {
+          "word": "CLIMATE CHANGE",
+          "hint": "İklim değişikliği - uzun vadeli hava durumu modellerindeki değişimler"
+        },
+        {
+          "word": "GREENHOUSE EFFECT",
+          "hint": "Sera etkisi - atmosferin ısıyı hapsetmesi"
+        },
+        {
+          "word": "CARBON FOOTPRINT",
+          "hint": "Karbon ayak izi - bir kişinin veya kurumun çevreye bıraktığı toplam karbon miktarı"
+        },
+        {
+          "word": "RENEWABLE ENERGY",
+          "hint": "Yenilenebilir enerji - doğal kaynaklardan elde edilen, tükenmeyen enerji"
+        },
+        {
+          "word": "DEFORESTATION",
+          "hint": "Ormansızlaşma - ormanlık alanların yok edilmesi"
+        },
+        {
+          "word": "ECOSYSTEM",
+          "hint": "Ekosistem - canlılar ve çevreleri arasındaki etkileşim sistemi"
+        },
+        {
+          "word": "SUSTAINABILITY",
+          "hint": "Sürdürülebilirlik - doğal kaynakları gelecek nesillere aktaracak şekilde kullanma"
+        },
+        {
+          "word": "FOSSIL FUELS",
+          "hint": "Fosil yakıtlar - kömür, petrol ve doğal gaz gibi yer altında oluşan yakıtlar"
+        },
+        {
+          "word": "BIODIVERSITY",
+          "hint": "Biyoçeşitlilik - bir bölgedeki canlı türlerinin çeşitliliği"
+        },
+        {
+          "word": "ATMOSPHERE",
+          "hint": "Atmosfer - dünyayı saran gaz katmanı"
+        },
+        {
+          "word": "POLLUTION",
+          "hint": "Kirlilik - çevrenin zararlı maddelerle zarar görmesi"
+        },
+        {
+          "word": "EMISSION",
+          "hint": "Emisyon - salınım, özellikle atmosfere yayılan gazlar"
+        },
+        {
+          "word": "CONSERVATION",
+          "hint": "Koruma - doğal kaynakların korunması ve israf edilmemesi"
+        },
+        {
+          "word": "GLACIER",
+          "hint": "Buzul - çok büyük ve kalın buz kütlesi"
+        },
+        {
+          "word": "DESERTIFICATION",
+          "hint": "Çölleşme - verimli toprakların çöl haline gelmesi"
+        },
+        {
+          "word": "SEA LEVEL RISE",
+          "hint": "Deniz seviyesinin yükselmesi - okyanus sularının artışı"
+        },
+        {
+          "word": "ECO-FRIENDLY",
+          "hint": "Çevre dostu - doğaya zarar vermeyen ürün veya davranış"
+        },
+        {
+          "word": "SOLAR POWER",
+          "hint": "Güneş enerjisi - güneş ışığından elde edilen enerji"
+        },
+        {
+          "word": "WIND TURBINE",
+          "hint": "Rüzgar türbini - rüzgar enerjisini elektriğe çeviren cihaz"
+        },
+        {
+          "word": "RECYCLE",
+          "hint": "Geri dönüştürmek - atık malzemeleri tekrar kullanıma kazandırmak"
+        },
+        {
+          "word": "ENDANGERED SPECIES",
+          "hint": "Nesli tükenmekte olan türler - yok olma riski taşıyan canlılar"
+        },
+        {
+          "word": "HABITAT",
+          "hint": "Doğal yaşam alanı - bir canlının doğal olarak yaşadığı yer"
+        },
+        {
+          "word": "ENVIRONMENT",
+          "hint": "Çevre - yaşamı etkileyen dış koşulların tümü"
+        },
+        {
+          "word": "INDUSTRIAL WASTE",
+          "hint": "Endüstriyel atık - sanayi tesislerinden çıkan atık maddeler"
+        },
+        {
+          "word": "LANDFILL",
+          "hint": "Çöp depolama alanı - çöplerin gömüldüğü veya biriktirildiği yer"
+        },
+        {
+          "word": "OZONE LAYER",
+          "hint": "Ozon tabakası - dünyayı zararlı güneş ışınlarından koruyan katman"
+        },
+        {
+          "word": "ALTERNATIVE ENERGY",
+          "hint": "Alternatif enerji - geleneksel olmayan enerji kaynakları"
+        },
+        {
+          "word": "CARBON DIOXIDE",
+          "hint": "Karbondioksit - küresel ısınmaya neden olan sera gazı"
+        },
+        {
+          "word": "CONSEQUENCE",
+          "hint": "Sonuç - bir olayın etkisi"
+        },
+        {
+          "word": "EVAPORATE",
+          "hint": "Buharlaşmak - sıvının gaza dönüşmesi"
+        },
+        {
+          "word": "EXTINCTION",
+          "hint": "Neslin tükenmesi - bir türün tamamen yok olması"
+        },
+        {
+          "word": "HUMAN ACTIVITY",
+          "hint": "İnsan faaliyeti - insanların doğayı etkileyen eylemleri"
+        },
+        {
+          "word": "NATURAL RESOURCE",
+          "hint": "Doğal kaynak - doğada kendiliğinden bulunan faydalı maddeler"
+        },
+        {
+          "word": "OVERPOPULATION",
+          "hint": "Aşırı nüfus - bir bölgede taşıma kapasitesinin üzerinde insan olması"
+        },
+        {
+          "word": "PROTECT",
+          "hint": "Korumak - bir şeyi tehlikeden uzak tutmak"
+        },
+        {
+          "word": "TOXIC",
+          "hint": "Zehirli - sağlığa zararlı madde"
+        },
+        {
+          "word": "URBANIZATION",
+          "hint": "Kentleşme - kırsal alanların şehirleşmesi"
+        },
+        {
+          "word": "WILDLIFE",
+          "hint": "Yaban hayatı - evcilleştirilmemiş hayvanlar"
+        },
+        {
+          "word": "DISASTER",
+          "hint": "Felaket - yıkıcı doğal olay"
+        },
+        {
+          "word": "EXTREME WEATHER",
+          "hint": "Aşırı hava olayları - beklenmedik şiddetteki hava durumları"
+        },
+        {
+          "word": "REDUCE",
+          "hint": "Azaltmak - miktarını düşürmek"
+        },
+        {
+          "word": "REUSE",
+          "hint": "Yeniden kullanmak - bir şeyi atmadan tekrar değerlendirmek"
+        },
+        {
+          "word": "DROUGHT",
+          "hint": "Kuraklık - uzun süreli yağışsızlık durumu"
+        },
+        {
+          "word": "HEATWAVE",
+          "hint": "Sıcak hava dalgası - normalin çok üzerindeki yüksek sıcaklık dönemi"
+        },
+        {
+          "word": "TEMPERATURE",
+          "hint": "Sıcaklık - bir ortamın ısısı"
+        },
+        {
+          "word": "CARBON EMISSION",
+          "hint": "Karbon salınımı - atmosfere yayılan karbon gazları"
+        },
+        {
+          "word": "CLIMATE",
+          "hint": "İklim - geniş bir bölgedeki uzun süreli hava koşulları"
+        },
+        {
+          "word": "ENVIRONMENTALIST",
+          "hint": "Çevreci - doğayı korumayı savunan kişi"
+        },
+        {
+          "word": "GLOBAL",
+          "hint": "Küresel - tüm dünyayı kapsayan"
+        }
+      ]
     },
     {
       "id": "ingilizce_u5",
-      "name": "Unit 5: Toys and Games",
+      "name": "Unit 5: The Internet",
       "months": [
         1
       ],
-      "words": []
+      "words": [
+        {
+          "word": "CYBERBULLYING",
+          "hint": "Sanal zorbalık - internet üzerinden yapılan rahatsız edici davranışlar"
+        },
+        {
+          "word": "BROADBAND",
+          "hint": "Geniş bant - hızlı internet erişim teknolojisi"
+        },
+        {
+          "word": "CYBERSECURITY",
+          "hint": "Siber güvenlik - bilgisayar sistemlerini koruma"
+        },
+        {
+          "word": "ENCRYPTION",
+          "hint": "Şifreleme - verileri okunamaz hale getirme"
+        },
+        {
+          "word": "E-COMMERCE",
+          "hint": "E-ticaret - internet üzerinden alışveriş"
+        },
+        {
+          "word": "SMARTPHONE",
+          "hint": "Akıllı telefon - gelişmiş özelliklere sahip mobil cihaz"
+        },
+        {
+          "word": "SOCIAL MEDIA PLATFORM",
+          "hint": "Sosyal medya platformu - etkileşim odaklı web siteleri"
+        },
+        {
+          "word": "VIRTUAL REALITY",
+          "hint": "Sanal gerçeklik - bilgisayar ile oluşturulmuş yapay ortam"
+        },
+        {
+          "word": "WIRELESS NETWORK",
+          "hint": "Kablosuz ağ - veri iletimi için kullanılan bağlantı tipi"
+        },
+        {
+          "word": "CLOUD COMPUTING",
+          "hint": "Bulut bilişim - verilerin internet üzerindeki sunucularda saklanması"
+        },
+        {
+          "word": "DIGITAL FOOTPRINT",
+          "hint": "Dijital ayak izi - internette bırakılan kişisel veri izleri"
+        },
+        {
+          "word": "PHISHING",
+          "hint": "Oltalama - kullanıcıyı kandırıp bilgi çalma yöntemi"
+        },
+        {
+          "word": "SEARCH ENGINE",
+          "hint": "Arama motoru - internette bilgi aramak için kullanılan araç"
+        },
+        {
+          "word": "ARTIFICIAL INTELLIGENCE",
+          "hint": "Yapay zeka - makinelerin insan gibi düşünme yeteneği"
+        },
+        {
+          "word": "DOWNLOAD",
+          "hint": "İndirmek - dosyayı internetten kendi cihazına kopyalamak"
+        },
+        {
+          "word": "UPLOAD",
+          "hint": "Yüklemek - dosyayı internete göndermek"
+        },
+        {
+          "word": "BROWSER",
+          "hint": "Tarayıcı - internet sayfalarını görüntülemek için kullanılan yazılım"
+        },
+        {
+          "word": "USERNAME",
+          "hint": "Kullanıcı adı - sistemde kayıtlı olan özel isim"
+        },
+        {
+          "word": "PASSWORD",
+          "hint": "Şifre - hesaba erişmek için gereken gizli kod"
+        },
+        {
+          "word": "CYBERCRIME",
+          "hint": "Siber suç - internet üzerinden işlenen yasa dışı faaliyetler"
+        },
+        {
+          "word": "E-LEARNING",
+          "hint": "E-öğrenme - internet tabanlı eğitim süreci"
+        },
+        {
+          "word": "FIBER OPTIC",
+          "hint": "Fiber optik - çok hızlı veri aktarımı sağlayan kablo sistemi"
+        },
+        {
+          "word": "DATA BREACH",
+          "hint": "Veri ihlali - gizli verilerin izinsiz ele geçirilmesi"
+        },
+        {
+          "word": "MALWARE",
+          "hint": "Kötü amaçlı yazılım - sisteme zarar veren virüs veya program"
+        },
+        {
+          "word": "STREAMING",
+          "hint": "Akış - veriyi indirmeden anlık izleme veya dinleme"
+        },
+        {
+          "word": "WEBINAR",
+          "hint": "Web semineri - internet üzerinden düzenlenen çevrimiçi eğitim"
+        },
+        {
+          "word": "ONLINE IDENTITY",
+          "hint": "Çevrimiçi kimlik - internetteki kullanıcı profili"
+        },
+        {
+          "word": "ENCRYPTION KEY",
+          "hint": "Şifreleme anahtarı - verinin kilidini açan kod"
+        },
+        {
+          "word": "INTERCONNECTED",
+          "hint": "Birbirine bağlı - ağların veya cihazların bağlantılı olması"
+        },
+        {
+          "word": "BANDWIDTH",
+          "hint": "Bant genişliği - veri iletim hızı kapasitesi"
+        },
+        {
+          "word": "DIGITAL LITERACY",
+          "hint": "Dijital okuryazarlık - teknolojiyi bilinçli kullanma yetisi"
+        },
+        {
+          "word": "BLOG",
+          "hint": "Blog - kişisel görüşlerin paylaşıldığı internet günlüğü"
+        },
+        {
+          "word": "FORUM",
+          "hint": "Forum - kullanıcıların tartışma başlıkları oluşturduğu yer"
+        },
+        {
+          "word": "POP-UP AD",
+          "hint": "Açılır pencere reklamı - sayfada beliren reklam"
+        },
+        {
+          "word": "SOFTWARE UPDATE",
+          "hint": "Yazılım güncellemesi - programın hatalarını gideren yeni sürüm"
+        },
+        {
+          "word": "COOKIES",
+          "hint": "Çerezler - web sitesinin tarayıcıda depoladığı veriler"
+        },
+        {
+          "word": "CYBER SAFETY",
+          "hint": "Siber güvenlik/emniyet - internette güvende kalma"
+        },
+        {
+          "word": "NETWORKING",
+          "hint": "Ağ kurma - cihazların birbirine bağlanması"
+        },
+        {
+          "word": "HYPERLINK",
+          "hint": "Köprü - bir sayfadan diğerine geçiş sağlayan bağlantı"
+        },
+        {
+          "word": "VIDEO CONFERENCE",
+          "hint": "Video konferans - görüntülü toplu görüşme"
+        },
+        {
+          "word": "DOMAIN NAME",
+          "hint": "Alan adı - web sitesinin internet adresi"
+        },
+        {
+          "word": "CYBER STALKER",
+          "hint": "Siber takipçi - internette başkalarını rahatsız eden kişi"
+        },
+        {
+          "word": "AUTHENTICATION",
+          "hint": "Kimlik doğrulama - kullanıcının doğruluğunu teyit etme"
+        },
+        {
+          "word": "SERVER",
+          "hint": "Sunucu - ağdaki kaynakları yöneten güçlü bilgisayar"
+        },
+        {
+          "word": "USER INTERFACE",
+          "hint": "Kullanıcı arayüzü - kullanıcının cihazla etkileşim kurduğu ekran"
+        },
+        {
+          "word": "PRIVACY SETTING",
+          "hint": "Gizlilik ayarı - paylaşılan bilgileri kısıtlama aracı"
+        },
+        {
+          "word": "INSECURE CONNECTION",
+          "hint": "Güvensiz bağlantı - şifrelenmemiş ağ bağlantısı"
+        },
+        {
+          "word": "INFORMATION TECHNOLOGY",
+          "hint": "Bilgi teknolojileri - bilgisayar ve internet sistemleri"
+        },
+        {
+          "word": "GLOBAL CONNECTIVITY",
+          "hint": "Küresel bağlantı - dünya çapındaki internet ağı"
+        },
+        {
+          "word": "VIRTUAL ASSISTANT",
+          "hint": "Sanal asistan - yapay zeka destekli yardımcı program"
+        }
+      ]
     },
     {
       "id": "ingilizce_u6",
-      "name": "Unit 6: My Body and Clothes",
+      "name": "Unit 6: Art",
       "months": [
         2
       ],
-      "words": []
+      "words": [
+        {
+          "word": "EXHIBITION",
+          "hint": "Sergi, gösterim"
+        },
+        {
+          "word": "MASTERPIECE",
+          "hint": "Başyapıt, şaheser"
+        },
+        {
+          "word": "CONTEMPORARY",
+          "hint": "Çağdaş, günümüzle ilgili"
+        },
+        {
+          "word": "SCULPTURE",
+          "hint": "Heykel, yontu"
+        },
+        {
+          "word": "PORTRAIT",
+          "hint": "Portre, bir kişinin yüzünün resmi"
+        },
+        {
+          "word": "CANVAS",
+          "hint": "Tuval, resim yapılan bez"
+        },
+        {
+          "word": "GALLERY",
+          "hint": "Sanat galerisi, sergi salonu"
+        },
+        {
+          "word": "AESTHETIC",
+          "hint": "Estetik, güzellik algısı"
+        },
+        {
+          "word": "ABSTRACT",
+          "hint": "Soyut, gerçek nesneleri doğrudan betimlemeyen"
+        },
+        {
+          "word": "BRUSHSTROKE",
+          "hint": "Fırça darbesi"
+        },
+        {
+          "word": "CURATOR",
+          "hint": "Küratör, sergi sorumlusu"
+        },
+        {
+          "word": "LANDSCAPE",
+          "hint": "Manzara resmi"
+        },
+        {
+          "word": "SKETCH",
+          "hint": "Taslak, karakalem çalışma"
+        },
+        {
+          "word": "RENAISSANCE",
+          "hint": "Rönesans, yeniden doğuş dönemi"
+        },
+        {
+          "word": "EXPRESSIONISM",
+          "hint": "Dışavurumculuk, sanat akımı"
+        },
+        {
+          "word": "IMPRESSIONISM",
+          "hint": "İzlenimcilik, ışık ve renk vurgulu akım"
+        },
+        {
+          "word": "ENGRAVING",
+          "hint": "Oyma, gravür sanatı"
+        },
+        {
+          "word": "POTTERY",
+          "hint": "Çömlekçilik, seramik sanatı"
+        },
+        {
+          "word": "MURAL",
+          "hint": "Duvar resmi"
+        },
+        {
+          "word": "ARTISAN",
+          "hint": "Zanaatkar, usta"
+        },
+        {
+          "word": "RESTORE",
+          "hint": "Restore etmek, eski haline getirmek"
+        },
+        {
+          "word": "PALETTE",
+          "hint": "Boya paleti"
+        },
+        {
+          "word": "PERSPECTIVE",
+          "hint": "Perspektif, derinlik algısı"
+        },
+        {
+          "word": "ILLUSTRATION",
+          "hint": "İllüstrasyon, resimleme"
+        },
+        {
+          "word": "MASTERFUL",
+          "hint": "Ustalıkla yapılmış"
+        },
+        {
+          "word": "ORIGINALITY",
+          "hint": "Özgünlük, orijinallik"
+        },
+        {
+          "word": "CRAFTMANSHIP",
+          "hint": "İşçilik, zanaat becerisi"
+        },
+        {
+          "word": "INSTALLATION",
+          "hint": "Enstalasyon, yerleştirme sanatı"
+        },
+        {
+          "word": "STILL LIFE",
+          "hint": "Natürmort, cansız nesne resmi"
+        },
+        {
+          "word": "EXHIBIT",
+          "hint": "Sergilemek, eser"
+        },
+        {
+          "word": "FIGURATIVE",
+          "hint": "Figüratif, insan veya hayvan figürleri içeren"
+        },
+        {
+          "word": "INSPIRATION",
+          "hint": "İlham, esin kaynağı"
+        },
+        {
+          "word": "COMPOSITION",
+          "hint": "Kompozisyon, düzenleme"
+        },
+        {
+          "word": "ARTIST",
+          "hint": "Sanatçı"
+        },
+        {
+          "word": "CREATIVITY",
+          "hint": "Yaratıcılık"
+        },
+        {
+          "word": "VENU",
+          "hint": "Mekan, etkinlik alanı"
+        },
+        {
+          "word": "AUTHENTIC",
+          "hint": "Otantik, gerçek, taklit olmayan"
+        },
+        {
+          "word": "VISIONARY",
+          "hint": "Vizyon sahibi, ileri görüşlü"
+        },
+        {
+          "word": "ENGAGING",
+          "hint": "İlgi çekici, sürükleyici"
+        },
+        {
+          "word": "PORTRAY",
+          "hint": "Resmetmek, tasvir etmek"
+        },
+        {
+          "word": "PIGMENT",
+          "hint": "Pigment, boya maddesi"
+        },
+        {
+          "word": "EASEL",
+          "hint": "Şövale, resim sehpası"
+        },
+        {
+          "word": "COLLECTOR",
+          "hint": "Koleksiyoner, eser toplayıcısı"
+        },
+        {
+          "word": "EXPRESSIVE",
+          "hint": "Anlatımı güçlü, duygulu"
+        },
+        {
+          "word": "AVANT-GARDE",
+          "hint": "Öncü sanat, yenilikçi akım"
+        },
+        {
+          "word": "REPLICA",
+          "hint": "Kopya, birebir benzeri"
+        },
+        {
+          "word": "HARMONY",
+          "hint": "Uyum, ahenk"
+        },
+        {
+          "word": "SATURATION",
+          "hint": "Doygunluk, renk şiddeti"
+        },
+        {
+          "word": "TECHNICAL",
+          "hint": "Teknik, yöntemsel"
+        },
+        {
+          "word": "CULTURAL",
+          "hint": "Kültürel, kültüre dair"
+        }
+      ]
     },
     {
       "id": "ingilizce_u7",
-      "name": "Unit 7: Pets and Animals",
+      "name": "Unit 7: Health",
       "months": [
         3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "ADDICTION",
+          "hint": "Bağımlılık, bir şeye aşırı düşkünlük"
+        },
+        {
+          "word": "DIAGNOSIS",
+          "hint": "Teşhis, hastalık tanısı"
+        },
+        {
+          "word": "SYMPTOM",
+          "hint": "Belirti, hastalık belirtisi"
+        },
+        {
+          "word": "WELL-BEING",
+          "hint": "Esenlik, iyi olma hali"
+        },
+        {
+          "word": "PREVENTION",
+          "hint": "Önleme, koruma"
+        },
+        {
+          "word": "VACCINATION",
+          "hint": "Aşılama, aşı olma"
+        },
+        {
+          "word": "NUTRITION",
+          "hint": "Beslenme"
+        },
+        {
+          "word": "RECOVERY",
+          "hint": "İyileşme, nekahat dönemi"
+        },
+        {
+          "word": "STRESS",
+          "hint": "Stres, gerilim"
+        },
+        {
+          "word": "ANXIETY",
+          "hint": "Kaygı, endişe"
+        },
+        {
+          "word": "SEDENTARY",
+          "hint": "Hareketsiz, oturarak yapılan yaşam tarzı"
+        },
+        {
+          "word": "CHRONIC",
+          "hint": "Kronik, uzun süren hastalık"
+        },
+        {
+          "word": "INFECTIOUS",
+          "hint": "Bulaşıcı, enfeksiyon yoluyla geçen"
+        },
+        {
+          "word": "OBESITY",
+          "hint": "Obezite, aşırı şişmanlık"
+        },
+        {
+          "word": "WELLNESS",
+          "hint": "Sağlıklı yaşam, tam iyilik hali"
+        },
+        {
+          "word": "IMMUNE SYSTEM",
+          "hint": "Bağışıklık sistemi"
+        },
+        {
+          "word": "TREATMENT",
+          "hint": "Tedavi, tedavi süreci"
+        },
+        {
+          "word": "MEDICATION",
+          "hint": "İlaç, ilaç tedavisi"
+        },
+        {
+          "word": "EPIDEMIC",
+          "hint": "Salgın hastalık"
+        },
+        {
+          "word": "MENTAL HEALTH",
+          "hint": "Ruh sağlığı, akıl sağlığı"
+        },
+        {
+          "word": "PHYSICAL ACTIVITY",
+          "hint": "Fiziksel aktivite, egzersiz"
+        },
+        {
+          "word": "BALANCED DIET",
+          "hint": "Dengeli beslenme"
+        },
+        {
+          "word": "INSOMNIA",
+          "hint": "Uykusuzluk hastalığı"
+        },
+        {
+          "word": "CARDIOVASCULAR",
+          "hint": "Kalp ve damar ile ilgili"
+        },
+        {
+          "word": "HYGIENE",
+          "hint": "Hijyen, temizlik kuralları"
+        },
+        {
+          "word": "ALLERGY",
+          "hint": "Alerji, aşırı duyarlılık"
+        },
+        {
+          "word": "SURGERY",
+          "hint": "Cerrahi operasyon, ameliyat"
+        },
+        {
+          "word": "FATIGUE",
+          "hint": "Yorgunluk, bitkinlik"
+        },
+        {
+          "word": "METABOLISM",
+          "hint": "Metabolizma, canlıdaki kimyasal süreçler"
+        },
+        {
+          "word": "REHABILITATION",
+          "hint": "Rehabilitasyon, yeniden kazandırma"
+        },
+        {
+          "word": "PUBLIC HEALTH",
+          "hint": "Halk sağlığı"
+        },
+        {
+          "word": "DEPRESSION",
+          "hint": "Depresyon, ruhsal çöküntü"
+        },
+        {
+          "word": "CONTAMINATION",
+          "hint": "Bulaşma, kirlenme"
+        },
+        {
+          "word": "OXYGEN",
+          "hint": "Oksijen, yaşam için gerekli gaz"
+        },
+        {
+          "word": "VITAMIN",
+          "hint": "Vitamin, sağlıklı yaşam için gerekli besin"
+        },
+        {
+          "word": "CONSULTATION",
+          "hint": "Doktor muayenesi, danışma"
+        },
+        {
+          "word": "GENETIC",
+          "hint": "Kalıtımsal, genetik"
+        },
+        {
+          "word": "BLOOD PRESSURE",
+          "hint": "Kan basıncı, tansiyon"
+        },
+        {
+          "word": "PRECAUTION",
+          "hint": "Önlem, tedbir"
+        },
+        {
+          "word": "EXHAUSTION",
+          "hint": "Tükenmişlik, aşırı yorgunluk"
+        },
+        {
+          "word": "PULSE",
+          "hint": "Nabız, kalp atışı"
+        },
+        {
+          "word": "PAINKILLER",
+          "hint": "Ağrı kesici"
+        },
+        {
+          "word": "REMEDY",
+          "hint": "Çare, tedavi yöntemi"
+        },
+        {
+          "word": "URGENT",
+          "hint": "Acil, ivedi"
+        },
+        {
+          "word": "CHECK-UP",
+          "hint": "Genel sağlık kontrolü"
+        },
+        {
+          "word": "CALORIES",
+          "hint": "Kalori, enerji birimi"
+        },
+        {
+          "word": "RELAXATION",
+          "hint": "Gevşeme, rahatlama"
+        },
+        {
+          "word": "TRANSMISSION",
+          "hint": "Bulaşma, yayılma"
+        },
+        {
+          "word": "RECOVERY TIME",
+          "hint": "İyileşme süresi"
+        },
+        {
+          "word": "HEALTHY HABITS",
+          "hint": "Sağlıklı alışkanlıklar"
+        }
+      ]
     },
     {
       "id": "ingilizce_u8",
-      "name": "Unit 8: My Daily Routine",
+      "name": "Unit 8: Sports",
       "months": [
         4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "ENDURANCE",
+          "hint": "Dayanıklılık, uzun süre fiziksel aktivite yapabilme gücü"
+        },
+        {
+          "word": "REFEREE",
+          "hint": "Hakem, müsabakayı yöneten kişi"
+        },
+        {
+          "word": "OPPONENT",
+          "hint": "Rakip, karşı taraf"
+        },
+        {
+          "word": "SPECTATOR",
+          "hint": "Seyirci, izleyici"
+        },
+        {
+          "word": "TOURNAMENT",
+          "hint": "Turnuva, yarışma dizisi"
+        },
+        {
+          "word": "CHAMPIONSHIP",
+          "hint": "Şampiyonluk"
+        },
+        {
+          "word": "EQUIPMENT",
+          "hint": "Ekipman, spor malzemeleri"
+        },
+        {
+          "word": "STRATEGY",
+          "hint": "Strateji, taktik"
+        },
+        {
+          "word": "AGILITY",
+          "hint": "Çeviklik, hızlı ve kolay hareket edebilme"
+        },
+        {
+          "word": "PERFORMANCE",
+          "hint": "Performans, başarı düzeyi"
+        },
+        {
+          "word": "SUBSTITUTE",
+          "hint": "Yedek oyuncu"
+        },
+        {
+          "word": "VICTORY",
+          "hint": "Zafer, galibiyet"
+        },
+        {
+          "word": "DEFEAT",
+          "hint": "Yenilgi, mağlubiyet"
+        },
+        {
+          "word": "COURT",
+          "hint": "Tenis veya basketbol sahası"
+        },
+        {
+          "word": "PITCH",
+          "hint": "Futbol veya kriket sahası"
+        },
+        {
+          "word": "ATHLETE",
+          "hint": "Sporcu"
+        },
+        {
+          "word": "MEDAL",
+          "hint": "Madalya"
+        },
+        {
+          "word": "TRAINING",
+          "hint": "Antrenman, çalışma"
+        },
+        {
+          "word": "PROFESSIONAL",
+          "hint": "Profesyonel"
+        },
+        {
+          "word": "AMATEUR",
+          "hint": "Amatör"
+        },
+        {
+          "word": "UMPIRE",
+          "hint": "Hakem (özellikle tenis ve beyzbol)"
+        },
+        {
+          "word": "COACH",
+          "hint": "Antrenör, koç"
+        },
+        {
+          "word": "DRAW",
+          "hint": "Beraberlik"
+        },
+        {
+          "word": "SCORE",
+          "hint": "Skor, puan"
+        },
+        {
+          "word": "LEAGUE",
+          "hint": "Lig, küme"
+        },
+        {
+          "word": "INJURY",
+          "hint": "Sakatlık, yaralanma"
+        },
+        {
+          "word": "FITNESS",
+          "hint": "Zindelik, formda olma durumu"
+        },
+        {
+          "word": "WARM-UP",
+          "hint": "Isınma hareketleri"
+        },
+        {
+          "word": "RULE",
+          "hint": "Kural"
+        },
+        {
+          "word": "FAIR PLAY",
+          "hint": "Adil oyun, sportmenlik"
+        },
+        {
+          "word": "STAMINA",
+          "hint": "Dayanıklılık, direnç"
+        },
+        {
+          "word": "SPRINT",
+          "hint": "Kısa mesafeli hızlı koşu"
+        },
+        {
+          "word": "GYMNASTICS",
+          "hint": "Jimnastik"
+        },
+        {
+          "word": "MOUNTAINEERING",
+          "hint": "Dağcılık"
+        },
+        {
+          "word": "ARCHERY",
+          "hint": "Okçuluk"
+        },
+        {
+          "word": "FENCING",
+          "hint": "Eskrim"
+        },
+        {
+          "word": "WRESTLING",
+          "hint": "Güreş"
+        },
+        {
+          "word": "ATHLETICS",
+          "hint": "Atletizm"
+        },
+        {
+          "word": "EXTRACURRICULAR",
+          "hint": "Ders dışı (aktiviteler)"
+        },
+        {
+          "word": "SPECTATE",
+          "hint": "Seyretmek, izlemek"
+        },
+        {
+          "word": "COMPETE",
+          "hint": "Yarışmak, rekabet etmek"
+        },
+        {
+          "word": "OVERCOME",
+          "hint": "Üstesinden gelmek, yenmek"
+        },
+        {
+          "word": "BOOST",
+          "hint": "Artırmak, yükseltmek, teşvik etmek"
+        },
+        {
+          "word": "ENDURE",
+          "hint": "Dayanmak, katlanmak"
+        },
+        {
+          "word": "MAINTAIN",
+          "hint": "Sürdürmek, korumak"
+        },
+        {
+          "word": "DISQUALIFICATION",
+          "hint": "Diskalifiye, elenme"
+        },
+        {
+          "word": "OUTPERFORM",
+          "hint": "Daha iyi performans göstermek"
+        },
+        {
+          "word": "RECOVERY",
+          "hint": "İyileşme, toparlanma süreci"
+        },
+        {
+          "word": "INCENTIVE",
+          "hint": "Teşvik, özendirici"
+        },
+        {
+          "word": "DEDICATION",
+          "hint": "Adanmışlık, kendini bir işe verme"
+        }
+      ]
     },
     {
       "id": "ingilizce_u9",
-      "name": "Unit 9: Fruits and Food",
+      "name": "Unit 9: Science",
       "months": [
         5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "ACHIEVEMENT",
+          "hint": "Başarı, elde edilen sonuç"
+        },
+        {
+          "word": "ADVANCE",
+          "hint": "İlerleme, gelişme"
+        },
+        {
+          "word": "ARTIFICIAL",
+          "hint": "Yapay, suni"
+        },
+        {
+          "word": "ASTRONOMY",
+          "hint": "Gök bilimi"
+        },
+        {
+          "word": "ATMOSPHERE",
+          "hint": "Atmosfer, hava küre"
+        },
+        {
+          "word": "BIOCHEMISTRY",
+          "hint": "Biyokimya"
+        },
+        {
+          "word": "BREAKTHROUGH",
+          "hint": "Çığır açan buluş"
+        },
+        {
+          "word": "CALCULATE",
+          "hint": "Hesaplamak"
+        },
+        {
+          "word": "CAPABILITY",
+          "hint": "Yetenek, kapasite"
+        },
+        {
+          "word": "CATALYST",
+          "hint": "Katalizör, hızlandırıcı"
+        },
+        {
+          "word": "CHALLENGE",
+          "hint": "Zorlu görev, meydan okuma"
+        },
+        {
+          "word": "COLLABORATION",
+          "hint": "İş birliği"
+        },
+        {
+          "word": "COMPLEXITY",
+          "hint": "Karmaşıklık"
+        },
+        {
+          "word": "COMPONENT",
+          "hint": "Bileşen, parça"
+        },
+        {
+          "word": "CONDUCT",
+          "hint": "Yürütmek, yönetmek (deney vb.)"
+        },
+        {
+          "word": "CONSTRAINT",
+          "hint": "Kısıtlama, engel"
+        },
+        {
+          "word": "CONTROVERSIAL",
+          "hint": "Tartışmalı, çekişmeli"
+        },
+        {
+          "word": "CRITICAL",
+          "hint": "Kritik, çok önemli"
+        },
+        {
+          "word": "DATA",
+          "hint": "Veri, bilgiler"
+        },
+        {
+          "word": "DEDICATION",
+          "hint": "Adanmışlık, özveri"
+        },
+        {
+          "word": "DISCOVERY",
+          "hint": "Keşif"
+        },
+        {
+          "word": "DNA",
+          "hint": "Deoksiribonükleik asit"
+        },
+        {
+          "word": "EVIDENCE",
+          "hint": "Kanıt, delil"
+        },
+        {
+          "word": "EVOLUTION",
+          "hint": "Evrim, gelişim"
+        },
+        {
+          "word": "EXPERIMENT",
+          "hint": "Deney"
+        },
+        {
+          "word": "EXPLORATION",
+          "hint": "Keşif, araştırma gezisi"
+        },
+        {
+          "word": "GENETIC",
+          "hint": "Genetik"
+        },
+        {
+          "word": "GRAVITY",
+          "hint": "Yer çekimi"
+        },
+        {
+          "word": "HYPOTHESIS",
+          "hint": "Varsayım, hipotez"
+        },
+        {
+          "word": "IMPLEMENT",
+          "hint": "Uygulamaya koymak, hayata geçirmek"
+        },
+        {
+          "word": "INNOVATION",
+          "hint": "Yenilik, buluş"
+        },
+        {
+          "word": "INQUIRY",
+          "hint": "Sorgulama, araştırma"
+        },
+        {
+          "word": "INTELLECTUAL",
+          "hint": "Entelektüel, zihinsel"
+        },
+        {
+          "word": "INTERACTION",
+          "hint": "Etkileşim"
+        },
+        {
+          "word": "INVESTIGATION",
+          "hint": "Soruşturma, inceleme"
+        },
+        {
+          "word": "LABORATORY",
+          "hint": "Laboratuvar"
+        },
+        {
+          "word": "MATTER",
+          "hint": "Madde"
+        },
+        {
+          "word": "METHODOLOGY",
+          "hint": "Yöntem bilim"
+        },
+        {
+          "word": "MICROORGANISM",
+          "hint": "Mikroorganizma"
+        },
+        {
+          "word": "OBSERVATION",
+          "hint": "Gözlem"
+        },
+        {
+          "word": "ORIGIN",
+          "hint": "Köken, kaynak"
+        },
+        {
+          "word": "PHENOMENON",
+          "hint": "Olgusal olay, fenomen"
+        },
+        {
+          "word": "PHYSICS",
+          "hint": "Fizik"
+        },
+        {
+          "word": "PRECISION",
+          "hint": "Kesinlik, hassasiyet"
+        },
+        {
+          "word": "QUANTUM",
+          "hint": "Kuantum"
+        },
+        {
+          "word": "RESEARCH",
+          "hint": "Araştırma"
+        },
+        {
+          "word": "REVOLUTIONARY",
+          "hint": "Devrim niteliğinde"
+        },
+        {
+          "word": "SCIENTIFIC",
+          "hint": "Bilimsel"
+        },
+        {
+          "word": "SIMULATION",
+          "hint": "Simülasyon, benzetim"
+        },
+        {
+          "word": "TECHNOLOGY",
+          "hint": "Teknoloji"
+        },
+        {
+          "word": "THEORY",
+          "hint": "Teori, kuram"
+        },
+        {
+          "word": "VARIABLE",
+          "hint": "Değişken"
+        }
+      ]
     },
     {
       "id": "ingilizce_u10",
-      "name": "Unit 10: Animal Shelter and Nature",
+      "name": "Unit 10: Culture",
       "months": [
-        6
+        5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "CULTURAL HERITAGE",
+          "hint": "Kültürel miras, nesilden nesile aktarılan değerler"
+        },
+        {
+          "word": "TRADITION",
+          "hint": "Gelenek, kuşaktan kuşağa aktarılan alışkanlıklar"
+        },
+        {
+          "word": "CUSTOM",
+          "hint": "Örf, adet, belirli bir toplumun alışkanlıkları"
+        },
+        {
+          "word": "DIVERSITY",
+          "hint": "Çeşitlilik, farklılıkların bir arada olması"
+        },
+        {
+          "word": "FOLKLORE",
+          "hint": "Halk bilimi, halk efsaneleri ve gelenekleri"
+        },
+        {
+          "word": "IDENTITY",
+          "hint": "Kimlik, bir kişinin veya toplumun kendini tanımlama biçimi"
+        },
+        {
+          "word": "ANCESTOR",
+          "hint": "Ata, soyun önceki kuşakları"
+        },
+        {
+          "word": "BELIEF",
+          "hint": "İnanç, doğru kabul edilen görüşler"
+        },
+        {
+          "word": "RITUAL",
+          "hint": "Ritüel, törensel davranış biçimi"
+        },
+        {
+          "word": "GLOBALIZATION",
+          "hint": "Küreselleşme, dünya çapında etkileşim"
+        },
+        {
+          "word": "ARTIFAC",
+          "hint": "Eser, tarihi önemi olan nesne"
+        },
+        {
+          "word": "SOCIETY",
+          "hint": "Toplum, ortak değerleri paylaşan insan grubu"
+        },
+        {
+          "word": "VALUE",
+          "hint": "Değer, toplumsal olarak önemli görülen kavramlar"
+        },
+        {
+          "word": "NORMS",
+          "hint": "Normlar, toplumun belirlediği davranış kuralları"
+        },
+        {
+          "word": "ETHNICITY",
+          "hint": "Etnik köken, soy ve kültür bağı"
+        },
+        {
+          "word": "LANGUAGE BARRIER",
+          "hint": "Dil engeli, farklı dillerden kaynaklanan iletişim zorluğu"
+        },
+        {
+          "word": "MULTICULTURAL",
+          "hint": "Çok kültürlü, birçok farklı kültürün bir arada olduğu"
+        },
+        {
+          "word": "ASSIMILATION",
+          "hint": "Asimilasyon, bir kültürün diğerinin içinde erimesi"
+        },
+        {
+          "word": "PREJUDICE",
+          "hint": "Önyargı, bir kişi veya grup hakkında peşin hüküm"
+        },
+        {
+          "word": "STEREOTYPE",
+          "hint": "Kalıplaşmış yargı, tek tip düşünce"
+        },
+        {
+          "word": "EXHIBIT",
+          "hint": "Sergilemek, bir sanat eserini veya objeyi göstermek"
+        },
+        {
+          "word": "CONVENTION",
+          "hint": "Sözleşme, geleneksel uygulama veya toplantı"
+        },
+        {
+          "word": "COMMEMORATE",
+          "hint": "Anmak, önemli bir olayı hatırlamak"
+        },
+        {
+          "word": "LEGACY",
+          "hint": "Miras, geçmişten kalan değerler"
+        },
+        {
+          "word": "FESTIVITY",
+          "hint": "Şenlik, kutlama dönemi"
+        },
+        {
+          "word": "FOLK ART",
+          "hint": "Halk sanatı, yerel üretim geleneksel sanat"
+        },
+        {
+          "word": "ACCULTURATION",
+          "hint": "Kültürleşme, kültürlerin karşılıklı etkileşimi"
+        },
+        {
+          "word": "SYMBOLISM",
+          "hint": "Sembolizm, sembollerle ifade etme biçimi"
+        },
+        {
+          "word": "INTERACTION",
+          "hint": "Etkileşim, karşılıklı iletişim"
+        },
+        {
+          "word": "CULTURAL SHOCK",
+          "hint": "Kültür şoku, farklı bir kültüre alışırken yaşanan zorluk"
+        },
+        {
+          "word": "MAINSTREAM",
+          "hint": "Ana akım, genel kabul gören kültür"
+        },
+        {
+          "word": "SUBCULTURE",
+          "hint": "Alt kültür, ana toplumdan farklılaşan küçük gruplar"
+        },
+        {
+          "word": "MYTHOLOGY",
+          "hint": "Mitoloji, efsaneler bütünü"
+        },
+        {
+          "word": "CEREMONY",
+          "hint": "Tören, resmi veya dini kutlama"
+        },
+        {
+          "word": "PRESERVE",
+          "hint": "Korumak, kültürel değerleri gelecek nesillere aktarmak"
+        },
+        {
+          "word": "INTANGIBLE",
+          "hint": "Somut olmayan, elle tutulamayan (kültürel değerler)"
+        },
+        {
+          "word": "CIVILIZATION",
+          "hint": "Medeniyet, gelişmiş toplum düzeyi"
+        },
+        {
+          "word": "SOCIAL STRUCTURE",
+          "hint": "Sosyal yapı, toplumun düzeni"
+        },
+        {
+          "word": "MODERNITY",
+          "hint": "Modernite, çağdaşlık"
+        },
+        {
+          "word": "AUTHENTIC",
+          "hint": "Otantik, özgün, gerçeğine uygun"
+        },
+        {
+          "word": "EXOTIC",
+          "hint": "Egzotik, yabancı, alışılmadık ve ilginç"
+        },
+        {
+          "word": "INHERITANCE",
+          "hint": "Kalıtım, miras yoluyla devralınan"
+        },
+        {
+          "word": "CUSTOMARY",
+          "hint": "Geleneksel, alışılagelmiş"
+        },
+        {
+          "word": "SOLIDARITY",
+          "hint": "Dayanışma, birlik ve beraberlik"
+        },
+        {
+          "word": "HERITAGE SITE",
+          "hint": "Miras alanı, tarihi koruma altındaki yer"
+        },
+        {
+          "word": "CULTURAL EXCHANGE",
+          "hint": "Kültür değişimi, kültürler arası etkileşim programı"
+        },
+        {
+          "word": "INDIGENOUS",
+          "hint": "Yerli, o toprağın kökeninden gelen"
+        },
+        {
+          "word": "SOCIALIZE",
+          "hint": "Sosyalleşmek, toplum içine karışmak"
+        },
+        {
+          "word": "TRADITIONALIST",
+          "hint": "Gelenekçi, eski alışkanlıklara bağlı kalan"
+        },
+        {
+          "word": "CULTURAL IDENTITY",
+          "hint": "Kültürel kimlik, bir bireyin bağlı olduğu kültürel yapı"
+        }
+      ]
     }
   ]
 }

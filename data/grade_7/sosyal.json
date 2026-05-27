@@ -2,7 +2,7 @@
   "units": [
     {
       "id": "sosyal_u1",
-      "name": "1. Ünite: Osmanlı Devleti",
+      "name": "1. Ünite: Birey ve Toplum",
       "months": [
         9,
         10
@@ -37,7 +37,7 @@
           "hint": "Üzerinde yaşadığımız yeryüzü parçası."
         },
         {
-          "word": "YÖNETİ̇M",
+          "word": "YÖNETİM",
           "hint": "Bir ülkeyi veya topluluğu idare etme işi."
         },
         {
@@ -45,7 +45,7 @@
           "hint": "Bir şeyin var olmaya başlaması, meydana gelmesi."
         },
         {
-          "word": "YÜKSELİ̇Ş",
+          "word": "YÜKSELİŞ",
           "hint": "Makam, mertebe veya güç olarak ilerleme."
         },
         {
@@ -89,7 +89,7 @@
           "hint": "İki veya daha fazla grup arasındaki silahlı çatışma."
         },
         {
-          "word": "BARİŞ",
+          "word": "BARIŞ",
           "hint": "Savaşın olmadığı, huzurlu durum."
         },
         {
@@ -101,19 +101,19 @@
           "hint": "Savaşta kazanılan üstünlük."
         },
         {
-          "word": "MALİ̇YE",
+          "word": "MALİYE",
           "hint": "Devletin para işleriyle ilgili bölümü."
         },
         {
-          "word": "VERGİ̇",
+          "word": "VERGİ",
           "hint": "Devlete ödenen para veya ürün."
         },
         {
-          "word": "EKONOMİ̇",
+          "word": "EKONOMİ",
           "hint": "Bir ülkenin üretim, tüketim ve ticaret durumu."
         },
         {
-          "word": "Tİ̇CARET",
+          "word": "TİCARET",
           "hint": "Mal alıp satma işi."
         },
         {
@@ -121,15 +121,15 @@
           "hint": "İnsanın duygu ve düşüncelerini estetik biçimde yansıtması."
         },
         {
-          "word": "Mİ̇MARİ̇",
+          "word": "MİMARİ",
           "hint": "Binaları tasarlama ve inşa etme sanatı."
         },
         {
-          "word": "Bİ̇Lİ̇M",
+          "word": "BİLİM",
           "hint": "Gerçekleri inceleyip anlama çabası."
         },
         {
-          "word": "TARİ̇H",
+          "word": "TARİH",
           "hint": "Geçmişte olan olayları inceleyen bilim dalı."
         },
         {
@@ -161,35 +161,35 @@
           "hint": "Doğup büyüdüğümüz, uğruna mücadele ettiğimiz ülke."
         },
         {
-          "word": "Mİ̇LLET",
+          "word": "MİLLET",
           "hint": "Ortak dil, kültür ve tarihe sahip insan topluluğu."
         },
         {
-          "word": "İ̇NSANLİK",
+          "word": "İNSANLİK",
           "hint": "İnsan olmanın getirdiği erdemler."
         },
         {
-          "word": "Vİ̇CDAN",
+          "word": "VİCDAN",
           "hint": "Doğru ile yanlışı ayıran iç ses."
         },
         {
-          "word": "Sİ̇YASET",
+          "word": "SİYASET",
           "hint": "Devlet işlerini yürütme sanatı."
         },
         {
-          "word": "TEŞKİ̇LAT",
+          "word": "TEŞKİLAT",
           "hint": "Belirli bir amaca ulaşmak için kurulan yapı."
         },
         {
-          "word": "YAYİLMA",
+          "word": "YAYILMA",
           "hint": "Bir şeyin geniş alana doğru ilerlemesi."
         },
         {
-          "word": "ETKİ̇",
+          "word": "ETKİ",
           "hint": "Bir şeyin başka bir şey üzerinde meydana getirdiği sonuç."
         },
         {
-          "word": "DEĞİ̇Şİ̇M",
+          "word": "DEĞİŞİM",
           "hint": "Bir durumdan başka bir duruma geçme."
         },
         {
@@ -197,7 +197,7 @@
           "hint": "Belirli bir zaman dilimi."
         },
         {
-          "word": "ETKİ̇LEŞİ̇M",
+          "word": "ETKİLEŞİM",
           "hint": "Karşılıklı olarak birbirini etkileme durumu."
         },
         {
@@ -212,10 +212,10 @@
     },
     {
       "id": "sosyal_u2",
-      "name": "2. Ünite: İletişim ve Medya",
+      "name": "2. Ünite: Kültür ve Miras",
       "months": [
-        11,
-        12
+        10,
+        11
       ],
       "words": [
         {
@@ -251,7 +251,7 @@
           "hint": "Bir ürünün veya hizmetin tanıtılması."
         },
         {
-          "word": "GÜVENİ̇Lİ̇R",
+          "word": "GÜVENİLİR",
           "hint": "Sözüne inanılan, doğruluğu kanıtlanmış."
         },
         {
@@ -271,7 +271,7 @@
           "hint": "Düşünce veya duygu aktarma."
         },
         {
-          "word": "GÖNDERİ̇",
+          "word": "GÖNDERİ",
           "hint": "Sosyal medyada paylaşılan yazı, fotoğraf veya video."
         },
         {
@@ -279,23 +279,23 @@
           "hint": "Bir konu hakkındaki görüş belirtme."
         },
         {
-          "word": "BEĞENİ̇",
+          "word": "BEĞENİ",
           "hint": "Hoşlandığını gösterme."
         },
         {
-          "word": "PAYLAŞİM",
+          "word": "PAYLAŞIM",
           "hint": "Başkalarıyla bir şeyi ortak kullanma."
         },
         {
-          "word": "TAKİ̇PÇİ̇",
+          "word": "TAKİPÇİ",
           "hint": "Birini sosyal medyada izleyen kişi."
         },
         {
-          "word": "ETKİ̇LEŞİ̇M",
+          "word": "ETKİLEŞİM",
           "hint": "Karşılıklı ilgi ve alaka."
         },
         {
-          "word": "İ̇NTERNET",
+          "word": "İNTERNET",
           "hint": "Bilgisayarların birbirine bağlandığı küresel ağ."
         },
         {
@@ -303,7 +303,7 @@
           "hint": "Akıllı telefonlarda kullanılan program."
         },
         {
-          "word": "Sİ̇TE",
+          "word": "SİTE",
           "hint": "İnternet'teki bir web adresi."
         },
         {
@@ -327,7 +327,7 @@
           "hint": "Sesli veya görüntülü yayın yapılan yer."
         },
         {
-          "word": "EKİ̇P",
+          "word": "EKİP",
           "hint": "Birlikte çalışan grup."
         },
         {
@@ -343,15 +343,15 @@
           "hint": "Gözle algılanan."
         },
         {
-          "word": "İ̇Şİ̇TSEL",
+          "word": "İŞİTSEL",
           "hint": "Kulakla algılanan."
         },
         {
-          "word": "Kİ̇NAYA",
+          "word": "KİNAYE",
           "hint": "Dolaylı anlatım."
         },
         {
-          "word": "KARİ̇KATÜR",
+          "word": "KARİKATÜR",
           "hint": "Kişileri veya olayları alaycı çizim."
         },
         {
@@ -367,11 +367,11 @@
           "hint": "Benzeri, taklit."
         },
         {
-          "word": "ORİ̇Jİ̇NAL",
+          "word": "ORİJİNAL",
           "hint": "Özgün, ilk üretilen."
         },
         {
-          "word": "Fİ̇LTRE",
+          "word": "FİLTRE",
           "hint": "Görüntü veya sesi düzenleyen araç."
         },
         {
@@ -383,7 +383,7 @@
           "hint": "Doğru, asıl."
         },
         {
-          "word": "TARTİŞMA",
+          "word": "TARTIŞMA",
           "hint": "Fikirlerin karşılıklı olarak ileri sürülüp değerlendirilmesi."
         },
         {
@@ -399,19 +399,19 @@
           "hint": "Bir bölgeye ait olan."
         },
         {
-          "word": "ÇEVRİ̇Mİ̇Çİ̇",
+          "word": "ÇEVRİMİÇİ",
           "hint": "İnternet'e bağlı olma durumu."
         },
         {
-          "word": "ÇEVRİ̇MDİŞİ",
+          "word": "ÇEVRİMDİŞİ",
           "hint": "İnternet'e bağlı olmama durumu."
         },
         {
-          "word": "YAYİN",
+          "word": "YAYIN",
           "hint": "Ortaya koyma, duyurma."
         },
         {
-          "word": "ARŞİ̇V",
+          "word": "ARŞİV",
           "hint": "Saklanan bilgi ve belgeler topluluğu."
         },
         {
@@ -424,42 +424,1159 @@
       "id": "sosyal_u3",
       "name": "3. Ünite: İnsanlar, Yerler ve Çevreler",
       "months": [
-        1,
-        2
+        11,
+        12
       ],
-      "words": []
+      "words": [
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların veya hayvanların bir yerden başka bir yere taşınması."
+        },
+        {
+          "word": "YERLEŞİM",
+          "hint": "İnsanların kalıcı olarak yaşadığı yer."
+        },
+        {
+          "word": "NÜFUS",
+          "hint": "Bir bölgede yaşayan insan sayısı."
+        },
+        {
+          "word": "EKOSİSTEM",
+          "hint": "Canlıların ve cansız varlıkların birbirini etkilediği çevre."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK",
+          "hint": "Bir bölgedeki farklı canlı türlerinin zenginliği."
+        },
+        {
+          "word": "KARASAL",
+          "hint": "Kara parçalarına ait, toprağa bağlı olan."
+        },
+        {
+          "word": "SULU",
+          "hint": "Su ile ilgili, suya ait."
+        },
+        {
+          "word": "İKLİM",
+          "hint": "Bir yerin uzun süreli hava durumu ortalaması."
+        },
+        {
+          "word": "İNSAN ETKİSİ",
+          "hint": "İnsanların çevreye verdiği zarar veya iyilik."
+        },
+        {
+          "word": "DOĞAL AFET",
+          "hint": "Deprem, sel gibi doğal yollarla oluşan büyük yıkımlar."
+        },
+        {
+          "word": "ÇEVRE BİLİNCİ",
+          "hint": "Çevreyi koruma ve temiz tutma isteği."
+        },
+        {
+          "word": "KÜRESEL ISINMA",
+          "hint": "Dünya'nın ortalama sıcaklığının artması."
+        },
+        {
+          "word": "ASİT YAĞMURU",
+          "hint": "Havadaki zararlı gazların suya karışıp toprağa zarar vermesi."
+        },
+        {
+          "word": "SU KAYNAKLARI",
+          "hint": "Nehirler, göller, yer altı suları gibi su bulunduran yerler."
+        },
+        {
+          "word": "TOPRAK KİRLİLİĞİ",
+          "hint": "Toprağa zararlı maddelerin karışması."
+        },
+        {
+          "word": "HAVA KİRLİLİĞİ",
+          "hint": "Havaya zararlı gazların karışması."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Kullanılmış eşyaların tekrar kullanılabilir hale getirilmesi."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Kaynakların gelecek nesillerin ihtiyacını karşılayacak şekilde kullanılması."
+        },
+        {
+          "word": "BEŞERİ KAYNAKLAR",
+          "hint": "İnsanların ürettiği veya kullandığı kaynaklar."
+        },
+        {
+          "word": "DOĞAL KAYNAKLAR",
+          "hint": "Doğanın insana sunduğu kaynaklar."
+        },
+        {
+          "word": "TARIM",
+          "hint": "Toprak yetiştirme, bitki üretme işi."
+        },
+        {
+          "word": "SANAYİ",
+          "hint": "Fabrikalarda üretim yapma işi."
+        },
+        {
+          "word": "MADENCİLİK",
+          "hint": "Yeraltından maden çıkarma işi."
+        },
+        {
+          "word": "TURİZM",
+          "hint": "Gezme, görme amacıyla seyahat etme."
+        },
+        {
+          "word": "GELİR",
+          "hint": "Para kazanma, kazanç."
+        },
+        {
+          "word": "GİDER",
+          "hint": "Para harcama, masraf."
+        },
+        {
+          "word": "EKONOMİ",
+          "hint": "Bir ülkenin üretim, tüketim ve dağıtım faaliyetleri."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Alım satım işi, alışveriş."
+        },
+        {
+          "word": "İHRACAT",
+          "hint": "Mal satma, ülkeden dışarıya ürün gönderme."
+        },
+        {
+          "word": "İTHALAT",
+          "hint": "Mal alma, ülkeden dışarıdan ürün getirme."
+        },
+        {
+          "word": "ULUSLARARASI",
+          "hint": "Birden fazla ülkeyi ilgilendiren, ülkeler arası."
+        },
+        {
+          "word": "KÜRESELLEŞME",
+          "hint": "Dünyanın bir bütün haline gelmesi, ülkelerin birbirine bağlanması."
+        },
+        {
+          "word": "MEDENİYET",
+          "hint": "İnsanların yerleşik hayata geçip geliştirdiği kültür ve yaşam biçimi."
+        },
+        {
+          "word": "UZAK İLETİŞİM",
+          "hint": "Mesafeler olsa bile haberleşme yolları."
+        },
+        {
+          "word": "İLETİŞİM ARAÇLARI",
+          "hint": "Telefon, internet gibi haberleşmeyi sağlayan şeyler."
+        },
+        {
+          "word": "KÜLTÜREL ETKİ",
+          "hint": "Bir kültürün başka bir kültürü etkilemesi."
+        },
+        {
+          "word": "MİRAS",
+          "hint": "Geçmişten geleceğe aktarılan değerler, eserler."
+        },
+        {
+          "word": "GELENEK",
+          "hint": "Bir toplumda kuşaktan kuşağa aktarılan görenek."
+        },
+        {
+          "word": "GÖRENEK",
+          "hint": "Bir toplumda yaygın olan alışkanlık veya adet."
+        },
+        {
+          "word": "TÖREN",
+          "hint": "Belirli günlerde yapılan özel kutlama veya anma."
+        },
+        {
+          "word": "İNANÇ",
+          "hint": "Bir şeye veya kişiye güvenme, tasdik etme."
+        },
+        {
+          "word": "YAPI",
+          "hint": "Binalar, köprüler gibi inşa edilmiş şeyler."
+        },
+        {
+          "word": "TARİHİ ESER",
+          "hint": "Geçmişten kalan önemli yapı veya nesne."
+        },
+        {
+          "word": "SANAT",
+          "hint": "Güzellik duygusunu coşkuyla ifade etme yolu."
+        },
+        {
+          "word": "FOLKLOR",
+          "hint": "Bir topluma özgü halk bilimi, gelenekler."
+        },
+        {
+          "word": "YEREL YÖNETİM",
+          "hint": "Belediye gibi bir bölgedeki halkın kendi kendini yönetmesi."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir ülkeyi yöneten siyasi oluşum."
+        },
+        {
+          "word": "VATANDAŞLIK",
+          "hint": "Bir devlete bağlı olma ve haklara sahip olma durumu."
+        },
+        {
+          "word": "İNSAN HAKLARİ",
+          "hint": "Her insanın doğuştan sahip olduğu temel haklar."
+        },
+        {
+          "word": "DEMOKRASİ",
+          "hint": "Halkın egemen olduğu yönetim şekli."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hak ve eşitlik ilkesine uygunluk."
+        }
+      ]
     },
     {
       "id": "sosyal_u4",
-      "name": "4. Ünite: Bilim, Teknoloji ve Toplumsal Gelişim",
+      "name": "4. Ünite: Bilim, Teknoloji ve Toplum",
       "months": [
-        3
+        1,
+        2
       ],
-      "words": []
+      "words": [
+        {
+          "word": "BULUŞ",
+          "hint": "Daha önce bilinmeyen bir şeyi ortaya çıkarma, keşfetme."
+        },
+        {
+          "word": "GELİŞİM",
+          "hint": "Bir şeyin zamanla daha iyi, daha büyük veya daha karmaşık hale gelmesi."
+        },
+        {
+          "word": "TOPLUM",
+          "hint": "İnsanların birlikte yaşadığı, ortak kuralları ve kültürü olan grup."
+        },
+        {
+          "word": "BİLİM",
+          "hint": "Evreni anlama çabası, gözlem ve deneylere dayalı bilgi."
+        },
+        {
+          "word": "TEKNOLOJİ",
+          "hint": "Bilimin pratik hayatta kullanılması, araç ve gereçlerin geliştirilmesi."
+        },
+        {
+          "word": "İCAT",
+          "hint": "Daha önce var olmayan bir şeyi tasarlayıp üretme."
+        },
+        {
+          "word": "ARAŞTIRMA",
+          "hint": "Bir konuyu öğrenmek için bilgi toplama süreci."
+        },
+        {
+          "word": "KEŞİF",
+          "hint": "Yeni bir yer veya bilgi bulma eylemi."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Bir hipotezi test etmek için yapılan kontrollü işlem."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir olayı dikkatle izleme ve kaydetme."
+        },
+        {
+          "word": "KURAM",
+          "hint": "Olayları açıklayan genel prensip veya fikirler bütünü."
+        },
+        {
+          "word": "YÖNTEM",
+          "hint": "Bir işi yapma biçimi, usul."
+        },
+        {
+          "word": "UZAY",
+          "hint": "Dünya'nın dışındaki sonsuz boşluk."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme yeteneği, güç kaynağı."
+        },
+        {
+          "word": "MATERYAL",
+          "hint": "Bir şeyin yapıldığı ham madde veya araç."
+        },
+        {
+          "word": "MÜHENDİS",
+          "hint": "Teknik bilgiyle tasarımlar yapan ve projeler yürüten kişi."
+        },
+        {
+          "word": "DOKTOR",
+          "hint": "Sağlık sorunlarını teşhis edip tedavi eden meslek sahibi."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Bilgi ve becerileri öğrencilere aktaran kişi."
+        },
+        {
+          "word": "YAZAR",
+          "hint": "Kitap, makale gibi eserler üreten kişi."
+        },
+        {
+          "word": "SANATÇI",
+          "hint": "Müzik, resim, heykel gibi sanat dallarında eser üreten kişi."
+        },
+        {
+          "word": "TARİH",
+          "hint": "Geçmişte yaşanmış olayları inceleyen bilim dalı."
+        },
+        {
+          "word": "COĞRAFYA",
+          "hint": "Yeryüzünü, üzerindeki yerleri ve insanları inceleyen bilim."
+        },
+        {
+          "word": "MATEMATİK",
+          "hint": "Sayılar, şekiller ve mantıkla ilgili bilim dalı."
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "Hikaye, şiir, roman gibi yazılı sanat eserleri."
+        },
+        {
+          "word": "FİZİK",
+          "hint": "Doğayı ve evreni madde ve enerji ilişkisiyle inceleyen bilim."
+        },
+        {
+          "word": "KİMYA",
+          "hint": "Maddelerin yapısını ve tepkimelerini inceleyen bilim."
+        },
+        {
+          "word": "BİYOLOJİ",
+          "hint": "Canlıları ve yaşamı inceleyen bilim dalı."
+        },
+        {
+          "word": "SAĞLIK",
+          "hint": "Vücudun iyi ve hastalıksız durumu."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Bilgi ve beceri kazandırma süreci."
+        },
+        {
+          "word": "İLETİŞİM",
+          "hint": "Düşünce ve bilgiyi başkalarına aktarma biçimi."
+        },
+        {
+          "word": "EKONOMİ",
+          "hint": "Üretim, dağıtım ve tüketimle ilgili faaliyetler."
+        },
+        {
+          "word": "SİYASET",
+          "hint": "Devlet yönetimi ve kamu işleriyle ilgili faaliyetler."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir topluma ait gelenek, görenek, sanat ve düşünce biçimleri."
+        },
+        {
+          "word": "ORTAK",
+          "hint": "Birkaç kişiye veya gruba ait olan, paylaşılan."
+        },
+        {
+          "word": "BAĞIMSIZ",
+          "hint": "Başka bir güce bağlı olmayan, özgür."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Yapılması gereken bir işi üstlenme ve yerine getirme."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hak ve hakkaniyete uygun davranma, doğruluk."
+        },
+        {
+          "word": "EŞİTLİK",
+          "hint": "Herkesin aynı haklara sahip olması durumu."
+        },
+        {
+          "word": "BİLİNÇ",
+          "hint": "Olan bitenin farkında olma durumu."
+        },
+        {
+          "word": "DEĞİŞİM",
+          "hint": "Bir durumdan başka bir duruma geçme hali."
+        },
+        {
+          "word": "ETKİ",
+          "hint": "Bir şeyin başka bir şey üzerinde yarattığı tesir."
+        },
+        {
+          "word": "FAYDALI",
+          "hint": "İşe yarayan, yarar sağlayan."
+        },
+        {
+          "word": "ZARARLI",
+          "hint": "Kötü sonuçlara yol açan, zarar veren."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Bir bilgiyi veya teoriyi hayata geçirme."
+        },
+        {
+          "word": "GÜVENLİK",
+          "hint": "Tehlikeden uzak, emin olma durumu."
+        },
+        {
+          "word": "HABERLEŞME",
+          "hint": "Bilgi veya mesaj aktarma yolları."
+        },
+        {
+          "word": "ULAŞIM",
+          "hint": "İnsanların ve eşyaların bir yerden bir yere gitmesi."
+        },
+        {
+          "word": "ÜRETİM",
+          "hint": "Bir mal veya hizmetin ortaya çıkarılması."
+        },
+        {
+          "word": "TÜKETİM",
+          "hint": "Mal veya hizmetlerin kullanılması, harcanması."
+        },
+        {
+          "word": "GİRDİ",
+          "hint": "Bir sürecin başlaması için gereken ilk malzeme veya çaba."
+        },
+        {
+          "word": "ÇİKTİ",
+          "hint": "Bir sürecin sonunda elde edilen sonuç."
+        }
+      ]
     },
     {
       "id": "sosyal_u5",
-      "name": "5. Ünite: Üretim, Dağıtım ve Tüketim Ekonomisi",
+      "name": "5. Ünite: Üretim, Dağıtım ve Tüketim",
       "months": [
-        4
+        2,
+        3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "TEKNOLOJİ",
+          "hint": "Bilimsel bilgiyi kullanarak bir problemi çözme veya bir ihtiyacı karşılama yöntemidir."
+        },
+        {
+          "word": "GİRİŞİMCİ",
+          "hint": "Yeni bir iş kurmak için cesareti ve fikri olan kişidir."
+        },
+        {
+          "word": "ÜRETİM",
+          "hint": "Ham maddeleri kullanarak yeni bir ürün ortaya çıkarma sürecidir."
+        },
+        {
+          "word": "TÜKETİM",
+          "hint": "Üretilen mal ve hizmetleri kullanma, harcama eylemidir."
+        },
+        {
+          "word": "DAĞITIM",
+          "hint": "Üretilen ürünlerin ihtiyaç sahiplerine ulaştırılmasıdır."
+        },
+        {
+          "word": "SERMAYE",
+          "hint": "Bir işi kurmak ve yürütmek için gereken para veya varlıklardır."
+        },
+        {
+          "word": "HAMMADDE",
+          "hint": "Bir ürünü üretmek için ilk kullanılan doğal veya işlenmiş malzemedir."
+        },
+        {
+          "word": "FASON",
+          "hint": "Bir firmanın başka bir firma adına üretim yapmasıdır."
+        },
+        {
+          "word": "VERGİ",
+          "hint": "Devletin hizmetlerini finanse etmek için vatandaşlardan topladığı para."
+        },
+        {
+          "word": "ENFLASYON",
+          "hint": "Mal ve hizmetlerin fiyatlarının genel olarak sürekli artması durumudur."
+        },
+        {
+          "word": "PAZARLAMA",
+          "hint": "Ürünlerin tanıtılması ve satışının sağlanması için yapılan çalışmalardır."
+        },
+        {
+          "word": "TALEP",
+          "hint": "Tüketicilerin belirli bir fiyattan bir mal veya hizmeti satın alma isteğidir."
+        },
+        {
+          "word": "ARZ",
+          "hint": "Üreticilerin belirli bir fiyattan bir mal veya hizmeti satma isteğidir."
+        },
+        {
+          "word": "KAR",
+          "hint": "Bir işten elde edilen gelirin giderden fazla olan kısmıdır."
+        },
+        {
+          "word": "ZARAR",
+          "hint": "Bir işten elde edilen gelirin giderden az olması durumudur."
+        },
+        {
+          "word": "İSTİHDAM",
+          "hint": "İnsanların bir iş ve kazanç sahibi olması durumudur."
+        },
+        {
+          "word": "İMKAN",
+          "hint": "Bir şeyi yapabilme veya elde edebilme olanağıdır."
+        },
+        {
+          "word": "YENİLİKÇİLİK",
+          "hint": "Yeni fikirler ve yöntemler geliştirme becerisidir."
+        },
+        {
+          "word": "OTOMASYON",
+          "hint": "İşlemlerin insan gücü olmadan makinelerle yapılmasıdır."
+        },
+        {
+          "word": "VERİMLİLİK",
+          "hint": "Elde edilen sonucun harcanan çabaya oranıdır."
+        },
+        {
+          "word": "GLOBALLEŞME",
+          "hint": "Dünyanın ekonomik, kültürel ve siyasi olarak bütünleşmesidir."
+        },
+        {
+          "word": "REKABET",
+          "hint": "Pazarda daha iyi olmak için firmaların birbirleriyle yarışmasıdır."
+        },
+        {
+          "word": "MARKALAŞMA",
+          "hint": "Bir ürün veya hizmeti benzerlerinden ayırmak için kullanılan isim veya semboldür."
+        },
+        {
+          "word": "BRODÜKTİVİTE",
+          "hint": "Birim zamanda üretilen mal veya hizmet miktarıdır."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Mal ve hizmetlerin alınıp satılmasıdır."
+        },
+        {
+          "word": "SANAYİ",
+          "hint": "Ham maddeleri işleyerek fabrika üretimini kapsayan alandır."
+        },
+        {
+          "word": "BİLİNÇLİ",
+          "hint": "Bir konuda neyin doğru neyin yanlış olduğunu bilen ve buna göre davranan."
+        },
+        {
+          "word": "TASARRUF",
+          "hint": "Gelirin bir kısmını harcamayıp biriktirme eylemidir."
+        },
+        {
+          "word": "İHTİYAÇ",
+          "hint": "Hayatta kalmak veya mutlu olmak için gerekli olan şeylerdir."
+        },
+        {
+          "word": "İSTEK",
+          "hint": "Bir şeyi arzu etme, sahip olmayı dileme durumudur."
+        },
+        {
+          "word": "FIRSAT",
+          "hint": "Olumlu bir sonuca ulaşmak için uygun olan zamandır."
+        },
+        {
+          "word": "KATMA",
+          "hint": "Mevcut bir değere yeni bir değer ekleme işlemidir."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir şeyin fayda veya önem derecesidir."
+        },
+        {
+          "word": "MALİYET",
+          "hint": "Bir ürünü üretmek veya bir hizmeti sunmak için harcanan paradır."
+        },
+        {
+          "word": "İHRACAT",
+          "hint": "Bir ülkenin kendi ürettiği mal ve hizmetleri başka ülkelere satmasıdır."
+        },
+        {
+          "word": "İTHALAT",
+          "hint": "Bir ülkenin başka ülkelerden mal ve hizmet satın almasıdır."
+        },
+        {
+          "word": "GÜMRÜK",
+          "hint": "Ülkeler arası mal giriş çıkışlarında alınan vergidir."
+        },
+        {
+          "word": "KAÇAKÇILIK",
+          "hint": "Yasaları çiğneyerek ülkeye mal sokmak veya çıkarmaktır."
+        },
+        {
+          "word": "FİNANS",
+          "hint": "Para ve sermayenin yönetimi ile ilgili alandır."
+        },
+        {
+          "word": "FAİZ",
+          "hint": "Ödünç alınan paranın kullanım bedelidir."
+        },
+        {
+          "word": "BORÇ",
+          "hint": "Bir kişiden veya kurumdan alınan paranın geri ödenme zorunluluğudur."
+        },
+        {
+          "word": "KREDİ",
+          "hint": "Belirli bir süre sonra geri ödenmek şartıyla verilen para veya maldır."
+        },
+        {
+          "word": "MÜTEŞEBBİS",
+          "hint": "Girişimci ile eş anlamlı, iş kuran kişidir."
+        },
+        {
+          "word": "PLAZMA",
+          "hint": "Fason üretim yapan firma veya kişilerdir."
+        },
+        {
+          "word": "KOOPERATİF",
+          "hint": "Ortak ekonomik çıkarlar için bir araya gelmiş topluluk."
+        },
+        {
+          "word": "KARİYER",
+          "hint": "Bir kişinin yaşamı boyunca seçtiği meslek veya iş alanıdır."
+        },
+        {
+          "word": "GELİR",
+          "hint": "Bir kişi veya kurumun belirli bir dönemde elde ettiği paradır."
+        },
+        {
+          "word": "KİRA",
+          "hint": "Bir malın kullanım hakkı karşılığında ödenen ücrettir."
+        },
+        {
+          "word": "SİGORTA",
+          "hint": "Olumsuz durumlara karşı maddi güvence sağlayan sistemdir."
+        },
+        {
+          "word": "BÜTÇE",
+          "hint": "Belirli bir dönem için gelir ve gider planıdır."
+        }
+      ]
     },
     {
       "id": "sosyal_u6",
-      "name": "6. Ünite: Etkin Vatandaşlık ve Yönetim Şekilleri",
+      "name": "6. Ünite: Etkin Vatandaşlık",
       "months": [
-        5
+        3,
+        4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "DEMOKRASİ",
+          "hint": "Halkın egemen olduğu yönetim şekli"
+        },
+        {
+          "word": "CUMHURİYET",
+          "hint": "Devlet başkanının seçimle belirlendiği yönetim"
+        },
+        {
+          "word": "YASAMA",
+          "hint": "Kanun yapma yetkisi"
+        },
+        {
+          "word": "YÜRÜTME",
+          "hint": "Kanunları uygulama yetkisi"
+        },
+        {
+          "word": "YARGI",
+          "hint": "Adalet dağıtan kurum"
+        },
+        {
+          "word": "KANUN",
+          "hint": "Toplumu düzenleyen yazılı kural"
+        },
+        {
+          "word": "ANAYASA",
+          "hint": "Devletin en temel yasası"
+        },
+        {
+          "word": "MİLLETVEKİLİ",
+          "hint": "Meclis'te milleti temsil eden kişi"
+        },
+        {
+          "word": "VATANDAŞLIK",
+          "hint": "Bir devlete bağlılık ve haklara sahip olma durumu"
+        },
+        {
+          "word": "HAK",
+          "hint": "Bireyin yasal olarak sahip olduğu şeyler"
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Yapılması gereken görevler"
+        },
+        {
+          "word": "SEÇİM",
+          "hint": "Yönetimi belirlemek için oy kullanma işlemi"
+        },
+        {
+          "word": "OY",
+          "hint": "Seçimde kullanılan tercih belirtme"
+        },
+        {
+          "word": "SANDIK",
+          "hint": "Oyların konulduğu kutu"
+        },
+        {
+          "word": "PARTİ",
+          "hint": "Siyasi görüşleri temsil eden grup"
+        },
+        {
+          "word": "MECLİS",
+          "hint": "Yasama organının toplandığı yer"
+        },
+        {
+          "word": "HÜKÜMET",
+          "hint": "Yürütme organını oluşturan yapı"
+        },
+        {
+          "word": "ADALET",
+          "hint": "Doğru ve hakkaniyetli olma durumu"
+        },
+        {
+          "word": "EŞİTLİK",
+          "hint": "Herkesin aynı haklara sahip olması"
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Kısıtlamalardan kurtulma durumu"
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir toprak parçası üzerindeki organize topluluk"
+        },
+        {
+          "word": "EGEMENLİK",
+          "hint": "Kendi kendini yönetme gücü"
+        },
+        {
+          "word": "LAİKLİK",
+          "hint": "Din ve devlet işlerinin ayrılığı"
+        },
+        {
+          "word": "MİLLÎ EGEMENLİK",
+          "hint": "Milletin yönetimdeki üstünlüğü"
+        },
+        {
+          "word": "TEMSİL",
+          "hint": "Birini veya bir grubu temsil etme"
+        },
+        {
+          "word": "KATILIM",
+          "hint": "Bir olaya veya sürece dahil olma"
+        },
+        {
+          "word": "TUTANAK",
+          "hint": "Yapılan bir toplantının kaydı"
+        },
+        {
+          "word": "TAVSİYE",
+          "hint": "Öneri, öğüt"
+        },
+        {
+          "word": "DİLEKÇE",
+          "hint": "Resmi makamlara sunulan yazılı istek"
+        },
+        {
+          "word": "İMZA",
+          "hint": "Kişiyi tanıtan özel işaret"
+        },
+        {
+          "word": "TAZMİNAT",
+          "hint": "Zarara uğrayana ödenen karşılık"
+        },
+        {
+          "word": "MUHTAR",
+          "hint": "Köy veya mahalle yöneticisi"
+        },
+        {
+          "word": "BELEDİYE",
+          "hint": "Şehir veya kasaba yönetim birimi"
+        },
+        {
+          "word": "VEKALET",
+          "hint": "Başkası adına hareket etme yetkisi"
+        },
+        {
+          "word": "FEDERASYON",
+          "hint": "Bağlı eyaletlerden oluşan devlet yapısı"
+        },
+        {
+          "word": "KONFEDERASYON",
+          "hint": "Bağımsız devletlerin birleşmesi"
+        },
+        {
+          "word": "MONARŞİ",
+          "hint": "Tek kişinin (kral, kraliçe) yönettiği sistem"
+        },
+        {
+          "word": "OLİGARŞİ",
+          "hint": "Küçük bir grubun yönettiği sistem"
+        },
+        {
+          "word": "TEOKRASİ",
+          "hint": "Dini kurallara göre yönetilen devlet"
+        },
+        {
+          "word": "DİKTATÖRLÜK",
+          "hint": "Tek kişinin sınırsız yetkiyle yönettiği rejim"
+        },
+        {
+          "word": "REFERANDUM",
+          "hint": "Önemli konularda halka sorulan oylama"
+        },
+        {
+          "word": "KAMUOYU",
+          "hint": "Toplumun genel düşüncesi"
+        },
+        {
+          "word": "MUHALEFET",
+          "hint": "Yönetime karşıt görüşte olan grup"
+        },
+        {
+          "word": "İFADE ÖZGÜRLÜĞÜ",
+          "hint": "Düşünceleri serbestçe açıklama hakkı"
+        },
+        {
+          "word": "BASIN ÖZGÜRLÜĞÜ",
+          "hint": "Yayın organlarının özgürce haber yapması"
+        },
+        {
+          "word": "TOPLANMA ÖZGÜRLÜĞÜ",
+          "hint": "İnsanların bir araya gelme hakkı"
+        },
+        {
+          "word": "DERNEK",
+          "hint": "Ortak amaçlar için bir araya gelen topluluk"
+        },
+        {
+          "word": "VAKIF",
+          "hint": "Hayır işleri için kurulmuş kurum"
+        },
+        {
+          "word": "SİVİL TOPLUM KURULUŞU (STK)",
+          "hint": "Devlet dışı, gönüllülük esasına dayalı kuruluş"
+        },
+        {
+          "word": "YÖNETİM",
+          "hint": "Devletin veya bir kurumun işleyişini sağlama"
+        }
+      ]
     },
     {
       "id": "sosyal_u7",
-      "name": "7. Ünite: Küresel Bağlantılar ve Uluslararası İlişkiler",
+      "name": "7. Ünite: Küresel Bağlantılar",
       "months": [
-        6
+        4,
+        5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "AYRIMCILIK",
+          "hint": "İnsanları çeşitli özelliklerine göre farklı değerlendirme."
+        },
+        {
+          "word": "İNSANHAKLARİ",
+          "hint": "Her bireyin doğuştan sahip olduğu temel haklar."
+        },
+        {
+          "word": "SÖMÜRGECİLİK",
+          "hint": "Bir ülkenin başka ülkeleri egemenliği altına alması."
+        },
+        {
+          "word": "BÜYÜKELÇİLİK",
+          "hint": "Bir ülkenin başka bir ülkedeki temsilciliği."
+        },
+        {
+          "word": "ULUSLARARASI",
+          "hint": "Ülkeler arasındaki ilişkileri ifade eder."
+        },
+        {
+          "word": "EKONOMİ",
+          "hint": "Bir ülkenin mal ve hizmet üretimi, dağıtımı ve tüketimi."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun yaşayış biçimi, inançları ve sanatları."
+        },
+        {
+          "word": "DİŞİŞLERİ",
+          "hint": "Bir ülkenin diğer devletlerle olan ilişkilerini yürüten bakanlık."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Mal ve hizmet alıp satma işi."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların bir yerden başka bir yere taşınması."
+        },
+        {
+          "word": "SİLAHLANMA",
+          "hint": "Ülkelerin askeri güçlerini artırması."
+        },
+        {
+          "word": "TERÖRİZM",
+          "hint": "Korku ve şiddet kullanarak siyasi amaçlara ulaşma çabası."
+        },
+        {
+          "word": "SOSYALADALET",
+          "hint": "Toplumdaki herkesin eşit fırsatlara sahip olması."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Yaşadığımız doğal ve yapay alan."
+        },
+        {
+          "word": "İNSANİ YARDİM",
+          "hint": "Zor durumdaki insanlara yapılan yardım."
+        },
+        {
+          "word": "DÜNYA",
+          "hint": "Yaşadığımız gezegen."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Ortak amaçlar için bir araya gelme."
+        },
+        {
+          "word": "DAYANIŞMA",
+          "hint": "Zor zamanlarda birbirine destek olma."
+        },
+        {
+          "word": "GÜVENLİK",
+          "hint": "Tehlikelerden uzak olma durumu."
+        },
+        {
+          "word": "İŞBİRLİĞİ",
+          "hint": "Birlikte çalışma."
+        },
+        {
+          "word": "DİPLOMASİ",
+          "hint": "Ülkeler arasındaki sorunları barışçıl yollarla çözme sanatı."
+        },
+        {
+          "word": "ANTLAŞMA",
+          "hint": "Devletler arasında yapılan sözleşme."
+        },
+        {
+          "word": "FEDERASYON",
+          "hint": "Bağımsız devletlerin birleşerek oluşturduğu yapı."
+        },
+        {
+          "word": "KONFEDERASYON",
+          "hint": "Devletlerin belirli konularda işbirliği yapmak için kurduğu birlik."
+        },
+        {
+          "word": "BAĞIMSIZLIK",
+          "hint": "Bir ülkenin kendi kendini yönetebilmesi."
+        },
+        {
+          "word": "EGEMENLİK",
+          "hint": "Devletin ülkesi ve milleti üzerindeki tam yetkisi."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Devletler veya gruplar arasındaki silahlı çatışma."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Savaşın olmaması durumu, huzur."
+        },
+        {
+          "word": "ENFLASYON",
+          "hint": "Fiyatların genel seviyesinin sürekli artması."
+        },
+        {
+          "word": "ÜRETİM",
+          "hint": "Mal ve hizmetlerin ortaya çıkarılması."
+        },
+        {
+          "word": "TÜKETİM",
+          "hint": "Mal ve hizmetleri kullanma."
+        },
+        {
+          "word": "İSTİHDAM",
+          "hint": "İşçi çalıştırma."
+        },
+        {
+          "word": "İHRACAT",
+          "hint": "Bir ülkenin ürettiği malları yabancı ülkelere satması."
+        },
+        {
+          "word": "İTHALAT",
+          "hint": "Yabancı ülkelerden mal satın alma."
+        },
+        {
+          "word": "BORSA",
+          "hint": "Hisse senedi ve tahvil gibi menkul kıymetlerin alınıp satıldığı yer."
+        },
+        {
+          "word": "KARİYER",
+          "hint": "Bir kişinin yaşamı boyunca edindiği meslek ve iş deneyimleri."
+        },
+        {
+          "word": "MEDYA",
+          "hint": "Haber ve bilgi yayan iletişim araçları."
+        },
+        {
+          "word": "PROPAGANDA",
+          "hint": "Belirli bir görüşü yayma ve insanları ikna etme."
+        },
+        {
+          "word": "BASIN",
+          "hint": "Gazete, dergi gibi yayın organları."
+        },
+        {
+          "word": "İNSANİ",
+          "hint": "İnsanlıkla ilgili, insana yakışır."
+        },
+        {
+          "word": "ÇATIŞMA",
+          "hint": "Anlaşmazlık sonucu oluşan kavga veya savaş."
+        },
+        {
+          "word": "UYGARLIK",
+          "hint": "Toplumların gelişmişlik düzeyi."
+        },
+        {
+          "word": "SÖZLEŞME",
+          "hint": "Tarafların karşılıklı anlaşarak oluşturduğu belge."
+        },
+        {
+          "word": "GÖZETİM",
+          "hint": "Dikkatli izleme."
+        },
+        {
+          "word": "TEHDİT",
+          "hint": "Korkutma, gözdağı verme."
+        },
+        {
+          "word": "YAPTIRIM",
+          "hint": "Bir devletin başka bir devlete uyguladığı kısıtlama."
+        },
+        {
+          "word": "MÜLTECİ",
+          "hint": "Ülkesinden kaçmak zorunda kalan kişi."
+        },
+        {
+          "word": "SIĞINMACI",
+          "hint": "Başka bir ülkeden korunma isteyen kişi."
+        },
+        {
+          "word": "ENTRASYON",
+          "hint": "Fiyatların genel seviyesinin sürekli yükselmesi."
+        },
+        {
+          "word": "DENGESİZLİK",
+          "hint": "İstikrarın olmaması durumu."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Gelecek nesillerin ihtiyaçlarını karşılayabilme yeteneği."
+        },
+        {
+          "word": "YARDIMLAŞMA",
+          "hint": "Birbirine destek olma."
+        },
+        {
+          "word": "PROTESTO",
+          "hint": "Bir duruma karşı çıkma, tepki gösterme."
+        },
+        {
+          "word": "DEĞİŞİM",
+          "hint": "Bir durumdan başka bir duruma geçme."
+        },
+        {
+          "word": "ETKİLEŞİM",
+          "hint": "Karşılıklı olarak birbirini etkileme."
+        },
+        {
+          "word": "FAZİLET",
+          "hint": "Erdemli olma, iyi ahlaklılık."
+        },
+        {
+          "word": "YAZIN",
+          "hint": "Edebiyat, yazı."
+        },
+        {
+          "word": "YÜCELİK",
+          "hint": "Yüksek mertebe, yüce olma."
+        },
+        {
+          "word": "HAKKANİYET",
+          "hint": "Adalet, doğruluk."
+        },
+        {
+          "word": "MÜNAKAŞA",
+          "hint": "Tartışma, fikir ayrılığı."
+        },
+        {
+          "word": "KAZANIM",
+          "hint": "Öğrenme sonucu elde edilen bilgi, beceri."
+        },
+        {
+          "word": "KATİLİM",
+          "hint": "Bir işe veya topluluğa dahil olma."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Yapılması gereken bir işi yerine getirme yükümlülüğü."
+        },
+        {
+          "word": "BİLİNÇ",
+          "hint": "Olanların farkında olma durumu."
+        },
+        {
+          "word": "TARİHSEL",
+          "hint": "Tarih ile ilgili, geçmişe ait."
+        },
+        {
+          "word": "COĞRAFİ",
+          "hint": "Yer küre ve üzerindeki kara ve denizlerle ilgili."
+        },
+        {
+          "word": "EKOLOJİK",
+          "hint": "Çevre ile ilgili."
+        },
+        {
+          "word": "SİYASİ",
+          "hint": "Devlet yönetimi ile ilgili."
+        },
+        {
+          "word": "KÜRESEL",
+          "hint": "Dünya ile ilgili, her yeri kapsayan."
+        },
+        {
+          "word": "TEKNOLOJİK",
+          "hint": "Teknoloji ile ilgili."
+        },
+        {
+          "word": "UYUM",
+          "hint": "Birbirine uymak, benzemek."
+        },
+        {
+          "word": "ÇEŞİTLİLİK",
+          "hint": "Farklılıkların çok olması."
+        },
+        {
+          "word": "BÜTÜNLÜK",
+          "hint": "Eksiksiz olma durumu, tamamı."
+        },
+        {
+          "word": "UZLAŞMA",
+          "hint": "Anlaşmaya varma."
+        },
+        {
+          "word": "BAĞLANTILI",
+          "hint": "Birbiriyle ilişkili."
+        }
+      ]
     }
   ]
 }

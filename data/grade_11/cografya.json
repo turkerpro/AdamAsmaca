@@ -2,7 +2,7 @@
   "units": [
     {
       "id": "cografya_u1",
-      "name": "1. Ünite: Biyomlar",
+      "name": "1. Ünite: Doğal Sistemler (Ekosistem ve Biyomlar, Madde Döngüleri, Enerji Akışı, Türkiye'de Toprak Tipleri ve Bitki Örtüsü)",
       "months": [
         9,
         10,
@@ -30,7 +30,7 @@
           "hint": "Akdeniz ikliminde yetişen sert yapraklı bitki örtüsü"
         },
         {
-          "word": "EKOSİ̇STEM",
+          "word": "EKOSİSTEM",
           "hint": "Canlı ve cansız varlıkların bir arada yaşadığı çevre."
         },
         {
@@ -42,11 +42,11 @@
           "hint": "Yaşamın büyük ölçüde su kaynaklarına bağlı olduğu alanlar."
         },
         {
-          "word": "SEDİ̇R",
+          "word": "SEDİR",
           "hint": "Akdeniz iklimine özgü, yaprak dökmeyen bir ağaç türü."
         },
         {
-          "word": "PALMİ̇YE",
+          "word": "PALMİYE",
           "hint": "Sıcak iklimlerde yetişen, geniş yapraklı bir bitki."
         },
         {
@@ -54,15 +54,15 @@
           "hint": "Kuru tropikal ormanlarda görülen, kısa süreli yağışlı dönemi."
         },
         {
-          "word": "YAĞMURORMANİ",
+          "word": "YAĞMUR ORMANI",
           "hint": "Yıl boyunca bol yağış alan, çok çeşitli canlı türüne ev sahipliği yapan orman."
         },
         {
-          "word": "ÇAYİR",
+          "word": "ÇAYIR",
           "hint": "Ağaçsız, otlarla kaplı geniş düzlükler."
         },
         {
-          "word": "BOZKİR",
+          "word": "BOZKIR",
           "hint": "Karasal iklimin etkisiyle kurak geçen, seyrek bitki örtüsüne sahip alan."
         },
         {
@@ -74,15 +74,15 @@
           "hint": "Mevsimlere göre yön değiştiren rüzgarların etkisiyle oluşan iklim."
         },
         {
-          "word": "YERBİ̇Lİ̇M",
+          "word": "YERBİLİM",
           "hint": "Yeryüzünü ve üzerindeki canlıları inceleyen bilim dalı."
         },
         {
-          "word": "İ̇KLİ̇M",
+          "word": "İKLİM",
           "hint": "Belirli bir bölgedeki uzun süreli hava durumu ortalaması."
         },
         {
-          "word": "Bİ̇TKİ̇ÖRÜTÜSÜ",
+          "word": "BİTKİÖRÜTÜSÜ",
           "hint": "Bir bölgedeki bitki türlerinin bütünü."
         },
         {
@@ -94,11 +94,11 @@
           "hint": "Belirli bir bölgede yaşayan bitki topluluğu."
         },
         {
-          "word": "AYİRİCİ",
+          "word": "AYIRICI",
           "hint": "Farklı biyomları birbirinden ayıran özellik."
         },
         {
-          "word": "SİCAKLİK",
+          "word": "SICAKLIK",
           "hint": "Bir yerin ne kadar soğuk veya sıcak olduğunu belirten etken."
         },
         {
@@ -106,7 +106,7 @@
           "hint": "Havada bulunan su buharı miktarı."
         },
         {
-          "word": "YAĞİŞ",
+          "word": "YAĞIŞ",
           "hint": "Yağmur, kar, dolu gibi gökyüzünden yeryüzüne inen su."
         },
         {
@@ -114,11 +114,11 @@
           "hint": "Güneş ışığına maruz kalma süresi."
         },
         {
-          "word": "YÜKSELTİ̇",
+          "word": "YÜKSELTİ",
           "hint": "Deniz seviyesinden olan dik mesafe."
         },
         {
-          "word": "EKVATORKUŞAĞİ",
+          "word": "EKVATORKUŞAĞI",
           "hint": "Dünyanın ekvator çizgisine yakın, sıcak ve nemli bölgeleri."
         },
         {
@@ -134,7 +134,7 @@
           "hint": "Hayvanların otladığı, çayır ve otlarla kaplı alan."
         },
         {
-          "word": "GÖLİ̇Çİ̇",
+          "word": "GÖLİÇİ",
           "hint": "Göl ekosisteminin içindeki yaşam."
         },
         {
@@ -142,7 +142,7 @@
           "hint": "Deniz veya okyanus kenarındaki kara parçası."
         },
         {
-          "word": "DAĞLİK",
+          "word": "DAĞLIK",
           "hint": "Yüksek tepelerin ve dağların bulunduğu coğrafi alan."
         },
         {
@@ -154,7 +154,7 @@
           "hint": "Yer altı sularının bulunduğu katman."
         },
         {
-          "word": "YERALTİSUYU",
+          "word": "YERALTI SUYU",
           "hint": "Toprak altında biriken su."
         },
         {
@@ -162,7 +162,7 @@
           "hint": "Dere, çay, nehir gibi sürekli akan su."
         },
         {
-          "word": "Bİ̇YORİ̇Tİ̇M",
+          "word": "BİYORİTİM",
           "hint": "Canlıların belirli zaman aralıklarında tekrarlanan doğal faaliyetleri."
         },
         {
@@ -170,15 +170,15 @@
           "hint": "Canlıların çevrelerine uyum sağlama yeteneği."
         },
         {
-          "word": "ENDEMİ̇K",
+          "word": "ENDEMİK",
           "hint": "Sadece belirli bir bölgede yaşayan canlı türü."
         },
         {
-          "word": "Mİ̇GRASYON",
+          "word": "MİGRASYON",
           "hint": "Canlıların mevsimsel veya başka nedenlerle yer değiştirmesi."
         },
         {
-          "word": "BESİ̇NGÜCÜ",
+          "word": "BESİNGÜCÜ",
           "hint": "Bir ekosistemdeki canlıların birbirini beslemesi."
         },
         {
@@ -194,11 +194,11 @@
           "hint": "Bir bölgedeki canlıların yoğunluğu."
         },
         {
-          "word": "BASİNÇ",
+          "word": "BASINÇ",
           "hint": "Hava kütlelerinin uyguladığı kuvvet."
         },
         {
-          "word": "MEVSİ̇M",
+          "word": "MEVSİM",
           "hint": "Yılın belirli dönemleri, hava durumunun değiştiği zamanlar."
         },
         {
@@ -213,7 +213,7 @@
     },
     {
       "id": "cografya_u2",
-      "name": "2. Ünite: Toprak Yapısı",
+      "name": "2. Ünite: Beşerî Sistemler (Nüfus Politikaları, Şehirleşme ve Göç, Ekonomik Faaliyetler, Bölgesel Kalkınma Projeleri)",
       "months": [
         12,
         1,
@@ -241,15 +241,15 @@
           "hint": "Toprağın tuzlanarak tarıma elverişsiz hâle gelmesi"
         },
         {
-          "word": "PEDOLOJİ̇",
+          "word": "PEDOLOJİ",
           "hint": "Toprak bilimi, toprağın oluşumu, yapısı, dağılımı ve sınıflandırılması ile ilgilenen bilim dalı."
         },
         {
-          "word": "HORİ̇ZONT",
+          "word": "HORİZONT",
           "hint": "Toprak profilindeki katmanlara verilen genel isim. A, B, C gibi harflerle gösterilir."
         },
         {
-          "word": "Dİ̇RENAJ",
+          "word": "DİRENAJ",
           "hint": "Suyun toprak içinden veya yüzeyinden akıp uzaklaştırılması işlemi."
         },
         {
@@ -257,7 +257,7 @@
           "hint": "Toprağı oluşturan kum, silt ve kil gibi minerallerin büyüklük oranları."
         },
         {
-          "word": "YAPİ",
+          "word": "YAPI",
           "hint": "Toprak parçacıklarının bir araya gelerek oluşturduğu kümeleşme şekli."
         },
         {
@@ -265,7 +265,7 @@
           "hint": "Su veya rüzgar gibi etkenlerle toprağın sürüklenmesi veya yer değiştirmesi."
         },
         {
-          "word": "SEDİ̇MAN",
+          "word": "SEDİMAN",
           "hint": "Taşınım sonucu biriken toprak parçacıkları veya diğer maddeler."
         },
         {
@@ -277,11 +277,11 @@
           "hint": "Toprağın oluşmaya başladığı kayaçlar veya organik birikintiler."
         },
         {
-          "word": "İ̇KLİ̇M",
+          "word": "İKLİM",
           "hint": "Sıcaklık, yağış gibi atmosfer olaylarının toprak oluşumu üzerindeki etkisi."
         },
         {
-          "word": "Bİ̇TKİ̇ ÖRTÜSÜ",
+          "word": "BİTKİ ÖRTÜSÜ",
           "hint": "Toprak yüzeyini kaplayan ağaçlar, otlar ve diğer bitkiler."
         },
         {
@@ -293,7 +293,7 @@
           "hint": "Yeryüzü şekillerinin (dağ, ova, plato vb.) toprak dağılımına etkisi."
         },
         {
-          "word": "PARÇACİK",
+          "word": "PARÇACIK",
           "hint": "Toprağı oluşturan en küçük kum, silt veya kil birimleri."
         },
         {
@@ -301,7 +301,7 @@
           "hint": "Toprak parçacıklarının birbirine yapışarak oluşturduğu kümeler."
         },
         {
-          "word": "GÖZENEKLİ̇Lİ̇K",
+          "word": "GÖZENEKLİLİK",
           "hint": "Toprak içindeki boşlukların hacmi ve birbirine bağlılığı."
         },
         {
@@ -313,23 +313,23 @@
           "hint": "Suyun toprağın derinliklerine doğru sızma yeteneği."
         },
         {
-          "word": "YÜZEY AKİŞİ",
+          "word": "YÜZEY AKIŞI",
           "hint": "Yağmur suyunun toprağın üzerinden akıp gitmesi."
         },
         {
-          "word": "İ̇ZOLASYON",
+          "word": "İZOLASYON",
           "hint": "Toprağın ısı transferini engelleme özelliği."
         },
         {
-          "word": "YER ÇEKİ̇Mİ̇",
+          "word": "YER ÇEKİMİ",
           "hint": "Kütlesi olan her şeyin birbirini çekme kuvveti, suyun akışını etkiler."
         },
         {
-          "word": "ASİ̇TLİ̇Lİ̇K",
+          "word": "ASİTLİLİK",
           "hint": "Toprağın pH değerinin düşük olması, suyun içeriğindeki hidrojen iyonu miktarı."
         },
         {
-          "word": "ALKALİ̇Lİ̇K",
+          "word": "ALKALİLİK",
           "hint": "Toprağın pH değerinin yüksek olması, suyun içeriğindeki baz miktarı."
         },
         {
@@ -337,11 +337,11 @@
           "hint": "Bir çözeltinin asitlik veya bazlık derecesini ölçen birim."
         },
         {
-          "word": "BESİ̇N MADDESİ̇",
+          "word": "BESİN MADDESİ",
           "hint": "Bitkilerin büyümesi ve gelişmesi için topraktan aldığı gerekli elementler."
         },
         {
-          "word": "ORGANİ̇K MADDE",
+          "word": "ORGANİK MADDE",
           "hint": "Ölmüş bitki ve hayvan kalıntılarının ayrışmasıyla oluşan madde."
         },
         {
@@ -365,43 +365,43 @@
           "hint": "Akarsuların akış hızının azaldığı ve alüvyal biriktirme yaptığı alan."
         },
         {
-          "word": "DEBRİ̇S",
+          "word": "DEBRİS",
           "hint": "Erozyonla taşınan toprak ve kayaç parçacıkları yığını."
         },
         {
-          "word": "Kİ̇MYASAL AYRİŞMA",
+          "word": "KİMYASAL AYRIŞMA",
           "hint": "Kayaçların kimyasal reaksiyonlar sonucu parçalanması süreci."
         },
         {
-          "word": "Fİ̇Zİ̇KSEL AYRİŞMA",
+          "word": "FİZİKSEL AYRIŞMA",
           "hint": "Kayaçların sıcaklık farkları, donma-çözülme gibi fiziksel etkenlerle parçalanması."
         },
         {
-          "word": "Bİ̇YOLOJİ̇K AYRİŞMA",
+          "word": "BİYOLOJİK AYRIŞMA",
           "hint": "Canlıların kayaçları parçalaması (kökler, mikroorganizmalar)."
         },
         {
-          "word": "Mİ̇NERAL",
+          "word": "MİNERAL",
           "hint": "Toprakta bulunan inorganik, doğal katı maddeler."
         },
         {
-          "word": "KAOLİ̇N",
+          "word": "KAOLİN",
           "hint": "Bir tür kil minerali, genellikle açık renkli."
         },
         {
-          "word": "MONTMORİLLONİ̇T",
+          "word": "MONTMORİLLONİT",
           "hint": "Su aldıkça şişen, kabarabilen bir kil minerali."
         },
         {
-          "word": "JEOMORFOLOJİ̇",
+          "word": "JEOMORFOLOJİ",
           "hint": "Yer şekillerinin oluşumunu ve gelişimini inceleyen coğrafya dalı."
         },
         {
-          "word": "Sİ̇DERİ̇T",
+          "word": "SİDERİT",
           "hint": "Demir içeren bir toprak minerali, kahverengi renge neden olabilir."
         },
         {
-          "word": "KALSİ̇YUM",
+          "word": "KALSİYUM",
           "hint": "Toprak verimliliği için önemli bir besin elementi."
         },
         {
@@ -413,7 +413,7 @@
           "hint": "Bitki gelişimi için önemli bir besin elementi."
         },
         {
-          "word": "Nİ̇TROJEN",
+          "word": "NİTROJEN",
           "hint": "Bitkilerin en çok ihtiyaç duyduğu temel besin elementlerinden biri."
         },
         {
@@ -425,28 +425,437 @@
           "hint": "Bitkiler için önemli bir besin elementi, toprakta da bulunur."
         },
         {
-          "word": "İ̇Z ELEMENT",
+          "word": "İZ ELEMENT",
           "hint": "Bitkiler için az miktarda gerekli olan besin elementleri (demir, çinko vb.)."
         }
       ]
     },
     {
       "id": "cografya_u3",
-      "name": "3. Ünite: Küresel Ortam: Bölgeler ve Ülkeler",
+      "name": "3. Ünite: Küresel Ortam: Bölgeler ve Ülkeler (Bölgelerin Oluşumu, Ülkeler Arası Etkileşim, Türkiye'nin Jeopolitik Konumu)",
       "months": [
         3,
         4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "SORUNSAL",
+          "hint": "Tartışmaya açık, problemi olan."
+        },
+        {
+          "word": "YERLEŞİM",
+          "hint": "İnsanların sürekli olarak yaşadığı alan."
+        },
+        {
+          "word": "SULAK",
+          "hint": "Bol su bulunan, nemli arazi."
+        },
+        {
+          "word": "EKOSİSTEM",
+          "hint": "Canlı ve cansız varlıkların bir arada bulunduğu çevre."
+        },
+        {
+          "word": "KURAKLIK",
+          "hint": "Yağışın azlığı nedeniyle oluşan uzun süreli kuruma."
+        },
+        {
+          "word": "EROZYON",
+          "hint": "Toprağın rüzgar veya suyla taşınması."
+        },
+        {
+          "word": "BATIŞIK",
+          "hint": "Bir arazinin deniz seviyesinin altına inmesi."
+        },
+        {
+          "word": "DOĞALGAZ",
+          "hint": "Yer altında oluşan, enerji kaynağı olan gaz."
+        },
+        {
+          "word": "PETROL",
+          "hint": "Yer altından çıkarılan, akaryakıt kaynağı."
+        },
+        {
+          "word": "MADEN",
+          "hint": "Yerkabuğundan çıkarılan değerli veya işe yarar kaya."
+        },
+        {
+          "word": "ENDÜSTRİ",
+          "hint": "Üretim ve sanayi kolları."
+        },
+        {
+          "word": "TARİMSAL",
+          "hint": "Toprak yetiştiriciliği ile ilgili."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "Yer değiştiren topluluk."
+        },
+        {
+          "word": "KÜRESELLEŞME",
+          "hint": "Dünyanın ekonomik ve kültürel olarak bütünleşmesi."
+        },
+        {
+          "word": "ULUSLARARASI",
+          "hint": "Birden fazla ülkeyi ilgilendiren."
+        },
+        {
+          "word": "BÖLGESEL",
+          "hint": "Bir bölgeye ait."
+        },
+        {
+          "word": "JEOTERMAL",
+          "hint": "Yerin ısısını kullanan enerji."
+        },
+        {
+          "word": "HİDROELEKTRİK",
+          "hint": "Suyun gücüyle üretilen elektrik."
+        },
+        {
+          "word": "NÜFUS",
+          "hint": "Belirli bir alanda yaşayan insan sayısı."
+        },
+        {
+          "word": "MEDENİYET",
+          "hint": "Toplumların gelişmişlik düzeyi."
+        },
+        {
+          "word": "YEREL",
+          "hint": "Bulunduğu yere ait."
+        },
+        {
+          "word": "KANALİZASYON",
+          "hint": "Atık su toplama ve taşıma sistemi."
+        },
+        {
+          "word": "İKLİM",
+          "hint": "Belirli bir bölgenin uzun süreli hava durumu."
+        },
+        {
+          "word": "YERYÜZÜ",
+          "hint": "Dünyanın dış yüzeyi."
+        },
+        {
+          "word": "VERİMLİLİK",
+          "hint": "Elde edilen ürün miktarının fazlalığı."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme kapasitesi."
+        },
+        {
+          "word": "İNOVASYON",
+          "hint": "Yeni bir buluş veya yöntem."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Gelecek nesillerin ihtiyacını karşılayacak şekilde devamlılık."
+        },
+        {
+          "word": "TEKNOLOJİ",
+          "hint": "Bilimsel bilgilerin pratik amaçlarla kullanılması."
+        },
+        {
+          "word": "İNSANİ",
+          "hint": "İnsanlıkla ilgili."
+        },
+        {
+          "word": "SOSYAL",
+          "hint": "Toplumsal, beşeri."
+        },
+        {
+          "word": "EKONOMİK",
+          "hint": "Ekonomi ile ilgili."
+        },
+        {
+          "word": "POLİTİKA",
+          "hint": "Devlet yönetimi ile ilgili."
+        },
+        {
+          "word": "KÜLTÜREL",
+          "hint": "Kültür ile ilgili."
+        },
+        {
+          "word": "TARİHSEL",
+          "hint": "Tarih ile ilgili."
+        },
+        {
+          "word": "COĞRAFİ",
+          "hint": "Yeryüzü şekilleri ve dağılımı ile ilgili."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Yaşadığımız alan, doğal ortam."
+        },
+        {
+          "word": "SORUN",
+          "hint": "Karşılaşılan güçlük, problem."
+        },
+        {
+          "word": "GELİŞİM",
+          "hint": "İlerleme, büyüme."
+        },
+        {
+          "word": "FAKTÖR",
+          "hint": "Etken, sebep."
+        },
+        {
+          "word": "YAPI",
+          "hint": "Bir şeyin oluştuğu durum, düzen."
+        },
+        {
+          "word": "DENGESİZLİK",
+          "hint": "Eşit olmayan durum."
+        },
+        {
+          "word": "YÖNETİM",
+          "hint": "İdare etme, kumanda."
+        },
+        {
+          "word": "ALTYAPI",
+          "hint": "Temel yapılar ve hizmetler."
+        },
+        {
+          "word": "KENTLEŞME",
+          "hint": "Şehirleşme süreci."
+        },
+        {
+          "word": "SANAYİLEŞME",
+          "hint": "Endüstriyel gelişme."
+        },
+        {
+          "word": "UZMANLIK",
+          "hint": "Belirli bir alanda bilgi ve beceri."
+        },
+        {
+          "word": "VERİ",
+          "hint": "Bilgi, rakam."
+        },
+        {
+          "word": "ETKİ",
+          "hint": "Bir şeye karşı gösterilen tepki, tesir."
+        },
+        {
+          "word": "POTANSİYEL",
+          "hint": "Gizli güç, imkan."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Bir şeyin elde edildiği yer veya şey."
+        }
+      ]
     },
     {
       "id": "cografya_u4",
-      "name": "4. Ünite: Çevre ve Toplum, Doğal Afetler",
+      "name": "4. Ünite: Çevre ve Toplum (Doğal Afetler, Çevre Sorunları, Sürdürülebilir Kalkınma)",
       "months": [
-        5,
-        6
+        5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "HEYELAN",
+          "hint": "Toprak veya kaya kütlesinin yamaçtan aşağı kaymasıdır."
+        },
+        {
+          "word": "EROZYON",
+          "hint": "Toprağın rüzgar veya su ile aşınmasıdır."
+        },
+        {
+          "word": "DEPREM",
+          "hint": "Yerin sarsılması, titremesi olayıdır."
+        },
+        {
+          "word": "TSUNAMİ",
+          "hint": "Büyük deniz dalgalarıyla karaya vuran doğal afettir."
+        },
+        {
+          "word": "ÇIĞ",
+          "hint": "Kar kütlesinin yamaçtan hızla inmesidir."
+        },
+        {
+          "word": "VOLKANİZMA",
+          "hint": "Yer altından lav, kül ve gazların yeryüzüne çıkmasıdır."
+        },
+        {
+          "word": "SEL",
+          "hint": "Su seviyesinin yükselerek taşmasıdır."
+        },
+        {
+          "word": "KURAKLIK",
+          "hint": "Uzun süreli yağışsızlık nedeniyle su kıtlığıdır."
+        },
+        {
+          "word": "FOSSEPTİK",
+          "hint": "Kanalizasyonun olmadığı yerlerde atıkların toplandığı yer."
+        },
+        {
+          "word": "SANAYİ",
+          "hint": "Ham maddelerin işlenerek mamul maddeye dönüştürüldüğü üretim alanıdır."
+        },
+        {
+          "word": "TARIM",
+          "hint": "Bitki yetiştirme ve hayvan üretme faaliyetidir."
+        },
+        {
+          "word": "KENTLEŞME",
+          "hint": "Kırsal nüfusun şehirlere göç ederek yerleşmesidir."
+        },
+        {
+          "word": "NÜFUS",
+          "hint": "Belirli bir bölgede yaşayan insan sayısıdır."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Kullanılmış malzemelerin tekrar işlenerek yeni ürünlere dönüştürülmesidir."
+        },
+        {
+          "word": "KİRLİLİK",
+          "hint": "Çevrenin zararlı maddelerle bozulmasıdır."
+        },
+        {
+          "word": "ORMANSIZLAŞMA",
+          "hint": "Orman alanlarının yok edilmesidir."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK",
+          "hint": "Canlı türlerinin çeşitliliğidir."
+        },
+        {
+          "word": "SERAGAZI",
+          "hint": "İklim değişikliğine neden olan gazlardan biridir."
+        },
+        {
+          "word": "KÜRESEL İSINMA",
+          "hint": "Dünya ortalama sıcaklığının artmasıdır."
+        },
+        {
+          "word": "OZON",
+          "hint": "Güneşin zararlı ışınlarını engelleyen atmosfer tabakasıdır."
+        },
+        {
+          "word": "ASİT YAĞMURU",
+          "hint": "Havadaki kirleticilerin suya karışarak oluştuğu yağmur türüdür."
+        },
+        {
+          "word": "ANTROPOJEN",
+          "hint": "İnsan kaynaklı olan demektir."
+        },
+        {
+          "word": "EKOSİSTEM",
+          "hint": "Canlılar ve cansız çevre arasındaki etkileşimdir."
+        },
+        {
+          "word": "HABİTAT",
+          "hint": "Bir canlının doğal yaşam alanıdır."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK KAYBI",
+          "hint": "Canlı türlerinin yok olmasıdır."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Gelecek nesillerin ihtiyaçlarını karşılarken bugünün ihtiyaçlarını karşılama ilkesidir."
+        },
+        {
+          "word": "ÇEVRE KİRLİLİĞİ",
+          "hint": "Hava, su veya toprağın kirletilmesidir."
+        },
+        {
+          "word": "DOĞAL KAYNAK",
+          "hint": "Doğada kendiliğinden bulunan ve kullanılabilen unsurlardır."
+        },
+        {
+          "word": "AŞIRI TÜKETİM",
+          "hint": "Gereğinden fazla mal ve hizmet kullanılmasıdır."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme yeteneğidir."
+        },
+        {
+          "word": "YENİLENEBİLİR",
+          "hint": "Tüketildiğinde yerine yenisi konulabilen demektir."
+        },
+        {
+          "word": "NÜKLEER ENERJİ",
+          "hint": "Atom çekirdeğinin bölünmesiyle elde edilen enerjidir."
+        },
+        {
+          "word": "FOSİL YAKIT",
+          "hint": "Milyonlarca yılda oluşmuş kömür, petrol gibi yakıtlardır."
+        },
+        {
+          "word": "BARAJ",
+          "hint": "Akarsuların akışını kontrol etmek ve enerji üretmek için yapılan yapıdır."
+        },
+        {
+          "word": "JEOTERMAL",
+          "hint": "Yer altı ısısını kullanarak elde edilen enerjidir."
+        },
+        {
+          "word": "RÜZGAR TÜRBİNİ",
+          "hint": "Rüzgar enerjisini elektrik enerjisine çeviren alettir."
+        },
+        {
+          "word": "GÜNEŞ PANELİ",
+          "hint": "Güneş ışığını elektrik enerjisine çeviren yapıdır."
+        },
+        {
+          "word": "TOPRAK KAYMASI",
+          "hint": "Heyelanın eş anlamlısıdır."
+        },
+        {
+          "word": "FAY HATTI",
+          "hint": "Depremlerin oluştuğu yeryüzü kırık bölgeleridir."
+        },
+        {
+          "word": "SİSMİK DALGA",
+          "hint": "Deprem sırasında yayılan dalgalardır."
+        },
+        {
+          "word": "RİSK",
+          "hint": "Tehlikeli bir durumla karşılaşma ihtimalidir."
+        },
+        {
+          "word": "AFET YÖNETİMİ",
+          "hint": "Doğal afetlere karşı alınan önlemler ve müdahale planlamasıdır."
+        },
+        {
+          "word": "TAHLİYE",
+          "hint": "Tehlikeli bir bölgeden insanları güvenli bir yere çıkarma işlemidir."
+        },
+        {
+          "word": "ERKEN UYARI",
+          "hint": "Olası bir afeti önceden haber verme sistemidir."
+        },
+        {
+          "word": "AFETZEDE",
+          "hint": "Afetten zarar görmüş kişidir."
+        },
+        {
+          "word": "DAYANIKLILIK",
+          "hint": "Zorluklara karşı direnç gösterebilme yeteneğidir."
+        },
+        {
+          "word": "İMAR",
+          "hint": "Yapılaşma ile ilgili planlama ve düzenlemelerdir."
+        },
+        {
+          "word": "ALTYAPI",
+          "hint": "Yollar, köprüler, enerji hatları gibi temel tesislerdir."
+        },
+        {
+          "word": "ÇEVRE BİLİNCİ",
+          "hint": "Çevreye karşı duyarlı olma durumudur."
+        },
+        {
+          "word": "KALKINMA",
+          "hint": "Toplumun ekonomik ve sosyal yönden ilerlemesidir."
+        },
+        {
+          "word": "MADEN",
+          "hint": "Yeraltından çıkarılan değerli minerallerdir."
+        }
+      ]
     }
   ]
 }

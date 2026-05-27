@@ -2,445 +2,1039 @@
   "units": [
     {
       "id": "ingilizce_u1",
-      "name": "1. Ünite: Animals",
+      "name": "Unit 1: Greetings",
       "months": [
         9
       ],
       "words": [
         {
-          "word": "RABBIT",
-          "hint": "Uzun kulaklı ve havuç seven hayvan"
+          "word": "HELLO",
+          "hint": "Merhaba (Karşılaşınca söylenen bir selam)"
         },
         {
-          "word": "ELEPHANT",
-          "hint": "Çok büyük ve hortumlu hayvan"
+          "word": "HI",
+          "hint": "Selam (Daha rahat bir merhaba)"
         },
         {
-          "word": "MONKEY",
-          "hint": "Ağaçlara tırmanan ve muz seven hayvan"
+          "word": "GOOD MORNING",
+          "hint": "Günaydın (Sabahları söylenen selam)"
         },
         {
-          "word": "TURTLE",
-          "hint": "Sırtında kabuğu olan yavaş hayvan"
+          "word": "GOOD AFTERNOON",
+          "hint": "Tünaydın (Öğleden sonra söylenen selam)"
         },
         {
-          "word": "DOLPHIN",
-          "hint": "Denizde yaşayan zeki ve sevimli memeli"
+          "word": "GOOD EVENING",
+          "hint": "İyi akşamlar (Akşamları söylenen selam)"
         },
         {
-          "word": "ASLAN",
-          "hint": "Ormanın kralı olarak bilinen, güçlü ve görkemli bir kedi türü."
+          "word": "GOOD NIGHT",
+          "hint": "İyi geceler (Yatmadan önce veya akşam ayrılırken söylenir)"
         },
         {
-          "word": "KAPLAN",
-          "hint": "Üzerinde siyah çizgiler olan, büyük ve güçlü bir kedigil."
+          "word": "GOODBYE",
+          "hint": "Güle güle (Ayrılırken söylenen veda)"
         },
         {
-          "word": "ZÜRAFA",
-          "hint": "Çok uzun boynuyla tanınan, yaprak yiyen bir otobur."
+          "word": "BYE",
+          "hint": "Hoşça kal (Kısa veda)"
         },
         {
-          "word": "ZEBRA",
-          "hint": "Üzerinde siyah beyaz çizgiler olan, atgillerden bir hayvan."
+          "word": "SEE YOU",
+          "hint": "Görüşürüz (Tekrar görüşmek üzere)"
         },
         {
-          "word": "AYI",
-          "hint": "Kış uykusuna yatan, etçil veya otçul olabilen iri bir memeli."
+          "word": "HOW ARE YOU?",
+          "hint": "Nasılsın? (Birinin halini sormak)"
         },
         {
-          "word": "KURT",
-          "hint": "Sürü halinde yaşayan, tilkiye benzeyen vahşi bir köpek türü."
+          "word": "I'M FINE, THANK YOU.",
+          "hint": "İyiyim, teşekkür ederim. (Haline iyi olduğunu belirtmek)"
         },
         {
-          "word": "TİLKİ",
-          "hint": "Kurnazlığıyla bilinen, sivri burunlu ve kabarık kuyruklu vahşi bir hayvan."
+          "word": "WHAT'S YOUR NAME?",
+          "hint": "Adın ne? (Birinin ismini sormak)"
         },
         {
-          "word": "SİNCAP",
-          "hint": "Ağaçlarda yaşayan, fındık ve ceviz toplayan küçük kemirgen."
+          "word": "MY NAME IS...",
+          "hint": "Benim adım... (Kendi adını söylemek)"
         },
         {
-          "word": "KELEBEK",
-          "hint": "Rengarenk kanatlarıyla bilinen, çiçeklerden beslenen uçan böcek."
+          "word": "NICE TO MEET YOU.",
+          "hint": "Tanıştığıma memnun oldum. (Biriyle tanışmaktan sevinç duymak)"
         },
         {
-          "word": "ARI",
-          "hint": "Bal yapan, vızıldayan ve sokabilen bir böcek."
+          "word": "YOU'RE WELCOME.",
+          "hint": "Rica ederim. (Teşekkür edene karşılık)"
         },
         {
-          "word": "KARINCA",
-          "hint": "Toplu halde çalışan, küçük ve güçlü bir böcek türü."
+          "word": "PLEASE",
+          "hint": "Lütfen (Nazikçe bir şey istemek)"
         },
         {
-          "word": "ÖRÜMCEK",
-          "hint": "Ağ ören ve böcek yakalayan sekiz ayaklı canlı."
+          "word": "THANK YOU",
+          "hint": "Teşekkür ederim (Minnettarlık belirtmek)"
         },
         {
-          "word": "YILAN",
-          "hint": "Ayakları olmayan, sürünerek hareket eden sürüngen."
+          "word": "SORRY",
+          "hint": "Üzgünüm (Hata yaptığında veya üzüldüğünde)"
         },
         {
-          "word": "TİMSAH",
-          "hint": "Su kenarlarında yaşayan, iri ağızlı ve sert derili sürüngen."
+          "word": "EXCUSE ME",
+          "hint": "Affedersiniz (Dikkat çekmek veya nazikçe araya girmek)"
         },
         {
-          "word": "KURBAĞA",
-          "hint": "Suda ve karada yaşayabilen, zıplayan yeşil hayvan."
+          "word": "YES",
+          "hint": "Evet (Onaylamak)"
         },
         {
-          "word": "BALIK",
-          "hint": "Suda yaşayan, solungaçlarıyla nefes alan omurgalı canlı."
+          "word": "NO",
+          "hint": "Hayır (Reddetmek)"
         },
         {
-          "word": "PENGUEN",
-          "hint": "Uçamayan ama iyi yüzen, kutuplarda yaşayan kuş."
+          "word": "FRIEND",
+          "hint": "Arkadaş (Yakın olduğun kişi)"
         },
         {
-          "word": "PAPAĞAN",
-          "hint": "Konuşabilen, rengarenk tüyleri olan bir kuş türü."
+          "word": "TEACHER",
+          "hint": "Öğretmen (Ders veren kişi)"
         },
         {
-          "word": "KARTAL",
-          "hint": "Keskin gözleri olan, havada süzülen yırtıcı kuş."
+          "word": "STUDENT",
+          "hint": "Öğrenci (Ders alan kişi)"
         },
         {
-          "word": "BAYKUŞ",
-          "hint": "Geceleri avlanan, büyük gözlü ve sessiz uçan bir kuş."
+          "word": "BOY",
+          "hint": "Erkek çocuk"
         },
         {
-          "word": "KOYUN",
-          "hint": "Yün veren, otlayan uysal evcil hayvan."
+          "word": "GIRL",
+          "hint": "Kız çocuk"
         },
         {
-          "word": "KEÇİ",
-          "hint": "Dağlarda yaşayabilen, boynuzlu ve ot yiyen evcil hayvan."
+          "word": "MAN",
+          "hint": "Adam (Yetişkin erkek)"
         },
         {
-          "word": "İ̇NEK",
-          "hint": "Süt veren, çiftliklerde beslenen otçul hayvan."
+          "word": "WOMAN",
+          "hint": "Kadın (Yetişkin kadın)"
         },
         {
-          "word": "AT",
-          "hint": "Hızlı koşmasıyla bilinen, binicilikte kullanılan evcil hayvan."
+          "word": "CHILD",
+          "hint": "Çocuk (Genç insan)"
         },
         {
-          "word": "EŞEK",
-          "hint": "Yük taşımada kullanılan, atgillerden sabırlı evcil hayvan."
+          "word": "FAMILY",
+          "hint": "Aile (Anne, baba, kardeşler)"
         },
         {
-          "word": "DOMUZ",
-          "hint": "Çiftliklerde beslenen, koku alma duyusu gelişmiş memeli."
+          "word": "MOTHER",
+          "hint": "Anne"
         },
         {
-          "word": "TAVŞAN",
-          "hint": "Uzun kulakları ve hızlı koşmasıyla bilinen, sebze seven hayvan."
+          "word": "FATHER",
+          "hint": "Baba"
         },
         {
-          "word": "KEDİ",
-          "hint": "Miyavlayan, evlerde beslenen küçük etçil hayvan."
+          "word": "BROTHER",
+          "hint": "Erkek kardeş"
         },
         {
-          "word": "KÖPEK",
-          "hint": "Havlayan, sadakatiyle bilinen ve insanlarla yaşayan evcil hayvan."
+          "word": "SISTER",
+          "hint": "Kız kardeş"
         },
         {
-          "word": "FARE",
-          "hint": "Peynir seven, küçük ve hızlı kemirgen."
+          "word": "BOOK",
+          "hint": "Kitap (Okumak için nesne)"
         },
         {
-          "word": "SİVRİSİNEK",
-          "hint": "Kan emen, vızıldayan küçük uçan böcek."
+          "word": "PENCIL",
+          "hint": "Kurşun kalem (Yazı veya çizim aracı)"
         },
         {
-          "word": "HAMAM BÖCEĞİ",
-          "hint": "Genellikle karanlık ve pis yerlerde yaşayan böcek."
+          "word": "SCHOOL",
+          "hint": "Okul (Eğitim alınan yer)"
         },
         {
-          "word": "KERTENKELE",
-          "hint": "Sürüngen, genellikle küçük ve hızlı hareket eden hayvan."
+          "word": "CLASS",
+          "hint": "Sınıf (Ders odası veya öğrenci grubu)"
         },
         {
-          "word": "KAPLUMBAĞA",
-          "hint": "Sırtında sert kabuğu olan, yavaş hareket eden sürüngen."
+          "word": "STAND UP",
+          "hint": "Ayağa kalk (Ayakta durmak)"
         },
         {
-          "word": "BALİNA",
-          "hint": "Denizde yaşayan en büyük memeli hayvan."
+          "word": "SIT DOWN",
+          "hint": "Otur (Sandalyeye veya yere oturmak)"
         },
         {
-          "word": "KÖPEK BALIĞI",
-          "hint": "Denizlerin yırtıcı balığı, çok keskin dişleri vardır."
+          "word": "LISTEN",
+          "hint": "Dinle (Kulaklarını kullanarak sesleri algılamak)"
         },
         {
-          "word": "AHTAPOT",
-          "hint": "Sekiz kolu olan, denizde yaşayan omurgasız."
+          "word": "OPEN",
+          "hint": "Açmak (Kapalı bir şeyi açmak)"
         },
         {
-          "word": "DENİZ ATI",
-          "hint": "Küçük, at başına benzeyen, suda yaşayan balık."
+          "word": "CLOSE",
+          "hint": "Kapatmak (Açık bir şeyi kapamak)"
         },
         {
-          "word": "YUNUS",
-          "hint": "Zeki ve oyunbaz deniz memelisi, insanlara dosttur."
+          "word": "LOOK",
+          "hint": "Bakmak (Gözlerini kullanarak görmek)"
         },
         {
-          "word": "SALYANGOZ",
-          "hint": "Yavaş hareket eden, evini sırtında taşıyan yumuşakç."
+          "word": "READ",
+          "hint": "Okumak (Yazıyı anlamak)"
         },
         {
-          "word": "KUĞU",
-          "hint": "Zarif boynu olan, suda yaşayan güzel kuş."
+          "word": "WRITE",
+          "hint": "Yazmak (Harflerle metin oluşturmak)"
         },
         {
-          "word": "DEVE",
-          "hint": "Çöllerde yaşayan, hörgücü olan dayanıklı hayvan."
+          "word": "WHAT",
+          "hint": "Ne (Soru kelimesi)"
         },
         {
-          "word": "GERGEDAN",
-          "hint": "Kalın derili, burnunda boynuzu olan büyük Afrika memelisi."
+          "word": "WHO",
+          "hint": "Kim (Kişi sormak için)"
         },
         {
-          "word": "HİPOPOTAM",
-          "hint": "Suda yaşamayı seven, iri ağızlı ve ağır Afrika memelisi."
+          "word": "WHERE",
+          "hint": "Nerede (Yer sormak için)"
         },
         {
-          "word": "KUTUP AYISI",
-          "hint": "Kuzey kutbunda yaşayan, beyaz kürklü büyük etçil hayvan."
+          "word": "HOW",
+          "hint": "Nasıl (Durum veya yöntem sormak için)"
+        },
+        {
+          "word": "ONE",
+          "hint": "Bir (Sayı)"
+        },
+        {
+          "word": "TWO",
+          "hint": "İki (Sayı)"
+        },
+        {
+          "word": "THREE",
+          "hint": "Üç (Sayı)"
+        },
+        {
+          "word": "FOUR",
+          "hint": "Dört (Sayı)"
+        },
+        {
+          "word": "FIVE",
+          "hint": "Beş (Sayı)"
+        },
+        {
+          "word": "RED",
+          "hint": "Kırmızı (Bir renk)"
+        },
+        {
+          "word": "BLUE",
+          "hint": "Mavi (Bir renk)"
+        },
+        {
+          "word": "GREEN",
+          "hint": "Yeşil (Bir renk)"
+        },
+        {
+          "word": "YELLOW",
+          "hint": "Sarı (Bir renk)"
+        },
+        {
+          "word": "BLACK",
+          "hint": "Siyah (Bir renk)"
         }
       ]
     },
     {
       "id": "ingilizce_u2",
-      "name": "2. Ünite: Colors",
+      "name": "Unit 2: My Family",
       "months": [
         10
       ],
       "words": [
         {
-          "word": "YELLOW",
-          "hint": "Güneşin ve limonun rengi"
+          "word": "MOTHER",
+          "hint": "Anne"
         },
         {
-          "word": "PURPLE",
-          "hint": "Mor rengin İngilizcesi"
+          "word": "FATHER",
+          "hint": "Baba"
         },
         {
-          "word": "ORANGE",
-          "hint": "Portakalın rengi, turuncu demek"
+          "word": "BROTHER",
+          "hint": "Erkek kardeş"
         },
         {
-          "word": "GREEN",
-          "hint": "Yaprakların ve çimenlerin rengi"
+          "word": "SISTER",
+          "hint": "Kız kardeş"
         },
         {
-          "word": "BROWN",
-          "hint": "Toprağın ve çikolatanın rengi"
+          "word": "GRANDMA",
+          "hint": "Büyükanne, anneanne, babaanne"
         },
         {
-          "word": "MAVİ̇",
-          "hint": "Gökyüzünün ve denizin rengi."
+          "word": "GRANDPA",
+          "hint": "Büyükbaba, dede"
         },
         {
-          "word": "KİRMİZİ",
-          "hint": "Çileklerin, elmaların ve itfaiye araçlarının rengi."
+          "word": "UNCLE",
+          "hint": "Amca, dayı"
         },
         {
-          "word": "PEMBE",
-          "hint": "Bazen şekerlemelerde ve çiçeklerde görülen açık kırmızı tonu."
+          "word": "AUNT",
+          "hint": "Teyze, hala"
         },
         {
-          "word": "Sİ̇YAH",
-          "hint": "Gecenin, kömürün ve bazı kedilerin rengi."
+          "word": "COUSIN",
+          "hint": "Kuzen (erkek veya kız)"
         },
         {
-          "word": "BEYAZ",
-          "hint": "Karın, sütün ve bulutların rengi."
+          "word": "BABY",
+          "hint": "Bebek"
         },
         {
-          "word": "GRİ̇",
-          "hint": "Bazen fillerin ve fırtınalı havanın rengi."
+          "word": "PARENTS",
+          "hint": "Ebeveynler (anne ve baba)"
         },
         {
-          "word": "BEJ",
-          "hint": "Kumun, bazı kumaşların ve buğdayın rengi."
+          "word": "CHILDREN",
+          "hint": "Çocuklar"
         },
         {
-          "word": "LACİ̇VERT",
-          "hint": "Koyu mavi rengi, gece gökyüzüne benzer."
+          "word": "SON",
+          "hint": "Erkek evlat"
         },
         {
-          "word": "KAHVERENGİ̇",
-          "hint": "Toprağın, çikolatanın ve ağaçların kabuğunun rengi."
+          "word": "DAUGHTER",
+          "hint": "Kız evlat"
         },
         {
-          "word": "ALTİN SARİSİ",
-          "hint": "Altının parlak rengi, sıcak bir sarı tonu."
+          "word": "FAMILY",
+          "hint": "Aile"
         },
         {
-          "word": "GÜMÜŞİ̇",
-          "hint": "Gümüşün parlak rengi, soluk bir beyaz."
+          "word": "GRANDPARENTS",
+          "hint": "Büyükanne ve büyükbaba"
         },
         {
-          "word": "TURUNCU",
-          "hint": "Portakalların, havucun ve güneşin rengi."
+          "word": "LOVE",
+          "hint": "Sevmek"
         },
         {
-          "word": "YEŞİ̇L",
-          "hint": "Çimenlerin, yaprakların ve salatalıkların rengi."
+          "word": "HELP",
+          "hint": "Yardım etmek"
         },
         {
-          "word": "MOR",
-          "hint": "Bazen üzümlerin ve patlıcanların rengi."
+          "word": "PLAY",
+          "hint": "Oynamak"
         },
         {
-          "word": "BEYAZ KÖPÜK",
-          "hint": "Deniz dalgalarının tepesindeki köpüğün rengi."
+          "word": "SHARE",
+          "hint": "Paylaşmak"
         },
         {
-          "word": "Çİ̇KOLATA",
-          "hint": "Tatlı bir lezzet ve kahverengi bir renk."
+          "word": "VISIT",
+          "hint": "Ziyaret etmek"
         },
         {
-          "word": "KESTANE",
-          "hint": "Ağaçlarda yetişen ve kahverengi bir renge sahip bir meyve."
+          "word": "COOK",
+          "hint": "Yemek pişirmek"
         },
         {
-          "word": "KUMAŞ",
-          "hint": "Giysi veya mobilya yapmak için kullanılan yumuşak malzeme, farklı renklerde olabilir."
+          "word": "READ",
+          "hint": "Okumak"
         },
         {
-          "word": "BOYA",
-          "hint": "Nesneleri renklendirmek için kullanılan sıvı veya macun."
+          "word": "SLEEP",
+          "hint": "Uyumak"
         },
         {
-          "word": "MUREKKEP",
-          "hint": "Yazmak veya çizmek için kullanılan siyah veya renkli sıvı."
+          "word": "EAT",
+          "hint": "Yemek yemek"
         },
         {
-          "word": "LEKE",
-          "hint": "Bir yüzeye bulaşan ve rengini değiştiren şey."
+          "word": "DRINK",
+          "hint": "İçmek"
         },
         {
-          "word": "NAR",
-          "hint": "Kırmızı taneleri olan bir meyve."
+          "word": "TALK",
+          "hint": "Konuşmak"
         },
         {
-          "word": "DOMATES",
-          "hint": "Genellikle kırmızı olan bir sebze (veya meyve)."
+          "word": "WATCH TV",
+          "hint": "Televizyon izlemek"
         },
         {
-          "word": "ELMA",
-          "hint": "Kırmızı, yeşil veya sarı olabilen bir meyve."
+          "word": "DRAW",
+          "hint": "Çizmek"
         },
         {
-          "word": "ÜZÜM",
-          "hint": "Mor veya yeşil olabilen küçük, yuvarlak meyveler."
+          "word": "SING",
+          "hint": "Şarkı söylemek"
         },
         {
-          "word": "PORTAKAL",
-          "hint": "Turuncu renkli ve sulu bir meyve."
+          "word": "HAPPY",
+          "hint": "Mutlu"
         },
         {
-          "word": "Bİ̇BER",
-          "hint": "Kırmızı, yeşil veya sarı olabilen bir sebze."
+          "word": "KIND",
+          "hint": "Nazik, kibar"
         },
         {
-          "word": "PATLİCAN",
-          "hint": "Mor renkli, uzun bir sebze."
+          "word": "BIG",
+          "hint": "Büyük"
         },
         {
-          "word": "Çİ̇LEK",
-          "hint": "Kırmızı, tatlı ve küçük bir meyve."
+          "word": "SMALL",
+          "hint": "Küçük"
         },
         {
-          "word": "HAVUÇ",
-          "hint": "Turuncu renkli, tatlı bir kök sebze."
+          "word": "OLD",
+          "hint": "Yaşlı"
         },
         {
-          "word": "KARPUZ",
-          "hint": "Dışı yeşil, içi kırmızı olan büyük bir meyve."
+          "word": "YOUNG",
+          "hint": "Genç"
         },
         {
-          "word": "KAVUN",
-          "hint": "Dışı sarı veya yeşil, içi turuncu veya beyaz olabilen bir meyve."
+          "word": "NICE",
+          "hint": "Güzel, hoş"
         },
         {
-          "word": "AY Çİ̇ÇEĞİ̇",
-          "hint": "Büyük, sarı yapraklı bir çiçek."
+          "word": "CUTE",
+          "hint": "Sevimli, şirin"
         },
         {
-          "word": "GÜL",
-          "hint": "Genellikle kırmızı, pembe veya beyaz olan güzel kokulu bir çiçek."
+          "word": "TALL",
+          "hint": "Uzun (insanlar için)"
         },
         {
-          "word": "LALE",
-          "hint": "Bahar aylarında açan, çeşitli renklerde olabilen bir çiçek."
+          "word": "SHORT",
+          "hint": "Kısa (insanlar için)"
         },
         {
-          "word": "PAPATYA",
-          "hint": "Ortası sarı, yaprakları beyaz olan basit bir çiçek."
+          "word": "HOME",
+          "hint": "Ev, yuva"
         },
         {
-          "word": "GÖKYÜZÜ",
-          "hint": "Gün içinde genellikle mavi olan üstümüzdeki alan."
+          "word": "HOUSE",
+          "hint": "Ev, konut"
         },
         {
-          "word": "DENİ̇Z",
-          "hint": "Genellikle mavi veya yeşil olan büyük su kütlesi."
+          "word": "ROOM",
+          "hint": "Oda"
         },
         {
-          "word": "TOPRAK",
-          "hint": "Bitkilerin yetiştiği kahverengi madde."
+          "word": "KITCHEN",
+          "hint": "Mutfak"
         },
         {
-          "word": "AĞAÇ",
-          "hint": "Kahverengi gövdesi ve yeşil yaprakları olan büyük bitki."
+          "word": "LIVING ROOM",
+          "hint": "Oturma odası, salon"
         },
         {
-          "word": "OT",
-          "hint": "Yerleri kaplayan yeşil bitki örtüsü."
+          "word": "BEDROOM",
+          "hint": "Yatak odası"
         },
         {
-          "word": "BULUT",
-          "hint": "Gökyüzünde süzülen beyaz veya gri su damlacıkları."
+          "word": "TOY",
+          "hint": "Oyuncak"
         },
         {
-          "word": "KAR",
-          "hint": "Soğukta yağan beyaz, donmuş su."
+          "word": "PHOTO",
+          "hint": "Fotoğraf"
         },
         {
-          "word": "GÖKKUŞAĞİ",
-          "hint": "Yağmurdan sonra görünen renkli kemer (kırmızı, turuncu, sarı, yeşil, mavi, mor)."
+          "word": "PET",
+          "hint": "Evcil hayvan"
         },
         {
-          "word": "GÜNEŞ",
-          "hint": "Gökyüzündeki parlak, sarı yıldız."
+          "word": "DOG",
+          "hint": "Köpek"
         },
         {
-          "word": "AY",
-          "hint": "Geceleri gökyüzünde görünen beyaz veya sarı cisim."
+          "word": "CAT",
+          "hint": "Kedi"
         },
         {
-          "word": "YİLDİZ",
-          "hint": "Geceleri gökyüzünde parlayan küçük ışık noktaları."
+          "word": "BOOK",
+          "hint": "Kitap"
+        },
+        {
+          "word": "BALL",
+          "hint": "Top"
+        },
+        {
+          "word": "BED",
+          "hint": "Yatak"
+        },
+        {
+          "word": "CHAIR",
+          "hint": "Sandalye"
+        },
+        {
+          "word": "TABLE",
+          "hint": "Masa"
+        },
+        {
+          "word": "GARDEN",
+          "hint": "Bahçe"
+        },
+        {
+          "word": "PICTURE",
+          "hint": "Resim"
+        },
+        {
+          "word": "FRIEND",
+          "hint": "Arkadaş"
+        },
+        {
+          "word": "NAME",
+          "hint": "İsim"
         }
       ]
     },
     {
       "id": "ingilizce_u3",
-      "name": "Unit 3: In the Classroom",
+      "name": "Unit 3: People I Love",
       "months": [
         11
       ],
-      "words": []
+      "words": [
+        {
+          "word": "MOTHER",
+          "hint": "anne"
+        },
+        {
+          "word": "FATHER",
+          "hint": "baba"
+        },
+        {
+          "word": "BROTHER",
+          "hint": "erkek kardeş"
+        },
+        {
+          "word": "SISTER",
+          "hint": "kız kardeş"
+        },
+        {
+          "word": "GRANDMOTHER",
+          "hint": "büyükanne, nine"
+        },
+        {
+          "word": "GRANDFATHER",
+          "hint": "büyükbaba, dede"
+        },
+        {
+          "word": "FAMILY",
+          "hint": "aile"
+        },
+        {
+          "word": "LOVE",
+          "hint": "sevgi, sevmek"
+        },
+        {
+          "word": "HAPPY",
+          "hint": "mutlu"
+        },
+        {
+          "word": "FRIEND",
+          "hint": "arkadaş"
+        },
+        {
+          "word": "HUG",
+          "hint": "sarılmak"
+        },
+        {
+          "word": "KISS",
+          "hint": "öpmek"
+        },
+        {
+          "word": "SHARE",
+          "hint": "paylaşmak"
+        },
+        {
+          "word": "PLAY",
+          "hint": "oynamak"
+        },
+        {
+          "word": "HELP",
+          "hint": "yardım etmek"
+        },
+        {
+          "word": "CARE",
+          "hint": "önemsemek, ilgi göstermek"
+        },
+        {
+          "word": "SMILE",
+          "hint": "gülümsemek"
+        },
+        {
+          "word": "LAUGH",
+          "hint": "gülmek"
+        },
+        {
+          "word": "TALK",
+          "hint": "konuşmak"
+        },
+        {
+          "word": "VISIT",
+          "hint": "ziyaret etmek"
+        },
+        {
+          "word": "GIVE",
+          "hint": "vermek"
+        },
+        {
+          "word": "RECEIVE",
+          "hint": "almak"
+        },
+        {
+          "word": "LISTEN",
+          "hint": "dinlemek"
+        },
+        {
+          "word": "LEARN",
+          "hint": "öğrenmek"
+        },
+        {
+          "word": "TEACH",
+          "hint": "öğretmek"
+        },
+        {
+          "word": "HOME",
+          "hint": "ev"
+        },
+        {
+          "word": "GIFT",
+          "hint": "hediye"
+        },
+        {
+          "word": "PHOTO",
+          "hint": "fotoğraf"
+        },
+        {
+          "word": "STORY",
+          "hint": "hikaye"
+        },
+        {
+          "word": "KIND",
+          "hint": "nazik, kibar"
+        },
+        {
+          "word": "GOOD",
+          "hint": "iyi"
+        },
+        {
+          "word": "NICE",
+          "hint": "hoş, güzel"
+        },
+        {
+          "word": "YOUNG",
+          "hint": "genç"
+        },
+        {
+          "word": "BEAUTIFUL",
+          "hint": "güzel"
+        },
+        {
+          "word": "HANDSOME",
+          "hint": "yakışıklı"
+        },
+        {
+          "word": "STRONG",
+          "hint": "güçlü"
+        },
+        {
+          "word": "SMART",
+          "hint": "akıllı"
+        },
+        {
+          "word": "FUNNY",
+          "hint": "komik"
+        },
+        {
+          "word": "SWEET",
+          "hint": "tatlı, şirin"
+        },
+        {
+          "word": "LOVELY",
+          "hint": "sevimli"
+        },
+        {
+          "word": "DEAR",
+          "hint": "sevgili"
+        },
+        {
+          "word": "FAVORITE",
+          "hint": "favori, en sevilen"
+        },
+        {
+          "word": "AUNT",
+          "hint": "teyze, hala"
+        },
+        {
+          "word": "UNCLE",
+          "hint": "amca, dayı"
+        },
+        {
+          "word": "COUSIN",
+          "hint": "kuzen"
+        },
+        {
+          "word": "BABY",
+          "hint": "bebek"
+        },
+        {
+          "word": "PARENT",
+          "hint": "ebeveyn (anne veya baba)"
+        },
+        {
+          "word": "CHILD",
+          "hint": "çocuk"
+        },
+        {
+          "word": "GRANDPARENTS",
+          "hint": "büyükanne ve büyükbaba"
+        },
+        {
+          "word": "TOGETHER",
+          "hint": "birlikte"
+        },
+        {
+          "word": "ALWAYS",
+          "hint": "her zaman"
+        },
+        {
+          "word": "BEST FRIEND",
+          "hint": "en iyi arkadaş"
+        },
+        {
+          "word": "CARING",
+          "hint": "şefkatli, ilgili"
+        },
+        {
+          "word": "HELPFUL",
+          "hint": "yardımsever"
+        },
+        {
+          "word": "SPECIAL",
+          "hint": "özel"
+        },
+        {
+          "word": "PROUD",
+          "hint": "gururlu"
+        },
+        {
+          "word": "LUCKY",
+          "hint": "şanslı"
+        },
+        {
+          "word": "THANKFUL",
+          "hint": "minnettar"
+        },
+        {
+          "word": "EXCITED",
+          "hint": "heyecanlı"
+        },
+        {
+          "word": "READ",
+          "hint": "okumak"
+        },
+        {
+          "word": "DRAW",
+          "hint": "çizmek"
+        },
+        {
+          "word": "SING",
+          "hint": "şarkı söylemek"
+        },
+        {
+          "word": "DANCE",
+          "hint": "dans etmek"
+        },
+        {
+          "word": "RESPECT",
+          "hint": "saygı duymak"
+        },
+        {
+          "word": "TRUST",
+          "hint": "güvenmek"
+        },
+        {
+          "word": "UNDERSTAND",
+          "hint": "anlamak"
+        },
+        {
+          "word": "HELLO",
+          "hint": "merhaba"
+        },
+        {
+          "word": "GOODBYE",
+          "hint": "güle güle, hoşça kal"
+        },
+        {
+          "word": "PLEASE",
+          "hint": "lütfen"
+        },
+        {
+          "word": "THANK YOU",
+          "hint": "teşekkür ederim"
+        }
+      ]
     },
     {
       "id": "ingilizce_u4",
-      "name": "Unit 4: Numbers and Colors",
+      "name": "Unit 4: Feelings",
       "months": [
         12
       ],
-      "words": []
+      "words": [
+        {
+          "word": "HAPPY",
+          "hint": "Mutlu"
+        },
+        {
+          "word": "SAD",
+          "hint": "Üzgün"
+        },
+        {
+          "word": "ANGRY",
+          "hint": "Kızgın"
+        },
+        {
+          "word": "SCARED",
+          "hint": "Korkmuş"
+        },
+        {
+          "word": "SURPRISED",
+          "hint": "Şaşırmış"
+        },
+        {
+          "word": "EXCITED",
+          "hint": "Heyecanlı"
+        },
+        {
+          "word": "TIRED",
+          "hint": "Yorgun"
+        },
+        {
+          "word": "SLEEPY",
+          "hint": "Uykulu"
+        },
+        {
+          "word": "HUNGRY",
+          "hint": "Aç"
+        },
+        {
+          "word": "THIRSTY",
+          "hint": "Susamış"
+        },
+        {
+          "word": "BORED",
+          "hint": "Sıkılmış"
+        },
+        {
+          "word": "WORRIED",
+          "hint": "Endişeli"
+        },
+        {
+          "word": "SHY",
+          "hint": "Utangaç"
+        },
+        {
+          "word": "PROUD",
+          "hint": "Gururlu"
+        },
+        {
+          "word": "CONFUSED",
+          "hint": "Kafası karışmış"
+        },
+        {
+          "word": "RELAXED",
+          "hint": "Rahatlamış"
+        },
+        {
+          "word": "LONELY",
+          "hint": "Yalnız"
+        },
+        {
+          "word": "NERVOUS",
+          "hint": "Gergin"
+        },
+        {
+          "word": "GLAD",
+          "hint": "Sevinçli"
+        },
+        {
+          "word": "UPSET",
+          "hint": "Keyifsiz"
+        },
+        {
+          "word": "FINE",
+          "hint": "İyi (olmak)"
+        },
+        {
+          "word": "GREAT",
+          "hint": "Harika"
+        },
+        {
+          "word": "WONDERFUL",
+          "hint": "Muhteşem"
+        },
+        {
+          "word": "TERRIBLE",
+          "hint": "Berbat"
+        },
+        {
+          "word": "BAD",
+          "hint": "Kötü"
+        },
+        {
+          "word": "GOOD",
+          "hint": "İyi"
+        },
+        {
+          "word": "HOW DO YOU FEEL?",
+          "hint": "Nasıl hissediyorsun?"
+        },
+        {
+          "word": "I FEEL HAPPY.",
+          "hint": "Mutlu hissediyorum."
+        },
+        {
+          "word": "WHAT'S WRONG?",
+          "hint": "Sorun ne?"
+        },
+        {
+          "word": "SMILE",
+          "hint": "Gülümsemek"
+        },
+        {
+          "word": "CRY",
+          "hint": "Ağlamak"
+        },
+        {
+          "word": "LAUGH",
+          "hint": "Gülmek"
+        },
+        {
+          "word": "HUG",
+          "hint": "Sarılmak"
+        },
+        {
+          "word": "FRIEND",
+          "hint": "Arkadaş"
+        },
+        {
+          "word": "FAMILY",
+          "hint": "Aile"
+        },
+        {
+          "word": "JOY",
+          "hint": "Neşe"
+        },
+        {
+          "word": "FEAR",
+          "hint": "Korku"
+        },
+        {
+          "word": "ANGER",
+          "hint": "Kızgınlık"
+        },
+        {
+          "word": "BRAVE",
+          "hint": "Cesur"
+        },
+        {
+          "word": "CALM",
+          "hint": "Sakin"
+        },
+        {
+          "word": "HOPEFUL",
+          "hint": "Umutlu"
+        },
+        {
+          "word": "KIND",
+          "hint": "Nazik"
+        },
+        {
+          "word": "GRUMPY",
+          "hint": "Huysuz"
+        },
+        {
+          "word": "CHEERFUL",
+          "hint": "Neşeli"
+        },
+        {
+          "word": "SICK",
+          "hint": "Hasta"
+        },
+        {
+          "word": "HEALTHY",
+          "hint": "Sağlıklı"
+        },
+        {
+          "word": "STRONG",
+          "hint": "Güçlü"
+        },
+        {
+          "word": "WEAK",
+          "hint": "Zayıf"
+        },
+        {
+          "word": "CLEVER",
+          "hint": "Zeki"
+        },
+        {
+          "word": "SILLY",
+          "hint": "Şapşal"
+        },
+        {
+          "word": "POLITE",
+          "hint": "Kibar"
+        },
+        {
+          "word": "RUDE",
+          "hint": "Kaba"
+        },
+        {
+          "word": "THANKFUL",
+          "hint": "Minnettar"
+        },
+        {
+          "word": "SORRY",
+          "hint": "Üzgünüm"
+        },
+        {
+          "word": "PLEASE",
+          "hint": "Lütfen"
+        },
+        {
+          "word": "THANK YOU",
+          "hint": "Teşekkür ederim"
+        },
+        {
+          "word": "EXCUSE ME",
+          "hint": "Affedersiniz"
+        },
+        {
+          "word": "HELP",
+          "hint": "Yardım etmek"
+        },
+        {
+          "word": "SHARE",
+          "hint": "Paylaşmak"
+        },
+        {
+          "word": "LISTEN",
+          "hint": "Dinlemek"
+        }
+      ]
     },
     {
       "id": "ingilizce_u5",
@@ -448,47 +1042,1477 @@
       "months": [
         1
       ],
-      "words": []
+      "words": [
+        {
+          "word": "DOLL",
+          "hint": "Oyuncak bebek"
+        },
+        {
+          "word": "CAR",
+          "hint": "Oyuncak araba"
+        },
+        {
+          "word": "BALL",
+          "hint": "Top"
+        },
+        {
+          "word": "BIKE",
+          "hint": "Bisiklet"
+        },
+        {
+          "word": "KITE",
+          "hint": "Uçurtma"
+        },
+        {
+          "word": "ROBOT",
+          "hint": "Robot"
+        },
+        {
+          "word": "TRAIN",
+          "hint": "Tren (oyuncak)"
+        },
+        {
+          "word": "TEDDY BEAR",
+          "hint": "Oyuncak ayı"
+        },
+        {
+          "word": "PUZZLE",
+          "hint": "Yapboz"
+        },
+        {
+          "word": "BLOCK",
+          "hint": "Blok, yapı parçası"
+        },
+        {
+          "word": "GAME",
+          "hint": "Oyun"
+        },
+        {
+          "word": "TOY BOX",
+          "hint": "Oyuncak kutusu"
+        },
+        {
+          "word": "BOARD GAME",
+          "hint": "Kutu oyunu"
+        },
+        {
+          "word": "CARDS",
+          "hint": "Oyun kartları"
+        },
+        {
+          "word": "JUMP ROPE",
+          "hint": "İp atlama"
+        },
+        {
+          "word": "SWING",
+          "hint": "Salıncak"
+        },
+        {
+          "word": "SLIDE",
+          "hint": "Kaydırak"
+        },
+        {
+          "word": "SEESAW",
+          "hint": "Tahterevalli"
+        },
+        {
+          "word": "DRUM",
+          "hint": "Oyuncak davul"
+        },
+        {
+          "word": "GUITAR",
+          "hint": "Oyuncak gitar"
+        },
+        {
+          "word": "PIANO",
+          "hint": "Oyuncak piyano"
+        },
+        {
+          "word": "COMPUTER GAME",
+          "hint": "Bilgisayar oyunu"
+        },
+        {
+          "word": "VIDEO GAME",
+          "hint": "Video oyunu"
+        },
+        {
+          "word": "PLAY DOUGH",
+          "hint": "Oyun hamuru"
+        },
+        {
+          "word": "CRAYON",
+          "hint": "Pastel boya"
+        },
+        {
+          "word": "MARKER",
+          "hint": "Keçeli kalem"
+        },
+        {
+          "word": "PAINT",
+          "hint": "Boya (resim yapmak için)"
+        },
+        {
+          "word": "DRAWING",
+          "hint": "Çizim, resim"
+        },
+        {
+          "word": "COLORING BOOK",
+          "hint": "Boyama kitabı"
+        },
+        {
+          "word": "ACTION FIGURE",
+          "hint": "Aksiyon figürü"
+        },
+        {
+          "word": "PLAY",
+          "hint": "Oynamak"
+        },
+        {
+          "word": "RUN",
+          "hint": "Koşmak"
+        },
+        {
+          "word": "JUMP",
+          "hint": "Zıplamak"
+        },
+        {
+          "word": "THROW",
+          "hint": "Atmak"
+        },
+        {
+          "word": "CATCH",
+          "hint": "Yakalamak"
+        },
+        {
+          "word": "KICK",
+          "hint": "Tekmelemek"
+        },
+        {
+          "word": "RIDE",
+          "hint": "Binmek (bisiklete veya ata)"
+        },
+        {
+          "word": "BUILD",
+          "hint": "İnşa etmek, yapmak"
+        },
+        {
+          "word": "SHARE",
+          "hint": "Paylaşmak"
+        },
+        {
+          "word": "LIKE",
+          "hint": "Beğenmek, sevmek"
+        },
+        {
+          "word": "FUN",
+          "hint": "Eğlence, neşe"
+        },
+        {
+          "word": "HAPPY",
+          "hint": "Mutlu"
+        },
+        {
+          "word": "SAD",
+          "hint": "Üzgün"
+        },
+        {
+          "word": "NEW",
+          "hint": "Yeni"
+        },
+        {
+          "word": "OLD",
+          "hint": "Eski"
+        },
+        {
+          "word": "BIG",
+          "hint": "Büyük"
+        },
+        {
+          "word": "SMALL",
+          "hint": "Küçük"
+        },
+        {
+          "word": "FAST",
+          "hint": "Hızlı"
+        },
+        {
+          "word": "SLOW",
+          "hint": "Yavaş"
+        },
+        {
+          "word": "INSIDE",
+          "hint": "İçeride"
+        },
+        {
+          "word": "OUTSIDE",
+          "hint": "Dışarıda"
+        },
+        {
+          "word": "UP",
+          "hint": "Yukarı"
+        },
+        {
+          "word": "DOWN",
+          "hint": "Aşağı"
+        },
+        {
+          "word": "ON",
+          "hint": "Üzerinde"
+        },
+        {
+          "word": "IN",
+          "hint": "İçinde"
+        },
+        {
+          "word": "UNDER",
+          "hint": "Altında"
+        }
+      ]
     },
     {
       "id": "ingilizce_u6",
-      "name": "Unit 6: My Body and Clothes",
+      "name": "Unit 6: My House",
       "months": [
         2
       ],
-      "words": []
+      "words": [
+        {
+          "word": "HOUSE",
+          "hint": "Ev"
+        },
+        {
+          "word": "HOME",
+          "hint": "Yuva"
+        },
+        {
+          "word": "ROOM",
+          "hint": "Oda"
+        },
+        {
+          "word": "LIVING ROOM",
+          "hint": "Oturma odası"
+        },
+        {
+          "word": "KITCHEN",
+          "hint": "Mutfak"
+        },
+        {
+          "word": "BEDROOM",
+          "hint": "Yatak odası"
+        },
+        {
+          "word": "BATHROOM",
+          "hint": "Banyo"
+        },
+        {
+          "word": "GARDEN",
+          "hint": "Bahçe"
+        },
+        {
+          "word": "DOOR",
+          "hint": "Kapı"
+        },
+        {
+          "word": "WINDOW",
+          "hint": "Pencere"
+        },
+        {
+          "word": "WALL",
+          "hint": "Duvar"
+        },
+        {
+          "word": "FLOOR",
+          "hint": "Zemin"
+        },
+        {
+          "word": "CEILING",
+          "hint": "Tavan"
+        },
+        {
+          "word": "ROOF",
+          "hint": "Çatı"
+        },
+        {
+          "word": "STAIRS",
+          "hint": "Merdiven"
+        },
+        {
+          "word": "BALCONY",
+          "hint": "Balkon"
+        },
+        {
+          "word": "GARAGE",
+          "hint": "Garaj"
+        },
+        {
+          "word": "SOFA",
+          "hint": "Kanepe"
+        },
+        {
+          "word": "ARMCHAIR",
+          "hint": "Tekli koltuk"
+        },
+        {
+          "word": "TABLE",
+          "hint": "Masa"
+        },
+        {
+          "word": "CHAIR",
+          "hint": "Sandalye"
+        },
+        {
+          "word": "BED",
+          "hint": "Yatak"
+        },
+        {
+          "word": "WARDROBE",
+          "hint": "Gardırop"
+        },
+        {
+          "word": "DESK",
+          "hint": "Çalışma masası"
+        },
+        {
+          "word": "LAMP",
+          "hint": "Lamba"
+        },
+        {
+          "word": "CARPET",
+          "hint": "Halı"
+        },
+        {
+          "word": "CURTAIN",
+          "hint": "Perde"
+        },
+        {
+          "word": "TELEVISION (TV)",
+          "hint": "Televizyon (TV)"
+        },
+        {
+          "word": "BOOKCASE",
+          "hint": "Kitaplık"
+        },
+        {
+          "word": "SHELF",
+          "hint": "Raf"
+        },
+        {
+          "word": "FRIDGE",
+          "hint": "Buzdolabı"
+        },
+        {
+          "word": "OVEN",
+          "hint": "Fırın"
+        },
+        {
+          "word": "STOVE",
+          "hint": "Ocak"
+        },
+        {
+          "word": "SINK",
+          "hint": "Lavabo"
+        },
+        {
+          "word": "CUPBOARD",
+          "hint": "Mutfak dolabı"
+        },
+        {
+          "word": "PLATE",
+          "hint": "Tabak"
+        },
+        {
+          "word": "CUP",
+          "hint": "Fincan"
+        },
+        {
+          "word": "GLASS",
+          "hint": "Bardak"
+        },
+        {
+          "word": "SPOON",
+          "hint": "Kaşık"
+        },
+        {
+          "word": "FORK",
+          "hint": "Çatal"
+        },
+        {
+          "word": "KNIFE",
+          "hint": "Bıçak"
+        },
+        {
+          "word": "TOILET",
+          "hint": "Tuvalet"
+        },
+        {
+          "word": "SHOWER",
+          "hint": "Duş"
+        },
+        {
+          "word": "BATHTUB",
+          "hint": "Küvet"
+        },
+        {
+          "word": "MIRROR",
+          "hint": "Ayna"
+        },
+        {
+          "word": "TOWEL",
+          "hint": "Havlu"
+        },
+        {
+          "word": "SOAP",
+          "hint": "Sabun"
+        },
+        {
+          "word": "PILLOW",
+          "hint": "Yastık"
+        },
+        {
+          "word": "BLANKET",
+          "hint": "Battaniye"
+        },
+        {
+          "word": "TOY",
+          "hint": "Oyuncak"
+        },
+        {
+          "word": "CLOCK",
+          "hint": "Saat"
+        },
+        {
+          "word": "PICTURE",
+          "hint": "Resim"
+        },
+        {
+          "word": "PLANT",
+          "hint": "Bitki"
+        },
+        {
+          "word": "TREE",
+          "hint": "Ağaç"
+        },
+        {
+          "word": "FLOWER",
+          "hint": "Çiçek"
+        },
+        {
+          "word": "GRASS",
+          "hint": "Çim"
+        },
+        {
+          "word": "FENCE",
+          "hint": "Çit"
+        },
+        {
+          "word": "RUG",
+          "hint": "Küçük halı"
+        },
+        {
+          "word": "RADIO",
+          "hint": "Radyo"
+        },
+        {
+          "word": "COMPUTER",
+          "hint": "Bilgisayar"
+        }
+      ]
     },
     {
       "id": "ingilizce_u7",
-      "name": "Unit 7: Pets and Animals",
+      "name": "Unit 7: In My City",
       "months": [
         3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "CITY",
+          "hint": "Şehir, kent"
+        },
+        {
+          "word": "TOWN",
+          "hint": "Kasaba"
+        },
+        {
+          "word": "STREET",
+          "hint": "Sokak, cadde"
+        },
+        {
+          "word": "ROAD",
+          "hint": "Yol"
+        },
+        {
+          "word": "PARK",
+          "hint": "Park"
+        },
+        {
+          "word": "SCHOOL",
+          "hint": "Okul"
+        },
+        {
+          "word": "HOSPITAL",
+          "hint": "Hastane"
+        },
+        {
+          "word": "FIRE STATION",
+          "hint": "İtfaiye istasyonu"
+        },
+        {
+          "word": "POLICE STATION",
+          "hint": "Polis karakolu"
+        },
+        {
+          "word": "LIBRARY",
+          "hint": "Kütüphane"
+        },
+        {
+          "word": "MARKET",
+          "hint": "Market, pazar"
+        },
+        {
+          "word": "BAKERY",
+          "hint": "Fırın"
+        },
+        {
+          "word": "BUS STOP",
+          "hint": "Otobüs durağı"
+        },
+        {
+          "word": "TRAIN STATION",
+          "hint": "Tren istasyonu"
+        },
+        {
+          "word": "AIRPORT",
+          "hint": "Havaalanı"
+        },
+        {
+          "word": "RESTAURANT",
+          "hint": "Restoran"
+        },
+        {
+          "word": "CAFE",
+          "hint": "Kafe"
+        },
+        {
+          "word": "CINEMA",
+          "hint": "Sinema"
+        },
+        {
+          "word": "MUSEUM",
+          "hint": "Müze"
+        },
+        {
+          "word": "POST OFFICE",
+          "hint": "Postane"
+        },
+        {
+          "word": "BANK",
+          "hint": "Banka"
+        },
+        {
+          "word": "BRIDGE",
+          "hint": "Köprü"
+        },
+        {
+          "word": "BUILDING",
+          "hint": "Bina"
+        },
+        {
+          "word": "HOUSE",
+          "hint": "Ev"
+        },
+        {
+          "word": "APARTMENT",
+          "hint": "Apartman dairesi"
+        },
+        {
+          "word": "SHOP",
+          "hint": "Dükkan, mağaza"
+        },
+        {
+          "word": "PLAYGROUND",
+          "hint": "Oyun alanı"
+        },
+        {
+          "word": "ZOO",
+          "hint": "Hayvanat bahçesi"
+        },
+        {
+          "word": "DOCTOR",
+          "hint": "Doktor"
+        },
+        {
+          "word": "TEACHER",
+          "hint": "Öğretmen"
+        },
+        {
+          "word": "POLICE OFFICER",
+          "hint": "Polis memuru"
+        },
+        {
+          "word": "FIREFIGHTER",
+          "hint": "İtfaiyeci"
+        },
+        {
+          "word": "BAKER",
+          "hint": "Fırıncı"
+        },
+        {
+          "word": "DRIVER",
+          "hint": "Şoför"
+        },
+        {
+          "word": "LIBRARIAN",
+          "hint": "Kütüphaneci"
+        },
+        {
+          "word": "POSTMAN",
+          "hint": "Postacı"
+        },
+        {
+          "word": "CAR",
+          "hint": "Araba"
+        },
+        {
+          "word": "BUS",
+          "hint": "Otobüs"
+        },
+        {
+          "word": "TRAIN",
+          "hint": "Tren"
+        },
+        {
+          "word": "BICYCLE",
+          "hint": "Bisiklet"
+        },
+        {
+          "word": "TRAFFIC LIGHT",
+          "hint": "Trafik ışığı"
+        },
+        {
+          "word": "SIDEWALK",
+          "hint": "Kaldırım"
+        },
+        {
+          "word": "CROSSWALK",
+          "hint": "Yaya geçidi"
+        },
+        {
+          "word": "TRASH CAN",
+          "hint": "Çöp kutusu"
+        },
+        {
+          "word": "BENCH",
+          "hint": "Bank"
+        },
+        {
+          "word": "LAMP POST",
+          "hint": "Sokak lambası"
+        },
+        {
+          "word": "TREE",
+          "hint": "Ağaç"
+        },
+        {
+          "word": "FLOWER",
+          "hint": "Çiçek"
+        },
+        {
+          "word": "GARDEN",
+          "hint": "Bahçe"
+        },
+        {
+          "word": "SQUARE",
+          "hint": "Meydan"
+        },
+        {
+          "word": "FOUNTAIN",
+          "hint": "Çeşme"
+        },
+        {
+          "word": "STATUE",
+          "hint": "Heykel"
+        },
+        {
+          "word": "MAP",
+          "hint": "Harita"
+        },
+        {
+          "word": "GO",
+          "hint": "Gitmek"
+        },
+        {
+          "word": "WALK",
+          "hint": "Yürümek"
+        },
+        {
+          "word": "TURN RIGHT",
+          "hint": "Sağa dönmek"
+        },
+        {
+          "word": "TURN LEFT",
+          "hint": "Sola dönmek"
+        },
+        {
+          "word": "STRAIGHT",
+          "hint": "Düz, doğruca"
+        },
+        {
+          "word": "NEAR",
+          "hint": "Yakın"
+        },
+        {
+          "word": "FAR",
+          "hint": "Uzak"
+        },
+        {
+          "word": "BETWEEN",
+          "hint": "Arasında"
+        },
+        {
+          "word": "NEXT TO",
+          "hint": "Yanında"
+        },
+        {
+          "word": "IN FRONT OF",
+          "hint": "Önünde"
+        },
+        {
+          "word": "BEHIND",
+          "hint": "Arkasında"
+        },
+        {
+          "word": "ACROSS FROM",
+          "hint": "Karşısında"
+        }
+      ]
     },
     {
       "id": "ingilizce_u8",
-      "name": "Unit 8: My Daily Routine",
+      "name": "Unit 8: Transportation",
       "months": [
         4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "CAR",
+          "hint": "Araba"
+        },
+        {
+          "word": "BUS",
+          "hint": "Otobüs"
+        },
+        {
+          "word": "TRAIN",
+          "hint": "Tren"
+        },
+        {
+          "word": "PLANE",
+          "hint": "Uçak"
+        },
+        {
+          "word": "BOAT",
+          "hint": "Tekne"
+        },
+        {
+          "word": "SHIP",
+          "hint": "Gemi"
+        },
+        {
+          "word": "BICYCLE",
+          "hint": "Bisiklet"
+        },
+        {
+          "word": "MOTORCYCLE",
+          "hint": "Motosiklet"
+        },
+        {
+          "word": "TRUCK",
+          "hint": "Kamyon"
+        },
+        {
+          "word": "HELICOPTER",
+          "hint": "Helikopter"
+        },
+        {
+          "word": "SUBWAY",
+          "hint": "Metro"
+        },
+        {
+          "word": "TAXI",
+          "hint": "Taksi"
+        },
+        {
+          "word": "AMBULANCE",
+          "hint": "Ambulans"
+        },
+        {
+          "word": "FIRE TRUCK",
+          "hint": "İtfaiye aracı"
+        },
+        {
+          "word": "POLICE CAR",
+          "hint": "Polis arabası"
+        },
+        {
+          "word": "TRACTOR",
+          "hint": "Traktör"
+        },
+        {
+          "word": "VAN",
+          "hint": "Kamyonet"
+        },
+        {
+          "word": "SCOOTER",
+          "hint": "Skuter"
+        },
+        {
+          "word": "SKATEBOARD",
+          "hint": "Kaykay"
+        },
+        {
+          "word": "ROAD",
+          "hint": "Yol"
+        },
+        {
+          "word": "STREET",
+          "hint": "Cadde"
+        },
+        {
+          "word": "STATION",
+          "hint": "İstasyon"
+        },
+        {
+          "word": "AIRPORT",
+          "hint": "Havaalanı"
+        },
+        {
+          "word": "HARBOR",
+          "hint": "Liman"
+        },
+        {
+          "word": "BUS STOP",
+          "hint": "Otobüs durağı"
+        },
+        {
+          "word": "TRAIN STATION",
+          "hint": "Tren istasyonu"
+        },
+        {
+          "word": "WHEEL",
+          "hint": "Tekerlek"
+        },
+        {
+          "word": "DOOR",
+          "hint": "Kapı"
+        },
+        {
+          "word": "WINDOW",
+          "hint": "Pencere"
+        },
+        {
+          "word": "SEAT",
+          "hint": "Koltuk"
+        },
+        {
+          "word": "DRIVER",
+          "hint": "Şoför, sürücü"
+        },
+        {
+          "word": "PILOT",
+          "hint": "Pilot"
+        },
+        {
+          "word": "CAPTAIN",
+          "hint": "Kaptan"
+        },
+        {
+          "word": "PASSENGER",
+          "hint": "Yolcu"
+        },
+        {
+          "word": "TRAFFIC",
+          "hint": "Trafik"
+        },
+        {
+          "word": "TRAFFIC LIGHT",
+          "hint": "Trafik ışığı"
+        },
+        {
+          "word": "PEDESTRIAN",
+          "hint": "Yaya"
+        },
+        {
+          "word": "CROSSWALK",
+          "hint": "Yaya geçidi"
+        },
+        {
+          "word": "GO",
+          "hint": "Gitmek"
+        },
+        {
+          "word": "DRIVE",
+          "hint": "Sürmek (araba)"
+        },
+        {
+          "word": "RIDE",
+          "hint": "Binmek (bisiklet, at vb.)"
+        },
+        {
+          "word": "FLY",
+          "hint": "Uçmak"
+        },
+        {
+          "word": "SAIL",
+          "hint": "Yelken açmak, denizde gitmek"
+        },
+        {
+          "word": "WALK",
+          "hint": "Yürümek"
+        },
+        {
+          "word": "STOP",
+          "hint": "Durmak"
+        },
+        {
+          "word": "FAST",
+          "hint": "Hızlı"
+        },
+        {
+          "word": "SLOW",
+          "hint": "Yavaş"
+        },
+        {
+          "word": "BIG",
+          "hint": "Büyük"
+        },
+        {
+          "word": "SMALL",
+          "hint": "Küçük"
+        },
+        {
+          "word": "RED LIGHT",
+          "hint": "Kırmızı ışık"
+        },
+        {
+          "word": "GREEN LIGHT",
+          "hint": "Yeşil ışık"
+        },
+        {
+          "word": "BRIDGE",
+          "hint": "Köprü"
+        },
+        {
+          "word": "TUNNEL",
+          "hint": "Tünel"
+        },
+        {
+          "word": "TICKET",
+          "hint": "Bilet"
+        },
+        {
+          "word": "JOURNEY",
+          "hint": "Yolculuk"
+        },
+        {
+          "word": "DESTINATION",
+          "hint": "Varış noktası"
+        },
+        {
+          "word": "MAP",
+          "hint": "Harita"
+        },
+        {
+          "word": "HELMET",
+          "hint": "Kask"
+        },
+        {
+          "word": "SEATBELT",
+          "hint": "Emniyet kemeri"
+        }
+      ]
     },
     {
       "id": "ingilizce_u9",
-      "name": "Unit 9: Fruits and Food",
+      "name": "Unit 9: Weather",
       "months": [
         5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "SUNNY",
+          "hint": "Güneşli, hava açık ve güneş ışığı olan."
+        },
+        {
+          "word": "CLOUDY",
+          "hint": "Bulutlu, gökyüzünde çok sayıda bulut olan."
+        },
+        {
+          "word": "RAINY",
+          "hint": "Yağmurlu, yağmur yağan."
+        },
+        {
+          "word": "WINDY",
+          "hint": "Rüzgarlı, çok rüzgar esen."
+        },
+        {
+          "word": "SNOWY",
+          "hint": "Karlı, kar yağan veya karla kaplı."
+        },
+        {
+          "word": "HOT",
+          "hint": "Sıcak, yüksek derecede ısıya sahip."
+        },
+        {
+          "word": "COLD",
+          "hint": "Soğuk, düşük derecede ısıya sahip."
+        },
+        {
+          "word": "WARM",
+          "hint": "Ilık, ne çok sıcak ne de çok soğuk."
+        },
+        {
+          "word": "COOL",
+          "hint": "Serin, biraz soğuk."
+        },
+        {
+          "word": "RAIN",
+          "hint": "Yağmur, gökyüzünden su damlaları halinde düşen."
+        },
+        {
+          "word": "SNOW",
+          "hint": "Kar, gökyüzünden beyaz ve soğuk parçacıklar halinde düşen."
+        },
+        {
+          "word": "WIND",
+          "hint": "Rüzgar, havada hareket eden hava akımı."
+        },
+        {
+          "word": "CLOUD",
+          "hint": "Bulut, gökyüzündeki su buharı topluluğu."
+        },
+        {
+          "word": "SUN",
+          "hint": "Güneş, dünyamızı ısıtan ve aydınlatan yıldız."
+        },
+        {
+          "word": "RAINBOW",
+          "hint": "Gökkuşağı, yağmurdan sonra gökyüzünde görünen renkli yay."
+        },
+        {
+          "word": "LIGHTNING",
+          "hint": "Şimşek, fırtınada gökyüzünde oluşan parlak ışık."
+        },
+        {
+          "word": "THUNDER",
+          "hint": "Gök gürültüsü, şimşekten sonra duyulan yüksek ses."
+        },
+        {
+          "word": "FOG",
+          "hint": "Sis, havada asılı duran küçük su damlacıklarından oluşan yoğun bulut."
+        },
+        {
+          "word": "ICE",
+          "hint": "Buz, donmuş su."
+        },
+        {
+          "word": "HAIL",
+          "hint": "Dolu, gökyüzünden düşen küçük buz topları."
+        },
+        {
+          "word": "STORM",
+          "hint": "Fırtına, şiddetli rüzgar ve yağmur veya kar içeren hava olayı."
+        },
+        {
+          "word": "JACKET",
+          "hint": "Ceket, soğuk havada giyilen üst giysisi."
+        },
+        {
+          "word": "COAT",
+          "hint": "Palto, cekete benzer, daha kalın ve uzun dış giysi."
+        },
+        {
+          "word": "UMBRELLA",
+          "hint": "Şemsiye, yağmurdan korunmak için kullanılan araç."
+        },
+        {
+          "word": "RAINCOAT",
+          "hint": "Yağmurluk, su geçirmeyen palto."
+        },
+        {
+          "word": "GLOVES",
+          "hint": "Eldiven, elleri sıcak tutmak için giyilen."
+        },
+        {
+          "word": "SCARF",
+          "hint": "Atkı, boynu sıcak tutmak için kullanılan."
+        },
+        {
+          "word": "HAT",
+          "hint": "Şapka, başı güneşten veya soğuktan korumak için."
+        },
+        {
+          "word": "BOOTS",
+          "hint": "Bot, karda veya yağmurda giyilen dayanıklı ayakkabı."
+        },
+        {
+          "word": "SWEATER",
+          "hint": "Kazak, kışın giyilen kalın örme üst giysi."
+        },
+        {
+          "word": "T-SHIRT",
+          "hint": "Tişört, yazın giyilen kısa kollu üst giysi."
+        },
+        {
+          "word": "SHORTS",
+          "hint": "Şort, yazın giyilen kısa pantolon."
+        },
+        {
+          "word": "SUNGLASSES",
+          "hint": "Güneş gözlüğü, gözleri güneşin zararlı ışınlarından korumak için."
+        },
+        {
+          "word": "SPRING",
+          "hint": "İlkbahar, çiçeklerin açtığı, havanın ılındığı mevsim."
+        },
+        {
+          "word": "SUMMER",
+          "hint": "Yaz, en sıcak mevsim, genellikle tatil zamanı."
+        },
+        {
+          "word": "AUTUMN",
+          "hint": "Sonbahar, yaprakların döküldüğü, havanın serinlediği mevsim."
+        },
+        {
+          "word": "WINTER",
+          "hint": "Kış, en soğuk mevsim, kar yağabilir."
+        },
+        {
+          "word": "SKY",
+          "hint": "Gökyüzü, üzerinde bulutların, güneşin, yıldızların olduğu yer."
+        },
+        {
+          "word": "BREEZE",
+          "hint": "Meltem, hafif ve tatlı esen rüzgar."
+        },
+        {
+          "word": "SEASON",
+          "hint": "Mevsim, yılın dört ana bölümünden her biri (ilkbahar, yaz, sonbahar, kış)."
+        },
+        {
+          "word": "WHAT'S THE WEATHER LIKE?",
+          "hint": "Hava nasıl? Hava durumunu sormak için kullanılan ifade."
+        },
+        {
+          "word": "IT'S RAINING.",
+          "hint": "Yağmur yağıyor."
+        },
+        {
+          "word": "IT'S SNOWING.",
+          "hint": "Kar yağıyor."
+        },
+        {
+          "word": "IT'S SUNNY.",
+          "hint": "Hava güneşli."
+        },
+        {
+          "word": "TEMPERATURE",
+          "hint": "Sıcaklık, havanın ne kadar sıcak veya soğuk olduğunu gösteren ölçü."
+        },
+        {
+          "word": "DEGREE",
+          "hint": "Derece, sıcaklık ölçüm birimi (örneğin 20 derece)."
+        },
+        {
+          "word": "WET",
+          "hint": "Islak, suyla kaplı veya su emmiş."
+        },
+        {
+          "word": "DRY",
+          "hint": "Kuru, üzerinde su olmayan."
+        },
+        {
+          "word": "TO MELT",
+          "hint": "Erimek, katı bir maddenin ısı etkisiyle sıvı hale gelmesi (kar, buz)."
+        },
+        {
+          "word": "TO SHINE",
+          "hint": "Parlamak, ışık saçmak (güneş veya yıldızlar için)."
+        },
+        {
+          "word": "CLEAR",
+          "hint": "Açık, bulutsuz veya sissiz gökyüzü."
+        },
+        {
+          "word": "FORECAST",
+          "hint": "Hava tahmini, gelecekteki hava durumu hakkında verilen bilgi."
+        },
+        {
+          "word": "CLIMATE",
+          "hint": "İklim, bir yerin uzun süreli genel hava durumu özellikleri."
+        },
+        {
+          "word": "SNOWFLAKE",
+          "hint": "Kar tanesi, küçük ve benzersiz kar kristali."
+        },
+        {
+          "word": "FROST",
+          "hint": "Don, çok soğuk havalarda bitkilerin veya yüzeylerin üzerinde oluşan ince buz tabakası."
+        },
+        {
+          "word": "PUDDLE",
+          "hint": "Su birikintisi, yağmurdan sonra yerde oluşan küçük su havuzu."
+        }
+      ]
     },
     {
       "id": "ingilizce_u10",
-      "name": "Unit 10: Animal Shelter and Nature",
+      "name": "Unit 10: Nature",
       "months": [
         6
       ],
-      "words": []
+      "words": [
+        {
+          "word": "SUN",
+          "hint": "Güneş"
+        },
+        {
+          "word": "MOON",
+          "hint": "Ay"
+        },
+        {
+          "word": "STAR",
+          "hint": "Yıldız"
+        },
+        {
+          "word": "SKY",
+          "hint": "Gökyüzü"
+        },
+        {
+          "word": "CLOUD",
+          "hint": "Bulut"
+        },
+        {
+          "word": "RAIN",
+          "hint": "Yağmur"
+        },
+        {
+          "word": "WIND",
+          "hint": "Rüzgar"
+        },
+        {
+          "word": "TREE",
+          "hint": "Ağaç"
+        },
+        {
+          "word": "FLOWER",
+          "hint": "Çiçek"
+        },
+        {
+          "word": "LEAF",
+          "hint": "Yaprak"
+        },
+        {
+          "word": "GRASS",
+          "hint": "Çim"
+        },
+        {
+          "word": "RIVER",
+          "hint": "Nehir"
+        },
+        {
+          "word": "LAKE",
+          "hint": "Göl"
+        },
+        {
+          "word": "MOUNTAIN",
+          "hint": "Dağ"
+        },
+        {
+          "word": "FOREST",
+          "hint": "Orman"
+        },
+        {
+          "word": "ROCK",
+          "hint": "Kaya"
+        },
+        {
+          "word": "SOIL",
+          "hint": "Toprak"
+        },
+        {
+          "word": "PLANT",
+          "hint": "Bitki"
+        },
+        {
+          "word": "SEED",
+          "hint": "Tohum"
+        },
+        {
+          "word": "ROOT",
+          "hint": "Kök"
+        },
+        {
+          "word": "BRANCH",
+          "hint": "Dal"
+        },
+        {
+          "word": "BIRD",
+          "hint": "Kuş"
+        },
+        {
+          "word": "FISH",
+          "hint": "Balık"
+        },
+        {
+          "word": "BUTTERFLY",
+          "hint": "Kelebek"
+        },
+        {
+          "word": "BEE",
+          "hint": "Arı"
+        },
+        {
+          "word": "ANT",
+          "hint": "Karınca"
+        },
+        {
+          "word": "SPIDER",
+          "hint": "Örümcek"
+        },
+        {
+          "word": "FROG",
+          "hint": "Kurbağa"
+        },
+        {
+          "word": "SNAKE",
+          "hint": "Yılan"
+        },
+        {
+          "word": "SQUIRREL",
+          "hint": "Sincap"
+        },
+        {
+          "word": "RABBIT",
+          "hint": "Tavşan"
+        },
+        {
+          "word": "FOX",
+          "hint": "Tilki"
+        },
+        {
+          "word": "DEER",
+          "hint": "Geyik"
+        },
+        {
+          "word": "BEAR",
+          "hint": "Ayı"
+        },
+        {
+          "word": "WOLF",
+          "hint": "Kurt"
+        },
+        {
+          "word": "OCEAN",
+          "hint": "Okyanus"
+        },
+        {
+          "word": "BEACH",
+          "hint": "Plaj, sahil"
+        },
+        {
+          "word": "ISLAND",
+          "hint": "Ada"
+        },
+        {
+          "word": "WATERFALL",
+          "hint": "Şelale"
+        },
+        {
+          "word": "RAINBOW",
+          "hint": "Gökkuşağı"
+        },
+        {
+          "word": "SNOW",
+          "hint": "Kar"
+        },
+        {
+          "word": "ICE",
+          "hint": "Buz"
+        },
+        {
+          "word": "PUDDLE",
+          "hint": "Su birikintisi"
+        },
+        {
+          "word": "MUD",
+          "hint": "Çamur"
+        },
+        {
+          "word": "STREAM",
+          "hint": "Dere, akarsu"
+        },
+        {
+          "word": "CAVE",
+          "hint": "Mağara"
+        },
+        {
+          "word": "HILL",
+          "hint": "Tepe"
+        },
+        {
+          "word": "POND",
+          "hint": "Gölet"
+        },
+        {
+          "word": "BUSH",
+          "hint": "Çalı"
+        },
+        {
+          "word": "ENVIRONMENT",
+          "hint": "Çevre"
+        },
+        {
+          "word": "RECYCLE",
+          "hint": "Geri dönüştürmek"
+        },
+        {
+          "word": "PROTECT",
+          "hint": "Korumak"
+        },
+        {
+          "word": "GROW",
+          "hint": "Büyümek (bitki)"
+        },
+        {
+          "word": "BLOOM",
+          "hint": "Çiçek açmak"
+        },
+        {
+          "word": "FLY",
+          "hint": "Uçmak"
+        },
+        {
+          "word": "SWIM",
+          "hint": "Yüzmek"
+        },
+        {
+          "word": "CLIMB",
+          "hint": "Tırmanmak"
+        },
+        {
+          "word": "DIG",
+          "hint": "Kazmak"
+        },
+        {
+          "word": "PLANT (VERB)",
+          "hint": "Ekmek, dikmek"
+        },
+        {
+          "word": "WATER (VERB)",
+          "hint": "Sulamak"
+        }
+      ]
     }
   ]
 }

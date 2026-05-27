@@ -2,489 +2,2101 @@
   "units": [
     {
       "id": "ingilizce_u1",
-      "name": "1. Ünite: Daily Routines",
+      "name": "Unit 1: Hello!",
       "months": [
         9
       ],
       "words": [
         {
-          "word": "BREAKFAST",
-          "hint": "Günün ilk öğünü, sabah yemeği"
+          "word": "HELLO",
+          "hint": "Merhaba"
         },
         {
-          "word": "SHOWER",
-          "hint": "Her gün yapılan temizlik, duş almak"
+          "word": "HI",
+          "hint": "Selam"
         },
         {
-          "word": "HOMEWORK",
-          "hint": "Okuldan sonra yapılan ev ödevi"
+          "word": "WELCOME",
+          "hint": "Hoş geldin"
         },
         {
-          "word": "SCHEDULE",
-          "hint": "Günlük yapılacaklar listesi, program"
+          "word": "NAME",
+          "hint": "İsim"
         },
         {
-          "word": "ROUTINE",
-          "hint": "Her gün tekrarlanan alışkanlıklar dizisi"
+          "word": "SURNAME",
+          "hint": "Soyisim"
         },
         {
-          "word": "UYANMAK",
-          "hint": "Sabahları yataktan kalkma eylemi."
+          "word": "COUNTRY",
+          "hint": "Ülke"
         },
         {
-          "word": "Gİ̇Yİ̇NMEK",
-          "hint": "Üzerine kıyafetler geçirme."
+          "word": "NATIONALITY",
+          "hint": "Uyruk"
         },
         {
-          "word": "YİKANMAK",
-          "hint": "Vücudu temizlemek için su ve sabun kullanmak."
+          "word": "LANGUAGE",
+          "hint": "Dil"
         },
         {
-          "word": "SAÇ TARAMAK",
-          "hint": "Saçları düzeltme ve düzenleme işlemi."
+          "word": "STUDENT",
+          "hint": "Öğrenci"
         },
         {
-          "word": "Dİ̇Ş FİRÇALAMAK",
-          "hint": "Ağız ve diş sağlığı için yapılan temizlik."
+          "word": "TEACHER",
+          "hint": "Öğretmen"
         },
         {
-          "word": "YEMEK",
-          "hint": "Beslenmek için ağızdan alınan yiyecek."
+          "word": "SCHOOL",
+          "hint": "Okul"
         },
         {
-          "word": "KAHVALTİ",
-          "hint": "Sabahları yapılan ilk öğün."
+          "word": "CLASS",
+          "hint": "Sınıf"
         },
         {
-          "word": "ÖĞLE YEMEĞİ̇",
-          "hint": "Gün ortasında yenilen ana öğün."
+          "word": "FRIEND",
+          "hint": "Arkadaş"
         },
         {
-          "word": "AKŞAM YEMEĞİ̇",
-          "hint": "Günün son büyük öğünü."
+          "word": "MEET",
+          "hint": "Tanışmak"
         },
         {
-          "word": "SÜT",
-          "hint": "Beyaz, besleyici içecek."
+          "word": "NICE TO MEET YOU",
+          "hint": "Tanıştığımıza memnun oldum"
         },
         {
-          "word": "EKMEK",
-          "hint": "Un, su ve maya ile yapılan temel gıda."
+          "word": "HOW ARE YOU",
+          "hint": "Nasılsın"
         },
         {
-          "word": "TABAĞİ",
-          "hint": "Yemek yediğimiz kap."
+          "word": "FINE",
+          "hint": "İyi"
         },
         {
-          "word": "BARDAK",
-          "hint": "İçecek içtiğimiz kap."
+          "word": "GOOD",
+          "hint": "İyi"
         },
         {
-          "word": "ÇATAL",
-          "hint": "Yemek yemek için kullanılan metal araç."
+          "word": "GREAT",
+          "hint": "Harika"
         },
         {
-          "word": "KAŞİK",
-          "hint": "Çorba veya yoğurt gibi şeyleri yemek için kullanılır."
+          "word": "HAPPY",
+          "hint": "Mutlu"
         },
         {
-          "word": "BİÇAK",
-          "hint": "Yiyecekleri kesmeye yarayan alet."
+          "word": "BAD",
+          "hint": "Kötü"
         },
         {
-          "word": "OKUL",
-          "hint": "Bilgi öğrendiğimiz yer."
+          "word": "OLD",
+          "hint": "Eski veya yaşlı"
         },
         {
-          "word": "SİNİF",
-          "hint": "Okulda ders yaptığımız oda."
+          "word": "YOUNG",
+          "hint": "Genç"
         },
         {
-          "word": "DERS Kİ̇TABİ",
-          "hint": "Öğrenmek için okuduğumuz kitap."
+          "word": "AGE",
+          "hint": "Yaş"
         },
         {
-          "word": "SÖZLÜK",
-          "hint": "Kelime anlamlarını bulduğumuz kitap."
+          "word": "COUNT",
+          "hint": "Saymak"
         },
         {
-          "word": "SİRA",
-          "hint": "Okulda oturduğumuz yer."
+          "word": "NUMBER",
+          "hint": "Sayı"
         },
         {
-          "word": "Sİ̇LGİ̇",
-          "hint": "Kalemle yazdığımız hataları yok eden araç."
+          "word": "LISTEN",
+          "hint": "Dinlemek"
         },
         {
-          "word": "KALEMTRAŞ",
-          "hint": "Kalemin ucunu açmaya yarayan alet."
+          "word": "SPEAK",
+          "hint": "Konuşmak"
         },
         {
-          "word": "SİRT ÇANTASİ",
-          "hint": "Okul eşyalarımızı taşıdığımız çanta."
+          "word": "WRITE",
+          "hint": "Yazmak"
         },
         {
-          "word": "OYUN OYNAMAK",
-          "hint": "Eğlenmek için yapılan aktivite."
+          "word": "READ",
+          "hint": "Okumak"
         },
         {
-          "word": "TV İ̇ZLEMEK",
-          "hint": "Ekrandan hareketli görüntüler seyretmek."
+          "word": "LOOK",
+          "hint": "Bakmak"
         },
         {
-          "word": "Kİ̇TAP OKUMAK",
-          "hint": "Yazıları takip ederek bilgi edinmek."
+          "word": "REPEAT",
+          "hint": "Tekrar etmek"
         },
         {
-          "word": "MÜZİ̇K Dİ̇NLEMEK",
-          "hint": "Seslerden oluşan hoşnutluk verici uyarıcıları duymak."
+          "word": "AGAIN",
+          "hint": "Tekrar"
         },
         {
-          "word": "UYUMAK",
-          "hint": "Dinlenmek için gözleri kapatıp hareketsiz kalmak."
+          "word": "PLEASE",
+          "hint": "Lütfen"
         },
         {
-          "word": "YATAK",
-          "hint": "Üzerinde uyuduğumuz eşya."
+          "word": "SORRY",
+          "hint": "Üzgünüm"
         },
         {
-          "word": "Pİ̇JAMA",
-          "hint": "Uyurken giyilen rahat kıyafet."
+          "word": "EXCUSE ME",
+          "hint": "Affedersiniz"
         },
         {
-          "word": "ÖRTMEMEK",
-          "hint": "Üzerine bir şey örtmek."
+          "word": "THANK YOU",
+          "hint": "Teşekkür ederim"
         },
         {
-          "word": "YASTİK",
-          "hint": "Başımızı koyduğumuz yumuşak eşya."
+          "word": "GOODBYE",
+          "hint": "Hoşça kal"
         },
         {
-          "word": "ELBİ̇SE",
-          "hint": "Giysi, kıyafet."
+          "word": "SEE YOU",
+          "hint": "Görüşürüz"
         },
         {
-          "word": "AYAKKABİ",
-          "hint": "Ayaklarımıza giydiğimiz koruyucu eşya."
+          "word": "TURKEY",
+          "hint": "Türkiye"
         },
         {
-          "word": "ÇORAP",
-          "hint": "Ayaklarımıza giydiğimiz kumaş."
+          "word": "TURKISH",
+          "hint": "Türkçe veya Türk"
         },
         {
-          "word": "SAAT",
-          "hint": "Zamanı gösteren alet."
+          "word": "ENGLISH",
+          "hint": "İngilizce veya İngiliz"
         },
         {
-          "word": "GÜNDÜZ",
-          "hint": "Güneşin aydınlattığı zaman."
+          "word": "GERMANY",
+          "hint": "Almanya"
         },
         {
-          "word": "GECE",
-          "hint": "Güneşin olmadığı karanlık zaman."
+          "word": "GERMAN",
+          "hint": "Almanca veya Alman"
         },
         {
-          "word": "PAZARTESİ̇",
-          "hint": "Haftanın ilk günü."
+          "word": "FRANCE",
+          "hint": "Fransa"
         },
         {
-          "word": "SALİ",
-          "hint": "Haftanın ikinci günü."
+          "word": "FRENCH",
+          "hint": "Fransızca veya Fransız"
         },
         {
-          "word": "ÇARŞAMBA",
-          "hint": "Haftanın ortasındaki gün."
+          "word": "ITALY",
+          "hint": "İtalya"
         },
         {
-          "word": "PERŞEMBE",
-          "hint": "Haftanın dördüncü günü."
+          "word": "ITALIAN",
+          "hint": "İtalyanca veya İtalyan"
         },
         {
-          "word": "CUMA",
-          "hint": "Haftanın beşinci günü."
+          "word": "SPAIN",
+          "hint": "İspanya"
         },
         {
-          "word": "CUMARTESİ̇",
-          "hint": "Haftanın altıncı günü, okul olmayan gün."
-        },
-        {
-          "word": "PAZAR",
-          "hint": "Haftanın yedinci günü, dinlenme günü."
+          "word": "SPANISH",
+          "hint": "İspanyolca veya İspanyol"
         }
       ]
     },
     {
       "id": "ingilizce_u2",
-      "name": "2. Ünite: Hobbies",
+      "name": "Unit 2: My Town",
       "months": [
         10
       ],
       "words": [
         {
-          "word": "PAINTING",
-          "hint": "Boya ve fırça ile resim yapma hobisi"
+          "word": "TOWN",
+          "hint": "Kasaba, şehir merkezi"
         },
         {
-          "word": "CYCLING",
-          "hint": "Bisiklet sürme etkinliği"
+          "word": "CITY",
+          "hint": "Şehir"
         },
         {
-          "word": "READING",
-          "hint": "Kitap veya dergi okuma hobisi"
+          "word": "NEIGHBORHOOD",
+          "hint": "Mahalle"
         },
         {
-          "word": "FISHING",
-          "hint": "Olta ile balık tutma etkinliği"
+          "word": "STREET",
+          "hint": "Cadde, sokak"
         },
         {
-          "word": "CAMPING",
-          "hint": "Doğada çadır kurarak vakit geçirme"
+          "word": "LIBRARY",
+          "hint": "Kütüphane"
         },
         {
-          "word": "MÜZİ̇K Dİ̇NLEMEK",
-          "hint": "Kulaklıkla veya hoparlörden melodileri duymak"
+          "word": "HOSPITAL",
+          "hint": "Hastane"
         },
         {
-          "word": "FOTOĞRAF ÇEKMEK",
-          "hint": "Anıları yakalamak için kamerayı kullanmak"
+          "word": "PHARMACY",
+          "hint": "Eczane"
         },
         {
-          "word": "BAHÇECİ̇Lİ̇K",
-          "hint": "Bitkileri büyütmek ve onlara bakmak"
+          "word": "BAKERY",
+          "hint": "Fırın"
         },
         {
-          "word": "YEMEK YAPMAK",
-          "hint": "Lezzetli yiyecekler hazırlama sanatı"
+          "word": "MUSEUM",
+          "hint": "Müze"
         },
         {
-          "word": "YÜZME",
-          "hint": "Suda ilerlemek ve serinlemek"
+          "word": "BANK",
+          "hint": "Banka"
         },
         {
-          "word": "DANS ETMEK",
-          "hint": "Müzikle ritmik hareketler yapmak"
+          "word": "POST OFFICE",
+          "hint": "Postane"
         },
         {
-          "word": "OYUN OYNAMAK",
-          "hint": "Eğlenceli aktivitelerle vakit geçirmek (bilgisayar oyunu, kutu oyunu vb.)"
+          "word": "POLICE STATION",
+          "hint": "Polis merkezi"
         },
         {
-          "word": "ARABA YARİŞİ",
-          "hint": "Hızlı araçlarla yapılan bir yarışma"
+          "word": "FIRE STATION",
+          "hint": "İtfaiye merkezi"
         },
         {
-          "word": "Bİ̇Sİ̇KLETE Bİ̇NMEK",
-          "hint": "İki tekerlekli bir araçla gezinmek"
+          "word": "SUPERMARKET",
+          "hint": "Süpermarket"
         },
         {
-          "word": "SATRANÇ OYNAMAK",
-          "hint": "Zeka gerektiren strateji oyunu"
+          "word": "SHOPPING MALL",
+          "hint": "Alışveriş merkezi"
         },
         {
-          "word": "TELLİ̇ ÇALGİ ÇALMAK",
-          "hint": "Gitar, keman gibi enstrümanları çalmak"
+          "word": "CINEMA",
+          "hint": "Sinema"
         },
         {
-          "word": "NEFESLİ̇ ÇALGİ ÇALMAK",
-          "hint": "Flüt, trompet gibi aletlerle melodi üretmek"
+          "word": "PARK",
+          "hint": "Park"
         },
         {
-          "word": "YAZMA",
-          "hint": "Hikaye, şiir gibi metinler oluşturmak"
+          "word": "PLAYGROUND",
+          "hint": "Oyun parkı"
         },
         {
-          "word": "Çİ̇Zİ̇M YAPMAK",
-          "hint": "Kağıt üzerine şekiller ve resimler oluşturmak"
+          "word": "CAFE",
+          "hint": "Kafe"
         },
         {
-          "word": "VOLEYBOL OYNAMAK",
-          "hint": "File üzerinden topu karşılıklı atma oyunu"
+          "word": "RESTAURANT",
+          "hint": "Restoran"
         },
         {
-          "word": "BASKETBOL OYNAMAK",
-          "hint": "Topu çemberden geçirme spor dalı"
+          "word": "SCHOOL",
+          "hint": "Okul"
         },
         {
-          "word": "FUTBOL OYNAMAK",
-          "hint": "Ayakla topu kaleye gönderme oyunu"
+          "word": "MOSQUE",
+          "hint": "Cami"
         },
         {
-          "word": "TİYATRO İ̇ZLEMEK",
-          "hint": "Sahnedeki oyuncuları izlemek"
+          "word": "BRIDGE",
+          "hint": "Köprü"
         },
         {
-          "word": "SİNEMA İ̇ZLEMEK",
-          "hint": "Büyük perdede film seyretmek"
+          "word": "TRAFFIC LIGHT",
+          "hint": "Trafik ışığı"
         },
         {
-          "word": "KİTAP OKUMAK",
-          "hint": "Sayfalar arasındaki bilgileri ve öyküleri keşfetmek"
+          "word": "CROSSWALK",
+          "hint": "Yaya geçidi"
         },
         {
-          "word": "TIRMANIŞ",
-          "hint": "Yüksek yerlere çıkma aktivitesi"
+          "word": "NEAR",
+          "hint": "Yakınında"
         },
         {
-          "word": "KAYAK YAPMAK",
-          "hint": "Kar üzerinde kayma sporu"
+          "word": "NEXT TO",
+          "hint": "Bitişiğinde, yanında"
         },
         {
-          "word": "BUZ PATENİ",
-          "hint": "Buz üzerinde kayma ayakkabılarıyla yapılan aktivite"
+          "word": "OPPOSITE",
+          "hint": "Karşısında"
         },
         {
-          "word": "KUKLA OYUNU",
-          "hint": "Elle veya iple yönetilen karakterlerle oynanan oyun"
+          "word": "BETWEEN",
+          "hint": "Arasında"
         },
         {
-          "word": "HEYKEL YAPMAK",
-          "hint": "Kil veya benzeri malzemelerle üç boyutlu şekiller oluşturmak"
+          "word": "BEHIND",
+          "hint": "Arkasında"
         },
         {
-          "word": "MOZAİK YAPMAK",
-          "hint": "Küçük renkli taşlarla desen oluşturma"
+          "word": "IN FRONT OF",
+          "hint": "Önünde"
         },
         {
-          "word": "ORİGAMİ",
-          "hint": "Kağıdı katlayarak şekiller yapma sanatı"
+          "word": "ON THE CORNER",
+          "hint": "Köşede"
         },
         {
-          "word": "MODEL UÇAK YAPIMI",
-          "hint": "Maket uçakları birleştirme ve boyama"
+          "word": "LEFT",
+          "hint": "Sol"
         },
         {
-          "word": "PUL KOLEKSİYONCULUĞU",
-          "hint": "Farklı ülkelerin posta pullarını toplama"
+          "word": "RIGHT",
+          "hint": "Sağ"
         },
         {
-          "word": "PARA KOLEKSİYONCULUĞU",
-          "hint": "Farklı ülkelerin paralarını biriktirme"
+          "word": "STRAIGHT",
+          "hint": "Dümdüz"
         },
         {
-          "word": "TARİHİ MEKANLARI GEZMEK",
-          "hint": "Geçmişten kalan yapıları ve yerleri ziyaret etmek"
+          "word": "GO PAST",
+          "hint": "Önünden geçmek"
         },
         {
-          "word": "DOĞA YÜRÜYÜŞÜ",
-          "hint": "Ormanlık veya dağlık alanlarda yürüme"
+          "word": "TURN LEFT",
+          "hint": "Sola dön"
         },
         {
-          "word": "SIRT ÇANTASIYLA GEZMEK",
-          "hint": "Yanına eşyalarını alıp uzun süreli seyahat etmek"
+          "word": "TURN RIGHT",
+          "hint": "Sağa dön"
         },
         {
-          "word": "BALE YAPMAK",
-          "hint": "Klasik müzik eşliğinde zarif dans figürleri"
+          "word": "WHERE",
+          "hint": "Nerede"
         },
         {
-          "word": "HALK OYUNLARI",
-          "hint": "Belirli bir yörenin geleneksel dansları"
+          "word": "MAP",
+          "hint": "Harita"
         },
         {
-          "word": "SÖRF YAPMAK",
-          "hint": "Dalgaların üzerinde tahta ile kayma"
+          "word": "DIRECTION",
+          "hint": "Yön"
         },
         {
-          "word": "KÜREK ÇEKMEK",
-          "hint": "Botu veya tekneyi küreklerle ilerletmek"
+          "word": "PATH",
+          "hint": "Yol, patika"
         },
         {
-          "word": "RAFTİNG",
-          "hint": "Raft denilen botlarla hızlı nehirlerde ilerlemek"
+          "word": "BUILDING",
+          "hint": "Bina"
         },
         {
-          "word": "MEKTUP YAZMAK",
-          "hint": "El yazısıyla düşünceleri kağıda dökmek"
+          "word": "QUIET",
+          "hint": "Sessiz"
         },
         {
-          "word": "TIRMANMA DUVARI",
-          "hint": "Yapısal olarak tırmanışa uygun duvar"
+          "word": "CROWDED",
+          "hint": "Kalabalık"
         },
         {
-          "word": "KUŞ GÖZLEMCİLİĞİ",
-          "hint": "Farklı kuş türlerini izleme ve tanıma"
+          "word": "SAFE",
+          "hint": "Güvenli"
         },
         {
-          "word": "ARKEOLOJİ",
-          "hint": "Kazı yaparak geçmişi araştırma bilimi"
+          "word": "EXPENSIVE",
+          "hint": "Pahalı"
         },
         {
-          "word": "ASTRONOMİ",
-          "hint": "Uzaydaki gök cisimlerini inceleme bilimi"
+          "word": "CHEAP",
+          "hint": "Ucuz"
         },
         {
-          "word": "FOSFORLU KALEMLE BOYAMA",
-          "hint": "Parlak renkli boyalarla resim yapma"
+          "word": "BUS STOP",
+          "hint": "Otobüs durağı"
         },
         {
-          "word": "SICAK HAVA BALONU",
-          "hint": "Büyük bir balonla gökyüzünde süzülme"
+          "word": "TRAIN STATION",
+          "hint": "Tren istasyonu"
         }
       ]
     },
     {
       "id": "ingilizce_u3",
-      "name": "Unit 3: In the Classroom",
+      "name": "Unit 3: Games and Hobbies",
       "months": [
         11
       ],
-      "words": []
+      "words": [
+        {
+          "word": "GAME",
+          "hint": "Oyun"
+        },
+        {
+          "word": "HOBBY",
+          "hint": "Hobi, boş zaman uğraşı"
+        },
+        {
+          "word": "CHESS",
+          "hint": "Satranç"
+        },
+        {
+          "word": "CHECKERS",
+          "hint": "Dama"
+        },
+        {
+          "word": "HIDE AND SEEK",
+          "hint": "Saklambaç"
+        },
+        {
+          "word": "BLIND MAN'S BUFF",
+          "hint": "Körebe"
+        },
+        {
+          "word": "HOP SCOTCH",
+          "hint": "Seksek"
+        },
+        {
+          "word": "TAG",
+          "hint": "Ebelemece"
+        },
+        {
+          "word": "MARBLE",
+          "hint": "Misket"
+        },
+        {
+          "word": "PUZZLE",
+          "hint": "Yapboz"
+        },
+        {
+          "word": "JIGSAW PUZZLE",
+          "hint": "Parçalı yapboz"
+        },
+        {
+          "word": "RABBIT",
+          "hint": "Tavşan"
+        },
+        {
+          "word": "DOLL",
+          "hint": "Oyuncak bebek"
+        },
+        {
+          "word": "TEDDY BEAR",
+          "hint": "Oyuncak ayı"
+        },
+        {
+          "word": "FLY A KITE",
+          "hint": "Uçurtma uçurmak"
+        },
+        {
+          "word": "PLAY",
+          "hint": "Oynamak"
+        },
+        {
+          "word": "COLLECT",
+          "hint": "Koleksiyon yapmak, toplamak"
+        },
+        {
+          "word": "STAMP",
+          "hint": "Posta pulu"
+        },
+        {
+          "word": "COIN",
+          "hint": "Madeni para"
+        },
+        {
+          "word": "DRAW",
+          "hint": "Resim çizmek"
+        },
+        {
+          "word": "PAINT",
+          "hint": "Boyamak"
+        },
+        {
+          "word": "READ",
+          "hint": "Okumak"
+        },
+        {
+          "word": "BOOK",
+          "hint": "Kitap"
+        },
+        {
+          "word": "STORY",
+          "hint": "Hikaye"
+        },
+        {
+          "word": "COMPUTER GAME",
+          "hint": "Bilgisayar oyunu"
+        },
+        {
+          "word": "SWIM",
+          "hint": "Yüzmek"
+        },
+        {
+          "word": "RIDE A BIKE",
+          "hint": "Bisiklete binmek"
+        },
+        {
+          "word": "SKI",
+          "hint": "Kayak yapmak"
+        },
+        {
+          "word": "ICE SKATING",
+          "hint": "Buz pateni"
+        },
+        {
+          "word": "SING",
+          "hint": "Şarkı söylemek"
+        },
+        {
+          "word": "DANCE",
+          "hint": "Dans etmek"
+        },
+        {
+          "word": "COOK",
+          "hint": "Yemek pişirmek"
+        },
+        {
+          "word": "LISTEN TO MUSIC",
+          "hint": "Müzik dinlemek"
+        },
+        {
+          "word": "WATCH TV",
+          "hint": "Televizyon izlemek"
+        },
+        {
+          "word": "PIANO",
+          "hint": "Piyano"
+        },
+        {
+          "word": "GUITAR",
+          "hint": "Gitar"
+        },
+        {
+          "word": "SOCCER",
+          "hint": "Futbol"
+        },
+        {
+          "word": "BASKETBALL",
+          "hint": "Basketbol"
+        },
+        {
+          "word": "VOLLEYBALL",
+          "hint": "Voleybol"
+        },
+        {
+          "word": "TENNIS",
+          "hint": "Tenis"
+        },
+        {
+          "word": "CAMPING",
+          "hint": "Kamp yapma"
+        },
+        {
+          "word": "FISHING",
+          "hint": "Balık tutma"
+        },
+        {
+          "word": "HIKING",
+          "hint": "Doğa yürüyüşü"
+        },
+        {
+          "word": "PHOTOGRAPHY",
+          "hint": "Fotoğrafçılık"
+        },
+        {
+          "word": "INTERESTING",
+          "hint": "İlginç"
+        },
+        {
+          "word": "BORING",
+          "hint": "Sıkıcı"
+        },
+        {
+          "word": "EASY",
+          "hint": "Kolay"
+        },
+        {
+          "word": "DIFFICULT",
+          "hint": "Zor"
+        },
+        {
+          "word": "SKILL",
+          "hint": "Yetenek"
+        },
+        {
+          "word": "FAVOURITE",
+          "hint": "En sevilen"
+        }
+      ]
     },
     {
       "id": "ingilizce_u4",
-      "name": "Unit 4: Numbers and Colors",
+      "name": "Unit 4: My Daily Routine",
       "months": [
         12
       ],
-      "words": []
+      "words": [
+        {
+          "word": "WAKE UP",
+          "hint": "Uyanmak"
+        },
+        {
+          "word": "GET UP",
+          "hint": "Yataktan kalkmak"
+        },
+        {
+          "word": "WASH HANDS AND FACE",
+          "hint": "Elini yüzünü yıkamak"
+        },
+        {
+          "word": "BRUSH TEETH",
+          "hint": "Diş fırçalamak"
+        },
+        {
+          "word": "HAVE BREAKFAST",
+          "hint": "Kahvaltı yapmak"
+        },
+        {
+          "word": "GET DRESSED",
+          "hint": "Giyinmek"
+        },
+        {
+          "word": "GO TO SCHOOL",
+          "hint": "Okula gitmek"
+        },
+        {
+          "word": "HAVE LESSONS",
+          "hint": "Ders işlemek"
+        },
+        {
+          "word": "HAVE LUNCH",
+          "hint": "Öğle yemeği yemek"
+        },
+        {
+          "word": "ARRIVE HOME",
+          "hint": "Eve varmak"
+        },
+        {
+          "word": "DO HOMEWORK",
+          "hint": "Ödev yapmak"
+        },
+        {
+          "word": "PLAY GAMES",
+          "hint": "Oyun oynamak"
+        },
+        {
+          "word": "HAVE A SNACK",
+          "hint": "Atıştırmalık yemek"
+        },
+        {
+          "word": "TAKE A NAP",
+          "hint": "Kısa süreli uyumak, şekerleme yapmak"
+        },
+        {
+          "word": "READ A BOOK",
+          "hint": "Kitap okumak"
+        },
+        {
+          "word": "WATCH TV",
+          "hint": "Televizyon izlemek"
+        },
+        {
+          "word": "HAVE DINNER",
+          "hint": "Akşam yemeği yemek"
+        },
+        {
+          "word": "GO TO BED",
+          "hint": "Yatağa gitmek"
+        },
+        {
+          "word": "SLEEP",
+          "hint": "Uyumak"
+        },
+        {
+          "word": "DAILY ROUTINE",
+          "hint": "Günlük rutin"
+        },
+        {
+          "word": "EVERY DAY",
+          "hint": "Her gün"
+        },
+        {
+          "word": "IN THE MORNING",
+          "hint": "Sabahleyin"
+        },
+        {
+          "word": "IN THE AFTERNOON",
+          "hint": "Öğleden sonra"
+        },
+        {
+          "word": "IN THE EVENING",
+          "hint": "Akşamleyin"
+        },
+        {
+          "word": "AT NIGHT",
+          "hint": "Geceleyin"
+        },
+        {
+          "word": "ALWAYS",
+          "hint": "Her zaman"
+        },
+        {
+          "word": "USUALLY",
+          "hint": "Genellikle"
+        },
+        {
+          "word": "SOMETIMES",
+          "hint": "Bazen"
+        },
+        {
+          "word": "NEVER",
+          "hint": "Asla"
+        },
+        {
+          "word": "O'CLOCK",
+          "hint": "Tam saatler için kullanılan ifade"
+        },
+        {
+          "word": "HALF PAST",
+          "hint": "Saatlerde buçuk"
+        },
+        {
+          "word": "QUARTER PAST",
+          "hint": "Saatlerde çeyrek geçiyor"
+        },
+        {
+          "word": "QUARTER TO",
+          "hint": "Saatlerde çeyrek var"
+        },
+        {
+          "word": "AFTER",
+          "hint": "Sonra"
+        },
+        {
+          "word": "BEFORE",
+          "hint": "Önce"
+        },
+        {
+          "word": "TIME",
+          "hint": "Zaman, vakit"
+        },
+        {
+          "word": "CLOCK",
+          "hint": "Duvar saati"
+        },
+        {
+          "word": "COMB HAIR",
+          "hint": "Saç taramak"
+        },
+        {
+          "word": "LISTEN TO MUSIC",
+          "hint": "Müzik dinlemek"
+        },
+        {
+          "word": "RIDE A BIKE",
+          "hint": "Bisiklete binmek"
+        },
+        {
+          "word": "VISIT GRANDPARENTS",
+          "hint": "Büyükanne ve büyükbabayı ziyaret etmek"
+        },
+        {
+          "word": "HELP PARENTS",
+          "hint": "Ebeveynlere yardım etmek"
+        },
+        {
+          "word": "TIDY THE ROOM",
+          "hint": "Odayı toplamak"
+        },
+        {
+          "word": "DO EXERCISE",
+          "hint": "Egzersiz yapmak"
+        },
+        {
+          "word": "STUDY ENGLISH",
+          "hint": "İngilizce çalışmak"
+        },
+        {
+          "word": "DRINK MILK",
+          "hint": "Süt içmek"
+        },
+        {
+          "word": "SET THE TABLE",
+          "hint": "Sofrayı kurmak"
+        },
+        {
+          "word": "REST",
+          "hint": "Dinlenmek"
+        },
+        {
+          "word": "LEAVE HOME",
+          "hint": "Evden ayrılmak"
+        },
+        {
+          "word": "LATE",
+          "hint": "Geç"
+        }
+      ]
     },
     {
       "id": "ingilizce_u5",
-      "name": "Unit 5: Toys and Games",
+      "name": "Unit 5: Health",
       "months": [
         1
       ],
-      "words": []
+      "words": [
+        {
+          "word": "HEALTHY",
+          "hint": "Sağlıklı"
+        },
+        {
+          "word": "ILL",
+          "hint": "Hasta"
+        },
+        {
+          "word": "COLD",
+          "hint": "Soğuk algınlığı, nezle"
+        },
+        {
+          "word": "FLU",
+          "hint": "Grip"
+        },
+        {
+          "word": "HEADACHE",
+          "hint": "Baş ağrısı"
+        },
+        {
+          "word": "STOMACHACHE",
+          "hint": "Karın ağrısı"
+        },
+        {
+          "word": "BACKACHE",
+          "hint": "Sırt ağrısı"
+        },
+        {
+          "word": "TOOTHACHE",
+          "hint": "Diş ağrısı"
+        },
+        {
+          "word": "SORE THROAT",
+          "hint": "Boğaz ağrısı"
+        },
+        {
+          "word": "COUGH",
+          "hint": "Öksürük"
+        },
+        {
+          "word": "FEVER",
+          "hint": "Ateş"
+        },
+        {
+          "word": "MEDICINE",
+          "hint": "İlaç"
+        },
+        {
+          "word": "REST",
+          "hint": "Dinlenmek"
+        },
+        {
+          "word": "DOCTOR",
+          "hint": "Doktor"
+        },
+        {
+          "word": "HOSPITAL",
+          "hint": "Hastane"
+        },
+        {
+          "word": "SHOULD",
+          "hint": "Gereklilik bildiren tavsiye yapısı (yapmalı/etmeli)"
+        },
+        {
+          "word": "NEED",
+          "hint": "İhtiyaç duymak"
+        },
+        {
+          "word": "GET WELL SOON",
+          "hint": "Geçmiş olsun"
+        },
+        {
+          "word": "BROKEN LEG",
+          "hint": "Kırık bacak"
+        },
+        {
+          "word": "TIRED",
+          "hint": "Yorgun"
+        },
+        {
+          "word": "TEMPERATURE",
+          "hint": "Vücut ısısı/ateş"
+        },
+        {
+          "word": "FEEL",
+          "hint": "Hissetmek"
+        },
+        {
+          "word": "PAIN",
+          "hint": "Ağrı, sızı"
+        },
+        {
+          "word": "CHECK UP",
+          "hint": "Kontrol, muayene"
+        },
+        {
+          "word": "HEALTHY FOOD",
+          "hint": "Sağlıklı yiyecek"
+        },
+        {
+          "word": "FRUIT",
+          "hint": "Meyve"
+        },
+        {
+          "word": "VEGETABLE",
+          "hint": "Sebze"
+        },
+        {
+          "word": "VITAMIN",
+          "hint": "Vitamin"
+        },
+        {
+          "word": "SNEEZE",
+          "hint": "Hapşırmak"
+        },
+        {
+          "word": "WEAK",
+          "hint": "Zayıf, güçsüz"
+        },
+        {
+          "word": "BETTER",
+          "hint": "Daha iyi"
+        },
+        {
+          "word": "TAKE A PILL",
+          "hint": "Hap almak"
+        },
+        {
+          "word": "STAY IN BED",
+          "hint": "Yatakta kalmak, istirahat etmek"
+        },
+        {
+          "word": "DRINK HERBAL TEA",
+          "hint": "Bitki çayı içmek"
+        },
+        {
+          "word": "WEAR THICK CLOTHES",
+          "hint": "Kalın kıyafetler giymek"
+        },
+        {
+          "word": "EXERCISE",
+          "hint": "Egzersiz yapmak"
+        },
+        {
+          "word": "SLEEP WELL",
+          "hint": "İyi uyumak"
+        },
+        {
+          "word": "WASH HANDS",
+          "hint": "Elleri yıkamak"
+        },
+        {
+          "word": "RUNNY NOSE",
+          "hint": "Burun akıntısı"
+        },
+        {
+          "word": "EARACHE",
+          "hint": "Kulak ağrısı"
+        },
+        {
+          "word": "PLASTER",
+          "hint": "Yara bandı/alçı"
+        },
+        {
+          "word": "CLINIC",
+          "hint": "Klinik, sağlık ocağı"
+        },
+        {
+          "word": "NURSE",
+          "hint": "Hemşire"
+        },
+        {
+          "word": "ADVICE",
+          "hint": "Tavsiye, öğüt"
+        },
+        {
+          "word": "RECOVERY",
+          "hint": "İyileşme"
+        },
+        {
+          "word": "ENERGY",
+          "hint": "Enerji"
+        },
+        {
+          "word": "BALANCED DIET",
+          "hint": "Dengeli beslenme"
+        },
+        {
+          "word": "FAST FOOD",
+          "hint": "Hazır yemek, ayaküstü yemek"
+        },
+        {
+          "word": "SYMPTOM",
+          "hint": "Belirti, semptom"
+        },
+        {
+          "word": "DENTIST",
+          "hint": "Diş hekimi"
+        }
+      ]
     },
     {
       "id": "ingilizce_u6",
-      "name": "Unit 6: My Body and Clothes",
+      "name": "Unit 6: Movies",
       "months": [
         2
       ],
-      "words": []
+      "words": [
+        {
+          "word": "MOVIE",
+          "hint": "Film - sinemada veya televizyonda izlenen hareketli görüntüler"
+        },
+        {
+          "word": "ACTION",
+          "hint": "Aksiyon - macera dolu hareketli film türü"
+        },
+        {
+          "word": "COMEDY",
+          "hint": "Komedi - insanları güldüren eğlenceli film türü"
+        },
+        {
+          "word": "CARTOON",
+          "hint": "Çizgi film - çizimlerle oluşturulmuş animasyon"
+        },
+        {
+          "word": "HORROR",
+          "hint": "Korku - insanları korkutan gerilimli film türü"
+        },
+        {
+          "word": "SCIENCE FICTION",
+          "hint": "Bilim kurgu - uzay ve teknoloji içeren hayali film türü"
+        },
+        {
+          "word": "FANTASY",
+          "hint": "Fantastik - büyü ve masalsı unsurlar içeren tür"
+        },
+        {
+          "word": "DOCUMENTARY",
+          "hint": "Belgesel - gerçek hayatı veya bilgileri anlatan film"
+        },
+        {
+          "word": "DRAMA",
+          "hint": "Dram - duygusal ve ciddi olayları işleyen tür"
+        },
+        {
+          "word": "ANIMATION",
+          "hint": "Animasyon - bilgisayar veya hareketli çizimlerle yapılan film"
+        },
+        {
+          "word": "THRILLER",
+          "hint": "Gerilim - heyecan ve merak uyandıran tür"
+        },
+        {
+          "word": "ROMANCE",
+          "hint": "Romantik - aşk hikayelerini anlatan tür"
+        },
+        {
+          "word": "ADVENTURE",
+          "hint": "Macera - keşif ve heyecan dolu yolculukları içeren tür"
+        },
+        {
+          "word": "CHARACTER",
+          "hint": "Karakter - filmdeki bir kişi veya rol"
+        },
+        {
+          "word": "DIRECTOR",
+          "hint": "Yönetmen - filmi yöneten ve hazırlayan kişi"
+        },
+        {
+          "word": "ACTOR",
+          "hint": "Erkek oyuncu"
+        },
+        {
+          "word": "ACTRESS",
+          "hint": "Kadın oyuncu"
+        },
+        {
+          "word": "SCREEN",
+          "hint": "Ekran - filmin yansıtıldığı yer"
+        },
+        {
+          "word": "TICKET",
+          "hint": "Bilet - sinemaya giriş için gerekli kağıt"
+        },
+        {
+          "word": "POPCORN",
+          "hint": "Patlamış mısır - film izlerken yenen atıştırmalık"
+        },
+        {
+          "word": "CINEMA",
+          "hint": "Sinema - film izlenen yer"
+        },
+        {
+          "word": "PLOT",
+          "hint": "Olay örgüsü - filmin konusu"
+        },
+        {
+          "word": "SCENE",
+          "hint": "Sahne - filmdeki kısa bölüm"
+        },
+        {
+          "word": "REVIEW",
+          "hint": "İnceleme - film hakkında yazılan eleştiri"
+        },
+        {
+          "word": "SUBTITLE",
+          "hint": "Altyazı - ekrandaki konuşmaların yazılı hali"
+        },
+        {
+          "word": "AUDIENCE",
+          "hint": "İzleyici - filmi seyreden grup"
+        },
+        {
+          "word": "FAVORITE",
+          "hint": "En sevilen"
+        },
+        {
+          "word": "BORED",
+          "hint": "Canı sıkılmış"
+        },
+        {
+          "word": "EXCITING",
+          "hint": "Heyecan verici"
+        },
+        {
+          "word": "FUNNY",
+          "hint": "Komik, eğlenceli"
+        },
+        {
+          "word": "FRIGHTENING",
+          "hint": "Korkutucu"
+        },
+        {
+          "word": "AMAZING",
+          "hint": "İnanılmaz, harika"
+        },
+        {
+          "word": "BORING",
+          "hint": "Sıkıcı"
+        },
+        {
+          "word": "INTERESTING",
+          "hint": "İlginç"
+        },
+        {
+          "word": "RELEASE",
+          "hint": "Vizyona girmek, yayınlamak"
+        },
+        {
+          "word": "ENDING",
+          "hint": "Bitiş, final"
+        },
+        {
+          "word": "BEGINNING",
+          "hint": "Başlangıç"
+        },
+        {
+          "word": "STORY",
+          "hint": "Hikaye"
+        },
+        {
+          "word": "PART",
+          "hint": "Bölüm, kısım"
+        },
+        {
+          "word": "WATCH",
+          "hint": "İzlemek"
+        },
+        {
+          "word": "SEE",
+          "hint": "Görmek"
+        },
+        {
+          "word": "RECOMMEND",
+          "hint": "Tavsiye etmek"
+        },
+        {
+          "word": "SOUND",
+          "hint": "Ses"
+        },
+        {
+          "word": "MUSIC",
+          "hint": "Müzik"
+        },
+        {
+          "word": "STAR",
+          "hint": "Yıldız, başrol oyuncusu"
+        },
+        {
+          "word": "AWARD",
+          "hint": "Ödül"
+        },
+        {
+          "word": "CROWDED",
+          "hint": "Kalabalık"
+        },
+        {
+          "word": "FREE",
+          "hint": "Ücretsiz, boş zaman"
+        },
+        {
+          "word": "TONIGHT",
+          "hint": "Bu gece"
+        },
+        {
+          "word": "WHY",
+          "hint": "Neden, niçin"
+        }
+      ]
     },
     {
       "id": "ingilizce_u7",
-      "name": "Unit 7: Pets and Animals",
+      "name": "Unit 7: Party Time",
       "months": [
         3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "PARTY",
+          "hint": "Parti, eğlence"
+        },
+        {
+          "word": "BIRTHDAY",
+          "hint": "Doğum günü"
+        },
+        {
+          "word": "INVITATION",
+          "hint": "Davetiye"
+        },
+        {
+          "word": "BALLOON",
+          "hint": "Balon"
+        },
+        {
+          "word": "CAKE",
+          "hint": "Pasta"
+        },
+        {
+          "word": "GIFT",
+          "hint": "Hediye"
+        },
+        {
+          "word": "PRESENT",
+          "hint": "Hediye (armağan)"
+        },
+        {
+          "word": "DECORATION",
+          "hint": "Süsleme"
+        },
+        {
+          "word": "CANDLE",
+          "hint": "Mum"
+        },
+        {
+          "word": "GUEST",
+          "hint": "Misafir, davetli"
+        },
+        {
+          "word": "CELEBRATION",
+          "hint": "Kutlama"
+        },
+        {
+          "word": "INVITE",
+          "hint": "Davet etmek"
+        },
+        {
+          "word": "DRINK",
+          "hint": "İçecek"
+        },
+        {
+          "word": "BEVERAGE",
+          "hint": "İçecek türü"
+        },
+        {
+          "word": "SNACK",
+          "hint": "Atıştırmalık"
+        },
+        {
+          "word": "COSTUME",
+          "hint": "Kostüm"
+        },
+        {
+          "word": "MUSIC",
+          "hint": "Müzik"
+        },
+        {
+          "word": "DANCE",
+          "hint": "Dans etmek"
+        },
+        {
+          "word": "BANNER",
+          "hint": "Pankart, afiş"
+        },
+        {
+          "word": "CONFETTI",
+          "hint": "Konfeti"
+        },
+        {
+          "word": "HAPPY",
+          "hint": "Mutlu"
+        },
+        {
+          "word": "EXCITED",
+          "hint": "Heyecanlı"
+        },
+        {
+          "word": "SURPRISE",
+          "hint": "Sürpriz"
+        },
+        {
+          "word": "PLAN",
+          "hint": "Plan yapmak"
+        },
+        {
+          "word": "PREPARE",
+          "hint": "Hazırlamak"
+        },
+        {
+          "word": "FOOD",
+          "hint": "Yiyecek"
+        },
+        {
+          "word": "STREAMER",
+          "hint": "Süs şeridi"
+        },
+        {
+          "word": "PARTY HAT",
+          "hint": "Parti şapkası"
+        },
+        {
+          "word": "INVITE CARD",
+          "hint": "Davetiye kartı"
+        },
+        {
+          "word": "GUEST LIST",
+          "hint": "Davetli listesi"
+        },
+        {
+          "word": "ARRANGE",
+          "hint": "Düzenlemek"
+        },
+        {
+          "word": "HOST",
+          "hint": "Ev sahibi"
+        },
+        {
+          "word": "ENTERTAIN",
+          "hint": "Eğlendirmek"
+        },
+        {
+          "word": "FUN",
+          "hint": "Eğlence"
+        },
+        {
+          "word": "TOGETHER",
+          "hint": "Birlikte"
+        },
+        {
+          "word": "CELEBRATE",
+          "hint": "Kutlamak"
+        },
+        {
+          "word": "SEND",
+          "hint": "Göndermek (davetiye gibi)"
+        },
+        {
+          "word": "ACCEPT",
+          "hint": "Kabul etmek"
+        },
+        {
+          "word": "REFUSE",
+          "hint": "Reddetmek"
+        },
+        {
+          "word": "REASON",
+          "hint": "Sebep, neden"
+        },
+        {
+          "word": "EXCUSE",
+          "hint": "Mazeret"
+        },
+        {
+          "word": "BUSY",
+          "hint": "Meşgul"
+        },
+        {
+          "word": "MAYBE",
+          "hint": "Belki"
+        },
+        {
+          "word": "SURE",
+          "hint": "Elbette, kesinlikle"
+        },
+        {
+          "word": "AFTERNOON",
+          "hint": "Öğleden sonra"
+        },
+        {
+          "word": "EVENING",
+          "hint": "Akşam"
+        },
+        {
+          "word": "TIME",
+          "hint": "Zaman, saat"
+        },
+        {
+          "word": "DATE",
+          "hint": "Tarih"
+        },
+        {
+          "word": "PLACE",
+          "hint": "Yer, mekan"
+        },
+        {
+          "word": "DELICIOUS",
+          "hint": "Lezzetli - tadı çok güzel olan yiyecekler için kullanılır"
+        },
+        {
+          "word": "CLOWN",
+          "hint": "Palyaço - partilerde çocukları eğlendiren komik kostümlü kişi"
+        },
+        {
+          "word": "ENJOY",
+          "hint": "Keyif almak - bir şeyden hoşlanmak ve eğlenmek"
+        }
+      ]
     },
     {
       "id": "ingilizce_u8",
-      "name": "Unit 8: My Daily Routine",
+      "name": "Unit 8: Fitness",
       "months": [
         4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "FITNESS",
+          "hint": "Zindelik, sağlık ve formda olma durumu"
+        },
+        {
+          "word": "EXERCISE",
+          "hint": "Egzersiz yapmak, spor yapmak"
+        },
+        {
+          "word": "JOGGING",
+          "hint": "Hafif tempolu koşu"
+        },
+        {
+          "word": "SWIMMING",
+          "hint": "Yüzme sporu"
+        },
+        {
+          "word": "CYCLING",
+          "hint": "Bisiklete binme"
+        },
+        {
+          "word": "DO YOGA",
+          "hint": "Yoga yapmak"
+        },
+        {
+          "word": "PLAY BASKETBALL",
+          "hint": "Basketbol oynamak"
+        },
+        {
+          "word": "PLAY FOOTBALL",
+          "hint": "Futbol oynamak"
+        },
+        {
+          "word": "PLAY TENNIS",
+          "hint": "Tenis oynamak"
+        },
+        {
+          "word": "DO KARATE",
+          "hint": "Karate yapmak"
+        },
+        {
+          "word": "STRETCH",
+          "hint": "Esneme hareketleri yapmak"
+        },
+        {
+          "word": "HEALTHY",
+          "hint": "Sağlıklı"
+        },
+        {
+          "word": "UNHEALTHY",
+          "hint": "Sağlıksız"
+        },
+        {
+          "word": "TRAINING",
+          "hint": "Antrenman"
+        },
+        {
+          "word": "ACTIVITY",
+          "hint": "Aktivite, etkinlik"
+        },
+        {
+          "word": "JOIN",
+          "hint": "Katılmak"
+        },
+        {
+          "word": "WIN",
+          "hint": "Kazanmak"
+        },
+        {
+          "word": "LOSE",
+          "hint": "Kaybetmek"
+        },
+        {
+          "word": "MATCH",
+          "hint": "Maç, karşılaşma"
+        },
+        {
+          "word": "TEAM",
+          "hint": "Takım, ekip"
+        },
+        {
+          "word": "PLAYER",
+          "hint": "Oyuncu"
+        },
+        {
+          "word": "GYM",
+          "hint": "Spor salonu"
+        },
+        {
+          "word": "COURT",
+          "hint": "Basketbol veya tenis sahası"
+        },
+        {
+          "word": "FIELD",
+          "hint": "Futbol sahası veya tarla"
+        },
+        {
+          "word": "SPORT",
+          "hint": "Spor"
+        },
+        {
+          "word": "ENERGY",
+          "hint": "Enerji"
+        },
+        {
+          "word": "STRONG",
+          "hint": "Güçlü"
+        },
+        {
+          "word": "FAST",
+          "hint": "Hızlı"
+        },
+        {
+          "word": "SLOW",
+          "hint": "Yavaş"
+        },
+        {
+          "word": "BALL",
+          "hint": "Top"
+        },
+        {
+          "word": "RACKET",
+          "hint": "Raket"
+        },
+        {
+          "word": "SCORE",
+          "hint": "Skor, sayı"
+        },
+        {
+          "word": "COMPETITION",
+          "hint": "Yarışma, müsabaka"
+        },
+        {
+          "word": "FIT",
+          "hint": "Formda"
+        },
+        {
+          "word": "HIKING",
+          "hint": "Doğa yürüyüşü"
+        },
+        {
+          "word": "SKATING",
+          "hint": "Paten kayma"
+        },
+        {
+          "word": "ICE SKATING",
+          "hint": "Buz pateni"
+        },
+        {
+          "word": "RUNNING",
+          "hint": "Koşma"
+        },
+        {
+          "word": "WALKING",
+          "hint": "Yürüme"
+        },
+        {
+          "word": "PHYSICAL EDUCATION",
+          "hint": "Beden eğitimi"
+        },
+        {
+          "word": "DO PILATES",
+          "hint": "Pilates yapmak"
+        },
+        {
+          "word": "SKIING",
+          "hint": "Kayak yapma"
+        },
+        {
+          "word": "CHAMPION",
+          "hint": "Şampiyon"
+        },
+        {
+          "word": "GOAL",
+          "hint": "Gol veya hedef"
+        },
+        {
+          "word": "WEIGHTS",
+          "hint": "Ağırlıklar"
+        },
+        {
+          "word": "MUSCLE",
+          "hint": "Kas"
+        },
+        {
+          "word": "MOVE",
+          "hint": "Hareket etmek"
+        },
+        {
+          "word": "PRACTICE",
+          "hint": "Pratik yapmak, antrenman"
+        },
+        {
+          "word": "TOURNAMENT",
+          "hint": "Turnuva"
+        },
+        {
+          "word": "ATHLETE",
+          "hint": "Sporcu"
+        }
+      ]
     },
     {
       "id": "ingilizce_u9",
-      "name": "Unit 9: Fruits and Food",
+      "name": "Unit 9: The Animal Shelter",
       "months": [
         5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "SHELTER",
+          "hint": "Barınak"
+        },
+        {
+          "word": "ADOPT",
+          "hint": "Sahiplenmek"
+        },
+        {
+          "word": "FEED",
+          "hint": "Beslemek"
+        },
+        {
+          "word": "STRAY",
+          "hint": "Sokak hayvanı, başıboş"
+        },
+        {
+          "word": "PET",
+          "hint": "Evcil hayvan"
+        },
+        {
+          "word": "CARE",
+          "hint": "Bakım, ilgilenmek"
+        },
+        {
+          "word": "HELP",
+          "hint": "Yardım etmek"
+        },
+        {
+          "word": "ANIMAL",
+          "hint": "Hayvan"
+        },
+        {
+          "word": "KITTEN",
+          "hint": "Yavru kedi"
+        },
+        {
+          "word": "PUPPY",
+          "hint": "Yavru köpek"
+        },
+        {
+          "word": "BIRD",
+          "hint": "Kuş"
+        },
+        {
+          "word": "RABBIT",
+          "hint": "Tavşan"
+        },
+        {
+          "word": "HAMSTER",
+          "hint": "Hamster"
+        },
+        {
+          "word": "GOLDFISH",
+          "hint": "Japon balığı"
+        },
+        {
+          "word": "DONATION",
+          "hint": "Bağış"
+        },
+        {
+          "word": "VOLUNTEER",
+          "hint": "Gönüllü"
+        },
+        {
+          "word": "CLEAN",
+          "hint": "Temizlemek"
+        },
+        {
+          "word": "PROTECT",
+          "hint": "Korumak"
+        },
+        {
+          "word": "KIND",
+          "hint": "Nazik, kibar"
+        },
+        {
+          "word": "LOVE",
+          "hint": "Sevmek"
+        },
+        {
+          "word": "CAGE",
+          "hint": "Kafes"
+        },
+        {
+          "word": "WATER",
+          "hint": "Su vermek"
+        },
+        {
+          "word": "FOOD",
+          "hint": "Yiyecek, mama"
+        },
+        {
+          "word": "VETERINARIAN",
+          "hint": "Veteriner"
+        },
+        {
+          "word": "HEALTHY",
+          "hint": "Sağlıklı"
+        },
+        {
+          "word": "SICK",
+          "hint": "Hasta"
+        },
+        {
+          "word": "TAIL",
+          "hint": "Kuyruk"
+        },
+        {
+          "word": "PAW",
+          "hint": "Pati"
+        },
+        {
+          "word": "FUR",
+          "hint": "Kürk, tüy"
+        },
+        {
+          "word": "PLAY",
+          "hint": "Oynamak"
+        },
+        {
+          "word": "WALK",
+          "hint": "Yürüyüşe çıkarmak"
+        },
+        {
+          "word": "NEED",
+          "hint": "İhtiyaç duymak"
+        },
+        {
+          "word": "HAPPY",
+          "hint": "Mutlu"
+        },
+        {
+          "word": "SAD",
+          "hint": "Üzgün"
+        },
+        {
+          "word": "SAVE",
+          "hint": "Kurtarmak"
+        },
+        {
+          "word": "LOST",
+          "hint": "Kaybolmuş"
+        },
+        {
+          "word": "FOUND",
+          "hint": "Bulunmuş"
+        },
+        {
+          "word": "COLLAR",
+          "hint": "Tasma"
+        },
+        {
+          "word": "LEASH",
+          "hint": "Kayış"
+        },
+        {
+          "word": "MEDICINE",
+          "hint": "İlaç"
+        },
+        {
+          "word": "FRIEND",
+          "hint": "Arkadaş"
+        },
+        {
+          "word": "SUPPORT",
+          "hint": "Desteklemek"
+        },
+        {
+          "word": "RESPECT",
+          "hint": "Saygı duymak"
+        },
+        {
+          "word": "GIVE",
+          "hint": "Vermek"
+        },
+        {
+          "word": "FRESH",
+          "hint": "Taze"
+        },
+        {
+          "word": "BOWL",
+          "hint": "Mama veya su kabı"
+        },
+        {
+          "word": "SLEEP",
+          "hint": "Uyumak"
+        },
+        {
+          "word": "RUN",
+          "hint": "Koşmak"
+        },
+        {
+          "word": "JUMP",
+          "hint": "Zıplamak"
+        },
+        {
+          "word": "CUTE",
+          "hint": "Sevimli"
+        }
+      ]
     },
     {
       "id": "ingilizce_u10",
-      "name": "Unit 10: Animal Shelter and Nature",
+      "name": "Unit 10: Festivals",
       "months": [
         6
       ],
-      "words": []
+      "words": [
+        {
+          "word": "FESTIVAL",
+          "hint": "Festival, şenlik"
+        },
+        {
+          "word": "CELEBRATE",
+          "hint": "Kutlamak"
+        },
+        {
+          "word": "DECORATION",
+          "hint": "Süsleme, dekorasyon"
+        },
+        {
+          "word": "COSTUME",
+          "hint": "Kostüm, özel kıyafet"
+        },
+        {
+          "word": "PARTY",
+          "hint": "Parti, eğlence"
+        },
+        {
+          "word": "GUEST",
+          "hint": "Misafir, konuk"
+        },
+        {
+          "word": "INVITATION",
+          "hint": "Davetiye"
+        },
+        {
+          "word": "PARADE",
+          "hint": "Resmigeçit, tören yürüyüşü"
+        },
+        {
+          "word": "TRADITIONAL",
+          "hint": "Geleneksel"
+        },
+        {
+          "word": "FIREWORKS",
+          "hint": "Havai fişek"
+        },
+        {
+          "word": "BALLOON",
+          "hint": "Balon"
+        },
+        {
+          "word": "CANDLE",
+          "hint": "Mum"
+        },
+        {
+          "word": "GIFT",
+          "hint": "Hediye"
+        },
+        {
+          "word": "PRESENT",
+          "hint": "Hediye"
+        },
+        {
+          "word": "MUSIC",
+          "hint": "Müzik"
+        },
+        {
+          "word": "DANCE",
+          "hint": "Dans etmek"
+        },
+        {
+          "word": "SPECIAL",
+          "hint": "Özel"
+        },
+        {
+          "word": "PREPARE",
+          "hint": "Hazırlamak"
+        },
+        {
+          "word": "INVITE",
+          "hint": "Davet etmek"
+        },
+        {
+          "word": "CANDLELIGHT",
+          "hint": "Mum ışığı"
+        },
+        {
+          "word": "NATIONAL",
+          "hint": "Ulusal, milli"
+        },
+        {
+          "word": "HOLIDAY",
+          "hint": "Tatil, bayram"
+        },
+        {
+          "word": "MASK",
+          "hint": "Maske"
+        },
+        {
+          "word": "CHOCOLATE",
+          "hint": "Çikolata"
+        },
+        {
+          "word": "CANDY",
+          "hint": "Şekerleme"
+        },
+        {
+          "word": "CAKE",
+          "hint": "Pasta, kek"
+        },
+        {
+          "word": "BEVERAGE",
+          "hint": "İçecek"
+        },
+        {
+          "word": "CEREMONY",
+          "hint": "Tören"
+        },
+        {
+          "word": "COMMUNITY",
+          "hint": "Topluluk"
+        },
+        {
+          "word": "CUSTOM",
+          "hint": "Örf, adet"
+        },
+        {
+          "word": "GATHERING",
+          "hint": "Toplanma, bir araya gelme"
+        },
+        {
+          "word": "HAPPINESS",
+          "hint": "Mutluluk"
+        },
+        {
+          "word": "JOY",
+          "hint": "Neşe"
+        },
+        {
+          "word": "LUCKY",
+          "hint": "Şanslı"
+        },
+        {
+          "word": "MEMORIZE",
+          "hint": "Ezberlemek"
+        },
+        {
+          "word": "NEIGHBORHOOD",
+          "hint": "Mahalle"
+        },
+        {
+          "word": "PERFORM",
+          "hint": "Gösteri yapmak, sergilemek"
+        },
+        {
+          "word": "RELIGIOUS",
+          "hint": "Dini"
+        },
+        {
+          "word": "SEASONAL",
+          "hint": "Mevsimlik"
+        },
+        {
+          "word": "SHARE",
+          "hint": "Paylaşmak"
+        },
+        {
+          "word": "SING",
+          "hint": "Şarkı söylemek"
+        },
+        {
+          "word": "STREET",
+          "hint": "Sokak"
+        },
+        {
+          "word": "TOGETHER",
+          "hint": "Birlikte"
+        },
+        {
+          "word": "TOURIST",
+          "hint": "Turist"
+        },
+        {
+          "word": "VISIT",
+          "hint": "Ziyaret etmek"
+        },
+        {
+          "word": "WEARING",
+          "hint": "Giyinme, giyiyor"
+        },
+        {
+          "word": "COLORFUL",
+          "hint": "Renkli"
+        },
+        {
+          "word": "AMAZING",
+          "hint": "Harika, şaşırtıcı"
+        },
+        {
+          "word": "DELICIOUS",
+          "hint": "Lezzetli"
+        },
+        {
+          "word": "GREET",
+          "hint": "Selamlamak"
+        }
+      ]
     }
   ]
 }

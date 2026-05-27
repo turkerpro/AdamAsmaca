@@ -2,7 +2,7 @@
   "units": [
     {
       "id": "kimya_u1",
-      "name": "1. Ünite: Organik Kimya",
+      "name": "1. Ünite: Kimya ve Elektrik",
       "months": [
         9,
         10
@@ -216,10 +216,9 @@
     },
     {
       "id": "kimya_u2",
-      "name": "2. Ünite: Enerji",
+      "name": "2. Ünite: Karbon Kimyasına Giriş",
       "months": [
-        11,
-        12
+        11
       ],
       "words": [
         {
@@ -243,7 +242,7 @@
           "hint": "Tepkimeyi hızlandıran ama değişmeden kalan madde"
         },
         {
-          "word": "ENERJİ̇",
+          "word": "ENERJİ",
           "hint": "İş yapabilme yeteneği."
         },
         {
@@ -251,15 +250,15 @@
           "hint": "Kimyasal bir olayı veya maddeyi temsil eden semboller dizisi."
         },
         {
-          "word": "Kİ̇MYASAL",
+          "word": "KİMYASAL",
           "hint": "Maddelerin yapısı ve tepkimeleri ile ilgili."
         },
         {
-          "word": "TEPKİ̇ME",
+          "word": "TEPKİME",
           "hint": "Maddelerin birbirine dönüşmesi olayı."
         },
         {
-          "word": "Sİ̇STEM",
+          "word": "SİSTEM",
           "hint": "Enerji veya madde alışverişi yapan bir bütün."
         },
         {
@@ -271,15 +270,15 @@
           "hint": "Sıcaklık farkından dolayı aktarılan enerji."
         },
         {
-          "word": "DEĞİ̇Şİ̇M",
+          "word": "DEĞİŞİM",
           "hint": "Bir durumdan başka bir duruma geçme."
         },
         {
-          "word": "POTANSİ̇YEL",
+          "word": "POTANSİYEL",
           "hint": "Bir sistemin sahip olduğu saklı enerji."
         },
         {
-          "word": "Kİ̇NETİ̇K",
+          "word": "KİNETİK",
           "hint": "Hareket halindeki cisimlerin sahip olduğu enerji."
         },
         {
@@ -295,7 +294,7 @@
           "hint": "Tepkimenin gerçekleştiği yer."
         },
         {
-          "word": "BASİNÇ",
+          "word": "BASINÇ",
           "hint": "Bir kuvvete karşılık gelen yüzey alanı."
         },
         {
@@ -311,7 +310,7 @@
           "hint": "Mol sayısını belirlemeye yarayan sabit sayı."
         },
         {
-          "word": "KRİ̇STAL",
+          "word": "KRİSTAL",
           "hint": "Düzenli atomik yapıya sahip katı madde."
         },
         {
@@ -331,7 +330,7 @@
           "hint": "Bir cismin dış sınırı."
         },
         {
-          "word": "GERİ̇Lİ̇M",
+          "word": "GERİLİM",
           "hint": "Yüzeyde oluşan çekme kuvveti."
         },
         {
@@ -347,7 +346,7 @@
           "hint": "Bir tepkimenin oluşumunda izlenen adımlar."
         },
         {
-          "word": "AKTİ̇FLEŞME",
+          "word": "AKTİFLEŞME",
           "hint": "Tepkimeye girecek moleküllerin yeterli enerjiye ulaşması."
         },
         {
@@ -355,7 +354,7 @@
           "hint": "İleri ve geri tepkimelerin eşit hızda olduğu durum."
         },
         {
-          "word": "KATKİ",
+          "word": "KATKI",
           "hint": "Bir sisteme eklenen madde."
         },
         {
@@ -367,23 +366,23 @@
           "hint": "Bir doğru boyunca ilerleyen."
         },
         {
-          "word": "KARARLİ",
+          "word": "KARARLI",
           "hint": "Değişime karşı direnç gösteren."
         },
         {
-          "word": "KARARSİZ",
+          "word": "KARARSIZ",
           "hint": "Kolayca değişebilen."
         },
         {
-          "word": "Bİ̇Rİ̇Kİ̇M",
+          "word": "BİRİKİM",
           "hint": "Maddelerin bir araya toplanması."
         },
         {
-          "word": "AYRİM",
+          "word": "AYRIM",
           "hint": "Maddelerin birbirinden ayrılması."
         },
         {
-          "word": "YAYİLİM",
+          "word": "YAYILIM",
           "hint": "Gaz moleküllerinin her yere dağılması."
         },
         {
@@ -391,15 +390,15 @@
           "hint": "Birim hacimdeki kütle miktarı."
         },
         {
-          "word": "SAFLİK",
+          "word": "SAFLIK",
           "hint": "Bir maddenin içinde başka madde olmaması durumu."
         },
         {
-          "word": "KARMAŞİK",
+          "word": "KARMAŞIK",
           "hint": "İç içe geçmiş, anlaşılması zor."
         },
         {
-          "word": "BASİ̇T",
+          "word": "BASİT",
           "hint": "Anlaşılması kolay, yalın."
         },
         {
@@ -411,11 +410,11 @@
           "hint": "Atomun çekirdeği etrafında dönen negatif yüklü tanecik."
         },
         {
-          "word": "Vİ̇DEO",
+          "word": "VİDEO",
           "hint": "Hareketli görüntüler."
         },
         {
-          "word": "GRAFİ̇K",
+          "word": "GRAFİK",
           "hint": "Verileri görselleştiren çizim."
         },
         {
@@ -426,37 +425,717 @@
     },
     {
       "id": "kimya_u3",
-      "name": "3. Ünite: Kimyasal Türler Arası Etkileşimler",
+      "name": "3. Ünite: Organik Bileşikler (Hidrokarbonlar)",
       "months": [
-        1,
-        2
+        12,
+        1
       ],
-      "words": []
+      "words": [
+        {
+          "word": "KİMYASAL TÜR",
+          "hint": "Maddeyi oluşturan atom, iyon veya molekül gibi tanecik."
+        },
+        {
+          "word": "ETKİLEŞİM",
+          "hint": "Tanecikler arasında oluşan çekim veya itme kuvveti."
+        },
+        {
+          "word": "İYONİK BAĞ",
+          "hint": "Metal ve ametal atomları arasında elektron alışverişiyle oluşan güçlü bağ."
+        },
+        {
+          "word": "KOVALENT BAĞ",
+          "hint": "Ametal atomları arasında elektron paylaşımıyla oluşan güçlü bağ."
+        },
+        {
+          "word": "METALİK BAĞ",
+          "hint": "Metal atomlarını bir arada tutan elektron denizi etkileşimi."
+        },
+        {
+          "word": "APOLAR",
+          "hint": "Yük dağılımı simetrik, kutbu olmayan yapı."
+        },
+        {
+          "word": "POLAR",
+          "hint": "Yük dağılımı asimetrik, kutbu olan yapı."
+        },
+        {
+          "word": "DİPOL",
+          "hint": "Zıt elektrik yüküne sahip iki kutbu olan molekül."
+        },
+        {
+          "word": "HİDROJEN BAĞI",
+          "hint": "Hidrojenin F, O, N ile oluşturduğu özel zayıf etkileşim."
+        },
+        {
+          "word": "VAN DER WAALS",
+          "hint": "Moleküller arası zayıf etkileşimlerin genel adı."
+        },
+        {
+          "word": "LONDON KUVVETİ",
+          "hint": "Apolar moleküller ve soy gazlarda görülen anlık zayıf etkileşim."
+        },
+        {
+          "word": "DİPOL-DİPOL",
+          "hint": "Polar moleküller arasında görülen çekim kuvveti."
+        },
+        {
+          "word": "BAĞ ENERJİSİ",
+          "hint": "Kimyasal bir bağı kırmak için gereken enerji."
+        },
+        {
+          "word": "ELEKTRONEGATİFLİK",
+          "hint": "Atomun bağ elektronlarını kendine çekme gücü."
+        },
+        {
+          "word": "İYONLAŞMA ENERJİSİ",
+          "hint": "Gaz halindeki atomdan elektron koparmak için gereken enerji."
+        },
+        {
+          "word": "ELEKTRON İLGİSİ",
+          "hint": "Gaz halindeki atoma elektron katıldığında açığa çıkan enerji."
+        },
+        {
+          "word": "OKTET KURALI",
+          "hint": "Atomların son katmanı 8 elektrona tamamlama eğilimi."
+        },
+        {
+          "word": "DÜET KURALİ",
+          "hint": "Atomların son katmanı 2 elektrona tamamlama eğilimi."
+        },
+        {
+          "word": "LEWIS YAPISI",
+          "hint": "Atomların değerlik elektronlarını gösteren nokta veya çizgi modeli."
+        },
+        {
+          "word": "ORTAKLANMIŞ",
+          "hint": "Kovalent bağda paylaşılan elektron çifti."
+        },
+        {
+          "word": "ORTAKLANMAMIŞ",
+          "hint": "Bağ yapmamış, bir atom üzerinde bulunan elektron çifti."
+        },
+        {
+          "word": "KATYON",
+          "hint": "Elektron kaybederek pozitif yüklenen iyon."
+        },
+        {
+          "word": "ANYON",
+          "hint": "Elektron alarak negatif yüklenen iyon."
+        },
+        {
+          "word": "MOLEKÜL",
+          "hint": "Kovalent bağlı atomlardan oluşan yapı."
+        },
+        {
+          "word": "BİLEŞİK",
+          "hint": "Farklı element atomlarının kimyasal bağla oluşturduğu madde."
+        },
+        {
+          "word": "KİMYASAL BAĞ",
+          "hint": "Atomları bir arada tutan güçlü kuvvet."
+        },
+        {
+          "word": "FİZİKSEL BAĞ",
+          "hint": "Moleküller arası zayıf çekim kuvveti."
+        },
+        {
+          "word": "KAFES YAPISI",
+          "hint": "İyonik veya metalik katılarda düzenli tanecik dizilimi."
+        },
+        {
+          "word": "İNDÜKLENMİŞ DİPOL",
+          "hint": "Anlık olarak kutuplaşmış apolar yapı."
+        },
+        {
+          "word": "KOHEZYON",
+          "hint": "Aynı tür moleküller arasındaki çekim."
+        },
+        {
+          "word": "ADEZYON",
+          "hint": "Farklı tür moleküller arasındaki çekim."
+        },
+        {
+          "word": "YÜZEY GERİLİMİ",
+          "hint": "Sıvı yüzeyindeki moleküllerin birbirini çekmesinden kaynaklanan kuvvet."
+        },
+        {
+          "word": "VİSKOZİTE",
+          "hint": "Sıvıların akmaya karşı gösterdiği direnç."
+        },
+        {
+          "word": "ERİME NOKTASI",
+          "hint": "Katıdan sıvıya geçiş sıcaklığı."
+        },
+        {
+          "word": "KAYNAMA NOKTASI",
+          "hint": "Sıvıdan gaza geçiş sıcaklığı."
+        },
+        {
+          "word": "BUHARLAŞMA",
+          "hint": "Sıvının gaz hale geçmesi."
+        },
+        {
+          "word": "YOĞUNLAŞMA",
+          "hint": "Gazın sıvı hale geçmesi."
+        },
+        {
+          "word": "SÜBLİMLEŞME",
+          "hint": "Katının doğrudan gaz hale geçmesi."
+        },
+        {
+          "word": "KIRAĞILAŞMA",
+          "hint": "Gazın doğrudan katı hale geçmesi."
+        },
+        {
+          "word": "BAĞ UZUNLUĞU",
+          "hint": "İki bağlı atomun çekirdekleri arası mesafe."
+        },
+        {
+          "word": "GEOMETRİ",
+          "hint": "Moleküllerin uzaydaki üç boyutlu şekli."
+        },
+        {
+          "word": "BAĞ AÇISI",
+          "hint": "Bir moleküldeki bağlı atomların oluşturduğu açı."
+        },
+        {
+          "word": "VSEPR",
+          "hint": "Molekül geometrisini belirlemeye yarayan itme teorisi."
+        },
+        {
+          "word": "HİBRİTLEŞME",
+          "hint": "Atomik orbitallerin yeni, özdeş orbitaller oluşturması."
+        },
+        {
+          "word": "SİGMA BAĞI",
+          "hint": "Atomlar arasında oluşan ilk ve eksenel örtüşmeli kovalent bağ."
+        },
+        {
+          "word": "Pİ BAĞI",
+          "hint": "Sigma bağından sonra oluşan yanal örtüşmeli kovalent bağ."
+        },
+        {
+          "word": "BAĞ KUTUPLULUĞU",
+          "hint": "Kovalent bağda elektronların eşit olmayan paylaşımı durumu."
+        },
+        {
+          "word": "ÇİFT KUTUPLU",
+          "hint": "Polar moleküllere verilen diğer ad."
+        },
+        {
+          "word": "PERİYODİK SİSTEM",
+          "hint": "Elementlerin özelliklerine göre sınıflandırıldığı tablo."
+        },
+        {
+          "word": "VALENS ELEKTRON",
+          "hint": "Atomun en dış katmanındaki elektronlar."
+        },
+        {
+          "word": "ÇÖZÜNÜRLÜK",
+          "hint": "Bir maddenin başka bir madde içinde dağılabilme özelliği."
+        }
+      ]
     },
     {
       "id": "kimya_u4",
-      "name": "4. Ünite: Maddenin Fiziksel Halleri",
+      "name": "4. Ünite: Fonksiyonel Gruplar ve Organik Tepkimeler",
       "months": [
-        3,
-        4
+        2,
+        3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "TERMODİNAMİK",
+          "hint": "Isı ve enerji dönüşümlerini inceleyen bilim dalı."
+        },
+        {
+          "word": "VİSKOZİTE",
+          "hint": "Sıvıların akmaya karşı gösterdiği direnç."
+        },
+        {
+          "word": "YÜZEY GERİLİMİ",
+          "hint": "Sıvı yüzeyinin esnek bir zar gibi davranması."
+        },
+        {
+          "word": "BUHAR BASINCI",
+          "hint": "Sıvısıyla denge halindeki buharın yaptığı basınç."
+        },
+        {
+          "word": "KAYNAMA NOKTASI",
+          "hint": "Sıvının buhar basıncının dış basınca eşit olduğu sıcaklık."
+        },
+        {
+          "word": "DONMA NOKTASI",
+          "hint": "Sıvının katı hale geçtiği sıcaklık."
+        },
+        {
+          "word": "ERİME NOKTASI",
+          "hint": "Katının sıvı hale geçtiği sıcaklık."
+        },
+        {
+          "word": "SÜBLİMLEŞME",
+          "hint": "Katı halden doğrudan gaz hale geçiş."
+        },
+        {
+          "word": "KIRAĞILAŞMA",
+          "hint": "Gaz halden doğrudan katı hale geçiş."
+        },
+        {
+          "word": "KRİTİK SICAKLIK",
+          "hint": "Bir gazın sıvılaştırılamayacağı en yüksek sıcaklık."
+        },
+        {
+          "word": "KRİTİK BASINÇ",
+          "hint": "Kritik sıcaklıktaki bir gazı sıvılaştırmak için gereken basınç."
+        },
+        {
+          "word": "ÜÇLÜ NOKTA",
+          "hint": "Maddenin katı, sıvı ve gaz hallerinin denge halinde bulunduğu özel durum."
+        },
+        {
+          "word": "FAZ DİYAGRAMI",
+          "hint": "Bir maddenin hallerini basınç ve sıcaklığa göre gösteren grafik."
+        },
+        {
+          "word": "İDEAL GAZ",
+          "hint": "Moleküller arası etkileşimin ihmal edildiği, varsayımsal gaz."
+        },
+        {
+          "word": "GERÇEK GAZ",
+          "hint": "Moleküller arası etkileşimleri ve hacmi olan, ideal olmayan gaz."
+        },
+        {
+          "word": "KİNETİK TEORİ",
+          "hint": "Gaz moleküllerinin sürekli hareket halinde olduğunu açıklayan teori."
+        },
+        {
+          "word": "DİFÜZYON",
+          "hint": "Gaz veya sıvı moleküllerinin yüksek derişimden düşük derişime yayılması."
+        },
+        {
+          "word": "EFÜZYON",
+          "hint": "Bir gazın küçük bir delikten boşluğa yayılması."
+        },
+        {
+          "word": "KILCALLIK",
+          "hint": "Sıvının ince borularda yükselmesi veya alçalması olayı."
+        },
+        {
+          "word": "AMORF KATI",
+          "hint": "Taneciklerin düzensiz istiflendiği, belirli erime noktası olmayan katı."
+        },
+        {
+          "word": "KRİSTAL KATI",
+          "hint": "Taneciklerin düzenli istiflendiği, belirli erime noktası olan katı."
+        },
+        {
+          "word": "İYONİK KATI",
+          "hint": "İyonik bağlarla oluşan, yüksek erime noktalı katı."
+        },
+        {
+          "word": "MOLEKÜLER KATI",
+          "hint": "Kovalent moleküllerin bir arada tutulduğu katı."
+        },
+        {
+          "word": "METALİK KATI",
+          "hint": "Metal atomlarının metalik bağlarla bir arada tutulduğu katı."
+        },
+        {
+          "word": "KOVALENT KATI",
+          "hint": "Atomların kovalent bağlarla ağ yapısı oluşturduğu katı."
+        },
+        {
+          "word": "BİRİM HÜCRE",
+          "hint": "Kristal yapının tekrar eden en küçük birimi."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Bir maddenin birim hacimdeki kütlesi."
+        },
+        {
+          "word": "HACİM",
+          "hint": "Bir maddenin uzayda kapladığı yer."
+        },
+        {
+          "word": "BASINÇ",
+          "hint": "Birim yüzeye etki eden dik kuvvet."
+        },
+        {
+          "word": "SICAKLIK",
+          "hint": "Taneciklerin ortalama kinetik enerjisinin ölçüsü."
+        },
+        {
+          "word": "ENTALPİ",
+          "hint": "Sabit basınçta alınan veya verilen ısı miktarı."
+        },
+        {
+          "word": "ENTROPİ",
+          "hint": "Bir sistemdeki düzensizlik ölçüsü."
+        },
+        {
+          "word": "PLAZMA",
+          "hint": "Maddenin yüksek enerjili, iyonlaşmış gaz hali."
+        },
+        {
+          "word": "VAN DER WAALS",
+          "hint": "Moleküller arası zayıf çekim kuvvetlerinin genel adı."
+        },
+        {
+          "word": "DİPOL-DİPOL",
+          "hint": "Polar moleküller arasındaki çekim kuvveti."
+        },
+        {
+          "word": "LONDON KUVVETLERİ",
+          "hint": "Apolar moleküller arasındaki anlık dipollerin oluşturduğu çekim."
+        },
+        {
+          "word": "HİDROJEN BAĞI",
+          "hint": "Hidrojenin F, O, N ile yaptığı bağ sonucu oluşan güçlü çekim."
+        },
+        {
+          "word": "MOLEKÜLLER ARASI KUVVETLER",
+          "hint": "Molekülleri bir arada tutan çekim kuvvetleri."
+        },
+        {
+          "word": "KOVALENT BAĞ",
+          "hint": "Elektronların ortaklaşa kullanılmasıyla oluşan güçlü kimyasal bağ."
+        },
+        {
+          "word": "İYONİK BAĞ",
+          "hint": "Elektron alışverişiyle oluşan güçlü kimyasal bağ."
+        },
+        {
+          "word": "METALİK BAĞ",
+          "hint": "Metal atomları arasındaki elektron denizi ile oluşan bağ."
+        },
+        {
+          "word": "FAZ DEĞİŞİMİ",
+          "hint": "Maddenin bir fiziksel halden diğerine geçişi."
+        },
+        {
+          "word": "BUHARLAŞMA",
+          "hint": "Bir sıvının yüzeyinden gaz hale geçmesi."
+        },
+        {
+          "word": "YOĞUŞMA",
+          "hint": "Gaz halindeki maddenin sıvı hale geçmesi."
+        },
+        {
+          "word": "ERİME ENTALPİSİ",
+          "hint": "Bir katıyı eritmek için gereken enerji."
+        },
+        {
+          "word": "BUHARLAŞMA ENTALPİSİ",
+          "hint": "Bir sıvıyı buharlaştırmak için gereken enerji."
+        },
+        {
+          "word": "GAZ YASALARI",
+          "hint": "Gazların davranışlarını açıklayan prensipler bütünü."
+        },
+        {
+          "word": "DALTON YASASI",
+          "hint": "Gaz karışımındaki toplam basıncın kısmi basınçlar toplamı olduğunu belirten yasa."
+        },
+        {
+          "word": "CHARLES YASASI",
+          "hint": "Sabit basınçta gaz hacmi ile mutlak sıcaklık arasındaki ilişkiyi açıklayan yasa."
+        },
+        {
+          "word": "BOYLE YASASI",
+          "hint": "Sabit sıcaklıkta gaz basıncı ile hacim arasındaki ters orantıyı açıklayan yasa."
+        },
+        {
+          "word": "AVOGADRO YASASI",
+          "hint": "Sabit sıcaklık ve basınçta gaz hacmi ile mol sayısı arasındaki ilişkiyi açıklayan yasa."
+        },
+        {
+          "word": "GRAHAM YASASI",
+          "hint": "Gazların difüzyon hızının mol kütlesinin kareköküyle ters orantılı olduğunu belirten yasa."
+        },
+        {
+          "word": "GENLEŞME",
+          "hint": "Maddelerin sıcaklık artışıyla hacimlerinin büyümesi."
+        },
+        {
+          "word": "SIKIŞTIRILABİLİRLİK",
+          "hint": "Maddelerin basınç altında hacmini küçültme özelliği."
+        },
+        {
+          "word": "AKIŞKANLIK",
+          "hint": "Gaz ve sıvıların kolayca akma özelliği."
+        },
+        {
+          "word": "KATI HAL",
+          "hint": "Maddenin belirli şekle ve hacme sahip olduğu fiziksel hali."
+        },
+        {
+          "word": "SIVI HAL",
+          "hint": "Maddenin belirli hacme sahip, ancak belirli şekle sahip olmayan fiziksel hali."
+        },
+        {
+          "word": "GAZ HAL",
+          "hint": "Maddenin belirli şekli ve hacmi olmayan fiziksel hali."
+        },
+        {
+          "word": "SÜPERKRİTİK AKIŞKAN",
+          "hint": "Kritik nokta üstünde hem sıvı hem gaz özelliklerini taşıyan hal."
+        },
+        {
+          "word": "SIVI KRİSTAL",
+          "hint": "Hem katı hem sıvı özelliklerini gösteren özel madde hali."
+        }
+      ]
     },
     {
       "id": "kimya_u5",
-      "name": "5. Ünite: Doğa, Kimya ve Karışımlar",
+      "name": "5. Ünite: Enerji Kaynakları ve Bilimsel Gelişmeler",
       "months": [
+        4,
         5
       ],
-      "words": []
-    },
-    {
-      "id": "kimya_u6",
-      "name": "6. Ünite: Asitler, Bazlar, Tuzlar ve Kimya Her Yerde",
-      "months": [
-        6
-      ],
-      "words": []
+      "words": [
+        {
+          "word": "EKOLOJİ",
+          "hint": "Canlıların birbirleri ve çevreleriyle ilişkilerini inceleyen bilim dalı."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK",
+          "hint": "Bir bölgedeki farklı canlı türlerinin ve genlerinin zenginliği."
+        },
+        {
+          "word": "KİMYASAL KIRLETİCİ",
+          "hint": "Çevreye zarar veren veya doğal dengeyi bozan kimyasal madde."
+        },
+        {
+          "word": "SERA GAZİ",
+          "hint": "Atmosferde ısıyı tutarak gezegenin ısınmasına katkıda bulunan gaz."
+        },
+        {
+          "word": "OZON TABAKASI",
+          "hint": "Ultraviyole ışınlarını emen, atmosferdeki koruyucu gaz katmanı."
+        },
+        {
+          "word": "FOSİL YAKIT",
+          "hint": "Milyonlarca yılda oluşmuş kömür, petrol, doğalgaz gibi enerji kaynakları."
+        },
+        {
+          "word": "YENİLENEBİLİR ENERJİ",
+          "hint": "Güneş, rüzgar, jeotermal gibi doğadan tükenmeden elde edilen enerji türleri."
+        },
+        {
+          "word": "SU KİRLİLİĞİ",
+          "hint": "Suyun kimyasal, fiziksel veya biyolojik olarak kalitesinin bozulması."
+        },
+        {
+          "word": "HAVA KİRLİLİĞİ",
+          "hint": "Atmosferdeki zararlı madde miktarının canlı sağlığını ve çevreyi etkileyecek seviyeye gelmesi."
+        },
+        {
+          "word": "TOPRAK KİRLİLİĞİ",
+          "hint": "Toprağın verimini düşüren veya canlılar için zararlı hale getiren maddelerle bozulması."
+        },
+        {
+          "word": "ASİT YAĞMURU",
+          "hint": "Endüstriyel gazların atmosferde suyla birleşip asidik damlalar halinde yeryüzüne düşmesi."
+        },
+        {
+          "word": "AĞİR METAL",
+          "hint": "Cıva, kurşun, kadmiyum gibi canlılar için toksik olabilen yoğun metal elementler."
+        },
+        {
+          "word": "PESTİSİT",
+          "hint": "Tarımda zararlı organizmaları kontrol etmek için kullanılan kimyasal maddeler."
+        },
+        {
+          "word": "BİYOBİRİKİM",
+          "hint": "Zehirli maddelerin besin zinciri yoluyla canlılarda birikerek artması."
+        },
+        {
+          "word": "ÖTROFİKASYON",
+          "hint": "Su ekosistemlerinde aşırı besin maddesi birikimi sonucu oluşan yosunlaşma ve kirlilik."
+        },
+        {
+          "word": "ARITMA TESİSİ",
+          "hint": "Atık suları veya gazları temizleyerek çevreye zarar vermeden doğaya salınmasını sağlayan yapı."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Atık malzemelerin yeniden işlenerek üretime veya kullanıma kazandırılması işlemi."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Mevcut kaynakları gelecek nesillerin ihtiyaçlarını da göz önünde bulundurarak kullanma ilkesi."
+        },
+        {
+          "word": "YEŞİL KİMYA",
+          "hint": "Çevreye zararlı madde kullanımını en aza indirmeyi ve atık üretmemeyi hedefleyen kimya yaklaşımı."
+        },
+        {
+          "word": "BİYOBOZUNUR",
+          "hint": "Doğada mikroorganizmalar tarafından parçalanabilen, zararsız hale gelebilen madde."
+        },
+        {
+          "word": "POLİMER",
+          "hint": "Çok sayıda küçük birimin (monomer) birleşmesiyle oluşan büyük molekül."
+        },
+        {
+          "word": "MİKROPLASTİK",
+          "hint": "Çevreye yayılan ve çok küçük boyutlardaki plastik parçacıkları."
+        },
+        {
+          "word": "ÇÖZELTİ",
+          "hint": "Bir maddenin başka bir madde içinde homojen olarak dağılmasıyla oluşan karışım."
+        },
+        {
+          "word": "SÜSPANSİYON",
+          "hint": "Katı parçacıkların bir sıvı içinde dağılmış, zamanla çökelen heterojen karışım."
+        },
+        {
+          "word": "EMÜLSİYON",
+          "hint": "Birbirine karışmayan iki sıvının bir arada dağılmasıyla oluşan heterojen karışım (ör. süt)."
+        },
+        {
+          "word": "KOLLOİT",
+          "hint": "Parçacık boyutları çözelti ve süspansiyon arasında olan, homojen görünümlü heterojen karışım."
+        },
+        {
+          "word": "ÇÖZÜNÜRLÜK",
+          "hint": "Belirli bir sıcaklık ve basınçta, bir çözücünün çözebileceği maksimum madde miktarı."
+        },
+        {
+          "word": "DERİŞİM",
+          "hint": "Bir çözeltideki çözünen madde miktarının oranı veya yoğunluğu."
+        },
+        {
+          "word": "SEYRELTME",
+          "hint": "Bir çözeltiye çözücü ekleyerek derişimini azaltma işlemi."
+        },
+        {
+          "word": "AYIRMA YÖNTEMİ",
+          "hint": "Karışımları bileşenlerine ayırmak için kullanılan fiziksel veya kimyasal süreç."
+        },
+        {
+          "word": "DİSTİLASYON",
+          "hint": "Sıvı karışımları kaynama noktası farkına göre buharlaştırıp yoğunlaştırarak ayırma yöntemi."
+        },
+        {
+          "word": "FİLTRASYON",
+          "hint": "Katı-sıvı heterojen karışımları, bir süzgeç yardımıyla katıyı ayırma yöntemi."
+        },
+        {
+          "word": "DEKANTASYON",
+          "hint": "Çökmüş katıların veya yoğunluk farkıyla ayrılmış sıvıların dikkatlice üstteki sıvıdan ayrılması."
+        },
+        {
+          "word": "SANTRİFÜJLEME",
+          "hint": "Yoğunluk farkına dayalı olarak karışımları hızla döndürerek bileşenlerine ayırma."
+        },
+        {
+          "word": "EKSTRAKSİYON",
+          "hint": "Bir çözücü yardımıyla karışımdan istenen maddeyi seçici olarak ayırma işlemi."
+        },
+        {
+          "word": "BUHARLAŞTİRMA",
+          "hint": "Sıvıyı ısıtarak gaz haline getirip çözünen katıyı elde etme yöntemi."
+        },
+        {
+          "word": "DİYALİZ",
+          "hint": "Yarı geçirgen bir zar kullanarak kolloit ve gerçek çözeltileri birbirinden ayırma."
+        },
+        {
+          "word": "OSMOZ",
+          "hint": "Yarı geçirgen bir zar aracılığıyla çözücünün az derişik ortamdan çok derişik ortama geçişi."
+        },
+        {
+          "word": "TERS OZMOS",
+          "hint": "Derişik tarafa basınç uygulayarak çözücü moleküllerini yarı geçirgen zardan geçirme (su arıtmada kullanılır)."
+        },
+        {
+          "word": "PH",
+          "hint": "Bir çözeltinin asitlik veya bazlık derecesini gösteren ölçü birimi."
+        },
+        {
+          "word": "ARITMA",
+          "hint": "Kirlilikleri giderme veya azaltma işlemi, temizleme."
+        },
+        {
+          "word": "ATIK YÖNETİMİ",
+          "hint": "Atıkların toplanması, taşınması, işlenmesi ve bertaraf edilmesi süreçlerinin bütünü."
+        },
+        {
+          "word": "ÇEVRESEL ETKİ",
+          "hint": "İnsan faaliyetlerinin veya doğal olayların çevre üzerindeki sonuçları."
+        },
+        {
+          "word": "BİYOYAKIT",
+          "hint": "Biyolojik kaynaklardan (bitkisel atıklar, yağlar vb.) elde edilen yakıtlar."
+        },
+        {
+          "word": "FOTOKİMYASAL SİS",
+          "hint": "Güneş ışığı ve hava kirleticilerinin tepkimesiyle oluşan, gözle görülür hava kirliliği."
+        },
+        {
+          "word": "KATALİZÖR",
+          "hint": "Kimyasal reaksiyon hızını değiştiren ancak kendisi harcanmayan madde."
+        },
+        {
+          "word": "KİMYASAL TEPKİME",
+          "hint": "Maddelerin yapısal değişim geçirerek yeni maddeler oluşturduğu olay."
+        },
+        {
+          "word": "ADSORPSİYON",
+          "hint": "Bir maddenin başka bir maddenin yüzeyine tutunması (gaz arıtmada kullanılır)."
+        },
+        {
+          "word": "İYON DEĞİŞTİRİCİ",
+          "hint": "Suda istenmeyen iyonları uzaklaştırmak için kullanılan sentetik reçine."
+        },
+        {
+          "word": "DOĞAL KAYNAK",
+          "hint": "Doğada bulunan ve insanlar tarafından kullanılan madde veya enerji."
+        },
+        {
+          "word": "BİYOLOJİK ARITMA",
+          "hint": "Mikroorganizmalar kullanarak atık suları veya atıkları temizleme yöntemi."
+        },
+        {
+          "word": "FİZİKSEL ARITMA",
+          "hint": "Çökeltme, süzme gibi fiziksel yöntemlerle atıkları ayırma ve uzaklaştırma."
+        },
+        {
+          "word": "KİMYASAL ARITMA",
+          "hint": "Kimyasal maddeler ekleyerek atıkları çöktürme veya dönüştürme yoluyla temizleme."
+        },
+        {
+          "word": "ORGANİK KİRLETİCİ",
+          "hint": "Karbon içeren, doğal veya sentetik kökenli kirletici maddeler."
+        },
+        {
+          "word": "İNORGANİK KİRLETİCİ",
+          "hint": "Karbon içermeyen, genellikle maden veya mineral kaynaklı kirletici maddeler."
+        },
+        {
+          "word": "KATI ATIK",
+          "hint": "Evsel, endüstriyel veya ticari faaliyetlerden kaynaklanan katı haldeki istenmeyen maddeler."
+        },
+        {
+          "word": "TOKSİK MADDE",
+          "hint": "Canlı organizmalar için zehirli veya zararlı olan kimyasal madde."
+        },
+        {
+          "word": "KLOROFİL",
+          "hint": "Bitkilerde fotosentez yapan, yeşil renkli pigment."
+        },
+        {
+          "word": "EKOSİSTEM",
+          "hint": "Belirli bir alandaki canlılar ve cansız çevrelerinin birbirleriyle etkileşim içinde olduğu sistem."
+        },
+        {
+          "word": "KARBON AYAK İZİ",
+          "hint": "Bir birey veya kurumun faaliyetleri sonucu atmosfere yayılan toplam karbon dioksit miktarı."
+        }
+      ]
     }
   ]
 }

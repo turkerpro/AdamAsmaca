@@ -2,7 +2,7 @@
   "units": [
     {
       "id": "cografya_u1",
-      "name": "1. Ünite: Nüfus",
+      "name": "1. Ünite: Doğal Sistemler",
       "months": [
         9,
         10,
@@ -38,7 +38,7 @@
           "hint": "İnsanların yaşadığı gezegen."
         },
         {
-          "word": "KİYA",
+          "word": "KIYA",
           "hint": "Bir bölgedeki insan sayısıdır."
         },
         {
@@ -50,7 +50,7 @@
           "hint": "Sayıların toplamının adede bölünmesiyle elde edilen değer."
         },
         {
-          "word": "Mİ̇LLİ̇",
+          "word": "MİLLİ",
           "hint": "Bir ulusa ait olan."
         },
         {
@@ -66,19 +66,19 @@
           "hint": "Doğumdan ölüme kadar geçen süre."
         },
         {
-          "word": "EKONOMİ̇",
+          "word": "EKONOMİ",
           "hint": "Üretim, tüketim ve dağıtımla ilgili sistem."
         },
         {
-          "word": "TARİM",
+          "word": "TARIM",
           "hint": "Bitki yetiştirme ve hayvan bakımı."
         },
         {
-          "word": "SANAYİ̇",
+          "word": "SANAYİ",
           "hint": "Fabrikalarda üretim yapma."
         },
         {
-          "word": "Hİ̇ZMET",
+          "word": "HİZMET",
           "hint": "İnsanlara yapılan yardım veya faaliyet."
         },
         {
@@ -86,19 +86,19 @@
           "hint": "Bir yere giden veya gelen kimse."
         },
         {
-          "word": "İ̇STASYON",
+          "word": "İSTASYON",
           "hint": "Ulaşım araçlarının durduğu yer."
         },
         {
-          "word": "TRAFİ̇K",
+          "word": "TRAFİK",
           "hint": "Araçların ve insanların yollardaki hareketi."
         },
         {
-          "word": "Bİ̇LGİ̇",
+          "word": "BİLGİ",
           "hint": "Öğrenilen veya keşfedilen gerçekler."
         },
         {
-          "word": "HARİ̇TA",
+          "word": "HARİTA",
           "hint": "Yeryüzünün veya bir bölümünün küçültülmüş temsili."
         },
         {
@@ -110,7 +110,7 @@
           "hint": "Belirli özelliklere sahip coğrafi alan."
         },
         {
-          "word": "İ̇KLİ̇M",
+          "word": "İKLİM",
           "hint": "Uzun süreli hava durumu örüntüsü."
         },
         {
@@ -118,7 +118,7 @@
           "hint": "Ağaçlarla kaplı geniş arazi."
         },
         {
-          "word": "DENİ̇Z",
+          "word": "DENİZ",
           "hint": "Geniş tuzlu su kütlesi."
         },
         {
@@ -134,7 +134,7 @@
           "hint": "Henüz yaşanmamış zaman."
         },
         {
-          "word": "GEÇMİ̇Ş",
+          "word": "GEÇMİŞ",
           "hint": "Yaşanmış zaman."
         },
         {
@@ -146,15 +146,15 @@
           "hint": "Verilerin veya bilgilerin düzenli bir şekilde gösterildiği çizelge."
         },
         {
-          "word": "ARTİS",
+          "word": "ARTIŞ",
           "hint": "Bir şeyin miktarının veya sayısının çoğalması."
         },
         {
-          "word": "AZALİŞ",
+          "word": "AZALIŞ",
           "hint": "Bir şeyin miktarının veya sayısının azalması."
         },
         {
-          "word": "VERİ̇",
+          "word": "VERİ",
           "hint": "Toplanan veya işlenen bilgi."
         },
         {
@@ -162,19 +162,19 @@
           "hint": "Bir yerden bir yere gitme eylemi."
         },
         {
-          "word": "GELİ̇R",
+          "word": "GELİR",
           "hint": "Para kazanma."
         },
         {
-          "word": "Gİ̇DER",
+          "word": "GİDER",
           "hint": "Para harcama."
         },
         {
-          "word": "EĞİ̇Tİ̇M",
+          "word": "EĞİTİM",
           "hint": "Bilgi ve beceri kazandırma süreci."
         },
         {
-          "word": "SAĞLİK",
+          "word": "SAĞLIK",
           "hint": "Vücudun iyilik hali."
         },
         {
@@ -186,7 +186,7 @@
           "hint": "Bir topluma ait değerler, inançlar, gelenekler."
         },
         {
-          "word": "GEZİ̇",
+          "word": "GEZİ",
           "hint": "Dinlenmek veya görmek amacıyla yapılan kısa yolculuk."
         },
         {
@@ -194,7 +194,7 @@
           "hint": "İleri yaş dönemi."
         },
         {
-          "word": "GENÇLİ̇K",
+          "word": "GENÇLİK",
           "hint": "Ergenlik sonrası ve yaşlılık öncesi dönem."
         },
         {
@@ -206,14 +206,14 @@
           "hint": "Her gün olan veya yapılan."
         },
         {
-          "word": "DEĞİ̇Şİ̇M",
+          "word": "DEĞİŞİM",
           "hint": "Bir durumdan başka bir duruma geçme."
         }
       ]
     },
     {
       "id": "cografya_u2",
-      "name": "2. Ünite: Göç",
+      "name": "2. Ünite: Beşerî Sistemler",
       "months": [
         12,
         1,
@@ -241,7 +241,7 @@
           "hint": "Nitelikli iş gücünün yurt dışına gitmesi"
         },
         {
-          "word": "İ̇STİ̇HDAM",
+          "word": "İSTİHDAM",
           "hint": "İş bulma veya iş verme durumu"
         },
         {
@@ -249,7 +249,7 @@
           "hint": "Geleceği düşünerek hazırlık yapma"
         },
         {
-          "word": "SÜRDÜRÜLEBİ̇Lİ̇RLİ̇K",
+          "word": "SÜRDÜRÜLEBİLİRLİK",
           "hint": "Devamlılığı sağlama, geleceği düşünme"
         },
         {
@@ -257,19 +257,19 @@
           "hint": "Henüz yaşanmamış zaman dilimi"
         },
         {
-          "word": "TARİM",
+          "word": "TARIM",
           "hint": "Bitki yetiştirme ve hayvan bakımı"
         },
         {
-          "word": "SANAYİ̇",
+          "word": "SANAYİ",
           "hint": "Ham maddeleri işleyerek üretim yapma"
         },
         {
-          "word": "Hİ̇ZMET",
+          "word": "HİZMET",
           "hint": "İnsanlara sunulan karşılıklı fayda"
         },
         {
-          "word": "İ̇NSAN",
+          "word": "İNSAN",
           "hint": "Dünyadaki akıllı canlı varlık"
         },
         {
@@ -277,7 +277,7 @@
           "hint": "Bir bölgede yaşayan toplam insan sayısı"
         },
         {
-          "word": "ARTİRMA",
+          "word": "ARTIRMA",
           "hint": "Sayıyı çoğaltma, yükseltme"
         },
         {
@@ -285,31 +285,31 @@
           "hint": "Sayıyı düşürme, eksiltme"
         },
         {
-          "word": "GELİ̇R",
+          "word": "GELİR",
           "hint": "Çalışarak kazanılan para"
         },
         {
-          "word": "Gİ̇DER",
+          "word": "GİDER",
           "hint": "Harcamalar, para çıkışı"
         },
         {
-          "word": "REFİ̇YAHL",
+          "word": "REFİYAHL",
           "hint": "Zenginlik, bolluk ve mutluluk durumu"
         },
         {
-          "word": "EĞİ̇Tİ̇M",
+          "word": "EĞİTİM",
           "hint": "Bilgi ve beceri kazanma süreci"
         },
         {
-          "word": "SAĞLİK",
+          "word": "SAĞLIK",
           "hint": "Hastalık durumu olmayan iyilik hali"
         },
         {
-          "word": "ALTYAPİ",
+          "word": "ALTYAPI",
           "hint": "Yollar, köprüler gibi temel yapılar"
         },
         {
-          "word": "ÜST YAPİ",
+          "word": "ÜST YAPI",
           "hint": "Binalar, okullar, hastaneler gibi yapılar"
         },
         {
@@ -321,11 +321,11 @@
           "hint": "Sorunu giderme yolu"
         },
         {
-          "word": "TEKNOLOJİ̇",
+          "word": "TEKNOLOJİ",
           "hint": "Bilimsel bilgilerin pratik uygulamaları"
         },
         {
-          "word": "İ̇LETİ̇Şİ̇M",
+          "word": "İLETİŞİM",
           "hint": "Bilgi ve duygu paylaşımı"
         },
         {
@@ -337,7 +337,7 @@
           "hint": "Şehirlerin büyümesi ve yayılması"
         },
         {
-          "word": "PLANSİZ",
+          "word": "PLANSIZ",
           "hint": "Önceden düşünülmemiş, programsız"
         },
         {
@@ -345,11 +345,11 @@
           "hint": "İzinsiz ve plansız yapılan konutlar"
         },
         {
-          "word": "Sİ̇YASET",
+          "word": "SİYASET",
           "hint": "Devlet yönetimiyle ilgili uğraş"
         },
         {
-          "word": "EKONOMİ̇",
+          "word": "EKONOMİ",
           "hint": "Üretim, tüketim ve dağıtımla ilgili bilim dalı"
         },
         {
@@ -361,7 +361,7 @@
           "hint": "Canlıların yaşamını etkileyen dış etkenler"
         },
         {
-          "word": "Kİ̇RLİ̇Lİ̇K",
+          "word": "KİRLİLİK",
           "hint": "Çevrenin bozulması, temiz olmaması"
         },
         {
@@ -381,7 +381,7 @@
           "hint": "Suyun taşması, yatağından çıkması"
         },
         {
-          "word": "KURAKLİK",
+          "word": "KURAKLIK",
           "hint": "Uzun süren yağışsızlık dönemi"
         },
         {
@@ -389,11 +389,11 @@
           "hint": "Yeryüzünden lav, kül ve gaz püskürten dağ"
         },
         {
-          "word": "Tİ̇CARET",
+          "word": "TİCARET",
           "hint": "Alım satım, mal değişimi"
         },
         {
-          "word": "ÜRETİ̇M",
+          "word": "ÜRETİM",
           "hint": "Mal veya hizmet ortaya çıkarma"
         },
         {
@@ -401,19 +401,19 @@
           "hint": "Kullanım, tüketim"
         },
         {
-          "word": "Mİ̇GRASYON",
+          "word": "MİGRASYON",
           "hint": "İnsanların yer değiştirmesi (GÖÇ'ün eş anlamlısı gibi düşünülebilir)"
         },
         {
-          "word": "İ̇KLİ̇M",
+          "word": "İKLİM",
           "hint": "Bir bölgenin uzun süreli hava durumu"
         },
         {
-          "word": "YERLEŞİ̇M",
+          "word": "YERLEŞİM",
           "hint": "İnsanların oturmak için seçtiği yer"
         },
         {
-          "word": "TARİ̇Hİ̇",
+          "word": "TARİHİ",
           "hint": "Geçmişe ait, eski zamanlarla ilgili"
         },
         {
@@ -421,11 +421,11 @@
           "hint": "Kültürle ilgili, kültüre ait"
         },
         {
-          "word": "Bİ̇Lİ̇M",
+          "word": "BİLİM",
           "hint": "Gözlem ve deneye dayanan bilgi topluluğu"
         },
         {
-          "word": "HARİ̇TA",
+          "word": "HARİTA",
           "hint": "Yeryüzünün veya bir kısmının belirli bir ölçekte küçültülerek bir düzlem üzerine çizilmiş biçimi"
         },
         {
@@ -445,16 +445,458 @@
         3,
         4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "BÖLGE",
+          "hint": "Ortak özellikleriyle ayrılan coğrafi alan."
+        },
+        {
+          "word": "KITA",
+          "hint": "Dünya üzerindeki en büyük kara parçalarından her biri."
+        },
+        {
+          "word": "OKYANUS",
+          "hint": "Çok büyük, derin ve tuzlu su kütleleri."
+        },
+        {
+          "word": "ÜLKE",
+          "hint": "Kendi toprakları, milleti ve hükümeti olan siyasi birim."
+        },
+        {
+          "word": "BAŞKENT",
+          "hint": "Bir devletin yönetim merkezinin bulunduğu şehir."
+        },
+        {
+          "word": "NÜFUS",
+          "hint": "Bir alanda yaşayan toplam insan sayısı."
+        },
+        {
+          "word": "YERLEŞME",
+          "hint": "İnsanların barınma ve yaşam alanı olarak seçtiği yer."
+        },
+        {
+          "word": "EKONOMİ",
+          "hint": "Üretim, tüketim ve ticaretin oluşturduğu sistem."
+        },
+        {
+          "word": "SANAYİ",
+          "hint": "Fabrikalarda üretim yapılan sektör."
+        },
+        {
+          "word": "TARIM",
+          "hint": "Toprağı işleyerek bitki yetiştirme veya hayvan besleme."
+        },
+        {
+          "word": "HİZMET",
+          "hint": "Eğitim, sağlık, turizm gibi insanlara fayda sağlayan sektörler."
+        },
+        {
+          "word": "GELİŞME",
+          "hint": "Bir ülkenin ekonomik ve sosyal olarak ilerlemesi."
+        },
+        {
+          "word": "KALKINMA",
+          "hint": "Toplumun yaşam kalitesini artıran süreç."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "İhtiyaçları karşılamak için kullanılan varlık."
+        },
+        {
+          "word": "İKLİM",
+          "hint": "Bir yerin uzun süreli ortalama hava durumu."
+        },
+        {
+          "word": "DOĞAL AFET",
+          "hint": "İnsanlar için yıkıcı olabilen doğa olayları."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Canlıların yaşadığı ve etkileşimde olduğu ortam."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Doğal kaynakları gelecek nesillere aktararak kullanma."
+        },
+        {
+          "word": "KÜRESELLEŞME",
+          "hint": "Dünyanın birbirine daha çok bağlanması."
+        },
+        {
+          "word": "ÖRGÜT",
+          "hint": "Ortak amaçlar için kurulan uluslararası kurum."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Ürün ve hizmetlerin alınıp satılması."
+        },
+        {
+          "word": "İHRACAT",
+          "hint": "Bir ülkenin ürünlerini başka ülkelere satması."
+        },
+        {
+          "word": "İTHALAT",
+          "hint": "Bir ülkenin dışarıdan ürün alması."
+        },
+        {
+          "word": "GSYİH",
+          "hint": "Bir ülkenin ekonomik büyüklüğünü gösteren değer."
+        },
+        {
+          "word": "ALTYAPI",
+          "hint": "Bir şehir veya ülkenin temel tesisleri (yol, su, elektrik)."
+        },
+        {
+          "word": "DEMOGRAFİ",
+          "hint": "Nüfusun özelliklerini inceleyen bilim."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların yaşadığı yerden başka bir yere taşınması."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun ortak yaşam biçimi ve değerleri."
+        },
+        {
+          "word": "MEDENİYET",
+          "hint": "Gelişmiş bir toplumun ulaştığı yaşam düzeyi."
+        },
+        {
+          "word": "POLİTİKA",
+          "hint": "Bir devletin yönetim ve işleyişiyle ilgili konular."
+        },
+        {
+          "word": "JEOPOLİTİK",
+          "hint": "Coğrafyanın devletlerin dış ilişkileri üzerindeki etkisi."
+        },
+        {
+          "word": "ULUSLARARASI",
+          "hint": "Birden fazla ülkeyi kapsayan."
+        },
+        {
+          "word": "EGEMENLİK",
+          "hint": "Bir devletin kendi toprakları üzerinde bağımsız yönetim hakkı."
+        },
+        {
+          "word": "ÇÖL",
+          "hint": "Çok az yağış alan, kurak ve sıcak bölge."
+        },
+        {
+          "word": "TROPİKAL",
+          "hint": "Ekvator çevresindeki sıcak ve nemli iklim bölgesi."
+        },
+        {
+          "word": "KUTUP",
+          "hint": "Dünyanın en soğuk, buzlarla kaplı bölgeleri."
+        },
+        {
+          "word": "EKOSİSTEM",
+          "hint": "Canlıların ve çevrelerinin birbirini etkilediği sistem."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK",
+          "hint": "Bir bölgedeki farklı canlı türlerinin zenginliği."
+        },
+        {
+          "word": "URBANİZASYON",
+          "hint": "Şehirleşmenin artması ve kentsel alanların büyümesi."
+        },
+        {
+          "word": "METROPOL",
+          "hint": "Çevre şehirleri de içine alan büyükşehir."
+        },
+        {
+          "word": "MEGAŞEHİR",
+          "hint": "Nüfusu on milyonu geçen çok büyük şehir."
+        },
+        {
+          "word": "YOKSULLUK",
+          "hint": "Temel ihtiyaçları karşılayacak gelire sahip olmama."
+        },
+        {
+          "word": "EŞİTSİZLİK",
+          "hint": "İnsanlar arasındaki ekonomik veya sosyal farklar."
+        },
+        {
+          "word": "SANAYİLEŞME",
+          "hint": "Bir ülkenin ekonomisinde sanayinin ağırlık kazanması."
+        },
+        {
+          "word": "KENTLEŞME",
+          "hint": "Şehirlerde yaşayan insan sayısının artması."
+        },
+        {
+          "word": "GLOBAL",
+          "hint": "Tüm dünyayı ilgilendiren."
+        },
+        {
+          "word": "BÖLGESEL",
+          "hint": "Belirli bir bölgeye özgü olan."
+        },
+        {
+          "word": "MÜLTECİ",
+          "hint": "Savaş veya zulümden kaçıp başka bir ülkeye sığınan kişi."
+        },
+        {
+          "word": "GEZEGEN",
+          "hint": "Güneş gibi bir yıldız etrafında dönen büyük gök cismi."
+        },
+        {
+          "word": "ATMOSFER",
+          "hint": "Dünyayı saran gaz tabakası."
+        },
+        {
+          "word": "HİDROSFER",
+          "hint": "Dünya üzerindeki tüm su kütleleri."
+        },
+        {
+          "word": "LİTOSFER",
+          "hint": "Dünya'nın en dıştaki katı kabuğu."
+        },
+        {
+          "word": "ENDÜSTRİ",
+          "hint": "Hammadde işleme ve üretim sektörü."
+        },
+        {
+          "word": "DEMİRYOLU",
+          "hint": "Trenlerin ulaşım için kullandığı raylı sistem."
+        },
+        {
+          "word": "KARAYOLU",
+          "hint": "Taşıtların kullandığı asfalt veya stabilize yol ağı."
+        },
+        {
+          "word": "DENİZYOLU",
+          "hint": "Gemilerin denizlerde kullandığı ulaşım hattı."
+        },
+        {
+          "word": "HAVAYOLU",
+          "hint": "Uçakların ve hava araçlarının kullandığı ulaşım sistemi."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapma ve hareket ettirme gücü."
+        },
+        {
+          "word": "FOSİL YAKIT",
+          "hint": "Milyonlarca yılda oluşan kömür, petrol, doğalgaz gibi enerji kaynakları."
+        },
+        {
+          "word": "YENİLENEBİLİR",
+          "hint": "Kendini sürekli yenileyen enerji kaynakları (güneş, rüzgar)."
+        }
+      ]
     },
     {
       "id": "cografya_u4",
-      "name": "4. Ünite: Çevre ve Toplum, Doğal Afetler",
+      "name": "4. Ünite: Çevre ve Toplum",
       "months": [
         5,
         6
       ],
-      "words": []
+      "words": [
+        {
+          "word": "AFET",
+          "hint": "Geniş çaplı zarar veren doğal veya insan kaynaklı olay."
+        },
+        {
+          "word": "DEPREM",
+          "hint": "Yer kabuğundaki ani kırılmalarla oluşan sarsıntı."
+        },
+        {
+          "word": "HEYELAN",
+          "hint": "Toprak veya kaya kütlesinin yamaçtan aşağı kayması."
+        },
+        {
+          "word": "SEL",
+          "hint": "Aşırı yağış sonucu akarsuların taşması."
+        },
+        {
+          "word": "ÇİĞ",
+          "hint": "Dağ yamaçlarından kar kütlesinin hızla inmesi."
+        },
+        {
+          "word": "KURAKLIK",
+          "hint": "Bir bölgede uzun süre yağış yetersizliği."
+        },
+        {
+          "word": "EROZYON",
+          "hint": "Toprağın rüzgar veya su ile taşınması."
+        },
+        {
+          "word": "TSUNAMİ",
+          "hint": "Deniz tabanı depremleriyle oluşan dev dalga."
+        },
+        {
+          "word": "VOLKAN",
+          "hint": "Yer altındaki magmanın yüzeye çıktığı dağ."
+        },
+        {
+          "word": "FIRTINA",
+          "hint": "Şiddetli rüzgar ve yağış içeren hava olayı."
+        },
+        {
+          "word": "HORTUM",
+          "hint": "Hızla dönen hava sütunu şeklinde şiddetli rüzgar."
+        },
+        {
+          "word": "KİRLİLİK",
+          "hint": "Çevrenin doğal yapısını bozan madde birikimi."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Atıkların yeniden işlenerek kullanılması."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Canlıların yaşadığı doğal veya yapay ortam."
+        },
+        {
+          "word": "İKLİM",
+          "hint": "Bir yerdeki uzun dönemli hava olaylarının ortalaması."
+        },
+        {
+          "word": "KÜRESEL ISINMA",
+          "hint": "Dünya atmosferi ve okyanus sıcaklığının artması."
+        },
+        {
+          "word": "SERA GAZLARI",
+          "hint": "Atmosferde ısıyı tutan gazlar."
+        },
+        {
+          "word": "KARBON AYAK İZİ",
+          "hint": "Bir faaliyetin çevreye saldığı karbon miktarı."
+        },
+        {
+          "word": "SU KAYNAKLARI",
+          "hint": "Canlıların kullandığı su rezervleri."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme yeteneği."
+        },
+        {
+          "word": "ATIK",
+          "hint": "Kullanım sonrası ortaya çıkan işe yaramaz madde."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Kaynakları gelecek nesillere aktararak kullanma."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK",
+          "hint": "Bir bölgedeki farklı canlı türlerinin zenginliği."
+        },
+        {
+          "word": "EKOSİSTEM",
+          "hint": "Canlılar ve cansız çevrenin etkileşim halinde olduğu alan."
+        },
+        {
+          "word": "HABİTAT",
+          "hint": "Bir canlının doğal yaşam alanı."
+        },
+        {
+          "word": "ÖNLEM",
+          "hint": "Bir tehlikenin ortaya çıkmasını engelleyen tedbir."
+        },
+        {
+          "word": "TAHLİYE",
+          "hint": "Tehlikeli bölgeden insan veya eşya uzaklaştırma."
+        },
+        {
+          "word": "RİSK",
+          "hint": "Bir tehlikenin olasılığı ve yol açabileceği zarar."
+        },
+        {
+          "word": "FELAKET",
+          "hint": "Büyük yıkım ve can kaybına yol açan afet durumu."
+        },
+        {
+          "word": "YÖNETİM",
+          "hint": "Bir işi planlama ve denetleme süreci."
+        },
+        {
+          "word": "FARKINDALIK",
+          "hint": "Bir konu hakkında bilgi sahibi olma durumu."
+        },
+        {
+          "word": "TEKTONİK",
+          "hint": "Yer kabuğu hareketleri ve yapısıyla ilgili."
+        },
+        {
+          "word": "JEOLOJİK",
+          "hint": "Yer bilimiyle ilgili."
+        },
+        {
+          "word": "METEOROLOJİK",
+          "hint": "Hava olayları bilimiyle ilgili."
+        },
+        {
+          "word": "HİDROLOJİK",
+          "hint": "Su bilimiyle ilgili."
+        },
+        {
+          "word": "BİYOLOJİK",
+          "hint": "Canlılarla ilgili."
+        },
+        {
+          "word": "TAHRİP",
+          "hint": "Bir şeyi yıpratma veya yok etme."
+        },
+        {
+          "word": "AĞAÇLANDIRMA",
+          "hint": "Erozyonu önlemek için ağaç dikme."
+        },
+        {
+          "word": "ÇÖLLEŞME",
+          "hint": "Verimli toprakların çoraklaşarak çöl haline gelmesi."
+        },
+        {
+          "word": "ASFALT",
+          "hint": "Yol yapımında kullanılan petrol türevi madde."
+        },
+        {
+          "word": "KENTLEŞME",
+          "hint": "Şehirlerin büyümesi ve nüfusun artması süreci."
+        },
+        {
+          "word": "ALTYAPI",
+          "hint": "Bir yerleşim yerinin temel hizmet sistemleri."
+        },
+        {
+          "word": "SANAYİLEŞME",
+          "hint": "Üretimde makine ve fabrika kullanımının artması."
+        },
+        {
+          "word": "DEPOLAMA",
+          "hint": "Bir şeyi belirli bir yerde saklama."
+        },
+        {
+          "word": "İZLEME",
+          "hint": "Bir durumu veya süreci sürekli takip etme."
+        },
+        {
+          "word": "SENKRONİZASYON",
+          "hint": "Olay veya işlemlerin eş zamanlı gerçekleşmesi."
+        },
+        {
+          "word": "KARBON NÖTR",
+          "hint": "Atmosfere net karbon salımının sıfır olması."
+        },
+        {
+          "word": "KENTSEL DÖNÜŞÜM",
+          "hint": "Eski ve riskli yapıların yenilenmesi."
+        },
+        {
+          "word": "JEOTERMAL",
+          "hint": "Yerin derinliklerinden gelen ısı enerjisi."
+        },
+        {
+          "word": "RÜZGAR TÜRBİNİ",
+          "hint": "Rüzgar enerjisi üreten yapı."
+        }
+      ]
     }
   ]
 }

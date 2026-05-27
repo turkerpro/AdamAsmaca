@@ -2,7 +2,7 @@
   "units": [
     {
       "id": "biyoloji_u1",
-      "name": "1. Ünite: Genetik Mühendisliği",
+      "name": "1. Ünite: Genden Proteine",
       "months": [
         9,
         10
@@ -89,19 +89,19 @@
           "hint": "Belirli bir DNA parçasının çok sayıda kopyasını üreten teknik."
         },
         {
-          "word": "KAZANİLMİŞ ÖZELLİ̇K",
+          "word": "KAZANILMIŞ ÖZELLİK",
           "hint": "Çevresel etkilerle sonradan edinilen özellik."
         },
         {
-          "word": "KALİTSAL ÖZELLİ̇K",
+          "word": "KALITSAL ÖZELLİK",
           "hint": "Ebeveynlerden yavrulara aktarılan özellik."
         },
         {
-          "word": "Bİ̇YOTEKNOLOJİ̇",
+          "word": "BİYOTEKNOLOJİ",
           "hint": "Canlıları veya onların parçalarını kullanarak ürün geliştirme."
         },
         {
-          "word": "MOLEKÜLER Bİ̇YOLOJİ̇",
+          "word": "MOLEKÜLER BİYOLOJİ",
           "hint": "Canlıların moleküler düzeydeki çalışmalarını inceleyen bilim dalı."
         },
         {
@@ -109,7 +109,7 @@
           "hint": "Canlıların genetik yapılarında değişiklik yapma bilimi."
         },
         {
-          "word": "Dİ̇Zİ̇LEME",
+          "word": "DİZİLEME",
           "hint": "DNA'nın nükleotit sırasını belirleme işlemi."
         },
         {
@@ -129,7 +129,7 @@
           "hint": "Gelişimin erken evresindeki canlı yavru."
         },
         {
-          "word": "SELEKSİ̇YON",
+          "word": "SELEKSİYON",
           "hint": "Belirli özelliklere sahip bireylerin seçilerek üretilmesi."
         },
         {
@@ -157,7 +157,7 @@
           "hint": "Gen susturma mekanizmasında rol alan RNA molekülü."
         },
         {
-          "word": "ANTİBİOTİK Dİ̇RENCİ̇",
+          "word": "ANTİBİOTİK DİRENCİ",
           "hint": "Bakterilerin antibiyotiklere karşı direnç kazanması."
         },
         {
@@ -205,14 +205,14 @@
           "hint": "Hücrelerdeki küçük molekülleri ve metabolizmayı inceleme."
         },
         {
-          "word": "Bİ̇YOSENSÖR",
+          "word": "BİYOSENSÖR",
           "hint": "Biyolojik bir bileşeni ölçüm için kullanan cihaz."
         }
       ]
     },
     {
       "id": "biyoloji_u2",
-      "name": "2. Ünite: Biyoteknoloji",
+      "name": "2. Ünite: Canlılarda Enerji Dönüşümleri",
       "months": [
         11,
         12
@@ -363,7 +363,7 @@
           "hint": "Sıvı bir maddeyi vücuda verme işlemi."
         },
         {
-          "word": "İ̇ZOLASYON",
+          "word": "İZOLASYON",
           "hint": "Bir maddeyi veya organizmayı diğerlerinden ayırma işlemi."
         },
         {
@@ -422,37 +422,508 @@
     },
     {
       "id": "biyoloji_u3",
-      "name": "3. Ünite: Hücre Bölünmeleri ve Üreme",
+      "name": "3. Ünite: Bitki Biyolojisi",
       "months": [
         1,
         2
       ],
-      "words": []
+      "words": [
+        {
+          "word": "MİTOKONDRİ",
+          "hint": "Hücrenin enerji santrali."
+        },
+        {
+          "word": "KLOROPLAST",
+          "hint": "Bitki hücrelerinde fotosentez yapan organel."
+        },
+        {
+          "word": "HÜCRE ZARI",
+          "hint": "Hücreyi dış ortamdan ayıran seçici geçirgen yapı."
+        },
+        {
+          "word": "ÇEKİRDEK",
+          "hint": "Hücrenin yönetim merkezi, genetik materyali barındırır."
+        },
+        {
+          "word": "SİTOPLAZMA",
+          "hint": "Hücre zarının içini dolduran, organelleri içeren sıvı kısım."
+        },
+        {
+          "word": "DNA",
+          "hint": "Canlıların kalıtsal bilgilerini taşıyan molekül."
+        },
+        {
+          "word": "KROMOZOM",
+          "hint": "DNA'nın paketlenmiş hali, genetik bilgiyi taşır."
+        },
+        {
+          "word": "GEN",
+          "hint": "Kalıtsal bir karakteri belirleyen DNA parçası."
+        },
+        {
+          "word": "MİTOZ",
+          "hint": "Vücut hücrelerinde görülen, tek bölünmeyle iki özdeş hücre oluşturan eşeysiz üreme şekli."
+        },
+        {
+          "word": "MAYOZ",
+          "hint": "Eşey hücrelerinin (gamet) oluşumu sırasında görülen, kromozom sayısını yarıya indiren eşeyli üreme şekli."
+        },
+        {
+          "word": "KARDEŞ KROMATİT",
+          "hint": "Mitoz veya mayoz bölünme sırasında bir kromozomun iki özdeş kolu."
+        },
+        {
+          "word": "SENTROMER",
+          "hint": "Kardeş kromatitlerin birleştiği orta nokta."
+        },
+        {
+          "word": "İĞ İPLİĞİ",
+          "hint": "Kromozomların kutuplara çekilmesinde rol oynayan yapılar."
+        },
+        {
+          "word": "ANAFAZ",
+          "hint": "Mitoz ve mayozun, kromatitlerin ayrıldığı evresi."
+        },
+        {
+          "word": "METAFAZ",
+          "hint": "Kromozomların hücrenin ortasında toplandığı evre."
+        },
+        {
+          "word": "PROFAZ",
+          "hint": "Çekirdek zarının eridiği, kromozomların belirginleştiği ilk evre."
+        },
+        {
+          "word": "TELOFAZ",
+          "hint": "Bölünmenin son evresi, yeni çekirdeklerin oluştuğu zaman."
+        },
+        {
+          "word": "SİTOKİNEZ",
+          "hint": "Hücre bölünmesinin son aşaması, sitoplazmanın ikiye ayrılması."
+        },
+        {
+          "word": "GAMET",
+          "hint": "Üreme hücresi, sperm veya yumurta."
+        },
+        {
+          "word": "ZİGOT",
+          "hint": "Döllenme sonucu oluşan ilk hücre."
+        },
+        {
+          "word": "EMBRİYO",
+          "hint": "Gelişimin ilk evrelerindeki canlı taslağı."
+        },
+        {
+          "word": "DÖLLENME",
+          "hint": "Erkek ve dişi üreme hücrelerinin birleşmesi."
+        },
+        {
+          "word": "EŞEYLİ ÜREME",
+          "hint": "İki farklı genotipin birleşmesiyle yeni bireylerin oluştuğu üreme."
+        },
+        {
+          "word": "EŞEYSİZ ÜREME",
+          "hint": "Tek bir atadan, genetik olarak aynı yeni bireylerin oluştuğu üreme."
+        },
+        {
+          "word": "PARTENOGENEZ",
+          "hint": "Döllenmemiş yumurtadan yeni birey oluşması."
+        },
+        {
+          "word": "VEJETATİF ÜREME",
+          "hint": "Bitkilerin kök, gövde, yaprak gibi kısımlarıyla çoğalması."
+        },
+        {
+          "word": "TOMURCUKLANMA",
+          "hint": "Hücreden veya organizmadan yeni bir yapının filizlenmesi."
+        },
+        {
+          "word": "BİPOLAR",
+          "hint": "Mitoz iğ ipliklerinin iki kutbunu ifade eder."
+        },
+        {
+          "word": "HAPLOİT",
+          "hint": "Tek takım kromozoma sahip olma durumu (n)."
+        },
+        {
+          "word": "DİPLOİT",
+          "hint": "İki takım kromozoma sahip olma durumu (2n)."
+        },
+        {
+          "word": "KROSSİNG-OVER",
+          "hint": "Mayoz bölünme sırasında homolog kromozomlar arasında parça değişimi."
+        },
+        {
+          "word": "HOMOLOG KROMOZOM",
+          "hint": "Aynı genleri taşıyan, biri anneden diğeri babadan gelen kromozom çifti."
+        },
+        {
+          "word": "GENOTİP",
+          "hint": "Bir organizmanın genetik yapısı."
+        },
+        {
+          "word": "FENOTİP",
+          "hint": "Bir organizmanın genotip ve çevre etkileşimiyle ortaya çıkan dış görünüşü."
+        },
+        {
+          "word": "MUTASYON",
+          "hint": "Genetik yapıda meydana gelen kalıcı değişiklik."
+        },
+        {
+          "word": "REKOMBİNASYON",
+          "hint": "Mayoz bölünme sonucu genetik çeşitliliğin artması."
+        },
+        {
+          "word": "APOPTOSİS",
+          "hint": "Programlanmış hücre ölümü."
+        },
+        {
+          "word": "HÜCRE DÖNGÜSÜ",
+          "hint": "Hücrenin büyümesi ve bölünmesi arasındaki süreç."
+        },
+        {
+          "word": "G1 FAZI",
+          "hint": "Hücre döngüsünün büyüme ve hazırlık evresi."
+        },
+        {
+          "word": "S FAZI",
+          "hint": "DNA'nın eşlendiği evre."
+        },
+        {
+          "word": "G2 FAZI",
+          "hint": "Bölünmeye hazırlığın tamamlandığı evre."
+        },
+        {
+          "word": "M FAZI",
+          "hint": "Hücre bölünmesinin gerçekleştiği evre (Mitoz veya Mayoz)."
+        },
+        {
+          "word": "KANSER",
+          "hint": "Kontrolsüz hücre bölünmesi sonucu oluşan hastalık."
+        },
+        {
+          "word": "ONKOGEN",
+          "hint": "Hücre bölünmesini kontrol eden genlerin mutasyona uğramış hali."
+        },
+        {
+          "word": "BİYOTEKNOLOJİ",
+          "hint": "Canlı organizmaların veya onların bileşenlerinin teknolojik amaçlarla kullanılması."
+        },
+        {
+          "word": "KLONLAMA",
+          "hint": "Genetik olarak özdeş bireyler üretme."
+        },
+        {
+          "word": "GENETİK MÜHENDİSLİĞİ",
+          "hint": "Organizmaların genetik yapısında değişiklik yapma bilimi."
+        },
+        {
+          "word": "SOYAĞACI ANALİZİ",
+          "hint": "Kalıtsal özelliklerin nesiller boyunca nasıl aktarıldığını gösteren çizelge."
+        },
+        {
+          "word": "AKRABA EVLİLİĞİ",
+          "hint": "Genetik hastalık riskini artıran evlilik türü."
+        },
+        {
+          "word": "MONOHİBRİT ÇAPRAZLAMA",
+          "hint": "Tek bir karakter bakımından yapılan çaprazlama."
+        },
+        {
+          "word": "DİHİBRİT ÇAPRAZLAMA",
+          "hint": "İki karakter bakımından yapılan çaprazlama."
+        },
+        {
+          "word": "ALEL",
+          "hint": "Bir genin farklı versiyonları."
+        },
+        {
+          "word": "DOMİNANT",
+          "hint": "Etkisini her zaman gösteren alel."
+        },
+        {
+          "word": "RESESİF",
+          "hint": "Sadece homozigot durumda etkisini gösteren alel."
+        },
+        {
+          "word": "HOMOZİGOT",
+          "hint": "Aynı alellere sahip olma durumu (AA veya aa)."
+        },
+        {
+          "word": "HETEROZİGOT",
+          "hint": "Farklı alellere sahip olma durumu (Aa)."
+        },
+        {
+          "word": "EŞ BASKINLIK",
+          "hint": "İki alelin de etkisini gösterdiği durum."
+        },
+        {
+          "word": "ÇOK ALELLİLİK",
+          "hint": "Bir gen için ikiden fazla alelin bulunması durumu."
+        },
+        {
+          "word": "KAN GRUBU",
+          "hint": "İnsanlarda kalıtsal bir özellik, çok alellilik örneği."
+        },
+        {
+          "word": "CİNSİYET BELİRLENMESİ",
+          "hint": "Bir canlının erkek veya dişi olmasını belirleyen genetik faktörler."
+        },
+        {
+          "word": "GONOZOM",
+          "hint": "Cinsiyet kromozomları (X ve Y)."
+        },
+        {
+          "word": "OTOZOM",
+          "hint": "Cinsiyet kromozomları dışındaki kromozomlar."
+        },
+        {
+          "word": "EŞEYE BAĞLI KALITIM",
+          "hint": "Genlerin cinsiyet kromozomlarında bulunmasıyla aktarılan kalıtım."
+        },
+        {
+          "word": "HEMOFİLİ",
+          "hint": "Kanın pıhtılaşmaması hastalığı, eşeye bağlı çekinik."
+        },
+        {
+          "word": "RENKKÖRLÜĞÜ",
+          "hint": "Renkleri ayırt edememe durumu, eşeye bağlı çekinik."
+        },
+        {
+          "word": "DUYGUSAL DURUM",
+          "hint": "Biyolojik faktörlerin de etkilediği ruhsal hal."
+        },
+        {
+          "word": "BESLENME",
+          "hint": "Hücrelerin büyümesi ve enerjisi için gerekli maddeleri alma süreci."
+        }
+      ]
     },
     {
       "id": "biyoloji_u4",
-      "name": "4. Ünite: Kalıtımın Temel İlkeleri",
+      "name": "4. Ünite: Canlılar ve Çevre",
       "months": [
         3,
-        4
-      ],
-      "words": []
-    },
-    {
-      "id": "biyoloji_u5",
-      "name": "5. Ünite: Ekosistem Ekolojisi ve Çevre Sorunları",
-      "months": [
+        4,
         5
       ],
-      "words": []
-    },
-    {
-      "id": "biyoloji_u6",
-      "name": "6. Ünite: Genden Proteine ve Canlılarda Enerji Dönüşümleri",
-      "months": [
-        6
-      ],
-      "words": []
+      "words": [
+        {
+          "word": "ALEL",
+          "hint": "Bir genin farklı biçimlerinden her biri."
+        },
+        {
+          "word": "GENOTİP",
+          "hint": "Bir organizmanın genetik yapısı."
+        },
+        {
+          "word": "FENOTİP",
+          "hint": "Bir organizmanın gözlemlenebilir özellikleri."
+        },
+        {
+          "word": "HOMOZİGOT",
+          "hint": "Bir özellik için aynı alellere sahip olma durumu."
+        },
+        {
+          "word": "HETEROZİGOT",
+          "hint": "Bir özellik için farklı alellere sahip olma durumu."
+        },
+        {
+          "word": "DOMİNANT",
+          "hint": "Etkisini heterozigot durumda da gösteren alel."
+        },
+        {
+          "word": "RESESİF",
+          "hint": "Etkisini sadece homozigot durumda gösterebilen alel."
+        },
+        {
+          "word": "KROSSİNG-OVER",
+          "hint": "Mayoz bölünme sırasında homolog kromozomlar arasındaki parça değişimi."
+        },
+        {
+          "word": "MUTASYON",
+          "hint": "Genetik maddede meydana gelen kalıcı değişiklik."
+        },
+        {
+          "word": "ÇAPRAZLAMA",
+          "hint": "İki farklı genotipin eşleştirilmesi."
+        },
+        {
+          "word": "DİHİBRİT",
+          "hint": "İki farklı karakter açısından heterozigot olma durumu."
+        },
+        {
+          "word": "MONOHİBRİT",
+          "hint": "Tek bir karakter açısından heterozigot olma durumu."
+        },
+        {
+          "word": "EŞEY",
+          "hint": "Bireylerin dişi veya erkek olma durumu."
+        },
+        {
+          "word": "KROMOZOM",
+          "hint": "Hücre çekirdeğinde bulunan kalıtım materyali taşıyıcısı."
+        },
+        {
+          "word": "DNA",
+          "hint": "Kalıtsal bilgiyi taşıyan molekül."
+        },
+        {
+          "word": "SENTROMER",
+          "hint": "Kromozomları bir arada tutan orta nokta."
+        },
+        {
+          "word": "KROMATİT",
+          "hint": "Hücre bölünmesi sırasında oluşan kromozom kolları."
+        },
+        {
+          "word": "MAYOZ",
+          "hint": "Eşeyli üreyen canlılarda gamet oluşumunu sağlayan hücre bölünmesi."
+        },
+        {
+          "word": "MİTOZ",
+          "hint": "Vücut hücrelerinin bölünerek çoğalmasını sağlayan hücre bölünmesi."
+        },
+        {
+          "word": "GAMET",
+          "hint": "Üreme hücreleri (sperm ve yumurta)."
+        },
+        {
+          "word": "SİTOPLAZMA",
+          "hint": "Hücre zarının içini dolduran jel benzeri madde."
+        },
+        {
+          "word": "NÜKLEUS",
+          "hint": "Hücre çekirdeği."
+        },
+        {
+          "word": "HÜCRE",
+          "hint": "Canlılığın temel yapı birimi."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Benzer görevdeki hücrelerin oluşturduğu topluluk."
+        },
+        {
+          "word": "ORGAN",
+          "hint": "Farklı dokuların bir araya gelerek oluşturduğu yapı."
+        },
+        {
+          "word": "SİSTEM",
+          "hint": "Birlikte çalışan organlar topluluğu."
+        },
+        {
+          "word": "CANLI",
+          "hint": "Yaşam özelliği gösteren varlık."
+        },
+        {
+          "word": "NESİL",
+          "hint": "Birbirini takip eden bireyler dizisi."
+        },
+        {
+          "word": "SOY",
+          "hint": "Ortak atalardan gelen bireyler grubu."
+        },
+        {
+          "word": "KÖKEN",
+          "hint": "Bir şeyin başladığı yer veya kaynak."
+        },
+        {
+          "word": "VARİS",
+          "hint": "Miras kalan özellikler."
+        },
+        {
+          "word": "BİYOLOJİ",
+          "hint": "Canlıları inceleyen bilim dalı."
+        },
+        {
+          "word": "GENETİK",
+          "hint": "Kalıtım bilimi."
+        },
+        {
+          "word": "MENDEL",
+          "hint": "Kalıtımın babası kabul edilen bilim insanı."
+        },
+        {
+          "word": "KLON",
+          "hint": "Genetik olarak aynı olan birey veya molekül."
+        },
+        {
+          "word": "HİBRİT",
+          "hint": "Farklı genotiplerin çaprazlanması sonucu oluşan."
+        },
+        {
+          "word": "OSMOZ",
+          "hint": "Suyun yarı geçirgen bir zardan geçişi."
+        },
+        {
+          "word": "DİFÜZYON",
+          "hint": "Maddelerin çok yoğun ortamdan az yoğun ortama geçişi."
+        },
+        {
+          "word": "PASİF TAŞİMA",
+          "hint": "Enerji harcanmadan madde geçişi."
+        },
+        {
+          "word": "AKTİF TAŞIMA",
+          "hint": "Enerji harcanarak madde geçişi."
+        },
+        {
+          "word": "SEMİPERMEABL",
+          "hint": "Seçici geçirgen zar."
+        },
+        {
+          "word": "MİTOKONDRİ",
+          "hint": "Hücrenin enerji santrali."
+        },
+        {
+          "word": "RİBOSOM",
+          "hint": "Protein sentezinin yapıldığı organel."
+        },
+        {
+          "word": "ENDOPLAZMİK",
+          "hint": "Hücre içi madde taşınmasını sağlayan zar ağı."
+        },
+        {
+          "word": "GOLGİ",
+          "hint": "Hücrede paketleme ve taşıma merkezi."
+        },
+        {
+          "word": "PROTEİN",
+          "hint": "Canlıların temel yapı taşlarından biri."
+        },
+        {
+          "word": "KARBONHİDRAT",
+          "hint": "Enerji kaynağı olan organik molekül."
+        },
+        {
+          "word": "LİPİT",
+          "hint": "Yağları içeren organik molekül grubu."
+        },
+        {
+          "word": "NÜKLEOTİT",
+          "hint": "DNA ve RNA'nın yapı birimi."
+        },
+        {
+          "word": "SEKANS",
+          "hint": "DNA'daki nükleotitlerin dizilişi."
+        },
+        {
+          "word": "KODON",
+          "hint": "mRNA üzerindeki üçlü nükleotit dizisi."
+        },
+        {
+          "word": "ANTİKODON",
+          "hint": "tRNA üzerindeki üçlü nükleotit dizisi."
+        },
+        {
+          "word": "TRANSKRİPSİYON",
+          "hint": "DNA'dan mRNA sentezlenmesi olayı."
+        },
+        {
+          "word": "TRANSALASYON",
+          "hint": "mRNA'dan protein sentezlenmesi olayı."
+        }
+      ]
     }
   ]
 }

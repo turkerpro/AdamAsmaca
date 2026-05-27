@@ -2,9 +2,10 @@
   "units": [
     {
       "id": "inkilap_u1",
-      "name": "1. Ünite: Kurtuluş Savaşı",
+      "name": "1. Ünite: Bir Kahraman Doğuyor",
       "months": [
-        9
+        9,
+        10
       ],
       "words": [
         {
@@ -28,11 +29,11 @@
           "hint": "Silahlı mücadeleyi sona erdiren ateşkes antlaşması"
         },
         {
-          "word": "Mİ̇LLİ̇ MÜDAFAA",
+          "word": "MİLLİ MÜDAFAA",
           "hint": "Vatanın savunması için halkın oluşturduğu teşkilat."
         },
         {
-          "word": "TEŞKİ̇LAT",
+          "word": "TEŞKİLAT",
           "hint": "Belirli bir amaç için bir araya gelen topluluk."
         },
         {
@@ -40,23 +41,23 @@
           "hint": "Bağımsız olamayan, başka bir devletin himayesine giren."
         },
         {
-          "word": "MÜDAFAA-İ̇ HUKUK",
+          "word": "MÜDAFAA-İ HUKUK",
           "hint": "Milli hakların korunması için kurulan cemiyet."
         },
         {
-          "word": "ULUSAL EGEMENLİ̇K",
+          "word": "ULUSAL EGEMENLİK",
           "hint": "Milletin kendi kaderini belirleme hakkı."
         },
         {
-          "word": "HAKKİNDA",
+          "word": "HAKKINDA",
           "hint": "Bir konuyla ilgili, ona dair."
         },
         {
-          "word": "TAVİ̇Z",
+          "word": "TAVİZ",
           "hint": "Bir hakkı veya isteği bırakma, vazgeçme."
         },
         {
-          "word": "TEMSİ̇LCİ̇LER KURULU",
+          "word": "TEMSİLCİLER KURULU",
           "hint": "Millet adına hareket eden heyet."
         },
         {
@@ -80,7 +81,7 @@
           "hint": "Baskıdan, esaretten kurtulma durumu."
         },
         {
-          "word": "Sİ̇PER",
+          "word": "SİPER",
           "hint": "Düşman ateşinden korunmak için kazılan hendek veya duvar."
         },
         {
@@ -104,11 +105,11 @@
           "hint": "Bir saldırıyı engelleme, karşılık verme."
         },
         {
-          "word": "GERİ̇LLA",
+          "word": "GERİLLA",
           "hint": "Düzenli orduya karşı savaşan küçük birlik."
         },
         {
-          "word": "İ̇STİ̇HBARAT",
+          "word": "İSTİHBARAT",
           "hint": "Düşman hakkında bilgi toplama."
         },
         {
@@ -120,11 +121,11 @@
           "hint": "Uzaktaki kişilere mesaj gönderme yöntemi."
         },
         {
-          "word": "HAZİ̇NE",
+          "word": "HAZİNE",
           "hint": "Devlete ait para ve değerli eşyaların saklandığı yer."
         },
         {
-          "word": "VERGİ̇",
+          "word": "VERGİ",
           "hint": "Devletin halktan topladığı para."
         },
         {
@@ -148,7 +149,7 @@
           "hint": "Güncel olayları duyuran yayın organı."
         },
         {
-          "word": "DEVRİ̇M",
+          "word": "DEVRİM",
           "hint": "Köklü değişiklik, inkılap."
         },
         {
@@ -156,7 +157,7 @@
           "hint": "Bir ülkenin bütün vatandaşları."
         },
         {
-          "word": "Mİ̇LLET",
+          "word": "MİLLET",
           "hint": "Ortak bir kültüre, dile sahip insan topluluğu."
         },
         {
@@ -164,7 +165,7 @@
           "hint": "Doğup büyüdüğümüz, üzerinde yaşadığımız toprak."
         },
         {
-          "word": "BAĞİMSİZLİK",
+          "word": "BAĞIMSIZLIK",
           "hint": "Başka bir güce bağlı olmadan yaşama durumu."
         },
         {
@@ -176,7 +177,7 @@
           "hint": "Korkusuzluk, yüreklilik."
         },
         {
-          "word": "FEDAKARLİK",
+          "word": "FEDAKARLIK",
           "hint": "Bir amaç için kendi çıkarından vazgeçme."
         },
         {
@@ -184,7 +185,7 @@
           "hint": "İyi bir şeyin olacağına inanma."
         },
         {
-          "word": "BAŞARİ",
+          "word": "BAŞARI",
           "hint": "Bir işte istenilen sonuca ulaşma."
         },
         {
@@ -196,7 +197,7 @@
           "hint": "İki veya daha fazla taraf arasında yapılan sözleşme."
         },
         {
-          "word": "TAVSİ̇YE",
+          "word": "TAVSİYE",
           "hint": "Öneri, öğüt."
         },
         {
@@ -204,11 +205,11 @@
           "hint": "Bir konuda ulaşılan sonuç."
         },
         {
-          "word": "TARİ̇H",
+          "word": "TARİH",
           "hint": "Geçmişte yaşanmış olayları inceleyen bilim dalı."
         },
         {
-          "word": "GEÇMİ̇Ş",
+          "word": "GEÇMİŞ",
           "hint": "Şimdiki zamandan önceki zaman."
         },
         {
@@ -223,7 +224,7 @@
     },
     {
       "id": "inkilap_u2",
-      "name": "2. Ünite: Cumhuriyet Dönemi",
+      "name": "2. Ünite: Millî Uyanış: Bağımsızlık Yolunda Atılan Adımlar",
       "months": [
         10,
         11
@@ -250,19 +251,19 @@
           "hint": "Devletin temel yapısını belirleyen en üst yasa"
         },
         {
-          "word": "Mİ̇LLİ̇YETÇİ̇Lİ̇K",
+          "word": "MİLLİYETÇİLİK",
           "hint": "Bir millete duyulan bağlılık ve sevgi hissi."
         },
         {
-          "word": "HALKÇİLİK",
+          "word": "HALKÇILIK",
           "hint": "Devlet yönetiminde halkın egemenliğini esas alan ilke."
         },
         {
-          "word": "DEVLETÇİ̇Lİ̇K",
+          "word": "DEVLETÇİLİK",
           "hint": "Ekonomik kalkınmada devletin rol alması prensibi."
         },
         {
-          "word": "İ̇NKİLAP",
+          "word": "İNKİLAP",
           "hint": "Toplum düzeninde köklü değişiklikler yapma."
         },
         {
@@ -282,15 +283,15 @@
           "hint": "Kanunların uygulanmasını kolaylaştıran yönetmelik."
         },
         {
-          "word": "TEŞKİ̇LAT",
+          "word": "TEŞKİLAT",
           "hint": "Belirli bir amaca ulaşmak için kurulan yapı veya düzen."
         },
         {
-          "word": "BATİ",
+          "word": "BATI",
           "hint": "Genellikle Avrupa ve Amerika'daki gelişmiş ülkeleri ifade eden coğrafi yön."
         },
         {
-          "word": "ŞERİ̇AT",
+          "word": "ŞERİAT",
           "hint": "İslam dini kurallarına dayanan hukuk sistemi."
         },
         {
@@ -298,19 +299,19 @@
           "hint": "Çağdaş, yenilikçi ve gelişmiş anlamına gelen sıfat."
         },
         {
-          "word": "AYRİMCİLİK",
+          "word": "AYRIMCILIK",
           "hint": "İnsanlar arasında din, dil, ırk gibi nedenlerle yapılan haksız tutum."
         },
         {
-          "word": "EĞİ̇Tİ̇M",
+          "word": "EĞİTİM",
           "hint": "Bireyin bilgi, beceri ve ahlak kazanmasını sağlayan süreç."
         },
         {
-          "word": "BAĞİMSİZLİK",
+          "word": "BAĞIMSIZLIK",
           "hint": "Başka bir ülkenin egemenliği altında olmadan yaşama durumu."
         },
         {
-          "word": "EGEMENLİ̇K",
+          "word": "EGEMENLİK",
           "hint": "Devletin kendi sınırları içinde en üst karar verme yetkisi."
         },
         {
@@ -326,7 +327,7 @@
           "hint": "Güncel olayları duyuran basılı yayın."
         },
         {
-          "word": "Tİ̇YATRO",
+          "word": "TİYATRO",
           "hint": "Sahnelenen dramatik eser."
         },
         {
@@ -334,23 +335,23 @@
           "hint": "İnsanların duygu ve düşüncelerini estetik biçimde yansıtma uğraşı."
         },
         {
-          "word": "EKONOMİ̇",
+          "word": "EKONOMİ",
           "hint": "Bir ülkenin mal ve hizmet üretimi, tüketimi ve dağıtımıyla ilgili faaliyetler."
         },
         {
-          "word": "TARİM",
+          "word": "TARIM",
           "hint": "Toprağı ekerek bitki yetiştirme ve hayvan yetiştirme işi."
         },
         {
-          "word": "SANAYİ̇",
+          "word": "SANAYİ",
           "hint": "Ham maddeleri işleyerek fabrika ürünleri üretme faaliyeti."
         },
         {
-          "word": "Mİ̇SYON",
+          "word": "MİSYON",
           "hint": "Özel bir görevi veya amacı yerine getirme."
         },
         {
-          "word": "Vİ̇ZYON",
+          "word": "VİZYON",
           "hint": "Geleceğe yönelik uzun vadeli hedef ve amaçlar."
         },
         {
@@ -358,15 +359,15 @@
           "hint": "Belli bir amaç için bir araya gelmiş toplulukların oluşturduğu zemin."
         },
         {
-          "word": "YAYİNCİLİK",
+          "word": "YAYINCILIK",
           "hint": "Kitap, dergi gibi eserleri basıp dağıtma işi."
         },
         {
-          "word": "SEÇİ̇M",
+          "word": "SEÇİM",
           "hint": "Yönetimi belirlemek için oy kullanma işlemi."
         },
         {
-          "word": "KADİN",
+          "word": "KADIN",
           "hint": "Toplumun erkek olmayan yarısı."
         },
         {
@@ -374,7 +375,7 @@
           "hint": "Genç yaşta olan insan yavrusu."
         },
         {
-          "word": "GENÇLİ̇K",
+          "word": "GENÇLİK",
           "hint": "İnsanların çocukluktan sonraki yetişkinlik öncesi dönemi."
         },
         {
@@ -382,7 +383,7 @@
           "hint": "Ülkesi için silahlı görev yapan kişi."
         },
         {
-          "word": "MÜLTECİ̇",
+          "word": "MÜLTECİ",
           "hint": "Savaştan veya zulümden kaçıp başka ülkeye sığınan kişi."
         },
         {
@@ -390,7 +391,7 @@
           "hint": "Yaşadığımız gezegen."
         },
         {
-          "word": "BARİŞ",
+          "word": "BARIŞ",
           "hint": "Savaşın olmaması durumu, huzur."
         },
         {
@@ -410,11 +411,11 @@
           "hint": "Genellikle törenlerde çalınan coşkulu müzik."
         },
         {
-          "word": "HALKEVİ̇",
+          "word": "HALKEVİ",
           "hint": "Halkın kültürel ve sosyal gelişimini amaçlayan kurum."
         },
         {
-          "word": "MÜZİ̇K",
+          "word": "MÜZİK",
           "hint": "Seslerin uyumlu bir şekilde bir araya gelmesiyle oluşan sanat dalı."
         },
         {
@@ -437,38 +438,962 @@
     },
     {
       "id": "inkilap_u3",
-      "name": "3. Ünite: Ya İstiklal Ya Ölüm! (Kurtuluş Savaşı)",
+      "name": "3. Ünite: Millî Bir Destan: Ya İstiklal Ya Ölüm!",
       "months": [
-        12,
-        1
+        11,
+        12
       ],
-      "words": []
+      "words": [
+        {
+          "word": "İSTİKLAL",
+          "hint": "Kendi kendini yönetme hakkı, bağımsızlık."
+        },
+        {
+          "word": "MÜCADELE",
+          "hint": "Bir amaç için verilen uğraş."
+        },
+        {
+          "word": "İŞGAL",
+          "hint": "Yabancı bir gücün bir toprak parçasını ele geçirmesi."
+        },
+        {
+          "word": "MİSAK-I MİLLÎ",
+          "hint": "Kurtuluş Savaşı hedeflerini belirleyen ulusal yemin."
+        },
+        {
+          "word": "KUVA-Yİ MİLLİYE",
+          "hint": "Kurtuluş Savaşı'ndaki düzensiz halk direniş güçleri."
+        },
+        {
+          "word": "CEPHE",
+          "hint": "Savaşın yapıldığı ön hat."
+        },
+        {
+          "word": "ANTLAŞMA",
+          "hint": "İki taraf arasında yapılan yazılı anlaşma."
+        },
+        {
+          "word": "SEVR",
+          "hint": "Osmanlı'ya dayatılan çok ağır bir barış antlaşması."
+        },
+        {
+          "word": "LOZAN",
+          "hint": "Türkiye Cumhuriyeti'nin sınırlarını ve bağımsızlığını tescil eden antlaşma."
+        },
+        {
+          "word": "KAHRAMAN",
+          "hint": "Yurt için büyük fedakarlık gösteren kişi."
+        },
+        {
+          "word": "ŞEHİT",
+          "hint": "Vatanı uğruna canını veren kişi."
+        },
+        {
+          "word": "GAZİ",
+          "hint": "Savaşta yaralanan veya büyük başarı gösteren asker."
+        },
+        {
+          "word": "VATAN",
+          "hint": "Bir milletin üzerinde yaşadığı, uğruna savaştığı toprak."
+        },
+        {
+          "word": "MİLLET",
+          "hint": "Ortak değerleri olan büyük insan topluluğu."
+        },
+        {
+          "word": "EGEMENLİK",
+          "hint": "Bir ülkenin kendi kendini yönetme hakkı."
+        },
+        {
+          "word": "MECLİS",
+          "hint": "Halkın temsilcilerinin toplandığı yasama kurumu (TBMM)."
+        },
+        {
+          "word": "CUMHURİYET",
+          "hint": "Halkın kendi yöneticilerini seçtiği yönetim şekli."
+        },
+        {
+          "word": "SALTANAT",
+          "hint": "Yönetimin babadan oğula geçtiği yönetim şekli (Osmanlı)."
+        },
+        {
+          "word": "HALİFELİK",
+          "hint": "İslam dünyasının dini liderliği makamı (Osmanlı'da)."
+        },
+        {
+          "word": "TOPYEKÛN",
+          "hint": "Herkesin veya her şeyin katıldığı, tamamen."
+        },
+        {
+          "word": "DİRENİŞ",
+          "hint": "Bir şeye karşı koyma, karşı durma."
+        },
+        {
+          "word": "BAĞIMSIZLIK",
+          "hint": "Başka bir güce bağlı olmama durumu."
+        },
+        {
+          "word": "MONDROS",
+          "hint": "I. Dünya Savaşı sonrası Osmanlı'nın imzalamak zorunda kaldığı ateşkes."
+        },
+        {
+          "word": "ATEŞKES",
+          "hint": "Savaşan tarafların çatışmayı geçici durdurması."
+        },
+        {
+          "word": "PROPAGANDA",
+          "hint": "Belirli bir düşünceyi yaymak için yapılan tanıtım."
+        },
+        {
+          "word": "SEFERBERLİK",
+          "hint": "Ülkenin tüm gücünü savaşa hazır hale getirmesi."
+        },
+        {
+          "word": "İHTİLAL",
+          "hint": "Bir toplumda köklü ve hızlı değişimlere yol açan hareket."
+        },
+        {
+          "word": "DEVRİM",
+          "hint": "Toplumda yapılan köklü yenilikler ve değişimler."
+        },
+        {
+          "word": "HALKÇILIK",
+          "hint": "Devletin halka hizmet etmesi ve eşitliği savunması ilkesi."
+        },
+        {
+          "word": "LAİKLİK",
+          "hint": "Din ve devlet işlerinin birbirinden ayrı olması ilkesi."
+        },
+        {
+          "word": "MİLLİYETÇİLİK",
+          "hint": "Kendi milletini ve vatanını sevme, onun çıkarlarını koruma düşüncesi."
+        },
+        {
+          "word": "İNKILAP",
+          "hint": "Toplum hayatında hızlı ve esaslı değişiklikler yapma."
+        },
+        {
+          "word": "ZAFER",
+          "hint": "Bir savaşı veya mücadeleyi kazanma hali."
+        },
+        {
+          "word": "YENİLGİ",
+          "hint": "Bir savaşı veya mücadeleyi kaybetme hali."
+        },
+        {
+          "word": "İTİLAF DEVLETLERİ",
+          "hint": "I. Dünya Savaşı'nda Osmanlı'ya karşı savaşan ülkeler."
+        },
+        {
+          "word": "İTTİFAK DEVLETLERİ",
+          "hint": "I. Dünya Savaşı'nda Osmanlı ile birlikte savaşan ülkeler."
+        },
+        {
+          "word": "KONGRE",
+          "hint": "Belirli bir konuda karar almak için temsilcilerin toplandığı yer (Erzurum, Sivas)."
+        },
+        {
+          "word": "MÜDAFAA-İ HUKUK",
+          "hint": "Vatanı ve hakları savunma amacı güden cemiyetler."
+        },
+        {
+          "word": "CEMİYET",
+          "hint": "Belirli bir amaçla kurulan dernek veya topluluk."
+        },
+        {
+          "word": "TEMSİL HEYETİ",
+          "hint": "Sivas Kongresi'nde seçilen, Kurtuluş Savaşı'nı yöneten kurul."
+        },
+        {
+          "word": "DÜZENLİ ORDU",
+          "hint": "Eğitimli, teçhizatlı ve komuta zinciri olan askeri güç."
+        },
+        {
+          "word": "ANADOLU",
+          "hint": "Türkiye topraklarının Asya kıtasında kalan kısmı."
+        },
+        {
+          "word": "RUMELİ",
+          "hint": "Türkiye topraklarının Avrupa kıtasında kalan kısmı."
+        },
+        {
+          "word": "SUBAY",
+          "hint": "Orduda komuta eden, rütbeli asker."
+        },
+        {
+          "word": "ER",
+          "hint": "Orduda en düşük rütbedeki asker."
+        },
+        {
+          "word": "SİLAH",
+          "hint": "Düşmana karşı kullanılan savunma veya saldırı aracı."
+        },
+        {
+          "word": "CEPHANE",
+          "hint": "Silahların kullandığı mermi, bomba gibi patlayıcı maddeler."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Ülkeler veya gruplar arasındaki silahlı çatışma."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Savaşın olmadığı, huzur ve güven dönemi."
+        },
+        {
+          "word": "BAŞKENT",
+          "hint": "Bir ülkenin yönetim merkezi olan şehir (Kurtuluş Savaşı'nda Ankara oldu)."
+        },
+        {
+          "word": "İSTİKLAL MARŞI",
+          "hint": "Türkiye Cumhuriyeti'nin milli marşı, bağımsızlık sembolü."
+        },
+        {
+          "word": "ÖNDER",
+          "hint": "Bir harekete veya kişilere yol gösteren lider."
+        },
+        {
+          "word": "İTİLAF",
+          "hint": "Anlaşma, uzlaşma (İtilaf Devletleri teriminden gelir)."
+        },
+        {
+          "word": "MİSYON",
+          "hint": "Belirli bir amaç veya özel görev."
+        },
+        {
+          "word": "AZİM",
+          "hint": "Bir şeyi başarmak için gösterilen güçlü kararlılık."
+        }
+      ]
     },
     {
       "id": "inkilap_u4",
-      "name": "4. Ünite: Atatürkçülük ve Çağdaşlaşan Türkiye (İnkılaplar)",
+      "name": "4. Ünite: Atatürkçülük ve Çağdaşlaşan Türkiye",
       "months": [
-        2,
-        3
+        1,
+        2
       ],
-      "words": []
+      "words": [
+        {
+          "word": "İNKILAP",
+          "hint": "Toplumda hızlı ve köklü değişim."
+        },
+        {
+          "word": "LAİKLİK",
+          "hint": "Devlet işlerinin dinden ayrı yürütülmesi ilkesi."
+        },
+        {
+          "word": "TEVHİD",
+          "hint": "Birleştirme, tek çatı altında toplama."
+        },
+        {
+          "word": "TEDRİSAT",
+          "hint": "Eğitim ve öğretim işleri."
+        },
+        {
+          "word": "MEDENİ",
+          "hint": "Uygarlıkla ilgili, çağdaş."
+        },
+        {
+          "word": "HUKUK",
+          "hint": "Toplumu düzenleyen yazılı kurallar bütünü."
+        },
+        {
+          "word": "REFORM",
+          "hint": "Daha iyi duruma getirmek için yapılan köklü değişiklik."
+        },
+        {
+          "word": "MODERN",
+          "hint": "Çağdaş, günün koşullarına uygun."
+        },
+        {
+          "word": "ULUS",
+          "hint": "Aynı topraklarda yaşayan, ortak kültüre sahip insan topluluğu."
+        },
+        {
+          "word": "EGEMENLİK",
+          "hint": "Yönetme yetkisi, söz sahibi olma gücü."
+        },
+        {
+          "word": "CUMHURİYET",
+          "hint": "Yönetimin halk tarafından seçilen temsilcilerle yapıldığı düzen."
+        },
+        {
+          "word": "MİLLİYETÇİLİK",
+          "hint": "Kendi milletini sevme ve yüceltme düşüncesi."
+        },
+        {
+          "word": "HALKÇILIK",
+          "hint": "Tüm vatandaşların eşit olduğu, sosyal adaleti savunan ilke."
+        },
+        {
+          "word": "DEVLETÇİLİK",
+          "hint": "Ekonomide büyük yatırımları devletin yapması ilkesi."
+        },
+        {
+          "word": "İNKILAPÇILIK",
+          "hint": "Sürekli yeniliklere ve değişimlere açık olma ilkesi."
+        },
+        {
+          "word": "HARF",
+          "hint": "Yazıda kullanılan işaretlerden her biri."
+        },
+        {
+          "word": "ALFABE",
+          "hint": "Bir dilin harflerinin belirli bir sıraya göre dizilişi."
+        },
+        {
+          "word": "ŞAPKA",
+          "hint": "Kılık Kıyafet İnkılabı ile yaygınlaşan başlık türü."
+        },
+        {
+          "word": "SOYADI",
+          "hint": "Aileye özgü, kuşaktan kuşağa geçen ad."
+        },
+        {
+          "word": "TAKVİM",
+          "hint": "Zamanı günlere, aylara, yıllara ayıran çizelge."
+        },
+        {
+          "word": "SAAT",
+          "hint": "Zamanı ölçmeye yarayan araç."
+        },
+        {
+          "word": "ÖLÇÜ",
+          "hint": "Bir şeyin uzunluğunu, ağırlığını belirten birim."
+        },
+        {
+          "word": "UYGARLIK",
+          "hint": "Bir toplumun ulaştığı gelişmişlik düzeyi."
+        },
+        {
+          "word": "ÇAĞDAŞ",
+          "hint": "Yaşanılan zamana uygun, modern."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Bireylere bilgi ve beceri kazandırma süreci."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun yaşam biçimi, değerleri ve inançları."
+        },
+        {
+          "word": "EKONOMİ",
+          "hint": "Üretim, tüketim, ticaretle ilgili faaliyetler."
+        },
+        {
+          "word": "DEMOKRASİ",
+          "hint": "Halkın kendi kendini yönettiği yönetim biçimi."
+        },
+        {
+          "word": "ANAYASA",
+          "hint": "Bir devletin temel yapısını belirleyen en üst yasa."
+        },
+        {
+          "word": "MECLİS",
+          "hint": "Halkı temsil eden milletvekillerinden oluşan kurum."
+        },
+        {
+          "word": "ULUSLARARASI",
+          "hint": "Birden fazla milletin katılımıyla gerçekleşen."
+        },
+        {
+          "word": "SANAT",
+          "hint": "Estetik duyguları ifade eden yaratıcılık alanı."
+        },
+        {
+          "word": "BİLİM",
+          "hint": "Deney ve gözleme dayalı düzenli bilgi bütünü."
+        },
+        {
+          "word": "İLKE",
+          "hint": "Temel kural veya prensip."
+        },
+        {
+          "word": "AKILCI",
+          "hint": "Akla ve mantığa uygun olan."
+        },
+        {
+          "word": "BİLİMSEL",
+          "hint": "Bilim kurallarına uygun, gerçeklere dayalı."
+        },
+        {
+          "word": "HAK",
+          "hint": "Yasalarla tanınan yetki veya çıkar."
+        },
+        {
+          "word": "GÖREV",
+          "hint": "Yapılması gereken iş veya sorumluluk."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Hiçbir kısıtlamaya bağlı olmama durumu."
+        },
+        {
+          "word": "EŞİTLİK",
+          "hint": "Herkesin aynı hak ve imkanlara sahip olması."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hak ve hukuka uygunluk."
+        },
+        {
+          "word": "CUMHURİYETÇİLİK",
+          "hint": "Cumhuriyeti koruma ve geliştirme ilkesi."
+        },
+        {
+          "word": "GELİŞİM",
+          "hint": "İleriye doğru ilerleme, olgunlaşma."
+        },
+        {
+          "word": "YENİLİK",
+          "hint": "Yeni olan şey veya uygulama."
+        },
+        {
+          "word": "DEVRİM",
+          "hint": "Toplum hayatında ani ve köklü değişim."
+        },
+        {
+          "word": "MAARİF",
+          "hint": "Eğitim ve öğretim işleri (eski ifade)."
+        },
+        {
+          "word": "ÖĞRETİM",
+          "hint": "Bilgi ve becerilerin sistemli olarak verilmesi."
+        },
+        {
+          "word": "TEKKE",
+          "hint": "Tarikat üyelerinin ibadet ve eğitim yaptığı yer."
+        },
+        {
+          "word": "ZAVİYE",
+          "hint": "Tekkenin küçük hali."
+        },
+        {
+          "word": "TÜRBE",
+          "hint": "Önemli kişilerin mezarı üzerine yapılan yapı."
+        },
+        {
+          "word": "ŞERİYE",
+          "hint": "İslam hukukuyla ilgili konular."
+        },
+        {
+          "word": "EVKAF",
+          "hint": "Vakıfların yönetimi ve geliri (eski ifade)."
+        },
+        {
+          "word": "VAKIF",
+          "hint": "Hayır işleri için ayrılan mal veya para."
+        },
+        {
+          "word": "MANEVİ",
+          "hint": "Ruhsal, soyut, dini ve ahlaki değerlerle ilgili."
+        },
+        {
+          "word": "SİYASAL",
+          "hint": "Devlet yönetimiyle, politikayla ilgili."
+        }
+      ]
     },
     {
       "id": "inkilap_u5",
-      "name": "5. Ünite: Demokratikleşme Çabaları ve Dış Politika",
+      "name": "5. Ünite: Demokratikleşme Çabaları",
+      "months": [
+        3
+      ],
+      "words": [
+        {
+          "word": "DEMOKRASİ",
+          "hint": "Halkın kendi kendini yönettiği yönetim şekli."
+        },
+        {
+          "word": "CUMHURİYET",
+          "hint": "Milletin egemenliğine dayanan devlet idaresi."
+        },
+        {
+          "word": "EGEMENLİK",
+          "hint": "Bir devletin ülkesi üzerindeki sınırsız yetkisi."
+        },
+        {
+          "word": "MUHALEFET",
+          "hint": "İktidardaki partiye karşı fikirler sunan siyasi grup."
+        },
+        {
+          "word": "İNKILAP",
+          "hint": "Toplumda yapılan köklü ve hızlı değişim."
+        },
+        {
+          "word": "LAİKLİK",
+          "hint": "Din ve devlet işlerinin birbirinden ayrılması ilkesi."
+        },
+        {
+          "word": "MİLLET",
+          "hint": "Ortak değerlere sahip, aynı vatanda yaşayan insan topluluğu."
+        },
+        {
+          "word": "İLKE",
+          "hint": "Temel kural veya yol gösteren düşünce."
+        },
+        {
+          "word": "VATANDAŞ",
+          "hint": "Bir devlete hukuken bağlı olan kişi."
+        },
+        {
+          "word": "POLİTİKA",
+          "hint": "Bir devletin izlediği genel yol ve planlar."
+        },
+        {
+          "word": "DİPLOMASİ",
+          "hint": "Devletler arası ilişkileri yürütme sanatı."
+        },
+        {
+          "word": "ANAYASA",
+          "hint": "Bir devletin temel kanunlarını içeren metin."
+        },
+        {
+          "word": "SEÇİM",
+          "hint": "Halkın kendi yöneticilerini belirlediği süreç."
+        },
+        {
+          "word": "PARTİ",
+          "hint": "Aynı siyasi görüşteki insanların kurduğu örgüt."
+        },
+        {
+          "word": "MECLİS",
+          "hint": "Milletvekillerinin toplandığı ve kanun yaptığı yer."
+        },
+        {
+          "word": "YASAMA",
+          "hint": "Kanun yapma yetkisi, TBMM'ye aittir."
+        },
+        {
+          "word": "YÜRÜTME",
+          "hint": "Kanunları uygulama ve devleti yönetme görevi."
+        },
+        {
+          "word": "YARGI",
+          "hint": "Adalet dağıtma ve suçluları yargılama yetkisi."
+        },
+        {
+          "word": "KUVVETLER AYRILIĞI",
+          "hint": "Devlet yetkilerinin farklı kurumlarda olması prensibi."
+        },
+        {
+          "word": "REFERANDUM",
+          "hint": "Önemli bir konuda halkın doğrudan oy kullanması."
+        },
+        {
+          "word": "BAĞIMSIZLIK",
+          "hint": "Bir ülkenin başka devletlere bağlı olmaması durumu."
+        },
+        {
+          "word": "ANTLAŞMA",
+          "hint": "İki veya daha fazla devlet arasında yapılan resmi sözleşme."
+        },
+        {
+          "word": "PAKT",
+          "hint": "Devletler arasında yapılan güvenlik veya işbirliği anlaşması."
+        },
+        {
+          "word": "CEMİYET",
+          "hint": "Belirli bir amaç için bir araya gelen topluluk, dernek."
+        },
+        {
+          "word": "İSYAN",
+          "hint": "Mevcut yönetime karşı çıkan ayaklanma."
+        },
+        {
+          "word": "DIŞ POLİTİKA",
+          "hint": "Bir devletin diğer ülkelerle olan ilişkilerini düzenlemesi."
+        },
+        {
+          "word": "İÇ POLİTİKA",
+          "hint": "Bir devletin kendi ülkesi içindeki sorunlara yönelik planları."
+        },
+        {
+          "word": "STATÜ",
+          "hint": "Bir yerin veya durumun resmi konumu."
+        },
+        {
+          "word": "TARAFSIZLIK",
+          "hint": "Bir anlaşmazlıkta kimsenin tarafını tutmama durumu."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Savaşın olmadığı, huzurlu bir ortam."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Devletler veya büyük gruplar arasındaki silahlı çatışma."
+        },
+        {
+          "word": "ÇOK PARTİLİ HAYAT",
+          "hint": "Birden fazla siyasi partinin olduğu yönetim sistemi."
+        },
+        {
+          "word": "TEK PARTİ DÖNEMİ",
+          "hint": "Sadece bir siyasi partinin devleti yönettiği zaman dilimi."
+        },
+        {
+          "word": "MUSUL",
+          "hint": "Türkiye'nin eskiden hak iddia ettiği, Irak'ta olan petrol zengini bölge."
+        },
+        {
+          "word": "BOĞAZLAR",
+          "hint": "İstanbul ve Çanakkale'deki önemli deniz geçitleri."
+        },
+        {
+          "word": "HATAY",
+          "hint": "1939'da Türkiye'ye katılan, 'kırk asırlık Türk yurdu' olan ilimiz."
+        },
+        {
+          "word": "LOZAN",
+          "hint": "Yeni Türk Devleti'nin uluslararası alanda tanındığı önemli anlaşmanın imzalandığı yer."
+        },
+        {
+          "word": "BALKAN ANTANTI",
+          "hint": "Türkiye'nin batı sınırını güvence altına alan bölgesel savunma anlaşması."
+        },
+        {
+          "word": "SADABAT PAKTI",
+          "hint": "Türkiye'nin doğu sınırını korumak için yapılan bölgesel işbirliği anlaşması."
+        },
+        {
+          "word": "MİLLETLER CEMİYETİ",
+          "hint": "I. Dünya Savaşı sonrası barışı korumak için kurulan uluslararası ilk örgüt."
+        },
+        {
+          "word": "SİLAHSIZLANMA",
+          "hint": "Ülkelerin silah miktarını azaltma çabası."
+        },
+        {
+          "word": "SINIR",
+          "hint": "İki ülke topraklarını ayıran çizgi."
+        },
+        {
+          "word": "MİSAK-I MİLLÎ",
+          "hint": "Milli Yemin, Türk vatanının sınırlarını belirleyen tarihi karar."
+        },
+        {
+          "word": "MANDA",
+          "hint": "Bir ülkenin, başka bir büyük devletin geçici koruması altına girmesi."
+        },
+        {
+          "word": "REFORM",
+          "hint": "Bir durumu daha iyi hale getirmek için yapılan düzenleme."
+        },
+        {
+          "word": "MİLLİYETÇİLİK",
+          "hint": "Kendi milletini ve vatanını çok sevme düşüncesi."
+        },
+        {
+          "word": "HALKÇILIK",
+          "hint": "Toplumdaki herkesin eşit ve ayrıcalıksız olduğunu savunan ilke."
+        },
+        {
+          "word": "DEVLETÇİLİK",
+          "hint": "Ekonomik kalkınmada devletin öncü rol oynaması ilkesi."
+        },
+        {
+          "word": "İNKILAPÇILIK",
+          "hint": "Sürekli ilerlemeyi ve yenilenmeyi hedefleyen ilke."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hak ve hukuka uygunluk, herkese eşit davranma."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Kimseye bağlı olmadan istediğini yapabilme durumu."
+        },
+        {
+          "word": "ULUSAL",
+          "hint": "Bir ülkeye veya millete ait olan, milli."
+        },
+        {
+          "word": "EVRENSEL",
+          "hint": "Tüm dünyayı ilgilendiren, herkes için geçerli olan."
+        },
+        {
+          "word": "PROPAGANDA",
+          "hint": "Bir fikri yaymak için yapılan tanıtım faaliyetleri."
+        },
+        {
+          "word": "ÇAĞDAŞLAŞMA",
+          "hint": "Geri kalmışlıktan kurtulup modern bir seviyeye ulaşma süreci."
+        },
+        {
+          "word": "AYRIMCILIK",
+          "hint": "İnsanlar arasında fark gözeterek kötü davranma."
+        },
+        {
+          "word": "ÇATIŞMA",
+          "hint": "İki taraf arasında çıkan anlaşmazlık veya mücadele."
+        },
+        {
+          "word": "TERAKKİPERVER",
+          "hint": "İlerleme yanlısı, yenilikçi fikirleri savunan."
+        },
+        {
+          "word": "SERBESTİYET",
+          "hint": "Özgürlük, engelsiz olma hali."
+        },
+        {
+          "word": "İSTİKRAR",
+          "hint": "Durağanlık, düzenin bozulmaması, kalıcılık."
+        }
+      ]
+    },
+    {
+      "id": "inkilap_u6",
+      "name": "6. Ünite: Atatürk Dönemi Türk Dış Politikası ve Atatürk'ün Ölümü",
       "months": [
         4,
         5
       ],
-      "words": []
-    },
-    {
-      "id": "inkilap_u6",
-      "name": "6. Ünite: Atatürk'ün Ölümü ve İkinci Dünya Savaşı",
-      "months": [
-        6
-      ],
-      "words": []
+      "words": [
+        {
+          "word": "VEFAT",
+          "hint": "Bir kişinin ölmesi durumu."
+        },
+        {
+          "word": "NAAŞ",
+          "hint": "Ölmüş bir insanın bedeni."
+        },
+        {
+          "word": "ULUS",
+          "hint": "Ortak değerleri olan insan topluluğu."
+        },
+        {
+          "word": "YAS",
+          "hint": "Sevilen biri ölünce duyulan üzüntü."
+        },
+        {
+          "word": "ANITKABİR",
+          "hint": "Atatürk'ün anıt mezarı."
+        },
+        {
+          "word": "SİYASET",
+          "hint": "Ülke yönetimiyle ilgili işler."
+        },
+        {
+          "word": "CUMHURBAŞKANI",
+          "hint": "Bir cumhuriyetin devlet başkanı."
+        },
+        {
+          "word": "MİRASI",
+          "hint": "Ölen birinden kalan değerli şeyler veya fikirler."
+        },
+        {
+          "word": "ANMA",
+          "hint": "Önemli bir olayı veya kişiyi hatırlama."
+        },
+        {
+          "word": "İLKE",
+          "hint": "Temel kural veya prensip."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Bir işi yapma veya sonucuna katlanma görevi."
+        },
+        {
+          "word": "CENAZE",
+          "hint": "Ölen birini gömme töreni."
+        },
+        {
+          "word": "VASİYET",
+          "hint": "Ölmeden önce yapılan son istekler."
+        },
+        {
+          "word": "KEDER",
+          "hint": "Derin üzüntü."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Devletler arası silahlı mücadele."
+        },
+        {
+          "word": "CEPHE",
+          "hint": "Savaşan orduların karşılaştığı bölge."
+        },
+        {
+          "word": "MÜTTEFİKLER",
+          "hint": "İkinci Dünya Savaşı'nda İngiltere, ABD ve Sovyetler gibi iş birliği yapan ülkeler."
+        },
+        {
+          "word": "MİHVER",
+          "hint": "İkinci Dünya Savaşı'nda Almanya ve yandaşları."
+        },
+        {
+          "word": "İŞGAL",
+          "hint": "Bir ülkenin topraklarını askerî güçle ele geçirme."
+        },
+        {
+          "word": "TARAFSIZLIK",
+          "hint": "Bir savaşa veya tartışmaya katılmama durumu."
+        },
+        {
+          "word": "SEFERBERLİK",
+          "hint": "Ülkenin tüm gücünü savaşa hazırlama."
+        },
+        {
+          "word": "EKONOMİ",
+          "hint": "Bir ülkenin zenginlik ve üretim sistemi."
+        },
+        {
+          "word": "SIKIYÖNETİM",
+          "hint": "Olağanüstü durumda askerî yönetim."
+        },
+        {
+          "word": "RASYON",
+          "hint": "Kıtlıkta yiyeceklerin belirli miktarda dağıtılması."
+        },
+        {
+          "word": "PROPAGANDA",
+          "hint": "Bir fikri yaymak için yapılan tanıtım."
+        },
+        {
+          "word": "ANTLAŞMA",
+          "hint": "Devletler arasında yapılan resmi anlaşma."
+        },
+        {
+          "word": "SİLAHLANMA",
+          "hint": "Savaş araçlarını çoğaltma."
+        },
+        {
+          "word": "DİPLOMASİ",
+          "hint": "Devletler arası ilişkileri barışla yürütme."
+        },
+        {
+          "word": "SOYKIRIM",
+          "hint": "Bir grubu yok etmeyi amaçlayan insanlık suçu."
+        },
+        {
+          "word": "MÜLTECİ",
+          "hint": "Savaş veya zulümden kaçan kişi."
+        },
+        {
+          "word": "BLOK",
+          "hint": "Aynı amaca sahip ülkelerin birleşimi."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Savaşın bitmesi, huzur ortamı."
+        },
+        {
+          "word": "ATEŞKES",
+          "hint": "Savaşanların geçici olarak çatışmayı durdurması."
+        },
+        {
+          "word": "TANK",
+          "hint": "Zırhlı ve paletli savaş aracı."
+        },
+        {
+          "word": "UÇAK",
+          "hint": "Havada giden motorlu taşıt."
+        },
+        {
+          "word": "DENİZALTI",
+          "hint": "Suyun altında giden savaş gemisi."
+        },
+        {
+          "word": "SALDIRI",
+          "hint": "Düşmana karşı yapılan ani hareket."
+        },
+        {
+          "word": "SAVUNMA",
+          "hint": "Kendini veya ülkesini koruma."
+        },
+        {
+          "word": "MAĞLUBİYET",
+          "hint": "Yenilgiye uğrama."
+        },
+        {
+          "word": "ZAFER",
+          "hint": "Bir başarı kazanma, galibiyet."
+        },
+        {
+          "word": "SANAYİ",
+          "hint": "Fabrika ve üretim faaliyetleri."
+        },
+        {
+          "word": "GERGİNLİK",
+          "hint": "İki taraf arasındaki anlaşmazlık durumu."
+        },
+        {
+          "word": "SINIR",
+          "hint": "İki ülkeyi ayıran çizgi."
+        },
+        {
+          "word": "FAŞİZM",
+          "hint": "Aşırı milliyetçi ve baskıcı bir ideoloji."
+        },
+        {
+          "word": "NAZİZM",
+          "hint": "Almanya'da Hitler'in ırkçı ideolojisi."
+        },
+        {
+          "word": "EMPERYALİZM",
+          "hint": "Bir ülkenin başka ülkeleri egemenliği altına alması."
+        },
+        {
+          "word": "SÖMÜRGECİLİK",
+          "hint": "Güçlü bir ülkenin zayıf ülkeleri kullanması."
+        },
+        {
+          "word": "BUNALIM",
+          "hint": "Büyük ekonomik veya sosyal sıkıntı."
+        },
+        {
+          "word": "BASKI",
+          "hint": "Bir kişiyi veya grubu zorlama."
+        },
+        {
+          "word": "İNSANLIK",
+          "hint": "Tüm insanlar topluluğu."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Kısıtlama olmadan yaşama hakkı."
+        },
+        {
+          "word": "DEMOKRASİ",
+          "hint": "Halkın yönettiği sistem."
+        },
+        {
+          "word": "TOTALİTER",
+          "hint": "Tüm gücün tek kişide toplandığı sistem."
+        },
+        {
+          "word": "KONFERANS",
+          "hint": "Önemli konuların tartışıldığı toplantı."
+        },
+        {
+          "word": "GÜVENLİK",
+          "hint": "Tehlikeden korunmuş olma durumu."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Taraflar arasındaki eşitlik."
+        },
+        {
+          "word": "KITLIK",
+          "hint": "Bir şeyin, özellikle yiyeceğin az bulunması."
+        },
+        {
+          "word": "DİRENÇ",
+          "hint": "Bir şeye karşı koyma gücü."
+        },
+        {
+          "word": "EGEMENLİK",
+          "hint": "Bir devletin kendi ülkesi üzerindeki tam yetkisi."
+        },
+        {
+          "word": "SİLAHSIZLANMA",
+          "hint": "Savaş silahlarını azaltma veya kaldırma."
+        }
+      ]
     }
   ]
 }

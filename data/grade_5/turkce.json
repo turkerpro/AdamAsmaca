@@ -2,7 +2,7 @@
   "units": [
     {
       "id": "turkce_u1",
-      "name": "1. Ünite: Fiiller",
+      "name": "1. Ünite: Birey ve Toplum",
       "months": [
         9,
         10
@@ -41,7 +41,7 @@
           "hint": "Yerden yükselip tekrar yere inmek."
         },
         {
-          "word": "Sİ̇MMER",
+          "word": "SİMMER",
           "hint": "Bir yerden bir yere gitmek."
         },
         {
@@ -57,7 +57,7 @@
           "hint": "Bir işe girişmek, ilk adımı atmak."
         },
         {
-          "word": "Bİ̇Tİ̇RMEK",
+          "word": "BİTİRMEK",
           "hint": "Bir işi sonlandırmak."
         },
         {
@@ -81,7 +81,7 @@
           "hint": "Konuşarak bir şey anlatmak."
         },
         {
-          "word": "Dİ̇NLEMEK",
+          "word": "DİNLEMEK",
           "hint": "Sesleri dikkatle anlamaya çalışmak."
         },
         {
@@ -89,11 +89,11 @@
           "hint": "Bir şeyi kavrayıp öğrenmek."
         },
         {
-          "word": "Bİ̇LMEK",
+          "word": "BİLMEK",
           "hint": "Bir konuda bilgi sahibi olmak."
         },
         {
-          "word": "İ̇STEMEK",
+          "word": "İSTEMEK",
           "hint": "Bir şeye sahip olmayı veya yapmayı arzulamak."
         },
         {
@@ -121,19 +121,19 @@
           "hint": "Bir yere varmak."
         },
         {
-          "word": "Gİ̇TMEK",
+          "word": "GİTMEK",
           "hint": "Bir yerden ayrılıp uzaklaşmak."
         },
         {
-          "word": "ÇİKMAK",
+          "word": "ÇIKMAK",
           "hint": "Yukarı doğru hareket etmek."
         },
         {
-          "word": "İ̇NMEK",
+          "word": "İNMEK",
           "hint": "Aşağı doğru hareket etmek."
         },
         {
-          "word": "Gİ̇RMEY",
+          "word": "GİRMEY",
           "hint": "Bir yere içeriye doğru hareket etmek."
         },
         {
@@ -165,7 +165,7 @@
           "hint": "Bir işi istenilen şekilde tamamlamak."
         },
         {
-          "word": "ÇALİŞMAK",
+          "word": "ÇALIŞMAK",
           "hint": "Bir hedef için uğraşmak."
         },
         {
@@ -181,7 +181,7 @@
           "hint": "Zihninde fikirler üretmek."
         },
         {
-          "word": "HATİRLAMAK",
+          "word": "HATIRLAMAK",
           "hint": "Geçmişte olanları zihinde canlandırmak."
         },
         {
@@ -213,25 +213,25 @@
           "hint": "Beslenmek için ağızdan bir şey almak."
         },
         {
-          "word": "İ̇ÇMEK",
+          "word": "İÇMEK",
           "hint": "Sıvı bir şeyi ağızdan almak."
         },
         {
-          "word": "TEMİ̇ZLEMEK",
+          "word": "TEMİZLEMEK",
           "hint": "Kirleri veya dağınıklığı gidermek."
         },
         {
-          "word": "Gİ̇YMEK",
+          "word": "GİYMEK",
           "hint": "Üzerine elbise veya aksesuar almak."
         }
       ]
     },
     {
       "id": "turkce_u2",
-      "name": "2. Ünite: İsimler",
+      "name": "2. Ünite: Kültür ve Miras",
       "months": [
-        11,
-        12
+        10,
+        11
       ],
       "words": [
         {
@@ -259,7 +259,7 @@
           "hint": "Bir varlığı, kavramı veya duyguyu temsil eden kelime."
         },
         {
-          "word": "VARLİK",
+          "word": "VARLIK",
           "hint": "Gerçek veya düşünsel olarak bulunan her şey."
         },
         {
@@ -275,7 +275,7 @@
           "hint": "Eliyle dokunulabilen, görülebilen şeyler."
         },
         {
-          "word": "CANLİ",
+          "word": "CANLI",
           "hint": "Nefes alan, beslenen, büyüyen varlıklar."
         },
         {
@@ -291,11 +291,11 @@
           "hint": "Tek bir kişiyi, yeri veya şeyi belirten isim."
         },
         {
-          "word": "UMUMİ̇",
+          "word": "UMUMİ",
           "hint": "Türü içindeki her varlığı belirten isim."
         },
         {
-          "word": "TEKLİ̇K",
+          "word": "TEKLİK",
           "hint": "Sayı olarak bir tane olan isim."
         },
         {
@@ -303,11 +303,11 @@
           "hint": "Sayı olarak birden çok olan isim."
         },
         {
-          "word": "YAPİM",
+          "word": "YAPIM",
           "hint": "Kökten yeni kelimeler türeten ek."
         },
         {
-          "word": "ÇEKİ̇M",
+          "word": "ÇEKİM",
           "hint": "Kelimeye durum veya zaman anlamı katan ek."
         },
         {
@@ -343,19 +343,19 @@
           "hint": "Bir şeyi temsil eden işaret."
         },
         {
-          "word": "İ̇ŞARET",
+          "word": "İŞARET",
           "hint": "Bir anlamı iletmek için kullanılan belirti."
         },
         {
-          "word": "BELİ̇RTİ̇",
+          "word": "BELİRTİ",
           "hint": "Bir şeyin varlığını veya durumunu gösteren özellik."
         },
         {
-          "word": "TANİM",
+          "word": "TANIM",
           "hint": "Bir kelimenin anlamını açıklama."
         },
         {
-          "word": "AÇİKLAMA",
+          "word": "AÇIKLAMA",
           "hint": "Bir konuyu daha anlaşılır kılma."
         },
         {
@@ -363,7 +363,7 @@
           "hint": "Belirli bir durumu veya olayı somutlaştıran misal."
         },
         {
-          "word": "SİNİFLAMA",
+          "word": "SINIFLAMA",
           "hint": "Benzer özelliklere sahip varlıkları gruplama."
         },
         {
@@ -371,15 +371,15 @@
           "hint": "Aynı nitelikteki şeyleri bir araya getirme."
         },
         {
-          "word": "AYİRMA",
+          "word": "AYIRMA",
           "hint": "Farklılıkları ortaya çıkarma."
         },
         {
-          "word": "Bİ̇RLEŞTİ̇RME",
+          "word": "BİRLEŞTİRME",
           "hint": "Ayrı olanları bir araya getirme."
         },
         {
-          "word": "İ̇LGİ̇",
+          "word": "İLGİ",
           "hint": "İki şey arasındaki bağ."
         },
         {
@@ -387,15 +387,15 @@
           "hint": "İki şeyin birbirine tutunması veya bağlanması."
         },
         {
-          "word": "İ̇Lİ̇ŞKİ̇",
+          "word": "İLİŞKİ",
           "hint": "Varlıklar arasındaki bağlantı."
         },
         {
-          "word": "YAKİNLİK",
+          "word": "YAKINLIK",
           "hint": "Birbirine az çok benzeyen durum."
         },
         {
-          "word": "UZAKLİK",
+          "word": "UZAKLIK",
           "hint": "Birbirinden mesafesi veya farkı olan durum."
         },
         {
@@ -403,11 +403,11 @@
           "hint": "Birçok kişiye veya şeye ait olan."
         },
         {
-          "word": "BAĞİMSİZ",
+          "word": "BAĞIMSIZ",
           "hint": "Kendi kendine yeten, başkasına bağlı olmayan."
         },
         {
-          "word": "BAĞLİ",
+          "word": "BAĞLI",
           "hint": "Bir şeye veya birine ait olan, ilişkili."
         },
         {
@@ -427,11 +427,11 @@
           "hint": "Bir olayın meydana gelmesi için gereken ön koşul."
         },
         {
-          "word": "DEĞİ̇ŞKEN",
+          "word": "DEĞİŞKEN",
           "hint": "Durumu veya değeri değişebilen."
         },
         {
-          "word": "SABİ̇T",
+          "word": "SABİT",
           "hint": "Değişmeyen, aynı kalan."
         },
         {
@@ -442,37 +442,1335 @@
     },
     {
       "id": "turkce_u3",
-      "name": "3. Ünite: Paragrafta Anlam ve Noktalama",
+      "name": "3. Ünite: Sağlık ve Çevre",
       "months": [
-        1,
-        2
+        11,
+        12
       ],
-      "words": []
+      "words": [
+        {
+          "word": "AKLIM",
+          "hint": "Düşünme ve anlama yeteneğim."
+        },
+        {
+          "word": "SEVİNÇ",
+          "hint": "Mutluluk ve mutlulukla yapılan bir eylem."
+        },
+        {
+          "word": "BELİRTİ",
+          "hint": "Bir şeyin varlığını gösteren işaret."
+        },
+        {
+          "word": "DÜŞÜNCE",
+          "hint": "Zihinde oluşan fikir, tasavvur."
+        },
+        {
+          "word": "ANKET",
+          "hint": "Belirli bir konuda bilgi toplamak için sorulan sorular dizisi."
+        },
+        {
+          "word": "ARAŞTIRMA",
+          "hint": "Bir konuyu derinlemesine inceleme, bilgi toplama çalışması."
+        },
+        {
+          "word": "BİLİNÇ",
+          "hint": "Duyuların, düşüncelerin farkında olma durumu."
+        },
+        {
+          "word": "ÇABA",
+          "hint": "Bir işi başarmak için gösterilen gayret."
+        },
+        {
+          "word": "DEĞİŞİM",
+          "hint": "Bir durumdan başka bir duruma geçme hali."
+        },
+        {
+          "word": "DİKKAT",
+          "hint": "Bir şeye yoğunlaşma, özen gösterme."
+        },
+        {
+          "word": "ETKİ",
+          "hint": "Bir olayın başka bir olay üzerinde bıraktığı sonuç."
+        },
+        {
+          "word": "GERÇEK",
+          "hint": "Doğru olan, hayal olmayan."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir şeyi dikkatle izleme, inceleme."
+        },
+        {
+          "word": "HARİKA",
+          "hint": "Çok güzel, şaşırtıcı derecede iyi."
+        },
+        {
+          "word": "HEDEF",
+          "hint": "Ulaşılmak istenen amaç."
+        },
+        {
+          "word": "İLETİŞİM",
+          "hint": "Duygu ve düşünceleri birbirine aktarma yolu."
+        },
+        {
+          "word": "İLGİ",
+          "hint": "Bir şeye karşı duyulan merak ve istek."
+        },
+        {
+          "word": "KARAR",
+          "hint": "Bir konuda verilen kesin yargı, hüküm."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Uyulması gereken zorunlu ilke."
+        },
+        {
+          "word": "ÖĞRENME",
+          "hint": "Bilgi ve beceri kazanma süreci."
+        },
+        {
+          "word": "ÖNERİ",
+          "hint": "Bir iş için sunulan görüş, tavsiye."
+        },
+        {
+          "word": "PLAN",
+          "hint": "Yapılacak bir iş için önceden düşünülen tasarı."
+        },
+        {
+          "word": "SEBEP",
+          "hint": "Bir olayın meydana gelmesini sağlayan neden."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir olayın arkasından ortaya çıkan durum."
+        },
+        {
+          "word": "SORGU",
+          "hint": "Bir bilgiyi öğrenmek için yapılan sorular."
+        },
+        {
+          "word": "SÜREÇ",
+          "hint": "Bir işin gerçekleşmesi için geçen zaman dilimi."
+        },
+        {
+          "word": "TASARIM",
+          "hint": "Bir eserin planı, projesi."
+        },
+        {
+          "word": "TARTIŞMA",
+          "hint": "Bir konu üzerinde farklı görüşleri açıklama."
+        },
+        {
+          "word": "TEKNİK",
+          "hint": "Bir işi yapma yöntemi, becerisi."
+        },
+        {
+          "word": "TEMA",
+          "hint": "Bir eserin ana fikri, konusu."
+        },
+        {
+          "word": "TÖREN",
+          "hint": "Belirli bir olayı kutlamak için yapılan toplantı."
+        },
+        {
+          "word": "TUTUM",
+          "hint": "Bir duruma karşı takınılan davranış biçimi."
+        },
+        {
+          "word": "UYUM",
+          "hint": "Birbiriyle ahenkli olma, bağdaşma."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Bir planı veya teoriyi hayata geçirme."
+        },
+        {
+          "word": "VERİMLİ",
+          "hint": "Yapılan işten iyi sonuç alınması."
+        },
+        {
+          "word": "YAKLAŞIM",
+          "hint": "Bir konuya bakış açısı, metot."
+        },
+        {
+          "word": "YÖNTEM",
+          "hint": "Bir işi yapma yolu, usul."
+        },
+        {
+          "word": "ZEKA",
+          "hint": "Anlama, kavrama ve düşünme gücü."
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "Öğrenilerek edinilen şey."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Bir sözün veya yazının anlamını açıklama."
+        },
+        {
+          "word": "ANLATIM",
+          "hint": "Bir düşünceyi sözle veya yazıyla ifade etme biçimi."
+        },
+        {
+          "word": "BAĞLAM",
+          "hint": "Bir kelimenin veya cümlenin içinde bulunduğu bütün."
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Bir düşünceyi tam olarak anlatan kelime topluluğu."
+        },
+        {
+          "word": "DEĞİNME",
+          "hint": "Bir konudan kısaca bahsetme."
+        },
+        {
+          "word": "DOĞRULUK",
+          "hint": "Gerçeğe uygun olma durumu."
+        },
+        {
+          "word": "DETAY",
+          "hint": "Bir konunun en küçük öğesi, ayrıntı."
+        },
+        {
+          "word": "EK BİLGİ",
+          "hint": "Daha fazla aydınlatıcı unsur."
+        },
+        {
+          "word": "GÖSTERGE",
+          "hint": "Bir şeyi işaret eden alamet."
+        },
+        {
+          "word": "KAİDE",
+          "hint": "Temel kural, ilke."
+        },
+        {
+          "word": "ODAKLANMA",
+          "hint": "Dikkati bir noktaya toplama."
+        },
+        {
+          "word": "ÖZET",
+          "hint": "Bir yazının ana fikirlerini belirten kısa biçimi."
+        },
+        {
+          "word": "PARAGRAF",
+          "hint": "Bir konuyu ele alan yazı bölümü."
+        },
+        {
+          "word": "TASVİR",
+          "hint": "Bir şeyi veya kişiyi özellikleriyle anlatma."
+        },
+        {
+          "word": "TİPKİ",
+          "hint": "Benzerlik, tıpatıp aynı."
+        },
+        {
+          "word": "VURGU",
+          "hint": "Bir kelime veya sözü daha etkili söyleme."
+        },
+        {
+          "word": "ZİNCİRLEME",
+          "hint": "Birbirine bağlı seri."
+        }
+      ]
     },
     {
       "id": "turkce_u4",
-      "name": "4. Ünite: Metin Türleri ve Söz Sanatları",
+      "name": "4. Ünite: Bilim ve Teknoloji",
+      "months": [
+        12,
+        1
+      ],
+      "words": [
+        {
+          "word": "HİKAYE",
+          "hint": "Başından sonuna kadar anlatılan olaylar zinciri."
+        },
+        {
+          "word": "ŞİİR",
+          "hint": "Duyguları ve düşünceleri genellikle ölçülü ve uyaklı sözlerle anlatan edebi tür."
+        },
+        {
+          "word": "MASAL",
+          "hint": "Genellikle olağanüstü kahramanlar ve olaylar içeren, ders veren anlatı."
+        },
+        {
+          "word": "FABL",
+          "hint": "Hayvanların veya bitkilerin konuşturulduğu, ders veren kısa öykü."
+        },
+        {
+          "word": "DESTAN",
+          "hint": "Milletlerin kahramanlıklarını, geçmişteki önemli olayları anlatan uzun şiir."
+        },
+        {
+          "word": "ROMAN",
+          "hint": "Gerçek veya hayali olayları geniş bir şekilde anlatan uzun öykü."
+        },
+        {
+          "word": "DENEME",
+          "hint": "Bir yazarın herhangi bir konu hakkındaki kişisel görüşlerini serbestçe anlattığı yazı."
+        },
+        {
+          "word": "MAKALE",
+          "hint": "Bilimsel veya güncel bir konuyu inceleyen, bilgi veren yazı."
+        },
+        {
+          "word": "BİYOGRAFİ",
+          "hint": "Bir kişinin hayatını anlatan eser."
+        },
+        {
+          "word": "OTOBİYOGRAFİ",
+          "hint": "Kişinin kendi hayatını anlattığı eser."
+        },
+        {
+          "word": "TİYATRO",
+          "hint": "Sahneye konulan, oyuncular tarafından canlandırılan oyun."
+        },
+        {
+          "word": "ANI",
+          "hint": "Geçmişte yaşanmış bir olayın üzerinden zaman geçtikten sonra anlatılması."
+        },
+        {
+          "word": "GÜNLÜK",
+          "hint": "Kişinin yaşadığı olayları, düşüncelerini o günkü tarihle yazdığı yazı."
+        },
+        {
+          "word": "MEKTUP",
+          "hint": "Bir kişiye uzak mesafeden haber vermek, duygu veya düşünce bildirmek için yazılan yazı."
+        },
+        {
+          "word": "E-POSTA",
+          "hint": "Elektronik ortamda gönderilen mektup."
+        },
+        {
+          "word": "DEVRİK CÜMLE",
+          "hint": "Yüklemi sonda olmayan cümle."
+        },
+        {
+          "word": "DÜZ CÜMLE",
+          "hint": "Yüklemi sonda olan cümle."
+        },
+        {
+          "word": "BENZETME",
+          "hint": "İki farklı varlık veya kavramı birbirine benzetme söz sanatı."
+        },
+        {
+          "word": "KİŞİLEŞTİRME",
+          "hint": "İnsan dışı varlıklara insani özellikler verme sanatıdır."
+        },
+        {
+          "word": "DEYİM",
+          "hint": "Kalıplaşmış, gerçek anlamlarından farklı söz öbekleri."
+        },
+        {
+          "word": "ATASÖZÜ",
+          "hint": "Genellikle gerçek anlamından uzaklaşmadan, ders veren kısa ve özlü söz."
+        },
+        {
+          "word": "SIFAT",
+          "hint": "İsimleri niteleyen veya belirten kelime."
+        },
+        {
+          "word": "ZARF",
+          "hint": "Fiilleri, fiilimsileri, sıfatları veya kendi türünden zarfları niteleyen kelime."
+        },
+        {
+          "word": "FİİL",
+          "hint": "İş, oluş, hareket bildiren kelime."
+        },
+        {
+          "word": "İSİM",
+          "hint": "Varlıkların, kavramların adlarını bildiren kelime."
+        },
+        {
+          "word": "ZAMİR",
+          "hint": "İsimlerin yerine kullanılan kelime."
+        },
+        {
+          "word": "BAĞLAÇ",
+          "hint": "Cümleleri veya kelimeleri birbirine bağlayan kelime."
+        },
+        {
+          "word": "NOKTALAMA",
+          "hint": "Yazıda anlamı belirginleştiren işaretler."
+        },
+        {
+          "word": "VİRGÜL",
+          "hint": "Eş görevli kelimeleri ayırmak için kullanılan noktalama işareti."
+        },
+        {
+          "word": "NOKTA",
+          "hint": "Cümle sonlarında kullanılan noktalama işareti."
+        },
+        {
+          "word": "SORU İŞARETİ",
+          "hint": "Soru cümlelerinin sonuna konulan noktalama işareti."
+        },
+        {
+          "word": "ÜNLEM",
+          "hint": "Sevinç, korku, şaşırma gibi duyguları belirten noktalama işareti."
+        },
+        {
+          "word": "AÇIKLAMA",
+          "hint": "Bir konuyu anlaşılır hale getirme."
+        },
+        {
+          "word": "ÖZET",
+          "hint": "Bir yazının veya konunun ana fikirlerini kısa bir şekilde anlatma."
+        },
+        {
+          "word": "BAŞLIK",
+          "hint": "Yazının veya konunun adıdır."
+        },
+        {
+          "word": "GİRİŞ",
+          "hint": "Bir yazının ilk bölümü, konuyu tanıtan kısım."
+        },
+        {
+          "word": "GELİŞME",
+          "hint": "Bir yazının ortadaki bölümü, konunun detaylandırıldığı kısım."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir yazının son bölümü, konunun özetlendiği veya kapatıldığı kısım."
+        },
+        {
+          "word": "KAHRAMAN",
+          "hint": "Bir hikayede veya romanda olayları yaşayan kişi."
+        },
+        {
+          "word": "MEKÂN",
+          "hint": "Olayların geçtiği yer."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Olayların gerçekleştiği dönem veya an."
+        },
+        {
+          "word": "OLAY ÖRGÜSÜ",
+          "hint": "Bir eserdeki olayların birbirini takip etme düzeni."
+        },
+        {
+          "word": "TEMA",
+          "hint": "Bir eserin ana fikri, konusu."
+        },
+        {
+          "word": "DİL",
+          "hint": "İletişim aracı, düşünceleri anlatma yöntemi."
+        },
+        {
+          "word": "VURGU",
+          "hint": "Bir kelimeyi veya cümleyi daha fazla duyurmak."
+        },
+        {
+          "word": "TONLAMA",
+          "hint": "Sesin yükselip alçalmasıyla anlam kazandırması."
+        },
+        {
+          "word": "ANLAM",
+          "hint": "Bir kelimenin, cümlenin veya eserin ifade ettiği düşünce."
+        },
+        {
+          "word": "YAZIM",
+          "hint": "Kelimelerin doğru şekliyle kağıda dökülmesi."
+        },
+        {
+          "word": "OKUDUĞUNU ANLAMA",
+          "hint": "Okunan metnin içeriğini kavrama becerisi."
+        },
+        {
+          "word": "YAZDIĞINI ANLAMA",
+          "hint": "Yazılan metnin anlaşılır olması."
+        },
+        {
+          "word": "ELEŞTİRİ",
+          "hint": "Bir eseri değerlendirme, olumlu veya olumsuz yönlerini belirtme."
+        }
+      ]
+    },
+    {
+      "id": "turkce_u5",
+      "name": "5. Ünite: Sanat ve Spor",
+      "months": [
+        2,
+        3
+      ],
+      "words": [
+        {
+          "word": "SES",
+          "hint": "Kulağımızın duyduğu her şey."
+        },
+        {
+          "word": "ALFABE",
+          "hint": "Harflerin belirli bir sıraya göre dizilmiş hali."
+        },
+        {
+          "word": "HARF",
+          "hint": "Sesleri temsil eden işaretler."
+        },
+        {
+          "word": "HECE",
+          "hint": "Bir solukta çıkarılan ses veya ses topluluğu."
+        },
+        {
+          "word": "VURGU",
+          "hint": "Bir kelimedeki hecelerden birinin daha güçlü söylenmesi."
+        },
+        {
+          "word": "KELİME",
+          "hint": "Anlamlı harf veya hece topluluğu."
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Kelimelerin bir araya gelerek anlamlı bir bütün oluşturması."
+        },
+        {
+          "word": "YAZIM",
+          "hint": "Kelimelerin doğru harflerle yazılması."
+        },
+        {
+          "word": "ANLAM",
+          "hint": "Bir kelimenin veya cümlenin ne ifade ettiği."
+        },
+        {
+          "word": "SES OLAYI",
+          "hint": "Konuşurken seslerde meydana gelen değişimler."
+        },
+        {
+          "word": "ÜNLÜ",
+          "hint": "Ağızdan tek başına çıkabilen harfler (a, e, ı, i, o, ö, u, ü)."
+        },
+        {
+          "word": "ÜNSÜZ",
+          "hint": "Tek başına çıkmayan, ünlüyle birlikte çıkan harfler."
+        },
+        {
+          "word": "KALIN ÜNLÜ",
+          "hint": "Dilin arka kısmıyla çıkarılan ünlüler (a, ı, o, u)."
+        },
+        {
+          "word": "İNCE ÜNLÜ",
+          "hint": "Dilin ön kısmıyla çıkarılan ünlüler (e, i, ö, ü)."
+        },
+        {
+          "word": "DÜZ ÜNLÜ",
+          "hint": "Dilin düz olduğu zaman çıkarılan ünlüler (a, e, i, ö)."
+        },
+        {
+          "word": "YUVARLAK ÜNLÜ",
+          "hint": "Dudakların yuvarlaklaştığı zaman çıkarılan ünlüler (o, ö, u, ü)."
+        },
+        {
+          "word": "GÖNÜLLÜ",
+          "hint": "İstekle yapılan."
+        },
+        {
+          "word": "GÖNÜLSÜZ",
+          "hint": "İstemeden, zorla yapılan."
+        },
+        {
+          "word": "KALICI",
+          "hint": "Değişmeyen, yok olmayan."
+        },
+        {
+          "word": "GEÇİCİ",
+          "hint": "Kısa süreli, kaybolan."
+        },
+        {
+          "word": "BÜYÜME",
+          "hint": "Boyutların artması."
+        },
+        {
+          "word": "KÜÇÜLME",
+          "hint": "Boyutların azalması."
+        },
+        {
+          "word": "BAŞLANGIÇ",
+          "hint": "Bir şeyin ilk noktası."
+        },
+        {
+          "word": "SON",
+          "hint": "Bir şeyin bitiş noktası."
+        },
+        {
+          "word": "ARTIŞ",
+          "hint": "Miktarının çoğalması."
+        },
+        {
+          "word": "AZALIŞ",
+          "hint": "Miktarının eksilmesi."
+        },
+        {
+          "word": "KESME İŞARETİ",
+          "hint": "Özel isimlere gelen ekleri ayırmak için kullanılır."
+        },
+        {
+          "word": "DEVRİK CÜMLE",
+          "hint": "Yüklemi sonda olmayan cümle."
+        },
+        {
+          "word": "DÜZ CÜMLE",
+          "hint": "Yüklemi sonda olan cümle."
+        },
+        {
+          "word": "SORU CÜMLESİ",
+          "hint": "Cevap bekleyen cümle."
+        },
+        {
+          "word": "ÜNLEM CÜMLESİ",
+          "hint": "Duygu belirten cümle."
+        },
+        {
+          "word": "SES BİLİM",
+          "hint": "Seslerin incelendiği bilim dalı."
+        },
+        {
+          "word": "MORFOLOJİ",
+          "hint": "Kelimelerin yapısını inceleyen bilim dalı."
+        },
+        {
+          "word": "SÖZCÜK BİLİM",
+          "hint": "Kelimelerin anlamlarını inceleyen bilim dalı."
+        },
+        {
+          "word": "TÜRETME",
+          "hint": "Yeni kelime yapma."
+        },
+        {
+          "word": "BİRLEŞTİRME",
+          "hint": "İki kelimeyi bir araya getirme."
+        },
+        {
+          "word": "KÖK",
+          "hint": "Bir kelimenin anlamlı en küçük parçası."
+        },
+        {
+          "word": "EKLER",
+          "hint": "Kökün sonuna gelerek kelimeyi değiştiren yapılar."
+        },
+        {
+          "word": "İSİM",
+          "hint": "Varlıkların adlarını bildiren kelime türü."
+        },
+        {
+          "word": "FİİL",
+          "hint": "İş, oluş, hareket bildiren kelime türü."
+        },
+        {
+          "word": "SİFAT",
+          "hint": "İsimleri niteleyen veya belirten kelime türü."
+        },
+        {
+          "word": "ZARF",
+          "hint": "Fiilleri, fiilimsileri, sıfatları veya zarfları niteleyen kelime türü."
+        },
+        {
+          "word": "ZAMİR",
+          "hint": "İsimlerin yerine kullanılan kelime türü."
+        },
+        {
+          "word": "EDAT",
+          "hint": "Tek başına anlamı olmayan, cümledeki kelimelerle ilgi kuran kelime."
+        },
+        {
+          "word": "BAĞLAÇ",
+          "hint": "Kelimeleri veya cümleleri birbirine bağlayan kelime."
+        },
+        {
+          "word": "ÜNLEM",
+          "hint": "Sevinç, korku, şaşma gibi duyguları anlatan kelime veya ses."
+        },
+        {
+          "word": "TONLAMA",
+          "hint": "Cümledeki sesin inişli çıkışlı hareketi."
+        },
+        {
+          "word": "KISALTMALAR",
+          "hint": "Kelimelerin veya kelime gruplarının daha kısa yazılışı."
+        },
+        {
+          "word": "SES YOĞUNLAŞMASI",
+          "hint": "İki sesin bir araya gelerek daha güçlü bir ses oluşturması."
+        },
+        {
+          "word": "ÜNSÜZ BENZEŞMESİ",
+          "hint": "Yan yana gelen iki ünsüzden birinin diğerine benzemesi."
+        },
+        {
+          "word": "ÜNLÜ DARALMASI",
+          "hint": "Bazı fiil köklerindeki 'a' veya 'e' ünlüsünün 'u' veya 'ü'ye dönüşmesi."
+        },
+        {
+          "word": "ÜNSÜZ YUMUŞAMASI",
+          "hint": "Sonda bulunan sert ünsüzlerin, ünlüyle başlayan ek aldığında yumuşak ünsüze dönüşmesi."
+        },
+        {
+          "word": "KAYNAŞMA",
+          "hint": "İki kelimenin birleşirken araya ses girmesi."
+        },
+        {
+          "word": "TÜREME",
+          "hint": "Ek alarak yeni anlamlı kelime oluşması."
+        },
+        {
+          "word": "BİRLEŞME",
+          "hint": "İki kelimenin bir araya gelerek yeni bir kelime oluşturması."
+        },
+        {
+          "word": "YAZIM KURALLARI",
+          "hint": "Kelimelerin doğru yazılması için konulmuş kurallar bütünü."
+        },
+        {
+          "word": "NOKTALAMA İŞARETLERİ",
+          "hint": "Yazıda anlamı belirginleştiren işaretler."
+        }
+      ]
+    },
+    {
+      "id": "turkce_u6",
+      "name": "6. Ünite: Vatandaşlık ve Demokrasi",
       "months": [
         3,
         4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "DÜŞÜNCE",
+          "hint": "Zihnimizde canlanan, tasarlanan şey."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Sevinç, üzüntü, korku gibi içsel yaşantılar."
+        },
+        {
+          "word": "AMAÇ",
+          "hint": "Bir işi yaparken ulaşmak istediğimiz hedef."
+        },
+        {
+          "word": "SEBEP",
+          "hint": "Bir olayın neden ortaya çıktığını açıklayan durum."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir olayın ardından gelen, meydana gelen durum."
+        },
+        {
+          "word": "ÖZGÜVEN",
+          "hint": "Kendine inanma ve kendine güvenme duygusu."
+        },
+        {
+          "word": "SAYGI",
+          "hint": "Başkalarının duygu ve düşüncelerine değer verme."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Farklılıklara karşı anlayışlı ve kabullenici olma."
+        },
+        {
+          "word": "EMPATİ",
+          "hint": "Başkalarının duygu ve düşüncelerini anlama çabası."
+        },
+        {
+          "word": "DİKKAT",
+          "hint": "Odaklanarak bir şeyi dinleme, görme veya yapma."
+        },
+        {
+          "word": "VURGU",
+          "hint": "Bir kelimeyi veya cümleyi öne çıkararak söyleme."
+        },
+        {
+          "word": "TONLAMA",
+          "hint": "Sesin yükselip alçalması, duygu katması."
+        },
+        {
+          "word": "DİKSİYON",
+          "hint": "Kelimeleri doğru ve anlaşılır söyleme sanatı."
+        },
+        {
+          "word": "AKCİĞER",
+          "hint": "Nefes alıp verirken kullandığımız organımız."
+        },
+        {
+          "word": "ZİHİN",
+          "hint": "Düşünen, anlayan, hayal kuran bölümümüz."
+        },
+        {
+          "word": "BEDEN",
+          "hint": "Vücudumuzun tamamı."
+        },
+        {
+          "word": "İFADE",
+          "hint": "Duygu ve düşünceleri anlatma biçimi."
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "Öğrenilen veya edinilen şey."
+        },
+        {
+          "word": "DENEYİM",
+          "hint": "Yaşayarak öğrenilen tecrübe."
+        },
+        {
+          "word": "UYUM",
+          "hint": "Birbirine uygun duruma gelme."
+        },
+        {
+          "word": "ANLAYIŞ",
+          "hint": "Bir durumu veya kişiyi kavrama."
+        },
+        {
+          "word": "BAĞLANTI",
+          "hint": "İki şey arasındaki ilişki."
+        },
+        {
+          "word": "ÖRNEK",
+          "hint": "Bir konu hakkında somutlaştırma yapmak için kullanılan şey."
+        },
+        {
+          "word": "ÖRÜNTÜ",
+          "hint": "Belirli bir düzen içinde tekrarlanan şekil veya durum."
+        },
+        {
+          "word": "TASARIM",
+          "hint": "Bir şeyi oluşturmadan önce planlama, çizme."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir şeyi dikkatle izleyerek inceleme."
+        },
+        {
+          "word": "ELEŞTİRİ",
+          "hint": "Bir şeyi beğenip beğenmediğimizi söyleme."
+        },
+        {
+          "word": "ÖNERİ",
+          "hint": "Daha iyi olması için sunulan fikir."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Bir olayı veya eseri kendi bakış açımızla anlatma."
+        },
+        {
+          "word": "ÖZET",
+          "hint": "Bir metnin ana fikirlerini kısa ve anlaşılır şekilde anlatma."
+        },
+        {
+          "word": "SINIFLAMA",
+          "hint": "Benzer özelliklere sahip varlıkları gruplandırma."
+        },
+        {
+          "word": "KARŞILAŞTIRMA",
+          "hint": "İki veya daha fazla şeyi birbirine benzetme veya ayırma."
+        },
+        {
+          "word": "SIRALAMA",
+          "hint": "Nesneleri belirli bir düzene göre dizme."
+        },
+        {
+          "word": "BELİRTEÇ",
+          "hint": "Fiilleri zaman, yer, durum bakımından niteleyen sözcük."
+        },
+        {
+          "word": "İŞARET",
+          "hint": "Bir şeyi göstermek veya belirtmek için kullanılan yöntem."
+        },
+        {
+          "word": "ALGI",
+          "hint": "Duyular aracılığıyla çevreyi tanıma."
+        },
+        {
+          "word": "BELLEK",
+          "hint": "Bilgileri sakladığımız ve hatırladığımız yer."
+        },
+        {
+          "word": "YARATICILIK",
+          "hint": "Yeni fikirler ve çözümler üretme yeteneği."
+        },
+        {
+          "word": "ETKİLEŞİM",
+          "hint": "Karşılıklı olarak birbirini etkileme."
+        },
+        {
+          "word": "BECERİ",
+          "hint": "Bir işi yapabilme yeteneği."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Ağırlığı eşit dağıtma durumu."
+        },
+        {
+          "word": "BAŞARI",
+          "hint": "Hedefe ulaşma, iyi sonuç alma."
+        },
+        {
+          "word": "GAYRET",
+          "hint": "Bir işi yapmak için gösterilen çaba."
+        },
+        {
+          "word": "ÇABA",
+          "hint": "Bir işi başarmak için harcanan güç."
+        },
+        {
+          "word": "MOTİVASYON",
+          "hint": "Bir işi yapmaya istekli olma durumu."
+        },
+        {
+          "word": "TEKNİK",
+          "hint": "Bir işi yapmanın özel yolu veya yöntemi."
+        },
+        {
+          "word": "STRATEJİ",
+          "hint": "Bir amaca ulaşmak için izlenen yol."
+        },
+        {
+          "word": "PRENSİP",
+          "hint": "Temel ve değişmez kural."
+        },
+        {
+          "word": "DÜZEN",
+          "hint": "Belirli bir kurala göre oluşmuş durum."
+        },
+        {
+          "word": "SİSTEM",
+          "hint": "Belirli bir amaca hizmet eden birbiriyle ilişkili parçalar bütünü."
+        }
+      ]
     },
     {
-      "id": "turkce_u5",
-      "name": "5. Ünite: Dil Bilgisi ve Ses Olayları",
+      "id": "turkce_u7",
+      "name": "7. Ünite: Eğitim ve Çalışma Hayatı",
       "months": [
+        4,
         5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "EĞİTİM",
+          "hint": "Bilgi ve beceri kazandığımız süreç."
+        },
+        {
+          "word": "ÖĞRENCİ",
+          "hint": "Okula gidip ders alan çocuk."
+        },
+        {
+          "word": "ÖĞRETMEN",
+          "hint": "Okulda ders veren kişi."
+        },
+        {
+          "word": "DERS",
+          "hint": "Okulda işlenen konu, öğrenilen bilgi."
+        },
+        {
+          "word": "SINAV",
+          "hint": "Bilgimizi ölçmek için yapılan yoklama."
+        },
+        {
+          "word": "BAŞARI",
+          "hint": "Bir işte iyi sonuç elde etmek."
+        },
+        {
+          "word": "MESLEK",
+          "hint": "Hayatımızı kazanmak için yaptığımız iş."
+        },
+        {
+          "word": "ÇALIŞMA",
+          "hint": "Bir işi yapmak için çaba harcamak."
+        },
+        {
+          "word": "ÜNİTE",
+          "hint": "Ders kitabındaki konu bölümü."
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "Öğrenilerek kazanılan her şey."
+        },
+        {
+          "word": "BECERİ",
+          "hint": "Bir işi iyi yapabilme yeteneği."
+        },
+        {
+          "word": "HEDEF",
+          "hint": "Ulaşmak istediğimiz amaç."
+        },
+        {
+          "word": "PLAN",
+          "hint": "Bir işi yapmadan önce hazırlanan yol haritası."
+        },
+        {
+          "word": "DİSİPLİN",
+          "hint": "Kurallara uyma ve düzenli olma."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Yapılması gereken bir görevi üstlenme."
+        },
+        {
+          "word": "GÖREVİN",
+          "hint": "Üstlenilen veya yapılması istenen iş."
+        },
+        {
+          "word": "EMEK",
+          "hint": "Bir iş için harcanan güç ve çaba."
+        },
+        {
+          "word": "KAZANÇ",
+          "hint": "Yapılan işten elde edilen para veya fayda."
+        },
+        {
+          "word": "UZMAN",
+          "hint": "Bir konuda çok bilgili kişi."
+        },
+        {
+          "word": "DENEYİM",
+          "hint": "Bir işi yaparak kazanılan tecrübe."
+        },
+        {
+          "word": "KARİYER",
+          "hint": "Bir meslekteki ilerleme yolu."
+        },
+        {
+          "word": "DİPLOMA",
+          "hint": "Okul bitince verilen resmi belge."
+        },
+        {
+          "word": "MAAŞ",
+          "hint": "Çalışana ay sonunda ödenen para."
+        },
+        {
+          "word": "İŞBİRLİĞİ",
+          "hint": "Birlikte çalışarak bir amaca ulaşmak."
+        },
+        {
+          "word": "DAYANIŞMA",
+          "hint": "Birbirine yardım etme ve destek olma."
+        },
+        {
+          "word": "MOTİVASYON",
+          "hint": "Bir şeyi yapma isteği."
+        },
+        {
+          "word": "AZİM",
+          "hint": "Bir işte kararlılıkla çalışma."
+        },
+        {
+          "word": "SABIR",
+          "hint": "Bir şeye dayanma gücü."
+        },
+        {
+          "word": "GAYRET",
+          "hint": "Bir işi başarmak için gösterilen çaba."
+        },
+        {
+          "word": "GELİŞİM",
+          "hint": "İlerlemek, daha iyi duruma gelmek."
+        },
+        {
+          "word": "YENİLİK",
+          "hint": "Yeni bir şey ortaya çıkarma."
+        },
+        {
+          "word": "TEKNOLOJİ",
+          "hint": "Hayatımızı kolaylaştıran aletler ve yöntemler."
+        },
+        {
+          "word": "YARATICILIK",
+          "hint": "Yeni fikirler üretebilme yeteneği."
+        },
+        {
+          "word": "PROJE",
+          "hint": "Belirli bir amaç için yapılan planlı çalışma."
+        },
+        {
+          "word": "ARAŞTIRMA",
+          "hint": "Bir konu hakkında bilgi toplama."
+        },
+        {
+          "word": "KÜTÜPHANE",
+          "hint": "Kitapların okunduğu ve ödünç alındığı yer."
+        },
+        {
+          "word": "DERSLİK",
+          "hint": "Okulda ders yapılan oda."
+        },
+        {
+          "word": "MÜFREDAT",
+          "hint": "Okuldaki derslerin ve konuların listesi."
+        },
+        {
+          "word": "REHBERLİK",
+          "hint": "Öğrencilere doğru yolu gösterme."
+        },
+        {
+          "word": "SEMİNER",
+          "hint": "Belirli bir konuda bilgi verilen toplantı."
+        },
+        {
+          "word": "ATÖLYE",
+          "hint": "Bir şeyler üretilen veya öğrenilen çalışma alanı."
+        },
+        {
+          "word": "İLGİ",
+          "hint": "Bir şeye duyulan merak."
+        },
+        {
+          "word": "YETENEK",
+          "hint": "Bir işi kolayca yapabilme gücü."
+        },
+        {
+          "word": "GİRİŞİMCİ",
+          "hint": "Yeni bir iş kuran kişi."
+        },
+        {
+          "word": "ÜRETİM",
+          "hint": "Bir şeyleri yapma, ortaya çıkarma işi."
+        },
+        {
+          "word": "HİZMET",
+          "hint": "İnsanların ihtiyaçlarını karşılamak için yapılan iş."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Alım satım yaparak para kazanma işi."
+        },
+        {
+          "word": "GELECEK",
+          "hint": "Yaşanacak olan zaman."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Bir sorunu ortadan kaldırma yolu."
+        },
+        {
+          "word": "DEĞERLENDİRME",
+          "hint": "Bir şeyin iyi veya kötü yanlarını inceleme."
+        }
+      ]
     },
     {
-      "id": "turkce_u6",
-      "name": "6. Ünite: Sözlü İletişim ve Anlatım Bozuklukları",
+      "id": "turkce_u8",
+      "name": "8. Ünite: Değerlerimiz",
       "months": [
+        5,
         6
       ],
-      "words": []
+      "words": [
+        {
+          "word": "DEĞER",
+          "hint": "Bir şeyin önemini veya kıymetini anlatan sözcük."
+        },
+        {
+          "word": "SAYGI",
+          "hint": "Başkalarına ve farklılıklara karşı gösterdiğimiz iyi davranış."
+        },
+        {
+          "word": "DÜRÜSTLÜK",
+          "hint": "Her zaman doğruyu söyleme ve hile yapmama hali."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Yapman gereken işleri zamanında ve doğru tamamlama."
+        },
+        {
+          "word": "EMPATİ",
+          "hint": "Kendini başkasının yerine koyup onun duygularını anlama."
+        },
+        {
+          "word": "YARDIMSEVERLİK",
+          "hint": "İnsanlara veya canlılara isteyerek yardım etme."
+        },
+        {
+          "word": "VATANSEVERLİK",
+          "hint": "Ülkesini ve milletini sevme, ona bağlı olma duygusu."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Herkese eşit ve hak ettiği gibi davranma ilkesi."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Kimseye bağlı kalmadan, kendi kararlarını verebilme hali."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Savaşın olmaması, insanların huzur içinde yaşaması."
+        },
+        {
+          "word": "ÇALIŞKANLIK",
+          "hint": "Bir işi yaparken gayret gösterme ve emek harcama."
+        },
+        {
+          "word": "ŞÜKRAN",
+          "hint": "Bir iyilik karşısında duyulan minnet, teşekkür duygusu."
+        },
+        {
+          "word": "CÖMERTLİK",
+          "hint": "Sahip olduğu şeyleri başkalarıyla paylaşma isteği."
+        },
+        {
+          "word": "SAMİMİYET",
+          "hint": "İçtenlik, yalandan uzak, gerçek duygularla davranma."
+        },
+        {
+          "word": "CESARET",
+          "hint": "Korktuğun bir durumda bile doğru bildiğini yapma gücü."
+        },
+        {
+          "word": "AZİM",
+          "hint": "Bir hedef için yılmadan, istekle çabalama."
+        },
+        {
+          "word": "TEMİZLİK",
+          "hint": "Vücudun ve çevrenin kirlerden arındırılması."
+        },
+        {
+          "word": "SAĞLIK",
+          "hint": "Hastalıkların olmaması, iyi olma durumu."
+        },
+        {
+          "word": "DOĞA",
+          "hint": "İnsan eliyle yapılmamış, canlı ve cansız her şey."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Yaşadığımız yerin etrafı, doğal ve yapay her şey."
+        },
+        {
+          "word": "MİRAS",
+          "hint": "Geçmişten bugüne kalan, korunması gereken değerler."
+        },
+        {
+          "word": "TARİH",
+          "hint": "Geçmişte yaşanan olayları inceleyen bilim dalı."
+        },
+        {
+          "word": "KAHRAMAN",
+          "hint": "Ülkesi veya milleti için önemli bir iş yapan kişi."
+        },
+        {
+          "word": "HÜRMET",
+          "hint": "Yaşça büyük veya önemli kişilere gösterilen saygı."
+        },
+        {
+          "word": "SADAKAT",
+          "hint": "Bir kişiye, ülkeye veya fikre bağlılık."
+        },
+        {
+          "word": "SABIR",
+          "hint": "Zor durumlarda bekleyebilme, sakin kalma yeteneği."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Başkalarının düşüncelerine, inançlarına anlayış gösterme."
+        },
+        {
+          "word": "İŞBİRLİĞİ",
+          "hint": "Bir amaca ulaşmak için birlikte çalışma."
+        },
+        {
+          "word": "DAYANIŞMA",
+          "hint": "Zor zamanlarda birbirine destek olma, birlikte hareket etme."
+        },
+        {
+          "word": "MİSAFİRPERVERLİK",
+          "hint": "Eve gelen misafiri iyi ağırlama, ikram etme."
+        },
+        {
+          "word": "NEZAKET",
+          "hint": "Nazik ve kibar davranışlar gösterme."
+        },
+        {
+          "word": "SEVGİ",
+          "hint": "Birini veya bir şeyi çok isteme, değer verme duygusu."
+        },
+        {
+          "word": "GÜVEN",
+          "hint": "Birine veya bir şeye inanma, kuşku duymama."
+        },
+        {
+          "word": "DOĞRULUK",
+          "hint": "Yalan söylememe, doğru ve dürüst olma durumu."
+        },
+        {
+          "word": "İTİBAR",
+          "hint": "Bir kişinin toplumdaki saygınlığı, değeri."
+        },
+        {
+          "word": "BİLGELİK",
+          "hint": "Bilgi ve deneyimle doğru kararlar verme yeteneği."
+        },
+        {
+          "word": "TUTUMLU",
+          "hint": "Elindeki parayı veya eşyayı dikkatli kullanan, savurmayan."
+        },
+        {
+          "word": "ÖZEN",
+          "hint": "Bir işi yaparken veya bir şeye bakarken gösterilen dikkat."
+        },
+        {
+          "word": "VİCDAN",
+          "hint": "Doğruyu ve yanlışı ayırt etmemizi sağlayan iç sesimiz."
+        },
+        {
+          "word": "ERDEM",
+          "hint": "Ahlaklı ve iyi davranışlara verilen genel ad."
+        },
+        {
+          "word": "AHLAK",
+          "hint": "Toplumun benimsediği iyi ve doğru davranış kuralları."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Bir araya gelme, beraber olma hali, dayanışma."
+        },
+        {
+          "word": "GAYRET",
+          "hint": "Bir işi başarmak için gösterilen çaba, uğraş."
+        },
+        {
+          "word": "ÖRNEK",
+          "hint": "Başkalarına iyi bir davranış modeli olan kişi veya durum."
+        },
+        {
+          "word": "ONUR",
+          "hint": "Kişinin kendine olan saygısı, şeref."
+        },
+        {
+          "word": "VEFA",
+          "hint": "Sözünde durma, sadakatli olma, sevdiklerini unutmama."
+        },
+        {
+          "word": "ÖZGÜVEN",
+          "hint": "Kendine inanma, yeteneklerine güvenme duygusu."
+        },
+        {
+          "word": "İYİLİK",
+          "hint": "Başkalarına faydalı olma, iyi davranma."
+        },
+        {
+          "word": "GÖRGÜ",
+          "hint": "Toplum içinde nasıl davranılması gerektiğini bilme, incelik."
+        },
+        {
+          "word": "DUYARLILIK",
+          "hint": "Başkalarının sorunlarına veya olaylara karşı hassas olma."
+        },
+        {
+          "word": "KARARLILIK",
+          "hint": "Bir şeye karar verdikten sonra ondan vazgeçmeme, azim."
+        },
+        {
+          "word": "KİBAR",
+          "hint": "Nazik, ince ruhlu, güzel davranışlı kişi."
+        },
+        {
+          "word": "ŞEFFAFLIK",
+          "hint": "Açık ve anlaşılır olma, gizli saklı iş yapmama."
+        },
+        {
+          "word": "FEDAKARLIK",
+          "hint": "Kendi çıkarından vazgeçerek başkası için bir şeyler yapma."
+        }
+      ]
     }
   ]
 }

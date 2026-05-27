@@ -2,10 +2,11 @@
   "units": [
     {
       "id": "fizik_u1",
-      "name": "1. Ünite: Elektrik",
+      "name": "1. Ünite: Elektrik ve Manyetizma",
       "months": [
         9,
-        10
+        10,
+        11
       ],
       "words": [
         {
@@ -45,19 +46,19 @@
           "hint": "Yüklü cisimlerin çevresinde oluşturduğu etki bölgesi"
         },
         {
-          "word": "POTANSİ̇YEL",
+          "word": "POTANSİYEL",
           "hint": "Bir yükün bir noktada sahip olduğu enerji durumu"
         },
         {
-          "word": "ENERJİ̇",
+          "word": "ENERJİ",
           "hint": "İş yapabilme kapasitesi, elektrikle ilgili olarak depolanabilir veya iletilebilir"
         },
         {
-          "word": "İ̇LETKEN",
+          "word": "İLETKEN",
           "hint": "Elektriği kolayca geçiren madde"
         },
         {
-          "word": "YALİTKAN",
+          "word": "YALITKAN",
           "hint": "Elektriği geçirmeyen madde"
         },
         {
@@ -69,7 +70,7 @@
           "hint": "Devreyi açıp kapatmaya yarayan alet"
         },
         {
-          "word": "Lİ̇TYUM",
+          "word": "LİTYUM",
           "hint": "Cep telefonlarında sıklıkla kullanılan bir pil malzemesi"
         },
         {
@@ -77,7 +78,7 @@
           "hint": "Elektriği iletmek için kullanılan yalıtımlı tel"
         },
         {
-          "word": "Pİ̇L",
+          "word": "PİL",
           "hint": "Elektrik enerjisi üreten kimyasal düzenek"
         },
         {
@@ -93,7 +94,7 @@
           "hint": "Gerilimi yükseltip alçaltmaya yarayan alet"
         },
         {
-          "word": "BAĞLANTİ",
+          "word": "BAĞLANTI",
           "hint": "Devre elemanlarının birbirine bağlanma şekli"
         },
         {
@@ -101,7 +102,7 @@
           "hint": "Devre elemanlarının akım yolu üzerindeki dallanarak bağlanması"
         },
         {
-          "word": "SERİ̇",
+          "word": "SERİ",
           "hint": "Devre elemanlarının art arda bağlanması"
         },
         {
@@ -109,7 +110,7 @@
           "hint": "Akımın belirli bir yönde aktığı durum"
         },
         {
-          "word": "Sİ̇GORTA",
+          "word": "SİGORTA",
           "hint": "Aşırı akıma karşı devreyi koruyan parça"
         },
         {
@@ -117,11 +118,11 @@
           "hint": "Elektrikli aletlerin gövdelerinin güvenliği için yapılan bağlantı"
         },
         {
-          "word": "STATİ̇K",
+          "word": "STATİK",
           "hint": "Duran yüklerin oluşturduğu elektriklenme durumu"
         },
         {
-          "word": "Dİ̇NAMİ̇K",
+          "word": "DİNAMİK",
           "hint": "Hareket halindeki yüklerin oluşturduğu elektrik akımı durumu"
         },
         {
@@ -129,7 +130,7 @@
           "hint": "Mıknatısların veya pillerin uçları (N/S veya +/-)"
         },
         {
-          "word": "İ̇LETKENLİ̇K",
+          "word": "İLETKENLİK",
           "hint": "Bir malzemenin elektriği iletme derecesi"
         },
         {
@@ -157,7 +158,7 @@
           "hint": "Enerjinin bir formdan diğerine dönüşmesiyle elde edilen fayda"
         },
         {
-          "word": "VERİ̇M",
+          "word": "VERİM",
           "hint": "Sistemin iş yaparken harcadığı enerjiye karşılık aldığı fayda oranı"
         },
         {
@@ -169,11 +170,11 @@
           "hint": "Bazı elektrik devre elemanlarının çalışması sonucu yayılan enerji"
         },
         {
-          "word": "MANYETİ̇ZMA",
+          "word": "MANYETİZMA",
           "hint": "Elektrik akımının ve yüklerin oluşturduğu manyetik alanla ilgili olgu"
         },
         {
-          "word": "KATİ",
+          "word": "KATI",
           "hint": "Maddenin en yoğun hallerinden biri, iletkenliği etkiler"
         },
         {
@@ -185,7 +186,7 @@
           "hint": "Maddenin en seyrek hallerinden biri, bazı durumlarda iletken olabilir"
         },
         {
-          "word": "ELEKTROLİ̇T",
+          "word": "ELEKTROLİT",
           "hint": "Suda çözündüğünde iyonlaşarak akımı ileten madde"
         },
         {
@@ -193,7 +194,7 @@
           "hint": "Enerjinin bir yerde saklanması (kapasitör gibi)"
         },
         {
-          "word": "İ̇MPEDANS",
+          "word": "İMPEDANS",
           "hint": "AC devrelerinde akıma karşı gösterilen toplam zorluk"
         },
         {
@@ -212,10 +213,11 @@
     },
     {
       "id": "fizik_u2",
-      "name": "2. Ünite: Manyetizma",
+      "name": "2. Ünite: Optik",
       "months": [
-        11,
-        12
+        12,
+        1,
+        2
       ],
       "words": [
         {
@@ -239,19 +241,19 @@
           "hint": "Telin silindir şeklinde sarılmasıyla oluşan yapı"
         },
         {
-          "word": "DEMİ̇R",
+          "word": "DEMİR",
           "hint": "Mıknatısların çektiği, parlak gri bir metal."
         },
         {
-          "word": "PERMEABİ̇Lİ̇TE",
+          "word": "PERMEABİLİTE",
           "hint": "Mıknatıslı alanın bir madde içinden ne kadar kolay geçebileceğini gösteren özellik."
         },
         {
-          "word": "AKİM",
+          "word": "AKIM",
           "hint": "Elektrik yüklerinin bir iletken içindeki hareketi."
         },
         {
-          "word": "MANYETİ̇K",
+          "word": "MANYETİK",
           "hint": "Mıknatıslarla veya elektrik akımlarıyla ilgili olan."
         },
         {
@@ -263,7 +265,7 @@
           "hint": "Bir cismi hareket ettiren veya şeklini değiştiren etki."
         },
         {
-          "word": "İ̇TME",
+          "word": "İTME",
           "hint": "Birbirinden uzaklaştıran manyetik etki."
         },
         {
@@ -271,15 +273,15 @@
           "hint": "Birbirine yaklaştıran manyetik etki."
         },
         {
-          "word": "İ̇LETKEN",
+          "word": "İLETKEN",
           "hint": "Elektriği veya ısıyı iyi geçiren madde."
         },
         {
-          "word": "YALİTKAN",
+          "word": "YALITKAN",
           "hint": "Elektriği veya ısıyı geçirmeyen madde."
         },
         {
-          "word": "ELEKTRİ̇K",
+          "word": "ELEKTRİK",
           "hint": "Yüklü parçacıkların hareketiyle oluşan enerji."
         },
         {
@@ -295,7 +297,7 @@
           "hint": "Manyetik alan çizgilerinin en seyrek olduğu hayali çizgi."
         },
         {
-          "word": "KUTUP NOKTASİ",
+          "word": "KUTUP NOKTASI",
           "hint": "Dünya'nın manyetik alanının dikey olduğu nokta."
         },
         {
@@ -303,15 +305,15 @@
           "hint": "Manyetik alan etkisini azaltma veya engelleme yöntemi."
         },
         {
-          "word": "PARAMANYETİ̇K",
+          "word": "PARAMANYETİK",
           "hint": "Zayıfça manyetik alan tarafından çekilen maddeler."
         },
         {
-          "word": "Dİ̇YAMANYETİ̇K",
+          "word": "DİYAMANYETİK",
           "hint": "Zayıfça manyetik alan tarafından itilen maddeler."
         },
         {
-          "word": "FERROMANYETİ̇K",
+          "word": "FERROMANYETİK",
           "hint": "Güçlü bir şekilde manyetik alan tarafından çekilen maddeler."
         },
         {
@@ -426,37 +428,483 @@
     },
     {
       "id": "fizik_u3",
-      "name": "3. Ünite: İş, Enerji ve Güç",
-      "months": [
-        1,
-        2
-      ],
-      "words": []
-    },
-    {
-      "id": "fizik_u4",
-      "name": "4. Ünite: Isı ve Sıcaklık, Elektrostatik",
+      "name": "3. Ünite: Dalgalar",
       "months": [
         3,
         4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "İŞ",
+          "hint": "Bir kuvvete maruz kalan cismin, kuvvet doğrultusunda yer değiştirmesiyle yapılan eylem."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme yeteneği."
+        },
+        {
+          "word": "GÜÇ",
+          "hint": "Birim zamanda yapılan iş veya harcanan enerji miktarı."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Bir cismin hareket durumunu değiştiren etki."
+        },
+        {
+          "word": "YERDEĞİŞTİRME",
+          "hint": "Bir cismin ilk konumundan son konumuna olan en kısa vektörel uzaklık."
+        },
+        {
+          "word": "KİNETİK",
+          "hint": "Hareketi olan cisimlerin sahip olduğu enerji türü."
+        },
+        {
+          "word": "POTANSİYEL",
+          "hint": "Cismin konumundan veya durumundan dolayı depoladığı enerji."
+        },
+        {
+          "word": "MEKANİK",
+          "hint": "Kinetik ve potansiyel enerjilerin toplamı."
+        },
+        {
+          "word": "KORUNUM",
+          "hint": "Toplam enerji miktarının sabit kalması prensibi."
+        },
+        {
+          "word": "DÖNÜŞÜM",
+          "hint": "Enerjinin bir türden başka bir türe geçmesi."
+        },
+        {
+          "word": "HİZ",
+          "hint": "Birim zamanda alınan yolun vektörel ölçüsü."
+        },
+        {
+          "word": "YÜKSEKLİK",
+          "hint": "Bir cismin referans noktasına göre düşey mesafesi."
+        },
+        {
+          "word": "SÜRTÜNME",
+          "hint": "Hareket eden iki yüzey arasındaki temastan doğan, hareketi zorlaştırıcı kuvvet."
+        },
+        {
+          "word": "JOULE",
+          "hint": "İş ve enerji birimi."
+        },
+        {
+          "word": "WATT",
+          "hint": "Güç birimi."
+        },
+        {
+          "word": "NEWTON",
+          "hint": "Kuvvet birimi."
+        },
+        {
+          "word": "SİSTEM",
+          "hint": "İncelenen olay veya cisimler topluluğu."
+        },
+        {
+          "word": "VERİM",
+          "hint": "Alınan enerjinin verilen enerjiye oranı, ne kadar 'kârlı' olduğumuzu gösterir."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki büyüklüğün birbirine bölünmesiyle elde edilen sayısal değer."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Olayların meydana geliş sırasını belirten boyut."
+        },
+        {
+          "word": "TERMİK",
+          "hint": "Isı enerjisiyle ilgili olan."
+        },
+        {
+          "word": "KİMYASAL",
+          "hint": "Atom ve molekül bağlarında depolanan enerji türü."
+        },
+        {
+          "word": "ELEKTRİK",
+          "hint": "Yüklü parçacıkların hareketiyle oluşan enerji türü."
+        },
+        {
+          "word": "NÜKLEER",
+          "hint": "Atom çekirdeklerinde depolanan, çok büyük enerji."
+        },
+        {
+          "word": "SES",
+          "hint": "Titreşimler sonucu oluşan, kulakla algılanan enerji türü."
+        },
+        {
+          "word": "İŞİK",
+          "hint": "Gözle görülebilen elektromanyetik dalga, bir enerji biçimi."
+        },
+        {
+          "word": "YAY",
+          "hint": "Esnekliği sayesinde enerji depolayabilen parça."
+        },
+        {
+          "word": "ESNEKLİK",
+          "hint": "Bir cismin dış kuvvetler kalktığında eski haline dönebilme özelliği."
+        },
+        {
+          "word": "KÜTLEÇEKİM",
+          "hint": "Kütleler arasındaki çekim kuvveti."
+        },
+        {
+          "word": "KALDIRAÇ",
+          "hint": "Bir destek noktası etrafında dönerek yük kaldırmaya yarayan basit makine."
+        },
+        {
+          "word": "MAKARA",
+          "hint": "Bir eksen etrafında dönerek ipin yönünü değiştiren veya kuvvet kazancı sağlayan basit makine."
+        },
+        {
+          "word": "EĞİK DÜZLEM",
+          "hint": "Yükseklik kazandırmak için kullanılan eğimli yüzey, basit makine."
+        },
+        {
+          "word": "SÜRTÜNMESİZ",
+          "hint": "Sürtünme kuvvetinin ihmal edildiği durum."
+        },
+        {
+          "word": "YERÇEKİMİ",
+          "hint": "Dünya'nın cisimlere uyguladığı çekim kuvveti."
+        },
+        {
+          "word": "METRE",
+          "hint": "Uzunluk birimi."
+        },
+        {
+          "word": "SANİYE",
+          "hint": "Zaman birimi."
+        },
+        {
+          "word": "NET",
+          "hint": "Toplam veya bileşke."
+        },
+        {
+          "word": "AÇI",
+          "hint": "İki çizginin veya yüzeyin kesişmesiyle oluşan açıklık."
+        },
+        {
+          "word": "DOĞRULTU",
+          "hint": "Bir çizginin veya hareketin yöneldiği genel istikamet."
+        },
+        {
+          "word": "YÖN",
+          "hint": "Bir vektörün veya hareketin belirli istikameti."
+        },
+        {
+          "word": "KALORİ",
+          "hint": "Isı enerjisi birimi, genellikle yiyeceklerdeki enerji miktarını belirtir."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Cismin üzerine etki eden net kuvvetlerin sıfır olması durumu."
+        },
+        {
+          "word": "GERİLME",
+          "hint": "Bir ip, tel veya yay gibi gerilen bir cisimde oluşan iç kuvvet."
+        },
+        {
+          "word": "SIKIŞMA",
+          "hint": "Bir cisme dışarıdan uygulanan kuvvetlerle hacminin azalması."
+        },
+        {
+          "word": "UZAMA",
+          "hint": "Bir cisme uygulanan çekme kuvvetiyle boyunun artması."
+        },
+        {
+          "word": "DEPOLAMA",
+          "hint": "Enerjinin saklanması süreci."
+        },
+        {
+          "word": "SABİT",
+          "hint": "Değeri değişmeyen, sürekli."
+        },
+        {
+          "word": "ANLIK",
+          "hint": "Bir olayın veya durumun belirli bir anda gerçekleşen değeri."
+        },
+        {
+          "word": "SKALER",
+          "hint": "Sadece büyüklüğü olan fiziksel nicelik (yönü olmayan)."
+        },
+        {
+          "word": "VEKTÖR",
+          "hint": "Hem büyüklüğü hem de yönü olan fiziksel nicelik."
+        },
+        {
+          "word": "REFERANS",
+          "hint": "Bir ölçüm veya gözlem için başlangıç noktası veya karşılaştırma standardı."
+        },
+        {
+          "word": "DÜZEY",
+          "hint": "Bir seviye veya yükseklik."
+        },
+        {
+          "word": "KAYIP",
+          "hint": "Enerjinin istenmeyen biçimlere dönüşmesi veya azalması."
+        },
+        {
+          "word": "KAZANÇ",
+          "hint": "Bir sistemden elde edilen fayda veya artış (örn: kuvvet kazancı)."
+        },
+        {
+          "word": "ETKİLEŞİM",
+          "hint": "İki veya daha fazla nesnenin birbirini karşılıklı olarak etkilemesi."
+        }
+      ]
     },
     {
-      "id": "fizik_u5",
-      "name": "5. Ünite: Basınç ve Dalgalar",
+      "id": "fizik_u4",
+      "name": "4. Ünite: Modern Fiziğe Giriş",
       "months": [
-        5
-      ],
-      "words": []
-    },
-    {
-      "id": "fizik_u6",
-      "name": "6. Ünite: Optik ve Aydınlanma",
-      "months": [
+        5,
         6
       ],
-      "words": []
+      "words": [
+        {
+          "word": "İSI",
+          "hint": "Sıcaklık farkından dolayı aktarılan enerji türü."
+        },
+        {
+          "word": "SICAKLIK",
+          "hint": "Bir cismin ne kadar sıcak veya soğuk olduğunu gösteren nicelik."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme yeteneği."
+        },
+        {
+          "word": "TERMOMETRE",
+          "hint": "Vücut veya ortam sıcaklığını ölçmeye yarayan alet."
+        },
+        {
+          "word": "GENLEŞME",
+          "hint": "Isının etkisiyle maddelerin boyutlarının büyümesi."
+        },
+        {
+          "word": "BÜZÜLME",
+          "hint": "Soğumanın etkisiyle maddelerin boyutlarının küçülmesi."
+        },
+        {
+          "word": "İLETİM",
+          "hint": "Isının maddelerin doğrudan temasıyla aktarılması."
+        },
+        {
+          "word": "TAŞINIM",
+          "hint": "Sıvı ve gazlarda ısının madde hareketiyle yayılması."
+        },
+        {
+          "word": "IŞIMA",
+          "hint": "Isının uzayda dalgalar halinde yayılması."
+        },
+        {
+          "word": "HAL DEĞİŞİMİ",
+          "hint": "Maddenin katı, sıvı veya gaz gibi durumunu değiştirmesi."
+        },
+        {
+          "word": "ERİME",
+          "hint": "Katı bir maddenin ısı alarak sıvı hale geçmesi."
+        },
+        {
+          "word": "DONMA",
+          "hint": "Sıvı bir maddenin ısı vererek katı hale geçmesi."
+        },
+        {
+          "word": "KAYNAMA",
+          "hint": "Bir sıvının her yerinden buharlaşarak gaz hale geçmesi."
+        },
+        {
+          "word": "BUHARLAŞMA",
+          "hint": "Bir sıvının yüzeyinden yavaşça gaz hale geçmesi."
+        },
+        {
+          "word": "YOĞUŞMA",
+          "hint": "Gaz haldeki bir maddenin soğuyarak sıvı hale dönmesi."
+        },
+        {
+          "word": "SÜBLİMLEŞME",
+          "hint": "Katı bir maddenin ara hal atlayarak doğrudan gaza dönüşmesi."
+        },
+        {
+          "word": "KIRAĞILAŞMA",
+          "hint": "Gaz haldeki bir maddenin doğrudan katıya dönüşmesi."
+        },
+        {
+          "word": "ÖZ İSI",
+          "hint": "Bir maddenin birim kütlesinin sıcaklığını bir derece artırmak için gereken ısı."
+        },
+        {
+          "word": "İSI SIĞASI",
+          "hint": "Bir maddenin tamamının sıcaklığını bir derece artırmak için gereken ısı."
+        },
+        {
+          "word": "GİZLİ İSI",
+          "hint": "Hal değişimi sırasında sıcaklık değişmeden alınan veya verilen ısı."
+        },
+        {
+          "word": "KALORİMETRE",
+          "hint": "Maddeler arasındaki ısı alışverişini ölçen düzenek."
+        },
+        {
+          "word": "MUTLAK SIFIR",
+          "hint": "Evrendeki en düşük teorik sıcaklık noktası."
+        },
+        {
+          "word": "KELVİN",
+          "hint": "Bilimde kullanılan mutlak sıcaklık birimi."
+        },
+        {
+          "word": "CELSİUS",
+          "hint": "Ülkemizde yaygın kullanılan sıcaklık birimi (°C)."
+        },
+        {
+          "word": "FAHRENHEİT",
+          "hint": "Özellikle ABD'de kullanılan sıcaklık birimi."
+        },
+        {
+          "word": "YALITIM",
+          "hint": "Isının bir ortamdan diğerine geçişini yavaşlatma işlemi."
+        },
+        {
+          "word": "TERMAL",
+          "hint": "Isı veya sıcaklıkla ilgili olan."
+        },
+        {
+          "word": "DENGE",
+          "hint": "İki farklı sıcaklıktaki cismin ısı alışverişi sonunda ulaştığı durum."
+        },
+        {
+          "word": "İÇ ENERJİ",
+          "hint": "Bir sistemdeki tüm atom ve moleküllerin toplam enerjisi."
+        },
+        {
+          "word": "MOLEKÜL",
+          "hint": "İki veya daha fazla atomun birleşmesiyle oluşan yapı."
+        },
+        {
+          "word": "ATOM",
+          "hint": "Maddenin temel yapı taşı."
+        },
+        {
+          "word": "SIVI",
+          "hint": "Belirli hacmi olan, ancak belirli bir şekli olmayan madde hali."
+        },
+        {
+          "word": "KATI",
+          "hint": "Belirli bir şekli ve hacmi olan madde hali."
+        },
+        {
+          "word": "GAZ",
+          "hint": "Belirli bir şekli ve hacmi olmayan madde hali."
+        },
+        {
+          "word": "ELEKTRİK YÜKÜ",
+          "hint": "Maddenin elektriksel kuvvetler oluşturmasını sağlayan özellik."
+        },
+        {
+          "word": "POZİTİF",
+          "hint": "Protonların taşıdığı, artı işaretli elektrik yükü türü."
+        },
+        {
+          "word": "NEGATİF",
+          "hint": "Elektronların taşıdığı, eksi işaretli elektrik yükü türü."
+        },
+        {
+          "word": "NÖTR",
+          "hint": "Eşit miktarda pozitif ve negatif yüke sahip cisim."
+        },
+        {
+          "word": "İLETKEN",
+          "hint": "Elektrik yüklerinin kolayca hareket edebildiği maddeler."
+        },
+        {
+          "word": "YALITKAN",
+          "hint": "Elektrik yüklerinin kolayca hareket edemediği maddeler."
+        },
+        {
+          "word": "ELEKTRON",
+          "hint": "Atomun çekirdeği etrafında dönen negatif yüklü parçacık."
+        },
+        {
+          "word": "PROTON",
+          "hint": "Atom çekirdeğinde bulunan pozitif yüklü parçacık."
+        },
+        {
+          "word": "NÖTRON",
+          "hint": "Atom çekirdeğinde bulunan yüksüz parçacık."
+        },
+        {
+          "word": "SÜRTÜNME",
+          "hint": "İki cismin birbirine temasıyla oluşan elektriklenme yöntemi."
+        },
+        {
+          "word": "DOKUNMA",
+          "hint": "Yüklü bir cismin yüksüz bir cisme yük aktarmasıyla elektriklenme."
+        },
+        {
+          "word": "İNDÜKSİYON",
+          "hint": "Yüklü bir cisim yaklaştırılarak cismin yüklü hale gelmesi."
+        },
+        {
+          "word": "COULOMB",
+          "hint": "Elektrik yük birimi ve iki yük arasındaki kuvveti açıklayan yasa."
+        },
+        {
+          "word": "ELEKTROSKOP",
+          "hint": "Bir cismin yüklü olup olmadığını veya yük cinsini anlamaya yarayan alet."
+        },
+        {
+          "word": "TOPRAKLAMA",
+          "hint": "Fazla elektrik yükünü güvenli bir şekilde yere aktarma."
+        },
+        {
+          "word": "YILDIRIM",
+          "hint": "Gök gürültüsü ve şimşekle birlikte gerçekleşen büyük elektrik boşalması."
+        },
+        {
+          "word": "PARATONER",
+          "hint": "Binaları yıldırım düşmesinden koruyan metal çubuk."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir yükün çevresinde başka yükler üzerinde etki gösterdiği bölge."
+        },
+        {
+          "word": "POTANSİYEL",
+          "hint": "Birim yüke düşen elektriksel enerji miktarı."
+        },
+        {
+          "word": "GERİLİM",
+          "hint": "İki nokta arasındaki elektriksel potansiyel farkı."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Cisimlerin birbirini çekme veya itme etkisi."
+        },
+        {
+          "word": "ÇEKME",
+          "hint": "Farklı yüklü cisimlerin birbirine yaklaşması."
+        },
+        {
+          "word": "İTME",
+          "hint": "Aynı yüklü cisimlerin birbirinden uzaklaşması."
+        },
+        {
+          "word": "KORUNUM",
+          "hint": "Evrendeki toplam elektrik yükünün sabit kalması ilkesi."
+        },
+        {
+          "word": "STATİK",
+          "hint": "Hareket etmeyen, durağan elektrik yükleri."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Bir maddenin birim hacminin kütlesi."
+        }
+      ]
     }
   ]
 }

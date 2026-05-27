@@ -2,10 +2,9 @@
   "units": [
     {
       "id": "edebiyat_u1",
-      "name": "1. Ünite: Divan Edebiyatı",
+      "name": "1. Ünite: Giriş ve Hikaye",
       "months": [
-        9,
-        10
+        9
       ],
       "words": [
         {
@@ -33,15 +32,15 @@
           "hint": "Aşk, şarap gibi konuları işleyen, 5-10 beyitten oluşan nazım biçimi."
         },
         {
-          "word": "KASİ̇DE",
+          "word": "KASİDE",
           "hint": "Övgü veya eleştiri amacıyla yazılan, daha çok devlet büyüklerini övmek için kullanılan nazım biçimi."
         },
         {
-          "word": "MESNEVİ̇",
+          "word": "MESNEVİ",
           "hint": "Her beyitin kendi arasında kafiyeli olduğu, uzun soluklu hikayeler anlatmak için kullanılan nazım biçimi."
         },
         {
-          "word": "RUBATİ̇",
+          "word": "RUBATİ",
           "hint": "Dört dizeden oluşan, genellikle felsefi düşünceleri işleyen nazım biçimi."
         },
         {
@@ -49,11 +48,11 @@
           "hint": "Anonim halk edebiyatından Divan edebiyatına geçen dörtlük nazım biçimi."
         },
         {
-          "word": "TERKİ̇B-İ̇ BEND",
+          "word": "TERKİB-İ BEND",
           "hint": "Bentlerle kurulan, bentlerin kendi içinde kafiyeli olduğu, farklı konularda yazılabilen nazım biçimi."
         },
         {
-          "word": "TERİ̇F-İ̇ BEND",
+          "word": "TERİF-İ BEND",
           "hint": "Terkiib-i bendin bir türü, bendler arasındaki bağlantının nakaratla sağlandığı nazım biçimi."
         },
         {
@@ -73,15 +72,15 @@
           "hint": "Hz. Muhammed'i övmek amacıyla yazılan eser."
         },
         {
-          "word": "METİ̇H",
+          "word": "METİH",
           "hint": "Övme, yüceltme."
         },
         {
-          "word": "Hİ̇CV",
+          "word": "HİCV",
           "hint": "Yerme, eleştirme."
         },
         {
-          "word": "TEZAKİ̇R",
+          "word": "TEZAKİR",
           "hint": "Genellikle olayları anlatan, anı niteliği taşıyan eser türü."
         },
         {
@@ -89,7 +88,7 @@
           "hint": "Yolculukları anlatan eser."
         },
         {
-          "word": "TEZKİ̇RE",
+          "word": "TEZKİRE",
           "hint": "Divan şairlerini tanıtan, eserlerinden örnekler veren eser."
         },
         {
@@ -97,7 +96,7 @@
           "hint": "Suret, tasvir."
         },
         {
-          "word": "SAHİ̇B-İ̇ Dİ̇VAN",
+          "word": "SAHİB-İ DİVAN",
           "hint": "Birden fazla divan oluşturan şair."
         },
         {
@@ -105,11 +104,11 @@
           "hint": "Kitapların toplandığı yer."
         },
         {
-          "word": "MÜELLİ̇F",
+          "word": "MÜELLİF",
           "hint": "Yazar."
         },
         {
-          "word": "MÜTERCİ̇M",
+          "word": "MÜTERCİM",
           "hint": "Çevirmen."
         },
         {
@@ -117,35 +116,35 @@
           "hint": "Bir metnin açıklanması."
         },
         {
-          "word": "HAŞİ̇YE",
+          "word": "HAŞİYE",
           "hint": "Dipnot, açıklama."
         },
         {
-          "word": "TALİ̇K",
+          "word": "TALİK",
           "hint": "Divan edebiyatında görülen güzel yazı sanatı."
         },
         {
-          "word": "NEŞİ̇R",
+          "word": "NEŞİR",
           "hint": "Yayma, dağıtma."
         },
         {
-          "word": "Rİ̇SALE",
+          "word": "RİSALE",
           "hint": "Küçük eser, inceleme yazısı."
         },
         {
-          "word": "SEBK-İ̇ Hİ̇NDİ̇",
+          "word": "SEBK-İ HİNDİ",
           "hint": "Divan edebiyatında bir akım, ağır ve süslü dil."
         },
         {
-          "word": "SEBK-İ̇ HORASANİ̇",
+          "word": "SEBK-İ HORASANİ",
           "hint": "Divan edebiyatında bir akım, sade ve anlaşılır dil."
         },
         {
-          "word": "GÜZİ̇DE",
+          "word": "GÜZİDE",
           "hint": "Seçkin, beğenilmiş."
         },
         {
-          "word": "İ̇LM-İ̇ HAL",
+          "word": "İLM-İ HAL",
           "hint": "Dini bilgileri içeren eser türü."
         },
         {
@@ -185,7 +184,7 @@
           "hint": "Gizli, özel."
         },
         {
-          "word": "KEYFİ̇YET",
+          "word": "KEYFİYET",
           "hint": "Nitelik, özellik."
         },
         {
@@ -205,7 +204,7 @@
           "hint": "Lale bahçesi."
         },
         {
-          "word": "GÜLİ̇STAN",
+          "word": "GÜLİSTAN",
           "hint": "Gül bahçesi."
         },
         {
@@ -221,17 +220,17 @@
           "hint": "Meclis, toplantı, eğlence yeri."
         },
         {
-          "word": "CAZİ̇BE",
+          "word": "CAZİBE",
           "hint": "Çekicilik, albeni."
         }
       ]
     },
     {
       "id": "edebiyat_u2",
-      "name": "2. Ünite: Halk Edebiyatı",
+      "name": "2. Ünite: Şiir",
       "months": [
-        11,
-        12
+        10,
+        11
       ],
       "words": [
         {
@@ -267,7 +266,7 @@
           "hint": "Halk şiiri söyleyen, saz çalan sanatçı."
         },
         {
-          "word": "HALK MASALİ",
+          "word": "HALK MASALI",
           "hint": "Kuşaktan kuşağa aktarılan, olağanüstü ögeler içerebilen anlatı."
         },
         {
@@ -275,7 +274,7 @@
           "hint": "Evliya veya din büyüklerinin başından geçen olağanüstü olayları anlatan hikaye."
         },
         {
-          "word": "Kİ̇T'ABE",
+          "word": "KİTABE",
           "hint": "Genellikle cami kapıları gibi yerlerde bulunan, şiir veya dua şeklinde yazılmış yazı."
         },
         {
@@ -283,19 +282,19 @@
           "hint": "Kelime anlamlarını açıklayan eser, sözlük."
         },
         {
-          "word": "MAHALLİ̇",
+          "word": "MAHALLİ",
           "hint": "Belirli bir yere, bölgeye ait olan."
         },
         {
-          "word": "ESKİ̇ TÜRKÜ",
+          "word": "ESKİ TÜRKÜ",
           "hint": "Geçmişten günümüze ulaşan, duygusal veya anlatısal ezgili söz."
         },
         {
-          "word": "EPİ̇K",
+          "word": "EPİK",
           "hint": "Kahramanlık veya büyük olayları konu alan edebi tür."
         },
         {
-          "word": "Lİ̇Rİ̇K",
+          "word": "LİRİK",
           "hint": "Duyguları, sevinci veya üzüntüyü dile getiren edebi tür."
         },
         {
@@ -311,7 +310,7 @@
           "hint": "Bir eserin kopyası, örneği."
         },
         {
-          "word": "İ̇NCİ̇",
+          "word": "İNCİ",
           "hint": "Değerli, parlak süs eşyası; aynı zamanda güzel söz anlamında da kullanılır."
         },
         {
@@ -327,11 +326,11 @@
           "hint": "Güzel yazı sanatı."
         },
         {
-          "word": "TENKİ̇T",
+          "word": "TENKİT",
           "hint": "Bir eseri inceleyip değerlendirme, eleştiri."
         },
         {
-          "word": "HAZİRLAYİCİ",
+          "word": "HAZIRLAYICI",
           "hint": "Bir sonraki aşama veya durum için önceden yapılan hazırlık."
         },
         {
@@ -339,11 +338,11 @@
           "hint": "Bir toplulukta nesilden nesile aktarılan alışkanlık, adet."
         },
         {
-          "word": "Mİ̇RAS",
+          "word": "MİRAS",
           "hint": "Geçmişten bugüne kalan kültürel veya maddi değerler."
         },
         {
-          "word": "ANLATİCİ",
+          "word": "ANLATICI",
           "hint": "Hikaye, masal veya destan gibi öyküleri aktaran kişi."
         },
         {
@@ -359,11 +358,11 @@
           "hint": "Farklı kaynaklardan bilgi veya eseri bir araya getirme."
         },
         {
-          "word": "Kİ̇TAPLİK",
+          "word": "KİTAPLIK",
           "hint": "Kitapların konulduğu yer veya eser."
         },
         {
-          "word": "İ̇CAZETNAME",
+          "word": "İCAZETNAME",
           "hint": "Sanatçıya belirli bir geleneği sürdürme yetkisi veren belge."
         },
         {
@@ -375,39 +374,39 @@
           "hint": "Bir fikri veya kavramı temsil eden işaret."
         },
         {
-          "word": "YEDİ̇Lİ̇",
+          "word": "YEDİLİ",
           "hint": "Halk edebiyatında sekizli ölçüye karşılık gelen bir nazım ölçüsü türü."
         },
         {
-          "word": "BEYİ̇T",
+          "word": "BEYİT",
           "hint": "İki mısradan oluşan nazım birimi."
         },
         {
-          "word": "Rİ̇TMİ̇K",
+          "word": "RİTMİK",
           "hint": "Belirli bir düzeni ve akışı olan, ahenkli."
         },
         {
-          "word": "EDEBİ̇ SANAT",
+          "word": "EDEBİ SANAT",
           "hint": "Dilin etkili ve güzel kullanılmasını sağlayan yollar."
         },
         {
-          "word": "RETORİ̇K",
+          "word": "RETORİK",
           "hint": "Etkili konuşma veya yazma sanatı."
         },
         {
-          "word": "METİ̇N",
+          "word": "METİN",
           "hint": "Yazılı veya sözlü anlatım bütünü."
         },
         {
-          "word": "BAŞLANGİÇ",
+          "word": "BAŞLANGIÇ",
           "hint": "Bir şeyin ilk başladığı yer veya zaman."
         },
         {
-          "word": "YAZİLİŞ",
+          "word": "YAZILIŞ",
           "hint": "Bir kelimenin veya eserin harflerle ifade edilmesi."
         },
         {
-          "word": "ANLATİM",
+          "word": "ANLATIM",
           "hint": "Düşünce, duygu veya olayı sözle veya yazıyla ifade etme biçimi."
         },
         {
@@ -423,7 +422,7 @@
           "hint": "Bir eserin ana fikri veya konusu."
         },
         {
-          "word": "KİSA Hİ̇KAYE",
+          "word": "KISA HİKAYE",
           "hint": "Az sözcükle okuyucuyu etkilemeyi amaçlayan anlatı türü."
         },
         {
@@ -438,37 +437,3690 @@
     },
     {
       "id": "edebiyat_u3",
-      "name": "3. Ünite: Şiir Bilgisi ve Nazım Biçimleri",
+      "name": "3. Ünite: Destan/Efsane",
+      "months": [
+        12
+      ],
+      "words": [
+        {
+          "word": "HECE",
+          "hint": "Bir solukta çıkarılan ses veya ses topluluğu."
+        },
+        {
+          "word": "KAFİYE",
+          "hint": "Mısra sonlarında tekrar eden ses benzerliği."
+        },
+        {
+          "word": "REDİF",
+          "hint": "Kafiyeden sonra gelen aynı kelime veya eklerin tekrarı."
+        },
+        {
+          "word": "VURGU",
+          "hint": "Bir kelimedeki bir hecenin diğerlerinden daha güçlü söylenmesi."
+        },
+        {
+          "word": "RİTİM",
+          "hint": "Şiirdeki ses akışının düzenli tekrarı."
+        },
+        {
+          "word": "MISRA",
+          "hint": "Şiiri oluşturan tek satır."
+        },
+        {
+          "word": "DİZE",
+          "hint": "Mısra ile aynı anlama gelen başka bir kelime."
+        },
+        {
+          "word": "BENİ",
+          "hint": "Dört dizelik nazım birimi."
+        },
+        {
+          "word": "KIT'A",
+          "hint": "Genellikle dört mısradan oluşan nazım birimi."
+        },
+        {
+          "word": "BENT",
+          "hint": "Bir nazım biçiminin bölümü, kıtadan büyük olabilir."
+        },
+        {
+          "word": "NAZIM",
+          "hint": "Ölçü ve uyakla yazılmış söz."
+        },
+        {
+          "word": "NESİR",
+          "hint": "Ölçü ve uyak gözetilmeksizin yazılmış söz."
+        },
+        {
+          "word": "NAZIM BİÇİMİ",
+          "hint": "Şiirin genel yapısı, dize sayısı, uyak düzeni gibi özellikler."
+        },
+        {
+          "word": "VEZİN",
+          "hint": "Şiirde ölçü, aruz veya hece ölçüsü gibi."
+        },
+        {
+          "word": "ARUZ",
+          "hint": "Arap ve Fars edebiyatından alınan, hecelerin uzunluk ve kısalıklarına dayalı ölçü."
+        },
+        {
+          "word": "HECE ÖLÇÜSÜ",
+          "hint": "Türk şiirinde yaygın olarak kullanılan, hece sayısına dayalı ölçü."
+        },
+        {
+          "word": "UYAK",
+          "hint": "Kafiye ile eş anlamlı."
+        },
+        {
+          "word": "TAM KAFİYE",
+          "hint": "Hem ünlü hem de ünsüz harflerin benzediği kafiye türü."
+        },
+        {
+          "word": "YARIM KAFİYE",
+          "hint": "Tek bir ses benzerliğine dayanan kafiye türü."
+        },
+        {
+          "word": "CİNASLI UYAK",
+          "hint": "Yazılışı ve okunuşu aynı, anlamları farklı kelimelerle yapılan uyak."
+        },
+        {
+          "word": "EDAT",
+          "hint": "Tek başına anlamı olmayan, cümledeki kelimeleri birbirine bağlayan kelime türü (bağlaçtan farklı)."
+        },
+        {
+          "word": "ZARF",
+          "hint": "Fiilleri, fiilimsileri, sıfatları veya kendi türünden kelimeleri niteleyen kelime türü."
+        },
+        {
+          "word": "SIFAT",
+          "hint": "İsimleri niteleyen veya belirten kelime türü."
+        },
+        {
+          "word": "ZAMİR",
+          "hint": "İsimlerin yerine kullanılan kelime türü."
+        },
+        {
+          "word": "EDİLGEN ÇATI",
+          "hint": "Yüklemin bildirdiği eylemin özne tarafından yapılmadığı fiil çatıları."
+        },
+        {
+          "word": "ETKEN ÇATI",
+          "hint": "Yüklemin bildirdiği eylemin özne tarafından yapıldığı fiil çatıları."
+        },
+        {
+          "word": "İMGELİ ANLAM",
+          "hint": "Bir kelimenin akla getirdiği soyut, mecazi anlamlar."
+        },
+        {
+          "word": "MECAZ",
+          "hint": "Gerçek anlamından uzaklaşarak kazandığı yeni anlam."
+        },
+        {
+          "word": "BENZETME",
+          "hint": "İki farklı varlık veya kavram arasında ilgi kurarak anlatma sanatı."
+        },
+        {
+          "word": "KİŞİLEŞTİRME",
+          "hint": "İnsan dışı varlıklara insani özellikler yükleme sanatı (teşhis)."
+        },
+        {
+          "word": "KONUŞTURMA",
+          "hint": "İnsan dışı varlıkları konuşturma sanatı (intak)."
+        },
+        {
+          "word": "ABARTMA",
+          "hint": "Bir olayı veya durumu olduğundan daha fazla veya az gösterme sanatı (mübalağa)."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Şiirlerde sıkça işlenen, heyecan, coşku, üzüntü gibi içsel durumlar."
+        },
+        {
+          "word": "TEMA",
+          "hint": "Şiirin ana fikri, üzerinde yoğunlaşılan konu."
+        },
+        {
+          "word": "MOTİF",
+          "hint": "Şiirde tekrar eden, sembolik anlam taşıyan öge veya tema."
+        },
+        {
+          "word": "DESTANSI",
+          "hint": "Kahramanlık olaylarını anlatan, epik nitelikte."
+        },
+        {
+          "word": "LİRİK",
+          "hint": "Duygusal yoğunluğu yüksek, coşkulu şiir türü."
+        },
+        {
+          "word": "SONE",
+          "hint": "On dört dizelik, belirli uyak düzeni olan Batı kökenli nazım biçimi."
+        },
+        {
+          "word": "TERZA RİMA",
+          "hint": "Üçer dizelik bentlerden oluşan, Dante'nin kullandığı nazım biçimi."
+        },
+        {
+          "word": "HALK NAZMI",
+          "hint": "Anonim veya tekke edebiyatına ait, hece ölçüsüyle yazılan nazım biçimleri (mani, koşma vb.)."
+        },
+        {
+          "word": "DİVAN NAZMI",
+          "hint": "Arap ve Fars edebiyatı etkisinde, aruz ölçüsüyle yazılan nazım biçimleri (gazel, kaside vb.)."
+        },
+        {
+          "word": "GAZEL",
+          "hint": "Genellikle aşk, güzellik gibi konuları işleyen, beyitlerden oluşan Divan edebiyatı nazım biçimi."
+        },
+        {
+          "word": "KASİDE",
+          "hint": "Övgü, yergi, dinî konuları işleyen, beyitlerden oluşan Divan edebiyatı nazım biçimi."
+        },
+        {
+          "word": "MANİ",
+          "hint": "Genellikle yedi heceli, dörtlükten oluşan halk edebiyatı nazım biçimi."
+        },
+        {
+          "word": "KOŞMA",
+          "hint": "Genellikle on bir heceli, dörtlükten oluşan halk edebiyatı nazım biçimi."
+        },
+        {
+          "word": "SEMAİ",
+          "hint": "Genellikle sekizli hece ölçüsüyle yazılan, koşmaya benzeyen halk edebiyatı nazım biçimi."
+        },
+        {
+          "word": "DESTAN",
+          "hint": "Milletlerin geçmişindeki önemli olayları anlatan uzun şiirler."
+        },
+        {
+          "word": "SÖYLEYİŞ",
+          "hint": "Bir şairin kendine özgü kelime seçimi, cümle yapısı ve anlatım biçimi."
+        },
+        {
+          "word": "TEMAŞA",
+          "hint": "Seyir zevki veren, etkileyici anlatım."
+        },
+        {
+          "word": "İRSAL-İ MESEL",
+          "hint": "Şiirde atasözü veya vecize kullanma sanatı."
+        },
+        {
+          "word": "TEZAT",
+          "hint": "Birbirine zıt kavram veya durumları bir arada kullanma sanatı."
+        }
+      ]
+    },
+    {
+      "id": "edebiyat_u4",
+      "name": "4. Ünite: Roman",
       "months": [
         1,
         2
       ],
-      "words": []
-    },
-    {
-      "id": "edebiyat_u4",
-      "name": "4. Ünite: Masal, Fabl ve Destan",
-      "months": [
-        3
-      ],
-      "words": []
+      "words": [
+        {
+          "word": "ARKETİP",
+          "hint": "Herkesin zihninde bulunan ilkel kalıp."
+        },
+        {
+          "word": "MOTİF",
+          "hint": "Bir eserde tekrar eden sembol veya tema."
+        },
+        {
+          "word": "FOLKLOR",
+          "hint": "Bir topluluğun sözlü ve yazılı gelenekleri."
+        },
+        {
+          "word": "KOLEKTİF",
+          "hint": "Bir gruba ait, ortak."
+        },
+        {
+          "word": "MİTOLOJİ",
+          "hint": "Tanrıların, kahramanların ve doğaüstü varlıkların öyküleri."
+        },
+        {
+          "word": "EPİK",
+          "hint": "Kahramanlık ve savaşları anlatan uzun şiir."
+        },
+        {
+          "word": "PROTO",
+          "hint": "İlk, öncü anlamına gelen ön ek."
+        },
+        {
+          "word": "YÜCELTME",
+          "hint": "Birini veya bir şeyi aşırı yüceltme."
+        },
+        {
+          "word": "KRONOLOJİ",
+          "hint": "Olayların oluş sırasına göre dizilişi."
+        },
+        {
+          "word": "SİMGESEL",
+          "hint": "Bir anlamı başka bir şeyle ifade eden."
+        },
+        {
+          "word": "HİKMET",
+          "hint": "Bilgelik, derin anlam."
+        },
+        {
+          "word": "KOZMOGONİ",
+          "hint": "Evrenin oluşumunu anlatan mit."
+        },
+        {
+          "word": "ANTEPO",
+          "hint": "Önce, öncelikli anlamına gelen kelime."
+        },
+        {
+          "word": "EVRENSEL",
+          "hint": "Tüm dünyayı ilgilendiren."
+        },
+        {
+          "word": "ANLATIM",
+          "hint": "Bir olayı veya durumu dile getirme."
+        },
+        {
+          "word": "MECRA",
+          "hint": "Bir şeyin akış yolu, yönü."
+        },
+        {
+          "word": "DEĞİŞKEN",
+          "hint": "Durumu veya niteliği değişebilen."
+        },
+        {
+          "word": "OLUŞUM",
+          "hint": "Bir şeyin meydana gelme süreci."
+        },
+        {
+          "word": "SÖZEL",
+          "hint": "Dil ile ilgili, konuşmaya dayalı."
+        },
+        {
+          "word": "YAZINSAL",
+          "hint": "Edebiyatla ilgili."
+        },
+        {
+          "word": "BAĞLAM",
+          "hint": "Bir sözcüğün veya cümlenin geçtiği yer."
+        },
+        {
+          "word": "SEMANTİK",
+          "hint": "Anlam bilimi."
+        },
+        {
+          "word": "ETYMOLOJİ",
+          "hint": "Kelime köken bilimi."
+        },
+        {
+          "word": "SÖZLÜK",
+          "hint": "Kelimelerin anlamlarını içeren kitap."
+        },
+        {
+          "word": "YAZILI",
+          "hint": "Harflerle ifade edilen."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Bir olayın veya kişinin bulunduğu hal."
+        },
+        {
+          "word": "NİTELİK",
+          "hint": "Bir şeyin özgü belirgin özelliği."
+        },
+        {
+          "word": "KARAKTER",
+          "hint": "Bir eserdeki kişi."
+        },
+        {
+          "word": "ROL",
+          "hint": "Bir karakterin üstlendiği görev."
+        },
+        {
+          "word": "DİYALOG",
+          "hint": "İki veya daha fazla kişinin konuşması."
+        },
+        {
+          "word": "MONOLOG",
+          "hint": "Tek kişinin kendi kendine konuşması."
+        },
+        {
+          "word": "BAŞLANGIÇ",
+          "hint": "Bir şeyin ilk noktası."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir olayın bittiği nokta."
+        },
+        {
+          "word": "GELİŞME",
+          "hint": "Bir olayın ilerleme evresi."
+        },
+        {
+          "word": "DÖNÜM",
+          "hint": "Önemli bir değişiklik noktası."
+        },
+        {
+          "word": "ZİRVЕ",
+          "hint": "Bir şeyin en üst noktası."
+        },
+        {
+          "word": "ÇEKİRDEK",
+          "hint": "Bir şeyin en önemli, temel kısmı."
+        },
+        {
+          "word": "HURDA",
+          "hint": "Kullanılamayacak kadar eski eşya."
+        },
+        {
+          "word": "KOSTÜM",
+          "hint": "Sahne veya film için giysi."
+        },
+        {
+          "word": "SAHNE",
+          "hint": "Tiyatro oyunu veya filmin bir bölümü."
+        },
+        {
+          "word": "PERDE",
+          "hint": "Tiyatronun bölümlerinden biri."
+        },
+        {
+          "word": "ORKESTRA",
+          "hint": "Müzik aletlerini çalan topluluk."
+        },
+        {
+          "word": "KORO",
+          "hint": "Şarkı söyleyen topluluk."
+        },
+        {
+          "word": "VOKAL",
+          "hint": "Şarkı söyleme ile ilgili."
+        },
+        {
+          "word": "MELODİ",
+          "hint": "Müzikte ezgi."
+        },
+        {
+          "word": "RİTİM",
+          "hint": "Müzikte düzenli vuruş."
+        },
+        {
+          "word": "ARMONİ",
+          "hint": "Müzikte seslerin uyumu."
+        },
+        {
+          "word": "SOYUT",
+          "hint": "Somut olmayan, zihinde olan."
+        },
+        {
+          "word": "SOMUT",
+          "hint": "Dokunulabilen, görülebilen."
+        },
+        {
+          "word": "LİRİK",
+          "hint": "Duygu ve düşünceleri anlatan şiir türü."
+        }
+      ]
     },
     {
       "id": "edebiyat_u5",
-      "name": "5. Ünite: Tiyatro ve Roman",
+      "name": "5. Ünite: Tiyatro",
       "months": [
-        4,
-        5
+        3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "PERDE",
+          "hint": "Tiyatronun olmazsa olmazı, sahneyi örten örtü."
+        },
+        {
+          "word": "SİNİ",
+          "hint": "Sahneye çıkanların rol gereği kullandığı araç."
+        },
+        {
+          "word": "DİYALOG",
+          "hint": "İki veya daha fazla kişinin konuşması."
+        },
+        {
+          "word": "MONOLOG",
+          "hint": "Bir kişinin kendi kendine veya seyirciye konuşması."
+        },
+        {
+          "word": "SAHNE",
+          "hint": "Tiyatro eserinin oynandığı yer."
+        },
+        {
+          "word": "REJİ",
+          "hint": "Oyunun baştan sona yönetilmesi."
+        },
+        {
+          "word": "DRAM",
+          "hint": "Genellikle acıklı olayları konu alan tiyatro türü."
+        },
+        {
+          "word": "KOMEDİ",
+          "hint": "Gülünç olayları konu alan tiyatro türü."
+        },
+        {
+          "word": "TRAJEDİ",
+          "hint": "Acıklı sonla biten tiyatro eseri."
+        },
+        {
+          "word": "FELEK",
+          "hint": "Tiyatro eserlerinde kader, şans."
+        },
+        {
+          "word": "ARKA PLAN",
+          "hint": "Sahnenin arkasında görünen dekor."
+        },
+        {
+          "word": "DEKOR",
+          "hint": "Sahnenin döşenmesinde kullanılan eşyalar."
+        },
+        {
+          "word": "KOSTÜM",
+          "hint": "Oyuncuların rol gereği giydiği kıyafet."
+        },
+        {
+          "word": "MAKYAJ",
+          "hint": "Oyuncuların yüzüne uyguladığı renkli maddeler."
+        },
+        {
+          "word": "ESPRİ",
+          "hint": "Güldürmeyi amaçlayan söz."
+        },
+        {
+          "word": "BİR PERDE",
+          "hint": "Tiyatro eserinin bir bölümü."
+        },
+        {
+          "word": "GİRİŞ",
+          "hint": "Oyunun başlangıcı, tanıtım kısmı."
+        },
+        {
+          "word": "GELİŞME",
+          "hint": "Oyunun olay örgüsünün ilerlediği bölüm."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Oyunun bittiği, olayın çözüldüğü bölüm."
+        },
+        {
+          "word": "KISSADAN HİSSE",
+          "hint": "Öğüt veren, ders çıkaran sonuç."
+        },
+        {
+          "word": "DURUŞMA",
+          "hint": "Mahkemede yapılan inceleme, tiyatroda sahnelenen."
+        },
+        {
+          "word": "KAHRAMAN",
+          "hint": "Oyunun veya romanın ana kişisi."
+        },
+        {
+          "word": "YAN KARAKTER",
+          "hint": "Ana karakter dışında oyundaki kişi."
+        },
+        {
+          "word": "ANTAGONİST",
+          "hint": "Ana karakterin karşıtı, düşmanı."
+        },
+        {
+          "word": "PROTAGONİST",
+          "hint": "Oyunun veya romanın başrol oyuncusu."
+        },
+        {
+          "word": "KİTAPLIK",
+          "hint": "Romanların saklandığı yer."
+        },
+        {
+          "word": "SAYFA",
+          "hint": "Kitabın her bir yüzü."
+        },
+        {
+          "word": "BÖLÜM",
+          "hint": "Romanın ana başlıklarından biri."
+        },
+        {
+          "word": "KİSİM",
+          "hint": "Romanın daha küçük parçası."
+        },
+        {
+          "word": "BİTİŞ",
+          "hint": "Romanın sonu."
+        },
+        {
+          "word": "ÖNSÖZ",
+          "hint": "Kitaptan önce yazılan giriş yazısı."
+        },
+        {
+          "word": "SONSÖZ",
+          "hint": "Kitaptan sonra yazılan yazı."
+        },
+        {
+          "word": "İÇİNDEKİLER",
+          "hint": "Kitaptaki konu ve sayfa numaraları."
+        },
+        {
+          "word": "GİRİŞ BÖLÜMÜ",
+          "hint": "Romanın ilk anlatılan kısmı."
+        },
+        {
+          "word": "OLAY ÖRGÜSÜ",
+          "hint": "Romanın ilerleyişini sağlayan zincir."
+        },
+        {
+          "word": "MEKAN",
+          "hint": "Romanın geçtiği yer."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Romanın yaşandığı dönem."
+        },
+        {
+          "word": "ANLATICI",
+          "hint": "Romanı anlatan kişi."
+        },
+        {
+          "word": "BAKIŞ AÇISI",
+          "hint": "Anlatıcının olaya bakışı."
+        },
+        {
+          "word": "BİRİNCİ KİŞİ",
+          "hint": "Anlatıcının 'ben' dediği bakış açısı."
+        },
+        {
+          "word": "ÜÇÜNCÜ KİŞİ",
+          "hint": "Anlatıcının 'o' dediği bakış açısı."
+        },
+        {
+          "word": "TASVİR",
+          "hint": "Bir yerin veya kişinin özelliklerini anlatma."
+        },
+        {
+          "word": "BETİMLEME",
+          "hint": "Detaylı olarak anlatım, resim çizme gibi."
+        },
+        {
+          "word": "ANLATIM TEKNİĞİ",
+          "hint": "Romanı yazma biçimi."
+        },
+        {
+          "word": "İMA ETMEK",
+          "hint": "Açıkça söylemeden anlatmak."
+        },
+        {
+          "word": "İLETİŞİM",
+          "hint": "Kişiler arası bağ."
+        },
+        {
+          "word": "İNSAN",
+          "hint": "Herhangi bir hikayenin öznesi."
+        },
+        {
+          "word": "YAZAR",
+          "hint": "Eseri meydana getiren kişi."
+        },
+        {
+          "word": "KİTAP",
+          "hint": "Okunan eser."
+        },
+        {
+          "word": "SOHBET",
+          "hint": "Karşılıklı konuşma."
+        },
+        {
+          "word": "PERFORMATİF",
+          "hint": "Gösteri amaçlı."
+        },
+        {
+          "word": "YORUMCU",
+          "hint": "Bir eseri açıklayan."
+        },
+        {
+          "word": "TARTIŞMA",
+          "hint": "Fikir alışverişi."
+        },
+        {
+          "word": "MEKTUP",
+          "hint": "Yazılı iletişim aracı."
+        },
+        {
+          "word": "GAZETE",
+          "hint": "Güncel olayları veren yayın."
+        },
+        {
+          "word": "DERGİ",
+          "hint": "Belirli konularda yayın."
+        },
+        {
+          "word": "HABER",
+          "hint": "Duyurulan olay."
+        },
+        {
+          "word": "SANAT",
+          "hint": "İnsanın yaratıcılığını ifade etmesi."
+        },
+        {
+          "word": "ESTETİK",
+          "hint": "Güzellik bilimi."
+        },
+        {
+          "word": "KAVRAM",
+          "hint": "Soyut fikir."
+        },
+        {
+          "word": "DEĞERLENDİRME",
+          "hint": "Bir şeyin önemini ölçme."
+        },
+        {
+          "word": "KİTLE İLETİŞİMİ",
+          "hint": "Çok kişiye aynı anda ulaşma."
+        },
+        {
+          "word": "İÇERİK",
+          "hint": "Bir eserin konusu."
+        },
+        {
+          "word": "ANLAM",
+          "hint": "Bir kelimenin veya cümlenin manası."
+        },
+        {
+          "word": "METİN",
+          "hint": "Yazılı veya sözlü anlatım."
+        },
+        {
+          "word": "TEMA",
+          "hint": "Eserin ana fikri."
+        },
+        {
+          "word": "MOTİF",
+          "hint": "Tekrarlanan sembol."
+        },
+        {
+          "word": "VİCDAN",
+          "hint": "İç ses, doğruluk duygusu."
+        },
+        {
+          "word": "RUH HALİ",
+          "hint": "Duygusal durum."
+        },
+        {
+          "word": "MİZAÇ",
+          "hint": "Kişinin genel eğilimi."
+        },
+        {
+          "word": "FAYDA",
+          "hint": "Yarar, yararlılık."
+        },
+        {
+          "word": "EYLEM",
+          "hint": "Hareket, iş."
+        },
+        {
+          "word": "KAİDE",
+          "hint": "Kural."
+        },
+        {
+          "word": "GENELLİK",
+          "hint": "Herkeste olan durum."
+        },
+        {
+          "word": "ÖZGÜNLÜK",
+          "hint": "Eşsizlik."
+        },
+        {
+          "word": "ÇATIŞMA",
+          "hint": "Uyuşmazlık, kavga."
+        },
+        {
+          "word": "GERİLİM",
+          "hint": "Olayların heyecanlı ilerleyişi."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Sorunun halledilmesi."
+        },
+        {
+          "word": "GÖRGÜ",
+          "hint": "Yaşayarak öğrenme."
+        },
+        {
+          "word": "ÖĞÜT",
+          "hint": "Tavsiye."
+        },
+        {
+          "word": "KARAKTER",
+          "hint": "Kişi, şahsiyet."
+        },
+        {
+          "word": "MEŞGULİYET",
+          "hint": "İş, uğraş."
+        },
+        {
+          "word": "İLLÜZYON",
+          "hint": "Göz yanılması, yanılsama."
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Bir şeyi temsil eden işaret."
+        },
+        {
+          "word": "YANSIMA",
+          "hint": "Bir şeyin başka bir yüzeyde görünmesi, fikir."
+        },
+        {
+          "word": "İFADE",
+          "hint": "Duyguyu veya düşünceyi belirtme."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Hal, vaziyet."
+        },
+        {
+          "word": "ETKİ",
+          "hint": "Bir şeyin başka bir şey üzerindeki sonucu."
+        },
+        {
+          "word": "ORTAM",
+          "hint": "Çevre, koşullar."
+        },
+        {
+          "word": "TEMSİL",
+          "hint": "Bir şeyin yerine geçme."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Beraberlik."
+        },
+        {
+          "word": "BERABERLİK",
+          "hint": "Birlikte olma hali."
+        },
+        {
+          "word": "GÖRÜNTÜ",
+          "hint": "Görülen şey."
+        },
+        {
+          "word": "ANLATIM",
+          "hint": "Bir olayı veya düşünceyi sözle veya yazıyla bildirme."
+        },
+        {
+          "word": "DURUMSAL",
+          "hint": "O anki duruma göre değişen."
+        },
+        {
+          "word": "GÖSTERİ",
+          "hint": "Sahnelenen oyun veya performans."
+        },
+        {
+          "word": "KATİLİM",
+          "hint": "Bir şeye dahil olma."
+        },
+        {
+          "word": "TÖREN",
+          "hint": "Belirli bir olayı kutlamak için yapılan toplantı."
+        },
+        {
+          "word": "GÖREV",
+          "hint": "Yapılması gereken iş."
+        },
+        {
+          "word": "HEDEF",
+          "hint": "Ulaşılmak istenen amaç."
+        },
+        {
+          "word": "İNANÇ",
+          "hint": "Doğruluğu kabul edilen düşünce."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Önemlilik derecesi."
+        },
+        {
+          "word": "BECERİ",
+          "hint": "Bir işi yapabilme yeteneği."
+        },
+        {
+          "word": "YETENEK",
+          "hint": "Doğuştan gelen beceri."
+        },
+        {
+          "word": "ÇABA",
+          "hint": "Gayret, çalışma."
+        },
+        {
+          "word": "SİMGESEL",
+          "hint": "Sembollerle ilgili."
+        },
+        {
+          "word": "YÖNTEM",
+          "hint": "Bir işi yapma yolu."
+        },
+        {
+          "word": "ARAÇ",
+          "hint": "Bir işe yarayan nesne."
+        },
+        {
+          "word": "TASARIM",
+          "hint": "Bir şeyin planı, modeli."
+        },
+        {
+          "word": "ÇERÇEVE",
+          "hint": "Bir yapının sınırı."
+        },
+        {
+          "word": "BAĞLAM",
+          "hint": "İçinde bulunulan durum."
+        },
+        {
+          "word": "YAKLAŞIM",
+          "hint": "Bir konuya bakış açısı."
+        },
+        {
+          "word": "DEĞİŞİM",
+          "hint": "Farklılaşma."
+        },
+        {
+          "word": "SÜREÇ",
+          "hint": "Devam eden olaylar dizisi."
+        },
+        {
+          "word": "KOORDİNASYON",
+          "hint": "Eşgüdüm."
+        },
+        {
+          "word": "DENGELİ",
+          "hint": "Ağırlığı eşit."
+        },
+        {
+          "word": "UYUM",
+          "hint": "Ahenk."
+        },
+        {
+          "word": "ENTROPİ",
+          "hint": "Düzensizlik."
+        },
+        {
+          "word": "SİSTEM",
+          "hint": "Düzenli bütün."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "Kuvvet."
+        },
+        {
+          "word": "MADDE",
+          "hint": "Herhangi bir şey."
+        },
+        {
+          "word": "SİKLİK",
+          "hint": "Bir olayın kaç defa olduğu."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Miktarının fazla olması."
+        },
+        {
+          "word": "YAPISAL",
+          "hint": "Yapıyla ilgili."
+        },
+        {
+          "word": "İŞLEVSEL",
+          "hint": "İş gören."
+        },
+        {
+          "word": "FORM",
+          "hint": "Şekil."
+        },
+        {
+          "word": "MİSYON",
+          "hint": "Amaç, görev."
+        },
+        {
+          "word": "VİZYON",
+          "hint": "Geleceğe yönelik hedef."
+        },
+        {
+          "word": "STRATEJİ",
+          "hint": "Geniş plan."
+        },
+        {
+          "word": "TAKTİK",
+          "hint": "Küçük plan."
+        },
+        {
+          "word": "ANALİZ",
+          "hint": "Ayrıntılı inceleme."
+        },
+        {
+          "word": "SENTEZ",
+          "hint": "Bileştirme."
+        },
+        {
+          "word": "ORGANİZASYON",
+          "hint": "Kuruluş."
+        },
+        {
+          "word": "İNSİYAK",
+          "hint": "İçgüdü."
+        },
+        {
+          "word": "AKIL",
+          "hint": "Düşünme yetisi."
+        },
+        {
+          "word": "ZİHİN",
+          "hint": "Düşünen organ."
+        },
+        {
+          "word": "BİLİNÇ",
+          "hint": "Farkında olma."
+        },
+        {
+          "word": "DUYU",
+          "hint": "Algılama organı."
+        },
+        {
+          "word": "DENEYİM",
+          "hint": "Yaşantı."
+        },
+        {
+          "word": "ÖĞRENME",
+          "hint": "Bilgi edinme."
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "Öğrenilen şey."
+        },
+        {
+          "word": "BECERMEK",
+          "hint": "Yetenekli olmak."
+        },
+        {
+          "word": "MÜCADELE",
+          "hint": "Savaşım."
+        },
+        {
+          "word": "GERÇEKÇİ",
+          "hint": "Gerçeğe uygun."
+        },
+        {
+          "word": "REALİZM",
+          "hint": "Gerçekçilik akımı."
+        },
+        {
+          "word": "ROMANTİZM",
+          "hint": "Duygusal akım."
+        },
+        {
+          "word": "NATÜRALİZM",
+          "hint": "Doğalcı akım."
+        },
+        {
+          "word": "PİYES",
+          "hint": "Tiyatro oyunu."
+        },
+        {
+          "word": "BAŞLANGIÇ",
+          "hint": "İlk nokta."
+        },
+        {
+          "word": "DEVAM",
+          "hint": "Süreklilik."
+        },
+        {
+          "word": "ARA",
+          "hint": "Mola."
+        },
+        {
+          "word": "BİTİM",
+          "hint": "Son."
+        },
+        {
+          "word": "MUAZZAM",
+          "hint": "Çok büyük."
+        },
+        {
+          "word": "MÜKEMMEL",
+          "hint": "Kusursuz."
+        },
+        {
+          "word": "BASİT",
+          "hint": "Kolay, sade."
+        },
+        {
+          "word": "KARMAŞIK",
+          "hint": "Zor, karışık."
+        },
+        {
+          "word": "ETKİLEYİCİ",
+          "hint": "Tesir eden."
+        },
+        {
+          "word": "İLGİNÇ",
+          "hint": "Dikkat çekici."
+        },
+        {
+          "word": "ÖZGÜN",
+          "hint": "Eşsiz."
+        },
+        {
+          "word": "GELENEKSEL",
+          "hint": "Alışılmış."
+        },
+        {
+          "word": "YENİLİKÇİ",
+          "hint": "Yeni şeyler deneyen."
+        },
+        {
+          "word": "SANATÇI",
+          "hint": "Sanatla uğraşan kişi."
+        },
+        {
+          "word": "YÖNETMEN",
+          "hint": "Oyunu yöneten."
+        },
+        {
+          "word": "OYUNCU",
+          "hint": "Sahnedeki kişi."
+        },
+        {
+          "word": "SEYİRCİ",
+          "hint": "Oyunu izleyen."
+        },
+        {
+          "word": "EĞİTİMCİ",
+          "hint": "Öğreten kişi."
+        },
+        {
+          "word": "ÖĞRENCİ",
+          "hint": "Öğrenen kişi."
+        },
+        {
+          "word": "ŞAİR",
+          "hint": "Şiir yazan."
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "Yazılı sanat."
+        },
+        {
+          "word": "DİL",
+          "hint": "İletişim aracı."
+        },
+        {
+          "word": "ANLATIM BİÇİMİ",
+          "hint": "Yazı türü."
+        },
+        {
+          "word": "TARİH",
+          "hint": "Geçmiş zaman."
+        },
+        {
+          "word": "COĞRAFYA",
+          "hint": "Yeryüzü bilimi."
+        },
+        {
+          "word": "FELSEFE",
+          "hint": "Bilgelik bilgisi."
+        },
+        {
+          "word": "PSİKOLOJİ",
+          "hint": "Ruh bilimi."
+        },
+        {
+          "word": "SİSTEMATİK",
+          "hint": "Düzenli."
+        },
+        {
+          "word": "TEKRAR",
+          "hint": "Yeniden yapma."
+        },
+        {
+          "word": "ORTAK",
+          "hint": "Paylaşılan."
+        },
+        {
+          "word": "BİREYSEL",
+          "hint": "Kişiye özel."
+        },
+        {
+          "word": "KÜRESEL",
+          "hint": "Dünya çapında."
+        },
+        {
+          "word": "YEREL",
+          "hint": "Bölgesel."
+        },
+        {
+          "word": "BATI",
+          "hint": "Batı ülkeleri."
+        },
+        {
+          "word": "DOĞU",
+          "hint": "Doğu ülkeleri."
+        },
+        {
+          "word": "ESKİ",
+          "hint": "Kadim."
+        },
+        {
+          "word": "YENİ",
+          "hint": "Modern."
+        },
+        {
+          "word": "UYGARLIK",
+          "hint": "Medeniyet."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Manevi değerler."
+        },
+        {
+          "word": "MİTOLOJİ",
+          "hint": "Efsaneler."
+        },
+        {
+          "word": "FOLKLOR",
+          "hint": "Halk bilimi."
+        },
+        {
+          "word": "EFSANE",
+          "hint": "Gerçekliği şüpheli hikaye."
+        },
+        {
+          "word": "MASAL",
+          "hint": "Hayali hikaye."
+        },
+        {
+          "word": "DESTAN",
+          "hint": "Kahramanlık öyküsü."
+        },
+        {
+          "word": "MENKİBE",
+          "hint": "Evliya hikayesi."
+        },
+        {
+          "word": "HİKAYE",
+          "hint": "Kısa anlatı."
+        },
+        {
+          "word": "ROMAN",
+          "hint": "Uzun anlatı."
+        },
+        {
+          "word": "BİYOGRAFİ",
+          "hint": "Yaşam öyküsü."
+        },
+        {
+          "word": "OTOBİYOGRAFİ",
+          "hint": "Kendi yaşam öyküsü."
+        },
+        {
+          "word": "ANİ",
+          "hint": "Geçmişte yaşanmış olay."
+        },
+        {
+          "word": "GEZİ YAZISI",
+          "hint": "Seyahat anıları."
+        },
+        {
+          "word": "DENEME",
+          "hint": "Serbest yazı."
+        },
+        {
+          "word": "MAKALE",
+          "hint": "Bilgilendirici yazı."
+        },
+        {
+          "word": "ELEŞTİRİ",
+          "hint": "Bir eseri yorumlama."
+        },
+        {
+          "word": "GÜNLÜK",
+          "hint": "Her gün yazılan."
+        },
+        {
+          "word": "MECMUÂ",
+          "hint": "Dergü."
+        },
+        {
+          "word": "NEŞİR",
+          "hint": "Yayınlama."
+        },
+        {
+          "word": "YAYIN",
+          "hint": "Ortaya konulan eser."
+        },
+        {
+          "word": "SEMANTİK",
+          "hint": "Anlam bilimi."
+        },
+        {
+          "word": "SİNTAKS",
+          "hint": "Söz dizimi."
+        },
+        {
+          "word": "MORFOLOJİ",
+          "hint": "Biçim bilimi."
+        },
+        {
+          "word": "FONETİK",
+          "hint": "Ses bilimi."
+        },
+        {
+          "word": "EDAT",
+          "hint": "İlgeç."
+        },
+        {
+          "word": "BAĞLAÇ",
+          "hint": "Bağlayan sözcük."
+        },
+        {
+          "word": "ZARF",
+          "hint": "Fiili niteleyen."
+        },
+        {
+          "word": "SİFAT",
+          "hint": "İsmi niteleyen."
+        },
+        {
+          "word": "İSİM",
+          "hint": "Nesne adı."
+        },
+        {
+          "word": "FİİL",
+          "hint": "Eylem bildiren."
+        },
+        {
+          "word": "ZAMİR",
+          "hint": "İsim yerine kullanılan."
+        },
+        {
+          "word": "ÜNLÜ",
+          "hint": "Sesli harf."
+        },
+        {
+          "word": "ÜNSÜZ",
+          "hint": "Sessiz harf."
+        },
+        {
+          "word": "HECE",
+          "hint": "Ses birimi."
+        },
+        {
+          "word": "KELİME",
+          "hint": "Anlamlı birim."
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Anlamlı söz dizisi."
+        },
+        {
+          "word": "PARAGRAF",
+          "hint": "Metin bölümü."
+        },
+        {
+          "word": "YAPI",
+          "hint": "Oluşum."
+        },
+        {
+          "word": "ÖĞE",
+          "hint": "Bileşen."
+        },
+        {
+          "word": "BAŞARI",
+          "hint": "Zafer."
+        },
+        {
+          "word": "GAYRET",
+          "hint": "Çaba."
+        },
+        {
+          "word": "ÖZGÜVEN",
+          "hint": "Kendine inanma."
+        },
+        {
+          "word": "CESARET",
+          "hint": "Korkmama."
+        },
+        {
+          "word": "SABIR",
+          "hint": "Bekleyebilme."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Tahammül."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hakkaniyet."
+        },
+        {
+          "word": "MERHAMET",
+          "hint": "Acıma duygusu."
+        },
+        {
+          "word": "SAYGI",
+          "hint": "Hürmet."
+        },
+        {
+          "word": "SEVGİ",
+          "hint": "Aşk."
+        },
+        {
+          "word": "DOSTLUK",
+          "hint": "Arkadaşlık."
+        },
+        {
+          "word": "KARDEŞLİK",
+          "hint": "Akrabalık."
+        },
+        {
+          "word": "DAYANIŞMA",
+          "hint": "Yardımlaşma."
+        },
+        {
+          "word": "BİLİMLİ",
+          "hint": "İlim sahibi."
+        },
+        {
+          "word": "FARKINDALIK",
+          "hint": "Bilinçli olma."
+        },
+        {
+          "word": "DUYARLILIK",
+          "hint": "Hassasiyet."
+        },
+        {
+          "word": "ANLAYIŞ",
+          "hint": "Kavrayış."
+        },
+        {
+          "word": "SEZGİ",
+          "hint": "İçten gelen bilgi."
+        },
+        {
+          "word": "İLGİ",
+          "hint": "Alaka."
+        },
+        {
+          "word": "MERAK",
+          "hint": "Öğrenme isteği."
+        },
+        {
+          "word": "HEYECAN",
+          "hint": "Coşku."
+        },
+        {
+          "word": "SİMPATİ",
+          "hint": "Yakınlık duyma."
+        },
+        {
+          "word": "ANTİPATİ",
+          "hint": "Uzaklık duyma."
+        },
+        {
+          "word": "UZLAŞMA",
+          "hint": "Anlaşma."
+        },
+        {
+          "word": "ÇATIŞMA ÖNLEME",
+          "hint": "Sorun çözme."
+        },
+        {
+          "word": "ÇATIŞMA YÖNETİMİ",
+          "hint": "Kavga idaresi."
+        },
+        {
+          "word": "YARDIM",
+          "hint": "Destek."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Yardım."
+        },
+        {
+          "word": "İŞBİRLİĞİ",
+          "hint": "Birlikte çalışma."
+        },
+        {
+          "word": "EKİP",
+          "hint": "Grup."
+        },
+        {
+          "word": "TAKIM",
+          "hint": "Grup."
+        },
+        {
+          "word": "PROJE",
+          "hint": "Özel çalışma."
+        },
+        {
+          "word": "GAYRETKEŞ",
+          "hint": "Çalışkan."
+        },
+        {
+          "word": "İSTİKRAR",
+          "hint": "Devamlılık."
+        },
+        {
+          "word": "YARDIMSEVER",
+          "hint": "Yardım eden."
+        },
+        {
+          "word": "FEDAKAR",
+          "hint": "Kendi çıkarından vazgeçen."
+        },
+        {
+          "word": "MİNNET",
+          "hint": "Teşekkür borcu."
+        },
+        {
+          "word": "ŞÜKRAN",
+          "hint": "Teşekkür."
+        },
+        {
+          "word": "SEVİNÇ",
+          "hint": "Mutluluk."
+        },
+        {
+          "word": "ÜZÜNTÜ",
+          "hint": "Keder."
+        },
+        {
+          "word": "ÖFKE",
+          "hint": "Kızgınlık."
+        },
+        {
+          "word": "KORKU",
+          "hint": "Dehşet."
+        },
+        {
+          "word": "ŞAŞKINLIK",
+          "hint": "Hayret."
+        },
+        {
+          "word": "İLGİSİZLİK",
+          "hint": "Alakasızlık."
+        },
+        {
+          "word": "UMURSAMAZLIK",
+          "hint": "Ciddiye almama."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Görev bilinci."
+        },
+        {
+          "word": "GÜVENİLİRLİK",
+          "hint": "İnanılırlık."
+        },
+        {
+          "word": "DOĞRULUK",
+          "hint": "Gerçeklik."
+        },
+        {
+          "word": "DÜRÜSTLÜK",
+          "hint": "Yalansızlık."
+        },
+        {
+          "word": "CESARETSİZLİK",
+          "hint": "Korkaklık."
+        },
+        {
+          "word": "TEMBELLİK",
+          "hint": "İş yapmama."
+        },
+        {
+          "word": "ACELECİLİK",
+          "hint": "Çabukluk."
+        },
+        {
+          "word": "SİSTEMLİLİK",
+          "hint": "Düzenlilik."
+        },
+        {
+          "word": "PLANLILIK",
+          "hint": "Önceden düşünme."
+        },
+        {
+          "word": "ORGANİZASYONEL",
+          "hint": "Organizasyonla ilgili."
+        },
+        {
+          "word": "İLETİŞİMSEL",
+          "hint": "İletişimle ilgili."
+        },
+        {
+          "word": "DUYGUSAL",
+          "hint": "Duyguyla ilgili."
+        },
+        {
+          "word": "BİLİŞSEL",
+          "hint": "Düşünceyle ilgili."
+        },
+        {
+          "word": "DAVRANIŞSAL",
+          "hint": "Davranışla ilgili."
+        },
+        {
+          "word": "SOSYAL",
+          "hint": "Toplumla ilgili."
+        },
+        {
+          "word": "KÜLTÜREL",
+          "hint": "Kültürle ilgili."
+        },
+        {
+          "word": "SİYASİ",
+          "hint": "Devletle ilgili."
+        },
+        {
+          "word": "EKONOMİK",
+          "hint": "Para ile ilgili."
+        },
+        {
+          "word": "TEKNOLOJİK",
+          "hint": "Teknolojiyle ilgili."
+        },
+        {
+          "word": "SANATSAL",
+          "hint": "Sanatla ilgili."
+        },
+        {
+          "word": "FELSEFİ",
+          "hint": "Felsefeyle ilgili."
+        },
+        {
+          "word": "BİLİMSEL",
+          "hint": "Bilimle ilgili."
+        },
+        {
+          "word": "TARİHSEL",
+          "hint": "Tarihle ilgili."
+        },
+        {
+          "word": "COĞRAFİ",
+          "hint": "Coğrafyayla ilgili."
+        },
+        {
+          "word": "PSİKOLOJİK",
+          "hint": "Psikolojiyle ilgili."
+        },
+        {
+          "word": "ANTROPOLOJİK",
+          "hint": "İnsan bilimiyle ilgili."
+        },
+        {
+          "word": "SOSYOLOJİK",
+          "hint": "Toplum bilimiyle ilgili."
+        },
+        {
+          "word": "ETİK",
+          "hint": "Ahlakla ilgili."
+        },
+        {
+          "word": "ESTETİK",
+          "hint": "Güzellikle ilgili."
+        },
+        {
+          "word": "MANTIK",
+          "hint": "Doğru düşünme."
+        },
+        {
+          "word": "TEORİ",
+          "hint": "Kuram."
+        },
+        {
+          "word": "PRATİK",
+          "hint": "Uygulama."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Örnek."
+        },
+        {
+          "word": "SİMÜLASYON",
+          "hint": "Benzetim."
+        },
+        {
+          "word": "YÖNTEMBİLİM",
+          "hint": "Metodoloji."
+        },
+        {
+          "word": "TEKNİK",
+          "hint": "Yöntem."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Pratik."
+        },
+        {
+          "word": "PROSEDÜR",
+          "hint": "İşlem."
+        },
+        {
+          "word": "PROTOKOL",
+          "hint": "Kurallar bütünü."
+        },
+        {
+          "word": "STANDART",
+          "hint": "Ölçü."
+        },
+        {
+          "word": "KALİTE",
+          "hint": "Nitelik."
+        },
+        {
+          "word": "VERİMLİLİK",
+          "hint": "Üretkenlik."
+        },
+        {
+          "word": "ETKİNLİK",
+          "hint": "Başarı."
+        },
+        {
+          "word": "ETKİLİLİK",
+          "hint": "Güç."
+        },
+        {
+          "word": "SÜREKLİLİK",
+          "hint": "Devamlılık."
+        },
+        {
+          "word": "ESNEKLİK",
+          "hint": "Uyabilirlik."
+        },
+        {
+          "word": "DAYANIKLILIK",
+          "hint": "Güçlülük."
+        },
+        {
+          "word": "HIZ",
+          "hint": "Sürat."
+        },
+        {
+          "word": "MALİYET",
+          "hint": "Fiyat."
+        },
+        {
+          "word": "KÂR",
+          "hint": "Kazanç."
+        },
+        {
+          "word": "ZARAR",
+          "hint": "Kayıp."
+        },
+        {
+          "word": "RİSK",
+          "hint": "Tehlike."
+        },
+        {
+          "word": "FIRSAT",
+          "hint": "İmkan."
+        },
+        {
+          "word": "TEHDİT",
+          "hint": "Korkutma."
+        },
+        {
+          "word": "AVANTAJ",
+          "hint": "Üstünlük."
+        },
+        {
+          "word": "DEZAVANTAJ",
+          "hint": "Eksiklik."
+        },
+        {
+          "word": "REKABET",
+          "hint": "Yarış."
+        },
+        {
+          "word": "İNOVASYON",
+          "hint": "Yenilik."
+        },
+        {
+          "word": "DÖNÜŞÜM",
+          "hint": "Değişim."
+        },
+        {
+          "word": "DEVRİM",
+          "hint": "Köklü değişiklik."
+        },
+        {
+          "word": "REFORM",
+          "hint": "Düzenleme."
+        },
+        {
+          "word": "PROGRESİF",
+          "hint": "İlerici."
+        },
+        {
+          "word": "MUHAFAZAKÂR",
+          "hint": "Gelenekçi."
+        },
+        {
+          "word": "RADİKAL",
+          "hint": "Köklü."
+        },
+        {
+          "word": "LİBERAL",
+          "hint": "Özgürlükçü."
+        },
+        {
+          "word": "SOSYALİST",
+          "hint": "Toplumcu."
+        },
+        {
+          "word": "KAPİTALİST",
+          "hint": "Serbest piyasacı."
+        },
+        {
+          "word": "MONARŞİ",
+          "hint": "Kraliyet."
+        },
+        {
+          "word": "DEMOKRASİ",
+          "hint": "Halk yönetimi."
+        },
+        {
+          "word": "CUMHURİYET",
+          "hint": "Halkın seçtiği."
+        },
+        {
+          "word": "DİKTATÖRLÜK",
+          "hint": "Tek kişi yönetimi."
+        },
+        {
+          "word": "ANARŞİ",
+          "hint": "Devletsizlik."
+        },
+        {
+          "word": "TEOKRASİ",
+          "hint": "Din yönetimi."
+        },
+        {
+          "word": "OLİGARŞİ",
+          "hint": "Azınlık yönetimi."
+        },
+        {
+          "word": "FEDERALİZM",
+          "hint": "Bölgesel yönetim."
+        },
+        {
+          "word": "KONFEDERASYON",
+          "hint": "Birlik."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Ülke."
+        },
+        {
+          "word": "MİLLET",
+          "hint": "Ulus."
+        },
+        {
+          "word": "VATAN",
+          "hint": "Yurt."
+        },
+        {
+          "word": "BAYRAK",
+          "hint": "Ulusal sembol."
+        },
+        {
+          "word": "MARŞ",
+          "hint": "Ulusal şarkı."
+        },
+        {
+          "word": "BAŞKENT",
+          "hint": "Ülke merkezi."
+        },
+        {
+          "word": "SINIR",
+          "hint": "Ülke çizgisi."
+        },
+        {
+          "word": "KANUN",
+          "hint": "Yasa."
+        },
+        {
+          "word": "ANAYASA",
+          "hint": "Temel yasa."
+        },
+        {
+          "word": "ADALET DİVANI",
+          "hint": "Mahkeme."
+        },
+        {
+          "word": "POLİS",
+          "hint": "Güvenlik gücü."
+        },
+        {
+          "word": "ORDU",
+          "hint": "Savunma gücü."
+        },
+        {
+          "word": "DİPLOMASİ",
+          "hint": "Devlet ilişkileri."
+        },
+        {
+          "word": "ULUSLARARASI İLİŞKİLER",
+          "hint": "Ülkeler arası bağ."
+        },
+        {
+          "word": "BM",
+          "hint": "Birleşmiş Milletler."
+        },
+        {
+          "word": "NATO",
+          "hint": "Askeri ittifak."
+        },
+        {
+          "word": "AB",
+          "hint": "Avrupa Birliği."
+        },
+        {
+          "word": "KYOTO",
+          "hint": "Çevre anlaşması."
+        },
+        {
+          "word": "CENEVRE",
+          "hint": "İnsan hakları."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Huzur."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Mücadele."
+        },
+        {
+          "word": "TERÖR",
+          "hint": "Korku salma."
+        },
+        {
+          "word": "İNSAN HAKLARİ",
+          "hint": "Temel haklar."
+        },
+        {
+          "word": "DEMOKRATİKLEŞME",
+          "hint": "Demokrat olma."
+        },
+        {
+          "word": "KALKINMA",
+          "hint": "Refah."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Devamlılık."
+        },
+        {
+          "word": "EKOLOJİ",
+          "hint": "Çevre bilimi."
+        },
+        {
+          "word": "ÇEVRE KORUMA",
+          "hint": "Doğayı koruma."
+        },
+        {
+          "word": "KÜRESEL ISINMA",
+          "hint": "Dünya ısınması."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ",
+          "hint": "Hava değişimi."
+        },
+        {
+          "word": "ENERJİ KAYNAKLARI",
+          "hint": "Güç kaynakları."
+        },
+        {
+          "word": "YENİLENEBİLİR ENERJİ",
+          "hint": "Sürekli enerji."
+        },
+        {
+          "word": "FOSİL YAKITLAR",
+          "hint": "Kömür, petrol."
+        },
+        {
+          "word": "NÜKLEER ENERJİ",
+          "hint": "Atom enerjisi."
+        },
+        {
+          "word": "TARIM",
+          "hint": "Ziraat."
+        },
+        {
+          "word": "SANAYİ",
+          "hint": "Üretim."
+        },
+        {
+          "word": "HİZMET SEKTÖRÜ",
+          "hint": "Servis."
+        },
+        {
+          "word": "TURİZM",
+          "hint": "Gezi."
+        },
+        {
+          "word": "ULAŞIM",
+          "hint": "Taşımacılık."
+        },
+        {
+          "word": "BİLİŞİM TEKNOLOJİLERİ",
+          "hint": "Bilgisayar."
+        },
+        {
+          "word": "YAPAY ZEKA",
+          "hint": "Makine aklı."
+        },
+        {
+          "word": "VERİ",
+          "hint": "Bilgi."
+        },
+        {
+          "word": "ALGORİTMA",
+          "hint": "İşlem sırası."
+        },
+        {
+          "word": "YAZILIM",
+          "hint": "Program."
+        },
+        {
+          "word": "DONANIM",
+          "hint": "Bilgisayar parçaları."
+        },
+        {
+          "word": "İNTERNET",
+          "hint": "Ağ."
+        },
+        {
+          "word": "WEB",
+          "hint": "İnternet sitesi."
+        },
+        {
+          "word": "SOSYAL MEDYA",
+          "hint": "Topluluk ağı."
+        },
+        {
+          "word": "BLOG",
+          "hint": "Kişisel yazı."
+        },
+        {
+          "word": "FORUM",
+          "hint": "Tartışma alanı."
+        },
+        {
+          "word": "VLOG",
+          "hint": "Video blog."
+        },
+        {
+          "word": "PODCAST",
+          "hint": "Sesli yayın."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlence."
+        },
+        {
+          "word": "SANAL GERÇEKLİK",
+          "hint": "Sanal dünya."
+        },
+        {
+          "word": "ARTIRILMIŞ GERÇEKLİK",
+          "hint": "Gerçeklik üstüne ekleme."
+        },
+        {
+          "word": "ROBOTİK",
+          "hint": "Robot bilimi."
+        },
+        {
+          "word": "NANOTEKNOLOJİ",
+          "hint": "Nano teknoloji."
+        },
+        {
+          "word": "BİYOTEKNOLOJİ",
+          "hint": "Yaşam bilimi."
+        },
+        {
+          "word": "GENETİK MÜHENDİSLİĞİ",
+          "hint": "Gen değiştirme."
+        },
+        {
+          "word": "UZAY ARAŞTIRMALARI",
+          "hint": "Evren incelemesi."
+        },
+        {
+          "word": "ASTROFİZİK",
+          "hint": "Uzay fiziği."
+        },
+        {
+          "word": "KUANTUM FİZİĞİ",
+          "hint": "Atom altı."
+        },
+        {
+          "word": "GÖRELİLİK KURAMI",
+          "hint": "Einstein teorisi."
+        },
+        {
+          "word": "BÜYÜK PATLAMA",
+          "hint": "Evrenin başlangıcı."
+        },
+        {
+          "word": "KARADELİK",
+          "hint": "Çekim gücü."
+        },
+        {
+          "word": "BİLİM KURGU",
+          "hint": "Bilimsel hayal."
+        },
+        {
+          "word": "FANTEZİ",
+          "hint": "Hayal."
+        },
+        {
+          "word": "POLİSİYE",
+          "hint": "Suç."
+        },
+        {
+          "word": "GİZEM",
+          "hint": "Sır."
+        },
+        {
+          "word": "AŞK ROMANI",
+          "hint": "Sevgi öyküsü."
+        },
+        {
+          "word": "TARİHİ ROMAN",
+          "hint": "Geçmiş öyküsü."
+        },
+        {
+          "word": "BİLİM KURGU ROMANI",
+          "hint": "Fütüristik öykü."
+        },
+        {
+          "word": "ÇOCUK EDEBİYATI",
+          "hint": "Çocuk kitabı."
+        },
+        {
+          "word": "GENÇ YETİŞKİN EDEBİYATI",
+          "hint": "Gençlik kitabı."
+        },
+        {
+          "word": "KLASİK EDEBİYAT",
+          "hint": "Eski eserler."
+        },
+        {
+          "word": "MODERN EDEBİYAT",
+          "hint": "Yeni eserler."
+        },
+        {
+          "word": "POSTMODERN EDEBİYAT",
+          "hint": "Güncel akımlar."
+        },
+        {
+          "word": "SÜREALİZM",
+          "hint": "Gerçeküstücülük."
+        },
+        {
+          "word": "DADAİZM",
+          "hint": "Saçmacılık."
+        },
+        {
+          "word": "EPİKA",
+          "hint": "Destan."
+        },
+        {
+          "word": "LİRİK",
+          "hint": "Şiir."
+        },
+        {
+          "word": "DRAMATİK",
+          "hint": "Tiyatro."
+        },
+        {
+          "word": "POETİKA",
+          "hint": "Şiir bilgisi."
+        },
+        {
+          "word": "RETORİK",
+          "hint": "Etkili konuşma."
+        },
+        {
+          "word": "SEMİOTİK",
+          "hint": "İşaret bilimi."
+        },
+        {
+          "word": "HERMENEUTİK",
+          "hint": "Yorum bilimi."
+        },
+        {
+          "word": "KRİTİK",
+          "hint": "Değerlendirme."
+        },
+        {
+          "word": "METAFOR",
+          "hint": "Benzetme."
+        },
+        {
+          "word": "MEZAR",
+          "hint": "Ölü yeri."
+        },
+        {
+          "word": "SEMANTİK KANGA",
+          "hint": "Anlamsal ilişki."
+        },
+        {
+          "word": "SEMANTİK ALAN",
+          "hint": "Anlam alanı."
+        },
+        {
+          "word": "ANLAM KAYMASI",
+          "hint": "Anlamın değişmesi."
+        },
+        {
+          "word": "ANLAM DARALMASI",
+          "hint": "Anlamın küçülmesi."
+        },
+        {
+          "word": "ANLAM GENİŞLEMESİ",
+          "hint": "Anlamın büyümesi."
+        },
+        {
+          "word": "EŞ ANLAMLI",
+          "hint": "Aynı anlamlı."
+        },
+        {
+          "word": "ZIT ANLAMLI",
+          "hint": "Karşıt anlamlı."
+        },
+        {
+          "word": "YANSİLAMA",
+          "hint": "Ses taklidi."
+        },
+        {
+          "word": "SES OLAYI",
+          "hint": "Dilbilim."
+        },
+        {
+          "word": "ÜNSÜZ BENZEŞMESİ",
+          "hint": "Sertleşme."
+        },
+        {
+          "word": "ÜNSÜZ BENZERLİĞİ",
+          "hint": "Sertleşme."
+        },
+        {
+          "word": "ÜNSÜZ UYUMU",
+          "hint": "Sertleşme."
+        },
+        {
+          "word": "ÜNLÜ UYUMU",
+          "hint": "İnce-kalın uyumu."
+        },
+        {
+          "word": "KÜÇÜK ÜNLÜ UYUMU",
+          "hint": "Düz-yuvarlak uyumu."
+        },
+        {
+          "word": "BÜYÜK ÜNLÜ UYUMU",
+          "hint": "Kalın-ince uyumu."
+        },
+        {
+          "word": "ULAMA",
+          "hint": "İki kelimeyi bağlama."
+        },
+        {
+          "word": "TÜREMİŞ KELİME",
+          "hint": "Ek almış kelime."
+        },
+        {
+          "word": "BİRLEŞİK KELİME",
+          "hint": "İki kelime."
+        },
+        {
+          "word": "BAĞIMSIZ CÜMLE",
+          "hint": "Tek başına."
+        },
+        {
+          "word": "BAĞIMLI CÜMLE",
+          "hint": "Başka cümleye bağlı."
+        },
+        {
+          "word": "SIRALAMA CÜMLESİ",
+          "hint": "Virgülle ayrılmış."
+        },
+        {
+          "word": "BAĞLAMA CÜMLE",
+          "hint": "Bağlaçlı."
+        },
+        {
+          "word": "ÖZNE",
+          "hint": "İşi yapan."
+        },
+        {
+          "word": "YÜKLEM",
+          "hint": "İşi anlatan."
+        },
+        {
+          "word": "NESNE",
+          "hint": "İşten etkilenen."
+        },
+        {
+          "word": "TÜMLEÇ",
+          "hint": "Yardımcı."
+        },
+        {
+          "word": "İLKEL",
+          "hint": "Basit."
+        },
+        {
+          "word": "GELİŞMİŞ",
+          "hint": "İlerici."
+        },
+        {
+          "word": "İLERİCİ",
+          "hint": "Modern."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Açıklama."
+        },
+        {
+          "word": "GELENEK",
+          "hint": "Örf."
+        },
+        {
+          "word": "GÖRENEK",
+          "hint": "Alışkanlık."
+        },
+        {
+          "word": "MİT",
+          "hint": "Efsane."
+        },
+        {
+          "word": "FABL",
+          "hint": "Hayvan hikayesi."
+        },
+        {
+          "word": "BİLDİRİ",
+          "hint": "Duyuru."
+        },
+        {
+          "word": "DUYURU",
+          "hint": "Bilgi."
+        },
+        {
+          "word": "İLÂN",
+          "hint": "Reklam."
+        },
+        {
+          "word": "DAVET",
+          "hint": "Çağrı."
+        },
+        {
+          "word": "TEŞEKKÜR",
+          "hint": "Şükran."
+        },
+        {
+          "word": "ÖZÜR",
+          "hint": "Pişmanlık."
+        },
+        {
+          "word": "SELÂM",
+          "hint": "Merhaba."
+        },
+        {
+          "word": "VEDÂ",
+          "hint": "Hoşça kal."
+        },
+        {
+          "word": "HATIRLATMA",
+          "hint": "Unutmamak."
+        },
+        {
+          "word": "UYARI",
+          "hint": "Dikkat çekme."
+        },
+        {
+          "word": "TALİMAT",
+          "hint": "Emir."
+        },
+        {
+          "word": "ÖNERİ",
+          "hint": "Tavsiye."
+        },
+        {
+          "word": "PROTESTO",
+          "hint": "İtiraz."
+        },
+        {
+          "word": "İSTİHZA",
+          "hint": "Alay."
+        },
+        {
+          "word": "ESPİRİ",
+          "hint": "Mizah."
+        },
+        {
+          "word": "ŞAKA",
+          "hint": "Gülmece."
+        },
+        {
+          "word": "MAZUR GÖRME",
+          "hint": "Af dileme."
+        },
+        {
+          "word": "TEBRİK",
+          "hint": "Kutlama."
+        },
+        {
+          "word": "TAZİYE",
+          "hint": "Başsağlığı."
+        },
+        {
+          "word": "RAHATSIZLIK",
+          "hint": "Sıkıntı."
+        },
+        {
+          "word": "MEMNUNİYET",
+          "hint": "Sevinç."
+        },
+        {
+          "word": "HOŞNUTLUK",
+          "hint": "Mutluluk."
+        },
+        {
+          "word": "TATMİNSİZLİK",
+          "hint": "Memnun olmama."
+        },
+        {
+          "word": "ENDER",
+          "hint": "Nadiren."
+        },
+        {
+          "word": "SIK",
+          "hint": "Çok."
+        },
+        {
+          "word": "DAİMA",
+          "hint": "Her zaman."
+        },
+        {
+          "word": "ASLA",
+          "hint": "Hiçbir zaman."
+        },
+        {
+          "word": "BELKİ",
+          "hint": "Muhtemelen."
+        },
+        {
+          "word": "TABİİ",
+          "hint": "Elbette."
+        },
+        {
+          "word": "ANCAK",
+          "hint": "Fakat."
+        },
+        {
+          "word": "YALNIZ",
+          "hint": "Sadece."
+        },
+        {
+          "word": "HEM",
+          "hint": "Ayrıca."
+        },
+        {
+          "word": "DE",
+          "hint": "Ayrıca."
+        },
+        {
+          "word": "İSE",
+          "hint": "Fakat."
+        },
+        {
+          "word": "GİBİ",
+          "hint": "Sanki."
+        },
+        {
+          "word": "KADAR",
+          "hint": "Süresince."
+        },
+        {
+          "word": "İÇİN",
+          "hint": "Neden."
+        },
+        {
+          "word": "İLE",
+          "hint": "Birlikte."
+        },
+        {
+          "word": "TARAFINDAN",
+          "hint": "Etken."
+        },
+        {
+          "word": "DOLAYISIYLA",
+          "hint": "Nedeniyle."
+        },
+        {
+          "word": "SEBEBİYLE",
+          "hint": "Nedeniyle."
+        },
+        {
+          "word": "BUNA RAĞMEN",
+          "hint": "Hatta."
+        },
+        {
+          "word": "OYSA",
+          "hint": "Oysa."
+        },
+        {
+          "word": "HALBUKİ",
+          "hint": "Gerçekte."
+        },
+        {
+          "word": "MEĞER Kİ",
+          "hint": "Öğrenince."
+        },
+        {
+          "word": "ÇÜNKÜ",
+          "hint": "Neden."
+        },
+        {
+          "word": "BUNA GÖRE",
+          "hint": "Ona göre."
+        },
+        {
+          "word": "ŞAYET",
+          "hint": "Eğer."
+        },
+        {
+          "word": "MEĞER",
+          "hint": "Öğrenince."
+        },
+        {
+          "word": "YİNE DE",
+          "hint": "Hatta."
+        },
+        {
+          "word": "BİLE",
+          "hint": "Hatta."
+        },
+        {
+          "word": "RAKİP",
+          "hint": "Karşıdaki."
+        },
+        {
+          "word": "YARIŞMACI",
+          "hint": "Katılan."
+        },
+        {
+          "word": "ÇEKİŞME",
+          "hint": "Mücadele."
+        },
+        {
+          "word": "SİPER",
+          "hint": "Savunma."
+        },
+        {
+          "word": "KALKAN",
+          "hint": "Savunma."
+        },
+        {
+          "word": "KİLİÇ",
+          "hint": "Savaş aleti."
+        },
+        {
+          "word": "MİĞFER",
+          "hint": "Başlık."
+        },
+        {
+          "word": "ZİRH",
+          "hint": "Vücut koruyucu."
+        },
+        {
+          "word": "SAVAŞÇI",
+          "hint": "Asker."
+        },
+        {
+          "word": "KOMUTAN",
+          "hint": "Ordu başı."
+        },
+        {
+          "word": "ASKER",
+          "hint": "Savaşan."
+        },
+        {
+          "word": "BAĞIMSIZLIK",
+          "hint": "Özgürlük."
+        },
+        {
+          "word": "EGEMENLİK",
+          "hint": "Hak."
+        },
+        {
+          "word": "MİLLİYETÇİLİK",
+          "hint": "Ulus sevgisi."
+        },
+        {
+          "word": "İRKÇİLİK",
+          "hint": "Soy ayrımı."
+        },
+        {
+          "word": "AYRIMCILIK",
+          "hint": "Farklı muamele."
+        },
+        {
+          "word": "EŞİTLİK",
+          "hint": "Aynı haklar."
+        },
+        {
+          "word": "HUKUK",
+          "hint": "Yasa."
+        },
+        {
+          "word": "CEZA",
+          "hint": "Yaptırım."
+        },
+        {
+          "word": "MAHKEME",
+          "hint": "Yargı."
+        },
+        {
+          "word": "SAVCI",
+          "hint": "İddia makamı."
+        },
+        {
+          "word": "AVUKAT",
+          "hint": "Savunmacı."
+        },
+        {
+          "word": "TANIK",
+          "hint": "Şahit."
+        },
+        {
+          "word": "SANIK",
+          "hint": "Suçlu."
+        },
+        {
+          "word": "MAHKUM",
+          "hint": "Cezalı."
+        },
+        {
+          "word": "AF",
+          "hint": "Bağışlama."
+        },
+        {
+          "word": "GÜVENLİK",
+          "hint": "Emniyet."
+        },
+        {
+          "word": "TEHLİKE",
+          "hint": "Risk."
+        },
+        {
+          "word": "KAZA",
+          "hint": "Olay."
+        },
+        {
+          "word": "AFET",
+          "hint": "Felaket."
+        },
+        {
+          "word": "DOĞAL AFET",
+          "hint": "Doğal olay."
+        },
+        {
+          "word": "DEPREM",
+          "hint": "Yerin titremesi."
+        },
+        {
+          "word": "SEL",
+          "hint": "Su baskını."
+        },
+        {
+          "word": "YANARDAĞ",
+          "hint": "Ateş dağı."
+        },
+        {
+          "word": "TSUNAMİ",
+          "hint": "Deniz dalgası."
+        },
+        {
+          "word": "SALGIN",
+          "hint": "Hastalık yayılması."
+        },
+        {
+          "word": "SOYKIRIM",
+          "hint": "Kitlesel ölüm."
+        },
+        {
+          "word": "SAVAŞ SUÇU",
+          "hint": "Savaşta suç."
+        },
+        {
+          "word": "SOYKIRIM",
+          "hint": "Kitle yok etme."
+        },
+        {
+          "word": "ASİMİLASYON",
+          "hint": "Bütünleşme."
+        },
+        {
+          "word": "ENTEGRASYON",
+          "hint": "Birleşme."
+        },
+        {
+          "word": "KİMLİK",
+          "hint": "Benlik."
+        },
+        {
+          "word": "MİRAS",
+          "hint": "Kalıtım."
+        },
+        {
+          "word": "MÜZİK",
+          "hint": "Ses."
+        },
+        {
+          "word": "RESİM",
+          "hint": "Çizim."
+        },
+        {
+          "word": "HEYKEL",
+          "hint": "Yontu."
+        },
+        {
+          "word": "SİNEMA",
+          "hint": "Film."
+        },
+        {
+          "word": "TİYATRO",
+          "hint": "Sahne."
+        },
+        {
+          "word": "DANSA",
+          "hint": "Bale."
+        },
+        {
+          "word": "PANTOMİM",
+          "hint": "Sessiz oyun."
+        },
+        {
+          "word": "E-POSTA",
+          "hint": "Elektronik mektup."
+        },
+        {
+          "word": "TELGRAF",
+          "hint": "Eski mesaj."
+        },
+        {
+          "word": "FAX",
+          "hint": "Belge kopyası."
+        },
+        {
+          "word": "TELEFON",
+          "hint": "Sesli konuşma."
+        },
+        {
+          "word": "RADYO",
+          "hint": "Ses yayını."
+        },
+        {
+          "word": "TELEVİZYON",
+          "hint": "Görüntü yayını."
+        },
+        {
+          "word": "WEB SİTESİ",
+          "hint": "Online sayfa."
+        },
+        {
+          "word": "CHAT",
+          "hint": "Sohbet."
+        },
+        {
+          "word": "MESAJ",
+          "hint": "İleti."
+        },
+        {
+          "word": "DOSYA",
+          "hint": "Belge."
+        },
+        {
+          "word": "KLASÖR",
+          "hint": "Dizin."
+        },
+        {
+          "word": "PROGRAM",
+          "hint": "Yazılım."
+        },
+        {
+          "word": "İNTERNET TARAYICI",
+          "hint": "Web."
+        },
+        {
+          "word": "ARAMA MOTORU",
+          "hint": "Bulucu."
+        },
+        {
+          "word": "E-TİCARET",
+          "hint": "Online alışveriş."
+        },
+        {
+          "word": "BANKA",
+          "hint": "Para."
+        },
+        {
+          "word": "SİGORTA",
+          "hint": "Güvenlik."
+        },
+        {
+          "word": "BORSA",
+          "hint": "Yatırım."
+        },
+        {
+          "word": "FİNANS",
+          "hint": "Para."
+        },
+        {
+          "word": "MUHASEBE",
+          "hint": "Hesap."
+        },
+        {
+          "word": "VERGİ",
+          "hint": "Devlet katkısı."
+        },
+        {
+          "word": "BÜTÇE",
+          "hint": "Para planı."
+        },
+        {
+          "word": "PAZAR",
+          "hint": "Alışveriş."
+        },
+        {
+          "word": "TÜKETİCİ",
+          "hint": "Alıcı."
+        },
+        {
+          "word": "ÜRETİCİ",
+          "hint": "Yapıcı."
+        },
+        {
+          "word": "İHRACAT",
+          "hint": "Dış satım."
+        },
+        {
+          "word": "İTHALAT",
+          "hint": "Dış alım."
+        },
+        {
+          "word": "GÜMRÜK",
+          "hint": "Sınır vergisi."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Alışveriş."
+        },
+        {
+          "word": "GİRİŞİMCİ",
+          "hint": "İş kuran."
+        },
+        {
+          "word": "YATIRIMCI",
+          "hint": "Para yatıran."
+        },
+        {
+          "word": "AR-GE",
+          "hint": "Araştırma."
+        },
+        {
+          "word": "KALİTE KONTROL",
+          "hint": "İyi mi?"
+        },
+        {
+          "word": "MARKA",
+          "hint": "İsim."
+        },
+        {
+          "word": "PATENT",
+          "hint": "Buluş."
+        },
+        {
+          "word": "TELİF HAKKI",
+          "hint": "Yazar hakkı."
+        },
+        {
+          "word": "LİSANS",
+          "hint": "İzin."
+        },
+        {
+          "word": "FRANCHİSE",
+          "hint": "Marka kullanımı."
+        },
+        {
+          "word": "SUÇ",
+          "hint": "Hata."
+        },
+        {
+          "word": "SAVCI",
+          "hint": "İddia."
+        },
+        {
+          "word": "TANIK",
+          "hint": "Şahit."
+        },
+        {
+          "word": "SANIK",
+          "hint": "Şüpheli."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Huzur."
+        },
+        {
+          "word": "İNSAN HAKLARI",
+          "hint": "Temel haklar."
+        },
+        {
+          "word": "DEMOKRATİKLEŞME",
+          "hint": "Özgürleşme."
+        },
+        {
+          "word": "GELİŞME",
+          "hint": "İlerleme."
+        },
+        {
+          "word": "KALKINMA",
+          "hint": "Refah."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Devamlılık."
+        },
+        {
+          "word": "EKOLOJİ",
+          "hint": "Çevre."
+        },
+        {
+          "word": "KÜRESEL İSINMA",
+          "hint": "Dünya."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ",
+          "hint": "Hava."
+        },
+        {
+          "word": "ENERJİ KAYNAKLARI",
+          "hint": "Güç."
+        },
+        {
+          "word": "YENİLENEBİLİR ENERJİ",
+          "hint": "Sürekli."
+        },
+        {
+          "word": "FOSİL YAKITLAR",
+          "hint": "Kömür."
+        },
+        {
+          "word": "NÜKLEER ENERJİ",
+          "hint": "Atom."
+        },
+        {
+          "word": "TARIM",
+          "hint": "Ziraat."
+        },
+        {
+          "word": "SANAYİ",
+          "hint": "Üretim."
+        },
+        {
+          "word": "HİZMET SEKTÖRÜ",
+          "hint": "Servis."
+        },
+        {
+          "word": "TURİZM",
+          "hint": "Gezi."
+        },
+        {
+          "word": "ULAŞIM",
+          "hint": "Taşıma."
+        },
+        {
+          "word": "İLETİŞİM",
+          "hint": "Haber."
+        },
+        {
+          "word": "BİLİŞİM TEKNOLOJİLERİ",
+          "hint": "Bilgisayar."
+        },
+        {
+          "word": "VERİ",
+          "hint": "Bilgi."
+        },
+        {
+          "word": "ALGORİTMA",
+          "hint": "Sıra."
+        },
+        {
+          "word": "YAZILIM",
+          "hint": "Program."
+        },
+        {
+          "word": "DONANIM",
+          "hint": "Parça."
+        },
+        {
+          "word": "İNTERNET",
+          "hint": "Ağ."
+        },
+        {
+          "word": "SANAL GERÇEKLİK",
+          "hint": "Sanal."
+        },
+        {
+          "word": "ARTIRILMIŞ GERÇEKLİK",
+          "hint": "Ekli."
+        },
+        {
+          "word": "ROBOTİK",
+          "hint": "Robot."
+        },
+        {
+          "word": "NANOTEKNOLOJİ",
+          "hint": "Nano."
+        },
+        {
+          "word": "BİYOTEKNOLOJİ",
+          "hint": "Yaşam."
+        },
+        {
+          "word": "GENETİK MÜHENDİSLİĞİ",
+          "hint": "Gen."
+        },
+        {
+          "word": "UZAY ARAŞTIRMALARI",
+          "hint": "Evren."
+        },
+        {
+          "word": "ASTROFİZİK",
+          "hint": "Uzay."
+        },
+        {
+          "word": "KUANTUM FİZİĞİ",
+          "hint": "Atom."
+        },
+        {
+          "word": "GÖRELİLİK KURAMI",
+          "hint": "Einstein."
+        },
+        {
+          "word": "KARADELİK",
+          "hint": "Çekim."
+        },
+        {
+          "word": "BİLİM KURGU",
+          "hint": "Hayal."
+        },
+        {
+          "word": "FANTEZİ",
+          "hint": "Hayal."
+        },
+        {
+          "word": "POLİSİYE",
+          "hint": "Suç."
+        },
+        {
+          "word": "GERİLİM",
+          "hint": "Heyecan."
+        },
+        {
+          "word": "GİZEM",
+          "hint": "Sır."
+        },
+        {
+          "word": "AŞK ROMANI",
+          "hint": "Sevgi."
+        },
+        {
+          "word": "TARİHİ ROMAN",
+          "hint": "Geçmiş."
+        },
+        {
+          "word": "BİLİM KURGU ROMANI",
+          "hint": "Fütüristik."
+        },
+        {
+          "word": "ÇOCUK EDEBİYATI",
+          "hint": "Çocuk."
+        },
+        {
+          "word": "GENÇ YETİŞKİN EDEBİYATI",
+          "hint": "Genç."
+        },
+        {
+          "word": "KLASİK EDEBİYAT",
+          "hint": "Eski."
+        },
+        {
+          "word": "MODERN EDEBİYAT",
+          "hint": "Yeni."
+        },
+        {
+          "word": "POSTMODERN EDEBİYAT",
+          "hint": "Güncel."
+        },
+        {
+          "word": "SÜREALİZM",
+          "hint": "Gerçeküstü."
+        },
+        {
+          "word": "DADAİZM",
+          "hint": "Saçma."
+        },
+        {
+          "word": "EPİKA",
+          "hint": "Destan."
+        },
+        {
+          "word": "LİRİK",
+          "hint": "Şiir."
+        },
+        {
+          "word": "DRAMATİK",
+          "hint": "Tiyatro."
+        },
+        {
+          "word": "POETİKA",
+          "hint": "Şiir."
+        },
+        {
+          "word": "RETORİK",
+          "hint": "Etkili."
+        },
+        {
+          "word": "SEMİYOTİK",
+          "hint": "İşaret."
+        },
+        {
+          "word": "HERMENEUTİK",
+          "hint": "Yorum."
+        },
+        {
+          "word": "KRİTİK",
+          "hint": "Değerlendirme."
+        },
+        {
+          "word": "ANALİZ",
+          "hint": "İnceleme."
+        },
+        {
+          "word": "SEMANTİK KANGA",
+          "hint": "Anlam."
+        },
+        {
+          "word": "SEMANTİK ALAN",
+          "hint": "Anlam."
+        },
+        {
+          "word": "ANLAM KAYMASI",
+          "hint": "Değişim."
+        },
+        {
+          "word": "ANLAM DARALMASI",
+          "hint": "Küçülme."
+        },
+        {
+          "word": "ANLAM GENİŞLEMESİ",
+          "hint": "Büyüme."
+        },
+        {
+          "word": "EŞ ANLAMLI",
+          "hint": "Aynı."
+        },
+        {
+          "word": "ZIT ANLAMLI",
+          "hint": "Karşıt."
+        },
+        {
+          "word": "YANSILAMA",
+          "hint": "Ses."
+        },
+        {
+          "word": "SES OLAYI",
+          "hint": "Dil."
+        },
+        {
+          "word": "ÜNSÜZ BENZEŞMESİ",
+          "hint": "Sertleşme."
+        },
+        {
+          "word": "ÜNSÜZ BENZERLİĞİ",
+          "hint": "Sert."
+        },
+        {
+          "word": "TÜREMİŞ KELİME",
+          "hint": "Ekli."
+        },
+        {
+          "word": "BİRLEŞİK KELİME",
+          "hint": "İki."
+        },
+        {
+          "word": "BAĞIMSIZ CÜMLE",
+          "hint": "Tek."
+        },
+        {
+          "word": "BAĞIMLI CÜMLE",
+          "hint": "Bağlı."
+        },
+        {
+          "word": "SIRALAMA CÜMLE",
+          "hint": "Virgül."
+        },
+        {
+          "word": "GELİŞMİŞ",
+          "hint": "İleri."
+        },
+        {
+          "word": "İLERİCİ",
+          "hint": "Modern."
+        },
+        {
+          "word": "YAKLAŞIM",
+          "hint": "Bakış."
+        },
+        {
+          "word": "DEĞERLENDİRME",
+          "hint": "Önem."
+        },
+        {
+          "word": "MENKIBE",
+          "hint": "Evliya."
+        },
+        {
+          "word": "HİKAYE",
+          "hint": "Kısa."
+        },
+        {
+          "word": "BİYOGRAFİ",
+          "hint": "Yaşam."
+        },
+        {
+          "word": "OTOBİYOGRAFİ",
+          "hint": "Kendi."
+        },
+        {
+          "word": "ANI",
+          "hint": "Geçmiş."
+        },
+        {
+          "word": "GEZİ YAZISI",
+          "hint": "Seyahat."
+        },
+        {
+          "word": "ELEŞTİRİ",
+          "hint": "Yorum."
+        },
+        {
+          "word": "TELEVİZYON",
+          "hint": "Görüntü."
+        },
+        {
+          "word": "WEB SİTESİ",
+          "hint": "Online."
+        },
+        {
+          "word": "İNTERNET TARAYICI",
+          "hint": "Web."
+        }
+      ]
     },
     {
       "id": "edebiyat_u6",
-      "name": "6. Ünite: Öğretici Metinler ve Dil Bilgisi",
+      "name": "6. Ünite: Anı/Günlük/Biyografi/Otobiyografi",
       "months": [
+        4
+      ],
+      "words": [
+        {
+          "word": "METAFOR",
+          "hint": "Bir şeyi başka bir şey benzeterek anlatma sanatı."
+        },
+        {
+          "word": "SEMPATİK",
+          "hint": "İçten ve samimi davranışı olan."
+        },
+        {
+          "word": "ANALOJİ",
+          "hint": "Benzerliklerden yola çıkarak yapılan açıklama."
+        },
+        {
+          "word": "ELEŞTİRİ",
+          "hint": "Bir eseri veya konuyu inceleyip olumlu/olumsuz yönlerini belirtme."
+        },
+        {
+          "word": "PERSPEKTİF",
+          "hint": "Bir olaya veya konuya bakış açısı."
+        },
+        {
+          "word": "ARGÜMAN",
+          "hint": "Bir fikri savunmak için sunulan delil veya neden."
+        },
+        {
+          "word": "EMPİRİZM",
+          "hint": "Bilginin kaynağının deney olduğunu savunan felsefe."
+        },
+        {
+          "word": "RASYONEL",
+          "hint": "Akla, mantığa dayanan."
+        },
+        {
+          "word": "SOYUT",
+          "hint": "Somut olmayan, zihinde tasarlanan."
+        },
+        {
+          "word": "SOMUT",
+          "hint": "Dokunulabilen, gözle görülebilen."
+        },
+        {
+          "word": "ENTELEKTÜEL",
+          "hint": "Zihinsel uğraşlarla kendini geliştiren."
+        },
+        {
+          "word": "SENTEZ",
+          "hint": "Parçaları birleştirerek bütün oluşturma."
+        },
+        {
+          "word": "DİYALEKTİK",
+          "hint": "Karşılıklı konuşma veya fikir alışverişiyle gerçeği bulma yöntemi."
+        },
+        {
+          "word": "İRONİ",
+          "hint": "Söylenenin tersini kastederek alay etme."
+        },
+        {
+          "word": "SEMANTİK",
+          "hint": "Kelimelerin anlam bilimi."
+        },
+        {
+          "word": "SİMGESEL",
+          "hint": "Anlamı başka bir şeye işaret eden."
+        },
+        {
+          "word": "ONTOLOJİ",
+          "hint": "Varlığın ne olduğunu inceleyen felsefe dalı."
+        },
+        {
+          "word": "EPİSTEMOLOJİ",
+          "hint": "Bilginin doğasını ve kaynağını inceleyen felsefe dalı."
+        },
+        {
+          "word": "ETİK",
+          "hint": "Ahlak felsefesi."
+        },
+        {
+          "word": "ESTETİK",
+          "hint": "Güzellik anlayışı ve sanatı inceleyen felsefe dalı."
+        },
+        {
+          "word": "DEYİM",
+          "hint": "Kalıplaşmış, kendine özgü anlamı olan söz öbeği."
+        },
+        {
+          "word": "İKİLEME",
+          "hint": "Anlamı güçlendirmek için yan yana kullanılan aynı veya yakın kelimeler."
+        },
+        {
+          "word": "EDAT",
+          "hint": "Tek başına anlamı olmayan, kelimeler arasında ilgi kuran kelime."
+        },
+        {
+          "word": "BAĞLAÇ",
+          "hint": "Cümleleri veya kelimeleri birbirine bağlayan kelime."
+        },
+        {
+          "word": "ZARF",
+          "hint": "Fiilleri, fiilimsileri, sıfatları veya kendi türünden kelimeleri durum, zaman, yer bildiren kelime."
+        },
+        {
+          "word": "ÜNLÜ UYUŞMASI",
+          "hint": "Kelimelerdeki ünlü harflerin uyumlu olması kuralı."
+        },
+        {
+          "word": "ÜNSÜZ BENZEŞMESİ",
+          "hint": "Sert ünsüzlerin kendinden sonra gelen yumuşak ünsüzleri sertleştirmesi."
+        },
+        {
+          "word": "SES OLAYI",
+          "hint": "Konuşma sırasında seslerde meydana gelen değişiklikler."
+        },
+        {
+          "word": "TÜRETİM",
+          "hint": "Kökten yeni kelimeler oluşturma süreci."
+        },
+        {
+          "word": "BİRLEŞTİRME",
+          "hint": "İki kelimenin bir araya gelerek yeni bir kelime oluşturması."
+        },
+        {
+          "word": "EK-FİİL",
+          "hint": "İsim soylu kelimelere gelerek yüklem olmalarını sağlayan fiil."
+        },
+        {
+          "word": "ANLATIM BOZUKLUĞU",
+          "hint": "Cümledeki anlamın veya yapının bozuk olması."
+        },
+        {
+          "word": "ÖZLÜ SÖZ",
+          "hint": "Az kelimeyle çok şey anlatan veciz ifade."
+        },
+        {
+          "word": "ATASÖZÜ",
+          "hint": "Kültürel deneyimlerden doğan, öğüt veren kalıplaşmış söz."
+        },
+        {
+          "word": "TENKİT",
+          "hint": "Eleştiri kelimesinin diğer adı."
+        },
+        {
+          "word": "TARTIŞMA",
+          "hint": "Farklı görüşlerin ortaya konduğu fikir alışverişi."
+        },
+        {
+          "word": "BİLGİLENDİRME",
+          "hint": "Bir konu hakkında bilgi verme."
+        },
+        {
+          "word": "AÇIKLAMA",
+          "hint": "Bir konuyu daha anlaşılır kılma."
+        },
+        {
+          "word": "ÖĞÜT",
+          "hint": "Tavsiye, nasihat."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Uymak gereken ilke veya yöntem."
+        },
+        {
+          "word": "YÖNTEM",
+          "hint": "Bir işi başarma yolu."
+        },
+        {
+          "word": "İŞLEYİŞ",
+          "hint": "Bir sistemin veya mekanizmanın çalışma biçimi."
+        },
+        {
+          "word": "METODOLOJİ",
+          "hint": "Bilimsel araştırma yöntemlerinin bilimi."
+        },
+        {
+          "word": "GÖSTERGE",
+          "hint": "Bir şeyi temsil eden işaret."
+        },
+        {
+          "word": "GÖSTERİLEN",
+          "hint": "Göstergenin işaret ettiği şey."
+        },
+        {
+          "word": "ANLAM BİLİM",
+          "hint": "Semantik kelimesinin Türkçe karşılığı."
+        },
+        {
+          "word": "EYLEM BİLİM",
+          "hint": "Pratik felsefesi."
+        },
+        {
+          "word": "DURUM",
+          "hint": "Bir olayın veya kişinin içinde bulunduğu hal."
+        },
+        {
+          "word": "BAĞLAM",
+          "hint": "Bir kelimenin veya cümlenin içinde bulunduğu çevre."
+        },
+        {
+          "word": "KAVRAM",
+          "hint": "Bir nesne veya olayın zihindeki soyut karşılığı."
+        },
+        {
+          "word": "TEZ",
+          "hint": "Savunulan ana fikir."
+        },
+        {
+          "word": "ANTİTEZ",
+          "hint": "Teze karşı öne sürülen fikir."
+        }
+      ]
+    },
+    {
+      "id": "edebiyat_u7",
+      "name": "7. Ünite: Mektup/E-posta ve Diğer Öğretici Metinler",
+      "months": [
+        5,
         6
       ],
-      "words": []
+      "words": [
+        {
+          "word": "METİN",
+          "hint": "Yazılı veya sözlü anlatımın bütünü."
+        },
+        {
+          "word": "MEKTUP",
+          "hint": "Haberleşmek amacıyla yazılan kağıt."
+        },
+        {
+          "word": "E-POSTA",
+          "hint": "Elektronik ortamda gönderilen mesaj."
+        },
+        {
+          "word": "İLETİŞİM",
+          "hint": "Duygu, düşünce veya bilgilerin aktarılması."
+        },
+        {
+          "word": "HİTAP",
+          "hint": "Birine söz söyleme veya seslenme biçimi."
+        },
+        {
+          "word": "ÜSLUP",
+          "hint": "Bir düşünceyi anlatma, yazma veya konuşma biçimi."
+        },
+        {
+          "word": "MESAJ",
+          "hint": "Bir kişiye gönderilen haber veya bilgi."
+        },
+        {
+          "word": "GÖNDEREN",
+          "hint": "Mektubu veya e-postayı yollayan kişi."
+        },
+        {
+          "word": "ALICI",
+          "hint": "Mektubu veya e-postayı alan kişi."
+        },
+        {
+          "word": "DİLEKÇE",
+          "hint": "Bir kuruma istek veya şikayet bildiren yazı."
+        },
+        {
+          "word": "RAPOR",
+          "hint": "Bir konu hakkındaki araştırma veya inceleme sonucu hazırlanan yazı."
+        },
+        {
+          "word": "MAKALE",
+          "hint": "Bilimsel bir konuyu açıklayan veya savunan yazı türü."
+        },
+        {
+          "word": "DENEME",
+          "hint": "Yazarın herhangi bir konuda kesin hükümler vermeden kişisel görüşlerini aktardığı yazı."
+        },
+        {
+          "word": "ELEŞTİRİ",
+          "hint": "Bir eserin veya konunun olumlu ve olumsuz yönlerini inceleyen yazı."
+        },
+        {
+          "word": "BİYOGRAFİ",
+          "hint": "Tanınmış bir kişinin hayatını anlatan yazı."
+        },
+        {
+          "word": "OTOBİYOGRAFİ",
+          "hint": "Bir kişinin kendi hayatını anlattığı yazı."
+        },
+        {
+          "word": "ANI",
+          "hint": "Bir yazarın başından geçen olayları veya tanık olduklarını anlattığı yazı."
+        },
+        {
+          "word": "GEZİ YAZISI",
+          "hint": "Bir yazarın gezdiği yerleri ve gözlemlerini aktardığı yazı."
+        },
+        {
+          "word": "GÜNLÜK",
+          "hint": "Günlük olayların tarih atılarak günü gününe yazıldığı yazı türü."
+        },
+        {
+          "word": "ÖZGEÇMİŞ",
+          "hint": "Bir kişinin eğitim, iş ve deneyim bilgilerini içeren belge."
+        },
+        {
+          "word": "RESMÎ",
+          "hint": "Devlet dairelerinde veya ciddi işlerde kullanılan ciddi, kurallı dil."
+        },
+        {
+          "word": "NESNEL",
+          "hint": "Kişisel görüşlerden uzak, kanıtlanabilir nitelikte olan."
+        },
+        {
+          "word": "ÖZNEL",
+          "hint": "Kişisel duygu ve düşünceleri içeren."
+        },
+        {
+          "word": "BİLGİLENDİRME",
+          "hint": "Bir konu hakkında bilgi verme."
+        },
+        {
+          "word": "ÖĞRETİCİ",
+          "hint": "Bilgi vererek, açıklayarak yol gösteren."
+        },
+        {
+          "word": "TANIMLAMA",
+          "hint": "Bir kavramın ne olduğunu belirten açıklama."
+        },
+        {
+          "word": "AÇIKLAMA",
+          "hint": "Bir konuyu anlaşılır kılmak için yapılan anlatım."
+        },
+        {
+          "word": "ARGÜMAN",
+          "hint": "Bir iddiayı desteklemek için sunulan kanıt veya gerekçe."
+        },
+        {
+          "word": "TEZ",
+          "hint": "Savunulacak ana fikir veya iddia."
+        },
+        {
+          "word": "KANIT",
+          "hint": "Bir iddiayı veya gerçeği destekleyen belge veya bilgi."
+        },
+        {
+          "word": "VURGU",
+          "hint": "Bir sözün veya cümlenin bazı bölümlerini daha belirgin söyleme."
+        },
+        {
+          "word": "İFADE",
+          "hint": "Duygu veya düşünceleri söz veya yazı ile anlatma."
+        },
+        {
+          "word": "AKTARIM",
+          "hint": "Bilgi veya deneyimi bir yerden başka bir yere iletme."
+        },
+        {
+          "word": "BİÇİM",
+          "hint": "Bir yazının dış görünüşü, düzeni."
+        },
+        {
+          "word": "KAYIT",
+          "hint": "Yazılı veya sözlü olarak bir yere geçirme."
+        },
+        {
+          "word": "BELGE",
+          "hint": "Bir gerçeği kanıtlayan yazı, resim veya eşya."
+        },
+        {
+          "word": "EVRAK",
+          "hint": "Resmî dairelerde kullanılan yazışma kağıtları."
+        },
+        {
+          "word": "İMZA",
+          "hint": "Bir yazının altına adını yazarak onaylama."
+        },
+        {
+          "word": "PARAF",
+          "hint": "Bir belgenin her sayfasının altına atılan kısa imza."
+        },
+        {
+          "word": "DİPNOT",
+          "hint": "Bir metnin sayfa altında verilen açıklayıcı not."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Bir bilginin veya eserin alındığı yer."
+        },
+        {
+          "word": "ATIF",
+          "hint": "Bir yazı içinde başka bir kaynaktan alıntı yapma veya gönderme."
+        },
+        {
+          "word": "TEYİT",
+          "hint": "Bir bilginin doğru olduğunu onaylama."
+        },
+        {
+          "word": "ONAY",
+          "hint": "Bir şeyi kabul etme, doğrulama."
+        },
+        {
+          "word": "TERMİNOLOJİ",
+          "hint": "Bir bilim veya meslek dalına özgü terimler bütünü."
+        },
+        {
+          "word": "REDAKSİYON",
+          "hint": "Bir yazının dil ve anlatım yönünden düzeltilmesi."
+        },
+        {
+          "word": "EDİTÖR",
+          "hint": "Bir yayın organında yazıları denetleyen ve düzenleyen kişi."
+        },
+        {
+          "word": "MÜELLİF",
+          "hint": "Eseri yazan, yazar."
+        },
+        {
+          "word": "MUHABİR",
+          "hint": "Haber toplayıp yayımlayan kişi."
+        },
+        {
+          "word": "SÖYLEŞİ",
+          "hint": "İki veya daha fazla kişinin bir konuda karşılıklı konuşması, mülakat."
+        },
+        {
+          "word": "TEBRİK",
+          "hint": "Bir başarı veya sevinç durumunu kutlama."
+        },
+        {
+          "word": "DAVETİYE",
+          "hint": "Bir törene veya etkinliğe çağırma yazısı."
+        },
+        {
+          "word": "SAMİMİYET",
+          "hint": "İçtenlik, sıcakkanlılık."
+        },
+        {
+          "word": "PROTOKOL",
+          "hint": "Resmi ilişkilerde uyulması gereken kurallar bütünü."
+        },
+        {
+          "word": "İMLA",
+          "hint": "Yazım kuralları."
+        }
+      ]
     }
   ]
 }

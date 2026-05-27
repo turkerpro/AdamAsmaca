@@ -2,509 +2,2129 @@
   "units": [
     {
       "id": "ingilizce_u1",
-      "name": "1. Ünite: Travel",
+      "name": "Unit 1: Appearance and Personality",
       "months": [
-        9
+        9,
+        10
       ],
       "words": [
         {
-          "word": "PASSPORT",
-          "hint": "Yurt dışı seyahat için gerekli kimlik belgesi"
+          "word": "APPEARANCE",
+          "hint": "Dış görünüş"
         },
         {
-          "word": "LUGGAGE",
-          "hint": "Seyahatte taşınan bavul ve çantalar"
+          "word": "PERSONALITY",
+          "hint": "Kişilik, karakter"
         },
         {
-          "word": "BOARDING",
-          "hint": "Uçağa veya gemiye biniş işlemi"
+          "word": "HANDSOME",
+          "hint": "Yakışıklı"
         },
         {
-          "word": "DESTINATION",
-          "hint": "Yolculuğun son varış noktası"
+          "word": "BEAUTIFUL",
+          "hint": "Güzel"
         },
         {
-          "word": "JOURNEY",
-          "hint": "Bir yerden başka bir yere yapılan yolculuk"
+          "word": "ATTRACTIVE",
+          "hint": "Çekici"
         },
         {
-          "word": "UÇAK",
-          "hint": "Gökyüzünde seyahat etmemizi sağlayan büyük bir araç."
+          "word": "SLIM",
+          "hint": "İnce, zayıf"
         },
         {
-          "word": "Bİ̇LET",
-          "hint": "Uçağa veya trene binmek için gereken kağıt ya da dijital belge."
+          "word": "WELL-BUILT",
+          "hint": "Yapılı, kaslı"
         },
         {
-          "word": "VALİ̇Z",
-          "hint": "Eşyalarımızı taşımak için kullandığımız büyük çanta."
+          "word": "PLUMP",
+          "hint": "Balık etli, tombul"
         },
         {
-          "word": "PASAPORT",
-          "hint": "Yurt dışına seyahat ederken kimliğimizi kanıtlayan resmi belge."
+          "word": "OVERWEIGHT",
+          "hint": "Kilolu"
         },
         {
-          "word": "GÜMRÜK",
-          "hint": "Ülkeye girerken veya çıkarken eşyalarımızı kontrol eden yer."
+          "word": "MEDIUM HEIGHT",
+          "hint": "Orta boylu"
         },
         {
-          "word": "REHBER",
-          "hint": "Gezdiğimiz yerleri tanıtan ve bize yol gösteren kişi."
+          "word": "CURLY",
+          "hint": "Kıvırcık"
         },
         {
-          "word": "OLEY",
-          "hint": "Genellikle tatillerde kullanılan, dinlenmek ve eğlenmek için gidilen yer."
+          "word": "STRAIGHT",
+          "hint": "Düz"
         },
         {
-          "word": "SEYAHAT",
-          "hint": "Bir yerden başka bir yere gitme eylemi."
+          "word": "WAVY",
+          "hint": "Dalgalı"
         },
         {
-          "word": "BAGAJ",
-          "hint": "Uçak veya otobüsle taşınan eşyaların tümü."
+          "word": "BALD",
+          "hint": "Kel"
         },
         {
-          "word": "BAKİYORUM",
-          "hint": "Bir yere gitmeden önce aldığımız, uçuş saatini gösteren belge."
+          "word": "FAIR",
+          "hint": "Açık tenli, kumral"
         },
         {
-          "word": "HAVAALANİ",
-          "hint": "Uçakların kalktığı ve indiği büyük tesis."
+          "word": "DARK",
+          "hint": "Koyu renkli (ten veya saç)"
         },
         {
-          "word": "Gİ̇DEN",
-          "hint": "Uçağa binmeden önce kimliğimizi kontrol eden görevli."
+          "word": "GENEROUS",
+          "hint": "Cömert"
         },
         {
-          "word": "SAAT",
-          "hint": "Uçağın veya trenin kalkacağı zamanı gösteren."
+          "word": "SELFISH",
+          "hint": "Bencil"
         },
         {
-          "word": "VARACAĞİM",
-          "hint": "Gideceğimiz yer, tatil yapacağımız şehir veya ülke."
+          "word": "OUTGOING",
+          "hint": "Dışa dönük, sosyal"
         },
         {
-          "word": "YOLCULUK",
-          "hint": "Bir yere gitmek için harcanan zaman ve mesafe."
+          "word": "SHY",
+          "hint": "Utangaç"
         },
         {
-          "word": "OTEL",
-          "hint": "Seyahat edenlerin konakladığı yer."
+          "word": "STUBBORN",
+          "hint": "İnatçı"
         },
         {
-          "word": "MANZARA",
-          "hint": "Görülecek yerlerin güzelliği."
+          "word": "HONEST",
+          "hint": "Dürüst"
         },
         {
-          "word": "HATİRA",
-          "hint": "Seyahatten alınacak küçük hediyelik eşyalar."
+          "word": "PUNCTUAL",
+          "hint": "Dakik"
         },
         {
-          "word": "TATİ̇L",
-          "hint": "Okul veya işten uzaklaşıp dinlenilen zaman."
+          "word": "HELPFUL",
+          "hint": "Yardımsever"
         },
         {
-          "word": "KEŞFETMEK",
-          "hint": "Yeni yerler ve kültürler öğrenmek."
+          "word": "AMBITIOUS",
+          "hint": "Hırslı"
         },
         {
-          "word": "GÖRMEK",
-          "hint": "Seyahat ettiğimiz yerlerdeki ilginç yapıları incelemek."
+          "word": "CHEERFUL",
+          "hint": "Neşeli"
         },
         {
-          "word": "Dİ̇NLENMEK",
-          "hint": "Tatil sırasında yapılan sakinleştirici aktiviteler."
+          "word": "EASY-GOING",
+          "hint": "Uyumlu, rahat"
         },
         {
-          "word": "EĞLENMEK",
-          "hint": "Seyahat sırasında keyifli vakit geçirmek."
+          "word": "HARD-WORKING",
+          "hint": "Çalışkan"
         },
         {
-          "word": "FOTOĞRAF",
-          "hint": "Seyahat anılarını ölümsüzleştirmek için çekilen resim."
+          "word": "LAZY",
+          "hint": "Tembel"
         },
         {
-          "word": "YOL",
-          "hint": "Bir yere ulaşmak için izlenen güzergah."
+          "word": "FORGETFUL",
+          "hint": "Unutkan"
         },
         {
-          "word": "BAŞKA",
-          "hint": "Farklı, değişik."
+          "word": "PATIENT",
+          "hint": "Sabırlı"
         },
         {
-          "word": "ÜLKE",
-          "hint": "Bir milletin yaşadığı ve kendi yönetiminin olduğu toprak parçası."
+          "word": "IMPATIENT",
+          "hint": "Sabırsız"
         },
         {
-          "word": "ŞEHİ̇R",
-          "hint": "Büyük yerleşim yeri."
+          "word": "POLITE",
+          "hint": "Nazik"
         },
         {
-          "word": "KÖY",
-          "hint": "Küçük yerleşim yeri."
+          "word": "RUDE",
+          "hint": "Kaba"
         },
         {
-          "word": "DENİ̇Z",
-          "hint": "Geniş ve tuzlu su kütlesi."
+          "word": "THOUGHTFUL",
+          "hint": "Düşünceli"
         },
         {
-          "word": "DAĞ",
-          "hint": "Yüksek yeryüzü şekli."
+          "word": "CLUMSY",
+          "hint": "Sakar"
         },
         {
-          "word": "ORMAN",
-          "hint": "Ağaçlarla kaplı geniş alan."
+          "word": "RELIABLE",
+          "hint": "Güvenilir"
         },
         {
-          "word": "MÜZE",
-          "hint": "Tarihi ve sanatsal eserlerin sergilendiği yer."
+          "word": "FUNNY",
+          "hint": "Komik"
         },
         {
-          "word": "TARİ̇Hİ̇",
-          "hint": "Geçmişe ait, eski."
+          "word": "SERIOUS",
+          "hint": "Ciddi"
         },
         {
-          "word": "YER",
-          "hint": "Bir mekan, bir bölge."
+          "word": "CARING",
+          "hint": "İlgili, şefkatli"
         },
         {
-          "word": "Vİ̇Zİ̇T",
-          "hint": "Belirli bir ülkeye giriş izni."
+          "word": "ADVENTUROUS",
+          "hint": "Maceracı"
         },
         {
-          "word": "YAKİT",
-          "hint": "Uçağın veya arabanın çalışmasını sağlayan madde."
+          "word": "SUPPORTIVE",
+          "hint": "Destekleyici"
         },
         {
-          "word": "KAPTAN",
-          "hint": "Uçağın veya geminin idarecisi."
+          "word": "TALENTED",
+          "hint": "Yetenekli"
         },
         {
-          "word": "Pİ̇LOT",
-          "hint": "Uçağı uçuran kişi."
+          "word": "QUIET",
+          "hint": "Sessiz"
         },
         {
-          "word": "KABİ̇N",
-          "hint": "Uçağın yolcu bölümü."
+          "word": "SMART",
+          "hint": "Zeki"
         },
         {
-          "word": "KOKPİ̇T",
-          "hint": "Uçağın pilotların oturduğu ön bölümü."
+          "word": "AVERAGE",
+          "hint": "Ortalama"
         },
         {
-          "word": "İ̇STASYON",
-          "hint": "Trenlerin durduğu ve yolcu aldığı yer."
+          "word": "SHOULDER-LENGTH",
+          "hint": "Omuz hizasında"
         },
         {
-          "word": "İ̇Nİ̇Ş",
-          "hint": "Uçağın yere konması."
+          "word": "SPIKY",
+          "hint": "Diken diken (saç)"
         },
         {
-          "word": "KALKİŞ",
-          "hint": "Uçağın yerden havalanması."
+          "word": "MEAN",
+          "hint": "Kötü kalpli, cimri"
         },
         {
-          "word": "BAĞLANTİ",
-          "hint": "Aktarma yapılan uçuş veya şehir."
+          "word": "WELL-BEHAVED",
+          "hint": "Uslu, terbiyeli, iyi huylu"
         },
         {
-          "word": "HARİ̇TA",
-          "hint": "Yerleri gösteren çizim."
+          "word": "CREATIVE",
+          "hint": "Yaratıcı, özgün fikirleri olan"
         },
         {
-          "word": "VAKİ̇T",
-          "hint": "Zaman, süre."
+          "word": "KIND",
+          "hint": "Nazik, kibar, iyi kalpli"
         },
         {
-          "word": "ÖZGÜRLÜK",
-          "hint": "Tatilde hissedilen rahatlık."
+          "word": "THIN",
+          "hint": "İnce, zayıf"
         },
         {
-          "word": "MACERA",
-          "hint": "Heyecan verici, riskli deneyim."
-        },
-        {
-          "word": "BELGESEL",
-          "hint": "Seyahatle ilgili eğitici film."
-        },
-        {
-          "word": "GEZİ̇",
-          "hint": "Kısa süreli seyahat."
+          "word": "JUNIOR",
+          "hint": "Genç, yaşı daha küçük olan"
         }
       ]
     },
     {
       "id": "ingilizce_u2",
-      "name": "2. Ünite: Environment",
+      "name": "Unit 2: Biography",
       "months": [
-        10
+        10,
+        11
       ],
       "words": [
         {
-          "word": "POLLUTION",
-          "hint": "Çevreyi kirleten zararlı maddelerin yayılması"
+          "word": "BIOGRAPHY",
+          "hint": "Bir kişinin hayat hikayesi, biyografi"
         },
         {
-          "word": "RECYCLE",
-          "hint": "Atıkları yeniden kullanılabilir hale getirme"
+          "word": "ACHIEVEMENT",
+          "hint": "Başarı, elde edilen sonuç"
         },
         {
-          "word": "CLIMATE",
-          "hint": "Bir bölgenin uzun süreli hava koşulları"
+          "word": "AWARD",
+          "hint": "Ödül"
+        },
+        {
+          "word": "BORN",
+          "hint": "Doğmak"
+        },
+        {
+          "word": "DATE OF BIRTH",
+          "hint": "Doğum tarihi"
+        },
+        {
+          "word": "PLACE OF BIRTH",
+          "hint": "Doğum yeri"
+        },
+        {
+          "word": "CHILDHOOD",
+          "hint": "Çocukluk dönemi"
+        },
+        {
+          "word": "GRADUATE",
+          "hint": "Mezun olmak"
+        },
+        {
+          "word": "UNIVERSITY",
+          "hint": "Üniversite"
+        },
+        {
+          "word": "MARRIED",
+          "hint": "Evli"
+        },
+        {
+          "word": "DIED",
+          "hint": "Vefat etti, öldü"
+        },
+        {
+          "word": "INVENT",
+          "hint": "İcat etmek"
+        },
+        {
+          "word": "INVENTION",
+          "hint": "İcat, buluş"
+        },
+        {
+          "word": "SCIENTIST",
+          "hint": "Bilim insanı"
+        },
+        {
+          "word": "DISCOVER",
+          "hint": "Keşfetmek"
+        },
+        {
+          "word": "DISCOVERY",
+          "hint": "Keşif"
+        },
+        {
+          "word": "SUCCESSFUL",
+          "hint": "Başarılı"
+        },
+        {
+          "word": "FAIL",
+          "hint": "Başarısız olmak"
+        },
+        {
+          "word": "FAMOUS",
+          "hint": "Ünlü, meşhur"
+        },
+        {
+          "word": "LEADER",
+          "hint": "Lider"
+        },
+        {
+          "word": "ARTIST",
+          "hint": "Sanatçı"
+        },
+        {
+          "word": "AUTHOR",
+          "hint": "Yazar"
+        },
+        {
+          "word": "POET",
+          "hint": "Şair"
+        },
+        {
+          "word": "MUSICIAN",
+          "hint": "Müzisyen"
+        },
+        {
+          "word": "CAREER",
+          "hint": "Kariyer, meslek yaşamı"
+        },
+        {
+          "word": "MOVE",
+          "hint": "Taşınmak"
+        },
+        {
+          "word": "GROW UP",
+          "hint": "Büyümek"
+        },
+        {
+          "word": "PRIMARY SCHOOL",
+          "hint": "İlkokul"
+        },
+        {
+          "word": "HIGH SCHOOL",
+          "hint": "Lise"
+        },
+        {
+          "word": "TRAINING",
+          "hint": "Eğitim, öğretim"
+        },
+        {
+          "word": "PASS AWAY",
+          "hint": "Hayatını kaybetmek (kibarca)"
+        },
+        {
+          "word": "HISTORY",
+          "hint": "Tarih"
+        },
+        {
+          "word": "IMPORTANT",
+          "hint": "Önemli"
+        },
+        {
+          "word": "CONTRIBUTION",
+          "hint": "Katkı"
+        },
+        {
+          "word": "EXCITING",
+          "hint": "Heyecan verici"
+        },
+        {
+          "word": "CHALLENGING",
+          "hint": "Zorlu, mücadele gerektiren"
+        },
+        {
+          "word": "DETERMINED",
+          "hint": "Kararlı"
+        },
+        {
+          "word": "HARDWORKING",
+          "hint": "Çalışkan"
+        },
+        {
+          "word": "BRILLIANT",
+          "hint": "Zeki, dahi"
+        },
+        {
+          "word": "FOUND",
+          "hint": "Kurmak, temelini atmak"
+        },
+        {
+          "word": "TAKE PLACE",
+          "hint": "Meydana gelmek, yer almak"
+        },
+        {
+          "word": "PUBLIC",
+          "hint": "Halka açık, kamu"
+        },
+        {
+          "word": "INTERESTED IN",
+          "hint": "İlgili, meraklı"
+        },
+        {
+          "word": "PASSIONATE",
+          "hint": "Tutkulu"
+        },
+        {
+          "word": "WINNER",
+          "hint": "Kazanan"
+        },
+        {
+          "word": "EXPERIENCE",
+          "hint": "Deneyim, tecrübe"
+        },
+        {
+          "word": "SKILL",
+          "hint": "Yetenek, beceri"
+        },
+        {
+          "word": "LEGENDARY",
+          "hint": "Efsanevi"
+        },
+        {
+          "word": "INFLUENTIAL",
+          "hint": "Etkili, sözü geçen"
+        },
+        {
+          "word": "PERSONALITY",
+          "hint": "Kişilik"
+        }
+      ]
+    },
+    {
+      "id": "ingilizce_u3",
+      "name": "Unit 3: Sports",
+      "months": [
+        11,
+        12
+      ],
+      "words": [
+        {
+          "word": "ATHLETE",
+          "hint": "Sporcu"
+        },
+        {
+          "word": "TOURNAMENT",
+          "hint": "Turnuva"
+        },
+        {
+          "word": "CHAMPION",
+          "hint": "Şampiyon"
+        },
+        {
+          "word": "SCORE",
+          "hint": "Skor, puan"
+        },
+        {
+          "word": "REFEREE",
+          "hint": "Hakem"
+        },
+        {
+          "word": "STADIUM",
+          "hint": "Stadyum"
+        },
+        {
+          "word": "EQUIPMENT",
+          "hint": "Ekipman, donanım"
+        },
+        {
+          "word": "OPPONENT",
+          "hint": "Rakip"
+        },
+        {
+          "word": "PRACTICE",
+          "hint": "Antrenman yapmak, pratik yapmak"
+        },
+        {
+          "word": "MEDAL",
+          "hint": "Madalya"
+        },
+        {
+          "word": "GOAL",
+          "hint": "Gol, amaç"
+        },
+        {
+          "word": "MATCH",
+          "hint": "Maç, karşılaşma"
+        },
+        {
+          "word": "VICTORY",
+          "hint": "Zafer, galibiyet"
+        },
+        {
+          "word": "DEFEAT",
+          "hint": "Yenilgi, mağlubiyet"
+        },
+        {
+          "word": "PROFESSIONAL",
+          "hint": "Profesyonel"
+        },
+        {
+          "word": "AMATEUR",
+          "hint": "Amatör"
+        },
+        {
+          "word": "INDIVIDUAL SPORT",
+          "hint": "Bireysel spor"
+        },
+        {
+          "word": "TEAM SPORT",
+          "hint": "Takım sporu"
+        },
+        {
+          "word": "SPECTATOR",
+          "hint": "Seyirci"
+        },
+        {
+          "word": "COACH",
+          "hint": "Antrenör, koç"
+        },
+        {
+          "word": "TRAINING",
+          "hint": "Antrenman, eğitim"
+        },
+        {
+          "word": "SKILL",
+          "hint": "Yetenek, beceri"
+        },
+        {
+          "word": "RULES",
+          "hint": "Kurallar"
+        },
+        {
+          "word": "ACTIVE",
+          "hint": "Aktif, hareketli"
+        },
+        {
+          "word": "FIT",
+          "hint": "Zinde, sağlıklı"
+        },
+        {
+          "word": "EXERCISE",
+          "hint": "Egzersiz yapmak"
+        },
+        {
+          "word": "JOGGING",
+          "hint": "Hafif tempolu koşu"
+        },
+        {
+          "word": "ARCHERY",
+          "hint": "Okçuluk"
+        },
+        {
+          "word": "WRESTLING",
+          "hint": "Güreş"
+        },
+        {
+          "word": "FENCING",
+          "hint": "Eskrim"
+        },
+        {
+          "word": "CYCLING",
+          "hint": "Bisiklet sürme"
+        },
+        {
+          "word": "ICE SKATING",
+          "hint": "Buz pateni"
+        },
+        {
+          "word": "GYMNASTICS",
+          "hint": "Jimnastik"
+        },
+        {
+          "word": "WEIGHTLIFTING",
+          "hint": "Halter"
+        },
+        {
+          "word": "BADMINTON",
+          "hint": "Badminton"
+        },
+        {
+          "word": "DIVING",
+          "hint": "Dalış"
+        },
+        {
+          "word": "SAILING",
+          "hint": "Yelken sporu"
+        },
+        {
+          "word": "SKIING",
+          "hint": "Kayak yapma"
+        },
+        {
+          "word": "CLIMBING",
+          "hint": "Tırmanma"
+        },
+        {
+          "word": "HORSE RIDING",
+          "hint": "At binme"
+        },
+        {
+          "word": "TABLE TENNIS",
+          "hint": "Masa tenisi"
+        },
+        {
+          "word": "GO CAMPING",
+          "hint": "Kampa gitmek"
+        },
+        {
+          "word": "JOIN",
+          "hint": "Katılmak"
+        },
+        {
+          "word": "SUPPORT",
+          "hint": "Desteklemek"
+        },
+        {
+          "word": "FAIR PLAY",
+          "hint": "Dürüst oyun, centilmenlik"
+        },
+        {
+          "word": "WARM UP",
+          "hint": "Isınmak"
+        },
+        {
+          "word": "DRAW",
+          "hint": "Berabere kalmak"
+        },
+        {
+          "word": "TROPHY",
+          "hint": "Kupa"
+        },
+        {
+          "word": "OUTDOOR",
+          "hint": "Açık hava"
+        },
+        {
+          "word": "INDOOR",
+          "hint": "Kapalı alan"
+        }
+      ]
+    },
+    {
+      "id": "ingilizce_u4",
+      "name": "Unit 4: Wild Animals",
+      "months": [
+        1,
+        2
+      ],
+      "words": [
+        {
+          "word": "WILD ANIMAL",
+          "hint": "Vahşi hayvan"
+        },
+        {
+          "word": "PREDATOR",
+          "hint": "Yırtıcı hayvan"
+        },
+        {
+          "word": "PREY",
+          "hint": "Av"
+        },
+        {
+          "word": "HABITAT",
+          "hint": "Doğal yaşam alanı"
+        },
+        {
+          "word": "EXTINCT",
+          "hint": "Nesli tükenmiş"
         },
         {
           "word": "ENDANGERED",
           "hint": "Nesli tükenme tehlikesi altında olan"
         },
         {
-          "word": "HABITAT",
-          "hint": "Canlıların doğal yaşam alanı"
+          "word": "REPTILE",
+          "hint": "Sürüngen"
         },
         {
-          "word": "DOĞA",
-          "hint": "Üzerinde yaşadığımız, canlı ve cansız varlıkları barındıran geniş alan."
+          "word": "MAMMAL",
+          "hint": "Memeli hayvan"
         },
         {
-          "word": "ÇEVRE",
-          "hint": "Bir canlının içinde yaşadığı, onu etkileyen her şey."
+          "word": "CARNIVORE",
+          "hint": "Etçil"
         },
         {
-          "word": "AĞAÇ",
-          "hint": "Yaprakları olan, kereste ve meyve veren büyük bitki."
+          "word": "HERBIVORE",
+          "hint": "Otçul"
         },
         {
-          "word": "ORMAN",
-          "hint": "Birçok ağacın bir arada bulunduğu geniş alan."
+          "word": "OMNIVORE",
+          "hint": "Hem etçil hem otçul"
         },
         {
-          "word": "NEHİ̇R",
-          "hint": "Denize veya göle dökülen büyük su yolu."
+          "word": "CLAWS",
+          "hint": "Pençeler"
         },
         {
-          "word": "GÖL",
-          "hint": "Etrafı kara ile çevrili büyük durgun su kütlesi."
+          "word": "WINGS",
+          "hint": "Kanatlar"
         },
         {
-          "word": "OKYANUS",
-          "hint": "Dünyanın büyük bir kısmını kaplayan çok büyük tuzlu su kütlesi."
+          "word": "FEATHERS",
+          "hint": "Tüyler"
         },
         {
-          "word": "DAĞ",
-          "hint": "Yüksek ve sarp yeryüzü şekli."
+          "word": "FUR",
+          "hint": "Kürk"
         },
         {
-          "word": "OVA",
-          "hint": "Düz ve geniş arazi."
+          "word": "SCALE",
+          "hint": "Pul"
         },
         {
-          "word": "VAHA",
-          "hint": "Çöl içindeki su kaynağı ve çevresindeki yeşil alan."
+          "word": "TAIL",
+          "hint": "Kuyruk"
         },
         {
-          "word": "Bİ̇TKİ̇",
-          "hint": "Kökü, gövdesi ve yaprakları olan canlı varlık."
+          "word": "TUSK",
+          "hint": "Fildişi veya uzun diş"
         },
         {
-          "word": "HAYVAN",
-          "hint": "Yürüyebilen, beslenebilen, çoğalabilen canlı varlık."
+          "word": "TRUNK",
+          "hint": "Fil hortumu"
         },
         {
-          "word": "KUŞ",
-          "hint": "Kanatları olan, uçabilen hayvan."
+          "word": "SPECIES",
+          "hint": "Tür"
         },
         {
-          "word": "BALİK",
-          "hint": "Suda yaşayan, solungaçlarıyla nefes alan hayvan."
+          "word": "PROTECT",
+          "hint": "Korumak"
         },
         {
-          "word": "BÖCEK",
-          "hint": "Küçük, genellikle altı bacaklı eklembacaklı."
+          "word": "ENVIRONMENT",
+          "hint": "Çevre"
         },
         {
-          "word": "SOYU TÜKENMEK",
-          "hint": "Bir canlının artık yeryüzünde hiç kalmaması durumu."
+          "word": "POLLUTION",
+          "hint": "Kirlilik"
         },
         {
-          "word": "YAŞAM ALANİ",
-          "hint": "Bir canlının beslenip barındığı yer."
+          "word": "DEFORESTATION",
+          "hint": "Ormansızlaşma"
         },
         {
-          "word": "GEZEGEN",
-          "hint": "Güneş etrafında dönen gök cismi."
+          "word": "GLOBAL WARMING",
+          "hint": "Küresel ısınma"
         },
         {
-          "word": "ATMOSFER",
-          "hint": "Dünyayı saran gaz tabakası."
+          "word": "DANGEROUS",
+          "hint": "Tehlikeli"
         },
         {
-          "word": "İ̇KLİ̇M DEĞİ̇Şİ̇KLİ̇Ğİ̇",
-          "hint": "Uzun süreli hava durumu değişimleri."
+          "word": "HUGE",
+          "hint": "Devasa, çok büyük"
         },
         {
-          "word": "KÜRESEL İSİNMA",
-          "hint": "Dünya'nın ortalama sıcaklığının artması."
+          "word": "TINY",
+          "hint": "Çok küçük, minik"
         },
         {
-          "word": "TEHLİ̇KE",
-          "hint": "Zarar görme veya kötü bir şey olma ihtimali."
+          "word": "POISONOUS",
+          "hint": "Zehirli"
         },
         {
-          "word": "Kİ̇RLİ̇Lİ̇K",
-          "hint": "Çevreye zararlı maddelerin karışması."
+          "word": "DOMESTIC",
+          "hint": "Evcil"
         },
         {
-          "word": "ATİK",
-          "hint": "Kullanıldıktan sonra işe yaramayan madde."
+          "word": "JUNGLE",
+          "hint": "Yağmur ormanı, sık orman"
         },
         {
-          "word": "GERİ̇ DÖNÜŞÜM",
-          "hint": "Kullanılmış eşyaları tekrar kullanılabilir hale getirme süreci."
+          "word": "DESERT",
+          "hint": "Çöl"
         },
         {
-          "word": "KORUMAK",
-          "hint": "Bir şeyi zarar görmekten sakınmak."
+          "word": "OCEAN",
+          "hint": "Okyanus"
         },
         {
-          "word": "TASARRUF",
-          "hint": "Meydana gelen israfı önlemek."
+          "word": "WILDLIFE",
+          "hint": "Yaban hayatı"
         },
         {
-          "word": "ENERJİ̇",
-          "hint": "İş yapabilme gücü."
+          "word": "ROAR",
+          "hint": "Kükremek"
         },
         {
-          "word": "SU KAYNAĞİ",
-          "hint": "Suyun bulunduğu yer veya elde edildiği yer."
+          "word": "HUNT",
+          "hint": "Avlanmak"
         },
         {
-          "word": "HAVA KALİ̇TESİ̇",
-          "hint": "Soluduğumuz havanın temizlik derecesi."
+          "word": "FEED",
+          "hint": "Beslemek"
         },
         {
-          "word": "TOPRAK",
-          "hint": "Yeryüzünün üst katmanı, bitkilerin yetiştiği yer."
+          "word": "ATTACK",
+          "hint": "Saldırmak"
         },
         {
-          "word": "Bİ̇YOSFER",
-          "hint": "Canlıların yaşadığı, atmosfer, litosfer ve hidrosferin birleştiği alan."
+          "word": "SURVIVE",
+          "hint": "Hayatta kalmak"
         },
         {
-          "word": "EKOSİ̇STEM",
-          "hint": "Belirli bir alandaki canlılar ve cansız çevre arasındaki etkileşim."
+          "word": "CREATURE",
+          "hint": "Yaratık, canlı"
         },
         {
-          "word": "Mİ̇GRASYON",
-          "hint": "Hayvanların mevsimlere göre yer değiştirmesi."
+          "word": "SNOUT",
+          "hint": "Hayvan burnu veya ağız yapısı"
         },
         {
-          "word": "SOY",
-          "hint": "Ortak atadan gelen canlı topluluğu."
+          "word": "BEAK",
+          "hint": "Gaga"
         },
         {
-          "word": "ÇEVRE Bİ̇Lİ̇NCİ̇",
-          "hint": "Çevre sorunları hakkında bilgi sahibi olma ve duyarlılık."
+          "word": "FIN",
+          "hint": "Yüzgeç"
         },
         {
-          "word": "DOĞAL AFET",
-          "hint": "Deprem, sel, fırtına gibi doğanın sebep olduğu büyük olay."
+          "word": "STRIPES",
+          "hint": "Çizgiler"
         },
         {
-          "word": "KAYNAK",
-          "hint": "Bir şeyin elde edildiği veya üretildiği yer."
+          "word": "SPOTS",
+          "hint": "Benekler"
         },
         {
-          "word": "SÜRDÜRÜLEBİ̇Lİ̇RLİ̇K",
-          "hint": "Doğal kaynakları tüketmeden gelecek nesillerin ihtiyaçlarını karşılama."
+          "word": "CAMOUFLAGE",
+          "hint": "Kamuflaj"
         },
         {
-          "word": "Vİ̇RÜS",
-          "hint": "Çok küçük, canlı hücrelere zarar verebilen mikroskobik varlık."
+          "word": "CLIMATE CHANGE",
+          "hint": "İklim değişikliği"
         },
         {
-          "word": "BAKTERİ̇",
-          "hint": "Tek hücreli mikroskobik canlı."
+          "word": "NATURAL BALANCE",
+          "hint": "Doğal denge"
         },
         {
-          "word": "MASKE",
-          "hint": "Yüzü örtmek için kullanılan araç."
+          "word": "CONSERVATION",
+          "hint": "Koruma, muhafaza"
         },
         {
-          "word": "EL YİKAMA",
-          "hint": "Elleri sabun ve suyla temizleme eylemi."
-        },
-        {
-          "word": "MESAFE",
-          "hint": "İki nokta arasındaki uzaklık."
-        },
-        {
-          "word": "ECOSYSTEM",
-          "hint": "A biological community of interacting organisms and their physical environment"
+          "word": "LIFESPAN",
+          "hint": "Ömür süresi"
         }
       ]
     },
     {
-      "id": "ingilizce_u3",
-      "name": "Unit 3: In the Classroom",
-      "months": [
-        11
-      ],
-      "words": []
-    },
-    {
-      "id": "ingilizce_u4",
-      "name": "Unit 4: Numbers and Colors",
-      "months": [
-        12
-      ],
-      "words": []
-    },
-    {
       "id": "ingilizce_u5",
-      "name": "Unit 5: Toys and Games",
+      "name": "Unit 5: Television",
       "months": [
-        1
+        2,
+        3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "TELEVISION",
+          "hint": "Televizyon"
+        },
+        {
+          "word": "PROGRAMME",
+          "hint": "Program"
+        },
+        {
+          "word": "CHANNEL",
+          "hint": "Kanal"
+        },
+        {
+          "word": "REMOTE CONTROL",
+          "hint": "Uzaktan kumanda"
+        },
+        {
+          "word": "DOCUMENTARY",
+          "hint": "Belgesel"
+        },
+        {
+          "word": "CARTOON",
+          "hint": "Çizgi film"
+        },
+        {
+          "word": "NEWS",
+          "hint": "Haberler"
+        },
+        {
+          "word": "WEATHER FORECAST",
+          "hint": "Hava durumu tahmini"
+        },
+        {
+          "word": "COOKING SHOW",
+          "hint": "Yemek programı"
+        },
+        {
+          "word": "TALK SHOW",
+          "hint": "Sohbet programı"
+        },
+        {
+          "word": "SERIES",
+          "hint": "Dizi"
+        },
+        {
+          "word": "COMMERCIAL",
+          "hint": "Reklam"
+        },
+        {
+          "word": "VIEWER",
+          "hint": "İzleyici"
+        },
+        {
+          "word": "EPISODE",
+          "hint": "Bölüm"
+        },
+        {
+          "word": "BROADCAST",
+          "hint": "Yayın yapmak"
+        },
+        {
+          "word": "ENTERTAINMENT",
+          "hint": "Eğlence"
+        },
+        {
+          "word": "EDUCATIONAL",
+          "hint": "Eğitici"
+        },
+        {
+          "word": "INFORMATIVE",
+          "hint": "Bilgilendirici"
+        },
+        {
+          "word": "BORING",
+          "hint": "Sıkıcı"
+        },
+        {
+          "word": "EXCITING",
+          "hint": "Heyecan verici"
+        },
+        {
+          "word": "FUNNY",
+          "hint": "Komik"
+        },
+        {
+          "word": "VIOLENT",
+          "hint": "Şiddet içeren"
+        },
+        {
+          "word": "ADDICTED TO",
+          "hint": "Bağımlı olmak"
+        },
+        {
+          "word": "SCREEN",
+          "hint": "Ekran"
+        },
+        {
+          "word": "VOLUME",
+          "hint": "Ses seviyesi"
+        },
+        {
+          "word": "SWITCH ON",
+          "hint": "Açmak"
+        },
+        {
+          "word": "SWITCH OFF",
+          "hint": "Kapatmak"
+        },
+        {
+          "word": "CHANGE",
+          "hint": "Değiştirmek"
+        },
+        {
+          "word": "RECORD",
+          "hint": "Kaydetmek"
+        },
+        {
+          "word": "FAVOURITE",
+          "hint": "Favori"
+        },
+        {
+          "word": "OPINION",
+          "hint": "Fikir, görüş"
+        },
+        {
+          "word": "PREFER",
+          "hint": "Tercih etmek"
+        },
+        {
+          "word": "SHOULD",
+          "hint": "Gereklilik bildiren yardımcı fiil"
+        },
+        {
+          "word": "SCREEN TIME",
+          "hint": "Ekran başında geçirilen süre"
+        },
+        {
+          "word": "DISCUSSION",
+          "hint": "Tartışma"
+        },
+        {
+          "word": "QUIZ SHOW",
+          "hint": "Bilgi yarışması"
+        },
+        {
+          "word": "SPORTS PROGRAMME",
+          "hint": "Spor programı"
+        },
+        {
+          "word": "ADVERTISEMENT",
+          "hint": "Tanıtım, reklam"
+        },
+        {
+          "word": "HOST",
+          "hint": "Sunucu"
+        },
+        {
+          "word": "GUEST",
+          "hint": "Konuk"
+        },
+        {
+          "word": "AWFUL",
+          "hint": "Korkunç, çok kötü"
+        },
+        {
+          "word": "THRILLING",
+          "hint": "Gerilimli, heyecanlı"
+        },
+        {
+          "word": "CONTROLLING",
+          "hint": "Kontrol etme"
+        },
+        {
+          "word": "REMIND",
+          "hint": "Hatırlatmak"
+        },
+        {
+          "word": "SUGGEST",
+          "hint": "Öneride bulunmak"
+        },
+        {
+          "word": "WATCH",
+          "hint": "İzlemek"
+        },
+        {
+          "word": "CABLE TV",
+          "hint": "Kablolu televizyon"
+        },
+        {
+          "word": "SATELLITE",
+          "hint": "Uydu"
+        },
+        {
+          "word": "REALITY SHOW",
+          "hint": "Gerçeklik şovu"
+        },
+        {
+          "word": "MOVIE",
+          "hint": "Film"
+        }
+      ]
     },
     {
       "id": "ingilizce_u6",
-      "name": "Unit 6: My Body and Clothes",
+      "name": "Unit 6: Parties",
       "months": [
-        2
+        3,
+        4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "BIRTHDAY PARTY",
+          "hint": "Doğum günü partisi"
+        },
+        {
+          "word": "INVITATION CARD",
+          "hint": "Davetiye kartı"
+        },
+        {
+          "word": "CELEBRATE",
+          "hint": "Kutlamak"
+        },
+        {
+          "word": "GUEST",
+          "hint": "Misafir, konuk"
+        },
+        {
+          "word": "HOST",
+          "hint": "Ev sahibi"
+        },
+        {
+          "word": "BEVERAGE",
+          "hint": "İçecek"
+        },
+        {
+          "word": "SNACK",
+          "hint": "Atıştırmalık"
+        },
+        {
+          "word": "DECORATION",
+          "hint": "Süsleme, dekorasyon"
+        },
+        {
+          "word": "BALLOON",
+          "hint": "Balon"
+        },
+        {
+          "word": "CANDLE",
+          "hint": "Mum"
+        },
+        {
+          "word": "GIFT",
+          "hint": "Hediye"
+        },
+        {
+          "word": "PRESENT",
+          "hint": "Hediye"
+        },
+        {
+          "word": "ATTEND",
+          "hint": "Katılmak"
+        },
+        {
+          "word": "ACCEPT",
+          "hint": "Kabul etmek"
+        },
+        {
+          "word": "REFUSE",
+          "hint": "Reddetmek"
+        },
+        {
+          "word": "EXCUSE",
+          "hint": "Mazeret, bahane"
+        },
+        {
+          "word": "GET READY",
+          "hint": "Hazırlanmak"
+        },
+        {
+          "word": "ORDER",
+          "hint": "Sipariş vermek"
+        },
+        {
+          "word": "PREPARE",
+          "hint": "Hazırlamak"
+        },
+        {
+          "word": "BUY",
+          "hint": "Satın almak"
+        },
+        {
+          "word": "COST",
+          "hint": "Mal olmak, tutar"
+        },
+        {
+          "word": "BIRTHDAY CAKE",
+          "hint": "Doğum günü pastası"
+        },
+        {
+          "word": "FANCY DRESS PARTY",
+          "hint": "Kostüm partisi"
+        },
+        {
+          "word": "GRADUATION PARTY",
+          "hint": "Mezuniyet partisi"
+        },
+        {
+          "word": "SURPRISE PARTY",
+          "hint": "Sürpriz parti"
+        },
+        {
+          "word": "WEDDING",
+          "hint": "Düğün"
+        },
+        {
+          "word": "PARTY HAT",
+          "hint": "Parti şapkası"
+        },
+        {
+          "word": "CONFETTI",
+          "hint": "Konfeti"
+        },
+        {
+          "word": "MUSIC",
+          "hint": "Müzik"
+        },
+        {
+          "word": "DANCE",
+          "hint": "Dans etmek"
+        },
+        {
+          "word": "ENTERTAIN",
+          "hint": "Eğlendirmek"
+        },
+        {
+          "word": "ENJOY",
+          "hint": "Eğlenmek, tadını çıkarmak"
+        },
+        {
+          "word": "HAVE A GOOD TIME",
+          "hint": "İyi vakit geçirmek"
+        },
+        {
+          "word": "DATE",
+          "hint": "Tarih"
+        },
+        {
+          "word": "TIME",
+          "hint": "Zaman, saat"
+        },
+        {
+          "word": "VENUE",
+          "hint": "Mekan"
+        },
+        {
+          "word": "LOCATION",
+          "hint": "Konum"
+        },
+        {
+          "word": "SEND",
+          "hint": "Göndermek"
+        },
+        {
+          "word": "RECEIVE",
+          "hint": "Teslim almak"
+        },
+        {
+          "word": "REPLY",
+          "hint": "Cevap vermek"
+        },
+        {
+          "word": "WISH",
+          "hint": "Dilek"
+        },
+        {
+          "word": "HAPPY",
+          "hint": "Mutlu"
+        },
+        {
+          "word": "EXCITED",
+          "hint": "Heyecanlı"
+        },
+        {
+          "word": "BUSY",
+          "hint": "Meşgul"
+        },
+        {
+          "word": "TIRED",
+          "hint": "Yorgun"
+        },
+        {
+          "word": "HELP",
+          "hint": "Yardım etmek"
+        },
+        {
+          "word": "ARRANGE",
+          "hint": "Düzenlemek, ayarlamak"
+        },
+        {
+          "word": "SHOP",
+          "hint": "Alışveriş yapmak"
+        },
+        {
+          "word": "SUGGEST",
+          "hint": "Önermek"
+        },
+        {
+          "word": "SUGGESTION",
+          "hint": "Öneri"
+        }
+      ]
     },
     {
       "id": "ingilizce_u7",
-      "name": "Unit 7: Pets and Animals",
+      "name": "Unit 7: Dreams",
       "months": [
-        3
+        4,
+        5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "DREAM",
+          "hint": "Hayal, rüya"
+        },
+        {
+          "word": "FUTURE",
+          "hint": "Gelecek"
+        },
+        {
+          "word": "SUCCESSFUL",
+          "hint": "Başarılı"
+        },
+        {
+          "word": "WEALTHY",
+          "hint": "Zengin, varlıklı"
+        },
+        {
+          "word": "FAMOUS",
+          "hint": "Ünlü, meşhur"
+        },
+        {
+          "word": "CAREER",
+          "hint": "Kariyer, meslek hayatı"
+        },
+        {
+          "word": "PROFESSION",
+          "hint": "Meslek"
+        },
+        {
+          "word": "ACHIEVE",
+          "hint": "Başarmak, elde etmek"
+        },
+        {
+          "word": "GOAL",
+          "hint": "Hedef, amaç"
+        },
+        {
+          "word": "PREDICTION",
+          "hint": "Tahmin"
+        },
+        {
+          "word": "BELIEVE",
+          "hint": "İnanmak"
+        },
+        {
+          "word": "IMAGINE",
+          "hint": "Hayal etmek"
+        },
+        {
+          "word": "INVENT",
+          "hint": "İcat etmek"
+        },
+        {
+          "word": "INVENTION",
+          "hint": "İcat"
+        },
+        {
+          "word": "TECHNOLOGY",
+          "hint": "Teknoloji"
+        },
+        {
+          "word": "ROBOT",
+          "hint": "Robot"
+        },
+        {
+          "word": "TRANSPORTATION",
+          "hint": "Ulaşım"
+        },
+        {
+          "word": "ENVIRONMENT",
+          "hint": "Çevre"
+        },
+        {
+          "word": "POLLUTION",
+          "hint": "Kirlilik"
+        },
+        {
+          "word": "RECYCLE",
+          "hint": "Geri dönüştürmek"
+        },
+        {
+          "word": "HEALTHY",
+          "hint": "Sağlıklı"
+        },
+        {
+          "word": "HAPPINESS",
+          "hint": "Mutluluk"
+        },
+        {
+          "word": "HOPE",
+          "hint": "Umut"
+        },
+        {
+          "word": "OPINION",
+          "hint": "Fikir, görüş"
+        },
+        {
+          "word": "CERTAIN",
+          "hint": "Kesin, emin"
+        },
+        {
+          "word": "PROBABLY",
+          "hint": "Muhtemelen"
+        },
+        {
+          "word": "MAYBE",
+          "hint": "Belki"
+        },
+        {
+          "word": "SCIENCE",
+          "hint": "Bilim"
+        },
+        {
+          "word": "SCIENTIST",
+          "hint": "Bilim insanı"
+        },
+        {
+          "word": "SPACE",
+          "hint": "Uzay"
+        },
+        {
+          "word": "MARS",
+          "hint": "Mars gezegeni"
+        },
+        {
+          "word": "COLONY",
+          "hint": "Koloni, yerleşim yeri"
+        },
+        {
+          "word": "FLYING CAR",
+          "hint": "Uçan araba"
+        },
+        {
+          "word": "ARTIFICIAL INTELLIGENCE",
+          "hint": "Yapay zeka"
+        },
+        {
+          "word": "VIRTUAL REALITY",
+          "hint": "Sanal gerçeklik"
+        },
+        {
+          "word": "GLOBAL WARMING",
+          "hint": "Küresel ısınma"
+        },
+        {
+          "word": "PEACE",
+          "hint": "Barış"
+        },
+        {
+          "word": "TRAVEL",
+          "hint": "Seyahat etmek"
+        },
+        {
+          "word": "EDUCATION",
+          "hint": "Eğitim"
+        },
+        {
+          "word": "UNIVERSITY",
+          "hint": "Üniversite"
+        },
+        {
+          "word": "DIPLOMA",
+          "hint": "Diploma"
+        },
+        {
+          "word": "EXPERIENCE",
+          "hint": "Deneyim, tecrübe"
+        },
+        {
+          "word": "SKILL",
+          "hint": "Yetenek, beceri"
+        },
+        {
+          "word": "OPPORTUNITY",
+          "hint": "Fırsat"
+        },
+        {
+          "word": "CHALLENGE",
+          "hint": "Zorluk, meydan okuma"
+        },
+        {
+          "word": "HARDWORKING",
+          "hint": "Çalışkan"
+        },
+        {
+          "word": "DETERMINED",
+          "hint": "Kararlı"
+        },
+        {
+          "word": "TRAVEL ABROAD",
+          "hint": "Yurt dışına seyahat etmek"
+        },
+        {
+          "word": "LIVE IN PEACE",
+          "hint": "Barış içinde yaşamak"
+        },
+        {
+          "word": "MAKE A DIFFERENCE",
+          "hint": "Fark yaratmak"
+        }
+      ]
     },
     {
       "id": "ingilizce_u8",
-      "name": "Unit 8: My Daily Routine",
-      "months": [
-        4
-      ],
-      "words": []
-    },
-    {
-      "id": "ingilizce_u9",
-      "name": "Unit 9: Fruits and Food",
+      "name": "Unit 8: Public Buildings",
       "months": [
         5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "MUNICIPALITY",
+          "hint": "Belediye - şehri yöneten yerel idari birim"
+        },
+        {
+          "word": "CITY HALL",
+          "hint": "Belediye binası"
+        },
+        {
+          "word": "POLICE STATION",
+          "hint": "Polis merkezi"
+        },
+        {
+          "word": "FIRE STATION",
+          "hint": "İtfaiye istasyonu"
+        },
+        {
+          "word": "LIBRARY",
+          "hint": "Kütüphane - kitapların ödünç alındığı yer"
+        },
+        {
+          "word": "HOSPITAL",
+          "hint": "Hastane - hasta insanların tedavi edildiği yer"
+        },
+        {
+          "word": "PHARMACY",
+          "hint": "Eczane - ilaç satılan yer"
+        },
+        {
+          "word": "BAKERY",
+          "hint": "Fırın - ekmek, kek ve hamur işlerinin satıldığı yer"
+        },
+        {
+          "word": "SUPERMARKET",
+          "hint": "Süpermarket - alışveriş yapılan büyük dükkan"
+        },
+        {
+          "word": "BUTCHER",
+          "hint": "Kasap - et ürünlerinin satıldığı yer"
+        },
+        {
+          "word": "GREENGROCER",
+          "hint": "Manav - taze meyve ve sebze satılan yer"
+        },
+        {
+          "word": "MUSEUM",
+          "hint": "Müze - tarihi eserlerin sergilendiği yer"
+        },
+        {
+          "word": "ART GALLERY",
+          "hint": "Sanat galerisi - resim ve heykel gibi eserlerin sergilendiği yer"
+        },
+        {
+          "word": "POST OFFICE",
+          "hint": "Postane - mektup ve paket gönderilen yer"
+        },
+        {
+          "word": "BANK",
+          "hint": "Banka - para işlemlerinin yapıldığı yer"
+        },
+        {
+          "word": "POLICE DEPARTMENT",
+          "hint": "Emniyet müdürlüğü"
+        },
+        {
+          "word": "COURT",
+          "hint": "Mahkeme - adaletin sağlandığı yasal kurum"
+        },
+        {
+          "word": "GOVERNOR'S OFFICE",
+          "hint": "Valilik binası"
+        },
+        {
+          "word": "SHOPPING MALL",
+          "hint": "Alışveriş merkezi"
+        },
+        {
+          "word": "CINEMA",
+          "hint": "Sinema - film izlenen yer"
+        },
+        {
+          "word": "THEATRE",
+          "hint": "Tiyatro - oyunların sergilendiği yer"
+        },
+        {
+          "word": "PARK",
+          "hint": "Park - çocukların oynadığı ve vakit geçirdiği yeşil alan"
+        },
+        {
+          "word": "PLAYGROUND",
+          "hint": "Oyun parkı - çocukların oyun oynaması için özel alan"
+        },
+        {
+          "word": "AMUSEMENT PARK",
+          "hint": "Lunapark - eğlence cihazlarının olduğu yer"
+        },
+        {
+          "word": "SCHOOL",
+          "hint": "Okul - eğitim alınan kurum"
+        },
+        {
+          "word": "UNIVERSITY",
+          "hint": "Üniversite - yükseköğretim kurumu"
+        },
+        {
+          "word": "GYM",
+          "hint": "Spor salonu - egzersiz yapılan yer"
+        },
+        {
+          "word": "SWIMMING POOL",
+          "hint": "Yüzme havuzu"
+        },
+        {
+          "word": "STADIUM",
+          "hint": "Stadyum - büyük spor müsabakalarının yapıldığı yer"
+        },
+        {
+          "word": "BUS STATION",
+          "hint": "Otobüs terminali"
+        },
+        {
+          "word": "AIRPORT",
+          "hint": "Havalimanı - uçakların iniş kalkış yaptığı yer"
+        },
+        {
+          "word": "TRAIN STATION",
+          "hint": "Tren istasyonu"
+        },
+        {
+          "word": "PETROL STATION",
+          "hint": "Benzin istasyonu"
+        },
+        {
+          "word": "CAFE",
+          "hint": "Kafe - içecek içilen küçük mekan"
+        },
+        {
+          "word": "RESTAURANT",
+          "hint": "Restoran - yemek yenen yer"
+        },
+        {
+          "word": "BARBER",
+          "hint": "Berber - erkek saç kesimi yapılan yer"
+        },
+        {
+          "word": "HAIRDRESSER",
+          "hint": "Kuaför - saç bakımı yapılan yer"
+        },
+        {
+          "word": "SHOE STORE",
+          "hint": "Ayakkabıcı"
+        },
+        {
+          "word": "BOOKSHOP",
+          "hint": "Kitapçı"
+        },
+        {
+          "word": "CLOTHING STORE",
+          "hint": "Giyim mağazası"
+        },
+        {
+          "word": "TOY SHOP",
+          "hint": "Oyuncakçı"
+        },
+        {
+          "word": "FLOWER SHOP",
+          "hint": "Çiçekçi"
+        },
+        {
+          "word": "PET SHOP",
+          "hint": "Evcil hayvan mağazası"
+        },
+        {
+          "word": "JEWELLERY STORE",
+          "hint": "Kuyumcu"
+        },
+        {
+          "word": "STATIONERY",
+          "hint": "Kırtasiye - kalem ve defter gibi malzemelerin satıldığı yer"
+        },
+        {
+          "word": "PUBLIC GARDEN",
+          "hint": "Halk bahçesi"
+        },
+        {
+          "word": "PUBLIC LIBRARY",
+          "hint": "Halk kütüphanesi"
+        },
+        {
+          "word": "HEALTH CENTER",
+          "hint": "Sağlık ocağı"
+        },
+        {
+          "word": "COFFEE SHOP",
+          "hint": "Kahve dükkanı"
+        },
+        {
+          "word": "BAKERY SHOP",
+          "hint": "Unlu mamuller dükkanı"
+        }
+      ]
+    },
+    {
+      "id": "ingilizce_u9",
+      "name": "Unit 9: Environment",
+      "months": [
+        5,
+        6
+      ],
+      "words": [
+        {
+          "word": "ENVIRONMENT",
+          "hint": "Çevre, içinde yaşadığımız doğa"
+        },
+        {
+          "word": "POLLUTION",
+          "hint": "Kirlilik"
+        },
+        {
+          "word": "RECYCLE",
+          "hint": "Geri dönüşüm yapmak, yeniden değerlendirmek"
+        },
+        {
+          "word": "GLOBAL WARMING",
+          "hint": "Küresel ısınma"
+        },
+        {
+          "word": "PROTECT",
+          "hint": "Korumak"
+        },
+        {
+          "word": "WASTE",
+          "hint": "Atık, çöp"
+        },
+        {
+          "word": "ENDANGERED SPECIES",
+          "hint": "Nesli tükenmekte olan türler"
+        },
+        {
+          "word": "DEFORESTATION",
+          "hint": "Ormansızlaşma, ağaçların yok edilmesi"
+        },
+        {
+          "word": "CARBON FOOTPRINT",
+          "hint": "Karbon ayak izi"
+        },
+        {
+          "word": "RENEWABLE ENERGY",
+          "hint": "Yenilenebilir enerji"
+        },
+        {
+          "word": "SOLAR ENERGY",
+          "hint": "Güneş enerjisi"
+        },
+        {
+          "word": "CONSERVE",
+          "hint": "Tasarruf etmek, korumak"
+        },
+        {
+          "word": "DAMAGE",
+          "hint": "Zarar vermek"
+        },
+        {
+          "word": "ECO-FRIENDLY",
+          "hint": "Çevre dostu"
+        },
+        {
+          "word": "WILDLIFE",
+          "hint": "Yaban hayatı"
+        },
+        {
+          "word": "ATMOSPHERE",
+          "hint": "Atmosfer"
+        },
+        {
+          "word": "CLIMATE CHANGE",
+          "hint": "İklim değişikliği"
+        },
+        {
+          "word": "PESTICIDE",
+          "hint": "Tarım ilacı, böcek ilacı"
+        },
+        {
+          "word": "POLLUTE",
+          "hint": "Kirletmek"
+        },
+        {
+          "word": "SUSTAINABLE",
+          "hint": "Sürdürülebilir"
+        },
+        {
+          "word": "NATURAL RESOURCES",
+          "hint": "Doğal kaynaklar"
+        },
+        {
+          "word": "HABITAT",
+          "hint": "Doğal yaşam alanı"
+        },
+        {
+          "word": "EXTINCT",
+          "hint": "Nesli tükenmiş"
+        },
+        {
+          "word": "REDUCE",
+          "hint": "Azaltmak"
+        },
+        {
+          "word": "REUSE",
+          "hint": "Yeniden kullanmak"
+        },
+        {
+          "word": "CHEMICAL",
+          "hint": "Kimyasal madde"
+        },
+        {
+          "word": "TOXIC",
+          "hint": "Zehirli"
+        },
+        {
+          "word": "DISASTER",
+          "hint": "Felaket, afet"
+        },
+        {
+          "word": "GREENHOUSE EFFECT",
+          "hint": "Sera etkisi"
+        },
+        {
+          "word": "ORGANIC",
+          "hint": "Organik, doğal"
+        },
+        {
+          "word": "PLANT",
+          "hint": "Bitki, dikmek"
+        },
+        {
+          "word": "DROUGHT",
+          "hint": "Kuraklık"
+        },
+        {
+          "word": "FLOOD",
+          "hint": "Sel"
+        },
+        {
+          "word": "AIR POLLUTION",
+          "hint": "Hava kirliliği"
+        },
+        {
+          "word": "WATER POLLUTION",
+          "hint": "Su kirliliği"
+        },
+        {
+          "word": "LANDFILL",
+          "hint": "Çöp depolama alanı"
+        },
+        {
+          "word": "BICYCLE",
+          "hint": "Bisiklet (çevre dostu ulaşım aracı)"
+        },
+        {
+          "word": "NUCLEAR ENERGY",
+          "hint": "Nükleer enerji"
+        },
+        {
+          "word": "WIND POWER",
+          "hint": "Rüzgar enerjisi"
+        },
+        {
+          "word": "SAVE",
+          "hint": "Kurtarmak, tasarruf etmek"
+        },
+        {
+          "word": "CLEAN UP",
+          "hint": "Temizlemek"
+        },
+        {
+          "word": "RESPONSIBILITY",
+          "hint": "Sorumluluk"
+        },
+        {
+          "word": "THREAT",
+          "hint": "Tehdit"
+        },
+        {
+          "word": "HUMAN ACTIVITY",
+          "hint": "İnsan faaliyeti"
+        },
+        {
+          "word": "PLASTIC",
+          "hint": "Plastik"
+        },
+        {
+          "word": "ECOSYSTEM",
+          "hint": "Ekosistem"
+        },
+        {
+          "word": "DISAPPEAR",
+          "hint": "Gözden kaybolmak, yok olmak"
+        },
+        {
+          "word": "SAVE ENERGY",
+          "hint": "Enerji tasarrufu yapmak"
+        },
+        {
+          "word": "FOREST",
+          "hint": "Orman"
+        },
+        {
+          "word": "COMPOST",
+          "hint": "Organik atıkların çürütülerek doğal gübreye dönüştürülmesi"
+        },
+        {
+          "word": "CONSERVATION",
+          "hint": "Doğayı ve doğal kaynakları koruma, israf etmeme"
+        },
+        {
+          "word": "SOLAR PANEL",
+          "hint": "Güneş enerjisini elektriğe dönüştüren cihaz"
+        },
+        {
+          "word": "BIODEGRADABLE",
+          "hint": "Doğada kendiliğinden çözünebilen, çevreye zarar vermeyen"
+        }
+      ]
     },
     {
       "id": "ingilizce_u10",
-      "name": "Unit 10: Animal Shelter and Nature",
+      "name": "Unit 10: Planets",
       "months": [
         6
       ],
-      "words": []
+      "words": [
+        {
+          "word": "PLANET",
+          "hint": "Gezegen"
+        },
+        {
+          "word": "GALAXY",
+          "hint": "Galaksi"
+        },
+        {
+          "word": "ORBIT",
+          "hint": "Yörünge"
+        },
+        {
+          "word": "UNIVERSE",
+          "hint": "Evren"
+        },
+        {
+          "word": "EXPLORE",
+          "hint": "Keşfetmek"
+        },
+        {
+          "word": "ASTRONAUT",
+          "hint": "Astronot"
+        },
+        {
+          "word": "ROCKET",
+          "hint": "Roket"
+        },
+        {
+          "word": "SATELLITE",
+          "hint": "Uydu"
+        },
+        {
+          "word": "GRAVITY",
+          "hint": "Yer çekimi"
+        },
+        {
+          "word": "TELESCOPE",
+          "hint": "Teleskop"
+        },
+        {
+          "word": "STAR",
+          "hint": "Yıldız"
+        },
+        {
+          "word": "SUN",
+          "hint": "Güneş"
+        },
+        {
+          "word": "MOON",
+          "hint": "Ay"
+        },
+        {
+          "word": "ATMOSPHERE",
+          "hint": "Atmosfer"
+        },
+        {
+          "word": "LANDING",
+          "hint": "İniş yapma"
+        },
+        {
+          "word": "SPACE",
+          "hint": "Uzay"
+        },
+        {
+          "word": "COMET",
+          "hint": "Kuyruklu yıldız"
+        },
+        {
+          "word": "ASTEROID",
+          "hint": "Asteroid"
+        },
+        {
+          "word": "SCIENTIST",
+          "hint": "Bilim insanı"
+        },
+        {
+          "word": "OBSERVATION",
+          "hint": "Gözlem"
+        },
+        {
+          "word": "DISTANCE",
+          "hint": "Mesafe, uzaklık"
+        },
+        {
+          "word": "TEMPERATURE",
+          "hint": "Sıcaklık"
+        },
+        {
+          "word": "SURFACE",
+          "hint": "Yüzey"
+        },
+        {
+          "word": "MISSION",
+          "hint": "Görev"
+        },
+        {
+          "word": "DISCOVERY",
+          "hint": "Keşif"
+        },
+        {
+          "word": "SHUTTLE",
+          "hint": "Uzay mekiği"
+        },
+        {
+          "word": "LIGHT YEAR",
+          "hint": "Işık yılı"
+        },
+        {
+          "word": "SOLAR SYSTEM",
+          "hint": "Güneş sistemi"
+        },
+        {
+          "word": "RESEARCH",
+          "hint": "Araştırma"
+        },
+        {
+          "word": "EQUIPMENT",
+          "hint": "Ekipman, donanım"
+        },
+        {
+          "word": "DANGER",
+          "hint": "Tehlike"
+        },
+        {
+          "word": "EXTRATERRESTRIAL",
+          "hint": "Dünya dışı"
+        },
+        {
+          "word": "FUTURE",
+          "hint": "Gelecek"
+        },
+        {
+          "word": "SPACECRAFT",
+          "hint": "Uzay aracı"
+        },
+        {
+          "word": "MERCURY",
+          "hint": "Merkür"
+        },
+        {
+          "word": "VENUS",
+          "hint": "Venüs"
+        },
+        {
+          "word": "EARTH",
+          "hint": "Dünya"
+        },
+        {
+          "word": "MARS",
+          "hint": "Mars"
+        },
+        {
+          "word": "JUPITER",
+          "hint": "Jüpiter"
+        },
+        {
+          "word": "SATURN",
+          "hint": "Satürn"
+        },
+        {
+          "word": "URANUS",
+          "hint": "Uranüs"
+        },
+        {
+          "word": "NEPTUNE",
+          "hint": "Neptün"
+        },
+        {
+          "word": "COLONIZE",
+          "hint": "Kolonileştirmek"
+        },
+        {
+          "word": "TRAVEL",
+          "hint": "Seyahat etmek"
+        },
+        {
+          "word": "LAUNCH",
+          "hint": "Fırlatmak"
+        },
+        {
+          "word": "WEIGHTLESSNESS",
+          "hint": "Yer çekimsizlik"
+        },
+        {
+          "word": "SHINING",
+          "hint": "Parlayan"
+        },
+        {
+          "word": "ABANDON",
+          "hint": "Terk etmek"
+        },
+        {
+          "word": "ENVIRONMENT",
+          "hint": "Çevre"
+        },
+        {
+          "word": "CRATER",
+          "hint": "Krater"
+        }
+      ]
     }
   ]
 }

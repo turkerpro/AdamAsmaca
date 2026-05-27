@@ -2,7 +2,7 @@
   "units": [
     {
       "id": "fen_u1",
-      "name": "1. Ünite: DNA ve Genetik",
+      "name": "1. Ünite: Mevsimler ve İklim, DNA ve Genetik Kod",
       "months": [
         9,
         10
@@ -37,11 +37,11 @@
           "hint": "Canlıların yapı taşlarını belirleyen molekül."
         },
         {
-          "word": "FENOTİ̇P",
+          "word": "FENOTİP",
           "hint": "Bir canlının gözlemlenebilen özellikleri."
         },
         {
-          "word": "GENOTİ̇P",
+          "word": "GENOTİP",
           "hint": "Bir canlının genetik yapısı."
         },
         {
@@ -49,7 +49,7 @@
           "hint": "Canlılığın temel yapı taşı."
         },
         {
-          "word": "Mİ̇TOZ",
+          "word": "MİTOZ",
           "hint": "Vücut hücrelerinin bölünme şekli."
         },
         {
@@ -61,11 +61,11 @@
           "hint": "Genlerin fenotipi nasıl etkilediğini gösteren süreç."
         },
         {
-          "word": "ÇEKİ̇RDEK",
+          "word": "ÇEKİRDEK",
           "hint": "Hücrenin içinde genetik materyali taşıyan kısım."
         },
         {
-          "word": "BASİ̇T",
+          "word": "BASİT",
           "hint": "DNA'nın iki temel yapı taşı."
         },
         {
@@ -77,11 +77,11 @@
           "hint": "DNA'nın omurgasını oluşturan kimyasal grup."
         },
         {
-          "word": "Çİ̇FT",
+          "word": "ÇİFT",
           "hint": "DNA'nın sarmal yapısını oluşturan iplik sayısı."
         },
         {
-          "word": "Sİ̇TOGENETİ̇K",
+          "word": "SİTOGENETİK",
           "hint": "Hücre içindeki genetik bilgiyi inceleyen bilim dalı."
         },
         {
@@ -93,15 +93,15 @@
           "hint": "Bir bileşiğin yapısını gösteren semboller topluluğu."
         },
         {
-          "word": "Mİ̇KTAR",
+          "word": "MİKTAR",
           "hint": "Bir şeyin ne kadar olduğunu belirten ölçü."
         },
         {
-          "word": "YAPİ",
+          "word": "YAPI",
           "hint": "Bir şeyin nasıl oluştuğunu, parçalarını."
         },
         {
-          "word": "ÖZELLİ̇K",
+          "word": "ÖZELLİK",
           "hint": "Bir varlığın kendine has durumu."
         },
         {
@@ -109,7 +109,7 @@
           "hint": "Bir şeyin üzerindeki tabaka."
         },
         {
-          "word": "ETKİ̇",
+          "word": "ETKİ",
           "hint": "Bir şeyin başka bir şey üzerinde meydana getirdiği değişiklik."
         },
         {
@@ -129,7 +129,7 @@
           "hint": "DNA'da bulunan ve bilgiyi taşıyan harfler dizisi."
         },
         {
-          "word": "MEKANİ̇ZMA",
+          "word": "MEKANİZMA",
           "hint": "Bir olayın nasıl gerçekleştiğini açıklayan sistem."
         },
         {
@@ -141,19 +141,19 @@
           "hint": "Belirli bir görevi yapan doku topluluğu."
         },
         {
-          "word": "Sİ̇STEM",
+          "word": "SİSTEM",
           "hint": "Birbirine bağlı organların oluşturduğu bütün."
         },
         {
-          "word": "CANLİ",
+          "word": "CANLI",
           "hint": "Yaşayan organizma."
         },
         {
-          "word": "NESİ̇L",
+          "word": "NESİL",
           "hint": "Birbirini takip eden kuşaklar."
         },
         {
-          "word": "VARİ̇S",
+          "word": "VARİS",
           "hint": "Miras yoluyla bir özellik alan kişi."
         },
         {
@@ -161,7 +161,7 @@
           "hint": "Kalıtsal özelliklerle ilgili."
         },
         {
-          "word": "KENDİ̇",
+          "word": "KENDİ",
           "hint": "Kişinin kendisi."
         },
         {
@@ -169,15 +169,15 @@
           "hint": "İki şey arasındaki ayrılık."
         },
         {
-          "word": "BENZERLİ̇K",
+          "word": "BENZERLİK",
           "hint": "İki şey arasındaki ortak nokta."
         },
         {
-          "word": "SEÇİ̇Lİ̇M",
+          "word": "SEÇİLİM",
           "hint": "Doğal seçilimdeki gibi bir eleme."
         },
         {
-          "word": "İ̇Z",
+          "word": "İZ",
           "hint": "Bir şeyin bıraktığı etki veya belirti."
         },
         {
@@ -185,11 +185,11 @@
           "hint": "Bir şeyin ne kadar olduğunu belirten standart."
         },
         {
-          "word": "Mİ̇RAS",
+          "word": "MİRAS",
           "hint": "Anne babadan çocuğa geçen özellikler."
         },
         {
-          "word": "BAĞLİ",
+          "word": "BAĞLI",
           "hint": "Bir şeye tutunan veya ilişkili olan."
         },
         {
@@ -213,7 +213,7 @@
           "hint": "Bir şeyin içinde bulunduğu hal."
         },
         {
-          "word": "DOLAŞİM",
+          "word": "DOLAŞIM",
           "hint": "Kanın vücutta gezinmesi."
         },
         {
@@ -224,7 +224,7 @@
     },
     {
       "id": "fen_u2",
-      "name": "2. Ünite: Basınç",
+      "name": "2. Ünite: Basınç, Madde ve Endüstri",
       "months": [
         11,
         12
@@ -263,11 +263,11 @@
           "hint": "Belirli bir şekli ve hacmi olmayan madde."
         },
         {
-          "word": "KATİLİK",
+          "word": "KATILIK",
           "hint": "Belirli bir şekli ve hacmi olan madde."
         },
         {
-          "word": "DERİ̇NLİ̇K",
+          "word": "DERİNLİK",
           "hint": "Bir sıvının yüzeyinden dip noktasına olan uzaklık."
         },
         {
@@ -279,7 +279,7 @@
           "hint": "Bir cismi hareket ettiren, durduran veya şeklini değiştiren etki."
         },
         {
-          "word": "ETKİ̇",
+          "word": "ETKİ",
           "hint": "Bir cismin başka bir cisim üzerinde yarattığı değişiklik."
         },
         {
@@ -303,23 +303,23 @@
           "hint": "Bir bütünün parçalarından biri."
         },
         {
-          "word": "DEĞİ̇Şİ̇M",
+          "word": "DEĞİŞİM",
           "hint": "Bir durumdan başka bir duruma geçiş."
         },
         {
-          "word": "Mİ̇KTAR",
+          "word": "MİKTAR",
           "hint": "Bir şeyin ne kadar olduğunun ölçüsü."
         },
         {
-          "word": "AĞİRLİK",
+          "word": "AĞIRLIK",
           "hint": "Yerçekiminin bir cisme uyguladığı kuvvet."
         },
         {
-          "word": "HACİ̇M",
+          "word": "HACİM",
           "hint": "Bir cismin kapladığı boşluk."
         },
         {
-          "word": "DEVRİ̇LME",
+          "word": "DEVRİLME",
           "hint": "Bir cismin dengesini kaybederek yatay duruma gelmesi."
         },
         {
@@ -331,11 +331,11 @@
           "hint": "Bir cismin sıvı yüzeyinde kalması."
         },
         {
-          "word": "YÜKSEKLİ̇K",
+          "word": "YÜKSEKLİK",
           "hint": "Dikey doğrultudaki mesafe."
         },
         {
-          "word": "MEYİ̇L",
+          "word": "MEYİL",
           "hint": "Eğimli olma durumu."
         },
         {
@@ -343,11 +343,11 @@
           "hint": "Pürüzsüz ve engelsiz olma hali."
         },
         {
-          "word": "EĞİ̇M",
+          "word": "EĞİM",
           "hint": "Bir yüzeyin yatay düzlemle yaptığı açı."
         },
         {
-          "word": "İ̇TME",
+          "word": "İTME",
           "hint": "Bir cismi uzaklaştıran kuvvet."
         },
         {
@@ -359,11 +359,11 @@
           "hint": "Genişliğin az olması."
         },
         {
-          "word": "GENİ̇Ş",
+          "word": "GENİŞ",
           "hint": "Enlemesine fazla olma."
         },
         {
-          "word": "BASİNÇLİ̇",
+          "word": "BASINÇLI",
           "hint": "Yüksek basınç durumu."
         },
         {
@@ -371,23 +371,23 @@
           "hint": "Az veya yetersiz olma."
         },
         {
-          "word": "YAYİLMA",
+          "word": "YAYILMA",
           "hint": "Bir alan üzerine dağılma."
         },
         {
-          "word": "KAPALİ",
+          "word": "KAPALI",
           "hint": "Dışarıyla bağlantısı olmayan."
         },
         {
-          "word": "AÇİK",
+          "word": "AÇIK",
           "hint": "Dışarıyla bağlantısı olan."
         },
         {
-          "word": "Dİ̇RENÇ",
+          "word": "DİRENÇ",
           "hint": "Bir şeye karşı koyma gücü."
         },
         {
-          "word": "YAPİŞMA",
+          "word": "YAPIŞMA",
           "hint": "İki yüzeyin birbirine tutunması."
         },
         {
@@ -399,15 +399,15 @@
           "hint": "Bir yüzey üzerinde hareket etme."
         },
         {
-          "word": "ZEMİ̇N",
+          "word": "ZEMİN",
           "hint": "Bir yapının veya nesnenin altındaki yüzey."
         },
         {
-          "word": "YAPİ",
+          "word": "YAPI",
           "hint": "Bir şeyin nasıl oluştuğu veya düzenlendiği."
         },
         {
-          "word": "MEKANİ̇ZMA",
+          "word": "MEKANİZMA",
           "hint": "İşleyen bir sistem veya düzenek."
         },
         {
@@ -427,11 +427,11 @@
           "hint": "Bir bilgiyi veya prensibi kullanma."
         },
         {
-          "word": "VERİ̇M",
+          "word": "VERİM",
           "hint": "Elde edilen fayda veya sonuç."
         },
         {
-          "word": "Sİ̇STEM",
+          "word": "SİSTEM",
           "hint": "Birbirine bağlı parçalardan oluşan bütün."
         },
         {
@@ -446,44 +446,445 @@
     },
     {
       "id": "fen_u3",
-      "name": "3. Ünite: Kuvvet ve Hareket",
+      "name": "3. Ünite: Basit Makineler, Enerji Dönüşümleri ve Çevre Bilimi",
       "months": [
         1,
-        2
+        2,
+        3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "İVME",
+          "hint": "Hızın zamana göre değişim oranıdır."
+        },
+        {
+          "word": "SÜRTÜNME",
+          "hint": "İki yüzeyin birbirine temas ettiğinde oluşan zıt yönlü kuvvettir."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme yeteneğidir."
+        },
+        {
+          "word": "POTANSİYEL",
+          "hint": "Bir cismin sahip olduğu konum veya durumdan kaynaklanan enerji türü."
+        },
+        {
+          "word": "KİNETİK",
+          "hint": "Bir cismin hareketinden dolayı sahip olduğu enerji."
+        },
+        {
+          "word": "YAVAŞLAMA",
+          "hint": "Hızın azalması durumu."
+        },
+        {
+          "word": "HIZLANMA",
+          "hint": "Hızın artması durumu."
+        },
+        {
+          "word": "TERS",
+          "hint": "Zıt, karşıt yönde anlamındadır."
+        },
+        {
+          "word": "DOĞRULTU",
+          "hint": "Bir çizginin izlediği yol veya yön."
+        },
+        {
+          "word": "YÖN",
+          "hint": "Belirli bir noktaya doğru ilerleme durumudur."
+        },
+        {
+          "word": "MEKANİK",
+          "hint": "Kuvvetlerin cisimler üzerindeki etkisini inceleyen fizik dalı."
+        },
+        {
+          "word": "YOL",
+          "hint": "Bir cismin hareket ettiği mesafe."
+        },
+        {
+          "word": "KONUM",
+          "hint": "Bir cismin uzaydaki yerini belirten durum."
+        },
+        {
+          "word": "DEĞİŞİM",
+          "hint": "Bir durumdan başka bir duruma geçme halidir."
+        },
+        {
+          "word": "YAY",
+          "hint": "Esnek yapısıyla geri çağrı kuvveti uygulayan cisim."
+        },
+        {
+          "word": "MAFSAL",
+          "hint": "Kemiklerin birbirine bağlandığı hareketli eklem noktası."
+        },
+        {
+          "word": "TORK",
+          "hint": "Döndürme etkisi yaratan kuvvettir."
+        },
+        {
+          "word": "EYLEMSİZLİK",
+          "hint": "Cismin hareket durumunu koruma eğilimidir."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Net kuvvetin sıfır olduğu durumdur."
+        },
+        {
+          "word": "DENETİMSİZ",
+          "hint": "Herhangi bir kontrol altında olmayan."
+        },
+        {
+          "word": "BEKLENMEDİK",
+          "hint": "Öngörülmeyen, şaşırtıcı."
+        },
+        {
+          "word": "GÖRÜNÜR",
+          "hint": "Gözlemlenebilen, algılanabilen."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Cisimleri hareket ettirebilen veya şeklini değiştirebilen etki."
+        },
+        {
+          "word": "YAPIŞMA",
+          "hint": "İki yüzeyin birbirine tutunması."
+        },
+        {
+          "word": "KATKI",
+          "hint": "Bir şeye eklenen, yardım eden."
+        },
+        {
+          "word": "GERİLMEMEK",
+          "hint": "Esneklik sınırını aşmadan önceki durum."
+        },
+        {
+          "word": "ÇEKME",
+          "hint": "Bir cismi kendine doğru hareket ettirme kuvveti."
+        },
+        {
+          "word": "İTME",
+          "hint": "Bir cismi kendinden uzağa hareket ettirme kuvveti."
+        },
+        {
+          "word": "YAVAŞ",
+          "hint": "Hareketi az olan."
+        },
+        {
+          "word": "HİZLİ",
+          "hint": "Hareketi çok olan."
+        },
+        {
+          "word": "DURMA",
+          "hint": "Hareketin sona ermesi."
+        },
+        {
+          "word": "BAŞLANGIÇ",
+          "hint": "Bir olayın veya hareketin ilk noktası."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir olayın veya hareketin bittiği nokta."
+        },
+        {
+          "word": "ETKİ",
+          "hint": "Bir olayın diğerini değiştirme gücü."
+        },
+        {
+          "word": "TUTUNMA",
+          "hint": "Sürtünme kuvveti sayesinde bir yüzeyde kalabilme."
+        },
+        {
+          "word": "KAYMA",
+          "hint": "Bir yüzey üzerinde istenmeyen hareket."
+        },
+        {
+          "word": "DÖNME",
+          "hint": "Bir eksen etrafında dairesel hareket."
+        },
+        {
+          "word": "SALINIM",
+          "hint": "Bir noktadan ileri geri hareket."
+        },
+        {
+          "word": "DÜZGÜN",
+          "hint": "Kesintisiz, monoton."
+        },
+        {
+          "word": "GÜZERGAH",
+          "hint": "Bir hareketin izlediği yol."
+        },
+        {
+          "word": "MESAFE",
+          "hint": "İki nokta arasındaki yay."
+        },
+        {
+          "word": "BİRİM",
+          "hint": "Ölçü için kullanılan temel değer."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir niceliğin sayısal karşılığı."
+        },
+        {
+          "word": "İLERLEME",
+          "hint": "Öne doğru hareket etme."
+        },
+        {
+          "word": "GECİKME",
+          "hint": "Beklenen zamandan sonra ortaya çıkma."
+        },
+        {
+          "word": "BASINÇ",
+          "hint": "Yüzeye dik uygulanan kuvvettir."
+        },
+        {
+          "word": "KALDIRMA",
+          "hint": "Yukarı doğru uygulanan kuvvet."
+        },
+        {
+          "word": "AĞIRLIK",
+          "hint": "Yerçekiminin cisme uyguladığı kuvvettir."
+        },
+        {
+          "word": "YAYLANMA",
+          "hint": "Bir darbenin etkisiyle esneyip eski haline dönme."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Bir cismin üzerine konduğu veya dayandığı yüzey."
+        },
+        {
+          "word": "İLERİ",
+          "hint": "Ön tarafa doğru hareket anlamındadır."
+        },
+        {
+          "word": "GERİ",
+          "hint": "Arka tarafa doğru hareket anlamındadır."
+        }
+      ]
     },
     {
       "id": "fen_u4",
-      "name": "4. Ünite: Madde ve Isı İlişkisi",
+      "name": "4. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
       "months": [
-        3
-      ],
-      "words": []
-    },
-    {
-      "id": "fen_u5",
-      "name": "5. Ünite: Işığın Yayılması ve Yansıması",
-      "months": [
-        4
-      ],
-      "words": []
-    },
-    {
-      "id": "fen_u6",
-      "name": "6. Ünite: İnsan ve Çevre Etkileşimi",
-      "months": [
+        3,
+        4,
         5
       ],
-      "words": []
-    },
-    {
-      "id": "fen_u7",
-      "name": "7. Ünite: Basit Elektrik Devreleri",
-      "months": [
-        6
-      ],
-      "words": []
+      "words": [
+        {
+          "word": "İSİ",
+          "hint": "Maddelerin sıcaklıklarının değişmesine neden olan enerji türü."
+        },
+        {
+          "word": "SICAKLIK",
+          "hint": "Bir cisimdeki taneciklerin ortalama kinetik enerjisinin bir ölçüsü."
+        },
+        {
+          "word": "HAL DEĞİŞİMİ",
+          "hint": "Maddenin bir halden başka bir hale geçmesi (erime, donma vb.)."
+        },
+        {
+          "word": "ERİME",
+          "hint": "Katı bir maddenin ısı alarak sıvı hale geçmesi."
+        },
+        {
+          "word": "DONMA",
+          "hint": "Sıvı bir maddenin ısı vererek katı hale geçmesi."
+        },
+        {
+          "word": "BUHARLAŞMA",
+          "hint": "Sıvı bir maddenin ısı alarak gaz hale geçmesi."
+        },
+        {
+          "word": "YOĞUNLAŞMA",
+          "hint": "Gaz bir maddenin ısı vererek sıvı hale geçmesi."
+        },
+        {
+          "word": "SÜBLİMLEŞME",
+          "hint": "Katı bir maddenin ısı alarak doğrudan gaz hale geçmesi (buzdolabından çıkan bezelye gibi)."
+        },
+        {
+          "word": "DEĞİŞİM",
+          "hint": "Bir durumdan başka bir duruma geçme hali."
+        },
+        {
+          "word": "EN UCUZ",
+          "hint": "Bir maddenin taneciklerinin sahip olduğu hareket enerjisi."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme yeteneği."
+        },
+        {
+          "word": "KATI",
+          "hint": "Belirli bir şekli ve hacmi olan madde hali."
+        },
+        {
+          "word": "SİVİ",
+          "hint": "Belirli bir hacmi olan ancak şekli kabına göre değişen madde hali."
+        },
+        {
+          "word": "GAZ",
+          "hint": "Belirli bir şekli ve hacmi olmayan madde hali."
+        },
+        {
+          "word": "İLETKEN",
+          "hint": "Isıyı iyi ileten madde."
+        },
+        {
+          "word": "YALITKAN",
+          "hint": "Isıyı iyi iletmeyen madde."
+        },
+        {
+          "word": "TERMOMETRE",
+          "hint": "Sıcaklığı ölçmeye yarayan araç."
+        },
+        {
+          "word": "FAHRENHEİT",
+          "hint": "Sıcaklık ölçü birimlerinden biri."
+        },
+        {
+          "word": "CELSİUS",
+          "hint": "Günlük hayatta en çok kullanılan sıcaklık ölçü birimi."
+        },
+        {
+          "word": "KELVİN",
+          "hint": "Bilimsel çalışmalarda kullanılan mutlak sıcaklık ölçü birimi."
+        },
+        {
+          "word": "GENLEŞME",
+          "hint": "Isı etkisiyle hacmin veya boyun artması."
+        },
+        {
+          "word": "BÜZÜŞME",
+          "hint": "Isı etkisiyle hacmin veya boyun azalması."
+        },
+        {
+          "word": "ÖZGÜL İSİ",
+          "hint": "Bir maddenin 1 gramının sıcaklığını 1 derece artırmak için gereken ısı miktarı."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Isı alışverişinin durduğu durum."
+        },
+        {
+          "word": "ALICI",
+          "hint": "Isı alan madde veya cisim."
+        },
+        {
+          "word": "VERİCİ",
+          "hint": "Isı veren madde veya cisim."
+        },
+        {
+          "word": "İLETİM",
+          "hint": "Isının madde içinde yayılması (en çok katılarda)."
+        },
+        {
+          "word": "TAŞİNİM",
+          "hint": "Isının akışkanlarla (sıvı ve gazlar) taşınması."
+        },
+        {
+          "word": "YAYINIM",
+          "hint": "Isının elektromanyetik dalgalarla yayılması (boşlukta da olur)."
+        },
+        {
+          "word": "DİLATASYON",
+          "hint": "Genleşmenin diğer adı."
+        },
+        {
+          "word": "EKSPANSİYON",
+          "hint": "Gazların genleşmesi için de kullanılır."
+        },
+        {
+          "word": "MATERYAL",
+          "hint": "Herhangi bir fiziksel varlık, madde."
+        },
+        {
+          "word": "FAZ",
+          "hint": "Maddenin katı, sıvı veya gaz hallerinden biri."
+        },
+        {
+          "word": "KRİSTAL",
+          "hint": "Belirli bir düzeni olan katı yapısı."
+        },
+        {
+          "word": "AMORF",
+          "hint": "Düzensiz katı yapısı."
+        },
+        {
+          "word": "KİNETİK",
+          "hint": "Hareketle ilgili."
+        },
+        {
+          "word": "POTANSİYEL",
+          "hint": "Durumla ilgili enerji."
+        },
+        {
+          "word": "ISI MİKTARI",
+          "hint": "Bir cismin sahip olduğu toplam iç enerji."
+        },
+        {
+          "word": "ISI TRANSFERİ",
+          "hint": "Isının bir yerden başka bir yere aktarılması."
+        },
+        {
+          "word": "TERMAL",
+          "hint": "Isıyla ilgili."
+        },
+        {
+          "word": "EKZOTERMİK",
+          "hint": "Isı veren tepkime."
+        },
+        {
+          "word": "ENDOTERMİK",
+          "hint": "Isı alan tepkime."
+        },
+        {
+          "word": "İSOLASYON",
+          "hint": "Isı yalıtımı."
+        },
+        {
+          "word": "KONDUKTİFİTY",
+          "hint": "Isı iletkenliği."
+        },
+        {
+          "word": "TERMOKİMYA",
+          "hint": "Isı ve kimya arasındaki ilişkiyi inceleyen bilim dalı."
+        },
+        {
+          "word": "AKMA",
+          "hint": "Sıvıların hareketi."
+        },
+        {
+          "word": "YAYILMA",
+          "hint": "Gazların bir alana dağılması."
+        },
+        {
+          "word": "SİNME",
+          "hint": "Maddenin taneciklerinin titreşim hareketi."
+        },
+        {
+          "word": "MEKANİK",
+          "hint": "Fiziksel hareketle ilgili."
+        },
+        {
+          "word": "TERMİK",
+          "hint": "Isıyla ilgili olan."
+        },
+        {
+          "word": "FİZİKSEL",
+          "hint": "Doğa yasalarıyla ilgili."
+        },
+        {
+          "word": "KİMYASAL",
+          "hint": "Maddelerin yapısıyla ilgili."
+        },
+        {
+          "word": "DENEYSEL",
+          "hint": "Deneyerek bulmaya dayalı."
+        }
+      ]
     }
   ]
 }

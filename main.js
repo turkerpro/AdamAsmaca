@@ -6,6 +6,8 @@ let selectedGrade = null;
 let selectedSubject = null;
 let selectedUnit = null;
 
+const PREFETCHED_DATA = {}; // Arka plan önbelleği
+
 let WORD_BANK = [];
 let availableWords = [];
 
@@ -94,9 +96,31 @@ async function init() {
   if(CURRICULUM_DATA && CURRICULUM_DATA.length > 0) {
     populateGrades();
     await startRandomGame();
+    startBackgroundPrefetch(); // Arka planda diğer dersleri çekmeye başla
   } else {
     document.getElementById('grade-list').innerHTML = '<p>Müfredat yüklenemedi. Lütfen internet bağlantınızı kontrol edin.</p>';
   }
+}
+
+function startBackgroundPrefetch() {
+  if(!CURRICULUM_DATA) return;
+  const allUrls = [];
+  CURRICULUM_DATA.forEach(g => g.subjects.forEach(s => allUrls.push(s.dataFile)));
+  
+  let i = 0;
+  function fetchNext() {
+    if(i >= allUrls.length) return;
+    const url = allUrls[i++];
+    if(!PREFETCHED_DATA[url]) {
+       fetch(url + "?t=" + Date.now()).then(r=>r.json()).then(d=>{
+          PREFETCHED_DATA[url] = d;
+          setTimeout(fetchNext, 1500); // 1.5 saniye arayla yavaşça çek
+       }).catch(() => setTimeout(fetchNext, 1500));
+    } else {
+       fetchNext();
+    }
+  }
+  setTimeout(fetchNext, 3000); // Oyuna girdikten 3 saniye sonra başla
 }
 
 async function startRandomGame() {
@@ -111,15 +135,24 @@ async function startRandomGame() {
     const rSubj = rGrade.subjects[Math.floor(Math.random() * rGrade.subjects.length)];
     
     try {
-      const res = await fetch(rSubj.dataFile);
-      if(!res.ok) continue; // 404, try another one
+      let data;
+      if (PREFETCHED_DATA[rSubj.dataFile]) {
+        data = PREFETCHED_DATA[rSubj.dataFile];
+      } else {
+        const res = await fetch(rSubj.dataFile + "?t=" + Date.now());
+        if(!res.ok) continue; // 404, try another one
+        data = await res.json();
+        PREFETCHED_DATA[rSubj.dataFile] = data;
+      }
       
-      const data = await res.json();
       if(data.units && data.units.length > 0) {
+        const non_empty_units = data.units.filter(u => u.words && u.words.length > 0);
+        if (non_empty_units.length === 0) continue;
+        
         selectedGrade = rGrade;
         applyGradeTheme(selectedGrade.grade);
         selectedSubject = rSubj;
-        const rUnit = data.units[Math.floor(Math.random() * data.units.length)];
+        const rUnit = non_empty_units[Math.floor(Math.random() * non_empty_units.length)];
         selectedUnit = rUnit;
         WORD_BANK = rUnit.words;
         availableWords = [...WORD_BANK];
@@ -138,7 +171,7 @@ async function startRandomGame() {
 
 async function loadCurriculum() {
   try {
-    const res = await fetch(INDEX_URL);
+    const res = await fetch(INDEX_URL + "?t=" + Date.now());
     if (!res.ok) throw new Error('Network response was not ok');
     const data = await res.json();
     if (data && data.curriculum) {
@@ -269,9 +302,15 @@ function populateSubjects() {
       unitList.style.display = 'flex';
       
       try {
-        const res = await fetch(subject.dataFile);
-        if(!res.ok) throw new Error("Veri çekilemedi");
-        const data = await res.json();
+        let data;
+        if (PREFETCHED_DATA[subject.dataFile]) {
+          data = PREFETCHED_DATA[subject.dataFile];
+        } else {
+          const res = await fetch(subject.dataFile + "?t=" + Date.now());
+          if(!res.ok) throw new Error("Veri çekilemedi");
+          data = await res.json();
+          PREFETCHED_DATA[subject.dataFile] = data;
+        }
         
         unitList.innerHTML = '';
         
@@ -335,7 +374,11 @@ function buildKeyboard() {
 }
 
 function newGame() {
-  if(!WORD_BANK || WORD_BANK.length === 0) return;
+  if(!WORD_BANK || WORD_BANK.length === 0) {
+    alert("Bu ünitede henüz soru bulunmamaktadır. Lütfen başka bir ünite seçin.");
+    showSubjectScreen();
+    return;
+  }
   
   if(availableWords.length === 0) {
     availableWords = [...WORD_BANK];
@@ -344,7 +387,8 @@ function newGame() {
   const randomIndex = Math.floor(Math.random() * availableWords.length);
   const entry = availableWords.splice(randomIndex, 1)[0];
   
-  const categoryText = `${selectedSubject.name} - ${selectedUnit.name.split(':')[0]}`;
+  const gradePrefix = selectedGrade ? `${selectedGrade.gradeName} - ` : '';
+  const categoryText = `${gradePrefix}${selectedSubject.name} - ${selectedUnit.name.split(':')[0]}`;
   
   gameState = { 
     word: entry.word.toUpperCase(), 
@@ -378,7 +422,7 @@ function guess(key) {
 
   // win check
   const letters = [...gameState.word].filter(c => c !== " ");
-  const allFound = letters.every(c => gameState.guessed.has(c));
+  const allFound = letters.length > 0 && letters.every(c => gameState.guessed.has(c));
   if (allFound) { gameState.over = true; gameState.won = true; gameState.score += 10; saveScore(); }
 
   updateUI();

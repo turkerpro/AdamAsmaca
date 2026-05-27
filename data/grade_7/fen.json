@@ -2,7 +2,7 @@
   "units": [
     {
       "id": "fen_u1",
-      "name": "1. Ünite: Atom",
+      "name": "1. Ünite: Güneş Sistemi ve Ötesi: Uzay Araştırmaları",
       "months": [
         9,
         10
@@ -41,7 +41,7 @@
           "hint": "Aynı tür atomlardan oluşan saf maddedir."
         },
         {
-          "word": "Bİ̇LEŞİ̇K",
+          "word": "BİLEŞİK",
           "hint": "Farklı tür atomların belirli oranlarda birleşmesiyle oluşan maddedir."
         },
         {
@@ -49,7 +49,7 @@
           "hint": "Protonlarda pozitif, elektronlarda negatif olan temel özelliktir."
         },
         {
-          "word": "İ̇NDİ̇RGENME",
+          "word": "İNDİRGENME",
           "hint": "Elektron alma olayıdır."
         },
         {
@@ -57,7 +57,7 @@
           "hint": "Elektron verme olayıdır."
         },
         {
-          "word": "İ̇YON",
+          "word": "İYON",
           "hint": "Yüklenmiş atom veya atom grubudur."
         },
         {
@@ -69,11 +69,11 @@
           "hint": "Negatif yüklü iyondur, elektron almıştır."
         },
         {
-          "word": "DEĞERLİ̇K",
+          "word": "DEĞERLİK",
           "hint": "Atomun bağ yapma kapasitesini gösteren elektron sayısıdır."
         },
         {
-          "word": "PERİ̇YOT",
+          "word": "PERİYOT",
           "hint": "Elementlerin atom numaralarına göre sıralandığı yatay sıradır."
         },
         {
@@ -101,7 +101,7 @@
           "hint": "Atomların elektronlarını ortaklaşa kullandığı bağdır."
         },
         {
-          "word": "İ̇YONİ̇K",
+          "word": "İYONİK",
           "hint": "Atomların elektron alışverişi yaptığı bağdır."
         },
         {
@@ -121,15 +121,15 @@
           "hint": "Boşlukta yer kaplayan ve kütlesi olan her şey."
         },
         {
-          "word": "YAPİTAŞİ",
+          "word": "YAPITAŞI",
           "hint": "Bir şeyi oluşturan en küçük parça."
         },
         {
-          "word": "ÖZELLİ̇K",
+          "word": "ÖZELLİK",
           "hint": "Bir varlığın kendine has durumu."
         },
         {
-          "word": "Mİ̇KTAR",
+          "word": "MİKTAR",
           "hint": "Bir şeyin ne kadar olduğunun ölçüsü."
         },
         {
@@ -145,11 +145,11 @@
           "hint": "Enerjinin bir yerden bir yere titreşimlerle aktarılmasıdır."
         },
         {
-          "word": "ENERJİ̇",
+          "word": "ENERJİ",
           "hint": "İş yapabilme yeteneğidir."
         },
         {
-          "word": "Tİ̇TREŞİ̇M",
+          "word": "TİTREŞİM",
           "hint": "Bir şeyin hızlı ileri geri hareketi."
         },
         {
@@ -165,15 +165,15 @@
           "hint": "Bir cismi hareket ettirebilen veya şeklini değiştirebilen etki."
         },
         {
-          "word": "VARLİK",
+          "word": "VARLIK",
           "hint": "Gerçekte bulunan, mevcut olan şey."
         },
         {
-          "word": "TANECİ̇K",
+          "word": "TANECİK",
           "hint": "Çok küçük, bölünemez olduğu düşünülen parçacık."
         },
         {
-          "word": "BÖLÜNEBİ̇Lİ̇R",
+          "word": "BÖLÜNEBİLİR",
           "hint": "Parçalara ayrılabilen."
         },
         {
@@ -181,15 +181,15 @@
           "hint": "Elementlerin sınıflandırıldığı ve özelliklerinin gösterildiği çizelgedir."
         },
         {
-          "word": "BASİNÇ",
+          "word": "BASINÇ",
           "hint": "Bir yüzeye dik olarak uygulanan kuvvettir."
         },
         {
-          "word": "SİCAKLİK",
+          "word": "SICAKLIK",
           "hint": "Bir cismin atomlarının kinetik enerjisinin bir ölçüsüdür."
         },
         {
-          "word": "Kİ̇NETİ̇K",
+          "word": "KİNETİK",
           "hint": "Hareketle ilgili olan."
         },
         {
@@ -197,7 +197,7 @@
           "hint": "Maddenin katı, sıvı veya gaz hali."
         },
         {
-          "word": "DEĞİ̇Şİ̇M",
+          "word": "DEĞİŞİM",
           "hint": "Bir durumdan başka bir duruma geçiş."
         },
         {
@@ -205,21 +205,21 @@
           "hint": "Bir bileşiği oluşturan atomları ve sayılarını gösteren sembollerdir."
         },
         {
-          "word": "KARARLİ",
+          "word": "KARARLI",
           "hint": "Kolay kolay değişmeyen, dengede olan."
         },
         {
-          "word": "KARARSİZ",
+          "word": "KARARSIZ",
           "hint": "Kolayca tepkimeye giren, dengesiz."
         }
       ]
     },
     {
       "id": "fen_u2",
-      "name": "2. Ünite: Elektrik",
+      "name": "2. Ünite: Hücre ve Bölünmeler",
       "months": [
-        11,
-        12
+        10,
+        11
       ],
       "words": [
         {
@@ -251,7 +251,7 @@
           "hint": "Elektrik enerjisini ışık enerjisine çeviren aydınlatma aracı."
         },
         {
-          "word": "Pİ̇L",
+          "word": "PİL",
           "hint": "Elektrik enerjisi üreten kimyasal enerji kaynağı."
         },
         {
@@ -263,7 +263,7 @@
           "hint": "Elektriği ileten, genellikle yalıtkan bir maddeyle kaplanmış teller."
         },
         {
-          "word": "YALİTKAN",
+          "word": "YALITKAN",
           "hint": "Elektriği iyi iletmeyen maddelerin genel adı."
         },
         {
@@ -271,7 +271,7 @@
           "hint": "Atomun çekirdeği etrafında dönen negatif yüklü tanecik."
         },
         {
-          "word": "STATİ̇K",
+          "word": "STATİK",
           "hint": "Hareket etmeyen, durgun haldeki elektrik yükleriyle ilgili."
         },
         {
@@ -279,11 +279,11 @@
           "hint": "Mıknatısların veya pillerin kuzey ve güney gibi iki ucundan her biri."
         },
         {
-          "word": "ENERJİ̇",
+          "word": "ENERJİ",
           "hint": "İş yapabilme yeteneği, elektrik de bir türü."
         },
         {
-          "word": "KİSA DEVRE",
+          "word": "KISA DEVRE",
           "hint": "Elektriğin beklenmedik ve tehlikeli bir şekilde yolunu bulması durumu."
         },
         {
@@ -291,7 +291,7 @@
           "hint": "Enerji birimi."
         },
         {
-          "word": "BAĞLANTİ",
+          "word": "BAĞLANTI",
           "hint": "Elektrikli aletlerin birbirine veya enerji kaynağına bağlanması şekli."
         },
         {
@@ -299,11 +299,11 @@
           "hint": "Bir devre türü; birden fazla yolun olduğu bağlantı şekli."
         },
         {
-          "word": "SERİ̇",
+          "word": "SERİ",
           "hint": "Bir devre türü; tek bir yolun olduğu bağlantı şekli."
         },
         {
-          "word": "MANYETİ̇ZMA",
+          "word": "MANYETİZMA",
           "hint": "Mıknatısların çekme veya itme gücüyle ilgili bilim dalı, elektrikle de bağlantılı."
         },
         {
@@ -335,7 +335,7 @@
           "hint": "Alternatif akımın saniyedeki salınım sayısı."
         },
         {
-          "word": "OSİ̇LOSKOP",
+          "word": "OSİLOSKOP",
           "hint": "Elektrik sinyallerinin şeklini ve genliğini gösteren ölçüm cihazı."
         },
         {
@@ -347,7 +347,7 @@
           "hint": "Pilin içindeki enerjinin tükenmesi durumu."
         },
         {
-          "word": "İ̇NDÜKSİ̇YON",
+          "word": "İNDÜKSİYON",
           "hint": "Değişen manyetik alanın bir devrede elektrik akımı oluşturması olayı."
         },
         {
@@ -359,7 +359,7 @@
           "hint": "Elektrik akışını düzenleme veya durdurma işlemi."
         },
         {
-          "word": "Sİ̇GORTA",
+          "word": "SİGORTA",
           "hint": "Devreden geçen akım fazlalaştığında devreyi korumak için atarak devreyi kesen parça."
         },
         {
@@ -367,11 +367,11 @@
           "hint": "Elektrikli aletlerin gövdesini güvenli bir şekilde toprağa bağlama işlemi."
         },
         {
-          "word": "Dİ̇NAMO",
+          "word": "DİNAMO",
           "hint": "Mekanik enerjiyi doğru akıma çeviren elektrik makinesi."
         },
         {
-          "word": "KONTROL KALEMİ̇",
+          "word": "KONTROL KALEMİ",
           "hint": "Elektrik olup olmadığını anlamaya yarayan basit alet."
         },
         {
@@ -379,7 +379,7 @@
           "hint": "Mekanik enerjiyi alternatif akıma çeviren makine."
         },
         {
-          "word": "İ̇ZOLASYON",
+          "word": "İZOLASYON",
           "hint": "Elektrik akımının iletilmesini engellemek için kullanılan yalıtım malzemeleri."
         },
         {
@@ -391,19 +391,19 @@
           "hint": "Cisimlerin elektriklendiğini ve yükünün işaretini anlamaya yarayan araç."
         },
         {
-          "word": "POTANSİ̇YEL",
+          "word": "POTANSİYEL",
           "hint": "Elektrik yüklerinin sahip olduğu enerji durumu, gerilimin karşılığı."
         },
         {
-          "word": "YÜKLEYİ̇Cİ̇",
+          "word": "YÜKLEYİCİ",
           "hint": "Bir cismi elektrikle yükleyen aygıt veya işlem."
         },
         {
-          "word": "VERİ̇MLİ̇Lİ̇K",
+          "word": "VERİMLİLİK",
           "hint": "Elektrik enerjisinin ne kadarının faydalı işe dönüştürüldüğü oranı."
         },
         {
-          "word": "İ̇LETKENLİ̇K",
+          "word": "İLETKENLİK",
           "hint": "Bir malzemenin elektriği ne kadar iyi ilettiğini gösteren özellik."
         },
         {
@@ -415,55 +415,1394 @@
           "hint": "Elektrik devrelerini aşırı akımdan koruyan eleman."
         },
         {
-          "word": "KESİ̇TLİ̇ ALAN",
+          "word": "KESİTLİ ALAN",
           "hint": "Bir iletkenin enine kesitinin yüzölçümü, akıma etkisi vardır."
         },
         {
-          "word": "YÜZEY GERİ̇Lİ̇Mİ̇",
+          "word": "YÜZEY GERİLİMİ",
           "hint": "Sıvıların yüzeyinde oluşan gerilim, elektrikle ilgisi azdır ama ilginç bir fen terimidir."
         }
       ]
     },
     {
       "id": "fen_u3",
-      "name": "3. Ünite: Kuvvet ve Hareket",
+      "name": "3. Ünite: Kuvvet ve Enerji",
+      "months": [
+        11,
+        12
+      ],
+      "words": [
+        {
+          "word": "SÜRAT",
+          "hint": "Birim zamanda alınan yol."
+        },
+        {
+          "word": "HIZ",
+          "hint": "Birim zamanda yapılan yer değiştirme, yönü de vardır."
+        },
+        {
+          "word": "YOL",
+          "hint": "Bir cismin hareketi boyunca katettiği toplam mesafe."
+        },
+        {
+          "word": "YER DEĞİŞTİRME",
+          "hint": "Bir cismin ilk konumu ile son konumu arasındaki en kısa mesafe."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Bir cismin hareketini başlatan, durduran veya yönünü değiştiren etki."
+        },
+        {
+          "word": "SÜRTÜNME",
+          "hint": "İki yüzey arasında hareketi zorlaştıran direnç kuvveti."
+        },
+        {
+          "word": "DİNAMOMETRE",
+          "hint": "Kuvvetin büyüklüğünü ölçmeye yarayan alet."
+        },
+        {
+          "word": "AĞIRLIK",
+          "hint": "Bir cisme etki eden yer çekimi kuvveti."
+        },
+        {
+          "word": "NET KUVVET",
+          "hint": "Bir cisme etki eden tüm kuvvetlerin bileşkesi (toplamı)."
+        },
+        {
+          "word": "DENGELENMİŞ KUVVETLER",
+          "hint": "Bileşkesi sıfır olan, cisimde hareket değişikliği yapmayan kuvvetler."
+        },
+        {
+          "word": "DENGELENMEMİŞ KUVVETLER",
+          "hint": "Bileşkesi sıfır olmayan, cisimde hareket değişikliği yapan kuvvetler."
+        },
+        {
+          "word": "EYLEMSİZLİK",
+          "hint": "Cisimlerin hareket durumlarını koruma isteği."
+        },
+        {
+          "word": "YER ÇEKİMİ",
+          "hint": "Kütlesi olan cisimlerin birbirini çekme kuvveti."
+        },
+        {
+          "word": "HAVA DİRENCİ",
+          "hint": "Harekete ters yönde etki eden, havanın uyguladığı sürtünme kuvveti."
+        },
+        {
+          "word": "SU DİRENCİ",
+          "hint": "Harekete ters yönde etki eden, suyun uyguladığı sürtünme kuvveti."
+        },
+        {
+          "word": "İTME",
+          "hint": "Bir şeyi kendinden uzaklaştırmak için uygulanan kuvvet."
+        },
+        {
+          "word": "ÇEKME",
+          "hint": "Bir şeyi kendine yaklaştırmak için uygulanan kuvvet."
+        },
+        {
+          "word": "DOĞRULTU",
+          "hint": "Bir cismin hareket ettiği yön ile tersini kapsayan çizgi."
+        },
+        {
+          "word": "YÖN",
+          "hint": "Bir cismin hareket ettiği taraf."
+        },
+        {
+          "word": "KONUM",
+          "hint": "Bir cismin belirli bir başlangıç noktasına göre bulunduğu yer."
+        },
+        {
+          "word": "VEKTÖREL",
+          "hint": "Hem büyüklüğü hem de yönü olan nicelikler."
+        },
+        {
+          "word": "SKALER",
+          "hint": "Sadece büyüklüğü olan nicelikler."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Bir cismin zamanla konum değiştirmesi."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Net kuvvetin sıfır olduğu durum."
+        },
+        {
+          "word": "SÜRATLENME",
+          "hint": "Cismin hızının zamanla artması."
+        },
+        {
+          "word": "YAVAŞLAMA",
+          "hint": "Cismin hızının zamanla azalması."
+        },
+        {
+          "word": "ÖTELEME",
+          "hint": "Bir cismin düz bir çizgi boyunca yer değiştirmesi."
+        },
+        {
+          "word": "DÖNME",
+          "hint": "Bir cismin bir eksen etrafında hareket etmesi."
+        },
+        {
+          "word": "TİTREŞİM",
+          "hint": "Bir cismin belirli bir nokta etrafında ileri geri salınım yapması."
+        },
+        {
+          "word": "ETKİ-TEPKİ",
+          "hint": "Her kuvvete eşit ve zıt yönde bir karşılık kuvvetinin olması."
+        },
+        {
+          "word": "NEWTON",
+          "hint": "Kuvvet birimi."
+        },
+        {
+          "word": "TEMAS KUVVETLERİ",
+          "hint": "İki cismin birbirine dokunmasıyla oluşan kuvvetler."
+        },
+        {
+          "word": "TEMAS GEREKTİRMEYEN KUVVETLER",
+          "hint": "Cisimler birbirine dokunmadan oluşan kuvvetler."
+        },
+        {
+          "word": "MANYETİK KUVVET",
+          "hint": "Mıknatısların veya elektrik akımının oluşturduğu çekim/itme kuvveti."
+        },
+        {
+          "word": "ELEKTRİKSEL KUVVET",
+          "hint": "Yüklü cisimlerin birbirine uyguladığı çekim/itme kuvveti."
+        },
+        {
+          "word": "ÖLÇÜM",
+          "hint": "Bir niceliğin değerini belirleme işlemi."
+        },
+        {
+          "word": "BİRİM",
+          "hint": "Bir niceliğin ölçüldüğü standart miktar."
+        },
+        {
+          "word": "GRAFİK",
+          "hint": "Verileri görsel olarak gösterme yöntemi."
+        },
+        {
+          "word": "KÜTLEÇEKİM KUVVETİ",
+          "hint": "Evrendeki kütleli tüm cisimlerin birbirini çekme kuvveti."
+        },
+        {
+          "word": "BAŞLANGIÇ NOKTASI",
+          "hint": "Bir hareketin veya olayın ilk konumu."
+        },
+        {
+          "word": "BİTİŞ NOKTASI",
+          "hint": "Bir hareketin veya olayın son konumu."
+        },
+        {
+          "word": "SABİT SÜRAT",
+          "hint": "Bir cismin hızının büyüklüğünün değişmemesi durumu."
+        },
+        {
+          "word": "ORTALAMA SÜRAT",
+          "hint": "Toplam yolun toplam zamana bölünmesiyle bulunan sürat."
+        },
+        {
+          "word": "ANLIK SÜRAT",
+          "hint": "Bir cismin belirli bir anda sahip olduğu sürat."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir olayı veya durumu dikkatlice izleme."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Bir hipotezi test etmek için kontrollü şartlarda yapılan çalışma."
+        },
+        {
+          "word": "SARKAÇ",
+          "hint": "Bir ipin ucuna bağlı cismin salınım hareketi."
+        },
+        {
+          "word": "DAİRESEL HAREKET",
+          "hint": "Bir cismin bir merkez etrafında çember şeklinde hareket etmesi."
+        },
+        {
+          "word": "YAY",
+          "hint": "Esnek bir cisim olup kuvvet uygulandığında uzar veya kısalır."
+        },
+        {
+          "word": "ESNEKLİK",
+          "hint": "Bir cismin şekli bozulduktan sonra eski haline dönebilme özelliği."
+        }
+      ]
+    },
+    {
+      "id": "fen_u4",
+      "name": "4. Ünite: Saf Madde ve Karışımlar",
       "months": [
         1,
         2
       ],
-      "words": []
-    },
-    {
-      "id": "fen_u4",
-      "name": "4. Ünite: Madde ve Isı İlişkisi",
-      "months": [
-        3
-      ],
-      "words": []
+      "words": [
+        {
+          "word": "SICAKLIK",
+          "hint": "Bir maddenin ne kadar sıcak veya soğuk olduğunu gösteren ölçü."
+        },
+        {
+          "word": "İSI",
+          "hint": "Maddeler arasında alınıp verilen enerji türü."
+        },
+        {
+          "word": "GENLEŞME",
+          "hint": "Isı alan maddelerin boyutunun artması."
+        },
+        {
+          "word": "BÜZÜLME",
+          "hint": "Isı veren maddelerin boyutunun küçülmesi."
+        },
+        {
+          "word": "KATI",
+          "hint": "Belirli bir şekli ve hacmi olan madde hali."
+        },
+        {
+          "word": "SIVI",
+          "hint": "Belirli bir hacmi olup şekli konulduğu kaba uyan madde hali."
+        },
+        {
+          "word": "GAZ",
+          "hint": "Belirli bir şekli ve hacmi olmayan madde hali."
+        },
+        {
+          "word": "ERİME",
+          "hint": "Katı bir maddenin ısı alarak sıvı hale geçmesi."
+        },
+        {
+          "word": "DONMA",
+          "hint": "Sıvı bir maddenin ısı vererek katı hale geçmesi."
+        },
+        {
+          "word": "BUHARLAŞMA",
+          "hint": "Sıvı bir maddenin ısı alarak gaz hale geçmesi."
+        },
+        {
+          "word": "YOĞUNLAŞMA",
+          "hint": "Gaz bir maddenin ısı vererek sıvı hale geçmesi."
+        },
+        {
+          "word": "SÜBLİMLEŞME",
+          "hint": "Katı bir maddenin ısı alarak doğrudan gaz hale geçmesi (örn. naftalin)."
+        },
+        {
+          "word": "KIRAĞILAŞMA",
+          "hint": "Gaz bir maddenin ısı vererek doğrudan katı hale geçmesi (örn. kırağı)."
+        },
+        {
+          "word": "İLETİM",
+          "hint": "Isının madde taneciklerinin temasıyla yayılması."
+        },
+        {
+          "word": "KONVEKSİYON",
+          "hint": "Isının akışkanlar (sıvı, gaz) içindeki hareketle yayılması."
+        },
+        {
+          "word": "IŞIMA",
+          "hint": "Isının boşlukta elektromanyetik dalgalarla yayılması (örn. güneş)."
+        },
+        {
+          "word": "TERMOMETRE",
+          "hint": "Sıcaklığı ölçmeye yarayan alet."
+        },
+        {
+          "word": "KALORİMETRE",
+          "hint": "Isı alışverişini ölçmeye yarayan özel kap."
+        },
+        {
+          "word": "JOULE",
+          "hint": "Uluslararası standartlarda enerji birimi."
+        },
+        {
+          "word": "ÖZGÜL İSI",
+          "hint": "Birim kütledeki maddenin sıcaklığını 1°C artırmak için gereken ısı."
+        },
+        {
+          "word": "İSI SIĞASI",
+          "hint": "Bir maddenin tamamının sıcaklığını 1°C artırmak için gereken ısı."
+        },
+        {
+          "word": "YALITIM",
+          "hint": "Isı geçişini azaltma veya engelleme işlemi."
+        },
+        {
+          "word": "İLETKEN",
+          "hint": "Isıyı iyi ve hızlı taşıyan madde."
+        },
+        {
+          "word": "YALITKAN",
+          "hint": "Isıyı kötü ve yavaş taşıyan madde."
+        },
+        {
+          "word": "TERMAL",
+          "hint": "Isıyla ilgili olan, ısısal."
+        },
+        {
+          "word": "KAYNAMA",
+          "hint": "Sıvının her yerinden hızlı buharlaşmanın olduğu durum."
+        },
+        {
+          "word": "DONMA NOKTASI",
+          "hint": "Bir sıvının donmaya başladığı sabit sıcaklık."
+        },
+        {
+          "word": "ERİME NOKTASI",
+          "hint": "Bir katının erimeye başladığı sabit sıcaklık."
+        },
+        {
+          "word": "KAYNAMA NOKTASI",
+          "hint": "Bir sıvının kaynamaya başladığı sabit sıcaklık."
+        },
+        {
+          "word": "BUHAR BASINCI",
+          "hint": "Sıvının yüzeyindeki buhar moleküllerinin yaptığı basınç."
+        },
+        {
+          "word": "KİNETİK ENERJİ",
+          "hint": "Maddenin taneciklerinin hareketinden kaynaklanan enerji."
+        },
+        {
+          "word": "POTANSİYEL ENERJİ",
+          "hint": "Maddenin konumu veya yapısından kaynaklanan saklı enerji."
+        },
+        {
+          "word": "TERMAL DENGE",
+          "hint": "Isı akışının durduğu, eşit sıcaklık durumu."
+        },
+        {
+          "word": "İÇ ENERJİ",
+          "hint": "Bir maddenin taneciklerinin toplam kinetik ve potansiyel enerjisi."
+        },
+        {
+          "word": "FAZ",
+          "hint": "Maddenin katı, sıvı veya gaz gibi farklı halleri."
+        },
+        {
+          "word": "FAZ DEĞİŞİMİ",
+          "hint": "Maddenin bir halden başka bir hale geçmesi."
+        },
+        {
+          "word": "BUHARLAŞMA HIZI",
+          "hint": "Birim zamanda yüzeyden buharlaşan sıvı miktarı."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Bir maddenin birim hacimdeki kütlesi."
+        },
+        {
+          "word": "GENLEŞME KATSAYISI",
+          "hint": "Maddelerin sıcaklık artışıyla boyutundaki değişim oranını gösteren sayı."
+        },
+        {
+          "word": "BUZLANMA",
+          "hint": "Yüzeylerin donarak buz tabakasıyla kaplanması."
+        },
+        {
+          "word": "NEM",
+          "hint": "Havadaki su buharı miktarı."
+        },
+        {
+          "word": "ÇİĞ",
+          "hint": "Sabahları soğuk yüzeylerde oluşan su damlacıkları."
+        },
+        {
+          "word": "KIRAĞI",
+          "hint": "Soğuk havada yüzeylerde oluşan buz kristalleri."
+        },
+        {
+          "word": "GÜNEŞ PANELİ",
+          "hint": "Güneş enerjisini ısı veya elektriğe dönüştüren teknolojik alet."
+        },
+        {
+          "word": "JEOTERMAL",
+          "hint": "Yer altındaki sıcak su kaynaklarından elde edilen enerji."
+        },
+        {
+          "word": "TERMOS",
+          "hint": "Sıcak veya soğuk içeceklerin ısısını koruyan özel kap."
+        },
+        {
+          "word": "RADYATÖR",
+          "hint": "Evleri ısıtmak için kullanılan metal petekler."
+        },
+        {
+          "word": "FIRIN",
+          "hint": "Yemek pişirme veya ısıtma amacıyla kullanılan kapalı cihaz."
+        },
+        {
+          "word": "SOĞUTUCU",
+          "hint": "Yiyecekleri soğuk tutan veya donduran ev aleti (buzdolabı gibi)."
+        },
+        {
+          "word": "BİMETAL",
+          "hint": "İki farklı metalin birleşimiyle sıcaklık değişimlerine tepki veren şerit."
+        },
+        {
+          "word": "İSI POMPASI",
+          "hint": "Ortamdan ısıyı alıp başka bir yere taşıyan cihaz."
+        },
+        {
+          "word": "KALORİFER",
+          "hint": "Bir binayı ısıtmak için kullanılan merkezi ısıtma sistemi."
+        },
+        {
+          "word": "BUHAR KAZANI",
+          "hint": "Endüstride veya evde buhar üretmek için kullanılan kapalı sistem."
+        },
+        {
+          "word": "DONMA DERECESİ",
+          "hint": "Suyun 0°C'de katılaşmaya başladığı özel sıcaklık."
+        },
+        {
+          "word": "PİŞİRME",
+          "hint": "Isı kullanarak yiyecekleri yenilebilir hale getirme işlemi."
+        }
+      ]
     },
     {
       "id": "fen_u5",
-      "name": "5. Ünite: Işığın Yayılması ve Yansıması",
+      "name": "5. Ünite: Işığın Maddeyle Etkileşimi",
       "months": [
-        4
+        2,
+        3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "IŞIK KAYNAĞI",
+          "hint": "Doğal veya yapay olarak ışık üreten şey."
+        },
+        {
+          "word": "YAYILMA",
+          "hint": "Işığın her yöne doğru hareket etmesi."
+        },
+        {
+          "word": "YANSIMA",
+          "hint": "Işığın bir yüzeye çarpıp geri dönmesi."
+        },
+        {
+          "word": "DÜZLEM AYNA",
+          "hint": "Görüntümüzü gösteren pürüzsüz, düz yüzeyli ayna."
+        },
+        {
+          "word": "GÖRÜNTÜ",
+          "hint": "Aynada veya ekranda oluşan şekil ya da suret."
+        },
+        {
+          "word": "GÖLGE",
+          "hint": "Işık geçirmeyen cismin arkasında oluşan karanlık alan."
+        },
+        {
+          "word": "SAYDAM",
+          "hint": "Işığı tamamen geçiren madde (cam gibi)."
+        },
+        {
+          "word": "YARI SAYDAM",
+          "hint": "Işığın bir kısmını geçiren, arkasını bulanık gösteren madde."
+        },
+        {
+          "word": "OPAK",
+          "hint": "Işığı hiç geçirmeyen madde (duvar gibi)."
+        },
+        {
+          "word": "KARANLIK",
+          "hint": "Işığın olmadığı yer veya durum."
+        },
+        {
+          "word": "AYDINLIK",
+          "hint": "Işığın bol olduğu yer veya durum."
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Işığın düz bir çizgi üzerinde yayılması özelliği."
+        },
+        {
+          "word": "YANSITICI",
+          "hint": "Işığı geri gönderen, parlak yüzey."
+        },
+        {
+          "word": "SOĞURMA",
+          "hint": "Bir maddenin ışığı içine alması, emmesi."
+        },
+        {
+          "word": "GEÇİRME",
+          "hint": "Bir maddenin ışığı içinden geçirmesi durumu."
+        },
+        {
+          "word": "CİSİM",
+          "hint": "Üzerine ışık düşen ve gölgesi oluşan her şey."
+        },
+        {
+          "word": "AÇI",
+          "hint": "İki ışın veya çizgi arasındaki açıklık."
+        },
+        {
+          "word": "GELEN IŞIN",
+          "hint": "Yansıtıcı yüzeye çarpan ışık demeti."
+        },
+        {
+          "word": "YANSIYAN İŞIN",
+          "hint": "Yüzeyden geri dönen ışık demeti."
+        },
+        {
+          "word": "NORMAL",
+          "hint": "Yansıtıcı yüzeye dik çizilen hayali çizgi."
+        },
+        {
+          "word": "GELME AÇISI",
+          "hint": "Gelen ışın ile normal arasındaki açı."
+        },
+        {
+          "word": "YANSIMA AÇISI",
+          "hint": "Yansıyan ışın ile normal arasındaki açı."
+        },
+        {
+          "word": "CİSİM UZAKLIĞI",
+          "hint": "Cismin aynaya olan mesafesi."
+        },
+        {
+          "word": "GÖRÜNTÜ UZAKLIĞI",
+          "hint": "Görüntünün aynaya olan mesafesi."
+        },
+        {
+          "word": "SANAL GÖRÜNTÜ",
+          "hint": "Aynada oluşan, perdede toplanamayan gerçek dışı görüntü."
+        },
+        {
+          "word": "DÜZ GÖRÜNTÜ",
+          "hint": "Aynadaki görüntünün cisimle aynı yönde olması."
+        },
+        {
+          "word": "SİMETRİ",
+          "hint": "Aynadaki görüntü ile cismin birbirine benzer, eş parçalı olması."
+        },
+        {
+          "word": "YANAL TERSLİK",
+          "hint": "Aynada sağın sol, solun sağ gibi görünmesi durumu."
+        },
+        {
+          "word": "TAM GÖLGE",
+          "hint": "Işık kaynağının tamamının engellendiği en karanlık bölge."
+        },
+        {
+          "word": "YARI GÖLGE",
+          "hint": "Işık kaynağının bir kısmının engellendiği, daha az karanlık bölge."
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Birbirine hiç dokunmayan, aynı yönde ilerleyen çizgiler."
+        },
+        {
+          "word": "YANSIMA YASALARI",
+          "hint": "Işığın yansıması ile ilgili bilimsel kurallar."
+        },
+        {
+          "word": "FENER",
+          "hint": "El ile taşınabilen, ışık veren küçük alet."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Dünyamız için en büyük doğal ışık kaynağı."
+        },
+        {
+          "word": "AMPUL",
+          "hint": "Elektrikle çalışan, yapay ışık kaynağı."
+        },
+        {
+          "word": "IŞIK HIZI",
+          "hint": "Işığın boşluktaki hareket sürati, çok yüksektir."
+        },
+        {
+          "word": "ORTAM",
+          "hint": "Işığın içinden geçtiği madde (hava, su, cam gibi)."
+        },
+        {
+          "word": "PÜRÜZLÜ YÜZEY",
+          "hint": "Işığı dağınık yansıtan yüzey (taş, duvar gibi)."
+        },
+        {
+          "word": "PÜRÜZSÜZ YÜZEY",
+          "hint": "Işığı düzgün yansıtan yüzey (ayna, parlak metal gibi)."
+        },
+        {
+          "word": "DAĞINIK YANSIMA",
+          "hint": "Işığın pürüzlü yüzeyden her yöne yansıması."
+        },
+        {
+          "word": "DÜZGÜN YANSIMA",
+          "hint": "Işığın pürüzsüz yüzeyden belirli bir düzenle yansıması."
+        },
+        {
+          "word": "IŞIK DEMETİ",
+          "hint": "Birçok ışık ışınının bir araya gelmesi."
+        },
+        {
+          "word": "PROJEKTÖR",
+          "hint": "Geniş alana ışık yayan güçlü lamba veya cihaz."
+        },
+        {
+          "word": "REFLEKTÖR",
+          "hint": "Işığı geri yansıtıp görünürlüğü artıran malzeme (bisiklet reflektörü gibi)."
+        },
+        {
+          "word": "PERDE",
+          "hint": "Işığı engelleyerek gölge oluşturan yüzey veya kumaş."
+        },
+        {
+          "word": "OPTİK",
+          "hint": "Işık olaylarını ve özelliklerini inceleyen bilim dalı."
+        },
+        {
+          "word": "GÖRÜNÜR IŞIK",
+          "hint": "Gözümüzle algılayabildiğimiz ışık aralığı."
+        },
+        {
+          "word": "YÖN",
+          "hint": "Işığın hareket ettiği taraf veya istikamet."
+        },
+        {
+          "word": "IŞIN",
+          "hint": "Tek bir ışık çizgisi veya çok küçük bir ışık parçası."
+        },
+        {
+          "word": "ŞEFFAF",
+          "hint": "Saydam madde için kullanılan diğer bir kelime."
+        }
+      ]
     },
     {
       "id": "fen_u6",
-      "name": "6. Ünite: İnsan ve Çevre Etkileşimi",
+      "name": "6. Ünite: Canlılarda Üreme, Büyüme ve Gelişme",
       "months": [
-        5
+        3,
+        4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "ÇEVRE",
+          "hint": "İçinde yaşadığımız veya etrafımızda bulunan her şey."
+        },
+        {
+          "word": "EKOSİSTEM",
+          "hint": "Canlılar ve cansız çevrenin bir aradaki yaşamı."
+        },
+        {
+          "word": "HABİTAT",
+          "hint": "Bir canlının doğal olarak yaşadığı yer."
+        },
+        {
+          "word": "KİRLİLİK",
+          "hint": "Çevreye zarar veren maddelerin yayılması."
+        },
+        {
+          "word": "ATIK",
+          "hint": "Kullanım sonrası işe yaramayan madde, çöp."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Atıkların yeniden kullanıma kazandırılması."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Kaynakları gelecek için koruyarak kullanma."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ",
+          "hint": "Dünya genelindeki hava olaylarının uzun süreli değişimi."
+        },
+        {
+          "word": "KÜRESEL İSINMA",
+          "hint": "Dünya'nın ortalama sıcaklığının artması."
+        },
+        {
+          "word": "SERA ETKİSİ",
+          "hint": "Atmosferdeki gazların dünyayı ısıtması."
+        },
+        {
+          "word": "KARBON AYAK İZİ",
+          "hint": "Bir yaşam tarzının çevreye bıraktığı karbon miktarı."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK",
+          "hint": "Bir bölgedeki farklı canlı türlerinin çeşitliliği."
+        },
+        {
+          "word": "EROZYON",
+          "hint": "Toprağın rüzgar veya su ile aşınması."
+        },
+        {
+          "word": "ORMAN YANGINI",
+          "hint": "Ormanlık alanlarda kontrolsüzce yayılan ateş."
+        },
+        {
+          "word": "ÇÖLLEŞME",
+          "hint": "Verimli toprakların kuruyarak çöl olmasına."
+        },
+        {
+          "word": "SU KAYNAKLARI",
+          "hint": "İçme ve kullanma suyu sağlayan doğal yerler."
+        },
+        {
+          "word": "HAVA KİRLİLİĞİ",
+          "hint": "Havanın zararlı gazlar ve tozlarla dolması."
+        },
+        {
+          "word": "TOPRAK KİRLİLİĞİ",
+          "hint": "Toprağın kimyasal maddelerle zarar görmesi."
+        },
+        {
+          "word": "SES KİRLİLİĞİ",
+          "hint": "İstenmeyen veya aşırı gürültünün çevreye etkisi."
+        },
+        {
+          "word": "IŞIK KİRLİLİĞİ",
+          "hint": "Yanlış aydınlatmanın doğal yaşama etkisi."
+        },
+        {
+          "word": "NÜKLEER ENERJİ",
+          "hint": "Atomlardan elde edilen güçlü enerji."
+        },
+        {
+          "word": "YENİLENEBİLİR ENERJİ",
+          "hint": "Güneş, rüzgar gibi tükenmeyen enerji kaynakları."
+        },
+        {
+          "word": "FOSİL YAKITLAR",
+          "hint": "Kömür, petrol, doğalgaz gibi yer altından çıkan yakıtlar."
+        },
+        {
+          "word": "ALTERNATİF ENERJİ",
+          "hint": "Geleneksel olmayan, doğa dostu enerji türleri."
+        },
+        {
+          "word": "İNSAN ETKİSİ",
+          "hint": "İnsanların çevreye yaptığı olumlu veya olumsuz değişimler."
+        },
+        {
+          "word": "ÇEVRE KORUMA",
+          "hint": "Doğayı ve kaynakları zararlardan koruma çabaları."
+        },
+        {
+          "word": "BİLİNÇLİ TÜKETİM",
+          "hint": "Ürünleri gereksiz yere almadan kullanma."
+        },
+        {
+          "word": "KAYNAK İSRAFI",
+          "hint": "Doğal kaynakları boşa harcama."
+        },
+        {
+          "word": "TÜKETİM",
+          "hint": "Ürün ve hizmetleri kullanma."
+        },
+        {
+          "word": "ÜRETİM",
+          "hint": "Mal veya hizmet yaratma."
+        },
+        {
+          "word": "SANAYİ",
+          "hint": "Fabrikaların ve büyük üretim yerlerinin olduğu alan."
+        },
+        {
+          "word": "TEKNOLOJİ",
+          "hint": "Bilimin pratik sorunları çözmek için kullanılması."
+        },
+        {
+          "word": "KENTLEŞME",
+          "hint": "Şehir nüfusunun artması ve büyümesi."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların yaşadığı yerden başka bir yere gitmesi."
+        },
+        {
+          "word": "TARIM",
+          "hint": "Toprakta bitki yetiştirme ve hayvan besleme."
+        },
+        {
+          "word": "AVCILIK",
+          "hint": "Yaban hayvanlarını yakalama veya öldürme eylemi."
+        },
+        {
+          "word": "BALIKÇILIK",
+          "hint": "Denizlerden veya tatlı sulardan balık tutma."
+        },
+        {
+          "word": "BESİN ZİNCİRİ",
+          "hint": "Canlıların birbirini yiyerek enerji aktarması."
+        },
+        {
+          "word": "BESİN AĞI",
+          "hint": "Birden çok besin zincirinin birleşimi."
+        },
+        {
+          "word": "ÜRETİCİ",
+          "hint": "Kendi besinini üreten canlılar (örneğin bitkiler)."
+        },
+        {
+          "word": "TÜKETİCİ",
+          "hint": "Başka canlıları yiyerek beslenen canlılar."
+        },
+        {
+          "word": "AYRIŞTIRICI",
+          "hint": "Ölü canlıları ve atıkları parçalayan organizmalar."
+        },
+        {
+          "word": "POPÜLASYON",
+          "hint": "Belirli bir alandaki aynı türden canlıların toplamı."
+        },
+        {
+          "word": "KOMÜNİTE",
+          "hint": "Belirli bir alandaki farklı türden canlıların birliği."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Bir sistemin kararlı ve uyumlu durumu."
+        },
+        {
+          "word": "ADAPTASYON",
+          "hint": "Canlıların çevrelerine uyum sağlaması."
+        },
+        {
+          "word": "TÜR",
+          "hint": "Ortak özellikleri olan, çiftleşebilen canlı grubu."
+        },
+        {
+          "word": "NESLİ TÜKENEN TÜR",
+          "hint": "Dünya'dan tamamen yok olmuş canlı türü."
+        },
+        {
+          "word": "ENDEMİK TÜR",
+          "hint": "Sadece belirli bir bölgede yaşayan canlı türü."
+        },
+        {
+          "word": "KORUMA",
+          "hint": "Bir şeyi zararlardan veya yok olmaktan kurtarma."
+        },
+        {
+          "word": "FARKINDALIK",
+          "hint": "Bir konunun önemini anlama ve bilinçli olma."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Bilgi ve becerileri geliştirme süreci."
+        },
+        {
+          "word": "YASA",
+          "hint": "Devlet tarafından konulan ve uyulması gereken kurallar."
+        },
+        {
+          "word": "DENETİM",
+          "hint": "İşlerin kurallara uygunluğunu kontrol etme."
+        },
+        {
+          "word": "ARITMA TESİSİ",
+          "hint": "Atık suları veya gazları temizleyen yer."
+        },
+        {
+          "word": "AĞAÇLANDIRMA",
+          "hint": "Boş alanlara ağaç dikme."
+        },
+        {
+          "word": "DOĞAL KAYNAKLAR",
+          "hint": "Doğada bulunan, insanlar tarafından kullanılan maddeler."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ",
+          "hint": "Güneş ışınlarından elde edilen enerji."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ",
+          "hint": "Rüzgarın hareketinden elde edilen enerji."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ",
+          "hint": "Yer altı sıcak sularından elde edilen enerji."
+        },
+        {
+          "word": "OZON TABAKASI",
+          "hint": "Dünya'yı zararlı ışınlardan koruyan gaz katmanı."
+        },
+        {
+          "word": "ASİT YAĞMURLARI",
+          "hint": "Hava kirliliğinden oluşan zararlı yağmurlar."
+        },
+        {
+          "word": "ÇEVRE BİLİNCİ",
+          "hint": "Çevrenin korunmasına yönelik duyarlılık."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM KUTUSU",
+          "hint": "Atıkları ayrıştırmak için kullanılan kutu."
+        },
+        {
+          "word": "EKOSİSTEM DENGESİ",
+          "hint": "Ekosistemdeki canlı ve cansız unsurların uyumu."
+        }
+      ]
     },
     {
       "id": "fen_u7",
-      "name": "7. Ünite: Basit Elektrik Devreleri",
+      "name": "7. Ünite: Elektrik Devreleri",
       "months": [
+        4,
+        5
+      ],
+      "words": [
+        {
+          "word": "ELEKTRİK",
+          "hint": "Evlerimizi aydınlatan, cihazlarımızı çalıştıran enerji türü."
+        },
+        {
+          "word": "DEVRE",
+          "hint": "Elektrik akımının izlediği kapalı yol."
+        },
+        {
+          "word": "PİL",
+          "hint": "Kimyasal enerjiyi elektrik enerjisine çeviren enerji kaynağı."
+        },
+        {
+          "word": "AMPUL",
+          "hint": "Elektrik enerjisini ışığa dönüştüren aydınlatma aracı."
+        },
+        {
+          "word": "ANAHTAR",
+          "hint": "Elektrik akımını açıp kapatmaya yarayan devre elemanı."
+        },
+        {
+          "word": "KABLO",
+          "hint": "Elektrik akımını taşıyan, yalıtkanla kaplı tel."
+        },
+        {
+          "word": "İLETKEN",
+          "hint": "Elektrik akımını kolayca geçiren maddelere verilen ad."
+        },
+        {
+          "word": "YALITKAN",
+          "hint": "Elektrik akımını geçirmeyen maddelere verilen ad."
+        },
+        {
+          "word": "AKIM",
+          "hint": "Elektrik yüklerinin düzenli hareketi."
+        },
+        {
+          "word": "GERİLİM",
+          "hint": "Elektrik yüklerini harekete geçiren itici güç."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme yeteneği."
+        },
+        {
+          "word": "IŞIK",
+          "hint": "Görmemizi sağlayan bir enerji türü."
+        },
+        {
+          "word": "İSI",
+          "hint": "Maddelerin moleküllerinin hareketinden ortaya çıkan enerji."
+        },
+        {
+          "word": "ÜRETEÇ",
+          "hint": "Elektrik devresine enerji sağlayan kaynak."
+        },
+        {
+          "word": "TÜKETİCİ",
+          "hint": "Elektrik enerjisini başka bir enerjiye çeviren devre elemanı."
+        },
+        {
+          "word": "SERİ",
+          "hint": "Devre elemanlarının birbiri ardına bağlanma şekli."
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Devre elemanlarının yan yana bağlanma şekli."
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Devre elemanlarını göstermek için kullanılan özel işaret."
+        },
+        {
+          "word": "ŞEMA",
+          "hint": "Devre elemanlarının sembollerle çizilmiş planı."
+        },
+        {
+          "word": "DUY",
+          "hint": "Ampulün takıldığı ve elektrik bağlantısının yapıldığı yer."
+        },
+        {
+          "word": "BAĞLANTI",
+          "hint": "İki veya daha fazla elemanın birbirine eklenmesi."
+        },
+        {
+          "word": "ELEMAN",
+          "hint": "Elektrik devresini oluşturan parçalardan her biri."
+        },
+        {
+          "word": "AÇIK",
+          "hint": "Elektrik akımının geçmediği, kesintiye uğramış devre."
+        },
+        {
+          "word": "KAPALI",
+          "hint": "Elektrik akımının kesintisiz aktığı, tamamlanmış devre."
+        },
+        {
+          "word": "KISA DEVRE",
+          "hint": "Direnci çok düşük bir yoldan akımın geçmesi."
+        },
+        {
+          "word": "DİRENÇ",
+          "hint": "Elektrik akımının geçişine karşı koyan özellik."
+        },
+        {
+          "word": "MANYETİK",
+          "hint": "Mıknatıslık özelliği gösteren."
+        },
+        {
+          "word": "KUTUP",
+          "hint": "Pil veya mıknatısın zıt uçlarından her biri (artı/eksi)."
+        },
+        {
+          "word": "AKIM YÖNÜ",
+          "hint": "Elektrik akımının hareket ettiği kabul edilen yön."
+        },
+        {
+          "word": "ELEKTROMIKNATIS",
+          "hint": "Elektrik akımıyla geçici mıknatıs olan madde."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Bir konuyu araştırmak için yapılan bilimsel işlem."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir durumu dikkatlice izleyerek bilgi edinme."
+        },
+        {
+          "word": "HİPOTEZ",
+          "hint": "Bir olayın nedeni hakkında yapılan geçici tahmin."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Gerçek bir şeyin basitleştirilmiş ve küçültülmüş hali."
+        },
+        {
+          "word": "PROJE",
+          "hint": "Belirli bir hedefi olan planlı ve uygulamalı çalışma."
+        },
+        {
+          "word": "GÜVENLİK",
+          "hint": "Tehlikelerden korunma durumu veya önlemleri."
+        },
+        {
+          "word": "SİGORTA",
+          "hint": "Aşırı akımda devreyi kesen koruyucu eleman."
+        },
+        {
+          "word": "TOPRAKLAMA",
+          "hint": "Fazla elektrik yükünü toprağa ileterek koruma."
+        },
+        {
+          "word": "ÇARPILMA",
+          "hint": "Elektrik akımının insan vücudundan geçmesiyle oluşan durum."
+        },
+        {
+          "word": "NEM",
+          "hint": "Ortamdaki su buharı, elektrikle temasını tehlikeli yapar."
+        },
+        {
+          "word": "KURU",
+          "hint": "Nemsiz, susuz durum, elektrik için daha güvenli."
+        },
+        {
+          "word": "FİŞ",
+          "hint": "Elektrikli aleti prize takmaya yarayan parça."
+        },
+        {
+          "word": "PRİZ",
+          "hint": "Elektrik bağlantısı için duvardaki güç noktası."
+        },
+        {
+          "word": "METAL",
+          "hint": "Elektriği iyi ileten parlak madde (demir, bakır gibi)."
+        },
+        {
+          "word": "PLASTİK",
+          "hint": "Elektriği yalıtan, hafif ve esnek bir malzeme."
+        },
+        {
+          "word": "CAM",
+          "hint": "Elektriği yalıtan şeffaf ve sert bir madde."
+        },
+        {
+          "word": "KAUÇUK",
+          "hint": "Elektrik kablolarının yalıtımında kullanılan elastik madde."
+        },
+        {
+          "word": "DEVAMLILIK",
+          "hint": "Devrenin kapalı olması ve akımın kesintisiz akması."
+        },
+        {
+          "word": "YÜK",
+          "hint": "Elektriklenmeye neden olan temel parçacık özelliği."
+        },
+        {
+          "word": "ELEKTRON",
+          "hint": "Atomun etrafında dönen, negatif elektrik yüklü parçacık."
+        },
+        {
+          "word": "PROTON",
+          "hint": "Atomun çekirdeğinde bulunan, pozitif elektrik yüklü parçacık."
+        },
+        {
+          "word": "NÖTR",
+          "hint": "Elektrik yüklerinin dengede olduğu, yüksüz hal."
+        },
+        {
+          "word": "POTANSİYEL",
+          "hint": "Bir noktadaki elektrik enerjisi seviyesi."
+        },
+        {
+          "word": "VOLT",
+          "hint": "Gerilimi ölçmek için kullanılan birim."
+        },
+        {
+          "word": "AMPER",
+          "hint": "Elektrik akımının şiddetini ölçmek için kullanılan birim."
+        },
+        {
+          "word": "ALET",
+          "hint": "Belirli bir işi yapmak için kullanılan araç."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Birden fazla elemanın bir araya gelerek oluşturduğu topluluk."
+        },
+        {
+          "word": "İNCELEME",
+          "hint": "Bir konuyu detaylı olarak araştırma."
+        },
+        {
+          "word": "KURULUM",
+          "hint": "Bir sistemin veya devrenin oluşturulması."
+        },
+        {
+          "word": "ÖLÇÜ",
+          "hint": "Bir büyüklüğün değerini belirleme işlemi."
+        }
+      ]
+    },
+    {
+      "id": "fen_u8",
+      "name": "8. Ünite: Ses ve Özellikleri",
+      "months": [
+        5,
         6
       ],
-      "words": []
+      "words": [
+        {
+          "word": "TİTREŞİM",
+          "hint": "Bir cismin ileri geri gidip gelme hareketi."
+        },
+        {
+          "word": "SES",
+          "hint": "Titreşimler sonucu oluşan ve duyabildiğimiz enerji."
+        },
+        {
+          "word": "DALGA",
+          "hint": "Enerjinin bir ortamda yayılma şekli."
+        },
+        {
+          "word": "ORTAM",
+          "hint": "Sesin ilerleyebilmesi için gerekli olan madde (katı, sıvı, gaz)."
+        },
+        {
+          "word": "YAYILMA",
+          "hint": "Sesin bir yerden başka bir yere doğru ilerlemesi."
+        },
+        {
+          "word": "YANKI",
+          "hint": "Sesin bir engele çarpıp geri dönmesi."
+        },
+        {
+          "word": "YANSIMA",
+          "hint": "Ses dalgalarının bir yüzeye çarpıp yön değiştirmesi."
+        },
+        {
+          "word": "SOĞURMA",
+          "hint": "Sesin bir madde tarafından emilerek azalması."
+        },
+        {
+          "word": "ŞİDDET",
+          "hint": "Bir sesin ne kadar güçlü veya zayıf olduğu."
+        },
+        {
+          "word": "DESİBEL",
+          "hint": "Sesin şiddetini ölçmek için kullanılan birim."
+        },
+        {
+          "word": "FREKANS",
+          "hint": "Bir saniyedeki titreşim sayısı."
+        },
+        {
+          "word": "HERTZ",
+          "hint": "Frekans birimi."
+        },
+        {
+          "word": "YÜKSEKLİK",
+          "hint": "Sesin ince veya kalın olmasını belirten özellik (tiz-pes)."
+        },
+        {
+          "word": "TİZ",
+          "hint": "Yüksek frekanslı, ince ses."
+        },
+        {
+          "word": "PES",
+          "hint": "Düşük frekanslı, kalın ses."
+        },
+        {
+          "word": "TINI",
+          "hint": "Sesin kaynağını ayırt etmemizi sağlayan özellik."
+        },
+        {
+          "word": "HIZ",
+          "hint": "Sesin bir ortamda ne kadar çabuk ilerlediği."
+        },
+        {
+          "word": "BOŞLUK",
+          "hint": "Sesin yayılamadığı, madde içermeyen yer."
+        },
+        {
+          "word": "GÜRÜLTÜ",
+          "hint": "Rahatsız edici, düzensiz ve istenmeyen ses."
+        },
+        {
+          "word": "YALITIM",
+          "hint": "Sesin geçişini engelleme veya azaltma."
+        },
+        {
+          "word": "AKUSTİK",
+          "hint": "Ses bilimi veya bir ortamın ses özellikleri."
+        },
+        {
+          "word": "REZONANS",
+          "hint": "Bir cismin kendi doğal frekansında titreşmesi."
+        },
+        {
+          "word": "ULTRASON",
+          "hint": "İnsan kulağının duyamayacağı yüksek frekanslı ses."
+        },
+        {
+          "word": "İNFRASON",
+          "hint": "İnsan kulağının duyamayacağı düşük frekanslı ses."
+        },
+        {
+          "word": "DALGA BOYU",
+          "hint": "Bir dalganın iki tepe noktası arasındaki mesafe."
+        },
+        {
+          "word": "GENLİK",
+          "hint": "Bir dalganın denge konumundan maksimum sapması."
+        },
+        {
+          "word": "PERİYOT",
+          "hint": "Bir tam dalganın oluşması için geçen süre."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme yeteneği, ses de bir enerji türüdür."
+        },
+        {
+          "word": "MEKANİK",
+          "hint": "Ses dalgalarının madde ortamında yayıldığını belirten tür."
+        },
+        {
+          "word": "BOYUNA",
+          "hint": "Ses dalgalarının yayılma yönü ile titreşim yönü aynı olan dalga türü."
+        },
+        {
+          "word": "KULAK",
+          "hint": "Sesi algılamamızı sağlayan organımız."
+        },
+        {
+          "word": "KULAK ZARI",
+          "hint": "Ses dalgalarıyla titreşerek sesi iç kulağa ileten zar."
+        },
+        {
+          "word": "İŞİTME",
+          "hint": "Sesleri duyma eylemi."
+        },
+        {
+          "word": "KONUŞMA",
+          "hint": "Ses tellerinin titreşmesiyle oluşan anlamlı sesler."
+        },
+        {
+          "word": "MİKROFON",
+          "hint": "Ses dalgalarını elektrik sinyallerine dönüştüren cihaz."
+        },
+        {
+          "word": "HOPARLÖR",
+          "hint": "Elektrik sinyallerini tekrar ses dalgalarına çeviren cihaz."
+        },
+        {
+          "word": "KAYDEDİCİ",
+          "hint": "Sesi depolayan veya saklayan alet."
+        },
+        {
+          "word": "SİSMİK",
+          "hint": "Depremlerle oluşan ve yer içinde yayılan dalgalarla ilgili."
+        },
+        {
+          "word": "DİYAPAZON",
+          "hint": "Belirli bir frekansta net ses çıkaran metal çatal."
+        },
+        {
+          "word": "ESNEKLİK",
+          "hint": "Bir ortamın şekil değiştirip eski haline dönebilme özelliği."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Birim hacimdeki madde miktarı; ses hızını etkiler."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Sesin ilk olarak üretildiği yer veya cisim."
+        },
+        {
+          "word": "GÜRÜLTÜ KİRLİLİĞİ",
+          "hint": "Çevredeki aşırı ve rahatsız edici ses yoğunluğu."
+        },
+        {
+          "word": "İLETİM",
+          "hint": "Sesin bir ortamdan geçerek başka bir noktaya ulaşması."
+        },
+        {
+          "word": "FISILTI",
+          "hint": "Çok hafif ve sessizce yapılan konuşma."
+        },
+        {
+          "word": "ÇINLAMA",
+          "hint": "Kulağında sürekli olarak bir ses duyma hissi."
+        },
+        {
+          "word": "SES TELİ",
+          "hint": "Gırtlakta bulunan, konuşma ve şarkı için titreşen yapılar."
+        },
+        {
+          "word": "SES BARİYERİ",
+          "hint": "Ses hızını aşan bir nesnenin oluşturduğu şok dalgası."
+        },
+        {
+          "word": "SÜPERSONİK",
+          "hint": "Ses hızından daha hızlı hareket eden."
+        },
+        {
+          "word": "BASINÇ",
+          "hint": "Ses dalgalarının ortamda oluşturduğu sıkışma ve genleşme."
+        }
+      ]
     }
   ]
 }

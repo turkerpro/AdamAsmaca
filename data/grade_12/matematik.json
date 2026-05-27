@@ -2,10 +2,9 @@
   "units": [
     {
       "id": "matematik_u1",
-      "name": "1. Ünite: İntegral",
+      "name": "1. Ünite: Üstel ve Logaritmik Fonksiyonlar",
       "months": [
-        9,
-        10
+        9
       ],
       "words": [
         {
@@ -33,23 +32,23 @@
           "hint": "Bir fonksiyonun değişim hızını gösteren kavram."
         },
         {
-          "word": "SÜREKLİ̇Lİ̇K",
+          "word": "SÜREKLİLİK",
           "hint": "Bir fonksiyonun grafiğinin kopukluk olmadan çizilebilmesi durumu."
         },
         {
-          "word": "GRAFİ̇K",
+          "word": "GRAFİK",
           "hint": "Fonksiyonların görsel olarak ifade edildiği çizim."
         },
         {
-          "word": "EĞRİ̇",
+          "word": "EĞRİ",
           "hint": "Düz olmayan, bükümlü çizgi."
         },
         {
-          "word": "TOPLAMİ",
+          "word": "TOPLAMI",
           "hint": "Parçaların bir araya getirilmesiyle oluşan bütün."
         },
         {
-          "word": "ARALİK",
+          "word": "ARALIK",
           "hint": "İki nokta arasındaki mesafe veya bölge."
         },
         {
@@ -61,7 +60,7 @@
           "hint": "Belirli bir integralde hesaplamanın bittiği değer."
         },
         {
-          "word": "DEĞİ̇ŞKEN",
+          "word": "DEĞİŞKEN",
           "hint": "Fonksiyonda değeri değişebilen sembol."
         },
         {
@@ -69,23 +68,23 @@
           "hint": "Değeri değişmeyen nicelik."
         },
         {
-          "word": "BELİ̇RSİ̇Z",
+          "word": "BELİRSİZ",
           "hint": "Kesin veya net olmayan."
         },
         {
-          "word": "Dİ̇Zİ̇",
+          "word": "DİZİ",
           "hint": "Belirli bir kurala göre sıralanmış terimler topluluğu."
         },
         {
-          "word": "Lİ̇Mİ̇T",
+          "word": "LİMİT",
           "hint": "Bir fonksiyonun bir noktadaki veya sonsuzdaki davranışı."
         },
         {
-          "word": "YAKLAŞİM",
+          "word": "YAKLAŞIM",
           "hint": "Bir değere doğru ilerleme."
         },
         {
-          "word": "Bİ̇RLEŞİ̇M",
+          "word": "BİRLEŞİM",
           "hint": "Ayrı ayrı şeylerin bir araya gelmesi."
         },
         {
@@ -137,7 +136,7 @@
           "hint": "Bütünün bir bölümü."
         },
         {
-          "word": "KATSAYİ",
+          "word": "KATSAYI",
           "hint": "Bir değişkene bağlı olan sayı."
         },
         {
@@ -149,7 +148,7 @@
           "hint": "Eşitlik sembolü içeren matematiksel ifade."
         },
         {
-          "word": "FONKSİ̇YON",
+          "word": "FONKSİYON",
           "hint": "Girdilere karşılık çıkan çıktılar üreten kural."
         },
         {
@@ -165,7 +164,7 @@
           "hint": "Altı yüzü kare olan geometrik cisim."
         },
         {
-          "word": "HACİ̇M",
+          "word": "HACİM",
           "hint": "Bir cismin kapladığı boşluk ölçüsü."
         },
         {
@@ -173,11 +172,11 @@
           "hint": "Birim hacimdeki madde miktarı."
         },
         {
-          "word": "VERİ̇M",
+          "word": "VERİM",
           "hint": "Elde edilen sonuç veya kazanç."
         },
         {
-          "word": "Gİ̇RDİ̇",
+          "word": "GİRDİ",
           "hint": "Bir sisteme verilen veri veya madde."
         },
         {
@@ -193,7 +192,7 @@
           "hint": "Bir cismin dışını kaplayan alan."
         },
         {
-          "word": "YAKLAŞİK",
+          "word": "YAKLAŞIK",
           "hint": "Tam olmayan, olabildiğince yakın."
         },
         {
@@ -201,7 +200,7 @@
           "hint": "Bir bütünün parçalara ayrılması."
         },
         {
-          "word": "Bİ̇RLEŞTİ̇RME",
+          "word": "BİRLEŞTİRME",
           "hint": "Ayrı parçaların tek bir bütün haline getirilmesi."
         },
         {
@@ -212,10 +211,9 @@
     },
     {
       "id": "matematik_u2",
-      "name": "2. Ünite: Limit",
+      "name": "2. Ünite: Diziler",
       "months": [
-        11,
-        12
+        10
       ],
       "words": [
         {
@@ -239,7 +237,7 @@
           "hint": "Limitin sonsuza gitmesi durumundaki kavram"
         },
         {
-          "word": "YAKLAŞİM",
+          "word": "YAKLAŞIM",
           "hint": "Bir değere doğru gitme eylemi"
         },
         {
@@ -247,15 +245,15 @@
           "hint": "Bir ifadenin sayısal karşılığı"
         },
         {
-          "word": "FONKSİ̇YON",
+          "word": "FONKSİYON",
           "hint": "Girdi alıp çıktı üreten kural"
         },
         {
-          "word": "GRAFİ̇K",
+          "word": "GRAFİK",
           "hint": "Fonksiyonun görsel temsili"
         },
         {
-          "word": "EĞİ̇M",
+          "word": "EĞİM",
           "hint": "Bir doğrunun dikliği veya yataylığı"
         },
         {
@@ -263,11 +261,11 @@
           "hint": "Anlık değişim oranını ölçen kavram"
         },
         {
-          "word": "İ̇NTEGRAL",
+          "word": "İNTEGRAL",
           "hint": "Alan hesaplamada kullanılan işlem"
         },
         {
-          "word": "ASİ̇MPTOT",
+          "word": "ASİMPTOT",
           "hint": "Grafiğin sonsuzda yaklaştığı doğru"
         },
         {
@@ -279,11 +277,11 @@
           "hint": "Bir fonksiyonun düşüş eğilimi"
         },
         {
-          "word": "KESİ̇KLİ̇",
+          "word": "KESİKLİ",
           "hint": "Grafikte kopukluk veya boşluk olma durumu"
         },
         {
-          "word": "YAKİN",
+          "word": "YAKIN",
           "hint": "Bir noktaya çok çok az farkla ulaşma"
         },
         {
@@ -315,11 +313,11 @@
           "hint": "Değişkenin üs olduğu fonksiyon türü"
         },
         {
-          "word": "LOGARİ̇TMA",
+          "word": "LOGARİTMA",
           "hint": "Üslü ifadenin tersi işlem"
         },
         {
-          "word": "TRİ̇GONOMETRİ̇",
+          "word": "TRİGONOMETRİ",
           "hint": "Üçgenlerin kenar ve açılarını inceleyen dal"
         },
         {
@@ -331,15 +329,15 @@
           "hint": "İkinci dereceden fonksiyonun grafiği"
         },
         {
-          "word": "ELİ̇PS",
+          "word": "ELİPS",
           "hint": "Oval şeklinde geometrik şekil"
         },
         {
-          "word": "Hİ̇PERBOL",
+          "word": "HİPERBOL",
           "hint": "İki kola ayrılan eğri"
         },
         {
-          "word": "Dİ̇K",
+          "word": "DİK",
           "hint": "90 derecelik açı"
         },
         {
@@ -347,11 +345,11 @@
           "hint": "Küçük bir açı ölçüsü"
         },
         {
-          "word": "GENİ̇Ş",
+          "word": "GENİŞ",
           "hint": "90'dan büyük açı ölçüsü"
         },
         {
-          "word": "YAKİNSAMA",
+          "word": "YAKINSAMA",
           "hint": "Bir dizi veya serinin belirli bir değere ulaşması"
         },
         {
@@ -359,27 +357,27 @@
           "hint": "Bir dizi veya serinin sınırsız büyümesi veya küçülmesi"
         },
         {
-          "word": "Dİ̇Zİ̇",
+          "word": "DİZİ",
           "hint": "Sıralanmış sayılar kümesi"
         },
         {
-          "word": "SERİ̇",
+          "word": "SERİ",
           "hint": "Bir dizinin terimlerinin toplamı"
         },
         {
-          "word": "YAKİNSAL",
+          "word": "YAKINSAL",
           "hint": "Yakınsama özelliği gösteren"
         },
         {
-          "word": "İ̇LERLEME",
+          "word": "İLERLEME",
           "hint": "Bir sürecin pozitif yönde değişimi"
         },
         {
-          "word": "GERİ̇LEME",
+          "word": "GERİLEME",
           "hint": "Bir sürecin negatif yönde değişimi"
         },
         {
-          "word": "Bİ̇Rİ̇M",
+          "word": "BİRİM",
           "hint": "Ölçü birimi, temel miktar"
         },
         {
@@ -387,7 +385,7 @@
           "hint": "Bir şeyi işaret eden işaret, sembol"
         },
         {
-          "word": "EŞİ̇K",
+          "word": "EŞİK",
           "hint": "Bir durumun başlangıç veya bitiş noktası"
         },
         {
@@ -399,7 +397,7 @@
           "hint": "Mesafe bölü zaman, değişim oranı"
         },
         {
-          "word": "KARARLİLİK",
+          "word": "KARARLILIK",
           "hint": "Değişmeyen, sabit kalma durumu"
         },
         {
@@ -407,11 +405,11 @@
           "hint": "Hızın azalması"
         },
         {
-          "word": "HİZLANMA",
+          "word": "HIZLANMA",
           "hint": "Hızın artması"
         },
         {
-          "word": "YAKİNİK",
+          "word": "YAKINLIK",
           "hint": "Özdeş, aynı değere sahip"
         },
         {
@@ -422,37 +420,1178 @@
     },
     {
       "id": "matematik_u3",
-      "name": "3. Ünite: Ondalık Gösterim ve Oran",
+      "name": "3. Ünite: Limit ve Süreklilik",
       "months": [
-        1,
-        2
+        11
       ],
-      "words": []
+      "words": [
+        {
+          "word": "KESİR",
+          "hint": "Bir bütünün parçalarını gösteren matematiksel ifade."
+        },
+        {
+          "word": "ONDALIK",
+          "hint": "Virgülle ayrılan sayı sistemi, tam olmayan değerleri gösterir."
+        },
+        {
+          "word": "DEVİRLİ",
+          "hint": "Ondalık gösteriminde bir veya daha fazla rakamın tekrarlandığı durum."
+        },
+        {
+          "word": "SABİT",
+          "hint": "Değeri değişmeyen nicelik."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki niceliğin karşılaştırılması, bölme yoluyla."
+        },
+        {
+          "word": "YÜZDE",
+          "hint": "Yüzde sembolü (%) ile gösterilen, bütünü 100 kabul eden oran."
+        },
+        {
+          "word": "PAYDA",
+          "hint": "Bir kesrin bütünün kaç eşit parçaya bölündüğünü gösteren alt kısmı."
+        },
+        {
+          "word": "PAY",
+          "hint": "Bir kesrin kaç parçasının alındığını gösteren üst kısmı."
+        },
+        {
+          "word": "TAM SAYI",
+          "hint": "Sıfır, pozitif ve negatif tamsayılar kümesi."
+        },
+        {
+          "word": "BÖLÜM",
+          "hint": "Bölme işleminin sonucu."
+        },
+        {
+          "word": "ÇARPIM",
+          "hint": "Çarpma işleminin sonucu."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Toplama işleminin sonucu."
+        },
+        {
+          "word": "FARKL",
+          "hint": "Çıkarma işleminin sonucu."
+        },
+        {
+          "word": "BİRİM",
+          "hint": "Ölçülerin temelini oluşturan standart nicelik."
+        },
+        {
+          "word": "UZUNLUK",
+          "hint": "Bir nesnenin bir ucundan diğer ucuna olan mesafe."
+        },
+        {
+          "word": "GENİŞLİK",
+          "hint": "Bir nesnenin yanlamasına olan boyutu."
+        },
+        {
+          "word": "YÜKSEKLİK",
+          "hint": "Bir nesnenin dikey boyutu."
+        },
+        {
+          "word": "ALAN",
+          "hint": "İki boyutlu bir yüzeyin kapladığı miktar."
+        },
+        {
+          "word": "HAL",
+          "hint": "Maddenin bulunduğu durum (katı, sıvı, gaz gibi)."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Birim hacimdeki kütle."
+        },
+        {
+          "word": "SICAKLIK",
+          "hint": "Bir cismin veya ortamın ısı derecesi."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Olayların birbirini takip etmesiyle oluşan süre."
+        },
+        {
+          "word": "HİZ",
+          "hint": "Birim zamanda alınan yol."
+        },
+        {
+          "word": "MESAFE",
+          "hint": "İki nokta arasındaki uzaklık."
+        },
+        {
+          "word": "MİKTAR",
+          "hint": "Bir şeyin niceliği veya çokluğu."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir niceliğin sayısal karşılığı."
+        },
+        {
+          "word": "KARŞI",
+          "hint": "İki şeyin birbirine göre durumu."
+        },
+        {
+          "word": "ARTIŞ",
+          "hint": "Miktarın çoğalması, yükselmesi."
+        },
+        {
+          "word": "AZALIŞ",
+          "hint": "Miktarın eksilmesi, düşmesi."
+        },
+        {
+          "word": "DENKLEM",
+          "hint": "İçinde bilinmeyen bulunan eşitlik."
+        },
+        {
+          "word": "EŞİTLİK",
+          "hint": "İki ifadenin birbirine eşit olduğunu gösteren durum."
+        },
+        {
+          "word": "ÇARPRAZ",
+          "hint": "Çaprazlama, eğri büğrü çizgi."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "En kısa çizgi, düz çizgi."
+        },
+        {
+          "word": "EĞRİ",
+          "hint": "Düz olmayan, kıvrımlı çizgi."
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Birbirini kesmeyen, her zaman eşit uzaklıkta kalan doğrular."
+        },
+        {
+          "word": "DİK",
+          "hint": "Birbirini 90 derecelik açıyla kesen doğrular."
+        },
+        {
+          "word": "AÇI",
+          "hint": "İki doğrunun bir noktada kesişmesiyle oluşan geometrik şekil."
+        },
+        {
+          "word": "DEREC",
+          "hint": "Açı ölçü birimi veya sıcaklık ölçü birimi."
+        },
+        {
+          "word": "RADYAN",
+          "hint": "Açı ölçüsü birimi, çember yayı uzunluğu ile ilgili."
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Bir şeyi temsil eden işaret."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Matematiksel bir ilişkiyi gösteren denklem."
+        },
+        {
+          "word": "GRAFİK",
+          "hint": "Verileri görsel olarak gösteren çizim."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Verileri düzenli sütunlar halinde gösteren liste."
+        },
+        {
+          "word": "VER",
+          "hint": "Bilgi, malumat."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlem veya olayın sonunda elde edilen durum."
+        },
+        {
+          "word": "SONUCU",
+          "hint": "Bir şeyin neticesi."
+        },
+        {
+          "word": "SONUÇLANDIRMA",
+          "hint": "Bir işi veya olayı tamamlayıp bitirme."
+        },
+        {
+          "word": "BECER",
+          "hint": "Bir işi iyi yapabilme yeteneği."
+        },
+        {
+          "word": "YETENEK",
+          "hint": "Doğuştan veya sonradan kazanılan kabiliyet."
+        },
+        {
+          "word": "YAPTIRMAK",
+          "hint": "Başkasına bir işi yaptırmak."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Bir bilginin veya kuralın pratikte kullanılması."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Bir problemin giderilmesi, bulunması."
+        },
+        {
+          "word": "ÖLÇÜM",
+          "hint": "Bir niceliğin değerini belirleme işlemi."
+        },
+        {
+          "word": "HESAP",
+          "hint": "Matematiksel işlem."
+        },
+        {
+          "word": "HESAPLAMAK",
+          "hint": "Matematiksel işlem yapmak."
+        },
+        {
+          "word": "KARŞILAŞTIRMA",
+          "hint": "İki veya daha fazla şeyi birbirine göre değerlendirme."
+        },
+        {
+          "word": "ORTALAMA",
+          "hint": "Bir grup sayının toplamının, o sayı adedine bölümü."
+        },
+        {
+          "word": "İNCELLEMEK",
+          "hint": "Dikkatle bakmak, araştırmak."
+        },
+        {
+          "word": "TAYİN",
+          "hint": "Belirleme, saptama."
+        },
+        {
+          "word": "ÖRNEKLEM",
+          "hint": "Bir bütünün içinden alınan küçük parça."
+        },
+        {
+          "word": "KARAR",
+          "hint": "Bir sonuca ulaşma, hüküm verme."
+        },
+        {
+          "word": "ANLAMAK",
+          "hint": "Bir şeyi kavramak, idrak etmek."
+        }
+      ]
     },
     {
       "id": "matematik_u4",
-      "name": "4. Ünite: Cebirsel İfadeler ve Veri Analizi",
+      "name": "4. Ünite: Türev",
       "months": [
-        3
+        12,
+        1
       ],
-      "words": []
+      "words": [
+        {
+          "word": "DEĞİŞKEN",
+          "hint": "Değeri bilinmeyen veya değişebilen harf veya sembol."
+        },
+        {
+          "word": "KATSAYI",
+          "hint": "Değişkenin önünde bulunan sayı."
+        },
+        {
+          "word": "SABİT",
+          "hint": "Değeri değişmeyen sayı."
+        },
+        {
+          "word": "TERİM",
+          "hint": "Cebirsel ifadede artı veya eksi ile ayrılmış bölümlerden her biri."
+        },
+        {
+          "word": "TOPLAMA",
+          "hint": "İki veya daha fazla niceliği bir araya getirme işlemi."
+        },
+        {
+          "word": "ÇIKARMA",
+          "hint": "Bir nicelikten diğerini eksiltme işlemi."
+        },
+        {
+          "word": "ÇARPMA",
+          "hint": "Bir niceliği tekrarlı toplama işlemi."
+        },
+        {
+          "word": "BÖLME",
+          "hint": "Bir niceliği eşit parçalara ayırma işlemi."
+        },
+        {
+          "word": "ÜS",
+          "hint": "Bir sayının kendisiyle kaç kez çarpılacağını belirten sayı."
+        },
+        {
+          "word": "KARE",
+          "hint": "Bir sayının kendisiyle çarpılması (örneğin, x²)."
+        },
+        {
+          "word": "KÜP",
+          "hint": "Bir sayının kendisiyle iki kez çarpılması (örneğin, x³)."
+        },
+        {
+          "word": "POLİNOM",
+          "hint": "Tek veya daha fazla terimden oluşan cebirsel ifade."
+        },
+        {
+          "word": "İFADE",
+          "hint": "Matematiksel semboller ve sayılarla yazılmış anlamlı bütün."
+        },
+        {
+          "word": "DENKLEM",
+          "hint": "Eşitlik sembolü (=) içeren cebirsel ifade."
+        },
+        {
+          "word": "EŞİTLİK",
+          "hint": "İki ifadenin birbirine denk olduğunu belirten sembol."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Denklemde bilinmeyenin aldığı değer."
+        },
+        {
+          "word": "KÖK",
+          "hint": "Denklemi sağlayan değişken değeri."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Belirli bir ilişkiyi veya kuralı gösteren matematiksel ifade."
+        },
+        {
+          "word": "HESAPLAMA",
+          "hint": "Sayısal bir sonuç bulma işlemi."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir değişkenin veya ifadenin aldığı nicelik."
+        },
+        {
+          "word": "VERİ",
+          "hint": "Toplanan bilgi veya gözlem."
+        },
+        {
+          "word": "ANALİZ",
+          "hint": "Verileri inceleme ve yorumlama süreci."
+        },
+        {
+          "word": "GRAFİK",
+          "hint": "Verileri görsel olarak temsil etme yöntemi."
+        },
+        {
+          "word": "ÇİZELGE",
+          "hint": "Verileri satır ve sütunlarda düzenleme."
+        },
+        {
+          "word": "ORTALAMA",
+          "hint": "Bir veri grubundaki değerlerin toplamının, veri sayısına bölümü."
+        },
+        {
+          "word": "MEDYAN",
+          "hint": "Sıralanmış bir veri grubunun tam ortasındaki değer."
+        },
+        {
+          "word": "MOD",
+          "hint": "Bir veri grubunda en sık tekrar eden değer."
+        },
+        {
+          "word": "ARALIK",
+          "hint": "Bir veri grubundaki en büyük ve en küçük değer arasındaki fark."
+        },
+        {
+          "word": "FREKANS",
+          "hint": "Bir değerin veri grubunda kaç kez tekrar ettiği."
+        },
+        {
+          "word": "YÜZDE",
+          "hint": "Yüz eşit parçadan oluşan kesir."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki niceliğin birbirine bölünmesiyle elde edilen karşılaştırma."
+        },
+        {
+          "word": "DAĞILIM",
+          "hint": "Verilerin nasıl yayıldığını gösteren özellik."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir olayın veya durumun dikkatle izlenmesi."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir inceleme veya deneyden elde edilen çıkarım."
+        },
+        {
+          "word": "TOPLULUK",
+          "hint": "İncelenen tüm birimlerin bütünü."
+        },
+        {
+          "word": "ÖRNEKLEM",
+          "hint": "Topluluğu temsil eden alt küme."
+        },
+        {
+          "word": "SIRALAMA",
+          "hint": "Nesneleri belirli bir düzene göre dizme."
+        },
+        {
+          "word": "GRUPLAMA",
+          "hint": "Benzer özelliklere sahip nesneleri bir araya getirme."
+        },
+        {
+          "word": "EĞİLİM",
+          "hint": "Verilerin genel yönü veya hareketi."
+        },
+        {
+          "word": "DEĞİŞİM",
+          "hint": "Bir niceliğin zamanla veya başka bir niceliğe bağlı olarak aldığı farklı değerler."
+        },
+        {
+          "word": "İLİŞKİ",
+          "hint": "İki veya daha fazla nicelik arasındaki bağlantı."
+        },
+        {
+          "word": "BAĞINTI",
+          "hint": "Nicelikler arasındaki matematiksel bağlantı."
+        },
+        {
+          "word": "ETKİ",
+          "hint": "Bir durumun başka bir durum üzerinde yarattığı sonuç."
+        },
+        {
+          "word": "TAHMİN",
+          "hint": "Eldeki verilere dayanarak gelecekteki bir durumu öngörme."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Gerçek bir sistemi basitleştirerek temsil eden yapı."
+        },
+        {
+          "word": "GÖRSELLEŞTİRME",
+          "hint": "Soyut kavramları resim veya grafiklerle somutlaştırma."
+        },
+        {
+          "word": "YORUMLAMA",
+          "hint": "Elde edilen bilgiyi anlamlandırma."
+        },
+        {
+          "word": "HESAP MAKİNESİ",
+          "hint": "Sayısal işlemleri hızlıca yapan cihaz."
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Bir kavramı veya değeri temsil eden işaret."
+        },
+        {
+          "word": "FONKSİYON",
+          "hint": "Bir girdiye karşılık tek bir çıktı veren özel ilişki."
+        },
+        {
+          "word": "EŞİTSİZLİK",
+          "hint": "İki cebirsel ifadenin eşit olmadığını gösteren matematiksel durum."
+        },
+        {
+          "word": "STANDART SAPMA",
+          "hint": "Verilerin ortalamadan ne kadar yayıldığını gösteren ölçü."
+        },
+        {
+          "word": "OLASILIK",
+          "hint": "Bir olayın gerçekleşme şansını sayısal olarak ifade etme."
+        }
+      ]
     },
     {
       "id": "matematik_u5",
-      "name": "5. Ünite: Açılar ve Alan Ölçme",
+      "name": "5. Ünite: İntegral",
       "months": [
-        4,
-        5
+        2,
+        3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "AÇIÖLÇER",
+          "hint": "Açıları ölçmeye yarayan araç."
+        },
+        {
+          "word": "DERECE",
+          "hint": "Açıların ölçü birimi."
+        },
+        {
+          "word": "RADYAN",
+          "hint": "Açıları ölçmenin diğer bir yolu, özellikle trigonometride kullanılır."
+        },
+        {
+          "word": "DİK AÇI",
+          "hint": "90 derecelik özel bir açıdır."
+        },
+        {
+          "word": "GENİŞ AÇ",
+          "hint": "90 dereceden büyük, 180 dereceden küçük açıdır."
+        },
+        {
+          "word": "DAR AÇ",
+          "hint": "0 dereceden büyük, 90 dereceden küçük açıdır."
+        },
+        {
+          "word": "DOĞRU AÇ",
+          "hint": "Tam olarak 180 derecedir."
+        },
+        {
+          "word": "TAM AÇ",
+          "hint": "360 derecelik bir çemberi ifade eder."
+        },
+        {
+          "word": "BÜTÜNLER AÇILAR",
+          "hint": "Toplamları 180 derece olan iki açıdır."
+        },
+        {
+          "word": "TÜMLER AÇILAR",
+          "hint": "Toplamları 90 derece olan iki açıdır."
+        },
+        {
+          "word": "KENARORTAY",
+          "hint": "Bir üçgende bir köşeden karşısındaki kenarın ortasına çizilen doğru parçası."
+        },
+        {
+          "word": "AÇIORTAY",
+          "hint": "Bir açıyı iki eşit parçaya bölen ışın."
+        },
+        {
+          "word": "YÜKSEKLİK",
+          "hint": "Bir üçgende bir kenara ait köşeden indirilen dikme."
+        },
+        {
+          "word": "PARALELKENAR",
+          "hint": "Karşılıklı kenarları paralel olan dörtgendir."
+        },
+        {
+          "word": "EŞKENAR DÖRTGEN",
+          "hint": "Tüm kenar uzunlukları eşit olan dörtgendir."
+        },
+        {
+          "word": "DİKDÖRTGEN",
+          "hint": "Tüm açıları dik açı olan dörtgendir."
+        },
+        {
+          "word": "KARE",
+          "hint": "Tüm kenar uzunlukları eşit ve tüm açıları dik açı olan dörtgendir."
+        },
+        {
+          "word": "YAMUK",
+          "hint": "Sadece bir çift kenarı paralel olan dörtgendir."
+        },
+        {
+          "word": "TABAN",
+          "hint": "Bir geometrik şeklin üzerinde durduğu kenarı."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir yüzeyin kapladığı miktar."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Bir şeklin etrafındaki toplam uzunluk."
+        },
+        {
+          "word": "FORMÜL",
+          "hint": "Bir hesaplama yapmak için kullanılan matematiksel ifade."
+        },
+        {
+          "word": "PİSAGOR TEOREMİ",
+          "hint": "Dik üçgende kenarlar arasındaki ilişkiyi belirten ünlü teorem."
+        },
+        {
+          "word": "HİPOTENÜS",
+          "hint": "Dik üçgende dik açının karşısındaki en uzun kenar."
+        },
+        {
+          "word": "DİK KENAR",
+          "hint": "Dik üçgende dik açıyı oluşturan kenarlar."
+        },
+        {
+          "word": "TRİGONOMETRİ",
+          "hint": "Üçgenlerin açıları ve kenarları arasındaki ilişkileri inceleyen matematik dalı."
+        },
+        {
+          "word": "SİNÜS",
+          "hint": "Dik üçgende, bir açının karşısındaki dik kenarın hipotenüse oranı."
+        },
+        {
+          "word": "KOSİNÜS",
+          "hint": "Dik üçgende, bir açının komşu dik kenarının hipotenüse oranı."
+        },
+        {
+          "word": "TANJANT",
+          "hint": "Dik üçgende, bir açının karşısındaki dik kenarın komşu dik kenarına oranı."
+        },
+        {
+          "word": "MERKEZ",
+          "hint": "Bir dairenin tam ortası."
+        },
+        {
+          "word": "YARIÇAP",
+          "hint": "Dairenin merkezinden çevresine kadar olan uzaklık."
+        },
+        {
+          "word": "ÇAP",
+          "hint": "Dairenin merkezinden geçen ve çevrenin iki noktasını birleştiren doğru parçası."
+        },
+        {
+          "word": "YAY",
+          "hint": "Bir dairenin çevresinin bir parçası."
+        },
+        {
+          "word": "DAİRE DİLİMİ",
+          "hint": "Dairenin merkezinden çıkan iki yarıçapın ve aralarındaki yayın sınırladığı bölge."
+        },
+        {
+          "word": "DAİRE HALKASI",
+          "hint": "İki eşmerkezli daire arasındaki bölge."
+        },
+        {
+          "word": "KİRİŞ",
+          "hint": "Bir dairenin çevresinin iki noktasını birleştiren doğru parçası."
+        },
+        {
+          "word": "TEĞET",
+          "hint": "Bir daireye yalnızca bir noktada dokunan doğru."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki sayının birbirine bölümü."
+        },
+        {
+          "word": "ORANTI",
+          "hint": "İki oranın eşitliği."
+        },
+        {
+          "word": "BENZERLİK",
+          "hint": "Şekillerin aynı oranda büyütülmüş veya küçültülmüş halleri."
+        },
+        {
+          "word": "EŞLİK",
+          "hint": "Boyutları ve şekilleri tamamen aynı olan geometrik şekiller."
+        },
+        {
+          "word": "ÖLÇEK",
+          "hint": "Haritalarda veya modellerde kullanılan küçültme oranı."
+        },
+        {
+          "word": "KOORDİNAT SİSTEMİ",
+          "hint": "Noktaların konumunu belirten eksenler takımı."
+        },
+        {
+          "word": "NOKTA",
+          "hint": "Yeri belli olan ama boyutu olmayan geometrik eleman."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "İki yönde sonsuza uzanan düz çizgi."
+        },
+        {
+          "word": "IŞIN",
+          "hint": "Bir yönde sonsuza uzanan düz çizgi, başlangıç noktası bellidir."
+        },
+        {
+          "word": "DÜZLEM",
+          "hint": "İki boyutta sonsuza yayılan yüzey."
+        },
+        {
+          "word": "KESİT",
+          "hint": "Bir cismin bir düzlemle kesilmesi sonucu oluşan yüzey."
+        },
+        {
+          "word": "HACİM",
+          "hint": "Bir cismin kapladığı üç boyutlu yer miktarı."
+        },
+        {
+          "word": "KÖŞEGEN",
+          "hint": "Bir çokgenin komşu olmayan iki köşesini birleştiren çizgi."
+        },
+        {
+          "word": "ÇOKGEN",
+          "hint": "En az üç doğru parçasıyla oluşan kapalı düzlem şekli."
+        },
+        {
+          "word": "YÖNDEŞ AÇILAR",
+          "hint": "Paralel doğruları kesen bir doğru üzerinde, aynı yöne bakan açılar."
+        },
+        {
+          "word": "APOTEM",
+          "hint": "Düzgün çokgenin merkezinden bir kenarına indirilen dikme."
+        }
+      ]
     },
     {
       "id": "matematik_u6",
-      "name": "6. Ünite: Çember ve Geometrik Cisimler",
+      "name": "6. Ünite: Çemberin Analitik İncelenmesi ve Dönüşümler",
       "months": [
-        6
+        4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "ÇEMBER",
+          "hint": "Belirli bir noktanın eşit uzaklıktaki noktalarının kümesi."
+        },
+        {
+          "word": "DAİRE",
+          "hint": "Çemberin içi dolu hali."
+        },
+        {
+          "word": "YARIÇAP",
+          "hint": "Çemberin merkezinden çevresine olan uzaklık."
+        },
+        {
+          "word": "ÇAP",
+          "hint": "Çemberin merkezinden geçerek iki noktayı birleştiren doğru parçası, yarıçapın iki katı."
+        },
+        {
+          "word": "KİRİŞ",
+          "hint": "Çemberin çevresindeki iki noktayı birleştiren doğru parçası."
+        },
+        {
+          "word": "TEĞET",
+          "hint": "Çemberi sadece bir noktada kesen doğru."
+        },
+        {
+          "word": "KESME",
+          "hint": "Bir doğrunun çemberi iki noktada kesmesi."
+        },
+        {
+          "word": "NOKTA",
+          "hint": "Boyutsuz, yalnızca yeri belli eden geometrik eleman."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "İki ucu sonsuza uzanan düz çizgi."
+        },
+        {
+          "word": "AÇI",
+          "hint": "İki ışının birleştiği nokta, köşesi olan geometrik şekil."
+        },
+        {
+          "word": "MERKEZ",
+          "hint": "Çemberin etrafındaki her noktaya eşit uzaklıkta olan sabit nokta."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Çemberin etrafındaki toplam uzunluk."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Dairenin kapladığı yüzey miktarı."
+        },
+        {
+          "word": "DERECE",
+          "hint": "Açı ölçü birimi."
+        },
+        {
+          "word": "RADYAN",
+          "hint": "Açı ölçü birimi, yay uzunluğu ile ilgili."
+        },
+        {
+          "word": "Pİ",
+          "hint": "Çemberin çevresinin çapına oranı, yaklaşık 3.14."
+        },
+        {
+          "word": "DÖNME",
+          "hint": "Bir eksen etrafında yapılan hareket."
+        },
+        {
+          "word": "SİLİNDİR",
+          "hint": "İki daire tabanı ve yan yüzeyi olan geometrik cisim."
+        },
+        {
+          "word": "KONİ",
+          "hint": "Daire tabanı ve tepede bir sivri noktası olan geometrik cisim."
+        },
+        {
+          "word": "KÜRE",
+          "hint": "Her noktası merkezden eşit uzaklıkta olan üç boyutlu şekil."
+        },
+        {
+          "word": "DİK",
+          "hint": "Birbirine 90 derecelik açıyla duran durum."
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Hiç kesişmeyen, her zaman eşit uzaklıkta olan doğrular veya düzlemler."
+        },
+        {
+          "word": "EŞKENAR",
+          "hint": "Tüm kenar uzunlukları eşit olan şekil."
+        },
+        {
+          "word": "DİKDÖRTGEN",
+          "hint": "Dört dik açısı ve karşılıklı kenarları eşit olan dörtgen."
+        },
+        {
+          "word": "KARE",
+          "hint": "Dört kenarı ve dört dik açısı eşit olan dörtgen."
+        },
+        {
+          "word": "ÜÇGEN",
+          "hint": "Üç kenarı ve üç açısı olan kapalı şekil."
+        },
+        {
+          "word": "GEOMETRİ",
+          "hint": "Şekillerin, boyutların ve uzayın incelendiği matematik dalı."
+        },
+        {
+          "word": "CİSİM",
+          "hint": "Üç boyuta sahip, hacmi olan varlık."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Bir cismin dış kısmını oluşturan alan."
+        },
+        {
+          "word": "TABAN",
+          "hint": "Bir cismin oturduğu veya dayandığı alt kısım."
+        },
+        {
+          "word": "YÜKSEKLİK",
+          "hint": "Bir cismin tabanından en üst noktasına kadar olan dikey uzaklık."
+        },
+        {
+          "word": "HACİM",
+          "hint": "Bir cismin kapladığı üç boyutlu alan."
+        },
+        {
+          "word": "DİKDÖRTGENLER",
+          "hint": "Birbirine paralel ve dik dört kenarı olan cisim."
+        },
+        {
+          "word": "PRİZMA",
+          "hint": "Paralel iki tabanı ve bu tabanları birleştiren yan yüzeyleri olan cisim."
+        },
+        {
+          "word": "PİRAMİT",
+          "hint": "Bir tabanı ve tepede birleşen üçgen yan yüzeyleri olan cisim."
+        },
+        {
+          "word": "SİLİNDİRİK",
+          "hint": "Silindire benzeyen."
+        },
+        {
+          "word": "KONİĞİ",
+          "hint": "Koniyi tanımlayan veya onunla ilgili."
+        },
+        {
+          "word": "KÜREMSİ",
+          "hint": "Küreyi andıran."
+        },
+        {
+          "word": "EĞRİ",
+          "hint": "Düz olmayan çizgi."
+        },
+        {
+          "word": "UZATMA",
+          "hint": "Bir doğru parçasını sonsuza dek devam ettirme."
+        },
+        {
+          "word": "KESİT",
+          "hint": "Bir cismin bir düzlemle kesildiğinde oluşan yüzey."
+        },
+        {
+          "word": "SİMETRİ",
+          "hint": "Bir şeklin bir doğruya veya noktaya göre ayna görüntüsü gibi olması."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki çokluğun karşılaştırılması."
+        },
+        {
+          "word": "ÖLÇEK",
+          "hint": "Harita veya modeldeki küçültme oranı."
+        },
+        {
+          "word": "KATI",
+          "hint": "Hacmi ve şekli belirli olan madde durumu."
+        },
+        {
+          "word": "BOYUT",
+          "hint": "Bir nesnenin uzunluk, genişlik, yükseklik gibi ölçülerinden her biri."
+        },
+        {
+          "word": "KÖŞE",
+          "hint": "İki veya daha fazla kenarın birleştiği nokta."
+        },
+        {
+          "word": "KENAR",
+          "hint": "Bir şeklin veya cismin düz veya eğri çizgi halindeki sınırı."
+        },
+        {
+          "word": "DÜZLEM",
+          "hint": "Sonsuz bir yüzey."
+        },
+        {
+          "word": "DÖNÜŞÜM",
+          "hint": "Bir şeklin yerini, yönünü veya boyutunu değiştirme."
+        },
+        {
+          "word": "VEKTÖR",
+          "hint": "Yönü ve büyüklüğü olan nicelik."
+        },
+        {
+          "word": "KOORDİNAT",
+          "hint": "Bir noktanın konumunu belirten sayısal değerler."
+        },
+        {
+          "word": "EKSANTRİK",
+          "hint": "Çemberin merkezinden farklı bir merkezli daire."
+        },
+        {
+          "word": "DAİRESEL",
+          "hint": "Daire biçiminde olan."
+        }
+      ]
+    },
+    {
+      "id": "matematik_u7",
+      "name": "7. Ünite: Olasılık",
+      "months": [
+        5
+      ],
+      "words": [
+        {
+          "word": "DENEY",
+          "hint": "Bir olayın sonuçlarını gözlemlemek için yapılan işlem."
+        },
+        {
+          "word": "ÖRNEK UZAY",
+          "hint": "Bir deneydeki tüm olası sonuçların kümesi."
+        },
+        {
+          "word": "OLAY",
+          "hint": "Örnek uzayın herhangi bir alt kümesi."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir deneyden elde edilen tek bir çıktı."
+        },
+        {
+          "word": "EŞ OLUMLU",
+          "hint": "Her sonucun gerçekleşme şansının eşit olması."
+        },
+        {
+          "word": "BAĞIMSIZ",
+          "hint": "Birinin gerçekleşmesinin diğerini etkilemediği olaylar."
+        },
+        {
+          "word": "BAĞIMLI",
+          "hint": "Birinin gerçekleşmesinin diğerini etkilediği olaylar."
+        },
+        {
+          "word": "KESİN",
+          "hint": "Gerçekleşme olasılığı 1 olan olay."
+        },
+        {
+          "word": "İMKANSIZ",
+          "hint": "Gerçekleşme olasılığı 0 olan olay."
+        },
+        {
+          "word": "AYRIK",
+          "hint": "Aynı anda gerçekleşemeyen olaylar."
+        },
+        {
+          "word": "BİRLEŞİM",
+          "hint": "İki olayın veya daha fazlasının gerçekleşme durumu."
+        },
+        {
+          "word": "KESİŞİM",
+          "hint": "İki olayın aynı anda gerçekleşmesi."
+        },
+        {
+          "word": "TÜMLEYEN",
+          "hint": "Bir olayın gerçekleşmeme durumu."
+        },
+        {
+          "word": "KOŞULLU",
+          "hint": "Başka bir olayın gerçekleştiği bilindiğinde olasılık."
+        },
+        {
+          "word": "PERMÜTASYON",
+          "hint": "Nesnelerin sıralı diziliş sayısı."
+        },
+        {
+          "word": "KOMBİNASYON",
+          "hint": "Nesneler arasından sırasız seçim sayısı."
+        },
+        {
+          "word": "FAKTÖRİYEL",
+          "hint": "Bir sayıdan bire kadar olan tam sayıların çarpımı."
+        },
+        {
+          "word": "BERNOULLİ",
+          "hint": "Sadece iki olası sonucu olan deneme."
+        },
+        {
+          "word": "BİNOM",
+          "hint": "Tekrarlanan Bernoulli denemelerinin olasılık dağılımı."
+        },
+        {
+          "word": "NORMAL",
+          "hint": "Çan eğrisi şeklindeki olasılık dağılımı."
+        },
+        {
+          "word": "SAPMA",
+          "hint": "Verilerin ortalamadan uzaklaşma miktarı."
+        },
+        {
+          "word": "VARYANS",
+          "hint": "Verilerin ortalama etrafındaki yayılım ölçüsü."
+        },
+        {
+          "word": "BEKLENTİ",
+          "hint": "Rastgele değişkenin uzun vadeli ortalama değeri."
+        },
+        {
+          "word": "RASTGELE",
+          "hint": "Sonucu önceden kestirilemeyen."
+        },
+        {
+          "word": "DEĞİŞKEN",
+          "hint": "Farklı değerler alabilen nicelik."
+        },
+        {
+          "word": "ÖRNEKLEME",
+          "hint": "Büyük bir ana kütleden veri toplama süreci."
+        },
+        {
+          "word": "İSTATİSTİK",
+          "hint": "Veri analiziyle ilgilenen bilim dalı."
+        },
+        {
+          "word": "FREKANS",
+          "hint": "Bir olayın belirli bir aralıktaki tekrar sayısı."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki nicelik arasındaki karşılaştırma."
+        },
+        {
+          "word": "ŞANS",
+          "hint": "Bir olayın gerçekleşme olasılığı."
+        },
+        {
+          "word": "VENN ŞEMASI",
+          "hint": "Kümeler arası ilişkileri gösteren görsel."
+        },
+        {
+          "word": "LAPLACE",
+          "hint": "Klasik olasılık hesaplama prensibi."
+        },
+        {
+          "word": "SEÇİM",
+          "hint": "Bir grup içinden eleman alma eylemi."
+        },
+        {
+          "word": "SIRALAMA",
+          "hint": "Nesneleri belirli bir düzende dizme."
+        },
+        {
+          "word": "KAVRAM",
+          "hint": "Bir konudaki temel fikir."
+        },
+        {
+          "word": "DAĞILIM",
+          "hint": "Veri setindeki değerlerin yayılım şekli."
+        },
+        {
+          "word": "DENEYSEL",
+          "hint": "Gözlemlerden elde edilen olasılık."
+        },
+        {
+          "word": "TEORİK",
+          "hint": "Matematiksel hesaplamalara dayalı olasılık."
+        },
+        {
+          "word": "EŞZAMANLI",
+          "hint": "İki veya daha fazla olayın aynı anda olması."
+        },
+        {
+          "word": "ALTERNATİF",
+          "hint": "Başka bir seçenek veya durum."
+        },
+        {
+          "word": "KOMBİNATORİK",
+          "hint": "Sayma tekniklerini inceleyen matematik dalı."
+        },
+        {
+          "word": "KOŞUL",
+          "hint": "Bir şeyin gerçekleşmesi için gerekli durum."
+        },
+        {
+          "word": "İHTİMAL",
+          "hint": "Bir olayın olabilirlik derecesi."
+        },
+        {
+          "word": "ÇEKİLİŞ",
+          "hint": "Şansa dayalı bir kura işlemi."
+        },
+        {
+          "word": "ATIŞ",
+          "hint": "Zar veya para fırlatma eylemi."
+        },
+        {
+          "word": "ZAR",
+          "hint": "Üzerinde sayılar olan küp."
+        },
+        {
+          "word": "MADENİ PARA",
+          "hint": "Tura ve yazı yüzleri olan metal disk."
+        },
+        {
+          "word": "DESTE",
+          "hint": "Oyun kartlarının tamamı."
+        },
+        {
+          "word": "ÇIKTI",
+          "hint": "Bir işlemin ya da deneyin sonucu."
+        },
+        {
+          "word": "YÜZDE",
+          "hint": "Bir bütünün yüzdelik oranı."
+        },
+        {
+          "word": "KÜME",
+          "hint": "Ortak özellikli elemanların topluluğu."
+        },
+        {
+          "word": "ALT KÜME",
+          "hint": "Bir kümenin elemanlarından oluşan daha küçük küme."
+        },
+        {
+          "word": "EVRENSEL",
+          "hint": "Tüm elemanları içeren en büyük küme."
+        },
+        {
+          "word": "HİPOTEZ",
+          "hint": "Test edilebilir bir iddia veya önerme."
+        },
+        {
+          "word": "POPÜLASYON",
+          "hint": "Araştırılan tüm bireylerin veya nesnelerin bütünü."
+        },
+        {
+          "word": "ÖRNEKLEM",
+          "hint": "Popülasyondan seçilmiş daha küçük bir grup."
+        },
+        {
+          "word": "PARAMETRE",
+          "hint": "Popülasyonun bir özelliği olan sabit değer."
+        },
+        {
+          "word": "TAHMİN",
+          "hint": "Mevcut bilgilere dayanarak geleceğe dair öngörü."
+        },
+        {
+          "word": "GÜVENİLİRLİK",
+          "hint": "Bir ölçümün veya sonucun tutarlılık derecesi."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir deneyi veya olayı dikkatlice izleme."
+        }
+      ]
     }
   ]
 }

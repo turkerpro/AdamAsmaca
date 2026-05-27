@@ -2,529 +2,2497 @@
   "units": [
     {
       "id": "ingilizce_u1",
-      "name": "1. Ünite: Greetings",
+      "name": "Unit 1: Greetings",
       "months": [
         9
       ],
       "words": [
         {
           "word": "HELLO",
-          "hint": "İngilizce merhaba anlamına gelir"
+          "hint": "Merhaba"
+        },
+        {
+          "word": "HI",
+          "hint": "Selam"
         },
         {
           "word": "GOODBYE",
-          "hint": "İngilizce hoşça kal demektir"
+          "hint": "Güle güle"
         },
         {
-          "word": "FRIEND",
-          "hint": "İngilizce arkadaş anlamına gelir"
+          "word": "BYE",
+          "hint": "Hoşça kal"
+        },
+        {
+          "word": "GOOD MORNING",
+          "hint": "Günaydın"
+        },
+        {
+          "word": "GOOD AFTERNOON",
+          "hint": "İyi günler (öğleden sonraki selam)"
+        },
+        {
+          "word": "GOOD EVENING",
+          "hint": "İyi akşamlar"
+        },
+        {
+          "word": "GOOD NIGHT",
+          "hint": "İyi geceler"
+        },
+        {
+          "word": "HOW ARE YOU?",
+          "hint": "Nasılsın?"
+        },
+        {
+          "word": "I'M FINE",
+          "hint": "İyiyim"
+        },
+        {
+          "word": "THANK YOU",
+          "hint": "Teşekkür ederim"
+        },
+        {
+          "word": "YOU'RE WELCOME",
+          "hint": "Rica ederim"
         },
         {
           "word": "PLEASE",
-          "hint": "İngilizce lütfen anlamına gelir"
+          "hint": "Lütfen"
         },
         {
-          "word": "THANKS",
-          "hint": "İngilizce teşekkürler demektir"
+          "word": "EXCUSE ME",
+          "hint": "Afedersiniz"
         },
         {
-          "word": "MERHABA",
-          "hint": "Birini gördüğünde söylediğin ilk söz."
+          "word": "SORRY",
+          "hint": "Üzgünüm"
         },
         {
-          "word": "GÜNAYDIN",
-          "hint": "Sabah uyandığında veya ilk gördüğünde söylersin."
+          "word": "YES",
+          "hint": "Evet"
         },
         {
-          "word": "İ̇Yİ GÜNLER",
-          "hint": "Gündüz vakti vedalaşırken veya selamlaşırken söylenir."
+          "word": "NO",
+          "hint": "Hayır"
         },
         {
-          "word": "İ̇Yİ AKŞAMLAR",
-          "hint": "Akşam olup hava kararmaya başlayınca söylenir."
+          "word": "MY NAME IS",
+          "hint": "Benim adım..."
         },
         {
-          "word": "İ̇Yİ GECELER",
-          "hint": "Yatmadan önce veya gece vedalaşırken söylenir."
+          "word": "WHAT'S YOUR NAME?",
+          "hint": "Adın ne?"
         },
         {
-          "word": "HOŞ GELDİNİZ",
-          "hint": "Bir yere gelen misafirleri karşılamak için denir."
+          "word": "NICE TO MEET YOU",
+          "hint": "Tanıştığıma memnun oldum"
         },
         {
-          "word": "HOŞ BULDUK",
-          "hint": "\"Hoş geldiniz\" diyene verilen cevaptır."
+          "word": "I",
+          "hint": "Ben"
         },
         {
-          "word": "NASILSIN",
-          "hint": "Birinin iyi olup olmadığını sormak için kullanılır."
+          "word": "YOU",
+          "hint": "Sen"
         },
         {
-          "word": "İ̇YİYİM",
-          "hint": "\"Nasılsın?\" sorusuna verilen olumlu cevap."
+          "word": "HE",
+          "hint": "O (erkekler için)"
         },
         {
-          "word": "ADIN",
-          "hint": "Senin kendini tanıttığın kelime."
+          "word": "SHE",
+          "hint": "O (kızlar için)"
         },
         {
-          "word": "SOYADIN",
-          "hint": "Ailenin ortak ismi."
+          "word": "IT",
+          "hint": "O (nesneler veya hayvanlar için)"
         },
         {
-          "word": "ÖĞRETMEN",
-          "hint": "Okulda sana yeni şeyler öğreten kişi."
+          "word": "WE",
+          "hint": "Biz"
         },
         {
-          "word": "ÖĞRENCİ",
-          "hint": "Okula gidip ders çalışan çocuk."
+          "word": "THEY",
+          "hint": "Onlar"
         },
         {
-          "word": "SINIF",
-          "hint": "Ders yaptığın, arkadaşlarınla oturduğun yer."
+          "word": "HAPPY",
+          "hint": "Mutlu"
         },
         {
-          "word": "OKUL",
-          "hint": "Dersler öğrendiğin, yeni bilgiler edindiğin büyük bina."
+          "word": "SAD",
+          "hint": "Üzgün"
         },
         {
-          "word": "KİTAP",
-          "hint": "Okuduğun, resimli veya yazılı sayfaları olan nesne."
+          "word": "ANGRY",
+          "hint": "Kızgın"
         },
         {
-          "word": "DEFTER",
-          "hint": "İçine yazı yazdığın veya resim çizdiğin sayfalı şey."
+          "word": "SLEEPY",
+          "hint": "Uykulu"
         },
         {
-          "word": "KALEM",
-          "hint": "Yazı yazmak veya resim çizmek için kullanılır."
+          "word": "HUNGRY",
+          "hint": "Aç"
         },
         {
-          "word": "SİLGİ",
-          "hint": "Yanlış yazdığın yazıları veya çizimleri düzeltmeye yarar."
+          "word": "THIRSTY",
+          "hint": "Susamış"
         },
         {
-          "word": "SIRA",
-          "hint": "Sınıfta oturduğun, üzerine kitaplarını koyduğun masa."
+          "word": "TIRED",
+          "hint": "Yorgun"
         },
         {
-          "word": "ÇANTA",
-          "hint": "Kitaplarını, defterlerini taşıdığın şey."
+          "word": "STAND UP",
+          "hint": "Ayağa kalk"
         },
         {
-          "word": "OTUR",
-          "hint": "Ayakta durmak yerine bir yere konmak."
+          "word": "SIT DOWN",
+          "hint": "Otur"
         },
         {
-          "word": "KALK",
-          "hint": "Oturduğun yerden ayağa durmak."
+          "word": "LISTEN",
+          "hint": "Dinle"
         },
         {
-          "word": "DİNLE",
-          "hint": "Kulaklarınla sesleri duymak ve anlamak."
+          "word": "LOOK",
+          "hint": "Bak"
         },
         {
-          "word": "BAK",
-          "hint": "Gözlerinle bir şeyi görmek."
+          "word": "POINT",
+          "hint": "İşaret et"
         },
         {
-          "word": "AÇ",
-          "hint": "Kapalı bir şeyi görünür veya erişilebilir hale getirmek."
+          "word": "OPEN",
+          "hint": "Aç"
         },
         {
-          "word": "KAPAT",
-          "hint": "Açık bir şeyi örtmek veya erişilmez hale getirmek."
+          "word": "CLOSE",
+          "hint": "Kapat"
         },
         {
-          "word": "YARDIM",
-          "hint": "Birine zor bir işinde destek olmak."
+          "word": "READ",
+          "hint": "Oku"
         },
         {
-          "word": "ARKADAŞ",
-          "hint": "Beraber oyun oynadığın, sırlarını paylaştığın kişi."
+          "word": "WRITE",
+          "hint": "Yaz"
         },
         {
-          "word": "OYUN",
-          "hint": "Eğlenmek için tek başına veya başkalarıyla yaptığın etkinlik."
+          "word": "DRAW",
+          "hint": "Çiz"
         },
         {
-          "word": "MÜZİK",
-          "hint": "Kulakla dinlenen güzel sesler topluluğu."
+          "word": "SING",
+          "hint": "Şarkı söyle"
         },
         {
-          "word": "RESİM",
-          "hint": "Boyalarla veya kalemle kağıda yapılan çizim."
+          "word": "PLAY",
+          "hint": "Oyna"
         },
         {
-          "word": "SAYI",
-          "hint": "Miktarları belirtmek için kullandığımız işaretler."
+          "word": "COME",
+          "hint": "Gel"
         },
         {
-          "word": "HARF",
-          "hint": "Kelimeleri oluşturmak için kullandığımız işaretler."
+          "word": "GO",
+          "hint": "Git"
         },
         {
-          "word": "ANNE",
-          "hint": "Seni doğuran veya büyüten kadın."
+          "word": "SAY",
+          "hint": "Söyle"
         },
         {
-          "word": "BABA",
-          "hint": "Seni doğuran veya büyüten erkek."
-        },
-        {
-          "word": "KARDEŞ",
-          "hint": "Seninle aynı anneden veya babadan olan çocuk."
-        },
-        {
-          "word": "ABLA",
-          "hint": "Senin büyük kız kardeşin."
-        },
-        {
-          "word": "ABİ",
-          "hint": "Senin büyük erkek kardeşin."
-        },
-        {
-          "word": "AİLE",
-          "hint": "Anne, baba, kardeşler ve akrabalardan oluşan grup."
-        },
-        {
-          "word": "ÇOCUK",
-          "hint": "Küçük yaştaki insan."
-        },
-        {
-          "word": "İ̇NSAN",
-          "hint": "Düşünebilen, konuşabilen canlı varlık."
-        },
-        {
-          "word": "MUTLU",
-          "hint": "İçin sevinçle dolu, gülen yüz."
-        },
-        {
-          "word": "ÜZGÜN",
-          "hint": "Morali bozuk, neşesi olmayan hal."
-        },
-        {
-          "word": "HEYECANLI",
-          "hint": "Yeni bir şey beklerken duyduğun coşku."
-        },
-        {
-          "word": "YORGUN",
-          "hint": "Çok iş yaptıktan sonra dinlenmek isteyen hal."
-        },
-        {
-          "word": "LÜTFEN",
-          "hint": "Bir şey isterken kullandığın nazik kelime."
-        },
-        {
-          "word": "TEŞEKKÜR",
-          "hint": "Birine iyilik yaptığında söylenen minnet sözü."
-        },
-        {
-          "word": "ÖZÜR",
-          "hint": "Hata yaptığında dilediğin bağışlama."
-        },
-        {
-          "word": "GÜLÜMSE",
-          "hint": "Yüzünde beliren mutlu ifade."
+          "word": "REPEAT",
+          "hint": "Tekrar et"
         }
       ]
     },
     {
       "id": "ingilizce_u2",
-      "name": "2. Ünite: Numbers",
+      "name": "Unit 2: My Family",
       "months": [
         10
       ],
       "words": [
         {
-          "word": "THREE",
-          "hint": "İngilizce üç sayısının yazılışı"
+          "word": "FAMILY",
+          "hint": "Aile"
         },
         {
-          "word": "SEVEN",
-          "hint": "İngilizce yedi sayısının yazılışı"
+          "word": "MOTHER",
+          "hint": "Anne"
         },
         {
-          "word": "EIGHT",
-          "hint": "İngilizce sekiz sayısının yazılışı"
+          "word": "FATHER",
+          "hint": "Baba"
         },
         {
-          "word": "COUNT",
-          "hint": "İngilizce saymak anlamına gelir"
+          "word": "BROTHER",
+          "hint": "Erkek kardeş"
         },
         {
-          "word": "NUMBER",
-          "hint": "İngilizce sayı anlamına gelir"
+          "word": "SISTER",
+          "hint": "Kız kardeş"
         },
         {
-          "word": "Bİ̇R",
-          "hint": "En küçük miktar. Bir parmakla gösterebiliriz."
+          "word": "GRANDMOTHER",
+          "hint": "Büyükanne"
         },
         {
-          "word": "İ̇Kİ̇",
-          "hint": "Bir insan yüzünde kaç göz olduğunu düşün."
+          "word": "GRANDFATHER",
+          "hint": "Büyükbaba"
         },
         {
-          "word": "DÖRT",
-          "hint": "Bir arabanın kaç tekerleği vardır?"
+          "word": "BABY",
+          "hint": "Bebek"
         },
         {
-          "word": "BEŞ",
-          "hint": "Bir elindeki parmak sayısı."
+          "word": "AUNT",
+          "hint": "Teyze veya Hala"
         },
         {
-          "word": "ALTİ",
-          "hint": "Bir zarın üzerinde bir yüzdeki nokta adedi olabilir."
+          "word": "UNCLE",
+          "hint": "Amca veya Dayı"
         },
         {
-          "word": "DOKUZ",
-          "hint": "Ondan hemen önce gelir."
+          "word": "COUSIN",
+          "hint": "Kuzen"
         },
         {
-          "word": "ON",
-          "hint": "İki elinin toplam parmak sayısı."
+          "word": "PARENTS",
+          "hint": "Anne ve baba"
         },
         {
-          "word": "SİFİR",
-          "hint": "Hiçbir şeyin olmadığı miktar."
-        },
-        {
-          "word": "TOPLAMAK",
-          "hint": "Nesneleri bir araya getirerek çoğaltma."
-        },
-        {
-          "word": "ÇİKARMAK",
-          "hint": "Nesneleri bir gruptan ayırarak azaltma."
-        },
-        {
-          "word": "EŞİ̇T",
-          "hint": "İki şeyin aynı olması, denge durumu."
-        },
-        {
-          "word": "ARTİRMAK",
-          "hint": "Bir şeyi daha çok yapmak veya eklemek."
-        },
-        {
-          "word": "AZALTMAK",
-          "hint": "Bir şeyi daha az yapmak veya eksiltmek."
-        },
-        {
-          "word": "TEK",
-          "hint": "İkişerli gruplara ayrılamayan miktar. Örnek: bir elma."
-        },
-        {
-          "word": "Çİ̇FT",
-          "hint": "İkişerli gruplara ayrılabilen miktar. Örnek: iki elma."
-        },
-        {
-          "word": "DEĞER",
-          "hint": "Bir şeyin önemi veya sahip olduğu miktar."
-        },
-        {
-          "word": "SİRA",
-          "hint": "Bir şeylerin belli bir düzene göre dizilişi."
-        },
-        {
-          "word": "İ̇LK",
-          "hint": "Başlangıçtaki, en baştaki."
+          "word": "CHILDREN",
+          "hint": "Çocuklar"
         },
         {
           "word": "SON",
-          "hint": "En sondaki, bitişteki."
+          "hint": "Erkek çocuk"
         },
         {
-          "word": "HEPSİ̇",
-          "hint": "Tamamı, hiçbiri kalmadan."
+          "word": "DAUGHTER",
+          "hint": "Kız çocuk"
         },
         {
-          "word": "Hİ̇Ç",
-          "hint": "Sıfır miktarında, hiçbiri yok."
+          "word": "HOUSE",
+          "hint": "Ev"
         },
         {
-          "word": "PARÇA",
-          "hint": "Bir bütünün bir kısmı."
+          "word": "HOME",
+          "hint": "Yuva, ev"
         },
         {
-          "word": "TAM",
-          "hint": "Eksiksiz, bütün halde."
+          "word": "ROOM",
+          "hint": "Oda"
         },
         {
-          "word": "Mİ̇KTAR",
-          "hint": "Bir şeyin ne kadar olduğu."
+          "word": "KITCHEN",
+          "hint": "Mutfak"
         },
         {
-          "word": "ÇOK",
-          "hint": "Büyük miktarda, bolca."
+          "word": "LIVING ROOM",
+          "hint": "Oturma odası"
         },
         {
-          "word": "AZ",
-          "hint": "Küçük miktarda, azıcık."
+          "word": "BEDROOM",
+          "hint": "Yatak odası"
         },
         {
-          "word": "FAZLA",
-          "hint": "Gerekenden daha çok."
+          "word": "PET",
+          "hint": "Evcil hayvan"
         },
         {
-          "word": "EKSİ̇K",
-          "hint": "Gerekenden daha az."
+          "word": "DOG",
+          "hint": "Köpek"
         },
         {
-          "word": "TOPLAMA",
-          "hint": "Miktarları birleştirme işlemi."
+          "word": "CAT",
+          "hint": "Kedi"
         },
         {
-          "word": "ÇİKARMA",
-          "hint": "Miktarları ayırma işlemi."
+          "word": "BIRD",
+          "hint": "Kuş"
         },
         {
-          "word": "İ̇ŞLEM",
-          "hint": "Bir şeyi yapmak için yapılan adımlar."
+          "word": "HAPPY",
+          "hint": "Mutlu"
         },
         {
-          "word": "SONUÇ",
-          "hint": "Bir işlemin bitiminde ulaşılan şey."
+          "word": "SAD",
+          "hint": "Üzgün"
         },
         {
-          "word": "ÖRÜNTÜ",
-          "hint": "Tekrar eden bir düzen veya şekil."
+          "word": "LOVE",
+          "hint": "Sevmek"
         },
         {
-          "word": "SİRALAMA",
-          "hint": "Nesneleri veya miktarları belli bir düzene koymak."
+          "word": "HELP",
+          "hint": "Yardım etmek"
         },
         {
-          "word": "GRUPLAMA",
-          "hint": "Benzer şeyleri bir araya getirmek."
+          "word": "PLAY",
+          "hint": "Oynamak"
         },
         {
-          "word": "KARŞİLAŞTİRMA",
-          "hint": "İki veya daha fazla şeyi farklılıklarını veya benzerliklerini bulmak için incelemek."
+          "word": "HUG",
+          "hint": "Sarılmak"
         },
         {
-          "word": "AYNİ",
-          "hint": "Birbirine tıpatıp benzeyen, hiç farklı olmayan."
+          "word": "KISS",
+          "hint": "Öpmek"
         },
         {
-          "word": "FARKLİ",
-          "hint": "Birbirine benzemeyen, değişik."
+          "word": "TALK",
+          "hint": "Konuşmak"
         },
         {
-          "word": "BÜYÜK",
-          "hint": "Hacmi, boyutu fazla olan."
+          "word": "COOK",
+          "hint": "Yemek pişirmek"
         },
         {
-          "word": "KÜÇÜK",
-          "hint": "Hacmi, boyutu az olan."
+          "word": "READ",
+          "hint": "Okumak"
         },
         {
-          "word": "DAHA",
-          "hint": "Karşılaştırma yaparken kullanılan bir kelime, örneğin 'daha çok'."
+          "word": "WRITE",
+          "hint": "Yazmak"
         },
         {
-          "word": "ÖNCE",
-          "hint": "Bir zamandan veya sıradan önceki an."
+          "word": "EAT",
+          "hint": "Yemek yemek"
         },
         {
-          "word": "SONRA",
-          "hint": "Bir zamandan veya sıradan sonraki an."
+          "word": "DRINK",
+          "hint": "İçmek"
         },
         {
-          "word": "BAŞLANGİÇ",
-          "hint": "Bir şeyin ilk adımı veya zamanı."
+          "word": "SHARE",
+          "hint": "Paylaşmak"
         },
         {
-          "word": "Bİ̇Tİ̇Ş",
-          "hint": "Bir şeyin sonu."
+          "word": "KIND",
+          "hint": "Nazik, iyi kalpli"
         },
         {
-          "word": "TOPLAM",
-          "hint": "Bir araya gelmiş şeylerin hepsi."
+          "word": "SMART",
+          "hint": "Akıllı"
         },
         {
-          "word": "İ̇Kİ̇Lİ̇",
-          "hint": "İki nesnenin bir arada olması. Örneğin: bir çift çorap."
+          "word": "FUNNY",
+          "hint": "Komik"
         },
         {
-          "word": "Bİ̇RLİ̇K",
-          "hint": "Bir tane olan nesne veya miktar."
+          "word": "STRONG",
+          "hint": "Güçlü"
         },
         {
-          "word": "ONLUK",
-          "hint": "On tane birliğin bir araya gelmesiyle oluşan miktar."
+          "word": "TALL",
+          "hint": "Uzun (boylu)"
         },
         {
-          "word": "YÜZ",
-          "hint": "On tane onluğun bir araya gelmesiyle oluşan büyük bir miktar."
+          "word": "SHORT",
+          "hint": "Kısa (boylu)"
         },
         {
-          "word": "Bİ̇N",
-          "hint": "On tane yüzlüğün bir araya gelmesiyle oluşan, çok büyük bir miktar."
+          "word": "YOUNG",
+          "hint": "Genç"
+        },
+        {
+          "word": "OLD",
+          "hint": "Yaşlı"
+        },
+        {
+          "word": "GOOD",
+          "hint": "İyi"
+        },
+        {
+          "word": "WALK",
+          "hint": "Yürümek"
+        },
+        {
+          "word": "RUN",
+          "hint": "Koşmak"
+        },
+        {
+          "word": "SLEEP",
+          "hint": "Uyumak"
+        },
+        {
+          "word": "PHOTO",
+          "hint": "Fotoğraf"
+        },
+        {
+          "word": "GARDEN",
+          "hint": "Bahçe"
+        },
+        {
+          "word": "BED",
+          "hint": "Yatak"
         }
       ]
     },
     {
       "id": "ingilizce_u3",
-      "name": "Unit 3: In the Classroom",
+      "name": "Unit 3: Numbers",
       "months": [
         11
       ],
-      "words": []
+      "words": [
+        {
+          "word": "ONE",
+          "hint": "Sayı: Bir"
+        },
+        {
+          "word": "TWO",
+          "hint": "Sayı: İki"
+        },
+        {
+          "word": "THREE",
+          "hint": "Sayı: Üç"
+        },
+        {
+          "word": "FOUR",
+          "hint": "Sayı: Dört"
+        },
+        {
+          "word": "FIVE",
+          "hint": "Sayı: Beş"
+        },
+        {
+          "word": "SIX",
+          "hint": "Sayı: Altı"
+        },
+        {
+          "word": "SEVEN",
+          "hint": "Sayı: Yedi"
+        },
+        {
+          "word": "EIGHT",
+          "hint": "Sayı: Sekiz"
+        },
+        {
+          "word": "NINE",
+          "hint": "Sayı: Dokuz"
+        },
+        {
+          "word": "TEN",
+          "hint": "Sayı: On"
+        },
+        {
+          "word": "ELEVEN",
+          "hint": "Sayı: On bir"
+        },
+        {
+          "word": "TWELVE",
+          "hint": "Sayı: On iki"
+        },
+        {
+          "word": "THIRTEEN",
+          "hint": "Sayı: On üç"
+        },
+        {
+          "word": "FOURTEEN",
+          "hint": "Sayı: On dört"
+        },
+        {
+          "word": "FIFTEEN",
+          "hint": "Sayı: On beş"
+        },
+        {
+          "word": "SIXTEEN",
+          "hint": "Sayı: On altı"
+        },
+        {
+          "word": "SEVENTEEN",
+          "hint": "Sayı: On yedi"
+        },
+        {
+          "word": "EIGHTEEN",
+          "hint": "Sayı: On sekiz"
+        },
+        {
+          "word": "NINETEEN",
+          "hint": "Sayı: On dokuz"
+        },
+        {
+          "word": "TWENTY",
+          "hint": "Sayı: Yirmi"
+        },
+        {
+          "word": "THIRTY",
+          "hint": "Sayı: Otuz"
+        },
+        {
+          "word": "FORTY",
+          "hint": "Sayı: Kırk"
+        },
+        {
+          "word": "FIFTY",
+          "hint": "Sayı: Elli"
+        },
+        {
+          "word": "SIXTY",
+          "hint": "Sayı: Altmış"
+        },
+        {
+          "word": "SEVENTY",
+          "hint": "Sayı: Yetmiş"
+        },
+        {
+          "word": "EIGHTY",
+          "hint": "Sayı: Seksen"
+        },
+        {
+          "word": "NINETY",
+          "hint": "Sayı: Doksan"
+        },
+        {
+          "word": "ONE HUNDRED",
+          "hint": "Sayı: Yüz"
+        },
+        {
+          "word": "TWENTY-ONE",
+          "hint": "Sayı: Yirmi bir"
+        },
+        {
+          "word": "THIRTY-FIVE",
+          "hint": "Sayı: Otuz beş"
+        },
+        {
+          "word": "FORTY-EIGHT",
+          "hint": "Sayı: Kırk sekiz"
+        },
+        {
+          "word": "FIFTY-TWO",
+          "hint": "Sayı: Elli iki"
+        },
+        {
+          "word": "SIXTY-NINE",
+          "hint": "Sayı: Altmış dokuz"
+        },
+        {
+          "word": "SEVENTY-FOUR",
+          "hint": "Sayı: Yetmiş dört"
+        },
+        {
+          "word": "EIGHTY-THREE",
+          "hint": "Sayı: Seksen üç"
+        },
+        {
+          "word": "NINETY-SEVEN",
+          "hint": "Sayı: Doksan yedi"
+        },
+        {
+          "word": "ZERO",
+          "hint": "Sayı: Sıfır"
+        },
+        {
+          "word": "NUMBER",
+          "hint": "Bir miktar veya adedi gösteren işaret (Sayı)"
+        },
+        {
+          "word": "COUNT",
+          "hint": "Nesneleri tek tek saymak, adedini bulmak (Saymak)"
+        },
+        {
+          "word": "ADD",
+          "hint": "İki veya daha fazla sayıyı bir araya getirmek (Toplamak)"
+        },
+        {
+          "word": "SUBTRACT",
+          "hint": "Bir sayıdan diğerini çıkarmak (Çıkarmak)"
+        },
+        {
+          "word": "PLUS",
+          "hint": "Toplama işareti (+) (Artı)"
+        },
+        {
+          "word": "MINUS",
+          "hint": "Çıkarma işareti (-) (Eksi)"
+        },
+        {
+          "word": "EQUALS",
+          "hint": "İki şeyin aynı değere sahip olduğunu belirtir (=) (Eşittir)"
+        },
+        {
+          "word": "TOTAL",
+          "hint": "Her şeyin bir araya gelmesiyle oluşan miktar (Toplam)"
+        },
+        {
+          "word": "SUM",
+          "hint": "İki veya daha fazla sayının toplama sonucu (Toplam)"
+        },
+        {
+          "word": "HOW MANY",
+          "hint": "Bir şeyin adedini sormak için kullanılır (Kaç tane)"
+        },
+        {
+          "word": "MORE",
+          "hint": "Daha büyük bir miktar veya sayı (Daha fazla)"
+        },
+        {
+          "word": "LESS",
+          "hint": "Daha küçük bir miktar veya sayı (Daha az)"
+        },
+        {
+          "word": "BIG",
+          "hint": "Boyut veya miktar olarak büyük (Büyük)"
+        },
+        {
+          "word": "SMALL",
+          "hint": "Boyut veya miktar olarak küçük (Küçük)"
+        },
+        {
+          "word": "FIRST",
+          "hint": "Sıralamada başta olan (Birinci)"
+        },
+        {
+          "word": "SECOND",
+          "hint": "Sıralamada ikincisi (İkinci)"
+        },
+        {
+          "word": "THIRD",
+          "hint": "Sıralamada üçüncüsü (Üçüncü)"
+        },
+        {
+          "word": "FOURTH",
+          "hint": "Sıralamada dördüncüsü (Dördüncü)"
+        },
+        {
+          "word": "FIFTH",
+          "hint": "Sıralamada beşincisi (Beşinci)"
+        }
+      ]
     },
     {
       "id": "ingilizce_u4",
-      "name": "Unit 4: Numbers and Colors",
+      "name": "Unit 4: Colours",
       "months": [
         12
       ],
-      "words": []
+      "words": [
+        {
+          "word": "RED",
+          "hint": "Kırmızı"
+        },
+        {
+          "word": "BLUE",
+          "hint": "Mavi"
+        },
+        {
+          "word": "YELLOW",
+          "hint": "Sarı"
+        },
+        {
+          "word": "GREEN",
+          "hint": "Yeşil"
+        },
+        {
+          "word": "BLACK",
+          "hint": "Siyah"
+        },
+        {
+          "word": "WHITE",
+          "hint": "Beyaz"
+        },
+        {
+          "word": "ORANGE",
+          "hint": "Turuncu"
+        },
+        {
+          "word": "PURPLE",
+          "hint": "Mor"
+        },
+        {
+          "word": "PINK",
+          "hint": "Pembe"
+        },
+        {
+          "word": "BROWN",
+          "hint": "Kahverengi"
+        },
+        {
+          "word": "GRAY",
+          "hint": "Gri"
+        },
+        {
+          "word": "COLOUR",
+          "hint": "Renk"
+        },
+        {
+          "word": "RAINBOW",
+          "hint": "Gökkuşağı"
+        },
+        {
+          "word": "LIGHT",
+          "hint": "Açık renk"
+        },
+        {
+          "word": "DARK",
+          "hint": "Koyu renk"
+        },
+        {
+          "word": "COLOURFUL",
+          "hint": "Rengarenk"
+        },
+        {
+          "word": "APPLE",
+          "hint": "Elma"
+        },
+        {
+          "word": "BANANA",
+          "hint": "Muz"
+        },
+        {
+          "word": "GRASS",
+          "hint": "Çimen"
+        },
+        {
+          "word": "SKY",
+          "hint": "Gökyüzü"
+        },
+        {
+          "word": "SUN",
+          "hint": "Güneş"
+        },
+        {
+          "word": "TREE",
+          "hint": "Ağaç"
+        },
+        {
+          "word": "FLOWER",
+          "hint": "Çiçek"
+        },
+        {
+          "word": "CAR",
+          "hint": "Araba"
+        },
+        {
+          "word": "BALL",
+          "hint": "Top"
+        },
+        {
+          "word": "BOOK",
+          "hint": "Kitap"
+        },
+        {
+          "word": "CRAYON",
+          "hint": "Pastel boya"
+        },
+        {
+          "word": "PAINT",
+          "hint": "Boya"
+        },
+        {
+          "word": "BRUSH",
+          "hint": "Fırça"
+        },
+        {
+          "word": "PAPER",
+          "hint": "Kağıt"
+        },
+        {
+          "word": "BOX",
+          "hint": "Kutu"
+        },
+        {
+          "word": "DOOR",
+          "hint": "Kapı"
+        },
+        {
+          "word": "WINDOW",
+          "hint": "Pencere"
+        },
+        {
+          "word": "CHAIR",
+          "hint": "Sandalye"
+        },
+        {
+          "word": "TABLE",
+          "hint": "Masa"
+        },
+        {
+          "word": "SHIRT",
+          "hint": "Gömlek"
+        },
+        {
+          "word": "HAT",
+          "hint": "Şapka"
+        },
+        {
+          "word": "SHOES",
+          "hint": "Ayakkabılar"
+        },
+        {
+          "word": "DOG",
+          "hint": "Köpek"
+        },
+        {
+          "word": "CAT",
+          "hint": "Kedi"
+        },
+        {
+          "word": "BIRD",
+          "hint": "Kuş"
+        },
+        {
+          "word": "FISH",
+          "hint": "Balık"
+        },
+        {
+          "word": "LEAF",
+          "hint": "Yaprak"
+        },
+        {
+          "word": "CLOUD",
+          "hint": "Bulut"
+        },
+        {
+          "word": "SOIL",
+          "hint": "Toprak"
+        },
+        {
+          "word": "CARROT",
+          "hint": "Havuç"
+        },
+        {
+          "word": "TOMATO",
+          "hint": "Domates"
+        },
+        {
+          "word": "GRAPE",
+          "hint": "Üzüm"
+        },
+        {
+          "word": "STRAWBERRY",
+          "hint": "Çilek"
+        },
+        {
+          "word": "LEMON",
+          "hint": "Limon"
+        },
+        {
+          "word": "CHERRY",
+          "hint": "Kiraz"
+        },
+        {
+          "word": "EGG",
+          "hint": "Yumurta"
+        },
+        {
+          "word": "MILK",
+          "hint": "Süt"
+        },
+        {
+          "word": "WATER",
+          "hint": "Su"
+        },
+        {
+          "word": "FLAG",
+          "hint": "Bayrak"
+        },
+        {
+          "word": "STAR",
+          "hint": "Yıldız"
+        },
+        {
+          "word": "MOON",
+          "hint": "Ay"
+        },
+        {
+          "word": "PENCIL",
+          "hint": "Kurşun kalem"
+        },
+        {
+          "word": "ERASER",
+          "hint": "Silgi"
+        },
+        {
+          "word": "BAG",
+          "hint": "Çanta"
+        }
+      ]
     },
     {
       "id": "ingilizce_u5",
-      "name": "Unit 5: Toys and Games",
+      "name": "Unit 5: Animals",
       "months": [
         1
       ],
-      "words": []
+      "words": [
+        {
+          "word": "DOG",
+          "hint": "Köpek"
+        },
+        {
+          "word": "CAT",
+          "hint": "Kedi"
+        },
+        {
+          "word": "BIRD",
+          "hint": "Kuş"
+        },
+        {
+          "word": "FISH",
+          "hint": "Balık"
+        },
+        {
+          "word": "HORSE",
+          "hint": "At"
+        },
+        {
+          "word": "COW",
+          "hint": "İnek"
+        },
+        {
+          "word": "PIG",
+          "hint": "Domuz"
+        },
+        {
+          "word": "SHEEP",
+          "hint": "Koyun"
+        },
+        {
+          "word": "CHICKEN",
+          "hint": "Tavuk"
+        },
+        {
+          "word": "DUCK",
+          "hint": "Ördek"
+        },
+        {
+          "word": "FROG",
+          "hint": "Kurbağa"
+        },
+        {
+          "word": "SNAKE",
+          "hint": "Yılan"
+        },
+        {
+          "word": "MONKEY",
+          "hint": "Maymun"
+        },
+        {
+          "word": "ELEPHANT",
+          "hint": "Fil"
+        },
+        {
+          "word": "LION",
+          "hint": "Aslan"
+        },
+        {
+          "word": "TIGER",
+          "hint": "Kaplan"
+        },
+        {
+          "word": "BEAR",
+          "hint": "Ayı"
+        },
+        {
+          "word": "RABBIT",
+          "hint": "Tavşan"
+        },
+        {
+          "word": "MOUSE",
+          "hint": "Fare"
+        },
+        {
+          "word": "TURTLE",
+          "hint": "Kaplumbağa"
+        },
+        {
+          "word": "SQUIRREL",
+          "hint": "Sincap"
+        },
+        {
+          "word": "BEE",
+          "hint": "Arı"
+        },
+        {
+          "word": "ANT",
+          "hint": "Karınca"
+        },
+        {
+          "word": "SPIDER",
+          "hint": "Örümcek"
+        },
+        {
+          "word": "BUTTERFLY",
+          "hint": "Kelebek"
+        },
+        {
+          "word": "LADYBUG",
+          "hint": "Uğur böceği"
+        },
+        {
+          "word": "WORM",
+          "hint": "Solucan"
+        },
+        {
+          "word": "OWL",
+          "hint": "Baykuş"
+        },
+        {
+          "word": "WOLF",
+          "hint": "Kurt"
+        },
+        {
+          "word": "FOX",
+          "hint": "Tilki"
+        },
+        {
+          "word": "DEER",
+          "hint": "Geyik"
+        },
+        {
+          "word": "ZEBRA",
+          "hint": "Zebra"
+        },
+        {
+          "word": "GIRAFFE",
+          "hint": "Zürafa"
+        },
+        {
+          "word": "KANGAROO",
+          "hint": "Kanguru"
+        },
+        {
+          "word": "DOLPHIN",
+          "hint": "Yunus"
+        },
+        {
+          "word": "WHALE",
+          "hint": "Balina"
+        },
+        {
+          "word": "SHARK",
+          "hint": "Köpek balığı"
+        },
+        {
+          "word": "OCTOPUS",
+          "hint": "Ahtapot"
+        },
+        {
+          "word": "CRAB",
+          "hint": "Yengeç"
+        },
+        {
+          "word": "WING",
+          "hint": "Kanat"
+        },
+        {
+          "word": "TAIL",
+          "hint": "Kuyruk"
+        },
+        {
+          "word": "LEG",
+          "hint": "Bacak"
+        },
+        {
+          "word": "PAW",
+          "hint": "Pati"
+        },
+        {
+          "word": "FEATHER",
+          "hint": "Tüy"
+        },
+        {
+          "word": "BEAK",
+          "hint": "Gaga"
+        },
+        {
+          "word": "FUR",
+          "hint": "Kürk"
+        },
+        {
+          "word": "FIN",
+          "hint": "Yüzgeç"
+        },
+        {
+          "word": "HORN",
+          "hint": "Boynuz"
+        },
+        {
+          "word": "RUN",
+          "hint": "Koşmak"
+        },
+        {
+          "word": "JUMP",
+          "hint": "Zıplamak"
+        },
+        {
+          "word": "SWIM",
+          "hint": "Yüzmek"
+        },
+        {
+          "word": "FLY",
+          "hint": "Uçmak"
+        },
+        {
+          "word": "WALK",
+          "hint": "Yürümek"
+        },
+        {
+          "word": "CLIMB",
+          "hint": "Tırmanmak"
+        },
+        {
+          "word": "ROAR",
+          "hint": "Kükremek"
+        },
+        {
+          "word": "BARK",
+          "hint": "Havlamak"
+        },
+        {
+          "word": "MEOW",
+          "hint": "Miyavlamak"
+        },
+        {
+          "word": "QUACK",
+          "hint": "Vaklamak"
+        },
+        {
+          "word": "CHIRP",
+          "hint": "Cıvıldamak (kuş sesi)"
+        },
+        {
+          "word": "HISS",
+          "hint": "Tıslamak (yılan sesi)"
+        },
+        {
+          "word": "BIG",
+          "hint": "Büyük"
+        },
+        {
+          "word": "SMALL",
+          "hint": "Küçük"
+        },
+        {
+          "word": "FAST",
+          "hint": "Hızlı"
+        },
+        {
+          "word": "SLOW",
+          "hint": "Yavaş"
+        },
+        {
+          "word": "WILD",
+          "hint": "Vahşi"
+        },
+        {
+          "word": "PET",
+          "hint": "Evcil hayvan"
+        },
+        {
+          "word": "FARM",
+          "hint": "Çiftlik"
+        },
+        {
+          "word": "ZOO",
+          "hint": "Hayvanat bahçesi"
+        },
+        {
+          "word": "JUNGLE",
+          "hint": "Vahşi hayvanların yaşadığı orman"
+        },
+        {
+          "word": "OCEAN",
+          "hint": "Okyanus"
+        }
+      ]
     },
     {
       "id": "ingilizce_u6",
-      "name": "Unit 6: My Body and Clothes",
+      "name": "Unit 6: My Body",
       "months": [
         2
       ],
-      "words": []
+      "words": [
+        {
+          "word": "BODY",
+          "hint": "Vücut"
+        },
+        {
+          "word": "HEAD",
+          "hint": "Baş"
+        },
+        {
+          "word": "HAIR",
+          "hint": "Saç"
+        },
+        {
+          "word": "FACE",
+          "hint": "Yüz"
+        },
+        {
+          "word": "EYE",
+          "hint": "Göz"
+        },
+        {
+          "word": "EAR",
+          "hint": "Kulak"
+        },
+        {
+          "word": "NOSE",
+          "hint": "Burun"
+        },
+        {
+          "word": "MOUTH",
+          "hint": "Ağız"
+        },
+        {
+          "word": "TOOTH",
+          "hint": "Diş"
+        },
+        {
+          "word": "TEETH",
+          "hint": "Dişler"
+        },
+        {
+          "word": "TONGUE",
+          "hint": "Dil"
+        },
+        {
+          "word": "NECK",
+          "hint": "Boyun"
+        },
+        {
+          "word": "SHOULDER",
+          "hint": "Omuz"
+        },
+        {
+          "word": "ARM",
+          "hint": "Kol"
+        },
+        {
+          "word": "HAND",
+          "hint": "El"
+        },
+        {
+          "word": "FINGER",
+          "hint": "Parmak"
+        },
+        {
+          "word": "LEG",
+          "hint": "Bacak"
+        },
+        {
+          "word": "FOOT",
+          "hint": "Ayak"
+        },
+        {
+          "word": "FEET",
+          "hint": "Ayaklar"
+        },
+        {
+          "word": "TOE",
+          "hint": "Ayak parmağı"
+        },
+        {
+          "word": "KNEE",
+          "hint": "Diz"
+        },
+        {
+          "word": "ELBOW",
+          "hint": "Dirsek"
+        },
+        {
+          "word": "STOMACH",
+          "hint": "Karın"
+        },
+        {
+          "word": "BACK",
+          "hint": "Sırt"
+        },
+        {
+          "word": "CHEST",
+          "hint": "Göğüs"
+        },
+        {
+          "word": "SKIN",
+          "hint": "Deri"
+        },
+        {
+          "word": "BONE",
+          "hint": "Kemik"
+        },
+        {
+          "word": "HEART",
+          "hint": "Kalp"
+        },
+        {
+          "word": "BRAIN",
+          "hint": "Beyin"
+        },
+        {
+          "word": "WALK",
+          "hint": "Yürümek"
+        },
+        {
+          "word": "RUN",
+          "hint": "Koşmak"
+        },
+        {
+          "word": "JUMP",
+          "hint": "Zıplamak"
+        },
+        {
+          "word": "SEE",
+          "hint": "Görmek"
+        },
+        {
+          "word": "HEAR",
+          "hint": "Duymak"
+        },
+        {
+          "word": "SMELL",
+          "hint": "Koklamak"
+        },
+        {
+          "word": "TASTE",
+          "hint": "Tatmak"
+        },
+        {
+          "word": "TOUCH",
+          "hint": "Dokunmak"
+        },
+        {
+          "word": "WAVE",
+          "hint": "El sallamak"
+        },
+        {
+          "word": "CLAP",
+          "hint": "Alkışlamak"
+        },
+        {
+          "word": "KICK",
+          "hint": "Tekmelemek"
+        },
+        {
+          "word": "POINT",
+          "hint": "İşaret etmek"
+        },
+        {
+          "word": "LONG",
+          "hint": "Uzun"
+        },
+        {
+          "word": "SHORT",
+          "hint": "Kısa"
+        },
+        {
+          "word": "BIG",
+          "hint": "Büyük"
+        },
+        {
+          "word": "SMALL",
+          "hint": "Küçük"
+        },
+        {
+          "word": "STRONG",
+          "hint": "Güçlü"
+        },
+        {
+          "word": "WEAK",
+          "hint": "Zayıf"
+        },
+        {
+          "word": "MY",
+          "hint": "Benim"
+        },
+        {
+          "word": "YOUR",
+          "hint": "Senin"
+        },
+        {
+          "word": "HAVE",
+          "hint": "Sahip olmak (vücut parçaları için)"
+        },
+        {
+          "word": "CAN",
+          "hint": "Yapabilmek (yetenek)"
+        },
+        {
+          "word": "STAND",
+          "hint": "Ayakta durmak"
+        },
+        {
+          "word": "SIT",
+          "hint": "Oturmak"
+        },
+        {
+          "word": "MOVE",
+          "hint": "Hareket etmek"
+        },
+        {
+          "word": "HEALTHY",
+          "hint": "Sağlıklı"
+        },
+        {
+          "word": "CLEAN",
+          "hint": "Temiz"
+        },
+        {
+          "word": "WASH",
+          "hint": "Yıkamak"
+        },
+        {
+          "word": "GROW",
+          "hint": "Büyümek"
+        },
+        {
+          "word": "TALL",
+          "hint": "Uzun (boy)"
+        }
+      ]
     },
     {
       "id": "ingilizce_u7",
-      "name": "Unit 7: Pets and Animals",
+      "name": "Unit 7: My Toys",
       "months": [
         3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "BALL",
+          "hint": "Yuvarlak, zıplayabilen oyuncak."
+        },
+        {
+          "word": "DOLL",
+          "hint": "İnsan şeklinde, genellikle kız çocuklarının oynadığı oyuncak."
+        },
+        {
+          "word": "CAR",
+          "hint": "Dört tekerlekli, küçük oyuncak araç."
+        },
+        {
+          "word": "TEDDY BEAR",
+          "hint": "Yumuşak, oyuncak ayı."
+        },
+        {
+          "word": "TRAIN",
+          "hint": "Raylar üzerinde giden, vagonları olan oyuncak."
+        },
+        {
+          "word": "ROBOT",
+          "hint": "İnsan benzeri, oyuncak makine."
+        },
+        {
+          "word": "KITE",
+          "hint": "İple havada uçurulan oyuncak."
+        },
+        {
+          "word": "BICYCLE",
+          "hint": "İki tekerlekli bisiklet."
+        },
+        {
+          "word": "PUZZLE",
+          "hint": "Parçaları birleştirilen oyun."
+        },
+        {
+          "word": "BLOCKS",
+          "hint": "Birbirine takılan yapı oyuncakları."
+        },
+        {
+          "word": "JUMP ROPE",
+          "hint": "Üzerinden atlamak için kullanılan ip."
+        },
+        {
+          "word": "SCOOTER",
+          "hint": "Üzerinde durularak sürülen oyuncak."
+        },
+        {
+          "word": "WAGON",
+          "hint": "Eşya taşımak için çekilen küçük araba."
+        },
+        {
+          "word": "DRUM",
+          "hint": "Vurularak çalınan müzik aleti."
+        },
+        {
+          "word": "GUITAR",
+          "hint": "Telleri olan müzik aleti."
+        },
+        {
+          "word": "PLANE",
+          "hint": "Havada uçan oyuncak."
+        },
+        {
+          "word": "BOAT",
+          "hint": "Suda yüzen oyuncak."
+        },
+        {
+          "word": "GAME",
+          "hint": "Oyun, eğlenceli etkinlik."
+        },
+        {
+          "word": "TOY",
+          "hint": "Çocukların oynadığı eşya."
+        },
+        {
+          "word": "BOX",
+          "hint": "Kutu."
+        },
+        {
+          "word": "PLAY",
+          "hint": "Oynamak."
+        },
+        {
+          "word": "SHARE",
+          "hint": "Paylaşmak."
+        },
+        {
+          "word": "HAPPY",
+          "hint": "Mutlu, sevinçli."
+        },
+        {
+          "word": "FUN",
+          "hint": "Eğlence, eğlenceli."
+        },
+        {
+          "word": "FAVORITE",
+          "hint": "En sevilen."
+        },
+        {
+          "word": "BIG",
+          "hint": "Büyük."
+        },
+        {
+          "word": "SMALL",
+          "hint": "Küçük."
+        },
+        {
+          "word": "NEW",
+          "hint": "Yeni."
+        },
+        {
+          "word": "OLD",
+          "hint": "Eski."
+        },
+        {
+          "word": "RED",
+          "hint": "Kırmızı."
+        },
+        {
+          "word": "BLUE",
+          "hint": "Mavi."
+        },
+        {
+          "word": "GREEN",
+          "hint": "Yeşil."
+        },
+        {
+          "word": "YELLOW",
+          "hint": "Sarı."
+        },
+        {
+          "word": "WHITE",
+          "hint": "Beyaz."
+        },
+        {
+          "word": "BLACK",
+          "hint": "Siyah."
+        },
+        {
+          "word": "ORANGE",
+          "hint": "Turuncu."
+        },
+        {
+          "word": "PINK",
+          "hint": "Pembe."
+        },
+        {
+          "word": "PURPLE",
+          "hint": "Mor."
+        },
+        {
+          "word": "BROWN",
+          "hint": "Kahverengi."
+        },
+        {
+          "word": "MANY",
+          "hint": "Çok, çok sayıda."
+        },
+        {
+          "word": "ONE",
+          "hint": "Bir (sayı)."
+        },
+        {
+          "word": "TWO",
+          "hint": "İki (sayı)."
+        },
+        {
+          "word": "THREE",
+          "hint": "Üç (sayı)."
+        },
+        {
+          "word": "FOUR",
+          "hint": "Dört (sayı)."
+        },
+        {
+          "word": "FIVE",
+          "hint": "Beş (sayı)."
+        },
+        {
+          "word": "SIX",
+          "hint": "Altı (sayı)."
+        },
+        {
+          "word": "SEVEN",
+          "hint": "Yedi (sayı)."
+        },
+        {
+          "word": "EIGHT",
+          "hint": "Sekiz (sayı)."
+        },
+        {
+          "word": "NINE",
+          "hint": "Dokuz (sayı)."
+        },
+        {
+          "word": "TEN",
+          "hint": "On (sayı)."
+        }
+      ]
     },
     {
       "id": "ingilizce_u8",
-      "name": "Unit 8: My Daily Routine",
+      "name": "Unit 8: My House",
       "months": [
         4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "HOUSE",
+          "hint": "Ev"
+        },
+        {
+          "word": "HOME",
+          "hint": "Yuva, ev"
+        },
+        {
+          "word": "ROOM",
+          "hint": "Oda"
+        },
+        {
+          "word": "LIVING ROOM",
+          "hint": "Oturma odası"
+        },
+        {
+          "word": "KITCHEN",
+          "hint": "Mutfak"
+        },
+        {
+          "word": "BEDROOM",
+          "hint": "Yatak odası"
+        },
+        {
+          "word": "BATHROOM",
+          "hint": "Banyo"
+        },
+        {
+          "word": "GARDEN",
+          "hint": "Bahçe"
+        },
+        {
+          "word": "DOOR",
+          "hint": "Kapı"
+        },
+        {
+          "word": "WINDOW",
+          "hint": "Pencere"
+        },
+        {
+          "word": "WALL",
+          "hint": "Duvar"
+        },
+        {
+          "word": "ROOF",
+          "hint": "Çatı"
+        },
+        {
+          "word": "FLOOR",
+          "hint": "Zemin, yer"
+        },
+        {
+          "word": "STAIRS",
+          "hint": "Merdiven"
+        },
+        {
+          "word": "BALCONY",
+          "hint": "Balkon"
+        },
+        {
+          "word": "GARAGE",
+          "hint": "Garaj"
+        },
+        {
+          "word": "SOFA",
+          "hint": "Kanepe, koltuk"
+        },
+        {
+          "word": "ARMCHAIR",
+          "hint": "Tekli koltuk"
+        },
+        {
+          "word": "TABLE",
+          "hint": "Masa"
+        },
+        {
+          "word": "CHAIR",
+          "hint": "Sandalye"
+        },
+        {
+          "word": "BED",
+          "hint": "Yatak"
+        },
+        {
+          "word": "WARDROBE",
+          "hint": "Gardırop, elbise dolabı"
+        },
+        {
+          "word": "DESK",
+          "hint": "Çalışma masası"
+        },
+        {
+          "word": "LAMP",
+          "hint": "Lamba"
+        },
+        {
+          "word": "CARPET",
+          "hint": "Halı"
+        },
+        {
+          "word": "CURTAIN",
+          "hint": "Perde"
+        },
+        {
+          "word": "TV",
+          "hint": "Televizyon"
+        },
+        {
+          "word": "FRIDGE",
+          "hint": "Buzdolabı"
+        },
+        {
+          "word": "OVEN",
+          "hint": "Fırın"
+        },
+        {
+          "word": "STOVE",
+          "hint": "Ocak"
+        },
+        {
+          "word": "SINK",
+          "hint": "Lavabo"
+        },
+        {
+          "word": "PLATE",
+          "hint": "Tabak"
+        },
+        {
+          "word": "SPOON",
+          "hint": "Kaşık"
+        },
+        {
+          "word": "FORK",
+          "hint": "Çatal"
+        },
+        {
+          "word": "KNIFE",
+          "hint": "Bıçak"
+        },
+        {
+          "word": "GLASS",
+          "hint": "Bardak (içecek için)"
+        },
+        {
+          "word": "MUG",
+          "hint": "Kupa"
+        },
+        {
+          "word": "KETTLE",
+          "hint": "Su ısıtıcısı, çaydanlık"
+        },
+        {
+          "word": "TOILET",
+          "hint": "Tuvalet"
+        },
+        {
+          "word": "SHOWER",
+          "hint": "Duş"
+        },
+        {
+          "word": "BATHTUB",
+          "hint": "Küvet"
+        },
+        {
+          "word": "MIRROR",
+          "hint": "Ayna"
+        },
+        {
+          "word": "TOWEL",
+          "hint": "Havlu"
+        },
+        {
+          "word": "SOAP",
+          "hint": "Sabun"
+        },
+        {
+          "word": "SHAMPOO",
+          "hint": "Şampuan"
+        },
+        {
+          "word": "PILLOW",
+          "hint": "Yastık"
+        },
+        {
+          "word": "BLANKET",
+          "hint": "Battaniye"
+        },
+        {
+          "word": "SHEET",
+          "hint": "Çarşaf"
+        },
+        {
+          "word": "TOY",
+          "hint": "Oyuncak"
+        },
+        {
+          "word": "BOOK",
+          "hint": "Kitap"
+        },
+        {
+          "word": "BOOKSHELF",
+          "hint": "Kitaplık"
+        },
+        {
+          "word": "PICTURE",
+          "hint": "Resim, tablo"
+        },
+        {
+          "word": "CLOCK",
+          "hint": "Saat"
+        },
+        {
+          "word": "FLOWER",
+          "hint": "Çiçek"
+        },
+        {
+          "word": "TREE",
+          "hint": "Ağaç"
+        },
+        {
+          "word": "GRASS",
+          "hint": "Çim"
+        },
+        {
+          "word": "FENCE",
+          "hint": "Çit"
+        },
+        {
+          "word": "KEY",
+          "hint": "Anahtar"
+        },
+        {
+          "word": "LIGHT",
+          "hint": "Işık"
+        },
+        {
+          "word": "BASKET",
+          "hint": "Sepet"
+        },
+        {
+          "word": "RUG",
+          "hint": "Kilim, küçük halı"
+        },
+        {
+          "word": "COFFEE TABLE",
+          "hint": "Sehpa"
+        },
+        {
+          "word": "FIREPLACE",
+          "hint": "Şömine"
+        },
+        {
+          "word": "CUSHION",
+          "hint": "Minder"
+        },
+        {
+          "word": "DINING ROOM",
+          "hint": "Yemek odası"
+        },
+        {
+          "word": "HALL",
+          "hint": "Hol, antre"
+        },
+        {
+          "word": "PATH",
+          "hint": "Yol, patika"
+        },
+        {
+          "word": "BUSH",
+          "hint": "Çalı"
+        },
+        {
+          "word": "SWING",
+          "hint": "Salıncak"
+        },
+        {
+          "word": "SLIDE",
+          "hint": "Kaydırak"
+        }
+      ]
     },
     {
       "id": "ingilizce_u9",
-      "name": "Unit 9: Fruits and Food",
+      "name": "Unit 9: My Clothes",
       "months": [
         5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "DRESS",
+          "hint": "elbise"
+        },
+        {
+          "word": "SHIRT",
+          "hint": "gömlek"
+        },
+        {
+          "word": "PANTS",
+          "hint": "pantolon"
+        },
+        {
+          "word": "SKIRT",
+          "hint": "etek"
+        },
+        {
+          "word": "SHORTS",
+          "hint": "şort"
+        },
+        {
+          "word": "T-SHIRT",
+          "hint": "tişört"
+        },
+        {
+          "word": "COAT",
+          "hint": "palto, kaban"
+        },
+        {
+          "word": "JACKET",
+          "hint": "ceket"
+        },
+        {
+          "word": "SWEATER",
+          "hint": "kazak"
+        },
+        {
+          "word": "SOCKS",
+          "hint": "çorap"
+        },
+        {
+          "word": "SHOES",
+          "hint": "ayakkabı"
+        },
+        {
+          "word": "BOOTS",
+          "hint": "bot"
+        },
+        {
+          "word": "HAT",
+          "hint": "şapka"
+        },
+        {
+          "word": "CAP",
+          "hint": "kep"
+        },
+        {
+          "word": "GLOVES",
+          "hint": "eldiven"
+        },
+        {
+          "word": "SCARF",
+          "hint": "atkı"
+        },
+        {
+          "word": "PAJAMAS",
+          "hint": "pijama"
+        },
+        {
+          "word": "UNIFORM",
+          "hint": "üniforma"
+        },
+        {
+          "word": "SWIMSUIT",
+          "hint": "mayo"
+        },
+        {
+          "word": "RAINCOAT",
+          "hint": "yağmurluk"
+        },
+        {
+          "word": "JEANS",
+          "hint": "kot pantolon"
+        },
+        {
+          "word": "TOP",
+          "hint": "üst giysi"
+        },
+        {
+          "word": "BLOUSE",
+          "hint": "bluz"
+        },
+        {
+          "word": "VEST",
+          "hint": "yelek"
+        },
+        {
+          "word": "TIE",
+          "hint": "kravat"
+        },
+        {
+          "word": "BELT",
+          "hint": "kemer"
+        },
+        {
+          "word": "RED",
+          "hint": "kırmızı"
+        },
+        {
+          "word": "BLUE",
+          "hint": "mavi"
+        },
+        {
+          "word": "GREEN",
+          "hint": "yeşil"
+        },
+        {
+          "word": "YELLOW",
+          "hint": "sarı"
+        },
+        {
+          "word": "BLACK",
+          "hint": "siyah"
+        },
+        {
+          "word": "WHITE",
+          "hint": "beyaz"
+        },
+        {
+          "word": "PINK",
+          "hint": "pembe"
+        },
+        {
+          "word": "PURPLE",
+          "hint": "mor"
+        },
+        {
+          "word": "ORANGE",
+          "hint": "turuncu"
+        },
+        {
+          "word": "BROWN",
+          "hint": "kahverengi"
+        },
+        {
+          "word": "GRAY",
+          "hint": "gri"
+        },
+        {
+          "word": "WEAR",
+          "hint": "giymek"
+        },
+        {
+          "word": "PUT ON",
+          "hint": "giymek (üstüne)"
+        },
+        {
+          "word": "TAKE OFF",
+          "hint": "çıkarmak (giysiyi)"
+        },
+        {
+          "word": "WASH",
+          "hint": "yıkamak"
+        },
+        {
+          "word": "CLEAN",
+          "hint": "temiz"
+        },
+        {
+          "word": "DIRTY",
+          "hint": "kirli"
+        },
+        {
+          "word": "NEW",
+          "hint": "yeni"
+        },
+        {
+          "word": "OLD",
+          "hint": "eski"
+        },
+        {
+          "word": "BIG",
+          "hint": "büyük"
+        },
+        {
+          "word": "SMALL",
+          "hint": "küçük"
+        },
+        {
+          "word": "LONG",
+          "hint": "uzun"
+        },
+        {
+          "word": "SHORT",
+          "hint": "kısa"
+        },
+        {
+          "word": "PRETTY",
+          "hint": "güzel"
+        },
+        {
+          "word": "WARM",
+          "hint": "sıcak, ılık"
+        },
+        {
+          "word": "COOL",
+          "hint": "serin"
+        },
+        {
+          "word": "SOFT",
+          "hint": "yumuşak"
+        },
+        {
+          "word": "COMFY",
+          "hint": "rahat"
+        },
+        {
+          "word": "BUTTON",
+          "hint": "düğme"
+        },
+        {
+          "word": "ZIPPER",
+          "hint": "fermuar"
+        },
+        {
+          "word": "POCKET",
+          "hint": "cep"
+        },
+        {
+          "word": "SLEEVE",
+          "hint": "kol (giysinin)"
+        },
+        {
+          "word": "COLLAR",
+          "hint": "yaka"
+        },
+        {
+          "word": "HOOD",
+          "hint": "kapüşon"
+        },
+        {
+          "word": "STRIPED",
+          "hint": "çizgili"
+        },
+        {
+          "word": "DOTTED",
+          "hint": "puantiyeli"
+        },
+        {
+          "word": "PLAIN",
+          "hint": "düz (desensiz)"
+        },
+        {
+          "word": "FLOWERY",
+          "hint": "çiçekli"
+        },
+        {
+          "word": "COLORFUL",
+          "hint": "renkli"
+        },
+        {
+          "word": "CLOTH",
+          "hint": "kumaş"
+        }
+      ]
     },
     {
       "id": "ingilizce_u10",
-      "name": "Unit 10: Animal Shelter and Nature",
+      "name": "Unit 10: My Food",
       "months": [
-        6
+        5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "APPLE",
+          "hint": "Kırmızı veya yeşil, tatlı bir meyve."
+        },
+        {
+          "word": "BANANA",
+          "hint": "Sarı renkli, uzun bir meyve."
+        },
+        {
+          "word": "ORANGE",
+          "hint": "Turuncu renkli, C vitamini zengini bir meyve."
+        },
+        {
+          "word": "GRAPE",
+          "hint": "Küçük, salkım şeklinde, tatlı bir meyve."
+        },
+        {
+          "word": "STRAWBERRY",
+          "hint": "Kırmızı renkli, tatlı, küçük bir meyve."
+        },
+        {
+          "word": "CHERRY",
+          "hint": "Küçük, kırmızı, tatlı bir meyve."
+        },
+        {
+          "word": "PEAR",
+          "hint": "Tatlı, yeşil veya sarı renkli bir meyve."
+        },
+        {
+          "word": "PINEAPPLE",
+          "hint": "Tüylü kabuklu, tatlı, sarı bir meyve."
+        },
+        {
+          "word": "WATERMELON",
+          "hint": "Büyük, yeşil kabuklu, içi kırmızı, sulu bir meyve."
+        },
+        {
+          "word": "LEMON",
+          "hint": "Ekşi, sarı renkli bir meyve."
+        },
+        {
+          "word": "CARROT",
+          "hint": "Turuncu renkli, tavşanların sevdiği bir sebze."
+        },
+        {
+          "word": "TOMATO",
+          "hint": "Kırmızı renkli, salatalarda kullanılan bir sebze."
+        },
+        {
+          "word": "POTATO",
+          "hint": "Toprak altında büyüyen, kızartması sevilen bir sebze."
+        },
+        {
+          "word": "ONION",
+          "hint": "Yemeklere tat veren, katmanlı bir sebze."
+        },
+        {
+          "word": "BROCCOLI",
+          "hint": "Yeşil renkli, sağlıklı bir sebze."
+        },
+        {
+          "word": "CORN",
+          "hint": "Sarı taneleri olan, haşlanmış veya patlamış yenen bir sebze."
+        },
+        {
+          "word": "PEA",
+          "hint": "Küçük, yeşil taneli bir sebze."
+        },
+        {
+          "word": "CUCUMBER",
+          "hint": "Yeşil, uzun, salatada kullanılan bir sebze."
+        },
+        {
+          "word": "LETTUCE",
+          "hint": "Yeşil yapraklı, salatalarda kullanılan bir sebze."
+        },
+        {
+          "word": "PEPPER",
+          "hint": "Yeşil, kırmızı veya sarı renkli bir sebze."
+        },
+        {
+          "word": "BREAD",
+          "hint": "Buğdaydan yapılan, kahvaltıda yediğimiz temel yiyecek."
+        },
+        {
+          "word": "CHEESE",
+          "hint": "Sütten yapılan, kahvaltıda ve sandviçte yediğimiz yiyecek."
+        },
+        {
+          "word": "EGG",
+          "hint": "Tavuktan çıkan, kahvaltıda yediğimiz besin."
+        },
+        {
+          "word": "MILK",
+          "hint": "İnekten elde edilen, içtiğimiz beyaz sıvı."
+        },
+        {
+          "word": "WATER",
+          "hint": "Hayat için gerekli, içtiğimiz berrak sıvı."
+        },
+        {
+          "word": "JUICE",
+          "hint": "Meyvelerden sıkılan içecek."
+        },
+        {
+          "word": "TEA",
+          "hint": "Sıcak içilen bir içecek."
+        },
+        {
+          "word": "CHICKEN",
+          "hint": "Beyaz etli, lezzetli bir yiyecek."
+        },
+        {
+          "word": "FISH",
+          "hint": "Denizden veya gölden çıkan, sağlıklı bir yiyecek."
+        },
+        {
+          "word": "MEAT",
+          "hint": "Hayvanlardan elde edilen yiyecek."
+        },
+        {
+          "word": "RICE",
+          "hint": "Pilav yaptığımız, küçük beyaz taneli yiyecek."
+        },
+        {
+          "word": "PASTA",
+          "hint": "İtalyan yemeği, farklı şekillerde olur."
+        },
+        {
+          "word": "PIZZA",
+          "hint": "İtalyan yemeği, üzerinde peynir ve soslar olur."
+        },
+        {
+          "word": "SANDWICH",
+          "hint": "İki ekmek arasına malzeme konularak yapılan yiyecek."
+        },
+        {
+          "word": "BURGER",
+          "hint": "Genellikle köfte ve sebzelerle yapılan yuvarlak sandviç."
+        },
+        {
+          "word": "FRIES",
+          "hint": "Kızartılmış ince patates dilimleri (Patates Kızartması)."
+        },
+        {
+          "word": "CAKE",
+          "hint": "Tatlı, doğum günlerinde yenilen hamur işi."
+        },
+        {
+          "word": "COOKIE",
+          "hint": "Küçük, tatlı, genellikle çay ile yenen hamur işi."
+        },
+        {
+          "word": "CANDY",
+          "hint": "Tatlı, küçük bir atıştırmalık."
+        },
+        {
+          "word": "CHOCOLATE",
+          "hint": "Kakao ve şekerden yapılan tatlı."
+        },
+        {
+          "word": "ICE CREAM",
+          "hint": "Soğuk, tatlı bir yiyecek."
+        },
+        {
+          "word": "SOUP",
+          "hint": "Sıvı, sıcak başlangıç yemeği."
+        },
+        {
+          "word": "SALAD",
+          "hint": "Çiğ sebzelerden yapılan yiyecek."
+        },
+        {
+          "word": "HUNGRY",
+          "hint": "Yemek yemek isteyen kişi (Aç)."
+        },
+        {
+          "word": "THIRSTY",
+          "hint": "Su içmek isteyen kişi (Susuz)."
+        },
+        {
+          "word": "EAT",
+          "hint": "Ağzımızla yiyecekleri tüketmek (Yemek yemek)."
+        },
+        {
+          "word": "DRINK",
+          "hint": "Sıvıları tüketmek (İçmek)."
+        },
+        {
+          "word": "LIKE",
+          "hint": "Bir şeyi sevmek, hoşlanmak (Sevmek/Beğenmek)."
+        },
+        {
+          "word": "DISLIKE",
+          "hint": "Bir şeyi sevmemek, hoşlanmamak (Sevmemek/Beğenmemek)."
+        },
+        {
+          "word": "WANT",
+          "hint": "Bir şeye sahip olmayı arzu etmek (İstemek)."
+        },
+        {
+          "word": "BREAKFAST",
+          "hint": "Sabah yenen ilk öğün (Kahvaltı)."
+        },
+        {
+          "word": "LUNCH",
+          "hint": "Öğlen yenen öğün (Öğle Yemeği)."
+        },
+        {
+          "word": "DINNER",
+          "hint": "Akşam yenen son öğün (Akşam Yemeği)."
+        },
+        {
+          "word": "FOOD",
+          "hint": "Yediğimiz her şeyin genel adı (Yiyecek/Gıda)."
+        },
+        {
+          "word": "HEALTHY",
+          "hint": "Vücuda iyi gelen, faydalı yiyecekler (Sağlıklı)."
+        },
+        {
+          "word": "UNHEALTHY",
+          "hint": "Vücuda iyi gelmeyen, zararlı yiyecekler (Sağlıksız)."
+        },
+        {
+          "word": "SWEET",
+          "hint": "Şekerli yiyeceklerin tadı (Tatlı)."
+        },
+        {
+          "word": "SALTY",
+          "hint": "Tuz içeren yiyeceklerin tadı (Tuzlu)."
+        },
+        {
+          "word": "SOUR",
+          "hint": "Limon gibi yiyeceklerin tadı (Ekşi)."
+        },
+        {
+          "word": "DELICIOUS",
+          "hint": "Tadı çok güzel olan yiyecek (Lezzetli)."
+        },
+        {
+          "word": "PLATE",
+          "hint": "Yemek yediğimiz düz veya çukur kap (Tabak)."
+        },
+        {
+          "word": "CUP",
+          "hint": "İçecek içtiğimiz küçük kap (Fincan/Kupa)."
+        },
+        {
+          "word": "FORK",
+          "hint": "Yemekleri yemek için kullandığımız araç (Çatal)."
+        },
+        {
+          "word": "SPOON",
+          "hint": "Çorba veya tatlı yemek için kullandığımız araç (Kaşık)."
+        },
+        {
+          "word": "KNIFE",
+          "hint": "Yiyecekleri kesmek için kullandığımız araç (Bıçak)."
+        },
+        {
+          "word": "KITCHEN",
+          "hint": "Yemeklerin yapıldığı yer (Mutfak)."
+        }
+      ]
     }
   ]
 }

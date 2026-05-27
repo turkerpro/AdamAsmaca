@@ -2,11 +2,10 @@
   "units": [
     {
       "id": "cografya_u1",
-      "name": "1. Ünite: Doğal Kaynaklar",
+      "name": "1. Ünite: Doğal Sistemler",
       "months": [
         9,
-        10,
-        11
+        10
       ],
       "words": [
         {
@@ -34,11 +33,11 @@
           "hint": "İnsanların ihtiyaçlarını karşılamak için kullandığı, doğada bulunan her şey."
         },
         {
-          "word": "ENERJİ̇",
+          "word": "ENERJİ",
           "hint": "İş yapabilme yeteneği, güç."
         },
         {
-          "word": "SU KAYNAKLARİ",
+          "word": "SU KAYNAKLARI",
           "hint": "Nehirler, göller, yeraltı suları gibi yaşamsal öneme sahip su birikintileri."
         },
         {
@@ -54,7 +53,7 @@
           "hint": "Dünyayı çevreleyen, soluduğumuz gaz karışımı."
         },
         {
-          "word": "FOSİ̇L YAKİT",
+          "word": "FOSİL YAKIT",
           "hint": "Milyonlarca yılda oluşan, kömür, petrol ve doğalgaz gibi enerji kaynakları."
         },
         {
@@ -66,15 +65,15 @@
           "hint": "Yer altında bulunan, evleri ısıtmak ve elektrik üretmek için kullanılan gaz yakıt."
         },
         {
-          "word": "Bİ̇TKİ̇ ÖRTÜSÜ",
+          "word": "BİTKİ ÖRTÜSÜ",
           "hint": "Bir bölgedeki doğal olarak yetişen bitki türleri."
         },
         {
-          "word": "HAYVAN VARLİĞİ",
+          "word": "HAYVAN VARLIĞI",
           "hint": "Bir bölgede yaşayan doğal hayvan topluluğu."
         },
         {
-          "word": "YER ALTİ SUYU",
+          "word": "YER ALTI SUYU",
           "hint": "Toprağın altındaki su katmanları."
         },
         {
@@ -82,55 +81,55 @@
           "hint": "Suları depolamak ve hidroelektrik enerji üretmek için nehirler üzerine kurulan yapı."
         },
         {
-          "word": "Hİ̇DROLİ̇K ENERJİ̇",
+          "word": "HİDROLİK ENERJİ",
           "hint": "Suyun hareketinden elde edilen enerji türü."
         },
         {
-          "word": "GÜNEŞ ENERJİ̇Sİ̇",
+          "word": "GÜNEŞ ENERJİSİ",
           "hint": "Güneş ışığından elde edilen elektrik veya ısı enerjisi."
         },
         {
-          "word": "JEOTERMAL ENERJİ̇",
+          "word": "JEOTERMAL ENERJİ",
           "hint": "Yerkabuğunun derinliklerindeki ısıdan elde edilen enerji."
         },
         {
-          "word": "Bİ̇YOKÜTLE",
+          "word": "BİYOKÜTLE",
           "hint": "Bitkisel veya hayvansal atıklardan elde edilen enerji kaynağı."
         },
         {
-          "word": "YENİ̇LENEBİ̇Lİ̇R KAYNAK",
+          "word": "YENİLENEBİLİR KAYNAK",
           "hint": "Kısa sürede kendini yenileyebilen, tükenmeyen doğal kaynak."
         },
         {
-          "word": "TÜKENEBİ̇Lİ̇R KAYNAK",
+          "word": "TÜKENEBİLİR KAYNAK",
           "hint": "Kullanıldıkça azalan, yerine yenisi konulamayan doğal kaynak."
         },
         {
-          "word": "SÜRDÜRÜLEBİ̇Lİ̇RLİ̇K",
+          "word": "SÜRDÜRÜLEBİLİRLİK",
           "hint": "Kaynakları gelecek nesillerin de kullanabileceği şekilde yönetme anlayışı."
         },
         {
-          "word": "ERİ̇ZYON",
+          "word": "ERİZYON",
           "hint": "Toprağın su, rüzgar veya diğer doğal etkenlerle aşınması."
         },
         {
-          "word": "AĞAÇLANDİRMA",
+          "word": "AĞAÇLANDIRMA",
           "hint": "Yeni ağaçlar dikerek orman alanlarını artırma çabası."
         },
         {
-          "word": "ÇEVRE Kİ̇RLİ̇Lİ̇Ğİ̇",
+          "word": "ÇEVRE KİRLİLİĞİ",
           "hint": "Doğal dengenin bozulmasına neden olan zararlı maddelerin çevreye yayılması."
         },
         {
-          "word": "GEVİ̇Ş GETİ̇REN",
+          "word": "GEVİŞ GETİREN",
           "hint": "Otçul hayvanların sindirim sisteminde bulunan bir özellik."
         },
         {
-          "word": "SU Kİ̇RLİ̇Lİ̇Ğİ̇",
+          "word": "SU KİRLİLİĞİ",
           "hint": "Suların kimyasal, fiziksel veya biyolojik özelliklerinin bozulması."
         },
         {
-          "word": "HAVA Kİ̇RLİ̇Lİ̇Ğİ̇",
+          "word": "HAVA KİRLİLİĞİ",
           "hint": "Havadaki zararlı madde miktarının artması."
         },
         {
@@ -142,82 +141,81 @@
           "hint": "Ekonomik değeri olan, işlenerek metal elde edilen kayaç."
         },
         {
-          "word": "Bİ̇Tİ̇MLİ̇ KAYNAK",
+          "word": "BİTİMLİ KAYNAK",
           "hint": "Kullanıldıkça azalan ve sonu olan kaynak."
         },
         {
-          "word": "Bİ̇Tİ̇MSİ̇Z KAYNAK",
+          "word": "BİTİMSİZ KAYNAK",
           "hint": "Kullanıldıkça tükenmeyen kaynak."
         },
         {
-          "word": "ÇEKİ̇RDEK ENERJİ̇",
+          "word": "ÇEKİRDEK ENERJİ",
           "hint": "Atomların parçalanması veya birleşmesiyle elde edilen enerji."
         },
         {
-          "word": "YER ŞEKİ̇LLERİ̇",
+          "word": "YER ŞEKİLLERİ",
           "hint": "Dağlar, ovalar, platolar gibi yeryüzünün doğal görünümleri."
         },
         {
-          "word": "İ̇KLİ̇M",
+          "word": "İKLİM",
           "hint": "Uzun yıllar boyunca bir bölgenin hava durumu ortalaması."
         },
         {
-          "word": "EKOSİ̇STEM",
+          "word": "EKOSİSTEM",
           "hint": "Canlı ve cansız varlıkların birbirleriyle etkileşim içinde olduğu çevre."
         },
         {
-          "word": "BESİ̇N Zİ̇NCİ̇Rİ̇",
+          "word": "BESİN ZİNCİRİ",
           "hint": "Ekosistemdeki canlıların birbirlerini yiyerek enerji aktarımı."
         },
         {
-          "word": "VERİ̇MLİ̇Lİ̇K",
+          "word": "VERİMLİLİK",
           "hint": "Bir alandan elde edilen ürün miktarının fazlalığı."
         },
         {
-          "word": "TARİM",
+          "word": "TARIM",
           "hint": "Toprağı işleyerek bitki yetiştirme ve hayvan bakma etkinliği."
         },
         {
-          "word": "HAYVANCİLİK",
+          "word": "HAYVANCILIK",
           "hint": "Et, süt, yün gibi ürünler elde etmek için hayvan yetiştirme."
         },
         {
-          "word": "BALİKÇİLİK",
+          "word": "BALIKÇILIK",
           "hint": "Denizlerden, göllerden veya nehirlerden balık avlama."
         },
         {
-          "word": "SANAYİ̇",
+          "word": "SANAYİ",
           "hint": "Ham maddeleri işleyerek yeni ürünler üreten ekonomik faaliyet."
         },
         {
-          "word": "GEOTERMAL POTANSİ̇YEL",
+          "word": "GEOTERMAL POTANSİYEL",
           "hint": "Bir bölgenin yer altı ısısından enerji üretme kapasitesi."
         },
         {
-          "word": "BASİNÇ",
+          "word": "BASINÇ",
           "hint": "Bir yüzeye uygulanan dik kuvvet."
         },
         {
-          "word": "NÜKLEER ENERJİ̇",
+          "word": "NÜKLEER ENERJİ",
           "hint": "Atom çekirdeğinden elde edilen enerji."
         },
         {
-          "word": "Mİ̇NERAL",
+          "word": "MİNERAL",
           "hint": "Yer kabuğunda doğal olarak oluşan, belirli bir kimyasal bileşime sahip katı madde."
         },
         {
-          "word": "JEOLOJİ̇K YAPİLANMA",
+          "word": "JEOLOJİK YAPILANMA",
           "hint": "Yerkabuğunun oluşumu ve geçirdiği değişimler."
         }
       ]
     },
     {
       "id": "cografya_u2",
-      "name": "2. Ünite: Çevre Sorunları",
+      "name": "2. Ünite: Beşerî Sistemler",
       "months": [
-        12,
-        1,
-        2
+        11,
+        12
       ],
       "words": [
         {
@@ -229,7 +227,7 @@
           "hint": "Dünya sıcaklığının giderek artması sorunu"
         },
         {
-          "word": "OZON TABAKASİ",
+          "word": "OZON TABAKASI",
           "hint": "Zararlı ultraviyole ışınlarını filtreleyen atmosfer katmanı"
         },
         {
@@ -241,11 +239,11 @@
           "hint": "Atık maddelerin yeniden kullanılabilir hâle getirilmesi"
         },
         {
-          "word": "ASİ̇T YAĞMURU",
+          "word": "ASİT YAĞMURU",
           "hint": "Sanayi atıklarının suya karışıp zararlı hale gelmesiyle oluşan yağmur türü."
         },
         {
-          "word": "Bİ̇YOÇEŞİ̇TLİ̇Lİ̇K",
+          "word": "BİYOÇEŞİTLİLİK",
           "hint": "Bir bölgedeki canlı türlerinin zenginliği ve çeşitliliği."
         },
         {
@@ -261,11 +259,11 @@
           "hint": "Çevre ile ilgili olan."
         },
         {
-          "word": "DENİ̇Z",
+          "word": "DENİZ",
           "hint": "Tuzlu su ile kaplı geniş alan."
         },
         {
-          "word": "Dİ̇Kİ̇Lİ̇",
+          "word": "DİKİLİ",
           "hint": "Meyve vermeyen, süs veya gölge için yetiştirilen ağaç."
         },
         {
@@ -273,15 +271,15 @@
           "hint": "Yapay olmayan, kendiliğinden oluşan."
         },
         {
-          "word": "EKOSİ̇STEM",
+          "word": "EKOSİSTEM",
           "hint": "Belirli bir alanda yaşayan canlılar ve cansız çevre arasındaki etkileşim."
         },
         {
-          "word": "EKOLOJİ̇",
+          "word": "EKOLOJİ",
           "hint": "Canlıların çevreleriyle olan ilişkilerini inceleyen bilim dalı."
         },
         {
-          "word": "EMİ̇SYON",
+          "word": "EMİSYON",
           "hint": "Gaz, toz veya ısı yayan şey."
         },
         {
@@ -289,7 +287,7 @@
           "hint": "Rüzgar veya suyun toprağı aşındırıp taşıması."
         },
         {
-          "word": "FOSİ̇L",
+          "word": "FOSİL",
           "hint": "Toprak altında kalmış, taşlaşmış canlı kalıntısı."
         },
         {
@@ -301,7 +299,7 @@
           "hint": "Karalar içinde yer alan büyük su birikintisi."
         },
         {
-          "word": "HABİ̇TAT",
+          "word": "HABİTAT",
           "hint": "Bir canlının doğal olarak yaşadığı yer."
         },
         {
@@ -317,27 +315,27 @@
           "hint": "Bozulmuş bir şeyi iyileştirme."
         },
         {
-          "word": "İ̇Kİ̇MLİ̇LER",
+          "word": "İKİMLİLER",
           "hint": "Hem karada hem suda yaşayabilen hayvanlar."
         },
         {
-          "word": "İ̇KLİ̇M",
+          "word": "İKLİM",
           "hint": "Bir bölgenin uzun yıllar boyunca gösterdiği hava durumu."
         },
         {
-          "word": "KAÇAKÇİLİK",
+          "word": "KAÇAKÇILIK",
           "hint": "Yasa dışı yollarla mal alıp satma."
         },
         {
-          "word": "KANALİ̇ZASYON",
+          "word": "KANALİZASYON",
           "hint": "Atık suların toplandığı ve uzaklaştırıldığı sistem."
         },
         {
-          "word": "Kİ̇RLİ̇Lİ̇K",
+          "word": "KİRLİLİK",
           "hint": "Çevrenin zararlı maddelerle bozulması."
         },
         {
-          "word": "KURAKLİK",
+          "word": "KURAKLIK",
           "hint": "Uzun süren yağışsızlık nedeniyle ortaya çıkan susuzluk."
         },
         {
@@ -349,7 +347,7 @@
           "hint": "Hayvanların otladığı açık alan."
         },
         {
-          "word": "Mİ̇RAS",
+          "word": "MİRAS",
           "hint": "Önceki kuşaklardan kalanlar."
         },
         {
@@ -361,15 +359,15 @@
           "hint": "Belirli bir alanda yaşayan insan sayısı."
         },
         {
-          "word": "ÖTROFİ̇K",
+          "word": "ÖTROFİK",
           "hint": "Göllerin besin maddeleriyle aşırı zenginleşmesi."
         },
         {
-          "word": "PANZEHİ̇R",
+          "word": "PANZEHİR",
           "hint": "Zehir etkisini yok eden ilaç."
         },
         {
-          "word": "PARAZİ̇T",
+          "word": "PARAZİT",
           "hint": "Başka bir canlıdan beslenen ve ona zarar veren organizma."
         },
         {
@@ -377,7 +375,7 @@
           "hint": "Kirliliğe neden olan madde."
         },
         {
-          "word": "SAYİM",
+          "word": "SAYIM",
           "hint": "Belirli bir alandaki varlıkların sayılması."
         },
         {
@@ -385,11 +383,11 @@
           "hint": "Çok şiddetli yağışlar sonucu oluşan taşkın."
         },
         {
-          "word": "Sİ̇YANÜR",
+          "word": "SİYANÜR",
           "hint": "Altın madenciliğinde kullanılan zehirli kimyasal."
         },
         {
-          "word": "Sİ̇YANÜRLEME",
+          "word": "SİYANÜRLEME",
           "hint": "Siyanür kullanılarak yapılan işlem."
         },
         {
@@ -397,7 +395,7 @@
           "hint": "Şehre ait, yapıların arasından geçen yol."
         },
         {
-          "word": "SU BASKİNİ",
+          "word": "SU BASKINI",
           "hint": "Yerleşim yerlerinin sular altında kalması."
         },
         {
@@ -421,7 +419,7 @@
           "hint": "Yeryüzünden çıkarılan, yemeklerde kullanılan mineral."
         },
         {
-          "word": "VADİ̇",
+          "word": "VADİ",
           "hint": "İki dağ arasındaki, genellikle akarsu geçen çukur alan."
         },
         {
@@ -433,7 +431,7 @@
           "hint": "Gökyüzünden düşen su damlaları."
         },
         {
-          "word": "YAPİ",
+          "word": "YAPI",
           "hint": "Bina, köprü gibi insan eliyle yapılan şey."
         },
         {
@@ -441,7 +439,7 @@
           "hint": "Yüksek, genellikle otlarla kaplı düz alan."
         },
         {
-          "word": "YERALTİ",
+          "word": "YERALTI",
           "hint": "Yeryüzünün altındaki bölge."
         },
         {
@@ -453,7 +451,7 @@
           "hint": "Bir cismin dış kısmı, kapladığı alan."
         },
         {
-          "word": "ZEHİ̇R",
+          "word": "ZEHİR",
           "hint": "Canlılar için zararlı, öldürücü madde."
         }
       ]
@@ -462,19 +460,3362 @@
       "id": "cografya_u3",
       "name": "3. Ünite: Küresel Ortam: Bölgeler ve Ülkeler",
       "months": [
-        3,
-        4
+        1,
+        2,
+        3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "OROJENEZ",
+          "hint": "Dağ oluşumu süreci."
+        },
+        {
+          "word": "TRANSGRESYON",
+          "hint": "Denizin karalar üzerine ilerlemesi."
+        },
+        {
+          "word": "REGRESYON",
+          "hint": "Denizin karalardan çekilmesi."
+        },
+        {
+          "word": "MONOKLİNAL",
+          "hint": "Tek yönde eğimli tabaka yapısı."
+        },
+        {
+          "word": "ANTİKLİNAL",
+          "hint": "Ortadan dışa doğru kıvrılan antika yapı."
+        },
+        {
+          "word": "SENKLİNAL",
+          "hint": "Ortadan dışa doğru çöküntülü yapı."
+        },
+        {
+          "word": "FAY",
+          "hint": "Yer kabuğundaki kırık."
+        },
+        {
+          "word": "GRABEN",
+          "hint": "Faylarla çevrili çöküntü alanı."
+        },
+        {
+          "word": "HORST",
+          "hint": "Faylarla çevrili yüksekte kalmış alan."
+        },
+        {
+          "word": "PLATO",
+          "hint": "Çevresine göre yüksek düzlük."
+        },
+        {
+          "word": "VADİ",
+          "hint": "Akarsuların derine kazdığı yeryüzü şekli."
+        },
+        {
+          "word": "TORAS",
+          "hint": "Kalkerli arazilerde oluşan sivri tepeler."
+        },
+        {
+          "word": "KARSTLAŞMA",
+          "hint": "Suda çözünebilen kayaçların erimesi."
+        },
+        {
+          "word": "DOLİN",
+          "hint": "Karstik arazide oluşan çukur."
+        },
+        {
+          "word": "OBRUK",
+          "hint": "Yeraltı mağarasının çökmesiyle oluşan derin çukur."
+        },
+        {
+          "word": "POLYE",
+          "hint": "Geniş karstik ova."
+        },
+        {
+          "word": "JEOSENKLİNAL",
+          "hint": "Kıvrımlı dağların oluştuğu alçak bölge."
+        },
+        {
+          "word": "VOLKANİZMA",
+          "hint": "Magmanın yeryüzüne çıkması."
+        },
+        {
+          "word": "SÜNGER KAYAÇ",
+          "hint": "Volkanik püskürmeler sonucu oluşan gözenekli kaya."
+        },
+        {
+          "word": "LAV",
+          "hint": "Yeryüzüne çıkmış akışkan magma."
+        },
+        {
+          "word": "MAGMA",
+          "hint": "Yerin derinliklerindeki erimiş kaya."
+        },
+        {
+          "word": "KRATER",
+          "hint": "Yanardağ ağzı."
+        },
+        {
+          "word": "KALDERA",
+          "hint": "Yanardağın çökmesiyle oluşan büyük çukur."
+        },
+        {
+          "word": "SICAK SU KAYNAĞI",
+          "hint": "Yer altı ısısıyla ısınan su."
+        },
+        {
+          "word": "GAYZER",
+          "hint": "Belirli aralıklarla püsküren sıcak su."
+        },
+        {
+          "word": "SİSMİK DALGA",
+          "hint": "Deprem sırasında yayılan enerji dalgaları."
+        },
+        {
+          "word": "DEPREM",
+          "hint": "Yer kabuğunun ani hareketi."
+        },
+        {
+          "word": "TSUNAMİ",
+          "hint": "Deniz depremi sonucu oluşan dev dalga."
+        },
+        {
+          "word": "EROZYON",
+          "hint": "Toprağın taşınması."
+        },
+        {
+          "word": "BİRİKİM",
+          "hint": "Toprağın yığılması."
+        },
+        {
+          "word": "DELTA",
+          "hint": "Akarsuların denize döküldüğü yerdeki üçgen toprak."
+        },
+        {
+          "word": "MENDERES",
+          "hint": "Akarsuyun büklüm yaparak akması."
+        },
+        {
+          "word": "AŞINIM",
+          "hint": "Yüzeyin yavaş yavaş aşındırılması."
+        },
+        {
+          "word": "HEYELAN",
+          "hint": "Toprak veya kaya kütlesinin kayması."
+        },
+        {
+          "word": "SİRK",
+          "hint": "Buzul aşındırmasıyla oluşan çanak."
+        },
+        {
+          "word": "MOREN",
+          "hint": "Buzulun taşıdığı malzeme."
+        },
+        {
+          "word": "FİYORT",
+          "hint": "Buzul aşındırmasıyla oluşan körfez."
+        },
+        {
+          "word": "JEOMORFOLOJİ",
+          "hint": "Yer şekillerini inceleyen bilim dalı."
+        },
+        {
+          "word": "TEKTONİK",
+          "hint": "Yer kabuğunun hareketleriyle ilgili."
+        },
+        {
+          "word": "METAMORFİZMA",
+          "hint": "Kayaların başkalaşması."
+        },
+        {
+          "word": "SEDİMANTASYON",
+          "hint": "Tortulların birikmesi."
+        },
+        {
+          "word": "DEGRADASYON",
+          "hint": "Doğal ortamın bozulması."
+        },
+        {
+          "word": "AKİFER",
+          "hint": "Yeraltı suyunun depolandığı katman."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Doğal kaynakların korunarak kullanılması."
+        },
+        {
+          "word": "İKLİM",
+          "hint": "Bir bölgenin uzun süreli hava durumu ortalaması."
+        },
+        {
+          "word": "HAVA DURUMU",
+          "hint": "Anlık atmosfer olayları."
+        },
+        {
+          "word": "ATMOSFER",
+          "hint": "Dünya'yı saran gaz tabakası."
+        },
+        {
+          "word": "TROPOSFER",
+          "hint": "Atmosferin en alt katmanı, hava olayları burada olur."
+        },
+        {
+          "word": "STRATOSFER",
+          "hint": "Ozon tabakasının bulunduğu katman."
+        },
+        {
+          "word": "MEZOSFER",
+          "hint": "Meteorların yandığı katman."
+        },
+        {
+          "word": "TERMOSFER",
+          "hint": "İletişimin mümkün olduğu katman."
+        },
+        {
+          "word": "EKOSİSTEM",
+          "hint": "Canlıların cansız çevreyle etkileşimi."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK",
+          "hint": "Canlı türlerinin çeşitliliği."
+        },
+        {
+          "word": "KÜRESEL ISINMA",
+          "hint": "Dünya'nın ortalama sıcaklığının artması."
+        },
+        {
+          "word": "SERA GAZI",
+          "hint": "Isıyı tutan gazlar."
+        },
+        {
+          "word": "ASİT YAĞMURLARI",
+          "hint": "Kirli havanın yağmurla inmesi."
+        },
+        {
+          "word": "OZON TABAKASI",
+          "hint": "Zararlı UV ışınlarını engelleyen tabaka."
+        },
+        {
+          "word": "ÇÖLLEŞME",
+          "hint": "Toprakların verimsizleşmesi."
+        },
+        {
+          "word": "MERCAN RESİFLERİ",
+          "hint": "Deniz canlılarının oluşturduğu yapılar."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR KALKINMA",
+          "hint": "Gelecek nesilleri düşünerek ekonomik gelişme."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Kullanılmış malzemelerin tekrar kullanılması."
+        },
+        {
+          "word": "KENTSEL DÖNÜŞÜM",
+          "hint": "Şehirlerin yenilenmesi."
+        },
+        {
+          "word": "DOĞAL AFET",
+          "hint": "Yeryüzündeki yıkıcı olaylar."
+        },
+        {
+          "word": "SANAYİ DEVRİMİ",
+          "hint": "Teknolojinin hızla geliştiği dönem."
+        },
+        {
+          "word": "GLOBALLEŞME",
+          "hint": "Dünyanın küçülmesi, etkileşimin artması."
+        },
+        {
+          "word": "BAĞIMLILIK",
+          "hint": "Bir şeye veya yere muhtaç olma durumu."
+        },
+        {
+          "word": "BÖLGE",
+          "hint": "Benzer özellikler gösteren coğrafi alan."
+        },
+        {
+          "word": "SINIR",
+          "hint": "Ülkelerin veya bölgelerin ayrıldığı çizgi."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun yaşam biçimi, inançları."
+        },
+        {
+          "word": "NÜFUS",
+          "hint": "Bir yerdeki insan sayısı."
+        },
+        {
+          "word": "DEMOGRAFİ",
+          "hint": "Nüfusu inceleyen bilim."
+        },
+        {
+          "word": "KENTLEŞME",
+          "hint": "Kırsal nüfusun şehirlere göçü."
+        },
+        {
+          "word": "SANAYİLEŞME",
+          "hint": "Sanayinin gelişmesi."
+        },
+        {
+          "word": "TARIM",
+          "hint": "Bitki yetiştirme ve hayvan besleme."
+        },
+        {
+          "word": "TURİZM",
+          "hint": "Gezi ve tatil amaçlı seyahat."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Mal ve hizmet alıp satma."
+        },
+        {
+          "word": "ULAŞIM",
+          "hint": "İnsan ve mal taşıma."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme gücü."
+        },
+        {
+          "word": "DOĞAL KAYNAK",
+          "hint": "Yeryüzünde kendiliğinden bulunan varlıklar."
+        },
+        {
+          "word": "YERALTI KAYNAĞI",
+          "hint": "Toprak altında bulunan kaynaklar."
+        },
+        {
+          "word": "YENİLENEBİLİR ENERJİ",
+          "hint": "Tükendiğinde yeniden oluşan enerji."
+        },
+        {
+          "word": "YENİLENEMEZ ENERJİ",
+          "hint": "Tükendiğinde yerine yenisi gelmeyen enerji."
+        },
+        {
+          "word": "JEOPOLİTİK",
+          "hint": "Coğrafyanın siyaset üzerindeki etkisi."
+        },
+        {
+          "word": "BAŞKENT",
+          "hint": "Bir ülkenin yönetim merkezi."
+        },
+        {
+          "word": "GELİŞMİŞ ÜLKE",
+          "hint": "Ekonomik ve sosyal açıdan ilerlemiş ülke."
+        },
+        {
+          "word": "GELİŞMEKTE OLAN ÜLKE",
+          "hint": "Ekonomik ve sosyal açıdan ilerleme kaydeden ülke."
+        },
+        {
+          "word": "KALKINMA",
+          "hint": "Bir ülkenin ilerlemesi."
+        },
+        {
+          "word": "YOKSULLUK",
+          "hint": "Temel ihtiyaçların karşılanamaması durumu."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Bilgi ve beceri kazandırma süreci."
+        },
+        {
+          "word": "SAĞLIK",
+          "hint": "İyi olma hali, hastalık olmaması."
+        },
+        {
+          "word": "SANAT",
+          "hint": "Yaratıcılığın estetik ürünlere dönüştürülmesi."
+        },
+        {
+          "word": "TARİH",
+          "hint": "Geçmişte olan olayları inceleyen bilim."
+        },
+        {
+          "word": "COĞRAFYA",
+          "hint": "Yeryüzünü, üzerindeki özellikleri inceleyen bilim."
+        },
+        {
+          "word": "ANTROPOSEN",
+          "hint": "İnsanın yeryüzünü etkilediği çağ."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ",
+          "hint": "İnsanın doğaya bıraktığı etki."
+        },
+        {
+          "word": "SERTİFİKASYON",
+          "hint": "Belgelendirme."
+        },
+        {
+          "word": "SANAYİ",
+          "hint": "Maddeleri işleyerek ürün elde etme."
+        },
+        {
+          "word": "HİZMET",
+          "hint": "Görünmez bir fayda sağlama."
+        },
+        {
+          "word": "YÜKSELTİ",
+          "hint": "Deniz seviyesinden yüksekliğin ölçüsü."
+        },
+        {
+          "word": "DERİNLİK",
+          "hint": "Su yüzeyinden dibe olan mesafe."
+        },
+        {
+          "word": "GENİŞLİK",
+          "hint": "Bir yerin bir ucundan diğerine olan uzaklık."
+        },
+        {
+          "word": "UZUNLUK",
+          "hint": "Bir yerin bir ucundan diğerine olan mesafe."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir yüzeyin kapladığı miktar."
+        },
+        {
+          "word": "HACİM",
+          "hint": "Bir cismin kapladığı üç boyutlu alan."
+        },
+        {
+          "word": "YOĞUNLUK",
+          "hint": "Birim hacimdeki madde miktarı."
+        },
+        {
+          "word": "SICAKLIK",
+          "hint": "Bir cismin ısısını gösteren değer."
+        },
+        {
+          "word": "NEM",
+          "hint": "Havadaki su buharı miktarı."
+        },
+        {
+          "word": "BASINÇ",
+          "hint": "Bir yüzeye uygulanan kuvvet."
+        },
+        {
+          "word": "RÜZGAR",
+          "hint": "Yatay yönlü hava hareketi."
+        },
+        {
+          "word": "YAĞIŞ",
+          "hint": "Suyun atmosferden yeryüzüne inmesi."
+        },
+        {
+          "word": "KURAKLIK",
+          "hint": "Uzun süreli su kıtlığı."
+        },
+        {
+          "word": "SEL",
+          "hint": "Aşırı yağış sonucu su taşkını."
+        },
+        {
+          "word": "KASIRGA",
+          "hint": "Şiddetli dönen rüzgar."
+        },
+        {
+          "word": "BUZUL ÇAĞI",
+          "hint": "Yeryüzünün büyük kısmının buzullarla kaplı olduğu dönem."
+        },
+        {
+          "word": "PERMAFROST",
+          "hint": "Sürekli donmuş toprak."
+        },
+        {
+          "word": "ABLASYON",
+          "hint": "Buzulun erimesi."
+        },
+        {
+          "word": "GLASİYAL",
+          "hint": "Buzul ile ilgili."
+        },
+        {
+          "word": "FLUVİAL",
+          "hint": "Akarsu ile ilgili."
+        },
+        {
+          "word": "EOLİYEN",
+          "hint": "Rüzgar ile ilgili."
+        },
+        {
+          "word": "LAKUSTRİN",
+          "hint": "Göl ile ilgili."
+        },
+        {
+          "word": "MARİNAL",
+          "hint": "Deniz ile ilgili."
+        },
+        {
+          "word": "KARSTİK",
+          "hint": "Kalkerli arazide oluşan."
+        },
+        {
+          "word": "VOLKANİK",
+          "hint": "Yanardağlarla ilgili."
+        },
+        {
+          "word": "SEDİMANTER",
+          "hint": "Tortul kayaçlardan oluşan."
+        },
+        {
+          "word": "METAMORFİK",
+          "hint": "Başkalım sonucu oluşan kayaç."
+        },
+        {
+          "word": "KRİSTAL",
+          "hint": "Düzenli atom yapısına sahip katı madde."
+        },
+        {
+          "word": "MİNERAL",
+          "hint": "Doğal olarak oluşan inorganik katı."
+        },
+        {
+          "word": "ELEMENT",
+          "hint": "Saf madde, bölünemez."
+        },
+        {
+          "word": "BİLEŞİK",
+          "hint": "Birden fazla elementin birleşmesi."
+        },
+        {
+          "word": "MOLEKÜL",
+          "hint": "Birleşik atom grubu."
+        },
+        {
+          "word": "İYON",
+          "hint": "Elektrik yüklü atom veya molekül."
+        },
+        {
+          "word": "OKYANUS",
+          "hint": "Büyük su kütlesi."
+        },
+        {
+          "word": "DENİZ",
+          "hint": "Okyanuslara bağlı daha küçük su kütlesi."
+        },
+        {
+          "word": "GÖL",
+          "hint": "Kara içindeki su birikintisi."
+        },
+        {
+          "word": "NEHİR",
+          "hint": "Akarsu."
+        },
+        {
+          "word": "ÇAY",
+          "hint": "Küçük akarsu."
+        },
+        {
+          "word": "PINARLAR",
+          "hint": "Yer altından çıkan su."
+        },
+        {
+          "word": "MAĞARA",
+          "hint": "Yer altında doğal oyuk."
+        },
+        {
+          "word": "KANYON",
+          "hint": "Derin ve dar vadi."
+        },
+        {
+          "word": "DORUK",
+          "hint": "Dağın en yüksek noktası."
+        },
+        {
+          "word": "TEPELER",
+          "hint": "Alçak dağlar."
+        },
+        {
+          "word": "OVA",
+          "hint": "Düz ve geniş arazi."
+        },
+        {
+          "word": "VAHA",
+          "hint": "Çöldeki su kaynağı."
+        },
+        {
+          "word": "KUTUP",
+          "hint": "Dünya'nın en güney veya kuzey noktası."
+        },
+        {
+          "word": "EKVATOR",
+          "hint": "Dünya'yı ikiye bölen hayali çizgi."
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Ekvatora paralel enlemler."
+        },
+        {
+          "word": "MERİDYEN",
+          "hint": "Kutupları birleştiren boylamlar."
+        },
+        {
+          "word": "ENLEM",
+          "hint": "Ekvatora olan açısal uzaklık."
+        },
+        {
+          "word": "BOYLAM",
+          "hint": "Başlangıç meridyenine olan açısal uzaklık."
+        },
+        {
+          "word": "MESAFE",
+          "hint": "İki nokta arasındaki uzunluk."
+        },
+        {
+          "word": "YÖN",
+          "hint": "Bulunulan konumdan gidilecek yere doğru hareket."
+        },
+        {
+          "word": "HARİTA",
+          "hint": "Yeryüzünün düzleme aktarılmış hali."
+        },
+        {
+          "word": "PUSULA",
+          "hint": "Yön bulmaya yarayan alet."
+        },
+        {
+          "word": "İLKİM",
+          "hint": "Bir bölgenin uzun yıllar boyunca ortalama hava durumu."
+        },
+        {
+          "word": "İZOHİPS",
+          "hint": "Eş yükselti eğrisi."
+        },
+        {
+          "word": "İZOBAT",
+          "hint": "Eş derinlik eğrisi."
+        },
+        {
+          "word": "SKALA",
+          "hint": "Harita üzerindeki mesafenin gerçeğe oranı."
+        },
+        {
+          "word": "PROJEKSİYON",
+          "hint": "Küre şeklindeki haritayı düzleme aktarma yöntemi."
+        },
+        {
+          "word": "RELİEF",
+          "hint": "Yeryüzünün şekli."
+        },
+        {
+          "word": "TOPOGRAFYA",
+          "hint": "Yeryüzü şekillerinin detaylı haritası."
+        },
+        {
+          "word": "HABİTAT",
+          "hint": "Bir canlının doğal yaşam alanı."
+        },
+        {
+          "word": "BİYOM",
+          "hint": "Geniş coğrafi alana yayılmış bitki ve hayvan topluluğu."
+        },
+        {
+          "word": "SAVAN",
+          "hint": "Ağaçların seyrek olduğu tropikal otlak."
+        },
+        {
+          "word": "TUNDRA",
+          "hint": "Kuzey kutup bölgelerindeki soğuk ve donmuş alan."
+        },
+        {
+          "word": "TAYGA",
+          "hint": "Kuzey yarımküredeki geniş ormanlar."
+        },
+        {
+          "word": "MAKİ",
+          "hint": "Akdeniz iklimine özgü bodur ağaç ve çalılıklar."
+        },
+        {
+          "word": "STEP",
+          "hint": "Orta kuşakta görülen kurakçıl ot toplulukları."
+        },
+        {
+          "word": "MUSON",
+          "hint": "Mevsimlere göre yön değiştiren rüzgar."
+        },
+        {
+          "word": "MONSUN",
+          "hint": "Muson rüzgarının getirdiği bol yağış."
+        },
+        {
+          "word": "TROPİKAL YAĞMUR ORMANLARI",
+          "hint": "Ekvator çevresindeki çok yağışlı ormanlar."
+        },
+        {
+          "word": "ÇÖL",
+          "hint": "Çok az yağış alan kurak alan."
+        },
+        {
+          "word": "KUTUP İKLİMİ",
+          "hint": "Çok soğuk ve buzlu iklim."
+        },
+        {
+          "word": "OKYANUS AKINTILARI",
+          "hint": "Okyanus sularının düzenli hareketi."
+        },
+        {
+          "word": "GELGİT",
+          "hint": "Ay ve Güneş'in çekim gücüyle oluşan deniz seviyesi değişimi."
+        },
+        {
+          "word": "MERCAN",
+          "hint": "Denizlerde yaşayan omurgasız canlı."
+        },
+        {
+          "word": "MANGROV",
+          "hint": "Tuzlu su kıyılarında yetişen ağaçlar."
+        },
+        {
+          "word": "KIYI",
+          "hint": "Kara ile denizin buluştuğu yer."
+        },
+        {
+          "word": "ADA",
+          "hint": "Dört tarafı suyla çevrili kara parçası."
+        },
+        {
+          "word": "YARIMADA",
+          "hint": "Üç tarafı suyla çevrili kara parçası."
+        },
+        {
+          "word": "KÖRFEZ",
+          "hint": "Denizin karaya doğru girinti yaptığı yer."
+        },
+        {
+          "word": "DAĞ",
+          "hint": "Yüksek yeryüzü şekli."
+        },
+        {
+          "word": "KITA",
+          "hint": "Geniş kara parçası."
+        },
+        {
+          "word": "SICAKLIK ORTALAMASI",
+          "hint": "Belirli bir bölgedeki sıcaklıkların ortalaması."
+        },
+        {
+          "word": "YAĞIŞ MİKTARI",
+          "hint": "Belirli bir bölgeye düşen yağmur, kar vb. ölçüsü."
+        },
+        {
+          "word": "HAVA OLAYI",
+          "hint": "Kısa süreli atmosferik durum."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ",
+          "hint": "Uzun vadeli iklim desenlerinde meydana gelen değişimler."
+        },
+        {
+          "word": "SERA ETKİSİ",
+          "hint": "Atmosferdeki gazların ısıyı tutması."
+        },
+        {
+          "word": "ÇEVRE KİRLİLİĞİ",
+          "hint": "Doğal çevrenin zarar görmesi."
+        },
+        {
+          "word": "ATIK YÖNETİMİ",
+          "hint": "Çöplerin toplanması, işlenmesi ve bertaraf edilmesi."
+        },
+        {
+          "word": "YERALTI SUYU",
+          "hint": "Toprak altındaki su."
+        },
+        {
+          "word": "DOĞAL KAYNAKLAR",
+          "hint": "Yeryüzünde bulunan ve insanlar tarafından kullanılan varlıklar."
+        },
+        {
+          "word": "TARIMSAL ÜRETİM",
+          "hint": "Tarım yoluyla elde edilen ürünler."
+        },
+        {
+          "word": "SANAYİ ÜRETİMİ",
+          "hint": "Fabrikalarda yapılan üretim."
+        },
+        {
+          "word": "HİZMET SEKTÖRÜ",
+          "hint": "Mal üretimi dışındaki ekonomik faaliyetler."
+        },
+        {
+          "word": "İSTİHDAM",
+          "hint": "İş gücüne sahip kişilerin çalıştırılması."
+        },
+        {
+          "word": "ENFLASYON",
+          "hint": "Fiyatların genel seviyesinin sürekli artması."
+        },
+        {
+          "word": "DEFLASYON",
+          "hint": "Fiyatların genel seviyesinin sürekli düşmesi."
+        },
+        {
+          "word": "GELİŞME",
+          "hint": "İlerleme, kalkınma."
+        },
+        {
+          "word": "YOKSULLUK SINIRI",
+          "hint": "Temel ihtiyaçları karşılamak için gereken minimum gelir düzeyi."
+        },
+        {
+          "word": "EĞİTİM SEVİYESİ",
+          "hint": "Bir toplumun eğitim düzeyini gösteren ölçü."
+        },
+        {
+          "word": "SAĞLIK HİZMETLERİ",
+          "hint": "Halkın sağlığını korumak ve iyileştirmek için sunulan hizmetler."
+        },
+        {
+          "word": "KÜLTÜREL MİRAS",
+          "hint": "Bir toplumun geçmişinden gelen maddi ve manevi değerler."
+        },
+        {
+          "word": "MEDENİYET",
+          "hint": "Bir toplumun bilim, sanat, teknoloji alanındaki gelişmişliği."
+        },
+        {
+          "word": "BAĞIMSIZLIK",
+          "hint": "Kendi kendini yönetme hakkı."
+        },
+        {
+          "word": "EGEMENLİK",
+          "hint": "Bir devletin toprakları üzerinde tam yetki sahibi olması."
+        },
+        {
+          "word": "SÖMÜRGECİLİK",
+          "hint": "Bir ülkenin başka bir ülkeyi egemenliği altına alması."
+        },
+        {
+          "word": "ULUSLARARASI İLİŞKİLER",
+          "hint": "Ülkeler arasındaki siyasi, ekonomik ve kültürel bağlar."
+        },
+        {
+          "word": "TEHCİR",
+          "hint": "Toplu zorunlu göç."
+        },
+        {
+          "word": "ASİMİLASYON",
+          "hint": "Bir grubun başka bir grubun kültürünü benimsemesi."
+        },
+        {
+          "word": "SOYKIRIM",
+          "hint": "Belirli bir grubun sistematik olarak yok edilmesi."
+        },
+        {
+          "word": "İNSAN HAKLARI",
+          "hint": "Her insanın doğuştan sahip olduğu temel haklar."
+        },
+        {
+          "word": "EKOLOJİK DENGE",
+          "hint": "Ekosistemdeki canlı ve cansız varlıklar arasındaki uyum."
+        },
+        {
+          "word": "YENİLENEBİLİR KAYNAK",
+          "hint": "Tüketildikçe yerine yenisi konabilen kaynak."
+        },
+        {
+          "word": "YENİLENEMEZ KAYNAK",
+          "hint": "Tüketildiğinde yerine yenisi konamayan kaynak."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ",
+          "hint": "Yer ısısından elde edilen enerji."
+        },
+        {
+          "word": "NÜKLEER ENERJİ",
+          "hint": "Atom çekirdeğindeki enerjiden elde edilen enerji."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ",
+          "hint": "Güneş ışınlarından elde edilen enerji."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ",
+          "hint": "Rüzgarın gücünden elde edilen enerji."
+        },
+        {
+          "word": "BİYOKÜTLE ENERJİSİ",
+          "hint": "Organik maddelerden elde edilen enerji."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ",
+          "hint": "Suyun potansiyel enerjisinden elde edilen enerji."
+        },
+        {
+          "word": "KİRLİLİK",
+          "hint": "Çevrenin zararlı maddelerle bozulması."
+        },
+        {
+          "word": "ATMOSFERİK KİRLİLİK",
+          "hint": "Havadaki zararlı madde."
+        },
+        {
+          "word": "SU KİRLİLİĞİ",
+          "hint": "Sulardaki zararlı madde."
+        },
+        {
+          "word": "TOPRAK KİRLİLİĞİ",
+          "hint": "Topraktaki zararlı madde."
+        },
+        {
+          "word": "GÜRÜLTÜ KİRLİLİĞİ",
+          "hint": "Aşırı sesin rahatsızlık vermesi."
+        },
+        {
+          "word": "IŞIK KİRLİLİĞİ",
+          "hint": "Yapay ışıkların doğal ortamı bozması."
+        },
+        {
+          "word": "KENTLEŞME BASKISI",
+          "hint": "Şehirlerin hızlı büyümesinin yarattığı sorunlar."
+        },
+        {
+          "word": "TEKNOLOJİK GELİŞİM",
+          "hint": "Bilim ve teknolojideki ilerlemeler."
+        },
+        {
+          "word": "VERİMLİLİK",
+          "hint": "Girdi başına elde edilen çıktı."
+        },
+        {
+          "word": "REKABET",
+          "hint": "Piyasada birbirleriyle yarışma durumu."
+        },
+        {
+          "word": "KÜRESELLEŞME",
+          "hint": "Dünyanın ekonomik, siyasi ve kültürel olarak bütünleşmesi."
+        },
+        {
+          "word": "ÖZELLEŞTİRME",
+          "hint": "Devlet işletmelerinin özel sektöre devredilmesi."
+        },
+        {
+          "word": "DEVLETLEŞTİRME",
+          "hint": "Özel işletmelerin devlet kontrolüne alınması."
+        },
+        {
+          "word": "VERGİ",
+          "hint": "Devletin vatandaşlardan topladığı para."
+        },
+        {
+          "word": "BÜTÇE",
+          "hint": "Gelir ve giderlerin planlanması."
+        },
+        {
+          "word": "ENFLASYONİST ORTAM",
+          "hint": "Fiyatların yükseldiği ekonomik durum."
+        },
+        {
+          "word": "DÖVİZ KURU",
+          "hint": "Farklı ülkelerin para birimleri arasındaki değişim oranı."
+        },
+        {
+          "word": "FAİZ",
+          "hint": "Borç verilen paranın karşılığında alınan ek gelir."
+        },
+        {
+          "word": "BORÇ",
+          "hint": "Alınan para veya malın geri ödenmesi gereken miktarı."
+        },
+        {
+          "word": "SERMAYE",
+          "hint": "Üretimde kullanılan para veya mal varlığı."
+        },
+        {
+          "word": "GİRİŞİMCİLİK",
+          "hint": "Yeni iş kurma ve risk alma çabası."
+        },
+        {
+          "word": "İNOVASYON",
+          "hint": "Yeni fikirleri ürüne dönüştürme."
+        },
+        {
+          "word": "STRATEJİ",
+          "hint": "Belirli bir amaca ulaşmak için plan."
+        },
+        {
+          "word": "POLİTİKA",
+          "hint": "Devletin veya kurumun izlediği yol."
+        },
+        {
+          "word": "DİPLOMASİ",
+          "hint": "Uluslararası ilişkilerde görüşme ve anlaşma sanatı."
+        },
+        {
+          "word": "ULUSLARARASI ÖRGÜTLER",
+          "hint": "Birden fazla ülkenin bir araya gelerek oluşturduğu kuruluşlar."
+        },
+        {
+          "word": "SAVAŞ",
+          "hint": "Ülkeler veya gruplar arasındaki silahlı çatışma."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Savaşın olmadığı durum."
+        },
+        {
+          "word": "İNSANLIK DURUMU",
+          "hint": "İnsanların genel yaşam koşulları."
+        },
+        {
+          "word": "SOSYAL ADALET",
+          "hint": "Toplumda herkesin eşit haklara sahip olması."
+        },
+        {
+          "word": "EŞİTSİZLİK",
+          "hint": "Farklılıkların haklara veya kaynaklara erişimde ayrımcılığa yol açması."
+        },
+        {
+          "word": "BÖLGESEL EŞİTSİZLİK",
+          "hint": "Farklı bölgeler arasındaki kalkınma farkları."
+        },
+        {
+          "word": "KÜRESEL EŞİTSİZLİK",
+          "hint": "Ülkeler arasındaki kalkınma farkları."
+        },
+        {
+          "word": "KRİZ",
+          "hint": "Ani ve büyük sorun."
+        },
+        {
+          "word": "TEHDİT",
+          "hint": "Zarar verme olasılığı."
+        },
+        {
+          "word": "RİSK YÖNETİMİ",
+          "hint": "Tehlikeleri azaltma planı."
+        },
+        {
+          "word": "AFET YÖNETİMİ",
+          "hint": "Doğal veya insan yapımı felaketlere hazırlık ve müdahale."
+        },
+        {
+          "word": "BİLGİ TOPLUMU",
+          "hint": "Bilginin en önemli sermaye olduğu toplum."
+        },
+        {
+          "word": "DİJİTALLEŞME",
+          "hint": "Bilgilerin dijital ortama aktarılması."
+        },
+        {
+          "word": "YAPAY ZEKA",
+          "hint": "Bilgisayarların insan gibi düşünmesi."
+        },
+        {
+          "word": "ROBOTİK",
+          "hint": "Robot bilimi."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK KAYBI",
+          "hint": "Türlerin yok olması."
+        },
+        {
+          "word": "ARAZİ KULLANIMI",
+          "hint": "Toprağın ne amaçla kullanıldığı."
+        },
+        {
+          "word": "ŞEHİRLEŞME",
+          "hint": "Kırsal alanların şehirleşmesi."
+        },
+        {
+          "word": "KENTSEL YAYILMA",
+          "hint": "Şehirlerin plansız büyümesi."
+        },
+        {
+          "word": "MİMARİ",
+          "hint": "Binaların tasarımı ve yapımı."
+        },
+        {
+          "word": "ALTYAPI",
+          "hint": "Yollar, köprüler, enerji hatları gibi yapılar."
+        },
+        {
+          "word": "ÜSTYAPI",
+          "hint": "Binalar, okullar, hastaneler gibi yapılar."
+        },
+        {
+          "word": "KONUT",
+          "hint": "Yaşam alanı."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR ŞEHİRLER",
+          "hint": "Çevreye duyarlı, yaşanabilir şehirler."
+        },
+        {
+          "word": "YEŞİL ALAN",
+          "hint": "Parklar, bahçeler gibi bitki örtüsüne sahip alanlar."
+        },
+        {
+          "word": "TRAFİK",
+          "hint": "Kara taşıtlarının yoğunluğu."
+        },
+        {
+          "word": "İMAR PLANI",
+          "hint": "Şehirdeki yapılaşma kuralları."
+        },
+        {
+          "word": "GAYRİMENKUL",
+          "hint": "Taşınmaz mal."
+        },
+        {
+          "word": "BÖLGESEL KALKINMA",
+          "hint": "Belirli bir bölgenin ekonomik ve sosyal olarak ilerlemesi."
+        },
+        {
+          "word": "GELİŞMİŞLİK ENDEKSİ",
+          "hint": "Bir ülkenin gelişmişlik düzeyini ölçen göstergeler."
+        },
+        {
+          "word": "SOSYAL POLİTİKALAR",
+          "hint": "Toplumun refahını artırmaya yönelik politikalar."
+        },
+        {
+          "word": "DEMOGRAFİK DEĞİŞİM",
+          "hint": "Nüfus yapısındaki değişimler."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların bir yerden bir yere taşınması."
+        },
+        {
+          "word": "MÜLTECİ",
+          "hint": "Savaş veya zulümden kaçan kişi."
+        },
+        {
+          "word": "VATANDAŞLIK",
+          "hint": "Bir devlete bağlılık."
+        },
+        {
+          "word": "DEMOKRASİ",
+          "hint": "Halkın kendi kendini yönettiği yönetim şekli."
+        },
+        {
+          "word": "OTOKRASİ",
+          "hint": "Tek kişinin sınırsız yetkiye sahip olduğu yönetim."
+        },
+        {
+          "word": "TEOKRASİ",
+          "hint": "Dinin yönetimde etkili olduğu yönetim."
+        },
+        {
+          "word": "MONARŞİ",
+          "hint": "Tek kişinin (kral, kraliçe) yönetimde olduğu sistem."
+        },
+        {
+          "word": "CUMHURİYET",
+          "hint": "Devlet başkanının seçimle belirlendiği yönetim."
+        },
+        {
+          "word": "FEDERALİZM",
+          "hint": "Bölgesel yönetimlerin olduğu devlet yapısı."
+        },
+        {
+          "word": "BİRİMSEL DEVLET",
+          "hint": "Merkezi yönetimin güçlü olduğu devlet yapısı."
+        },
+        {
+          "word": "BAĞIMSIZLIK REFERANDUMU",
+          "hint": "Bir bölgenin bağımsızlık kararını halkın oylaması."
+        },
+        {
+          "word": "ANAYASA",
+          "hint": "Devletin temel yasası."
+        },
+        {
+          "word": "YASAMA",
+          "hint": "Kanun yapma yetkisi."
+        },
+        {
+          "word": "YÜRÜTME",
+          "hint": "Kanunları uygulama yetkisi."
+        },
+        {
+          "word": "YARGI",
+          "hint": "Kanunları yorumlama ve uygulama yetkisi."
+        },
+        {
+          "word": "HUKUK DEVLETİ",
+          "hint": "Herkesin kanunlara tabi olduğu devlet."
+        },
+        {
+          "word": "YOLSUZLUK",
+          "hint": "Hukuka aykırı olarak kişisel çıkar sağlama."
+        },
+        {
+          "word": "YAPTIRIM",
+          "hint": "Bir ülkeye uygulanan kısıtlama."
+        },
+        {
+          "word": "ANLAŞMA",
+          "hint": "Taraflar arasında varılan söz."
+        },
+        {
+          "word": "ANTLAŞMA",
+          "hint": "Devletler arasındaki resmi sözleşme."
+        },
+        {
+          "word": "ULUS",
+          "hint": "Ortak kültüre sahip insan topluluğu."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir coğrafyada yaşayan insan topluluğunun siyasi örgütlenmesi."
+        },
+        {
+          "word": "BÖLGESEL FARKLILIK",
+          "hint": "Farklı bölgeler arasındaki özellik farkı."
+        },
+        {
+          "word": "KÜRESEL SORUNLAR",
+          "hint": "Tüm dünyayı etkileyen sorunlar."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR KALKINMA HEDEFLERİ",
+          "hint": "Dünyayı daha iyi bir yer yapmak için belirlenen hedefler."
+        },
+        {
+          "word": "ÇEVRE BİLİNCİ",
+          "hint": "Doğayı koruma isteği."
+        },
+        {
+          "word": "KARBON AYAK İZİ",
+          "hint": "İnsanın çevreye saldığı karbondioksit miktarı."
+        },
+        {
+          "word": "YEŞİL EKONOMİ",
+          "hint": "Çevre dostu ekonomik sistem."
+        },
+        {
+          "word": "SIFIR ATIK",
+          "hint": "Atık üretimini en aza indirme."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİĞİN KORUNMASI",
+          "hint": "Canlı türlerinin yok olmasını engelleme."
+        },
+        {
+          "word": "MADEN",
+          "hint": "Yer altından çıkarılan değerli mineraller."
+        },
+        {
+          "word": "PETROL",
+          "hint": "Enerji kaynağı olan fosil yakıt."
+        },
+        {
+          "word": "DOĞAL GAZ",
+          "hint": "Enerji kaynağı olan gaz."
+        },
+        {
+          "word": "KÖMÜR",
+          "hint": "Enerji kaynağı olan fosil yakıt."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Ağaçların yoğun olduğu geniş alan."
+        },
+        {
+          "word": "BİYOM",
+          "hint": "Geniş coğrafi alanlardaki benzer iklim ve canlı toplulukları."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK HARİTASI",
+          "hint": "Canlı türlerinin dağılımını gösteren harita."
+        },
+        {
+          "word": "ENDEMİK TÜR",
+          "hint": "Sadece belirli bir bölgede yaşayan canlı türü."
+        },
+        {
+          "word": "NESLİ TÜKENMEKTE OLAN",
+          "hint": "Yaşamı tehlike altında olan tür."
+        },
+        {
+          "word": "TEHDİT ALTINDAKİ TÜRLER",
+          "hint": "Yakın gelecekte yok olma riski olan türler."
+        },
+        {
+          "word": "KORUNAN ALANLAR",
+          "hint": "Doğal yaşamın korunduğu bölgeler."
+        },
+        {
+          "word": "MİLLİ PARK",
+          "hint": "Doğal güzellikleri korunmuş büyük alan."
+        },
+        {
+          "word": "TABİAT PARKI",
+          "hint": "Doğal güzellikleri korunmuş daha küçük alan."
+        },
+        {
+          "word": "DOĞAL ANIT",
+          "hint": "Özel olarak korunması gereken doğal oluşum."
+        },
+        {
+          "word": "BİYOLOJİK ÇEŞİTLİLİK",
+          "hint": "Canlıların ve ekosistemlerin çeşitliliği."
+        },
+        {
+          "word": "EKOLOJİK TARIM",
+          "hint": "Doğaya zarar vermeden yapılan tarım."
+        },
+        {
+          "word": "ORGANİK TARIM",
+          "hint": "Kimyasal gübre ve ilaç kullanılmayan tarım."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TARIM",
+          "hint": "Doğal kaynakları koruyarak yapılan tarım."
+        },
+        {
+          "word": "KENT BAHÇECİLİĞİ",
+          "hint": "Şehirlerde sebze ve meyve yetiştiriciliği."
+        },
+        {
+          "word": "SU KAYNAKLARI",
+          "hint": "Yeryüzündeki su varlıkları."
+        },
+        {
+          "word": "SU KITLIĞI",
+          "hint": "Yetersiz su kaynağı."
+        },
+        {
+          "word": "SU YÖNETİMİ",
+          "hint": "Suyun verimli kullanılması planı."
+        },
+        {
+          "word": "ATIK SU ARITMA",
+          "hint": "Kullanılmış suların temizlenmesi."
+        },
+        {
+          "word": "YAĞMUR SUYU HASADI",
+          "hint": "Yağmur sularının toplanması."
+        },
+        {
+          "word": "İKLİMLENDİRME",
+          "hint": "Havanın ısıtılıp soğutulması."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ",
+          "hint": "Az enerjiyle aynı işi yapma."
+        },
+        {
+          "word": "ENERJİ TASARRUFU",
+          "hint": "Enerjiyi az kullanma."
+        },
+        {
+          "word": "YENİLENEBİLİR ENERJİ KAYNAKLARI",
+          "hint": "Tükendiğinde yerine yenisi gelebilen enerji kaynakları."
+        },
+        {
+          "word": "FOSİL YAKITLAR",
+          "hint": "Petrol, kömür, doğalgaz gibi kaynaklar."
+        },
+        {
+          "word": "KARBON SALINIMI",
+          "hint": "Karbon dioksit gazının atmosfere yayılması."
+        },
+        {
+          "word": "KARBON TUTMA",
+          "hint": "Karbon salınımının engellenmesi."
+        },
+        {
+          "word": "SERA GAZLARI",
+          "hint": "Atmosferde ısıyı tutan gazlar."
+        },
+        {
+          "word": "KÜRESEL İKLİM DEĞİŞİKLİĞİ",
+          "hint": "Dünya'nın ikliminde meydana gelen uzun vadeli değişim."
+        },
+        {
+          "word": "KURAKLIK ENDEKSİ",
+          "hint": "Kuraklık derecesini gösteren ölçü."
+        },
+        {
+          "word": "ÇÖLLEŞME TEHLİKESİ",
+          "hint": "Çölleşme riskinin yüksek olması."
+        },
+        {
+          "word": "BİTKİ ÖRTÜSÜ",
+          "hint": "Bir bölgedeki bitkilerin bütünü."
+        },
+        {
+          "word": "TOPRAK EROZYONU",
+          "hint": "Toprağın üst katmanının taşınması."
+        },
+        {
+          "word": "TOPRAK BOZUNUMU",
+          "hint": "Toprağın verimini kaybetmesi."
+        },
+        {
+          "word": "EKOTURİZM",
+          "hint": "Doğaya duyarlı turizm."
+        },
+        {
+          "word": "TARIM ALANLARI",
+          "hint": "Tarım yapılan yerler."
+        },
+        {
+          "word": "NADAS",
+          "hint": "Toprağın dinlendirilmesi."
+        },
+        {
+          "word": "PESTİSİT",
+          "hint": "Zararlı böcekleri öldüren ilaç."
+        },
+        {
+          "word": "HERBİSİT",
+          "hint": "Yabani otları öldüren ilaç."
+        },
+        {
+          "word": "GÜBRE",
+          "hint": "Toprağa verim katmak için kullanılan madde."
+        },
+        {
+          "word": "BİYOTEKNOLOJİ",
+          "hint": "Canlıların veya onlardan elde edilen ürünlerin kullanılması."
+        },
+        {
+          "word": "GENETİK MÜHENDİSLİĞİ",
+          "hint": "Canlıların genetik yapısını değiştirme."
+        },
+        {
+          "word": "SENTETİK BİYOLOJİ",
+          "hint": "Canlıları tasarlama."
+        },
+        {
+          "word": "NANOTEKNOLOJİ",
+          "hint": "Atom ve molekül düzeyinde teknoloji."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK HARİTALAMA",
+          "hint": "Canlı türlerinin dağılımını belirleme."
+        },
+        {
+          "word": "EKOLOJİK REHABİLİTASYON",
+          "hint": "Zarar görmüş ekosistemleri iyileştirme."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK SÖZLEŞMESİ",
+          "hint": "Canlı çeşitliliğini koruma amaçlı uluslararası anlaşma."
+        },
+        {
+          "word": "HABİTAT KAYBI",
+          "hint": "Canlıların yaşam alanlarının yok olması."
+        },
+        {
+          "word": "İKLİM UYUMU",
+          "hint": "İklim değişikliğine adapte olma."
+        },
+        {
+          "word": "İKLİM AZALTIMI",
+          "hint": "Sera gazı salımını azaltma."
+        },
+        {
+          "word": "KARBON VERGİSİ",
+          "hint": "Karbon salınımına uygulanan vergi."
+        },
+        {
+          "word": "YEŞİL TEKNOLOJİ",
+          "hint": "Çevre dostu teknoloji."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR ULAŞIM",
+          "hint": "Çevreye az zarar veren ulaşım yöntemleri."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇLAR",
+          "hint": "Elektrikle çalışan araçlar."
+        },
+        {
+          "word": "BİYOYAKIT",
+          "hint": "Bitkisel veya hayvansal kaynaklardan elde edilen yakıt."
+        },
+        {
+          "word": "KENTSEL TARIM",
+          "hint": "Şehir içinde yapılan tarım."
+        },
+        {
+          "word": "DİKEY TARIM",
+          "hint": "Katmanlı yapılarda yapılan tarım."
+        },
+        {
+          "word": "TOPRAKSIZ TARIM",
+          "hint": "Toprak kullanmadan yapılan tarım."
+        },
+        {
+          "word": "SU TASARRUFU",
+          "hint": "Suyu az kullanma."
+        },
+        {
+          "word": "ENERJİ DEPOLAMA",
+          "hint": "Üretilen enerjiyi saklama."
+        },
+        {
+          "word": "AKILLI ŞEBEKELER",
+          "hint": "Enerji dağıtımını optimize eden ağlar."
+        },
+        {
+          "word": "GÜNEŞ PANELLERİ",
+          "hint": "Güneş enerjisini elektrik enerjisine çeviren araçlar."
+        },
+        {
+          "word": "RÜZGAR TÜRBİNLERİ",
+          "hint": "Rüzgar enerjisini elektrik enerjisine çeviren araçlar."
+        },
+        {
+          "word": "JEOTERMAL SANTRAL",
+          "hint": "Yer ısısını kullanarak elektrik üreten tesis."
+        },
+        {
+          "word": "HİDROELEKTRİK SANTRAL",
+          "hint": "Suyun enerjisiyle elektrik üreten tesis."
+        },
+        {
+          "word": "NÜKLEER SANTRAL",
+          "hint": "Atom enerjisiyle elektrik üreten tesis."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK ENVANTERİ",
+          "hint": "Bir bölgedeki canlı türlerinin listesi."
+        },
+        {
+          "word": "EKOLOJİK RESTORASYON",
+          "hint": "Zarar görmüş ekosistemleri eski haline getirme."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK KORUMA PROGRAMLARI",
+          "hint": "Türlerin ve ekosistemlerin korunması için uygulanan planlar."
+        },
+        {
+          "word": "DOĞAL AFETLERE DAYANIKLILIK",
+          "hint": "Afetlere karşı hazırlıklı ve dirençli olma."
+        },
+        {
+          "word": "RİSK AZALTMA PLANLARI",
+          "hint": "Olası tehlikeleri en aza indirme planları."
+        },
+        {
+          "word": "AFET ACİL DURUM PLANLARI",
+          "hint": "Afet anında uygulanacak planlar."
+        },
+        {
+          "word": "TARİHİ COĞRAFYA",
+          "hint": "Geçmişteki coğrafi olayları inceleyen bilim."
+        },
+        {
+          "word": "POLİTİK COĞRAFYA",
+          "hint": "Coğrafyanın siyaset üzerindeki etkisini inceleyen bilim."
+        },
+        {
+          "word": "EKONOMİK COĞRAFYA",
+          "hint": "Ekonomik faaliyetlerin coğrafi dağılımını inceleyen bilim."
+        },
+        {
+          "word": "SOSYAL COĞRAFYA",
+          "hint": "İnsanların ve toplumların mekansal dağılımını inceleyen bilim."
+        },
+        {
+          "word": "KÜRESEL EKONOMİ",
+          "hint": "Dünya ekonomisinin bütünü."
+        },
+        {
+          "word": "YEREL EKONOMİ",
+          "hint": "Belirli bir bölgenin ekonomisi."
+        },
+        {
+          "word": "BÖLGESEL KALKINMA PLANLARI",
+          "hint": "Bölgeler arasındaki gelişmişlik farklarını azaltma planları."
+        },
+        {
+          "word": "GELİŞMİŞLİK GÖSTERGELERİ",
+          "hint": "Bir ülkenin gelişmişliğini ölçen ölçütler."
+        },
+        {
+          "word": "SOSYAL EŞİTSİZLİK",
+          "hint": "Toplumdaki bireyler arasındaki gelir, eğitim, sağlık gibi konulardaki farklılıklar."
+        },
+        {
+          "word": "EĞİTİMDE FIRSAT EŞİTLİĞİ",
+          "hint": "Herkesin eğitimde aynı olanaklara sahip olması."
+        },
+        {
+          "word": "SAĞLIK HİZMETLERİNE ERİŞİM",
+          "hint": "Herkesin sağlık hizmetlerinden yararlanabilmesi."
+        },
+        {
+          "word": "KÜLTÜREL ETKİLEŞİM",
+          "hint": "Farklı kültürlerin birbirini etkilemesi."
+        },
+        {
+          "word": "KÜLTÜREL ÇATIŞMA",
+          "hint": "Farklı kültürler arasındaki anlaşmazlıklar."
+        },
+        {
+          "word": "MEDENİYETLER BEŞİĞİ",
+          "hint": "Farklı medeniyetlerin bir arada bulunduğu yer."
+        },
+        {
+          "word": "ULUSLARARASI BARIŞ",
+          "hint": "Ülkeler arasındaki savaşsız durum."
+        },
+        {
+          "word": "İNSAN HAKLARI EVRENSEL BİLDİRGESİ",
+          "hint": "Tüm insanların sahip olduğu hakları belirten belge."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK İLKELERİ",
+          "hint": "Sürdürülebilirlik için temel kabul edilen kurallar."
+        },
+        {
+          "word": "EKOLOJİK DENGE BOZULMASI",
+          "hint": "Ekosistemdeki canlı ve cansız varlıklar arasındaki uyumun kaybolması."
+        },
+        {
+          "word": "DOĞAL KAYNAKLARIN TÜKENMESİ",
+          "hint": "Kaynakların aşırı kullanımı nedeniyle azalması."
+        },
+        {
+          "word": "YENİLENEBİLİR ENERJİ DEVRİMİ",
+          "hint": "Yenilenebilir enerji kaynaklarının yaygınlaşması."
+        },
+        {
+          "word": "YEŞİL ALANLARIN AZALMASI",
+          "hint": "Park ve bahçelerin yok olması."
+        },
+        {
+          "word": "KENTSEL DÖNÜŞÜM PROJELERİ",
+          "hint": "Şehirlerin modernize edilmesi."
+        },
+        {
+          "word": "KİRLİLİK AZALTMA STRATEJİLERİ",
+          "hint": "Kirliliği engelleme planları."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK ARAŞTIRMALARI",
+          "hint": "Canlı türlerini inceleme."
+        },
+        {
+          "word": "EKOLOJİK ETKİ DEĞERLENDİRMESİ",
+          "hint": "Bir projenin çevreye etkisini belirleme."
+        },
+        {
+          "word": "DOĞAL AFET SİGORTASI",
+          "hint": "Afetlerin yol açtığı zararları karşılayan sigorta."
+        },
+        {
+          "word": "İKLİM ADALETİ",
+          "hint": "İklim değişikliğinden kaynaklanan sorunlarda adaletli dağılım."
+        },
+        {
+          "word": "KARBON NÖTR",
+          "hint": "Sera gazı salımının sıfır olması."
+        },
+        {
+          "word": "ENERJİ BAĞIMSIZLIĞI",
+          "hint": "Bir ülkenin enerji ihtiyacını kendi kaynaklarıyla karşılaması."
+        },
+        {
+          "word": "AKILLI TARIM",
+          "hint": "Teknolojinin kullanıldığı verimli tarım."
+        },
+        {
+          "word": "KAPALI TARIM SİSTEMLERİ",
+          "hint": "Kontrollü ortamlarda yapılan tarım."
+        },
+        {
+          "word": "HİDROPONİK TARIM",
+          "hint": "Topraksız tarım."
+        },
+        {
+          "word": "AKUAPONİK TARIM",
+          "hint": "Hem su ürünleri yetiştiriciliği hem de topraksız tarım."
+        },
+        {
+          "word": "SU VERİMLİLİĞİ",
+          "hint": "Suyun en az kullanılarak en çok verim alınması."
+        },
+        {
+          "word": "ENERJİ PİYASASI",
+          "hint": "Enerjinin alınıp satıldığı pazar."
+        },
+        {
+          "word": "ENERJİ POLİTİKALARI",
+          "hint": "Enerji kaynaklarının kullanımı ve yönetimi ile ilgili devlet politikaları."
+        },
+        {
+          "word": "YENİLENEBİLİR ENERJİ TEŞVİKLERİ",
+          "hint": "Yenilenebilir enerjiye geçişi destekleyen uygulamalar."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ POTANSİYELİ",
+          "hint": "Bir bölgenin güneş enerjisi üretme kapasitesi."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ POTANSİYELİ",
+          "hint": "Bir bölgenin rüzgar enerjisi üretme kapasitesi."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ KAYNAKLARI",
+          "hint": "Yer ısısı ile elde edilebilen enerji kaynakları."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK VERİTABANI",
+          "hint": "Canlı türleri hakkında bilgi içeren veri bankası."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA",
+          "hint": "İnsanın doğaya bıraktığı etkiyi düşürme."
+        },
+        {
+          "word": "DOĞAL YAŞAM ALANLARININ RESTORASYONU",
+          "hint": "Tahrip olmuş doğal alanları iyileştirme."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİĞİN ÖLÇÜLMESİ",
+          "hint": "Sürdürülebilirlik düzeyini belirleyen yöntemler."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ PROJEKSİYONLARI",
+          "hint": "Gelecekteki iklim durumuna dair tahminler."
+        },
+        {
+          "word": "KARBON EMİSYON TİCARETİ",
+          "hint": "Sera gazı salım hakkının alınıp satılması."
+        },
+        {
+          "word": "YEŞİL BİNALAR",
+          "hint": "Enerji verimliliği yüksek binalar."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR ULAŞIM SİSTEMLERİ",
+          "hint": "Çevreye az zararlı ulaşım ağları."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ İSTASYONLARI",
+          "hint": "Elektrikli araçların doldurulduğu noktalar."
+        },
+        {
+          "word": "BİYOKİMYASAL GÜBRELER",
+          "hint": "Organik maddelerden elde edilen gübreler."
+        },
+        {
+          "word": "KENTSEL TARIM TEKNOLOJİLERİ",
+          "hint": "Şehirlerde tarım yapmayı kolaylaştıran yöntemler."
+        },
+        {
+          "word": "SU TASARRUFU TEKNOLOJİLERİ",
+          "hint": "Suyu daha verimli kullanmayı sağlayan teknolojiler."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ UYGULAMALARI",
+          "hint": "Enerjiyi daha az kullanma yöntemleri."
+        },
+        {
+          "word": "AKILLI ŞEBEKE TEKNOLOJİLERİ",
+          "hint": "Enerji ağlarının verimli yönetilmesini sağlayan teknolojiler."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ SİSTEMLERİ",
+          "hint": "Güneş enerjisini kullanan tesisler."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ SANTRALLERİ",
+          "hint": "Rüzgar enerjisi üreten tesisler."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ ÜRETİMİ",
+          "hint": "Yer ısısını kullanarak enerji elde etme."
+        },
+        {
+          "word": "HİDROELEKTRİK POTANSİYELİ",
+          "hint": "Su gücüyle enerji üretme kapasitesi."
+        },
+        {
+          "word": "NÜKLEER FİSYON",
+          "hint": "Atom çekirdeğinin bölünmesiyle enerji açığa çıkması."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK ENVANTER ÇALIŞMALARI",
+          "hint": "Canlı türlerinin tespiti ve kaydı."
+        },
+        {
+          "word": "EKOLOJİK RESTORASYON PROJELERİ",
+          "hint": "Zarar görmüş ekosistemleri eski haline getirme çalışmaları."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK GÖSTERGELERİ",
+          "hint": "Sürdürülebilirlik durumunu ölçen metrikler."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ UYUM STRATEJİLERİ",
+          "hint": "İklim değişikliğine karşı alınacak önlemler."
+        },
+        {
+          "word": "KARBON YAKALAMA VE DEPOLAMA",
+          "hint": "Sera gazlarını yakalayıp yeraltında saklama."
+        },
+        {
+          "word": "YEŞİL BİNA SERTİFİKALARI",
+          "hint": "Yeşil bina standartlarını onaylayan belgeler."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR ULAŞIM POLİTİKALARI",
+          "hint": "Çevre dostu ulaşımı teşvik eden politikalar."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI",
+          "hint": "Elektrikli araçların yaygınlaşması için gerekli altyapı."
+        },
+        {
+          "word": "BİYOYAKIT ÜRETİM TEKNOLOJİLERİ",
+          "hint": "Biyoyakıt üretme yöntemleri."
+        },
+        {
+          "word": "KENTSEL TARIM MODELLERİ",
+          "hint": "Şehirlerde uygulanan farklı tarım şekilleri."
+        },
+        {
+          "word": "SU KAYNAKLARI YÖNETİMİ",
+          "hint": "Su kaynaklarının sürdürülebilir şekilde kullanılması."
+        },
+        {
+          "word": "ENERJİ TASARRUFU YÖNTEMLERİ",
+          "hint": "Enerjiyi daha az tüketme yolları."
+        },
+        {
+          "word": "AKILLI EV TEKNOLOJİLERİ",
+          "hint": "Enerji verimliliğini artıran ev sistemleri."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ SİSTEM MALİYETLERİ",
+          "hint": "Güneş enerjisi sistemlerinin kurulum masrafları."
+        },
+        {
+          "word": "RÜZGAR TÜRBİNLERİNİN BAKIMI",
+          "hint": "Rüzgar türbinlerinin çalışır durumda kalmasını sağlama."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ KULLANIMI",
+          "hint": "Yer ısısının enerji üretiminde kullanılması."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ POTANSİYELİ",
+          "hint": "Suyun enerji üretim kapasitesi."
+        },
+        {
+          "word": "NÜKLEER REAKTÖR GÜVENLİĞİ",
+          "hint": "Nükleer santrallerin güvenli çalışması."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK İZLEME",
+          "hint": "Canlı türlerindeki değişimleri takip etme."
+        },
+        {
+          "word": "EKOLOJİK ETKİ AZALTMA",
+          "hint": "Projelerin çevreye olumsuz etkisini düşürme."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK RAPORLAMASI",
+          "hint": "Kuruluşların sürdürülebilirlik performansını açıklama."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARI",
+          "hint": "Sera gazı salımını düşürme politikaları."
+        },
+        {
+          "word": "KARBON EMİSYON AZALTMA HEDEFLERİ",
+          "hint": "Sera gazı salımını azaltma konusunda konulan amaçlar."
+        },
+        {
+          "word": "YEŞİL PAZARLAMA",
+          "hint": "Çevre dostu ürünlerin pazarlanması."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRLERİ",
+          "hint": "Üretimden tüketime kadar çevreye duyarlı süreçler."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ BATARYALARI",
+          "hint": "Elektrikli araçların enerji kaynağı."
+        },
+        {
+          "word": "BİYOYAKIT HAMMADDELERİ",
+          "hint": "Biyoyakıt üretiminde kullanılan bitkiler veya atıklar."
+        },
+        {
+          "word": "KENTSEL PLANLAMA VE SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Şehirlerin sürdürülebilir şekilde planlanması."
+        },
+        {
+          "word": "SU KAYNAKLARININ KORUNMASI",
+          "hint": "Su varlıklarının gelecek nesillere aktarılması."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ STANDARTLARI",
+          "hint": "Enerji kullanımında uyulması gereken kurallar."
+        },
+        {
+          "word": "AKILLI ŞEBEKE YÖNETİMİ",
+          "hint": "Enerji ağlarının optimize edilmesi."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ TEKNOLOJİLERİ",
+          "hint": "Güneş enerjisini kullanma yöntemleri."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ TEKNOLOJİLERİ",
+          "hint": "Rüzgar enerjisini kullanma yöntemleri."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ POTANSİYELİ",
+          "hint": "Yer ısısından enerji üretme kapasitesi."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ TEKNOLOJİLERİ",
+          "hint": "Suyun enerjisini kullanma teknolojileri."
+        },
+        {
+          "word": "NÜKLEER FÜZYON",
+          "hint": "Atom çekirdeklerinin birleşmesiyle enerji açığa çıkması."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK ENVANTER YÖNTEMLERİ",
+          "hint": "Canlı türlerini tespit etme metotları."
+        },
+        {
+          "word": "EKOLOJİK ETKİ AZALTMA YÖNTEMLERİ",
+          "hint": "Çevreye olumsuz etkileri düşürme yolları."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK DENETİMİ",
+          "hint": "Kuruluşların sürdürülebilirlik uygulamalarını kontrol etme."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ ETKİ ANALİZLERİ",
+          "hint": "İklim değişikliğinin sonuçlarını inceleme."
+        },
+        {
+          "word": "KARBON DENGELEME",
+          "hint": "Sera gazı salımını başka yollarla dengeleme."
+        },
+        {
+          "word": "YEŞİL FİNANSMAN",
+          "hint": "Çevre dostu projelere yatırım yapma."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ YÖNETİMİ",
+          "hint": "Tedarik zincirlerinin çevreye duyarlı hale getirilmesi."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ TEKNOLOJİLERİ",
+          "hint": "Elektrikli araçları doldurma yöntemleri."
+        },
+        {
+          "word": "BİYOYAKIT ÜRETİM YÖNTEMLERİ",
+          "hint": "Biyoyakıt elde etme yolları."
+        },
+        {
+          "word": "KENTSEL TARIM SİSTEMLERİ",
+          "hint": "Şehirlerde uygulanan tarım sistemleri."
+        },
+        {
+          "word": "SU TASARRUFU POLİTİKALARI",
+          "hint": "Suyun verimli kullanımı için devlet politikaları."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ TASARIMI",
+          "hint": "Enerjiyi az kullanacak şekilde ürün veya yapı tasarlama."
+        },
+        {
+          "word": "AKILLI ŞEBEKE TEKNOLOJİLERİ YATIRIMLARI",
+          "hint": "Akıllı şebekelerin kurulumu için yapılan harcamalar."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ UYGULAMA ALANLARI",
+          "hint": "Güneş enerjisinin kullanıldığı yerler."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ UYGULAMA ALANLARI",
+          "hint": "Rüzgar enerjisinin kullanıldığı yerler."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ UYGULAMA ALANLARI",
+          "hint": "Yer ısısının kullanıldığı yerler."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ UYGULAMA ALANLARI",
+          "hint": "Suyun enerjisinin kullanıldığı yerler."
+        },
+        {
+          "word": "NÜKLEER ENERJİ GÜVENLİĞİ STANDARTLARI",
+          "hint": "Nükleer santrallerin güvenliği için konulan kurallar."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK VERİ ANALİZİ",
+          "hint": "Canlı türleri hakkındaki verilerin incelenmesi."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ HESAPLAMA",
+          "hint": "İnsanın doğaya bıraktığı etkiyi ölçme."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK SERTİFİKASYONU",
+          "hint": "Kuruluşların sürdürülebilirlik standartlarına uygunluğunu belgelendirme."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ ETKİLERİ",
+          "hint": "İklim değişikliğinin yol açtığı sonuçlar."
+        },
+        {
+          "word": "KARBON EMİSYONU SINIRLANDIRMASI",
+          "hint": "Sera gazı salımını belirli bir seviyede tutma."
+        },
+        {
+          "word": "YEŞİL KAMU ALIMLARI",
+          "hint": "Devletin çevre dostu ürünleri tercih etmesi."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR LOJİSTİK",
+          "hint": "Taşımacılıkta çevreye duyarlı yöntemler."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ PAYLAŞIM SİSTEMLERİ",
+          "hint": "Birden fazla kişinin aynı aracı kullanması."
+        },
+        {
+          "word": "BİYOYAKIT POTANSİYELİ",
+          "hint": "Biyoyakıt üretme kapasitesi."
+        },
+        {
+          "word": "KENTSEL TARIM POLİTİKALARI",
+          "hint": "Şehirlerde tarımı destekleme politikaları."
+        },
+        {
+          "word": "SU VERİMLİLİĞİ PROJELERİ",
+          "hint": "Suyun daha az kullanıldığı projeler."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ MEVZUATI",
+          "hint": "Enerji verimliliği ile ilgili yasal düzenlemeler."
+        },
+        {
+          "word": "AKILLI ŞEBEKE YÖNETİMİ YAZILIMLARI",
+          "hint": "Akıllı şebekeleri kontrol eden programlar."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ YATIRIM TEŞVİKLERİ",
+          "hint": "Güneş enerjisine yatırım yapmayı destekleme."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ YATIRIM TEŞVİKLERİ",
+          "hint": "Rüzgar enerjisine yatırım yapmayı destekleme."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ SANTRALİ TASARIMI",
+          "hint": "Jeotermal santrallerin projelendirilmesi."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ YATIRIMLARI",
+          "hint": "Suyun enerjisini kullanmak için yapılan yatırımlar."
+        },
+        {
+          "word": "NÜKLEER ENERJİ ÜRETİMİ",
+          "hint": "Atom enerjisiyle elektrik üretme."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK KORUMA STRATEJİLERİ",
+          "hint": "Canlı türlerini ve ekosistemleri koruma planları."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA STRATEJİLERİ",
+          "hint": "İnsanın doğaya bıraktığı etkiyi düşürme planları."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK EĞİTİMLERİ",
+          "hint": "Sürdürülebilirlik konusunda verilen eğitimler."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ RİSKLERİ",
+          "hint": "İklim değişikliğinin yol açabileceği tehlikeler."
+        },
+        {
+          "word": "KARBON AYAK İZİ HESAPLAMA ARAÇLARI",
+          "hint": "Karbon ayak izini ölçen programlar."
+        },
+        {
+          "word": "YEŞİL ÜRÜN ETİKETLERİ",
+          "hint": "Çevre dostu ürünleri belirten işaretler."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR YAŞAM TARZI",
+          "hint": "Çevreye duyarlı yaşam biçimi."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI YATIRIMLARI",
+          "hint": "Elektrikli araç şarj istasyonları kurma çalışmaları."
+        },
+        {
+          "word": "BİYOYAKIT KALİTESİ",
+          "hint": "Biyoyakıtın performansı."
+        },
+        {
+          "word": "KENTSEL TARIM PROJELERİ",
+          "hint": "Şehirlerde uygulanan tarım projeleri."
+        },
+        {
+          "word": "SU TASARRUFU BİLİNCİ",
+          "hint": "Suyun önemini kavrama."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ SERTİFİKALARI",
+          "hint": "Enerji verimliliği yüksek ürünlere verilen belgeler."
+        },
+        {
+          "word": "AKILLI ŞEBEKE FAYDALARI",
+          "hint": "Akıllı şebekelerin sağladığı avantajlar."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ POLİTİKALARI",
+          "hint": "Güneş enerjisinin kullanımını teşvik eden devlet politikaları."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ POLİTİKALARI",
+          "hint": "Rüzgar enerjisinin kullanımını teşvik eden devlet politikaları."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ POLİTİKALARI",
+          "hint": "Jeotermal enerjinin kullanımını teşvik eden devlet politikaları."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ POLİTİKALARI",
+          "hint": "Hidroelektrik enerjinin kullanımını teşvik eden devlet politikaları."
+        },
+        {
+          "word": "NÜKLEER ENERJİ POLİTİKALARI",
+          "hint": "Nükleer enerjinin kullanımını ve güvenliğini belirleyen politikalar."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK VERİ ANALİZİ ARAÇLARI",
+          "hint": "Canlı verilerini analiz etmeye yarayan yazılımlar."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA ARAÇLARI",
+          "hint": "İnsanın doğaya etkisini düşürmeye yarayan yöntemler."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK RAPORLAMA STANDARTLARI",
+          "hint": "Sürdürülebilirlik raporlarının hazırlanmasında uyulan kurallar."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ ADAPTASYON ARAÇLARI",
+          "hint": "İklim değişikliğine uyum sağlamaya yarayan yöntemler."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA HEDEFLERİ",
+          "hint": "Karbon salımını düşürme konusunda konulan amaçlar."
+        },
+        {
+          "word": "YEŞİL İNOVASYON",
+          "hint": "Çevre dostu yeni fikirler geliştirme."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ ANALİZİ",
+          "hint": "Tedarik zincirlerinin çevreye etkisinin incelenmesi."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI PLANLAMASI",
+          "hint": "Elektrikli araç şarj istasyonlarının kurulumu için yapılan planlar."
+        },
+        {
+          "word": "BİYOYAKITIN ÇEVRESEL ETKİLERİ",
+          "hint": "Biyoyakıtın doğaya olan etkileri."
+        },
+        {
+          "word": "KENTSEL TARIM EKONOMİSİ",
+          "hint": "Şehirlerde tarımın ekonomik boyutu."
+        },
+        {
+          "word": "SU KITLIĞINA KARŞI ÇÖZÜMLER",
+          "hint": "Su azlığına karşı geliştirilen yöntemler."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ MEVZUATLARI",
+          "hint": "Enerji verimliliği ile ilgili yasal düzenlemeler."
+        },
+        {
+          "word": "AKILLI ŞEBEKE OPTİMİZASYONU",
+          "hint": "Enerji ağlarının en verimli şekilde yönetilmesi."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ FİNANSMANI",
+          "hint": "Güneş enerjisi projeleri için para bulma."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ FİNANSMANI",
+          "hint": "Rüzgar enerjisi projeleri için para bulma."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ FİNANSMANI",
+          "hint": "Jeotermal enerji projeleri için para bulma."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ FİNANSMANI",
+          "hint": "Hidroelektrik enerji projeleri için para bulma."
+        },
+        {
+          "word": "NÜKLEER ENERJİ FİNANSMANI",
+          "hint": "Nükleer enerji projeleri için para bulma."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK ANLAŞMALARI",
+          "hint": "Canlı çeşitliliğini korumak için yapılan uluslararası anlaşmalar."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ HESAPLAMA YÖNTEMLERİ",
+          "hint": "İnsanın doğaya etkisini ölçme metotları."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK STANDARTLARI",
+          "hint": "Sürdürülebilirlik için belirlenen ölçütler."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ ADAPTASYON ÇÖZÜMLERİ",
+          "hint": "İklim değişikliğine uyum sağlamaya yönelik pratikler."
+        },
+        {
+          "word": "KARBON EMİSYON AZALTMA TEKNOLOJİLERİ",
+          "hint": "Sera gazı salımını düşüren teknolojiler."
+        },
+        {
+          "word": "YEŞİL BÜYÜME",
+          "hint": "Çevreye zarar vermeden ekonomik gelişme."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ İNOVASYONU",
+          "hint": "Tedarik zincirlerini daha çevre dostu hale getiren yenilikler."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI STANDARTLARI",
+          "hint": "Elektrikli araç şarj istasyonlarının uyulması gereken kurallar."
+        },
+        {
+          "word": "BİYOYAKITLARIN ALTERNATİFLERİ",
+          "hint": "Biyoyakıta alternatif olabilecek yakıtlar."
+        },
+        {
+          "word": "KENTSEL TARIMIN FAYDALARI",
+          "hint": "Şehirlerde tarım yapmanın avantajları."
+        },
+        {
+          "word": "SU KAYNAKLARI POLİTİKALARI",
+          "hint": "Su kaynaklarının yönetimi ve kullanımı ile ilgili politikalar."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ TOPLUMSAL BİLİNÇ",
+          "hint": "Halkın enerji tasarrufu konusundaki farkındalığı."
+        },
+        {
+          "word": "AKILLI ŞEBEKE YÖNETİMİ MODELLERİ",
+          "hint": "Enerji ağlarını yönetme biçimleri."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ DEPOLAMA SİSTEMLERİ",
+          "hint": "Üretilen güneş enerjisini saklama yöntemleri."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ DEPOLAMA SİSTEMLERİ",
+          "hint": "Üretilen rüzgar enerjisini saklama yöntemleri."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ DEPOLAMA SİSTEMLERİ",
+          "hint": "Yer ısısından elde edilen enerjiyi saklama."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA SİSTEMLERİ",
+          "hint": "Suyun enerjisini depolama."
+        },
+        {
+          "word": "NÜKLEER ENERJİ DEPOLAMA",
+          "hint": "Nükleer enerji üretildikten sonraki süreci yönetme."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK KORUMA BAŞARILARI",
+          "hint": "Biyoçeşitliliği koruma konusunda elde edilen sonuçlar."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ FARKINDALIĞI",
+          "hint": "İnsanın doğaya bıraktığı etki konusundaki bilinç."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK RAPORLAMA ARAÇLARI",
+          "hint": "Sürdürülebilirlik raporları hazırlamaya yarayan yazılımlar."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ UYUM STRATEJİSİ GELİŞTİRME",
+          "hint": "İklim değişikliğine karşı uyum planları hazırlama."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA ARAÇLARI",
+          "hint": "Karbon salımını düşürmeye yarayan yöntemler."
+        },
+        {
+          "word": "YEŞİL TEKNOLOJİ YATIRIMLARI",
+          "hint": "Çevre dostu teknolojilere yapılan yatırımlar."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ ÖLÇÜTLERİ",
+          "hint": "Tedarik zincirlerinin sürdürülebilirliğini ölçen göstergeler."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI PLANLAMA ARAÇLARI",
+          "hint": "Şarj istasyonu kurulumu için planlama yazılımları."
+        },
+        {
+          "word": "BİYOYAKIT ÜRETİM VERİMLİLİĞİ",
+          "hint": "Biyoyakıt üretiminin ne kadar etkili olduğu."
+        },
+        {
+          "word": "KENTSEL TARIM YÖNETİMİ",
+          "hint": "Şehirlerde tarımın organize edilmesi."
+        },
+        {
+          "word": "SU KAYNAKLARI KULLANIMI",
+          "hint": "Su varlıklarının nasıl kullanıldığı."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ SERTİFİKASYON PROGRAMLARI",
+          "hint": "Enerji verimliliği yüksek ürünlere verilen belgeleri onaylayan programlar."
+        },
+        {
+          "word": "AKILLI ŞEBEKE VERİMLİLİĞİ",
+          "hint": "Enerji ağlarının ne kadar verimli çalıştığı."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ VERİMLİLİĞİ",
+          "hint": "Güneş enerjisi sistemlerinin ne kadar etkili olduğu."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ VERİMLİLİĞİ",
+          "hint": "Rüzgar enerjisi sistemlerinin ne kadar etkili olduğu."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ VERİMLİLİĞİ",
+          "hint": "Yer ısısından elde edilen enerjinin ne kadar etkili olduğu."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ VERİMLİLİĞİ",
+          "hint": "Suyun enerjisinin ne kadar etkili kullanıldığı."
+        },
+        {
+          "word": "NÜKLEER ENERJİ VERİMLİLİĞİ",
+          "hint": "Nükleer enerjinin ne kadar verimli üretildiği."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK FONLARI",
+          "hint": "Biyoçeşitliliği korumak için ayrılan paralar."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ FARKINDALIK KAMPANYALARI",
+          "hint": "İnsanın doğaya etkisinin önemini vurgulayan çalışmalar."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMLERİ",
+          "hint": "Kuruluşların sürdürülebilirlik çalışmalarını yönetme biçimleri."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA TEKNOLOJİLERİ",
+          "hint": "Sera gazı salımını azaltmaya yarayan teknolojiler."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA STRATEJİLERİ",
+          "hint": "Karbon salımını düşürme planları."
+        },
+        {
+          "word": "YEŞİL PAZARLAMA STRATEJİLERİ",
+          "hint": "Çevre dostu ürünlerin pazarlanma yolları."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ YÖNETİMİ YAZILIMLARI",
+          "hint": "Tedarik zincirlerini çevreye duyarlı hale getiren programlar."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI GELİŞTİRME",
+          "hint": "Elektrikli araç şarj istasyonlarının yaygınlaştırılması."
+        },
+        {
+          "word": "BİYOYAKITIN GELECEĞİ",
+          "hint": "Biyoyakıtın gelecekteki rolü."
+        },
+        {
+          "word": "KENTSEL TARIM MODELLERİNİN KARŞILAŞTIRILMASI",
+          "hint": "Şehirde tarım yapma yöntemlerinin kıyaslanması."
+        },
+        {
+          "word": "SU KAYNAKLARI GÜVENLİĞİ",
+          "hint": "Suyun yeterli ve temiz olması durumu."
+        },
+        {
+          "word": "AKILLI ŞEBEKE YÖNETİMİ UYGULAMALARI",
+          "hint": "Enerji ağlarının yönetilmesinde kullanılan yöntemler."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ DEPOLAMA TEKNOLOJİLERİ",
+          "hint": "Güneş enerjisini saklamaya yarayan teknolojiler."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ DEPOLAMA TEKNOLOJİLERİ",
+          "hint": "Rüzgar enerjisini saklamaya yarayan teknolojiler."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ DEPOLAMA TEKNOLOJİLERİ",
+          "hint": "Yer ısısından elde edilen enerjiyi saklama teknolojileri."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA TEKNOLOJİLERİ",
+          "hint": "Suyun enerjisini depolama teknolojileri."
+        },
+        {
+          "word": "NÜKLEER ENERJİ DEPOLAMA YÖNTEMLERİ",
+          "hint": "Nükleer enerji üretildikten sonraki süreci yönetme yolları."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK KORUMA FONLARI YÖNETİMİ",
+          "hint": "Biyoçeşitliliği korumak için ayrılan paraların kullanılması."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA PROGRAMLARI",
+          "hint": "İnsanın doğaya etkisini düşüren programlar."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMİ STANDARTLARI",
+          "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimleri için kurallar."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA STRATEJİLERİ",
+          "hint": "Sera gazı salımını düşürme planları."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA PROJELERİ",
+          "hint": "Karbon salımını düşürmeye yönelik çalışmalar."
+        },
+        {
+          "word": "YEŞİL ÜRÜNLERİN PAZARLANMASI",
+          "hint": "Çevre dostu ürünlerin satış yöntemleri."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ YENİLİKÇİLİĞİ",
+          "hint": "Tedarik zincirlerini daha çevre dostu hale getiren yeni yaklaşımlar."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI GELİŞTİRME PROJELERİ",
+          "hint": "Elektrikli araç şarj istasyonlarının yaygınlaştırılması için yapılan çalışmalar."
+        },
+        {
+          "word": "BİYOYAKITIN ÇEVRESEL FAYDALARI",
+          "hint": "Biyoyakıtın doğaya olan olumlu etkileri."
+        },
+        {
+          "word": "KENTSEL TARIM EĞİTİMLERİ",
+          "hint": "Şehirlerde tarım yapma konusunda verilen eğitimler."
+        },
+        {
+          "word": "SU KAYNAKLARI SÜRDÜRÜLEBİLİRLİĞİ",
+          "hint": "Su kaynaklarının gelecek nesillere aktarılabilmesi durumu."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ MEVZUATINA UYUM",
+          "hint": "Enerji verimliliği ile ilgili yasalara uygunluk."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİ",
+          "hint": "Güneş enerjisini saklama yöntemleri."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİ",
+          "hint": "Rüzgar enerjisini saklama yöntemleri."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİ",
+          "hint": "Yer ısısından elde edilen enerjiyi saklama yöntemleri."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİ",
+          "hint": "Suyun enerjisini depolama yöntemleri."
+        },
+        {
+          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİ",
+          "hint": "Nükleer enerji atıklarının yönetimi."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK KORUMA PROJELERİ",
+          "hint": "Canlı türlerini ve ekosistemleri korumaya yönelik çalışmalar."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA TEKNOLOJİLERİ",
+          "hint": "İnsanın doğaya etkisini düşüren teknolojiler."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMİ UYGULAMA REHBERLERİ",
+          "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimleri için kılavuzlar."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ ETKİNLİĞİ",
+          "hint": "Sera gazı salımını düşürme politikalarının başarısı."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA TEKNOLOJİLERİ",
+          "hint": "Karbon salımını düşüren teknolojiler."
+        },
+        {
+          "word": "YEŞİL ÜRÜN STANDARTLARI",
+          "hint": "Çevre dostu ürünler için belirlenen kurallar."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ YÖNETİMİ ZORLUKLARI",
+          "hint": "Tedarik zincirlerini çevreye duyarlı hale getirirken karşılaşılan problemler."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI OPTİMİZASYONU",
+          "hint": "Elektrikli araç şarj istasyonlarının en verimli şekilde yerleştirilmesi."
+        },
+        {
+          "word": "BİYOYAKITIN EKONOMİK ETKİLERİ",
+          "hint": "Biyoyakıtın ekonomi üzerindeki etkileri."
+        },
+        {
+          "word": "KENTSEL TARIMIN POTANSİYELİ",
+          "hint": "Şehirlerde tarım yapma kapasitesi."
+        },
+        {
+          "word": "SU KAYNAKLARI VERİMLİLİĞİ POLİTİKALARI",
+          "hint": "Suyun en az kullanılarak en çok verim alınmasını sağlayan politikalar."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ MEVZUATINA UYUM SAĞLAMA",
+          "hint": "Enerji verimliliği ile ilgili yasalara uygunluk sağlama."
+        },
+        {
+          "word": "AKILLI ŞEBEKE YÖNETİM SİSTEMLERİ",
+          "hint": "Enerji ağlarının yönetilmesinde kullanılan sistemler."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN MALİYETİ",
+          "hint": "Güneş enerjisini saklamanın maliyeti."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN MALİYETİ",
+          "hint": "Rüzgar enerjisini saklamanın maliyeti."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN MALİYETİ",
+          "hint": "Yer ısısından elde edilen enerjiyi saklamanın maliyeti."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN MALİYETİ",
+          "hint": "Suyun enerjisini depolamanın maliyeti."
+        },
+        {
+          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN MALİYETİ",
+          "hint": "Nükleer enerji atıklarının yönetimi maliyeti."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK FONLARI YATIRIM STRATEJİLERİ",
+          "hint": "Biyoçeşitliliği korumak için ayrılan paraların nasıl kullanılacağı."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA STRATEJİLERİNİN ETKİNLİĞİ",
+          "hint": "İnsanın doğaya etkisini düşürme planlarının başarısı."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMİ UYGULAMALARI",
+          "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimleri."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ GELİŞTİRİLMESİ",
+          "hint": "Sera gazı salımını düşürme politikalarının iyileştirilmesi."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA PROGRAMLARI",
+          "hint": "Karbon salımını düşürmeye yönelik programlar."
+        },
+        {
+          "word": "YEŞİL ÜRÜNLERİN YAŞAM DÖNGÜSÜ",
+          "hint": "Çevre dostu ürünlerin üretiminden bertarafına kadar olan süreci."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ YÖNETİMİ İÇİN TEKNOLOJİ",
+          "hint": "Tedarik zincirlerini çevreye duyarlı hale getiren teknolojiler."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI GELİŞTİRME STRATEJİLERİ",
+          "hint": "Elektrikli araç şarj istasyonlarının yaygınlaştırılması planları."
+        },
+        {
+          "word": "BİYOYAKITIN SÜRDÜRÜLEBİLİRLİĞİ",
+          "hint": "Biyoyakıt üretiminin çevreye duyarlı olması."
+        },
+        {
+          "word": "KENTSEL TARIMIN TOPLUMSAL ETKİLERİ",
+          "hint": "Şehirlerde tarım yapmanın toplum üzerindeki etkileri."
+        },
+        {
+          "word": "SU KAYNAKLARI YÖNETİMİ PLANLARI",
+          "hint": "Su varlıklarının yönetimi için yapılan planlar."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ MEVZUATINA UYUM SAĞLAMA ZORLUKLARI",
+          "hint": "Enerji verimliliği ile ilgili yasalara uygunluk sağlama sürecindeki problemler."
+        },
+        {
+          "word": "AKILLI ŞEBEKE YÖNETİMİ YAZILIM GÜNCELLEMELERİ",
+          "hint": "Enerji ağlarını yöneten programların yenilenmesi."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN GELİŞTİRİLMESİ",
+          "hint": "Güneş enerjisini saklama yöntemlerinin iyileştirilmesi."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN GELİŞTİRİLMESİ",
+          "hint": "Rüzgar enerjisini saklama yöntemlerinin iyileştirilmesi."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN GELİŞTİRİLMESİ",
+          "hint": "Yer ısısından elde edilen enerjiyi saklama yöntemlerinin iyileştirilmesi."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN GELİŞTİRİLMESİ",
+          "hint": "Suyun enerjisini depolama yöntemlerinin iyileştirilmesi."
+        },
+        {
+          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN GELİŞTİRİLMESİ",
+          "hint": "Nükleer enerji atıklarının yönetimi yöntemlerinin iyileştirilmesi."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK FONLARI YÖNETİMİ RAPORLARI",
+          "hint": "Biyoçeşitliliği korumak için ayrılan paraların kullanımına dair raporlar."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA PROJELERİNİN UYGULANMASI",
+          "hint": "İnsanın doğaya etkisini düşüren programların hayata geçirilmesi."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMİ DENETİMLERİ",
+          "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimlerinin kontrol edilmesi."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ İZLENMESİ",
+          "hint": "Sera gazı salımını düşürme politikalarının takip edilmesi."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA YAZILIMLARI",
+          "hint": "Karbon salımını düşürmeye yarayan programlar."
+        },
+        {
+          "word": "YEŞİL ÜRÜNLERİN YAŞAM DÖNGÜSÜ DEĞERLENDİRMESİ",
+          "hint": "Çevre dostu ürünlerin üretiminden bertarafına kadar olan sürecin analizi."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ YÖNETİMİ TEKNOLOJİLERİ",
+          "hint": "Tedarik zincirlerini çevreye duyarlı hale getiren teknolojiler."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI OPTİMİZASYON STRATEJİLERİ",
+          "hint": "Elektrikli araç şarj istasyonlarının en verimli şekilde yerleştirilme planları."
+        },
+        {
+          "word": "BİYOYAKITIN SÜRDÜRÜLEBİLİRLİK DEĞERLENDİRMESİ",
+          "hint": "Biyoyakıt üretiminin çevreye duyarlılığının ölçülmesi."
+        },
+        {
+          "word": "KENTSEL TARIMIN PLANLANMASI",
+          "hint": "Şehirlerde tarım yapmanın organize edilmesi planı."
+        },
+        {
+          "word": "SU KAYNAKLARI SÜRDÜRÜLEBİLİRLİK PLANLARI",
+          "hint": "Su varlıklarının gelecek nesillere aktarılması için yapılan planlar."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ MEVZUATINA UYUM RAPORLARI",
+          "hint": "Enerji verimliliği ile ilgili yasalara uygunluk raporları."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN YAYGINLAŞTIRILMASI",
+          "hint": "Güneş enerjisini saklama yöntemlerinin daha çok kullanılması."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN YAYGINLAŞTIRILMASI",
+          "hint": "Rüzgar enerjisini saklama yöntemlerinin daha çok kullanılması."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN YAYGINLAŞTIRILMASI",
+          "hint": "Yer ısısından elde edilen enerjiyi saklama yöntemlerinin daha çok kullanılması."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN YAYGINLAŞTIRILMASI",
+          "hint": "Suyun enerjisini depolama yöntemlerinin daha çok kullanılması."
+        },
+        {
+          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN YAYGINLAŞTIRILMASI",
+          "hint": "Nükleer enerji atıklarının yönetimi yöntemlerinin daha çok kullanılması."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK FONLARI KULLANIM RAPORLARI",
+          "hint": "Biyoçeşitliliği korumak için ayrılan paraların nasıl kullanıldığına dair raporlar."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA PROJELERİNİN BAŞARILARI",
+          "hint": "İnsanın doğaya etkisini düşüren programların elde ettiği sonuçlar."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMİ İYİLEŞTİRMELERİ",
+          "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimlerindeki gelişmeler."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ DEĞERLENDİRİLMESİ",
+          "hint": "Sera gazı salımını düşürme politikalarının başarısının ölçülmesi."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA STRATEJİLERİNİN UYGULANMASI",
+          "hint": "Karbon salımını düşürme planlarının hayata geçirilmesi."
+        },
+        {
+          "word": "YEŞİL ÜRÜNLERİN SERTİFİKASYONU",
+          "hint": "Çevre dostu ürünlerin belgelendirilmesi."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ YÖNETİMİ PERFORMANS ÖLÇÜTLERİ",
+          "hint": "Tedarik zincirlerinin çevreye duyarlılığını ölçen göstergeler."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI STANDARDİZASYONU",
+          "hint": "Elektrikli araç şarj istasyonları için ortak kurallar belirlenmesi."
+        },
+        {
+          "word": "BİYOYAKITIN SÜRDÜRÜLEBİLİRLİK DEĞERLENDİRME YÖNTEMLERİ",
+          "hint": "Biyoyakıt üretiminin çevreye duyarlılığını ölçme metotları."
+        },
+        {
+          "word": "KENTSEL TARIMIN TEKNOLOJİK YENİLİKLERİ",
+          "hint": "Şehirlerde tarım yapmayı kolaylaştıran yeni teknolojiler."
+        },
+        {
+          "word": "SU KAYNAKLARI YÖNETİMİ VERİ ANALİZİ",
+          "hint": "Su varlıkları ile ilgili verilerin incelenmesi."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ MEVZUATINA UYUM SAĞLAMA PROJELERİ",
+          "hint": "Enerji verimliliği ile ilgili yasalara uygunluk sağlamaya yönelik çalışmalar."
+        },
+        {
+          "word": "AKILLI ŞEBEKE YÖNETİMİ PERFORMANS GÖSTERGELERİ",
+          "hint": "Enerji ağlarının ne kadar verimli çalıştığını gösteren metrikler."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞMELERİ",
+          "hint": "Güneş enerjisini saklama yöntemlerindeki ilerlemeler."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞMELERİ",
+          "hint": "Rüzgar enerjisini saklama yöntemlerindeki ilerlemeler."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞMELERİ",
+          "hint": "Yer ısısından elde edilen enerjiyi saklama yöntemlerindeki ilerlemeler."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞMELERİ",
+          "hint": "Suyun enerjisini depolama yöntemlerindeki ilerlemeler."
+        },
+        {
+          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞMELERİ",
+          "hint": "Nükleer enerji atıklarının yönetimi yöntemlerindeki ilerlemeler."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK FONLARI FONLAMA MEKANİZMALARI",
+          "hint": "Biyoçeşitliliği korumak için paranın nasıl sağlandığı."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA HEDEF VE STRATEJİLERİ",
+          "hint": "İnsanın doğaya etkisini düşürme amaçları ve planları."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMİ EĞİTİMLERİ",
+          "hint": "Sürdürülebilirlik çalışmalarını yönetme konusunda verilen eğitimler."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ ETKİNLİĞİNİ ÖLÇME",
+          "hint": "Sera gazı salımını düşürme politikalarının başarısını değerlendirme."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA TEKNOLOJİLERİNİN UYGULANMASI",
+          "hint": "Karbon salımını düşüren teknolojilerin kullanılması."
+        },
+        {
+          "word": "YEŞİL ÜRÜNLERİN PAZARLAMA STRATEJİLERİ",
+          "hint": "Çevre dostu ürünlerin satış yöntemleri."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ YÖNETİMİ STANDARTLARININ UYGULANMASI",
+          "hint": "Tedarik zincirlerini çevreye duyarlı hale getiren kuralların uygulanması."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI STANDARTİZASYON ÇALIŞMALARI",
+          "hint": "Elektrikli araç şarj istasyonları için ortak kurallar belirleme çalışmaları."
+        },
+        {
+          "word": "BİYOYAKITIN ÇEVRESEL ETKİLERİNİN AZALTILMASI",
+          "hint": "Biyoyakıt üretiminin doğaya olan olumsuz etkilerini düşürme."
+        },
+        {
+          "word": "KENTSEL TARIM TEKNOLOJİLERİNİN ENTEGRASYONU",
+          "hint": "Şehirlerde tarım yapmayı kolaylaştıran yeni teknolojilerin birleştirilmesi."
+        },
+        {
+          "word": "SU KAYNAKLARI YÖNETİMİ VERİ ANALİZİ ARAÇLARI",
+          "hint": "Su varlıkları ile ilgili verileri incelemeye yarayan yazılımlar."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ MEVZUATINA UYUM SAĞLAMA DEĞERLENDİRMESİ",
+          "hint": "Enerji verimliliği ile ilgili yasalara uygunluk sağlama sürecinin değerlendirilmesi."
+        },
+        {
+          "word": "AKILLI ŞEBEKE YÖNETİMİ PERFORMANSI",
+          "hint": "Enerji ağlarının ne kadar verimli çalıştığı."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN PERFORMANS DEĞERLENDİRMESİ",
+          "hint": "Güneş enerjisini saklama yöntemlerinin etkinliğinin ölçülmesi."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN PERFORMANS DEĞERLENDİRMESİ",
+          "hint": "Rüzgar enerjisini saklama yöntemlerinin etkinliğinin ölçülmesi."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN PERFORMANS DEĞERLENDİRMESİ",
+          "hint": "Yer ısısından elde edilen enerjiyi saklama yöntemlerinin etkinliğinin ölçülmesi."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN PERFORMANS DEĞERLENDİRMESİ",
+          "hint": "Suyun enerjisini depolama yöntemlerinin etkinliğinin ölçülmesi."
+        },
+        {
+          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN PERFORMANS DEĞERLENDİRMESİ",
+          "hint": "Nükleer enerji atıklarının yönetimi yöntemlerinin etkinliğinin ölçülmesi."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK FONLARI FONLAMA STRATEJİLERİ",
+          "hint": "Biyoçeşitliliği korumak için paranın nasıl sağlanacağına dair planlar."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA STRATEJİLERİNİN GELİŞTİRİLMESİ",
+          "hint": "İnsanın doğaya etkisini düşürme planlarının iyileştirilmesi."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMİ İLETİŞİM STRATEJİLERİ",
+          "hint": "Sürdürülebilirlik çalışmalarını yönetirken yapılan iletişim çalışmaları."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ SÜRDÜRÜLEBİLİRLİĞİ",
+          "hint": "Sera gazı salımını düşürme politikalarının uzun vadede devam edebilirliği."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA STRATEJİLERİNİN GÜNCELLENMESİ",
+          "hint": "Karbon salımını düşürme planlarının yeni verilere göre düzenlenmesi."
+        },
+        {
+          "word": "YEŞİL ÜRÜNLERİN YAŞAM DÖNGÜSÜ ANALİZLERİ",
+          "hint": "Çevre dostu ürünlerin üretiminden bertarafına kadar olan sürecin detaylı incelenmesi."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ YÖNETİMİ İÇİN DİJİTALLEŞME",
+          "hint": "Tedarik zincirlerini çevreye duyarlı hale getiren dijital araçlar."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI GELİŞTİRME FONLARI",
+          "hint": "Elektrikli araç şarj istasyonlarının yaygınlaştırılması için ayrılan paralar."
+        },
+        {
+          "word": "BİYOYAKITIN ÇEVRESEL ETKİLERİNİ AZALTMA YÖNTEMLERİ",
+          "hint": "Biyoyakıt üretiminin doğaya olan olumsuz etkilerini düşürme yolları."
+        },
+        {
+          "word": "KENTSEL TARIM TEKNOLOJİLERİNİN UYGULAMA ÖRNEKLERİ",
+          "hint": "Şehirlerde tarım yapmayı kolaylaştıran yeni teknolojilerin kullanıldığı yerler."
+        },
+        {
+          "word": "SU KAYNAKLARI YÖNETİMİ İÇİN İZLEME SİSTEMLERİ",
+          "hint": "Su varlıklarını takip etmeye yarayan sistemler."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ MEVZUATINA UYUM SAĞLAMA SÜREÇLERİ",
+          "hint": "Enerji verimliliği ile ilgili yasalara uygunluk sağlama adımları."
+        },
+        {
+          "word": "AKILLI ŞEBEKE YÖNETİMİ VERİMLİLİK ANALİZLERİ",
+          "hint": "Enerji ağlarının ne kadar verimli çalıştığının incelenmesi."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN GELECEĞİ",
+          "hint": "Güneş enerjisini saklama yöntemlerinin gelecekteki durumu."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN GELECEĞİ",
+          "hint": "Rüzgar enerjisini saklama yöntemlerinin gelecekteki durumu."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN GELECEĞİ",
+          "hint": "Yer ısısından elde edilen enerjiyi saklama yöntemlerinin gelecekteki durumu."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN GELECEĞİ",
+          "hint": "Suyun enerjisini depolama yöntemlerinin gelecekteki durumu."
+        },
+        {
+          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN GELECEĞİ",
+          "hint": "Nükleer enerji atıklarının yönetimi yöntemlerinin gelecekteki durumu."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK FONLARI FONLAMA ETKİNLİKLERİ",
+          "hint": "Biyoçeşitliliği korumak için ayrılan paraların kullanım etkinlikleri."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA STRATEJİLERİNİN ETKİNLEŞTİRİLMESİ",
+          "hint": "İnsanın doğaya etkisini düşürme planlarının daha etkili hale getirilmesi."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMİ UYGULAMA REHBERLERİNİN GÜNCELLENMESİ",
+          "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimleri için kılavuzların yenilenmesi."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ ETKİNLİĞİNİ ARTIRAN FAKTÖRLER",
+          "hint": "Sera gazı salımını düşürme politikalarının başarısını artıran etkenler."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA TEKNOLOJİK YENİLİKLERİ",
+          "hint": "Karbon salımını düşüren yeni teknolojiler."
+        },
+        {
+          "word": "YEŞİL ÜRÜNLERİN YAŞAM DÖNGÜSÜ YÖNETİMİ",
+          "hint": "Çevre dostu ürünlerin üretiminden bertarafına kadar olan sürecin yönetimi."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ YÖNETİMİ İÇİN DİJİTALLEŞME STRATEJİLERİ",
+          "hint": "Tedarik zincirlerini çevreye duyarlı hale getiren dijital araçların kullanım planları."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI GELİŞTİRME TEŞVİKLERİ",
+          "hint": "Elektrikli araç şarj istasyonlarının yaygınlaştırılmasını destekleyen uygulamalar."
+        },
+        {
+          "word": "BİYOYAKITIN ÇEVRESEL ETKİLERİNİN İZLENMESİ",
+          "hint": "Biyoyakıt üretiminin doğaya olan etkilerinin takip edilmesi."
+        },
+        {
+          "word": "KENTSEL TARIM TEKNOLOJİLERİNİN SÜRDÜRÜLEBİLİRLİĞİ",
+          "hint": "Şehirlerde tarım yapmayı kolaylaştıran yeni teknolojilerin çevreye duyarlı olması."
+        },
+        {
+          "word": "SU KAYNAKLARI YÖNETİMİ İÇİN İZLEME SİSTEMLERİ GELİŞTİRME",
+          "hint": "Su varlıklarını takip etmeye yarayan sistemlerin iyileştirilmesi."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ MEVZUATINA UYUM SAĞLAMA SÜREÇLERİNİN DEĞERLENDİRİLMESİ",
+          "hint": "Enerji verimliliği ile ilgili yasalara uygunluk sağlama adımlarının başarısının ölçülmesi."
+        },
+        {
+          "word": "AKILLI ŞEBEKE YÖNETİMİ PERFORMANS ANALİZLERİ",
+          "hint": "Enerji ağlarının ne kadar verimli çalıştığının detaylı incelenmesi."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN PAZAR ANALİZİ",
+          "hint": "Güneş enerjisini saklama yöntemlerinin pazar durumunun incelenmesi."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN PAZAR ANALİZİ",
+          "hint": "Rüzgar enerjisini saklama yöntemlerinin pazar durumunun incelenmesi."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN PAZAR ANALİZİ",
+          "hint": "Yer ısısından elde edilen enerjiyi saklama yöntemlerinin pazar durumunun incelenmesi."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN PAZAR ANALİZİ",
+          "hint": "Suyun enerjisini depolama yöntemlerinin pazar durumunun incelenmesi."
+        },
+        {
+          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN PAZAR ANALİZİ",
+          "hint": "Nükleer enerji atıklarının yönetimi yöntemlerinin pazar durumunun incelenmesi."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK FONLARI FONLAMA POLİTİKALARI",
+          "hint": "Biyoçeşitliliği korumak için ayrılan paraların kullanım politikaları."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA STRATEJİLERİNİN UYGULANABİLİRLİK ANALİZİ",
+          "hint": "İnsanın doğaya etkisini düşürme planlarının ne kadar uygulanabilir olduğunun incelenmesi."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMİ DENETİM RAPORLARI",
+          "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimlerinin kontrol sonuçlarına dair raporlar."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ DEĞERLENDİRİLMESİ RAPORLARI",
+          "hint": "Sera gazı salımını düşürme politikalarının başarısının ölçülmesine dair raporlar."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA STRATEJİLERİNİN DEĞERLENDİRİLMESİ",
+          "hint": "Karbon salımını düşürme planlarının başarısının ölçülmesi."
+        },
+        {
+          "word": "YEŞİL ÜRÜNLERİN YAŞAM DÖNGÜSÜ YÖNETİMİ ARAÇLARI",
+          "hint": "Çevre dostu ürünlerin üretiminden bertarafına kadar olan süreci yönetmeye yarayan araçlar."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ YÖNETİMİ İÇİN DİJİTALLEŞME UYGULAMALARI",
+          "hint": "Tedarik zincirlerini çevreye duyarlı hale getiren dijital araçların kullanımı."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI GELİŞTİRME FİNANSMANI",
+          "hint": "Elektrikli araç şarj istasyonlarının yaygınlaştırılması için ayrılan paralar."
+        },
+        {
+          "word": "BİYOYAKITIN ÇEVRESEL ETKİLERİNİ AZALTMA STRATEJİLERİ",
+          "hint": "Biyoyakıt üretiminin doğaya olan olumsuz etkilerini düşürme planları."
+        },
+        {
+          "word": "KENTSEL TARIM TEKNOLOJİLERİNİN ENTEGRASYON STRATEJİLERİ",
+          "hint": "Şehirlerde tarım yapmayı kolaylaştıran yeni teknolojilerin birleştirilme planları."
+        },
+        {
+          "word": "SU KAYNAKLARI YÖNETİMİ İÇİN İZLEME SİSTEMİ VERİ ANALİZİ",
+          "hint": "Su varlıklarını takip etmeye yarayan sistemlerden elde edilen verilerin incelenmesi."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ MEVZUATINA UYUM SAĞLAMA SÜREÇLERİNİN İYİLEŞTİRİLMESİ",
+          "hint": "Enerji verimliliği ile ilgili yasalara uygunluk sağlama adımlarının geliştirilmesi."
+        },
+        {
+          "word": "AKILLI ŞEBEKE YÖNETİMİ VERİMLİLİK ANALİZ YAZILIMLARI",
+          "hint": "Enerji ağlarının ne kadar verimli çalıştığının detaylı incelenmesine yarayan programlar."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM TRENDLERİ",
+          "hint": "Güneş enerjisini saklama yöntemlerindeki ilerleme eğilimleri."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM TRENDLERİ",
+          "hint": "Rüzgar enerjisini saklama yöntemlerindeki ilerleme eğilimleri."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM TRENDLERİ",
+          "hint": "Yer ısısından elde edilen enerjiyi saklama yöntemlerindeki ilerleme eğilimleri."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM TRENDLERİ",
+          "hint": "Suyun enerjisini depolama yöntemlerindeki ilerleme eğilimleri."
+        },
+        {
+          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM TRENDLERİ",
+          "hint": "Nükleer enerji atıklarının yönetimi yöntemlerindeki ilerleme eğilimleri."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK FONLARI FONLAMA ETKİNLİK RAPORLARI",
+          "hint": "Biyoçeşitliliği korumak için ayrılan paraların kullanım etkinliklerine dair raporlar."
+        },
+        {
+          "word": "EKOLOJİK AYAK İZİ AZALTMA STRATEJİLERİNİN ETKİNLİĞİNİ ARTIRMA YÖNTEMLERİ",
+          "hint": "İnsanın doğaya etkisini düşürme planlarının daha etkili hale getirilmesi yolları."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMİ UYGULAMA REHBERLERİNİN REVİZYONU",
+          "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimleri için kılavuzların yeniden gözden geçirilmesi."
+        },
+        {
+          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ ETKİNLİĞİNİ ARTIRAN FAKTÖRLERİN ANALİZİ",
+          "hint": "Sera gazı salımını düşürme politikalarının başarısını artıran etkenlerin incelenmesi."
+        },
+        {
+          "word": "KARBON AYAK İZİ AZALTMA TEKNOLOJİK YENİLİKLERİNİN UYGULANMASI",
+          "hint": "Karbon salımını düşüren yeni teknolojilerin kullanılması."
+        },
+        {
+          "word": "YEŞİL ÜRÜNLERİN YAŞAM DÖNGÜSÜ YÖNETİMİ STRATEJİLERİ",
+          "hint": "Çevre dostu ürünlerin üretiminden bertarafına kadar olan sürecin yönetme planları."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİR TEDARİK ZİNCİRİ YÖNETİMİ İÇİN DİJİTALLEŞME ARAÇLARI",
+          "hint": "Tedarik zincirlerini çevreye duyarlı hale getiren dijital araçlar."
+        },
+        {
+          "word": "ELEKTRİKLİ ARAÇ ŞARJ ALTYAPISI GELİŞTİRME STRATEJİLERİNİN UYGULANMASI",
+          "hint": "Elektrikli araç şarj istasyonlarının yaygınlaştırılması planlarının hayata geçirilmesi."
+        },
+        {
+          "word": "BİYOYAKITIN ÇEVRESEL ETKİLERİNİ AZALTMA STRATEJİLERİNİN GELİŞTİRİLMESİ",
+          "hint": "Biyoyakıt üretiminin doğaya olan olumsuz etkilerini düşürme planlarının iyileştirilmesi."
+        },
+        {
+          "word": "KENTSEL TARIM TEKNOLOJİLERİNİN ENTEGRASYONU STRATEJİLERİ",
+          "hint": "Şehirlerde tarım yapmayı kolaylaştıran yeni teknolojilerin birleştirilme planları."
+        },
+        {
+          "word": "SU KAYNAKLARI YÖNETİMİ İÇİN İZLEME SİSTEMLERİ VERİ ANALİZİ SONUÇLARI",
+          "hint": "Su varlıklarını takip etmeye yarayan sistemlerden elde edilen verilerin incelenmesi sonuçları."
+        },
+        {
+          "word": "ENERJİ VERİMLİLİĞİ MEVZUATINA UYUM SAĞLAMA SÜREÇLERİNİN OPTİMİZASYONU",
+          "hint": "Enerji verimliliği ile ilgili yasalara uygunluk sağlama adımlarının en verimli hale getirilmesi."
+        },
+        {
+          "word": "AKILLI ŞEBEKE YÖNETİMİ VERİMLİLİK ANALİZ RAPORLARI",
+          "hint": "Enerji ağlarının ne kadar verimli çalıştığının detaylı incelenmesine dair raporlar."
+        },
+        {
+          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM VE PAZAR ANALİZİ",
+          "hint": "Güneş enerjisini saklama yöntemlerindeki ilerlemeler ve pazar durumu."
+        },
+        {
+          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM VE PAZAR ANALİZİ",
+          "hint": "Rüzgar enerjisini saklama yöntemlerindeki ilerlemeler ve pazar durumu."
+        },
+        {
+          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM VE PAZAR ANALİZİ",
+          "hint": "Yer ısısından elde edilen enerjiyi saklama yöntemlerindeki ilerlemeler ve pazar durumu."
+        },
+        {
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM VE PAZAR ANALİZİ",
+          "hint": "Suyun enerjisini depolama yöntemlerindeki ilerlemeler ve pazar durumu."
+        },
+        {
+          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM VE PAZAR ANALİZİ",
+          "hint": "Nükleer enerji atıklarının yönetimi yöntemlerindeki ilerlemeler ve pazar durumu."
+        }
+      ]
     },
     {
       "id": "cografya_u4",
-      "name": "4. Ünite: Çevre ve Toplum, Doğal Afetler",
+      "name": "4. Ünite: Çevre ve Toplum",
       "months": [
-        5,
-        6
+        4,
+        5
       ],
-      "words": []
+      "words": [
+        {
+          "word": "HEYELAN",
+          "hint": "Toprağın yamaçtan aşağı kayması olayı."
+        },
+        {
+          "word": "EROZYON",
+          "hint": "Toprağın su veya rüzgarla aşınması."
+        },
+        {
+          "word": "ÇIĞ",
+          "hint": "Karlı dağlardan hızla inen kar kütlesi."
+        },
+        {
+          "word": "DEPREM",
+          "hint": "Yerin sarsılması, titremesi."
+        },
+        {
+          "word": "VOLKAN",
+          "hint": "Yeryüzünden lav, kül ve gaz püskürten dağ."
+        },
+        {
+          "word": "TSUNAMİ",
+          "hint": "Deniz tabanındaki depremlerin oluşturduğu dev dalgalar."
+        },
+        {
+          "word": "SEL",
+          "hint": "Suyun yatağından taşarak çevreyi basması."
+        },
+        {
+          "word": "KURAKLIK",
+          "hint": "Uzun süren yağışsızlık sonucu su kıtlığı."
+        },
+        {
+          "word": "FIRTINA",
+          "hint": "Şiddetli rüzgar ve yağışla seyreden hava olayı."
+        },
+        {
+          "word": "KASIRGA",
+          "hint": "Tropikal bölgelerde görülen çok şiddetli fırtına."
+        },
+        {
+          "word": "DOLU",
+          "hint": "Yağmurla birlikte buz tanelerinin yağması."
+        },
+        {
+          "word": "YANGIN",
+          "hint": "Kontrolsüz ateşin her şeyi yakıp yok etmesi."
+        },
+        {
+          "word": "AFET",
+          "hint": "Beklenmedik, yıkıcı doğa olayı."
+        },
+        {
+          "word": "RİSK",
+          "hint": "Tehlikeli bir durumla karşılaşma ihtimali."
+        },
+        {
+          "word": "ZARAR",
+          "hint": "Afet sonucu oluşan maddi ve manevi kayıp."
+        },
+        {
+          "word": "ÖNLEM",
+          "hint": "Afetlere karşı alınan tedbirler."
+        },
+        {
+          "word": "TAHLİYE",
+          "hint": "Tehlike anında güvenli yere gitme."
+        },
+        {
+          "word": "TATBİKAT",
+          "hint": "Afetlere hazırlık için yapılan deneme."
+        },
+        {
+          "word": "HASAR",
+          "hint": "Yapıların veya eşyaların zarar görmesi."
+        },
+        {
+          "word": "VAKIF",
+          "hint": "Yardım kuruluşu, dernek."
+        },
+        {
+          "word": "BARINAK",
+          "hint": "Afetzedeler için geçici konut."
+        },
+        {
+          "word": "GÖNÜLLÜ",
+          "hint": "Yardım etmek için karşılık beklemeyen kişi."
+        },
+        {
+          "word": "TOPLANMA",
+          "hint": "Afet sonrası buluşma ve yardım noktası."
+        },
+        {
+          "word": "BİNA",
+          "hint": "İnsanların yaşadığı veya çalıştığı yapı."
+        },
+        {
+          "word": "DAYANIKLILIK",
+          "hint": "Yapıların deprem gibi olaylara karşı gücü."
+        },
+        {
+          "word": "HARİTA",
+          "hint": "Yeryüzü şekillerini gösteren çizim."
+        },
+        {
+          "word": "İKLİM",
+          "hint": "Bir bölgenin uzun yıllar süren hava durumu ortalaması."
+        },
+        {
+          "word": "COĞRAFYA",
+          "hint": "Yeryüzünü ve üzerindeki olayları inceleyen bilim dalı."
+        },
+        {
+          "word": "HABİTAT",
+          "hint": "Canlıların doğal yaşam alanı."
+        },
+        {
+          "word": "BİYOÇEŞİTLİLİK",
+          "hint": "Canlı türlerinin çeşitliliği."
+        },
+        {
+          "word": "EKOSİSTEM",
+          "hint": "Canlı ve cansız varlıkların etkileşim alanı."
+        },
+        {
+          "word": "SÜRDÜRÜLEBİLİRLİK",
+          "hint": "Doğal kaynakların gelecek nesillere aktarılması."
+        },
+        {
+          "word": "KİRLİLİK",
+          "hint": "Çevrenin zararlı maddelerle bozulması."
+        },
+        {
+          "word": "ATMOSFER",
+          "hint": "Yeryüzünü saran gaz tabakası."
+        },
+        {
+          "word": "HİDROSFER",
+          "hint": "Yeryüzündeki su kütleleri."
+        },
+        {
+          "word": "LİTOSFER",
+          "hint": "Yeryüzünün katı kabuğu."
+        },
+        {
+          "word": "BİYOJEOKİMYA",
+          "hint": "Canlıların madde döngüsündeki rolü."
+        },
+        {
+          "word": "KAÇAK",
+          "hint": "İzinsiz yapılaşma, doğaya zarar."
+        },
+        {
+          "word": "KANALİZASYON",
+          "hint": "Atık su taşıma sistemi."
+        },
+        {
+          "word": "SANAYİ",
+          "hint": "Üretim yapılan fabrika kolları."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM",
+          "hint": "Kullanılmış malzemelerin tekrar işlenmesi."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme gücü, kaynak."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Ağaçlarla kaplı geniş alan."
+        },
+        {
+          "word": "NÜFUS",
+          "hint": "Belirli bir alanda yaşayan insan sayısı."
+        },
+        {
+          "word": "KENTLEŞME",
+          "hint": "Kırsal alanların şehre dönüşmesi."
+        },
+        {
+          "word": "TARIMSAL",
+          "hint": "Tarım ile ilgili."
+        },
+        {
+          "word": "ULAŞIM",
+          "hint": "İnsanların veya malların taşınması."
+        },
+        {
+          "word": "İLETİŞİM",
+          "hint": "Bilgi alışverişi, haberleşme."
+        },
+        {
+          "word": "POLİTİKA",
+          "hint": "Devlet yönetimi ile ilgili düşünceler."
+        },
+        {
+          "word": "EKONOMİ",
+          "hint": "Üretim, tüketim ve dağıtım faaliyetleri."
+        },
+        {
+          "word": "SOSYAL",
+          "hint": "Toplumla ilgili, toplumsal."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir topluma özgü yaşam biçimi, gelenekler."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Bilgi ve beceri kazandırma süreci."
+        }
+      ]
     }
   ]
 }

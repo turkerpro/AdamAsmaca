@@ -2,9 +2,10 @@
   "units": [
     {
       "id": "tarih_u1",
-      "name": "1. Ünite: Beylikler",
+      "name": "1. Ünite: Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiye'si",
       "months": [
-        9
+        9,
+        10
       ],
       "words": [
         {
@@ -52,7 +53,7 @@
           "hint": "Belirli bir amaca ulaşmak için kurulan yapı."
         },
         {
-          "word": "İ̇SKAN",
+          "word": "İSKAN",
           "hint": "Bir yere yerleşme ve orayı vatan edinme."
         },
         {
@@ -88,7 +89,7 @@
           "hint": "Artuklular'ın hakim olduğu şehir."
         },
         {
-          "word": "İ̇ZMİR",
+          "word": "İZMİR",
           "hint": "Çaka Bey'in donanma kurduğu liman."
         },
         {
@@ -219,10 +220,10 @@
     },
     {
       "id": "tarih_u2",
-      "name": "2. Ünite: Osmanlı Devleti",
+      "name": "2. Ünite: Beylikten Devlete Osmanlı Siyaseti (1300-1453)",
       "months": [
-        10,
-        11
+        11,
+        12
       ],
       "words": [
         {
@@ -246,7 +247,7 @@
           "hint": "Saray içinde devlet adamı yetiştiren okul"
         },
         {
-          "word": "OSMANLİ",
+          "word": "OSMANLI",
           "hint": "1299-1922 yılları arasında Anadolu ve Balkanlar'da hüküm sürmüş büyük Türk devleti."
         },
         {
@@ -262,19 +263,19 @@
           "hint": "Osmanlı Devleti'nde yüksek rütbeli asker veya devlet görevlilerine verilen unvan."
         },
         {
-          "word": "VEZİ̇R",
+          "word": "VEZİR",
           "hint": "Padişahın en yakın danışmanı ve hükümetin başı."
         },
         {
-          "word": "BEYLERBEYİ̇",
+          "word": "BEYLERBEYİ",
           "hint": "Eyaletlerin en büyük yöneticisi."
         },
         {
-          "word": "SANCARBEYİ̇",
+          "word": "SANCARBEYİ",
           "hint": "Livaların (sancakların) yöneticisi."
         },
         {
-          "word": "KADİ",
+          "word": "KADI",
           "hint": "Şeri ve hukuki davalara bakan yargıç."
         },
         {
@@ -286,7 +287,7 @@
           "hint": "Mali işlerden sorumlu devlet görevlisi."
         },
         {
-          "word": "Mİ̇RALEM",
+          "word": "MİRALEM",
           "hint": "Bayrakları taşıyan ve koruyan asker."
         },
         {
@@ -294,7 +295,7 @@
           "hint": "Ordunun başkomutanı."
         },
         {
-          "word": "AKİNCİ",
+          "word": "AKINCI",
           "hint": "Sınır boylarında akınlar düzenleyen hafif süvari birliği."
         },
         {
@@ -346,19 +347,19 @@
           "hint": "Belirli bir zanaata ait esnafın dükkanlarının bulunduğu dar sokak."
         },
         {
-          "word": "İ̇MAM",
+          "word": "İMAM",
           "hint": "Camide namaz kıldıran kişi."
         },
         {
-          "word": "HATİ̇P",
+          "word": "HATİP",
           "hint": "Cami ve cuma namazlarında hutbe okuyan kişi."
         },
         {
-          "word": "MÜEZZİ̇N",
+          "word": "MÜEZZİN",
           "hint": "Ezan okuyan kişi."
         },
         {
-          "word": "DARÜŞŞİ̇FA",
+          "word": "DARÜŞŞİFA",
           "hint": "Sağlık hizmeti sunulan yer, hastane."
         },
         {
@@ -378,7 +379,7 @@
           "hint": "Desen ve süsleme yapan sanatçı."
         },
         {
-          "word": "Mİ̇MAR",
+          "word": "MİMAR",
           "hint": "Yapıları tasarlayan ve projesini çizen kişi."
         },
         {
@@ -390,7 +391,7 @@
           "hint": "Bir nesnenin uzunluk, genişlik, yükseklik ölçüsü."
         },
         {
-          "word": "SEBİ̇L",
+          "word": "SEBİL",
           "hint": "Hayır amaçlı olarak halka parasız su dağıtılan yer."
         },
         {
@@ -398,7 +399,7 @@
           "hint": "Sokağa konulmuş, su akan mimari yapı."
         },
         {
-          "word": "KASİ̇DE",
+          "word": "KASİDE",
           "hint": "Genellikle övmek amacıyla yazılan uzun şiir."
         },
         {
@@ -406,7 +407,7 @@
           "hint": "Genellikle aşk ve güzellik konularını işleyen lirik şiir."
         },
         {
-          "word": "MESNEVİ̇",
+          "word": "MESNEVİ",
           "hint": "Her beyiti kendi arasında kafiyeli olan, uzun hikayeler anlatılan nazım biçimi."
         },
         {
@@ -429,38 +430,669 @@
     },
     {
       "id": "tarih_u3",
-      "name": "3. Ünite: Orta Çağ'da Dünya ve Türk Dünyası",
+      "name": "3. Ünite: Devletleşme Sürecinde Savaşçılar ve Askerler",
       "months": [
-        12,
         1
       ],
-      "words": []
+      "words": [
+        {
+          "word": "FEODALİTE",
+          "hint": "Orta Çağ Avrupası'nda toprak sahipliği ve siyasi gücün merkeze bağlı olarak dağıldığı sistem."
+        },
+        {
+          "word": "DEREBEYLİK",
+          "hint": "Feodalitenin Türkçedeki karşılığı, toprağa bağlı yerel yönetim."
+        },
+        {
+          "word": "VASSAL",
+          "hint": "Feodal sistemde toprağa karşılık hizmet ve bağlılık sunan kişi."
+        },
+        {
+          "word": "SÜZEREN",
+          "hint": "Feodal sistemde toprağı vererek hizmet alan kişi, efendi."
+        },
+        {
+          "word": "LONCA",
+          "hint": "Orta Çağ esnaf ve zanaatkarlarının kurduğu birlik."
+        },
+        {
+          "word": "KAPADOKYA",
+          "hint": "Doğu Roma İmparatorluğu döneminde önemli bir yönetim ve dini merkez."
+        },
+        {
+          "word": "PALYAÇO",
+          "hint": "Eğlenceli gösteriler yapan, genellikle komik giysili sanatçı."
+        },
+        {
+          "word": "GREV",
+          "hint": "İşçilerin haklarını savunmak için iş bırakma eylemi."
+        },
+        {
+          "word": "PATRİKHANE",
+          "hint": "Ortodoks Hristiyan dünyasında ruhani liderin merkezi."
+        },
+        {
+          "word": "HALİFE",
+          "hint": "İslam dünyasında dini ve siyasi lider."
+        },
+        {
+          "word": "HİLAFET",
+          "hint": "Halifenin temsil ettiği siyasi ve dini makam."
+        },
+        {
+          "word": "ŞÖVALYE",
+          "hint": "Orta Çağ Avrupası'nda savaşçı sınıf, atlı asker."
+        },
+        {
+          "word": "MİRALAY",
+          "hint": "Eski Türk ordusunda bir albay rütbesi."
+        },
+        {
+          "word": "ORDUGÂH",
+          "hint": "Askerlerin topluca kaldığı, çadırlı veya geçici yerleşim alanı."
+        },
+        {
+          "word": "KERVANSARAY",
+          "hint": "Yolcuların ve kervanların konakladığı, güvenli yapılar."
+        },
+        {
+          "word": "MEDRESE",
+          "hint": "Orta Çağ'da eğitim veren, genellikle dini ağırlıklı okullar."
+        },
+        {
+          "word": "MÜDERRİS",
+          "hint": "Medreselerde ders veren öğretmen."
+        },
+        {
+          "word": "VAKIF",
+          "hint": "Toplum yararına hizmet eden kurumların mal varlığı."
+        },
+        {
+          "word": "TIMAR",
+          "hint": "Osmanlı'da askerlere veya hizmetlilere belirli bir gelir karşılığı verilen toprak sistemi."
+        },
+        {
+          "word": "İKTA",
+          "hint": "Selçuklu ve Osmanlı'da tımar benzeri, devlet görevlilerine verilen toprak geliri."
+        },
+        {
+          "word": "DİVAN-I HÜMAYUN",
+          "hint": "Osmanlı Devleti'nde devlet işlerinin görüşüldüğü en yüksek kurul."
+        },
+        {
+          "word": "VEZİR",
+          "hint": "Osmanlı'da padişahın yardımcısı, en üst düzey devlet görevlisi."
+        },
+        {
+          "word": "KAZASKER",
+          "hint": "Osmanlı'da askeri ve dini davalara bakan en yüksek yargıç."
+        },
+        {
+          "word": "NİŞANCI",
+          "hint": "Osmanlı'da padişah tuğrasını çizen ve önemli belgeleri hazırlayan görevli."
+        },
+        {
+          "word": "DEFTERDAR",
+          "hint": "Osmanlı'da hazine ve maliyeden sorumlu devlet görevlisi."
+        },
+        {
+          "word": "AHİ TEŞKİLATI",
+          "hint": "Anadolu'da esnaf ve sanatkarların oluşturduğu dini ve ahlaki temelli örgüt."
+        },
+        {
+          "word": "AHİLİK",
+          "hint": "Ahi Teşkilatı'nın kurduğu düzen ve birlik."
+        },
+        {
+          "word": "FÜTÜVVET",
+          "hint": "Ahi Teşkilatı'nın temelini oluşturan yiğitlik, cömertlik ve kardeşlik değerleri."
+        },
+        {
+          "word": "GAZİ",
+          "hint": "Din uğruna savaşan, İslam'ı yayan savaşçı."
+        },
+        {
+          "word": "ALP",
+          "hint": "Eski Türklerde kahraman, yiğit savaşçı."
+        },
+        {
+          "word": "TİMUR",
+          "hint": "Orta Asya'da büyük bir imparatorluk kuran Türk-Moğol komutan."
+        },
+        {
+          "word": "ALTIN ORDA",
+          "hint": "Moğol İmparatorluğu'nun yıkılmasından sonra Karadeniz'in kuzeyinde kurulan devlet."
+        },
+        {
+          "word": "İLHANLILAR",
+          "hint": "Hülagü Han tarafından İran'da kurulan Moğol devleti."
+        },
+        {
+          "word": "MEMLÜKLER",
+          "hint": "Mısır ve Suriye'de hüküm sürmüş Türk asıllı köle askerlerden oluşan devlet."
+        },
+        {
+          "word": "HAÇLI SEFERLERİ",
+          "hint": "Hristiyan Avrupa'nın, Kutsal Toprakları Müslümanlardan almak için düzenlediği askeri seferler."
+        },
+        {
+          "word": "ENDÜLÜS",
+          "hint": "İber Yarımadası'nda Müslümanların kurduğu devlet ve medeniyet."
+        },
+        {
+          "word": "RECONQUİSTA",
+          "hint": "İspanya'da Hristiyanların Müslümanlardan topraklarını geri alma mücadelesi."
+        },
+        {
+          "word": "SKOLASTİK",
+          "hint": "Orta Çağ Avrupa felsefesinde, dini öğretileri akıl ile temellendirme çabası."
+        },
+        {
+          "word": "MANASTIR",
+          "hint": "Rahiplerin yaşadığı, dini eğitim ve ibadet yeri."
+        },
+        {
+          "word": "AZİZ",
+          "hint": "Hristiyanlıkta kutsal kabul edilen, örnek kişi."
+        },
+        {
+          "word": "PAPA",
+          "hint": "Katolik Kilisesi'nin ruhani lideri."
+        },
+        {
+          "word": "KATEDRAL",
+          "hint": "Büyük ve önemli Hristiyan kilisesi, piskoposluk merkezi."
+        },
+        {
+          "word": "FERMAN",
+          "hint": "Padişahın buyruğu, yazılı emir."
+        },
+        {
+          "word": "YÜKSELME",
+          "hint": "Bir devletin veya gücün giderek artması, güçlenmesi dönemi."
+        },
+        {
+          "word": "KURULUŞ",
+          "hint": "Bir devletin, teşkilatın veya bir fikrin başlangıcı, ilk aşaması."
+        },
+        {
+          "word": "KONSİL",
+          "hint": "Hristiyanlıkta dini konuları görüşmek için toplanan ruhani meclis."
+        },
+        {
+          "word": "TEBA",
+          "hint": "Bir devletin egemenliği altında yaşayan halk."
+        },
+        {
+          "word": "FETİH",
+          "hint": "Bir ülkenin veya yerin askeri güçle ele geçirilmesi."
+        },
+        {
+          "word": "SULTAN",
+          "hint": "İslam devletlerinde hükümdarlık unvanı."
+        },
+        {
+          "word": "İSLAMİYET",
+          "hint": "Hz. Muhammed'in getirdiği din ve inanç sistemi."
+        }
+      ]
     },
     {
       "id": "tarih_u4",
-      "name": "4. Ünite: İslam Medeniyetinin Doğuşu ve Yayılışı",
+      "name": "4. Ünite: Osmanlı Devleti'nin Gücü (1453-1600)",
       "months": [
         2,
         3
       ],
-      "words": []
+      "words": [
+        {
+          "word": "VAHİY",
+          "hint": "Allah'tan peygamberlere gelen ilahi mesaj."
+        },
+        {
+          "word": "HİCRET",
+          "hint": "Hz. Muhammed'in Mekke'den Medine'ye göçü."
+        },
+        {
+          "word": "CİHAT",
+          "hint": "Dini savunmak için yapılan mücadele."
+        },
+        {
+          "word": "MEDİNE",
+          "hint": "Hz. Muhammed'in hicret ettiği şehir, Peygamber Şehri."
+        },
+        {
+          "word": "MEKKE",
+          "hint": "İslam'ın doğduğu, Kabe'nin bulunduğu şehir."
+        },
+        {
+          "word": "BEDİR",
+          "hint": "Müslümanların ilk büyük zaferini kazandığı savaşın adı."
+        },
+        {
+          "word": "UHUD",
+          "hint": "Müslümanların stratejik dersler çıkardığı savaş."
+        },
+        {
+          "word": "HENDEK",
+          "hint": "Medine savunmasında kullanılan savunma hattı."
+        },
+        {
+          "word": "HUDEYBİYE",
+          "hint": "Müslümanlar ve Mekkeliler arasında imzalanan antlaşma."
+        },
+        {
+          "word": "FETİH",
+          "hint": "Bir yeri ele geçirme, zafer kazanma."
+        },
+        {
+          "word": "MÜŞRİK",
+          "hint": "Allah'a ortak koşan kişi."
+        },
+        {
+          "word": "HANİF",
+          "hint": "Hz. İbrahim'in dinine bağlı kalan, tek tanrı inançlı kişi."
+        },
+        {
+          "word": "ŞİRK",
+          "hint": "Allah'a ortak koşma inancı."
+        },
+        {
+          "word": "TEVHİD",
+          "hint": "Allah'ın birliğine inanma, tek ilah inancı."
+        },
+        {
+          "word": "CAHİLİYE",
+          "hint": "İslam'dan önceki Arap toplumu dönemi."
+        },
+        {
+          "word": "PEYGAMBER",
+          "hint": "Allah'ın elçisi, elçilik göreviyle gönderilen kişi."
+        },
+        {
+          "word": "SAHABE",
+          "hint": "Hz. Muhammed'i gören ve Müslüman olarak ölen kimseler."
+        },
+        {
+          "word": "TEBLİĞ",
+          "hint": "Dini bilgileri yayma, iletme."
+        },
+        {
+          "word": "İSLAM",
+          "hint": "Allah'a teslimiyet anlamına gelen din."
+        },
+        {
+          "word": "KUR'AN",
+          "hint": "Müslümanların kutsal kitabı."
+        },
+        {
+          "word": "SÜNNET",
+          "hint": "Hz. Muhammed'in sözleri, davranışları ve onayları."
+        },
+        {
+          "word": "HADİS",
+          "hint": "Hz. Muhammed'in söz ve davranışlarını anlatan rivayetler."
+        },
+        {
+          "word": "ŞURA",
+          "hint": "Danışma meclisi."
+        },
+        {
+          "word": "HİLAFET",
+          "hint": "Hz. Muhammed'den sonra devlet başkanlığı makamı."
+        },
+        {
+          "word": "HALİFE",
+          "hint": "Hilafet makamında bulunan kişi."
+        },
+        {
+          "word": "EMEVİLER",
+          "hint": "İslam devletini başkent Şam'dan yöneten hanedanlık."
+        },
+        {
+          "word": "ABBASİ",
+          "hint": "Bağdat'ı başkent yapan, bilim ve sanatı geliştiren devlet."
+        },
+        {
+          "word": "ENDÜLÜS",
+          "hint": "İspanya'da kurulan güçlü İslam devleti."
+        },
+        {
+          "word": "BİLİM",
+          "hint": "Evreni ve olayları anlama çabası, bilgi dalı."
+        },
+        {
+          "word": "MEDRESE",
+          "hint": "Eğitim verilen dini okul."
+        },
+        {
+          "word": "KÜTÜPHANE",
+          "hint": "Kitapların saklandığı ve okunduğu yer."
+        },
+        {
+          "word": "ÇEVİRİ",
+          "hint": "Bir dildeki eseri başka bir dile aktarma."
+        },
+        {
+          "word": "MATEMATİK",
+          "hint": "Sayılar, şekiller ve nicelikler üzerine çalışan bilim dalı."
+        },
+        {
+          "word": "ASTRONOMİ",
+          "hint": "Gök cisimlerini inceleyen bilim dalı."
+        },
+        {
+          "word": "TIP",
+          "hint": "Sağlık ve hastalıkları inceleyen bilim dalı."
+        },
+        {
+          "word": "FELSEFE",
+          "hint": "Varoluş, bilgi, değerler üzerine düşünme sanatı."
+        },
+        {
+          "word": "MİMARİ",
+          "hint": "Yapı tasarlama ve inşa etme sanatı."
+        },
+        {
+          "word": "HAT",
+          "hint": "Güzel yazı sanatı."
+        },
+        {
+          "word": "TEZHİP",
+          "hint": "El yazmalarını süsleme sanatı."
+        },
+        {
+          "word": "MİNYATÜR",
+          "hint": "Kitapları süsleyen küçük resim sanatı."
+        },
+        {
+          "word": "ŞİİR",
+          "hint": "Duygu ve düşünceleri ahenkli sözlerle anlatan edebi tür."
+        },
+        {
+          "word": "HİKAYE",
+          "hint": "Kısa, olay anlatan yazı türü."
+        },
+        {
+          "word": "TARİH",
+          "hint": "Geçmişte yaşanmış olayları inceleyen bilim dalı."
+        },
+        {
+          "word": "COĞRAFYA",
+          "hint": "Yeryüzünü ve üzerindeki yerleri inceleyen bilim dalı."
+        },
+        {
+          "word": "DİLBİLİM",
+          "hint": "Dilleri inceleyen bilim dalı."
+        },
+        {
+          "word": "SİYASET",
+          "hint": "Devlet yönetimi ve ilgili konular."
+        },
+        {
+          "word": "EKONOMİ",
+          "hint": "Mal ve hizmet üretimi, dağıtımı ve tüketimiyle ilgili bilim dalı."
+        },
+        {
+          "word": "TOPLUM",
+          "hint": "Belirli bir alanda yaşayan insan topluluğu."
+        },
+        {
+          "word": "UYGARLIK",
+          "hint": "Bir toplumun geliştirdiği kültürel ve teknolojik seviye."
+        },
+        {
+          "word": "TİCARET",
+          "hint": "Mal alıp satma, alım satım işi."
+        },
+        {
+          "word": "ZANAAT",
+          "hint": "El becerisiyle yapılan üretim işi."
+        }
+      ]
     },
     {
       "id": "tarih_u5",
-      "name": "5. Ünite: Türklerin İslamiyet'i Kabulü ve İlk Devletler",
+      "name": "5. Ünite: Değişim Çağında Avrupa ve Osmanlı",
       "months": [
         4,
-        5
-      ],
-      "words": []
-    },
-    {
-      "id": "tarih_u6",
-      "name": "6. Ünite: Yerleşme, Devletleşme ve Beylikten Devlete",
-      "months": [
+        5,
         6
       ],
-      "words": []
+      "words": [
+        {
+          "word": "GÖÇEBE",
+          "hint": "Devamlı bir yere bağlı kalmadan gezen topluluk."
+        },
+        {
+          "word": "YERLEŞİK",
+          "hint": "Bir yerde sürekli oturup tarım ve hayvancılıkla uğraşan."
+        },
+        {
+          "word": "KERVANSARAY",
+          "hint": "Ticaret yolları üzerinde yolcuların konakladığı yapı."
+        },
+        {
+          "word": "TÜCCAR",
+          "hint": "Mal alıp satan kişi."
+        },
+        {
+          "word": "BEYLİK",
+          "hint": "Selçuklulardan sonra Anadolu'da kurulan küçük Türk devletleri."
+        },
+        {
+          "word": "ŞAMANİZM",
+          "hint": "Doğa ruhlarına inanılan eski Türk dini."
+        },
+        {
+          "word": "GÖKTANRI",
+          "hint": "Eski Türklerin inandığı tek ilahi güç."
+        },
+        {
+          "word": "ATAMAN",
+          "hint": "Osmanlı'da şehzade hocası, Selçuklu'da sultanın hocası."
+        },
+        {
+          "word": "VEZİR",
+          "hint": "Devlet işlerinde sultana yardım eden en yüksek görevli."
+        },
+        {
+          "word": "EMİR",
+          "hint": "Ordu komutanı veya yönetici."
+        },
+        {
+          "word": "MÜCADELE",
+          "hint": "Bir amaç için verilen çaba, savaş."
+        },
+        {
+          "word": "FETİH",
+          "hint": "Bir yeri ele geçirme, zafer."
+        },
+        {
+          "word": "TEŞKİLAT",
+          "hint": "Belirli bir amacı gerçekleştirmek için kurulan yapı."
+        },
+        {
+          "word": "ULEMA",
+          "hint": "Din alimleri, bilginler."
+        },
+        {
+          "word": "MEDRESE",
+          "hint": "Yüksek öğrenim kurumu, okul."
+        },
+        {
+          "word": "İDARİ",
+          "hint": "Yönetimle ilgili."
+        },
+        {
+          "word": "ASKERİ",
+          "hint": "Ordularla, savaşla ilgili."
+        },
+        {
+          "word": "EKONOMİK",
+          "hint": "Ekonomi ile ilgili, ticari."
+        },
+        {
+          "word": "SOSYAL",
+          "hint": "Toplumla, insanlar arasındaki ilişkilerle ilgili."
+        },
+        {
+          "word": "KÜLTÜREL",
+          "hint": "Kültürle, sanatla, yaşam tarzıyla ilgili."
+        },
+        {
+          "word": "DİNİ",
+          "hint": "Din ile ilgili."
+        },
+        {
+          "word": "İSLAMİYET",
+          "hint": "Hz. Muhammed tarafından tebliğ edilen semavi din."
+        },
+        {
+          "word": "MÜSLÜMAN",
+          "hint": "İslam dinine inanan kişi."
+        },
+        {
+          "word": "ARABİSTAN",
+          "hint": "İslamiyet'in doğduğu yarımada."
+        },
+        {
+          "word": "MEKKE",
+          "hint": "İslamiyet'in doğduğu kutsal şehir."
+        },
+        {
+          "word": "MEDİNE",
+          "hint": "Hz. Muhammed'in hicret ettiği şehir."
+        },
+        {
+          "word": "HİCRET",
+          "hint": "Bir yerden başka bir yere göç etmek."
+        },
+        {
+          "word": "KURAN-I KERİM",
+          "hint": "Müslümanların kutsal kitabı."
+        },
+        {
+          "word": "PEYGAMBER",
+          "hint": "Allah'ın elçisi, nebisi."
+        },
+        {
+          "word": "HALİFE",
+          "hint": "Hz. Muhammed'den sonra Müslüman toplumunun lideri."
+        },
+        {
+          "word": "EMEVİLER",
+          "hint": "Dört Halife döneminden sonra kurulan Arap devleti."
+        },
+        {
+          "word": "ABBASİ",
+          "hint": "Emeviler'den sonra kurulan ve bilimle öne çıkan Arap devleti."
+        },
+        {
+          "word": "TÜRKİSTAN",
+          "hint": "Türklerin anayurdu olarak kabul edilen bölge."
+        },
+        {
+          "word": "TALAS",
+          "hint": "Türklerin İslamiyet ile tanışmasında önemli rol oynayan savaş."
+        },
+        {
+          "word": "KAĞIT",
+          "hint": "Talas Savaşı sonrası Türkler aracılığıyla yayılan icat."
+        },
+        {
+          "word": "SAMANOĞULLARI",
+          "hint": "Orta Asya'da İslamiyet'i yayan Türk devleti."
+        },
+        {
+          "word": "KARAHANLILAR",
+          "hint": "Türk tarihinde İslamiyet'i resmi din kabul eden ilk devlet."
+        },
+        {
+          "word": "GAZNELİLER",
+          "hint": "Hindistan'a yaptığı akınlarla tanınan Türk devleti."
+        },
+        {
+          "word": "BÜYÜK SELÇUKLU",
+          "hint": "Orta Asya'dan Anadolu'ya yayılan güçlü Türk-İslam devleti."
+        },
+        {
+          "word": "MALAZGİRT",
+          "hint": "Anadolu'nun kapılarını Türklere açan savaş."
+        },
+        {
+          "word": "ANADOLU",
+          "hint": "Türkiye'nin bulunduğu coğrafya."
+        },
+        {
+          "word": "UYGURLAR",
+          "hint": "Yerleşik hayata geçip Budizm ve Maniheizm'i benimseyen Türk topluluğu."
+        },
+        {
+          "word": "TÖRE",
+          "hint": "Eski Türklerde devlet ve toplum kuralları."
+        },
+        {
+          "word": "DİVAN",
+          "hint": "Selçuklu ve Osmanlı'da devlet işlerinin görüşüldüğü kurul."
+        },
+        {
+          "word": "GULAM",
+          "hint": "Saray hizmetinde bulunan köle asker."
+        },
+        {
+          "word": "NİZAMÜLMÜLK",
+          "hint": "Siyasetname eseriyle tanınan Büyük Selçuklu veziri."
+        },
+        {
+          "word": "AKKOYUNLU",
+          "hint": "Doğu Anadolu'da kurulmuş Türk devletlerinden biri."
+        },
+        {
+          "word": "KARAKOYUNLU",
+          "hint": "Akkoyunlulardan önce bölgede etkili olan Türk devleti."
+        },
+        {
+          "word": "MİRASI",
+          "hint": "Geçmişten gelen değerler, kültür."
+        },
+        {
+          "word": "DÖNÜŞÜM",
+          "hint": "Bir halden başka bir hale geçme."
+        },
+        {
+          "word": "ETKİLEŞİM",
+          "hint": "Birbirini karşılıklı olarak etkileme."
+        },
+        {
+          "word": "KİMLİK",
+          "hint": "Bir topluluğu veya kişiyi diğerlerinden ayıran özellikler."
+        },
+        {
+          "word": "DEĞERLER",
+          "hint": "Toplumca benimsenen, önemli görülen düşünceler."
+        },
+        {
+          "word": "SANAT",
+          "hint": "İnsanların duygularını, düşüncelerini estetik biçimde ifade etmesi."
+        },
+        {
+          "word": "MİMARİ",
+          "hint": "Yapıların tasarımı ve inşa edilmesi sanatı."
+        },
+        {
+          "word": "EDEBİYAT",
+          "hint": "Yazılı ve sözlü sanat eseri."
+        },
+        {
+          "word": "HUKUK",
+          "hint": "Toplumu düzenleyen kurallar bütünü."
+        },
+        {
+          "word": "BİLİM",
+          "hint": "Evreni ve olayları gözlem ve deneyle açıklama çabası."
+        }
+      ]
     }
   ]
 }

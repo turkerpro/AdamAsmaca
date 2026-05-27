@@ -2,10 +2,12 @@
   "units": [
     {
       "id": "biyoloji_u1",
-      "name": "1. Ünite: Kalıtım",
+      "name": "1. Ünite: Kalıtım ve Biyoçeşitlilik",
       "months": [
         9,
-        10
+        10,
+        11,
+        12
       ],
       "words": [
         {
@@ -37,7 +39,7 @@
           "hint": "Canlıların genetik yapısını oluşturan, çift sarmal şeklinde molekül."
         },
         {
-          "word": "Mİ̇TOZ",
+          "word": "MİTOZ",
           "hint": "Eşeyli ve eşeysiz üreyen canlılarda görülen, tek hücreliden çok hücreliye geçişi sağlayan hücre bölünmesi."
         },
         {
@@ -49,19 +51,19 @@
           "hint": "Kalıtımın babası olarak bilinen, bezelyelerle yaptığı deneylerle kalıtım yasalarını ortaya koyan bilim insanı."
         },
         {
-          "word": "DOMİ̇NANT",
+          "word": "DOMİNANT",
           "hint": "Bir karakterin ortaya çıkması için tek başına yeterli olan özellik."
         },
         {
-          "word": "RESESİ̇F",
+          "word": "RESESİF",
           "hint": "Bir karakterin ortaya çıkabilmesi için anneden ve babadan aynı gelmesi gereken, çekinik özellik."
         },
         {
-          "word": "HOMOZİ̇GOT",
+          "word": "HOMOZİGOT",
           "hint": "Bir karakter için aynı genleri taşıyan canlı."
         },
         {
-          "word": "HETEROZİ̇GOT",
+          "word": "HETEROZİGOT",
           "hint": "Bir karakter için farklı genleri taşıyan canlı."
         },
         {
@@ -69,11 +71,11 @@
           "hint": "Eşeyli üremenin temelini oluşturan, ana canlının genetik bilgisinin yarısını taşıyan üreme hücresi."
         },
         {
-          "word": "Sİ̇TOPLAZMA",
+          "word": "SİTOPLAZMA",
           "hint": "Hücre zarının içinde, organelleri çevreleyen sıvı kısım."
         },
         {
-          "word": "ÇEKİ̇RDEK",
+          "word": "ÇEKİRDEK",
           "hint": "Hücrenin yönetim merkezi, genetik materyali barındıran organel."
         },
         {
@@ -81,7 +83,7 @@
           "hint": "Bir genin farklı biçimlerinden her biri."
         },
         {
-          "word": "KARYOTİ̇P",
+          "word": "KARYOTİP",
           "hint": "Bir canlıdaki tüm kromozomların sayısı ve şekline göre düzenlenmiş hali."
         },
         {
@@ -89,7 +91,7 @@
           "hint": "Kromozomları oluşturan kardeş kromatitlerin birleştiği orta nokta."
         },
         {
-          "word": "KROMATİ̇T",
+          "word": "KROMATİT",
           "hint": "Hücre bölünmesi öncesinde oluşan, DNA'nın iki özdeş kopyasından her biri."
         },
         {
@@ -101,11 +103,11 @@
           "hint": "DNA veya RNA'daki üç nükleotitlik birim, bir amino asidi şifreler."
         },
         {
-          "word": "ANTİ̇KODON",
+          "word": "ANTİKODON",
           "hint": "Taşıyıcı RNA (tRNA) üzerindeki, mRNA'daki kodona bağlanan üç nükleotitlik kısım."
         },
         {
-          "word": "TRANSKRİ̇PSİ̇YON",
+          "word": "TRANSKRİPSİYON",
           "hint": "DNA'daki genetik bilginin RNA'ya aktarılması süreci."
         },
         {
@@ -113,15 +115,15 @@
           "hint": "RNA'daki genetik bilginin protein sentezinde kullanılması süreci."
         },
         {
-          "word": "PROTEİ̇N",
+          "word": "PROTEİN",
           "hint": "Amino asitlerden oluşan, canlı vücudunda pek çok görevi yerine getiren büyük molekül."
         },
         {
-          "word": "AMİ̇NOASİ̇T",
+          "word": "AMİNOASİT",
           "hint": "Proteinlerin yapı taşları."
         },
         {
-          "word": "ENZİ̇M",
+          "word": "ENZİM",
           "hint": "Biyolojik reaksiyonları hızlandıran protein yapılı molekül."
         },
         {
@@ -129,7 +131,7 @@
           "hint": "Bir olayın veya işlemin sonucu olarak ortaya çıkan şey."
         },
         {
-          "word": "ÖZELLİ̇K",
+          "word": "ÖZELLİK",
           "hint": "Bir canlının sahip olduğu belirgin nitelik veya durum."
         },
         {
@@ -137,15 +139,15 @@
           "hint": "Mendel'in bezelye deneylerinde kullandığı, farklı renklerde çiçek açan bir bitki."
         },
         {
-          "word": "BAĞLANTİ",
+          "word": "BAĞLANTI",
           "hint": "Genlerin aynı kromozom üzerinde bulunma durumu."
         },
         {
-          "word": "DOLAŞİM",
+          "word": "DOLAŞIM",
           "hint": "Kanın vücutta sürekli olarak dönmesi."
         },
         {
-          "word": "Sİ̇LGİ̇",
+          "word": "SİLGİ",
           "hint": "Yanlışları ortadan kaldırmak için kullanılan araç."
         },
         {
@@ -157,7 +159,7 @@
           "hint": "Bir olayın gerçekleşmesi için gerekli olan şart."
         },
         {
-          "word": "BAĞİMSİZLİK",
+          "word": "BAĞIMSIZLIK",
           "hint": "Genlerin farklı kromozomlar üzerinde bulunması ve kalıtımda birbirini etkilememesi durumu."
         },
         {
@@ -165,11 +167,11 @@
           "hint": "Verilerin düzenli bir şekilde gösterildiği çizelge."
         },
         {
-          "word": "ÇEKİ̇RDEKSİ̇",
+          "word": "ÇEKİRDEKSİ",
           "hint": "Çekirdeği olmayan hücre."
         },
         {
-          "word": "ÇEKİ̇RDEKLİ̇",
+          "word": "ÇEKİRDEKLİ",
           "hint": "Çekirdeği olan hücre."
         },
         {
@@ -185,19 +187,19 @@
           "hint": "İçinde bir şey olmayan, verili alan."
         },
         {
-          "word": "AKTARİM",
+          "word": "AKTARIM",
           "hint": "Bir yerden bir yere taşıma veya geçirme."
         },
         {
-          "word": "YAKİT",
+          "word": "YAKIT",
           "hint": "Enerji üreten madde."
         },
         {
-          "word": "DOLAŞİK",
+          "word": "DOLAŞIK",
           "hint": "Birbiri içine geçmiş, karışık."
         },
         {
-          "word": "DÜZENLİ̇",
+          "word": "DÜZENLİ",
           "hint": "Belirli bir sıraya göre, intizamlı."
         },
         {
@@ -205,7 +207,7 @@
           "hint": "Mendel'in kalıtım çalışmalarında kullandığı baklagil türü."
         },
         {
-          "word": "SEMOLİ̇NE",
+          "word": "SEMOLİNE",
           "hint": "İtalyan mutfağında makarnalık bulgur veya irmik."
         },
         {
@@ -213,17 +215,18 @@
           "hint": "Bir organizmanın dış görünüşünü veya biyokimyasal özelliklerini belirleyen kalıtsal özellik."
         },
         {
-          "word": "VERİ̇",
+          "word": "VERİ",
           "hint": "Bir olgu veya durum hakkında toplanan bilgi parçası."
         }
       ]
     },
     {
       "id": "biyoloji_u2",
-      "name": "2. Ünite: Evrim",
+      "name": "2. Ünite: Ekosistem Ekolojisi",
       "months": [
-        11,
-        12
+        1,
+        2,
+        3
       ],
       "words": [
         {
@@ -247,7 +250,7 @@
           "hint": "Aynı türdeki bireyler arasındaki kalıtsal farklılıklar"
         },
         {
-          "word": "KALİTİM",
+          "word": "KALITIM",
           "hint": "Anne babadan çocuğa geçen özellikler"
         },
         {
@@ -255,7 +258,7 @@
           "hint": "DNA'daki ani ve kalıcı değişiklik"
         },
         {
-          "word": "SELEKSİ̇YON",
+          "word": "SELEKSİYON",
           "hint": "Doğal veya yapay olarak bireylerin seçilmesi"
         },
         {
@@ -283,7 +286,7 @@
           "hint": "Bir türün veya canlının neslinin tükenmesi"
         },
         {
-          "word": "KANİT",
+          "word": "KANIT",
           "hint": "Bir olgunun doğruluğunu gösteren delil"
         },
         {
@@ -303,19 +306,19 @@
           "hint": "Dişi organın karşılığı olan eşey hücresi"
         },
         {
-          "word": "Dİ̇Şİ̇",
+          "word": "DİŞİ",
           "hint": "Erkek organın karşılığı olan eşey hücresi"
         },
         {
-          "word": "MAYOTİ̇K",
+          "word": "MAYOTİK",
           "hint": "Eşey hücrelerinin oluştuğu özel bölünme"
         },
         {
-          "word": "Mİ̇TOZ",
+          "word": "MİTOZ",
           "hint": "Vücut hücrelerinin bölünme şekli"
         },
         {
-          "word": "GENETİ̇K",
+          "word": "GENETİK",
           "hint": "Kalıtım bilimi"
         },
         {
@@ -323,11 +326,11 @@
           "hint": "Bir genin farklı versiyonları"
         },
         {
-          "word": "GENOTİ̇P",
+          "word": "GENOTİP",
           "hint": "Bir canlının genetik yapısı"
         },
         {
-          "word": "FENOTİ̇P",
+          "word": "FENOTİP",
           "hint": "Bir canlının dış görünüşü"
         },
         {
@@ -339,11 +342,11 @@
           "hint": "Kendiliğinden oluşan"
         },
         {
-          "word": "BASİNÇ",
+          "word": "BASINÇ",
           "hint": "Bir yüzeye uygulanan dik kuvvet"
         },
         {
-          "word": "SİCAKLİK",
+          "word": "SICAKLIK",
           "hint": "Ortamın ısı derecesi"
         },
         {
@@ -371,11 +374,11 @@
           "hint": "Canlıların belirli bölgelere veya uzaklara gitmesi"
         },
         {
-          "word": "Mİ̇GRASYON",
+          "word": "MİGRASYON",
           "hint": "Canlıların mevsimlere göre yer değiştirmesi"
         },
         {
-          "word": "TERKİ̇P",
+          "word": "TERKİP",
           "hint": "Bir şeyin oluştuğu öğeler bütünü"
         },
         {
@@ -399,15 +402,15 @@
           "hint": "Bir yapının birden fazla kola ayrılması"
         },
         {
-          "word": "İ̇LERLEME",
+          "word": "İLERLEME",
           "hint": "Gelişim gösterme, daha iyi duruma gelme"
         },
         {
-          "word": "GERİ̇LEME",
+          "word": "GERİLEME",
           "hint": "Gelişimini kaybetme, zayıflama"
         },
         {
-          "word": "TEKNOLOJİ̇",
+          "word": "TEKNOLOJİ",
           "hint": "Bilimsel bilgilerin kullanılarak yapılan ürünler"
         },
         {
@@ -415,11 +418,11 @@
           "hint": "Dünya üzerindeki etkileşimlerin artması"
         },
         {
-          "word": "EKOSİ̇STEM",
+          "word": "EKOSİSTEM",
           "hint": "Canlı ve cansız varlıkların oluşturduğu topluluk"
         },
         {
-          "word": "Bİ̇YOÇEŞİ̇TLİ̇Lİ̇K",
+          "word": "BİYOÇEŞİTLİLİK",
           "hint": "Bir bölgedeki canlı türlerinin zenginliği"
         },
         {
@@ -430,37 +433,218 @@
     },
     {
       "id": "biyoloji_u3",
-      "name": "3. Ünite: Hücre Bölünmeleri ve Üreme",
+      "name": "3. Ünite: Canlılar ve Çevre",
       "months": [
-        1,
-        2
-      ],
-      "words": []
-    },
-    {
-      "id": "biyoloji_u4",
-      "name": "4. Ünite: Kalıtımın Temel İlkeleri",
-      "months": [
-        3,
-        4
-      ],
-      "words": []
-    },
-    {
-      "id": "biyoloji_u5",
-      "name": "5. Ünite: Ekosistem Ekolojisi ve Çevre Sorunları",
-      "months": [
-        5
-      ],
-      "words": []
-    },
-    {
-      "id": "biyoloji_u6",
-      "name": "6. Ünite: Genden Proteine ve Canlılarda Enerji Dönüşümleri",
-      "months": [
+        4,
+        5,
         6
       ],
-      "words": []
+      "words": [
+        {
+          "word": "MİTOZ",
+          "hint": "Vücut hücrelerinde görülen eşeysiz üreme şekli."
+        },
+        {
+          "word": "MAYOZ",
+          "hint": "Eşey hücrelerinin oluştuğu özel hücre bölünmesi."
+        },
+        {
+          "word": "KROMOZOM",
+          "hint": "DNA'nın paketlenmiş hali, kalıtım materyalini taşır."
+        },
+        {
+          "word": "SENTROMER",
+          "hint": "Kardeş kromatitlerin bağlandığı orta kısım."
+        },
+        {
+          "word": "KİNETOKOR",
+          "hint": "Sentromere bağlı iğ ipliklerinin tutunduğu protein yapısı."
+        },
+        {
+          "word": "KROMATİT",
+          "hint": "Bir kromozomun bölünmeden önceki iki özdeş yarısı."
+        },
+        {
+          "word": "İĞ İPLİKLERİ",
+          "hint": "Hücre bölünmesi sırasında kromozomları çeken yapılar."
+        },
+        {
+          "word": "ANAFAZ",
+          "hint": "Kardeş kromatitlerin ayrıldığı mitoz evresi."
+        },
+        {
+          "word": "METAFAZ",
+          "hint": "Kromozomların hücre ortasında toplandığı evre."
+        },
+        {
+          "word": "PROFAZ",
+          "hint": "Kromatinin yoğunlaşıp kromozomların belirginleştiği ilk evre."
+        },
+        {
+          "word": "TELOFAZ",
+          "hint": "Çekirdek zarının yeniden oluştuğu ve sitoplazma bölünmesinin başladığı son evre."
+        },
+        {
+          "word": "SİTOKİNEZ",
+          "hint": "Hücre zarının içe doğru büzülerek veya ara lamel oluşumuyla hücrenin ikiye bölünmesi."
+        },
+        {
+          "word": "HÜCRE DÖNGÜSÜ",
+          "hint": "Bir hücrenin yaşamı boyunca geçirdiği evreler dizisi."
+        },
+        {
+          "word": "İNTERFAZ",
+          "hint": "Hücre bölünmesi öncesi hazırlık evresi."
+        },
+        {
+          "word": "G1 FAZI",
+          "hint": "Hücrenin büyüme ve protein sentezlediği interfaz dönemi."
+        },
+        {
+          "word": "S FAZI",
+          "hint": "DNA'nın eşlendiği interfaz dönemi."
+        },
+        {
+          "word": "G2 FAZI",
+          "hint": "Bölünme için gerekli proteinlerin sentezlendiği interfaz dönemi."
+        },
+        {
+          "word": "KANSER",
+          "hint": "Kontrolsüz hücre bölünmesi sonucu oluşan hastalık."
+        },
+        {
+          "word": "APOPTOSİS",
+          "hint": "Programlanmış hücre ölümü."
+        },
+        {
+          "word": "GENOM",
+          "hint": "Bir organizmanın sahip olduğu tüm genetik materyal."
+        },
+        {
+          "word": "DİPLOİD",
+          "hint": "Her kromozomdan iki takım içeren hücre yapısı (2n)."
+        },
+        {
+          "word": "HAPLOİD",
+          "hint": "Her kromozomdan tek takım içeren hücre yapısı (n)."
+        },
+        {
+          "word": "HOMOLOG KROMOZOM",
+          "hint": "Biri anneden diğeri babadan gelen, aynı genlere sahip kromozom çifti."
+        },
+        {
+          "word": "KROSSİNG OVER",
+          "hint": "Homolog kromozomlar arasında gen alışverişi."
+        },
+        {
+          "word": "MAYOZ İ",
+          "hint": "Homolog kromozomların ayrıldığı mayoz bölünmesi."
+        },
+        {
+          "word": "MAYOZ İİ",
+          "hint": "Kardeş kromatitlerin ayrıldığı mayoz bölünmesi (mitoza benzer)."
+        },
+        {
+          "word": "TETRAT",
+          "hint": "Dört kromatitten oluşan yapı (iki homolog kromozom)."
+        },
+        {
+          "word": "BİVALENT",
+          "hint": "Birbirine tutunmuş iki homolog kromozom."
+        },
+        {
+          "word": "GAMET",
+          "hint": "Eşey hücresi (sperm veya yumurta)."
+        },
+        {
+          "word": "ZİGOT",
+          "hint": "Döllenme sonucu oluşan ilk hücre."
+        },
+        {
+          "word": "SPERMATOGENEZ",
+          "hint": "Erkeklerde sperm oluşumu."
+        },
+        {
+          "word": "OOGENEZ",
+          "hint": "Dişilerde yumurta oluşumu."
+        },
+        {
+          "word": "İNTERFAZ",
+          "hint": "Hücre döngüsünün büyüme ve DNA replikasyonunun gerçekleştiği evresi."
+        },
+        {
+          "word": "MİTOS",
+          "hint": "Bir ana hücreden genetik olarak aynı iki yavru hücrenin oluştuğu bölünme."
+        },
+        {
+          "word": "KROMATİN",
+          "hint": "Hücre çekirdeğindeki DNA ve protein kompleksi."
+        },
+        {
+          "word": "SENTROZOM",
+          "hint": "Hayvan hücrelerinde iğ ipliklerinin oluşumunu başlatan organel."
+        },
+        {
+          "word": "MİKROTÜBÜL",
+          "hint": "İğ ipliklerini oluşturan hücre iskeleti elemanı."
+        },
+        {
+          "word": "DÖLLENME",
+          "hint": "Gametlerin birleşerek zigotu oluşturması."
+        },
+        {
+          "word": "EŞEYSİZ ÜREME",
+          "hint": "Tek bir atadan genetik çeşitlilik olmadan yeni bireylerin oluşması."
+        },
+        {
+          "word": "EŞEYLİ ÜREME",
+          "hint": "İki ata bireyin gametleri aracılığıyla genetik çeşitliliğin sağlanması."
+        },
+        {
+          "word": "VEGETATİF ÜREME",
+          "hint": "Bitkilerin kök, gövde veya yapraklarıyla üremesi."
+        },
+        {
+          "word": "PARTENOGENEZ",
+          "hint": "Döllenmemiş yumurtadan yeni bireyin oluşması."
+        },
+        {
+          "word": "TOMURCUKLANMA",
+          "hint": "Ana canlıdan küçük bir çıkıntının büyüyerek yeni birey oluşturması."
+        },
+        {
+          "word": "BÖLÜNME",
+          "hint": "Bir hücrenin iki veya daha fazla yavru hücreye ayrılması."
+        },
+        {
+          "word": "KLONLAMA",
+          "hint": "Genetik olarak ana birebir aynı yeni bireyler üretme."
+        },
+        {
+          "word": "MUTASYON",
+          "hint": "Genetik materyalde meydana gelen kalıcı değişiklik."
+        },
+        {
+          "word": "GENETİK ÇEŞİTLİLİK",
+          "hint": "Bir tür içindeki bireylerin genetik özelliklerinin farklılığı."
+        },
+        {
+          "word": "YAVRU HÜCRE",
+          "hint": "Bölünme sonucu oluşan yeni hücre."
+        },
+        {
+          "word": "ANA HÜCRE",
+          "hint": "Bölünen ilk hücre."
+        },
+        {
+          "word": "ARA LAMELL",
+          "hint": "Bitki hücrelerinde sitoplazma bölünmesinde yeni hücre duvarını oluşturan ilk yapı."
+        },
+        {
+          "word": "BOĞUMLANMA",
+          "hint": "Hayvan hücrelerinde sitoplazmanın ikiye ayrılması için hücre zarının içeri doğru çökmesi."
+        }
+      ]
     }
   ]
 }

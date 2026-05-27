@@ -2,7 +2,7 @@
   "units": [
     {
       "id": "matematik_u1",
-      "name": "1. Ünite: Çarpma",
+      "name": "1. Ünite: Doğal Sayılar",
       "months": [
         9,
         10
@@ -101,7 +101,7 @@
           "hint": "Çözülmesi gereken bir soru veya durum."
         },
         {
-          "word": "İ̇ŞLEM",
+          "word": "İŞLEM",
           "hint": "Bir problemi çözmek için yapılan adımlar veya matematiksel yöntemler."
         },
         {
@@ -173,7 +173,7 @@
           "hint": "Her seferinde bir tane artırarak veya azaltarak sayma."
         },
         {
-          "word": "İ̇KİŞER",
+          "word": "İKİŞER",
           "hint": "Her seferinde iki tane artırarak veya azaltarak sayma."
         },
         {
@@ -224,10 +224,9 @@
     },
     {
       "id": "matematik_u2",
-      "name": "2. Ünite: Bölme",
+      "name": "2. Ünite: Doğal Sayılarla Toplama İşlemi",
       "months": [
-        11,
-        12
+        11
       ],
       "words": [
         {
@@ -251,7 +250,7 @@
           "hint": "Bir bütünün ikiye bölünmüş parçası"
         },
         {
-          "word": "EŞİ̇T",
+          "word": "EŞİT",
           "hint": "Herkesin veya her grubun aynı miktarda olması durumu."
         },
         {
@@ -259,11 +258,11 @@
           "hint": "Benzer şeylerin bir araya gelerek oluşturduğu topluluk."
         },
         {
-          "word": "DAĞİTMA",
+          "word": "DAĞITMA",
           "hint": "Bir şeyi birkaç kişiye veya yere eşit olarak verme."
         },
         {
-          "word": "SAYİ",
+          "word": "SAYI",
           "hint": "Miktar belirtmek için kullandığımız işaretler veya sözcükler."
         },
         {
@@ -271,7 +270,7 @@
           "hint": "Dokunabildiğimiz, görebildiğimiz cansız varlık."
         },
         {
-          "word": "SİRA",
+          "word": "SIRA",
           "hint": "Bir çizgi halinde veya düzenli bir şekilde yan yana durma durumu."
         },
         {
@@ -295,7 +294,7 @@
           "hint": "Bir problemin veya sorunun cevabı."
         },
         {
-          "word": "İ̇ŞLEM",
+          "word": "İŞLEM",
           "hint": "Matematikte sayılarla yaptığımız toplama, çıkarma, çarpma gibi işlemlerin genel adı."
         },
         {
@@ -307,15 +306,15 @@
           "hint": "İki veya daha fazla sayıyı bir araya getirerek toplamını bulma işlemi."
         },
         {
-          "word": "ÇİKARMA",
+          "word": "ÇIKARMA",
           "hint": "Bir sayıdan başka bir sayıyı eksiltme, aradaki farkı bulma işlemi."
         },
         {
-          "word": "AYİRMA",
+          "word": "AYIRMA",
           "hint": "Bir bütünü parçalara bölme veya farklı gruplara dağıtma."
         },
         {
-          "word": "HERBİ̇R",
+          "word": "HERBİR",
           "hint": "Bir gruptaki tüm elemanların tek tek hepsi."
         },
         {
@@ -343,7 +342,7 @@
           "hint": "Küçük yaştaki insan."
         },
         {
-          "word": "ÖĞRENCİ̇",
+          "word": "ÖĞRENCİ",
           "hint": "Okula gidip ders çalışan kişi."
         },
         {
@@ -351,7 +350,7 @@
           "hint": "Çocuklara ders öğreten kişi."
         },
         {
-          "word": "EŞLEŞTİ̇RME",
+          "word": "EŞLEŞTİRME",
           "hint": "Birbirine uyan şeyleri bir araya getirme."
         },
         {
@@ -371,7 +370,7 @@
           "hint": "Her defasında on tane ekleyerek veya çıkararak ilerleme."
         },
         {
-          "word": "İ̇Kİ̇ŞER",
+          "word": "İKİŞER",
           "hint": "Her defasında iki tane ekleyerek veya çıkararak ilerleme."
         },
         {
@@ -391,7 +390,7 @@
           "hint": "On tane aynı şeyin bir araya gelmesiyle oluşan grup."
         },
         {
-          "word": "DÜZİ̇NE",
+          "word": "DÜZİNE",
           "hint": "On iki tane aynı şeyin bir araya gelmesiyle oluşan grup."
         },
         {
@@ -407,15 +406,15 @@
           "hint": "Bir şeyin ne kadar uzun olduğunu gösteren ölçü."
         },
         {
-          "word": "AĞİRLİK",
+          "word": "AĞIRLIK",
           "hint": "Bir şeyin ne kadar ağır olduğunu gösteren ölçü."
         },
         {
-          "word": "KAPASİ̇TE",
+          "word": "KAPASİTE",
           "hint": "Bir kabın ne kadar sıvı veya nesne alabildiği."
         },
         {
-          "word": "Çİ̇FT",
+          "word": "ÇİFT",
           "hint": "İki aynı şeyin bir araya gelmesi veya ikiye bölünebilen sayılar."
         },
         {
@@ -423,15 +422,15 @@
           "hint": "İkiye tam olarak bölünemeyen sayılar."
         },
         {
-          "word": "AYNİ",
+          "word": "AYNI",
           "hint": "Birbirine benzeyen, farklı olmayan."
         },
         {
-          "word": "FARKLİ",
+          "word": "FARKLI",
           "hint": "Birbirinden ayrılan, benzemeyen."
         },
         {
-          "word": "SAYİ DOĞRUSU",
+          "word": "SAYI DOĞRUSU",
           "hint": "Sayıların düzenli bir şekilde sıralandığı düz çizgi."
         },
         {
@@ -447,44 +446,1409 @@
           "hint": "Yanlış olmayan, gerçeğe uygun olan."
         },
         {
-          "word": "YANLİŞ",
+          "word": "YANLIŞ",
           "hint": "Doğru olmayan, hata içeren."
         }
       ]
     },
     {
       "id": "matematik_u3",
-      "name": "3. Ünite: Ondalık Gösterim ve Oran",
+      "name": "3. Ünite: Doğal Sayılarla Çıkarma İşlemi",
       "months": [
-        1,
-        2
+        12
       ],
-      "words": []
+      "words": [
+        {
+          "word": "YARIM",
+          "hint": "Bir bütünü ikiye bölmekle oluşan kısım."
+        },
+        {
+          "word": "ÇEYREK",
+          "hint": "Bir bütünü dörde bölmekle oluşan kısım."
+        },
+        {
+          "word": "BÜTÜN",
+          "hint": "Hiç ayrılmamış, tam olan şey."
+        },
+        {
+          "word": "PARÇA",
+          "hint": "Bütünden ayrılmış küçük bir kısım."
+        },
+        {
+          "word": "EŞİT",
+          "hint": "Aynı büyüklükte veya sayıda olmak."
+        },
+        {
+          "word": "BÖLMEK",
+          "hint": "Bir şeyi gruplara veya kısımlara ayırmak."
+        },
+        {
+          "word": "BİRLEŞTİRMEK",
+          "hint": "Parçaları bir araya getirmek."
+        },
+        {
+          "word": "DİLİM",
+          "hint": "Kesilmiş ince bir yiyecek parçası."
+        },
+        {
+          "word": "TAM",
+          "hint": "Eksiksiz, hiçbir yeri noksan olmayan."
+        },
+        {
+          "word": "FAZLA",
+          "hint": "Daha çok, gerekenden çok olan."
+        },
+        {
+          "word": "EKSİK",
+          "hint": "Daha az, gerekenden az olan."
+        },
+        {
+          "word": "AYNI",
+          "hint": "Hiçbir farkı olmayan, benzer."
+        },
+        {
+          "word": "FARKLI",
+          "hint": "Aynı olmayan, başka."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Bir araya gelmiş nesneler veya kişiler topluluğu."
+        },
+        {
+          "word": "SIRA",
+          "hint": "Nesnelerin veya kişilerin art arda dizilişi."
+        },
+        {
+          "word": "ÇİFT",
+          "hint": "İki tane olan veya ikiye bölünebilen."
+        },
+        {
+          "word": "TEK",
+          "hint": "Bir tane olan veya ikiye bölünemeyen."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Hepsini bir araya getirince oluşan miktar."
+        },
+        {
+          "word": "AYIRMAK",
+          "hint": "Bir şeyi başka bir şeyden ayrı tutmak."
+        },
+        {
+          "word": "KERE",
+          "hint": "Bir eylemin kaç defa tekrarlandığı."
+        },
+        {
+          "word": "KAT",
+          "hint": "Bir sayının belirli sayıda tekrarı (ör: iki katı)."
+        },
+        {
+          "word": "BÜYÜKLÜK",
+          "hint": "Bir şeyin ne kadar büyük olduğu."
+        },
+        {
+          "word": "KÜÇÜKLÜK",
+          "hint": "Bir şeyin ne kadar küçük olduğu."
+        },
+        {
+          "word": "UZUN",
+          "hint": "Boyu çok olan, uzun mesafeli."
+        },
+        {
+          "word": "KISA",
+          "hint": "Boyu az olan, kısa mesafeli."
+        },
+        {
+          "word": "AĞIR",
+          "hint": "Tartıldığında çok gelen."
+        },
+        {
+          "word": "HAFİF",
+          "hint": "Tartıldığında az gelen."
+        },
+        {
+          "word": "ÖLÇÜ",
+          "hint": "Bir şeyin miktarını veya boyutunu bulma."
+        },
+        {
+          "word": "MİKTAR",
+          "hint": "Bir şeyin ne kadar olduğu."
+        },
+        {
+          "word": "DENGE",
+          "hint": "İki tarafın eşit olması durumu."
+        },
+        {
+          "word": "TARTI",
+          "hint": "Ağırlık ölçmeye yarayan alet."
+        },
+        {
+          "word": "HESAP",
+          "hint": "Sayılarla yapılan işlemler."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Bir sorunun veya problemin doğru cevabı."
+        },
+        {
+          "word": "SIRALAMAK",
+          "hint": "Nesneleri belli bir düzene koymak."
+        },
+        {
+          "word": "AZDAN ÇOĞA",
+          "hint": "En az olandan başlayıp artırarak."
+        },
+        {
+          "word": "ÇOKTAN AZA",
+          "hint": "En çok olandan başlayıp azaltarak."
+        },
+        {
+          "word": "HER",
+          "hint": "Bütün, hepsi, teker teker."
+        },
+        {
+          "word": "BAZI",
+          "hint": "Bir kısmı, hepsi değil."
+        },
+        {
+          "word": "HİÇ",
+          "hint": "Yok, sıfır."
+        },
+        {
+          "word": "SAYMAK",
+          "hint": "Nesnelerin adedini bulmak."
+        },
+        {
+          "word": "SAYI",
+          "hint": "Nesneleri sayarken kullandığımız işaret."
+        },
+        {
+          "word": "RAKAM",
+          "hint": "Sayıları yazmak için kullandığımız işaretler (0, 1, 2...)."
+        },
+        {
+          "word": "ARTIRMAK",
+          "hint": "Bir şeyin miktarını çoğaltmak."
+        },
+        {
+          "word": "AZALTMAK",
+          "hint": "Bir şeyin miktarını düşürmek."
+        },
+        {
+          "word": "DAĞITMAK",
+          "hint": "Nesneleri gruplara ayırıp vermek."
+        },
+        {
+          "word": "PAYLAŞMAK",
+          "hint": "Bir şeyi başkalarıyla bölüşmek."
+        },
+        {
+          "word": "TANE",
+          "hint": "Nesnelerin sayısını belirtirken kullanılan kelime."
+        },
+        {
+          "word": "BÖLÜNMEK",
+          "hint": "Bir şeyin parçalara ayrılması."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki şey arasındaki ilişki veya karşılaştırma."
+        },
+        {
+          "word": "ONLUK",
+          "hint": "Onar onar gruplama veya on tane birlik."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Tek tek nesneler veya bir basamağın değeri."
+        },
+        {
+          "word": "BASAMAK",
+          "hint": "Bir sayının içindeki rakamın yeri (birler, onlar, yüzler)."
+        },
+        {
+          "word": "YUVARLAMAK",
+          "hint": "Sayımızı en yakın onluğa yaklaştırmak."
+        },
+        {
+          "word": "ÇARPMA",
+          "hint": "Aynı sayıyı tekrar tekrar toplama işlemi."
+        },
+        {
+          "word": "BÖLME",
+          "hint": "Bir şeyi eşit parçalara ayırma işlemi."
+        },
+        {
+          "word": "ÇİFT SAYI",
+          "hint": "İkiye tam bölünebilen sayılar (2, 4, 6 gibi)."
+        },
+        {
+          "word": "TEK SAYI",
+          "hint": "İkiye tam bölünemeyen sayılar (1, 3, 5 gibi)."
+        }
+      ]
     },
     {
       "id": "matematik_u4",
-      "name": "4. Ünite: Cebirsel İfadeler ve Veri Analizi",
+      "name": "4. Ünite: Geometrik Cisimler ve Şekiller",
       "months": [
-        3
+        1
       ],
-      "words": []
+      "words": [
+        {
+          "word": "VERİ",
+          "hint": "Bilgi topladığımız şeyler."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Bilgileri düzenli gösterdiğimiz kutular."
+        },
+        {
+          "word": "GRAFİK",
+          "hint": "Bilgileri resimlerle veya çubuklarla gösterme yolu."
+        },
+        {
+          "word": "ÇETELE",
+          "hint": "Bilgi sayarken attığımız çizgiler."
+        },
+        {
+          "word": "SÜTUN",
+          "hint": "Grafikte yukarı doğru uzayan uzun çizgi veya kutu."
+        },
+        {
+          "word": "SATIR",
+          "hint": "Tabloda soldan sağa giden yatay çizgi veya kutu."
+        },
+        {
+          "word": "BAŞLIK",
+          "hint": "Tablo veya grafiğin ne hakkında olduğunu söyleyen yazı."
+        },
+        {
+          "word": "EKSEN",
+          "hint": "Grafikte sayıları veya isimleri gösteren ana çizgi."
+        },
+        {
+          "word": "EN ÇOK",
+          "hint": "Bir grupta sayısı en fazla olan şey."
+        },
+        {
+          "word": "EN AZ",
+          "hint": "Bir grupta sayısı en düşük olan şey."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Her şeyi bir araya getirdiğimizde çıkan sayı."
+        },
+        {
+          "word": "FARK",
+          "hint": "İki sayı arasındaki büyüklük farkı."
+        },
+        {
+          "word": "ÖRÜNTÜ",
+          "hint": "Birbirini takip eden, tekrar eden diziliş."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Örüntüyü nasıl yaptığımızı anlatan şey."
+        },
+        {
+          "word": "SIRA",
+          "hint": "Nesnelerin veya sayıların belirli bir düzenle dizilmesi."
+        },
+        {
+          "word": "ARTIŞ",
+          "hint": "Sayıların veya miktarın büyümesi."
+        },
+        {
+          "word": "AZALIŞ",
+          "hint": "Sayıların veya miktarın küçülmesi."
+        },
+        {
+          "word": "TEKRAR",
+          "hint": "Bir şeyin aynısını yeniden yapmak."
+        },
+        {
+          "word": "EKSİK",
+          "hint": "Bir şeyin tamamlanması için gereken parça veya sayı."
+        },
+        {
+          "word": "TAHMİN",
+          "hint": "Bir şeyin ne olabileceğini önceden düşünmek."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir işlemden veya durumdan sonra çıkan durum."
+        },
+        {
+          "word": "PROBLEM",
+          "hint": "Çözmemiz gereken bir soru veya durum."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Problemin cevabı veya onu bulma yolu."
+        },
+        {
+          "word": "SAYI",
+          "hint": "Nesneleri saymak için kullandığımız işaretler."
+        },
+        {
+          "word": "RAKAM",
+          "hint": "Sayıları yazmak için kullandığımız işaretler (0, 1, 2, ...)."
+        },
+        {
+          "word": "İŞLEM",
+          "hint": "Toplama, çıkarma gibi matematiksel eylemler."
+        },
+        {
+          "word": "EŞİT",
+          "hint": "İki şeyin aynı değerde veya miktarda olması."
+        },
+        {
+          "word": "FAZLA",
+          "hint": "Bir şeyin diğerinden daha çok olması."
+        },
+        {
+          "word": "AZ",
+          "hint": "Bir şeyin diğerinden daha az olması."
+        },
+        {
+          "word": "KARŞILAŞTIRMA",
+          "hint": "İki şeyi birbirine benzetme veya farklılıklarını bulma."
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "Öğrendiğimiz veya topladığımız gerçekler."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir şeyi dikkatle izleyerek bilgi toplama."
+        },
+        {
+          "word": "LİSTE",
+          "hint": "Bilgileri alt alta yazarak sıralama."
+        },
+        {
+          "word": "KATEGORİ",
+          "hint": "Benzer şeyleri bir araya getirdiğimiz grup."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Bir araya gelmiş insanlar veya nesneler."
+        },
+        {
+          "word": "PİKTOGRAF",
+          "hint": "Bilgileri resimlerle gösteren grafik türü."
+        },
+        {
+          "word": "ÇUBUK GRAFİK",
+          "hint": "Bilgileri uzun çubuklarla gösteren grafik."
+        },
+        {
+          "word": "SIKLIK",
+          "hint": "Bir şeyin ne kadar tekrar ettiğini gösteren sayı."
+        },
+        {
+          "word": "OLASI",
+          "hint": "Bir şeyin gerçekleşme ihtimali olması."
+        },
+        {
+          "word": "KESİN",
+          "hint": "Bir şeyin mutlaka olacağını bildiğimiz durum."
+        },
+        {
+          "word": "İMKANSIZ",
+          "hint": "Bir şeyin asla gerçekleşmeyeceği durum."
+        },
+        {
+          "word": "ŞANS",
+          "hint": "Bir olayın olma ihtimali."
+        },
+        {
+          "word": "DAHA OLASI",
+          "hint": "Bir şeyin diğerine göre olma ihtimalinin yüksek olması."
+        },
+        {
+          "word": "DAHA AZ OLASI",
+          "hint": "Bir şeyin diğerine göre olma ihtimalinin düşük olması."
+        },
+        {
+          "word": "MOD",
+          "hint": "Bir veri grubunda en çok tekrar eden değer."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Bir bilgi veya grafikten ne anladığımızı söyleme."
+        },
+        {
+          "word": "KARAR",
+          "hint": "Bir durum hakkında ne yapacağımıza dair seçim."
+        },
+        {
+          "word": "ÖNEMLİ",
+          "hint": "Bilginin ne kadar değerli veya gerekli olduğu."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "Bir bilginin veya cevabın hatasız olması."
+        },
+        {
+          "word": "YANLIŞ",
+          "hint": "Bir bilginin veya cevabın hatalı olması."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Bir şeyin daha küçük veya basit hali."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Bir yüzeyde veya şekilde tekrar eden düzen."
+        },
+        {
+          "word": "GÖRSEL",
+          "hint": "Gözümüzle gördüğümüz bir şey."
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Bir şeyi temsil eden işaret veya resim."
+        },
+        {
+          "word": "YERLEŞTİRME",
+          "hint": "Nesneleri belirli bir yere koyma."
+        },
+        {
+          "word": "DEĞİŞKEN (BASİT ANLAMDA)",
+          "hint": "Yerine farklı sayıların gelebileceği boşluk veya sembol (örn: 3 + ? = 5)."
+        }
+      ]
     },
     {
       "id": "matematik_u5",
-      "name": "5. Ünite: Açılar ve Alan Ölçme",
+      "name": "5. Ünite: Uzamsal İlişkiler",
       "months": [
-        4,
-        5
+        2
       ],
-      "words": []
+      "words": [
+        {
+          "word": "AÇI",
+          "hint": "İki çizginin birleştiği yerde oluşan açıklık."
+        },
+        {
+          "word": "KÖŞE",
+          "hint": "Bir şeklin iki kenarının buluştuğu nokta."
+        },
+        {
+          "word": "KENAR",
+          "hint": "Bir şeklin dış çizgisi."
+        },
+        {
+          "word": "ŞEKİL",
+          "hint": "Çizdiğimiz veya gördüğümüz cisimlerin dış görünüşü."
+        },
+        {
+          "word": "DÜZLEM",
+          "hint": "Düz ve geniş bir yüzey, mesela masa üstü."
+        },
+        {
+          "word": "DOĞRU",
+          "hint": "İki ucu olmayan, hiç bükülmeyen çizgi."
+        },
+        {
+          "word": "IŞIN",
+          "hint": "Bir ucu kapalı, diğer ucu açık uzayan çizgi."
+        },
+        {
+          "word": "NOKTA",
+          "hint": "Kalemimizin kağıtta bıraktığı küçük iz."
+        },
+        {
+          "word": "DİK AÇI",
+          "hint": "L harfine benzeyen, köşesi düzgün açı."
+        },
+        {
+          "word": "DAR AÇI",
+          "hint": "Küçük ve kapalı görünen açı."
+        },
+        {
+          "word": "GENİŞ AÇI",
+          "hint": "Büyük ve açık görünen açı."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir yerin veya yüzeyin kapladığı boşluk."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Bir nesnenin dış kısmı, dokunduğumuz yer."
+        },
+        {
+          "word": "KAPLAMA",
+          "hint": "Bir yeri tamamen örtme işi."
+        },
+        {
+          "word": "ÖLÇME",
+          "hint": "Bir şeyin ne kadar olduğunu bulma."
+        },
+        {
+          "word": "BİRİM",
+          "hint": "Ölçmek için kullandığımız küçük parça."
+        },
+        {
+          "word": "KARE",
+          "hint": "Dört kenarı ve tüm açıları eşit olan şekil."
+        },
+        {
+          "word": "DİKDÖRTGEN",
+          "hint": "Karşılıklı kenarları eşit olan ve köşeleri dik olan şekil."
+        },
+        {
+          "word": "ÜÇGEN",
+          "hint": "Üç kenarı ve üç köşesi olan şekil."
+        },
+        {
+          "word": "ÇEMBER",
+          "hint": "Kenarı ve köşesi olmayan yuvarlak çizgi."
+        },
+        {
+          "word": "DAİRE",
+          "hint": "İçini doldurabildiğimiz yuvarlak şekil."
+        },
+        {
+          "word": "SAYMA",
+          "hint": "Nesneleri teker teker adlandırma."
+        },
+        {
+          "word": "BİRİM KARE",
+          "hint": "Alan ölçmek için kullandığımız küçük kare parça."
+        },
+        {
+          "word": "TARAMA",
+          "hint": "Bir alanı çizgilerle veya renklerle doldurma."
+        },
+        {
+          "word": "BÜYÜKLÜK",
+          "hint": "Bir şeyin ne kadar büyük veya küçük olduğu."
+        },
+        {
+          "word": "KÜÇÜKLÜK",
+          "hint": "Bir şeyin ne kadar küçük olduğu."
+        },
+        {
+          "word": "KARŞILAŞTIRMA",
+          "hint": "İki şeyi birbirine benzetme veya farkını bulma."
+        },
+        {
+          "word": "EŞİT",
+          "hint": "Birbirine aynı olan, eşit büyüklükte."
+        },
+        {
+          "word": "FARKLI",
+          "hint": "Birbirine benzemeyen."
+        },
+        {
+          "word": "TAHMİN",
+          "hint": "Bir şeyin ne kadar olabileceğini kabaca söyleme."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Bir şeklin etrafındaki uzunluk."
+        },
+        {
+          "word": "İÇ",
+          "hint": "Bir şeklin veya nesnenin ortası."
+        },
+        {
+          "word": "DIŞ",
+          "hint": "Bir şeklin veya nesnenin dışı."
+        },
+        {
+          "word": "BOŞLUK",
+          "hint": "Hiçbir şeyin olmadığı yer."
+        },
+        {
+          "word": "DOLDURMA",
+          "hint": "Boş bir yeri bir şeylerle kaplama."
+        },
+        {
+          "word": "BİRLEŞME",
+          "hint": "İki veya daha fazla şeyin bir araya gelmesi."
+        },
+        {
+          "word": "AYIRMA",
+          "hint": "Bir şeyi parçalara bölme."
+        },
+        {
+          "word": "PARÇA",
+          "hint": "Bir bütünün küçük bir kısmı."
+        },
+        {
+          "word": "BÜTÜN",
+          "hint": "Hiçbir parçası eksik olmayan şey."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Tekrarlayan şekiller veya çizgiler."
+        },
+        {
+          "word": "ÖRÜNTÜ",
+          "hint": "Düzenli bir şekilde tekrarlayan sıralama."
+        },
+        {
+          "word": "ZEMİN",
+          "hint": "Bir şeyin üstüne konulduğu veya çizildiği yer, taban."
+        },
+        {
+          "word": "YÖN",
+          "hint": "Bir şeyin ne tarafa doğru olduğu."
+        },
+        {
+          "word": "DÖNME",
+          "hint": "Bir nokta etrafında hareket etme."
+        },
+        {
+          "word": "SABİT",
+          "hint": "Yerinden oynamayan, değişmeyen."
+        },
+        {
+          "word": "AÇIKLIK",
+          "hint": "İki şey arasındaki boşluk."
+        },
+        {
+          "word": "KAPALILIK",
+          "hint": "Bir şeyin etrafının çevrilmiş olması."
+        },
+        {
+          "word": "UZUNLUK",
+          "hint": "Bir şeyin ne kadar uzun olduğu."
+        },
+        {
+          "word": "GENİŞLİK",
+          "hint": "Bir şeyin ne kadar geniş olduğu."
+        },
+        {
+          "word": "YÜKSEKLİK",
+          "hint": "Bir şeyin ne kadar yüksek olduğu."
+        },
+        {
+          "word": "KESME",
+          "hint": "Bir şeyi parçalara ayırmak için makas kullanmak gibi."
+        },
+        {
+          "word": "YAPIŞTIRMA",
+          "hint": "İki şeyi birbirine tutturmak."
+        },
+        {
+          "word": "BÜYÜTME",
+          "hint": "Bir şeyin boyutunu artırma."
+        },
+        {
+          "word": "KÜÇÜLTME",
+          "hint": "Bir şeyin boyutunu azaltma."
+        },
+        {
+          "word": "ÜST ÜSTE",
+          "hint": "Bir şeyin diğerinin üzerine konulması."
+        },
+        {
+          "word": "YAN YANA",
+          "hint": "İki şeyin birbirinin yanında durması."
+        },
+        {
+          "word": "TAM",
+          "hint": "Hiç eksik olmayan, bütünüyle."
+        },
+        {
+          "word": "YARIM",
+          "hint": "Bir bütünün iki eşit parçasından biri."
+        },
+        {
+          "word": "ÇEYREK",
+          "hint": "Bir bütünün dört eşit parçasından biri."
+        },
+        {
+          "word": "ÖRTÜŞMEK",
+          "hint": "İki şeyin birbirini tam olarak kaplaması."
+        }
+      ]
     },
     {
       "id": "matematik_u6",
-      "name": "6. Ünite: Çember ve Geometrik Cisimler",
+      "name": "6. Ünite: Ölçme",
       "months": [
-        6
+        3,
+        4
       ],
-      "words": []
+      "words": [
+        {
+          "word": "KARE",
+          "hint": "Dört eşit kenarı ve dört köşesi olan düz şekil."
+        },
+        {
+          "word": "ÜÇGEN",
+          "hint": "Üç kenarı ve üç köşesi olan bir şekil."
+        },
+        {
+          "word": "ÇEMBER",
+          "hint": "Köşesi olmayan, yuvarlak, içi boş bir çizgi."
+        },
+        {
+          "word": "DİKDÖRTGEN",
+          "hint": "Karşılıklı kenarları eşit olan düz bir şekil."
+        },
+        {
+          "word": "DAİRE",
+          "hint": "Çemberin içini doldurduğumuzda oluşan yuvarlak şekil."
+        },
+        {
+          "word": "KÖŞE",
+          "hint": "İki kenarın veya çizginin birleştiği yer."
+        },
+        {
+          "word": "KENAR",
+          "hint": "Bir şeklin dışındaki düz çizgi."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Bir cismin dışındaki düz veya eğri kısım."
+        },
+        {
+          "word": "KÜP",
+          "hint": "Her yanı kare olan, zar gibi üç boyutlu cisim."
+        },
+        {
+          "word": "SİLİNDİR",
+          "hint": "Üstü ve altı daire olan, yuvarlanabilen kutu gibi cisim."
+        },
+        {
+          "word": "KÜRE",
+          "hint": "Top gibi her yanı yuvarlak olan üç boyutlu cisim."
+        },
+        {
+          "word": "PİRAMİT",
+          "hint": "Tabanı çokgen, yanları üçgen olan, Mısır'daki gibi cisim."
+        },
+        {
+          "word": "KONİ",
+          "hint": "Dondurma külahı veya şapka gibi sivri ucu olan cisim."
+        },
+        {
+          "word": "PRİZMA",
+          "hint": "Düz yüzleri olan, bir kutuya benzeyen üç boyutlu cisim."
+        },
+        {
+          "word": "DÜZ",
+          "hint": "Eğimi olmayan, pürüzsüz ve gergin."
+        },
+        {
+          "word": "EĞRİ",
+          "hint": "Düz olmayan, kavisli veya bükük çizgi."
+        },
+        {
+          "word": "YUVARLAK",
+          "hint": "Top veya daire gibi şekli olan."
+        },
+        {
+          "word": "SİVRİ",
+          "hint": "Ucu ince ve keskin olan."
+        },
+        {
+          "word": "TEKERLEK",
+          "hint": "Arabanın dönen, yuvarlak parçası."
+        },
+        {
+          "word": "ZAR",
+          "hint": "Oyunlarda atılan, küp şeklinde sayıları olan küçük cisim."
+        },
+        {
+          "word": "KUTU",
+          "hint": "Eşyaları koyduğumuz, genellikle dikdörtgen prizma şeklindeki yer."
+        },
+        {
+          "word": "TOP",
+          "hint": "Oynadığımız, küre şeklindeki oyun aracı."
+        },
+        {
+          "word": "BORU",
+          "hint": "İçinden sıvı geçen, silindir şeklindeki uzun parça."
+        },
+        {
+          "word": "DİLİM",
+          "hint": "Bir bütünden kesilmiş küçük parça, pizza dilimi gibi."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Bir şeklin dış sınırı, etrafı."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir şeklin kapladığı iç kısım, yüzeyin büyüklüğü."
+        },
+        {
+          "word": "DÖNME",
+          "hint": "Bir şeyin kendi etrafında hareket etmesi."
+        },
+        {
+          "word": "KAYMA",
+          "hint": "Düz bir yüzeyde sürtünerek ilerleme."
+        },
+        {
+          "word": "YUVARLANMA",
+          "hint": "Eğri bir yüzeyde dönerek ilerleme."
+        },
+        {
+          "word": "ÜST ÜSTE",
+          "hint": "Nesnelerin birbiri üzerine konulması durumu."
+        },
+        {
+          "word": "ÖN",
+          "hint": "Bir şeyin sana bakan veya ileride olan tarafı."
+        },
+        {
+          "word": "ARKA",
+          "hint": "Bir şeyin geride kalan veya ters tarafı."
+        },
+        {
+          "word": "YAN",
+          "hint": "Bir şeyin sağ veya sol tarafı."
+        },
+        {
+          "word": "ALT",
+          "hint": "Bir şeyin yere yakın olan veya en dip kısmı."
+        },
+        {
+          "word": "ÜST",
+          "hint": "Bir şeyin en yüksek veya en tepedeki kısmı."
+        },
+        {
+          "word": "ŞEKİL",
+          "hint": "Bir nesnenin dış görünüşü, biçimi."
+        },
+        {
+          "word": "CİSİM",
+          "hint": "Dokunulabilen ve yer kaplayan her şey."
+        },
+        {
+          "word": "DÜZLEM",
+          "hint": "Tamamen düz olan bir yüzey."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Tekrarlayan şekillerle yapılan süsleme."
+        },
+        {
+          "word": "SİMETRİ",
+          "hint": "Bir şeklin iki yarısının birbirinin aynısı olması."
+        },
+        {
+          "word": "EŞİT",
+          "hint": "Aynı büyüklükte, sayıda veya değerde olma."
+        },
+        {
+          "word": "BÜYÜK",
+          "hint": "Normalden daha geniş veya uzun."
+        },
+        {
+          "word": "KÜÇÜK",
+          "hint": "Normalden daha dar veya kısa."
+        },
+        {
+          "word": "UZUN",
+          "hint": "İki ucu arasında çok mesafe olan."
+        },
+        {
+          "word": "KISA",
+          "hint": "İki ucu arasında az mesafe olan."
+        },
+        {
+          "word": "GENİŞ",
+          "hint": "İki yanı arasında çok boşluk olan."
+        },
+        {
+          "word": "DAR",
+          "hint": "İki yanı arasında az boşluk olan."
+        },
+        {
+          "word": "ÇİZGİ",
+          "hint": "İki nokta arasındaki düz veya eğri yol."
+        },
+        {
+          "word": "NOKTA",
+          "hint": "Çok küçük bir yer belirten işaret."
+        },
+        {
+          "word": "AÇI",
+          "hint": "İki çizginin birleştiği yerdeki açıklık."
+        },
+        {
+          "word": "MAKET",
+          "hint": "Bir şeyin küçültülmüş modeli veya kopyası."
+        },
+        {
+          "word": "YAPI",
+          "hint": "Bir araya getirilmiş parçalardan oluşan şey, bina gibi."
+        },
+        {
+          "word": "İSKELET",
+          "hint": "Bir cismin veya yapının temel çerçevesi."
+        },
+        {
+          "word": "KARTON",
+          "hint": "Kalın ve sert kağıt, kutular yapılır."
+        },
+        {
+          "word": "YAPIŞTIRICI",
+          "hint": "Nesneleri birbirine tutturmak için kullanılan madde."
+        },
+        {
+          "word": "DİŞ",
+          "hint": "Bir şeyin çevresindeki alan."
+        },
+        {
+          "word": "İÇ",
+          "hint": "Bir şeyin çevrili alanı."
+        },
+        {
+          "word": "BENZER",
+          "hint": "Birbirine çok benzeyen, aynı olmayan."
+        },
+        {
+          "word": "FARKLI",
+          "hint": "Birbirine hiç benzemeyen, ayrı."
+        },
+        {
+          "word": "ŞEFFAF",
+          "hint": "Işığı geçiren, içini gösteren, cam gibi."
+        },
+        {
+          "word": "OPAK",
+          "hint": "Işığı geçirmeyen, içini göstermeyen."
+        }
+      ]
+    },
+    {
+      "id": "matematik_u7",
+      "name": "7. Ünite: Çarpma ve Bölme İşlemi",
+      "months": [
+        5
+      ],
+      "words": [
+        {
+          "word": "ÇARPMA",
+          "hint": "Aynı sayıyı tekrar tekrar toplama işlemi."
+        },
+        {
+          "word": "BÖLME",
+          "hint": "Bir bütünü eşit parçalara ayırma işlemi."
+        },
+        {
+          "word": "ÇARPAN",
+          "hint": "Çarpma işlemindeki sayılardan her biri."
+        },
+        {
+          "word": "ÇARPIM",
+          "hint": "Çarpma işleminin sonucu."
+        },
+        {
+          "word": "BÖLÜNEN",
+          "hint": "Bölme işleminde eşit parçalara ayrılan sayı."
+        },
+        {
+          "word": "BÖLEN",
+          "hint": "Bölme işleminde bir sayıyı kaça böldüğümüzü gösteren sayı."
+        },
+        {
+          "word": "BÖLÜM",
+          "hint": "Bölme işleminin sonucu."
+        },
+        {
+          "word": "KALAN",
+          "hint": "Bölme işleminde eşit olarak paylaştırılamayan kısım."
+        },
+        {
+          "word": "KAT",
+          "hint": "Bir sayının belirli sayıda çoğaltılmış hali."
+        },
+        {
+          "word": "TEKRAR",
+          "hint": "Bir şeyi birden fazla kez yapma."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Birlikte olan nesneler veya kişiler topluluğu."
+        },
+        {
+          "word": "EŞİT",
+          "hint": "Aynı büyüklükte veya değerde olma."
+        },
+        {
+          "word": "PAYLAŞMA",
+          "hint": "Bir bütünü başkalarıyla bölüşme."
+        },
+        {
+          "word": "DAĞITMA",
+          "hint": "Bir şeyi farklı yerlere düzenli olarak verme."
+        },
+        {
+          "word": "SAYI",
+          "hint": "Miktarları belirtmek için kullanılan semboller."
+        },
+        {
+          "word": "RAKAM",
+          "hint": "Sayıları yazmaya yarayan işaretler (0, 1, 2, ... 9)."
+        },
+        {
+          "word": "İŞLEM",
+          "hint": "Matematikte sayıları bir araya getirme veya ayırma eylemi."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir matematiksel işlemin bitiminde ulaşılan değer."
+        },
+        {
+          "word": "PROBLEM",
+          "hint": "Çözülmesi gereken bir matematik sorusu."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Bir sorunun veya problemin cevabı."
+        },
+        {
+          "word": "DÜZİNE",
+          "hint": "On iki tane olan miktar."
+        },
+        {
+          "word": "DESTE",
+          "hint": "On tane olan miktar."
+        },
+        {
+          "word": "TANE",
+          "hint": "Bir tek eşya veya nesne."
+        },
+        {
+          "word": "ADET",
+          "hint": "Miktar, sayı olarak çokluk."
+        },
+        {
+          "word": "İKİŞER",
+          "hint": "Her seferinde ikişer tane sayma."
+        },
+        {
+          "word": "BEŞER",
+          "hint": "Her seferinde beşer tane sayma."
+        },
+        {
+          "word": "ONAR",
+          "hint": "Her seferinde onar tane sayma."
+        },
+        {
+          "word": "YARI",
+          "hint": "Bir şeyin iki eşit parçasından biri."
+        },
+        {
+          "word": "ÇEYREK",
+          "hint": "Bir şeyin dört eşit parçasından biri."
+        },
+        {
+          "word": "AYIRMAK",
+          "hint": "Bir bütünü parçalara bölmek."
+        },
+        {
+          "word": "KÜME",
+          "hint": "Benzer nesnelerin bir araya geldiği topluluk."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Bir şeyin küçük veya basit gösterimi."
+        },
+        {
+          "word": "TOPLAMA",
+          "hint": "İki veya daha fazla sayıyı bir araya getirme işlemi."
+        },
+        {
+          "word": "ÇIKARMA",
+          "hint": "Bir sayıdan başka bir sayıyı eksiltme işlemi."
+        },
+        {
+          "word": "TEK",
+          "hint": "İkiye tam bölünemeyen sayı."
+        },
+        {
+          "word": "ÇİFT",
+          "hint": "İkiye tam bölünebilen sayı."
+        },
+        {
+          "word": "SIRA",
+          "hint": "Nesnelerin yan yana veya alt alta dizilişi."
+        },
+        {
+          "word": "SÜTUN",
+          "hint": "Nesnelerin üst üste dizilişi."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Toplama işleminin sonucu, hepsi bir arada."
+        },
+        {
+          "word": "MİKTAR",
+          "hint": "Bir şeyin ne kadar olduğu, ölçüsü."
+        },
+        {
+          "word": "DENK",
+          "hint": "Birbirine eşit veya aynı olan."
+        },
+        {
+          "word": "GRUPLAMA",
+          "hint": "Nesneleri belli özelliklere göre bir araya getirme eylemi."
+        },
+        {
+          "word": "EŞİTLİK",
+          "hint": "İki şeyin birbirine denk olması durumu."
+        },
+        {
+          "word": "SAYI DOĞRUSU",
+          "hint": "Sayıların düzenli olarak sıralandığı çizgi."
+        },
+        {
+          "word": "ÖRNEK",
+          "hint": "Benzerini açıklamak için verilen durum."
+        },
+        {
+          "word": "HESAP",
+          "hint": "Sayılarla yapılan işlemlerin bütünü."
+        },
+        {
+          "word": "SIFIR",
+          "hint": "Hiçlik ifade eden sayı, hiçbir şey yok demek."
+        },
+        {
+          "word": "BİR",
+          "hint": "Saymaya başlanan ilk sayı, tek adet."
+        },
+        {
+          "word": "BASAMAK",
+          "hint": "Bir sayının içindeki rakamların bulunduğu yer (birler, onlar)."
+        },
+        {
+          "word": "ÇUBUK",
+          "hint": "Sayıları somutlaştırmak için kullanılan ince nesne."
+        },
+        {
+          "word": "SAYMA",
+          "hint": "Nesnelerin adedini bulma eylemi."
+        },
+        {
+          "word": "ÖĞRENME",
+          "hint": "Yeni bilgiler edinme süreci."
+        }
+      ]
+    },
+    {
+      "id": "matematik_u8",
+      "name": "8. Ünite: Veri Toplama ve Değerlendirme",
+      "months": [
+        5
+      ],
+      "words": [
+        {
+          "word": "SAYI",
+          "hint": "Nesnelerin miktarını gösteren işaret."
+        },
+        {
+          "word": "VERİ",
+          "hint": "Topladığımız bilgiler."
+        },
+        {
+          "word": "ÇİZELGE",
+          "hint": "Bilgileri düzenli gösteren tablo."
+        },
+        {
+          "word": "GRAFİK",
+          "hint": "Verileri resim veya çubuklarla anlatan çizim."
+        },
+        {
+          "word": "SÜTUN",
+          "hint": "Grafikte yukarı doğru duran bölüm."
+        },
+        {
+          "word": "SATIR",
+          "hint": "Grafikte yan yana duran bölüm."
+        },
+        {
+          "word": "RESİM GRAFİĞİ",
+          "hint": "Nesnelerin resimleriyle yapılan grafik."
+        },
+        {
+          "word": "ÇUBUK GRAFİĞİ",
+          "hint": "Kalın çubuklarla yapılan grafik."
+        },
+        {
+          "word": "ANKET",
+          "hint": "İnsanlara sorular sorarak bilgi toplama."
+        },
+        {
+          "word": "SORULAR",
+          "hint": "Bir şey öğrenmek için sorduğumuz sözler."
+        },
+        {
+          "word": "CEVAPLAR",
+          "hint": "Sorulara verdiğimiz karşılıklar."
+        },
+        {
+          "word": "GÖZLEM",
+          "hint": "Bir şeyi dikkatle inceleme."
+        },
+        {
+          "word": "KAYDETMEK",
+          "hint": "Bilgileri bir yere yazma veya çizme."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir çalışmanın sonunda bulduğumuz şey."
+        },
+        {
+          "word": "EN ÇOK",
+          "hint": "Bir grupta sayıca en fazla olan."
+        },
+        {
+          "word": "EN AZ",
+          "hint": "Bir grupta sayıca en eksik olan."
+        },
+        {
+          "word": "EŞİT",
+          "hint": "Sayıları veya miktarları aynı olan."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Benzer şeylerin bir araya gelmesi."
+        },
+        {
+          "word": "SIRALAMA",
+          "hint": "Nesneleri belli bir düzene koyma."
+        },
+        {
+          "word": "KATEGORİ",
+          "hint": "Benzer şeyleri ayırdığımız bölüm."
+        },
+        {
+          "word": "SEMBOL",
+          "hint": "Bir şeyi temsil eden küçük işaret."
+        },
+        {
+          "word": "TOPLAM",
+          "hint": "Bütün hepsinin bir araya gelmesi."
+        },
+        {
+          "word": "FREKANS",
+          "hint": "Bir şeyin kaç kere tekrarlandığı."
+        },
+        {
+          "word": "SAYMA",
+          "hint": "Nesnelerin adedini bulma."
+        },
+        {
+          "word": "DEĞERLENDİRME",
+          "hint": "Toplanan bilgilere bakıp yorum yapma."
+        },
+        {
+          "word": "KARŞILAŞTIRMA",
+          "hint": "İki şeyin benzer veya farklı yönlerini bulma."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Bilgileri kutular içinde gösteren düzen."
+        },
+        {
+          "word": "TERCİH",
+          "hint": "En çok sevilen veya seçilen şey."
+        },
+        {
+          "word": "YORUM",
+          "hint": "Toplanan veriler hakkında düşüncemizi söyleme."
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "Öğrendiğimiz veya bildiğimiz şeyler."
+        },
+        {
+          "word": "VERİ TOPLAMA",
+          "hint": "Bilgileri bir araya getirme işi."
+        },
+        {
+          "word": "SEÇENEKLER",
+          "hint": "Aralarından seçebileceğimiz farklı şeyler."
+        },
+        {
+          "word": "KONU",
+          "hint": "Hakkında konuştuğumuz veya çalıştığımız şey."
+        },
+        {
+          "word": "SAYIM ÇETELESİ",
+          "hint": "Her bir sayıyı bir çizgiyle gösterdiğimiz liste."
+        },
+        {
+          "word": "İNCELEMEK",
+          "hint": "Bir şeyi yakından ve dikkatle bakma."
+        },
+        {
+          "word": "DÜZENLEME",
+          "hint": "Bilgileri belirli bir sıraya koyma."
+        },
+        {
+          "word": "ÖĞRENMEK",
+          "hint": "Yeni bilgiler edinme."
+        },
+        {
+          "word": "SINIFLANDIRMA",
+          "hint": "Nesneleri benzer özelliklerine göre ayırma."
+        },
+        {
+          "word": "NESNE",
+          "hint": "Gördüğümüz veya dokunduğumuz her şey."
+        },
+        {
+          "word": "ÖZELLİK",
+          "hint": "Bir şeyi özel yapan nitelik."
+        },
+        {
+          "word": "ANLAMA",
+          "hint": "Bir şeyin ne demek olduğunu bilme."
+        },
+        {
+          "word": "ÇIKARIM",
+          "hint": "Eldeki bilgilere dayanarak bir sonuca ulaşma."
+        },
+        {
+          "word": "GÖRSEL",
+          "hint": "Gözle görülebilen her şey."
+        },
+        {
+          "word": "MODEL",
+          "hint": "Bir şeyin basitleştirilmiş örneği."
+        },
+        {
+          "word": "FARKLI",
+          "hint": "Birbirine benzemeyen şeyler."
+        },
+        {
+          "word": "BENZER",
+          "hint": "Birbirine yakın veya aynı olan şeyler."
+        },
+        {
+          "word": "ADET",
+          "hint": "Nesnelerin sayısı, miktarı."
+        },
+        {
+          "word": "LİSTE",
+          "hint": "Bilgilerin alt alta yazıldığı sıralama."
+        },
+        {
+          "word": "SONUÇ ÇIKARMA",
+          "hint": "Bilgilere bakarak bir karara varma."
+        },
+        {
+          "word": "KAYIT",
+          "hint": "Yazılı veya çizili olarak tutulan bilgi."
+        }
+      ]
     }
   ]
 }
