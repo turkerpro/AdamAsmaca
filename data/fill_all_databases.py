@@ -84,7 +84,7 @@ def filter_working_keys(keys):
     working = []
     for idx, key in enumerate(keys):
         try:
-            client = genai.Client(api_key=key)
+            client = genai.Client(api_key=key, http_options=types.HttpOptions(timeout=30000))
             # Make a tiny request
             client.models.generate_content(
                 model='gemini-2.5-flash',
@@ -111,14 +111,14 @@ def main():
         sys.exit(1)
         
     cur_key_idx = 0
-    client = genai.Client(api_key=working_keys[cur_key_idx])
+    client = genai.Client(api_key=working_keys[cur_key_idx], http_options=types.HttpOptions(timeout=30000))
     
     def rotate_key():
         nonlocal cur_key_idx, client
         if len(working_keys) < 2:
             return False
         cur_key_idx = (cur_key_idx + 1) % len(working_keys)
-        client = genai.Client(api_key=working_keys[cur_key_idx])
+        client = genai.Client(api_key=working_keys[cur_key_idx], http_options=types.HttpOptions(timeout=30000))
         print(f"\n  [ANAHTAR ROTASYONU] -> {cur_key_idx+1}. çalışan anahtara geçildi ({working_keys[cur_key_idx][:10]}...)")
         return True
 

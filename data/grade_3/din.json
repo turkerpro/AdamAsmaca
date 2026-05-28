@@ -14,8 +14,208 @@
           "hint": "Allah'ın rızasını kazanmak için yapılan kulluk görevleri."
         },
         {
-          "word": "AHLAK",
-          "hint": "İnsanın iyi veya kötü olarak nitelendirilmesine yol açan manevi nitelikler."
+          "word": "ALLAH",
+          "hint": "Her şeyin yaratıcısı ve sahibi olan Yüce Varlık."
+        },
+        {
+          "word": "İNANÇ",
+          "hint": "Bir şeye doğru olduğunu düşünerek güvenme ve inanma."
+        },
+        {
+          "word": "İMAN",
+          "hint": "Allah'a, peygamberlerine, kitaplarına, meleklere, ahiret gününe ve kadere inanmak."
+        },
+        {
+          "word": "PEYGAMBER",
+          "hint": "Allah'ın emir ve yasaklarını insanlara bildiren özel seçilmiş kişiler."
+        },
+        {
+          "word": "KİTAP",
+          "hint": "Allah tarafından peygamberlere gönderilen kutsal yazılar."
+        },
+        {
+          "word": "MELEK",
+          "hint": "Nurdan yaratılmış, Allah'ın emirlerini yerine getiren görünmez varlıklar."
+        },
+        {
+          "word": "AHİRET",
+          "hint": "Dünya hayatından sonra başlayacak olan sonsuz yaşam."
+        },
+        {
+          "word": "CENNET",
+          "hint": "Allah'ın iyi kullarına sonsuz mutluluk ve ödül olarak hazırladığı yer."
+        },
+        {
+          "word": "CEHENNEM",
+          "hint": "Allah'ın emirlerine karşı gelenlere ceza olarak hazırladığı yer."
+        },
+        {
+          "word": "KADER",
+          "hint": "Allah'ın her şeyi önceden bilmesi ve planlaması."
+        },
+        {
+          "word": "DİN",
+          "hint": "İnsanları iyiye ve doğruya yönelten ilahi kurallar bütünü."
+        },
+        {
+          "word": "İSLAM",
+          "hint": "Allah'ın gönderdiği son ve tek hak din."
+        },
+        {
+          "word": "MÜSLÜMAN",
+          "hint": "İslam dinine inanan ve kurallarına uyan kişi."
+        },
+        {
+          "word": "VAHİY",
+          "hint": "Allah'ın mesajlarını peygamberlerine bildirmesi."
+        },
+        {
+          "word": "YARATICI",
+          "hint": "Her şeyi yoktan var eden ve ona şekil veren."
+        },
+        {
+          "word": "RAHMET",
+          "hint": "Allah'ın canlılara karşı gösterdiği merhamet ve bağışlama."
+        },
+        {
+          "word": "SEVGİ",
+          "hint": "Allah'ın tüm varlıklara ve insanların birbirine duyduğu şefkat."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Herkese hakkını verme ve doğru olanı yapma."
+        },
+        {
+          "word": "KUDRET",
+          "hint": "Allah'ın her şeye gücünün yetmesi."
+        },
+        {
+          "word": "DUA",
+          "hint": "Allah'tan yardım dileme, O'na yalvarma."
+        },
+        {
+          "word": "ŞÜKÜR",
+          "hint": "Allah'ın verdiği nimetlere karşı teşekkür etme."
+        },
+        {
+          "word": "SABIR",
+          "hint": "Zorluklara karşı dayanma, bekleme ve direnme."
+        },
+        {
+          "word": "DÜNYA",
+          "hint": "İçinde yaşadığımız, yaratılmış geçici âlem."
+        },
+        {
+          "word": "KIYAMET",
+          "hint": "Dünya hayatının son bulup her şeyin yıkılacağı büyük gün."
+        },
+        {
+          "word": "AYET",
+          "hint": "Kur'an'daki cümlelerden her biri."
+        },
+        {
+          "word": "SURE",
+          "hint": "Kur'an'daki bölümlerden her biri."
+        },
+        {
+          "word": "KURAN",
+          "hint": "Müslümanların kutsal kitabı, Allah'ın son vahyi."
+        },
+        {
+          "word": "TEVHİD",
+          "hint": "Allah'ın bir ve tek olduğuna inanmak."
+        },
+        {
+          "word": "YÜCE",
+          "hint": "Allah'ın büyüklüğünü ve üstünlüğünü anlatan sıfat."
+        },
+        {
+          "word": "GÜNAH",
+          "hint": "Allah'ın yasakladığı veya hoş görmediği davranış."
+        },
+        {
+          "word": "SEVAP",
+          "hint": "Allah'ın emrettiği veya beğendiği iyi davranış, iyilik."
+        },
+        {
+          "word": "MUCİZE",
+          "hint": "Peygamberlerin Allah'ın izniyle gösterdiği olağanüstü olay."
+        },
+        {
+          "word": "ELÇİ",
+          "hint": "Allah'ın mesajını insanlara ileten kişi, peygamber."
+        },
+        {
+          "word": "KAZA",
+          "hint": "Kaderde belirlenmiş olanın zamanı gelince gerçekleşmesi."
+        },
+        {
+          "word": "MÜMİN",
+          "hint": "Allah'a ve dine içtenlikle inanan kişi."
+        },
+        {
+          "word": "HELAL",
+          "hint": "Dinimize göre yapılmasına izin verilen şeyler."
+        },
+        {
+          "word": "HARAM",
+          "hint": "Dinimize göre yapılması yasak olan şeyler."
+        },
+        {
+          "word": "ABDEST",
+          "hint": "Namaz kılmadan önce belirli organları yıkama."
+        },
+        {
+          "word": "NAMAZ",
+          "hint": "Belirli hareket ve sözlerle yapılan bir ibadet."
+        },
+        {
+          "word": "ORUÇ",
+          "hint": "Belirli bir süre yemekten, içmekten ve kötü davranışlardan uzak durma."
+        },
+        {
+          "word": "ZEKAT",
+          "hint": "Zengin Müslümanların mallarının bir kısmını fakirlere vermesi."
+        },
+        {
+          "word": "HAC",
+          "hint": "Belirli zamanda Kâbe'yi ve kutsal yerleri ziyaret etme ibadeti."
+        },
+        {
+          "word": "EZAN",
+          "hint": "Müslümanları namaza çağıran özel sesleniş."
+        },
+        {
+          "word": "CAMİ",
+          "hint": "Müslümanların namaz kıldığı ibadet yeri."
+        },
+        {
+          "word": "KBE",
+          "hint": "Mekke'de bulunan, Müslümanlar için kutsal sayılan ibadet binası."
+        },
+        {
+          "word": "RAHMAN",
+          "hint": "Allah'ın tüm canlılara merhamet eden sıfatı."
+        },
+        {
+          "word": "RAHİM",
+          "hint": "Allah'ın ahirette sadece müminlere merhamet eden sıfatı."
+        },
+        {
+          "word": "ALLAHÜEKBER",
+          "hint": "Allah'ın büyüklüğünü ifade eden, 'Allah en büyüktür' anlamına gelen söz."
+        },
+        {
+          "word": "SÜBHANALLAH",
+          "hint": "Allah'ı noksan sıfatlardan tenzih eden, 'Allah her türlü eksiklikten uzaktır' anlamına gelen söz."
+        },
+        {
+          "word": "ELHAMDÜLİLLAH",
+          "hint": "Allah'a şükretme ve övgüde bulunma ifadesi, 'Hamd Allah'a mahsustur' anlamına gelen söz."
+        },
+        {
+          "word": "BİSMİLLAH",
+          "hint": "Bir işe başlarken 'Allah'ın adıyla' diyerek O'ndan yardım dileme."
         }
       ]
     },
