@@ -88,120 +88,132 @@
           "hint": "Tanıştığıma memnun oldum"
         },
         {
-          "word": "YOU",
-          "hint": "Sen"
+          "word": "WELCOME",
+          "hint": "Hoş geldiniz"
         },
         {
-          "word": "HE",
-          "hint": "O (erkekler için)"
+          "word": "SEE YOU LATER",
+          "hint": "Sonra görüşürüz"
         },
         {
-          "word": "SHE",
-          "hint": "O (kızlar için)"
+          "word": "SEE YOU SOON",
+          "hint": "Yakında görüşürüz"
         },
         {
-          "word": "IT",
-          "hint": "O (nesneler veya hayvanlar için)"
+          "word": "HAVE A NICE DAY",
+          "hint": "İyi günler dilerim"
         },
         {
-          "word": "WE",
-          "hint": "Biz"
+          "word": "NAME",
+          "hint": "İsim"
         },
         {
-          "word": "THEY",
-          "hint": "Onlar"
+          "word": "FRIEND",
+          "hint": "Arkadaş"
         },
         {
-          "word": "HAPPY",
-          "hint": "Mutlu"
+          "word": "TEACHER",
+          "hint": "Öğretmen"
         },
         {
-          "word": "SAD",
-          "hint": "Üzgün"
+          "word": "STUDENT",
+          "hint": "Öğrenci"
         },
         {
-          "word": "ANGRY",
-          "hint": "Kızgın"
+          "word": "BOY",
+          "hint": "Erkek çocuk"
         },
         {
-          "word": "SLEEPY",
-          "hint": "Uykulu"
+          "word": "GIRL",
+          "hint": "Kız çocuk"
         },
         {
-          "word": "HUNGRY",
-          "hint": "Aç"
+          "word": "GOOD",
+          "hint": "İyi"
         },
         {
-          "word": "THIRSTY",
-          "hint": "Susamış"
+          "word": "GREAT",
+          "hint": "Harika"
         },
         {
-          "word": "TIRED",
-          "hint": "Yorgun"
+          "word": "BAD",
+          "hint": "Kötü"
         },
         {
-          "word": "STAND UP",
-          "hint": "Ayağa kalk"
+          "word": "SO SO",
+          "hint": "Şöyle böyle"
         },
         {
-          "word": "SIT DOWN",
-          "hint": "Otur"
+          "word": "OK",
+          "hint": "Tamam, iyi"
         },
         {
-          "word": "LISTEN",
-          "hint": "Dinle"
+          "word": "AND YOU",
+          "hint": "Ya sen?"
         },
         {
-          "word": "LOOK",
-          "hint": "Bak"
+          "word": "MORNING",
+          "hint": "Sabah"
         },
         {
-          "word": "POINT",
-          "hint": "İşaret et"
+          "word": "AFTERNOON",
+          "hint": "Öğleden sonra"
         },
         {
-          "word": "OPEN",
-          "hint": "Aç"
+          "word": "EVENING",
+          "hint": "Akşam"
         },
         {
-          "word": "CLOSE",
-          "hint": "Kapat"
+          "word": "NIGHT",
+          "hint": "Gece"
         },
         {
-          "word": "READ",
-          "hint": "Oku"
+          "word": "DAY",
+          "hint": "Gün"
         },
         {
-          "word": "WRITE",
-          "hint": "Yaz"
+          "word": "MISS",
+          "hint": "Bayan"
         },
         {
-          "word": "DRAW",
-          "hint": "Çiz"
+          "word": "MISTER",
+          "hint": "Bay"
         },
         {
-          "word": "SING",
-          "hint": "Şarkı söyle"
+          "word": "LITTLE",
+          "hint": "Küçük"
         },
         {
-          "word": "PLAY",
-          "hint": "Oyna"
+          "word": "BIG",
+          "hint": "Büyük"
         },
         {
-          "word": "COME",
-          "hint": "Gel"
+          "word": "HAPPY TO MEET YOU",
+          "hint": "Tanıştığıma sevindim"
         },
         {
-          "word": "GO",
-          "hint": "Git"
+          "word": "HOW OLD",
+          "hint": "Kaç yaşında"
         },
         {
-          "word": "SAY",
-          "hint": "Söyle"
+          "word": "YEARS OLD",
+          "hint": "Yaşında"
         },
         {
-          "word": "REPEAT",
-          "hint": "Tekrar et"
+          "word": "YOU TOO",
+          "hint": "Sen de"
+        },
+        {
+          "word": "HAVE FUN",
+          "hint": "İyi eğlenceler"
+        },
+        {
+          "word": "HAVE A GOOD DAY",
+          "hint": "İyi günler geçir"
+        },
+        {
+          "word": "SEE YOU",
+          "hint": "Görüşürüz"
         }
       ]
     },
