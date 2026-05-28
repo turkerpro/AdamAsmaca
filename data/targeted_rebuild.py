@@ -89,9 +89,19 @@ if not api_keys:
     print("Hata: API anahtari bulunamadi.")
     sys.exit(1)
 
-client = genai.Client(api_key=api_keys[0])
+cur_key = 0
+client = genai.Client(api_key=api_keys[cur_key])
 working_model_name = "gemini-2.5-flash"
 generate_config = types.GenerateContentConfig(response_mime_type="application/json")
+
+def rotate_key():
+    global cur_key, client
+    if len(api_keys) < 2:
+        return False
+    cur_key = (cur_key + 1) % len(api_keys)
+    client = genai.Client(api_key=api_keys[cur_key])
+    print(f"  [ANAHTAR] -> {cur_key+1}. anahtara gecildi.")
+    return True
 
 CURRICULUM_INDEX_PATH = "curriculum_index.json"
 if not os.path.exists(CURRICULUM_INDEX_PATH):
@@ -293,7 +303,10 @@ for grade_item in curriculum_index.get("curriculum", []):
                     
                 except Exception as e:
                     retries -= 1
-                    print(f"    [HATA] {str(e)[:80]} | Yeniden deneniyor (Kalan: {retries})...")
+                    err_msg = str(e)
+                    print(f"    [HATA] {err_msg[:80]} | Yeniden deneniyor (Kalan: {retries})...")
+                    if "429" in err_msg or "quota" in err_msg.lower() or "503" in err_msg:
+                        rotate_key()
                     time.sleep(8)
             
             if not success:

@@ -241,6 +241,55 @@
     --radius-md: 3px;
     --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
   }
+
+  /* 5. Çıkmış Sorular Kupası Teması (Grade 99): Altın / Premium Kahve */
+  [data-grade-group="exam"],
+  [data-theme="light"][data-grade-group="exam"] {
+    --color-bg: #fcfaf2;
+    --color-surface: #f9f5e3;
+    --color-surface-2: #faf7e9;
+    --color-surface-offset: #eedeb0;
+    --color-border: #dcbfa2;
+    --color-divider: #e8d0b5;
+    --color-text: #3c240d;
+    --color-text-muted: #6e461a;
+    --color-text-faint: #a27c51;
+    --color-primary: #b08010;
+    --color-primary-hover: #8f6608;
+    --color-primary-highlight: #fcf1d2;
+    --color-error: #9c1f1f;
+    --color-error-highlight: #fcd8d8;
+    --color-success: #206d59;
+    --color-success-highlight: #d1ebe5;
+    --color-warning: #b08010;
+    --radius-lg: 12px;
+    --radius-xl: 18px;
+    --radius-md: 8px;
+    --shadow-md: 0 8px 24px rgba(176, 128, 16, 0.08);
+  }
+  [data-theme="dark"][data-grade-group="exam"] {
+    --color-bg: #1a160d;
+    --color-surface: #262112;
+    --color-surface-2: #2e2815;
+    --color-surface-offset: #131008;
+    --color-border: #4d4122;
+    --color-divider: #3d3319;
+    --color-text: #faeed7;
+    --color-text-muted: #c2ac7f;
+    --color-text-faint: #8a7852;
+    --color-primary: #f2cb44;
+    --color-primary-hover: #ffd76d;
+    --color-primary-highlight: #3b3315;
+    --color-error: #ff5c5c;
+    --color-error-highlight: #4f1515;
+    --color-success: #2ee6bc;
+    --color-success-highlight: #0b4a3c;
+    --color-warning: #f2cb44;
+    --radius-lg: 12px;
+    --radius-xl: 18px;
+    --radius-md: 8px;
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
   body{min-height:100dvh;font-family:var(--font-body);font-size:var(--text-base);
@@ -338,6 +387,17 @@
     transform: translateY(-4px) scale(1.02);
     box-shadow: 0 8px 16px rgba(23, 66, 118, 0.15);
   }
+  .grid-card.theme-exam {
+    border-color: #dcbfa2;
+    background: #f9f5e3;
+    color: #3c240d;
+  }
+  .grid-card.theme-exam:hover {
+    border-color: #b08010;
+    color: #b08010;
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(176, 128, 16, 0.15);
+  }
 
   /* Dark mode kart stilleri */
   [data-theme="dark"] .grid-card.theme-primary {
@@ -375,6 +435,15 @@
   [data-theme="dark"] .grid-card.theme-academic:hover {
     border-color: #5495e2;
     color: #5495e2;
+  }
+  [data-theme="dark"] .grid-card.theme-exam {
+    border-color: #4d4122;
+    background: #262112;
+    color: #faeed7;
+  }
+  [data-theme="dark"] .grid-card.theme-exam:hover {
+    border-color: #f2cb44;
+    color: #f2cb44;
   }
 
   .grid-card .card-emoji {

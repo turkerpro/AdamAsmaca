@@ -143,6 +143,15 @@
         {"id": "cografya", "name": "Coğrafya", "dataFile": "./data/grade_12/cografya.json"},
         {"id": "ingilizce", "name": "İngilizce", "dataFile": "./data/grade_12/ingilizce.json"}
       ]
+    },
+    {
+      "grade": 99,
+      "gradeName": "Çıkmış Sorular",
+      "subjects": [
+        {"id": "lgs", "name": "LGS Sınavı", "dataFile": "./data/exams/lgs.json"},
+        {"id": "yks", "name": "YKS Sınavı", "dataFile": "./data/exams/yks.json"},
+        {"id": "kpss", "name": "KPSS Sınavı", "dataFile": "./data/exams/kpss.json"}
+      ]
     }
   ]
 }

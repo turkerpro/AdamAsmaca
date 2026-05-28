@@ -191,6 +191,7 @@ function switchScreen(screenId) {
 // ── THEME HELPERS ──────────────────────────────────────────────────────────
 function getGradeThemeGroup(gradeNum) {
   const g = parseInt(gradeNum);
+  if (g === 99) return { group: "exam", emoji: "🏆" };
   if (g >= 1 && g <= 3) return { group: "primary", emoji: "🎈" };
   if (g >= 4 && g <= 5) return { group: "adventure", emoji: "🌲" };
   if (g >= 6 && g <= 8) return { group: "tech", emoji: "👾" };
