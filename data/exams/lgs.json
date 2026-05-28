@@ -1,0 +1,50 @@
+{
+  "subject": "LGS Sınavı",
+  "units": [
+    {
+      "id": "lgs_u1",
+      "name": "LGS Türkçe",
+      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "words": [
+        {"word": "PARAGRAF", "hint": "Bir düşünceyi anlatan cümleler topluluğu."},
+        {"word": "FİİLİMSİ", "hint": "Eylemlerden türeyen fakat fiil gibi çekimlenmeyen sözcükler."}
+      ]
+    },
+    {
+      "id": "lgs_u2",
+      "name": "LGS Matematik",
+      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "words": [
+        {"word": "ÇARPANLAR", "hint": "Bir sayıyı tam bölen sayılar kümesi."},
+        {"word": "KÖKLÜ SAYI", "hint": "Kök işareti içerisindeki sayılar."}
+      ]
+    },
+    {
+      "id": "lgs_u3",
+      "name": "LGS Fen Bilimleri",
+      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "words": [
+        {"word": "DNA", "hint": "Hücrenin yönetici molekülü."},
+        {"word": "MUTASYON", "hint": "Genlerde meydana gelen kalıcı değişiklikler."}
+      ]
+    },
+    {
+      "id": "lgs_u4",
+      "name": "LGS İnkılap Tarihi",
+      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "words": [
+        {"word": "KONGRE", "hint": "Kurtuluş Savaşı'nda kararların alındığı toplantılar."},
+        {"word": "MİSAKIMİLLİ", "hint": "Milli sınırları belirleyen tarihi beyanname."}
+      ]
+    },
+    {
+      "id": "lgs_u5",
+      "name": "LGS Din Kültürü",
+      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "words": [
+        {"word": "KADER", "hint": "Allah'ın her şeyi bir ölçüye göre takdir etmesi."},
+        {"word": "ZEKAT", "hint": "Yılda bir kez verilmesi gereken mali ibadet."}
+      ]
+    }
+  ]
+}

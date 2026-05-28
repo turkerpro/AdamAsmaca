@@ -1,0 +1,59 @@
+{
+  "subject": "YKS Sınavı",
+  "units": [
+    {
+      "id": "yks_u1",
+      "name": "TYT Türkçe",
+      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "words": [
+        {"word": "ANLAM BİLGİSİ", "hint": "Sözcük, cümle ve paragrafta anlam konuları."},
+        {"word": "SES BİLGİSİ", "hint": "Ünlü düşmesi, ünsüz benzeşmesi gibi kurallar."}
+      ]
+    },
+    {
+      "id": "yks_u2",
+      "name": "TYT Temel Matematik",
+      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "words": [
+        {"word": "FONKSİYON", "hint": "Tanım kümesindeki elemanları değer kümesine eşleyen bağıntı."},
+        {"word": "MUTLAK DEĞER", "hint": "Bir sayının sayı doğrusunda sıfıra olan uzaklığı."}
+      ]
+    },
+    {
+      "id": "yks_u3",
+      "name": "TYT Sosyal Bilimler",
+      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "words": [
+        {"word": "FEODALİZM", "hint": "Ortaçağ Avrupa'sında toprak ağalığına dayanan düzen."},
+        {"word": "EPİSTEMOLOJİ", "hint": "Felsefede bilginin doğasını inceleyen dal."}
+      ]
+    },
+    {
+      "id": "yks_u4",
+      "name": "TYT Fen Bilimleri",
+      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "words": [
+        {"word": "KİNETİK ENERJİ", "hint": "Cisimlerin hareketinden dolayı sahip olduğu enerji."},
+        {"word": "MİTOZ BÖLÜNME", "hint": "Vücut hücrelerinde görülen kromozom sayısı değişmeyen bölünme."}
+      ]
+    },
+    {
+      "id": "yks_u5",
+      "name": "AYT Edebiyat ve Sosyal",
+      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "words": [
+        {"word": "DİVAN EDEBİYATI", "hint": "Aruz vezninin kullanıldığı klasik Türk edebiyatı."},
+        {"word": "CUMHURİYET DÖNEMİ", "hint": "1923 sonrasında gelişen modern Türk edebiyatı."}
+      ]
+    },
+    {
+      "id": "yks_u6",
+      "name": "AYT Matematik ve Fen",
+      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "words": [
+        {"word": "TRİGONOMETRİ", "hint": "Üçgenlerin açıları ve kenarları arasındaki oranlar."},
+        {"word": "ORGANİK KİMYA", "hint": "Karbon bileşiklerini inceleyen kimya dalı."}
+      ]
+    }
+  ]
+}
