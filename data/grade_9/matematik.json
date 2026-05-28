@@ -13,7 +13,7 @@
           "hint": "Bir kümenin elemanlarından oluşan daha küçük küme"
         },
         {
-          "word": "KESİŞİM",
+          "word": "KESIŞIM",
           "hint": "İki kümenin ortak elemanlarından oluşan küme"
         },
         {
@@ -275,7 +275,7 @@
           "hint": "Bir kümenin içinden alınan ve o kümenin tüm elemanlarını içeren küme."
         },
         {
-          "word": "KESİŞİM",
+          "word": "KESIŞIM",
           "hint": "İki kümenin ortak elemanlarının oluşturduğu küme."
         },
         {
@@ -1098,7 +1098,7 @@
           "hint": "Bir hesaplama veya kuralı gösteren matematiksel ifade."
         },
         {
-          "word": "KESİŞİM",
+          "word": "KESIŞIM",
           "hint": "İki veya daha fazla geometrik elemanın ortak noktası veya bölgesi."
         },
         {
@@ -1259,11 +1259,11 @@
           "hint": "Üç boyutlu cisimleri ve şekilleri inceleyen matematik dalı."
         },
         {
-          "word": "CİSİM",
+          "word": "CISIM",
           "hint": "Üç boyutu olan, uzayda yer kaplayan varlık."
         },
         {
-          "word": "KATI CİSİM",
+          "word": "KATI CISIM",
           "hint": "İçi dolu ve somut olan üç boyutlu cisim."
         },
         {
@@ -1279,7 +1279,7 @@
           "hint": "Bir şeklin veya cismin, bir eksen veya merkeze göre aynı olması durumu."
         },
         {
-          "word": "DÖNEL CİSİM",
+          "word": "DÖNEL CISIM",
           "hint": "Bir düzlem şeklin bir eksen etrafında döndürülmesiyle oluşan üç boyutlu cisim."
         },
         {

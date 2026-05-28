@@ -44,27 +44,27 @@
           "hint": "Görüşürüz (Tekrar görüşmek üzere)"
         },
         {
-          "word": "HOW ARE YOU?",
+          "word": "HOW ARE YOU",
           "hint": "Nasılsın? (Birinin halini sormak)"
         },
         {
-          "word": "I'M FINE, THANK YOU.",
+          "word": "IM FINE THANK YOU",
           "hint": "İyiyim, teşekkür ederim. (Haline iyi olduğunu belirtmek)"
         },
         {
-          "word": "WHAT'S YOUR NAME?",
+          "word": "WHATS YOUR NAME",
           "hint": "Adın ne? (Birinin ismini sormak)"
         },
         {
-          "word": "MY NAME IS...",
+          "word": "MY NAME IS",
           "hint": "Benim adım... (Kendi adını söylemek)"
         },
         {
-          "word": "NICE TO MEET YOU.",
+          "word": "NICE TO MEET YOU",
           "hint": "Tanıştığıma memnun oldum. (Biriyle tanışmaktan sevinç duymak)"
         },
         {
-          "word": "YOU'RE WELCOME.",
+          "word": "YOURE WELCOME",
           "hint": "Rica ederim. (Teşekkür edene karşılık)"
         },
         {
@@ -899,15 +899,15 @@
           "hint": "İyi"
         },
         {
-          "word": "HOW DO YOU FEEL?",
+          "word": "HOW DO YOU FEEL",
           "hint": "Nasıl hissediyorsun?"
         },
         {
-          "word": "I FEEL HAPPY.",
+          "word": "I FEEL HAPPY",
           "hint": "Mutlu hissediyorum."
         },
         {
-          "word": "WHAT'S WRONG?",
+          "word": "WHATS WRONG",
           "hint": "Sorun ne?"
         },
         {
@@ -1385,7 +1385,7 @@
           "hint": "Perde"
         },
         {
-          "word": "TELEVISION (TV)",
+          "word": "TELEVISION TV",
           "hint": "Televizyon (TV)"
         },
         {
@@ -2160,7 +2160,7 @@
           "hint": "Kazak, kışın giyilen kalın örme üst giysi."
         },
         {
-          "word": "T-SHIRT",
+          "word": "T SHIRT",
           "hint": "Tişört, yazın giyilen kısa kollu üst giysi."
         },
         {
@@ -2200,19 +2200,19 @@
           "hint": "Mevsim, yılın dört ana bölümünden her biri (ilkbahar, yaz, sonbahar, kış)."
         },
         {
-          "word": "WHAT'S THE WEATHER LIKE?",
+          "word": "WHATS THE WEATHER LIKE",
           "hint": "Hava nasıl? Hava durumunu sormak için kullanılan ifade."
         },
         {
-          "word": "IT'S RAINING.",
+          "word": "ITS RAINING",
           "hint": "Yağmur yağıyor."
         },
         {
-          "word": "IT'S SNOWING.",
+          "word": "ITS SNOWING",
           "hint": "Kar yağıyor."
         },
         {
-          "word": "IT'S SUNNY.",
+          "word": "ITS SUNNY",
           "hint": "Hava güneşli."
         },
         {
@@ -2505,11 +2505,11 @@
           "hint": "Kazmak"
         },
         {
-          "word": "PLANT (VERB)",
+          "word": "PLANT VERB",
           "hint": "Ekmek, dikmek"
         },
         {
-          "word": "WATER (VERB)",
+          "word": "WATER VERB",
           "hint": "Sulamak"
         }
       ]

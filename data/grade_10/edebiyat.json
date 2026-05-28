@@ -48,11 +48,11 @@
           "hint": "Anonim halk edebiyatından Divan edebiyatına geçen dörtlük nazım biçimi."
         },
         {
-          "word": "TERKİB-İ BEND",
+          "word": "TERKİB İ BEND",
           "hint": "Bentlerle kurulan, bentlerin kendi içinde kafiyeli olduğu, farklı konularda yazılabilen nazım biçimi."
         },
         {
-          "word": "TERİF-İ BEND",
+          "word": "TERİF İ BEND",
           "hint": "Terkiib-i bendin bir türü, bendler arasındaki bağlantının nakaratla sağlandığı nazım biçimi."
         },
         {
@@ -96,7 +96,7 @@
           "hint": "Suret, tasvir."
         },
         {
-          "word": "SAHİB-İ DİVAN",
+          "word": "SAHİB İ DİVAN",
           "hint": "Birden fazla divan oluşturan şair."
         },
         {
@@ -132,11 +132,11 @@
           "hint": "Küçük eser, inceleme yazısı."
         },
         {
-          "word": "SEBK-İ HİNDİ",
+          "word": "SEBK İ HİNDİ",
           "hint": "Divan edebiyatında bir akım, ağır ve süslü dil."
         },
         {
-          "word": "SEBK-İ HORASANİ",
+          "word": "SEBK İ HORASANİ",
           "hint": "Divan edebiyatında bir akım, sade ve anlaşılır dil."
         },
         {
@@ -144,7 +144,7 @@
           "hint": "Seçkin, beğenilmiş."
         },
         {
-          "word": "İLM-İ HAL",
+          "word": "İLM İ HAL",
           "hint": "Dini bilgileri içeren eser türü."
         },
         {
@@ -366,7 +366,7 @@
           "hint": "Sanatçıya belirli bir geleneği sürdürme yetkisi veren belge."
         },
         {
-          "word": "VAK'A",
+          "word": "VAKA",
           "hint": "Gerçekleşmiş olay, hadise."
         },
         {
@@ -475,7 +475,7 @@
           "hint": "Dört dizelik nazım birimi."
         },
         {
-          "word": "KIT'A",
+          "word": "KITA",
           "hint": "Genellikle dört mısradan oluşan nazım birimi."
         },
         {
@@ -559,7 +559,7 @@
           "hint": "İki farklı varlık veya kavram arasında ilgi kurarak anlatma sanatı."
         },
         {
-          "word": "KİŞİLEŞTİRME",
+          "word": "KIŞILEŞTİRME",
           "hint": "İnsan dışı varlıklara insani özellikler yükleme sanatı (teşhis)."
         },
         {
@@ -639,7 +639,7 @@
           "hint": "Seyir zevki veren, etkileyici anlatım."
         },
         {
-          "word": "İRSAL-İ MESEL",
+          "word": "İRSAL İ MESEL",
           "hint": "Şiirde atasözü veya vecize kullanma sanatı."
         },
         {
@@ -797,7 +797,7 @@
           "hint": "Önemli bir değişiklik noktası."
         },
         {
-          "word": "ZİRVЕ",
+          "word": "ZİRV",
           "hint": "Bir şeyin en üst noktası."
         },
         {
@@ -978,7 +978,7 @@
           "hint": "Romanın ana başlıklarından biri."
         },
         {
-          "word": "KİSİM",
+          "word": "KISIM",
           "hint": "Romanın daha küçük parçası."
         },
         {
@@ -1022,11 +1022,11 @@
           "hint": "Anlatıcının olaya bakışı."
         },
         {
-          "word": "BİRİNCİ KİŞİ",
+          "word": "BİRİNCİ KIŞI",
           "hint": "Anlatıcının 'ben' dediği bakış açısı."
         },
         {
-          "word": "ÜÇÜNCÜ KİŞİ",
+          "word": "ÜÇÜNCÜ KIŞI",
           "hint": "Anlatıcının 'o' dediği bakış açısı."
         },
         {
@@ -1046,7 +1046,7 @@
           "hint": "Açıkça söylemeden anlatmak."
         },
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Kişiler arası bağ."
         },
         {
@@ -1110,7 +1110,7 @@
           "hint": "Bir şeyin önemini ölçme."
         },
         {
-          "word": "KİTLE İLETİŞİMİ",
+          "word": "KİTLE İLETIŞIMİ",
           "hint": "Çok kişiye aynı anda ulaşma."
         },
         {
@@ -1314,7 +1314,7 @@
           "hint": "Bir konuya bakış açısı."
         },
         {
-          "word": "DEĞİŞİM",
+          "word": "DEĞIŞIM",
           "hint": "Farklılaşma."
         },
         {
@@ -1678,7 +1678,7 @@
           "hint": "Her gün yazılan."
         },
         {
-          "word": "MECMUÂ",
+          "word": "MECMU",
           "hint": "Dergü."
         },
         {
@@ -1722,7 +1722,7 @@
           "hint": "İsmi niteleyen."
         },
         {
-          "word": "İSİM",
+          "word": "ISIM",
           "hint": "Nesne adı."
         },
         {
@@ -1938,7 +1938,7 @@
           "hint": "Hayret."
         },
         {
-          "word": "İLGİSİZLİK",
+          "word": "İLGISIZLİK",
           "hint": "Alakasızlık."
         },
         {
@@ -1986,7 +1986,7 @@
           "hint": "Organizasyonla ilgili."
         },
         {
-          "word": "İLETİŞİMSEL",
+          "word": "İLETIŞIMSEL",
           "hint": "İletişimle ilgili."
         },
         {
@@ -2056,10 +2056,6 @@
         {
           "word": "ETİK",
           "hint": "Ahlakla ilgili."
-        },
-        {
-          "word": "ESTETİK",
-          "hint": "Güzellikle ilgili."
         },
         {
           "word": "MANTIK",
@@ -2142,7 +2138,7 @@
           "hint": "Fiyat."
         },
         {
-          "word": "KÂR",
+          "word": "KR",
           "hint": "Kazanç."
         },
         {
@@ -2194,7 +2190,7 @@
           "hint": "İlerici."
         },
         {
-          "word": "MUHAFAZAKÂR",
+          "word": "MUHAFAZAKR",
           "hint": "Gelenekçi."
         },
         {
@@ -2366,7 +2362,7 @@
           "hint": "Dünya ısınması."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ",
           "hint": "Hava değişimi."
         },
         {
@@ -2406,7 +2402,7 @@
           "hint": "Taşımacılık."
         },
         {
-          "word": "BİLİŞİM TEKNOLOJİLERİ",
+          "word": "BİLIŞIM TEKNOLOJİLERİ",
           "hint": "Bilgisayar."
         },
         {
@@ -2518,7 +2514,7 @@
           "hint": "Hayal."
         },
         {
-          "word": "POLİSİYE",
+          "word": "POLISIYE",
           "hint": "Suç."
         },
         {
@@ -2750,7 +2746,7 @@
           "hint": "Bilgi."
         },
         {
-          "word": "İLÂN",
+          "word": "İLN",
           "hint": "Reklam."
         },
         {
@@ -2766,11 +2762,11 @@
           "hint": "Pişmanlık."
         },
         {
-          "word": "SELÂM",
+          "word": "SELM",
           "hint": "Merhaba."
         },
         {
-          "word": "VEDÂ",
+          "word": "VED",
           "hint": "Hoşça kal."
         },
         {
@@ -3002,7 +2998,7 @@
           "hint": "Ulus sevgisi."
         },
         {
-          "word": "İRKÇİLİK",
+          "word": "IRKÇILIK",
           "hint": "Soy ayrımı."
         },
         {
@@ -3098,10 +3094,6 @@
           "hint": "Savaşta suç."
         },
         {
-          "word": "SOYKIRIM",
-          "hint": "Kitle yok etme."
-        },
-        {
           "word": "ASİMİLASYON",
           "hint": "Bütünleşme."
         },
@@ -3146,7 +3138,7 @@
           "hint": "Sessiz oyun."
         },
         {
-          "word": "E-POSTA",
+          "word": "E POSTA",
           "hint": "Elektronik mektup."
         },
         {
@@ -3202,7 +3194,7 @@
           "hint": "Bulucu."
         },
         {
-          "word": "E-TİCARET",
+          "word": "E TİCARET",
           "hint": "Online alışveriş."
         },
         {
@@ -3262,7 +3254,7 @@
           "hint": "Alışveriş."
         },
         {
-          "word": "GİRİŞİMCİ",
+          "word": "GİRIŞIMCİ",
           "hint": "İş kuran."
         },
         {
@@ -3270,7 +3262,7 @@
           "hint": "Para yatıran."
         },
         {
-          "word": "AR-GE",
+          "word": "AR GE",
           "hint": "Araştırma."
         },
         {
@@ -3302,376 +3294,32 @@
           "hint": "Hata."
         },
         {
-          "word": "SAVCI",
-          "hint": "İddia."
-        },
-        {
-          "word": "TANIK",
-          "hint": "Şahit."
-        },
-        {
-          "word": "SANIK",
-          "hint": "Şüpheli."
-        },
-        {
-          "word": "BARIŞ",
-          "hint": "Huzur."
-        },
-        {
           "word": "İNSAN HAKLARI",
           "hint": "Temel haklar."
-        },
-        {
-          "word": "DEMOKRATİKLEŞME",
-          "hint": "Özgürleşme."
-        },
-        {
-          "word": "GELİŞME",
-          "hint": "İlerleme."
-        },
-        {
-          "word": "KALKINMA",
-          "hint": "Refah."
-        },
-        {
-          "word": "SÜRDÜRÜLEBİLİRLİK",
-          "hint": "Devamlılık."
-        },
-        {
-          "word": "EKOLOJİ",
-          "hint": "Çevre."
         },
         {
           "word": "KÜRESEL İSINMA",
           "hint": "Dünya."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ",
-          "hint": "Hava."
-        },
-        {
-          "word": "ENERJİ KAYNAKLARI",
-          "hint": "Güç."
-        },
-        {
-          "word": "YENİLENEBİLİR ENERJİ",
-          "hint": "Sürekli."
-        },
-        {
-          "word": "FOSİL YAKITLAR",
-          "hint": "Kömür."
-        },
-        {
-          "word": "NÜKLEER ENERJİ",
-          "hint": "Atom."
-        },
-        {
-          "word": "TARIM",
-          "hint": "Ziraat."
-        },
-        {
-          "word": "SANAYİ",
-          "hint": "Üretim."
-        },
-        {
-          "word": "HİZMET SEKTÖRÜ",
-          "hint": "Servis."
-        },
-        {
-          "word": "TURİZM",
-          "hint": "Gezi."
-        },
-        {
-          "word": "ULAŞIM",
-          "hint": "Taşıma."
-        },
-        {
-          "word": "İLETİŞİM",
-          "hint": "Haber."
-        },
-        {
-          "word": "BİLİŞİM TEKNOLOJİLERİ",
-          "hint": "Bilgisayar."
-        },
-        {
-          "word": "VERİ",
-          "hint": "Bilgi."
-        },
-        {
-          "word": "ALGORİTMA",
-          "hint": "Sıra."
-        },
-        {
-          "word": "YAZILIM",
-          "hint": "Program."
-        },
-        {
-          "word": "DONANIM",
-          "hint": "Parça."
-        },
-        {
-          "word": "İNTERNET",
-          "hint": "Ağ."
-        },
-        {
-          "word": "SANAL GERÇEKLİK",
-          "hint": "Sanal."
-        },
-        {
-          "word": "ARTIRILMIŞ GERÇEKLİK",
-          "hint": "Ekli."
-        },
-        {
-          "word": "ROBOTİK",
-          "hint": "Robot."
-        },
-        {
-          "word": "NANOTEKNOLOJİ",
-          "hint": "Nano."
-        },
-        {
-          "word": "BİYOTEKNOLOJİ",
-          "hint": "Yaşam."
-        },
-        {
-          "word": "GENETİK MÜHENDİSLİĞİ",
-          "hint": "Gen."
-        },
-        {
-          "word": "UZAY ARAŞTIRMALARI",
-          "hint": "Evren."
-        },
-        {
-          "word": "ASTROFİZİK",
-          "hint": "Uzay."
-        },
-        {
-          "word": "KUANTUM FİZİĞİ",
-          "hint": "Atom."
-        },
-        {
-          "word": "GÖRELİLİK KURAMI",
-          "hint": "Einstein."
-        },
-        {
-          "word": "KARADELİK",
-          "hint": "Çekim."
-        },
-        {
-          "word": "BİLİM KURGU",
-          "hint": "Hayal."
-        },
-        {
-          "word": "FANTEZİ",
-          "hint": "Hayal."
-        },
-        {
-          "word": "POLİSİYE",
-          "hint": "Suç."
-        },
-        {
-          "word": "GERİLİM",
-          "hint": "Heyecan."
-        },
-        {
-          "word": "GİZEM",
-          "hint": "Sır."
-        },
-        {
-          "word": "AŞK ROMANI",
-          "hint": "Sevgi."
-        },
-        {
-          "word": "TARİHİ ROMAN",
-          "hint": "Geçmiş."
-        },
-        {
-          "word": "BİLİM KURGU ROMANI",
-          "hint": "Fütüristik."
-        },
-        {
-          "word": "ÇOCUK EDEBİYATI",
-          "hint": "Çocuk."
-        },
-        {
-          "word": "GENÇ YETİŞKİN EDEBİYATI",
-          "hint": "Genç."
-        },
-        {
-          "word": "KLASİK EDEBİYAT",
-          "hint": "Eski."
-        },
-        {
-          "word": "MODERN EDEBİYAT",
-          "hint": "Yeni."
-        },
-        {
-          "word": "POSTMODERN EDEBİYAT",
-          "hint": "Güncel."
-        },
-        {
-          "word": "SÜREALİZM",
-          "hint": "Gerçeküstü."
-        },
-        {
-          "word": "DADAİZM",
-          "hint": "Saçma."
-        },
-        {
-          "word": "EPİKA",
-          "hint": "Destan."
-        },
-        {
-          "word": "LİRİK",
-          "hint": "Şiir."
-        },
-        {
-          "word": "DRAMATİK",
-          "hint": "Tiyatro."
-        },
-        {
-          "word": "POETİKA",
-          "hint": "Şiir."
-        },
-        {
-          "word": "RETORİK",
-          "hint": "Etkili."
-        },
-        {
           "word": "SEMİYOTİK",
           "hint": "İşaret."
-        },
-        {
-          "word": "HERMENEUTİK",
-          "hint": "Yorum."
-        },
-        {
-          "word": "KRİTİK",
-          "hint": "Değerlendirme."
-        },
-        {
-          "word": "ANALİZ",
-          "hint": "İnceleme."
-        },
-        {
-          "word": "SEMANTİK KANGA",
-          "hint": "Anlam."
-        },
-        {
-          "word": "SEMANTİK ALAN",
-          "hint": "Anlam."
-        },
-        {
-          "word": "ANLAM KAYMASI",
-          "hint": "Değişim."
-        },
-        {
-          "word": "ANLAM DARALMASI",
-          "hint": "Küçülme."
-        },
-        {
-          "word": "ANLAM GENİŞLEMESİ",
-          "hint": "Büyüme."
-        },
-        {
-          "word": "EŞ ANLAMLI",
-          "hint": "Aynı."
-        },
-        {
-          "word": "ZIT ANLAMLI",
-          "hint": "Karşıt."
         },
         {
           "word": "YANSILAMA",
           "hint": "Ses."
         },
         {
-          "word": "SES OLAYI",
-          "hint": "Dil."
-        },
-        {
-          "word": "ÜNSÜZ BENZEŞMESİ",
-          "hint": "Sertleşme."
-        },
-        {
-          "word": "ÜNSÜZ BENZERLİĞİ",
-          "hint": "Sert."
-        },
-        {
-          "word": "TÜREMİŞ KELİME",
-          "hint": "Ekli."
-        },
-        {
-          "word": "BİRLEŞİK KELİME",
-          "hint": "İki."
-        },
-        {
-          "word": "BAĞIMSIZ CÜMLE",
-          "hint": "Tek."
-        },
-        {
-          "word": "BAĞIMLI CÜMLE",
-          "hint": "Bağlı."
-        },
-        {
           "word": "SIRALAMA CÜMLE",
           "hint": "Virgül."
-        },
-        {
-          "word": "GELİŞMİŞ",
-          "hint": "İleri."
-        },
-        {
-          "word": "İLERİCİ",
-          "hint": "Modern."
-        },
-        {
-          "word": "YAKLAŞIM",
-          "hint": "Bakış."
-        },
-        {
-          "word": "DEĞERLENDİRME",
-          "hint": "Önem."
         },
         {
           "word": "MENKIBE",
           "hint": "Evliya."
         },
         {
-          "word": "HİKAYE",
-          "hint": "Kısa."
-        },
-        {
-          "word": "BİYOGRAFİ",
-          "hint": "Yaşam."
-        },
-        {
-          "word": "OTOBİYOGRAFİ",
-          "hint": "Kendi."
-        },
-        {
           "word": "ANI",
           "hint": "Geçmiş."
-        },
-        {
-          "word": "GEZİ YAZISI",
-          "hint": "Seyahat."
-        },
-        {
-          "word": "ELEŞTİRİ",
-          "hint": "Yorum."
-        },
-        {
-          "word": "TELEVİZYON",
-          "hint": "Görüntü."
-        },
-        {
-          "word": "WEB SİTESİ",
-          "hint": "Online."
-        },
-        {
-          "word": "İNTERNET TARAYICI",
-          "hint": "Web."
         }
       ]
     },
@@ -3803,7 +3451,7 @@
           "hint": "İki kelimenin bir araya gelerek yeni bir kelime oluşturması."
         },
         {
-          "word": "EK-FİİL",
+          "word": "EK FİİL",
           "hint": "İsim soylu kelimelere gelerek yüklem olmalarını sağlayan fiil."
         },
         {
@@ -3909,11 +3557,11 @@
           "hint": "Haberleşmek amacıyla yazılan kağıt."
         },
         {
-          "word": "E-POSTA",
+          "word": "E POSTA",
           "hint": "Elektronik ortamda gönderilen mesaj."
         },
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Duygu, düşünce veya bilgilerin aktarılması."
         },
         {
@@ -3981,7 +3629,7 @@
           "hint": "Bir kişinin eğitim, iş ve deneyim bilgilerini içeren belge."
         },
         {
-          "word": "RESMÎ",
+          "word": "RESM",
           "hint": "Devlet dairelerinde veya ciddi işlerde kullanılan ciddi, kurallı dil."
         },
         {

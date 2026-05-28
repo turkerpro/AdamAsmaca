@@ -25,7 +25,7 @@
           "hint": "Tükenmeden sürekli kullanılabilen enerji kaynağı türü"
         },
         {
-          "word": "RÜZGÂR ENERJİSİ",
+          "word": "RÜZGR ENERJISI",
           "hint": "Türbinlerle elektrik üreten doğal enerji kaynağı"
         },
         {
@@ -85,7 +85,7 @@
           "hint": "Suyun hareketinden elde edilen enerji türü."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ",
+          "word": "GÜNEŞ ENERJISI",
           "hint": "Güneş ışığından elde edilen elektrik veya ısı enerjisi."
         },
         {
@@ -219,7 +219,7 @@
       ],
       "words": [
         {
-          "word": "SERA ETKİSİ",
+          "word": "SERA ETKISI",
           "hint": "Atmosferde ısının tutulmasıyla oluşan ısınma olayı"
         },
         {
@@ -1206,11 +1206,11 @@
           "hint": "Kısa süreli atmosferik durum."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ",
           "hint": "Uzun vadeli iklim desenlerinde meydana gelen değişimler."
         },
         {
-          "word": "SERA ETKİSİ",
+          "word": "SERA ETKISI",
           "hint": "Atmosferdeki gazların ısıyı tutması."
         },
         {
@@ -1330,15 +1330,15 @@
           "hint": "Atom çekirdeğindeki enerjiden elde edilen enerji."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ",
+          "word": "GÜNEŞ ENERJISI",
           "hint": "Güneş ışınlarından elde edilen enerji."
         },
         {
-          "word": "RÜZGAR ENERJİSİ",
+          "word": "RÜZGAR ENERJISI",
           "hint": "Rüzgarın gücünden elde edilen enerji."
         },
         {
-          "word": "BİYOKÜTLE ENERJİSİ",
+          "word": "BİYOKÜTLE ENERJISI",
           "hint": "Organik maddelerden elde edilen enerji."
         },
         {
@@ -1374,7 +1374,7 @@
           "hint": "Şehirlerin hızlı büyümesinin yarattığı sorunlar."
         },
         {
-          "word": "TEKNOLOJİK GELİŞİM",
+          "word": "TEKNOLOJİK GELIŞIM",
           "hint": "Bilim ve teknolojideki ilerlemeler."
         },
         {
@@ -1426,7 +1426,7 @@
           "hint": "Üretimde kullanılan para veya mal varlığı."
         },
         {
-          "word": "GİRİŞİMCİLİK",
+          "word": "GİRIŞIMCİLİK",
           "hint": "Yeni iş kurma ve risk alma çabası."
         },
         {
@@ -1574,7 +1574,7 @@
           "hint": "Toplumun refahını artırmaya yönelik politikalar."
         },
         {
-          "word": "DEMOGRAFİK DEĞİŞİM",
+          "word": "DEMOGRAFİK DEĞIŞIM",
           "hint": "Nüfus yapısındaki değişimler."
         },
         {
@@ -1718,10 +1718,6 @@
           "hint": "Ağaçların yoğun olduğu geniş alan."
         },
         {
-          "word": "BİYOM",
-          "hint": "Geniş coğrafi alanlardaki benzer iklim ve canlı toplulukları."
-        },
-        {
           "word": "BİYOÇEŞİTLİLİK HARİTASI",
           "hint": "Canlı türlerinin dağılımını gösteren harita."
         },
@@ -1826,7 +1822,7 @@
           "hint": "Atmosferde ısıyı tutan gazlar."
         },
         {
-          "word": "KÜRESEL İKLİM DEĞİŞİKLİĞİ",
+          "word": "KÜRESEL İKLİM DEĞIŞIKLİĞİ",
           "hint": "Dünya'nın ikliminde meydana gelen uzun vadeli değişim."
         },
         {
@@ -1862,11 +1858,11 @@
           "hint": "Toprağın dinlendirilmesi."
         },
         {
-          "word": "PESTİSİT",
+          "word": "PESTISIT",
           "hint": "Zararlı böcekleri öldüren ilaç."
         },
         {
-          "word": "HERBİSİT",
+          "word": "HERBISIT",
           "hint": "Yabani otları öldüren ilaç."
         },
         {
@@ -1914,7 +1910,7 @@
           "hint": "Sera gazı salımını azaltma."
         },
         {
-          "word": "KARBON VERGİSİ",
+          "word": "KARBON VERGISI",
           "hint": "Karbon salınımına uygulanan vergi."
         },
         {
@@ -2042,7 +2038,7 @@
           "hint": "Herkesin eğitimde aynı olanaklara sahip olması."
         },
         {
-          "word": "SAĞLIK HİZMETLERİNE ERİŞİM",
+          "word": "SAĞLIK HİZMETLERİNE ERIŞIM",
           "hint": "Herkesin sağlık hizmetlerinden yararlanabilmesi."
         },
         {
@@ -2150,11 +2146,11 @@
           "hint": "Yenilenebilir enerjiye geçişi destekleyen uygulamalar."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ POTANSİYELİ",
+          "word": "GÜNEŞ ENERJISI POTANSİYELİ",
           "hint": "Bir bölgenin güneş enerjisi üretme kapasitesi."
         },
         {
-          "word": "RÜZGAR ENERJİSİ POTANSİYELİ",
+          "word": "RÜZGAR ENERJISI POTANSİYELİ",
           "hint": "Bir bölgenin rüzgar enerjisi üretme kapasitesi."
         },
         {
@@ -2178,7 +2174,7 @@
           "hint": "Sürdürülebilirlik düzeyini belirleyen yöntemler."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ PROJEKSİYONLARI",
+          "word": "İKLİM DEĞIŞIKLİĞİ PROJEKSİYONLARI",
           "hint": "Gelecekteki iklim durumuna dair tahminler."
         },
         {
@@ -2218,11 +2214,11 @@
           "hint": "Enerji ağlarının verimli yönetilmesini sağlayan teknolojiler."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ SİSTEMLERİ",
+          "word": "GÜNEŞ ENERJISI SİSTEMLERİ",
           "hint": "Güneş enerjisini kullanan tesisler."
         },
         {
-          "word": "RÜZGAR ENERJİSİ SANTRALLERİ",
+          "word": "RÜZGAR ENERJISI SANTRALLERİ",
           "hint": "Rüzgar enerjisi üreten tesisler."
         },
         {
@@ -2250,7 +2246,7 @@
           "hint": "Sürdürülebilirlik durumunu ölçen metrikler."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ UYUM STRATEJİLERİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ UYUM STRATEJİLERİ",
           "hint": "İklim değişikliğine karşı alınacak önlemler."
         },
         {
@@ -2290,7 +2286,7 @@
           "hint": "Enerji verimliliğini artıran ev sistemleri."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ SİSTEM MALİYETLERİ",
+          "word": "GÜNEŞ ENERJISI SİSTEM MALİYETLERİ",
           "hint": "Güneş enerjisi sistemlerinin kurulum masrafları."
         },
         {
@@ -2322,7 +2318,7 @@
           "hint": "Kuruluşların sürdürülebilirlik performansını açıklama."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARI",
+          "word": "İKLİM DEĞIŞIKLİĞİ AZALTMA POLİTİKALARI",
           "hint": "Sera gazı salımını düşürme politikaları."
         },
         {
@@ -2362,11 +2358,11 @@
           "hint": "Enerji ağlarının optimize edilmesi."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ TEKNOLOJİLERİ",
+          "word": "GÜNEŞ ENERJISI TEKNOLOJİLERİ",
           "hint": "Güneş enerjisini kullanma yöntemleri."
         },
         {
-          "word": "RÜZGAR ENERJİSİ TEKNOLOJİLERİ",
+          "word": "RÜZGAR ENERJISI TEKNOLOJİLERİ",
           "hint": "Rüzgar enerjisini kullanma yöntemleri."
         },
         {
@@ -2394,7 +2390,7 @@
           "hint": "Kuruluşların sürdürülebilirlik uygulamalarını kontrol etme."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ ETKİ ANALİZLERİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ ETKİ ANALİZLERİ",
           "hint": "İklim değişikliğinin sonuçlarını inceleme."
         },
         {
@@ -2434,11 +2430,11 @@
           "hint": "Akıllı şebekelerin kurulumu için yapılan harcamalar."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ UYGULAMA ALANLARI",
+          "word": "GÜNEŞ ENERJISI UYGULAMA ALANLARI",
           "hint": "Güneş enerjisinin kullanıldığı yerler."
         },
         {
-          "word": "RÜZGAR ENERJİSİ UYGULAMA ALANLARI",
+          "word": "RÜZGAR ENERJISI UYGULAMA ALANLARI",
           "hint": "Rüzgar enerjisinin kullanıldığı yerler."
         },
         {
@@ -2466,7 +2462,7 @@
           "hint": "Kuruluşların sürdürülebilirlik standartlarına uygunluğunu belgelendirme."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ ETKİLERİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ ETKİLERİ",
           "hint": "İklim değişikliğinin yol açtığı sonuçlar."
         },
         {
@@ -2506,11 +2502,11 @@
           "hint": "Akıllı şebekeleri kontrol eden programlar."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ YATIRIM TEŞVİKLERİ",
+          "word": "GÜNEŞ ENERJISI YATIRIM TEŞVİKLERİ",
           "hint": "Güneş enerjisine yatırım yapmayı destekleme."
         },
         {
-          "word": "RÜZGAR ENERJİSİ YATIRIM TEŞVİKLERİ",
+          "word": "RÜZGAR ENERJISI YATIRIM TEŞVİKLERİ",
           "hint": "Rüzgar enerjisine yatırım yapmayı destekleme."
         },
         {
@@ -2538,7 +2534,7 @@
           "hint": "Sürdürülebilirlik konusunda verilen eğitimler."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ RİSKLERİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ RİSKLERİ",
           "hint": "İklim değişikliğinin yol açabileceği tehlikeler."
         },
         {
@@ -2578,11 +2574,11 @@
           "hint": "Akıllı şebekelerin sağladığı avantajlar."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ POLİTİKALARI",
+          "word": "GÜNEŞ ENERJISI POLİTİKALARI",
           "hint": "Güneş enerjisinin kullanımını teşvik eden devlet politikaları."
         },
         {
-          "word": "RÜZGAR ENERJİSİ POLİTİKALARI",
+          "word": "RÜZGAR ENERJISI POLİTİKALARI",
           "hint": "Rüzgar enerjisinin kullanımını teşvik eden devlet politikaları."
         },
         {
@@ -2610,7 +2606,7 @@
           "hint": "Sürdürülebilirlik raporlarının hazırlanmasında uyulan kurallar."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ ADAPTASYON ARAÇLARI",
+          "word": "İKLİM DEĞIŞIKLİĞİ ADAPTASYON ARAÇLARI",
           "hint": "İklim değişikliğine uyum sağlamaya yarayan yöntemler."
         },
         {
@@ -2634,7 +2630,7 @@
           "hint": "Biyoyakıtın doğaya olan etkileri."
         },
         {
-          "word": "KENTSEL TARIM EKONOMİSİ",
+          "word": "KENTSEL TARIM EKONOMISI",
           "hint": "Şehirlerde tarımın ekonomik boyutu."
         },
         {
@@ -2650,11 +2646,11 @@
           "hint": "Enerji ağlarının en verimli şekilde yönetilmesi."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ FİNANSMANI",
+          "word": "GÜNEŞ ENERJISI FİNANSMANI",
           "hint": "Güneş enerjisi projeleri için para bulma."
         },
         {
-          "word": "RÜZGAR ENERJİSİ FİNANSMANI",
+          "word": "RÜZGAR ENERJISI FİNANSMANI",
           "hint": "Rüzgar enerjisi projeleri için para bulma."
         },
         {
@@ -2682,7 +2678,7 @@
           "hint": "Sürdürülebilirlik için belirlenen ölçütler."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ ADAPTASYON ÇÖZÜMLERİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ ADAPTASYON ÇÖZÜMLERİ",
           "hint": "İklim değişikliğine uyum sağlamaya yönelik pratikler."
         },
         {
@@ -2722,11 +2718,11 @@
           "hint": "Enerji ağlarını yönetme biçimleri."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ DEPOLAMA SİSTEMLERİ",
+          "word": "GÜNEŞ ENERJISI DEPOLAMA SİSTEMLERİ",
           "hint": "Üretilen güneş enerjisini saklama yöntemleri."
         },
         {
-          "word": "RÜZGAR ENERJİSİ DEPOLAMA SİSTEMLERİ",
+          "word": "RÜZGAR ENERJISI DEPOLAMA SİSTEMLERİ",
           "hint": "Üretilen rüzgar enerjisini saklama yöntemleri."
         },
         {
@@ -2754,7 +2750,7 @@
           "hint": "Sürdürülebilirlik raporları hazırlamaya yarayan yazılımlar."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ UYUM STRATEJİSİ GELİŞTİRME",
+          "word": "İKLİM DEĞIŞIKLİĞİ UYUM STRATEJISI GELİŞTİRME",
           "hint": "İklim değişikliğine karşı uyum planları hazırlama."
         },
         {
@@ -2794,11 +2790,11 @@
           "hint": "Enerji ağlarının ne kadar verimli çalıştığı."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ VERİMLİLİĞİ",
+          "word": "GÜNEŞ ENERJISI VERİMLİLİĞİ",
           "hint": "Güneş enerjisi sistemlerinin ne kadar etkili olduğu."
         },
         {
-          "word": "RÜZGAR ENERJİSİ VERİMLİLİĞİ",
+          "word": "RÜZGAR ENERJISI VERİMLİLİĞİ",
           "hint": "Rüzgar enerjisi sistemlerinin ne kadar etkili olduğu."
         },
         {
@@ -2826,7 +2822,7 @@
           "hint": "Kuruluşların sürdürülebilirlik çalışmalarını yönetme biçimleri."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA TEKNOLOJİLERİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ AZALTMA TEKNOLOJİLERİ",
           "hint": "Sera gazı salımını azaltmaya yarayan teknolojiler."
         },
         {
@@ -2862,11 +2858,11 @@
           "hint": "Enerji ağlarının yönetilmesinde kullanılan yöntemler."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ DEPOLAMA TEKNOLOJİLERİ",
+          "word": "GÜNEŞ ENERJISI DEPOLAMA TEKNOLOJİLERİ",
           "hint": "Güneş enerjisini saklamaya yarayan teknolojiler."
         },
         {
-          "word": "RÜZGAR ENERJİSİ DEPOLAMA TEKNOLOJİLERİ",
+          "word": "RÜZGAR ENERJISI DEPOLAMA TEKNOLOJİLERİ",
           "hint": "Rüzgar enerjisini saklamaya yarayan teknolojiler."
         },
         {
@@ -2894,7 +2890,7 @@
           "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimleri için kurallar."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA STRATEJİLERİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ AZALTMA STRATEJİLERİ",
           "hint": "Sera gazı salımını düşürme planları."
         },
         {
@@ -2930,11 +2926,11 @@
           "hint": "Enerji verimliliği ile ilgili yasalara uygunluk."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİ",
+          "word": "GÜNEŞ ENERJISI DEPOLAMA ÇÖZÜMLERİ",
           "hint": "Güneş enerjisini saklama yöntemleri."
         },
         {
-          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİ",
+          "word": "RÜZGAR ENERJISI DEPOLAMA ÇÖZÜMLERİ",
           "hint": "Rüzgar enerjisini saklama yöntemleri."
         },
         {
@@ -2962,7 +2958,7 @@
           "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimleri için kılavuzlar."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ ETKİNLİĞİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ AZALTMA POLİTİKALARININ ETKİNLİĞİ",
           "hint": "Sera gazı salımını düşürme politikalarının başarısı."
         },
         {
@@ -3002,11 +2998,11 @@
           "hint": "Enerji ağlarının yönetilmesinde kullanılan sistemler."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN MALİYETİ",
+          "word": "GÜNEŞ ENERJISI DEPOLAMA ÇÖZÜMLERİNİN MALİYETİ",
           "hint": "Güneş enerjisini saklamanın maliyeti."
         },
         {
-          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN MALİYETİ",
+          "word": "RÜZGAR ENERJISI DEPOLAMA ÇÖZÜMLERİNİN MALİYETİ",
           "hint": "Rüzgar enerjisini saklamanın maliyeti."
         },
         {
@@ -3034,7 +3030,7 @@
           "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimleri."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ GELİŞTİRİLMESİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ AZALTMA POLİTİKALARININ GELİŞTİRİLMESİ",
           "hint": "Sera gazı salımını düşürme politikalarının iyileştirilmesi."
         },
         {
@@ -3074,11 +3070,11 @@
           "hint": "Enerji ağlarını yöneten programların yenilenmesi."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN GELİŞTİRİLMESİ",
+          "word": "GÜNEŞ ENERJISI DEPOLAMA ÇÖZÜMLERİNİN GELİŞTİRİLMESİ",
           "hint": "Güneş enerjisini saklama yöntemlerinin iyileştirilmesi."
         },
         {
-          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN GELİŞTİRİLMESİ",
+          "word": "RÜZGAR ENERJISI DEPOLAMA ÇÖZÜMLERİNİN GELİŞTİRİLMESİ",
           "hint": "Rüzgar enerjisini saklama yöntemlerinin iyileştirilmesi."
         },
         {
@@ -3106,7 +3102,7 @@
           "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimlerinin kontrol edilmesi."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ İZLENMESİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ AZALTMA POLİTİKALARININ İZLENMESİ",
           "hint": "Sera gazı salımını düşürme politikalarının takip edilmesi."
         },
         {
@@ -3142,11 +3138,11 @@
           "hint": "Enerji verimliliği ile ilgili yasalara uygunluk raporları."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN YAYGINLAŞTIRILMASI",
+          "word": "GÜNEŞ ENERJISI DEPOLAMA ÇÖZÜMLERİNİN YAYGINLAŞTIRILMASI",
           "hint": "Güneş enerjisini saklama yöntemlerinin daha çok kullanılması."
         },
         {
-          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN YAYGINLAŞTIRILMASI",
+          "word": "RÜZGAR ENERJISI DEPOLAMA ÇÖZÜMLERİNİN YAYGINLAŞTIRILMASI",
           "hint": "Rüzgar enerjisini saklama yöntemlerinin daha çok kullanılması."
         },
         {
@@ -3174,7 +3170,7 @@
           "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimlerindeki gelişmeler."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ DEĞERLENDİRİLMESİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ AZALTMA POLİTİKALARININ DEĞERLENDİRİLMESİ",
           "hint": "Sera gazı salımını düşürme politikalarının başarısının ölçülmesi."
         },
         {
@@ -3214,11 +3210,11 @@
           "hint": "Enerji ağlarının ne kadar verimli çalıştığını gösteren metrikler."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞMELERİ",
+          "word": "GÜNEŞ ENERJISI DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞMELERİ",
           "hint": "Güneş enerjisini saklama yöntemlerindeki ilerlemeler."
         },
         {
-          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞMELERİ",
+          "word": "RÜZGAR ENERJISI DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞMELERİ",
           "hint": "Rüzgar enerjisini saklama yöntemlerindeki ilerlemeler."
         },
         {
@@ -3246,7 +3242,7 @@
           "hint": "Sürdürülebilirlik çalışmalarını yönetme konusunda verilen eğitimler."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ ETKİNLİĞİNİ ÖLÇME",
+          "word": "İKLİM DEĞIŞIKLİĞİ AZALTMA POLİTİKALARININ ETKİNLİĞİNİ ÖLÇME",
           "hint": "Sera gazı salımını düşürme politikalarının başarısını değerlendirme."
         },
         {
@@ -3286,11 +3282,11 @@
           "hint": "Enerji ağlarının ne kadar verimli çalıştığı."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN PERFORMANS DEĞERLENDİRMESİ",
+          "word": "GÜNEŞ ENERJISI DEPOLAMA ÇÖZÜMLERİNİN PERFORMANS DEĞERLENDİRMESİ",
           "hint": "Güneş enerjisini saklama yöntemlerinin etkinliğinin ölçülmesi."
         },
         {
-          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN PERFORMANS DEĞERLENDİRMESİ",
+          "word": "RÜZGAR ENERJISI DEPOLAMA ÇÖZÜMLERİNİN PERFORMANS DEĞERLENDİRMESİ",
           "hint": "Rüzgar enerjisini saklama yöntemlerinin etkinliğinin ölçülmesi."
         },
         {
@@ -3314,11 +3310,11 @@
           "hint": "İnsanın doğaya etkisini düşürme planlarının iyileştirilmesi."
         },
         {
-          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMİ İLETİŞİM STRATEJİLERİ",
+          "word": "SÜRDÜRÜLEBİLİRLİK YÖNETİM SİSTEMİ İLETIŞIM STRATEJİLERİ",
           "hint": "Sürdürülebilirlik çalışmalarını yönetirken yapılan iletişim çalışmaları."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ SÜRDÜRÜLEBİLİRLİĞİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ AZALTMA POLİTİKALARININ SÜRDÜRÜLEBİLİRLİĞİ",
           "hint": "Sera gazı salımını düşürme politikalarının uzun vadede devam edebilirliği."
         },
         {
@@ -3358,11 +3354,11 @@
           "hint": "Enerji ağlarının ne kadar verimli çalıştığının incelenmesi."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN GELECEĞİ",
+          "word": "GÜNEŞ ENERJISI DEPOLAMA ÇÖZÜMLERİNİN GELECEĞİ",
           "hint": "Güneş enerjisini saklama yöntemlerinin gelecekteki durumu."
         },
         {
-          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN GELECEĞİ",
+          "word": "RÜZGAR ENERJISI DEPOLAMA ÇÖZÜMLERİNİN GELECEĞİ",
           "hint": "Rüzgar enerjisini saklama yöntemlerinin gelecekteki durumu."
         },
         {
@@ -3390,7 +3386,7 @@
           "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimleri için kılavuzların yenilenmesi."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ ETKİNLİĞİNİ ARTIRAN FAKTÖRLER",
+          "word": "İKLİM DEĞIŞIKLİĞİ AZALTMA POLİTİKALARININ ETKİNLİĞİNİ ARTIRAN FAKTÖRLER",
           "hint": "Sera gazı salımını düşürme politikalarının başarısını artıran etkenler."
         },
         {
@@ -3430,11 +3426,11 @@
           "hint": "Enerji ağlarının ne kadar verimli çalıştığının detaylı incelenmesi."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN PAZAR ANALİZİ",
+          "word": "GÜNEŞ ENERJISI DEPOLAMA ÇÖZÜMLERİNİN PAZAR ANALİZİ",
           "hint": "Güneş enerjisini saklama yöntemlerinin pazar durumunun incelenmesi."
         },
         {
-          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN PAZAR ANALİZİ",
+          "word": "RÜZGAR ENERJISI DEPOLAMA ÇÖZÜMLERİNİN PAZAR ANALİZİ",
           "hint": "Rüzgar enerjisini saklama yöntemlerinin pazar durumunun incelenmesi."
         },
         {
@@ -3462,7 +3458,7 @@
           "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimlerinin kontrol sonuçlarına dair raporlar."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ DEĞERLENDİRİLMESİ RAPORLARI",
+          "word": "İKLİM DEĞIŞIKLİĞİ AZALTMA POLİTİKALARININ DEĞERLENDİRİLMESİ RAPORLARI",
           "hint": "Sera gazı salımını düşürme politikalarının başarısının ölçülmesine dair raporlar."
         },
         {
@@ -3502,23 +3498,23 @@
           "hint": "Enerji ağlarının ne kadar verimli çalıştığının detaylı incelenmesine yarayan programlar."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM TRENDLERİ",
+          "word": "GÜNEŞ ENERJISI DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELIŞIM TRENDLERİ",
           "hint": "Güneş enerjisini saklama yöntemlerindeki ilerleme eğilimleri."
         },
         {
-          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM TRENDLERİ",
+          "word": "RÜZGAR ENERJISI DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELIŞIM TRENDLERİ",
           "hint": "Rüzgar enerjisini saklama yöntemlerindeki ilerleme eğilimleri."
         },
         {
-          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM TRENDLERİ",
+          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELIŞIM TRENDLERİ",
           "hint": "Yer ısısından elde edilen enerjiyi saklama yöntemlerindeki ilerleme eğilimleri."
         },
         {
-          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM TRENDLERİ",
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELIŞIM TRENDLERİ",
           "hint": "Suyun enerjisini depolama yöntemlerindeki ilerleme eğilimleri."
         },
         {
-          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM TRENDLERİ",
+          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELIŞIM TRENDLERİ",
           "hint": "Nükleer enerji atıklarının yönetimi yöntemlerindeki ilerleme eğilimleri."
         },
         {
@@ -3534,7 +3530,7 @@
           "hint": "Sürdürülebilirlik çalışmalarını yönetme biçimleri için kılavuzların yeniden gözden geçirilmesi."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ AZALTMA POLİTİKALARININ ETKİNLİĞİNİ ARTIRAN FAKTÖRLERİN ANALİZİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ AZALTMA POLİTİKALARININ ETKİNLİĞİNİ ARTIRAN FAKTÖRLERİN ANALİZİ",
           "hint": "Sera gazı salımını düşürme politikalarının başarısını artıran etkenlerin incelenmesi."
         },
         {
@@ -3574,23 +3570,23 @@
           "hint": "Enerji ağlarının ne kadar verimli çalıştığının detaylı incelenmesine dair raporlar."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM VE PAZAR ANALİZİ",
+          "word": "GÜNEŞ ENERJISI DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELIŞIM VE PAZAR ANALİZİ",
           "hint": "Güneş enerjisini saklama yöntemlerindeki ilerlemeler ve pazar durumu."
         },
         {
-          "word": "RÜZGAR ENERJİSİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM VE PAZAR ANALİZİ",
+          "word": "RÜZGAR ENERJISI DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELIŞIM VE PAZAR ANALİZİ",
           "hint": "Rüzgar enerjisini saklama yöntemlerindeki ilerlemeler ve pazar durumu."
         },
         {
-          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM VE PAZAR ANALİZİ",
+          "word": "JEOTERMAL ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELIŞIM VE PAZAR ANALİZİ",
           "hint": "Yer ısısından elde edilen enerjiyi saklama yöntemlerindeki ilerlemeler ve pazar durumu."
         },
         {
-          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM VE PAZAR ANALİZİ",
+          "word": "HİDROELEKTRİK ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELIŞIM VE PAZAR ANALİZİ",
           "hint": "Suyun enerjisini depolama yöntemlerindeki ilerlemeler ve pazar durumu."
         },
         {
-          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELİŞİM VE PAZAR ANALİZİ",
+          "word": "NÜKLEER ENERJİ DEPOLAMA ÇÖZÜMLERİNİN TEKNOLOJİK GELIŞIM VE PAZAR ANALİZİ",
           "hint": "Nükleer enerji atıklarının yönetimi yöntemlerindeki ilerlemeler ve pazar durumu."
         }
       ]
@@ -3792,7 +3788,7 @@
           "hint": "İnsanların veya malların taşınması."
         },
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Bilgi alışverişi, haberleşme."
         },
         {

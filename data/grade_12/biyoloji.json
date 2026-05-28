@@ -13,7 +13,7 @@
           "hint": "Bir canlının genetik kopyasının üretilmesi"
         },
         {
-          "word": "GEN TEDAVİSİ",
+          "word": "GEN TEDAVISI",
           "hint": "Hastalıklı genin sağlıklı olanla değiştirilmesi"
         },
         {
@@ -149,7 +149,7 @@
           "hint": "Yüksek verimli veya istenen özelliklere sahip bitki veya hayvan soyu."
         },
         {
-          "word": "ANTİSENSİ TEKNOLOJİSİ",
+          "word": "ANTİSENSİ TEKNOLOJISI",
           "hint": "Gen ekspresyonunu engelleyen RNA molekülleri üretme."
         },
         {
@@ -549,7 +549,7 @@
           "hint": "İki takım kromozoma sahip olma durumu (2n)."
         },
         {
-          "word": "KROSSİNG-OVER",
+          "word": "KROSSİNG OVER",
           "hint": "Mayoz bölünme sırasında homolog kromozomlar arasında parça değişimi."
         },
         {
@@ -581,16 +581,12 @@
           "hint": "Hücrenin büyümesi ve bölünmesi arasındaki süreç."
         },
         {
-          "word": "G1 FAZI",
+          "word": "G FAZI",
           "hint": "Hücre döngüsünün büyüme ve hazırlık evresi."
         },
         {
           "word": "S FAZI",
           "hint": "DNA'nın eşlendiği evre."
-        },
-        {
-          "word": "G2 FAZI",
-          "hint": "Bölünmeye hazırlığın tamamlandığı evre."
         },
         {
           "word": "M FAZI",
@@ -736,7 +732,7 @@
           "hint": "Etkisini sadece homozigot durumda gösterebilen alel."
         },
         {
-          "word": "KROSSİNG-OVER",
+          "word": "KROSSİNG OVER",
           "hint": "Mayoz bölünme sırasında homolog kromozomlar arasındaki parça değişimi."
         },
         {

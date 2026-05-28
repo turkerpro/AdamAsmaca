@@ -916,7 +916,7 @@
           "hint": "Nesneleri belirli bir yere koyma."
         },
         {
-          "word": "DEĞİŞKEN (BASİT ANLAMDA)",
+          "word": "DEĞİŞKEN BASİT ANLAMDA",
           "hint": "Yerine farklı sayıların gelebileceği boşluk veya sembol (örn: 3 + ? = 5)."
         }
       ]
@@ -1323,7 +1323,7 @@
           "hint": "Bir nesnenin dış görünüşü, biçimi."
         },
         {
-          "word": "CİSİM",
+          "word": "CISIM",
           "hint": "Dokunulabilen ve yer kaplayan her şey."
         },
         {

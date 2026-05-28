@@ -32,7 +32,7 @@
           "hint": "Bir cismin uzaydaki yerini belirten nicelik."
         },
         {
-          "word": "DEĞİŞİM",
+          "word": "DEĞIŞIM",
           "hint": "Bir durumdan başka bir duruma geçme."
         },
         {
@@ -310,7 +310,7 @@
           "hint": "Isıyla ilgili olan."
         },
         {
-          "word": "İSİ",
+          "word": "ISI",
           "hint": "Maddelerin moleküllerinin hareketi sonucu sahip olduğu enerji."
         },
         {
@@ -464,7 +464,7 @@
           "hint": "Bir cismin hareketinden dolayı sahip olduğu enerji"
         },
         {
-          "word": "İŞ-ENERJİ",
+          "word": "İŞ ENERJİ",
           "hint": "Yapılan işin kinetik enerjideki değişime eşitliği"
         },
         {
@@ -476,15 +476,15 @@
           "hint": "Hareket eden yüzeyler arasındaki engelleyici kuvvet"
         },
         {
-          "word": "İŞ-YAPILMAZ",
+          "word": "İŞ YAPILMAZ",
           "hint": "Kuvvetin cisme etki etmediği veya kuvvetin hareket doğrultusunda olmadığı durum"
         },
         {
-          "word": "ENERJİ-TÜRLERİ",
+          "word": "ENERJİ TÜRLERİ",
           "hint": "Kinetik, potansiyel, ısı, ışık gibi farklı enerji biçimleri"
         },
         {
-          "word": "İŞ-MAKİNELERİ",
+          "word": "İŞ MAKİNELERİ",
           "hint": "İşi kolaylaştıran basit araçlar (makara, kaldıraç gibi)"
         },
         {
@@ -492,11 +492,11 @@
           "hint": "Hızın zamana göre değişimi"
         },
         {
-          "word": "İŞ-YAPILIR",
+          "word": "İŞ YAPILIR",
           "hint": "Kuvvetin uygulanmasıyla cismin hareket ettiği durum"
         },
         {
-          "word": "ENERJİ-KORUNUMU",
+          "word": "ENERJİ KORUNUMU",
           "hint": "Enerjinin yoktan var olamayacağı, vardan yok olamayacağı ilkesi"
         },
         {
@@ -536,7 +536,7 @@
           "hint": "Isıyı iyi ileten madde"
         },
         {
-          "word": "İSİ-ENERJİSİ",
+          "word": "ISI ENERJISI",
           "hint": "Maddenin taneciklerinin hareketinden kaynaklanan enerji"
         },
         {
@@ -592,7 +592,7 @@
           "hint": "Elektrik akımına karşı gösterilen zorluk"
         },
         {
-          "word": "İŞ-GÜVENLİĞİ",
+          "word": "İŞ GÜVENLİĞİ",
           "hint": "İş yerinde alınması gereken önlemler"
         },
         {
@@ -648,7 +648,7 @@
           "hint": "Destek noktası etrafında dönerek iş yapan basit makine"
         },
         {
-          "word": "EĞİK-DÜZLEM",
+          "word": "EĞİK DÜZLEM",
           "hint": "Yükseğe çıkarmayı kolaylaştıran eğimli yüzey"
         }
       ]
@@ -662,7 +662,7 @@
       ],
       "words": [
         {
-          "word": "İSİ",
+          "word": "ISI",
           "hint": "Maddelerin kinetik enerjisinin toplamı"
         },
         {
@@ -706,11 +706,11 @@
           "hint": "Sıvının katı hale geçmesi"
         },
         {
-          "word": "HAL DEĞİŞİMİ",
+          "word": "HAL DEĞIŞIMİ",
           "hint": "Maddenin bir halden başka bir hale geçmesi"
         },
         {
-          "word": "ÖZGÜL İSİ",
+          "word": "ÖZGÜL ISI",
           "hint": "Bir maddenin sıcaklığını 1 derece artırmak için gereken ısı miktarı"
         },
         {
@@ -830,7 +830,7 @@
           "hint": "Isının akışkanlar tarafından taşınması"
         },
         {
-          "word": "İŞİNİM",
+          "word": "IŞINİM",
           "hint": "Isının elektromanyetik dalgalarla yayılması"
         },
         {
@@ -850,7 +850,7 @@
           "hint": "Çevreye zarar veren yağmur türü"
         },
         {
-          "word": "SERA ETKİSİ",
+          "word": "SERA ETKISI",
           "hint": "Dünya'nın aşırı ısınması"
         },
         {
@@ -887,7 +887,7 @@
           "hint": "Bir yüzeye dik uygulanan kuvvetin birim alana düşen miktarıdır."
         },
         {
-          "word": "SİVİ",
+          "word": "SIVI",
           "hint": "Belirli bir şekli olmayan, akışkan madde."
         },
         {
@@ -1067,7 +1067,7 @@
           "hint": "İşitilebilen titreşimler."
         },
         {
-          "word": "İŞİK",
+          "word": "IŞIK",
           "hint": "Görmeyi sağlayan elektromanyetik dalga."
         },
         {
@@ -1188,7 +1188,7 @@
           "hint": "Işığı toplayıp dağıtabilen şeffaf cisim."
         },
         {
-          "word": "CİSİM",
+          "word": "CISIM",
           "hint": "Uzayda yer kaplayan her şey."
         },
         {

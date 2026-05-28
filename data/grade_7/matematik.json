@@ -133,7 +133,7 @@
           "hint": "Bir doğrunun ne kadar dik olduğunu gösteren ölçü."
         },
         {
-          "word": "KESİŞİM",
+          "word": "KESIŞIM",
           "hint": "İki çizginin veya şeklin birbirini deldiği nokta."
         },
         {
@@ -411,7 +411,7 @@
           "hint": "Bir olayın veya ifadenin içinde bulunduğu durum."
         },
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Bilgi veya duygu alışverişi."
         },
         {
@@ -885,7 +885,7 @@
           "hint": "Önceden belirlenmemiş, her türlü açı"
         },
         {
-          "word": "TÜMLER AÇİLAR",
+          "word": "TÜMLER AÇILAR",
           "hint": "Toplamları 90 derece olan iki açı"
         },
         {
@@ -897,7 +897,7 @@
           "hint": "Birer ışınları ve köşeleri ortak olan açılar"
         },
         {
-          "word": "TERS AÇİLAR",
+          "word": "TERS AÇILAR",
           "hint": "Kesim noktasının karşılıklı olan açıları"
         },
         {
@@ -1029,7 +1029,7 @@
           "hint": "İki yönde sonsuza giden düz çizgi"
         },
         {
-          "word": "İŞİN",
+          "word": "IŞIN",
           "hint": "Bir noktadan başlayıp tek yönde giden doğru parçası"
         },
         {

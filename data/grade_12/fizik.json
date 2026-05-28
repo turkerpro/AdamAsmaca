@@ -52,10 +52,6 @@
           "hint": "İş yapabilme yeteneği"
         },
         {
-          "word": "GÖRELİLİK",
-          "hint": "Einstein'ın zaman ve uzay anlayışını değiştiren teori (Bu kelimeyi kullanmayın)"
-        },
-        {
           "word": "FOTOELEKTRİK",
           "hint": "Işığın metal yüzeyinden elektron sökmesi olayı (Bu kelimeyi kullanmayın)"
         },
@@ -80,7 +76,7 @@
           "hint": "Bir atomun en düşük enerji seviyesi"
         },
         {
-          "word": "ENERJİ_SEVİYESİ",
+          "word": "ENERJİ SEVİYESİ",
           "hint": "Atomun sahip olabileceği belirli enerji değerleri"
         },
         {
@@ -128,7 +124,7 @@
           "hint": "Enerjinin kuantizasyonunu ilk öneren fizikçi"
         },
         {
-          "word": "İŞİK",
+          "word": "IŞIK",
           "hint": "Görmemizi sağlayan elektromanyetik dalga"
         },
         {
@@ -144,7 +140,7 @@
           "hint": "Belirli şekli ve hacmi olan madde hali"
         },
         {
-          "word": "SİVİ",
+          "word": "SIVI",
           "hint": "Belirli hacmi olan ama şekli kabına göre değişen madde hali"
         },
         {
@@ -349,7 +345,7 @@
           "hint": "Bir şeyin ne kadar olduğunu belirten ölçü."
         },
         {
-          "word": "DEĞİŞİM",
+          "word": "DEĞIŞIM",
           "hint": "Bir durumdan başka bir duruma geçiş."
         },
         {
@@ -555,7 +551,7 @@
           "hint": "Enerjinin ısı veya ses olarak çevreye yayılması."
         },
         {
-          "word": "SİSTEM DİŞİ",
+          "word": "SİSTEM DIŞI",
           "hint": "Enerjinin sistemden ayrıldığı durum."
         },
         {
@@ -591,7 +587,7 @@
           "hint": "Maddenin hallerinden biri; potansiyel enerjisi yüksek olabilir."
         },
         {
-          "word": "SİVİ",
+          "word": "SIVI",
           "hint": "Maddenin hallerinden biri; akışkandır."
         },
         {
@@ -649,7 +645,7 @@
           "hint": "Isıyı ve elektriği iletmeyen maddelere verilen genel isim."
         },
         {
-          "word": "İSİ",
+          "word": "ISI",
           "hint": "Maddelerin taneciklerinin hareket enerjisinin toplamıdır."
         },
         {
@@ -693,11 +689,11 @@
           "hint": "Gaz halden doğrudan katı hale geçiş."
         },
         {
-          "word": "HAL DEĞİŞİMİ",
+          "word": "HAL DEĞIŞIMİ",
           "hint": "Maddenin bir halden başka bir hale geçmesi."
         },
         {
-          "word": "ÖZGÜL İSİ",
+          "word": "ÖZGÜL ISI",
           "hint": "Bir maddenin birim kütlesinin sıcaklığını bir derece artırmak için gereken ısı miktarı."
         },
         {
@@ -749,7 +745,7 @@
           "hint": "Elektriği kolayca geçiren madde."
         },
         {
-          "word": "SEMİ-İLETKEN",
+          "word": "SEMİ İLETKEN",
           "hint": "İletkenlikleri iletkenlerle yalıtkanlar arasında olan madde."
         },
         {
@@ -983,7 +979,7 @@
           "hint": "Bir dalga türü olup, havadaki titreşimlerle iletilir."
         },
         {
-          "word": "İŞİK",
+          "word": "IŞIK",
           "hint": "Elektromanyetik spektrumun görülebilen kısmıdır."
         },
         {
@@ -1003,7 +999,7 @@
           "hint": "Dalgaların bir engelin etrafından dolanarak yayılmasıdır."
         },
         {
-          "word": "GİRİŞİM",
+          "word": "GİRIŞIM",
           "hint": "Aynı anda var olan iki veya daha fazla dalganın etkileşimidir."
         },
         {
@@ -1244,7 +1240,7 @@
           "hint": "Ayna veya merceğin odak noktası ile tepe noktası arası mesafe."
         },
         {
-          "word": "CİSİM",
+          "word": "CISIM",
           "hint": "Işık kaynağı veya cisim."
         },
         {

@@ -197,7 +197,7 @@
           "hint": "Birinin dikkatini çekmek için konuşmak."
         },
         {
-          "word": "FİSİLDAMAK",
+          "word": "FISILDAMAK",
           "hint": "Çok kısık sesle konuşmak."
         },
         {
@@ -299,7 +299,7 @@
           "hint": "İsimleri renk, durum, biçim, sayı, sıra, yer, ölçü vb. yönlerinden niteleyen kelime."
         },
         {
-          "word": "İSİM",
+          "word": "ISIM",
           "hint": "Var olan veya tasavvur edilen her şeyin adını bildiren kelime."
         },
         {
@@ -525,11 +525,11 @@
           "hint": "Cümleler arasındaki anlam ve dil bilgisel uyum."
         },
         {
-          "word": "SEBEP-SONUÇ",
+          "word": "SEBEP SONUÇ",
           "hint": "Bir olayın neden olduğunu ve bu nedenden ortaya çıkan etkiyi belirten."
         },
         {
-          "word": "AMAÇ-SONUÇ",
+          "word": "AMAÇ SONUÇ",
           "hint": "Bir işin yapılma nedenini ve bu işin gerçekleştirilmesi hedefini belirten."
         },
         {
@@ -573,7 +573,7 @@
           "hint": "Yazıda anlamı güçlendiren işaretler bütünü."
         },
         {
-          "word": "İMLÂ",
+          "word": "İML",
           "hint": "Kelimelerin doğru yazılışına dikkat etme."
         },
         {
@@ -597,7 +597,7 @@
           "hint": "Bir şeyi başka bir şeye benzeterek anlatma."
         },
         {
-          "word": "KİŞİLEŞTİRME",
+          "word": "KIŞILEŞTİRME",
           "hint": "İnsan dışındaki varlıklara insani özellikler verme."
         },
         {
@@ -715,7 +715,7 @@
           "hint": "Açıkça benzetme yapılan edebi sanat."
         },
         {
-          "word": "KİŞİLEŞTİRME",
+          "word": "KIŞILEŞTİRME",
           "hint": "İnsan dışı varlıklara insani özellikler verme."
         },
         {
@@ -1171,7 +1171,7 @@
           "hint": "Bir konuyu başkalarına anlatma."
         },
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Bilgi, duygu ve düşüncelerin aktarılması."
         },
         {

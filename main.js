@@ -351,7 +351,18 @@ function populateSubjects() {
 
 // ── GAME LOGIC ──────────────────────────────────────────────────────────────
 function buildKeyboard() {
-  const layout = KEYBOARDS[currentKeyboard];
+  const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
+  let layout;
+  if (isEnglish) {
+    layout = [
+      ["Q","W","E","R","T","Y","U","I","O","P"],
+      ["A","S","D","F","G","H","J","K","L"],
+      ["Z","X","C","V","B","N","M"],
+      ["space"]
+    ];
+  } else {
+    layout = KEYBOARDS[currentKeyboard];
+  }
   layout.forEach((row, ri) => {
     const el = document.getElementById(`row-${ri+1}`);
     if(!el) return;
@@ -367,10 +378,18 @@ function buildKeyboard() {
     el.style.display = (row.length === 1 && row[0] === "space") ? "none" : "flex";
   });
   
+  const r4 = document.getElementById("row-4");
   if (layout.length < 4) {
-    const r4 = document.getElementById("row-4");
     if(r4) r4.style.display = "none";
+  } else {
+    if(r4 && !(layout[3].length === 1 && layout[3][0] === "space")) {
+      r4.style.display = "flex";
+    }
   }
+}
+
+function toTrUpperCase(str) {
+  return str.replace(/i/g, "İ").replace(/ı/g, "I").toUpperCase();
 }
 
 function newGame() {
@@ -379,6 +398,8 @@ function newGame() {
     showSubjectScreen();
     return;
   }
+  
+  buildKeyboard();
   
   if(availableWords.length === 0) {
     availableWords = [...WORD_BANK];
@@ -390,8 +411,16 @@ function newGame() {
   const gradePrefix = selectedGrade ? `${selectedGrade.gradeName} - ` : '';
   const categoryText = `${gradePrefix}${selectedSubject.name} - ${selectedUnit.name.split(':')[0]}`;
   
+  const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
+  let finalWord;
+  if (isEnglish) {
+    finalWord = entry.word.replace(/İ/g, "I").replace(/ı/g, "I").toUpperCase();
+  } else {
+    finalWord = toTrUpperCase(entry.word);
+  }
+  
   gameState = { 
-    word: entry.word.toUpperCase(), 
+    word: finalWord, 
     hint: entry.hint, 
     category: categoryText,
     guessed: new Set(), 
@@ -408,11 +437,12 @@ function newGame() {
 
 function guess(key) {
   if (gameState.over) return;
-  const k = key.toUpperCase();
+  const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
+  const k = isEnglish ? key.replace(/İ/g, "I").replace(/ı/g, "I").toUpperCase() : toTrUpperCase(key);
   if (gameState.guessed.has(k)) return;
   gameState.guessed.add(k);
 
-  const inWord = gameState.word.includes(k) || (k === " ");
+  const inWord = gameState.word.includes(k);
   if (!inWord) {
     gameState.wrong.push(k);
     gameState.score -= 2;
@@ -421,7 +451,7 @@ function guess(key) {
   }
 
   // win check
-  const letters = [...gameState.word].filter(c => c !== " ");
+  const letters = [...gameState.word].filter(c => isEnglish ? /[A-Z]/.test(c) : /[A-ZÇĞİÖŞÜ]/.test(c));
   const allFound = letters.length > 0 && letters.every(c => gameState.guessed.has(c));
   if (allFound) { gameState.over = true; gameState.won = true; gameState.score += 10; saveScore(); }
 
@@ -444,24 +474,37 @@ function updateUI() {
 function updateWordDisplay() {
   const wd = document.getElementById("word-display");
   wd.innerHTML = "";
+  const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
   [...gameState.word].forEach(ch => {
     const slot = document.createElement("div"); slot.className = "letter-slot";
     const char = document.createElement("div"); char.className = "letter-char";
     const line = document.createElement("div"); line.className = "letter-line";
 
-    if (ch === " ") {
-      slot.style.width = "20px";
-      char.classList.add("space-char");
-      line.classList.add("space-line");
+    const isLetter = isEnglish ? /[A-Z]/.test(ch) : /[A-ZÇĞİÖŞÜ]/.test(ch);
+
+    if (!isLetter) {
+      if (ch === " ") {
+        slot.style.width = "20px";
+        char.classList.add("space-char");
+        line.classList.add("space-line");
+      } else {
+        char.classList.add("revealed");
+        line.style.display = "none";
+      }
+      char.textContent = ch;
     } else if (gameState.guessed.has(ch)) {
       char.classList.add("revealed");
       if (!gameState.won && gameState.over) char.classList.add("wrong-final");
+      char.textContent = ch;
     } else {
       char.classList.add("hidden");
+      char.textContent = "_";
     }
-    char.textContent = ch === " " ? " " : (gameState.guessed.has(ch) || (gameState.over && !gameState.won) ? ch : "_");
-    if (gameState.over && !gameState.won && !gameState.guessed.has(ch) && ch !== " ") {
-      char.classList.remove("hidden"); char.classList.add("wrong-final"); char.textContent = ch;
+    
+    if (gameState.over && !gameState.won && isLetter && !gameState.guessed.has(ch)) {
+      char.classList.remove("hidden");
+      char.classList.add("wrong-final");
+      char.textContent = ch;
     }
     slot.appendChild(char); slot.appendChild(line); wd.appendChild(slot);
   });
@@ -574,8 +617,13 @@ function confetti() {
 // ── KEYBOARD PHYSICAL ────────────────────────────────────────────────────────
 document.addEventListener("keydown", e => {
   if(document.getElementById('game-screen').classList.contains('active')) {
-    const k = e.key.toUpperCase();
-    if (k.length === 1 && /[A-ZÇĞİÖŞÜ]/.test(k)) guess(k);
+    const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
+    const k = isEnglish ? e.key.replace(/İ/g, "I").replace(/ı/g, "I").toUpperCase() : toTrUpperCase(e.key);
+    if (isEnglish) {
+      if (k.length === 1 && /[A-Z]/.test(k)) guess(k);
+    } else {
+      if (k.length === 1 && /[A-ZÇĞİÖŞÜ]/.test(k)) guess(k);
+    }
   }
 });
 

@@ -157,7 +157,7 @@
           "hint": "Koordinat sisteminde bulunan yatay ve dikey çizgiler."
         },
         {
-          "word": "KESİŞİM",
+          "word": "KESIŞIM",
           "hint": "İki veya daha fazla doğrunun veya eğrinin buluştuğu nokta."
         },
         {
@@ -264,7 +264,7 @@
           "hint": "Ölçüsü 0 dereceden büyük, 90 dereceden küçük olan açı."
         },
         {
-          "word": "DİKİŞİ",
+          "word": "DİKIŞI",
           "hint": "İki doğrunun kesiştiğinde 90 derecelik bir açı oluşturması durumu."
         },
         {
@@ -514,7 +514,7 @@
           "hint": "Bir rakamın sayıda bulunduğu yere göre aldığı değer."
         },
         {
-          "word": "KESİR ÇİZGİSİ",
+          "word": "KESİR ÇİZGISI",
           "hint": "Pay ile paydayı ayıran yatay veya eğik çizgi."
         },
         {
@@ -748,7 +748,7 @@
           "hint": "Bir sayının kendisiyle birden çok kez çarpımını gösteren ifade."
         },
         {
-          "word": "KÖK (DENKLEM)",
+          "word": "KÖK DENKLEM",
           "hint": "Bir denklemi sağlayan bilinmeyen değeri."
         },
         {

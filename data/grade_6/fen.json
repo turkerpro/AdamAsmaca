@@ -125,7 +125,7 @@
           "hint": "Bir yeri veya şeyi idare etme."
         },
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Bilgi veya duygu alışverişi."
         },
         {
@@ -263,16 +263,8 @@
           "hint": "Ağızdan sonra gelen, soluk ve yemek borusunun kesiştiği bölüm."
         },
         {
-          "word": "MİDE",
-          "hint": "Yiyeceklerin çalkalandığı ve kimyasal sindirimin başladığı kese."
-        },
-        {
           "word": "PİLORA",
           "hint": "Midenin ince bağırsağa açıldığı dar kısım."
-        },
-        {
-          "word": "İNCEBAĞIRSAK",
-          "hint": "Besinlerin emildiği uzun ve kıvrımlı organ."
         },
         {
           "word": "KALIN BAĞIRSAK",
@@ -281,10 +273,6 @@
         {
           "word": "KAKİ",
           "hint": "Sindirim sonunda vücuttan atılan katı atık."
-        },
-        {
-          "word": "KARACİĞER",
-          "hint": "Safra üreten, vücudun en büyük organı."
         },
         {
           "word": "SAFRA",
@@ -593,7 +581,7 @@
           "hint": "Kara yolu taşıtı."
         },
         {
-          "word": "BİSİKLET",
+          "word": "BISIKLET",
           "hint": "İki tekerlekli insan gücüyle çalışan araç."
         },
         {
@@ -647,7 +635,7 @@
       ],
       "words": [
         {
-          "word": "HALDEĞİŞİMİ",
+          "word": "HALDEĞIŞIMİ",
           "hint": "Maddenin katıdan sıvıya veya sıvıdan gaza geçmesi gibi durumların değişmesi."
         },
         {
@@ -675,7 +663,7 @@
           "hint": "Gaz bir maddenin sıvı hale geçmeden doğrudan katı hale geçmesi."
         },
         {
-          "word": "İSİ",
+          "word": "ISI",
           "hint": "Enerjinin bir biçimi, sıcaklık farkından dolayı aktarılır."
         },
         {
@@ -683,7 +671,7 @@
           "hint": "Bir cismin ne kadar sıcak veya soğuk olduğunu gösteren bir ölçü."
         },
         {
-          "word": "İSİ İLETİMİ",
+          "word": "ISI İLETİMİ",
           "hint": "Isının bir maddeden diğerine temas yoluyla aktarılması."
         },
         {
@@ -711,7 +699,7 @@
           "hint": "Maddelerin ısı kaybederek hacimlerinin azalması."
         },
         {
-          "word": "ÖZGÜL İSİ",
+          "word": "ÖZGÜL ISI",
           "hint": "Bir maddenin sıcaklığını 1 derece artırmak için gereken ısı miktarı."
         },
         {
@@ -719,7 +707,7 @@
           "hint": "Belirli bir şekli ve hacmi olan madde hali."
         },
         {
-          "word": "SİVİ",
+          "word": "SIVI",
           "hint": "Belirli bir hacmi olan ama şekli kabına göre değişen madde hali."
         },
         {
@@ -763,7 +751,7 @@
           "hint": "Atomun çekirdeği etrafında dönen negatif yüklü parçacık."
         },
         {
-          "word": "İSİ DEĞİŞTİRİCİ",
+          "word": "ISI DEĞİŞTİRİCİ",
           "hint": "Sıvı veya gazların sıcaklıklarını değiştiren alet."
         },
         {
@@ -783,7 +771,7 @@
           "hint": "Isının geçişini engelleme işi."
         },
         {
-          "word": "İSİ KÖPRÜSÜ",
+          "word": "ISI KÖPRÜSÜ",
           "hint": "Isının kolayca geçtiği noktalar."
         },
         {
@@ -857,7 +845,7 @@
       ],
       "words": [
         {
-          "word": "İŞİK",
+          "word": "IŞIK",
           "hint": "Görmemizi sağlayan enerji türü."
         },
         {
@@ -1017,7 +1005,7 @@
           "hint": "Özen gösterme, farkında olma."
         },
         {
-          "word": "DEĞİŞİM",
+          "word": "DEĞIŞIM",
           "hint": "Bir halden başka bir hale geçme."
         },
         {
@@ -1041,7 +1029,7 @@
           "hint": "Belirli bir şekli olan madde."
         },
         {
-          "word": "SİVİ",
+          "word": "SIVI",
           "hint": "Akışkan madde."
         },
         {
@@ -1199,7 +1187,7 @@
           "hint": "Nesli tükenmekte olan canlıları ve doğal alanları kollama"
         },
         {
-          "word": "SERA ETKİSİ",
+          "word": "SERA ETKISI",
           "hint": "Dünya'nın aşırı ısınmasına neden olan gazların etkisi"
         },
         {
@@ -1385,11 +1373,11 @@
           "hint": "Devreyi oluşturan eleman."
         },
         {
-          "word": "İSİ",
+          "word": "ISI",
           "hint": "Direnç nedeniyle ortaya çıkan sıcaklık."
         },
         {
-          "word": "İŞİK",
+          "word": "IŞIK",
           "hint": "Ampulün yaydığı şey."
         },
         {

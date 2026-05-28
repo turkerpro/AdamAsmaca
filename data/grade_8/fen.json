@@ -255,7 +255,7 @@
           "hint": "Bir cismin birim hacminin kütlesi."
         },
         {
-          "word": "SİVİ",
+          "word": "SIVI",
           "hint": "Belirli bir şekli olmayan, akışkan madde."
         },
         {
@@ -303,7 +303,7 @@
           "hint": "Bir bütünün parçalarından biri."
         },
         {
-          "word": "DEĞİŞİM",
+          "word": "DEĞIŞIM",
           "hint": "Bir durumdan başka bir duruma geçiş."
         },
         {
@@ -506,7 +506,7 @@
           "hint": "Bir cismin uzaydaki yerini belirten durum."
         },
         {
-          "word": "DEĞİŞİM",
+          "word": "DEĞIŞIM",
           "hint": "Bir durumdan başka bir duruma geçme halidir."
         },
         {
@@ -673,7 +673,7 @@
       ],
       "words": [
         {
-          "word": "İSİ",
+          "word": "ISI",
           "hint": "Maddelerin sıcaklıklarının değişmesine neden olan enerji türü."
         },
         {
@@ -681,7 +681,7 @@
           "hint": "Bir cisimdeki taneciklerin ortalama kinetik enerjisinin bir ölçüsü."
         },
         {
-          "word": "HAL DEĞİŞİMİ",
+          "word": "HAL DEĞIŞIMİ",
           "hint": "Maddenin bir halden başka bir hale geçmesi (erime, donma vb.)."
         },
         {
@@ -705,7 +705,7 @@
           "hint": "Katı bir maddenin ısı alarak doğrudan gaz hale geçmesi (buzdolabından çıkan bezelye gibi)."
         },
         {
-          "word": "DEĞİŞİM",
+          "word": "DEĞIŞIM",
           "hint": "Bir durumdan başka bir duruma geçme hali."
         },
         {
@@ -721,7 +721,7 @@
           "hint": "Belirli bir şekli ve hacmi olan madde hali."
         },
         {
-          "word": "SİVİ",
+          "word": "SIVI",
           "hint": "Belirli bir hacmi olan ancak şekli kabına göre değişen madde hali."
         },
         {
@@ -761,7 +761,7 @@
           "hint": "Isı etkisiyle hacmin veya boyun azalması."
         },
         {
-          "word": "ÖZGÜL İSİ",
+          "word": "ÖZGÜL ISI",
           "hint": "Bir maddenin 1 gramının sıcaklığını 1 derece artırmak için gereken ısı miktarı."
         },
         {

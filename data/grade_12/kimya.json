@@ -97,7 +97,7 @@
           "hint": "Halka yapısındaki doymuş hidrokarbonlar."
         },
         {
-          "word": "ALİSİKLİK",
+          "word": "ALISIKLİK",
           "hint": "Halka yapısında olan ancak aromatik olmayan organik bileşikler."
         },
         {
@@ -266,11 +266,11 @@
           "hint": "Sistemin dışındaki her şey."
         },
         {
-          "word": "İSİ",
+          "word": "ISI",
           "hint": "Sıcaklık farkından dolayı aktarılan enerji."
         },
         {
-          "word": "DEĞİŞİM",
+          "word": "DEĞIŞIM",
           "hint": "Bir durumdan başka bir duruma geçme."
         },
         {
@@ -314,7 +314,7 @@
           "hint": "Düzenli atomik yapıya sahip katı madde."
         },
         {
-          "word": "SİVİ",
+          "word": "SIVI",
           "hint": "Akışkan, belirli bir şekli olmayan madde hali."
         },
         {
@@ -476,11 +476,11 @@
           "hint": "Apolar moleküller ve soy gazlarda görülen anlık zayıf etkileşim."
         },
         {
-          "word": "DİPOL-DİPOL",
+          "word": "DİPOL DİPOL",
           "hint": "Polar moleküller arasında görülen çekim kuvveti."
         },
         {
-          "word": "BAĞ ENERJİSİ",
+          "word": "BAĞ ENERJISI",
           "hint": "Kimyasal bir bağı kırmak için gereken enerji."
         },
         {
@@ -488,11 +488,11 @@
           "hint": "Atomun bağ elektronlarını kendine çekme gücü."
         },
         {
-          "word": "İYONLAŞMA ENERJİSİ",
+          "word": "İYONLAŞMA ENERJISI",
           "hint": "Gaz halindeki atomdan elektron koparmak için gereken enerji."
         },
         {
-          "word": "ELEKTRON İLGİSİ",
+          "word": "ELEKTRON İLGISI",
           "hint": "Gaz halindeki atoma elektron katıldığında açığa çıkan enerji."
         },
         {
@@ -782,7 +782,7 @@
           "hint": "Moleküller arası zayıf çekim kuvvetlerinin genel adı."
         },
         {
-          "word": "DİPOL-DİPOL",
+          "word": "DİPOL DİPOL",
           "hint": "Polar moleküller arasındaki çekim kuvveti."
         },
         {
@@ -810,7 +810,7 @@
           "hint": "Metal atomları arasındaki elektron denizi ile oluşan bağ."
         },
         {
-          "word": "FAZ DEĞİŞİMİ",
+          "word": "FAZ DEĞIŞIMİ",
           "hint": "Maddenin bir fiziksel halden diğerine geçişi."
         },
         {
@@ -822,11 +822,11 @@
           "hint": "Gaz halindeki maddenin sıvı hale geçmesi."
         },
         {
-          "word": "ERİME ENTALPİSİ",
+          "word": "ERİME ENTALPISI",
           "hint": "Bir katıyı eritmek için gereken enerji."
         },
         {
-          "word": "BUHARLAŞMA ENTALPİSİ",
+          "word": "BUHARLAŞMA ENTALPISI",
           "hint": "Bir sıvıyı buharlaştırmak için gereken enerji."
         },
         {
@@ -944,7 +944,7 @@
           "hint": "Cıva, kurşun, kadmiyum gibi canlılar için toksik olabilen yoğun metal elementler."
         },
         {
-          "word": "PESTİSİT",
+          "word": "PESTISIT",
           "hint": "Tarımda zararlı organizmaları kontrol etmek için kullanılan kimyasal maddeler."
         },
         {
@@ -956,7 +956,7 @@
           "hint": "Su ekosistemlerinde aşırı besin maddesi birikimi sonucu oluşan yosunlaşma ve kirlilik."
         },
         {
-          "word": "ARITMA TESİSİ",
+          "word": "ARITMA TESISI",
           "hint": "Atık suları veya gazları temizleyerek çevreye zarar vermeden doğaya salınmasını sağlayan yapı."
         },
         {
@@ -1004,7 +1004,7 @@
           "hint": "Belirli bir sıcaklık ve basınçta, bir çözücünün çözebileceği maksimum madde miktarı."
         },
         {
-          "word": "DERİŞİM",
+          "word": "DERIŞIM",
           "hint": "Bir çözeltideki çözünen madde miktarının oranı veya yoğunluğu."
         },
         {

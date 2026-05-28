@@ -166,7 +166,7 @@
           "hint": "Bir maddenin başka maddelerle karışmamış olma durumu."
         },
         {
-          "word": "HALDEĞİŞİMİ",
+          "word": "HALDEĞIŞIMİ",
           "hint": "Bir maddenin bir halden başka bir hale geçmesi (katıdan sıvıya gibi)."
         },
         {
@@ -467,7 +467,7 @@
           "hint": "Moleküller arasındaki zayıf çekim kuvvetlerinin genel adı."
         },
         {
-          "word": "DİPOL-DİPOL",
+          "word": "DİPOL DİPOL",
           "hint": "Kutup içeren moleküller arasındaki çekim kuvveti."
         },
         {
@@ -659,7 +659,7 @@
           "hint": "Birbirini yaklaştıran kuvvet."
         },
         {
-          "word": "BAĞ ENERJİSİ",
+          "word": "BAĞ ENERJISI",
           "hint": "Bir kimyasal bağı kırmak için gereken enerji miktarı."
         }
       ]
@@ -749,7 +749,7 @@
           "hint": "Sıvının katı hale geçmesi"
         },
         {
-          "word": "İSİ",
+          "word": "ISI",
           "hint": "Enerji türü, sıcaklık farkından iletilir"
         },
         {
@@ -761,7 +761,7 @@
           "hint": "Bir yüzeye dik uygulanan kuvvet"
         },
         {
-          "word": "HAL DEĞİŞİMİ",
+          "word": "HAL DEĞIŞIMİ",
           "hint": "Maddenin bir fiziksel halden başka bir fiziksel hale geçmesi"
         },
         {

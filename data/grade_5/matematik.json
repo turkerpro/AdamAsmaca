@@ -331,7 +331,7 @@
           "hint": "Bir nesnenin dış görünüşü."
         },
         {
-          "word": "CİSİM",
+          "word": "CISIM",
           "hint": "Yer kaplayan, hacmi olan varlık."
         },
         {
@@ -1209,7 +1209,7 @@
           "hint": "Bir doğrunun iki ucu sınırlı kısmı."
         },
         {
-          "word": "İŞİN",
+          "word": "IŞIN",
           "hint": "Bir ucu başlangıç noktası olan, diğer ucu sonsuza giden çizgi."
         },
         {
@@ -1225,7 +1225,7 @@
           "hint": "Bir çemberin çevresinin çapına bölümüyle bulunan sabit sayı."
         },
         {
-          "word": "CİSİM",
+          "word": "CISIM",
           "hint": "Üç boyutu olan, yer kaplayan varlık."
         },
         {
@@ -2279,7 +2279,7 @@
           "hint": "Zaman içindeki değişimleri çizgilerle gösteren grafik."
         },
         {
-          "word": "GELİŞİM",
+          "word": "GELIŞIM",
           "hint": "Bir şeyin zamanla değişip ilerlemesi."
         },
         {
@@ -2516,11 +2516,11 @@
           "hint": "Bir işin başlangıcı ile bitişi arasındaki zaman"
         },
         {
-          "word": "ÖĞLEDEN ÖNCE (ÖÖ)",
+          "word": "ÖĞLEDEN ÖNCE ÖÖ",
           "hint": "Sabah ve öğle arasındaki zaman dilimi"
         },
         {
-          "word": "ÖĞLEDEN SONRA (ÖS)",
+          "word": "ÖĞLEDEN SONRA ÖS",
           "hint": "Öğle ve gece arasındaki zaman dilimi"
         },
         {

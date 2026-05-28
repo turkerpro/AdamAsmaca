@@ -306,7 +306,7 @@
           "hint": "Dişi organın karşılığı olan eşey hücresi"
         },
         {
-          "word": "DİŞİ",
+          "word": "DIŞI",
           "hint": "Erkek organın karşılığı olan eşey hücresi"
         },
         {
@@ -497,16 +497,12 @@
           "hint": "Hücre bölünmesi öncesi hazırlık evresi."
         },
         {
-          "word": "G1 FAZI",
+          "word": "G FAZI",
           "hint": "Hücrenin büyüme ve protein sentezlediği interfaz dönemi."
         },
         {
           "word": "S FAZI",
           "hint": "DNA'nın eşlendiği interfaz dönemi."
-        },
-        {
-          "word": "G2 FAZI",
-          "hint": "Bölünme için gerekli proteinlerin sentezlendiği interfaz dönemi."
         },
         {
           "word": "KANSER",
@@ -567,10 +563,6 @@
         {
           "word": "OOGENEZ",
           "hint": "Dişilerde yumurta oluşumu."
-        },
-        {
-          "word": "İNTERFAZ",
-          "hint": "Hücre döngüsünün büyüme ve DNA replikasyonunun gerçekleştiği evresi."
         },
         {
           "word": "MİTOS",

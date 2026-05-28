@@ -32,7 +32,7 @@
           "hint": "Maddenin hallerinden biri, belirli şekli ve hacmi olmayan."
         },
         {
-          "word": "SİVİ",
+          "word": "SIVI",
           "hint": "Belirli bir şekli olmayan ancak belirli bir hacmi olan madde hali."
         },
         {
@@ -52,7 +52,7 @@
           "hint": "Bir cisimdeki moleküllerin ortalama kinetik enerjisinin ölçüsü."
         },
         {
-          "word": "HAL DEĞİŞİMİ",
+          "word": "HAL DEĞIŞIMİ",
           "hint": "Bir maddenin bir halden başka bir hale geçmesi (erime, donma, buharlaşma vb.)."
         },
         {
@@ -96,7 +96,7 @@
           "hint": "Bir gazın içerdiği madde miktarı."
         },
         {
-          "word": "KATI DERİŞİM",
+          "word": "KATI DERIŞIM",
           "hint": "Birim hacimdeki mol sayısı."
         },
         {
@@ -136,7 +136,7 @@
           "hint": "Gazların bir yüzeye uyguladığı kuvvet."
         },
         {
-          "word": "KATI DEĞİŞİM",
+          "word": "KATI DEĞIŞIM",
           "hint": "Gazların sıcaklık veya basınç etkisiyle fiziksel durumlarının değişmesi."
         },
         {
@@ -261,7 +261,7 @@
           "hint": "Suda çözündüğünde iyonlarına ayrışarak elektrik akımını ileten madde."
         },
         {
-          "word": "NON-ELEKTROLİT",
+          "word": "NON ELEKTROLİT",
           "hint": "Suda çözündüğünde iyonlarına ayrışmayan ve elektrik akımını iletmeyen madde."
         },
         {
@@ -361,7 +361,7 @@
           "hint": "Çözeltinin kütlesine göre çözünenin kütlesini belirten ifade."
         },
         {
-          "word": "HAL DEĞİŞİMİ",
+          "word": "HAL DEĞIŞIMİ",
           "hint": "Maddenin katı, sıvı, gaz gibi haller arasında geçişi."
         },
         {
@@ -494,11 +494,11 @@
           "hint": "Moleküller arası zayıf etkileşim türlerinden biri."
         },
         {
-          "word": "DİPOL-DİPOL",
+          "word": "DİPOL DİPOL",
           "hint": "Polar moleküller arasındaki çekim."
         },
         {
-          "word": "İYON-DİPOL",
+          "word": "İYON DİPOL",
           "hint": "İyon ile polar molekül arasındaki çekim."
         },
         {
@@ -518,7 +518,7 @@
           "hint": "Isı alan tepkime."
         },
         {
-          "word": "BAĞ ENERJİSİ",
+          "word": "BAĞ ENERJISI",
           "hint": "Bir kimyasal bağı kırmak için gereken enerji."
         },
         {
@@ -598,7 +598,7 @@
           "hint": "Çözücü içinde çözünen bileşen."
         },
         {
-          "word": "DERİŞİM",
+          "word": "DERIŞIM",
           "hint": "Çözünen madde miktarının çözelti miktarına oranı."
         },
         {
@@ -659,7 +659,7 @@
           "hint": "Belirli şekil ve hacmi olan madde hali."
         },
         {
-          "word": "SİVİ",
+          "word": "SIVI",
           "hint": "Belirli hacmi olan ancak şekli olmayan madde hali."
         },
         {
@@ -671,7 +671,7 @@
           "hint": "Maddelerin hallerini değiştirebilmesi için gereken etken."
         },
         {
-          "word": "İSİ",
+          "word": "ISI",
           "hint": "Enerjinin bir türü, sıcaklığı artırır veya maddeyi eritir."
         },
         {
@@ -723,11 +723,11 @@
           "hint": "Moleküllerin ortalama kinetik enerjisinin bir ölçüsü."
         },
         {
-          "word": "KATI-SIVI",
+          "word": "KATI SIVI",
           "hint": "Maddenin iki hali arasındaki geçiş (erime, donma)."
         },
         {
-          "word": "SIVI-GAZ",
+          "word": "SIVI GAZ",
           "hint": "Maddenin iki hali arasındaki geçiş (buharlaşma, yoğuşma)."
         },
         {
@@ -819,7 +819,7 @@
           "hint": "Birden fazla maddenin bir araya gelmesi."
         },
         {
-          "word": "SAF CİSİM",
+          "word": "SAF CISIM",
           "hint": "Tek tür molekül içeren madde."
         },
         {
@@ -949,7 +949,7 @@
           "hint": "Bir kilogram çözücüdeki çözünen madde mol sayısı."
         },
         {
-          "word": "YÜZDE DERİŞİM",
+          "word": "YÜZDE DERIŞIM",
           "hint": "Karışımdaki bir bileşenin toplam kütle veya hacminin yüzdesi."
         },
         {
@@ -1013,7 +1013,7 @@
           "hint": "Isı veren tepkime."
         },
         {
-          "word": "AKTİFLEŞME ENERJİSİ",
+          "word": "AKTİFLEŞME ENERJISI",
           "hint": "Bir kimyasal tepkimenin başlayabilmesi için gereken minimum enerji."
         },
         {
@@ -1363,7 +1363,7 @@
           "hint": "Titrasyonda asit ve bazın tam olarak tepkimeye girdiği an."
         },
         {
-          "word": "DERİŞİM",
+          "word": "DERIŞIM",
           "hint": "Birim hacimdeki çözünen madde miktarı."
         },
         {
@@ -1375,7 +1375,7 @@
           "hint": "Asitlerin H⁺, bazların OH⁻ verdiğini söyleyen tanım."
         },
         {
-          "word": "BRØNSTED-LOWRY",
+          "word": "BRNSTED LOWRY",
           "hint": "Proton transferi odaklı asit-baz tanımı."
         },
         {
@@ -1616,7 +1616,7 @@
           "hint": "Bir ürünün kalitesini koruduğu süre."
         },
         {
-          "word": "PESTİSİT",
+          "word": "PESTISIT",
           "hint": "Tarımda zararlı böcekleri veya bitkileri öldürmek için kullanılan kimyasal."
         },
         {

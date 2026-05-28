@@ -415,7 +415,7 @@
           "hint": "Hiçbir zaman kesişmeyen doğrular."
         },
         {
-          "word": "KESİŞİM",
+          "word": "KESIŞIM",
           "hint": "İki doğrunun buluştuğu nokta."
         },
         {
@@ -1125,7 +1125,7 @@
           "hint": "Bir üç boyutlu cismin tüm dış yüzeylerinin toplam alanı."
         },
         {
-          "word": "CİSİM",
+          "word": "CISIM",
           "hint": "Uzayda yer kaplayan üç boyutlu nesne."
         },
         {

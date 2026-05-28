@@ -17,7 +17,7 @@
           "hint": "Fiilden türeyen ve eylemi belirten sözcük"
         },
         {
-          "word": "İSİM FİİL",
+          "word": "ISIM FİİL",
           "hint": "Fiilden türeyen ve isim gibi kullanılan sözcük"
         },
         {
@@ -439,10 +439,6 @@
         {
           "word": "DURDURDU",
           "hint": "Trafiği durdurdu."
-        },
-        {
-          "word": "GELDİ",
-          "hint": "Arkadaşın geldi."
         },
         {
           "word": "YAPTI",
@@ -1647,7 +1643,7 @@
           "hint": "Kelime gruplarından her biri (isim, fiil, edat vb.)."
         },
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Duygu, düşünce veya bilgilerin aktarılması."
         },
         {
@@ -2011,7 +2007,7 @@
           "hint": "Bir yazının ait olduğu çeşit veya kategori."
         },
         {
-          "word": "HİKÂYE",
+          "word": "HİKYE",
           "hint": "Yaşanmış ya da yaşanabilecek olayları anlatan kısa yazı."
         },
         {
@@ -2099,7 +2095,7 @@
           "hint": "İki farklı şey arasında ortak bir özellikten yararlanarak yapılan karşılaştırma."
         },
         {
-          "word": "KİŞİLEŞTİRME",
+          "word": "KIŞILEŞTİRME",
           "hint": "İnsan dışı varlıklara insanlara özgü özellikler verme sanatı."
         },
         {
@@ -2345,7 +2341,7 @@
           "hint": "Bir iş, oluş veya durum bildiren kelime."
         },
         {
-          "word": "İSİM",
+          "word": "ISIM",
           "hint": "Varlıkları veya kavramları karşılayan kelime."
         },
         {
@@ -2423,7 +2419,7 @@
       ],
       "words": [
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Bilgi, duygu veya düşünce alışverişi."
         },
         {
@@ -2857,7 +2853,7 @@
           "hint": "Yazılı bir metni okuyan kişi."
         },
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Duygu, düşünce veya bilgilerin aktarılması süreci."
         },
         {
@@ -2885,7 +2881,7 @@
           "hint": "Bir şeyi olduğundan çok daha büyük veya küçük gösterme sanatı."
         },
         {
-          "word": "KİŞİLEŞTİRME",
+          "word": "KIŞILEŞTİRME",
           "hint": "Cansız varlıklara veya hayvanlara insani özellikler verme."
         },
         {

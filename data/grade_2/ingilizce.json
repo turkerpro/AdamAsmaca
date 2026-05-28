@@ -40,11 +40,11 @@
           "hint": "İyi geceler"
         },
         {
-          "word": "HOW ARE YOU?",
+          "word": "HOW ARE YOU",
           "hint": "Nasılsın?"
         },
         {
-          "word": "I'M FINE",
+          "word": "IM FINE",
           "hint": "İyiyim"
         },
         {
@@ -52,7 +52,7 @@
           "hint": "Teşekkür ederim"
         },
         {
-          "word": "YOU'RE WELCOME",
+          "word": "YOURE WELCOME",
           "hint": "Rica ederim"
         },
         {
@@ -80,16 +80,12 @@
           "hint": "Benim adım..."
         },
         {
-          "word": "WHAT'S YOUR NAME?",
+          "word": "WHATS YOUR NAME",
           "hint": "Adın ne?"
         },
         {
           "word": "NICE TO MEET YOU",
           "hint": "Tanıştığıma memnun oldum"
-        },
-        {
-          "word": "I",
-          "hint": "Ben"
         },
         {
           "word": "YOU",
@@ -554,35 +550,35 @@
           "hint": "Sayı: Yüz"
         },
         {
-          "word": "TWENTY-ONE",
+          "word": "TWENTY ONE",
           "hint": "Sayı: Yirmi bir"
         },
         {
-          "word": "THIRTY-FIVE",
+          "word": "THIRTY FIVE",
           "hint": "Sayı: Otuz beş"
         },
         {
-          "word": "FORTY-EIGHT",
+          "word": "FORTY EIGHT",
           "hint": "Sayı: Kırk sekiz"
         },
         {
-          "word": "FIFTY-TWO",
+          "word": "FIFTY TWO",
           "hint": "Sayı: Elli iki"
         },
         {
-          "word": "SIXTY-NINE",
+          "word": "SIXTY NINE",
           "hint": "Sayı: Altmış dokuz"
         },
         {
-          "word": "SEVENTY-FOUR",
+          "word": "SEVENTY FOUR",
           "hint": "Sayı: Yetmiş dört"
         },
         {
-          "word": "EIGHTY-THREE",
+          "word": "EIGHTY THREE",
           "hint": "Sayı: Seksen üç"
         },
         {
-          "word": "NINETY-SEVEN",
+          "word": "NINETY SEVEN",
           "hint": "Sayı: Doksan yedi"
         },
         {
@@ -1976,7 +1972,7 @@
           "hint": "şort"
         },
         {
-          "word": "T-SHIRT",
+          "word": "T SHIRT",
           "hint": "tişört"
         },
         {

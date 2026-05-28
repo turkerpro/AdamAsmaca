@@ -1160,7 +1160,7 @@
           "hint": "Uçuş rezervasyonu yapmak"
         },
         {
-          "word": "CHECK-IN",
+          "word": "CHECK IN",
           "hint": "Giriş yapmak (otel, havaalanı)"
         },
         {
@@ -1200,7 +1200,7 @@
           "hint": "Gidiş-dönüş"
         },
         {
-          "word": "ONE-WAY TICKET",
+          "word": "ONE WAY TICKET",
           "hint": "Tek yön bilet"
         },
         {
@@ -1249,7 +1249,7 @@
           "hint": "Kalori"
         },
         {
-          "word": "CHECK-UP",
+          "word": "CHECK UP",
           "hint": "Kontrol, genel muayene"
         },
         {
@@ -1361,7 +1361,7 @@
           "hint": "İlaç"
         },
         {
-          "word": "MENTAL WELL-BEING",
+          "word": "MENTAL WELL BEING",
           "hint": "Zihinsel iyilik hali"
         },
         {
@@ -1449,7 +1449,7 @@
           "hint": "Kilo alımı"
         },
         {
-          "word": "WELL-BEING",
+          "word": "WELL BEING",
           "hint": "Esenlik, iyilik hali"
         },
         {
@@ -1457,7 +1457,7 @@
           "hint": "Egzersiz yapmak, antrenman"
         },
         {
-          "word": "X-RAY",
+          "word": "X RAY",
           "hint": "Röntgen"
         }
       ]
@@ -1907,7 +1907,7 @@
           "hint": "Bir problemi çözmek için adım adım yönergeler dizisi."
         },
         {
-          "word": "ARTIFICIAL INTELLIGENCE (AI)",
+          "word": "ARTIFICIAL INTELLIGENCE AI",
           "hint": "Makinelerin insan zekasını taklit etme yeteneği."
         },
         {
@@ -1935,11 +1935,11 @@
           "hint": "Bilgisayar sistemlerini ve verilerini yetkisiz erişimden koruma."
         },
         {
-          "word": "VIRTUAL REALITY (VR)",
+          "word": "VIRTUAL REALITY VR",
           "hint": "Sanal Gerçeklik; bilgisayar tarafından oluşturulan üç boyutlu ortam."
         },
         {
-          "word": "AUGMENTED REALITY (AR)",
+          "word": "AUGMENTED REALITY AR",
           "hint": "Artırılmış Gerçeklik; dijital bilgilerin gerçek dünya görüntüsüne eklenmesi."
         },
         {
@@ -2256,7 +2256,7 @@
           "hint": "Çevre koruma"
         },
         {
-          "word": "ECO-FRIENDLY",
+          "word": "ECO FRIENDLY",
           "hint": "Çevre dostu"
         },
         {

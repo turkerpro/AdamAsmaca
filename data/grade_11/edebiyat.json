@@ -180,7 +180,7 @@
           "hint": "Bir sözcüğün telaffuzda daha baskılı söylenmesi."
         },
         {
-          "word": "YADİGÂR",
+          "word": "YADİGR",
           "hint": "Anı, hatıra."
         },
         {
@@ -601,7 +601,7 @@
           "hint": "Uzak mesafeli konuşma aracı"
         },
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Bilgi veya duygu alışverişi"
         },
         {
@@ -840,7 +840,7 @@
           "hint": "Dünyanın uydusu."
         },
         {
-          "word": "YİLDİZ",
+          "word": "YILDIZ",
           "hint": "Kendi ışığı olan gök cismi."
         },
         {
@@ -990,11 +990,11 @@
           "hint": "Olayları aktaran kişi."
         },
         {
-          "word": "BAKIŞ_AÇISI",
+          "word": "BAKIŞ AÇISI",
           "hint": "Olayları görme, değerlendirme biçimi."
         },
         {
-          "word": "MEKÂN",
+          "word": "MEKN",
           "hint": "Olayların geçtiği yer."
         },
         {
@@ -1006,11 +1006,11 @@
           "hint": "Zaman sırasına göre."
         },
         {
-          "word": "GERİ_DÖNÜŞ",
+          "word": "GERİ DÖNÜŞ",
           "hint": "Geçmişe yapılan anlatım."
         },
         {
-          "word": "OLAY_ÖRGÜSÜ",
+          "word": "OLAY ÖRGÜSÜ",
           "hint": "Romanın temelini oluşturan zincirleme olaylar."
         },
         {
@@ -1026,7 +1026,7 @@
           "hint": "Romanın bitimi."
         },
         {
-          "word": "ZİRVE_NOKTA",
+          "word": "ZİRVE NOKTA",
           "hint": "Olay örgüsündeki en heyecanlı an."
         },
         {
@@ -1034,7 +1034,7 @@
           "hint": "Karakterler arasındaki mücadele."
         },
         {
-          "word": "DÖNÜM_NOKTASI",
+          "word": "DÖNÜM NOKTASI",
           "hint": "Olayların yön değiştirdiği an."
         },
         {
@@ -1070,23 +1070,23 @@
           "hint": "Doğalcılık, determinizm."
         },
         {
-          "word": "PSİKOLOJİK_ROMAN",
+          "word": "PSİKOLOJİK ROMAN",
           "hint": "İnsan ruhunu derinlemesine inceleyen."
         },
         {
-          "word": "TARİHİ_ROMAN",
+          "word": "TARİHİ ROMAN",
           "hint": "Geçmişteki olayları anlatan."
         },
         {
-          "word": "BİLİM_KURGU",
+          "word": "BİLİM KURGU",
           "hint": "Bilimsel temellere dayalı hayali öyküler."
         },
         {
-          "word": "POLİSİYE",
+          "word": "POLISIYE",
           "hint": "Suç ve soruşturma üzerine."
         },
         {
-          "word": "MİSTİSİZM",
+          "word": "MİSTISIZM",
           "hint": "Maneviyat ve ruhaniyet."
         },
         {
@@ -1288,7 +1288,7 @@
           "hint": "Bir eserin veya konunun kapladığı konu."
         },
         {
-          "word": "DİL BİLGİSİ",
+          "word": "DİL BİLGISI",
           "hint": "Kelimelerin ve cümlelerin kurallarını inceleyen bilim."
         },
         {
@@ -1380,7 +1380,7 @@
           "hint": "Özel durumlardan yola çıkarak genel bir yargıya ulaşma."
         },
         {
-          "word": "KİŞİSEL",
+          "word": "KIŞISEL",
           "hint": "Bireye ait olan, başkasıyla ilgili olmayan."
         },
         {
@@ -1464,7 +1464,7 @@
           "hint": "İnsanların anlaşmak için kullandığı sesli veya yazılı iletişim aracı."
         },
         {
-          "word": "BİLGİSİ",
+          "word": "BİLGISI",
           "hint": "Bir şey hakkında edinilmiş malumat."
         },
         {
@@ -1744,7 +1744,7 @@
           "hint": "Faydalanmak."
         },
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Bilgi alışverişi."
         },
         {
@@ -1772,10 +1772,6 @@
           "hint": "Birbirine yakın."
         },
         {
-          "word": "FARKLI",
-          "hint": "Ayrılık."
-        },
-        {
           "word": "ORTAYA",
           "hint": "Görünür."
         },
@@ -1800,7 +1796,7 @@
           "hint": "Tümünü kapsayan."
         },
         {
-          "word": "DİŞİNA",
+          "word": "DIŞINA",
           "hint": "Haricine."
         },
         {
@@ -1880,32 +1876,8 @@
           "hint": "Yazın."
         },
         {
-          "word": "ÜNİTE",
-          "hint": "Konu bölümü."
-        },
-        {
-          "word": "6.",
-          "hint": "Sıra numarası."
-        },
-        {
-          "word": "ÖĞRETİCİ",
-          "hint": "Bilgilendirici."
-        },
-        {
-          "word": "METİNLER",
-          "hint": "Yazılar."
-        },
-        {
           "word": "VE",
           "hint": "Bağlaç."
-        },
-        {
-          "word": "DİL",
-          "hint": "İletişim aracı."
-        },
-        {
-          "word": "BİLGİSİ",
-          "hint": "Kural bilgisi."
         },
         {
           "word": "SEVİYESİNE",
@@ -1924,10 +1896,6 @@
           "hint": "Gençlerin."
         },
         {
-          "word": "KELİME",
-          "hint": "Sözcük."
-        },
-        {
           "word": "DAĞARCIĞINI",
           "hint": "Bilgi hazinesini."
         },
@@ -1944,16 +1912,8 @@
           "hint": "Minimum."
         },
         {
-          "word": "50",
-          "hint": "Sayı."
-        },
-        {
           "word": "ADET",
           "hint": "Tane."
-        },
-        {
-          "word": "FARKLI",
-          "hint": "Aynı olmayan."
         },
         {
           "word": "BUNLARA",
@@ -2004,14 +1964,6 @@
           "hint": "Sahip olmalı."
         },
         {
-          "word": "KISA",
-          "hint": "Uzun olmayan."
-        },
-        {
-          "word": "AÇIKLAYICI",
-          "hint": "Anlaşılır."
-        },
-        {
           "word": "GRUBUNA",
           "hint": "Yaş kitlesine."
         },
@@ -2024,14 +1976,6 @@
           "hint": "Bağlaç."
         },
         {
-          "word": "YAYGIN",
-          "hint": "Çok bilinen."
-        },
-        {
-          "word": "BİRLEŞİK",
-          "hint": "Bir araya gelmiş."
-        },
-        {
           "word": "OLMAMALI",
           "hint": "Olmasın."
         },
@@ -2040,16 +1984,12 @@
           "hint": "Sonuç."
         },
         {
-          "word": "DİZİSİ",
+          "word": "DİZISI",
           "hint": "Sıralı liste."
         },
         {
           "word": "FORMATINDA",
           "hint": "Şeklinde."
-        },
-        {
-          "word": "OLMALI",
-          "hint": "Gerekli."
         },
         {
           "word": "ŞEMASI",
@@ -2194,7 +2134,7 @@
           "hint": "Konuşmacının topluluğa hitap ettiği yüksekçe yer."
         },
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Duygu, düşünce veya bilgilerin karşılıklı olarak aktarılması."
         },
         {

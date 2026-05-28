@@ -197,7 +197,7 @@
           "hint": "Maddenin katı, sıvı veya gaz hali."
         },
         {
-          "word": "DEĞİŞİM",
+          "word": "DEĞIŞIM",
           "hint": "Bir durumdan başka bir duruma geçiş."
         },
         {
@@ -549,7 +549,7 @@
           "hint": "Bir cismin belirli bir nokta etrafında ileri geri salınım yapması."
         },
         {
-          "word": "ETKİ-TEPKİ",
+          "word": "ETKİ TEPKİ",
           "hint": "Her kuvvete eşit ve zıt yönde bir karşılık kuvvetinin olması."
         },
         {
@@ -783,7 +783,7 @@
           "hint": "Maddenin katı, sıvı veya gaz gibi farklı halleri."
         },
         {
-          "word": "FAZ DEĞİŞİMİ",
+          "word": "FAZ DEĞIŞIMİ",
           "hint": "Maddenin bir halden başka bir hale geçmesi."
         },
         {
@@ -859,7 +859,7 @@
           "hint": "Suyun 0°C'de katılaşmaya başladığı özel sıcaklık."
         },
         {
-          "word": "PİŞİRME",
+          "word": "PIŞIRME",
           "hint": "Isı kullanarak yiyecekleri yenilebilir hale getirme işlemi."
         }
       ]
@@ -933,7 +933,7 @@
           "hint": "Bir maddenin ışığı içinden geçirmesi durumu."
         },
         {
-          "word": "CİSİM",
+          "word": "CISIM",
           "hint": "Üzerine ışık düşen ve gölgesi oluşan her şey."
         },
         {
@@ -961,7 +961,7 @@
           "hint": "Yansıyan ışın ile normal arasındaki açı."
         },
         {
-          "word": "CİSİM UZAKLIĞI",
+          "word": "CISIM UZAKLIĞI",
           "hint": "Cismin aynaya olan mesafesi."
         },
         {
@@ -1111,7 +1111,7 @@
           "hint": "Kaynakları gelecek için koruyarak kullanma."
         },
         {
-          "word": "İKLİM DEĞİŞİKLİĞİ",
+          "word": "İKLİM DEĞIŞIKLİĞİ",
           "hint": "Dünya genelindeki hava olaylarının uzun süreli değişimi."
         },
         {
@@ -1119,7 +1119,7 @@
           "hint": "Dünya'nın ortalama sıcaklığının artması."
         },
         {
-          "word": "SERA ETKİSİ",
+          "word": "SERA ETKISI",
           "hint": "Atmosferdeki gazların dünyayı ısıtması."
         },
         {
@@ -1179,7 +1179,7 @@
           "hint": "Geleneksel olmayan, doğa dostu enerji türleri."
         },
         {
-          "word": "İNSAN ETKİSİ",
+          "word": "İNSAN ETKISI",
           "hint": "İnsanların çevreye yaptığı olumlu veya olumsuz değişimler."
         },
         {
@@ -1299,7 +1299,7 @@
           "hint": "İşlerin kurallara uygunluğunu kontrol etme."
         },
         {
-          "word": "ARITMA TESİSİ",
+          "word": "ARITMA TESISI",
           "hint": "Atık suları veya gazları temizleyen yer."
         },
         {
@@ -1311,11 +1311,11 @@
           "hint": "Doğada bulunan, insanlar tarafından kullanılan maddeler."
         },
         {
-          "word": "GÜNEŞ ENERJİSİ",
+          "word": "GÜNEŞ ENERJISI",
           "hint": "Güneş ışınlarından elde edilen enerji."
         },
         {
-          "word": "RÜZGAR ENERJİSİ",
+          "word": "RÜZGAR ENERJISI",
           "hint": "Rüzgarın hareketinden elde edilen enerji."
         },
         {
@@ -1731,7 +1731,7 @@
           "hint": "Ses dalgalarıyla titreşerek sesi iç kulağa ileten zar."
         },
         {
-          "word": "İŞİTME",
+          "word": "IŞITME",
           "hint": "Sesleri duyma eylemi."
         },
         {

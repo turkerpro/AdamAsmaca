@@ -196,7 +196,7 @@
           "hint": "Mezopotamya'da tapınma ve rasathane olarak kullanılan basamaklı yapılar."
         },
         {
-          "word": "İMÂRAT",
+          "word": "İMRAT",
           "hint": "Yapı, inşa edilmiş eser."
         },
         {
@@ -900,7 +900,7 @@
           "hint": "Orta Asya'da önemli bir ticaret ve kültür merkezi olan şehir."
         },
         {
-          "word": "BUHARÂ",
+          "word": "BUHAR",
           "hint": "İslam dünyasının önemli ilim ve kültür merkezlerinden, Gazneliler ve Karahanlılar döneminde de adı geçen şehir."
         },
         {
@@ -916,7 +916,7 @@
           "hint": "Genellikle askerî komutanlar için kullanılan unvan."
         },
         {
-          "word": "GAZNEVÎLER",
+          "word": "GAZNEVLER",
           "hint": "Hindistan'a yaptığı akınlarla tanınan, Türk-İslam devletlerinden ilki."
         },
         {
@@ -936,11 +936,11 @@
           "hint": "Araplarla Çinliler arasında geçen ve Türklerin İslamlaşmasında etkili olan savaş."
         },
         {
-          "word": "SEMÂVÎ",
+          "word": "SEMV",
           "hint": "Gök ile ilgili olan, ilahi."
         },
         {
-          "word": "AN'ANE",
+          "word": "ANANE",
           "hint": "Kültürel miras, gelenek, göreneklik."
         },
         {
@@ -1116,15 +1116,15 @@
           "hint": "Toplumla ilgili."
         },
         {
-          "word": "ASKERÎ",
+          "word": "ASKER",
           "hint": "Ordu ve savaş ile ilgili."
         },
         {
-          "word": "DİNÎ",
+          "word": "DİN",
           "hint": "Din ile ilgili."
         },
         {
-          "word": "TARİHÎ",
+          "word": "TARİH",
           "hint": "Tarihle ilgili."
         },
         {
@@ -1320,7 +1320,7 @@
           "hint": "Mezopotamya uygarlığının merkezi olan Orta Doğu ülkesi."
         },
         {
-          "word": "MİSİR",
+          "word": "MISIR",
           "hint": "Nil Nehri üzerinde kurulan eski medeniyetlerin ülkesi."
         },
         {
@@ -1400,7 +1400,7 @@
           "hint": "Müslüman hükümdarlar için kullanılan unvan."
         },
         {
-          "word": "EMİRÜ'L-MÜMİNİN",
+          "word": "EMİRÜL MÜMİNİN",
           "hint": "Müminlerin Emiri, Halife için kullanılan unvanlardan biri."
         },
         {
@@ -1424,11 +1424,11 @@
           "hint": "Zorunlu."
         },
         {
-          "word": "İSTİMLÂK",
+          "word": "İSTİMLK",
           "hint": "Bir malın kamu yararı için özel mülkiyetten alınması."
         },
         {
-          "word": "KÂTMA",
+          "word": "KTMA",
           "hint": "Bir şeyi tamamlayan, onunla birlikte kullanılan."
         },
         {
@@ -1452,7 +1452,7 @@
           "hint": "Yenilikleri benimseyen."
         },
         {
-          "word": "DEĞİŞİM",
+          "word": "DEĞIŞIM",
           "hint": "Başka bir duruma gelme."
         },
         {
@@ -1896,10 +1896,6 @@
           "hint": "Bir bütünün parçalarını ayırarak inceleme."
         },
         {
-          "word": "DEĞERLENDİRME",
-          "hint": "Bir şeyin iyi veya kötü olduğuna karar verme."
-        },
-        {
           "word": "YORUM",
           "hint": "Bir olayı veya eseri açıklama."
         },
@@ -1956,7 +1952,7 @@
           "hint": "Görmeye dayalı."
         },
         {
-          "word": "İŞİTSEL",
+          "word": "IŞITSEL",
           "hint": "Duyarak algılama."
         },
         {
@@ -1998,14 +1994,6 @@
         {
           "word": "HEDEF",
           "hint": "Ulaşılmak istenen amaç."
-        },
-        {
-          "word": "BECERİ",
-          "hint": "Bir işi yapabilme yeteneği."
-        },
-        {
-          "word": "BİLGİ",
-          "hint": "Gerçekleri anlama."
         },
         {
           "word": "MOTİVASYON",
@@ -2052,40 +2040,16 @@
           "hint": "Ünitenin alt başlığı."
         },
         {
-          "word": "TANIM",
-          "hint": "Açıklama."
-        },
-        {
           "word": "BAĞLANTI",
           "hint": "İlişki."
         },
         {
-          "word": "ETKİ",
-          "hint": "Değişiklik yaratma."
-        },
-        {
-          "word": "GELİŞİM",
+          "word": "GELIŞIM",
           "hint": "İlerleme."
-        },
-        {
-          "word": "DEĞİŞİM",
-          "hint": "Başka bir hale gelme."
-        },
-        {
-          "word": "SÜREKLİLİK",
-          "hint": "Devamlılık."
-        },
-        {
-          "word": "KESİNTİ",
-          "hint": "Ara."
         },
         {
           "word": "YAYILMA",
           "hint": "Geniş alana dağılma."
-        },
-        {
-          "word": "ETKİLEŞİM",
-          "hint": "Karşılıklı tesir."
         },
         {
           "word": "KÜLTÜRLEŞME",
@@ -2110,10 +2074,6 @@
         {
           "word": "YOZLAŞMA",
           "hint": "Boşalma, değersizleşme."
-        },
-        {
-          "word": "GELİŞME",
-          "hint": "İyileşme, ilerleme."
         },
         {
           "word": "DURAKLAMA",
@@ -2236,7 +2196,7 @@
           "hint": "Anlatım."
         },
         {
-          "word": "İLETİŞİM",
+          "word": "İLETIŞIM",
           "hint": "Bilgi alışverişi."
         },
         {
@@ -2282,10 +2242,6 @@
         {
           "word": "ETKİNLİK",
           "hint": "İstenen sonucu alma."
-        },
-        {
-          "word": "BAŞARI",
-          "hint": "Bir işi iyi sonlandırma."
         },
         {
           "word": "KALİTE",
@@ -2336,10 +2292,6 @@
           "hint": "İnsanın yaratıcılığını ifade etme biçimi."
         },
         {
-          "word": "EDEBİYAT",
-          "hint": "Yazılı sanat."
-        },
-        {
           "word": "MÜZİK",
           "hint": "Sesle yapılan sanat."
         },
@@ -2358,10 +2310,6 @@
         {
           "word": "SİNEMA",
           "hint": "Hareketli görüntülerle yapılan sanat."
-        },
-        {
-          "word": "MİMARİ",
-          "hint": "Yapı sanatı."
         },
         {
           "word": "DESTAN",
@@ -2408,10 +2356,6 @@
           "hint": "Kanunlar."
         },
         {
-          "word": "EŞİTLİK",
-          "hint": "Aynı haklara sahip olma."
-        },
-        {
           "word": "KARDEŞLİK",
           "hint": "Birbirini sevme ve sayma."
         },
@@ -2428,27 +2372,15 @@
           "hint": "Aşk, muhabbet."
         },
         {
-          "word": "SAYGI",
-          "hint": "Hürmet."
-        },
-        {
           "word": "YARDIM",
           "hint": "Destek."
-        },
-        {
-          "word": "DAYANIŞMA",
-          "hint": "Birlikte hareket."
-        },
-        {
-          "word": "İŞBİRLİĞİ",
-          "hint": "Ortak çalışma."
         },
         {
           "word": "KATKI",
           "hint": "Pay."
         },
         {
-          "word": "GİRİŞİM",
+          "word": "GİRIŞIM",
           "hint": "Başlama."
         },
         {
@@ -2496,12 +2428,8 @@
           "hint": "Tek kişi."
         },
         {
-          "word": "KİŞİ",
+          "word": "KIŞI",
           "hint": "İnsan."
-        },
-        {
-          "word": "KİMLİK",
-          "hint": "Kendine özgü özellik."
         },
         {
           "word": "ÖZGÜNLÜK",
@@ -2510,10 +2438,6 @@
         {
           "word": "FARKLILIK",
           "hint": "Ayrılık."
-        },
-        {
-          "word": "BENZERLİK",
-          "hint": "Aynı olma."
         },
         {
           "word": "ÇEŞİTLİLİK",
@@ -2550,10 +2474,6 @@
         {
           "word": "GELİŞMEMİŞ",
           "hint": "Geri kalmış."
-        },
-        {
-          "word": "VERİMLİ",
-          "hint": "Bolluk sağlayan."
         },
         {
           "word": "BEREKETSİZ",
@@ -2594,10 +2514,6 @@
         {
           "word": "ÇAĞDAŞ",
           "hint": "Modern."
-        },
-        {
-          "word": "YENİLİKÇİ",
-          "hint": "Yeni şeyler getiren."
         },
         {
           "word": "MUHAFAZAKAR",
@@ -2720,10 +2636,6 @@
           "hint": "Beceri."
         },
         {
-          "word": "EĞİTİM",
-          "hint": "Bilgi aktarma."
-        },
-        {
           "word": "AKADEMİK",
           "hint": "Bilimle ilgili."
         },
@@ -2740,10 +2652,6 @@
           "hint": "Yöntem."
         },
         {
-          "word": "ARAŞTIRMA",
-          "hint": "Bilgi toplama."
-        },
-        {
           "word": "DENEY",
           "hint": "Gözlem yaparak bilgi edinme."
         },
@@ -2758,10 +2666,6 @@
         {
           "word": "BULGU",
           "hint": "Araştırma sonucu elde edilen bilgi."
-        },
-        {
-          "word": "ÇIKARIM",
-          "hint": "Bir bilgiden yeni bir sonuç çıkarma."
         },
         {
           "word": "YARGI",
@@ -2810,10 +2714,6 @@
         {
           "word": "ÖRNEKLEME",
           "hint": "Örnek verme."
-        },
-        {
-          "word": "KARŞILAŞTIRMA",
-          "hint": "Benzerlik ve farklılıkları bulma."
         },
         {
           "word": "SOYUTLAMA",

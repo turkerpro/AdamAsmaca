@@ -516,10 +516,6 @@
           "hint": "Arıların yaptığı tatlı, şifalı madde."
         },
         {
-          "word": "SU",
-          "hint": "Genellikle sabahları içeriz, renksizdir."
-        },
-        {
           "word": "UYKU",
           "hint": "Vücudumuzun dinlenmesi için gereken zaman."
         },
@@ -746,7 +742,7 @@
           "hint": "Yürüyerek giden kişi."
         },
         {
-          "word": "BİSİKLET",
+          "word": "BISIKLET",
           "hint": "İki tekerlekli binek."
         },
         {
@@ -1174,7 +1170,7 @@
           "hint": "Geceleri gökyüzünde beliren ışıklı cisim."
         },
         {
-          "word": "YİLDİZ",
+          "word": "YILDIZ",
           "hint": "Geceleri gökyüzünde parlayan küçük ışıklar."
         },
         {
