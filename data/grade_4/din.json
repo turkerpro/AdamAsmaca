@@ -1,0 +1,95 @@
+{
+  "subject": "Din Kültürü ve Ahlak Bilgisi",
+  "units": [
+    {
+      "id": "din_u1",
+      "name": "1. Ünite: İnanç Temelleri",
+      "months": [
+        9,
+        10
+      ],
+      "words": [
+        {
+          "word": "İBADET",
+          "hint": "Allah'ın rızasını kazanmak için yapılan kulluk görevleri."
+        },
+        {
+          "word": "AHLAK",
+          "hint": "İnsanın iyi veya kötü olarak nitelendirilmesine yol açan manevi nitelikler."
+        }
+      ]
+    },
+    {
+      "id": "din_u2",
+      "name": "2. Ünite: İbadet ve Temizlik",
+      "months": [
+        11,
+        12
+      ],
+      "words": [
+        {
+          "word": "İBADET",
+          "hint": "Allah'ın rızasını kazanmak için yapılan kulluk görevleri."
+        },
+        {
+          "word": "AHLAK",
+          "hint": "İnsanın iyi veya kötü olarak nitelendirilmesine yol açan manevi nitelikler."
+        }
+      ]
+    },
+    {
+      "id": "din_u3",
+      "name": "3. Ünite: Hz. Muhammed ve Güzel Ahlak",
+      "months": [
+        1,
+        2
+      ],
+      "words": [
+        {
+          "word": "İBADET",
+          "hint": "Allah'ın rızasını kazanmak için yapılan kulluk görevleri."
+        },
+        {
+          "word": "AHLAK",
+          "hint": "İnsanın iyi veya kötü olarak nitelendirilmesine yol açan manevi nitelikler."
+        }
+      ]
+    },
+    {
+      "id": "din_u4",
+      "name": "4. Ünite: Kuran ve Sünnet",
+      "months": [
+        3,
+        4
+      ],
+      "words": [
+        {
+          "word": "İBADET",
+          "hint": "Allah'ın rızasını kazanmak için yapılan kulluk görevleri."
+        },
+        {
+          "word": "AHLAK",
+          "hint": "İnsanın iyi veya kötü olarak nitelendirilmesine yol açan manevi nitelikler."
+        }
+      ]
+    },
+    {
+      "id": "din_u5",
+      "name": "5. Ünite: Din ve Toplum",
+      "months": [
+        5,
+        6
+      ],
+      "words": [
+        {
+          "word": "İBADET",
+          "hint": "Allah'ın rızasını kazanmak için yapılan kulluk görevleri."
+        },
+        {
+          "word": "AHLAK",
+          "hint": "İnsanın iyi veya kötü olarak nitelendirilmesine yol açan manevi nitelikler."
+        }
+      ]
+    }
+  ]
+}

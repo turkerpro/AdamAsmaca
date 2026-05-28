@@ -1,0 +1,95 @@
+{
+  "subject": "Bilişim Teknolojileri ve Yazılım",
+  "units": [
+    {
+      "id": "bilisim_u1",
+      "name": "1. Ünite: Bilişim Teknolojileri ve Etik",
+      "months": [
+        9,
+        10
+      ],
+      "words": [
+        {
+          "word": "ALGORİTMA",
+          "hint": "Bir sorunu çözmek için izlenen sıralı işlem adımları."
+        },
+        {
+          "word": "YAZILIM",
+          "hint": "Bilgisayarda donanımı yöneten ve işleri yapan programlar bütünü."
+        }
+      ]
+    },
+    {
+      "id": "bilisim_u2",
+      "name": "2. Ünite: İşletim Sistemleri ve Dosyalar",
+      "months": [
+        11,
+        12
+      ],
+      "words": [
+        {
+          "word": "ALGORİTMA",
+          "hint": "Bir sorunu çözmek için izlenen sıralı işlem adımları."
+        },
+        {
+          "word": "YAZILIM",
+          "hint": "Bilgisayarda donanımı yöneten ve işleri yapan programlar bütünü."
+        }
+      ]
+    },
+    {
+      "id": "bilisim_u3",
+      "name": "3. Ünite: Kelime İşlemci ve Sunum Programları",
+      "months": [
+        1,
+        2
+      ],
+      "words": [
+        {
+          "word": "ALGORİTMA",
+          "hint": "Bir sorunu çözmek için izlenen sıralı işlem adımları."
+        },
+        {
+          "word": "YAZILIM",
+          "hint": "Bilgisayarda donanımı yöneten ve işleri yapan programlar bütünü."
+        }
+      ]
+    },
+    {
+      "id": "bilisim_u4",
+      "name": "4. Ünite: İnternet Güvenliği ve Sosyal Medya",
+      "months": [
+        3,
+        4
+      ],
+      "words": [
+        {
+          "word": "ALGORİTMA",
+          "hint": "Bir sorunu çözmek için izlenen sıralı işlem adımları."
+        },
+        {
+          "word": "YAZILIM",
+          "hint": "Bilgisayarda donanımı yöneten ve işleri yapan programlar bütünü."
+        }
+      ]
+    },
+    {
+      "id": "bilisim_u5",
+      "name": "5. Ünite: Kodlama ve Algoritmaya Giriş",
+      "months": [
+        5,
+        6
+      ],
+      "words": [
+        {
+          "word": "ALGORİTMA",
+          "hint": "Bir sorunu çözmek için izlenen sıralı işlem adımları."
+        },
+        {
+          "word": "YAZILIM",
+          "hint": "Bilgisayarda donanımı yöneten ve işleri yapan programlar bütünü."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "subject": "Rehberlik ve Yönlendirme",
+  "units": [
+    {
+      "id": "rehberlik_u1",
+      "name": "1. Ünite: Kendini Tanıma ve Uyum",
+      "months": [
+        9,
+        10
+      ],
+      "words": [
+        {
+          "word": "İLGİ",
+          "hint": "Belli bir işe veya konuya yönelen zihinsel dikkat ve eğilim."
+        },
+        {
+          "word": "MESLEK",
+          "hint": "Geçim sağlamak amacıyla yürütülen kurallı uzmanlık alanı."
+        }
+      ]
+    },
+    {
+      "id": "rehberlik_u2",
+      "name": "2. Ünite: Etkili Ders Çalışma Yöntemleri",
+      "months": [
+        11,
+        12
+      ],
+      "words": [
+        {
+          "word": "İLGİ",
+          "hint": "Belli bir işe veya konuya yönelen zihinsel dikkat ve eğilim."
+        },
+        {
+          "word": "MESLEK",
+          "hint": "Geçim sağlamak amacıyla yürütülen kurallı uzmanlık alanı."
+        }
+      ]
+    },
+    {
+      "id": "rehberlik_u3",
+      "name": "3. Ünite: İletişim ve Arkadaşlık İlişkileri",
+      "months": [
+        1,
+        2
+      ],
+      "words": [
+        {
+          "word": "İLGİ",
+          "hint": "Belli bir işe veya konuya yönelen zihinsel dikkat ve eğilim."
+        },
+        {
+          "word": "MESLEK",
+          "hint": "Geçim sağlamak amacıyla yürütülen kurallı uzmanlık alanı."
+        }
+      ]
+    },
+    {
+      "id": "rehberlik_u4",
+      "name": "4. Ünite: Meslekleri Tanıma ve İlgi Alanları",
+      "months": [
+        3,
+        4
+      ],
+      "words": [
+        {
+          "word": "İLGİ",
+          "hint": "Belli bir işe veya konuya yönelen zihinsel dikkat ve eğilim."
+        },
+        {
+          "word": "MESLEK",
+          "hint": "Geçim sağlamak amacıyla yürütülen kurallı uzmanlık alanı."
+        }
+      ]
+    },
+    {
+      "id": "rehberlik_u5",
+      "name": "5. Ünite: Problem Çözme ve Karar Verme",
+      "months": [
+        5,
+        6
+      ],
+      "words": [
+        {
+          "word": "İLGİ",
+          "hint": "Belli bir işe veya konuya yönelen zihinsel dikkat ve eğilim."
+        },
+        {
+          "word": "MESLEK",
+          "hint": "Geçim sağlamak amacıyla yürütülen kurallı uzmanlık alanı."
+        }
+      ]
+    }
+  ]
+}

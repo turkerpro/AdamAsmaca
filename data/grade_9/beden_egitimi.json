@@ -1,0 +1,95 @@
+{
+  "subject": "Beden Eğitimi ve Spor",
+  "units": [
+    {
+      "id": "bedenegitimi_u1",
+      "name": "1. Ünite: Temel Hareket Becerileri",
+      "months": [
+        9,
+        10
+      ],
+      "words": [
+        {
+          "word": "KOŞU",
+          "hint": "Adımların hızlı atılmasıyla yapılan atletizm hareketi."
+        },
+        {
+          "word": "SPOR",
+          "hint": "Belli kurallara göre yapılan, fiziksel gelişimi sağlayan etkinlikler."
+        }
+      ]
+    },
+    {
+      "id": "bedenegitimi_u2",
+      "name": "2. Ünite: Aktif ve Sağlıklı Hayat",
+      "months": [
+        11,
+        12
+      ],
+      "words": [
+        {
+          "word": "KOŞU",
+          "hint": "Adımların hızlı atılmasıyla yapılan atletizm hareketi."
+        },
+        {
+          "word": "SPOR",
+          "hint": "Belli kurallara göre yapılan, fiziksel gelişimi sağlayan etkinlikler."
+        }
+      ]
+    },
+    {
+      "id": "bedenegitimi_u3",
+      "name": "3. Ünite: Spor Kültürü ve Olimpiyatlar",
+      "months": [
+        1,
+        2
+      ],
+      "words": [
+        {
+          "word": "KOŞU",
+          "hint": "Adımların hızlı atılmasıyla yapılan atletizm hareketi."
+        },
+        {
+          "word": "SPOR",
+          "hint": "Belli kurallara göre yapılan, fiziksel gelişimi sağlayan etkinlikler."
+        }
+      ]
+    },
+    {
+      "id": "bedenegitimi_u4",
+      "name": "4. Ünite: İş Birliği ve Sosyal Beceriler",
+      "months": [
+        3,
+        4
+      ],
+      "words": [
+        {
+          "word": "KOŞU",
+          "hint": "Adımların hızlı atılmasıyla yapılan atletizm hareketi."
+        },
+        {
+          "word": "SPOR",
+          "hint": "Belli kurallara göre yapılan, fiziksel gelişimi sağlayan etkinlikler."
+        }
+      ]
+    },
+    {
+      "id": "bedenegitimi_u5",
+      "name": "5. Ünite: Ritim ve Dans Etkinlikleri",
+      "months": [
+        5,
+        6
+      ],
+      "words": [
+        {
+          "word": "KOŞU",
+          "hint": "Adımların hızlı atılmasıyla yapılan atletizm hareketi."
+        },
+        {
+          "word": "SPOR",
+          "hint": "Belli kurallara göre yapılan, fiziksel gelişimi sağlayan etkinlikler."
+        }
+      ]
+    }
+  ]
+}
