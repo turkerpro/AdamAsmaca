@@ -4,46 +4,1091 @@
     {
       "id": "kpss_u1",
       "name": "KPSS Türkçe",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "CÜMLE BİLGİSİ", "hint": "Cümlenin ögeleri ve cümle türleri konuları."},
-        {"word": "SÖZCÜKTE ANLAM", "hint": "Gerçek, mecaz ve yan anlam ilişkileri."}
+        {
+          "word": "SÖZCÜK",
+          "hint": "Anlamlı en küçük ses veya ses birliği, kelime."
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Bir yargı bildiren, kelimelerden oluşan bütün."
+        },
+        {
+          "word": "PARAGRAF",
+          "hint": "Bir düşüncenin geliştirilerek anlatıldığı satır başıyla ayrılan bölüm."
+        },
+        {
+          "word": "SESLEŞ",
+          "hint": "Yazılışları aynı, anlamları tamamen farklı olan sözcükler."
+        },
+        {
+          "word": "EŞANLAMLI",
+          "hint": "Yazılışları farklı, anlamları tamamen aynı olan kelimeler."
+        },
+        {
+          "word": "ZITANLAMLI",
+          "hint": "Anlam bakımından birbirinin tam karşıtı olan sözcükler."
+        },
+        {
+          "word": "DEYİM",
+          "hint": "En az iki kelimenin kalıplaşarak gerçek anlamı dışında kullanılması."
+        },
+        {
+          "word": "ATASÖZÜ",
+          "hint": "Ataların deneyimlerine dayanan, öğüt veren kalıplaşmış söz."
+        },
+        {
+          "word": "TERİM",
+          "hint": "Bilim, sanat veya meslek alanına özgü kelimeler."
+        },
+        {
+          "word": "ÖZNEL",
+          "hint": "Kişisel duygu ve düşünceleri içeren, doğruluğu kanıtlanamayan yargı."
+        },
+        {
+          "word": "NESNEL",
+          "hint": "Kişiden kişiye değişmeyen, doğruluğu kanıtlanabilen yargı."
+        },
+        {
+          "word": "ÖZNE",
+          "hint": "Yüklemin bildirdiği işi yapan veya olanı üstlenen öge."
+        },
+        {
+          "word": "YÜKLEM",
+          "hint": "Cümlenin kurucusu olan ve çekimli fiil ya da ek fiil alan temel öge."
+        },
+        {
+          "word": "NESNE",
+          "hint": "Cümlede öznenin yaptığı işten etkilenen öge."
+        },
+        {
+          "word": "DOLAYLITÜMLEÇ",
+          "hint": "Cümlede yaklaşma, bulunma, uzaklaşma bildiren tümleç, yer yönleyicisi."
+        },
+        {
+          "word": "FİİL",
+          "hint": "Kip ve kişi eki alarak çekimlenebilen eylem sözcüğü."
+        },
+        {
+          "word": "İSİM",
+          "hint": "Varlık ve kavramları karşılayan ad sözcüğü."
+        },
+        {
+          "word": "SIFAT",
+          "hint": "İsimlerin önüne gelerek onları niteleyen veya belirten önad."
+        },
+        {
+          "word": "ZAMİR",
+          "hint": "İsmin yerini tutan adıl sözcüğü."
+        },
+        {
+          "word": "ZARF",
+          "hint": "Fiillerin, sıfatların veya kendi türünden sözcüklerin durumunu bildiren söz."
+        },
+        {
+          "word": "EDAT",
+          "hint": "Tek başına anlamı olmayan ama kelimeler arasında ilişki kuran ilgeç."
+        },
+        {
+          "word": "BAĞLAÇ",
+          "hint": "Kelime veya cümleleri birbirine bağlayan sözcük."
+        },
+        {
+          "word": "ÜNLEM",
+          "hint": "Sevinç, korku, şaşma gibi duyguları bildiren veya seslenme içeren söz."
+        },
+        {
+          "word": "KÖK",
+          "hint": "Bir sözcüğün anlamlı en küçük ve parçalanamayan kısmı."
+        },
+        {
+          "word": "YAPIMEKİ",
+          "hint": "Eklendiği sözcüğün anlamını veya türünü değiştiren ek."
+        },
+        {
+          "word": "ÇEKİMEKİ",
+          "hint": "Sözcüğün anlamını değiştirmeyen, cümledeki görevini belirleyen ek."
+        },
+        {
+          "word": "TÜREMİŞ",
+          "hint": "En az bir yapım eki almış olan sözcük yapısı."
+        },
+        {
+          "word": "BİRLEŞİK",
+          "hint": "Birden fazla sözcüğün bir araya gelerek tek bir kavramı karşılaması."
+        },
+        {
+          "word": "BASİT",
+          "hint": "Yapım eki almamış ve başka bir kelimeyle birleşmemiş sözcük."
+        },
+        {
+          "word": "FİİLİMSİ",
+          "hint": "Fiilden türeyerek isim, sıfat veya zarf görevinde kullanılan kelimeler."
+        },
+        {
+          "word": "İSİMFİİL",
+          "hint": "Fiillere getirilen -ma, -ış, -mak ekleriyle türetilen eylem adı."
+        },
+        {
+          "word": "SIFATFİİL",
+          "hint": "Fiillere getirilen -an, -ası, -mez, -ar, -dik, -ecek, -miş ekleriyle türetilen kelime."
+        },
+        {
+          "word": "ZARFFİİL",
+          "hint": "Fiillere getirilen eklerle durum veya zaman bildiren kelimeler."
+        },
+        {
+          "word": "ÜNLÜDÜŞMESİ",
+          "hint": "İki heceli ve dar ünlülü kelimelere ünlüyle başlayan ek gelince dar ünlünün kaybolması."
+        },
+        {
+          "word": "BENZEŞME",
+          "hint": "Sert ünsüzlerden sonra gelen yumuşak ünsüzlerin sertleşmesi."
+        },
+        {
+          "word": "ÜNSÜZYUMUŞAMA",
+          "hint": "Sert ünsüzle biten kelimenin ünlüyle başlayan ek aldığında yumuşaması."
+        },
+        {
+          "word": "ÜNLÜDARALMASI",
+          "hint": "Geniş ünlüyle biten fiillerin şimdiki zaman eki alınca ünlünün daralması."
+        },
+        {
+          "word": "ULAMA",
+          "hint": "Ünsüzle biten bir kelimeden sonra ünlüyle başlayan bir kelimenin gelmesi."
+        },
+        {
+          "word": "ETKEN",
+          "hint": "Gerçek bir öznesi olan ve işi bizzat öznenin yaptığı fiil çatısı."
+        },
+        {
+          "word": "EDİLGEN",
+          "hint": "Öznesi belli olmayan ve işten etkilenenin özne olduğu fiil çatısı."
+        },
+        {
+          "word": "GEÇİŞLİ",
+          "hint": "Nesne alabilen fiil çatısı."
+        },
+        {
+          "word": "GEÇİŞSİZ",
+          "hint": "Nesne alamayan fiil çatısı."
+        },
+        {
+          "word": "ETTİRGEN",
+          "hint": "Geçişli bir fiilin geçişlilik derecesinin artırılması."
+        },
+        {
+          "word": "OLDURGAN",
+          "hint": "Geçişsiz bir fiilin geçişli hale getirilmesi."
+        },
+        {
+          "word": "BOZUKLUK",
+          "hint": "Cümledeki dil bilgisi ve anlam uyumsuzluklarından kaynaklanan hata."
+        },
+        {
+          "word": "NOKTALAMA",
+          "hint": "Duygu ve düşünceleri doğru aktarmak için kullanılan işaretler bütünü."
+        },
+        {
+          "word": "YAZIMKURALI",
+          "hint": "Sözcüklerin doğru yazılması için belirlenen kurallar bütünü."
+        },
+        {
+          "word": "İMLA",
+          "hint": "Yazım kuralları bütünü."
+        },
+        {
+          "word": "TANIMLAMA",
+          "hint": "Bir kavramın ne olduğunu belirten açıklama cümlesi, tanım."
+        },
+        {
+          "word": "BETİMLEME",
+          "hint": "Kelimelerle resim yapma, varlıkları nitelikleriyle tasvir etme."
+        }
       ]
     },
     {
       "id": "kpss_u2",
       "name": "KPSS Matematik",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "MUTLAK DEĞER", "hint": "Bir sayının sıfır noktasına olan mesafesi."},
-        {"word": "OLASILIK", "hint": "Bir olayın gerçekleşme olasılığının matematiksel hesabı."}
+        {
+          "word": "DOĞALSAYILAR",
+          "hint": "Sıfırdan başlayıp sonsuza giden tam sayılar kümesi."
+        },
+        {
+          "word": "TAMSAYILAR",
+          "hint": "Negatif, pozitif ve sıfır sayılarından oluşan küme."
+        },
+        {
+          "word": "RASYONELSAYI",
+          "hint": "İki tam sayının bölümü şeklinde yazılabilen sayılar."
+        },
+        {
+          "word": "ASALSAYILAR",
+          "hint": "Yalnızca 1'e ve kendisine kalansız bölünebilen 1'den büyük sayılar."
+        },
+        {
+          "word": "BÖLÜNEBİLME",
+          "hint": "Sayıların birbirine kalansız bölünmesi kuralları."
+        },
+        {
+          "word": "EBOBEKOK",
+          "hint": "Ortak bölenlerin en büyüğü ve ortak katların en küçüğü."
+        },
+        {
+          "word": "PERİYODİK",
+          "hint": "Düzenli aralıklarla tekrarlanan durumlar veya problemler."
+        },
+        {
+          "word": "BİRİNCİDERECE",
+          "hint": "Değişkenin en büyük üssünün bir olduğu denklemler."
+        },
+        {
+          "word": "MUTLAKDEĞER",
+          "hint": "Bir sayının sayı doğrusunda sıfıra olan uzaklığı."
+        },
+        {
+          "word": "EŞİTSİZLİK",
+          "hint": "Eşit olmayan matematiksel ifadelerin karşılaştırılması."
+        },
+        {
+          "word": "ÜSLÜSAYILAR",
+          "hint": "Tabanın kuvveti kadar çarpılmasını gösteren ifadeler."
+        },
+        {
+          "word": "KÖKLÜSAYILAR",
+          "hint": "Kök dışına tam çıkamayan veya kök sembolü içeren ifadeler."
+        },
+        {
+          "word": "ÇARPANLARA",
+          "hint": "Cebirsel ifadelerin çarpım şeklinde çarpanlarına ayrılması."
+        },
+        {
+          "word": "ORANORANTI",
+          "hint": "İki veya daha fazla oranın eşitliğiyle kurulan bağıntı."
+        },
+        {
+          "word": "SAYIPROBLEMİ",
+          "hint": "Sayi ilişkilerini denklem kurarak çözme problemleri."
+        },
+        {
+          "word": "KESİRPROBLEMİ",
+          "hint": "Bütünün parçalarıyla ilgili matematiksel problemler."
+        },
+        {
+          "word": "YAŞPROBLEMİ",
+          "hint": "Kişilerin yaşları ve yaş farklarıyla ilgili problemler."
+        },
+        {
+          "word": "İŞÇİPROBLEMİ",
+          "hint": "İşin bitirilme süresi ve işçi sayısı arasındaki problemler."
+        },
+        {
+          "word": "HIZPROBLEMİ",
+          "hint": "Yol, zaman ve hız arasındaki ilişkiyi inceleyen problemler."
+        },
+        {
+          "word": "YÜZDEPROBLEMİ",
+          "hint": "Bir miktarın yüzde oranları ile hesaplandığı problemler."
+        },
+        {
+          "word": "KARIŞIM",
+          "hint": "Karışımların yüzdelik oranlarıyla ilgili problemler."
+        },
+        {
+          "word": "FAİZ",
+          "hint": "Anaparanın getirdiği kazanç hesaplama problemleri."
+        },
+        {
+          "word": "KÜMELER",
+          "hint": "İyi tanımlanmış nesneler topluluğu ve işlemleri."
+        },
+        {
+          "word": "FONKSİYONLAR",
+          "hint": "Elemanları birbirine eşleyen matematiksel kurallar."
+        },
+        {
+          "word": "PERMÜTASYON",
+          "hint": "Elemanların sıralanışlarının sayısı."
+        },
+        {
+          "word": "KOMBİNASYON",
+          "hint": "Elemanların seçilme gruplarının sayısı."
+        },
+        {
+          "word": "OLASILIK",
+          "hint": "Bir olayın gerçekleşme ihtimalinin matematiksel değeri."
+        },
+        {
+          "word": "TABLOGRAFİK",
+          "hint": "Verilerin sütun veya daire grafiğiyle gösterimi."
+        },
+        {
+          "word": "SAYISALMANTIK",
+          "hint": "Akıl yürütmeye dayalı şekil ve sayı bulmacaları alanı."
+        },
+        {
+          "word": "MODÜLER",
+          "hint": "Bölme işleminde kalana göre yapılan aritmetik işlemler."
+        },
+        {
+          "word": "FAKTÖRİYEL",
+          "hint": "Sayıların ardışık çarpımını gösteren ünlemli ifade."
+        },
+        {
+          "word": "BASAMAK",
+          "hint": "Bir sayıyı oluşturan rakamların bulunduğu konumun değeri."
+        },
+        {
+          "word": "ÇÖZÜMLEME",
+          "hint": "Sayının basamak değerlerinin toplamı şeklinde yazılması."
+        },
+        {
+          "word": "TABAN",
+          "hint": "Sayı sistemlerinde kullanılan taban değeri."
+        },
+        {
+          "word": "ÖZDEŞLİKLER",
+          "hint": "Değişkenlerin tüm değerleri için doğru olan eşitlikler."
+        },
+        {
+          "word": "AÇILAR",
+          "hint": "Başlangıç noktası aynı olan iki ışının oluşturduğu geometrik yapı."
+        },
+        {
+          "word": "ÜÇGENDEAÇI",
+          "hint": "Üçgenin iç veya dış açılarının ölçüleri."
+        },
+        {
+          "word": "ÖZELÜÇGENLER",
+          "hint": "Kenarlarına veya açılarına göre dik, ikizkenar üçgenler."
+        },
+        {
+          "word": "BENZERLİK",
+          "hint": "Üçgenlerin kenar oranlarının eşit olması durumu."
+        },
+        {
+          "word": "ALANHESABI",
+          "hint": "Düzlemsel şekillerin kapladığı alanın hesaplanması."
+        },
+        {
+          "word": "ÇOKGENLER",
+          "hint": "En az üç kenarı olan kapalı düzlemsel geometrik şekiller."
+        },
+        {
+          "word": "DÖRTGENLER",
+          "hint": "Dört kenarlı geometrik şekillerin genel adı."
+        },
+        {
+          "word": "PARALELKENAR",
+          "hint": "Karşılıklı kenarları paralel ve eşit olan dörtgen."
+        },
+        {
+          "word": "DİKDÖRTGEN",
+          "hint": "Açıları doksan derece olan paralelkenar."
+        },
+        {
+          "word": "KARE",
+          "hint": "Tüm kenarları ve açıları eşit olan özel dörtgen."
+        },
+        {
+          "word": "YAMUK",
+          "hint": "Sadece iki kenarı paralel olan dörtgen."
+        },
+        {
+          "word": "ÇEMBERDAİRE",
+          "hint": "Çember ve çemberin iç bölgesiyle oluşan düzlemsel şekil."
+        },
+        {
+          "word": "KATICİSİMLER",
+          "hint": "Silindir, küre, koni gibi üç boyutlu geometrik yapılar."
+        },
+        {
+          "word": "ANALİTİK",
+          "hint": "Koordinat sistemi üzerinde şekillerin denklemlerle incelenmesi."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki büyüklüğün bölme yoluyla karşılaştırılması."
+        }
       ]
     },
     {
       "id": "kpss_u3",
       "name": "KPSS Tarih",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "OSMANLI DEVLETİ", "hint": "1299-1922 yılları arasında hüküm sürmüş Türk devleti."},
-        {"word": "İNKILAP TARİHİ", "hint": "Atatürk devrimlerini ve Cumhuriyet tarihini inceleyen konu."}
+        {
+          "word": "KURULTAY",
+          "hint": "İlk Türk devletlerinde devlet işlerinin görüşüldüğü meclis."
+        },
+        {
+          "word": "KUT",
+          "hint": "İlk Türk devletlerinde hükümdara yönetme yetkisinin tanrı tarafından verilmesi inancı."
+        },
+        {
+          "word": "TÖRE",
+          "hint": "İlk Türk devletlerinde yazısız hukuk kuralları bütünü."
+        },
+        {
+          "word": "İKTİSADİ",
+          "hint": "Devletlerin ekonomik, mali ve ticari yapısıyla ilgili durumlar."
+        },
+        {
+          "word": "VERASET",
+          "hint": "Hükümdarlık makamının kime geçeceğini belirleyen kurallar bütünü."
+        },
+        {
+          "word": "DİVAN",
+          "hint": "Selçuklu ve Osmanlı'da devlet işlerinin görüşüldüğü yüksek kurul."
+        },
+        {
+          "word": "GAZA",
+          "hint": "İslam dinini korumak veya yaymak amacıyla yapılan kutsal savaş."
+        },
+        {
+          "word": "CİHAT",
+          "hint": "Din uğruna yapılan savaş veya gayretlerin tamamı."
+        },
+        {
+          "word": "DEVŞİRME",
+          "hint": "Osmanlı'da Hristiyan çocukların eğitilerek asker veya bürokrat yapılması sistemi."
+        },
+        {
+          "word": "TIMAR",
+          "hint": "Osmanlı'da asker yetiştirmek üzere verilen toprak yönetim sistemi."
+        },
+        {
+          "word": "YENİÇERİ",
+          "hint": "Osmanlı kapıkulu ordusunun piyade sınıfını oluşturan askerler."
+        },
+        {
+          "word": "ENDERUN",
+          "hint": "Osmanlı sarayında devlet adamı yetiştiren yüksek okul."
+        },
+        {
+          "word": "REAYA",
+          "hint": "Osmanlı Devleti'nde vergi veren, yönetilen halk sınıfı."
+        },
+        {
+          "word": "İLTİZAM",
+          "hint": "Osmanlı'da vergi gelirlerinin ihale usulüyle peşin toplanması sistemi."
+        },
+        {
+          "word": "TANZİMAT",
+          "hint": "1839 yılında ilan edilen Osmanlı'da batılılaşma dönemini başlatan ferman."
+        },
+        {
+          "word": "ISLAHAT",
+          "hint": "1856 yılında azınlıklara geniş haklar veren Osmanlı fermanı."
+        },
+        {
+          "word": "MEŞRUTİYET",
+          "hint": "Hükümdarın yanında meclisin de bulunduğu yönetim biçimi."
+        },
+        {
+          "word": "KANUNİESASİ",
+          "hint": "Türk tarihinin 1876 yılında ilan edilen ilk yazılı anayasası."
+        },
+        {
+          "word": "İTTİHAK",
+          "hint": "Osmanlı'nın son döneminde etkili olan ve yönetimi ele geçiren cemiyet."
+        },
+        {
+          "word": "TRABLUSGARP",
+          "hint": "1911 yılında İtalya ile yapılan Osmanlı'nın Afrika'daki son savaşı."
+        },
+        {
+          "word": "UŞİ",
+          "hint": "Trablusgarp Savaşı sonrasında İtalya ile imzalanan antlaşma."
+        },
+        {
+          "word": "BALKAN",
+          "hint": "Osmanlı'nın Avrupalı devletlere karşı toprak kaybettiği büyük yarımada savaşları."
+        },
+        {
+          "word": "BABIALİ",
+          "hint": "1913 yılında İttihatçıların yaptığı hükümet darbesi."
+        },
+        {
+          "word": "MONDROS",
+          "hint": "Osmanlı'yı fiilen bitiren Birinci Dünya Savaşı ateşkes antlaşması."
+        },
+        {
+          "word": "MUDANYA",
+          "hint": "Kurtuluş Savaşı'nın askeri safhasını bitiren ateşkes antlaşması."
+        },
+        {
+          "word": "LOZAN",
+          "hint": "Yeni Türk devletinin bağımsızlığını tescilleyen tarihi barış antlaşması."
+        },
+        {
+          "word": "AMASYA",
+          "hint": "Kurtuluş Savaşı'nın amaç ve yönteminin açıklandığı tarihi genelge."
+        },
+        {
+          "word": "ERZURUM",
+          "hint": "Doğu Anadolu'daki direnişi birleştiren ilk bölgesel kongrenin yapıldığı şehir."
+        },
+        {
+          "word": "SİVAS",
+          "hint": "Tüm milli cemiyetlerin tek çatı altında birleştirildiği kongrenin yapıldığı şehir."
+        },
+        {
+          "word": "MİSAKIMİLLİ",
+          "hint": "Son Osmanlı Mebusan Meclisi'nde kabul edilen milli yemin belgesi."
+        },
+        {
+          "word": "CUMHURİYET",
+          "hint": "Millet egemenliğine dayanan, 29 Ekim 1923'te ilan edilen yönetim biçimi."
+        },
+        {
+          "word": "SALTANAT",
+          "hint": "1 Kasım 1922'de TBMM tarafından kaldırılan tek kişilik yönetim sistemi."
+        },
+        {
+          "word": "HALİFELİK",
+          "hint": "3 Mart 1924'te laiklik yolunda kaldırılan dini liderlik makamı."
+        },
+        {
+          "word": "KABOTAJ",
+          "hint": "Deneylerimizde ticaret hakkını Türk denizcilerine veren 1926 tarihli kanun."
+        },
+        {
+          "word": "MEDENİKANUN",
+          "hint": "Kadın erkek eşitliğini sağlayan 1926 tarihli Türk medeni kanunu."
+        },
+        {
+          "word": "TEHCİR",
+          "hint": "1915 yılında Ermenilerin güvenli bölgelere göç ettirilmesi kanunu."
+        },
+        {
+          "word": "KUVAYIMİLLİYE",
+          "hint": "Mondros sonrası işgallere karşı halkın kurduğu direniş güçleri."
+        },
+        {
+          "word": "TAKRİRİSÜKUN",
+          "hint": "Şeyh Sait isyanı sonrası huzuru sağlamak için çıkarılan kanun."
+        },
+        {
+          "word": "MENEMEN",
+          "hint": "İzmir'de yedek subay Kubilay'ın şehit edildiği rejim karşıtı olay."
+        },
+        {
+          "word": "HATAY",
+          "hint": "1939 yılında Türkiye Cumhuriyeti topraklarına katılan son il, anavatan."
+        },
+        {
+          "word": "ATATÜRK",
+          "hint": "Türkiye Cumhuriyeti'nin kurucusu ve ilk cumhurbaşkanı."
+        },
+        {
+          "word": "İNÖNÜ",
+          "hint": "Kurtuluş Savaşı komutanı ve Türkiye'nin ikinci cumhurbaşkanı."
+        },
+        {
+          "word": "KONGRE",
+          "hint": "Milli Mücadele döneminde kararlar almak için toplanan yerel veya ulusal kurul."
+        },
+        {
+          "word": "SADABAT",
+          "hint": "Türkiye'nin doğu sınırlarını korumak için imzaladığı pakt."
+        },
+        {
+          "word": "BALKANPAKTI",
+          "hint": "Türkiye'nin batı sınırlarını güvenceye almak için imzaladığı antlaşma."
+        },
+        {
+          "word": "MECELLE",
+          "hint": "Ahmet Cevdet Paşa tarafından hazırlanan Osmanlı medeni kanunu."
+        },
+        {
+          "word": "AHİLİK",
+          "hint": "Selçuklu ve Osmanlı'da esnaf ve sanatkarlar dayanışma teşkilatı."
+        },
+        {
+          "word": "MİLLETİSADIKA",
+          "hint": "Osmanlı'da sadık tebaa olarak adlandırılan Ermeni toplumu."
+        },
+        {
+          "word": "SEYFİYE",
+          "hint": "Osmanlı'da yönetim ve askerlik işlerini yürüten bürokratik sınıf."
+        },
+        {
+          "word": "KALEMİYE",
+          "hint": "Osmanlı'da yazışma ve mali işleri yürüten bürokratik sınıf."
+        }
       ]
     },
     {
       "id": "kpss_u4",
       "name": "KPSS Coğrafya",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "TÜRKİYE FİZİKİ", "hint": "Türkiye'nin dağları, ovaları ve iklim koşulları."},
-        {"word": "NÜFUS COĞRAFYASI", "hint": "Nüfusun dağılışı ve demografik özellikler."}
+        {
+          "word": "İKLİM",
+          "hint": "Geniş bir sahada uzun yıllar boyunca devam eden hava olaylarının ortalaması."
+        },
+        {
+          "word": "JEOPOLİTİK",
+          "hint": "Bir ülkenin coğrafi konumunun siyasi ilişkiler üzerindeki etkisi."
+        },
+        {
+          "word": "ENLEM",
+          "hint": "Yeryüzündeki bir noktanın ekvatora olan açısı, sıcaklığı etkiler."
+        },
+        {
+          "word": "BOYLAM",
+          "hint": "Yeryüzündeki bir noktanın başlangıç meridyenine uzaklığı, yerel saati belirler."
+        },
+        {
+          "word": "YERELSAAT",
+          "hint": "Bir yerin güneşin konumuna göre belirlenen saati."
+        },
+        {
+          "word": "MİKROKLİMA",
+          "hint": "Geniş bir iklim bölgesi içinde görülen küçük ve özel iklim alanı."
+        },
+        {
+          "word": "KARASALLIK",
+          "hint": "Denizden uzak iç kesimlerde sıcaklık farkının fazla olması durumu."
+        },
+        {
+          "word": "NEMLİLİK",
+          "hint": "Havadaki su buharı miktarı, yağış ihtimalini etkiler."
+        },
+        {
+          "word": "YAĞIŞ",
+          "hint": "Havadaki nemin yoğunlaşarak sıvı veya katı halde yere düşmesi."
+        },
+        {
+          "word": "RÜZGAR",
+          "hint": "Yüksek basınç alanından alçak basınç alanına doğru olan yatay hava hareketi."
+        },
+        {
+          "word": "HEYELAN",
+          "hint": "Toprak tabakasının yer çekimi etkisiyle kütle halinde aşağı kayması, toprak kayması."
+        },
+        {
+          "word": "EROZYON",
+          "hint": "Toprağın dış kuvvetler tarafından aşındırılarak taşınması süreci."
+        },
+        {
+          "word": "KARSTİK",
+          "hint": "Kolay eriyebilen kayaçların bulunduğu arazi yapısı."
+        },
+        {
+          "word": "TRAVERTEN",
+          "hint": "Kalsiyum karbonatlı suların çökelmesiyle oluşan basamaklı yer şekli, Pamukkale."
+        },
+        {
+          "word": "KANYON",
+          "hint": "Derin ve dik yamaçlı nehir vadisi türü."
+        },
+        {
+          "word": "KÖRFEZ",
+          "hint": "Denizin karanın içine doğru sokulduğu büyük girinti."
+        },
+        {
+          "word": "YARIMADA",
+          "hint": "Üç tarafı sularla çevrili kara parçası."
+        },
+        {
+          "word": "BOĞAZ",
+          "hint": "İki denizi birbirine bağlayan dar su geçidi."
+        },
+        {
+          "word": "LİMAN",
+          "hint": "Gemilerin barınabileceği, yük alıp boşaltabileceği korunaklı kıyı alanı."
+        },
+        {
+          "word": "MERA",
+          "hint": "Hayvanların otlatılması için ayrılmış çayır ve otlak alanlar."
+        },
+        {
+          "word": "BOZKIR",
+          "hint": "Kurak ve yarı kurak bölgelerdeki kısa boylu ot topluluğu, step."
+        },
+        {
+          "word": "MAKİ",
+          "hint": "Akdeniz ikliminin bodur ağaç ve çalılardan oluşan bitki örtüsü."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Ağaçlarla kaplı geniş alan, Türkiye'nin Karadeniz kıyılarında yaygındır."
+        },
+        {
+          "word": "ENDEMİK",
+          "hint": "Sadece belirli bir bölgede yetişen, dünyada başka yerde olmayan bitki türü."
+        },
+        {
+          "word": "RELİKT",
+          "hint": "Geçmiş jeolojik dönemlerden günümüze kalmış kalıntı bitki türü."
+        },
+        {
+          "word": "NÜFUS",
+          "hint": "Sınırları belli bir alanda yaşayan insan sayısı."
+        },
+        {
+          "word": "DEMOGRAFİ",
+          "hint": "Nüfusun yapısını, durumunu ve özelliklerini inceleyen bilim dalı."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "Bireylerin veya toplulukların yaşam yerlerini değiştirmesi hareketi."
+        },
+        {
+          "word": "SANAYİ",
+          "hint": "Hammaddelerin işlendiği, üretimin yapıldığı tesisler sektörü."
+        },
+        {
+          "word": "TARIM",
+          "hint": "Toprağı ekip biçerek bitkisel ürün elde etme faaliyeti."
+        },
+        {
+          "word": "HAYVANCILIK",
+          "hint": "Economik değer taşıyan hayvanların yetiştirilmesi faaliyeti."
+        },
+        {
+          "word": "ARICILIK",
+          "hint": "Bal ve balmumu üretmek amacıyla arı yetiştirme faaliyeti."
+        },
+        {
+          "word": "BALIKÇILIK",
+          "hint": "Deniz ve tatlı sulardan balık avlama veya yetiştirme faaliyeti."
+        },
+        {
+          "word": "MADENCİLİK",
+          "hint": "Yeraltındaki değerli minerallerin çıkarılması sektörü."
+        },
+        {
+          "word": "LİNYİT",
+          "hint": "Türkiye'de elektrik üretiminde yaygın kullanılan kahverengi kömür türü."
+        },
+        {
+          "word": "BOR",
+          "hint": "Türkiye'nin dünya rezervlerinde ilk sırada olduğu değerli maden."
+        },
+        {
+          "word": "KROM",
+          "hint": "Paslanmaz çelik yapımında kullanılan sert ve dayanıklı maden."
+        },
+        {
+          "word": "BAKIR",
+          "hint": "Elektriği iyi ileten, kablo ve mutfak eşyası yapımında kullanılan maden."
+        },
+        {
+          "word": "DEMİR",
+          "hint": "Ağır sanayinin temel hammaddesi olan en yaygın metal maden."
+        },
+        {
+          "word": "PETROL",
+          "hint": "Türkiye'de Batman çevresinde çıkarılan önemli sıvı yakıt kaynağı."
+        },
+        {
+          "word": "DOĞALGAZ",
+          "hint": "Konut ısıtmasında ve elektrik üretiminde kullanılan ithal gaz yakıt."
+        },
+        {
+          "word": "HİDROELEKTRİK",
+          "hint": "Akarsuların gücüyle barajlarda üretilen yenilenebilir elektrik enerjisi."
+        },
+        {
+          "word": "RÜZGARGÜCÜ",
+          "hint": "Rüzgar türbinleri vasıtasıyla üretilen temiz elektrik enerjisi."
+        },
+        {
+          "word": "JEOTERMAL",
+          "hint": "Yeraltındaki sıcak su ve buhardan elde edilen enerji türü."
+        },
+        {
+          "word": "TURİZM",
+          "hint": "Dinlenmek, eğlenmek veya görmek amacıyla yapılan seyahatler sektörü."
+        },
+        {
+          "word": "İTHALAT",
+          "hint": "Başka ülkelerden mal ve hizmet satın alma işlemi, dış alım."
+        },
+        {
+          "word": "İHRACAT",
+          "hint": "Başka ülkelere mal ve hizmet satma işlemi, dış satım."
+        },
+        {
+          "word": "ULAŞIM",
+          "hint": "Karayolu, demiryolu, havayolu veya denizyolu ile yapılan taşıma işleri."
+        },
+        {
+          "word": "GEÇİT",
+          "hint": "Dağlık bölgelerde ulaşımı sağlayan doğal veya yapay yol yarığı."
+        },
+        {
+          "word": "PLATO",
+          "hint": "Akarsular tarafından derin biçimde yarılmış yüksek düzlükler."
+        }
       ]
     },
     {
       "id": "kpss_u5",
       "name": "KPSS Vatandaşlık",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "ANAYASA", "hint": "Devletin temel yapısını ve hakları belirleyen en üst kanun."},
-        {"word": "YÜRÜTME ORGANI", "hint": "Cumhurbaşkanlığı ve kabinenin oluşturduğu devlet organı."}
+        {
+          "word": "ANAYASA",
+          "hint": "Devletin yönetim biçimini ve vatandaşların temel haklarını belirleyen en üst kanun."
+        },
+        {
+          "word": "KANUN",
+          "hint": "Yetkili organlar tarafından çıkarılan, uyulması zorunlu yazılı hukuk kuralı, yasa."
+        },
+        {
+          "word": "HUKUK",
+          "hint": "Toplumsal ilişkileri düzenleyen ve devlet gücüyle desteklenen kurallar bütünü."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hak ve hukuka uygunluk, herkesin hakkını alma durumu."
+        },
+        {
+          "word": "DEMOKRASİ",
+          "hint": "Halkın egemenliğine ve seçim esasına dayanan siyasi düzen."
+        },
+        {
+          "word": "CUMHURİYET",
+          "hint": "Ulusal egemenliği temel alan, devlet başkanının seçildiği rejim."
+        },
+        {
+          "word": "LAİKLİK",
+          "hint": "Din ve devlet işlerinin ayrılması, din ve vicdan özgürlüğünün korunması."
+        },
+        {
+          "word": "YÜRÜTME",
+          "hint": "Kanunları uygulayan ve devleti yöneten organ, cumhurbaşkanlığı."
+        },
+        {
+          "word": "YASAMA",
+          "hint": "Kanun yapma, değiştirme ve kaldırma yetkisine sahip organ, meclis."
+        },
+        {
+          "word": "YARGI",
+          "hint": "Hukuk kurallarını uygulayarak uyuşmazlıkları çözen bağımsız mahkemeler."
+        },
+        {
+          "word": "CUMHURBAŞKANI",
+          "hint": "Türkiye Cumhuriyeti'nin başı olan ve yürütme yetkisini kullanan kişi."
+        },
+        {
+          "word": "BAKANLIK",
+          "hint": "Devletin belirli bir kamu hizmetini yürüten en üst idari birimi."
+        },
+        {
+          "word": "VALİ",
+          "hint": "İllerde devleti ve cumhurbaşkanını temsil eden en yetkili idari amir."
+        },
+        {
+          "word": "KAYMAKAM",
+          "hint": "İlçelerde cumhurbaşkanını temsil eden ve idari işleri yürüten amir."
+        },
+        {
+          "word": "MUHTAR",
+          "hint": "Mahalle veya köy yönetiminin başı olan, seçimle gelen kişi."
+        },
+        {
+          "word": "BELEDİYE",
+          "hint": "Belde, ilçe ve illerde yerel kamu hizmetlerini yürüten özerk kurum."
+        },
+        {
+          "word": "MECLİS",
+          "hint": "Milletvekillerinin toplandığı ve yasama yetkisini kullandığı kurul, TBMM."
+        },
+        {
+          "word": "MİLLETVEKİLİ",
+          "hint": "Halkın oylarıyla seçilen ve mecliste milleti temsil eden kişi."
+        },
+        {
+          "word": "SEÇİM",
+          "hint": "Yönetici veya temsilcileri belirlemek için vatandaşların oy kullanması işlemi."
+        },
+        {
+          "word": "REFERANDUM",
+          "hint": "Önemli bir anayasa değişikliği veya konunun halk oyuna sunulması."
+        },
+        {
+          "word": "VATANDAŞ",
+          "hint": "Bir devlete hukuki ve siyasi bağlarla bağlı olan kişi, yurttaş."
+        },
+        {
+          "word": "TEBAA",
+          "hint": "Eskiden bir hükümdara veya devlete bağlı olan halk."
+        },
+        {
+          "word": "HAK",
+          "hint": "Kanunların bireylere tanıdığı yetki ve koruma."
+        },
+        {
+          "word": "ÖDEV",
+          "hint": "Vatandaşların devlete ve topluma karşı yapmakla yükümlü olduğu görevler."
+        },
+        {
+          "word": "KAMU",
+          "hint": "Bir ülkedeki halkın tamamı veya devlete ait olan kurumlar bütünü."
+        },
+        {
+          "word": "HİZMET",
+          "hint": "Toplumun ortak ihtiyaçlarını karşılamak için yürütülen kamu faaliyetleri."
+        },
+        {
+          "word": "MEMUR",
+          "hint": "Kamu hizmetlerini yürütmekle görevli, aylık alan devlet görevlisi."
+        },
+        {
+          "word": "SÖZLEŞMELİ",
+          "hint": "Belirli bir iş için sözleşme ile çalıştırılan kamu personeli."
+        },
+        {
+          "word": "DENETLEME",
+          "hint": "İşlerin yasalara ve kurallara uygun yapılıp yapılmadığını kontrol etme."
+        },
+        {
+          "word": "DANIŞTAY",
+          "hint": "İdari mahkemelerce verilen kararların son inceleme mercii olan yüksek mahkeme."
+        },
+        {
+          "word": "YARGITAY",
+          "hint": "Adliye mahkemelerince verilen kararların son inceleme mercii olan yüksek mahkeme."
+        },
+        {
+          "word": "SAYIŞTAY",
+          "hint": "Kamu kurumlarının gelir ve giderlerini meclis adına denetleyen kurul."
+        },
+        {
+          "word": "UYUŞMAZLIK",
+          "hint": "Adli ve idari yargı arasındaki yetki anlaşmazlıklarını çözen mahkeme."
+        },
+        {
+          "word": "HAKİMLER",
+          "hint": "Mahkemelerde yargılama yetkisini kullanan bağımsız karar organı görevlileri."
+        },
+        {
+          "word": "SAVCI",
+          "hint": "Kamu adına ceza davası açan ve soruşturmayı yürüten yargı mensubu."
+        },
+        {
+          "word": "AVUKAT",
+          "hint": "Hak arayan kişileri mahkemelerde temsil eden ve savunan hukukçu."
+        },
+        {
+          "word": "DAVA",
+          "hint": "Bir hakkın teslimi veya ceza verilmesi için mahkemeye başvurma durumu."
+        },
+        {
+          "word": "MÜLKİYET",
+          "hint": "Bir mal üzerinde kullanma, yararlanma ve tasarrufta bulunma hakkı."
+        },
+        {
+          "word": "VESAYET",
+          "hint": "Reşit olmayan veya kısıtlı kişilerin haklarını koruyan hukuki kurum."
+        },
+        {
+          "word": "VELAYET",
+          "hint": "Anne ve babanın ergin olmayan çocukları üzerindeki hak ve yetkileri."
+        },
+        {
+          "word": "ERGİNLİK",
+          "hint": "Kanunun belirlediği ve kişilerin kendi kararlarını alabildiği yaş sınırı, rüşt."
+        },
+        {
+          "word": "KİŞİ",
+          "hint": "Hukukta hak ve borç edinebilen en küçük birim, şahıs."
+        },
+        {
+          "word": "DERNEK",
+          "hint": "Kazanç paylaşma dışında ortak bir amacı gerçekleştirmek için kurulan topluluk."
+        },
+        {
+          "word": "VAKIF",
+          "hint": "Belirli bir malın hayır işlerine ebediyen tahsis edilmesiyle oluşan kurum."
+        },
+        {
+          "word": "TÜZÜK",
+          "hint": "Kanunun uygulanmasını göstermek üzere çıkarılan, Danıştay incelemesinden geçen kural."
+        },
+        {
+          "word": "YÖNETMELİK",
+          "hint": "Başbakanlık, bakanlıklar veya kamu tüzel kişilerinin çıkardığı yazılı kurallar."
+        },
+        {
+          "word": "GENELGE",
+          "hint": "Yasal düzenlemelerin uygulanmasında yol gösterici idari yazı."
+        },
+        {
+          "word": "TÜZEL",
+          "hint": "Hukuken kişi sayılan kurum veya ortaklık yapısı."
+        },
+        {
+          "word": "GERÇEK",
+          "hint": "Hukukta insanları temsil eden kişi türü, gerçek kişi."
+        },
+        {
+          "word": "EHLİYET",
+          "hint": "Kişinin hukuki işlemler yapabilme yeteneği, fiil ehliyeti."
+        }
       ]
     }
   ]

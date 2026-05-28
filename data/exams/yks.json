@@ -4,55 +4,1309 @@
     {
       "id": "yks_u1",
       "name": "TYT Türkçe",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "ANLAM BİLGİSİ", "hint": "Sözcük, cümle ve paragrafta anlam konuları."},
-        {"word": "SES BİLGİSİ", "hint": "Ünlü düşmesi, ünsüz benzeşmesi gibi kurallar."}
+        {
+          "word": "YAZIM",
+          "hint": "Sözcüklerin kurallara uygun olarak yazılması, imla."
+        },
+        {
+          "word": "NOKTA",
+          "hint": "Cümlenin bittiğini göstermek için sonuna konan işaret."
+        },
+        {
+          "word": "VİRGÜL",
+          "hint": "Eş görevli kelimeleri ayırmak veya hitaplardan sonra kullanmak için konan işaret."
+        },
+        {
+          "word": "ÜNLEM",
+          "hint": "Korku, sevinç, heyecan gibi duyguları bildiren cümlelerin sonuna konan işaret."
+        },
+        {
+          "word": "SORU",
+          "hint": "Cevap almak amacıyla yazılan cümlelerin sonuna konan işaret."
+        },
+        {
+          "word": "TIRNAK",
+          "hint": "Başka bir kimseden veya yazıdan aktarılan sözlerin başına ve sonuna konan işaret."
+        },
+        {
+          "word": "PARANTEZ",
+          "hint": "Cümlenin yapısıyla doğrudan doğruya ilgisi olmayan açıklamaları gösteren ayraç."
+        },
+        {
+          "word": "KESME",
+          "hint": "Özel adlara getirilen iyelik ve durum eklerini ayırmak için kullanılan işaret."
+        },
+        {
+          "word": "FİİL",
+          "hint": "İş, oluş, hareket bildiren ve kip eki alabilen sözcük türü, eylem."
+        },
+        {
+          "word": "İSİM",
+          "hint": "Varlıkları, kavramları ve durumları karşılayan sözcük türü, ad."
+        },
+        {
+          "word": "SIFAT",
+          "hint": "İsimlerin önüne gelerek onları niteleyen veya belirten sözcük türü, önad."
+        },
+        {
+          "word": "ZAMİR",
+          "hint": "İsimlerin yerini tutan sözcük türü, adıl."
+        },
+        {
+          "word": "ZARF",
+          "hint": "Fiillerin, fiilimsilerin veya sıfatların anlamını etkileyen sözcük türü, belirteç."
+        },
+        {
+          "word": "EDAT",
+          "hint": "Tek başına anlamı olmayan, cümle içinde kelimeler arası ilişki kuran sözcük, ilgeç."
+        },
+        {
+          "word": "BAĞLAÇ",
+          "hint": "Kelime veya cümleleri birbirine bağlayan sözcük."
+        },
+        {
+          "word": "EKLEME",
+          "hint": "Sözcük türetirken veya çekimlerken köke ses veya ek getirme işlemi."
+        },
+        {
+          "word": "YAPIM",
+          "hint": "Kelime kök veya gövdesinden yeni anlamlı kelimeler türeten ek türü."
+        },
+        {
+          "word": "ÇEKİM",
+          "hint": "Kelimelerin cümle içindeki görevlerini ve ilişkilerini belirleyen ek türü."
+        },
+        {
+          "word": "BİRLEŞME",
+          "hint": "Birden fazla kelimenin bir araya gelerek yeni bir kavramı karşılaması durumu."
+        },
+        {
+          "word": "TÜREME",
+          "hint": "Bir kelimenin yapım eki alarak yeni bir sözcük oluşturması süreci."
+        },
+        {
+          "word": "DÜŞME",
+          "hint": "Sözcük türetilirken veya birleşirken bir sesin kaybolması, ses kaybı."
+        },
+        {
+          "word": "BENZEŞME",
+          "hint": "Sert ünsüzle biten kelimelerin yanına gelen yumuşak ünsüzün sertleşmesi kuralı."
+        },
+        {
+          "word": "YUMUŞAMA",
+          "hint": "Sert ünsüzle biten kelimelerin yanına ünlüyle başlayan ek gelince ünsüzün değişmesi."
+        },
+        {
+          "word": "DARALMA",
+          "hint": "Sonu geniş ünlüyle biten fiillerin şimdiki zaman eki almasıyla oluşan ses olayı."
+        },
+        {
+          "word": "ULAMA",
+          "hint": "Ünsüzle biten kelimeden sonra ünlüyle başlayan kelime gelince seslerin birleştirilmesi."
+        },
+        {
+          "word": "ANLAMDAŞ",
+          "hint": "Yazılışları farklı, anlamları tamamen aynı olan kelimeler arasındaki ilişki."
+        },
+        {
+          "word": "KARŞIT",
+          "hint": "Anlamları birbirine zıt olan kelimeler arasındaki ilişki."
+        },
+        {
+          "word": "MECAZ",
+          "hint": "Kelimelerin gerçek anlamlarından tamamen uzaklaşarak yeni bir anlam kazanması."
+        },
+        {
+          "word": "SOMUT",
+          "hint": "Beş duyu organımızdan en az biriyle algılayabildiğimiz varlık veya kavramlar."
+        },
+        {
+          "word": "SOYUT",
+          "hint": "Zihnimizle kavradığımız, duyu organlarımızla algılayamadığımız kavramlar."
+        },
+        {
+          "word": "TERİM",
+          "hint": "Bilim, sanat veya meslek dalına özgü kavramları karşılayan kelime."
+        },
+        {
+          "word": "YANSIMA",
+          "hint": "Doğadaki seslerin taklit edilmesiyle oluşan kelimeler."
+        },
+        {
+          "word": "ÖZNE",
+          "hint": "Yüklemin bildirdiği işi yapan veya yargının odağı olan temel öge."
+        },
+        {
+          "word": "YÜKLEM",
+          "hint": "Cümledeki işi, oluşu, hareketi veya yargıyı bildiren temel öge."
+        },
+        {
+          "word": "TÜMLEÇ",
+          "hint": "Cümlenin anlamını yer, yön, zaman veya sebep yönünden tamamlayan öge."
+        },
+        {
+          "word": "NESNE",
+          "hint": "Cümlede öznenin yaptığı işten doğrudan etkilenen öge."
+        },
+        {
+          "word": "ETKEN",
+          "hint": "Yüklemdeki işi yapan gerçek bir öznenin bulunduğu fiil çatısı."
+        },
+        {
+          "word": "EDİLGEN",
+          "hint": "Yüklemdeki işi yapanın belli olmadığı, işten etkilenenin özne olduğu fiil çatısı."
+        },
+        {
+          "word": "GEÇİŞLİ",
+          "hint": "Nesne alabilen, yüklemine neyi veya kimi soruları sorulabilen fiil çatısı."
+        },
+        {
+          "word": "GEÇİŞSİZ",
+          "hint": "Nesne alamayan, yüklemine neyi veya kimi soruları sorulamayan fiil çatısı."
+        },
+        {
+          "word": "ETTİRGEN",
+          "hint": "Geçişli bir fiilin geçişlilik derecesinin artırılmasıyla oluşan çatı."
+        },
+        {
+          "word": "OLDURGAN",
+          "hint": "Geçişsiz bir fiilin aldığı eklerle geçişli hale getirilmesiyle oluşan çatı."
+        },
+        {
+          "word": "DÖNÜŞLÜ",
+          "hint": "İşi yapan ile işten etkilenenin aynı kişi olduğu fiil çatısı."
+        },
+        {
+          "word": "İŞTEŞ",
+          "hint": "Birden fazla özne tarafından birlikte veya karşılıklı yapılan fiil çatısı."
+        },
+        {
+          "word": "KURALSIZ",
+          "hint": "Cümle bilgisi ve dil kurallarına uymayan yapı veya devrik cümle."
+        },
+        {
+          "word": "EKSİLTİLİ",
+          "hint": "Yüklemi söylenmemiş, anlamı okuyucunun zihninde tamamlanan cümle türü."
+        },
+        {
+          "word": "SIRALI",
+          "hint": "Birden fazla yüklemin virgül veya noktalı virgülle birbirine bağlandığı cümle."
+        },
+        {
+          "word": "BAĞLI",
+          "hint": "Birden fazla yüklemin bağlaçlarla birbirine bağlandığı cümle türü."
+        },
+        {
+          "word": "BİRLEŞİK",
+          "hint": "İçinde tek bir yüklem ve en az bir fiilimsi bulunan cümle türü."
+        },
+        {
+          "word": "BOZUKLUK",
+          "hint": "Cümlede gereksiz sözcük kullanımı veya dil bilgisi hatalarından kaynaklanan kusur."
+        }
       ]
     },
     {
       "id": "yks_u2",
       "name": "TYT Temel Matematik",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "FONKSİYON", "hint": "Tanım kümesindeki elemanları değer kümesine eşleyen bağıntı."},
-        {"word": "MUTLAK DEĞER", "hint": "Bir sayının sayı doğrusunda sıfıra olan uzaklığı."}
+        {
+          "word": "SAYI",
+          "hint": "Çokluk belirten ve rakamlarla ifade edilen matematiksel birim."
+        },
+        {
+          "word": "RAKAM",
+          "hint": "Sayıları yazılı olarak göstermeye yarayan 0'dan 9'a kadar olan işaretler."
+        },
+        {
+          "word": "RASYONEL",
+          "hint": "İki tam sayının oranı şeklinde yazılabilen sayılar kümesi."
+        },
+        {
+          "word": "İRRASYONEL",
+          "hint": "Rasyonel olmayan, virgülden sonrası devretmeden sonsuza giden sayılar."
+        },
+        {
+          "word": "DOĞALSAYI",
+          "hint": "Sıfırdan başlayıp sonsuza kadar giden tam sayılar kümesi."
+        },
+        {
+          "word": "TAMSAYI",
+          "hint": "Negatif, pozitif ve sıfır sayılarından oluşan küme."
+        },
+        {
+          "word": "ASALSAYI",
+          "hint": "Yalnızca 1'e ve kendisine kalansız bölünebilen 1'den büyük sayılar."
+        },
+        {
+          "word": "BÖLÜNEBİLME",
+          "hint": "Bir sayının başka bir sayıya kalansız olarak bölünebilmesi kuralı."
+        },
+        {
+          "word": "MUTLAKDEĞER",
+          "hint": "Bir sayının sayı doğrusunda sıfıra olan mesafesi, işaretsiz değeri."
+        },
+        {
+          "word": "EŞİTSİZLİK",
+          "hint": "İki büyüklüğün birbirine eşit olmadığını gösteren matematiksel durum."
+        },
+        {
+          "word": "FONKSİYON",
+          "hint": "Tanım kümesinin her elemanını değer kümesinin yalnız bir elemanına eşleyen kural."
+        },
+        {
+          "word": "KÜME",
+          "hint": "İyi tanımlanmış, birbirinden farklı nesneler topluluğu."
+        },
+        {
+          "word": "BİRLEŞİM",
+          "hint": "İki veya daha fazla kümenin tüm elemanlarından oluşan yeni küme."
+        },
+        {
+          "word": "KESİŞİM",
+          "hint": "İki veya daha fazla kümenin ortak elemanlarından oluşan küme."
+        },
+        {
+          "word": "FARK",
+          "hint": "Bir kümede olup diğer kümede olmayan elemanların oluşturduğu küme."
+        },
+        {
+          "word": "TÜMLEYEN",
+          "hint": "Evrensel kümede olup verilen kümede olmayan elemanların kümesi."
+        },
+        {
+          "word": "PERMÜTASYON",
+          "hint": "Elemanların belirli bir sıraya göre dizilişlerinin sayısı."
+        },
+        {
+          "word": "KOMBİNASYON",
+          "hint": "Elemanların sırasına bakılmaksızın yapılan gruplama veya seçim."
+        },
+        {
+          "word": "OLASILIK",
+          "hint": "Bir olayın gerçekleşme olasılığının matematiksel hesabı."
+        },
+        {
+          "word": "İSTATİSTİK",
+          "hint": "Verilerin toplanması, analizi ve yorumlanmasıyla ilgilenen bilim dalı."
+        },
+        {
+          "word": "MEDYAN",
+          "hint": "Küçükten büyüğe sıralanmış bir veri grubunun tam ortasındaki değer."
+        },
+        {
+          "word": "MOD",
+          "hint": "Bir veri grubunda en çok tekrar eden, sıklığı en yüksek olan değer."
+        },
+        {
+          "word": "ORTALAMA",
+          "hint": "Verilerin toplamının veri sayısına bölünmesiyle elde edilen sayı."
+        },
+        {
+          "word": "POLİNOM",
+          "hint": "Değişkenleri ve katsayıları olan, üsleri doğal sayı olan cebirsel ifade."
+        },
+        {
+          "word": "DERECE",
+          "hint": "Bir polinomdaki değişkenin en büyük üssü olan sayı."
+        },
+        {
+          "word": "ÇARPANLARA",
+          "hint": "Bir ifadeyi çarpım durumundaki ifadelerin çarpımı şeklinde yazma."
+        },
+        {
+          "word": "KÖKLÜSAYI",
+          "hint": "Bir sayının kök işareti içerisindeki üslü ters ifadesi."
+        },
+        {
+          "word": "ÜSLÜSAYI",
+          "hint": "Bir sayının kendisiyle tekrarlı çarpımını gösteren ifade."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki değerin birbirine bölünmesiyle elde edilen karşılaştırma."
+        },
+        {
+          "word": "ORANTI",
+          "hint": "İki oran arasındaki eşitliği ifade eden bağıntı."
+        },
+        {
+          "word": "BÖLME",
+          "hint": "Bir çokluğu eşit parçalara ayırma işlemi."
+        },
+        {
+          "word": "ÇARPMA",
+          "hint": "Bir sayının diğer sayı kadar tekrarlı toplamı işlemi."
+        },
+        {
+          "word": "TOPLAMA",
+          "hint": "İki veya daha fazla çokluğu bir araya getirme işlemi."
+        },
+        {
+          "word": "ÇIKARMA",
+          "hint": "Bir çokluktan belirli bir miktarı eksiltme işlemi."
+        },
+        {
+          "word": "OBEB",
+          "hint": "Ortak bölenlerin en büyüğü olan sayı, ebob."
+        },
+        {
+          "word": "OKEK",
+          "hint": "Ortak katların en küçüğü olan sayı, ekok."
+        },
+        {
+          "word": "FAKTÖRİYEL",
+          "hint": "1'den n'ye kadar olan ardışık doğal sayıların çarpımı."
+        },
+        {
+          "word": "MODÜLER",
+          "hint": "Kalan sınıflarıyla yapılan aritmetik işlemler sistemi."
+        },
+        {
+          "word": "MANTIKSAL",
+          "hint": "Önermeler ve doğruluk değerleriyle ilgilenen akıl yürütme alanı."
+        },
+        {
+          "word": "ÖNERME",
+          "hint": "Doğru ya da yanlış kesin bir hüküm bildiren cümle."
+        },
+        {
+          "word": "BAĞLAÇ",
+          "hint": "Önermeleri birbirine bağlayan ve veya ise gibi semboller."
+        },
+        {
+          "word": "ÇELİŞKİ",
+          "hint": "Doğruluk değeri her zaman yanlış olan önerme yapısı."
+        },
+        {
+          "word": "TUTARLILIK",
+          "hint": "Önermelerin veya ifadelerin kendi içinde çelişmemesi durumu."
+        },
+        {
+          "word": "DENKLEM",
+          "hint": "İki niceliğin eşitliğini belirten ve bilinmeyen içeren ifade."
+        },
+        {
+          "word": "KÖK",
+          "hint": "Bir denklemi doğru yapan bilinmeyen değeri veya değerleri."
+        },
+        {
+          "word": "EĞİM",
+          "hint": "Analitik düzlemde bir doğrunun yatayla yaptığı açının tanjantı."
+        },
+        {
+          "word": "AÇI",
+          "hint": "Başlangıç noktaları aynı olan iki ışının arasındaki açıklık."
+        },
+        {
+          "word": "ÜÇGEN",
+          "hint": "Üç kenarı ve üç köşesi olan düzlemsel geometrik şekil."
+        },
+        {
+          "word": "DÖRTGEN",
+          "hint": "Dört kenarı ve dört köşesi olan düzlemsel geometrik şekil."
+        },
+        {
+          "word": "ÇEMBER",
+          "hint": "Düzlemde sabit bir noktaya eşit uzaklıktaki noktaların oluşturduğu eğri."
+        }
       ]
     },
     {
       "id": "yks_u3",
       "name": "TYT Sosyal Bilimler",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "FEODALİZM", "hint": "Ortaçağ Avrupa'sında toprak ağalığına dayanan düzen."},
-        {"word": "EPİSTEMOLOJİ", "hint": "Felsefede bilginin doğasını inceleyen dal."}
+        {
+          "word": "TARİH",
+          "hint": "Geçmişteki olayları yer ve zaman göstererek, belgelere dayanarak inceleyen bilim."
+        },
+        {
+          "word": "COĞRAFYA",
+          "hint": "Yeryüzünü ve üzerindeki insan-doğa ilişkilerini inceleyen bilim dalı."
+        },
+        {
+          "word": "FELSEFE",
+          "hint": "Varlıkğın, bilginin ve değerlerin kaynağını araştıran düşünce disiplini."
+        },
+        {
+          "word": "SOSYOLOJİ",
+          "hint": "Toplumun yapısını, değişimini ve toplumsal ilişkileri inceleyen bilim dalı."
+        },
+        {
+          "word": "DİN",
+          "hint": "İlahı inançlar, ibadetler ve ahlak kuralları bütünü."
+        },
+        {
+          "word": "ARKEOLOJİ",
+          "hint": "Kazı yoluyla geçmiş kültürlerin maddi kalıntılarını inceleyen bilim."
+        },
+        {
+          "word": "KRONOLOJİ",
+          "hint": "Tarihsel olayları zaman sırasına göre dizen zaman bilimi."
+        },
+        {
+          "word": "MİTOLOJİ",
+          "hint": "Efsaneleri ve tanrısal hikayeleri inceleyen derleme veya bilim."
+        },
+        {
+          "word": "ANTROPOLOJİ",
+          "hint": "İnsan ırkını, kültürlerini ve fiziksel gelişimini inceleyen bilim."
+        },
+        {
+          "word": "PALEOGRAFYA",
+          "hint": "Eski yazıların ve alfabelerin okunmasını sağlayan bilim dalı."
+        },
+        {
+          "word": "MİSAK",
+          "hint": "Sözleşme, yemin veya ulusal sınırları belirleyen tarihi antlaşma."
+        },
+        {
+          "word": "OSMANLI",
+          "hint": "Altı asır hüküm sürmüş, üç kıtaya yayılmış büyük Türk imparatorluğu."
+        },
+        {
+          "word": "SELÇUKLU",
+          "hint": "Anadolu'yu yurt edinen ve büyük medeniyet kuran Türk devleti."
+        },
+        {
+          "word": "GÖKTÜRK",
+          "hint": "Tarihte Türk adıyla kurulan ilk devlet olan Orta Asya imparatorluğu."
+        },
+        {
+          "word": "HİTİT",
+          "hint": "Anadolu'da kurulan ilk büyük medeniyetlerden biri olan antik uygarlık."
+        },
+        {
+          "word": "KADEŞ",
+          "hint": "Mısırlılar ile Hititler arasında imzalanan tarihin ilk yazılı antlaşması."
+        },
+        {
+          "word": "LİDYA",
+          "hint": "Parayı ilk kez basıp kullanan antik Anadolu uygarlığı."
+        },
+        {
+          "word": "FRİG",
+          "hint": "İç Anadolu'da kurulmuş, tarım ve dokumacılıkta ileri gitmiş antik uygarlık."
+        },
+        {
+          "word": "URARTU",
+          "hint": "Doğu Anadolu'da Van çevresinde kurulmuş maden ve su mimarisiyle ünlü uygarlık."
+        },
+        {
+          "word": "SÜMER",
+          "hint": "Yazıyı ilk kez bularak tarihi çağları başlatan Mezopotamya uygarlığı."
+        },
+        {
+          "word": "BABİL",
+          "hint": "Hammurabi kanunları ve asma bahçeleriyle ünlü Mezopotamya uygarlığı."
+        },
+        {
+          "word": "ASUR",
+          "hint": "Kütüphaneleri ve Anadolu ile yaptıkları ticaret kolonileriyle ünlü uygarlık."
+        },
+        {
+          "word": "İKLİM",
+          "hint": "Geniş bir bölgede uzun yıllar boyunca gözlenen hava olaylarının ortalaması."
+        },
+        {
+          "word": "KARTOGRAFYA",
+          "hint": "Harita yapımı ve haritaları inceleyen bilim dalı."
+        },
+        {
+          "word": "NÜFUS",
+          "hint": "Sınırları belirli bir alanda yaşayan insan sayısı, demografi."
+        },
+        {
+          "word": "GÖÇ",
+          "hint": "İnsanların ekonomik, sosyal veya siyasi nedenlerle yer değiştirmesi hareketi."
+        },
+        {
+          "word": "LİTOSFER",
+          "hint": "Yerkabuğunu oluşturan taş küre katmanı."
+        },
+        {
+          "word": "HİDROSFER",
+          "hint": "Yeryüzündeki su kaynaklarının tamamını kapsayan su küre."
+        },
+        {
+          "word": "ATMOSFER",
+          "hint": "Dünyayı çevreleyen gaz tabakası, hava küre."
+        },
+        {
+          "word": "BİYOSFER",
+          "hint": "Canlıların yaşadığı ve canlı yaşamına uygun olan doğal ortam, canlı küre."
+        },
+        {
+          "word": "VADİ",
+          "hint": "Akarsuların aşındırmasıyla oluşan iki dağ arasındaki oluk şeklindeki çukurluk."
+        },
+        {
+          "word": "DELTA",
+          "hint": "Akarsuların taşıdığı alüvyonları deniz kıyısında biriktirmesiyle oluşan ova."
+        },
+        {
+          "word": "PLATON",
+          "hint": "İdeal devlet ve idealar kuramıyla ünlü antik Yunan filozofu."
+        },
+        {
+          "word": "SOKRATES",
+          "hint": "Atina sokaklarında soru sorarak felsefe yapan ünlü Yunan filozofu."
+        },
+        {
+          "word": "ARİSTOTELES",
+          "hint": "Mantığın kurucusu kabul edilen ve Büyük İskender'in öğretmenliğini yapan filozof."
+        },
+        {
+          "word": "EPİSTEMOLOJİ",
+          "hint": "Felsefede bilginin doğasını, kaynağını ve sınırlarını inceleyen dal."
+        },
+        {
+          "word": "ONTOLOJİ",
+          "hint": "Varlığın ne olduğunu ve varoluşu inceleyen felsefe dalı."
+        },
+        {
+          "word": "ETİK",
+          "hint": "Ahlak felsefesi, doğru ve yanlış davranışların ilkelerini inceleyen alan."
+        },
+        {
+          "word": "ESTETİK",
+          "hint": "Sanat ve güzellik felsefesi, güzelin doğasını inceleyen alan."
+        },
+        {
+          "word": "TEOLOJİ",
+          "hint": "Din bilimi, tanrı ve inanç konularını sistematik inceleyen disiplin."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun tarih boyunca ürettiği maddi ve manevi değerler bütünü."
+        },
+        {
+          "word": "NORMLAR",
+          "hint": "Toplumsal hayatı düzenleyen, bireylerin uyması gereken kurallar bütünü."
+        },
+        {
+          "word": "AHLAK",
+          "hint": "Toplumda iyi ve kötü olarak kabul edilen davranış kuralları."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Sınırları belli bir toprak üzerinde yaşayan halkın oluşturduğu egemen örgütlenme."
+        },
+        {
+          "word": "EGEMENLİK",
+          "hint": "Devletin ülke topraklarında yasa yapma ve yönetme gücünün en üstün olması."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hak ve hukuka uygunluk, herkesin hakkını gözetme durumu."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Bireyin başkalarının haklarına zarar vermeden kendi kararlarını alabilmesi."
+        },
+        {
+          "word": "DEMOKRASİ",
+          "hint": "Halkın egemenliğine ve seçme seçilme hakkına dayanan yönetim biçimi."
+        },
+        {
+          "word": "LAİKLİK",
+          "hint": "Din ve devlet işlerinin ayrılması, inanç özgürlüğünün güvenceye alınması."
+        },
+        {
+          "word": "BÜROKRASİ",
+          "hint": "Devlet işlerini yürüten memurlar ve hiyerarşik düzen."
+        }
       ]
     },
     {
       "id": "yks_u4",
       "name": "TYT Fen Bilimleri",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "KİNETİK ENERJİ", "hint": "Cisimlerin hareketinden dolayı sahip olduğu enerji."},
-        {"word": "MİTOZ BÖLÜNME", "hint": "Vücut hücrelerinde görülen kromozom sayısı değişmeyen bölünme."}
+        {
+          "word": "KUVVET",
+          "hint": "Cisimlerin hareket veya şeklini değiştiren etki, dinamometreyle ölçülür."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Bir cismin sabit bir noktaya göre konumunu değiştirmesi durumu."
+        },
+        {
+          "word": "HIZ",
+          "hint": "Bir cismin birim zamandaki yer değiştirme miktarı."
+        },
+        {
+          "word": "İVME",
+          "hint": "Bir cismin hızında birim zamanda meydana gelen değişim miktarı."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "İş yapabilme yeteneği veya kapasitesi."
+        },
+        {
+          "word": "SICAKLIK",
+          "hint": "Maddenin taneciklerinin ortalama kinetik enerjisinin bir ölçüsü, termometreyle ölçülür."
+        },
+        {
+          "word": "ISI",
+          "hint": "Sıcaklık farkından dolayı maddeler arasında aktarılan enerji türü, kaloriyle ölçülür."
+        },
+        {
+          "word": "BASINÇ",
+          "hint": "Birim yüzeye dik olarak etki eden kuvvetin büyüklüğü."
+        },
+        {
+          "word": "KALDIRMA",
+          "hint": "Sıvıların içindeki cisimlere yukarı yönlü uyguladığı itme kuvveti."
+        },
+        {
+          "word": "DALGA",
+          "hint": "Enerjinin esnek bir ortamda yayılırken oluşturduğu titreşim hareketi."
+        },
+        {
+          "word": "IŞIK",
+          "hint": "Görmeyi sağlayan, elektromanyetik dalga şeklinde yayılan enerji türü."
+        },
+        {
+          "word": "MERCEK",
+          "hint": "Işığı kırarak görüntü oluşturan saydam cam veya plastik alet."
+        },
+        {
+          "word": "AYNA",
+          "hint": "Işığı tamamen yansıtarak görüntü oluşturan sırlı cam yüzey."
+        },
+        {
+          "word": "ELEKTRİK",
+          "hint": "Yüklerin hareketiyle oluşan enerji türü."
+        },
+        {
+          "word": "MIKNATIS",
+          "hint": "Demir, nikel, kobalt gibi maddeleri çeken manyetik özelliğe sahip cisim."
+        },
+        {
+          "word": "ATOM",
+          "hint": "Maddenin kimyasal özelliklerini taşıyan en küçük yapı taşı."
+        },
+        {
+          "word": "MOLEKÜL",
+          "hint": "Aynı veya farklı en az iki atomun birleşmesiyle oluşan kimyasal grup."
+        },
+        {
+          "word": "ELEMENT",
+          "hint": "Kimyasal yollarla daha basit maddelere ayrılamayan saf madde."
+        },
+        {
+          "word": "BİLEŞİK",
+          "hint": "Farklı elementlerin belirli oranlarda birleşerek oluşturduğu yeni saf madde."
+        },
+        {
+          "word": "KARIŞIM",
+          "hint": "Birden fazla maddenin kimyasal özellikleri değişmeden bir araya gelmesi."
+        },
+        {
+          "word": "ÇÖZELTİ",
+          "hint": "Homojen olarak dağılmış, içinde çözünen ve çözen bulunan karışım."
+        },
+        {
+          "word": "ASİT",
+          "hint": "Suda çözündüğünde hidrojen iyonu derişimini artıran ekşi maddeler."
+        },
+        {
+          "word": "BAZ",
+          "hint": "Suda çözündüğünde hidroksit iyonu derişimini artıran acı maddeler."
+        },
+        {
+          "word": "TUZ",
+          "hint": "Asit ve bazın tepkimeye girmesiyle oluşan nötr kimyasal bileşik."
+        },
+        {
+          "word": "PERİYODİK",
+          "hint": "Elementlerin özelliklerine göre sıralandığı tablo veya düzen."
+        },
+        {
+          "word": "METALLER",
+          "hint": "Periyodik tablonun solunda yer alan, parlak ve iletken elementler sınıfı."
+        },
+        {
+          "word": "AMETALLER",
+          "hint": "Periyodik tablonun sağında yer alan, mat ve iletken olmayan elementler."
+        },
+        {
+          "word": "SOYGAZLAR",
+          "hint": "Kararlı yapıda olan, bağ yapmayan en sağdaki gaz elementleri sınıfı."
+        },
+        {
+          "word": "HÜCRE",
+          "hint": "Canlıların canlılık özelliklerini gösteren en küçük yapı ve görev birimi."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Benzer yapı ve görevdeki hücrelerin bir araya gelerek oluşturduğu topluluk."
+        },
+        {
+          "word": "ORGAN",
+          "hint": "Belirli bir görevi yapmak üzere birleşen dokular bütünü."
+        },
+        {
+          "word": "SİSTEM",
+          "hint": "Belirli bir yaşamsal işlevi yürüten organlar grubu."
+        },
+        {
+          "word": "ORGANİZMA",
+          "hint": "Tüm sistemlerin uyum içinde çalıştığı canlı varlık, birey."
+        },
+        {
+          "word": "SİTOPLAZMA",
+          "hint": "Hücre zarı ile çekirdek arasını dolduran yarı akışkan sıvı kısım."
+        },
+        {
+          "word": "MİTOKONDRİ",
+          "hint": "Hücrenin enerji santrali olan, ATP üreten çift zarlı organel."
+        },
+        {
+          "word": "KLOROPLAST",
+          "hint": "Bitki hücrelerinde fotosentez yaparak besin ve oksijen üreten organel."
+        },
+        {
+          "word": "RİBOZOM",
+          "hint": "Protein sentezinin yapıldığı tüm hücrelerde bulunan en küçük organel."
+        },
+        {
+          "word": "MİTOZ",
+          "hint": "Vücut hücrelerinde görülen, kromozom sayısının sabit kaldığı bölünme türü."
+        },
+        {
+          "word": "MAYOZ",
+          "hint": "Üreme ana hücrelerinde görülen, kromozom sayısının yarıya indiği bölünme."
+        },
+        {
+          "word": "KALITIM",
+          "hint": "Kalıtsal özelliklerin kuşaktan kuşağa aktarılması bilimi, genetik."
+        },
+        {
+          "word": "KROMOZOM",
+          "hint": "Hücre bölünmesinde belirginleşen, kalıtım maddesini taşıyan yapılar."
+        },
+        {
+          "word": "MUTASYON",
+          "hint": "Genlerin veya kromozomların yapısında meydana gelen kalıcı değişiklikler."
+        },
+        {
+          "word": "EVRİM",
+          "hint": "Canlı türlerinin nesiller boyu geçirdiği genetik ve fiziksel değişim."
+        },
+        {
+          "word": "EKOSİSTEM",
+          "hint": "Canlı ve cansız çevrenin oluşturduğu ekolojik sistem."
+        },
+        {
+          "word": "POPÜLASYON",
+          "hint": "Belirli bir alanda yaşayan aynı türe ait bireyler topluluğu."
+        },
+        {
+          "word": "KOMÜNİTE",
+          "hint": "Belirli bir alanda yaşayan farklı türlerin oluşturduğu topluluk."
+        },
+        {
+          "word": "HABİTAT",
+          "hint": "Bir canlının yaşayıp üreyebildiği, uyum sağladığı doğal adresi."
+        },
+        {
+          "word": "PARAZİT",
+          "hint": "Başka bir canlının üzerinde veya içinde yaşayarak ona zarar veren canlı."
+        },
+        {
+          "word": "ENZİM",
+          "hint": "Biyolojik tepkimeleri hızlandıran protein yapılı katalizör."
+        },
+        {
+          "word": "VİTAMİN",
+          "hint": "Vücutta düzenleyici olarak rol oynayan, direnç artıran organik maddeler."
+        }
       ]
     },
     {
       "id": "yks_u5",
       "name": "AYT Edebiyat ve Sosyal",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "DİVAN EDEBİYATI", "hint": "Aruz vezninin kullanıldığı klasik Türk edebiyatı."},
-        {"word": "CUMHURİYET DÖNEMİ", "hint": "1923 sonrasında gelişen modern Türk edebiyatı."}
+        {
+          "word": "EDEBİYAT",
+          "hint": "Düşünce, duygu ve olayların dil aracılığıyla estetik biçimde anlatılması sanatı."
+        },
+        {
+          "word": "ŞİİR",
+          "hint": "Ritmik sesler ve ahenkle yazılan, duygu yoğunluğu yüksek edebi tür."
+        },
+        {
+          "word": "ROMAN",
+          "hint": "Olmuş ya da olabilecek olayları ayrıntılı şekilde anlatan uzun edebi tür."
+        },
+        {
+          "word": "HİKAYE",
+          "hint": "Olmuş ya da olabilecek olayları kısaca anlatan edebi tür, öykü."
+        },
+        {
+          "word": "TİYATRO",
+          "hint": "Sahnede oynanmak üzere yazılan, diyaloglara dayalı edebi tür."
+        },
+        {
+          "word": "MASAL",
+          "hint": "Olağanüstü olayları ve kahramanları anlatan, eğitici halk anlatısı."
+        },
+        {
+          "word": "DESTAN",
+          "hint": "Bir milletin hayatında derin iz bırakan olayları anlatan uzun manzum hikaye."
+        },
+        {
+          "word": "EFSANE",
+          "hint": "Halkın hayal gücüyle oluşturduğu, inanışlara dayalı eski anlatılar."
+        },
+        {
+          "word": "DENEME",
+          "hint": "Yazarın herhangi bir konudaki kişisel görüşlerini kanıtlama amacı gütmeden yazdığı yazı."
+        },
+        {
+          "word": "MAKALE",
+          "hint": "Bir tezi savunmak veya bilgi vermek amacıyla yazılan bilimsel yazı türü."
+        },
+        {
+          "word": "ELEŞTİRİ",
+          "hint": "Bir sanat eserinin iyi ve kötü yanlarını ortaya koyan değerlendirme yazısı, tenkit."
+        },
+        {
+          "word": "SÖYLEŞİ",
+          "hint": "Yazarın okuyucuyla karşılıklı konuşuyormuş gibi yazdığı samimi yazı türü."
+        },
+        {
+          "word": "FIKRA",
+          "hint": "Gazetelerin köşe yazılarında güncel konuları ele alan kısa edebi tür."
+        },
+        {
+          "word": "BİYOGRAFİ",
+          "hint": "Tanınmış bir kişinin hayatını başkasının kaleme aldığı yazı türü."
+        },
+        {
+          "word": "OTOBİYOGRAFİ",
+          "hint": "Bir kişinin kendi hayatını kendisinin kaleme aldığı yazı türü."
+        },
+        {
+          "word": "GEZİYAZISI",
+          "hint": "Gezilip görülen yerlerin özelliklerini anlatan edebi tür, seyahatname."
+        },
+        {
+          "word": "ANI",
+          "hint": "Yaşanmış olayların üzerinden zaman geçtikten sonra yazıldığı edebi tür, hatırat."
+        },
+        {
+          "word": "MEKTUP",
+          "hint": "Uzaktaki birine haber göndermek veya haber almak için yazılan yazı türü."
+        },
+        {
+          "word": "GÜNLÜK",
+          "hint": "Günü gününe, tarih belirtilerek yazılan kişisel edebi tür, günce."
+        },
+        {
+          "word": "KAFİYE",
+          "hint": "Dize sonlarında tekrarlanan ve aynı görevi olmayan ses benzerlikleri."
+        },
+        {
+          "word": "REDİF",
+          "hint": "Dize sonlarında kafiyeden sonra gelen aynı görevli ek veya kelimeler."
+        },
+        {
+          "word": "TEŞBİH",
+          "hint": "Aralarında ilgi bulunan iki şeyden zayıf olanı güçlü olana benzetme sanatı."
+        },
+        {
+          "word": "İSTİARE",
+          "hint": "Benzetmenin temel ögelerinden sadece biriyle yapılan benzetme sanatı, eğretileme."
+        },
+        {
+          "word": "MECAZIMÜRSEL",
+          "hint": "Benzetme amacı gütmeden bir sözün başka bir söz yerine kullanılması sanatı."
+        },
+        {
+          "word": "TEŞHİS",
+          "hint": "İnsana özgü özelliklerin insan dışı varlıklara verilmesi sanatı, kişileştirme."
+        },
+        {
+          "word": "İNTAK",
+          "hint": "İnsan dışındaki varlıkların konuşturulması sanatı."
+        },
+        {
+          "word": "TEZAT",
+          "hint": "Anlamca birbirine zıt kavramların bir arada kullanılması sanatı."
+        },
+        {
+          "word": "MÜBALAĞA",
+          "hint": "Bir durumun veya özelliğin olduğundan çok daha büyük gösterilmesi sanatı, abartma."
+        },
+        {
+          "word": "TECAHÜLİARİF",
+          "hint": "Bilinen bir durumu bilmezden gelerek anlatma sanatı."
+        },
+        {
+          "word": "KİNAYE",
+          "hint": "Bir sözü hem gerçek hem mecaz anlama gelecek şekilde, mecazı kastederek kullanma."
+        },
+        {
+          "word": "TARİZ",
+          "hint": "Bir sözü tersini kastederek söyleme, iğneleme sanatı."
+        },
+        {
+          "word": "TELMİH",
+          "hint": "Herkesçe bilinen tarihi bir olaya veya kişiye işaret etme sanatı."
+        },
+        {
+          "word": "TENASÜP",
+          "hint": "Anlamca birbiriyle ilgili kelimelerin bir arada kullanılması sanatı."
+        },
+        {
+          "word": "HÜSNÜTALİL",
+          "hint": "Bir olayı gerçek sebebinin dışında güzel bir sebebe bağlama sanatı."
+        },
+        {
+          "word": "DİVAN",
+          "hint": "Şairlerin şiirlerini topladığı büyük kitap veya klasik edebiyat dönemi."
+        },
+        {
+          "word": "TANZİMAT",
+          "hint": "Batılılaşma hareketinin edebi yansıması olan ilk modern Türk edebiyatı dönemi."
+        },
+        {
+          "word": "SERVETİFÜNUN",
+          "hint": "Sanat sanat içindir anlayışıyla yazan, ağır dilli edebi topluluk dönemi."
+        },
+        {
+          "word": "FECRİATİ",
+          "hint": "Şahsi ve muhterem olan sanat anlayışını savunan kısa süreli edebi topluluk."
+        },
+        {
+          "word": "MİLLİEDEBİYAT",
+          "hint": "Türkçe kelimelerin kullanıldığı, hece ölçüsünün esas alındığı edebi dönem."
+        },
+        {
+          "word": "CUMHURİYET",
+          "hint": "Cumhuriyet dönemi Türk edebiyatını kapsayan çağdaş edebi dönem."
+        },
+        {
+          "word": "SOSYOLOJİ",
+          "hint": "Toplumsal kurumları, ilişkileri ve sosyal yapıyı inceleyen bilim."
+        },
+        {
+          "word": "ANTROPOLOJİ",
+          "hint": "İnsanın fiziksel ve kültürel gelişimini inceleyen bilim dalı."
+        },
+        {
+          "word": "PSİKOLOJİ",
+          "hint": "Bireyin zihinsel süreçlerini ve davranışlarını inceleyen bilim dalı."
+        },
+        {
+          "word": "MİKRO",
+          "hint": "Küçük ölçekli ekonomik faaliyetleri inceleyen iktisat dalı."
+        },
+        {
+          "word": "MAKRO",
+          "hint": "Ülke genelindeki enflasyon, büyüme gibi büyük ekonomik verileri inceleyen dal."
+        },
+        {
+          "word": "METODOLOJİ",
+          "hint": "Bilimsel araştırmalarda kullanılan yöntemler ve ilkeler bütünü."
+        },
+        {
+          "word": "NÜFUS",
+          "hint": "Belli bir alanda yaşayan insan sayısı ve demografik özellikler."
+        },
+        {
+          "word": "BÖLGE",
+          "hint": "Benzer iklim, yer şekli veya ekonomik özelliklere sahip yeryüzü parçası."
+        },
+        {
+          "word": "ULAŞIM",
+          "hint": "İnsanların, malların ve bilgilerin bir yerden başka yere nakledilmesi süreci."
+        },
+        {
+          "word": "SANAYİ",
+          "hint": "Hammaddeleri işleyerek kullanışlı mamul maddeler haline getirme sektörü."
+        }
       ]
     },
     {
       "id": "yks_u6",
       "name": "AYT Matematik ve Fen",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "TRİGONOMETRİ", "hint": "Üçgenlerin açıları ve kenarları arasındaki oranlar."},
-        {"word": "ORGANİK KİMYA", "hint": "Karbon bileşiklerini inceleyen kimya dalı."}
+        {
+          "word": "TRİGONOMETRİ",
+          "hint": "Üçgenlerin açıları ile kenarları arasındaki ilişkileri inceleyen matematik dalı."
+        },
+        {
+          "word": "LİMİT",
+          "hint": "Bir değişkenin bir değere yaklaşırken fonksiyonun yaklaştığı değer."
+        },
+        {
+          "word": "TÜREV",
+          "hint": "Bir fonksiyonun değişim oranını ve teğetinin eğimini veren matematiksel kavram."
+        },
+        {
+          "word": "İNTEGRAL",
+          "hint": "Bir fonksiyonun eğrisinin altında kalan alanı bulmaya yarayan işlem."
+        },
+        {
+          "word": "MATRİS",
+          "hint": "Sayıların satırlar ve sütunlar şeklinde düzenlendiği tablo yapısı."
+        },
+        {
+          "word": "DETERMİNANT",
+          "hint": "Kare matrisleri bir sayıya eşleyen matematiksel fonksiyon."
+        },
+        {
+          "word": "LOGARİTMA",
+          "hint": "Üslü sayıların tersi olan, sayıların üs derecelerini bulan matematik dalı."
+        },
+        {
+          "word": "DİZİ",
+          "hint": "Tanım kümesi pozitif tam sayılar olan fonksiyonlar, sıralı listeler."
+        },
+        {
+          "word": "SERİ",
+          "hint": "Bir dizinin elemanlarının sonsuza kadar toplanmasıyla elde edilen ifade."
+        },
+        {
+          "word": "PARABOL",
+          "hint": "İkinci dereceden fonksiyonların analitik düzlemdeki eğri grafiği."
+        },
+        {
+          "word": "KOMBİNASYON",
+          "hint": "Sıraya bakılmaksızın yapılan nesne gruplaması veya seçimi."
+        },
+        {
+          "word": "PERMÜTASYON",
+          "hint": "Nesnelerin sıralı dizilişlerinin sayısı."
+        },
+        {
+          "word": "BİNOM",
+          "hint": "İki terimli ifadelerin açılımını veren matematiksel kural."
+        },
+        {
+          "word": "OLASILIK",
+          "hint": "Bir olayın gerçekleşmesinin sayısal ölçüsü veya ihtimali."
+        },
+        {
+          "word": "VEKTÖR",
+          "hint": "Başlangıç noktası, yönü, doğrultusu ve büyüklüğü olan yönlü doğru parçası."
+        },
+        {
+          "word": "KARMAŞIK",
+          "hint": "Gerçel ve sanal kısımdan oluşan sayılar kümesi, kompleks sayılar."
+        },
+        {
+          "word": "POLİNOM",
+          "hint": "Değişkenlerin ve katsayıların sadece toplama, çıkarma ve çarpma içeren ifadesi."
+        },
+        {
+          "word": "DENKLEM",
+          "hint": "İki matematiksel ifadenin eşitliğini gösteren ve bilinmeyen içeren bağıntı."
+        },
+        {
+          "word": "FONKSİYON",
+          "hint": "Her girdiyi tek bir çıktıya eşleyen matematiksel kural."
+        },
+        {
+          "word": "EĞİM",
+          "hint": "Bir doğrunun x ekseniyle yaptığı pozitif yönlü açının tanjantı."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Kütlesi olan bir cisme ivme kazandıran veya şeklini değiştiren mekanik etki."
+        },
+        {
+          "word": "İVME",
+          "hint": "Bir hareketlinin hızında birim zamanda meydana gelen değişim oranı."
+        },
+        {
+          "word": "TORK",
+          "hint": "Bir kuvvetin cismi bir eksen etrafında döndürme etkisinin ölçüsü."
+        },
+        {
+          "word": "MOMENTUM",
+          "hint": "Bir cismin kütlesi ile hızının çarpımından oluşan hareket miktarı."
+        },
+        {
+          "word": "İŞ",
+          "hint": "Bir kuvvetin bir cisme yol aldırmasıyla harcanan enerji miktarı."
+        },
+        {
+          "word": "GÜÇ",
+          "hint": "Birim zamanda yapılan iş miktarı veya harcanan enerji hızı."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "Cisimlerin iş yapabilme yeteneği, korunan fiziksel nicelik."
+        },
+        {
+          "word": "DALGALAR",
+          "hint": "Ortamın titreşmesiyle enerjinin bir yerden başka yere iletilmesi hareketi."
+        },
+        {
+          "word": "OPTİK",
+          "hint": "Işığın yapısını, yayılmasını ve özelliklerini inceleyen fizik dalı."
+        },
+        {
+          "word": "ELEKTROSTATİK",
+          "hint": "Durgun elektrik yüklerini ve bunların etkileşimlerini inceleyen dal."
+        },
+        {
+          "word": "MANYETİZMA",
+          "hint": "Mıknatısların ve elektrik akımının oluşturduğu manyetik alanları inceleyen dal."
+        },
+        {
+          "word": "TERMODİNAMİK",
+          "hint": "Isı, sıcaklık ve enerji dönüşümlerini inceleyen fizik dalı."
+        },
+        {
+          "word": "ORGANİK",
+          "hint": "Karbon temelli bileşikleri ve bunların tepkimelerini inceleyen kimya dalı."
+        },
+        {
+          "word": "ANORGANİK",
+          "hint": "Karbon dışındaki elementleri ve bileşikleri inceleyen kimya dalı."
+        },
+        {
+          "word": "MOL",
+          "hint": "Kimyasal madde miktarı birimi."
+        },
+        {
+          "word": "KİNETİK",
+          "hint": "Kimyasal tepkimelerin hızlarını ve mekanizmalarını inceleyen dal."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Tersinir tepkimelerde ileri ve geri hızların eşit olduğu kararlı durum."
+        },
+        {
+          "word": "ÇÖZÜNÜRLÜK",
+          "hint": "Belirli bir sıcaklık ve basınçta çözücüde çözünebilen maksimum madde miktarı."
+        },
+        {
+          "word": "ASİTBAZ",
+          "hint": "Proton alıp veren veya suda iyonlaşan kimyasal maddeler sınıfı."
+        },
+        {
+          "word": "ELEKTROLİZ",
+          "hint": "Elektrik akımı yardımıyla bileşiklerin elementlerine ayrıştırılması işlemi."
+        },
+        {
+          "word": "HÜCRESİZ",
+          "hint": "Hücresi bulunmayan, cansız ile canlı arasında geçiş formu olan virüsler."
+        },
+        {
+          "word": "SOLUNUM",
+          "hint": "Hücrede besin maddelerinin parçalanarak ATP enerjisine dönüştürülmesi."
+        },
+        {
+          "word": "FOTOSENTEZ",
+          "hint": "Kloroplastta ışık enerjisi kullanılarak organik besin üretilmesi."
+        },
+        {
+          "word": "KEMOSENTEZ",
+          "hint": "Işık enerjisi yerine kimyasal enerji kullanarak besin üretilmesi."
+        },
+        {
+          "word": "REPLİKASYON",
+          "hint": "DNA'nın hücre bölünmesi öncesinde kendini eşleyerek kopyalaması."
+        },
+        {
+          "word": "TRANSKRİPSİYON",
+          "hint": "DNA'daki bilgiye göre RNA molekülünün sentezlenmesi işlemi."
+        },
+        {
+          "word": "TRANSLASYON",
+          "hint": "Ribozomda mRNA'daki şifrelere göre protein sentezlenmesi süreci."
+        },
+        {
+          "word": "MUTASYON",
+          "hint": "DNA diziliminde veya yapısında meydana gelen kalıcı değişim."
+        },
+        {
+          "word": "ENDOKRİN",
+          "hint": "Hormon salgılayan iç salgı bezleri ve bunların oluşturduğu sistem."
+        },
+        {
+          "word": "HOMEOSTAZİ",
+          "hint": "Hücre veya organizmanın iç dengesini kararlı tutması durumu."
+        }
       ]
     }
   ]

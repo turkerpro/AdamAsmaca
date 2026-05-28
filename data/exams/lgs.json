@@ -4,46 +4,1091 @@
     {
       "id": "lgs_u1",
       "name": "LGS Türkçe",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "PARAGRAF", "hint": "Bir düşünceyi anlatan cümleler topluluğu."},
-        {"word": "FİİLİMSİ", "hint": "Eylemlerden türeyen fakat fiil gibi çekimlenmeyen sözcükler."}
+        {
+          "word": "FİİLİMSİ",
+          "hint": "Eylemlerden türeyen fakat fiil gibi çekimlenmeyen sözcükler."
+        },
+        {
+          "word": "ÖZNE",
+          "hint": "Cümlede işi yapan veya olanı bildiren temel öge."
+        },
+        {
+          "word": "YÜKLEM",
+          "hint": "Cümlenin iş, oluş, hareket veya yargı bildiren en temel ögesi."
+        },
+        {
+          "word": "NESNE",
+          "hint": "Cümlede öznenin yaptığı işten etkilenen öge."
+        },
+        {
+          "word": "TÜMLEÇ",
+          "hint": "Cümlenin anlamını yer, yön, zaman veya durum bakımından tamamlayan öge."
+        },
+        {
+          "word": "PARAGRAF",
+          "hint": "Bir düşünceyi ana ve yardımcı fikirlerle açıklayan yazı bölümü."
+        },
+        {
+          "word": "DEYİM",
+          "hint": "Genellikle gerçek anlamından uzak, kalıplaşmış söz öbeği."
+        },
+        {
+          "word": "ATASÖZÜ",
+          "hint": "Atalarımızın uzun denemelere dayanan yargılarını bildiren kalıplaşmış söz."
+        },
+        {
+          "word": "BETİMLEME",
+          "hint": "Bir şeyi kelimelerle resmeder gibi anlatma biçimi."
+        },
+        {
+          "word": "ÖYKÜLEME",
+          "hint": "Olayları bir akış içinde, kişi, yer ve zamana bağlı olarak anlatma biçimi."
+        },
+        {
+          "word": "TARTIŞMA",
+          "hint": "Yazarın kendi görüşünü savunup karşı görüşü çürütmek için kullandığı anlatım biçimi."
+        },
+        {
+          "word": "AÇIKLAMA",
+          "hint": "Okuyucuya bilgi vermek, bir konuyu öğretmek amacıyla yazılan anlatım biçimi."
+        },
+        {
+          "word": "METİN",
+          "hint": "Bir düşünceyi, duyguyu veya konuyu ileten yazılı sözcükler bütünü."
+        },
+        {
+          "word": "ŞİİR",
+          "hint": "Duygu, hayal ve düşüncelerin ritimli ve ahenkli sözlerle anlatımı."
+        },
+        {
+          "word": "KAFİYE",
+          "hint": "Dize sonlarındaki ses benzerliği, uyak."
+        },
+        {
+          "word": "REDİF",
+          "hint": "Dize sonlarında kafiyeden sonra gelen aynı görevdeki ek veya sözcükler."
+        },
+        {
+          "word": "MISRA",
+          "hint": "Şiirin her bir satırı, dize."
+        },
+        {
+          "word": "TEMA",
+          "hint": "Bir sanat eserinin temelini oluşturan ana duygu veya düşünce."
+        },
+        {
+          "word": "İMLA",
+          "hint": "Bir dilin yazım kuralları, yazım."
+        },
+        {
+          "word": "NOKTALAMA",
+          "hint": "Duygu ve düşünceleri daha açık ifade etmek için kullanılan işaretler sistemi."
+        },
+        {
+          "word": "KÖK",
+          "hint": "Bir sözcüğün anlamlı en küçük ve parçalanamayan bölümü."
+        },
+        {
+          "word": "EK",
+          "hint": "Sözcüklerin sonuna gelerek onlardan yeni kelimeler türeten veya görevlerini belirleyen sesler."
+        },
+        {
+          "word": "GÖVDE",
+          "hint": "Kelime kökünün yapım eki almış hali."
+        },
+        {
+          "word": "TÜREME",
+          "hint": "Yapım eki alarak yeni bir anlam kazanan sözcük yapısı."
+        },
+        {
+          "word": "ANLATIM",
+          "hint": "Bir duygu veya düşüncenin söz veya yazı ile ifade edilmesi."
+        },
+        {
+          "word": "GERÇEK",
+          "hint": "Bir kelimenin akla gelen ilk ve temel anlamı."
+        },
+        {
+          "word": "MECAZ",
+          "hint": "Bir kelimenin gerçek anlamından tamamen uzaklaşarak kazandığı yeni anlam."
+        },
+        {
+          "word": "TERİM",
+          "hint": "Bilim, sanat, spor veya meslek alanlarına ait özel anlamlı sözcük."
+        },
+        {
+          "word": "SÖZCÜK",
+          "hint": "Tek başına anlamı olan veya cümle kurmaya yarayan ses birliği."
+        },
+        {
+          "word": "CÜMLE",
+          "hint": "Bir duyguyu, düşünceyi veya durumu bildiren kelimeler topluluğu."
+        },
+        {
+          "word": "EŞANLAM",
+          "hint": "Yazılışları farklı, anlamları aynı olan sözcükler arasındaki ilişki."
+        },
+        {
+          "word": "ZITANLAM",
+          "hint": "Anlamca birbirinin karşıtı olan sözcükler arasındaki ilişki."
+        },
+        {
+          "word": "SESLEŞ",
+          "hint": "Yazılışları aynı, anlamları tamamen farklı olan sözcükler."
+        },
+        {
+          "word": "ÖZEL",
+          "hint": "Belli bir kişi, varlık veya kavrama ait olan anlam."
+        },
+        {
+          "word": "GENEL",
+          "hint": "Aynı türden varlıkların tamamını veya büyük bir kısmını kapsayan anlam."
+        },
+        {
+          "word": "ÖZNEL",
+          "hint": "Kişisel görüş, beğeni ve duyguları içeren, kanıtlanamayan yargı."
+        },
+        {
+          "word": "NESNEL",
+          "hint": "Kişiden kişiye değişmeyen, kanıtlanabilir nitelikteki yargı."
+        },
+        {
+          "word": "TANIM",
+          "hint": "Bir kavramın ne olduğunu, özelliklerini belirterek açıklayan cümle."
+        },
+        {
+          "word": "KARŞILAŞTIRMA",
+          "hint": "İki veya daha fazla kavram arasındaki benzerlik ya da farkları ortaya koyma."
+        },
+        {
+          "word": "ÖNERİ",
+          "hint": "Bir sorunu çözmek veya bir konuda yol göstermek amacıyla sunulan teklif."
+        },
+        {
+          "word": "VARSAYIM",
+          "hint": "Henüz gerçekleşmemiş bir olayı gerçekleşmiş gibi kabul etme durumu."
+        },
+        {
+          "word": "HAYIFLANMA",
+          "hint": "Geçmişte yapılmayan bir şeyden dolayı duyulan üzüntü, pişmanlık."
+        },
+        {
+          "word": "SİTEM",
+          "hint": "Bir kimseye yaptığı davranıştan ötürü duyulan kırgınlığı yumuşakça belirtme."
+        },
+        {
+          "word": "YAKINMA",
+          "hint": "Bir durumdan veya bir kimseden duyulan şikayeti dile getirme."
+        },
+        {
+          "word": "ÖNGÖRÜ",
+          "hint": "Bir işin ileride alacağı yönü veya sonucu önceden tahmin etme."
+        },
+        {
+          "word": "KANIKSAMA",
+          "hint": "Çok tekrarlanan bir duruma alışma, tepki göstermez hale gelme."
+        },
+        {
+          "word": "YADSIMA",
+          "hint": "Yapılan bir işi veya söylenen bir sözü inkar etme, kabul etmeme."
+        },
+        {
+          "word": "ÖZELEŞTİRİ",
+          "hint": "Kişinin kendi davranışlarını, düşüncelerini eleştirmesi durumu."
+        },
+        {
+          "word": "VURGU",
+          "hint": "Konuşurken veya okurken bazı kelime ya da hecelerin daha baskılı söylenmesi."
+        },
+        {
+          "word": "TONLAMA",
+          "hint": "Konuşma sırasında ses perdesinin yükseltilip alçaltılmasıyla oluşan ahenk."
+        }
       ]
     },
     {
       "id": "lgs_u2",
       "name": "LGS Matematik",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "ÇARPANLAR", "hint": "Bir sayıyı tam bölen sayılar kümesi."},
-        {"word": "KÖKLÜ SAYI", "hint": "Kök işareti içerisindeki sayılar."}
+        {
+          "word": "ASALSAYI",
+          "hint": "Sadece 1'e ve kendisine bölünebilen 1'den büyük doğal sayı."
+        },
+        {
+          "word": "ÇARPAN",
+          "hint": "Bir sayıyı kalansız bölebilen sayılardan her biri."
+        },
+        {
+          "word": "KAT",
+          "hint": "Bir sayının tam sayı katı olan sayı."
+        },
+        {
+          "word": "EBOB",
+          "hint": "İki veya daha fazla sayının en büyük ortak böleni."
+        },
+        {
+          "word": "EKOK",
+          "hint": "İki veya daha fazla sayının en küçük ortak katı."
+        },
+        {
+          "word": "ÜSLÜSAYI",
+          "hint": "Bir sayının kendisi ile tekrarlı çarpımını gösteren ifade."
+        },
+        {
+          "word": "TABAN",
+          "hint": "Üslü ifadelerde çarpılan temel sayı."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Üslü ifadelerde tabanın kaç kez çarpılacağını belirten sayı, üs."
+        },
+        {
+          "word": "KAREKÖK",
+          "hint": "Verilen bir sayının hangi sayının karesi olduğunu bulma işlemi."
+        },
+        {
+          "word": "KARESEL",
+          "hint": "Bir tam sayının karesi olan sayılar, tam kare."
+        },
+        {
+          "word": "VERİ",
+          "hint": "Bir araştırmada elde edilen sayısal sonuçlar veya bilgiler."
+        },
+        {
+          "word": "GRAFİK",
+          "hint": "Verilerin çizgiler, sütunlar veya dairelerle görselleştirilmesi."
+        },
+        {
+          "word": "OLASILIK",
+          "hint": "Bir olayın gerçekleşme olasılığının matematiksel ölçüsü."
+        },
+        {
+          "word": "OLAY",
+          "hint": "Deney sonucunda elde edilebilecek durumlardan her biri."
+        },
+        {
+          "word": "ÇIKTI",
+          "hint": "Bir olasılık deneyinde elde edilebilecek olası sonuçların tamamı."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Olasılıkta bir durumun sonucunu görmek için yapılan işlem."
+        },
+        {
+          "word": "CEBİRSEL",
+          "hint": "En az bir değişken ve işlem içeren matematiksel ifade."
+        },
+        {
+          "word": "DEĞİŞKEN",
+          "hint": "Cebirsel ifadelerde farklı değerler alabilen sembol, harf."
+        },
+        {
+          "word": "TERİM",
+          "hint": "Cebirsel ifadelerde artı veya eksi işaretleriyle ayrılan bölümler."
+        },
+        {
+          "word": "KATSAYI",
+          "hint": "Cebirsel ifadelerde değişkenlerin önündeki çarpım durumundaki sayı."
+        },
+        {
+          "word": "SABİTTERİM",
+          "hint": "Cebirsel ifadelerde değişkeni olmayan, değeri değişmeyen terim."
+        },
+        {
+          "word": "DENKLEM",
+          "hint": "İçinde bilinmeyen bulunan ve eşitlik içeren matematiksel ifade."
+        },
+        {
+          "word": "ÖZDEŞLİK",
+          "hint": "Değişkenlerin her değeri için doğru olan eşitlik."
+        },
+        {
+          "word": "KORDİNAT",
+          "hint": "Analitik düzlemde bir noktanın yerini belirten sayı ikilisi."
+        },
+        {
+          "word": "DOĞRUSAL",
+          "hint": "Grafiği analitik düzlemde düz bir çizgi belirten ilişki."
+        },
+        {
+          "word": "EĞİM",
+          "hint": "Bir doğrunun dikey uzunluğunun yatay uzunluğuna oranı."
+        },
+        {
+          "word": "EŞİTSİZLİK",
+          "hint": "Büyüktür, küçüktür gibi semboller içeren matematiksel ifade."
+        },
+        {
+          "word": "ÜÇGEN",
+          "hint": "Doğrusal olmayan üç noktayı birleştiren doğru parçalarının kümesi."
+        },
+        {
+          "word": "KENARORTAY",
+          "hint": "Üçgende bir köşeyi karşı kenarın orta noktasına birleştiren doğru parçası."
+        },
+        {
+          "word": "AÇIORTAY",
+          "hint": "Bir açıyı iki eş parçaya bölen ışın veya doğru parçası."
+        },
+        {
+          "word": "YÜKSEKLİK",
+          "hint": "Bir köşeden karşı kenara indirilen dikme."
+        },
+        {
+          "word": "PİSAGOR",
+          "hint": "Dik üçgende dik kenarların kareleri toplamının hipotenüse eşitliği kuramı."
+        },
+        {
+          "word": "HİPOTENÜS",
+          "hint": "Dik üçgende doksan derecelik açının karşısındaki en uzun kenar."
+        },
+        {
+          "word": "BENZERLİK",
+          "hint": "İki şeklin kenar uzunluklarının orantılı ve açılarının eş olması."
+        },
+        {
+          "word": "EŞLİK",
+          "hint": "İki geometrik şeklin hem biçim hem de ölçü olarak aynı olması."
+        },
+        {
+          "word": "YANSIMA",
+          "hint": "Bir şeklin bir doğruya göre simetriğinin oluşması hareketi."
+        },
+        {
+          "word": "ÖTELEME",
+          "hint": "Bir şeklin yönünü ve doğrultusunu değiştirmeden kaydırılması."
+        },
+        {
+          "word": "SİLİNDİR",
+          "hint": "Alt ve üst tabanı daire olan üç boyutlu geometrik cisim."
+        },
+        {
+          "word": "KONİ",
+          "hint": "Tabanı daire, tepesi nokta olan üç boyutlu geometrik cisim."
+        },
+        {
+          "word": "PİRAMİT",
+          "hint": "Tabanı çokgen, yan yüzleri üçgen olan ve tepede birleşen cisim."
+        },
+        {
+          "word": "PRİZMA",
+          "hint": "Alt ve üst tabanı birbirine eş çokgenlerden oluşan geometrik cisim."
+        },
+        {
+          "word": "HACİM",
+          "hint": "Bir geometrik cismin uzayda kapladığı yerin ölçüsü."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir yüzeyin kapladığı düzlemsel bölgenin ölçüsü."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Bir geometrik şekli sınırlayan kenar uzunluklarının toplamı."
+        },
+        {
+          "word": "KÖŞEGEN",
+          "hint": "Ardışık olmayan iki köşeyi birleştiren doğru parçası."
+        },
+        {
+          "word": "ÇAP",
+          "hint": "Dairenin merkezinden geçen ve çemberi iki eş parçaya bölen doğru parçası."
+        },
+        {
+          "word": "YARIÇAP",
+          "hint": "Çemberin merkezi ile üzerindeki bir noktayı birleştiren doğru parçası."
+        },
+        {
+          "word": "MERKEZ",
+          "hint": "Çember veya dairenin tüm sınır noktalarına eşit uzaklıktaki nokta."
+        },
+        {
+          "word": "ORAN",
+          "hint": "İki çokluğun birbirine bölünerek karşılaştırılması."
+        },
+        {
+          "word": "ORANTI",
+          "hint": "İki veya daha fazla oranın eşitliği."
+        }
       ]
     },
     {
       "id": "lgs_u3",
       "name": "LGS Fen Bilimleri",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "DNA", "hint": "Hücrenin yönetici molekülü."},
-        {"word": "MUTASYON", "hint": "Genlerde meydana gelen kalıcı değişiklikler."}
+        {
+          "word": "DNA",
+          "hint": "Hücrenin yönetici molekülü olan deoksiribonükleik asit."
+        },
+        {
+          "word": "GEN",
+          "hint": "DNA üzerindeki kalıtsal bilgileri taşıyan en küçük anlamlı görev birimi."
+        },
+        {
+          "word": "KROMOZOM",
+          "hint": "Hücre bölünmesinde DNA'nın protein kılıfla sarılarak oluşturduğu yapı."
+        },
+        {
+          "word": "NÜKLEOTİD",
+          "hint": "DNA'nın en küçük yapı birimi."
+        },
+        {
+          "word": "MUTASYON",
+          "hint": "DNA diziliminde veya yapısında meydana gelen kalıcı değişim."
+        },
+        {
+          "word": "MODİFİKASYON",
+          "hint": "Çevre etkisiyle genlerin işleyişinde meydana gelen kalıcı olmayan değişim."
+        },
+        {
+          "word": "ADAPTASYON",
+          "hint": "Canlının çevreye uyum sağlayarak yaşama ve üreme şansını artıran özellikler."
+        },
+        {
+          "word": "EVRİM",
+          "hint": "Canlı türlerinin zaman içindeki değişim süreci."
+        },
+        {
+          "word": "BİYOTEKNOLOJİ",
+          "hint": "Canlı organizmalar kullanılarak yeni ürünlerin üretilmesi teknolojisi."
+        },
+        {
+          "word": "KLONLAMA",
+          "hint": "Bir canlının genetik olarak tıpatıp kopyasının üretilmesi."
+        },
+        {
+          "word": "KATI",
+          "hint": "Tanecikleri arasındaki boşluk çok az olan, belirli bir şekli olan madde hali."
+        },
+        {
+          "word": "SIVI",
+          "hint": "Tanecikleri birbiri üzerinde kayabilen, akışkan madde hali."
+        },
+        {
+          "word": "GAZ",
+          "hint": "Tanecikleri serbestçe hareket eden ve kabı tamamen dolduran madde hali."
+        },
+        {
+          "word": "BASINÇ",
+          "hint": "Birim yüzeye dik olarak etki eden kuvvet."
+        },
+        {
+          "word": "PASKAL",
+          "hint": "Basınç birimi."
+        },
+        {
+          "word": "ELEMENT",
+          "hint": "Aynı cins atomlardan oluşan saf madde."
+        },
+        {
+          "word": "PERİYOT",
+          "hint": "Periyodik tablodaki yatay sıralara verilen ad."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Periyodik tablodaki dikey sütunlara verilen ad."
+        },
+        {
+          "word": "METAL",
+          "hint": "Isı ve elektriği iyi ileten, parlak ve tel/levha haline gelebilen element sınıfı."
+        },
+        {
+          "word": "AMETAL",
+          "hint": "Mat görünümlü, kırılgan ve elektriği iyi iletmeyen element sınıfı."
+        },
+        {
+          "word": "SOYGAZ",
+          "hint": "Kararlı yapıda olan ve tepkimeye girmeyen elementler grubu."
+        },
+        {
+          "word": "ASİT",
+          "hint": "Suda çözündüğünde H+ iyonu veren, tadı ekşi olan maddeler."
+        },
+        {
+          "word": "BAZ",
+          "hint": "Suda çözündüğünde OH- iyonu veren, tadı acı olan maddeler."
+        },
+        {
+          "word": "METAN",
+          "hint": "Organik bir gaz bileşiği, bataklık gazı."
+        },
+        {
+          "word": "PH",
+          "hint": "Bir çözeltinin asitlik veya bazlık derecesini belirten ölçü birimi."
+        },
+        {
+          "word": "TURNUSOL",
+          "hint": "Asit ve bazları ayırt etmede kullanılan bir belirteç, indikatör."
+        },
+        {
+          "word": "KİMYASAL",
+          "hint": "Maddenin iç yapısında meydana gelen ve yeni madde oluşturan değişim türü."
+        },
+        {
+          "word": "FİZİKSEL",
+          "hint": "Maddenin dış görünüşünde meydana gelen ve kimliğini değiştirmeyen değişim türü."
+        },
+        {
+          "word": "TEPKİME",
+          "hint": "Maddelerin kimyasal değişime uğrayarak yeni maddeler oluşturma süreci."
+        },
+        {
+          "word": "KÜTLE",
+          "hint": "Madde miktarının ölçüsü, değişmeyen miktar."
+        },
+        {
+          "word": "MAKARA",
+          "hint": "Sabit bir eksen etrafında dönebilen ve kuvvetin yönünü değiştiren basit makine."
+        },
+        {
+          "word": "PALANGA",
+          "hint": "Sabit ve hareketli makaraların bir arada kullanıldığı sistem."
+        },
+        {
+          "word": "KIVILCIM",
+          "hint": "Yanma veya elektrik atlamasıyla çevreye saçılan küçük ateş tanesi."
+        },
+        {
+          "word": "KALDIRAÇ",
+          "hint": "Bir destek noktası etrafında dönebilen sert çubuktan oluşan basit makine."
+        },
+        {
+          "word": "EĞİKDÜZLEM",
+          "hint": "Ağır yükleri yukarı taşımak için kullanılan eğimli yüzey."
+        },
+        {
+          "word": "VİDA",
+          "hint": "Bir silindir üzerine sarılmış eğik düzlem şeklindeki basit makine."
+        },
+        {
+          "word": "ÇIKRIK",
+          "hint": "Aynı eksenli ve yarıçapları farklı iki silindirden oluşan basit makine."
+        },
+        {
+          "word": "DİŞLİ",
+          "hint": "Üzerinde dişler bulunan ve hareketi aktaran çark."
+        },
+        {
+          "word": "KASNAK",
+          "hint": "Bir kayış yardımıyla hareketi ileten dişsiz tekerlekler sistemi."
+        },
+        {
+          "word": "FOTOSENTEZ",
+          "hint": "Klorofilli canlıların ışık enerjisiyle besin ve oksijen üretmesi süreci."
+        },
+        {
+          "word": "SOLUNUM",
+          "hint": "Canlıların besin maddelerini parçalayarak enerji elde etmesi süreci."
+        },
+        {
+          "word": "KÜKÜRT",
+          "hint": "Doğada yaygın bulunan sarı renkli, ametal bir element."
+        },
+        {
+          "word": "EKOSİSTEM",
+          "hint": "Belirli bir alandaki canlı ve cansız varlıkların oluşturduğu bütün."
+        },
+        {
+          "word": "BESİNZİNCİRİ",
+          "hint": "Enerjinin üreticiden tüketicilere doğru aktarıldığı canlılar sırası."
+        },
+        {
+          "word": "EKOLOJİ",
+          "hint": "Canlılerin birbirleriyle ve çevreleriyle olan ilişkilerini inceleyen bilim dalı."
+        },
+        {
+          "word": "ISINMA",
+          "hint": "Maddenin ısı alarak sıcaklığının artması durumu."
+        },
+        {
+          "word": "BUHARLAŞMA",
+          "hint": "Sıvı haldeki bir maddenin ısı alarak gaz haline geçmesi."
+        },
+        {
+          "word": "YOĞUŞMA",
+          "hint": "Gaz haldeki bir maddenin ısı vererek sıvı hale geçmesi."
+        },
+        {
+          "word": "ERİME",
+          "hint": "Katı haldeki bir maddenin ısı alarak sıvı hale geçmesi."
+        },
+        {
+          "word": "DONMA",
+          "hint": "Sıvı haldeki bir maddenin ısı vererek katı hale geçmesi."
+        }
       ]
     },
     {
       "id": "lgs_u4",
       "name": "LGS İnkılap Tarihi",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "KONGRE", "hint": "Kurtuluş Savaşı'nda kararların alındığı toplantılar."},
-        {"word": "MİSAKIMİLLİ", "hint": "Milli sınırları belirleyen tarihi beyanname."}
+        {
+          "word": "MİSAKIMİLLİ",
+          "hint": "Kurtuluş Savaşı'nın hedeflerini ve milli sınırları belirleyen tarihi belge."
+        },
+        {
+          "word": "KONGRE",
+          "hint": "Kurtuluş Savaşı'nda halkın temsilcilerinin toplandığı ulusal kurullar."
+        },
+        {
+          "word": "GENELGE",
+          "hint": "Resmi makamların alt birimlere gönderdiği buyruk veya duyuru."
+        },
+        {
+          "word": "MUTABAKAT",
+          "hint": "Taraflar arasındaki anlaşma, uzlaşma durumu."
+        },
+        {
+          "word": "EGEMENLİK",
+          "hint": "Devletin yönetiminde en üstün güce sahip olma durumu."
+        },
+        {
+          "word": "BAĞIMSIZLIK",
+          "hint": "Bir milletin kendi kararlarını kendisinin vermesi, başka güce bağlı olmaması."
+        },
+        {
+          "word": "MİLLİYETÇİLİK",
+          "hint": "Kendi milletini sevme, milletin bağımsızlığını ve yücelmesini amaçlama ilkesi."
+        },
+        {
+          "word": "HALKÇILIK",
+          "hint": "Kanun önünde eşitliği savunan ve halk yararına politika güden Atatürk ilkesi."
+        },
+        {
+          "word": "DEVLETÇİLİK",
+          "hint": "Ekonomik kalkınmanın devlet eliyle yürütülmesini öngören Atatürk ilkesi."
+        },
+        {
+          "word": "LAİKLİK",
+          "hint": "Din ve devlet işlerinin birbirinden ayrılmasını savunan Atatürk ilkesi."
+        },
+        {
+          "word": "İNKILAPÇILIK",
+          "hint": "Toplumu çağdaş uygarlık düzeyine ulaştırmak için yapılan yenilikçilik ilkesi."
+        },
+        {
+          "word": "CUMHURİYETÇİLİK",
+          "hint": "Devlet yönetiminde millet iradesini ve seçimi esas alan Atatürk ilkesi."
+        },
+        {
+          "word": "CEPHE",
+          "hint": "Savaşta orduların karşı karşıya gelerek çarpıştığı bölge veya hat."
+        },
+        {
+          "word": "KUVAYİMİLLİYE",
+          "hint": "İşgallere karşı kurulan düzensiz halk direniş kuvvetleri."
+        },
+        {
+          "word": "MÜTAREKE",
+          "hint": "Savaşan tarafların silahları geçici olarak susturması, ateşkes."
+        },
+        {
+          "word": "SEVR",
+          "hint": "Osmanlı Devleti'nin imzaladığı ama geçersiz sayılan ağır barış antlaşması."
+        },
+        {
+          "word": "LOZAN",
+          "hint": "Türkiye Cumhuriyeti'nin bağımsızlığını dünyaya kabul ettiren barış antlaşması."
+        },
+        {
+          "word": "SALTANAT",
+          "hint": "Hükümdarın mutlak egemenliğine dayanan verasetli yönetim sistemi."
+        },
+        {
+          "word": "HİLAFET",
+          "hint": "İslam dünyasında dini ve siyasi liderlik makamı, halifelik."
+        },
+        {
+          "word": "KABOTAJ",
+          "hint": "Bir devletin kendi limanlarında deniz ticareti yapma hakkı."
+        },
+        {
+          "word": "MİLİTARİZM",
+          "hint": "Ülkede askeri gücün ve ordunun egemen olmasını savunan görüş."
+        },
+        {
+          "word": "SÖMÜRGECİLİK",
+          "hint": "Güçlü devletlerin zayıf ülkelerin kaynaklarına el koyması, kolonicilik."
+        },
+        {
+          "word": "İTTİFAK",
+          "hint": "Devletler veya gruplar arasında kurulan iş birliği ve anlaşma birliği."
+        },
+        {
+          "word": "İTİLAF",
+          "hint": "Birinci Dünya Savaşı'nda İngiltere, Fransa ve Rusya'nın oluşturduğu blok."
+        },
+        {
+          "word": "MUSTAFA",
+          "hint": "Atatürk'ün doğduğunda verilen ilk adı."
+        },
+        {
+          "word": "KEMAL",
+          "hint": "Atatürk'e askeri rüştiyedeki matematik öğretmeni tarafından verilen adı."
+        },
+        {
+          "word": "ATATÜRK",
+          "hint": "Türkiye Büyük Millet Meclisi tarafından Gazi Mustafa Kemal'e verilen soyadı."
+        },
+        {
+          "word": "SELANİK",
+          "hint": "Atatürk'ün doğduğu ve çocukluğunu geçirdiği tarihi şehir."
+        },
+        {
+          "word": "MANASTIR",
+          "hint": "Atatürk'ün askeri idadide okuduğu ve fikir hayatının şekillendiği şehir."
+        },
+        {
+          "word": "İSTANBUL",
+          "hint": "Osmanlı Devleti'nin son başkenti olan tarihi şehir."
+        },
+        {
+          "word": "ANKARA",
+          "hint": "Milli Mücadele'nin merkezi ve Türkiye Cumhuriyeti'nin başkenti."
+        },
+        {
+          "word": "SİVAS",
+          "hint": "4 Eylül 1919'da ulusal kararların alındığı kongrenin yapıldığı şehir."
+        },
+        {
+          "word": "ERZURUM",
+          "hint": "Doğu vilayetlerinin haklarını savunmak amacıyla kongre toplanan şehir."
+        },
+        {
+          "word": "AMASYA",
+          "hint": "Kurtuluş Savaşı'nın amaç, yöntem ve gerekçesinin açıklandığı genelgenin yeri."
+        },
+        {
+          "word": "HAVZA",
+          "hint": "Mustafa Kemal'in Samsun'a çıktıktan sonra ilk halk mitingini düzenlediği ilçe."
+        },
+        {
+          "word": "SAMSUN",
+          "hint": "Mustafa Kemal'in 19 Mayıs 1919'da ayak basarak Kurtuluş Savaşı'nı başlattığı şehir."
+        },
+        {
+          "word": "TEŞKİLATIESASİ",
+          "hint": "1921 yılında kabul edilen ilk Türk anayasası."
+        },
+        {
+          "word": "SAKARYA",
+          "hint": "Türk ordusunun taarruz gücünü kazandığı, Hatt-ı müdafaa yoktur meydan savaşı."
+        },
+        {
+          "word": "DUMLUPINAR",
+          "hint": "Başkomutanlık Meydan Muharebesi'nin yapıldığı ve zaferle sonuçlanan tepe/bölge."
+        },
+        {
+          "word": "TRABLUSGARP",
+          "hint": "Mustafa Kemal'in İtalyanlara karşı Derne ve Tobruk'ta savaştığı Kuzey Afrika toprağı."
+        },
+        {
+          "word": "ÇANAKKALE",
+          "hint": "Mustafa Kemal'in Anafartalar Kahramanı unvanını aldığı büyük savunma cephesi."
+        },
+        {
+          "word": "MAARİF",
+          "hint": "Eğitim ve öğretim işlerini yürüten devlet kurumu veya eğitim sistemi."
+        },
+        {
+          "word": "TEVHİDİTEDRİSAT",
+          "hint": "Eğitim ve öğretimi birleştiren, tüm okulları bakanlığa bağlayan kanun."
+        },
+        {
+          "word": "ŞERİYE",
+          "hint": "Dini işleri düzenleyen Osmanlı bakanlığı veya hukuk sistemi."
+        },
+        {
+          "word": "EVKAF",
+          "hint": "Vakıf işlerini yürüten ve Cumhuriyet döneminde bakanlıktan ayrılan kurum."
+        },
+        {
+          "word": "MECELLE",
+          "hint": "Osmanlı Devleti'nin İslam hukukuna dayalı medeni kanunu."
+        },
+        {
+          "word": "SOYADI",
+          "hint": "1934 yılında çıkarılan kanunla her Türk vatandaşının alması zorunlu kılınan aile adı."
+        },
+        {
+          "word": "MİLLİ",
+          "hint": "Ulusa özgü olan, ulusal nitelik taşıyan değerler bütünü."
+        },
+        {
+          "word": "İRADEYİMİLLİYE",
+          "hint": "Sivas Kongresi'nden sonra çıkarılan, Milli Mücadele'nin ilk gazetesi."
+        },
+        {
+          "word": "HAKİMİYETİMİLLİ",
+          "hint": "Ankara'da çıkarılan ve TBMM'nin yarı resmi yayın organı olan gazete."
+        }
       ]
     },
     {
       "id": "lgs_u5",
       "name": "LGS Din Kültürü",
-      "months": [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
       "words": [
-        {"word": "KADER", "hint": "Allah'ın her şeyi bir ölçüye göre takdir etmesi."},
-        {"word": "ZEKAT", "hint": "Yılda bir kez verilmesi gereken mali ibadet."}
+        {
+          "word": "KADER",
+          "hint": "Allah'ın her şeyi bir ölçüye, düzene ve plana göre takdir etmesi."
+        },
+        {
+          "word": "KAZA",
+          "hint": "Kaderde olan şeylerin zamanı gelince gerçekleşmesi."
+        },
+        {
+          "word": "ECEL",
+          "hint": "Canlılar için belirlenmiş olan yaşam süresi, hayatın sonu."
+        },
+        {
+          "word": "ÖMÜR",
+          "hint": "Canlının doğumundan ölümüne kadar geçen yaşam süresi."
+        },
+        {
+          "word": "RIZIK",
+          "hint": "Allah'ın canlılara yiyip içmek ve faydalanmak üzere verdiği her şey."
+        },
+        {
+          "word": "TEVEKKÜL",
+          "hint": "Bir işi yaparken elinden gelen gayreti gösterip gerisini Allah'a bırakmak."
+        },
+        {
+          "word": "SADAKA",
+          "hint": "Müslümanın Allah rızası için yaptığı her türlü maddi ve manevi iyilik."
+        },
+        {
+          "word": "ZEKAT",
+          "hint": "Zengin Müslümanların yılda bir kez mallarının belli kısmını fakire vermesi."
+        },
+        {
+          "word": "FİTRE",
+          "hint": "Ramazan ayında bayramdan önce fakirlere verilen vacip sadaka."
+        },
+        {
+          "word": "NİSAP",
+          "hint": "Zekat verebilmek için gereken asgari zenginlik miktarı veya ölçüsü."
+        },
+        {
+          "word": "HAC",
+          "hint": "İslam'ın beş şartından biri olan Kabe'yi ziyaret etme ibadeti."
+        },
+        {
+          "word": "İBADET",
+          "hint": "Allah'ın rızasını kazanmak amacıyla yapılan her türlü güzel ve salih amel."
+        },
+        {
+          "word": "KABE",
+          "hint": "Mekke'de bulunan ve Müslümanların namazda yöneldiği kutsal yapı, kıble."
+        },
+        {
+          "word": "PEYGAMBER",
+          "hint": "Allah'ın emir ve yasaklarını insanlara iletmekle görevlendirdiği elçi."
+        },
+        {
+          "word": "VAHİY",
+          "hint": "Allah'ın emir ve mesajlarını peygamberlerine bildirmesi yöntemi."
+        },
+        {
+          "word": "İHLAS",
+          "hint": "İbadet ve davranışlarda samimi olmak, yalnızca Allah rızasını gözetmek."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "Dinin dayandığı temel esaslar veya bilgi alınan temel kaynaklar."
+        },
+        {
+          "word": "SÜNNET",
+          "hint": "Peygamber Efendimizin sözleri, davranışları ve onayladığı işler bütünü."
+        },
+        {
+          "word": "HADİS",
+          "hint": "Peygamber Efendimizin söylediği sözlerin yazılı veya sözlü aktarımı."
+        },
+        {
+          "word": "FARZ",
+          "hint": "Dinimizce yapılması kesin ve zorunlu olan ibadetler veya emirler."
+        },
+        {
+          "word": "VACİP",
+          "hint": "Yapılması farz kadar kesin olmamakla birlikte yapılması gerekli olan işler."
+        },
+        {
+          "word": "MÜSTEHAP",
+          "hint": "Yapılması dinen güzel görülen ve sevap kazandıran davranışlar."
+        },
+        {
+          "word": "MEKRUH",
+          "hint": "Dinen yapılması hoş karşılanmayan, çirkin ve yasak olmayan ama istenmeyen işler."
+        },
+        {
+          "word": "HARAM",
+          "hint": "Allah'ın yapılmasını kesin olarak yasakladığı davranış veya maddeler."
+        },
+        {
+          "word": "HELAL",
+          "hint": "Dinen yapılması veya yenilmesi yasaklanmamış, serbest bırakılmış şeyler."
+        },
+        {
+          "word": "AHİRET",
+          "hint": "Dünya hayatından sonra başlayacak olan kalıcı ve sonsuz yaşam."
+        },
+        {
+          "word": "MAHŞER",
+          "hint": "Kıyamet gününde insanların hesap vermek üzere toplanacağı büyük alan."
+        },
+        {
+          "word": "MİZAN",
+          "hint": "Ahirette insanların amellerinin, sevap ve günahlarının tartılacağı terazi."
+        },
+        {
+          "word": "CENNET",
+          "hint": "İyilik yapan ve iman edenlerin ahirette gideceği ebedi mutluluk yurdu."
+        },
+        {
+          "word": "CEHENNEM",
+          "hint": "Kötülük yapan ve inanmayanların ahirette cezalandırılacağı azap yurdu."
+        },
+        {
+          "word": "KIRAAT",
+          "hint": "Namazda Kur'an-ı Kerim'den ayet veya sure okuma rüknü."
+        },
+        {
+          "word": "RÜKU",
+          "hint": "Namazda elleri dizlere koyarak eğilme rüknü."
+        },
+        {
+          "word": "SECDE",
+          "hint": "Namazda alın, burun, el ve dizleri yere koyarak yapılan teslimiyet hareketi."
+        },
+        {
+          "word": "ABDEST",
+          "hint": "Namaz kılmak için belli organları usulüne uygun olarak yıkama temizliği."
+        },
+        {
+          "word": "TEYEMMÜM",
+          "hint": "Su bulunmadığında temiz toprak veya toprak cinsi bir şeyle alınan abdest."
+        },
+        {
+          "word": "GUSÜL",
+          "hint": "Ağız, burun dahil tüm vücudu yıkayarak yapılan boy abdesti temizliği."
+        },
+        {
+          "word": "SALAT",
+          "hint": "İslam'ın ve ibadetin temel direklerinden olan namaz."
+        },
+        {
+          "word": "MÜNAFIK",
+          "hint": "Kalben inanmadığı halde diliyle inandığını söyleyen iki yüzlü kimse."
+        },
+        {
+          "word": "MÜŞRİK",
+          "hint": "Allah'a ortak koşan, başka varlıkları da ilah kabul eden kimse."
+        },
+        {
+          "word": "MÜMİN",
+          "hint": "Allah'a, peygamberine ve dinin tüm esaslarına kalpten inanmış kişi."
+        },
+        {
+          "word": "KAFİR",
+          "hint": "İslam dininin inanç esaslarını kabul etmeyen, inkar eden kimse."
+        },
+        {
+          "word": "TAKVA",
+          "hint": "Allah'ın emirlerine uyup günahlardan kaçınarak O'na karşı gelmekten sakınmak."
+        },
+        {
+          "word": "ŞEYTAN",
+          "hint": "İnsanları kötülüğe teşvik eden, isyankar ve kibirli manevi varlık."
+        },
+        {
+          "word": "MELEK",
+          "hint": "Nurdan yaratılmış, günah işlemeyen ve sadece Allah'a ibadet eden görünmez varlık."
+        },
+        {
+          "word": "CEBRAİL",
+          "hint": "Peygamberlere vahiy getirmekle görevli olan dört büyük melekten biri."
+        },
+        {
+          "word": "MİKAİL",
+          "hint": "Doğa olaylarını ve rızıkları düzenlemekle görevli olan büyük melek."
+        },
+        {
+          "word": "İSRAFİL",
+          "hint": "Kıyamet günü sur borusuna üflemekle görevli olan büyük melek."
+        },
+        {
+          "word": "AZRAİL",
+          "hint": "Canlıların ecelleri geldiğinde ruhlarını almakla görevli ölüm meleği."
+        },
+        {
+          "word": "SURE",
+          "hint": "Kur'an-ı Kerim'in ayetlerden oluşan, sınırları belli olan bölümleri."
+        },
+        {
+          "word": "AYET",
+          "hint": "Kur'an-ı Kerim surelerini oluşturan, harf, kelime veya cümlelerden oluşan sözler."
+        }
       ]
     }
   ]
