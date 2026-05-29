@@ -27,11 +27,16 @@
     </svg>
     <span class="logo-text">Adam Asmaca Eğitim</span>
   </div>
-  <button class="theme-toggle" data-theme-toggle aria-label="Temayı değiştir">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-    </svg>
-  </button>
+  <div class="header-right">
+    <button class="nav-icon-btn" id="nav-mistakes-btn" title="Hata Defteri">📘</button>
+    <button class="nav-icon-btn" id="nav-badges-btn" title="Rozetlerim">🏅</button>
+    <button class="nav-icon-btn" id="nav-stats-btn" title="İstatistikler">📊</button>
+    <button class="theme-toggle" data-theme-toggle aria-label="Temayı değiştir">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+    </button>
+  </div>
 </div>
 
 <!-- GRADE SCREEN -->
@@ -59,20 +64,47 @@
 <div class="screen" id="game-screen">
   <div class="screen-header">
     <button class="back-btn" id="back-to-subjects">Sınıf / Ders Seç</button>
-    <select id="keyboard-select" class="back-btn keyboard-select">
-      <option value="qwerty">Standart (Q)</option>
-      <option value="f">Standart (F)</option>
-      <option value="mobile_q">Mobil (Q)</option>
-      <option value="smart">Akıllı Mobil</option>
-      <option value="abc">Alfabetik</option>
-    </select>
+    
+    <div class="header-controls">
+      <select id="difficulty-select" class="back-btn config-select">
+        <option value="easy">Kolay (8 Can)</option>
+        <option value="medium" selected>Orta (6 Can)</option>
+        <option value="hard">Zor (4 Can)</option>
+      </select>
+
+      <button class="back-btn" id="time-mode-btn">⏱️ Süreli: Kapalı</button>
+
+      <select id="keyboard-select" class="back-btn keyboard-select">
+        <option value="qwerty">Standart (Q)</option>
+        <option value="f">Standart (F)</option>
+        <option value="mobile_q">Mobil (Q)</option>
+        <option value="smart">Akıllı Mobil</option>
+        <option value="abc">Alfabetik</option>
+      </select>
+    </div>
   </div>
+  
   <div class="game-card" id="game-card">
     <div class="game-header">
       <div class="category-badge" id="category-badge">Yükleniyor...</div>
+      
       <div class="stats-row">
-        <div class="score-badge">Puan: <span id="score-val">0</span></div>
-        <div class="lives-bar" id="lives-bar"></div>
+        <div class="left-stats">
+          <div class="score-badge">Puan: <span id="score-val">0</span></div>
+          <div class="streak-badge" id="streak-badge" style="display: none;">🔥 <span id="streak-val">0</span>x</div>
+        </div>
+        
+        <div class="right-stats">
+          <div class="timer-badge" id="timer-badge" style="display: none;">⏱️ <span id="timer-val">60</span>s</div>
+          <div class="lives-bar" id="lives-bar"></div>
+        </div>
+      </div>
+      
+      <div class="progress-container">
+        <div class="progress-bar" id="progress-bar">
+          <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        </div>
+        <span class="progress-text" id="progress-text">Kelime: 0/0</span>
       </div>
     </div>
 
@@ -101,11 +133,67 @@
       <div class="wrong-letters" id="wrong-letters"></div>
     </div>
 
+    <div class="jokers-area">
+      <button class="joker-btn" id="joker-reveal-btn">💡 Harf Göster (-5 Puan)</button>
+      <button class="joker-btn" id="joker-eliminate-btn">❌ Harf Ele (-3 Puan)</button>
+      <span class="joker-status" id="joker-status">Joker: 3/3</span>
+    </div>
+
     <div class="keyboard-area" id="keyboard-area">
       <div class="keyboard-row" id="row-1"></div>
       <div class="keyboard-row" id="row-2"></div>
       <div class="keyboard-row" id="row-3"></div>
       <div class="keyboard-row" id="row-4"></div>
+    </div>
+  </div>
+</div>
+
+<!-- STATS OVERLAY -->
+<div class="overlay" id="stats-overlay" style="display:none;">
+  <div class="overlay-card">
+    <span class="overlay-icon">📊</span>
+    <h2 class="overlay-title">İstatistiklerim</h2>
+    <div class="stats-container">
+      <div class="stats-grid">
+        <div class="stat-item"><span class="stat-val" id="stats-total">0</span><span class="stat-lbl">Çözülen</span></div>
+        <div class="stat-item"><span class="stat-val" id="stats-won">0</span><span class="stat-lbl">Doğru</span></div>
+        <div class="stat-item"><span class="stat-val" id="stats-winrate">0%</span><span class="stat-lbl">Başarı Oranı</span></div>
+        <div class="stat-item"><span class="stat-val" id="stats-streak">0</span><span class="stat-lbl">En Uzun Seri</span></div>
+      </div>
+      <div class="stats-chart-title">Ders Başarı Oranları</div>
+      <div class="stats-chart" id="stats-chart">
+        <!-- Dyn. bars will go here -->
+      </div>
+    </div>
+    <button class="btn-primary" id="close-stats-btn">Kapat</button>
+  </div>
+</div>
+
+<!-- BADGES OVERLAY -->
+<div class="overlay" id="badges-overlay" style="display:none;">
+  <div class="overlay-card" style="max-width: 460px;">
+    <span class="overlay-icon">🏅</span>
+    <h2 class="overlay-title">Kazandığım Rozetler</h2>
+    <p class="overlay-sub">Öğrenme yolculuğunda kazandığın ödüller</p>
+    <div class="badges-grid" id="badges-grid">
+      <!-- Dyn. badges will go here -->
+    </div>
+    <button class="btn-primary" id="close-badges-btn" style="margin-top: 16px;">Kapat</button>
+  </div>
+</div>
+
+<!-- MISTAKES OVERLAY -->
+<div class="overlay" id="mistakes-overlay" style="display:none;">
+  <div class="overlay-card" style="max-width: 440px;">
+    <span class="overlay-icon">📘</span>
+    <h2 class="overlay-title">Hata Defteri</h2>
+    <p class="overlay-sub" id="mistakes-count-sub">Yanlış yaptığın kelimeleri buradan tekrar edebilirsin.</p>
+    <div class="mistakes-list" id="mistakes-list">
+      <!-- Dyn. word lists -->
+    </div>
+    <div style="display:flex; gap:12px; justify-content:center; width:100%; margin-top:20px;">
+      <button class="btn-primary" id="start-mistakes-btn" style="display:none; margin-top:0;">Tekrar Modunu Başlat</button>
+      <button class="btn-secondary" id="close-mistakes-btn" style="margin-top:0;">Kapat</button>
     </div>
   </div>
 </div>

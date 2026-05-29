@@ -10,6 +10,7 @@ const PREFETCHED_DATA = {}; // Arka plan önbelleği
 
 let WORD_BANK = [];
 let availableWords = [];
+let isReviewMode = false; // Hata Defteri tekrar modu aktif mi?
 
 let savedScore = 0;
 try {
@@ -22,11 +23,215 @@ try {
   }
 } catch(e) {}
 
-let gameState = { word:"", hint:"", category:"", guessed:new Set(), wrong:[], score:savedScore, over:false, won:false };
+// Oyun özellikleri durumları
+let currentDifficulty = localStorage.getItem("adamAsmacaDiff") || "medium";
+let timeModeActive = localStorage.getItem("adamAsmacaTimeMode") === "true";
+let timeLeft = 60;
+let timerInterval = null;
+let jokersLeft = 3;
+let streakCount = 0;
+
+let gameState = { 
+  word: "", 
+  hint: "", 
+  category: "", 
+  guessed: new Set(), 
+  wrong: [], 
+  score: savedScore, 
+  startingScore: savedScore,
+  over: false, 
+  won: false 
+};
 
 function saveScore() {
   sessionStorage.setItem("hangman_score", JSON.stringify({ score: gameState.score, date: new Date().toLocaleDateString() }));
 }
+
+// ── RETRO SOUNDS (Web Audio API) ───────────────────────────────────────────
+const SOUNDS = {
+  ctx: null,
+  muted: localStorage.getItem("adamAsmacaMuted") === "true",
+  
+  init() {
+    if (this.ctx) return;
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (AudioContextClass) {
+      this.ctx = new AudioContextClass();
+    }
+  },
+  
+  playBeep(freq, duration, type = "sine") {
+    if (this.muted) return;
+    this.init();
+    if (!this.ctx) return;
+    try {
+      if (this.ctx.state === "suspended") this.ctx.resume();
+      const osc = this.ctx.createOscillator();
+      const gain = this.ctx.createGain();
+      osc.connect(gain);
+      gain.connect(this.ctx.destination);
+      osc.type = type;
+      osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+      gain.gain.setValueAtTime(0.08, this.ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + duration);
+      osc.start();
+      osc.stop(this.ctx.currentTime + duration);
+    } catch(e) {}
+  },
+  
+  correct() {
+    this.playBeep(587.33, 0.15); // D5
+    setTimeout(() => this.playBeep(880, 0.15), 100); // A5
+  },
+  
+  wrong() {
+    this.playBeep(220, 0.25, "sawtooth"); // A3
+    setTimeout(() => this.playBeep(180, 0.25, "sawtooth"), 120);
+  },
+  
+  tick() {
+    this.playBeep(900, 0.05, "triangle");
+  },
+  
+  win() {
+    const notes = [261.63, 329.63, 392.00, 523.25]; // C4, E4, G4, C5
+    notes.forEach((n, idx) => {
+      setTimeout(() => this.playBeep(n, 0.25), idx * 100);
+    });
+  },
+  
+  lose() {
+    const notes = [220, 196, 174.61, 146.83];
+    notes.forEach((n, idx) => {
+      setTimeout(() => this.playBeep(n, 0.35, "triangle"), idx * 130);
+    });
+  }
+};
+
+// ── LOCAL STORAGE HELPERS (Stats & Badges & Mistakes) ────────────────────────
+const STATS = {
+  get() {
+    const defaultStats = { totalGames: 0, gamesWon: 0, longestStreak: 0, subjectScores: {} };
+    try {
+      return JSON.parse(localStorage.getItem("hangman_stats")) || defaultStats;
+    } catch(e) {
+      return defaultStats;
+    }
+  },
+  save(stats) {
+    localStorage.setItem("hangman_stats", JSON.stringify(stats));
+  },
+  recordGame(won, streak, subjectId, subjectName) {
+    const s = this.get();
+    s.totalGames++;
+    if (won) s.gamesWon++;
+    if (streak > s.longestStreak) s.longestStreak = streak;
+    
+    // Ders bazlı skorlar
+    if (!s.subjectScores[subjectId]) {
+      s.subjectScores[subjectId] = { name: subjectName, played: 0, won: 0 };
+    }
+    s.subjectScores[subjectId].played++;
+    if (won) s.subjectScores[subjectId].won++;
+    
+    this.save(s);
+    BADGES.checkAndUnlock(won, streak);
+  }
+};
+
+const BADGES = {
+  list: [
+    { id: "first_win", name: "İlk Başarı 🏅", desc: "İlk kelimeni doğru tahmin ettin." },
+    { id: "streak_3", name: "Seri Başlangıcı 🔥", desc: "Üst üste 3 kelime bildin." },
+    { id: "streak_5", name: "Seri Ustası ⚡", desc: "Üst üste 5 kelime bildin." },
+    { id: "perfect_win", name: "Kusursuz Zafer ⭐", desc: "Hiç hata yapmadan kelimeyi bildin." },
+    { id: "hard_win", name: "Zorlu Mücadele 💪", desc: "Zor seviyede bir kelime bildin." },
+    { id: "time_survivor", name: "Zaman Bükücü ⏳", desc: "Süreli modda son 10 saniyede bildin." },
+    { id: "mistake_clear", name: "Hata Defteri Temizliği 📘", desc: "Hata Defterinden bir kelimeyi bildin." }
+  ],
+  getUnlocked() {
+    try {
+      return JSON.parse(localStorage.getItem("hangman_badges")) || [];
+    } catch(e) {
+      return [];
+    }
+  },
+  unlock(badgeId) {
+    const unlocked = this.getUnlocked();
+    if (!unlocked.includes(badgeId)) {
+      unlocked.push(badgeId);
+      localStorage.setItem("hangman_badges", JSON.stringify(unlocked));
+      
+      const badge = this.list.find(b => b.id === badgeId);
+      if (badge) {
+        setTimeout(() => this.showToast(badge), 1000);
+      }
+    }
+  },
+  checkAndUnlock(won, streak) {
+    if (!won) return;
+    this.unlock("first_win");
+    if (streak >= 3) this.unlock("streak_3");
+    if (streak >= 5) this.unlock("streak_5");
+    if (gameState.wrong.length === 0) this.unlock("perfect_win");
+    if (currentDifficulty === "hard") this.unlock("hard_win");
+    if (timeModeActive && timeLeft <= 10) this.unlock("time_survivor");
+    if (isReviewMode) this.unlock("mistake_clear");
+  },
+  showToast(badge) {
+    SOUNDS.win();
+    const toast = document.createElement("div");
+    toast.style.cssText = `
+      position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(100px);
+      background: var(--color-surface); border: 2px solid var(--color-primary);
+      padding: 16px 24px; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);
+      display: flex; flex-direction: column; align-items: center; gap: 4px; z-index: 999;
+      opacity: 0; transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    `;
+    toast.innerHTML = `
+      <span style="font-size:24px;">🏆 Başarım Açıldı!</span>
+      <strong style="color:var(--color-primary); font-size:16px;">${badge.name}</strong>
+      <span style="font-size:12px; color:var(--color-text-muted);">${badge.desc}</span>
+    `;
+    document.body.appendChild(toast);
+    
+    // animate in
+    setTimeout(() => {
+      toast.style.transform = "translateX(-50%) translateY(0)";
+      toast.style.opacity = "1";
+    }, 100);
+    
+    // animate out
+    setTimeout(() => {
+      toast.style.transform = "translateX(-50%) translateY(100px)";
+      toast.style.opacity = "0";
+      setTimeout(() => toast.remove(), 600);
+    }, 4500);
+  }
+};
+
+const MISTAKES = {
+  get() {
+    try {
+      return JSON.parse(localStorage.getItem("hangman_mistakes")) || [];
+    } catch(e) {
+      return [];
+    }
+  },
+  add(word, hint, gradeName, subjectName, subjectId) {
+    const list = this.get();
+    const isDup = list.some(item => item.word.toLowerCase() === word.toLowerCase());
+    if (!isDup) {
+      list.push({ word, hint, gradeName, subjectName, subjectId });
+      localStorage.setItem("hangman_mistakes", JSON.stringify(list));
+    }
+  },
+  remove(word) {
+    let list = this.get();
+    list = list.filter(item => item.word.toLowerCase() !== word.toLowerCase());
+    localStorage.setItem("hangman_mistakes", JSON.stringify(list));
+  }
+};
 
 // ── LAYOUT CONSTANTS ───────────────────────────────────────────────────────
 const KEYBOARDS = {
@@ -63,16 +268,43 @@ const KEYBOARDS = {
 };
 
 let currentKeyboard = localStorage.getItem("adamAsmacaKb") || "qwerty";
-
 const BODY_PARTS = ["h-head","h-body","h-arm-l","h-arm-r","h-leg-l","h-leg-r"];
-const MAX_WRONG = BODY_PARTS.length;
+let MAX_WRONG = 6;
+
+// Zorluğa göre can hesabı
+function getLivesLimit(difficulty) {
+  if (difficulty === "easy") return 8;
+  if (difficulty === "hard") return 4;
+  return 6; // medium
+}
+
+// Zorluğa göre asılan adam uzuvlarının animasyonlu görünümü
+function getBodyPartsForAttempt(wrongCount, maxWrong) {
+  const partsToReveal = [];
+  if (maxWrong === 6) {
+    for (let i = 0; i < wrongCount; i++) {
+      if (BODY_PARTS[i]) partsToReveal.push(BODY_PARTS[i]);
+    }
+  } else if (maxWrong === 4) {
+    if (wrongCount >= 1) partsToReveal.push("h-head");
+    if (wrongCount >= 2) partsToReveal.push("h-body");
+    if (wrongCount >= 3) { partsToReveal.push("h-arm-l"); partsToReveal.push("h-arm-r"); }
+    if (wrongCount >= 4) { partsToReveal.push("h-leg-l"); partsToReveal.push("h-leg-r"); }
+  } else if (maxWrong === 8) {
+    const standardIndex = wrongCount - 2;
+    for (let i = 0; i < standardIndex; i++) {
+      if (BODY_PARTS[i]) partsToReveal.push(BODY_PARTS[i]);
+    }
+  }
+  return partsToReveal;
+}
 
 // ── INIT & FETCH ────────────────────────────────────────────────────────────
 async function init() {
   buildKeyboard();
+  setupSettingsAndModals();
   await loadCurriculum();
   
-  // Set up back buttons
   document.getElementById('back-to-grades').addEventListener('click', showGradeScreen);
   
   const backToSubBtn = document.getElementById('back-to-subjects');
@@ -80,7 +312,6 @@ async function init() {
      backToSubBtn.addEventListener('click', showGradeScreen);
   }
 
-  // Set up Keyboard select
   const kbSelect = document.getElementById('keyboard-select');
   if (kbSelect) {
     kbSelect.value = currentKeyboard;
@@ -92,20 +323,324 @@ async function init() {
     });
   }
   
-  // Start on grade screen
   if(CURRICULUM_DATA && CURRICULUM_DATA.length > 0) {
     populateGrades();
     await startRandomGame();
-    startBackgroundPrefetch(); // Arka planda diğer dersleri çekmeye başla
+    startBackgroundPrefetch();
   } else {
     document.getElementById('grade-list').innerHTML = '<p>Müfredat yüklenemedi. Lütfen internet bağlantınızı kontrol edin.</p>';
   }
 }
 
+function setupSettingsAndModals() {
+  // Zorluk seçici
+  const diffSelect = document.getElementById("difficulty-select");
+  if (diffSelect) {
+    diffSelect.value = currentDifficulty;
+    diffSelect.addEventListener("change", (e) => {
+      currentDifficulty = e.target.value;
+      localStorage.setItem("adamAsmacaDiff", currentDifficulty);
+      newGame();
+    });
+  }
+
+  // Süreli Mod
+  const timeBtn = document.getElementById("time-mode-btn");
+  if (timeBtn) {
+    timeBtn.textContent = timeModeActive ? "⏱️ Süreli: Açık" : "⏱️ Süreli: Kapalı";
+    timeBtn.addEventListener("click", () => {
+      timeModeActive = !timeModeActive;
+      localStorage.setItem("adamAsmacaTimeMode", timeModeActive ? "true" : "false");
+      timeBtn.textContent = timeModeActive ? "⏱️ Süreli: Açık" : "⏱️ Süreli: Kapalı";
+      newGame();
+    });
+  }
+
+  // Jokerler
+  document.getElementById("joker-reveal-btn").addEventListener("click", useRevealJoker);
+  document.getElementById("joker-eliminate-btn").addEventListener("click", useEliminateJoker);
+
+  // Navigasyon Modalları
+  document.getElementById("nav-stats-btn").addEventListener("click", openStatsModal);
+  document.getElementById("close-stats-btn").addEventListener("click", () => closeOverlay("stats-overlay"));
+
+  document.getElementById("nav-badges-btn").addEventListener("click", openBadgesModal);
+  document.getElementById("close-badges-btn").addEventListener("click", () => closeOverlay("badges-overlay"));
+
+  document.getElementById("nav-mistakes-btn").addEventListener("click", openMistakesModal);
+  document.getElementById("close-mistakes-btn").addEventListener("click", () => closeOverlay("mistakes-overlay"));
+  document.getElementById("start-mistakes-btn").addEventListener("click", startReviewMode);
+
+  // Ses kapatma / açma
+  const themeToggle = document.querySelector(".theme-toggle");
+  if (themeToggle) {
+    const soundBtn = document.createElement("button");
+    soundBtn.className = "theme-toggle";
+    soundBtn.style.marginRight = "8px";
+    soundBtn.title = "Sesi Kapat/Aç";
+    soundBtn.innerHTML = SOUNDS.muted ? "🔇" : "🔊";
+    soundBtn.addEventListener("click", () => {
+      SOUNDS.muted = !SOUNDS.muted;
+      localStorage.setItem("adamAsmacaMuted", SOUNDS.muted ? "true" : "false");
+      soundBtn.innerHTML = SOUNDS.muted ? "🔇" : "🔊";
+    });
+    themeToggle.parentNode.insertBefore(soundBtn, themeToggle);
+  }
+}
+
+// ── TIMERS ─────────────────────────────────────────────────────────────────
+function startTimer() {
+  clearInterval(timerInterval);
+  const timerBadge = document.getElementById("timer-badge");
+  const timerVal = document.getElementById("timer-val");
+  
+  if (!timeModeActive) {
+    timerBadge.style.display = "none";
+    return;
+  }
+  
+  timeLeft = 60;
+  timerBadge.style.display = "flex";
+  timerBadge.classList.remove("danger");
+  timerVal.textContent = timeLeft;
+  
+  timerInterval = setInterval(() => {
+    timeLeft--;
+    timerVal.textContent = timeLeft;
+    
+    if (timeLeft <= 10) {
+      timerBadge.classList.add("danger");
+      SOUNDS.tick();
+    }
+    
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      handleTimeout();
+    }
+  }, 1000);
+}
+
+function handleTimeout() {
+  if (gameState.over) return;
+  
+  // Can azalt
+  gameState.wrong.push("SÜRE");
+  gameState.score = Math.max(0, gameState.score - 2);
+  saveScore();
+  SOUNDS.wrong();
+  
+  // Shake animasyonu ekle
+  const gameCard = document.getElementById("game-card");
+  gameCard.classList.add("shake");
+  setTimeout(() => gameCard.classList.remove("shake"), 350);
+
+  if (gameState.wrong.length >= MAX_WRONG) {
+    gameState.over = true;
+    gameState.won = false;
+    updateUI();
+    setTimeout(() => showEndOverlay(), 700);
+  } else {
+    updateUI();
+    startTimer(); // Sonraki harf/süre döngüsünü başlat
+  }
+}
+
+// ── MODALS INTEGRATION ─────────────────────────────────────────────────────
+function openOverlay(id) {
+  document.getElementById(id).style.display = "flex";
+}
+function closeOverlay(id) {
+  document.getElementById(id).style.display = "none";
+}
+
+function openStatsModal() {
+  const stats = STATS.get();
+  document.getElementById("stats-total").textContent = stats.totalGames;
+  document.getElementById("stats-won").textContent = stats.gamesWon;
+  
+  const winRate = stats.totalGames > 0 ? Math.round((stats.gamesWon / stats.totalGames) * 100) : 0;
+  document.getElementById("stats-winrate").textContent = winRate + "%";
+  document.getElementById("stats-streak").textContent = stats.longestStreak;
+  
+  // Grafik bar üretimi
+  const chart = document.getElementById("stats-chart");
+  chart.innerHTML = "";
+  
+  const keys = Object.keys(stats.subjectScores);
+  if (keys.length === 0) {
+    chart.innerHTML = `<p style="text-align:center; color:var(--color-text-faint); margin-top:12px;">Henüz yeterli oyun verisi yok.</p>`;
+  } else {
+    keys.forEach(k => {
+      const subject = stats.subjectScores[k];
+      const rate = Math.round((subject.won / subject.played) * 100);
+      
+      const barWrapper = document.createElement("div");
+      barWrapper.className = "stats-bar-wrapper";
+      barWrapper.innerHTML = `
+        <div class="stats-bar-label">${subject.name} (${subject.played} Oyun)</div>
+        <div class="stats-bar-bg">
+          <div class="stats-bar-fill" style="width: ${rate}%; background-color: var(--color-success);"></div>
+          <span class="stats-bar-pct">%${rate}</span>
+        </div>
+      `;
+      chart.appendChild(barWrapper);
+    });
+  }
+  
+  openOverlay("stats-overlay");
+}
+
+function openBadgesModal() {
+  const unlocked = BADGES.getUnlocked();
+  const grid = document.getElementById("badges-grid");
+  grid.innerHTML = "";
+  
+  BADGES.list.forEach(badge => {
+    const isUnlocked = unlocked.includes(badge.id);
+    const card = document.createElement("div");
+    card.className = "badge-card" + (isUnlocked ? "" : " locked");
+    card.innerHTML = `
+      <span class="badge-icon">${badge.id === "streak_3" ? "🔥" : badge.id === "streak_5" ? "⚡" : badge.id === "perfect_win" ? "⭐" : badge.id === "time_survivor" ? "⏳" : badge.id === "mistake_clear" ? "📘" : "🏅"}</span>
+      <span class="badge-name">${badge.name}</span>
+      <span class="badge-desc">${badge.desc}</span>
+    `;
+    grid.appendChild(card);
+  });
+  
+  openOverlay("badges-overlay");
+}
+
+function openMistakesModal() {
+  const mistakes = MISTAKES.get();
+  const subText = document.getElementById("mistakes-count-sub");
+  const container = document.getElementById("mistakes-list");
+  const startBtn = document.getElementById("start-mistakes-btn");
+  
+  container.innerHTML = "";
+  
+  if (mistakes.length === 0) {
+    subText.textContent = "Henüz yanlış bildiğin bir kelime yok. Harikasın!";
+    startBtn.style.display = "none";
+  } else {
+    subText.textContent = `${mistakes.length} hatalı kelimen var. Tekrar ederek pekiştir!`;
+    startBtn.style.display = "inline-block";
+    
+    mistakes.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "mistake-item";
+      card.innerHTML = `
+        <div class="mistake-info">
+          <span class="mistake-word">${item.word}</span>
+          <span class="mistake-hint">İpucu: ${item.hint}</span>
+          <span class="mistake-meta">${item.gradeName} - ${item.subjectName}</span>
+        </div>
+        <span class="mistake-del-btn" title="Listeden Kaldır">🗑️</span>
+      `;
+      card.querySelector(".mistake-del-btn").addEventListener("click", () => {
+        MISTAKES.remove(item.word);
+        openMistakesModal(); // Yenile
+      });
+      container.appendChild(card);
+    });
+  }
+  
+  openOverlay("mistakes-overlay");
+}
+
+function startReviewMode() {
+  const mistakes = MISTAKES.get();
+  if (mistakes.length === 0) return;
+  
+  closeOverlay("mistakes-overlay");
+  
+  isReviewMode = true;
+  selectedGrade = { grade: 99, gradeName: "Hata Defteri" };
+  applyGradeTheme(99);
+  selectedSubject = { id: mistakes[0].subjectId, name: "Tekrar Modu", dataFile: "" };
+  selectedUnit = { name: "Yanlış Kelimeler", words: mistakes };
+  
+  WORD_BANK = mistakes;
+  availableWords = [...WORD_BANK];
+  
+  newGame();
+  showGameScreen();
+}
+
+// ── JOKER LOGIC ────────────────────────────────────────────────────────────
+function updateJokerUI() {
+  const status = document.getElementById("joker-status");
+  status.textContent = `Joker: ${jokersLeft}/3`;
+  
+  const revealBtn = document.getElementById("joker-reveal-btn");
+  const eliminateBtn = document.getElementById("joker-eliminate-btn");
+  
+  if (jokersLeft <= 0 || gameState.over) {
+    revealBtn.disabled = true;
+    eliminateBtn.disabled = true;
+  } else {
+    revealBtn.disabled = gameState.score < 5;
+    eliminateBtn.disabled = gameState.score < 3;
+  }
+}
+
+function useRevealJoker() {
+  if (jokersLeft <= 0 || gameState.score < 5 || gameState.over) return;
+  
+  // Kelimede henüz tahmin edilmemiş harfler
+  const unguessed = [...gameState.word].filter(char => {
+    const isLetter = /[A-ZÇĞİÖŞÜ]/.test(char);
+    return isLetter && !gameState.guessed.has(char);
+  });
+  
+  if (unguessed.length > 0) {
+    jokersLeft--;
+    gameState.score -= 5;
+    saveScore();
+    
+    // Rastgele bir harf aç
+    const targetChar = unguessed[Math.floor(Math.random() * unguessed.length)];
+    guess(targetChar);
+  }
+}
+
+function useEliminateJoker() {
+  if (jokersLeft <= 0 || gameState.score < 3 || gameState.over) return;
+  
+  // Klavyeden kelimede olmayan ve tahmin edilmemiş harfler
+  const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
+  const allAlphabet = isEnglish 
+    ? ["Q","W","E","R","T","Y","U","I","O","P","A","S","D","F","G","H","J","K","L","Z","X","C","V","B","N","M"]
+    : ["A","B","C","Ç","D","E","F","G","Ğ","H","I","İ","J","K","L","M","N","O","Ö","P","R","S","Ş","T","U","Ü","V","Y","Z","Q","W","X"];
+  
+  const wrongUnguessed = allAlphabet.filter(char => {
+    return !gameState.word.includes(char) && !gameState.guessed.has(char);
+  });
+  
+  if (wrongUnguessed.length >= 2) {
+    jokersLeft--;
+    gameState.score -= 3;
+    saveScore();
+    
+    // 2 adet yanlış harfi kilitle
+    for (let i = 0; i < 2; i++) {
+      const idx = Math.floor(Math.random() * wrongUnguessed.length);
+      const targetChar = wrongUnguessed.splice(idx, 1)[0];
+      gameState.guessed.add(targetChar);
+      gameState.wrong.push(targetChar);
+    }
+    
+    SOUNDS.wrong();
+    updateUI();
+  }
+}
+
+// ── PREFETCH ────────────────────────────────────────────────────────────
 function startBackgroundPrefetch() {
   if(!CURRICULUM_DATA) return;
   const allUrls = [];
-  CURRICULUM_DATA.forEach(g => g.subjects.forEach(s => allUrls.push(s.dataFile)));
+  CURRICULUM_DATA.forEach(g => g.subjects.forEach(s => {
+    if (s.dataFile) allUrls.push(s.dataFile);
+  }));
   
   let i = 0;
   function fetchNext() {
@@ -114,13 +649,13 @@ function startBackgroundPrefetch() {
     if(!PREFETCHED_DATA[url]) {
        fetch(url + "?t=" + Date.now()).then(r=>r.json()).then(d=>{
           PREFETCHED_DATA[url] = d;
-          setTimeout(fetchNext, 1500); // 1.5 saniye arayla yavaşça çek
+          setTimeout(fetchNext, 1500);
        }).catch(() => setTimeout(fetchNext, 1500));
     } else {
        fetchNext();
     }
   }
-  setTimeout(fetchNext, 3000); // Oyuna girdikten 3 saniye sonra başla
+  setTimeout(fetchNext, 3000);
 }
 
 async function startRandomGame() {
@@ -133,6 +668,7 @@ async function startRandomGame() {
     if (!rGrade.subjects || rGrade.subjects.length === 0) continue;
     
     const rSubj = rGrade.subjects[Math.floor(Math.random() * rGrade.subjects.length)];
+    if (!rSubj.dataFile) continue;
     
     try {
       let data;
@@ -140,7 +676,7 @@ async function startRandomGame() {
         data = PREFETCHED_DATA[rSubj.dataFile];
       } else {
         const res = await fetch(rSubj.dataFile + "?t=" + Date.now());
-        if(!res.ok) continue; // 404, try another one
+        if(!res.ok) continue;
         data = await res.json();
         PREFETCHED_DATA[rSubj.dataFile] = data;
       }
@@ -158,14 +694,11 @@ async function startRandomGame() {
         availableWords = [...WORD_BANK];
         newGame();
         showGameScreen();
-        return; // Success
+        return;
       }
-    } catch (err) {
-      // JSON parse error or network error, loop again
-    }
+    } catch (err) {}
   }
   
-  // If we couldn't find any valid JSON after 20 tries, fallback to grade screen
   showGradeScreen();
 }
 
@@ -188,7 +721,6 @@ function switchScreen(screenId) {
   document.getElementById(screenId).classList.add('active');
 }
 
-// ── THEME HELPERS ──────────────────────────────────────────────────────────
 function getGradeThemeGroup(gradeNum) {
   const g = parseInt(gradeNum);
   if (g === 99) return { group: "exam", emoji: "🏆" };
@@ -217,6 +749,7 @@ function showGradeScreen() {
 function showSubjectScreen() {
   selectedSubject = null;
   selectedUnit = null;
+  isReviewMode = false;
   if (selectedGrade) {
     populateSubjects();
   } else {
@@ -265,7 +798,7 @@ function populateSubjects() {
   const list = document.getElementById('subject-list');
   list.innerHTML = '';
   
-  const currentMonth = new Date().getMonth() + 1; // 1-12
+  const currentMonth = new Date().getMonth() + 1;
   
   selectedGrade.subjects.forEach(subject => {
     const card = document.createElement('div');
@@ -279,11 +812,10 @@ function populateSubjects() {
     
     const unitList = document.createElement('div');
     unitList.className = 'unit-list';
-    unitList.style.display = 'none'; // hidden initially
+    unitList.style.display = 'none';
     card.appendChild(unitList);
     
     header.addEventListener('click', async () => {
-      // toggle visibility
       if (unitList.style.display === 'flex') {
          unitList.style.display = 'none';
          header.textContent = subject.name + " ▼";
@@ -292,13 +824,11 @@ function populateSubjects() {
       
       header.textContent = subject.name + " ▲";
       
-      // if already loaded, just show
       if (unitList.innerHTML !== '') {
          unitList.style.display = 'flex';
          return;
       }
-
-      // Load data lazily
+      
       unitList.innerHTML = '<div style="padding:16px;text-align:center;color:var(--color-text-muted);">Üniteler yükleniyor...</div>';
       unitList.style.display = 'flex';
       
@@ -368,7 +898,7 @@ function buildKeyboard() {
     const el = document.getElementById(`row-${ri+1}`);
     if(!el) return;
     el.innerHTML = "";
-    if(row[0] === "space" && row.length === 1) return; // skip space only row
+    if(row[0] === "space" && row.length === 1) return;
     row.forEach(key => {
       if(key === "space") return;
       const btn = document.createElement("button");
@@ -395,12 +925,14 @@ function toTrUpperCase(str) {
 
 function newGame() {
   if(!WORD_BANK || WORD_BANK.length === 0) {
-    alert("Bu ünitede henüz soru bulunmamaktadır. Lütfen başka bir ünite seçin.");
+    alert("Kelimeler yüklenemedi. Lütfen başka bir ders/sınıf seçin.");
     showSubjectScreen();
     return;
   }
   
   buildKeyboard();
+  MAX_WRONG = getLivesLimit(currentDifficulty);
+  jokersLeft = 3;
   
   if(availableWords.length === 0) {
     availableWords = [...WORD_BANK];
@@ -422,6 +954,7 @@ function newGame() {
   
   gameState = { 
     word: finalWord, 
+    rawWord: entry.word,
     hint: entry.hint, 
     category: categoryText,
     guessed: new Set(), 
@@ -434,6 +967,7 @@ function newGame() {
   
   document.querySelectorAll(".overlay").forEach(e=>e.remove());
   updateUI();
+  startTimer();
 }
 
 function guess(key) {
@@ -446,15 +980,55 @@ function guess(key) {
   const inWord = gameState.word.includes(k);
   if (!inWord) {
     gameState.wrong.push(k);
-    gameState.score -= 2;
+    gameState.score = Math.max(0, gameState.score - 2);
     saveScore();
-    if (gameState.wrong.length >= MAX_WRONG) { gameState.over = true; gameState.won = false; }
+    SOUNDS.wrong();
+    
+    // Can barına/karta sarsıntı
+    const gameCard = document.getElementById("game-card");
+    gameCard.classList.add("shake");
+    setTimeout(() => gameCard.classList.remove("shake"), 350);
+
+    if (gameState.wrong.length >= MAX_WRONG) { 
+      clearInterval(timerInterval);
+      gameState.over = true; 
+      gameState.won = false; 
+      streakCount = 0;
+      MISTAKES.add(gameState.rawWord, gameState.hint, selectedGrade.gradeName, selectedSubject.name, selectedSubject.id);
+      SOUNDS.lose();
+    }
+  } else {
+    SOUNDS.correct();
   }
 
-  // win check
+  // kazanma kontrolü
   const letters = [...gameState.word].filter(c => isEnglish ? /[A-Z]/.test(c) : /[A-ZÇĞİÖŞÜ]/.test(c));
   const allFound = letters.length > 0 && letters.every(c => gameState.guessed.has(c));
-  if (allFound) { gameState.over = true; gameState.won = true; gameState.score += 10; saveScore(); }
+  if (allFound) { 
+    clearInterval(timerInterval);
+    gameState.over = true; 
+    gameState.won = true; 
+    
+    streakCount++;
+    
+    // Seri bonusu çarpanı
+    let multiplier = 1.0;
+    if (streakCount >= 3 && streakCount < 5) multiplier = 1.5;
+    else if (streakCount >= 5) multiplier = 2.0;
+    
+    const scoreGain = Math.floor(10 * multiplier);
+    gameState.score += scoreGain;
+    saveScore();
+    
+    STATS.recordGame(true, streakCount, selectedSubject.id, selectedSubject.name);
+    
+    if (isReviewMode) {
+      MISTAKES.remove(gameState.rawWord);
+    }
+    SOUNDS.win();
+  } else if (!inWord && gameState.wrong.length >= MAX_WRONG) {
+    STATS.recordGame(false, streakCount, selectedSubject.id, selectedSubject.name);
+  }
 
   updateUI();
   if (gameState.over) setTimeout(() => showEndOverlay(), 700);
@@ -465,11 +1039,30 @@ function updateUI() {
   document.getElementById("category-badge").textContent = gameState.category;
   document.getElementById("hint-text").textContent = "İpucu: " + gameState.hint;
   document.getElementById("score-val").textContent = gameState.score;
+  
+  // Streak / Seri
+  const streakBadge = document.getElementById("streak-badge");
+  const streakVal = document.getElementById("streak-val");
+  if (streakCount > 1) {
+    streakBadge.style.display = "inline-flex";
+    streakVal.textContent = streakCount;
+  } else {
+    streakBadge.style.display = "none";
+  }
+
+  // Progress Bar
+  const totalWords = WORD_BANK.length;
+  const solvedWords = totalWords - availableWords.length;
+  const progressPercent = totalWords > 0 ? (solvedWords / totalWords) * 100 : 0;
+  document.getElementById("progress-bar-fill").style.width = `${progressPercent}%`;
+  document.getElementById("progress-text").textContent = `Kelime: ${solvedWords}/${totalWords}`;
+
   updateWordDisplay();
   updateHangman();
   updateWrong();
   updateKeys();
   updateLives();
+  updateJokerUI();
 }
 
 function updateWordDisplay() {
@@ -512,13 +1105,26 @@ function updateWordDisplay() {
 }
 
 function updateHangman() {
-  BODY_PARTS.forEach((id, i) => {
+  // Görünür olan parçalara sallantılı animasyonu ekle
+  const revealedParts = getBodyPartsForAttempt(gameState.wrong.length, MAX_WRONG);
+  
+  BODY_PARTS.forEach(id => {
     const el = document.getElementById(id);
-    el.style.opacity = i < gameState.wrong.length ? "1" : "0";
-    el.style.transition = "opacity 0.4s ease";
+    const shouldShow = revealedParts.includes(id);
+    
+    if (shouldShow) {
+      if (el.style.opacity !== "1") {
+        el.style.opacity = "1";
+        el.classList.add("animate-drop");
+      }
+    } else {
+      el.style.opacity = "0";
+      el.classList.remove("animate-drop");
+    }
   });
 }
 
+// Devamı...
 function updateWrong() {
   const wl = document.getElementById("wrong-letters");
   wl.innerHTML = "";
@@ -551,56 +1157,131 @@ function updateLives() {
   }
 }
 
-// ── END OVERLAY ──────────────────────────────────────────────────────────────
+// ── END OVERLAY & FLASHCARD ──────────────────────────────────────────────────
 function showEndOverlay() {
+  document.querySelectorAll(".overlay").forEach(e => {
+    if (e.id !== "stats-overlay" && e.id !== "badges-overlay" && e.id !== "mistakes-overlay") e.remove();
+  });
+
   const ov = document.createElement("div"); ov.className = "overlay";
   const card = document.createElement("div"); card.className = "overlay-card";
+  card.style.perspective = "1000px";
 
   const icon = document.createElement("span"); icon.className = "overlay-icon";
   const title = document.createElement("h2"); title.className = "overlay-title";
   const sub = document.createElement("p"); sub.className = "overlay-sub";
-  const wordEl = document.createElement("div"); wordEl.className = "overlay-word";
   
+  // Flashcard / Kelime Kartı
+  const wordCard = document.createElement("div");
+  wordCard.style.cssText = `
+    background: var(--color-surface-offset); border: 2px solid var(--color-border);
+    border-radius: var(--radius-lg); padding: 16px; margin: 16px 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    box-shadow: var(--shadow-sm); transition: transform 0.6s;
+  `;
+  
+  const wordLabel = document.createElement("strong");
+  wordLabel.style.cssText = "font-size:24px; font-family:var(--font-display); color:var(--color-primary);";
+  wordLabel.textContent = gameState.word;
+  
+  const hintLabel = document.createElement("p");
+  hintLabel.style.cssText = "font-size:12px; color:var(--color-text-muted); margin-top:8px; font-style:italic;";
+  hintLabel.textContent = `Açıklama / İpucu: ${gameState.hint}`;
+  
+  wordCard.append(wordLabel, hintLabel);
+
+  const btnRow = document.createElement("div");
+  btnRow.style.cssText = "display:flex; flex-direction:column; gap:8px; width:100%; align-items:center;";
+
   const btnPrimary = document.createElement("button"); btnPrimary.className = "btn-primary";
-  const btnSec = document.createElement("button"); btnSec.className = "btn-secondary";
+  btnPrimary.style.width = "100%";
+  const btnShare = document.createElement("button"); btnShare.className = "btn-secondary";
+  btnShare.style.width = "100%"; btnShare.style.marginTop = "0";
   const btnBack = document.createElement("button"); btnBack.className = "btn-secondary";
-  btnBack.style.marginLeft = "var(--space-2)";
+  btnBack.style.width = "100%"; btnBack.style.marginTop = "0";
 
   if (gameState.won) {
     const netGain = gameState.score - gameState.startingScore;
     icon.textContent = "🎉"; title.textContent = "Tebrikler!";
-    sub.textContent = `+${netGain} puan kazandın! Toplam: ${gameState.score}`;
-    wordEl.textContent = gameState.word; btnPrimary.textContent = "Sıradaki kelime →";
-    confetti();
-  } else {
-    const lostPoints = gameState.startingScore - gameState.score;
-    icon.textContent = "💀"; title.textContent = "Eyvah, Astın!";
-    if (lostPoints > 0) {
-      sub.textContent = `Yanlış harflerden ${lostPoints} puan kaybettin. Toplam Puan: ${gameState.score}`;
-    } else {
-      sub.textContent = `Kelimeyi bilemeden adam asıldı. Toplam Puan: ${gameState.score}`;
+    
+    let multiplierText = "";
+    if (streakCount >= 3) {
+      const mult = streakCount >= 5 ? "2.0x" : "1.5x";
+      multiplierText = ` (${mult} Seri Bonusu)`;
     }
-    wordEl.textContent = "Cevap: " + gameState.word;
-    btnPrimary.textContent = "Tekrar Oyna";
+    
+    sub.textContent = `+${netGain} puan kazandın!${multiplierText} Toplam: ${gameState.score}`;
+    btnPrimary.textContent = "Sıradaki Kelime →";
+    triggerGradeConfetti();
+  } else {
+    icon.textContent = "💀"; title.textContent = "Eyvah, Astın!";
+    sub.textContent = `Kelimeyi bulamadın. Toplam Puan: ${gameState.score}`;
+    btnPrimary.textContent = "Tekrar Dene";
   }
-  btnSec.textContent = "Skoru Sıfırla";
-  btnBack.textContent = "Ders Seç";
   
-  btnPrimary.addEventListener("click", () => newGame());
-  btnSec.addEventListener("click", () => { gameState.score = 0; newGame(); });
+  btnShare.textContent = "Skorunu Paylaş 🔗";
+  btnBack.textContent = "Ders Seçimine Dön";
+  
+  btnPrimary.addEventListener("click", () => {
+    ov.remove();
+    newGame();
+  });
+  
+  btnShare.addEventListener("click", () => {
+    copyShareLink(btnShare);
+  });
+  
   btnBack.addEventListener("click", () => {
-    document.querySelectorAll(".overlay").forEach(e=>e.remove());
+    ov.remove();
     showSubjectScreen();
   });
 
-  card.append(icon,title,sub,wordEl,btnPrimary,btnSec,btnBack);
+  btnRow.append(btnPrimary, btnShare, btnBack);
+  card.append(icon, title, sub, wordCard, btnRow);
   ov.appendChild(card);
   document.body.appendChild(ov);
 }
 
-// ── CONFETTI ──────────────────────────────────────────────────────────────────
-function confetti() {
-  const colors = ["#4f98a3","#6daa45","#e8af34","#d163a7","#fdab43"];
+function copyShareLink(btn) {
+  const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
+  const gradeLabel = selectedGrade ? selectedGrade.gradeName : "";
+  const subjectLabel = selectedSubject ? selectedSubject.name : "";
+  
+  const livesLeft = MAX_WRONG - gameState.wrong.length;
+  
+  let blockGrid = "";
+  for (let i = 0; i < MAX_WRONG; i++) {
+    if (i < gameState.wrong.length) blockGrid += "🟥";
+    else blockGrid += "🟩";
+  }
+  
+  const shareText = `Adam Asmaca Eğitim - ${gradeLabel} ${subjectLabel}
+Kelimeyi ${gameState.won ? "BİLDİM!" : "Bilemedim..."}
+Can: ${livesLeft}/${MAX_WRONG} | Puan: ${gameState.score}
+${blockGrid}
+Sen de yerel mobil uygulamayı kurup oyna! 🏆`;
+  
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(shareText).then(() => {
+      const orig = btn.textContent;
+      btn.textContent = "Panoya Kopyalandı! ✅";
+      setTimeout(() => btn.textContent = orig, 2000);
+    });
+  } else {
+    alert(shareText);
+  }
+}
+
+function triggerGradeConfetti() {
+  const gradeTheme = selectedGrade ? getGradeThemeGroup(selectedGrade.grade).group : "";
+  let colors = ["#4f98a3","#6daa45","#e8af34","#d163a7","#fdab43"];
+  
+  if (gradeTheme === "primary") colors = ["#ff8a3d", "#ffd785", "#ff477e", "#2ec4b6", "#ff9f1c"];
+  else if (gradeTheme === "adventure") colors = ["#2d8a4e", "#59d184", "#bed2b8", "#cca21b", "#effaf2"];
+  else if (gradeTheme === "tech") colors = ["#822faf", "#ca7cfa", "#2ae6b7", "#ff5e9c", "#ffa15e"];
+  else if (gradeTheme === "academic") colors = ["#174276", "#5495e2", "#1f6b57", "#ff5c5c", "#f2c03f"];
+  else if (gradeTheme === "exam") colors = ["#b08010", "#f2cb44", "#ffd76d", "#206d59", "#9c1f1f"];
+
   for (let i = 0; i < 60; i++) {
     const p = document.createElement("div"); p.className = "confetti-piece";
     p.style.cssText = `left:${Math.random()*100}vw;top:-10px;
@@ -617,6 +1298,8 @@ function confetti() {
 
 // ── KEYBOARD PHYSICAL ────────────────────────────────────────────────────────
 document.addEventListener("keydown", e => {
+  if (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "SELECT") return;
+  
   if(document.getElementById('game-screen').classList.contains('active')) {
     const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
     const k = isEnglish ? e.key.replace(/İ/g, "I").replace(/ı/g, "I").toUpperCase() : toTrUpperCase(e.key);
