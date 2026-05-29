@@ -813,13 +813,13 @@ function updateJokerUI() {
     revealBtn.disabled = true;
     eliminateBtn.disabled = true;
   } else {
-    revealBtn.disabled = gameState.score < 5;
-    eliminateBtn.disabled = gameState.score < 3;
+    revealBtn.disabled = false;
+    eliminateBtn.disabled = false;
   }
 }
 
 function useRevealJoker() {
-  if (jokersLeft <= 0 || gameState.score < 5 || gameState.over) return;
+  if (jokersLeft <= 0 || gameState.over) return;
   
   // Kelimede henüz tahmin edilmemiş harfler
   const unguessed = [...gameState.word].filter(char => {
@@ -829,7 +829,7 @@ function useRevealJoker() {
   
   if (unguessed.length > 0) {
     jokersLeft--;
-    gameState.score -= 5;
+    gameState.score = Math.max(0, gameState.score - 5);
     saveScore();
     
     // Rastgele bir harf aç
@@ -839,7 +839,7 @@ function useRevealJoker() {
 }
 
 function useEliminateJoker() {
-  if (jokersLeft <= 0 || gameState.score < 3 || gameState.over) return;
+  if (jokersLeft <= 0 || gameState.over) return;
   
   // Klavyeden kelimede olmayan ve tahmin edilmemiş harfler
   const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
@@ -853,7 +853,7 @@ function useEliminateJoker() {
   
   if (wrongUnguessed.length >= 2) {
     jokersLeft--;
-    gameState.score -= 3;
+    gameState.score = Math.max(0, gameState.score - 3);
     saveScore();
     
     // 2 adet yanlış harfi SADECE guessed listesine ekle (wrong listesine DEĞİL)
@@ -1549,8 +1549,20 @@ function showEndOverlay() {
   `;
   
   const wordLabel = document.createElement("strong");
-  wordLabel.style.cssText = "font-size:24px; font-family:var(--font-display); color:var(--color-primary);";
+  wordLabel.style.cssText = "font-size:24px; font-family:var(--font-display); color:var(--color-primary); display:flex; align-items:center; gap:8px;";
   wordLabel.textContent = gameState.word;
+  
+  const reportBtn = document.createElement("span");
+  reportBtn.textContent = "⚠️";
+  reportBtn.style.cssText = "font-size:16px; cursor:pointer; opacity:0.6; padding:4px; transition:opacity 0.2s;";
+  reportBtn.title = "Hata Bildir";
+  reportBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    openReportModal();
+  });
+  reportBtn.addEventListener("mouseenter", () => reportBtn.style.opacity = "1");
+  reportBtn.addEventListener("mouseleave", () => reportBtn.style.opacity = "0.6");
+  wordLabel.appendChild(reportBtn);
   
   const hintLabel = document.createElement("p");
   hintLabel.style.cssText = "font-size:12px; color:var(--color-text-muted); margin-top:8px; font-style:italic;";
@@ -1567,11 +1579,6 @@ function showEndOverlay() {
   btnShare.style.width = "100%"; btnShare.style.marginTop = "0";
   const btnBack = document.createElement("button"); btnBack.className = "btn-secondary";
   btnBack.style.width = "100%"; btnBack.style.marginTop = "0";
-  const btnReport = document.createElement("button"); btnReport.className = "btn-secondary";
-  btnReport.style.width = "100%"; btnReport.style.marginTop = "0";
-  btnReport.style.borderColor = "rgba(239, 68, 68, 0.4)";
-  btnReport.style.color = "var(--color-error)";
-  btnReport.textContent = "⚠️ Hata Bildir";
 
   if (gameState.won) {
     const netGain = gameState.score - gameState.startingScore;
@@ -1603,17 +1610,13 @@ function showEndOverlay() {
   btnShare.addEventListener("click", () => {
     copyShareLink(btnShare);
   });
-
-  btnReport.addEventListener("click", () => {
-    openReportModal();
-  });
   
   btnBack.addEventListener("click", () => {
     ov.remove();
     showSubjectScreen();
   });
 
-  btnRow.append(btnPrimary, btnShare, btnReport, btnBack);
+  btnRow.append(btnPrimary, btnShare, btnBack);
   card.append(icon, title, sub, wordCard, btnRow);
   ov.appendChild(card);
   document.body.appendChild(ov);
