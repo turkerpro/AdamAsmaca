@@ -1,6 +1,90 @@
+// ── GOOGLE FORM CONFIGURATION ──────────────────────────────────────────────────
+// Bu konfigürasyon, oyun içi hata bildirimlerinin (⚠️ butonu veya menüdeki hata bildir)
+// doğrudan Google Form'a arka planda sessizce gönderilmesini sağlar.
+const GOOGLE_FORM_CONFIG = {
+  formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdKQQC5kDohdH5zo_AF9yFGdo3fSDHq00Ut0kMilIlQYqqjfw/formResponse", 
+  entries: {
+    grade: "entry.1834771806",
+    subject: "entry.2070856554",
+    unit: "entry.632575396",
+    word: "entry.1219416252"
+  }
+};
+
+// ── SAFE STORAGE FALLBACKS ────────────────────────────────────────────────────
+// Iframe veya kısıtlı web tarayıcı ortamlarında localStorage / sessionStorage
+// erişimi engellendiğinde (DOMException) çökme yaşanmaması için in-memory fallback sağlar.
+const SafeStorage = {
+  memoryStore: {},
+  isSupported() {
+    try {
+      const key = "__test_storage__";
+      localStorage.setItem(key, "1");
+      localStorage.removeItem(key);
+      return true;
+    } catch(e) {
+      return false;
+    }
+  },
+  getItem(key) {
+    try {
+      if (this.isSupported()) return localStorage.getItem(key);
+    } catch(e) {}
+    return this.memoryStore[key] || null;
+  },
+  setItem(key, value) {
+    try {
+      if (this.isSupported()) {
+        localStorage.setItem(key, value);
+        return;
+      }
+    } catch(e) {}
+    this.memoryStore[key] = String(value);
+  },
+  removeItem(key) {
+    try {
+      if (this.isSupported()) {
+        localStorage.removeItem(key);
+        return;
+      }
+    } catch(e) {}
+    delete this.memoryStore[key];
+  }
+};
+
+const SafeSessionStorage = {
+  memoryStore: {},
+  isSupported() {
+    try {
+      const key = "__test_session__";
+      sessionStorage.setItem(key, "1");
+      sessionStorage.removeItem(key);
+      return true;
+    } catch(e) {
+      return false;
+    }
+  },
+  getItem(key) {
+    try {
+      if (this.isSupported()) return sessionStorage.getItem(key);
+    } catch(e) {}
+    return this.memoryStore[key] || null;
+  },
+  setItem(key, value) {
+    try {
+      if (this.isSupported()) {
+        sessionStorage.setItem(key, value);
+        return;
+      }
+    } catch(e) {}
+    this.memoryStore[key] = String(value);
+  }
+};
+
 // ── STATE & DATA ────────────────────────────────────────────────────────────
 let CURRICULUM_DATA = null;
 const INDEX_URL = './curriculum_index.json';
+
 
 let selectedGrade = null;
 let selectedSubject = null;
@@ -12,9 +96,13 @@ let WORD_BANK = [];
 let availableWords = [];
 let isReviewMode = false; // Hata Defteri tekrar modu aktif mi?
 
+// Ünite bazlı geçici round istatistikleri
+let roundPlayedCount = 0;
+let roundWonCount = 0;
+
 let savedScore = 0;
 try {
-  const saved = sessionStorage.getItem("hangman_score");
+  const saved = SafeSessionStorage.getItem("hangman_score");
   if (saved) {
     const data = JSON.parse(saved);
     if (data.date === new Date().toLocaleDateString()) {
@@ -24,12 +112,16 @@ try {
 } catch(e) {}
 
 // Oyun özellikleri durumları
-let currentDifficulty = localStorage.getItem("adamAsmacaDiff") || "medium";
-let timeModeActive = localStorage.getItem("adamAsmacaTimeMode") === "true";
+let currentDifficulty = SafeStorage.getItem("adamAsmacaDiff") || "medium";
+let timeModeActive = SafeStorage.getItem("adamAsmacaTimeMode") === "true";
 let timeLeft = 60;
 let timerInterval = null;
 let jokersLeft = 3;
 let streakCount = 0;
+let currentRoundLength = SafeStorage.getItem("hangmanRoundLength") || "20";
+
+let currentUnitFullWords = [];
+let currentEntry = null;
 
 let gameState = { 
   word: "", 
@@ -44,13 +136,13 @@ let gameState = {
 };
 
 function saveScore() {
-  sessionStorage.setItem("hangman_score", JSON.stringify({ score: gameState.score, date: new Date().toLocaleDateString() }));
+  SafeSessionStorage.setItem("hangman_score", JSON.stringify({ score: gameState.score, date: new Date().toLocaleDateString() }));
 }
 
 // ── RETRO SOUNDS (Web Audio API) ───────────────────────────────────────────
 const SOUNDS = {
   ctx: null,
-  muted: localStorage.getItem("adamAsmacaMuted") === "true",
+  muted: SafeStorage.getItem("adamAsmacaMuted") === "true",
   
   init() {
     if (this.ctx) return;
@@ -105,21 +197,67 @@ const SOUNDS = {
     notes.forEach((n, idx) => {
       setTimeout(() => this.playBeep(n, 0.35, "triangle"), idx * 130);
     });
+  },
+
+  applause() {
+    // Fanfare / Celebration Sound
+    const notes = [523.25, 659.25, 783.99, 1046.50, 1318.51, 1567.98];
+    notes.forEach((n, idx) => {
+      setTimeout(() => this.playBeep(n, 0.25, "sine"), idx * 80);
+    });
+    setTimeout(() => {
+      const claps = [800, 850, 750, 900, 800, 850, 900, 950];
+      claps.forEach((f, i) => {
+        setTimeout(() => this.playBeep(f, 0.08, "triangle"), i * 60);
+      });
+    }, 450);
+  },
+
+  sadJingle() {
+    // Descending minor chord
+    const notes = [392.00, 349.23, 311.13, 261.63, 196.00];
+    notes.forEach((n, idx) => {
+      setTimeout(() => this.playBeep(n, 0.4, "sawtooth"), idx * 150);
+    });
   }
 };
+
 
 // ── LOCAL STORAGE HELPERS (Stats & Badges & Mistakes) ────────────────────────
 const STATS = {
   get() {
     const defaultStats = { totalGames: 0, gamesWon: 0, longestStreak: 0, subjectScores: {} };
     try {
-      return JSON.parse(localStorage.getItem("hangman_stats")) || defaultStats;
+      const raw = SafeStorage.getItem("hangman_stats");
+      if (!raw) return defaultStats;
+      const stats = JSON.parse(raw);
+      if (stats && typeof stats === "object" && !Array.isArray(stats)) {
+        if (!stats.subjectScores || typeof stats.subjectScores !== "object" || Array.isArray(stats.subjectScores)) {
+          stats.subjectScores = {};
+        }
+        // Sanitize subjectScores items
+        for (const k in stats.subjectScores) {
+          const s = stats.subjectScores[k];
+          if (s && typeof s === "object") {
+            if (typeof s.played !== "number") s.played = parseInt(s.played) || 0;
+            if (typeof s.won !== "number") s.won = parseInt(s.won) || 0;
+            if (typeof s.name !== "string") s.name = k;
+          } else {
+            delete stats.subjectScores[k];
+          }
+        }
+        if (typeof stats.totalGames !== "number") stats.totalGames = parseInt(stats.totalGames) || 0;
+        if (typeof stats.gamesWon !== "number") stats.gamesWon = parseInt(stats.gamesWon) || 0;
+        if (typeof stats.longestStreak !== "number") stats.longestStreak = parseInt(stats.longestStreak) || 0;
+        return stats;
+      }
+      return defaultStats;
     } catch(e) {
       return defaultStats;
     }
   },
   save(stats) {
-    localStorage.setItem("hangman_stats", JSON.stringify(stats));
+    SafeStorage.setItem("hangman_stats", JSON.stringify(stats));
   },
   recordGame(won, streak, subjectId, subjectName) {
     const s = this.get();
@@ -128,6 +266,7 @@ const STATS = {
     if (streak > s.longestStreak) s.longestStreak = streak;
     
     // Ders bazlı skorlar
+    if (!s.subjectScores) s.subjectScores = {};
     if (!s.subjectScores[subjectId]) {
       s.subjectScores[subjectId] = { name: subjectName, played: 0, won: 0 };
     }
@@ -151,7 +290,10 @@ const BADGES = {
   ],
   getUnlocked() {
     try {
-      return JSON.parse(localStorage.getItem("hangman_badges")) || [];
+      const raw = SafeStorage.getItem("hangman_badges");
+      if (!raw) return [];
+      const res = JSON.parse(raw);
+      return Array.isArray(res) ? res.filter(item => typeof item === "string") : [];
     } catch(e) {
       return [];
     }
@@ -162,7 +304,7 @@ const BADGES = {
     incrementBadgeCount(badgeId);
     if (!unlocked.includes(badgeId)) {
       unlocked.push(badgeId);
-      localStorage.setItem("hangman_badges", JSON.stringify(unlocked));
+      SafeStorage.setItem("hangman_badges", JSON.stringify(unlocked));
       
       const badge = this.list.find(b => b.id === badgeId);
       if (badge) {
@@ -184,11 +326,12 @@ const BADGES = {
     SOUNDS.win();
     const toast = document.createElement("div");
     toast.style.cssText = `
-      position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(100px);
+      position: fixed; top: 24px; left: 50%; transform: translateX(-50%) translateY(-100px);
       background: var(--color-surface); border: 2px solid var(--color-primary);
       padding: 16px 24px; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);
-      display: flex; flex-direction: column; align-items: center; gap: 4px; z-index: 999;
+      display: flex; flex-direction: column; align-items: center; gap: 4px; z-index: 9999;
       opacity: 0; transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      width: 80%; max-width: 400px; box-sizing: border-box; text-align: center;
     `;
     toast.innerHTML = `
       <span style="font-size:24px;">🏆 Başarım Açıldı!</span>
@@ -205,7 +348,7 @@ const BADGES = {
     
     // animate out
     setTimeout(() => {
-      toast.style.transform = "translateX(-50%) translateY(100px)";
+      toast.style.transform = "translateX(-50%) translateY(-100px)";
       toast.style.opacity = "0";
       setTimeout(() => toast.remove(), 600);
     }, 4500);
@@ -215,7 +358,23 @@ const BADGES = {
 const MISTAKES = {
   get() {
     try {
-      return JSON.parse(localStorage.getItem("hangman_mistakes")) || [];
+      const raw = SafeStorage.getItem("hangman_mistakes");
+      if (!raw) return [];
+      const res = JSON.parse(raw);
+      if (!Array.isArray(res)) return [];
+      return res.map(item => {
+        if (typeof item === "string") {
+          return { word: item, hint: "Kayıtlı Yanlış", gradeName: "Genel", subjectName: "Tekrar", subjectId: "" };
+        }
+        if (item && typeof item === "object" && typeof item.word === "string") {
+          if (typeof item.hint !== "string") item.hint = "İpucu Yok";
+          if (typeof item.gradeName !== "string") item.gradeName = "Genel";
+          if (typeof item.subjectName !== "string") item.subjectName = "Tekrar";
+          if (typeof item.subjectId !== "string") item.subjectId = "";
+          return item;
+        }
+        return null;
+      }).filter(item => item !== null);
     } catch(e) {
       return [];
     }
@@ -225,13 +384,13 @@ const MISTAKES = {
     const isDup = list.some(item => item.word.toLowerCase() === word.toLowerCase());
     if (!isDup) {
       list.push({ word, hint, gradeName, subjectName, subjectId });
-      localStorage.setItem("hangman_mistakes", JSON.stringify(list));
+      SafeStorage.setItem("hangman_mistakes", JSON.stringify(list));
     }
   },
   remove(word) {
     let list = this.get();
     list = list.filter(item => item.word.toLowerCase() !== word.toLowerCase());
-    localStorage.setItem("hangman_mistakes", JSON.stringify(list));
+    SafeStorage.setItem("hangman_mistakes", JSON.stringify(list));
   }
 };
 
@@ -269,7 +428,7 @@ const KEYBOARDS = {
   ]
 };
 
-let currentKeyboard = localStorage.getItem("adamAsmacaKb") || "qwerty";
+let currentKeyboard = SafeStorage.getItem("adamAsmacaKb") || "qwerty";
 const BODY_PARTS = ["h-head","h-body","h-arm-l","h-arm-r","h-leg-l","h-leg-r"];
 let MAX_WRONG = 6;
 
@@ -350,11 +509,14 @@ function setupSettingsAndModals() {
   }
 
   // Nav menü içindeki butonlar (modal açınca dropdown kapansın)
+  // Nav menü içindeki butonlar (modal açınca dropdown kapansın)
   function navMenuAction(fn) {
     return () => {
+      const dropdown = document.getElementById("nav-dropdown");
+      const backdrop = document.getElementById("nav-backdrop");
       if (dropdown) dropdown.style.display = "none";
       if (backdrop) backdrop.style.display = "none";
-      fn();
+      if (typeof fn === "function") fn();
     };
   }
 
@@ -364,8 +526,26 @@ function setupSettingsAndModals() {
     diffSelect.value = currentDifficulty;
     diffSelect.addEventListener("change", (e) => {
       currentDifficulty = e.target.value;
-      localStorage.setItem("adamAsmacaDiff", currentDifficulty);
-      newGame();
+      SafeStorage.setItem("adamAsmacaDiff", currentDifficulty);
+      
+      MAX_WRONG = getLivesLimit(currentDifficulty);
+      updateLives();
+      updateHangman();
+      updateJokerUI();
+      
+      if (gameState.over) {
+        newGame(false);
+      } else {
+        if (gameState.wrong.length >= MAX_WRONG) {
+          clearInterval(timerInterval);
+          gameState.over = true;
+          gameState.won = false;
+          streakCount = 0;
+          saveScore();
+          SOUNDS.lose();
+          showEndOverlay();
+        }
+      }
     });
   }
 
@@ -376,10 +556,10 @@ function setupSettingsAndModals() {
     if (timeModeActive) timeBtn.classList.add("active");
     timeBtn.addEventListener("click", () => {
       timeModeActive = !timeModeActive;
-      localStorage.setItem("adamAsmacaTimeMode", timeModeActive ? "true" : "false");
+      SafeStorage.setItem("adamAsmacaTimeMode", timeModeActive ? "true" : "false");
       timeBtn.textContent = timeModeActive ? "⏱️ Süreli: Açık" : "⏱️ Süreli: Kapalı";
       timeBtn.classList.toggle("active", timeModeActive);
-      newGame();
+      newGame(!gameState.won);
     });
   }
 
@@ -399,18 +579,38 @@ function setupSettingsAndModals() {
   document.getElementById("start-mistakes-btn").addEventListener("click", startReviewMode);
 
   // Klavye ayar butonu popup
-  const kbSettingsBtn = document.getElementById("keyboard-settings-btn");
   const kbPopup = document.getElementById("kb-popup");
   const kbPopupClose = document.getElementById("kb-popup-close");
   const kbOptionsList = document.getElementById("keyboard-options-list");
 
-  if (kbSettingsBtn && kbPopup && kbOptionsList) {
-    kbSettingsBtn.addEventListener("click", () => {
+  function openSettingsPopup() {
+    const roundOptionsList = document.getElementById("round-options-list");
+    if (kbPopup && kbOptionsList) {
       kbOptionsList.querySelectorAll(".kb-option-btn").forEach(btn => {
         btn.classList.toggle("active", btn.dataset.value === currentKeyboard);
       });
+      if (roundOptionsList) {
+        roundOptionsList.querySelectorAll(".round-option-btn").forEach(btn => {
+          btn.classList.toggle("active", btn.dataset.value === currentRoundLength);
+        });
+      }
       kbPopup.style.display = "flex";
+    }
+  }
+
+  // Delegated listener for dynamically created settings button
+  const kbArea = document.getElementById("keyboard-area");
+  if (kbArea) {
+    kbArea.addEventListener("click", (e) => {
+      if (e.target.closest("#keyboard-settings-btn")) {
+        openSettingsPopup();
+      }
     });
+  }
+
+  if (kbPopup && kbPopupClose && kbOptionsList) {
+    const roundOptionsList = document.getElementById("round-options-list");
+    
     kbPopupClose.addEventListener("click", () => {
       kbPopup.style.display = "none";
     });
@@ -420,7 +620,7 @@ function setupSettingsAndModals() {
     kbOptionsList.querySelectorAll(".kb-option-btn").forEach(btn => {
       btn.addEventListener("click", () => {
         currentKeyboard = btn.dataset.value;
-        localStorage.setItem("adamAsmacaKb", currentKeyboard);
+        SafeStorage.setItem("adamAsmacaKb", currentKeyboard);
         buildKeyboard();
         updateKeys();
         
@@ -433,6 +633,28 @@ function setupSettingsAndModals() {
         }, 150);
       });
     });
+    
+    if (roundOptionsList) {
+      roundOptionsList.querySelectorAll(".round-option-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          currentRoundLength = btn.dataset.value;
+          SafeStorage.setItem("hangmanRoundLength", currentRoundLength);
+          
+          roundOptionsList.querySelectorAll(".round-option-btn").forEach(b => {
+            b.classList.toggle("active", b.dataset.value === currentRoundLength);
+          });
+          
+          if (selectedUnit && selectedUnit.words) {
+            prepareRoundWordBank(selectedUnit.words);
+            newGame();
+          }
+          
+          setTimeout(() => {
+            kbPopup.style.display = "none";
+          }, 150);
+        });
+      });
+    }
   }
 
   // Hata Bildir butonu (Menü)
@@ -463,7 +685,7 @@ function setupSettingsAndModals() {
     soundBtn.innerHTML = SOUNDS.muted ? "🔇" : "🔊";
     soundBtn.addEventListener("click", () => {
       SOUNDS.muted = !SOUNDS.muted;
-      localStorage.setItem("adamAsmacaMuted", SOUNDS.muted ? "true" : "false");
+      SafeStorage.setItem("adamAsmacaMuted", SOUNDS.muted ? "true" : "false");
       soundBtn.innerHTML = SOUNDS.muted ? "🔇" : "🔊";
     });
     // menü butonunun öncesine ekle
@@ -509,7 +731,7 @@ function handleTimeout() {
   
   // Can azalt
   gameState.wrong.push("SÜRE");
-  gameState.score = Math.max(0, gameState.score - 2);
+  gameState.score -= 2;
   saveScore();
   SOUNDS.wrong();
   
@@ -521,6 +743,7 @@ function handleTimeout() {
   if (gameState.wrong.length >= MAX_WRONG) {
     gameState.over = true;
     gameState.won = false;
+    recordGameResult(false);
     updateUI();
     setTimeout(() => showEndOverlay(), 700);
   } else {
@@ -563,69 +786,135 @@ function sendReport() {
     return;
   }
   
-  const reportText = `Adam Asmaca Hata Bildirimi:\nSınıf: ${gradeLabel}. Sınıf\nDers: ${subjectLabel}\nÜnite: ${unitLabel}\nKelime: ${currentWordVal}\nHata Açıklaması: ${desc}`;
-  
   closeOverlay("report-overlay");
   
-  if (navigator.share) {
-    navigator.share({
-      title: 'Adam Asmaca Hata Bildirimi',
-      text: reportText
-    }).catch(() => {
-      openMailFallback(reportText, currentWordVal);
-    });
-  } else {
-    navigator.clipboard.writeText(reportText).then(() => {
-      alert("Hata açıklaması panoya kopyalandı! Açılacak e-postaya yapıştırıp gönderebilirsiniz.");
-      openMailFallback(reportText, currentWordVal);
-    }).catch(() => {
-      openMailFallback(reportText, currentWordVal);
-    });
-  }
+  submitWordToGoogleForm(currentWordVal, gradeLabel, subjectLabel, unitLabel, desc);
 }
 
-function openMailFallback(text, word) {
-  const email = "destek@example.com";
-  const subject = encodeURIComponent(`Adam Asmaca Hata Bildirimi (${word})`);
-  const body = encodeURIComponent(text);
-  window.open(`mailto:${email}?subject=${subject}&body=${body}`);
+function showNotificationToast(message) {
+  const oldToasts = document.querySelectorAll(".app-notification-toast");
+  oldToasts.forEach(t => t.remove());
+
+  const toast = document.createElement("div");
+  toast.className = "app-notification-toast";
+  toast.style.cssText = `
+    position: fixed;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100px);
+    background: var(--color-surface);
+    color: var(--color-text);
+    border: 2px solid var(--color-primary);
+    border-radius: var(--radius-lg);
+    padding: 12px 24px;
+    font-size: var(--text-md);
+    font-family: var(--font-body);
+    box-shadow: var(--shadow-lg);
+    z-index: 10000;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.4s;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 600;
+    width: 80%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+  `;
+  toast.textContent = message;
+  document.body.appendChild(toast);
+  
+  setTimeout(() => {
+    toast.style.transform = "translateX(-50%) translateY(0)";
+    toast.style.opacity = "1";
+  }, 50);
+  
+  setTimeout(() => {
+    toast.style.transform = "translateX(-50%) translateY(-100px)";
+    toast.style.opacity = "0";
+    setTimeout(() => toast.remove(), 400);
+  }, 3000);
 }
+
+function submitWordToGoogleForm(word, grade, subject, unit, description) {
+  const url = GOOGLE_FORM_CONFIG.formUrl;
+  const entries = GOOGLE_FORM_CONFIG.entries;
+  
+  let wordValue = word || "-";
+  if (description && description !== "Oyun Sonu Ekranından Doğrudan Bildirildi" && description !== "Doğrudan Bildirildi") {
+    wordValue += ` (Açıklama: ${description})`;
+  }
+  
+  const params = new URLSearchParams();
+  if (entries.grade) params.append(entries.grade, grade || "-");
+  if (entries.subject) params.append(entries.subject, subject || "-");
+  if (entries.unit) params.append(entries.unit, unit || "-");
+  if (entries.word) params.append(entries.word, wordValue);
+  
+  showNotificationToast("⏳ Hata bildiriliyor...");
+  
+  fetch(url, {
+    method: "POST",
+    mode: "no-cors",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body: params.toString()
+  })
+  .then(() => {
+    showNotificationToast("✅ Hata bildirildi!");
+  })
+  .catch((err) => {
+    console.error("Google Form submission error:", err);
+    showNotificationToast("❌ Bildirim iletilemedi!");
+  });
+}
+
 
 function openStatsModal() {
-  const stats = STATS.get();
-  document.getElementById("stats-total").textContent = stats.totalGames;
-  document.getElementById("stats-won").textContent = stats.gamesWon;
-  
-  const winRate = stats.totalGames > 0 ? Math.round((stats.gamesWon / stats.totalGames) * 100) : 0;
-  document.getElementById("stats-winrate").textContent = winRate + "%";
-  document.getElementById("stats-streak").textContent = stats.longestStreak;
-  
-  // Grafik bar üretimi
-  const chart = document.getElementById("stats-chart");
-  chart.innerHTML = "";
-  
-  const keys = Object.keys(stats.subjectScores);
-  if (keys.length === 0) {
-    chart.innerHTML = `<p style="text-align:center; color:var(--color-text-faint); margin-top:12px;">Henüz yeterli oyun verisi yok.</p>`;
-  } else {
-    keys.forEach(k => {
-      const subject = stats.subjectScores[k];
-      const rate = Math.round((subject.won / subject.played) * 100);
-      
-      const barWrapper = document.createElement("div");
-      barWrapper.className = "stats-bar-wrapper";
-      barWrapper.innerHTML = `
-        <div class="stats-bar-label">${subject.name} (${subject.played} Oyun)</div>
-        <div class="stats-bar-bg">
-          <div class="stats-bar-fill" style="width: ${rate}%; background-color: var(--color-success);"></div>
-          <span class="stats-bar-pct">%${rate}</span>
-        </div>
-      `;
-      chart.appendChild(barWrapper);
-    });
+  try {
+    const stats = STATS.get();
+    document.getElementById("stats-total").textContent = stats.totalGames;
+    document.getElementById("stats-won").textContent = stats.gamesWon;
+    
+    const winRate = stats.totalGames > 0 ? Math.round((stats.gamesWon / stats.totalGames) * 100) : 0;
+    document.getElementById("stats-winrate").textContent = winRate + "%";
+    document.getElementById("stats-streak").textContent = stats.longestStreak;
+    
+    // Grafik bar üretimi
+    const chart = document.getElementById("stats-chart");
+    chart.innerHTML = "";
+    
+    const keys = Object.keys(stats.subjectScores || {});
+    if (keys.length === 0) {
+      chart.innerHTML = `<p style="text-align:center; color:var(--color-text-faint); margin-top:12px;">Henüz yeterli oyun verisi yok.</p>`;
+    } else {
+      keys.forEach(k => {
+        const subject = stats.subjectScores[k];
+        if (subject && subject.played > 0) {
+          const rate = Math.round((subject.won / subject.played) * 100);
+          
+          const barWrapper = document.createElement("div");
+          barWrapper.className = "stats-bar-wrapper";
+          barWrapper.innerHTML = `
+            <div class="stats-bar-label">${subject.name} (${subject.played} Oyun)</div>
+            <div class="stats-bar-bg">
+              <div class="stats-bar-fill" style="width: ${rate}%; background-color: var(--color-success);"></div>
+              <span class="stats-bar-pct">%${rate}</span>
+            </div>
+          `;
+          chart.appendChild(barWrapper);
+        }
+      });
+    }
+    
+    openOverlay("stats-overlay");
+  } catch (err) {
+    console.error("Stats modal error:", err);
   }
-  
-  openOverlay("stats-overlay");
 }
 
 const BADGE_ICONS = {
@@ -647,8 +936,9 @@ const BADGE_LEVELS = [
 
 function getBadgeLevel(badgeId) {
   try {
-    const counts = JSON.parse(localStorage.getItem("hangman_badge_counts")) || {};
-    const count = counts[badgeId] || 0;
+    const raw = SafeStorage.getItem("hangman_badge_counts");
+    const counts = raw ? JSON.parse(raw) : {};
+    const count = (counts && typeof counts === "object") ? (counts[badgeId] || 0) : 0;
     let level = null;
     for (const lvl of BADGE_LEVELS) {
       if (count >= lvl.threshold) level = lvl;
@@ -659,9 +949,9 @@ function getBadgeLevel(badgeId) {
 
 function incrementBadgeCount(badgeId) {
   try {
-    const counts = JSON.parse(localStorage.getItem("hangman_badge_counts")) || {};
+    const counts = JSON.parse(SafeStorage.getItem("hangman_badge_counts")) || {};
     counts[badgeId] = (counts[badgeId] || 0) + 1;
-    localStorage.setItem("hangman_badge_counts", JSON.stringify(counts));
+    SafeStorage.setItem("hangman_badge_counts", JSON.stringify(counts));
   } catch(e) {}
 }
 
@@ -717,69 +1007,77 @@ function showBadgeDetail(badge, isUnlocked) {
 }
 
 function openBadgesModal() {
-  const unlocked = BADGES.getUnlocked();
-  const grid = document.getElementById("badges-grid");
-  grid.innerHTML = "";
-  
-  BADGES.list.forEach(badge => {
-    const isUnlocked = unlocked.includes(badge.id);
-    const { level } = getBadgeLevel(badge.id);
-    const icon = BADGE_ICONS[badge.id] || "🏅";
-    const card = document.createElement("div");
-    card.className = "badge-card" + (isUnlocked ? "" : " locked");
-    card.style.cursor = "pointer";
-    card.title = isUnlocked ? "Detayları gör" : "Henüz kazanılmadı";
+  try {
+    const unlocked = Array.isArray(BADGES.getUnlocked()) ? BADGES.getUnlocked() : [];
+    const grid = document.getElementById("badges-grid");
+    grid.innerHTML = "";
     
-    const levelBadge = level ? `<span style="font-size:10px;font-weight:700;padding:2px 6px;border-radius:99px;background:${level.color}20;color:${level.color};border:1px solid ${level.color};margin-top:2px;display:inline-block;">${level.label}</span>` : "";
+    BADGES.list.forEach(badge => {
+      const isUnlocked = unlocked.includes(badge.id);
+      const { level } = getBadgeLevel(badge.id);
+      const icon = BADGE_ICONS[badge.id] || "🏅";
+      const card = document.createElement("div");
+      card.className = "badge-card" + (isUnlocked ? "" : " locked");
+      card.style.cursor = "pointer";
+      card.title = isUnlocked ? "Detayları gör" : "Henüz kazanılmadı";
+      
+      const levelBadge = level ? `<span style="font-size:10px;font-weight:700;padding:2px 6px;border-radius:99px;background:${level.color}20;color:${level.color};border:1px solid ${level.color};margin-top:2px;display:inline-block;">${level.label}</span>` : "";
+      
+      card.innerHTML = `
+        <span class="badge-icon">${icon}</span>
+        <span class="badge-name">${badge.name}</span>
+        <span class="badge-desc">${badge.desc}</span>
+        ${levelBadge}
+      `;
+      card.addEventListener("click", () => showBadgeDetail(badge, isUnlocked));
+      grid.appendChild(card);
+    });
     
-    card.innerHTML = `
-      <span class="badge-icon">${icon}</span>
-      <span class="badge-name">${badge.name}</span>
-      <span class="badge-desc">${badge.desc}</span>
-      ${levelBadge}
-    `;
-    card.addEventListener("click", () => showBadgeDetail(badge, isUnlocked));
-    grid.appendChild(card);
-  });
-  
-  openOverlay("badges-overlay");
+    openOverlay("badges-overlay");
+  } catch (err) {
+    console.error("Badges modal error:", err);
+  }
 }
 
 function openMistakesModal() {
-  const mistakes = MISTAKES.get();
-  const subText = document.getElementById("mistakes-count-sub");
-  const container = document.getElementById("mistakes-list");
-  const startBtn = document.getElementById("start-mistakes-btn");
-  
-  container.innerHTML = "";
-  
-  if (mistakes.length === 0) {
-    subText.textContent = "Henüz yanlış bildiğin bir kelime yok. Harikasın!";
-    startBtn.style.display = "none";
-  } else {
-    subText.textContent = `${mistakes.length} hatalı kelimen var. Tekrar ederek pekiştir!`;
-    startBtn.style.display = "inline-block";
+  try {
+    const mistakes = Array.isArray(MISTAKES.get()) ? MISTAKES.get() : [];
+    const subText = document.getElementById("mistakes-count-sub");
+    const container = document.getElementById("mistakes-list");
+    const startBtn = document.getElementById("start-mistakes-btn");
     
-    mistakes.forEach(item => {
-      const card = document.createElement("div");
-      card.className = "mistake-item";
-      card.innerHTML = `
-        <div class="mistake-info">
-          <span class="mistake-word">${item.word}</span>
-          <span class="mistake-hint">İpucu: ${item.hint}</span>
-          <span class="mistake-meta">${item.gradeName} - ${item.subjectName}</span>
-        </div>
-        <span class="mistake-del-btn" title="Listeden Kaldır">🗑️</span>
-      `;
-      card.querySelector(".mistake-del-btn").addEventListener("click", () => {
-        MISTAKES.remove(item.word);
-        openMistakesModal(); // Yenile
+    container.innerHTML = "";
+    
+    if (mistakes.length === 0) {
+      subText.textContent = "Henüz yanlış bildiğin bir kelime yok. Harikasın!";
+      startBtn.style.display = "none";
+    } else {
+      subText.textContent = `${mistakes.length} hatalı kelimen var. Tekrar ederek pekiştir!`;
+      startBtn.style.display = "inline-block";
+      
+      mistakes.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "mistake-item";
+        card.innerHTML = `
+          <div class="mistake-info">
+            <span class="mistake-word">${item.word}</span>
+            <span class="mistake-hint">İpucu: ${item.hint}</span>
+            <span class="mistake-meta">${item.gradeName} - ${item.subjectName}</span>
+          </div>
+          <span class="mistake-del-btn" title="Listeden Kaldır">🗑️</span>
+        `;
+        card.querySelector(".mistake-del-btn").addEventListener("click", () => {
+          MISTAKES.remove(item.word);
+          openMistakesModal(); // Yenile
+        });
+        container.appendChild(card);
       });
-      container.appendChild(card);
-    });
+    }
+    
+    openOverlay("mistakes-overlay");
+  } catch (err) {
+    console.error("Mistakes modal error:", err);
   }
-  
-  openOverlay("mistakes-overlay");
 }
 
 function startReviewMode() {
@@ -799,6 +1097,23 @@ function startReviewMode() {
   
   newGame();
   showGameScreen();
+}
+
+function prepareRoundWordBank(words) {
+  currentUnitFullWords = [...words];
+  
+  let count = words.length;
+  if (currentRoundLength !== "all") {
+    count = Math.min(parseInt(currentRoundLength) || 20, words.length);
+  }
+  
+  const shuffled = [...words].sort(() => Math.random() - 0.5);
+  WORD_BANK = shuffled.slice(0, count);
+  availableWords = [...WORD_BANK];
+  
+  // Reset round session stats
+  roundPlayedCount = 0;
+  roundWonCount = 0;
 }
 
 // ── JOKER LOGIC ────────────────────────────────────────────────────────────
@@ -829,7 +1144,7 @@ function useRevealJoker() {
   
   if (unguessed.length > 0) {
     jokersLeft--;
-    gameState.score = Math.max(0, gameState.score - 5);
+    gameState.score -= 5;
     saveScore();
     
     // Rastgele bir harf aç
@@ -853,7 +1168,7 @@ function useEliminateJoker() {
   
   if (wrongUnguessed.length >= 2) {
     jokersLeft--;
-    gameState.score = Math.max(0, gameState.score - 3);
+    gameState.score -= 3;
     saveScore();
     
     // 2 adet yanlış harfi SADECE guessed listesine ekle (wrong listesine DEĞİL)
@@ -941,8 +1256,7 @@ async function startRandomGame() {
         selectedSubject = rSubj;
         const rUnit = non_empty_units[Math.floor(Math.random() * non_empty_units.length)];
         selectedUnit = rUnit;
-        WORD_BANK = rUnit.words;
-        availableWords = [...WORD_BANK];
+        prepareRoundWordBank(rUnit.words);
         newGame();
         showGameScreen();
         return;
@@ -1115,8 +1429,7 @@ function populateSubjects() {
           unitBtn.addEventListener('click', () => {
             selectedSubject = subject;
             selectedUnit = unit;
-            WORD_BANK = unit.words;
-            availableWords = [...WORD_BANK];
+            prepareRoundWordBank(unit.words);
             newGame();
             showGameScreen();
           });
@@ -1145,11 +1458,26 @@ function buildKeyboard() {
   } else {
     layout = KEYBOARDS[currentKeyboard];
   }
+  
+  let lastVisibleRowIndex = -1;
+  layout.forEach((row, ri) => {
+    const isSpaceOnly = row.length === 1 && row[0] === "space";
+    if (!isSpaceOnly) {
+      lastVisibleRowIndex = ri;
+    }
+  });
+
   layout.forEach((row, ri) => {
     const el = document.getElementById(`row-${ri+1}`);
     if(!el) return;
     el.innerHTML = "";
-    if(row[0] === "space" && row.length === 1) return;
+    
+    const isSpaceOnly = row.length === 1 && row[0] === "space";
+    if(isSpaceOnly) {
+      el.style.display = "none";
+      return;
+    }
+    
     row.forEach(key => {
       if(key === "space") return;
       const btn = document.createElement("button");
@@ -1157,14 +1485,25 @@ function buildKeyboard() {
       btn.addEventListener("click", () => guess(key));
       el.appendChild(btn);
     });
-    el.style.display = (row.length === 1 && row[0] === "space") ? "none" : "flex";
+    
+    if (ri === lastVisibleRowIndex) {
+      const setBtn = document.createElement("button");
+      setBtn.className = "key-btn";
+      setBtn.id = "keyboard-settings-btn";
+      setBtn.title = "Klavye Düzeni";
+      setBtn.textContent = "⚙️";
+      el.appendChild(setBtn);
+    }
+    
+    el.style.display = "flex";
   });
   
   const r4 = document.getElementById("row-4");
   if (layout.length < 4) {
     if(r4) r4.style.display = "none";
   } else {
-    if(r4 && !(layout[3].length === 1 && layout[3][0] === "space")) {
+    const isSpaceOnlyRow4 = layout[3].length === 1 && layout[3][0] === "space";
+    if(r4 && !isSpaceOnlyRow4) {
       r4.style.display = "flex";
     }
   }
@@ -1174,7 +1513,7 @@ function toTrUpperCase(str) {
   return str.replace(/i/g, "İ").replace(/ı/g, "I").toUpperCase();
 }
 
-function newGame() {
+function newGame(isRetry = false) {
   if(!WORD_BANK || WORD_BANK.length === 0) {
     alert("Kelimeler yüklenemedi. Lütfen başka bir ders/sınıf seçin.");
     showSubjectScreen();
@@ -1185,20 +1524,26 @@ function newGame() {
   MAX_WRONG = getLivesLimit(currentDifficulty);
   jokersLeft = 3;
   
-  if(availableWords.length === 0) {
-    // Ünite bitti — tamamlama ekranını göster (newGame başlamadan önce)
-    // Ancak sadece önceki oyun bitmiş ise (ilk başlatma değilse) göster
-    if (gameState.word && !gameState.over) {
-      // Henüz oyun oynanmamış, direkt başlat
-    } else if (gameState.word) {
-      showUnitCompleteOverlay();
-      return;
+  if (isRetry && currentEntry) {
+    // Retrying the same word, no need to load a new one or check availableWords
+  } else {
+    if(availableWords.length === 0) {
+      // Ünite bitti — tamamlama ekranını göster (newGame başlamadan önce)
+      // Ancak sadece önceki oyun bitmiş ise (ilk başlatma değilse) göster
+      if (gameState.word && !gameState.over) {
+        // Henüz oyun oynanmamış, direkt başlat
+      } else if (gameState.word) {
+        showUnitCompleteOverlay();
+        return;
+      }
+      availableWords = [...WORD_BANK];
     }
-    availableWords = [...WORD_BANK];
+    
+    const randomIndex = Math.floor(Math.random() * availableWords.length);
+    currentEntry = availableWords.splice(randomIndex, 1)[0];
   }
   
-  const randomIndex = Math.floor(Math.random() * availableWords.length);
-  const entry = availableWords.splice(randomIndex, 1)[0];
+  const entry = currentEntry;
   
   const gradePrefix = selectedGrade ? `${selectedGrade.gradeName} - ` : '';
   const categoryText = `${gradePrefix}${selectedSubject.name} - ${selectedUnit.name.split(':')[0]}`;
@@ -1229,6 +1574,15 @@ function newGame() {
   startTimer();
 }
 
+function recordGameResult(won) {
+  STATS.recordGame(won, streakCount, selectedSubject.id, selectedSubject.name);
+  
+  roundPlayedCount++;
+  if (won) {
+    roundWonCount++;
+  }
+}
+
 function guess(key) {
   if (gameState.over) return;
   const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
@@ -1239,7 +1593,7 @@ function guess(key) {
   const inWord = gameState.word.includes(k);
   if (!inWord) {
     gameState.wrong.push(k);
-    gameState.score = Math.max(0, gameState.score - 2);
+    gameState.score -= 2;
     saveScore();
     SOUNDS.wrong();
     
@@ -1279,14 +1633,14 @@ function guess(key) {
     gameState.score += scoreGain;
     saveScore();
     
-    STATS.recordGame(true, streakCount, selectedSubject.id, selectedSubject.name);
+    recordGameResult(true);
     
     if (isReviewMode) {
       MISTAKES.remove(gameState.rawWord);
     }
     SOUNDS.win();
   } else if (!inWord && gameState.wrong.length >= MAX_WRONG) {
-    STATS.recordGame(false, streakCount, selectedSubject.id, selectedSubject.name);
+    recordGameResult(false);
   }
 
   updateUI();
@@ -1418,12 +1772,11 @@ function updateLives() {
 
 // ── ÜNİTE TAMAMLAMA EKRANI ──────────────────────────────────────────────────────────────────────
 function showUnitCompleteOverlay() {
-  // Ünite istatistiklerini hesapla
-  const stats = STATS.get();
-  const subjectData = selectedSubject ? stats.subjectScores[selectedSubject.id] : null;
-  const totalPlayed = subjectData ? subjectData.played : 0;
-  const totalWon = subjectData ? subjectData.won : 0;
+  // Ünite istatistiklerini hesapla (Ömür boyu değil, bu round/ünite bazında)
+  const totalPlayed = roundPlayedCount;
+  const totalWon = roundWonCount;
   const winRate = totalPlayed > 0 ? Math.round((totalWon / totalPlayed) * 100) : 0;
+  const isSuccess = winRate >= 50;
   
   document.querySelectorAll(".overlay").forEach(e => {
     if (e.id !== "stats-overlay" && e.id !== "badges-overlay" && e.id !== "mistakes-overlay") e.remove();
@@ -1442,19 +1795,31 @@ function showUnitCompleteOverlay() {
   const unitName = selectedUnit ? selectedUnit.name : "";
   const subjectName = selectedSubject ? selectedSubject.name : "";
   
-  // Confetti fırlat
-  triggerGradeConfetti();
-  SOUNDS.win();
+  // Kutlama sesleri ve Konfeti
+  if (isSuccess) {
+    triggerGradeConfetti();
+    setTimeout(() => triggerGradeConfetti(), 300); // Çift konfeti patlaması
+    SOUNDS.applause();
+  } else {
+    SOUNDS.sadJingle();
+  }
+  
+  const icon = isSuccess ? "🏆" : "😢";
+  const title = isSuccess ? "Üniteyi Başarıyla Tamamladın!" : "Biraz Daha Çalışmalısın!";
+  const feedbackSub = isSuccess 
+    ? `${subjectName} &rsaquo; ${unitName}`
+    : "Başarı oranı düşük kaldı. Üniteyi tekrar ederek daha iyi bir skor elde edebilirsin!";
   
   card.innerHTML = `
-    <span class="overlay-icon" style="font-size:52px">🎓</span>
-    <h2 class="overlay-title" style="font-size:22px;margin:12px 0 4px;">Üniteyi Tamamladın!</h2>
-    <p class="overlay-sub" style="margin-bottom:16px;">${subjectName} &rsaquo; ${unitName}</p>
+    <span class="overlay-icon" style="font-size:52px">${icon}</span>
+    <h2 class="overlay-title" style="font-size:20px;margin:12px 0 4px;line-height:1.2;">${title}</h2>
+    <p class="overlay-sub" style="margin-bottom:16px; font-size:13px; color:var(--color-text-muted);">${feedbackSub}</p>
     
     <div style="
       background:var(--color-surface-offset); border-radius:var(--radius-lg);
       padding:16px; margin-bottom:16px; width:100%;
       display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; text-align:center;
+      box-sizing: border-box;
     ">
       <div>
         <div style="font-size:28px;font-weight:800;color:var(--color-primary);">${gameState.score}</div>
@@ -1470,18 +1835,19 @@ function showUnitCompleteOverlay() {
       </div>
     </div>
     
-    <div style="width:100%;margin-bottom:20px;">
+    <div style="width:100%;margin-bottom:20px;box-sizing:border-box;">
       <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--color-text-muted);margin-bottom:4px;">
         <span>Başarı Oranı</span>
         <span>%${winRate}</span>
       </div>
       <div style="background:var(--color-border);border-radius:99px;height:8px;overflow:hidden;">
-        <div style="width:${winRate}%;height:100%;background:var(--color-primary);border-radius:99px;transition:width 0.8s ease;"></div>
+        <div style="width:${winRate}%;height:100%;background:${isSuccess ? 'var(--color-success)' : 'var(--color-error)'};border-radius:99px;transition:width 0.8s ease;"></div>
       </div>
     </div>
     
-    <div style="display:flex;flex-direction:column;gap:8px;width:100%;">
-      <button class="btn-primary" id="unit-next-btn" style="width:100%;">Sonraki Ünite →</button>
+    <div style="display:flex;flex-direction:column;gap:8px;width:100%;box-sizing:border-box;">
+      <button class="btn-primary" id="unit-next-btn" style="width:100%;">${isSuccess ? 'Sonraki Ünite →' : 'Tekrar Dene 🔄'}</button>
+      <button class="btn-secondary" id="unit-share-btn" style="width:100%;margin-top:0;">Sonucu Paylaş 🔗</button>
       <button class="btn-secondary" id="unit-replay-btn" style="width:100%;margin-top:0;">Bu Üniteyi Tekrarla 🔄</button>
       <button class="btn-secondary" id="unit-back-btn" style="width:100%;margin-top:0;">Ders Seçimine Dön</button>
     </div>
@@ -1493,7 +1859,6 @@ function showUnitCompleteOverlay() {
   // Sonraki Ünite butonu
   document.getElementById("unit-next-btn").addEventListener("click", () => {
     ov.remove();
-    // Aynı derste bir sonraki Üniteyi bul ve başlat
     if (selectedSubject && selectedUnit) {
       const cachedData = PREFETCHED_DATA[selectedSubject.dataFile];
       if (cachedData && cachedData.units) {
@@ -1502,20 +1867,24 @@ function showUnitCompleteOverlay() {
         if (currentIdx >= 0 && currentIdx + 1 < units.length) {
           const nextUnit = units[currentIdx + 1];
           selectedUnit = nextUnit;
-          WORD_BANK = nextUnit.words;
-          availableWords = [...WORD_BANK];
+          prepareRoundWordBank(nextUnit.words);
           newGame();
           return;
         }
       }
     }
-    // Sonraki ünite bulunamazsa ders seçimine dön
     showSubjectScreen();
+  });
+  
+  // Paylaş butonu
+  const totalWrong = totalPlayed - totalWon;
+  document.getElementById("unit-share-btn").addEventListener("click", (e) => {
+    shareUnitComplete(e.target, totalWon, totalWrong);
   });
   
   document.getElementById("unit-replay-btn").addEventListener("click", () => {
     ov.remove();
-    availableWords = [...WORD_BANK];
+    prepareRoundWordBank(currentUnitFullWords);
     newGame();
   });
   
@@ -1523,6 +1892,40 @@ function showUnitCompleteOverlay() {
     ov.remove();
     showSubjectScreen();
   });
+}
+
+function shareUnitComplete(btn, correct, incorrect) {
+  const gradeLabel = selectedGrade ? selectedGrade.gradeName : "";
+  const subjectLabel = selectedSubject ? selectedSubject.name : "";
+  const unitLabel = selectedUnit ? selectedUnit.name : "";
+  
+  const shareText = `Adam Asmaca Eğitim - Ünite Tamamlandı! 🎓\nSınıf/Ders: ${gradeLabel}. Sınıf ${subjectLabel}\nÜnite: "${unitLabel}"\nSonuç: ${correct} Doğru, ${incorrect} Yanlış\nToplam Puanım: ${gameState.score} ⭐\nSen de kendini test et! 🏆`;
+
+  if (navigator.share) {
+    navigator.share({
+      title: "Adam Asmaca Eğitim",
+      text: shareText
+    }).catch(() => {});
+    return;
+  }
+  
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(shareText).then(() => {
+      const orig = btn.textContent;
+      btn.textContent = "Panoya Kopyalandı! ✅";
+      setTimeout(() => btn.textContent = orig, 2500);
+    });
+  } else {
+    const orig = btn.textContent;
+    btn.textContent = "Kopyalandı! ✅";
+    setTimeout(() => btn.textContent = orig, 2000);
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = shareText; ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select(); document.execCommand("copy");
+      document.body.removeChild(ta);
+    } catch(e) { alert(shareText); }
+  }
 }
 
 // ── END OVERLAY & FLASHCARD ──────────────────────────────────────────────────
@@ -1558,7 +1961,10 @@ function showEndOverlay() {
   reportBtn.title = "Hata Bildir";
   reportBtn.addEventListener("click", (e) => {
     e.stopPropagation();
-    openReportModal();
+    const gradeLabel = selectedGrade ? selectedGrade.gradeName : "-";
+    const subjectLabel = selectedSubject ? selectedSubject.name : "-";
+    const unitLabel = selectedUnit ? selectedUnit.name : "-";
+    submitWordToGoogleForm(gameState.word, gradeLabel, subjectLabel, unitLabel, "Oyun Sonu Ekranından Doğrudan Bildirildi");
   });
   reportBtn.addEventListener("mouseenter", () => reportBtn.style.opacity = "1");
   reportBtn.addEventListener("mouseleave", () => reportBtn.style.opacity = "0.6");
@@ -1596,7 +2002,7 @@ function showEndOverlay() {
   } else {
     icon.textContent = "💀"; title.textContent = "Eyvah, Astın!";
     sub.textContent = `Kelimeyi bulamadın. Toplam Puan: ${gameState.score}`;
-    btnPrimary.textContent = "Tekrar Dene";
+    btnPrimary.textContent = "Sıradaki Kelime →";
   }
   
   btnShare.textContent = "Skorunu Paylaş 🔗";
@@ -1604,7 +2010,7 @@ function showEndOverlay() {
   
   btnPrimary.addEventListener("click", () => {
     ov.remove();
-    newGame();
+    newGame(false);
   });
   
   btnShare.addEventListener("click", () => {

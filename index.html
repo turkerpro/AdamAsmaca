@@ -13,7 +13,7 @@
     background-color: #10743D;
   }
 </style>
-<link rel="stylesheet" href="./style.css?v=16">
+<link rel="stylesheet" href="./style.css?v=18">
 </head>
 <body>
 
@@ -169,7 +169,6 @@
       </div>
     </div>
 
-    <!-- KLAVYE + Ayar butonu -->
     <div class="keyboard-wrapper">
       <div class="keyboard-area" id="keyboard-area">
         <div class="keyboard-row" id="row-1"></div>
@@ -177,21 +176,16 @@
         <div class="keyboard-row" id="row-3"></div>
         <div class="keyboard-row" id="row-4"></div>
       </div>
-      <button class="keyboard-settings-btn" id="keyboard-settings-btn" title="Klavye Düzeni">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-          <circle cx="12" cy="12" r="3"/>
-          <path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/>
-          <path d="M12 2v2M12 20v2M2 12h2M20 12h2"/>
-        </svg>
-      </button>
     </div>
   </div>
 </div>
 
-<!-- KEYBOARD SETTINGS POPUP -->
+<!-- GAME SETTINGS POPUP -->
 <div class="kb-popup" id="kb-popup" style="display:none;">
   <div class="kb-popup-inner">
-    <div class="kb-popup-title">Klavye Düzeni</div>
+    <div class="kb-popup-title">Oyun Ayarları</div>
+    
+    <div class="settings-section-title">Klavye Düzeni</div>
     <div class="kb-options-list" id="keyboard-options-list">
       <button class="kb-option-btn" data-value="qwerty">Standart (Q)</button>
       <button class="kb-option-btn" data-value="f">Standart (F)</button>
@@ -199,7 +193,16 @@
       <button class="kb-option-btn" data-value="smart">Akıllı Mobil</button>
       <button class="kb-option-btn" data-value="abc">Alfabetik</button>
     </div>
-    <button class="kb-popup-close" id="kb-popup-close">Kapat</button>
+    
+    <div class="settings-section-title" style="margin-top:12px;">Tur Uzunluğu</div>
+    <div class="round-options-list" id="round-options-list" style="display:flex; gap:8px; width:100%;">
+      <button class="round-option-btn" data-value="10" style="flex:1;">10</button>
+      <button class="round-option-btn" data-value="20" style="flex:1;">20</button>
+      <button class="round-option-btn" data-value="30" style="flex:1;">30</button>
+      <button class="round-option-btn" data-value="all" style="flex:1;">Tümü</button>
+    </div>
+    
+    <button class="kb-popup-close" id="kb-popup-close" style="margin-top:8px;">Kapat</button>
   </div>
 </div>
 
@@ -221,7 +224,7 @@
     ></textarea>
 
     <div style="display:flex; gap:12px; justify-content:center; width:100%;">
-      <button class="btn-primary" id="send-report-btn" style="margin-top:0; flex:1;">Gönder / Paylaş</button>
+      <button class="btn-primary" id="send-report-btn" style="margin-top:0; flex:1;">Gönder</button>
       <button class="btn-secondary" id="close-report-btn" style="margin-top:0; flex:1;">Kapat</button>
     </div>
   </div>
@@ -277,6 +280,6 @@
   </div>
 </div>
 
-<script src="./main.js?v=16"></script>
+<script src="./main.js?v=18"></script>
 </body>
 </html>
