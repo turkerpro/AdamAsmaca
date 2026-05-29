@@ -14,7 +14,7 @@ const GOOGLE_FORM_CONFIG = {
 // ── TEACHER SUBMITTED WORDS GOOGLE SHEET CSV ────────────────────────────────────
 // Google E-Tablo'dan "Web'de Yayınla" diyerek aldığınız CSV linkini buraya yapıştırın.
 // Örnek: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTEACHER_CSV_KEY/pub?gid=0&single=true&output=csv"
-const TEACHER_WORDS_CSV_URL = ""; 
+const TEACHER_WORDS_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTTZmj8vY5uYgRc1EZT5yTo6KkyZZKO7Bfh8gwT36RnUrst6wJ-DnHYKclRNGZD0xqTZv-97qV46t1M/pub?gid=1918846397&single=true&output=csv"; 
 
 
 // ── SAFE STORAGE FALLBACKS ────────────────────────────────────────────────────

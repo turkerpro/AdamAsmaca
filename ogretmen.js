@@ -1,7 +1,7 @@
 // ── ÖĞRETMEN PANELİ YÖNLENDİRME YAPILANDIRMASI ────────────────────────────────
 
 // Lütfen buradaki URL'yi kendi oluşturduğunuz Google Form'un linki ile değiştirin:
-const TEACHER_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdKQQC5kDohdH5zo_AF9yFGdo3fSDHq00Ut0kMilIlQYqqjfw/viewform"; 
+const TEACHER_FORM_URL = "https://forms.gle/4yUimweuP6BPTVyu9"; 
 
 document.addEventListener("DOMContentLoaded", () => {
   // Tema yönetimi
