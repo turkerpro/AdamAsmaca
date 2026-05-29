@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Adam Asmaca Eğitim</string>
+    <string name="title_activity_main">Adam Asmaca Eğitim</string>
+    <string name="package_name">com.turkerpro.adamasmaca</string>
+    <string name="custom_url_scheme">com.turkerpro.adamasmaca</string>
+</resources>

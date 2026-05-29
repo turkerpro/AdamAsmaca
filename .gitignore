@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.stylelintcache
+
+# Temporary scripts & Python cache
+__pycache__/
+**/__pycache__/
+scratch/
+data_backup/
+data/counts_output.txt
+test_keys_and_bug.py
