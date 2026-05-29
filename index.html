@@ -6,14 +6,14 @@
 <title>Adam Asmaca - Eğitim</title>
 <link rel="manifest" href="./manifest.json">
 <meta name="theme-color" content="#171614">
-<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSI+PHJlY3QgeD0iNCIgeT0iNiIgd2lkdGg9IjQiIHJ4PSIyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC4zIi8+PHJlY3QgeD0iNCIgeT0iNiIgd2lkdGg9IjE0IiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41Ii8+PHJlY3QgeD0iMTYiIHk9IjYiIHdpZHRoPSIyIiBoZWlnaHQ9IjYiIHJ4PSIxIiBmaWxsPSJ3aGl0ZSIvPjxjaXJjbGUgY3g9IjE3IiBjeT0iMTYiIHI9IjMuNSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+PGxpbmUgeDE9IjE3IiB5MT0iMTkuNSIgeDI9IjE3IiB5Mj0iMjYiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGxpbmUgeDE9IjE3IiB5MT0iMjEiIHgyPSIxMyIgeTI9IjI0IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxsaW5lIHgxPSIxNyIgeTE9IjIxIiB4Mj0iMjEiIHkyPSIyNCIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48bGluZSB4MT0iMTciIHkxPSIyNiIgeDI9IjEzIiB5Mj0iMzAiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGxpbmUgeDE9IjE3IiB5MT0iMjYiIHgyPSIyMSIgeTI9IjMwIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
 <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css?v=15">
+<link rel="stylesheet" href="./style.css?v=16">
 </head>
 <body>
 
 <div class="header">
-  <div class="logo">
+  <div class="logo" id="logo-home-btn" title="Ana Sayfaya Dön" style="cursor:pointer;">
     <svg class="logo-icon" viewBox="0 0 36 36" fill="none" aria-label="Adam Asmaca">
       <rect x="4" y="6" width="4" height="24" rx="2" fill="currentColor" opacity="0.3"/>
       <rect x="4" y="6" width="14" height="4" rx="2" fill="currentColor" opacity="0.5"/>
@@ -28,16 +28,38 @@
     <span class="logo-text">Adam Asmaca Eğitim</span>
   </div>
   <div class="header-right">
-    <button class="nav-icon-btn" id="nav-mistakes-btn" title="Hata Defteri">📘</button>
-    <button class="nav-icon-btn" id="nav-badges-btn" title="Rozetlerim">🏅</button>
-    <button class="nav-icon-btn" id="nav-stats-btn" title="İstatistikler">📊</button>
     <button class="theme-toggle" data-theme-toggle aria-label="Temayı değiştir">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
       </svg>
     </button>
+    <!-- Hamburger menu button -->
+    <button class="nav-icon-btn" id="nav-menu-btn" title="Menü" aria-label="Menü">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+        <line x1="4" y1="6" x2="20" y2="6"/>
+        <line x1="4" y1="12" x2="20" y2="12"/>
+        <line x1="4" y1="18" x2="20" y2="18"/>
+      </svg>
+    </button>
   </div>
 </div>
+
+<!-- HAMBURGER DROPDOWN MENU -->
+<div class="nav-dropdown" id="nav-dropdown" style="display:none;">
+  <button class="nav-menu-item" id="nav-mistakes-btn">
+    <span class="nav-menu-icon">📘</span>
+    <span>Hata Defteri</span>
+  </button>
+  <button class="nav-menu-item" id="nav-badges-btn">
+    <span class="nav-menu-icon">🏅</span>
+    <span>Rozetlerim</span>
+  </button>
+  <button class="nav-menu-item" id="nav-stats-btn">
+    <span class="nav-menu-icon">📊</span>
+    <span>İstatistikler</span>
+  </button>
+</div>
+<div class="nav-dropdown-backdrop" id="nav-backdrop" style="display:none;"></div>
 
 <!-- GRADE SCREEN -->
 <div class="screen active" id="grade-screen">
@@ -63,24 +85,20 @@
 <!-- GAME SCREEN -->
 <div class="screen" id="game-screen">
   <div class="screen-header">
-    <button class="back-btn" id="back-to-subjects">Sınıf / Ders Seç</button>
-    
-    <div class="header-controls">
-      <select id="difficulty-select" class="back-btn config-select">
+    <!-- Row 1: Sınıf/Ders Seç + Zorluk + Süre (eşit boyut) -->
+    <div class="game-controls-row">
+      <button class="ctrl-btn" id="back-to-subjects">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+        Sınıf / Ders Seç
+      </button>
+
+      <select id="difficulty-select" class="ctrl-btn ctrl-select">
         <option value="easy">Kolay (8 Can)</option>
         <option value="medium" selected>Orta (6 Can)</option>
         <option value="hard">Zor (4 Can)</option>
       </select>
 
-      <button class="back-btn" id="time-mode-btn">⏱️ Süreli: Kapalı</button>
-
-      <select id="keyboard-select" class="back-btn keyboard-select">
-        <option value="qwerty">Standart (Q)</option>
-        <option value="f">Standart (F)</option>
-        <option value="mobile_q">Mobil (Q)</option>
-        <option value="smart">Akıllı Mobil</option>
-        <option value="abc">Alfabetik</option>
-      </select>
+      <button class="ctrl-btn ctrl-btn-toggle" id="time-mode-btn">⏱️ Süreli: Kapalı</button>
     </div>
   </div>
   
@@ -133,18 +151,46 @@
       <div class="wrong-letters" id="wrong-letters"></div>
     </div>
 
+    <!-- JOKERLER - dikey ortalı -->
     <div class="jokers-area">
-      <button class="joker-btn" id="joker-reveal-btn">💡 Harf Göster (-5 Puan)</button>
-      <button class="joker-btn" id="joker-eliminate-btn">❌ Harf Ele (-3 Puan)</button>
-      <span class="joker-status" id="joker-status">Joker: 3/3</span>
+      <div class="jokers-inner">
+        <button class="joker-btn" id="joker-reveal-btn">💡 Harf Göster <span class="joker-cost">-5 Puan</span></button>
+        <span class="joker-status" id="joker-status">3/3 Joker</span>
+        <button class="joker-btn" id="joker-eliminate-btn">❌ Harf Ele <span class="joker-cost">-3 Puan</span></button>
+      </div>
     </div>
 
-    <div class="keyboard-area" id="keyboard-area">
-      <div class="keyboard-row" id="row-1"></div>
-      <div class="keyboard-row" id="row-2"></div>
-      <div class="keyboard-row" id="row-3"></div>
-      <div class="keyboard-row" id="row-4"></div>
+    <!-- KLAVYE + Ayar butonu -->
+    <div class="keyboard-wrapper">
+      <div class="keyboard-area" id="keyboard-area">
+        <div class="keyboard-row" id="row-1"></div>
+        <div class="keyboard-row" id="row-2"></div>
+        <div class="keyboard-row" id="row-3"></div>
+        <div class="keyboard-row" id="row-4"></div>
+      </div>
+      <button class="keyboard-settings-btn" id="keyboard-settings-btn" title="Klavye Düzeni">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/>
+          <path d="M12 2v2M12 20v2M2 12h2M20 12h2"/>
+        </svg>
+      </button>
     </div>
+  </div>
+</div>
+
+<!-- KEYBOARD SETTINGS POPUP -->
+<div class="kb-popup" id="kb-popup" style="display:none;">
+  <div class="kb-popup-inner">
+    <div class="kb-popup-title">Klavye Düzeni</div>
+    <select id="keyboard-select" class="kb-select">
+      <option value="qwerty">Standart (Q)</option>
+      <option value="f">Standart (F)</option>
+      <option value="mobile_q">Mobil (Q)</option>
+      <option value="smart">Akıllı Mobil</option>
+      <option value="abc">Alfabetik</option>
+    </select>
+    <button class="kb-popup-close" id="kb-popup-close">Kapat</button>
   </div>
 </div>
 
@@ -198,6 +244,6 @@
   </div>
 </div>
 
-<script src="./main.js?v=15"></script>
+<script src="./main.js?v=16"></script>
 </body>
 </html>

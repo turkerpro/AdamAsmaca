@@ -313,17 +313,6 @@ async function init() {
   if(backToSubBtn) {
      backToSubBtn.addEventListener('click', showGradeScreen);
   }
-
-  const kbSelect = document.getElementById('keyboard-select');
-  if (kbSelect) {
-    kbSelect.value = currentKeyboard;
-    kbSelect.addEventListener('change', (e) => {
-      currentKeyboard = e.target.value;
-      localStorage.setItem("adamAsmacaKb", currentKeyboard);
-      buildKeyboard();
-      updateKeys();
-    });
-  }
   
   if(CURRICULUM_DATA && CURRICULUM_DATA.length > 0) {
     populateGrades();
@@ -335,6 +324,40 @@ async function init() {
 }
 
 function setupSettingsAndModals() {
+  // Logo tıkladığında sınıf seçimine git
+  const logoBtn = document.getElementById("logo-home-btn");
+  if (logoBtn) {
+    logoBtn.addEventListener("click", () => {
+      showGradeScreen();
+    });
+  }
+
+  // Hamburger menü
+  const menuBtn = document.getElementById("nav-menu-btn");
+  const dropdown = document.getElementById("nav-dropdown");
+  const backdrop = document.getElementById("nav-backdrop");
+  if (menuBtn && dropdown) {
+    menuBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = dropdown.style.display !== "none";
+      dropdown.style.display = isOpen ? "none" : "block";
+      backdrop.style.display = isOpen ? "none" : "block";
+    });
+    backdrop.addEventListener("click", () => {
+      dropdown.style.display = "none";
+      backdrop.style.display = "none";
+    });
+  }
+
+  // Nav menü içindeki butonlar (modal açınca dropdown kapansın)
+  function navMenuAction(fn) {
+    return () => {
+      if (dropdown) dropdown.style.display = "none";
+      if (backdrop) backdrop.style.display = "none";
+      fn();
+    };
+  }
+
   // Zorluk seçici
   const diffSelect = document.getElementById("difficulty-select");
   if (diffSelect) {
@@ -346,14 +369,16 @@ function setupSettingsAndModals() {
     });
   }
 
-  // Süreli Mod
+  // Süreli Mod - active sınıfı ile toggle
   const timeBtn = document.getElementById("time-mode-btn");
   if (timeBtn) {
     timeBtn.textContent = timeModeActive ? "⏱️ Süreli: Açık" : "⏱️ Süreli: Kapalı";
+    if (timeModeActive) timeBtn.classList.add("active");
     timeBtn.addEventListener("click", () => {
       timeModeActive = !timeModeActive;
       localStorage.setItem("adamAsmacaTimeMode", timeModeActive ? "true" : "false");
       timeBtn.textContent = timeModeActive ? "⏱️ Süreli: Açık" : "⏱️ Süreli: Kapalı";
+      timeBtn.classList.toggle("active", timeModeActive);
       newGame();
     });
   }
@@ -363,30 +388,57 @@ function setupSettingsAndModals() {
   document.getElementById("joker-eliminate-btn").addEventListener("click", useEliminateJoker);
 
   // Navigasyon Modalları
-  document.getElementById("nav-stats-btn").addEventListener("click", openStatsModal);
+  document.getElementById("nav-stats-btn").addEventListener("click", navMenuAction(openStatsModal));
   document.getElementById("close-stats-btn").addEventListener("click", () => closeOverlay("stats-overlay"));
 
-  document.getElementById("nav-badges-btn").addEventListener("click", openBadgesModal);
+  document.getElementById("nav-badges-btn").addEventListener("click", navMenuAction(openBadgesModal));
   document.getElementById("close-badges-btn").addEventListener("click", () => closeOverlay("badges-overlay"));
 
-  document.getElementById("nav-mistakes-btn").addEventListener("click", openMistakesModal);
+  document.getElementById("nav-mistakes-btn").addEventListener("click", navMenuAction(openMistakesModal));
   document.getElementById("close-mistakes-btn").addEventListener("click", () => closeOverlay("mistakes-overlay"));
   document.getElementById("start-mistakes-btn").addEventListener("click", startReviewMode);
 
-  // Ses kapatma / açma
-  const themeToggle = document.querySelector(".theme-toggle");
-  if (themeToggle) {
+  // Klavye ayar butonu popup
+  const kbSettingsBtn = document.getElementById("keyboard-settings-btn");
+  const kbPopup = document.getElementById("kb-popup");
+  const kbPopupClose = document.getElementById("kb-popup-close");
+  const kbSelect = document.getElementById("keyboard-select");
+
+  if (kbSettingsBtn && kbPopup) {
+    kbSelect.value = currentKeyboard;
+    kbSettingsBtn.addEventListener("click", () => {
+      kbPopup.style.display = "flex";
+    });
+    kbPopupClose.addEventListener("click", () => {
+      kbPopup.style.display = "none";
+    });
+    kbPopup.addEventListener("click", (e) => {
+      if (e.target === kbPopup) kbPopup.style.display = "none";
+    });
+    kbSelect.addEventListener("change", (e) => {
+      currentKeyboard = e.target.value;
+      localStorage.setItem("adamAsmacaKb", currentKeyboard);
+      buildKeyboard();
+      updateKeys();
+    });
+  }
+
+  // Ses aç/kapat butonu - menüün yanına ekle
+  const headerRight = document.querySelector(".header-right");
+  if (headerRight) {
     const soundBtn = document.createElement("button");
     soundBtn.className = "theme-toggle";
-    soundBtn.style.marginRight = "8px";
     soundBtn.title = "Sesi Kapat/Aç";
+    soundBtn.style.cssText = "font-size:16px;";
     soundBtn.innerHTML = SOUNDS.muted ? "🔇" : "🔊";
     soundBtn.addEventListener("click", () => {
       SOUNDS.muted = !SOUNDS.muted;
       localStorage.setItem("adamAsmacaMuted", SOUNDS.muted ? "true" : "false");
       soundBtn.innerHTML = SOUNDS.muted ? "🔇" : "🔊";
     });
-    themeToggle.parentNode.insertBefore(soundBtn, themeToggle);
+    // menü butonunun öncesine ekle
+    const menuBtnEl = document.getElementById("nav-menu-btn");
+    headerRight.insertBefore(soundBtn, menuBtnEl);
   }
 }
 
@@ -1475,7 +1527,6 @@ function showEndOverlay() {
 }
 
 function copyShareLink(btn) {
-  const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
   const gradeLabel = selectedGrade ? selectedGrade.gradeName : "";
   const subjectLabel = selectedSubject ? selectedSubject.name : "";
   
@@ -1488,19 +1539,38 @@ function copyShareLink(btn) {
   }
   
   const shareText = `Adam Asmaca Eğitim - ${gradeLabel} ${subjectLabel}
-Kelimeyi ${gameState.won ? "BİLDİM!" : "Bilemedim..."}
+Kelimeyi ${gameState.won ? "BİLDİM! 🎉" : "Bilemedim... 💀"}
 Can: ${livesLeft}/${MAX_WRONG} | Puan: ${gameState.score}
 ${blockGrid}
-Sen de yerel mobil uygulamayı kurup oyna! 🏆`;
+Sen de Adam Asmaca Eğitim'i oyna! 🏆`;
+
+  // Web Share API (mobil paylaşma menüsü)
+  if (navigator.share) {
+    navigator.share({
+      title: "Adam Asmaca Eğitim",
+      text: shareText
+    }).catch(() => {}); // kullanıcı iptal ederse yoksay
+    return;
+  }
   
+  // Fallback: Panoya kopyala
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(shareText).then(() => {
       const orig = btn.textContent;
       btn.textContent = "Panoya Kopyalandı! ✅";
-      setTimeout(() => btn.textContent = orig, 2000);
+      setTimeout(() => btn.textContent = orig, 2500);
     });
   } else {
-    alert(shareText);
+    // Son çare: prompt
+    const orig = btn.textContent;
+    btn.textContent = "Kopyalandı! ✅";
+    setTimeout(() => btn.textContent = orig, 2000);
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = shareText; ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select(); document.execCommand("copy");
+      document.body.removeChild(ta);
+    } catch(e) { alert(shareText); }
   }
 }
 

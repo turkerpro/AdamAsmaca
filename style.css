@@ -320,19 +320,150 @@
   .back-btn{background:var(--color-surface);color:var(--color-text);border:1px solid var(--color-border);padding:var(--space-2) var(--space-4);border-radius:100px;font-weight:600;display:inline-flex;align-items:center;gap:var(--space-2);cursor:pointer;transition:all 0.2s ease;}
   .back-btn:hover{background:var(--color-bg);transform:translateY(-1px);}
 
-  .keyboard-select {
-    padding-right: 28px;
-    outline: none;
+  /* GAME CONTROLS ROW - eşit boyutlu butonlar */
+  .game-controls-row {
+    display: flex;
+    gap: var(--space-2);
+    align-items: stretch;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .ctrl-btn {
+    flex: 1;
+    min-width: 0;
+    height: 40px;
+    padding: 0 var(--space-3);
+    background: var(--color-surface);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: var(--text-xs);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ctrl-btn:hover {
+    background: var(--color-bg);
+    border-color: var(--color-primary);
+    transform: translateY(-1px);
+  }
+  .ctrl-select {
     -webkit-appearance: none;
     appearance: none;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
     background-repeat: no-repeat;
-    background-position: right 8px center;
-    background-size: 16px;
+    background-position: right 10px center;
+    background-size: 14px;
+    padding-right: 28px;
+    outline: none;
+    cursor: pointer;
   }
-  .keyboard-select option {
+  .ctrl-select option {
     background-color: var(--color-surface);
     color: var(--color-text);
+  }
+  .ctrl-btn-toggle.active {
+    background: var(--color-primary-highlight);
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+
+  /* KEYBOARD SETTINGS POPUP */
+  .keyboard-wrapper {
+    position: relative;
+  }
+  .keyboard-settings-btn {
+    position: absolute;
+    bottom: var(--space-6);
+    right: var(--space-4);
+    width: 32px;
+    height: 32px;
+    border-radius: var(--radius-full);
+    background: var(--color-surface-offset);
+    border: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 5;
+    opacity: 0.7;
+  }
+  .keyboard-settings-btn:hover {
+    opacity: 1;
+    background: var(--color-surface-2);
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    transform: rotate(30deg);
+  }
+  .kb-popup {
+    position: fixed;
+    inset: 0;
+    z-index: 500;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(4px);
+    animation: fadeIn 0.2s ease;
+  }
+  .kb-popup-inner {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    padding: var(--space-6);
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    animation: slideUp 0.3s cubic-bezier(0.34,1.56,0.64,1);
+  }
+  .kb-popup-title {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    font-weight: 800;
+    text-align: center;
+  }
+  .kb-select {
+    width: 100%;
+    padding: var(--space-3) var(--space-4);
+    background: var(--color-surface-offset);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    font-size: var(--text-base);
+    font-weight: 600;
+    color: var(--color-text);
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    outline: none;
+    cursor: pointer;
+  }
+  .kb-popup-close {
+    padding: var(--space-3) var(--space-8);
+    background: var(--color-primary);
+    color: white;
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    align-self: center;
+    box-shadow: var(--shadow-md);
+  }
+  .kb-popup-close:hover {
+    background: var(--color-primary-hover);
+    transform: translateY(-2px);
   }
 
   /* GRID LIST (Grades) */
@@ -571,34 +702,65 @@
     background: var(--color-surface);
     border: 1px solid var(--color-border);
     font-size: var(--text-base);
+    color: var(--color-text-muted);
     transition: all var(--transition-interactive);
   }
   .nav-icon-btn:hover {
     background: var(--color-surface-offset);
-    transform: translateY(-2px);
+    color: var(--color-text);
+    transform: translateY(-1px);
     box-shadow: var(--shadow-sm);
   }
-  .nav-icon-btn:active {
-    transform: translateY(0);
+  /* HAMBURGER DROPDOWN */
+  .nav-dropdown {
+    position: absolute;
+    top: calc(var(--space-8) + 48px);
+    right: var(--space-4);
+    z-index: 300;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    min-width: 180px;
+    animation: slideUp 0.2s ease;
+  }
+  .nav-dropdown-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 299;
+  }
+  .nav-menu-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+    width: 100%;
+    text-align: left;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-text);
+    border-bottom: 1px solid var(--color-divider);
+    transition: background 0.15s ease;
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0;
+  }
+  .nav-menu-item:last-child {
+    border-bottom: none;
+  }
+  .nav-menu-item:hover {
+    background: var(--color-surface-offset);
+  }
+  .nav-menu-icon {
+    font-size: 18px;
+    flex-shrink: 0;
   }
 
-  /* CONFIG SELECTORS */
-  .header-controls {
-    display: flex;
-    gap: var(--space-2);
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .config-select {
-    padding-right: 28px;
-    outline: none;
-    -webkit-appearance: none;
-    appearance: none;
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
-    background-repeat: no-repeat;
-    background-position: right 8px center;
-    background-size: 16px;
-  }
+  /* CONFIG SELECTORS - eski, kaldırıldı */
+  .header-controls { display: flex; gap: var(--space-2); align-items: center; flex-wrap: wrap; }
   
   /* STATS ROW */
   .left-stats, .right-stats {
@@ -666,18 +828,20 @@
 
   /* JOKERS */
   .jokers-area {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 var(--space-6) var(--space-3);
-    gap: var(--space-3);
-    flex-wrap: wrap;
+    padding: var(--space-3) var(--space-4);
     background: var(--color-surface-2);
     border-bottom: 1px solid var(--color-divider);
   }
+  .jokers-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
+    width: 100%;
+  }
   .joker-btn {
     flex: 1;
-    min-width: 120px;
+    max-width: 180px;
     padding: var(--space-2) var(--space-3);
     background: var(--color-surface-offset);
     border: 1px solid var(--color-border);
@@ -686,6 +850,16 @@
     font-weight: 600;
     text-align: center;
     box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+  .joker-cost {
+    font-size: 9px;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    opacity: 0.8;
   }
   .joker-btn:hover:not(:disabled) {
     background: var(--color-surface-2);
@@ -701,9 +875,11 @@
   }
   .joker-status {
     font-size: var(--text-xs);
-    font-weight: 600;
+    font-weight: 700;
     color: var(--color-text-muted);
     white-space: nowrap;
+    text-align: center;
+    min-width: 60px;
   }
 
   /* MODAL / STATS DETAILS */
@@ -925,19 +1101,23 @@
       opacity: 1;
     }
   }
+  /* HANGMAN - Sadece fade-in animasyonu (sallantısız) */
+  @keyframes fadeInPart {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
   .body-part.animate-drop {
-    animation: dropSwing 0.75s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-    transform-origin: 110px 40px; /* origin at top connector rope */
+    animation: fadeInPart 0.5s ease forwards;
   }
 
-  /* GENERAL SHAKE ANIMATION */
+  /* GENERAL SHAKE ANIMATION - daha yumuşak */
   @keyframes shake {
     0%, 100% { transform: translateX(0); }
-    20%, 60% { transform: translateX(-6px); }
-    40%, 80% { transform: translateX(6px); }
+    25%, 75% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
   }
   .shake {
-    animation: shake 0.3s ease-in-out;
+    animation: shake 0.25s ease-in-out;
   }
 
   @media(max-width:480px){
@@ -947,16 +1127,21 @@
     .word-area{padding:var(--space-4) var(--space-2)}
     .screen-header{flex-wrap:wrap; justify-content:center;}
     .screen-title{text-align:center;}
-    .header-controls {
-      width: 100%;
-      justify-content: center;
-      margin-top: var(--space-2);
+    .game-controls-row {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      gap: var(--space-1);
+      padding-bottom: var(--space-1);
+    }
+    .ctrl-btn {
+      min-width: 80px;
+      font-size: 10px;
+      padding: 0 var(--space-2);
     }
     .jokers-area {
-      padding: 0 var(--space-3) var(--space-2);
+      padding: var(--space-2) var(--space-3);
     }
     .joker-btn {
-      min-width: 100px;
       padding: var(--space-2) var(--space-2);
       font-size: 10px;
     }
