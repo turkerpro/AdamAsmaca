@@ -11,6 +11,12 @@ const GOOGLE_FORM_CONFIG = {
   }
 };
 
+// ── TEACHER SUBMITTED WORDS GOOGLE SHEET CSV ────────────────────────────────────
+// Google E-Tablo'dan "Web'de Yayınla" diyerek aldığınız CSV linkini buraya yapıştırın.
+// Örnek: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTEACHER_CSV_KEY/pub?gid=0&single=true&output=csv"
+const TEACHER_WORDS_CSV_URL = ""; 
+
+
 // ── SAFE STORAGE FALLBACKS ────────────────────────────────────────────────────
 // Iframe veya kısıtlı web tarayıcı ortamlarında localStorage / sessionStorage
 // erişimi engellendiğinde (DOMException) çökme yaşanmaması için in-memory fallback sağlar.
@@ -460,11 +466,164 @@ function getBodyPartsForAttempt(wrongCount, maxWrong) {
   return partsToReveal;
 }
 
+// ── TEACHER SUBMITTED WORDS LOADER & PARSER ──────────────────────────────────
+async function fetchTeacherWords() {
+  if (!TEACHER_WORDS_CSV_URL) {
+    console.log("Öğretmen kelimeleri CSV linki tanımlı değil. Dinamik yükleme atlandı.");
+    return;
+  }
+  try {
+    const res = await fetch(TEACHER_WORDS_CSV_URL + "?t=" + Date.now());
+    if (!res.ok) throw new Error("CSV dosyası çekilemedi.");
+    const csvText = await res.text();
+    const rows = parseCSV(csvText);
+    
+    processTeacherCSVRows(rows);
+  } catch (err) {
+    console.error("Öğretmen kelimeleri yükleme hatası:", err);
+  }
+}
+
+function parseCSV(text) {
+  const lines = [];
+  let row = [""];
+  let inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    const next = text[i+1];
+    if (c === '"') {
+      if (inQuotes && next === '"') {
+        row[row.length - 1] += '"';
+        i++;
+      } else {
+        inQuotes = !inQuotes;
+      }
+    } else if (c === ',') {
+      if (inQuotes) {
+        row[row.length - 1] += c;
+      } else {
+        row.push("");
+      }
+    } else if (c === '\r' || c === '\n') {
+      if (inQuotes) {
+        row[row.length - 1] += c;
+      } else {
+        if (c === '\r' && next === '\n') {
+          i++;
+        }
+        lines.push(row);
+        row = [""];
+      }
+    } else {
+      row[row.length - 1] += c;
+    }
+  }
+  if (row.length > 1 || row[0] !== "") {
+    lines.push(row);
+  }
+  return lines;
+}
+
+function extractGradeNumber(gradeStr) {
+  if (!gradeStr) return null;
+  if (gradeStr.includes("Çıkmış") || gradeStr.includes("Sınav")) {
+    return 99;
+  }
+  const match = gradeStr.match(/\d+/);
+  return match ? parseInt(match[0]) : null;
+}
+
+function normalizeSubject(subjStr) {
+  if (!subjStr) return "";
+  const s = subjStr.toLowerCase().trim();
+  if (s.includes("türkçe") || s.includes("turkce")) return "turkce";
+  if (s.includes("hayat")) return "hayat";
+  if (s.includes("matematik")) return "matematik";
+  if (s.includes("fen")) return "fen";
+  if (s.includes("ingilizce") || s.includes("english")) return "ingilizce";
+  if (s.includes("din")) return "din";
+  if (s.includes("sosyal")) return "sosyal";
+  if (s.includes("inkılap") || s.includes("inkilap")) return "inkilap";
+  if (s.includes("bilişim") || s.includes("bilisim")) return "bilisim";
+  if (s.includes("edebiyat")) return "edebiyat";
+  if (s.includes("fizik")) return "fizik";
+  if (s.includes("kimya")) return "kimya";
+  if (s.includes("biyoloji")) return "biyoloji";
+  if (s.includes("tarih")) return "tarih";
+  if (s.includes("coğrafya") || s.includes("cografya")) return "cografya";
+  if (s.includes("felsefe")) return "felsefe";
+  if (s.includes("lgs")) return "lgs";
+  if (s.includes("yks")) return "yks";
+  if (s.includes("kpss")) return "kpss";
+  if (s.includes("görsel") || s.includes("gorsel")) return "gorselsanat";
+  if (s.includes("müzik") || s.includes("muzik")) return "muzik";
+  if (s.includes("beden") || s.includes("spor")) return "bedenegitimi";
+  if (s.includes("oyun") || s.includes("fiziki")) return "oyunfiziki";
+  if (s.includes("sağlık") || s.includes("saglik")) return "saglik";
+  if (s.includes("rehberlik")) return "rehberlik";
+  return s;
+}
+
+function processTeacherCSVRows(rows) {
+  if (rows.length < 2) return;
+  const teacherWords = [];
+  
+  for (let i = 1; i < rows.length; i++) {
+    const row = rows[i];
+    if (row.length < 9) continue;
+    
+    const gradeVal = extractGradeNumber(row[4]);
+    const subjVal = normalizeSubject(row[5]);
+    const unitName = row[6] ? row[6].trim() : "";
+    const wordVal = row[7] ? toTrUpperCase(row[7].trim()) : "";
+    const hintVal = row[8] ? row[8].trim() : "";
+    
+    if (gradeVal && subjVal && unitName && wordVal && hintVal) {
+      teacherWords.push({
+        grade: gradeVal,
+        subjectId: subjVal,
+        unitName: unitName,
+        word: wordVal,
+        hint: hintVal
+      });
+    }
+  }
+  
+  console.log(`Google E-Tablo'dan ${teacherWords.length} öğretmen kelimesi başarıyla yüklendi.`);
+  SafeStorage.setItem("adamAsmacaTeacherWords", JSON.stringify(teacherWords));
+}
+
+function getTeacherWordsForCurrentUnit() {
+  if (!selectedGrade || !selectedSubject || !selectedUnit) return [];
+  try {
+    const raw = SafeStorage.getItem("adamAsmacaTeacherWords");
+    if (!raw) return [];
+    const allTeacherWords = JSON.parse(raw);
+    if (!Array.isArray(allTeacherWords)) return [];
+    
+    return allTeacherWords.filter(item => {
+      const matchGrade = item.grade === selectedGrade.grade;
+      const matchSubject = item.subjectId === selectedSubject.id;
+      
+      const normalizeName = (name) => (name || "").toLowerCase().replace(/\s+/g, "").trim();
+      const matchUnit = normalizeName(item.unitName) === normalizeName(selectedUnit.name);
+      return matchGrade && matchSubject && matchUnit;
+    }).map(item => ({
+      word: item.word,
+      hint: item.hint
+    }));
+  } catch (err) {
+    console.error("Hata: Öğretmen kelimeleri alınamadı:", err);
+    return [];
+  }
+}
+
 // ── INIT & FETCH ────────────────────────────────────────────────────────────
 async function init() {
   buildKeyboard();
   setupSettingsAndModals();
   await loadCurriculum();
+  fetchTeacherWords();
   
   document.getElementById('back-to-grades').addEventListener('click', showGradeScreen);
   
@@ -1100,14 +1259,24 @@ function startReviewMode() {
 }
 
 function prepareRoundWordBank(words) {
-  currentUnitFullWords = [...words];
+  // Öğretmenin formdan eklediği dinamik kelimeleri yükle ve birleştir
+  const tWords = getTeacherWordsForCurrentUnit();
+  const mergedWords = [...words];
+  tWords.forEach(tw => {
+    const exists = mergedWords.some(w => w.word === tw.word);
+    if (!exists) {
+      mergedWords.push(tw);
+    }
+  });
+
+  currentUnitFullWords = [...mergedWords];
   
-  let count = words.length;
+  let count = mergedWords.length;
   if (currentRoundLength !== "all") {
-    count = Math.min(parseInt(currentRoundLength) || 20, words.length);
+    count = Math.min(parseInt(currentRoundLength) || 20, mergedWords.length);
   }
   
-  const shuffled = [...words].sort(() => Math.random() - 0.5);
+  const shuffled = [...mergedWords].sort(() => Math.random() - 0.5);
   WORD_BANK = shuffled.slice(0, count);
   availableWords = [...WORD_BANK];
   

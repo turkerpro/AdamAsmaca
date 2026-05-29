@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && node copy-assets.js",
+    "sync-teacher-words": "python data/sync_teacher_words.py",
     "preview": "vite preview"
   },
   "devDependencies": {
