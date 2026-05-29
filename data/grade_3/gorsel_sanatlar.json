@@ -14,8 +14,220 @@
           "hint": "Çizgi ve boyalarla yapılan görsel sanat eseri."
         },
         {
-          "word": "PERSPEKTİF",
-          "hint": "Nesneleri üç boyutlu olarak düzleme aktarma yöntemi."
+          "word": "ÇİZGİ",
+          "hint": "İnce veya kalın, uzun veya kısa olabilen bir şekil ögesi."
+        },
+        {
+          "word": "RENK",
+          "hint": "Gördüğümüz nesnelerin farklı tonları, kırmızı, mavi gibi."
+        },
+        {
+          "word": "ŞEKİL",
+          "hint": "Kare, daire, üçgen gibi iki boyutlu biçimler."
+        },
+        {
+          "word": "LEKE",
+          "hint": "Boya veya renk ile oluşan küçük, düzensiz iz."
+        },
+        {
+          "word": "BOYA",
+          "hint": "Resim yapmak için kullanılan renkli madde."
+        },
+        {
+          "word": "FIRÇA",
+          "hint": "Boya sürmek için kullanılan araç."
+        },
+        {
+          "word": "KAĞIT",
+          "hint": "Üzerine resim yapılan düz, ince yüzey."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Çizim yapmak veya yazı yazmak için kullanılan araç."
+        },
+        {
+          "word": "KİL",
+          "hint": "Şekil verilebilen yumuşak, nemli toprak."
+        },
+        {
+          "word": "MAKAS",
+          "hint": "Kağıt veya başka malzemeleri kesmek için kullanılan alet."
+        },
+        {
+          "word": "YAPIŞTIRICI",
+          "hint": "İki şeyi birbirine tutturmak için kullanılan madde."
+        },
+        {
+          "word": "PALET",
+          "hint": "Ressamların boyalarını karıştırdığı tabla."
+        },
+        {
+          "word": "SANAT",
+          "hint": "Duyguları, düşünceleri veya güzelliği ifade etme yolu."
+        },
+        {
+          "word": "SANATÇI",
+          "hint": "Sanat eseri yapan kişi."
+        },
+        {
+          "word": "ESER",
+          "hint": "Bir sanatçının yaptığı ürün veya çalışma."
+        },
+        {
+          "word": "YARATMAK",
+          "hint": "Yeni bir şey ortaya çıkarmak, yapmak."
+        },
+        {
+          "word": "ÇİZMEK",
+          "hint": "Kalem veya fırça ile şekiller yapmak."
+        },
+        {
+          "word": "BOYAMAK",
+          "hint": "Renklerle bir yüzeyi doldurmak veya şekil vermek."
+        },
+        {
+          "word": "KESMEK",
+          "hint": "Makasla bir şeyi parçalara ayırmak."
+        },
+        {
+          "word": "YAPIŞTIRMAK",
+          "hint": "Yapıştırıcı kullanarak nesneleri bir araya getirmek."
+        },
+        {
+          "word": "ŞEKİLLENDİRMEK",
+          "hint": "Bir malzemeye farklı bir biçim vermek."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Bir yüzeyin pürüzlü, düzgün, yumuşak gibi hissedilmesi."
+        },
+        {
+          "word": "AÇIK",
+          "hint": "Renklerin daha parlak veya soluk hali."
+        },
+        {
+          "word": "KOYU",
+          "hint": "Renklerin daha derin veya yoğun hali."
+        },
+        {
+          "word": "SICAK",
+          "hint": "Kırmızı, turuncu, sarı gibi hissettiren renkler."
+        },
+        {
+          "word": "SOĞUK",
+          "hint": "Mavi, yeşil, mor gibi hissettiren renkler."
+        },
+        {
+          "word": "ANA RENK",
+          "hint": "Başka renklerin karışımıyla elde edilemeyen temel renkler (kırmızı, sarı, mavi)."
+        },
+        {
+          "word": "ARA RENK",
+          "hint": "İki ana rengin karışımıyla oluşan renkler (turuncu, yeşil, mor)."
+        },
+        {
+          "word": "TON",
+          "hint": "Bir rengin açıklık veya koyuluk derecesi."
+        },
+        {
+          "word": "IŞIK",
+          "hint": "Nesneleri görmemizi sağlayan parlaklık."
+        },
+        {
+          "word": "GÖLGE",
+          "hint": "Işığın düşmediği, koyu kalan alan."
+        },
+        {
+          "word": "TASARIM",
+          "hint": "Bir şeyin nasıl görüneceğini veya çalışacağını planlama."
+        },
+        {
+          "word": "DÜZENLEME",
+          "hint": "Sanat eserindeki elemanların yerleşimi."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Bir eserdeki elemanların eşit ağırlıkta görünmesi."
+        },
+        {
+          "word": "FORM",
+          "hint": "Bir nesnenin üç boyutlu görünüşü (küp, küre gibi)."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir resimdeki boş veya dolu yer."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Tekrarlayan şekiller veya çizgilerle oluşan süsleme."
+        },
+        {
+          "word": "TEKRAR",
+          "hint": "Bir şeklin veya rengin birden fazla kullanılması."
+        },
+        {
+          "word": "HAYAL",
+          "hint": "Zihinde canlandırılan düşünceler veya görüntüler."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Sevgi, neşe, hüzün gibi içsel hisler."
+        },
+        {
+          "word": "İFADE",
+          "hint": "Duyguları veya düşünceleri dışa vurma."
+        },
+        {
+          "word": "SERGİ",
+          "hint": "Sanat eserlerinin insanlara gösterildiği yer."
+        },
+        {
+          "word": "MÜZE",
+          "hint": "Değerli eşyaların ve sanat eserlerinin saklandığı ve sergilendiği yer."
+        },
+        {
+          "word": "GÖRSEL",
+          "hint": "Görmekle ilgili olan, gözle algılanan."
+        },
+        {
+          "word": "FİKİR",
+          "hint": "Bir konu hakkındaki düşünce veya tasarım."
+        },
+        {
+          "word": "AKRİLİK",
+          "hint": "Hızlı kuruyan, su bazlı bir boya türü."
+        },
+        {
+          "word": "SULU BOYA",
+          "hint": "Su ile inceltilerek kullanılan şeffaf bir boya."
+        },
+        {
+          "word": "KRAFT",
+          "hint": "Genellikle kahverengi, kalın ve dayanıklı bir kağıt türü."
+        },
+        {
+          "word": "KUMAŞ",
+          "hint": "Resim veya el işi yapımında kullanılan bez."
+        },
+        {
+          "word": "KOLAJ",
+          "hint": "Farklı malzemeleri kesip yapıştırarak yapılan sanat eseri."
+        },
+        {
+          "word": "OYMAK",
+          "hint": "Sert bir malzemeyi keserek veya yontarak şekil vermek."
+        },
+        {
+          "word": "PARLAK",
+          "hint": "Işığı yansıtan, göz alıcı."
+        },
+        {
+          "word": "MAT",
+          "hint": "Parlak olmayan, donuk bir yüzey."
+        },
+        {
+          "word": "BİÇİM",
+          "hint": "Bir şeyin dış görünüşü veya şekli."
         }
       ]
     },
@@ -32,8 +244,208 @@
           "hint": "Çizgi ve boyalarla yapılan görsel sanat eseri."
         },
         {
-          "word": "PERSPEKTİF",
-          "hint": "Nesneleri üç boyutlu olarak düzleme aktarma yöntemi."
+          "word": "ÇİZGİ",
+          "hint": "İki nokta arasındaki yol veya şekil."
+        },
+        {
+          "word": "ŞEKİL",
+          "hint": "Bir nesnenin dış görünüşü veya ana hatları."
+        },
+        {
+          "word": "DÜZ",
+          "hint": "Hiçbir eğimi veya bükümü olmayan."
+        },
+        {
+          "word": "EĞRİ",
+          "hint": "Düz olmayan, kıvrımlı veya bükülmüş."
+        },
+        {
+          "word": "YATAY",
+          "hint": "Yere paralel, ufuk çizgisi gibi."
+        },
+        {
+          "word": "DİKEY",
+          "hint": "Yere dik, yukarıdan aşağıya veya aşağıdan yukarıya doğru."
+        },
+        {
+          "word": "KARE",
+          "hint": "Dört kenarı ve dört açısı birbirine eşit olan şekil."
+        },
+        {
+          "word": "ÜÇGEN",
+          "hint": "Üç kenarı ve üç açısı olan şekil."
+        },
+        {
+          "word": "DAİRE",
+          "hint": "Ortasından her noktaya eşit uzaklıkta olan kapalı yuvarlak şekil."
+        },
+        {
+          "word": "DİKDÖRTGEN",
+          "hint": "Karşılıklı kenarları eşit ve açıları dik olan şekil."
+        },
+        {
+          "word": "KENAR",
+          "hint": "Bir şeklin dış çizgisi veya sınırı."
+        },
+        {
+          "word": "KÖŞE",
+          "hint": "İki kenarın birleştiği nokta."
+        },
+        {
+          "word": "KALIN",
+          "hint": "Genişliği fazla olan."
+        },
+        {
+          "word": "İNCE",
+          "hint": "Genişliği az olan."
+        },
+        {
+          "word": "KESİK",
+          "hint": "Aralıklı olarak çizilmiş veya bölünmüş."
+        },
+        {
+          "word": "DALGALI",
+          "hint": "Dalga gibi inip çıkan, kıvrımlı."
+        },
+        {
+          "word": "ZİGZAG",
+          "hint": "Keskin açılarla art arda yön değiştiren çizgi."
+        },
+        {
+          "word": "KIRIK",
+          "hint": "Düz olmayan, birden yön değiştiren (çizgi için)."
+        },
+        {
+          "word": "KONTUR",
+          "hint": "Bir nesnenin dış çizgisi, ana hatları."
+        },
+        {
+          "word": "AÇIK",
+          "hint": "Başlangıcı ve sonu birleşmeyen (şekil veya çizgi için)."
+        },
+        {
+          "word": "KAPALI",
+          "hint": "Başlangıcı ve sonu birleşen (şekil veya çizgi için)."
+        },
+        {
+          "word": "RENK",
+          "hint": "Bir nesnenin ışığı yansıtma şekli."
+        },
+        {
+          "word": "SARI",
+          "hint": "Güneşin ve limonun rengi."
+        },
+        {
+          "word": "MAVİ",
+          "hint": "Gökyüzünün ve denizin rengi."
+        },
+        {
+          "word": "KIRMIZI",
+          "hint": "Kanın ve ateşin rengi."
+        },
+        {
+          "word": "YEŞİL",
+          "hint": "Otun ve ağaç yapraklarının rengi."
+        },
+        {
+          "word": "SİYAH",
+          "hint": "Gecenin rengi, en koyu renk."
+        },
+        {
+          "word": "BEYAZ",
+          "hint": "Karın ve sütün rengi, en açık renk."
+        },
+        {
+          "word": "ÇİZİM",
+          "hint": "Kalem veya fırça ile kağıda şekil ve çizgi yapma işi."
+        },
+        {
+          "word": "KALEM",
+          "hint": "Çizim yapmak için kullanılan araç."
+        },
+        {
+          "word": "FIRÇA",
+          "hint": "Boya sürmek için kullanılan araç."
+        },
+        {
+          "word": "BOYA",
+          "hint": "Renk vermek için kullanılan madde."
+        },
+        {
+          "word": "KAĞIT",
+          "hint": "Üzerine resim yapılan düz, ince malzeme."
+        },
+        {
+          "word": "MAKAS",
+          "hint": "Kağıt veya kumaş kesmek için kullanılan araç."
+        },
+        {
+          "word": "YAPIŞTIRICI",
+          "hint": "Nesneleri birbirine tutturmak için kullanılan madde."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Tekrar eden şekil veya çizgilerin oluşturduğu süsleme."
+        },
+        {
+          "word": "DOKU",
+          "hint": "Bir yüzeyin pürüzlü, düzgün veya yumuşak gibi hissedilmesi."
+        },
+        {
+          "word": "GEOMETRİK",
+          "hint": "Matematiksel kurallara uygun, düzenli şekiller (kare, üçgen gibi)."
+        },
+        {
+          "word": "ORGANİK",
+          "hint": "Doğadaki gibi, serbest ve düzensiz şekiller (bulut, yaprak gibi)."
+        },
+        {
+          "word": "YILDIZ",
+          "hint": "Gökyüzündeki ışıklı cisimlerin veya bu cisimlerin şekli."
+        },
+        {
+          "word": "KALP",
+          "hint": "Sevginin sembolü olan şekil."
+        },
+        {
+          "word": "OVAL",
+          "hint": "Uzun daire, yumurta şekli."
+        },
+        {
+          "word": "BEŞGEN",
+          "hint": "Beş kenarı olan şekil."
+        },
+        {
+          "word": "ALTIGEN",
+          "hint": "Altı kenarı olan şekil."
+        },
+        {
+          "word": "ÇAPRAZ",
+          "hint": "Bir köşeden diğerine doğru uzanan (çizgi)."
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Birbirine hiç değmeyen, aynı yönde giden çizgiler."
+        },
+        {
+          "word": "FİGÜR",
+          "hint": "Tanınabilir bir şekil veya insan, hayvan resmi."
+        },
+        {
+          "word": "YARATICI",
+          "hint": "Yeni şeyler düşünen ve ortaya çıkaran."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir şeklin veya yüzeyin kapladığı yer."
+        },
+        {
+          "word": "DÜZENLEME",
+          "hint": "Resimdeki elemanların belirli bir sıraya göre yerleştirilmesi."
+        },
+        {
+          "word": "GÖRSEL",
+          "hint": "Gözle algılanabilen, görünen şey."
         }
       ]
     },
@@ -50,8 +462,212 @@
           "hint": "Çizgi ve boyalarla yapılan görsel sanat eseri."
         },
         {
-          "word": "PERSPEKTİF",
-          "hint": "Nesneleri üç boyutlu olarak düzleme aktarma yöntemi."
+          "word": "KIRMIZI",
+          "hint": "Ateşin ve domatesin rengi."
+        },
+        {
+          "word": "MAVİ",
+          "hint": "Gökyüzünün ve denizin rengi."
+        },
+        {
+          "word": "SARI",
+          "hint": "Güneşin ve limonun rengi."
+        },
+        {
+          "word": "YEŞİL",
+          "hint": "Mavi ve sarı karıştırılınca ortaya çıkan renk. Doğanın rengi."
+        },
+        {
+          "word": "TURUNCU",
+          "hint": "Kırmızı ve sarı karıştırılınca ortaya çıkan renk. Havucun rengi."
+        },
+        {
+          "word": "MOR",
+          "hint": "Kırmızı ve mavi karıştırılınca ortaya çıkan renk. Patlıcanın rengi."
+        },
+        {
+          "word": "BEYAZ",
+          "hint": "Karın ve sütün rengi. Temiz kağıdın rengi."
+        },
+        {
+          "word": "SİYAH",
+          "hint": "Gecenin ve kömürün rengi. Karanlık rengi."
+        },
+        {
+          "word": "KAHVERENGİ",
+          "hint": "Toprağın ve ağaç gövdesinin rengi."
+        },
+        {
+          "word": "GRİ",
+          "hint": "Siyah ve beyazın karışımından oluşan renk. Bulutların rengi."
+        },
+        {
+          "word": "PEMBE",
+          "hint": "Kırmızıya beyaz eklenince oluşan renk. Çiçeklerin rengi."
+        },
+        {
+          "word": "RENK",
+          "hint": "Nesnelerin ışığı yansıtma şekliyle görülen özelliği."
+        },
+        {
+          "word": "ANA RENKLER",
+          "hint": "Diğer renklerin karışımından oluşmayan temel renkler."
+        },
+        {
+          "word": "ARA RENKLER",
+          "hint": "Ana renklerin karışımından oluşan renkler."
+        },
+        {
+          "word": "SICAK RENKLER",
+          "hint": "Ateş ve güneş gibi sıcak şeyleri çağrıştıran renkler."
+        },
+        {
+          "word": "SOĞUK RENKLER",
+          "hint": "Su ve buz gibi soğuk şeyleri çağrıştıran renkler."
+        },
+        {
+          "word": "AÇIK RENK",
+          "hint": "Beyaz katılmış gibi duran parlak renk."
+        },
+        {
+          "word": "KOYU RENK",
+          "hint": "Siyah katılmış gibi duran az parlak renk."
+        },
+        {
+          "word": "RENK ÇEMBERİ",
+          "hint": "Renklerin bir daire üzerinde düzenli duruşu."
+        },
+        {
+          "word": "TON",
+          "hint": "Bir rengin açıklık ve koyuluk derecesi."
+        },
+        {
+          "word": "PARLAKLIK",
+          "hint": "Bir rengin ne kadar ışık yansıttığı."
+        },
+        {
+          "word": "DOYGUNLUK",
+          "hint": "Bir rengin ne kadar canlı veya soluk olduğu."
+        },
+        {
+          "word": "ZIT RENKLER",
+          "hint": "Renk çemberinde birbirinin karşısında olan ve birbirine güç veren renkler."
+        },
+        {
+          "word": "UYUM",
+          "hint": "Renklerin bir arada güzel görünmesi."
+        },
+        {
+          "word": "KONTRAST",
+          "hint": "İki rengin birbirinden çok farklı görünmesi."
+        },
+        {
+          "word": "GÖLGE",
+          "hint": "Işık almayan yerlerde oluşan karanlık alan."
+        },
+        {
+          "word": "IŞIK",
+          "hint": "Nesneleri görmemizi sağlayan enerji."
+        },
+        {
+          "word": "BOYA",
+          "hint": "Renk vermek için kullanılan madde."
+        },
+        {
+          "word": "FIRÇA",
+          "hint": "Boyayı sürmeye yarayan araç."
+        },
+        {
+          "word": "PALET",
+          "hint": "Boyaların karıştırıldığı tahta veya plastik tabla."
+        },
+        {
+          "word": "KARIŞTIRMA",
+          "hint": "Farklı renkleri bir araya getirme."
+        },
+        {
+          "word": "ÇİZİM",
+          "hint": "Kalemle veya boyayla kağıda şekil yapma."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Bir yüzeyde tekrarlanan şekiller veya renkler."
+        },
+        {
+          "word": "GÖRSEL",
+          "hint": "Göze hitap eden görünen şey."
+        },
+        {
+          "word": "SANAT",
+          "hint": "İnsanların duygularını ve düşüncelerini renklerle veya şekillerle anlatması."
+        },
+        {
+          "word": "ESER",
+          "hint": "Sanatçının yaptığı ürün."
+        },
+        {
+          "word": "BOYAMAK",
+          "hint": "Bir yüzeye renk verme işi."
+        },
+        {
+          "word": "SULU BOYA",
+          "hint": "Su ile inceltilerek kullanılan boya türü."
+        },
+        {
+          "word": "KURU BOYA",
+          "hint": "Kalem gibi kullanılan renkli boya çubuğu."
+        },
+        {
+          "word": "PASTEL",
+          "hint": "Yağlı veya yumuşak boya çubukları."
+        },
+        {
+          "word": "AKRİLİK",
+          "hint": "Plastik içerikli çabuk kuruyan bir boya türü."
+        },
+        {
+          "word": "GUVAŞ",
+          "hint": "Opak ve yoğun bir sulu boya türü."
+        },
+        {
+          "word": "TEK RENK",
+          "hint": "Sadece bir rengin farklı tonları kullanılarak yapılan çalışma."
+        },
+        {
+          "word": "ÇOK RENKLİ",
+          "hint": "Birçok farklı rengin bir arada kullanıldığı çalışma."
+        },
+        {
+          "word": "ANA HAT",
+          "hint": "Bir nesnenin dış çevresini belirleyen çizgi."
+        },
+        {
+          "word": "DOLGU",
+          "hint": "Bir şeklin içini renkle doldurma."
+        },
+        {
+          "word": "KATMAN",
+          "hint": "Farklı renk veya boya tabakalarını üst üste sürme."
+        },
+        {
+          "word": "GEOMETRİK",
+          "hint": "Kare daire üçgen gibi düzenli şekiller."
+        },
+        {
+          "word": "ORGANİK",
+          "hint": "Doğadaki gibi düzensiz ve serbest şekiller."
+        },
+        {
+          "word": "GÖRMEK",
+          "hint": "Gözlerimizle çevremizdeki şeyleri algılamak."
+        },
+        {
+          "word": "CANLI RENK",
+          "hint": "Çok parlak ve dikkat çekici renk."
+        },
+        {
+          "word": "SOLUK RENK",
+          "hint": "Az parlak ve yumuşak görünen renk."
         }
       ]
     },
@@ -68,8 +684,240 @@
           "hint": "Çizgi ve boyalarla yapılan görsel sanat eseri."
         },
         {
-          "word": "PERSPEKTİF",
-          "hint": "Nesneleri üç boyutlu olarak düzleme aktarma yöntemi."
+          "word": "DOKU",
+          "hint": "Bir şeyin yüzeyinin elle veya gözle nasıl hissedildiği."
+        },
+        {
+          "word": "BİÇİM",
+          "hint": "Bir nesnenin dış görünüşü, şekli."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Bir cismin dış katmanı veya görünen dış kısmı."
+        },
+        {
+          "word": "YUMUŞAK",
+          "hint": "Dokunulduğunda kolayca bükülen veya ezilen."
+        },
+        {
+          "word": "SERT",
+          "hint": "Dokunulduğunda direnç gösteren, kolayca bükülmeyen."
+        },
+        {
+          "word": "DÜZGÜN",
+          "hint": "Pürüzsüz, girinti çıkıntısı olmayan."
+        },
+        {
+          "word": "PÜRÜZLÜ",
+          "hint": "Yüzeyinde küçük çıkıntılar veya girintiler olan."
+        },
+        {
+          "word": "KAYGAN",
+          "hint": "Üzerinde kolayca kayılabilen."
+        },
+        {
+          "word": "PARLAK",
+          "hint": "Işığı yansıtan, ışıldayan."
+        },
+        {
+          "word": "MAT",
+          "hint": "Parlak olmayan, donuk."
+        },
+        {
+          "word": "KABARIK",
+          "hint": "Yüzeyden dışarı doğru çıkıntı yapan."
+        },
+        {
+          "word": "OYUK",
+          "hint": "İçine doğru çukurlaşmış, girintili."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Bir yüzeyde tekrarlayan şekiller veya çizgiler bütünü."
+        },
+        {
+          "word": "ÇİZGİLİ",
+          "hint": "Üzerinde çizgiler bulunan."
+        },
+        {
+          "word": "BENZERSİZ",
+          "hint": "Eşi veya benzeri olmayan, tek."
+        },
+        {
+          "word": "FARKLI",
+          "hint": "Diğerlerinden değişik, benzemeyen."
+        },
+        {
+          "word": "KUMAŞ",
+          "hint": "İpliklerden dokunmuş, giysi yapımında kullanılan malzeme."
+        },
+        {
+          "word": "AHŞAP",
+          "hint": "Ağaçtan yapılmış veya ağaçla ilgili."
+        },
+        {
+          "word": "TAŞ",
+          "hint": "Toprakta bulunan sert, doğal mineral parçası."
+        },
+        {
+          "word": "METAL",
+          "hint": "Parlak, ağır ve genellikle ısıyı iyi ileten madde."
+        },
+        {
+          "word": "CAM",
+          "hint": "Şeffaf, sert ve kırılgan bir madde."
+        },
+        {
+          "word": "DERİ",
+          "hint": "Hayvanların üzerinden çıkarılan işlenmiş veya işlenmemiş tabaka."
+        },
+        {
+          "word": "PAMUK",
+          "hint": "Yumuşak, beyaz lifli bir bitki ve lifleri."
+        },
+        {
+          "word": "YÜN",
+          "hint": "Koyun gibi hayvanların tüyleri, iplik yapılır."
+        },
+        {
+          "word": "KUM",
+          "hint": "Küçük taş ve mineral parçacıklarından oluşan gevşek madde."
+        },
+        {
+          "word": "PÜRÜZSÜZ",
+          "hint": "Çok düzgün, hiçbir pürüzü olmayan."
+        },
+        {
+          "word": "BURUŞUK",
+          "hint": "Katlanmaktan veya ezilmekten kırışmış."
+        },
+        {
+          "word": "SIK",
+          "hint": "Birbirine yakın ve yoğun (doku için)."
+        },
+        {
+          "word": "SEYREK",
+          "hint": "Birbirine uzak ve az yoğun (doku için)."
+        },
+        {
+          "word": "ŞEKİL",
+          "hint": "Bir şeyin dış görünüşü, kalıbı."
+        },
+        {
+          "word": "DAİRE",
+          "hint": "Yuvarlak, köşesi olmayan bir şekil."
+        },
+        {
+          "word": "KARE",
+          "hint": "Dört eşit kenarı ve dört dik açısı olan bir şekil."
+        },
+        {
+          "word": "ÜÇGEN",
+          "hint": "Üç kenarı ve üç köşesi olan bir şekil."
+        },
+        {
+          "word": "DİKDÖRTGEN",
+          "hint": "Karşılıklı kenarları eşit ve dört dik açısı olan şekil."
+        },
+        {
+          "word": "YUVARLAK",
+          "hint": "Kenarları olmayan, daireye benzer."
+        },
+        {
+          "word": "KÖŞELİ",
+          "hint": "Kenarları keskin açılarla birleşen."
+        },
+        {
+          "word": "DÜZ",
+          "hint": "Eğri veya bükülmüş olmayan."
+        },
+        {
+          "word": "EĞRİ",
+          "hint": "Doğru olmayan, kıvrık."
+        },
+        {
+          "word": "ÇİZGİ",
+          "hint": "İnce ve uzun işaret."
+        },
+        {
+          "word": "NOKTA",
+          "hint": "Çok küçük, yuvarlak işaret."
+        },
+        {
+          "word": "LEKE",
+          "hint": "Düzensiz bir şekilde yayılan renk veya iz."
+        },
+        {
+          "word": "KÜP",
+          "hint": "Altı eşit kare yüzeyi olan, kutuya benzer üç boyutlu şekil."
+        },
+        {
+          "word": "KÜRE",
+          "hint": "Her yerden merkeze eşit uzaklıkta olan yuvarlak, topa benzer üç boyutlu şekil."
+        },
+        {
+          "word": "SİLİNDİR",
+          "hint": "İki dairesel tabanı ve yan yüzeyi olan boruya benzer üç boyutlu şekil."
+        },
+        {
+          "word": "ORGANİK",
+          "hint": "Doğadaki canlılara benzeyen, düzensiz ve akıcı şekiller."
+        },
+        {
+          "word": "GEOMETRİK",
+          "hint": "Matematik kurallarına uygun, düzenli ve ölçülebilir şekiller."
+        },
+        {
+          "word": "BÜYÜK",
+          "hint": "Normalden daha fazla boyutu olan."
+        },
+        {
+          "word": "KÜÇÜK",
+          "hint": "Normalden daha az boyutu olan."
+        },
+        {
+          "word": "UZUN",
+          "hint": "Bir ucundan diğer ucuna mesafesi fazla olan."
+        },
+        {
+          "word": "KISA",
+          "hint": "Bir ucundan diğer ucuna mesafesi az olan."
+        },
+        {
+          "word": "GENİŞ",
+          "hint": "Bir yandan diğer yana mesafesi fazla olan."
+        },
+        {
+          "word": "DAR",
+          "hint": "Bir yandan diğer yana mesafesi az olan."
+        },
+        {
+          "word": "İÇ",
+          "hint": "Bir şeyin ortasında veya kapalı kısmı."
+        },
+        {
+          "word": "DIŞ",
+          "hint": "Bir şeyin görünen veya en uzaktaki kısmı."
+        },
+        {
+          "word": "KENAR",
+          "hint": "Bir şeyin sınırı veya ucu."
+        },
+        {
+          "word": "YAN",
+          "hint": "Bir şeyin sağ veya sol tarafı."
+        },
+        {
+          "word": "ÜST",
+          "hint": "Bir şeyin en yüksek noktası veya tepesi."
+        },
+        {
+          "word": "ALT",
+          "hint": "Bir şeyin en düşük noktası veya zemini."
+        },
+        {
+          "word": "TEKRAR",
+          "hint": "Bir şeyin aynısının birden fazla kez yapılması."
         }
       ]
     },
@@ -82,12 +930,212 @@
       ],
       "words": [
         {
-          "word": "RESİM",
-          "hint": "Çizgi ve boyalarla yapılan görsel sanat eseri."
-        },
-        {
           "word": "PERSPEKTİF",
           "hint": "Nesneleri üç boyutlu olarak düzleme aktarma yöntemi."
+        },
+        {
+          "word": "MEKAN",
+          "hint": "Bir şeyin veya bir kimsenin bulunduğu yer, boşluk."
+        },
+        {
+          "word": "BOŞLUK",
+          "hint": "İçinde hiçbir şey bulunmayan yer."
+        },
+        {
+          "word": "DOLULUK",
+          "hint": "Bir yerin veya kabın dolu olması durumu."
+        },
+        {
+          "word": "ÖN",
+          "hint": "Bir şeyin bakana dönük olan tarafı."
+        },
+        {
+          "word": "ARKA",
+          "hint": "Bir şeyin ön kısmının ters tarafı."
+        },
+        {
+          "word": "YAKIN",
+          "hint": "Mesafe olarak az olan, uzakta olmayan."
+        },
+        {
+          "word": "UZAK",
+          "hint": "Mesafe olarak çok olan, yakında olmayan."
+        },
+        {
+          "word": "ÜST",
+          "hint": "Bir şeyin yukarı kısmı."
+        },
+        {
+          "word": "ALT",
+          "hint": "Bir şeyin aşağı kısmı."
+        },
+        {
+          "word": "SAĞ",
+          "hint": "Bir yöne göre vücudun kalbin bulunmadığı tarafı."
+        },
+        {
+          "word": "SOL",
+          "hint": "Bir yöne göre vücudun kalbin bulunduğu tarafı."
+        },
+        {
+          "word": "DERİNLİK",
+          "hint": "Bir şeyin ön yüzünden arka yüzüne kadar olan mesafe."
+        },
+        {
+          "word": "BOYUT",
+          "hint": "Bir nesnenin genişliği, uzunluğu veya yüksekliği."
+        },
+        {
+          "word": "ÇİZGİ",
+          "hint": "İki nokta arasındaki mesafe, kenar veya sınır belirtmek için kullanılan eleman."
+        },
+        {
+          "word": "ŞEKİL",
+          "hint": "Bir nesnenin dış görünüşü, biçimi."
+        },
+        {
+          "word": "BİÇİM",
+          "hint": "Bir nesnenin dışa vuran şekli, kalıbı."
+        },
+        {
+          "word": "RENK",
+          "hint": "Işığın cisimlere çarparak gözümüzde oluşturduğu his."
+        },
+        {
+          "word": "GÖLGE",
+          "hint": "Bir cismin ışığı engellemesiyle oluşan karanlık alan."
+        },
+        {
+          "word": "IŞIK",
+          "hint": "Gözümüzle görmemizi sağlayan enerji."
+        },
+        {
+          "word": "YÜZEY",
+          "hint": "Bir cismin dış katmanı veya görünen alanı."
+        },
+        {
+          "word": "DÜZLEM",
+          "hint": "Genişliği ve uzunluğu olan, derinliği olmayan yüzey."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir yüzeyin kapladığı yer."
+        },
+        {
+          "word": "KONUM",
+          "hint": "Bir şeyin bulunduğu yer veya durumu."
+        },
+        {
+          "word": "YERLEŞTİRME",
+          "hint": "Bir şeyi belirli bir yere koyma eylemi."
+        },
+        {
+          "word": "DÜZENLEME",
+          "hint": "Bir şeyleri belirli bir sıraya veya amaca göre ayarlama."
+        },
+        {
+          "word": "ÖNPLAN",
+          "hint": "Resimde izleyiciye en yakın görünen kısım."
+        },
+        {
+          "word": "ARKAPLAN",
+          "hint": "Resimde izleyiciye en uzak görünen kısım."
+        },
+        {
+          "word": "ORTAPLAN",
+          "hint": "Resimde ön ve arka plan arasında kalan kısım."
+        },
+        {
+          "word": "PARALEL",
+          "hint": "Birbirine her zaman eşit uzaklıkta olan ve kesişmeyen çizgiler."
+        },
+        {
+          "word": "DİKEY",
+          "hint": "Yere veya ufuk çizgisine dik olan, yukarıdan aşağıya uzanan."
+        },
+        {
+          "word": "YATAY",
+          "hint": "Yere paralel olan, soldan sağa uzanan."
+        },
+        {
+          "word": "UFUK",
+          "hint": "Gök ile yerin birleştiği gibi görünen çizgi."
+        },
+        {
+          "word": "GÖRSEL",
+          "hint": "Gözle görülebilen, görme ile ilgili."
+        },
+        {
+          "word": "RESMETME",
+          "hint": "Bir şeyi çizerek veya boyayarak ifade etme."
+        },
+        {
+          "word": "DERİN",
+          "hint": "Yüzeyden aşağıya doğru uzanan."
+        },
+        {
+          "word": "SIĞ",
+          "hint": "Derin olmayan."
+        },
+        {
+          "word": "BÜYÜK",
+          "hint": "Hacim, boyut veya miktar olarak fazla olan."
+        },
+        {
+          "word": "KÜÇÜK",
+          "hint": "Hacim, boyut veya miktar olarak az olan."
+        },
+        {
+          "word": "GENİŞ",
+          "hint": "Eni fazla olan."
+        },
+        {
+          "word": "DAR",
+          "hint": "Eni az olan."
+        },
+        {
+          "word": "YÜKSEK",
+          "hint": "Zeminden yukarıya doğru çok olan."
+        },
+        {
+          "word": "ALÇAK",
+          "hint": "Zeminden yukarıya doğru az olan."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Bir şeyin etrafını saran alan."
+        },
+        {
+          "word": "HACİM",
+          "hint": "Bir cismin uzayda kapladığı yer."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Bir kompozisyonda ağırlıkların eşit dağılımı."
+        },
+        {
+          "word": "TEKERRÜR",
+          "hint": "Bir çizimde veya desende aynı şeklin tekrarı."
+        },
+        {
+          "word": "DESEN",
+          "hint": "Çizgilerle yapılan süsleme, çizim."
+        },
+        {
+          "word": "KONTUR",
+          "hint": "Bir nesnenin dış çevresini belirleyen çizgi."
+        },
+        {
+          "word": "PERSPEKTİFÇİZİM",
+          "hint": "Derinlik ve uzaklık hissi veren çizim tekniği."
+        },
+        {
+          "word": "KOMPOZİSYON",
+          "hint": "Görsel elemanların bir araya getirilip düzenlenmesi."
+        },
+        {
+          "word": "UZAMSAL",
+          "hint": "Mekanla ilgili, uzayda yer alan."
         }
       ]
     }

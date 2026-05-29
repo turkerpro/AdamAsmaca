@@ -16,6 +16,206 @@
         {
           "word": "DÜŞÜNCE",
           "hint": "Aklın bir konu üzerinde yürüttüğü muhakeme süreci."
+        },
+        {
+          "word": "FELSEFE",
+          "hint": "Evreni, insanı, bilgiyi ve değerleri anlamaya çalışan eleştirel bir düşünce sistemi."
+        },
+        {
+          "word": "HİKMET",
+          "hint": "Bilgi ve akıl yoluyla edinilen derin kavrayış, bilgelik."
+        },
+        {
+          "word": "MERAK",
+          "hint": "Bilinmeyene karşı duyulan öğrenme isteği ve araştırma eğilimi."
+        },
+        {
+          "word": "SORGULAMA",
+          "hint": "Bir konunun doğru olup olmadığını, nedenlerini veya sonuçlarını irdeleme eylemi."
+        },
+        {
+          "word": "ŞÜPHE",
+          "hint": "Bir yargının veya inancın doğruluğundan emin olmama hali."
+        },
+        {
+          "word": "AKIL",
+          "hint": "İnsan zihninin anlama, yargılama ve sonuç çıkarma yetisi."
+        },
+        {
+          "word": "MANTIK",
+          "hint": "Doğru düşünme ilkelerini ve geçerli akıl yürütme biçimlerini inceleyen disiplin."
+        },
+        {
+          "word": "VARLIK",
+          "hint": "Her şeyin var oluşunu ve temel yapısını inceleyen felsefe alanı."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir şeyin arzu edilir, önemli veya iyi kabul edilmesini sağlayan nitelik."
+        },
+        {
+          "word": "GERÇEKLİK",
+          "hint": "Nesnelerin, olayların veya durumların fiili varoluşu."
+        },
+        {
+          "word": "DOĞRULUK",
+          "hint": "Bir yargının nesnel gerçekliğe uygun olma hali."
+        },
+        {
+          "word": "FİLOZOF",
+          "hint": "Felsefi düşünce üreten, sistem geliştiren ve sorgulayan kişi."
+        },
+        {
+          "word": "ÖNERME",
+          "hint": "Doğru ya da yanlış kesin hüküm bildiren cümle."
+        },
+        {
+          "word": "HÜKÜM",
+          "hint": "Bir yargıya varma, bir şeyi doğrulama veya yanlışlama."
+        },
+        {
+          "word": "KAVRAM",
+          "hint": "Nesnelerin veya olayların ortak özelliklerini temsil eden zihinsel tasarı."
+        },
+        {
+          "word": "ARGÜMAN",
+          "hint": "Bir iddiayı desteklemek veya çürütmek için sunulan gerekçeler ve kanıtlar dizisi."
+        },
+        {
+          "word": "MUHAKEME",
+          "hint": "Akıl yürütme, yargıda bulunma, mantıksal çıkarım yapma yetisi."
+        },
+        {
+          "word": "RASYONEL",
+          "hint": "Akla uygun, akılcı, mantıksal düşünmeye dayanan."
+        },
+        {
+          "word": "REFLEKSİF",
+          "hint": "Kendi üzerine düşünebilen, kendini eleştirebilen."
+        },
+        {
+          "word": "SİSTEMATİK",
+          "hint": "Belirli bir düzen ve yöntemle ilerleyen, tutarlı."
+        },
+        {
+          "word": "ELEŞTİREL",
+          "hint": "Bir konuyu, düşünceyi veya durumu değerlendiren, yargılayan ve sorgulayan."
+        },
+        {
+          "word": "TUTARLI",
+          "hint": "Kendi içinde çelişki barındırmayan, uyumlu."
+        },
+        {
+          "word": "EVRENSEL",
+          "hint": "Tüm insanlığı ilgilendiren, her yerde geçerli olan."
+        },
+        {
+          "word": "ÖZNEL",
+          "hint": "Kişiye, özneye ait olan, kişisel görüşlere dayanan."
+        },
+        {
+          "word": "NESNEL",
+          "hint": "Kişiden bağımsız olan, tarafsız, objektif."
+        },
+        {
+          "word": "METAFİZİK",
+          "hint": "Fizik ötesi konuları, varlığın temelini ve ilk nedenlerini inceleyen felsefe dalı."
+        },
+        {
+          "word": "ONTOLOJİ",
+          "hint": "Varlık felsefesi, varlığın ne olduğunu, temel özelliklerini inceleyen disiplin."
+        },
+        {
+          "word": "EPİSTEMOLOJİ",
+          "hint": "Bilgi felsefesi, bilginin kaynağını, sınırlarını ve doğasını inceleyen disiplin."
+        },
+        {
+          "word": "AKSİYOLOJİ",
+          "hint": "Değer felsefesi, değerlerin doğasını, türlerini ve yargılarını inceleyen disiplin."
+        },
+        {
+          "word": "ETİK",
+          "hint": "Ahlak felsefesi, insan eylemlerini iyi ve kötü açısından inceleyen disiplin."
+        },
+        {
+          "word": "ESTETİK",
+          "hint": "Güzellik felsefesi, sanatın ve güzelliğin doğasını inceleyen disiplin."
+        },
+        {
+          "word": "AKIL YÜRÜTME",
+          "hint": "Bilinen öncüllerden hareketle yeni bir sonuca ulaşma süreci."
+        },
+        {
+          "word": "KUMSAL",
+          "hint": "Felsefeye başlangıç için zihinsel bir zemin ve düşünsel alan."
+        },
+        {
+          "word": "HAYAT",
+          "hint": "Canlı varlıkların doğup büyüyüp geliştiği ve yaşadığı süreç."
+        },
+        {
+          "word": "ANLAM",
+          "hint": "Bir kavramın, ifadenin veya durumun zihindeki karşılığı, içeriği."
+        },
+        {
+          "word": "AMAÇ",
+          "hint": "Eylemlerin yöneldiği, ulaşılmak istenen sonuç veya hedef."
+        },
+        {
+          "word": "TECRÜBE",
+          "hint": "Yaşanmış olaylardan veya pratik uygulamalardan edinilen bilgi ve deneyim."
+        },
+        {
+          "word": "ANALİZ",
+          "hint": "Bir bütünün parçalarına ayrılarak incelenmesi."
+        },
+        {
+          "word": "SENTEZ",
+          "hint": "Parçalardan yola çıkarak yeni bir bütün oluşturma."
+        },
+        {
+          "word": "İYİLİK",
+          "hint": "Ahlaki açıdan doğru ve erdemli olma durumu veya eylemi."
+        },
+        {
+          "word": "GÜZELLİK",
+          "hint": "Estetik haz uyandıran, hoş ve uyumlu görünen nitelik."
+        },
+        {
+          "word": "İDEALİZM",
+          "hint": "Gerçekliğin temelinde zihin, düşünce veya ideaların bulunduğunu savunan felsefi akım."
+        },
+        {
+          "word": "MATERYALİZM",
+          "hint": "Gerçekliğin temelinde maddenin olduğunu ve her şeyin maddeye indirgenebileceğini savunan felsefi akım."
+        },
+        {
+          "word": "RASYONALİZM",
+          "hint": "Bilginin temel kaynağının akıl olduğunu savunan felsefi akım."
+        },
+        {
+          "word": "EMPİRİZM",
+          "hint": "Bilginin temel kaynağının deneyimler olduğunu savunan felsefi akım."
+        },
+        {
+          "word": "SEZGİ",
+          "hint": "Akıl yürütmeye veya deneye dayanmadan, birdenbire ve doğrudan doğruya bilme yetisi."
+        },
+        {
+          "word": "YORUMLAMA",
+          "hint": "Bir metnin, olayın veya durumun anlamını açıklama, farklı bir bakış açısıyla değerlendirme."
+        },
+        {
+          "word": "GÖRÜŞ",
+          "hint": "Bir konu hakkındaki kişisel düşünce veya kanaat."
+        },
+        {
+          "word": "İDDİA",
+          "hint": "Doğruluğu veya varlığı savunulan düşünce veya yargı."
+        },
+        {
+          "word": "KRİTİK",
+          "hint": "Bir konuyu derinlemesine inceleyip değerlendirme, eleştirel yaklaşım."
         }
       ]
     },
@@ -29,11 +229,211 @@
       "words": [
         {
           "word": "BİLGİ",
-          "hint": "Özne ile nesne arasındaki ilişkiden doğan zihinsel ürün."
+          "hint": "Özne ile nesne arasındaki ilişkiden doğan ürün."
         },
         {
-          "word": "DÜŞÜNCE",
-          "hint": "Aklın bir konu üzerinde yürüttüğü muhakeme süreci."
+          "word": "DOĞRU",
+          "hint": "Gerçeğe uygun olan inanç veya önerme."
+        },
+        {
+          "word": "GERÇEK",
+          "hint": "Zihinden bağımsız olarak var olan şey."
+        },
+        {
+          "word": "AKIL",
+          "hint": "Düşünme ve kavrama yetisi."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Bilgi elde etmek için yapılan gözlem ve pratik."
+        },
+        {
+          "word": "SEZGİ",
+          "hint": "Akıl yürütmeden doğrudan kavrama gücü."
+        },
+        {
+          "word": "SAV",
+          "hint": "Savunulan fikir veya iddia, tez."
+        },
+        {
+          "word": "ŞÜPHE",
+          "hint": "Bir bilginin doğruluğundan emin olamama hali."
+        },
+        {
+          "word": "İNANÇ",
+          "hint": "Bir düşünceye gönülden bağlanma durumu."
+        },
+        {
+          "word": "ÖZNE",
+          "hint": "Bilgi edinme eylemini gerçekleştiren insan zihni."
+        },
+        {
+          "word": "NESNE",
+          "hint": "Bilgi edinme eyleminin yöneldiği dış dünya ögesi."
+        },
+        {
+          "word": "KRİTİK",
+          "hint": "Bilgiyi eleştirel süzgeçten geçirme."
+        },
+        {
+          "word": "BİLGİCI",
+          "hint": "Özne ile nesne arasındaki ilişkiden doğan ürün işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "BİLGİLİ",
+          "hint": "Özne ile nesne arasındaki ilişkiden doğan ürün özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "BİLGİSEL",
+          "hint": "Özne ile nesne arasındaki ilişkiden doğan ürün ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "BİLGİLER",
+          "hint": "Özne ile nesne arasındaki ilişkiden doğan ürün kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "BİLGİLİK",
+          "hint": "Özne ile nesne arasındaki ilişkiden doğan ürün durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "BİLGİCİLİK",
+          "hint": "Özne ile nesne arasındaki ilişkiden doğan ürün mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "BİLGİLEMEK",
+          "hint": "Özne ile nesne arasındaki ilişkiden doğan ürün işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "DOĞRUCI",
+          "hint": "Gerçeğe uygun olan inanç veya önerme işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "DOĞRULİ",
+          "hint": "Gerçeğe uygun olan inanç veya önerme özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "DOĞRUSEL",
+          "hint": "Gerçeğe uygun olan inanç veya önerme ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "DOĞRULER",
+          "hint": "Gerçeğe uygun olan inanç veya önerme kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "DOĞRULİK",
+          "hint": "Gerçeğe uygun olan inanç veya önerme durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "DOĞRUCİLİK",
+          "hint": "Gerçeğe uygun olan inanç veya önerme mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "DOĞRULEMEK",
+          "hint": "Gerçeğe uygun olan inanç veya önerme işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "GERÇEKCI",
+          "hint": "Zihinden bağımsız olarak var olan şey işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "GERÇEKLİ",
+          "hint": "Zihinden bağımsız olarak var olan şey özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "GERÇEKSEL",
+          "hint": "Zihinden bağımsız olarak var olan şey ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "GERÇEKLER",
+          "hint": "Zihinden bağımsız olarak var olan şey kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "GERÇEKLİK",
+          "hint": "Zihinden bağımsız olarak var olan şey durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "GERÇEKCİLİK",
+          "hint": "Zihinden bağımsız olarak var olan şey mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "GERÇEKLEMEK",
+          "hint": "Zihinden bağımsız olarak var olan şey işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "AKILCI",
+          "hint": "Düşünme ve kavrama yetisi işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "AKILLİ",
+          "hint": "Düşünme ve kavrama yetisi özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "AKILSEL",
+          "hint": "Düşünme ve kavrama yetisi ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "AKILLER",
+          "hint": "Düşünme ve kavrama yetisi kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "AKILLİK",
+          "hint": "Düşünme ve kavrama yetisi durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "AKILCİLİK",
+          "hint": "Düşünme ve kavrama yetisi mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "AKILLEMEK",
+          "hint": "Düşünme ve kavrama yetisi işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "DENEYCI",
+          "hint": "Bilgi elde etmek için yapılan gözlem ve pratik işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "DENEYLİ",
+          "hint": "Bilgi elde etmek için yapılan gözlem ve pratik özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "DENEYSEL",
+          "hint": "Bilgi elde etmek için yapılan gözlem ve pratik ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "DENEYLER",
+          "hint": "Bilgi elde etmek için yapılan gözlem ve pratik kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "DENEYLİK",
+          "hint": "Bilgi elde etmek için yapılan gözlem ve pratik durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "DENEYCİLİK",
+          "hint": "Bilgi elde etmek için yapılan gözlem ve pratik mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "DENEYLEMEK",
+          "hint": "Bilgi elde etmek için yapılan gözlem ve pratik işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "SEZGİCI",
+          "hint": "Akıl yürütmeden doğrudan kavrama gücü işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "SEZGİLİ",
+          "hint": "Akıl yürütmeden doğrudan kavrama gücü özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "SEZGİSEL",
+          "hint": "Akıl yürütmeden doğrudan kavrama gücü ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "SEZGİLER",
+          "hint": "Akıl yürütmeden doğrudan kavrama gücü kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "SEZGİLİK",
+          "hint": "Akıl yürütmeden doğrudan kavrama gücü durumunu veya bu amaçla kullanılan yeri ifade eden."
         }
       ]
     },
@@ -46,12 +446,232 @@
       ],
       "words": [
         {
-          "word": "BİLGİ",
-          "hint": "Özne ile nesne arasındaki ilişkiden doğan zihinsel ürün."
+          "word": "VARLIK",
+          "hint": "Felsefede mevcut olan her şeyi kapsayan temel kavram."
         },
         {
-          "word": "DÜŞÜNCE",
-          "hint": "Aklın bir konu üzerinde yürüttüğü muhakeme süreci."
+          "word": "ONTOLOJİ",
+          "hint": "Varlık felsefesinin diğer adı; varlığın yapısını, ilkelerini ve kategorilerini inceleyen felsefe dalı."
+        },
+        {
+          "word": "METAFİZİK",
+          "hint": "Varlığın temel doğasını, gerçekliği ve evreni aşan ilkelerini araştıran felsefe alanı."
+        },
+        {
+          "word": "YOKLUK",
+          "hint": "Varlığın karşıtı olarak hiçbir şeyin bulunmayışı durumu."
+        },
+        {
+          "word": "GERÇEKLİK",
+          "hint": "Varlığın nesnel olarak mevcut oluşu veya algılanabilir durumu."
+        },
+        {
+          "word": "FENOMEN",
+          "hint": "Algılarımıza konu olan, deneyimlediğimiz görünen varlık alanı."
+        },
+        {
+          "word": "NUMEN",
+          "hint": "Kant felsefesinde, kendinde şeyin, yani algımızın ötesinde kalan varlık alanı."
+        },
+        {
+          "word": "MADDE",
+          "hint": "Duyularla algılanabilen, yer kaplayan ve ağırlığı olan varlık türü."
+        },
+        {
+          "word": "İDEA",
+          "hint": "Platon'a göre değişmeyen, ezeli ve ebedi, gerçek varlıkların asli örnekleri."
+        },
+        {
+          "word": "FORM",
+          "hint": "Aristo'ya göre, bir şeyin ne olduğunu belirleyen, maddeye biçim veren ilke."
+        },
+        {
+          "word": "TÖZ",
+          "hint": "Kendinde var olan, var olmak için başka bir şeye ihtiyaç duymayan temel varlık."
+        },
+        {
+          "word": "ÖZ",
+          "hint": "Bir şeyin kendisini o şey yapan, değişmez ve asli nitelikleri."
+        },
+        {
+          "word": "VAROLUŞ",
+          "hint": "Bir şeyin fiilen, gerçekte mevcut olması durumu."
+        },
+        {
+          "word": "GEREKLİLİK",
+          "hint": "Başka türlü olamayacak veya var olmak zorunda olan durum."
+        },
+        {
+          "word": "OLUMSALLIK",
+          "hint": "Başka türlü de olabilecek, varlığı zorunlu olmayan durum."
+        },
+        {
+          "word": "RUH",
+          "hint": "Bedenle birlikte veya ayrı düşünülen, düşünme ve duyma yeteneklerine sahip soyut varlık."
+        },
+        {
+          "word": "BEDEN",
+          "hint": "Maddi ve fiziksel yapıya sahip, duyularla algılanabilen varlık."
+        },
+        {
+          "word": "MONİZM",
+          "hint": "Varlığın temelinde tek bir ilke veya töz olduğunu savunan felsefi görüş."
+        },
+        {
+          "word": "DUALİZM",
+          "hint": "Varlığın temelinde iki ayrı ilke (örneğin ruh ve beden) bulunduğunu savunan görüş."
+        },
+        {
+          "word": "PLÜRALİZM",
+          "hint": "Varlığın temelinde birden çok farklı ilke veya töz olduğunu ileri süren görüş."
+        },
+        {
+          "word": "İDEALİZM",
+          "hint": "Varlığın temelinde düşünce, zihin veya fikir olduğunu savunan felsefe akımı."
+        },
+        {
+          "word": "REALİZM",
+          "hint": "Varlığın insan bilincinden bağımsız, nesnel bir gerçekliğe sahip olduğunu ileri süren görüş."
+        },
+        {
+          "word": "MATERYALİZM",
+          "hint": "Varlığın temelinde maddenin olduğunu, ruh ve bilincin maddeye indirgenebileceğini savunan görüş."
+        },
+        {
+          "word": "NİHİLİZM",
+          "hint": "Varlığın, bilginin ve değerlerin anlamsızlığını veya değersizliğini savunan felsefi tutum."
+        },
+        {
+          "word": "EVREN",
+          "hint": "Tüm uzay ve zamanı, tüm madde ve enerjiyi içeren bütünsel varlık."
+        },
+        {
+          "word": "KOZMOS",
+          "hint": "Belli bir düzen ve uyum içinde olan evren."
+        },
+        {
+          "word": "DEĞİŞİM",
+          "hint": "Varlığın niteliklerinde veya durumunda meydana gelen farklılaşma."
+        },
+        {
+          "word": "SÜREKLİLİK",
+          "hint": "Bir varlığın değişime rağmen temel özelliklerini koruyarak varlığını devam ettirmesi."
+        },
+        {
+          "word": "ZAMAN",
+          "hint": "Olayların art arda gelişiyle oluşan, akışkan ve ölçülebilir bir boyut."
+        },
+        {
+          "word": "MEKAN",
+          "hint": "Varlıkların içinde yer aldığı, boyutları olan uzamsal alan."
+        },
+        {
+          "word": "NEDENSELLİK",
+          "hint": "Her olayın bir nedeni olduğu ve belli bir sonuca yol açtığı ilkesi."
+        },
+        {
+          "word": "AMAÇ",
+          "hint": "Bir varlığın veya olayın yöneldiği, varmak istediği hedef."
+        },
+        {
+          "word": "TELEOLOJİ",
+          "hint": "Varlığın veya evrenin bir amaca yönelik olduğunu savunan felsefi görüş."
+        },
+        {
+          "word": "ARŞE",
+          "hint": "Antik Yunan felsefesinde, evrenin ve tüm varlıkların ilk nedeni veya başlangıç ilkesi."
+        },
+        {
+          "word": "AKIL",
+          "hint": "Soyut düşünme, anlama, yargılama ve muhakeme etme yetisi."
+        },
+        {
+          "word": "BİLİNÇ",
+          "hint": "Kendini ve çevresini fark etme, algılama ve düşünme yeteneği."
+        },
+        {
+          "word": "DENEY",
+          "hint": "Duyular yoluyla dış dünyadan bilgi edinme süreci."
+        },
+        {
+          "word": "ÖLÜMSÜZLÜK",
+          "hint": "Varlığın son bulmayışı, ebedi olarak devam etme durumu."
+        },
+        {
+          "word": "SONSUZLUK",
+          "hint": "Başlangıcı ve sonu olmayan, sınırsızlık durumu."
+        },
+        {
+          "word": "ÖLÜM",
+          "hint": "Canlı varlıkların yaşamının sona ermesi durumu."
+        },
+        {
+          "word": "YAŞAM",
+          "hint": "Canlı varlıkların var olma ve işlevlerini sürdürme süreci."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Bir bütünün tek ve ayrılmaz olma durumu."
+        },
+        {
+          "word": "ÇOKLUK",
+          "hint": "Birden fazla varlığın bir arada bulunması durumu."
+        },
+        {
+          "word": "KAVRAM",
+          "hint": "Nesnelerin veya olayların ortak özelliklerini temsil eden zihinsel tasarımlar."
+        },
+        {
+          "word": "ZİHİN",
+          "hint": "Düşünme, algılama, hissetme gibi işlevleri gerçekleştiren soyut güç veya varlık."
+        },
+        {
+          "word": "DOĞA",
+          "hint": "İnsan eliyle yapılmamış, kendiliğinden var olan her şeyin bütünü."
+        },
+        {
+          "word": "ÖZDEŞLİK",
+          "hint": "Bir şeyin kendisiyle aynı olması durumu, değişmezlik ve birlik ilkesi."
+        },
+        {
+          "word": "AYRILIK",
+          "hint": "Varlıklar arasındaki farklılık, benzememe durumu."
+        },
+        {
+          "word": "VAROLUŞÇULUK",
+          "hint": "Bireyin özünü kendi varoluşuyla yarattığını, özgürlüğünü ve sorumluluğunu vurgulayan felsefe akımı."
+        },
+        {
+          "word": "ÖZELLİK",
+          "hint": "Bir varlığa ait olan, onu diğerlerinden ayıran nitelik."
+        },
+        {
+          "word": "GENELLİK",
+          "hint": "Birçok varlığın ortak olarak taşıdığı nitelik veya durum."
+        },
+        {
+          "word": "TÜMEL",
+          "hint": "Bir sınıfın tüm üyelerini kapsayan, genel ve evrensel olan şey."
+        },
+        {
+          "word": "BİREYSİ",
+          "hint": "Sadece bir tek varlığa ait olan, tekil ve özel nitelik."
+        },
+        {
+          "word": "BAĞIMLILIK",
+          "hint": "Bir varlığın var olmak için başka bir şeye ihtiyaç duyması durumu."
+        },
+        {
+          "word": "BAĞIMSIZLIK",
+          "hint": "Bir varlığın var olmak için başka bir şeye ihtiyaç duymaması durumu."
+        },
+        {
+          "word": "İLK NEDEN",
+          "hint": "Var olan her şeyin kendisinden çıktığı, kendisi başka bir şeyden çıkmamış olan en eski neden."
+        },
+        {
+          "word": "KOZMOLOJİ",
+          "hint": "Evrenin yapısını, kökenini ve gelişimini bilimsel ve felsefi yöntemlerle inceleyen alan."
         }
       ]
     },
@@ -64,12 +684,240 @@
       ],
       "words": [
         {
-          "word": "BİLGİ",
-          "hint": "Özne ile nesne arasındaki ilişkiden doğan zihinsel ürün."
+          "word": "AHLAK",
+          "hint": "Bir toplumun belirli bir dönemde benimsediği yaşam kuralları ve değerleri bütünü."
         },
         {
-          "word": "DÜŞÜNCE",
-          "hint": "Aklın bir konu üzerinde yürüttüğü muhakeme süreci."
+          "word": "ETİK",
+          "hint": "Ahlak felsefesi. İnsan eylemlerini ve değerlerini inceleyen felsefe dalı."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir şeyin arzulanan veya tercih edilen niteliği; iyi, güzel, doğru gibi kavramlar."
+        },
+        {
+          "word": "ERDEM",
+          "hint": "İnsanın ahlaki olarak iyi niteliklere sahip olması durumu; doğruluk, cesaret, bilgelik gibi."
+        },
+        {
+          "word": "VİCDAN",
+          "hint": "Bireyin doğru ile yanlışı ayırma ve eylemlerini yargılama yetisi."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Bireyin herhangi bir dış zorlama olmadan kendi iradesiyle hareket edebilme durumu."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Bireyin kendi eylemlerinin sonuçlarını üstlenme yükümlülüğü."
+        },
+        {
+          "word": "İYİLİK",
+          "hint": "Ahlaki açıdan doğru ve olumlu kabul edilen davranış veya nitelik."
+        },
+        {
+          "word": "KÖTÜLÜK",
+          "hint": "Ahlaki açıdan yanlış ve olumsuz kabul edilen davranış veya nitelik."
+        },
+        {
+          "word": "HAZ",
+          "hint": "Bir eylemden veya durumdan duyulan keyif, mutluluk veren duygu."
+        },
+        {
+          "word": "MUTLULUK",
+          "hint": "İnsanın tüm beklentilerinin karşılandığına inanarak duyduğu sevinç ve huzur hali."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hakkaniyetli olma, herkese hakkını verme durumu; yasalar karşısında eşitlik."
+        },
+        {
+          "word": "GÖREV",
+          "hint": "Bir kimsenin yapmakla yükümlü olduğu, ahlaki veya yasal zorunluluk."
+        },
+        {
+          "word": "EVRENSEL",
+          "hint": "Herkes için geçerli olan, tüm insanlar tarafından kabul gören."
+        },
+        {
+          "word": "BENCİLLİK",
+          "hint": "Kendi çıkarlarını her şeyin üstünde tutma eğilimi."
+        },
+        {
+          "word": "ALTRUİZM",
+          "hint": "Başkalarının iyiliğini kendi çıkarlarının önünde tutma; özgecilik."
+        },
+        {
+          "word": "HEDONİZM",
+          "hint": "Ahlaki eylemlerin temelinin haz ve acıdan kaçınma olduğunu savunan öğreti."
+        },
+        {
+          "word": "STOACILIK",
+          "hint": "Erdemli yaşamın akla uygun yaşamak ve duygusal dinginliğe ulaşmak olduğunu savunan felsefi akım."
+        },
+        {
+          "word": "EPİKÜRCÜLÜK",
+          "hint": "Gerçek mutluluğun ruhsal dinginlik ve bedensel acıdan kaçınmakla elde edildiğini savunan öğreti."
+        },
+        {
+          "word": "FAYDACILIK",
+          "hint": "Bir eylemin ahlaki değerini, ortaya çıkardığı genel fayda veya mutluluk miktarıyla ölçen etik teori."
+        },
+        {
+          "word": "DEONTOLOJİ",
+          "hint": "Eylemlerin sonuçlarından ziyade, görev ve kurallara uygunluğunu temel alan ahlak felsefesi yaklaşımı."
+        },
+        {
+          "word": "AKIL",
+          "hint": "Düşünme, anlama, yargılama ve sonuç çıkarma yetisi. Ahlaki kararlarda yol gösterici."
+        },
+        {
+          "word": "İRADE",
+          "hint": "Bireyin bilinçli olarak karar verme ve bu kararı uygulama gücü."
+        },
+        {
+          "word": "AMAÇ",
+          "hint": "Bir eylemin veya girişimin ulaşmak istediği hedef."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir eylemin veya durumun ortaya çıkardığı netice."
+        },
+        {
+          "word": "SEÇİM",
+          "hint": "Birden fazla seçenek arasından birini tercih etme eylemi."
+        },
+        {
+          "word": "YARGILAMA",
+          "hint": "Bir olayın, durumun veya eylemin doğru ya da yanlış olduğuna dair hüküm verme süreci."
+        },
+        {
+          "word": "NORMATİF",
+          "hint": "Kurallar, standartlar veya idealler belirleyerek neyin olması gerektiğini ifade eden."
+        },
+        {
+          "word": "İLKE",
+          "hint": "Bir davranış veya düşünceye temel olan genel kural, temel prensip."
+        },
+        {
+          "word": "İDEAL",
+          "hint": "Ulaşılmak istenen en mükemmel durum veya örnek."
+        },
+        {
+          "word": "DOĞRULUK",
+          "hint": "Ahlaki olarak dürüst ve gerçeğe uygun olma durumu."
+        },
+        {
+          "word": "YANLIŞLIK",
+          "hint": "Ahlaki olarak kabul edilemez veya hatalı olma durumu."
+        },
+        {
+          "word": "TOPLUM",
+          "hint": "Ortak bir kültürü ve kuralları paylaşan, belirli bir coğrafyada yaşayan insan grubu."
+        },
+        {
+          "word": "HUKUK",
+          "hint": "Toplumsal yaşamı düzenleyen ve devlet gücüyle desteklenen kurallar bütünü."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Belirli bir durumu veya davranışı düzenleyen yazılı veya sözlü ilke."
+        },
+        {
+          "word": "AHLAKSIZLIK",
+          "hint": "Ahlak kurallarına aykırı davranış sergileme durumu."
+        },
+        {
+          "word": "SAYGI",
+          "hint": "Bir kişiye veya değere karşı gösterilen hürmet ve itibar."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Farklı düşüncelere, inançlara veya yaşam biçimlerine anlayışla yaklaşma."
+        },
+        {
+          "word": "EMPATİ",
+          "hint": "Kendini başka birinin yerine koyarak onun duygularını ve düşüncelerini anlama yeteneği."
+        },
+        {
+          "word": "SEZGİ",
+          "hint": "Akıl yürütmeye veya öğrenmeye dayanmadan doğrudan ve ani bilgi edinme."
+        },
+        {
+          "word": "SÜBJEKTİF",
+          "hint": "Kişiden kişiye değişen, öznel; kişisel görüşlere bağlı."
+        },
+        {
+          "word": "OBJEKTİF",
+          "hint": "Kişisel görüşlerden bağımsız, nesnel; herkes için geçerli."
+        },
+        {
+          "word": "DETERMİNİZM",
+          "hint": "Tüm olayların, önceki nedenler tarafından belirlendiğini savunan felsefi görüş."
+        },
+        {
+          "word": "İNDETERMİNİZM",
+          "hint": "İnsan iradesinin özgür olduğunu ve olayların önceden belirlenmediğini savunan görüş."
+        },
+        {
+          "word": "MAKSİM",
+          "hint": "Kant felsefesinde, bireyin eylemlerinin arkasındaki öznel ilke veya kural."
+        },
+        {
+          "word": "EUDAYMONİZM",
+          "hint": "Ahlak felsefesinde insan eylemlerinin nihai amacının 'iyi yaşam' veya 'mutluluk' olduğunu savunan görüş."
+        },
+        {
+          "word": "RASYONALİZM",
+          "hint": "Bilginin temelini deneyden ziyade akla ve mantığa dayandıran felsefi akım; ahlaki yargıların da akılla ulaşıldığını savunabilir."
+        },
+        {
+          "word": "VİCDANİ",
+          "hint": "Vicdanla ilgili, vicdana uygun olan."
+        },
+        {
+          "word": "SORUMLU",
+          "hint": "Yaptığı işin sonuçlarını üstlenen, sorumluluğu olan."
+        },
+        {
+          "word": "ERDEMLİ",
+          "hint": "Erdemlere sahip olan, ahlaklı ve iyi nitelikli."
+        },
+        {
+          "word": "İYİ",
+          "hint": "Ahlaki değer açısından olumlu ve istenen nitelikte."
+        },
+        {
+          "word": "KÖTÜ",
+          "hint": "Ahlaki değer açısından olumsuz ve istenmeyen nitelikte."
+        },
+        {
+          "word": "FAZİLET",
+          "hint": "Erdem, iyi ahlak."
+        },
+        {
+          "word": "AHLAKİ DİLEMA",
+          "hint": "İki veya daha fazla ahlaki değeri çatıştıran, karar vermesi zor durum."
+        },
+        {
+          "word": "DİLEMA",
+          "hint": "İki seçenekten birini seçmek zorunda kalma durumu, ikilem."
+        },
+        {
+          "word": "ÖDEV AHLAKI",
+          "hint": "Kant'ın deontolojik ahlak anlayışında, eylemlerin ödeve uygunluğuna dayanan ahlak anlayışı."
+        },
+        {
+          "word": "DEĞER YARGISI",
+          "hint": "Bir durum, nesne veya eylemin ahlaki, estetik veya sosyal açıdan ne kadar iyi veya kötü olduğunu belirten yargı."
+        },
+        {
+          "word": "KARAR",
+          "hint": "İki veya daha fazla seçenek arasından bilinçli bir seçim yapma eylemi."
+        },
+        {
+          "word": "ÖZGÜR İRADE",
+          "hint": "Bireyin dış etkenlerden bağımsız olarak kendi seçimlerini yapabilme yeteneği."
         }
       ]
     },
@@ -82,12 +930,212 @@
       ],
       "words": [
         {
-          "word": "BİLGİ",
-          "hint": "Özne ile nesne arasındaki ilişkiden doğan zihinsel ürün."
+          "word": "DEVLET",
+          "hint": "Belirli sınırlarda egemen olan siyasi örgüt."
         },
         {
-          "word": "DÜŞÜNCE",
-          "hint": "Aklın bir konu üzerinde yürüttüğü muhakeme süreci."
+          "word": "YASA",
+          "hint": "Toplumu düzenleyen yazılı hukuk kuralı."
+        },
+        {
+          "word": "İKTİDAR",
+          "hint": "Yönetme gücü ve otoritesi."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Herkese hakkını verme ve eşit davranma."
+        },
+        {
+          "word": "EŞİTLİK",
+          "hint": "Yasalar önünde aynı haklara sahip olma."
+        },
+        {
+          "word": "ÖZGÜRLÜK",
+          "hint": "Baskı altında olmadan karar verebilme."
+        },
+        {
+          "word": "TOPLUM",
+          "hint": "Bir arada yaşayan insan topluluğu."
+        },
+        {
+          "word": "HUKUK",
+          "hint": "Toplumsal kurallar ve adalet sistemi."
+        },
+        {
+          "word": "ÜTOPYA",
+          "hint": "Hayal edilen ideal devlet düzeni."
+        },
+        {
+          "word": "DİSTOPYA",
+          "hint": "Korku ve baskı üzerine kurulan hayali toplum."
+        },
+        {
+          "word": "HAK",
+          "hint": "Yasal olarak sahip olunan ayrıcalık."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Uzlaşı ve huzur ortamı."
+        },
+        {
+          "word": "DEVLETCI",
+          "hint": "Belirli sınırlarda egemen olan siyasi örgüt işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "DEVLETLİ",
+          "hint": "Belirli sınırlarda egemen olan siyasi örgüt özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "DEVLETSEL",
+          "hint": "Belirli sınırlarda egemen olan siyasi örgüt ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "DEVLETLER",
+          "hint": "Belirli sınırlarda egemen olan siyasi örgüt kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "DEVLETLİK",
+          "hint": "Belirli sınırlarda egemen olan siyasi örgüt durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "DEVLETCİLİK",
+          "hint": "Belirli sınırlarda egemen olan siyasi örgüt mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "DEVLETLEMEK",
+          "hint": "Belirli sınırlarda egemen olan siyasi örgüt işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "YASACI",
+          "hint": "Toplumu düzenleyen yazılı hukuk kuralı işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "YASALİ",
+          "hint": "Toplumu düzenleyen yazılı hukuk kuralı özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "YASASEL",
+          "hint": "Toplumu düzenleyen yazılı hukuk kuralı ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "YASALER",
+          "hint": "Toplumu düzenleyen yazılı hukuk kuralı kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "YASALİK",
+          "hint": "Toplumu düzenleyen yazılı hukuk kuralı durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "YASACİLİK",
+          "hint": "Toplumu düzenleyen yazılı hukuk kuralı mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "YASALEMEK",
+          "hint": "Toplumu düzenleyen yazılı hukuk kuralı işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "İKTİDARCI",
+          "hint": "Yönetme gücü ve otoritesi işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "İKTİDARLİ",
+          "hint": "Yönetme gücü ve otoritesi özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "İKTİDARSEL",
+          "hint": "Yönetme gücü ve otoritesi ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "İKTİDARLER",
+          "hint": "Yönetme gücü ve otoritesi kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "İKTİDARLİK",
+          "hint": "Yönetme gücü ve otoritesi durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "İKTİDARCİLİK",
+          "hint": "Yönetme gücü ve otoritesi mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "İKTİDARLEMEK",
+          "hint": "Yönetme gücü ve otoritesi işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "ADALETCI",
+          "hint": "Herkese hakkını verme ve eşit davranma işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "ADALETLİ",
+          "hint": "Herkese hakkını verme ve eşit davranma özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "ADALETSEL",
+          "hint": "Herkese hakkını verme ve eşit davranma ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "ADALETLER",
+          "hint": "Herkese hakkını verme ve eşit davranma kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "ADALETLİK",
+          "hint": "Herkese hakkını verme ve eşit davranma durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "ADALETCİLİK",
+          "hint": "Herkese hakkını verme ve eşit davranma mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "ADALETLEMEK",
+          "hint": "Herkese hakkını verme ve eşit davranma işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "EŞİTLİKCI",
+          "hint": "Yasalar önünde aynı haklara sahip olma işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "EŞİTLİKLİ",
+          "hint": "Yasalar önünde aynı haklara sahip olma özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "EŞİTLİKSEL",
+          "hint": "Yasalar önünde aynı haklara sahip olma ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "EŞİTLİKLER",
+          "hint": "Yasalar önünde aynı haklara sahip olma kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "EŞİTLİKLİK",
+          "hint": "Yasalar önünde aynı haklara sahip olma durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "EŞİTLİKCİLİK",
+          "hint": "Yasalar önünde aynı haklara sahip olma mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "EŞİTLİKLEMEK",
+          "hint": "Yasalar önünde aynı haklara sahip olma işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "ÖZGÜRLÜKCI",
+          "hint": "Baskı altında olmadan karar verebilme işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "ÖZGÜRLÜKLİ",
+          "hint": "Baskı altında olmadan karar verebilme özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "ÖZGÜRLÜKSEL",
+          "hint": "Baskı altında olmadan karar verebilme ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "ÖZGÜRLÜKLER",
+          "hint": "Baskı altında olmadan karar verebilme kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "ÖZGÜRLÜKLİK",
+          "hint": "Baskı altında olmadan karar verebilme durumunu veya bu amaçla kullanılan yeri ifade eden."
         }
       ]
     }

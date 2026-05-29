@@ -16,6 +16,206 @@
         {
           "word": "AHLAK",
           "hint": "İnsanın iyi veya kötü olarak nitelendirilmesine yol açan manevi nitelikler."
+        },
+        {
+          "word": "ALLAH",
+          "hint": "Varlığı zorunlu olan tek Yaratıcı."
+        },
+        {
+          "word": "İMAN",
+          "hint": "Allah'a ve O'nun bildirdiklerine kalben tasdik edip dille ikrar etme."
+        },
+        {
+          "word": "TEVHİD",
+          "hint": "Allah'ın bir ve tek olduğuna, eşi ve benzeri bulunmadığına inanma ilkesi."
+        },
+        {
+          "word": "ŞİRK",
+          "hint": "Allah'a ortak koşma, O'nunla birlikte başka ilahlar tanıma."
+        },
+        {
+          "word": "NÜBÜVVET",
+          "hint": "Allah tarafından insanlara doğru yolu göstermek üzere peygamber gönderilmesi."
+        },
+        {
+          "word": "VAHİY",
+          "hint": "Allah'ın buyruklarını ve mesajlarını peygamberlerine bildirmesi."
+        },
+        {
+          "word": "PEYGAMBER",
+          "hint": "Allah'tan aldığı vahiyleri insanlara bildiren ve onları doğru yola çağıran elçi."
+        },
+        {
+          "word": "KİTAP",
+          "hint": "Allah tarafından peygamberlere vahyedilen ilahi metinlerin bütünü."
+        },
+        {
+          "word": "MELEK",
+          "hint": "Allah'ın nurdan yarattığı, gözle görülmeyen ve daima O'na itaat eden varlıklar."
+        },
+        {
+          "word": "AHİRET",
+          "hint": "Dünya hayatından sonra başlayacak olan ebedi yaşam."
+        },
+        {
+          "word": "CENNET",
+          "hint": "Allah'ın rızasını kazananların ebedi olarak kalacakları mükafat yeri."
+        },
+        {
+          "word": "CEHENNEM",
+          "hint": "Allah'ın emirlerine karşı gelenlerin ceza görecekleri azap yeri."
+        },
+        {
+          "word": "KADER",
+          "hint": "Allah'ın her şeyi önceden bilmesi ve takdir etmesi."
+        },
+        {
+          "word": "KAZA",
+          "hint": "Allah'ın önceden takdir ettiği şeylerin zamanı gelince gerçekleşmesi."
+        },
+        {
+          "word": "KULLUK",
+          "hint": "İnsanın Allah'ın emirlerine uyarak ve yasaklarından kaçınarak gösterdiği bağlılık."
+        },
+        {
+          "word": "ESMAÜL HÜSNA",
+          "hint": "Allah'ın en güzel isimleri."
+        },
+        {
+          "word": "SIFAT",
+          "hint": "Allah'ın zatına ait olan ve O'nu diğer varlıklardan ayıran nitelikler."
+        },
+        {
+          "word": "ZAT",
+          "hint": "Allah'ın kendine özgü, mahiyeti anlaşılamayan eşsiz varlığı."
+        },
+        {
+          "word": "YARATICI",
+          "hint": "Her şeyi yoktan var eden, hiç kimseye benzemeyen Allah."
+        },
+        {
+          "word": "EVREN",
+          "hint": "Var olan her şeyin bütünü, kainat."
+        },
+        {
+          "word": "İNSAN",
+          "hint": "Akıl ve irade sahibi olarak yaratılmış, yeryüzünün halifesi kılınmış varlık."
+        },
+        {
+          "word": "RUH",
+          "hint": "İnsana hayat veren, bedenin canlılığını sağlayan ilahi öz."
+        },
+        {
+          "word": "AKIL",
+          "hint": "İnsanın düşünme, anlama, idrak etme ve karar verme yetisi."
+        },
+        {
+          "word": "VİCDAN",
+          "hint": "İnsanın iyiyi kötüden ayırmasını sağlayan içsel duygu ve ahlaki yargı yetisi."
+        },
+        {
+          "word": "HİKMET",
+          "hint": "Allah'ın her şeyi yerli yerince yapması, olaylardaki derin anlam ve fayda."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Her şeyi hakkına uygun ve dengeli olarak yerine koyma."
+        },
+        {
+          "word": "KUDRET",
+          "hint": "Allah'ın her şeye gücü yetmesi, dilediğini yapabilme yeteneği."
+        },
+        {
+          "word": "İRADE",
+          "hint": "Allah'ın dilediğini seçmesi ve gerçekleştirmesi."
+        },
+        {
+          "word": "İLİM",
+          "hint": "Allah'ın her şeyi sonsuz ve eksiksiz bir şekilde bilmesi."
+        },
+        {
+          "word": "BASAR",
+          "hint": "Allah'ın her şeyi eksiksiz ve kusursuz görmesi."
+        },
+        {
+          "word": "SEMİ",
+          "hint": "Allah'ın her şeyi eksiksiz ve kusursuz işitmesi."
+        },
+        {
+          "word": "KELAM",
+          "hint": "Allah'ın konuşması, dilediğini bildirmesi veya söylemesi sıfatı."
+        },
+        {
+          "word": "TEKVİN",
+          "hint": "Allah'ın her şeyi yoktan var etmesi ve yaratması sıfatı."
+        },
+        {
+          "word": "KIYAMET",
+          "hint": "Dünya hayatının sona erdiği ve yeni bir dirilişin başlangıcı olan büyük gün."
+        },
+        {
+          "word": "HAŞİR",
+          "hint": "Kıyametten sonra bütün insanların diriltilerek bir araya toplanması."
+        },
+        {
+          "word": "MİZAN",
+          "hint": "Ahirette amellerin tartılacağı adalet terazisi."
+        },
+        {
+          "word": "SIRAT",
+          "hint": "Cehennemin üzerinden geçeceği düşünülen köprü."
+        },
+        {
+          "word": "ŞEFAAT",
+          "hint": "Peygamberlerin ve Allah dostlarının, Allah'ın izniyle günahkar müminler için aracılık etmesi."
+        },
+        {
+          "word": "TÖVBE",
+          "hint": "İşlenen günahlardan pişmanlık duyarak Allah'tan bağışlanma dileme."
+        },
+        {
+          "word": "ŞÜKÜR",
+          "hint": "Allah'ın verdiği nimetlere karşı minnettarlık ve teşekkür etme."
+        },
+        {
+          "word": "SABIR",
+          "hint": "Musibetler karşısında dirençli olma, Allah'a tevekkül etme."
+        },
+        {
+          "word": "DUA",
+          "hint": "İnsanın Allah'a yönelerek dileklerini arz etmesi, yakarması."
+        },
+        {
+          "word": "ZİKİR",
+          "hint": "Allah'ı anma, O'nun isimlerini ve sıfatlarını hatırlama."
+        },
+        {
+          "word": "HELAL",
+          "hint": "Dinen izin verilmiş, yapılması ve tüketilmesi serbest olan şeyler."
+        },
+        {
+          "word": "HARAM",
+          "hint": "Dinen kesin olarak yasaklanmış, yapılması ve tüketilmesi günah olan şeyler."
+        },
+        {
+          "word": "ULUĞİYET",
+          "hint": "Allah'ın ilahlık vasfı, ibadete layık tek varlık olması."
+        },
+        {
+          "word": "RUBUBİYET",
+          "hint": "Allah'ın yaratma, rızık verme, yaşatma ve idare etme sıfatı."
+        },
+        {
+          "word": "VAHDANİYET",
+          "hint": "Allah'ın zatında, sıfatlarında ve fiillerinde eşsiz, tek ve bir olması."
+        },
+        {
+          "word": "EZELİ",
+          "hint": "Başlangıcı olmayan, varlığı öncesiz olan."
+        },
+        {
+          "word": "EBEDİ",
+          "hint": "Sonu olmayan, varlığı sonsuz olan."
         }
       ]
     },
@@ -32,8 +232,208 @@
           "hint": "Allah'ın rızasını kazanmak için yapılan kulluk görevleri."
         },
         {
-          "word": "AHLAK",
-          "hint": "İnsanın iyi veya kötü olarak nitelendirilmesine yol açan manevi nitelikler."
+          "word": "TEMİZLİK",
+          "hint": "Maddi ve manevi kirlerden arınma."
+        },
+        {
+          "word": "TAHARET",
+          "hint": "Dinî hükümlere göre yapılan temizlik, arınma."
+        },
+        {
+          "word": "ABDEST",
+          "hint": "Namaz kılmak gibi ibadetlerden önce belirli organları yıkamak suretiyle yapılan dinî temizlik."
+        },
+        {
+          "word": "GUSÜL",
+          "hint": "Bütün vücudu yıkamak suretiyle yapılan dinî temizlik (boy abdesti)."
+        },
+        {
+          "word": "TEYEMMÜM",
+          "hint": "Su bulunmadığında veya kullanılamadığında toprakla yapılan sembolik temizlik."
+        },
+        {
+          "word": "NAMAZ",
+          "hint": "Belirli kurallara göre Allah'a yapılan ibadet."
+        },
+        {
+          "word": "ORUÇ",
+          "hint": "Belirli bir süre yeme, içme ve cinsel ilişkiden uzak durarak yapılan ibadet."
+        },
+        {
+          "word": "ZEKAT",
+          "hint": "Dinî zenginlik ölçüsüne ulaşan Müslümanların mallarından fakirlere verdiği belirli pay."
+        },
+        {
+          "word": "HAC",
+          "hint": "Belirli şartları taşıyan Müslümanların Kâbe'yi ve kutsal yerleri ziyaret ederek yaptığı ibadet."
+        },
+        {
+          "word": "KULLUK",
+          "hint": "Allah'a karşı sorumlulukları yerine getirme, O'na boyun eğme."
+        },
+        {
+          "word": "DUA",
+          "hint": "Allah'tan bir şey isteme, O'na yakarış."
+        },
+        {
+          "word": "NİYET",
+          "hint": "Bir işe başlamadan önce kalben yapılan amaç belirlemesi."
+        },
+        {
+          "word": "FARZ",
+          "hint": "Allah'ın kesin olarak emrettiği, yapılması zorunlu olan ibadet veya görev."
+        },
+        {
+          "word": "VACİP",
+          "hint": "Farz kadar kesin olmamakla birlikte yapılması gerekli olan ibadet veya görev."
+        },
+        {
+          "word": "SÜNNET",
+          "hint": "Hz. Muhammed'in sözleri, fiilleri ve onayladığı davranışlar."
+        },
+        {
+          "word": "NAFİLE",
+          "hint": "Farz ve vacip dışında kişinin isteğe bağlı olarak yaptığı ibadetler."
+        },
+        {
+          "word": "SAHUR",
+          "hint": "Oruç tutmadan önce gece yenilen yemek."
+        },
+        {
+          "word": "İFTAR",
+          "hint": "Orucu açma, oruçlu iken akşam yemeği yeme."
+        },
+        {
+          "word": "İMSAK",
+          "hint": "Orucun başlama vakti, sabah ezanına kadar olan süre."
+        },
+        {
+          "word": "FİTRE",
+          "hint": "Ramazan Bayramı öncesinde ihtiyaç sahiplerine verilen vacip sadaka."
+        },
+        {
+          "word": "SADAKA",
+          "hint": "Allah rızası için yapılan gönüllü yardımlar."
+        },
+        {
+          "word": "KURBAN",
+          "hint": "Allah'a yakınlaşmak ve rızasını kazanmak amacıyla kesilen hayvan."
+        },
+        {
+          "word": "CUMA",
+          "hint": "Haftalık toplu namazın kılındığı kutsal gün."
+        },
+        {
+          "word": "BAYRAM",
+          "hint": "Dinî açıdan sevinç ve kutlama günleri (Ramazan ve Kurban Bayramları)."
+        },
+        {
+          "word": "MİHRAP",
+          "hint": "Camilerde imamın namaz kıldırdığı, kıble yönünü gösteren girintili yer."
+        },
+        {
+          "word": "MİNBER",
+          "hint": "Camilerde imamın hutbe okuduğu basamaklı yer."
+        },
+        {
+          "word": "KIBLE",
+          "hint": "Namaz kılarken dönülen yön, Kâbe'nin bulunduğu taraf."
+        },
+        {
+          "word": "EZAN",
+          "hint": "Namaz vaktinin geldiğini bildiren çağrı."
+        },
+        {
+          "word": "KAMET",
+          "hint": "Cemaatle namaza başlamadan önce okunan kısa ezan."
+        },
+        {
+          "word": "MESCİT",
+          "hint": "Küçük cami, namaz kılınan yer."
+        },
+        {
+          "word": "CAMİ",
+          "hint": "Müslümanların toplu halde ibadet ettiği büyük yapı."
+        },
+        {
+          "word": "TEVEKKÜL",
+          "hint": "Allah'a güvenmek ve işleri O'na bırakmak, sebeplere sarıldıktan sonra."
+        },
+        {
+          "word": "TÖVBE",
+          "hint": "İşlenen günahlar için pişmanlık duyup Allah'tan af dileme."
+        },
+        {
+          "word": "ŞÜKÜR",
+          "hint": "Allah'ın verdiği nimetlere karşı minnettarlık duyma ve bunu dile getirme."
+        },
+        {
+          "word": "İHLAS",
+          "hint": "İbadetleri ve tüm davranışları sadece Allah rızası için yapma."
+        },
+        {
+          "word": "TAKVA",
+          "hint": "Allah'tan sakınma, O'nun emirlerine uyup yasaklarından kaçınma."
+        },
+        {
+          "word": "KAZA",
+          "hint": "Vaktinde kılınamayan namazın daha sonra kılınması."
+        },
+        {
+          "word": "SEHİV",
+          "hint": "Namazda unutarak yapılan hata, yanılgı."
+        },
+        {
+          "word": "SECDE",
+          "hint": "Namazda alnı, burnu, elleri, dizleri ve ayak parmaklarını yere koyma hali."
+        },
+        {
+          "word": "RÜKU",
+          "hint": "Namazda elleri dizlere koyarak öne eğilme hali."
+        },
+        {
+          "word": "KIYAM",
+          "hint": "Namazda ayakta durma hali."
+        },
+        {
+          "word": "KIRAAT",
+          "hint": "Namazda Kur'an'dan ayet veya sure okuma."
+        },
+        {
+          "word": "TEŞEHÜT",
+          "hint": "Namazda otururken okunan dualar."
+        },
+        {
+          "word": "SELAM",
+          "hint": "Namazın sonunda sağa ve sola dönerek verilen 'Esselamu aleykum ve rahmetullah' sözü."
+        },
+        {
+          "word": "İHRAM",
+          "hint": "Hac ve Umre için özel olarak giyilen dikişsiz elbise ve bu esnadaki yasaklar durumu."
+        },
+        {
+          "word": "TELBİYE",
+          "hint": "Hac ve Umre sırasında okunan 'Lebbeyk Allahümme Lebbeyk' duası."
+        },
+        {
+          "word": "TAVAF",
+          "hint": "Kâbe'nin etrafında yedi defa dönme ibadeti."
+        },
+        {
+          "word": "SAY",
+          "hint": "Safa ve Merve tepeleri arasında yedi defa gidip gelme ibadeti."
+        },
+        {
+          "word": "MİKAT",
+          "hint": "Hac veya umre için ihrama girilmesi gereken yer veya sınır."
+        },
+        {
+          "word": "NECİS",
+          "hint": "Dinî açıdan pis sayılan ve ibadete engel olan madde."
+        },
+        {
+          "word": "HADES",
+          "hint": "Abdesti veya guslü gerektiren dinî kirlilik hali."
         }
       ]
     },
@@ -52,6 +452,206 @@
         {
           "word": "AHLAK",
           "hint": "İnsanın iyi veya kötü olarak nitelendirilmesine yol açan manevi nitelikler."
+        },
+        {
+          "word": "PEYGAMBER",
+          "hint": "Allah'ın buyruklarını insanlara bildirmekle görevli elçi."
+        },
+        {
+          "word": "SÜNNET",
+          "hint": "Hz. Muhammed'in sözleri, fiilleri ve onayladığı davranışlar."
+        },
+        {
+          "word": "HADİS",
+          "hint": "Hz. Muhammed'in sözlerini ve uygulamalarını aktaran rivayetler."
+        },
+        {
+          "word": "TEBLİĞ",
+          "hint": "Peygamberlerin Allah'tan aldıkları mesajları insanlara duyurması."
+        },
+        {
+          "word": "HİCRET",
+          "hint": "Hz. Muhammed ve Müslümanların Mekke'den Medine'ye göç etmesi."
+        },
+        {
+          "word": "MEDİNE",
+          "hint": "Hicret sonrası İslam devletinin kurulduğu ve Hz. Peygamberin yaşadığı şehir."
+        },
+        {
+          "word": "MEKKE",
+          "hint": "Hz. Muhammed'in doğduğu, Kâbe'nin bulunduğu kutsal şehir."
+        },
+        {
+          "word": "SAHABE",
+          "hint": "Hz. Muhammed zamanında yaşamış, onu görmüş ve iman etmiş Müslümanlar."
+        },
+        {
+          "word": "ÜMMET",
+          "hint": "Hz. Muhammed'e iman eden ve onun yolundan giden Müslümanlar topluluğu."
+        },
+        {
+          "word": "VAHİY",
+          "hint": "Allah'ın mesajlarını peygamberlerine bildirmesi."
+        },
+        {
+          "word": "KURAN",
+          "hint": "Allah tarafından Hz. Muhammed'e indirilen son ilahi kitap."
+        },
+        {
+          "word": "İMAN",
+          "hint": "Allah'a, peygamberlerine, kitaplarına, meleklere, ahiret gününe ve kaderin iyiliğine kötülüğüne inanmak."
+        },
+        {
+          "word": "DOĞRULUK",
+          "hint": "Sözde ve işte dürüst olmak, gerçeği söylemek."
+        },
+        {
+          "word": "DÜRÜSTLÜK",
+          "hint": "Hile ve aldatmadan uzak durmak, güvenilir olmak."
+        },
+        {
+          "word": "GÜVEN",
+          "hint": "Birine inanmak, ondan emin olmak ve ona dayanmak."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hak sahibine hakkını vermek, eşitlik ve denge gözetmek."
+        },
+        {
+          "word": "SABIR",
+          "hint": "Zorluklar karşısında dayanma gücü göstermek, tahammül etmek."
+        },
+        {
+          "word": "ŞÜKÜR",
+          "hint": "Allah'ın verdiği nimetlere karşı minnettarlık duymak ve bunu dile getirmek."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Farklı düşünce ve inançlara saygı duymak, anlayışlı olmak."
+        },
+        {
+          "word": "ALÇAKGÖNÜLLÜLÜK",
+          "hint": "Kendini büyük görmemek, mütevazı olmak."
+        },
+        {
+          "word": "YARDIMSEVERLİK",
+          "hint": "Başkalarına karşılıksız iyilik etmek, destek olmak."
+        },
+        {
+          "word": "CÖMERTLİK",
+          "hint": "Malını ve imkanlarını başkalarıyla paylaşmaktan çekinmemek."
+        },
+        {
+          "word": "AFFEDİCİLİK",
+          "hint": "Kendisine karşı yapılan hatayı veya kusuru bağışlamak."
+        },
+        {
+          "word": "SAMİMİYET",
+          "hint": "İçtenlik, söz ve davranışlarda içten pazarlıksız olmak."
+        },
+        {
+          "word": "İYİLİK",
+          "hint": "Başkasına faydalı olmak, güzellik ve olumlu davranış sergilemek."
+        },
+        {
+          "word": "MERHAMET",
+          "hint": "Canlılara acımak, şefkat göstermek, yardım etmek."
+        },
+        {
+          "word": "ŞEFKAT",
+          "hint": "Acıma ve koruma duygusuyla sevgi göstermek."
+        },
+        {
+          "word": "EMANET",
+          "hint": "Korunması ve sahibine teslim edilmesi gereken değerli şey."
+        },
+        {
+          "word": "TEVAZU",
+          "hint": "Alçakgönüllü olmak, kibirden uzak durmak."
+        },
+        {
+          "word": "İHSAN",
+          "hint": "Allah'ı görüyormuş gibi ibadet etmek, iyilikte kusursuz olmak."
+        },
+        {
+          "word": "TAKVA",
+          "hint": "Allah'ın emirlerine uyup yasaklarından sakınarak günahlardan korunmak."
+        },
+        {
+          "word": "HELAL",
+          "hint": "Dinin izin verdiği, yasal ve caiz olan şeyler."
+        },
+        {
+          "word": "HARAM",
+          "hint": "Dinin kesin olarak yasakladığı şeyler."
+        },
+        {
+          "word": "FARZ",
+          "hint": "Allah'ın kesin ve açık bir şekilde emrettiği, yapılması zorunlu ibadetler."
+        },
+        {
+          "word": "VACİP",
+          "hint": "Farz kadar kesin olmasa da kuvvetli delillerle sabit olan ve yapılması gerekli görülen ameller."
+        },
+        {
+          "word": "MÜSTEHAP",
+          "hint": "Yapılması sevap olan, terki günah olmayan güzel davranışlar."
+        },
+        {
+          "word": "MEKRUH",
+          "hint": "Dinen hoş görülmeyen, istenmeyen, yapılması tavsiye edilmeyen davranışlar."
+        },
+        {
+          "word": "MÜBAH",
+          "hint": "Yapılıp yapılmaması konusunda dini bir sakınca bulunmayan işler."
+        },
+        {
+          "word": "KAZA",
+          "hint": "Allah'ın ezelde takdir ettiği şeylerin zamanı gelince gerçekleşmesi."
+        },
+        {
+          "word": "KADER",
+          "hint": "Allah'ın her şeyi ezelde bilmesi ve planlaması."
+        },
+        {
+          "word": "KIYAMET",
+          "hint": "Evrenin ve dünyanın son bulduğu, tüm canlıların yok olduğu gün."
+        },
+        {
+          "word": "AHİRET",
+          "hint": "Dünya hayatından sonraki sonsuz yaşam."
+        },
+        {
+          "word": "CENNET",
+          "hint": "İtaatkâr müminlerin ebediyen kalacakları mükafat yurdu."
+        },
+        {
+          "word": "CEHENNEM",
+          "hint": "Kafirlerin ve günahkarların ceza görecekleri azap yurdu."
+        },
+        {
+          "word": "RIZA",
+          "hint": "Allah'ın takdirine ve hükümlerine gönülden razı olmak, teslimiyet."
+        },
+        {
+          "word": "İSTİKAMET",
+          "hint": "Doğru ve dürüst yolda olmak, hakka bağlı kalmak."
+        },
+        {
+          "word": "VEDA HUTBESİ",
+          "hint": "Hz. Muhammed'in hac sırasında Müslümanlara yaptığı son genel konuşma."
+        },
+        {
+          "word": "MUHAMMEDÜL EMİN",
+          "hint": "Hz. Muhammed'in henüz peygamber olmadan önce, Mekke'liler tarafından verilen 'güvenilir Muhammed' lakabı."
+        },
+        {
+          "word": "ERDEM",
+          "hint": "Ahlaki üstünlük, iyi huylar, fazilet."
+        },
+        {
+          "word": "FAZİLET",
+          "hint": "İnsanın ruhsal ve ahlaki mükemmelliği, üstün nitelik."
         }
       ]
     },
@@ -70,6 +670,222 @@
         {
           "word": "AHLAK",
           "hint": "İnsanın iyi veya kötü olarak nitelendirilmesine yol açan manevi nitelikler."
+        },
+        {
+          "word": "KURAN",
+          "hint": "İslam dininin kutsal kitabı."
+        },
+        {
+          "word": "SÜNNET",
+          "hint": "Hz. Muhammed'in sözleri, fiilleri ve takrirleri."
+        },
+        {
+          "word": "VAHİY",
+          "hint": "Allah'ın emir ve yasaklarını peygamberlerine bildirmesi."
+        },
+        {
+          "word": "AYET",
+          "hint": "Kuran surelerini oluşturan cümle veya cümle öbekleri."
+        },
+        {
+          "word": "SURE",
+          "hint": "Kuran'da belli sayıda ayetten oluşan bölümler."
+        },
+        {
+          "word": "MUSHAF",
+          "hint": "Kuran ayetlerinin toplanıp kitap haline getirilmiş şekli."
+        },
+        {
+          "word": "TEFSİR",
+          "hint": "Kuran ayetlerini açıklama ve yorumlama bilimi."
+        },
+        {
+          "word": "HADİS",
+          "hint": "Hz. Muhammed'in söylediği sözler."
+        },
+        {
+          "word": "RAVİ",
+          "hint": "Hadisleri nakleden kişi."
+        },
+        {
+          "word": "İSNAT",
+          "hint": "Bir hadisin kaynağını, ravilerini zikrederek belirten zincir."
+        },
+        {
+          "word": "METİN",
+          "hint": "Hadisin asıl söz veya fiil kısmı."
+        },
+        {
+          "word": "SAHABE",
+          "hint": "Hz. Muhammed döneminde yaşamış, onu görmüş ve iman etmiş kişiler."
+        },
+        {
+          "word": "PEYGAMBER",
+          "hint": "Allah tarafından seçilmiş, insanlara ilahi mesajı ileten kişi."
+        },
+        {
+          "word": "RASUL",
+          "hint": "Allah'tan yeni bir kitap ve şeriat getiren peygamber."
+        },
+        {
+          "word": "NEBİ",
+          "hint": "Kendinden önceki peygamberin şeriatını tebliğ eden peygamber."
+        },
+        {
+          "word": "TEBLİĞ",
+          "hint": "Peygamberlerin ilahi mesajları insanlara ulaştırması."
+        },
+        {
+          "word": "HÜKÜM",
+          "hint": "Allah'ın emir ve yasakları, dini kurallar."
+        },
+        {
+          "word": "FARZ",
+          "hint": "Allah'ın kesin olarak emrettiği dini görev."
+        },
+        {
+          "word": "VACİP",
+          "hint": "Farza yakın derecede önemli dini görev."
+        },
+        {
+          "word": "HARAM",
+          "hint": "Allah'ın kesin olarak yasakladığı şey."
+        },
+        {
+          "word": "HELAL",
+          "hint": "Dinî olarak serbest ve izinli olan şey."
+        },
+        {
+          "word": "MEKRUH",
+          "hint": "Dinen hoş görülmeyen, yapılmaması daha iyi olan davranış."
+        },
+        {
+          "word": "MÜBAH",
+          "hint": "Yapılması veya yapılmaması dinen serbest olan şey."
+        },
+        {
+          "word": "KAYNAK",
+          "hint": "İslam dininin esaslarını oluşturan ana deliller."
+        },
+        {
+          "word": "AKAİD",
+          "hint": "İslam dininin inanç esasları."
+        },
+        {
+          "word": "FIKIH",
+          "hint": "İslam hukukunu ve ibadetleri inceleyen bilim dalı."
+        },
+        {
+          "word": "ŞERİAT",
+          "hint": "Allah tarafından konulan dinî hükümlerin bütünü."
+        },
+        {
+          "word": "İSLAM",
+          "hint": "Allah'a teslimiyet ve barış dini."
+        },
+        {
+          "word": "İMAN",
+          "hint": "Allah'a ve gönderdiklerine tereddütsüz inanma."
+        },
+        {
+          "word": "AMEL",
+          "hint": "Yapılan iş, davranış."
+        },
+        {
+          "word": "TAKVA",
+          "hint": "Allah'a karşı sorumluluk bilinciyle yaşama."
+        },
+        {
+          "word": "TEVHİD",
+          "hint": "Allah'ın bir ve tek olduğuna inanma."
+        },
+        {
+          "word": "RİSALET",
+          "hint": "Peygamberlik görevi, mesajı iletme."
+        },
+        {
+          "word": "NÜBÜVVET",
+          "hint": "Peygamberlik makamı."
+        },
+        {
+          "word": "HİKMET",
+          "hint": "Vahyin ve sünnetin içerdiği derin bilgi ve fayda."
+        },
+        {
+          "word": "İRŞAT",
+          "hint": "Doğru yolu gösterme, rehberlik etme."
+        },
+        {
+          "word": "NÜZUL",
+          "hint": "Kuran'ın ayetlerinin veya surelerinin indirilmesi."
+        },
+        {
+          "word": "MÜTEVATİR",
+          "hint": "Yalan üzerinde birleşmeleri mümkün olmayan topluluklar tarafından nakledilen hadis."
+        },
+        {
+          "word": "AHAD",
+          "hint": "Tek veya az sayıda ravi zinciriyle nakledilen hadis."
+        },
+        {
+          "word": "SAHİH",
+          "hint": "Güvenilir raviler tarafından sağlam bir isnatla nakledilen hadis."
+        },
+        {
+          "word": "ZAYIF",
+          "hint": "Ravilerinden veya isnadından dolayı güvenilirliği düşük olan hadis."
+        },
+        {
+          "word": "HASEN",
+          "hint": "Sahih derecesine ulaşmasa da kabul edilebilir nitelikteki hadis."
+        },
+        {
+          "word": "SİYER",
+          "hint": "Hz. Muhammed'in hayatını anlatan bilim dalı."
+        },
+        {
+          "word": "TEŞRİ",
+          "hint": "Kanun koyma, hüküm belirleme yetkisi."
+        },
+        {
+          "word": "İCMAL",
+          "hint": "Kuran'daki genel ifadelerin Sünnet ile açıklanması."
+        },
+        {
+          "word": "TAKRİR",
+          "hint": "Hz. Peygamberin bir söz veya fiili tasvip etmesi, onaylaması."
+        },
+        {
+          "word": "EFAL",
+          "hint": "Hz. Peygamberin fiilleri, uygulamaları."
+        },
+        {
+          "word": "KAVL",
+          "hint": "Hz. Peygamberin sözleri."
+        },
+        {
+          "word": "FIİLİ SÜNNET",
+          "hint": "Hz. Peygamberin uygulamalı davranışları."
+        },
+        {
+          "word": "KAVLİ SÜNNET",
+          "hint": "Hz. Peygamberin sözlü açıklamaları."
+        },
+        {
+          "word": "TAKRİRİ SÜNNET",
+          "hint": "Hz. Peygamberin onayladığı davranışlar."
+        },
+        {
+          "word": "İCMA",
+          "hint": "İslam alimlerinin bir mesele üzerinde görüş birliği etmesi."
+        },
+        {
+          "word": "KIYAS",
+          "hint": "Benzer bir hüküm için başka bir durumdan delil çıkarma."
+        },
+        {
+          "word": "İCTİHAT",
+          "hint": "Dinî bir konuda yeni hüküm çıkarmak için gösterilen çaba."
         }
       ]
     },
@@ -88,6 +904,206 @@
         {
           "word": "AHLAK",
           "hint": "İnsanın iyi veya kötü olarak nitelendirilmesine yol açan manevi nitelikler."
+        },
+        {
+          "word": "TOPLUM",
+          "hint": "Ortak bir kültürü ve yaşam biçimini paylaşan insan topluluğu."
+        },
+        {
+          "word": "DİN",
+          "hint": "İnsanların inanma, bağlanma ve ibadet etme ihtiyacını karşılayan sistemler bütünü."
+        },
+        {
+          "word": "CEMAAT",
+          "hint": "Aynı inanca sahip insanların oluşturduğu topluluk."
+        },
+        {
+          "word": "ÜMMET",
+          "hint": "İslam dinine inananların oluşturduğu evrensel topluluk."
+        },
+        {
+          "word": "SOSYAL ADALET",
+          "hint": "Toplumun tüm bireylerine eşit fırsatlar sunulması ve kaynakların hakkaniyetli dağıtılması ilkesi."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Farklı inanç, düşünce ve yaşam tarzlarına saygı duyma."
+        },
+        {
+          "word": "SEKÜLERİZM",
+          "hint": "Devlet işleri ile din işlerinin birbirinden ayrılması prensibi."
+        },
+        {
+          "word": "LAİKLİK",
+          "hint": "Devletin tüm dinlere eşit mesafede durması ve din ve vicdan özgürlüğünü güvence altına alması ilkesi."
+        },
+        {
+          "word": "DİYALOG",
+          "hint": "Farklı inanç veya kültürden insanların karşılıklı anlayış geliştirmek amacıyla kurdukları iletişim."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir toplumda doğru, iyi ve arzu edilir kabul edilen ölçütler."
+        },
+        {
+          "word": "NORMLAR",
+          "hint": "Bir toplumda bireylerin davranışlarını düzenleyen kurallar ve beklentiler."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir topluma ait bilgi, inanç, sanat, ahlak, hukuk, gelenek ve görenekler bütünü."
+        },
+        {
+          "word": "MEDENİYET",
+          "hint": "Bir toplumun yaşam biçimi, sanatsal, bilimsel ve teknolojik başarılarının toplamı."
+        },
+        {
+          "word": "GELENEK",
+          "hint": "Kuşaktan kuşağa aktarılan ve toplumda benimsenen uygulamalar, inançlar."
+        },
+        {
+          "word": "GÖRENEK",
+          "hint": "Bir toplumda belirli durumlarda nasıl davranılması gerektiğini belirten alışkanlıklar."
+        },
+        {
+          "word": "SOSYALLEŞME",
+          "hint": "Bireyin içinde yaşadığı toplumun değerlerini, normlarını ve kültürünü öğrenmesi süreci."
+        },
+        {
+          "word": "AİLE",
+          "hint": "Toplumun temelini oluşturan, akrabalık bağlarıyla birbirine bağlı bireylerden oluşan küçük grup."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Bireyin bilgi, beceri ve değerler kazanmasını sağlayan süreç."
+        },
+        {
+          "word": "DEVLET",
+          "hint": "Belirli bir toprak parçası üzerinde egemenlik kurmuş siyasi örgütlenme."
+        },
+        {
+          "word": "EKONOMİ",
+          "hint": "Bir toplumun üretim, dağıtım ve tüketim faaliyetlerini kapsayan sistem."
+        },
+        {
+          "word": "DAYANIŞMA",
+          "hint": "Bir grubun veya toplumun üyelerinin ortak amaçlar için bir araya gelmesi, birbirine destek olması."
+        },
+        {
+          "word": "YARDIMLAŞMA",
+          "hint": "İhtiyaç sahiplerine karşılıksız destek sağlama eylemi."
+        },
+        {
+          "word": "İNFAK",
+          "hint": "Allah rızası için maldan harcama yapma."
+        },
+        {
+          "word": "ZEKAT",
+          "hint": "İslam'ın beş şartından biri olan, belirli bir mal varlığına sahip Müslümanların yılda bir kez ihtiyaç sahiplerine vermesi gereken mali ibadet."
+        },
+        {
+          "word": "SADAKA",
+          "hint": "İhtiyaç sahiplerine gönüllü olarak yapılan bağış."
+        },
+        {
+          "word": "VAKIF",
+          "hint": "Bir hizmetin sürekli olması için belirli bir malın veya gelirin tahsis edildiği hayır kurumu."
+        },
+        {
+          "word": "İSRAF",
+          "hint": "Kaynakları gereksiz ve ölçüsüzce harcama."
+        },
+        {
+          "word": "CİHAT",
+          "hint": "İslam'da Allah yolunda gösterilen her türlü çaba ve mücadele."
+        },
+        {
+          "word": "IRKÇILIK",
+          "hint": "İnsanları ırklarına göre ayırma ve bir ırkı üstün görme düşüncesi."
+        },
+        {
+          "word": "AYRIMCILIK",
+          "hint": "İnsanlara cinsiyet, din, ırk gibi özelliklerinden dolayı farklı ve kötü muamele yapma."
+        },
+        {
+          "word": "KANAAT",
+          "hint": "Eldeki ile yetinme, açgözlülükten uzak durma."
+        },
+        {
+          "word": "EMEK",
+          "hint": "Bir işi başarmak için harcanan beden veya zihin gücü."
+        },
+        {
+          "word": "HELAL",
+          "hint": "Din kurallarına uygun, serbest ve meşru olan şeyler."
+        },
+        {
+          "word": "HARAM",
+          "hint": "Din kurallarına göre yasaklanmış olan şeyler."
+        },
+        {
+          "word": "TEVEKKÜL",
+          "hint": "Bir iş için gerekli tüm çabayı gösterdikten sonra sonucunu Allah'a bırakma."
+        },
+        {
+          "word": "ŞÜKÜR",
+          "hint": "Nimetlerin Allah'tan geldiğini bilerek minnet duyma ve bunu dile getirme."
+        },
+        {
+          "word": "SABIR",
+          "hint": "Zorluklar ve musibetler karşısında dirençli olma, tahammül gösterme."
+        },
+        {
+          "word": "TÖVBE",
+          "hint": "İşlenen günahtan pişmanlık duyarak vazgeçme ve bir daha yapmamaya karar verme."
+        },
+        {
+          "word": "DUA",
+          "hint": "Allah'a yönelme, istekleri ve yakarışları dile getirme."
+        },
+        {
+          "word": "KADER",
+          "hint": "Allah'ın her şeyi önceden takdir etmesi."
+        },
+        {
+          "word": "KAZA",
+          "hint": "Kaderde belirlenen şeylerin zamanı gelince gerçekleşmesi."
+        },
+        {
+          "word": "SOSYAL BİLİNÇ",
+          "hint": "Toplumsal sorunlara duyarlı olma ve çözüm arayışlarına katılma."
+        },
+        {
+          "word": "ÖNYARGI",
+          "hint": "Bir kişi veya durum hakkında yeterli bilgiye sahip olmadan olumsuz yargıya varma."
+        },
+        {
+          "word": "STEREOTİP",
+          "hint": "Bir grup insana ait olduğu düşünülen basmakalıp özellikler."
+        },
+        {
+          "word": "TOPLUMSAL CİNSİYET",
+          "hint": "Bireylerin biyolojik cinsiyetinden bağımsız olarak, toplum tarafından kadınlık ve erkeklik rollerinin, beklentilerinin ve davranışlarının belirlenmesi."
+        },
+        {
+          "word": "DİNİ ÇOĞULCULUK",
+          "hint": "Bir toplumda birden fazla dinin veya inanç sisteminin bir arada var olması durumu."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Bir topluluğun veya milletin bütünlük içinde olması."
+        },
+        {
+          "word": "BERABERLİK",
+          "hint": "İnsanların ortak amaçlar doğrultusunda bir araya gelmesi, dayanışma içinde olması."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hak ve hukuka uygunluk, herkese hakkını verme."
+        },
+        {
+          "word": "MERHAMET",
+          "hint": "Canlılara acıma, şefkat gösterme."
         }
       ]
     }

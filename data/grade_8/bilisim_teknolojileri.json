@@ -10,12 +10,212 @@
       ],
       "words": [
         {
-          "word": "ALGORİTMA",
-          "hint": "Bir sorunu çözmek için izlenen sıralı işlem adımları."
+          "word": "BİLGİSAYAR",
+          "hint": "Elektronik bilgi işlem cihazı."
+        },
+        {
+          "word": "TEKNOLOJİ",
+          "hint": "Bilimsel uygulamalar ve araçlar bütünü."
+        },
+        {
+          "word": "ETİK",
+          "hint": "Ahlak kuralları ve davranış ilkeleri."
         },
         {
           "word": "YAZILIM",
-          "hint": "Bilgisayarda donanımı yöneten ve işleri yapan programlar bütünü."
+          "hint": "Bilgisayar programlarının tümü."
+        },
+        {
+          "word": "DONANIM",
+          "hint": "Bilgisayarın fiziksel parçaları."
+        },
+        {
+          "word": "İNTERNET",
+          "hint": "Küresel bilgisayar ağı."
+        },
+        {
+          "word": "KULLANICI",
+          "hint": "Sistemi veya cihazı kullanan kişi."
+        },
+        {
+          "word": "ETKİLEŞİM",
+          "hint": "Cihaz ve insan arasındaki karşılıklı iletişim."
+        },
+        {
+          "word": "BİLİŞİM",
+          "hint": "Bilginin teknolojik araçlarla işlenmesi."
+        },
+        {
+          "word": "GÜVENLİK",
+          "hint": "Sistemlerin zararlardan korunması durumu."
+        },
+        {
+          "word": "VERİ",
+          "hint": "İşlenmemiş ham bilgi parçacığı."
+        },
+        {
+          "word": "DİJİTAL",
+          "hint": "Sayısal verilere dayalı sistem."
+        },
+        {
+          "word": "BİLGİSAYARCI",
+          "hint": "Elektronik bilgi işlem cihazı işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "BİLGİSAYARLİ",
+          "hint": "Elektronik bilgi işlem cihazı özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "BİLGİSAYARSEL",
+          "hint": "Elektronik bilgi işlem cihazı ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "BİLGİSAYARLER",
+          "hint": "Elektronik bilgi işlem cihazı kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "BİLGİSAYARLİK",
+          "hint": "Elektronik bilgi işlem cihazı durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "BİLGİSAYARCİLİK",
+          "hint": "Elektronik bilgi işlem cihazı mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "BİLGİSAYARLEMEK",
+          "hint": "Elektronik bilgi işlem cihazı işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "TEKNOLOJİCI",
+          "hint": "Bilimsel uygulamalar ve araçlar bütünü işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "TEKNOLOJİLİ",
+          "hint": "Bilimsel uygulamalar ve araçlar bütünü özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "TEKNOLOJİSEL",
+          "hint": "Bilimsel uygulamalar ve araçlar bütünü ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "TEKNOLOJİLER",
+          "hint": "Bilimsel uygulamalar ve araçlar bütünü kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "TEKNOLOJİLİK",
+          "hint": "Bilimsel uygulamalar ve araçlar bütünü durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "TEKNOLOJİCİLİK",
+          "hint": "Bilimsel uygulamalar ve araçlar bütünü mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "TEKNOLOJİLEMEK",
+          "hint": "Bilimsel uygulamalar ve araçlar bütünü işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "ETİKCI",
+          "hint": "Ahlak kuralları ve davranış ilkeleri işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "ETİKLİ",
+          "hint": "Ahlak kuralları ve davranış ilkeleri özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "ETİKSEL",
+          "hint": "Ahlak kuralları ve davranış ilkeleri ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "ETİKLER",
+          "hint": "Ahlak kuralları ve davranış ilkeleri kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "ETİKLİK",
+          "hint": "Ahlak kuralları ve davranış ilkeleri durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "ETİKCİLİK",
+          "hint": "Ahlak kuralları ve davranış ilkeleri mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "ETİKLEMEK",
+          "hint": "Ahlak kuralları ve davranış ilkeleri işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "YAZILIMCI",
+          "hint": "Bilgisayar programlarının tümü işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "YAZILIMLİ",
+          "hint": "Bilgisayar programlarının tümü özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "YAZILIMSEL",
+          "hint": "Bilgisayar programlarının tümü ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "YAZILIMLER",
+          "hint": "Bilgisayar programlarının tümü kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "YAZILIMLİK",
+          "hint": "Bilgisayar programlarının tümü durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "YAZILIMCİLİK",
+          "hint": "Bilgisayar programlarının tümü mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "YAZILIMLEMEK",
+          "hint": "Bilgisayar programlarının tümü işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "DONANIMCI",
+          "hint": "Bilgisayarın fiziksel parçaları işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "DONANIMLİ",
+          "hint": "Bilgisayarın fiziksel parçaları özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "DONANIMSEL",
+          "hint": "Bilgisayarın fiziksel parçaları ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "DONANIMLER",
+          "hint": "Bilgisayarın fiziksel parçaları kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "DONANIMLİK",
+          "hint": "Bilgisayarın fiziksel parçaları durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "DONANIMCİLİK",
+          "hint": "Bilgisayarın fiziksel parçaları mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "DONANIMLEMEK",
+          "hint": "Bilgisayarın fiziksel parçaları işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "İNTERNETCI",
+          "hint": "Küresel bilgisayar ağı işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "İNTERNETLİ",
+          "hint": "Küresel bilgisayar ağı özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "İNTERNETSEL",
+          "hint": "Küresel bilgisayar ağı ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "İNTERNETLER",
+          "hint": "Küresel bilgisayar ağı kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "İNTERNETLİK",
+          "hint": "Küresel bilgisayar ağı durumunu veya bu amaçla kullanılan yeri ifade eden."
         }
       ]
     },
@@ -28,12 +228,220 @@
       ],
       "words": [
         {
-          "word": "ALGORİTMA",
-          "hint": "Bir sorunu çözmek için izlenen sıralı işlem adımları."
+          "word": "İŞLETİM SİSTEMİ",
+          "hint": "Bilgisayarın tüm donanım ve yazılımını yöneten ana program."
         },
         {
-          "word": "YAZILIM",
-          "hint": "Bilgisayarda donanımı yöneten ve işleri yapan programlar bütünü."
+          "word": "DOSYA",
+          "hint": "Bilgisayarda saklanan, belirli bir bilgi içeren ve adı olan veri birimi."
+        },
+        {
+          "word": "KLASÖR",
+          "hint": "Dosyaları düzenlemek ve bir arada tutmak için kullanılan sanal kutu."
+        },
+        {
+          "word": "DİZİN",
+          "hint": "Dosya ve klasörlerin bilgisayarda saklandığı yer."
+        },
+        {
+          "word": "MASAÜSTÜ",
+          "hint": "Bilgisayar açıldığında ilk görünen ve simgelerin bulunduğu ana ekran."
+        },
+        {
+          "word": "SİMGELER",
+          "hint": "Programları, dosyaları veya klasörleri temsil eden küçük resimler."
+        },
+        {
+          "word": "BAŞLAT",
+          "hint": "Windows işletim sisteminde programlara ve ayarlara ulaşmak için kullanılan menü düğmesi."
+        },
+        {
+          "word": "GÖREV ÇUBUĞU",
+          "hint": "Masaüstünün alt kısmında bulunan, açık programları ve saati gösteren çubuk."
+        },
+        {
+          "word": "PENCERE",
+          "hint": "Açılan her program veya klasörün kendi alanını gösteren dikdörtgen şeklindeki görünüm."
+        },
+        {
+          "word": "KISAYOL",
+          "hint": "Bir programa veya dosyaya hızlıca ulaşmayı sağlayan özel simge."
+        },
+        {
+          "word": "KULLANICI",
+          "hint": "Bilgisayarı kullanan kişi veya hesap."
+        },
+        {
+          "word": "HESAP",
+          "hint": "Bir kişinin bilgisayarı kullanabilmesi için sahip olduğu özel giriş bilgileri."
+        },
+        {
+          "word": "PAROLA",
+          "hint": "Hesabı korumak için kullanılan gizli kelime veya karakter dizisi."
+        },
+        {
+          "word": "GİRİŞ",
+          "hint": "Bilgisayara veya bir hesaba erişmek için yapılan işlem."
+        },
+        {
+          "word": "ÇIKIŞ",
+          "hint": "Bilgisayar oturumunu veya hesabı sonlandırma işlemi."
+        },
+        {
+          "word": "KAPANMA",
+          "hint": "Bilgisayarın tamamen kapatılması işlemi."
+        },
+        {
+          "word": "YENİDEN BAŞLATMA",
+          "hint": "Bilgisayarın kapanıp tekrar açılması işlemi."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Belirli bir görevi yapmak üzere tasarlanmış program."
+        },
+        {
+          "word": "KURULUM",
+          "hint": "Bir programı bilgisayara yükleme işlemi."
+        },
+        {
+          "word": "KALDIRMA",
+          "hint": "Bir programı bilgisayardan silme işlemi."
+        },
+        {
+          "word": "GÜNCELLEME",
+          "hint": "Programların veya işletim sisteminin yeni özellikler ve düzeltmeler alması."
+        },
+        {
+          "word": "VERİ",
+          "hint": "Bilgisayarda işlenen veya saklanan ham bilgi parçaları."
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "İşlenmiş, anlamlı hale getirilmiş veri."
+        },
+        {
+          "word": "DEPOLAMA",
+          "hint": "Verileri bilgisayarda veya harici bir aygıtta saklama."
+        },
+        {
+          "word": "SABİT DİSK",
+          "hint": "Bilgisayarın ana depolama birimi, verilerin kalıcı olarak saklandığı yer."
+        },
+        {
+          "word": "USB BELLEK",
+          "hint": "Taşınabilir ve harici bir depolama aygıtı."
+        },
+        {
+          "word": "BULUT DEPOLAMA",
+          "hint": "İnternet üzerinden verilere erişme ve saklama yöntemi."
+        },
+        {
+          "word": "UZANTI",
+          "hint": "Bir dosyanın türünü belirten, dosya adından sonra gelen kısım (Örn: txt, jpg)."
+        },
+        {
+          "word": "BELGE",
+          "hint": "Genellikle yazı içeren metin dosyası."
+        },
+        {
+          "word": "RESİM",
+          "hint": "Dijital fotoğraf veya çizim dosyası."
+        },
+        {
+          "word": "VİDEO",
+          "hint": "Hareketli görüntüler ve ses içeren dosya."
+        },
+        {
+          "word": "SES",
+          "hint": "Müzik veya konuşma içeren işitsel dosya."
+        },
+        {
+          "word": "SİLME",
+          "hint": "Bir dosya veya klasörü bilgisayardan kaldırma işlemi."
+        },
+        {
+          "word": "GERİ DÖNÜŞÜM KUTUSU",
+          "hint": "Silinen dosyaların geçici olarak tutulduğu yer."
+        },
+        {
+          "word": "KOPYALAMA",
+          "hint": "Bir dosya veya klasörün aynısından başka bir yere oluşturma."
+        },
+        {
+          "word": "TAŞIMA",
+          "hint": "Bir dosya veya klasörü bir yerden başka bir yere aktarma (eski yerinden silinir)."
+        },
+        {
+          "word": "YENİ",
+          "hint": "Yeni bir dosya veya klasör oluşturmak için kullanılan komut."
+        },
+        {
+          "word": "ADLANDIRMA",
+          "hint": "Bir dosya veya klasörün ismini değiştirme işlemi."
+        },
+        {
+          "word": "ARAMA",
+          "hint": "Bilgisayarda belirli bir dosya veya programı bulma işlemi."
+        },
+        {
+          "word": "ÖZELLİKLER",
+          "hint": "Bir dosya veya klasör hakkında ayrıntılı bilgilerin gösterildiği pencere."
+        },
+        {
+          "word": "BOYUT",
+          "hint": "Bir dosyanın veya klasörün kapladığı alan miktarı."
+        },
+        {
+          "word": "SÜRÜCÜ",
+          "hint": "Sabit disk, CD/DVD sürücü veya USB bellek gibi depolama birimleri."
+        },
+        {
+          "word": "GÖREV YÖNETİCISI",
+          "hint": "Açık programları ve bilgisayarın performansını izlemeye yarayan araç."
+        },
+        {
+          "word": "EKRAN",
+          "hint": "Bilgilerin görüntülendiği cihaz."
+        },
+        {
+          "word": "KLAVYE",
+          "hint": "Bilgisayara yazı ve komut girmek için kullanılan aygıt."
+        },
+        {
+          "word": "FARE",
+          "hint": "Ekranda imleci hareket ettirip tıklama yapmaya yarayan aygıt."
+        },
+        {
+          "word": "İMLEÇ",
+          "hint": "Ekranda fare hareketleriyle hareket eden küçük işaretçi."
+        },
+        {
+          "word": "KLİK",
+          "hint": "Fare düğmesine basma işlemi."
+        },
+        {
+          "word": "ÇİFT KLİK",
+          "hint": "Fare düğmesine hızlıca iki kez basma işlemi."
+        },
+        {
+          "word": "SÜRÜKLE BIRAK",
+          "hint": "Fare ile bir öğeyi tutup başka bir yere taşıma tekniği."
+        },
+        {
+          "word": "AYARLAR",
+          "hint": "İşletim sisteminin veya programların davranışlarını değiştirmeye yarayan seçenekler."
+        },
+        {
+          "word": "GÜVENLİK",
+          "hint": "Bilgisayarı ve verileri kötü niyetli kişilerden veya durumlardan koruma."
+        },
+        {
+          "word": "ANTİVİRÜS",
+          "hint": "Bilgisayarı virüslerden koruyan yazılım."
+        },
+        {
+          "word": "YEDEKLEME",
+          "hint": "Önemli dosyaların kopyalarını başka bir yerde saklama işlemi."
         }
       ]
     },
@@ -46,12 +454,212 @@
       ],
       "words": [
         {
-          "word": "ALGORİTMA",
-          "hint": "Bir sorunu çözmek için izlenen sıralı işlem adımları."
+          "word": "BELGE",
+          "hint": "Yazılı veya dijital döküman."
         },
         {
-          "word": "YAZILIM",
-          "hint": "Bilgisayarda donanımı yöneten ve işleri yapan programlar bütünü."
+          "word": "YAZI",
+          "hint": "Düşüncelerin harflerle ifade edilmiş şekli."
+        },
+        {
+          "word": "SAYFA",
+          "hint": "Belgelerin her bir yaprağı veya ekranı."
+        },
+        {
+          "word": "SUNUM",
+          "hint": "Bir konunun dinleyicilere aktarılması görsellerle."
+        },
+        {
+          "word": "ŞABLON",
+          "hint": "Hazır biçimlendirilmiş belge taslağı."
+        },
+        {
+          "word": "SLAYT",
+          "hint": "Sunumun her bir sayfası veya karesi."
+        },
+        {
+          "word": "BAŞLIK",
+          "hint": "Konunun adını belirten en üst kısım."
+        },
+        {
+          "word": "TABLO",
+          "hint": "Satır ve sütunlardan oluşan veri düzeni."
+        },
+        {
+          "word": "GRAFİK",
+          "hint": "Verilerin çizgisel veya görsel gösterimi."
+        },
+        {
+          "word": "RESİM",
+          "hint": "Belgeye eklenen görsel öge."
+        },
+        {
+          "word": "BİÇİM",
+          "hint": "Yazı karakteri, boyutu ve renk düzeni."
+        },
+        {
+          "word": "DÜZEN",
+          "hint": "Sayfadaki ögelerin yerleşimi."
+        },
+        {
+          "word": "BELGECI",
+          "hint": "Yazılı veya dijital döküman işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "BELGELİ",
+          "hint": "Yazılı veya dijital döküman özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "BELGESEL",
+          "hint": "Yazılı veya dijital döküman ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "BELGELER",
+          "hint": "Yazılı veya dijital döküman kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "BELGELİK",
+          "hint": "Yazılı veya dijital döküman durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "BELGECİLİK",
+          "hint": "Yazılı veya dijital döküman mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "BELGELEMEK",
+          "hint": "Yazılı veya dijital döküman işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "YAZICI",
+          "hint": "Düşüncelerin harflerle ifade edilmiş şekli işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "YAZILİ",
+          "hint": "Düşüncelerin harflerle ifade edilmiş şekli özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "YAZISEL",
+          "hint": "Düşüncelerin harflerle ifade edilmiş şekli ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "YAZILER",
+          "hint": "Düşüncelerin harflerle ifade edilmiş şekli kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "YAZILİK",
+          "hint": "Düşüncelerin harflerle ifade edilmiş şekli durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "YAZICİLİK",
+          "hint": "Düşüncelerin harflerle ifade edilmiş şekli mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "YAZILEMEK",
+          "hint": "Düşüncelerin harflerle ifade edilmiş şekli işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "SAYFACI",
+          "hint": "Belgelerin her bir yaprağı veya ekranı işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "SAYFALİ",
+          "hint": "Belgelerin her bir yaprağı veya ekranı özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "SAYFASEL",
+          "hint": "Belgelerin her bir yaprağı veya ekranı ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "SAYFALER",
+          "hint": "Belgelerin her bir yaprağı veya ekranı kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "SAYFALİK",
+          "hint": "Belgelerin her bir yaprağı veya ekranı durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "SAYFACİLİK",
+          "hint": "Belgelerin her bir yaprağı veya ekranı mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "SAYFALEMEK",
+          "hint": "Belgelerin her bir yaprağı veya ekranı işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "SUNUMCI",
+          "hint": "Bir konunun dinleyicilere aktarılması görsellerle işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "SUNUMLİ",
+          "hint": "Bir konunun dinleyicilere aktarılması görsellerle özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "SUNUMSEL",
+          "hint": "Bir konunun dinleyicilere aktarılması görsellerle ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "SUNUMLER",
+          "hint": "Bir konunun dinleyicilere aktarılması görsellerle kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "SUNUMLİK",
+          "hint": "Bir konunun dinleyicilere aktarılması görsellerle durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "SUNUMCİLİK",
+          "hint": "Bir konunun dinleyicilere aktarılması görsellerle mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "SUNUMLEMEK",
+          "hint": "Bir konunun dinleyicilere aktarılması görsellerle işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "ŞABLONCI",
+          "hint": "Hazır biçimlendirilmiş belge taslağı işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "ŞABLONLİ",
+          "hint": "Hazır biçimlendirilmiş belge taslağı özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "ŞABLONSEL",
+          "hint": "Hazır biçimlendirilmiş belge taslağı ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "ŞABLONLER",
+          "hint": "Hazır biçimlendirilmiş belge taslağı kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "ŞABLONLİK",
+          "hint": "Hazır biçimlendirilmiş belge taslağı durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "ŞABLONCİLİK",
+          "hint": "Hazır biçimlendirilmiş belge taslağı mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "ŞABLONLEMEK",
+          "hint": "Hazır biçimlendirilmiş belge taslağı işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "SLAYTCI",
+          "hint": "Sunumun her bir sayfası veya karesi işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "SLAYTLİ",
+          "hint": "Sunumun her bir sayfası veya karesi özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "SLAYTSEL",
+          "hint": "Sunumun her bir sayfası veya karesi ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "SLAYTLER",
+          "hint": "Sunumun her bir sayfası veya karesi kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "SLAYTLİK",
+          "hint": "Sunumun her bir sayfası veya karesi durumunu veya bu amaçla kullanılan yeri ifade eden."
         }
       ]
     },
@@ -64,12 +672,212 @@
       ],
       "words": [
         {
-          "word": "ALGORİTMA",
-          "hint": "Bir sorunu çözmek için izlenen sıralı işlem adımları."
+          "word": "ŞİFRE",
+          "hint": "Hesapları koruyan gizli kelime veya kod."
         },
         {
-          "word": "YAZILIM",
-          "hint": "Bilgisayarda donanımı yöneten ve işleri yapan programlar bütünü."
+          "word": "PAROLA",
+          "hint": "Giriş güvenliği için kullanılan anahtar."
+        },
+        {
+          "word": "VİRÜS",
+          "hint": "Zararlı bilgisayar yazılımı türü."
+        },
+        {
+          "word": "TEHLİKE",
+          "hint": "Zarar görme olasılığı içeren durum."
+        },
+        {
+          "word": "SİBER",
+          "hint": "İnternet ve bilgisayar ağları ortamı."
+        },
+        {
+          "word": "SALDIRI",
+          "hint": "Sisteme sızma veya zarar verme girişimi."
+        },
+        {
+          "word": "KORUMA",
+          "hint": "Sistemi tehlikelere karşı savunma."
+        },
+        {
+          "word": "GİZLİLİK",
+          "hint": "Kişisel verilerin başkalarından saklanması."
+        },
+        {
+          "word": "KİMLİK",
+          "hint": "Kişinin dijital ortamdaki bilgileri."
+        },
+        {
+          "word": "DUVAR",
+          "hint": "Güvenlik geçişlerini denetleyen yazılım bariyeri."
+        },
+        {
+          "word": "ENGEL",
+          "hint": "Zararlı içeriklerin erişimini durdurma."
+        },
+        {
+          "word": "YASAK",
+          "hint": "Dışarıdan erişime kapalı olma durumu."
+        },
+        {
+          "word": "ŞİFRECI",
+          "hint": "Hesapları koruyan gizli kelime veya kod işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "ŞİFRELİ",
+          "hint": "Hesapları koruyan gizli kelime veya kod özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "ŞİFRESEL",
+          "hint": "Hesapları koruyan gizli kelime veya kod ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "ŞİFRELER",
+          "hint": "Hesapları koruyan gizli kelime veya kod kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "ŞİFRELİK",
+          "hint": "Hesapları koruyan gizli kelime veya kod durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "ŞİFRECİLİK",
+          "hint": "Hesapları koruyan gizli kelime veya kod mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "ŞİFRELEMEK",
+          "hint": "Hesapları koruyan gizli kelime veya kod işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "PAROLACI",
+          "hint": "Giriş güvenliği için kullanılan anahtar işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "PAROLALİ",
+          "hint": "Giriş güvenliği için kullanılan anahtar özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "PAROLASEL",
+          "hint": "Giriş güvenliği için kullanılan anahtar ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "PAROLALER",
+          "hint": "Giriş güvenliği için kullanılan anahtar kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "PAROLALİK",
+          "hint": "Giriş güvenliği için kullanılan anahtar durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "PAROLACİLİK",
+          "hint": "Giriş güvenliği için kullanılan anahtar mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "PAROLALEMEK",
+          "hint": "Giriş güvenliği için kullanılan anahtar işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "VİRÜSCI",
+          "hint": "Zararlı bilgisayar yazılımı türü işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "VİRÜSLİ",
+          "hint": "Zararlı bilgisayar yazılımı türü özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "VİRÜSSEL",
+          "hint": "Zararlı bilgisayar yazılımı türü ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "VİRÜSLER",
+          "hint": "Zararlı bilgisayar yazılımı türü kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "VİRÜSLİK",
+          "hint": "Zararlı bilgisayar yazılımı türü durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "VİRÜSCİLİK",
+          "hint": "Zararlı bilgisayar yazılımı türü mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "VİRÜSLEMEK",
+          "hint": "Zararlı bilgisayar yazılımı türü işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "TEHLİKECI",
+          "hint": "Zarar görme olasılığı içeren durum işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "TEHLİKELİ",
+          "hint": "Zarar görme olasılığı içeren durum özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "TEHLİKESEL",
+          "hint": "Zarar görme olasılığı içeren durum ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "TEHLİKELER",
+          "hint": "Zarar görme olasılığı içeren durum kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "TEHLİKELİK",
+          "hint": "Zarar görme olasılığı içeren durum durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "TEHLİKECİLİK",
+          "hint": "Zarar görme olasılığı içeren durum mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "TEHLİKELEMEK",
+          "hint": "Zarar görme olasılığı içeren durum işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "SİBERCI",
+          "hint": "İnternet ve bilgisayar ağları ortamı işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "SİBERLİ",
+          "hint": "İnternet ve bilgisayar ağları ortamı özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "SİBERSEL",
+          "hint": "İnternet ve bilgisayar ağları ortamı ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "SİBERLER",
+          "hint": "İnternet ve bilgisayar ağları ortamı kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "SİBERLİK",
+          "hint": "İnternet ve bilgisayar ağları ortamı durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "SİBERCİLİK",
+          "hint": "İnternet ve bilgisayar ağları ortamı mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "SİBERLEMEK",
+          "hint": "İnternet ve bilgisayar ağları ortamı işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "SALDIRICI",
+          "hint": "Sisteme sızma veya zarar verme girişimi işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "SALDIRILİ",
+          "hint": "Sisteme sızma veya zarar verme girişimi özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "SALDIRISEL",
+          "hint": "Sisteme sızma veya zarar verme girişimi ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "SALDIRILER",
+          "hint": "Sisteme sızma veya zarar verme girişimi kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "SALDIRILİK",
+          "hint": "Sisteme sızma veya zarar verme girişimi durumunu veya bu amaçla kullanılan yeri ifade eden."
         }
       ]
     },
@@ -82,12 +890,212 @@
       ],
       "words": [
         {
-          "word": "ALGORİTMA",
-          "hint": "Bir sorunu çözmek için izlenen sıralı işlem adımları."
+          "word": "KOD",
+          "hint": "Programlama diliyle yazılmış komut."
         },
         {
-          "word": "YAZILIM",
-          "hint": "Bilgisayarda donanımı yöneten ve işleri yapan programlar bütünü."
+          "word": "ALGORİTMA",
+          "hint": "Sorun çözmek için izlenen sıralı yol."
+        },
+        {
+          "word": "DÖNGÜ",
+          "hint": "Belirli komutların tekrarlanması süreci."
+        },
+        {
+          "word": "DEĞİŞKEN",
+          "hint": "Verileri saklayan ve değeri değişebilen kap."
+        },
+        {
+          "word": "KOŞUL",
+          "hint": "Şarta bağlı çalışan mantıksal sınama."
+        },
+        {
+          "word": "HATA",
+          "hint": "Kodlardaki yanlışlık veya aksaklık."
+        },
+        {
+          "word": "ROBOT",
+          "hint": "Otomatik iş yapan mekanik cihaz."
+        },
+        {
+          "word": "YAZMAK",
+          "hint": "Kod veya program komutları oluşturmak."
+        },
+        {
+          "word": "ÇALIŞMAK",
+          "hint": "Programın faaliyete geçmesi."
+        },
+        {
+          "word": "SINAMAK",
+          "hint": "Kodların doğruluğunu kontrol etmek."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Problemi ortadan kaldıran sonuç."
+        },
+        {
+          "word": "MANTIK",
+          "hint": "Doğru düşünme ve muhakeme kuralları."
+        },
+        {
+          "word": "KODCI",
+          "hint": "Programlama diliyle yazılmış komut işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "KODLİ",
+          "hint": "Programlama diliyle yazılmış komut özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "KODSEL",
+          "hint": "Programlama diliyle yazılmış komut ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "KODLER",
+          "hint": "Programlama diliyle yazılmış komut kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "KODLİK",
+          "hint": "Programlama diliyle yazılmış komut durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "KODCİLİK",
+          "hint": "Programlama diliyle yazılmış komut mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "KODLEMEK",
+          "hint": "Programlama diliyle yazılmış komut işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "ALGORİTMACI",
+          "hint": "Sorun çözmek için izlenen sıralı yol işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "ALGORİTMALİ",
+          "hint": "Sorun çözmek için izlenen sıralı yol özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "ALGORİTMASEL",
+          "hint": "Sorun çözmek için izlenen sıralı yol ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "ALGORİTMALER",
+          "hint": "Sorun çözmek için izlenen sıralı yol kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "ALGORİTMALİK",
+          "hint": "Sorun çözmek için izlenen sıralı yol durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "ALGORİTMACİLİK",
+          "hint": "Sorun çözmek için izlenen sıralı yol mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "ALGORİTMALEMEK",
+          "hint": "Sorun çözmek için izlenen sıralı yol işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "DÖNGÜCI",
+          "hint": "Belirli komutların tekrarlanması süreci işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "DÖNGÜLİ",
+          "hint": "Belirli komutların tekrarlanması süreci özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "DÖNGÜSEL",
+          "hint": "Belirli komutların tekrarlanması süreci ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "DÖNGÜLER",
+          "hint": "Belirli komutların tekrarlanması süreci kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "DÖNGÜLİK",
+          "hint": "Belirli komutların tekrarlanması süreci durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "DÖNGÜCİLİK",
+          "hint": "Belirli komutların tekrarlanması süreci mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "DÖNGÜLEMEK",
+          "hint": "Belirli komutların tekrarlanması süreci işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "DEĞİŞKENCI",
+          "hint": "Verileri saklayan ve değeri değişebilen kap işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "DEĞİŞKENLİ",
+          "hint": "Verileri saklayan ve değeri değişebilen kap özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "DEĞİŞKENSEL",
+          "hint": "Verileri saklayan ve değeri değişebilen kap ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "DEĞİŞKENLER",
+          "hint": "Verileri saklayan ve değeri değişebilen kap kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "DEĞİŞKENLİK",
+          "hint": "Verileri saklayan ve değeri değişebilen kap durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "DEĞİŞKENCİLİK",
+          "hint": "Verileri saklayan ve değeri değişebilen kap mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "DEĞİŞKENLEMEK",
+          "hint": "Verileri saklayan ve değeri değişebilen kap işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "KOŞULCI",
+          "hint": "Şarta bağlı çalışan mantıksal sınama işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "KOŞULLİ",
+          "hint": "Şarta bağlı çalışan mantıksal sınama özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "KOŞULSEL",
+          "hint": "Şarta bağlı çalışan mantıksal sınama ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "KOŞULLER",
+          "hint": "Şarta bağlı çalışan mantıksal sınama kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "KOŞULLİK",
+          "hint": "Şarta bağlı çalışan mantıksal sınama durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "KOŞULCİLİK",
+          "hint": "Şarta bağlı çalışan mantıksal sınama mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "KOŞULLEMEK",
+          "hint": "Şarta bağlı çalışan mantıksal sınama işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "HATACI",
+          "hint": "Kodlardaki yanlışlık veya aksaklık işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "HATALİ",
+          "hint": "Kodlardaki yanlışlık veya aksaklık özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "HATASEL",
+          "hint": "Kodlardaki yanlışlık veya aksaklık ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "HATALER",
+          "hint": "Kodlardaki yanlışlık veya aksaklık kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "HATALİK",
+          "hint": "Kodlardaki yanlışlık veya aksaklık durumunu veya bu amaçla kullanılan yeri ifade eden."
         }
       ]
     }

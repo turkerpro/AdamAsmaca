@@ -10,12 +10,212 @@
       ],
       "words": [
         {
-          "word": "HİJYEN",
-          "hint": "Sağlığı korumak amacıyla yapılan temizlik uygulamaları."
+          "word": "SAĞLIK",
+          "hint": "Bedenen ve ruhen iyi olma hali."
         },
         {
-          "word": "İLKYARDIM",
-          "hint": "Kaza anında yapılan ilk tıbbi müdahale."
+          "word": "HİJYEN",
+          "hint": "Temizlik ve sağlığı koruma kuralları."
+        },
+        {
+          "word": "TEMİZ",
+          "hint": "Kirden arınmış, pak."
+        },
+        {
+          "word": "MİKROP",
+          "hint": "Hastalık yapan gözle görülmez canlı."
+        },
+        {
+          "word": "VİRÜS",
+          "hint": "Hücre içinde çoğalan hastalık etkeni."
+        },
+        {
+          "word": "BAKTERİ",
+          "hint": "Çeşitli ortamlarda yaşayan mikroorganizma."
+        },
+        {
+          "word": "AŞI",
+          "hint": "Bağışıklık kazanmak için yapılan sıvı."
+        },
+        {
+          "word": "SABUN",
+          "hint": "Temizlikte kullanılan köpüren madde."
+        },
+        {
+          "word": "SU",
+          "hint": "Hayatın temel kaynağı olan sıvı."
+        },
+        {
+          "word": "DUŞ",
+          "hint": "Vücudu suyla yıkayarak temizleme."
+        },
+        {
+          "word": "BANYO",
+          "hint": "Yıkanma yeri veya yıkanma eylemi."
+        },
+        {
+          "word": "KORUMA",
+          "hint": "Sağlığı tehlikelerden uzak tutma."
+        },
+        {
+          "word": "SAĞLIKCI",
+          "hint": "Bedenen ve ruhen iyi olma hali işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "SAĞLIKLİ",
+          "hint": "Bedenen ve ruhen iyi olma hali özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "SAĞLIKSEL",
+          "hint": "Bedenen ve ruhen iyi olma hali ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "SAĞLIKLER",
+          "hint": "Bedenen ve ruhen iyi olma hali kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "SAĞLIKLİK",
+          "hint": "Bedenen ve ruhen iyi olma hali durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "SAĞLIKCİLİK",
+          "hint": "Bedenen ve ruhen iyi olma hali mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "SAĞLIKLEMEK",
+          "hint": "Bedenen ve ruhen iyi olma hali işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "HİJYENCI",
+          "hint": "Temizlik ve sağlığı koruma kuralları işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "HİJYENLİ",
+          "hint": "Temizlik ve sağlığı koruma kuralları özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "HİJYENSEL",
+          "hint": "Temizlik ve sağlığı koruma kuralları ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "HİJYENLER",
+          "hint": "Temizlik ve sağlığı koruma kuralları kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "HİJYENLİK",
+          "hint": "Temizlik ve sağlığı koruma kuralları durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "HİJYENCİLİK",
+          "hint": "Temizlik ve sağlığı koruma kuralları mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "HİJYENLEMEK",
+          "hint": "Temizlik ve sağlığı koruma kuralları işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "TEMİZCI",
+          "hint": "Kirden arınmış, pak işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "TEMİZLİ",
+          "hint": "Kirden arınmış, pak özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "TEMİZSEL",
+          "hint": "Kirden arınmış, pak ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "TEMİZLER",
+          "hint": "Kirden arınmış, pak kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "TEMİZLİK",
+          "hint": "Kirden arınmış, pak durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "TEMİZCİLİK",
+          "hint": "Kirden arınmış, pak mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "TEMİZLEMEK",
+          "hint": "Kirden arınmış, pak işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "MİKROPCI",
+          "hint": "Hastalık yapan gözle görülmez canlı işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "MİKROPLİ",
+          "hint": "Hastalık yapan gözle görülmez canlı özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "MİKROPSEL",
+          "hint": "Hastalık yapan gözle görülmez canlı ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "MİKROPLER",
+          "hint": "Hastalık yapan gözle görülmez canlı kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "MİKROPLİK",
+          "hint": "Hastalık yapan gözle görülmez canlı durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "MİKROPCİLİK",
+          "hint": "Hastalık yapan gözle görülmez canlı mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "MİKROPLEMEK",
+          "hint": "Hastalık yapan gözle görülmez canlı işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "VİRÜSCI",
+          "hint": "Hücre içinde çoğalan hastalık etkeni işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "VİRÜSLİ",
+          "hint": "Hücre içinde çoğalan hastalık etkeni özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "VİRÜSSEL",
+          "hint": "Hücre içinde çoğalan hastalık etkeni ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "VİRÜSLER",
+          "hint": "Hücre içinde çoğalan hastalık etkeni kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "VİRÜSLİK",
+          "hint": "Hücre içinde çoğalan hastalık etkeni durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "VİRÜSCİLİK",
+          "hint": "Hücre içinde çoğalan hastalık etkeni mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "VİRÜSLEMEK",
+          "hint": "Hücre içinde çoğalan hastalık etkeni işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "BAKTERİCI",
+          "hint": "Çeşitli ortamlarda yaşayan mikroorganizma işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "BAKTERİLİ",
+          "hint": "Çeşitli ortamlarda yaşayan mikroorganizma özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "BAKTERİSEL",
+          "hint": "Çeşitli ortamlarda yaşayan mikroorganizma ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "BAKTERİLER",
+          "hint": "Çeşitli ortamlarda yaşayan mikroorganizma kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "BAKTERİLİK",
+          "hint": "Çeşitli ortamlarda yaşayan mikroorganizma durumunu veya bu amaçla kullanılan yeri ifade eden."
         }
       ]
     },
@@ -28,12 +228,212 @@
       ],
       "words": [
         {
-          "word": "HİJYEN",
-          "hint": "Sağlığı korumak amacıyla yapılan temizlik uygulamaları."
+          "word": "BESİN",
+          "hint": "Yaşamak için tüketilen yiyecekler."
         },
         {
-          "word": "İLKYARDIM",
-          "hint": "Kaza anında yapılan ilk tıbbi müdahale."
+          "word": "GIDA",
+          "hint": "Besin değeri taşıyan maddelerin genel adı."
+        },
+        {
+          "word": "VİTAMİN",
+          "hint": "Vücut direnci için gerekli maddeler."
+        },
+        {
+          "word": "PROTEİN",
+          "hint": "Hücre yapıcı ve onarıcı besin ögesi."
+        },
+        {
+          "word": "YAĞ",
+          "hint": "Enerji veren yoğun besin içeriği."
+        },
+        {
+          "word": "ŞEKER",
+          "hint": "Karbonhidrat içeren tatlı madde."
+        },
+        {
+          "word": "KALORİ",
+          "hint": "Besinlerin vücuda verdiği enerji miktarı."
+        },
+        {
+          "word": "DENGELİ",
+          "hint": "Yeterli ve düzenli beslenme şekli."
+        },
+        {
+          "word": "MEYVE",
+          "hint": "Bitkilerin yenebilen tatlı kısımları."
+        },
+        {
+          "word": "SEBZE",
+          "hint": "Yemeklerde kullanılan bitkisel ürünler."
+        },
+        {
+          "word": "SPOR",
+          "hint": "Fiziksel gelişimi sağlayan etkinlikler."
+        },
+        {
+          "word": "YÜRÜYÜŞ",
+          "hint": "Tempolu adım atarak yapılan spor."
+        },
+        {
+          "word": "BESİNCI",
+          "hint": "Yaşamak için tüketilen yiyecekler işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "BESİNLİ",
+          "hint": "Yaşamak için tüketilen yiyecekler özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "BESİNSEL",
+          "hint": "Yaşamak için tüketilen yiyecekler ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "BESİNLER",
+          "hint": "Yaşamak için tüketilen yiyecekler kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "BESİNLİK",
+          "hint": "Yaşamak için tüketilen yiyecekler durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "BESİNCİLİK",
+          "hint": "Yaşamak için tüketilen yiyecekler mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "BESİNLEMEK",
+          "hint": "Yaşamak için tüketilen yiyecekler işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "GIDACI",
+          "hint": "Besin değeri taşıyan maddelerin genel adı işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "GIDALİ",
+          "hint": "Besin değeri taşıyan maddelerin genel adı özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "GIDASEL",
+          "hint": "Besin değeri taşıyan maddelerin genel adı ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "GIDALER",
+          "hint": "Besin değeri taşıyan maddelerin genel adı kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "GIDALİK",
+          "hint": "Besin değeri taşıyan maddelerin genel adı durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "GIDACİLİK",
+          "hint": "Besin değeri taşıyan maddelerin genel adı mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "GIDALEMEK",
+          "hint": "Besin değeri taşıyan maddelerin genel adı işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "VİTAMİNCI",
+          "hint": "Vücut direnci için gerekli maddeler işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "VİTAMİNLİ",
+          "hint": "Vücut direnci için gerekli maddeler özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "VİTAMİNSEL",
+          "hint": "Vücut direnci için gerekli maddeler ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "VİTAMİNLER",
+          "hint": "Vücut direnci için gerekli maddeler kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "VİTAMİNLİK",
+          "hint": "Vücut direnci için gerekli maddeler durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "VİTAMİNCİLİK",
+          "hint": "Vücut direnci için gerekli maddeler mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "VİTAMİNLEMEK",
+          "hint": "Vücut direnci için gerekli maddeler işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "PROTEİNCI",
+          "hint": "Hücre yapıcı ve onarıcı besin ögesi işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "PROTEİNLİ",
+          "hint": "Hücre yapıcı ve onarıcı besin ögesi özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "PROTEİNSEL",
+          "hint": "Hücre yapıcı ve onarıcı besin ögesi ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "PROTEİNLER",
+          "hint": "Hücre yapıcı ve onarıcı besin ögesi kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "PROTEİNLİK",
+          "hint": "Hücre yapıcı ve onarıcı besin ögesi durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "PROTEİNCİLİK",
+          "hint": "Hücre yapıcı ve onarıcı besin ögesi mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "PROTEİNLEMEK",
+          "hint": "Hücre yapıcı ve onarıcı besin ögesi işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "YAĞCI",
+          "hint": "Enerji veren yoğun besin içeriği işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "YAĞLİ",
+          "hint": "Enerji veren yoğun besin içeriği özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "YAĞSEL",
+          "hint": "Enerji veren yoğun besin içeriği ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "YAĞLER",
+          "hint": "Enerji veren yoğun besin içeriği kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "YAĞLİK",
+          "hint": "Enerji veren yoğun besin içeriği durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "YAĞCİLİK",
+          "hint": "Enerji veren yoğun besin içeriği mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "YAĞLEMEK",
+          "hint": "Enerji veren yoğun besin içeriği işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "ŞEKERCI",
+          "hint": "Karbonhidrat içeren tatlı madde işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "ŞEKERLİ",
+          "hint": "Karbonhidrat içeren tatlı madde özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "ŞEKERSEL",
+          "hint": "Karbonhidrat içeren tatlı madde ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "ŞEKERLER",
+          "hint": "Karbonhidrat içeren tatlı madde kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "ŞEKERLİK",
+          "hint": "Karbonhidrat içeren tatlı madde durumunu veya bu amaçla kullanılan yeri ifade eden."
         }
       ]
     },
@@ -46,12 +446,212 @@
       ],
       "words": [
         {
-          "word": "HİJYEN",
-          "hint": "Sağlığı korumak amacıyla yapılan temizlik uygulamaları."
+          "word": "YARDIM",
+          "hint": "Zor durumda olana yapılan destek."
         },
         {
-          "word": "İLKYARDIM",
-          "hint": "Kaza anında yapılan ilk tıbbi müdahale."
+          "word": "KAZA",
+          "hint": "İstem dışı meydana gelen hasarlı olay."
+        },
+        {
+          "word": "DOKTOR",
+          "hint": "Tıp alanında uzmanlaşmış hekim."
+        },
+        {
+          "word": "HEMŞİRE",
+          "hint": "Sağlık hizmetlerinde doktora yardımcı olan görevli."
+        },
+        {
+          "word": "HASTANE",
+          "hint": "Tedavi olunan sağlık kuruluşu."
+        },
+        {
+          "word": "AMBULANS",
+          "hint": "Acil hasta taşıyan donanımlı araç."
+        },
+        {
+          "word": "YARA",
+          "hint": "Beden üzerindeki kesik veya zedelenme."
+        },
+        {
+          "word": "BANDAJ",
+          "hint": "Yarayı sarmak için kullanılan sargı bezi."
+        },
+        {
+          "word": "SEDYE",
+          "hint": "Hasta taşımaya yarayan yataklı araç."
+        },
+        {
+          "word": "KANAMA",
+          "hint": "Damardan dışarı kan akması durumu."
+        },
+        {
+          "word": "KIRIK",
+          "hint": "Kemik bütünlüğünün bozulması durumu."
+        },
+        {
+          "word": "NEFES",
+          "hint": "Akciğerlere hava alıp verme işlemi."
+        },
+        {
+          "word": "YARDIMCI",
+          "hint": "Zor durumda olana yapılan destek işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "YARDIMLİ",
+          "hint": "Zor durumda olana yapılan destek özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "YARDIMSEL",
+          "hint": "Zor durumda olana yapılan destek ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "YARDIMLER",
+          "hint": "Zor durumda olana yapılan destek kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "YARDIMLİK",
+          "hint": "Zor durumda olana yapılan destek durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "YARDIMCİLİK",
+          "hint": "Zor durumda olana yapılan destek mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "YARDIMLEMEK",
+          "hint": "Zor durumda olana yapılan destek işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "KAZACI",
+          "hint": "İstem dışı meydana gelen hasarlı olay işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "KAZALİ",
+          "hint": "İstem dışı meydana gelen hasarlı olay özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "KAZASEL",
+          "hint": "İstem dışı meydana gelen hasarlı olay ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "KAZALER",
+          "hint": "İstem dışı meydana gelen hasarlı olay kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "KAZALİK",
+          "hint": "İstem dışı meydana gelen hasarlı olay durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "KAZACİLİK",
+          "hint": "İstem dışı meydana gelen hasarlı olay mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "KAZALEMEK",
+          "hint": "İstem dışı meydana gelen hasarlı olay işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "DOKTORCI",
+          "hint": "Tıp alanında uzmanlaşmış hekim işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "DOKTORLİ",
+          "hint": "Tıp alanında uzmanlaşmış hekim özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "DOKTORSEL",
+          "hint": "Tıp alanında uzmanlaşmış hekim ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "DOKTORLER",
+          "hint": "Tıp alanında uzmanlaşmış hekim kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "DOKTORLİK",
+          "hint": "Tıp alanında uzmanlaşmış hekim durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "DOKTORCİLİK",
+          "hint": "Tıp alanında uzmanlaşmış hekim mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "DOKTORLEMEK",
+          "hint": "Tıp alanında uzmanlaşmış hekim işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "HEMŞİRECI",
+          "hint": "Sağlık hizmetlerinde doktora yardımcı olan görevli işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "HEMŞİRELİ",
+          "hint": "Sağlık hizmetlerinde doktora yardımcı olan görevli özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "HEMŞİRESEL",
+          "hint": "Sağlık hizmetlerinde doktora yardımcı olan görevli ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "HEMŞİRELER",
+          "hint": "Sağlık hizmetlerinde doktora yardımcı olan görevli kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "HEMŞİRELİK",
+          "hint": "Sağlık hizmetlerinde doktora yardımcı olan görevli durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "HEMŞİRECİLİK",
+          "hint": "Sağlık hizmetlerinde doktora yardımcı olan görevli mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "HEMŞİRELEMEK",
+          "hint": "Sağlık hizmetlerinde doktora yardımcı olan görevli işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "HASTANECI",
+          "hint": "Tedavi olunan sağlık kuruluşu işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "HASTANELİ",
+          "hint": "Tedavi olunan sağlık kuruluşu özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "HASTANESEL",
+          "hint": "Tedavi olunan sağlık kuruluşu ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "HASTANELER",
+          "hint": "Tedavi olunan sağlık kuruluşu kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "HASTANELİK",
+          "hint": "Tedavi olunan sağlık kuruluşu durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "HASTANECİLİK",
+          "hint": "Tedavi olunan sağlık kuruluşu mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "HASTANELEMEK",
+          "hint": "Tedavi olunan sağlık kuruluşu işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "AMBULANSCI",
+          "hint": "Acil hasta taşıyan donanımlı araç işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "AMBULANSLİ",
+          "hint": "Acil hasta taşıyan donanımlı araç özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "AMBULANSSEL",
+          "hint": "Acil hasta taşıyan donanımlı araç ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "AMBULANSLER",
+          "hint": "Acil hasta taşıyan donanımlı araç kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "AMBULANSLİK",
+          "hint": "Acil hasta taşıyan donanımlı araç durumunu veya bu amaçla kullanılan yeri ifade eden."
         }
       ]
     },
@@ -64,12 +664,212 @@
       ],
       "words": [
         {
-          "word": "HİJYEN",
-          "hint": "Sağlığı korumak amacıyla yapılan temizlik uygulamaları."
+          "word": "TRAFİK",
+          "hint": "Yolcu ve araçların yoldaki hareketliliği."
         },
         {
-          "word": "İLKYARDIM",
-          "hint": "Kaza anında yapılan ilk tıbbi müdahale."
+          "word": "KURAL",
+          "hint": "Uyması zorunlu kılınan davranış ilkesi."
+        },
+        {
+          "word": "IŞIK",
+          "hint": "Geçişleri düzenleyen renkli sinyal."
+        },
+        {
+          "word": "GEÇİT",
+          "hint": "Yayaların karşıya geçmesi için ayrılan yol."
+        },
+        {
+          "word": "POLİS",
+          "hint": "Güvenliği ve düzeni sağlayan kolluk gücü."
+        },
+        {
+          "word": "KASK",
+          "hint": "Motosiklet veya bisiklette başı koruyan şapka."
+        },
+        {
+          "word": "KEMER",
+          "hint": "Araçta güvenliği sağlayan bağlama aparatı."
+        },
+        {
+          "word": "HIZ",
+          "hint": "Aracın birim zamandaki yer değiştirme miktarı."
+        },
+        {
+          "word": "YOL",
+          "hint": "Ulaşım sağlanan şerit veya cadde."
+        },
+        {
+          "word": "CADDE",
+          "hint": "Şehir içindeki ana geniş yol."
+        },
+        {
+          "word": "SÜRÜCÜ",
+          "hint": "Aracı kontrol eden ve kullanan kişi."
+        },
+        {
+          "word": "YAYA",
+          "hint": "Yolda yürüyerek ilerleyen insan."
+        },
+        {
+          "word": "TRAFİKCI",
+          "hint": "Yolcu ve araçların yoldaki hareketliliği işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "TRAFİKLİ",
+          "hint": "Yolcu ve araçların yoldaki hareketliliği özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "TRAFİKSEL",
+          "hint": "Yolcu ve araçların yoldaki hareketliliği ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "TRAFİKLER",
+          "hint": "Yolcu ve araçların yoldaki hareketliliği kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "TRAFİKLİK",
+          "hint": "Yolcu ve araçların yoldaki hareketliliği durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "TRAFİKCİLİK",
+          "hint": "Yolcu ve araçların yoldaki hareketliliği mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "TRAFİKLEMEK",
+          "hint": "Yolcu ve araçların yoldaki hareketliliği işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "KURALCI",
+          "hint": "Uyması zorunlu kılınan davranış ilkesi işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "KURALLİ",
+          "hint": "Uyması zorunlu kılınan davranış ilkesi özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "KURALSEL",
+          "hint": "Uyması zorunlu kılınan davranış ilkesi ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "KURALLER",
+          "hint": "Uyması zorunlu kılınan davranış ilkesi kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "KURALLİK",
+          "hint": "Uyması zorunlu kılınan davranış ilkesi durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "KURALCİLİK",
+          "hint": "Uyması zorunlu kılınan davranış ilkesi mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "KURALLEMEK",
+          "hint": "Uyması zorunlu kılınan davranış ilkesi işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "IŞIKCI",
+          "hint": "Geçişleri düzenleyen renkli sinyal işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "IŞIKLİ",
+          "hint": "Geçişleri düzenleyen renkli sinyal özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "IŞIKSEL",
+          "hint": "Geçişleri düzenleyen renkli sinyal ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "IŞIKLER",
+          "hint": "Geçişleri düzenleyen renkli sinyal kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "IŞIKLİK",
+          "hint": "Geçişleri düzenleyen renkli sinyal durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "IŞIKCİLİK",
+          "hint": "Geçişleri düzenleyen renkli sinyal mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "IŞIKLEMEK",
+          "hint": "Geçişleri düzenleyen renkli sinyal işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "GEÇİTCI",
+          "hint": "Yayaların karşıya geçmesi için ayrılan yol işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "GEÇİTLİ",
+          "hint": "Yayaların karşıya geçmesi için ayrılan yol özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "GEÇİTSEL",
+          "hint": "Yayaların karşıya geçmesi için ayrılan yol ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "GEÇİTLER",
+          "hint": "Yayaların karşıya geçmesi için ayrılan yol kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "GEÇİTLİK",
+          "hint": "Yayaların karşıya geçmesi için ayrılan yol durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "GEÇİTCİLİK",
+          "hint": "Yayaların karşıya geçmesi için ayrılan yol mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "GEÇİTLEMEK",
+          "hint": "Yayaların karşıya geçmesi için ayrılan yol işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "POLİSCI",
+          "hint": "Güvenliği ve düzeni sağlayan kolluk gücü işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "POLİSLİ",
+          "hint": "Güvenliği ve düzeni sağlayan kolluk gücü özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "POLİSSEL",
+          "hint": "Güvenliği ve düzeni sağlayan kolluk gücü ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "POLİSLER",
+          "hint": "Güvenliği ve düzeni sağlayan kolluk gücü kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "POLİSLİK",
+          "hint": "Güvenliği ve düzeni sağlayan kolluk gücü durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "POLİSCİLİK",
+          "hint": "Güvenliği ve düzeni sağlayan kolluk gücü mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "POLİSLEMEK",
+          "hint": "Güvenliği ve düzeni sağlayan kolluk gücü işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "KASKCI",
+          "hint": "Motosiklet veya bisiklette başı koruyan şapka işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "KASKLİ",
+          "hint": "Motosiklet veya bisiklette başı koruyan şapka özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "KASKSEL",
+          "hint": "Motosiklet veya bisiklette başı koruyan şapka ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "KASKLER",
+          "hint": "Motosiklet veya bisiklette başı koruyan şapka kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "KASKLİK",
+          "hint": "Motosiklet veya bisiklette başı koruyan şapka durumunu veya bu amaçla kullanılan yeri ifade eden."
         }
       ]
     },
@@ -82,12 +882,212 @@
       ],
       "words": [
         {
-          "word": "HİJYEN",
-          "hint": "Sağlığı korumak amacıyla yapılan temizlik uygulamaları."
+          "word": "ÇEVRE",
+          "hint": "Yaşanılan doğal ve yapay ortam bütünü."
         },
         {
-          "word": "İLKYARDIM",
-          "hint": "Kaza anında yapılan ilk tıbbi müdahale."
+          "word": "TOPLUM",
+          "hint": "Bir arada yaşayan insanlar topluluğu."
+        },
+        {
+          "word": "SAYGI",
+          "hint": "Başkalarına karşı gösterilen nazik tutum."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Toplumun sahip olduğu değerler bütünü."
+        },
+        {
+          "word": "DOĞA",
+          "hint": "Kendiliğinden var olan canlı ve cansız çevre."
+        },
+        {
+          "word": "HAVA",
+          "hint": "Soluduğumuz gaz tabakası."
+        },
+        {
+          "word": "KİR",
+          "hint": "Çevreye zarar veren maddelerin birikmesi."
+        },
+        {
+          "word": "ATIK",
+          "hint": "Kullanım dışı kalan çöp veya kalıntı."
+        },
+        {
+          "word": "GERİDÖNÜŞÜM",
+          "hint": "Atıkların tekrar hammaddeye dönüştürülmesi."
+        },
+        {
+          "word": "GÜRÜLTÜ",
+          "hint": "Rahatsız edici ses veya ses kirliliği."
+        },
+        {
+          "word": "ORMAN",
+          "hint": "Ağaçlarla kaplı geniş doğal alan."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Kişinin üzerine düşen görevleri yapması."
+        },
+        {
+          "word": "ÇEVRECI",
+          "hint": "Yaşanılan doğal ve yapay ortam bütünü işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "ÇEVRELİ",
+          "hint": "Yaşanılan doğal ve yapay ortam bütünü özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "ÇEVRESEL",
+          "hint": "Yaşanılan doğal ve yapay ortam bütünü ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "ÇEVRELER",
+          "hint": "Yaşanılan doğal ve yapay ortam bütünü kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "ÇEVRELİK",
+          "hint": "Yaşanılan doğal ve yapay ortam bütünü durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "ÇEVRECİLİK",
+          "hint": "Yaşanılan doğal ve yapay ortam bütünü mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "ÇEVRELEMEK",
+          "hint": "Yaşanılan doğal ve yapay ortam bütünü işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "TOPLUMCI",
+          "hint": "Bir arada yaşayan insanlar topluluğu işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "TOPLUMLİ",
+          "hint": "Bir arada yaşayan insanlar topluluğu özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "TOPLUMSEL",
+          "hint": "Bir arada yaşayan insanlar topluluğu ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "TOPLUMLER",
+          "hint": "Bir arada yaşayan insanlar topluluğu kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "TOPLUMLİK",
+          "hint": "Bir arada yaşayan insanlar topluluğu durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "TOPLUMCİLİK",
+          "hint": "Bir arada yaşayan insanlar topluluğu mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "TOPLUMLEMEK",
+          "hint": "Bir arada yaşayan insanlar topluluğu işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "SAYGICI",
+          "hint": "Başkalarına karşı gösterilen nazik tutum işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "SAYGILİ",
+          "hint": "Başkalarına karşı gösterilen nazik tutum özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "SAYGISEL",
+          "hint": "Başkalarına karşı gösterilen nazik tutum ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "SAYGILER",
+          "hint": "Başkalarına karşı gösterilen nazik tutum kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "SAYGILİK",
+          "hint": "Başkalarına karşı gösterilen nazik tutum durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "SAYGICİLİK",
+          "hint": "Başkalarına karşı gösterilen nazik tutum mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "SAYGILEMEK",
+          "hint": "Başkalarına karşı gösterilen nazik tutum işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "KÜLTÜRCI",
+          "hint": "Toplumun sahip olduğu değerler bütünü işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "KÜLTÜRLİ",
+          "hint": "Toplumun sahip olduğu değerler bütünü özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "KÜLTÜRSEL",
+          "hint": "Toplumun sahip olduğu değerler bütünü ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "KÜLTÜRLER",
+          "hint": "Toplumun sahip olduğu değerler bütünü kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "KÜLTÜRLİK",
+          "hint": "Toplumun sahip olduğu değerler bütünü durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "KÜLTÜRCİLİK",
+          "hint": "Toplumun sahip olduğu değerler bütünü mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "KÜLTÜRLEMEK",
+          "hint": "Toplumun sahip olduğu değerler bütünü işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "DOĞACI",
+          "hint": "Kendiliğinden var olan canlı ve cansız çevre işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "DOĞALİ",
+          "hint": "Kendiliğinden var olan canlı ve cansız çevre özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "DOĞASEL",
+          "hint": "Kendiliğinden var olan canlı ve cansız çevre ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "DOĞALER",
+          "hint": "Kendiliğinden var olan canlı ve cansız çevre kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "DOĞALİK",
+          "hint": "Kendiliğinden var olan canlı ve cansız çevre durumunu veya bu amaçla kullanılan yeri ifade eden."
+        },
+        {
+          "word": "DOĞACİLİK",
+          "hint": "Kendiliğinden var olan canlı ve cansız çevre mesleği veya bu konudaki genel uğraş alanı."
+        },
+        {
+          "word": "DOĞALEMEK",
+          "hint": "Kendiliğinden var olan canlı ve cansız çevre işlemini uygulamak veya gerçekleştirmek."
+        },
+        {
+          "word": "HAVACI",
+          "hint": "Soluduğumuz gaz tabakası işini yapan veya bununla ilgilenen kişi."
+        },
+        {
+          "word": "HAVALİ",
+          "hint": "Soluduğumuz gaz tabakası özelliğine sahip olan veya bunu içeren."
+        },
+        {
+          "word": "HAVASEL",
+          "hint": "Soluduğumuz gaz tabakası ile ilgili olan, buna dayanan."
+        },
+        {
+          "word": "HAVALER",
+          "hint": "Soluduğumuz gaz tabakası kavramının birden fazlasını ifade eden çoğul hal."
+        },
+        {
+          "word": "HAVALİK",
+          "hint": "Soluduğumuz gaz tabakası durumunu veya bu amaçla kullanılan yeri ifade eden."
         }
       ]
     }

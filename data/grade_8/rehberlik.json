@@ -14,8 +14,212 @@
           "hint": "Belli bir işe veya konuya yönelen zihinsel dikkat ve eğilim."
         },
         {
-          "word": "MESLEK",
-          "hint": "Geçim sağlamak amacıyla yürütülen kurallı uzmanlık alanı."
+          "word": "BENLİK",
+          "hint": "Kişinin kendine ait algısı ve kimliği."
+        },
+        {
+          "word": "KİŞİLİK",
+          "hint": "Bir bireyi diğerlerinden ayıran, kendine özgü özellikler bütünü."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bireyin veya toplumun önem verdiği, doğru ve iyi kabul ettiği ilkeler."
+        },
+        {
+          "word": "YETENEK",
+          "hint": "Bir işi yapabilme veya bir şeyi öğrenebilme gücü ve becerisi."
+        },
+        {
+          "word": "GÜÇLÜ YÖN",
+          "hint": "Kişinin başarılı olduğu, iyi yapabildiği ve kendine güven duyduğu özellikler."
+        },
+        {
+          "word": "GELİŞTİRİLECEK YÖN",
+          "hint": "Kişinin üzerinde çalışarak daha iyi hale getirebileceği özellikler."
+        },
+        {
+          "word": "ÖZ FARKINDALIK",
+          "hint": "Kendi duygu, düşünce, değer ve davranışlarının farkında olma durumu."
+        },
+        {
+          "word": "ÖZ SAYGI",
+          "hint": "Kişinin kendi değeri hakkında olumlu bir yargıya sahip olması."
+        },
+        {
+          "word": "MOTİVASYON",
+          "hint": "Bir amaca ulaşmak için kişiyi harekete geçiren içsel dürtü."
+        },
+        {
+          "word": "HEDEF",
+          "hint": "Ulaşılmak istenen sonuç veya amaç."
+        },
+        {
+          "word": "PLANLAMA",
+          "hint": "Bir amaca ulaşmak için atılacak adımları önceden belirleme süreci."
+        },
+        {
+          "word": "ÖZ GÜVEN",
+          "hint": "Kişinin kendi yeteneklerine ve kararlarına duyduğu inanç."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Bir olay veya duruma karşı hissedilen ruhsal tepki."
+        },
+        {
+          "word": "DÜŞÜNCE",
+          "hint": "Zihinde oluşan fikir, kavram veya tasavvur."
+        },
+        {
+          "word": "DAVRANIŞ",
+          "hint": "Bir bireyin dışarıdan gözlemlenebilen tepkileri ve eylemleri."
+        },
+        {
+          "word": "İÇ GÖRÜ",
+          "hint": "Bir durumun veya sorunun derinlemesine anlaşılması, içsel kavrayış."
+        },
+        {
+          "word": "KENDİNİ GERÇEKLEŞTİRME",
+          "hint": "Bireyin potansiyelini en üst düzeye çıkarma ve yeteneklerini tam olarak kullanma çabası."
+        },
+        {
+          "word": "BAŞARI",
+          "hint": "Beklenen veya arzu edilen sonucun elde edilmesi durumu."
+        },
+        {
+          "word": "BAŞARISIZLIK",
+          "hint": "Beklenen sonucun elde edilememesi durumu."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Kişinin kendi eylemlerinin ve kararlarının sonuçlarını üstlenme yükümlülüğü."
+        },
+        {
+          "word": "KARAR VERME",
+          "hint": "Alternatifler arasından birini seçme süreci."
+        },
+        {
+          "word": "AMAÇ",
+          "hint": "Ulaşılmak istenen son nokta, gaye."
+        },
+        {
+          "word": "FARKINDALIK",
+          "hint": "Bir şeyin varlığını, önemini veya etkisini anlama durumu."
+        },
+        {
+          "word": "EMPATİ",
+          "hint": "Başkasının duygu ve düşüncelerini anlama ve paylaşma yeteneği."
+        },
+        {
+          "word": "ÖZ DENETİM",
+          "hint": "Kişinin kendi duygu, düşünce ve davranışlarını kontrol etme becerisi."
+        },
+        {
+          "word": "PRENSİP",
+          "hint": "Bir davranış veya düşünceyi yönlendiren temel kural veya ilke."
+        },
+        {
+          "word": "VİZYON",
+          "hint": "Geleceğe yönelik geniş ve iddialı hedef veya hayal."
+        },
+        {
+          "word": "YAŞAM AMACI",
+          "hint": "Bireyin hayatına anlam katan, uzun vadeli temel hedefi."
+        },
+        {
+          "word": "UYUM",
+          "hint": "Bir ortama, duruma veya beklentiye uygunluk gösterme."
+        },
+        {
+          "word": "SOSYAL UYUM",
+          "hint": "Bireyin toplumun kurallarına ve beklentilerine başarılı bir şekilde adapte olması."
+        },
+        {
+          "word": "ADAPTASYON",
+          "hint": "Çevresel koşullara veya yeni durumlara başarıyla ayak uydurma."
+        },
+        {
+          "word": "ESNEKLİK",
+          "hint": "Değişen koşullara veya durumlara kolayca adapte olabilme yeteneği."
+        },
+        {
+          "word": "ÇATIŞMA",
+          "hint": "İki veya daha fazla taraf arasında çıkan anlaşmazlık veya sürtüşme."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Bir sorunu veya zorluğu ortadan kaldırmak için bulunan yol veya yöntem."
+        },
+        {
+          "word": "İLETİŞİM",
+          "hint": "Duygu, düşünce veya bilgilerin karşılıklı olarak aktarılması süreci."
+        },
+        {
+          "word": "DİNLEME",
+          "hint": "Birine veya bir şeye dikkatle kulak verme, anlamaya çalışma."
+        },
+        {
+          "word": "GERİ BİLDİRİM",
+          "hint": "Bir davranışın veya durumun sonuçları hakkında bilgi verme veya yorum yapma."
+        },
+        {
+          "word": "PROBLEM ÇÖZME",
+          "hint": "Bir sorunu tanımlama, analiz etme ve etkili bir şekilde giderme süreci."
+        },
+        {
+          "word": "KABULLENME",
+          "hint": "Bir durumu veya gerçeği olduğu gibi anlama ve kabul etme."
+        },
+        {
+          "word": "ÖĞRENME",
+          "hint": "Yeni bilgi veya beceriler edinme süreci."
+        },
+        {
+          "word": "ORTAM",
+          "hint": "İçinde bulunulan çevre, koşullar veya durum."
+        },
+        {
+          "word": "DEĞİŞİM",
+          "hint": "Bir şeyin farklı bir duruma gelmesi veya dönüşmesi."
+        },
+        {
+          "word": "STRATEJİ",
+          "hint": "Bir amaca ulaşmak için izlenen yol, plan veya yöntem."
+        },
+        {
+          "word": "KİŞİLERARASI İLİŞKİLER",
+          "hint": "Bireyler arasındaki sosyal bağlantılar ve etkileşimler."
+        },
+        {
+          "word": "STRES",
+          "hint": "Vücudun bir tehdit veya zorluğa verdiği fiziksel veya zihinsel gerilim."
+        },
+        {
+          "word": "BAŞ ETME",
+          "hint": "Zor durumlarla, problemlerle veya stresle etkili bir şekilde mücadele etme."
+        },
+        {
+          "word": "AKRAN BASKISI",
+          "hint": "Yaşıtların bir bireyin davranış veya kararları üzerindeki etkisi."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Farklı düşünce, inanç veya davranışlara saygı duyma, anlayış gösterme."
+        },
+        {
+          "word": "SAYGI",
+          "hint": "Birine veya bir şeye değer verme, hürmet gösterme."
+        },
+        {
+          "word": "ANLAYIŞ",
+          "hint": "Bir durumu veya kişiyi doğru ve derinlemesine kavrama yeteneği."
+        },
+        {
+          "word": "İŞ BİRLİĞİ",
+          "hint": "Ortak bir amaç için birlikte çalışma, karşılıklı yardımlaşma."
+        },
+        {
+          "word": "POZİTİF DÜŞÜNME",
+          "hint": "Olaylara ve hayata olumlu ve yapıcı bir bakış açısıyla yaklaşma."
         }
       ]
     },
@@ -32,8 +236,212 @@
           "hint": "Belli bir işe veya konuya yönelen zihinsel dikkat ve eğilim."
         },
         {
-          "word": "MESLEK",
-          "hint": "Geçim sağlamak amacıyla yürütülen kurallı uzmanlık alanı."
+          "word": "PLANLAMA",
+          "hint": "Belirli bir amaca ulaşmak için atılacak adımların önceden düzenlenmesi."
+        },
+        {
+          "word": "ZAMAN YÖNETİMİ",
+          "hint": "Belirlenen hedeflere ulaşmak için zamanı etkili ve verimli kullanma becerisi."
+        },
+        {
+          "word": "HEDEF",
+          "hint": "Ulaşılmak istenen sonuç veya amaç."
+        },
+        {
+          "word": "ÖNCELİK",
+          "hint": "Bir eylemi veya konuyu diğerlerinden daha önemli görme durumu."
+        },
+        {
+          "word": "PROGRAM",
+          "hint": "Belirli bir zaman dilimi içinde yapılacak işlerin düzenli listesi."
+        },
+        {
+          "word": "RUTİN",
+          "hint": "Düzenli olarak tekrarlanan alışkanlık veya eylem."
+        },
+        {
+          "word": "NOT ALMA",
+          "hint": "Ders anlatılırken veya okunurken önemli bilgileri yazarak kaydetme."
+        },
+        {
+          "word": "ÖZETLEME",
+          "hint": "Bir metnin veya konunun ana fikirlerini kısaca ifade etme."
+        },
+        {
+          "word": "TEKRAR",
+          "hint": "Öğrenilen bilgiyi pekiştirmek için yeniden gözden geçirme veya çalışma."
+        },
+        {
+          "word": "KONSANTRASYON",
+          "hint": "Bir konuya veya işe zihinsel olarak yoğunlaşma durumu."
+        },
+        {
+          "word": "ODAKLANMA",
+          "hint": "Dikkatini tek bir noktaya toplama."
+        },
+        {
+          "word": "ÇALIŞMA ORTAMI",
+          "hint": "Ders çalışmak için uygun fiziksel alan ve koşullar."
+        },
+        {
+          "word": "DÜZEN",
+          "hint": "Eşyaların veya bilgilerin belirli bir sisteme göre yerleştirilmiş olması."
+        },
+        {
+          "word": "SESSİZLİK",
+          "hint": "Gürültünün olmaması, rahatsız edici seslerin bulunmaması durumu."
+        },
+        {
+          "word": "MOTİVASYON",
+          "hint": "Bir davranışı başlatan, sürdüren ve yönlendiren içsel veya dışsal güç."
+        },
+        {
+          "word": "ÖZ DISIPLİN",
+          "hint": "Kendi kendini yönetme ve belirlenen kurallara uyma yeteneği."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Üzerine düşen görevi yerine getirme yükümlülüğü."
+        },
+        {
+          "word": "BAŞARI",
+          "hint": "Bir hedefe ulaşma veya bir işte iyi sonuç alma durumu."
+        },
+        {
+          "word": "GERİ BİLDİRİM",
+          "hint": "Bir eylemin veya performansın sonuçları hakkında bilgi verme."
+        },
+        {
+          "word": "DEĞERLENDİRME",
+          "hint": "Bir durumun veya çalışmanın niteliğini, değerini yargılama."
+        },
+        {
+          "word": "AKILDA TUTMA",
+          "hint": "Öğrenilen bilgiyi hafızada saklama ve gerektiğinde hatırlama."
+        },
+        {
+          "word": "HATIRLAMA",
+          "hint": "Öğrenilen bir bilgiyi bellekteki yerinden geri çağırma."
+        },
+        {
+          "word": "KAVRAM HARİTASI",
+          "hint": "İlişkili kavramları görsel olarak bir araya getiren diyagram."
+        },
+        {
+          "word": "ZİHİN HARİTASI",
+          "hint": "Bir konunun ana fikrini merkez alarak dallanan not alma tekniği."
+        },
+        {
+          "word": "GÖRSELLEŞTİRME",
+          "hint": "Bilgiyi zihinde resimler, şekiller veya grafiklerle canlandırma."
+        },
+        {
+          "word": "ANAHTAR KELİME",
+          "hint": "Bir metnin veya konunun en önemli ve özetleyici sözcüğü."
+        },
+        {
+          "word": "AKTİF ÖĞRENME",
+          "hint": "Öğrencinin bilgi edinme sürecine doğrudan katıldığı öğrenme yaklaşımı."
+        },
+        {
+          "word": "PASİF ÖĞRENME",
+          "hint": "Öğrencinin bilgiyi sadece dinleyerek veya okuyarak aldığı öğrenme yaklaşımı."
+        },
+        {
+          "word": "ARA VERME",
+          "hint": "Ders çalışmaya veya bir işe kısa süreliğine mola verme."
+        },
+        {
+          "word": "PRATİK",
+          "hint": "Öğrenilen bilgiyi veya beceriyi uygulamaya koyma."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Kuramsal bilginin eyleme dönüştürülmesi."
+        },
+        {
+          "word": "SORU ÇÖZME",
+          "hint": "Konuyla ilgili soruları yanıtlayarak bilgiyi pekiştirme ve anlama."
+        },
+        {
+          "word": "DENEME SINAVI",
+          "hint": "Gerçek sınava benzer koşullarda yapılan test."
+        },
+        {
+          "word": "SINAV KAYGISI",
+          "hint": "Sınav öncesinde veya sırasında hissedilen yoğun endişe."
+        },
+        {
+          "word": "STRES YÖNETİMİ",
+          "hint": "Stresin olumsuz etkilerini azaltmaya yönelik teknikler."
+        },
+        {
+          "word": "VERİMLİLİK",
+          "hint": "En az kaynakla en iyi sonucu elde etme durumu."
+        },
+        {
+          "word": "ÖĞRENME STİLİ",
+          "hint": "Bireyin bilgiyi en iyi şekilde anlama ve işleme yöntemi."
+        },
+        {
+          "word": "GÖRSEL",
+          "hint": "Görme duyusuna hitap eden, resimlerle veya şekillerle öğrenen."
+        },
+        {
+          "word": "İŞİTSEL",
+          "hint": "Duyma duyusuna hitap eden, seslerle veya dinleyerek öğrenen."
+        },
+        {
+          "word": "KİNESTETİK",
+          "hint": "Hareket ve dokunma duyusuyla, yaparak yaşayarak öğrenen."
+        },
+        {
+          "word": "BELLEK",
+          "hint": "Bilgiyi depolama ve geri çağırma yeteneği."
+        },
+        {
+          "word": "KODLAMA",
+          "hint": "Bilgiyi belleğe yerleştirmek için dönüştürme süreci."
+        },
+        {
+          "word": "GERİ GETİRME",
+          "hint": "Bellekte depolanan bilgiyi bilinç düzeyine çıkarma."
+        },
+        {
+          "word": "HIZLI OKUMA",
+          "hint": "Okuma hızını artırarak metni daha kısa sürede anlama tekniği."
+        },
+        {
+          "word": "ANLAMA",
+          "hint": "Okunan veya duyulan bir metnin içeriğini kavrama."
+        },
+        {
+          "word": "ÖZ DENETİM",
+          "hint": "Kendi davranışlarını, düşüncelerini ve duygularını yönetme yeteneği."
+        },
+        {
+          "word": "ÖZ GÜVEN",
+          "hint": "Kendi yeteneklerine ve kararlarına duyulan inanç."
+        },
+        {
+          "word": "TEKNİK",
+          "hint": "Bir işi yapma biçimi veya yöntemi."
+        },
+        {
+          "word": "METOT",
+          "hint": "Bir amaca ulaşmak için izlenen yol."
+        },
+        {
+          "word": "PLANLAYICI",
+          "hint": "Yapılacak işleri ve zamanı organize etmeye yarayan araç veya kişi."
+        },
+        {
+          "word": "AKADEMİK",
+          "hint": "Eğitim ve bilimle ilgili olan."
+        },
+        {
+          "word": "BAŞARISIZLIK",
+          "hint": "Bir hedefe ulaşamama durumu."
         }
       ]
     },
@@ -50,8 +458,208 @@
           "hint": "Belli bir işe veya konuya yönelen zihinsel dikkat ve eğilim."
         },
         {
-          "word": "MESLEK",
-          "hint": "Geçim sağlamak amacıyla yürütülen kurallı uzmanlık alanı."
+          "word": "İLETİŞİM",
+          "hint": "Duygu, düşünce veya bilgilerin akla gelebilecek her türlü yolla başkalarına aktarılması."
+        },
+        {
+          "word": "ARKADAŞLIK",
+          "hint": "İnsanlar arasındaki karşılıklı sevgi ve saygıya dayanan yakın ilişki."
+        },
+        {
+          "word": "İLİŞKİ",
+          "hint": "İki şey veya kişi arasındaki karşılıklı bağ veya ilgi."
+        },
+        {
+          "word": "EMPATİ",
+          "hint": "Bir başkasının duygularını, düşüncelerini ve yaşantılarını anlamaya çalışma ve hissetme becerisi."
+        },
+        {
+          "word": "SAYGI",
+          "hint": "Bir kişiye veya değere karşı gösterilen ihtimam, hürmet."
+        },
+        {
+          "word": "GÜVEN",
+          "hint": "Birine inanma ve ona bağlanma duygusu, itimat."
+        },
+        {
+          "word": "DİNLEME",
+          "hint": "Sesleri veya sözleri kulak yardımıyla algılama, işitme eylemi."
+        },
+        {
+          "word": "GERİBİLDİRİM",
+          "hint": "Bir davranışın, performansın veya iletişimin sonuçları hakkında bilgi verme."
+        },
+        {
+          "word": "İFADE",
+          "hint": "Duygu, düşünce veya bilgileri sözlü, yazılı veya başka bir yolla anlatma."
+        },
+        {
+          "word": "BEDENDİLİ",
+          "hint": "Kelimeler dışındaki jestler, mimikler, duruşlar gibi yollarla yapılan iletişim."
+        },
+        {
+          "word": "ÇATIŞMA",
+          "hint": "İki taraf arasında çıkan anlaşmazlık veya zıtlaşma durumu."
+        },
+        {
+          "word": "UZLAŞMA",
+          "hint": "Bir anlaşmazlıkta ortak bir noktada buluşarak çözüm sağlama."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Bir kişinin üzerine düşen görevi yerine getirme yükümlülüğü."
+        },
+        {
+          "word": "PAYLAŞIM",
+          "hint": "Bir şeyi başkalarıyla bölüşme veya ortak kullanma."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Birine yardım etme, arka çıkma veya onu güçlendirme."
+        },
+        {
+          "word": "DOSTLUK",
+          "hint": "Arkadaşlıktan daha derin, sadakat ve güvene dayalı yakın ilişki."
+        },
+        {
+          "word": "SAMİMİYET",
+          "hint": "İçtenlik, yapmacıksızlık, içten ve dürüst olma durumu."
+        },
+        {
+          "word": "GÖZTEMASI",
+          "hint": "İletişim sırasında bir başkasının gözlerine bakma."
+        },
+        {
+          "word": "KİŞİSELALAN",
+          "hint": "Bireyin kendini güvende hissettiği, başkalarının girmesine izin vermediği fiziksel ve psikolojik sınırlar."
+        },
+        {
+          "word": "SOSYALLEŞME",
+          "hint": "Bir topluluğun veya grubun içinde yer alarak iletişim kurma ve etkileşimde bulunma süreci."
+        },
+        {
+          "word": "ÖZGÜVEN",
+          "hint": "Bir kişinin kendine duyduğu inanç ve yeterlilik hissi."
+        },
+        {
+          "word": "ÖNYARGI",
+          "hint": "Bir kişi veya konu hakkında yeterli bilgi edinmeden, peşin hüküm verme."
+        },
+        {
+          "word": "DEDİKODU",
+          "hint": "Başkaları hakkında konuşulan, genellikle doğru olmayan veya özel bilgiler."
+        },
+        {
+          "word": "KAVGA",
+          "hint": "Sözlü veya fiziksel olarak anlaşmazlık yaşama, tartışma."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir toplumun veya kişinin önem verdiği, savunduğu inanç, ilke veya standartlar."
+        },
+        {
+          "word": "KABUL",
+          "hint": "Bir kişiyi veya durumu olduğu gibi anlama ve onaylama."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Bireyin içsel deneyimlediği neşe, üzüntü, öfke gibi hisler."
+        },
+        {
+          "word": "ÖFKE",
+          "hint": "Bir durum, olay veya kişiye karşı hissedilen yoğun rahatsızlık ve hiddet."
+        },
+        {
+          "word": "DÜRÜSTLÜK",
+          "hint": "Doğru sözlü olma, hile yapmama, içten ve açık olma durumu."
+        },
+        {
+          "word": "GÜVENİLİRLİK",
+          "hint": "Bir kişinin sözünde durması, sorumluluklarını yerine getirmesi ve ona itimat edilebilmesi durumu."
+        },
+        {
+          "word": "SINIR",
+          "hint": "İlişkilerde bireyin neye izin verip neye vermeyeceğini belirleyen kişisel hat."
+        },
+        {
+          "word": "ANLAYIŞ",
+          "hint": "Bir şeyi veya durumu kavrama, algılama yeteneği veya birine karşı hoşgörülü olma."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Başkalarının düşünce ve davranışlarını kendi görüşüne aykırı olsa bile saygıyla karşılama."
+        },
+        {
+          "word": "İLGISIZLİK",
+          "hint": "Bir şeye veya birine karşı herhangi bir alaka veya dikkat göstermeme durumu."
+        },
+        {
+          "word": "FARKINDALIK",
+          "hint": "Bir durumun veya duygunun bilincinde olma, ayırdına varma."
+        },
+        {
+          "word": "YARGILAMAK",
+          "hint": "Bir kişi veya durumu kendi ölçütlerine göre değerlendirip hüküm verme."
+        },
+        {
+          "word": "İÇTENLİK",
+          "hint": "Duyguların ve düşüncelerin yapmacıksız ve samimi bir şekilde ifade edilmesi."
+        },
+        {
+          "word": "SABIR",
+          "hint": "Zor durumlara karşı dayanma gücü, tahammül."
+        },
+        {
+          "word": "BÜTÜNLEŞME",
+          "hint": "Bir araya gelerek tek bir parça veya grup olma süreci."
+        },
+        {
+          "word": "İKNA",
+          "hint": "Birini bir şeye inandırma, kandırma veya razı etme."
+        },
+        {
+          "word": "KİMLİK",
+          "hint": "Bir kişinin kendine özgü özellikleri ve nitelikleri, bireyin kendini tanımlama biçimi."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Bir sorunun veya problemin üstesinden gelme, sonuca ulaşma."
+        },
+        {
+          "word": "DEĞİŞİM",
+          "hint": "Bir durumun veya özelliğin farklı bir hale gelmesi."
+        },
+        {
+          "word": "İŞBİRLİĞİ",
+          "hint": "Ortak bir amaç için birlikte çalışma."
+        },
+        {
+          "word": "KATILIM",
+          "hint": "Bir etkinliğe veya sürece dahil olma."
+        },
+        {
+          "word": "KONUŞMA",
+          "hint": "Düşünceleri sözlü olarak ifade etme eylemi."
+        },
+        {
+          "word": "SEZGİ",
+          "hint": "Bir şeyi akıl yürütmeye veya öğrenmeye dayanmadan doğrudan anlama yeteneği."
+        },
+        {
+          "word": "GÖRÜŞ",
+          "hint": "Bir olay, konu veya durum hakkındaki düşünce, fikir."
+        },
+        {
+          "word": "YAKINLIK",
+          "hint": "İki kişi arasındaki duygu ve düşünce birliği, samimiyet."
+        },
+        {
+          "word": "YALNIZLIK",
+          "hint": "Çevrede kimse olmasa bile kendini tek başına ve izole hissetme durumu."
+        },
+        {
+          "word": "ÖZELALAN",
+          "hint": "Kişinin sadece kendisine ait olduğunu düşündüğü ve başkalarının girmesini istemediği yaşam alanı veya konular."
         }
       ]
     },
@@ -70,6 +678,250 @@
         {
           "word": "MESLEK",
           "hint": "Geçim sağlamak amacıyla yürütülen kurallı uzmanlık alanı."
+        },
+        {
+          "word": "KARİYER",
+          "hint": "Bir kişinin çalışma hayatında ilerlediği yol ve edindiği deneyimler bütünü."
+        },
+        {
+          "word": "YETENEK",
+          "hint": "Bir şeyi yapabilme gücü, doğuştan veya sonradan kazanılan beceri."
+        },
+        {
+          "word": "BECERİ",
+          "hint": "Bir işi yapabilme, bir alanda ustalık gösterme yeteneği."
+        },
+        {
+          "word": "DEĞER",
+          "hint": "Bir kişinin hayatında önemli gördüğü, yol gösterici inanç ve prensipler."
+        },
+        {
+          "word": "AMAÇ",
+          "hint": "Ulaşılmak istenen sonuç, hedef."
+        },
+        {
+          "word": "HEDEF",
+          "hint": "Ulaşılması istenen nihai nokta, amaç."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Bireylerin bilgi, beceri ve tutumlarını geliştirmeyi amaçlayan süreç."
+        },
+        {
+          "word": "ÖĞRENİM",
+          "hint": "Eğitim yoluyla bilgi ve beceri edinme süreci."
+        },
+        {
+          "word": "UZMANLIK",
+          "hint": "Belli bir alanda derin bilgi ve deneyime sahip olma durumu."
+        },
+        {
+          "word": "SEKTÖR",
+          "hint": "Ekonominin belirli bir faaliyet alanını oluşturan iş kolları bütünü."
+        },
+        {
+          "word": "MESLEKİ REHBERLİK",
+          "hint": "Bireylerin meslek seçimi ve kariyer gelişimi konularında desteklenmesi."
+        },
+        {
+          "word": "KENDİNİ TANIMA",
+          "hint": "Bireyin ilgi, yetenek, değer ve kişilik özelliklerini anlaması."
+        },
+        {
+          "word": "İŞ",
+          "hint": "Geçim sağlamak için yapılan faaliyet, çalışma."
+        },
+        {
+          "word": "ÜNİVERSİTE",
+          "hint": "Yükseköğretim ve araştırma yapılan kurum."
+        },
+        {
+          "word": "LİSE",
+          "hint": "Ortaöğretim seviyesindeki eğitim kurumu."
+        },
+        {
+          "word": "BÖLÜM",
+          "hint": "Üniversitelerde belirli bir alanda eğitim veren akademik birim."
+        },
+        {
+          "word": "İŞ SAHASI",
+          "hint": "Bir mesleğin icra edildiği veya istihdam olanaklarının bulunduğu alan."
+        },
+        {
+          "word": "GİRİŞİMCİLİK",
+          "hint": "Yeni bir iş kurma, risk alarak yenilikçi fikirleri hayata geçirme faaliyeti."
+        },
+        {
+          "word": "SERBEST MESLEK",
+          "hint": "Kendi adına ve hesabına, herhangi bir işverene bağlı olmaksızın yapılan iş."
+        },
+        {
+          "word": "MEMURİYET",
+          "hint": "Devlet hizmetinde çalışma durumu."
+        },
+        {
+          "word": "GELECEK",
+          "hint": "Henüz yaşanmamış zaman dilimi, ileriki dönem."
+        },
+        {
+          "word": "PLANLAMA",
+          "hint": "Bir amaca ulaşmak için atılacak adımların önceden belirlenmesi."
+        },
+        {
+          "word": "KARAR",
+          "hint": "Bir durum hakkında verilen kesin yargı, seçim."
+        },
+        {
+          "word": "YÖNELME",
+          "hint": "Belirli bir amaca veya hedefe doğru hareket etme."
+        },
+        {
+          "word": "TERCİH",
+          "hint": "Birden fazla seçenek arasından birini seçme."
+        },
+        {
+          "word": "KİŞİLİK",
+          "hint": "Bir bireyi diğerlerinden ayıran, kendine özgü duygu, düşünce ve davranış özellikleri bütünü."
+        },
+        {
+          "word": "MİZAC",
+          "hint": "Bir kişinin doğuştan gelen ve tepkilerini belirleyen temel ruhsal yapısı."
+        },
+        {
+          "word": "İSTİHDAM",
+          "hint": "İş gücünün bir işte çalıştırılması durumu, iş imkanı."
+        },
+        {
+          "word": "İŞSİZLİK",
+          "hint": "Çalışma gücüne sahip olduğu halde iş bulamama durumu."
+        },
+        {
+          "word": "GELİR",
+          "hint": "Çalışma veya yatırım sonucunda elde edilen para, kazanç."
+        },
+        {
+          "word": "ÜCRET",
+          "hint": "Yapılan bir iş veya hizmet karşılığında ödenen bedel, maaş."
+        },
+        {
+          "word": "ÇALIŞMA ORTAMI",
+          "hint": "Bir işin yapıldığı fiziksel ve sosyal çevre."
+        },
+        {
+          "word": "SOSYAL ÇEVRE",
+          "hint": "Bireyin içinde yaşadığı ve etkileşimde bulunduğu insanlar topluluğu."
+        },
+        {
+          "word": "BEKLENTİ",
+          "hint": "Bir durumun veya olayın nasıl gelişeceğine dair umut veya tahmin."
+        },
+        {
+          "word": "FARKINDALIK",
+          "hint": "Bir durumun veya konunun bilincinde olma hali."
+        },
+        {
+          "word": "ÖZ GEÇMİŞ",
+          "hint": "Bir kişinin eğitim, iş deneyimi ve becerilerini içeren belge (CV)."
+        },
+        {
+          "word": "MÜLAKAT",
+          "hint": "İş başvurusu yapan kişi ile işveren temsilcisinin karşılıklı görüşmesi."
+        },
+        {
+          "word": "REFERANS",
+          "hint": "Bir kişinin bilgi, beceri veya karakteri hakkında olumlu bilgi veren kişi veya belge."
+        },
+        {
+          "word": "STAJ",
+          "hint": "Öğrencilerin veya yeni mezunların bir işte pratik deneyim kazanmak için belirli bir süre çalışması."
+        },
+        {
+          "word": "YÜKSEK LİSANS",
+          "hint": "Lisans eğitiminden sonra yapılan akademik derece programı."
+        },
+        {
+          "word": "DOKTORA",
+          "hint": "Yüksek lisans eğitiminden sonra yapılan en üst akademik derece programı."
+        },
+        {
+          "word": "ÖZEL SEKTÖR",
+          "hint": "Devlet kontrolünde olmayan, özel şahıslara veya şirketlere ait iş alanları."
+        },
+        {
+          "word": "KAMU SEKTÖRÜ",
+          "hint": "Devletin veya kamu kurumlarının kontrolündeki iş alanları."
+        },
+        {
+          "word": "SIVIL TOPLUM KURULUŞU",
+          "hint": "Toplumsal fayda için gönüllülük esasıyla çalışan, kar amacı gütmeyen kuruluş."
+        },
+        {
+          "word": "GÖNÜLLÜLÜK",
+          "hint": "Herhangi bir karşılık beklemeden bir işi yapma, hizmet etme."
+        },
+        {
+          "word": "MESLEK LİSESİ",
+          "hint": "Belirli bir meslek alanında eğitim veren lise."
+        },
+        {
+          "word": "BİLİM",
+          "hint": "Evreni ve olayları deneye ve gözleme dayalı yöntemlerle inceleyen bilgi alanı."
+        },
+        {
+          "word": "SANAT",
+          "hint": "Estetik bir duygunun veya düşüncenin somut veya soyut olarak ifade edilmesi."
+        },
+        {
+          "word": "SPOR",
+          "hint": "Fiziksel aktivite ve yarışma içeren bedensel uğraş."
+        },
+        {
+          "word": "HOBİ",
+          "hint": "Boş zamanlarda keyif almak için yapılan uğraş."
+        },
+        {
+          "word": "PSİKOLOJİK DANIŞMANLIK",
+          "hint": "Bireylerin ruhsal ve duygusal sorunlarına çözüm bulmalarına yardımcı olma süreci."
+        },
+        {
+          "word": "REHBER ÖĞRETMEN",
+          "hint": "Okullarda öğrencilere akademik, kişisel ve kariyer alanlarında rehberlik eden uzman."
+        },
+        {
+          "word": "YETKİNLİK",
+          "hint": "Bir işi başarılı bir şekilde yapabilmek için gereken bilgi, beceri ve tutumların bütünü."
+        },
+        {
+          "word": "ESNEKLİK",
+          "hint": "Değişen koşullara uyum sağlayabilme yeteneği."
+        },
+        {
+          "word": "TAKIM ÇALIŞMASI",
+          "hint": "Ortak bir amaca ulaşmak için birden fazla kişinin bir araya gelerek uyumlu bir şekilde çalışması."
+        },
+        {
+          "word": "PROBLEM ÇÖZME",
+          "hint": "Karşılaşılan zorlukları veya engelleri aşmak için uygun çözümler bulma süreci."
+        },
+        {
+          "word": "KRİTİK DÜŞÜNME",
+          "hint": "Bilgileri nesnel bir şekilde analiz etme, değerlendirme ve mantıklı sonuçlar çıkarma becerisi."
+        },
+        {
+          "word": "ÖZGÜVEN",
+          "hint": "Kendine duyulan inanç, kişinin kendi yeteneklerine ve değerine olan güveni."
+        },
+        {
+          "word": "MOTİVASYON",
+          "hint": "Bir amaca ulaşmak için bireyi harekete geçiren içsel veya dışsal güçler."
+        },
+        {
+          "word": "ADAPTASYON",
+          "hint": "Yeni bir ortama veya duruma uyum sağlama süreci."
+        },
+        {
+          "word": "MESLEKİ ETİK",
+          "hint": "Bir mesleği icra ederken uyulması gereken ahlaki kurallar ve prensipler."
         }
       ]
     },
@@ -82,12 +934,224 @@
       ],
       "words": [
         {
-          "word": "İLGİ",
-          "hint": "Belli bir işe veya konuya yönelen zihinsel dikkat ve eğilim."
+          "word": "SORUN",
+          "hint": "Çözülmesi gereken durum veya güçlük."
         },
         {
-          "word": "MESLEK",
-          "hint": "Geçim sağlamak amacıyla yürütülen kurallı uzmanlık alanı."
+          "word": "ÇÖZÜM",
+          "hint": "Bir sorunu ortadan kaldırma veya güçlüğü giderme eylemi."
+        },
+        {
+          "word": "KARAR",
+          "hint": "Bir konu hakkında verilen kesin yargı veya hüküm."
+        },
+        {
+          "word": "SEÇENEK",
+          "hint": "Bir seçim yapılırken değerlendirilebilecek alternatiflerden her biri."
+        },
+        {
+          "word": "PROBLEM",
+          "hint": "Ortaya çıkan, üzerine düşünülüp çözüm bulunması gereken durum."
+        },
+        {
+          "word": "ANALİZ",
+          "hint": "Bir bütünü parçalarına ayırarak inceleme."
+        },
+        {
+          "word": "SENTEZ",
+          "hint": "Farklı ögeleri bir araya getirerek yeni bir bütün oluşturma."
+        },
+        {
+          "word": "DEĞERLENDİRME",
+          "hint": "Bir olayın, durumun veya seçeneğin iyi ve kötü yanlarını tartma."
+        },
+        {
+          "word": "MUHAKEME",
+          "hint": "Akıl yürütme, mantıksal çıkarımlar yapma yeteneği."
+        },
+        {
+          "word": "MANTIK",
+          "hint": "Doğru düşünme ilkeleri, akıl yürütme bilimi."
+        },
+        {
+          "word": "RASYONEL",
+          "hint": "Akla uygun, akılcı, mantıklı."
+        },
+        {
+          "word": "BİLGİ",
+          "hint": "Öğrenme, araştırma veya gözlem yoluyla elde edilen gerçekler ve veriler."
+        },
+        {
+          "word": "VERİ",
+          "hint": "Bir araştırma veya inceleme sonucunda elde edilen ham bilgi."
+        },
+        {
+          "word": "NEDEN",
+          "hint": "Bir olayın veya durumun ortaya çıkmasına yol açan etken."
+        },
+        {
+          "word": "SONUÇ",
+          "hint": "Bir eylemin, olayın veya kararın ortaya çıkardığı durum."
+        },
+        {
+          "word": "ETKİ",
+          "hint": "Bir şeyin başka bir şey üzerindeki tesiri."
+        },
+        {
+          "word": "AŞAMA",
+          "hint": "Bir süreç içindeki belirli bir adım veya evre."
+        },
+        {
+          "word": "SÜREÇ",
+          "hint": "Bir amaca ulaşmak için ardışık olarak ilerleyen olaylar dizisi."
+        },
+        {
+          "word": "YÖNTEM",
+          "hint": "Bir işi yapma veya bir amaca ulaşma biçimi, usul."
+        },
+        {
+          "word": "STRATEJİ",
+          "hint": "Uzun vadeli hedeflere ulaşmak için belirlenen genel yaklaşım."
+        },
+        {
+          "word": "PLANLAMA",
+          "hint": "Bir işin nasıl yapılacağını, ne zaman yapılacağını ve kimin yapacağını önceden belirleme."
+        },
+        {
+          "word": "UYGULAMA",
+          "hint": "Bir planı veya kararı hayata geçirme."
+        },
+        {
+          "word": "KONTROL",
+          "hint": "Bir sürecin veya durumun istenilen şekilde ilerleyip ilerlemediğini denetleme."
+        },
+        {
+          "word": "GERİBİLDİRİM",
+          "hint": "Bir eylem veya durum hakkındaki bilgilerin geri verilmesi."
+        },
+        {
+          "word": "FARKINDALIK",
+          "hint": "Bir durumun veya problemin varlığını anlama ve kavrama."
+        },
+        {
+          "word": "BELİRSİZLİK",
+          "hint": "Bir durumun sonucu veya geleceği hakkında kesin bilgi olmaması."
+        },
+        {
+          "word": "RİSK",
+          "hint": "Olası bir zararın veya kaybın gerçekleşme ihtimali."
+        },
+        {
+          "word": "FIRSAT",
+          "hint": "Belirli bir amaca ulaşmak için elverişli durum."
+        },
+        {
+          "word": "ENGEL",
+          "hint": "Bir ilerlemeyi veya eylemi durduran, zorlaştıran şey."
+        },
+        {
+          "word": "ÇÖZÜMLEME",
+          "hint": "Bir sorunun bileşenlerini ayırarak inceleme."
+        },
+        {
+          "word": "YAKLAŞIM",
+          "hint": "Bir konu veya soruna ele alış biçimi."
+        },
+        {
+          "word": "ÖN YARGI",
+          "hint": "Bir konu veya kişi hakkında yeterli bilgi edinmeden önce varılan olumsuz veya olumlu kanaat."
+        },
+        {
+          "word": "DUYGU",
+          "hint": "Bir olaya, duruma veya kişiye karşı hissedilen içsel tepki."
+        },
+        {
+          "word": "ALGI",
+          "hint": "Çevreden gelen duyusal bilgileri yorumlayarak anlamlandırma süreci."
+        },
+        {
+          "word": "TUTUM",
+          "hint": "Bir kişiye veya duruma karşı sergilenen eğilim veya davranış biçimi."
+        },
+        {
+          "word": "MOTİVASYON",
+          "hint": "Bir amaca ulaşmak için bireyi harekete geçiren içsel güç."
+        },
+        {
+          "word": "STRES",
+          "hint": "Vücudun bir tehdit veya talep karşısında verdiği fiziksel ve zihinsel tepki."
+        },
+        {
+          "word": "BASKI",
+          "hint": "Bir kişiyi belirli bir yönde hareket etmeye zorlama."
+        },
+        {
+          "word": "KORKU",
+          "hint": "Tehlike veya tehdit karşısında hissedilen güçlü olumsuz duygu."
+        },
+        {
+          "word": "UMUT",
+          "hint": "İyi bir sonucun gerçekleşeceğine dair inanç ve beklenti."
+        },
+        {
+          "word": "ESNEKLİK",
+          "hint": "Değişen koşullara uyum sağlama yeteneği."
+        },
+        {
+          "word": "YARATICILIK",
+          "hint": "Yeni ve özgün fikirler veya çözümler üretme yeteneği."
+        },
+        {
+          "word": "İŞBİRLİĞİ",
+          "hint": "Ortak bir amaç için birlikte çalışma."
+        },
+        {
+          "word": "İLETİŞİM",
+          "hint": "Bilgi, duygu veya düşüncelerin karşılıklı olarak aktarılması."
+        },
+        {
+          "word": "GÜVEN",
+          "hint": "Bir kişiye veya duruma duyulan inanç."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Bir görevi veya eylemi yerine getirme yükümlülüğü."
+        },
+        {
+          "word": "OBJELİK",
+          "hint": "Nesnel olma durumu, tarafsızlık."
+        },
+        {
+          "word": "SÜBJEKTİF",
+          "hint": "Kişisel duygu ve düşüncelere dayalı, öznel."
+        },
+        {
+          "word": "GEREKÇE",
+          "hint": "Bir kararın veya eylemin dayandığı neden, gerekçe."
+        },
+        {
+          "word": "ALTERNATİF",
+          "hint": "Bir seçeneğin yerine geçebilecek başka seçenek."
+        },
+        {
+          "word": "TARTIŞMA",
+          "hint": "Bir konu üzerinde karşılıklı görüş alışverişi yapma."
+        },
+        {
+          "word": "UZLAŞMA",
+          "hint": "Bir konuda ortak bir karara varma."
+        },
+        {
+          "word": "AKIL YÜRÜTME",
+          "hint": "Mantıksal çıkarımlar yaparak sonuca ulaşma süreci."
+        },
+        {
+          "word": "EMPATİ",
+          "hint": "Bir başkasının duygularını ve düşüncelerini anlama yeteneği."
+        },
+        {
+          "word": "ÖĞRENME",
+          "hint": "Deneyimler veya bilgiler aracılığıyla davranışta kalıcı değişiklikler kazanma."
         }
       ]
     }

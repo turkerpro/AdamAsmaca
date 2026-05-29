@@ -11,11 +11,223 @@
       "words": [
         {
           "word": "KOŞU",
-          "hint": "Adımların hızlı atılmasıyla yapılan atletizm hareketi."
+          "hint": "Adımların hızlı atılmasıyla yapılan hareket."
         },
         {
-          "word": "SPOR",
-          "hint": "Belli kurallara göre yapılan, fiziksel gelişimi sağlayan etkinlikler."
+          "word": "YÜRÜME",
+          "hint": "Ayakların birer birer yere basmasıyla ilerleme."
+        },
+        {
+          "word": "ZIPLAMA",
+          "hint": "İki ayakla aynı anda yerden yükselme ve tekrar yere inme."
+        },
+        {
+          "word": "SEKME",
+          "hint": "Tek ayak üzerinde yukarı doğru sıçrama hareketi."
+        },
+        {
+          "word": "ATMA",
+          "hint": "Bir nesneyi elle uzağa fırlatma eylemi."
+        },
+        {
+          "word": "TUTMA",
+          "hint": "Bir nesneyi elle yakalama ve kavramak."
+        },
+        {
+          "word": "TEKME",
+          "hint": "Ayağı kullanarak bir nesneye vurma eylemi."
+        },
+        {
+          "word": "EĞİLME",
+          "hint": "Vücudu öne veya yana doğru bükme."
+        },
+        {
+          "word": "DÖNME",
+          "hint": "Vücudun kendi etrafında eksen oluşturarak hareket etmesi."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Vücudun bir pozisyonda sabit durabilme yeteneği."
+        },
+        {
+          "word": "ESNEME",
+          "hint": "Vücut kaslarını uzatarak rahatlatma hareketi."
+        },
+        {
+          "word": "SIÇRAMA",
+          "hint": "Güçlü bir itme ile havaya yükselme."
+        },
+        {
+          "word": "KAYMA",
+          "hint": "Bir yüzey üzerinde ayakları kaydırarak ilerleme."
+        },
+        {
+          "word": "SÜRÜNME",
+          "hint": "Yere yakın bir şekilde el ve dizleri kullanarak ilerleme."
+        },
+        {
+          "word": "YUVARLAMA",
+          "hint": "Bir nesneyi yerde döndürerek ilerletme."
+        },
+        {
+          "word": "VURMA",
+          "hint": "Bir nesneye elle, ayakla veya araçla çarpma."
+        },
+        {
+          "word": "SALLANMA",
+          "hint": "Bir yerden asılıp ileri geri hareket etme."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Canlı varlıkların yer değiştirme veya duruş değiştirme eylemi."
+        },
+        {
+          "word": "KOL",
+          "hint": "Omuzdan bileğe kadar olan uzuv."
+        },
+        {
+          "word": "BACAK",
+          "hint": "Kalçadan ayağa kadar olan uzuv."
+        },
+        {
+          "word": "AYAK",
+          "hint": "Bacağın en alt kısmı, yere basan bölüm."
+        },
+        {
+          "word": "EL",
+          "hint": "Kolun bilekten sonraki, parmakları içeren kısmı."
+        },
+        {
+          "word": "GÖVDE",
+          "hint": "Baş ve uzuvlar dışında kalan vücut kısmı."
+        },
+        {
+          "word": "KAS",
+          "hint": "Vücutta kasılıp gevşeyerek hareket sağlayan doku."
+        },
+        {
+          "word": "EKLEM",
+          "hint": "İki kemiğin birleştiği, hareket etmesini sağlayan nokta."
+        },
+        {
+          "word": "HIZ",
+          "hint": "Bir hareketin ne kadar çabuk yapıldığını gösteren özellik."
+        },
+        {
+          "word": "GÜÇ",
+          "hint": "Bir hareketi yapabilmek için gereken enerji ve kuvvet."
+        },
+        {
+          "word": "ÇEVİKLİK",
+          "hint": "Hızlı ve kolayca yön değiştirme yeteneği."
+        },
+        {
+          "word": "ESNEKLİK",
+          "hint": "Vücudun kolayca bükülüp gerilebilme yeteneği."
+        },
+        {
+          "word": "KOORDİNASYON",
+          "hint": "Vücut parçalarının uyumlu bir şekilde çalışması."
+        },
+        {
+          "word": "YÖN",
+          "hint": "Bir taraf, bir istikamet."
+        },
+        {
+          "word": "MESAFE",
+          "hint": "İki nokta arasındaki uzaklık."
+        },
+        {
+          "word": "ALAN",
+          "hint": "Bir yerin kapladığı boşluk, saha."
+        },
+        {
+          "word": "RİTİM",
+          "hint": "Hareketlerin belirli bir düzene göre tekrarlanması."
+        },
+        {
+          "word": "DURUŞ",
+          "hint": "Vücudun belirli bir pozisyonda kalması."
+        },
+        {
+          "word": "ADIM",
+          "hint": "Yürürken veya koşarken atılan her bir ayak hareketi."
+        },
+        {
+          "word": "ZİGZAG",
+          "hint": "Sağa ve sola sürekli yön değiştirerek yapılan hareket."
+        },
+        {
+          "word": "GALOP",
+          "hint": "Hayvanların dörtnala koşmasına benzer, ritmik ilerleme."
+        },
+        {
+          "word": "TAKLA",
+          "hint": "Vücudu yuvarlayarak tam bir dönüş yapma."
+        },
+        {
+          "word": "İTME",
+          "hint": "Bir şeyi kendinden uzaklaştırmak için yapılan kuvvet uygulama."
+        },
+        {
+          "word": "ÇEKME",
+          "hint": "Bir şeyi kendine doğru yaklaştırmak için yapılan kuvvet uygulama."
+        },
+        {
+          "word": "ZAMANLAMA",
+          "hint": "Bir hareketin doğru anda yapılması."
+        },
+        {
+          "word": "TEMPO",
+          "hint": "Bir hareketin yapılış hızı veya ritmi."
+        },
+        {
+          "word": "UZANMA",
+          "hint": "Bir şeye yetişmek için kolu veya vücudu germe."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Bir vücut kısmının başka bir vücut kısmını veya zemini kullanarak ağırlığını taşıması."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Nesneleri hareket ettirme veya durdurma yeteneği."
+        },
+        {
+          "word": "YAVAŞ",
+          "hint": "Hareketin düşük hızda yapılması."
+        },
+        {
+          "word": "HIZLI",
+          "hint": "Hareketin yüksek hızda yapılması."
+        },
+        {
+          "word": "YUKARI",
+          "hint": "Yere göre daha yüksek bir noktaya doğru."
+        },
+        {
+          "word": "AŞAĞI",
+          "hint": "Yere doğru yapılan hareket."
+        },
+        {
+          "word": "İLERİ",
+          "hint": "Ön tarafa doğru yapılan hareket."
+        },
+        {
+          "word": "GERİ",
+          "hint": "Arka tarafa doğru yapılan hareket."
+        },
+        {
+          "word": "YANA",
+          "hint": "Sağ veya sol tarafa doğru yapılan hareket."
+        },
+        {
+          "word": "DÜZ",
+          "hint": "Eğrisi olmayan, doğru bir çizgide ilerleme."
+        },
+        {
+          "word": "PAS",
+          "hint": "Bir topu veya nesneyi arkadaşına ulaştırma."
         }
       ]
     },
@@ -34,6 +246,218 @@
         {
           "word": "SPOR",
           "hint": "Belli kurallara göre yapılan, fiziksel gelişimi sağlayan etkinlikler."
+        },
+        {
+          "word": "OYUN",
+          "hint": "Eğlenmek ve vakit geçirmek amacıyla yapılan etkinlik."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Vücudun yer değiştirmesi veya uzuvların kımıldaması."
+        },
+        {
+          "word": "ZIPLAMA",
+          "hint": "Ayakları yerden keserek yukarı doğru sıçrama eylemi."
+        },
+        {
+          "word": "ATMA",
+          "hint": "Bir şeyi elden çıkarıp uzağa fırlatma."
+        },
+        {
+          "word": "TUTMA",
+          "hint": "Bir şeyi ele alıp sıkıca kavrama."
+        },
+        {
+          "word": "YÜRÜYÜŞ",
+          "hint": "Adım atarak bir yerden başka bir yere gitme eylemi."
+        },
+        {
+          "word": "DANS",
+          "hint": "Müzik eşliğinde ritmik vücut hareketleri yapma."
+        },
+        {
+          "word": "EGZERSİZ",
+          "hint": "Vücudu güçlendirmek ve esnekliğini artırmak için yapılan hareketler."
+        },
+        {
+          "word": "ESNEME",
+          "hint": "Vücut kaslarını uzatarak rahatlatma."
+        },
+        {
+          "word": "ISINMA",
+          "hint": "Spor yapmadan önce kasları hazırlama hareketleri."
+        },
+        {
+          "word": "SOĞUMA",
+          "hint": "Spor sonrası yavaş tempoda yapılan rahatlatıcı hareketler."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Vücudun sabit durabilme yeteneği."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Kasların bir şeye karşı koyabilme veya onu hareket ettirebilme gücü."
+        },
+        {
+          "word": "DAYANIKLILIK",
+          "hint": "Bir işi uzun süre yorulmadan yapabilme yeteneği."
+        },
+        {
+          "word": "HIZ",
+          "hint": "Bir işi kısa sürede yapabilme yeteneği."
+        },
+        {
+          "word": "ÇEVİKLİK",
+          "hint": "Vücudun hızlı ve kolayca yön değiştirebilme yeteneği."
+        },
+        {
+          "word": "SAĞLIK",
+          "hint": "Vücudun hastalıksız ve iyi durumda olması hali."
+        },
+        {
+          "word": "VÜCUT",
+          "hint": "İnsanın veya hayvanın tüm bedeni."
+        },
+        {
+          "word": "KAS",
+          "hint": "Vücudumuzdaki hareket etmemizi sağlayan etli doku."
+        },
+        {
+          "word": "KEMİK",
+          "hint": "Vücudumuza şekil veren sert yapı."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "Canlıların hareket etmesi için gerekli olan güç."
+        },
+        {
+          "word": "YORGUNLUK",
+          "hint": "Uzun süre çalıştıktan veya oynadıktan sonra hissedilen bitkinlik hali."
+        },
+        {
+          "word": "NEFES",
+          "hint": "Akciğerlere hava alıp verme işlemi."
+        },
+        {
+          "word": "KALP",
+          "hint": "Kanı vücuda pompalayan organımız."
+        },
+        {
+          "word": "BESLENME",
+          "hint": "Vücudun ihtiyacı olan yiyecekleri alma."
+        },
+        {
+          "word": "UYKU",
+          "hint": "Vücudun dinlenmesi ve kendini yenilemesi için gereken durum."
+        },
+        {
+          "word": "SU",
+          "hint": "Vücudumuz için çok önemli olan içecek."
+        },
+        {
+          "word": "MEYVE",
+          "hint": "Ağaçlarda yetişen, vitaminli ve tatlı yiyecekler."
+        },
+        {
+          "word": "SEBZE",
+          "hint": "Toprakta yetişen, vitaminli bitkisel yiyecekler."
+        },
+        {
+          "word": "VİTAMİN",
+          "hint": "Vücudumuzun sağlıklı kalması için gerekli maddeler."
+        },
+        {
+          "word": "HİJYEN",
+          "hint": "Vücut temizliği ve sağlığı için yapılan uygulamalar."
+        },
+        {
+          "word": "TEMİZLİK",
+          "hint": "Kir ve mikroplardan arınma."
+        },
+        {
+          "word": "DİNLENME",
+          "hint": "Yorgunluğu gidermek için yapılan rahatlama."
+        },
+        {
+          "word": "BAĞIŞIKLIK",
+          "hint": "Vücudun hastalıklara karşı direnci."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Bir oyunun veya etkinliğin nasıl yapılacağını belirleyen ilke."
+        },
+        {
+          "word": "TAKIM",
+          "hint": "Birlikte oynayan veya çalışan insan grubu."
+        },
+        {
+          "word": "LİDER",
+          "hint": "Bir takımı yöneten kişi."
+        },
+        {
+          "word": "ARKADAŞ",
+          "hint": "Birlikte vakit geçirilen ve güvenilen kişi."
+        },
+        {
+          "word": "EMNİYET",
+          "hint": "Tehlikeden korunma durumu, güvenlik."
+        },
+        {
+          "word": "DİKKAT",
+          "hint": "Tehlikelere karşı uyanık olma."
+        },
+        {
+          "word": "KORUMA",
+          "hint": "Bir şeyi zarardan veya tehlikeden saklama."
+        },
+        {
+          "word": "AÇIK HAVA",
+          "hint": "Dışarıda, kapalı olmayan yer."
+        },
+        {
+          "word": "GÜNEŞ",
+          "hint": "Dünyayı ısıtan ve aydınlatan yıldız."
+        },
+        {
+          "word": "HAVA",
+          "hint": "Soluduğumuz, etrafımızı saran gaz tabakası."
+        },
+        {
+          "word": "ÇEVRE",
+          "hint": "Etrafımızdaki doğal veya yapay her şey."
+        },
+        {
+          "word": "MUTLULUK",
+          "hint": "Sevinçli ve neşeli olma hali."
+        },
+        {
+          "word": "EĞLENCE",
+          "hint": "Vakit geçirirken keyif alma durumu."
+        },
+        {
+          "word": "KAZANMA",
+          "hint": "Bir yarışmada veya oyunda başarılı olma."
+        },
+        {
+          "word": "KAYBETME",
+          "hint": "Bir yarışmada veya oyunda başarısız olma."
+        },
+        {
+          "word": "AKTİF",
+          "hint": "Hareketli, canlı ve etkin olan."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Herkese hakkını verme, dürüstlük."
+        },
+        {
+          "word": "PAYLAŞMA",
+          "hint": "Bir şeyi başkalarıyla bölüşme."
+        },
+        {
+          "word": "İŞ BİRLİĞİ",
+          "hint": "Bir amaca ulaşmak için birlikte çalışma."
         }
       ]
     },
@@ -46,12 +470,216 @@
       ],
       "words": [
         {
-          "word": "KOŞU",
-          "hint": "Adımların hızlı atılmasıyla yapılan atletizm hareketi."
-        },
-        {
           "word": "SPOR",
           "hint": "Belli kurallara göre yapılan, fiziksel gelişimi sağlayan etkinlikler."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir toplumun yaşam biçimi, gelenek ve değerleri."
+        },
+        {
+          "word": "OLİMPİYAT",
+          "hint": "Dünya çapında düzenlenen büyük spor müsabakaları."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Bir etkinliğin nasıl yapılacağını belirleyen ilke."
+        },
+        {
+          "word": "TAKIM",
+          "hint": "Ortak bir amaç için bir araya gelen sporcular grubu."
+        },
+        {
+          "word": "BİREYSEL",
+          "hint": "Tek başına yapılan spor veya başarı."
+        },
+        {
+          "word": "FAİR PLAY",
+          "hint": "Spor etiği, dürüst ve adil oyun."
+        },
+        {
+          "word": "SPORCU",
+          "hint": "Sporla uğraşan kişi."
+        },
+        {
+          "word": "EĞİTİM",
+          "hint": "Bireyin bilgi, beceri ve davranışlarını geliştirme süreci."
+        },
+        {
+          "word": "SAĞLIK",
+          "hint": "Bedensel ve ruhsal iyilik hali."
+        },
+        {
+          "word": "DISIPLİN",
+          "hint": "Kurallara uyma ve düzenli çalışma."
+        },
+        {
+          "word": "ANTRENMAN",
+          "hint": "Sporcuların fiziksel ve teknik gelişimini sağlayan düzenli çalışma."
+        },
+        {
+          "word": "YARIŞMA",
+          "hint": "Kazanmak için yapılan mücadele."
+        },
+        {
+          "word": "BAŞARI",
+          "hint": "Bir işte elde edilen olumlu sonuç."
+        },
+        {
+          "word": "GALİBİYET",
+          "hint": "Bir yarışmada veya mücadelede kazanma durumu."
+        },
+        {
+          "word": "MAĞLUBİYET",
+          "hint": "Bir yarışmada veya mücadelede kaybetme durumu."
+        },
+        {
+          "word": "SEYİRCİ",
+          "hint": "Spor etkinliklerini izleyen kişi."
+        },
+        {
+          "word": "TARAFTAR",
+          "hint": "Bir takımı veya sporcuyu destekleyen kişi."
+        },
+        {
+          "word": "ARENA",
+          "hint": "Spor müsabakalarının yapıldığı kapalı alan."
+        },
+        {
+          "word": "STADYUM",
+          "hint": "Spor müsabakalarının yapıldığı açık alan."
+        },
+        {
+          "word": "MOTİVASYON",
+          "hint": "Bir işi yapma isteği ve coşkusu."
+        },
+        {
+          "word": "DOSTLUK",
+          "hint": "Yakın ve içten bağ."
+        },
+        {
+          "word": "BARIŞ",
+          "hint": "Savaşsızlık durumu, huzur ve uyum."
+        },
+        {
+          "word": "EVRENSEL",
+          "hint": "Bütün dünyayı ilgilendiren, genel."
+        },
+        {
+          "word": "ETİK",
+          "hint": "Ahlaki değerler, iyi ve doğru davranış ilkeleri."
+        },
+        {
+          "word": "DOPİNG",
+          "hint": "Performansı artırıcı yasaklı madde kullanımı."
+        },
+        {
+          "word": "AMATÖR",
+          "hint": "Bir işi para kazanma amacı gütmeden yapan."
+        },
+        {
+          "word": "PROFESYONEL",
+          "hint": "Bir işi meslek olarak yapan, para karşılığı çalışan."
+        },
+        {
+          "word": "REKOR",
+          "hint": "Belirli bir alanda ulaşılan en yüksek veya en iyi derece."
+        },
+        {
+          "word": "PERFORMANS",
+          "hint": "Yapılan işin niteliği ve verimi."
+        },
+        {
+          "word": "SPORTMENLİK",
+          "hint": "Centilmenlik, fair play ruhu."
+        },
+        {
+          "word": "ANTİK",
+          "hint": "Çok eski zamanlara ait, eski."
+        },
+        {
+          "word": "MODERN",
+          "hint": "Çağdaş, günümüzle ilgili."
+        },
+        {
+          "word": "MEŞALE",
+          "hint": "Olimpiyat ateşi için kullanılan sembolik ışık kaynağı."
+        },
+        {
+          "word": "HALKA",
+          "hint": "Olimpiyat bayrağındaki beş birleşik çember."
+        },
+        {
+          "word": "BAYRAK",
+          "hint": "Bir ulusu veya kuruluşu temsil eden kumaş parçası."
+        },
+        {
+          "word": "MİRAS",
+          "hint": "Geçmişten bugüne aktarılan değerler, eserler."
+        },
+        {
+          "word": "ŞEHİR",
+          "hint": "Büyük yerleşim yeri."
+        },
+        {
+          "word": "EV SAHİBİ",
+          "hint": "Bir organizasyona ev sahipliği yapan yer veya ülke."
+        },
+        {
+          "word": "MADALYA",
+          "hint": "Başarı veya onur için verilen metal nişan."
+        },
+        {
+          "word": "ALTIN",
+          "hint": "En değerli madenlerden biri, birinciye verilen madalya."
+        },
+        {
+          "word": "GÜMÜŞ",
+          "hint": "Değerli bir metal, ikinciye verilen madalya."
+        },
+        {
+          "word": "BRONZ",
+          "hint": "Bir metal alaşımı, üçüncüye verilen madalya."
+        },
+        {
+          "word": "TÖREN",
+          "hint": "Önemli bir olayı kutlama veya anma etkinliği."
+        },
+        {
+          "word": "AÇILIŞ",
+          "hint": "Bir olayın veya etkinliğin başlangıcı."
+        },
+        {
+          "word": "KAPANIŞ",
+          "hint": "Bir olayın veya etkinliğin sonu."
+        },
+        {
+          "word": "KOMİTE",
+          "hint": "Belirli bir görevi yerine getirmek için toplanan kurul."
+        },
+        {
+          "word": "PARALİMPİK",
+          "hint": "Engelli sporcular için düzenlenen olimpiyat oyunları."
+        },
+        {
+          "word": "İDEAL",
+          "hint": "Ulaşılmaya çalışılan mükemmel seviye veya ilke."
+        },
+        {
+          "word": "RUH",
+          "hint": "Bir şeyin özü, manevi yönü."
+        },
+        {
+          "word": "DAYANIŞMA",
+          "hint": "Ortak bir amaç için karşılıklı yardım ve destek."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hak ve hukuka uygunluk, doğruluk."
+        },
+        {
+          "word": "ŞAMPİYON",
+          "hint": "Bir yarışmada veya ligde birincilik kazanan."
         }
       ]
     },
@@ -64,12 +692,232 @@
       ],
       "words": [
         {
-          "word": "KOŞU",
-          "hint": "Adımların hızlı atılmasıyla yapılan atletizm hareketi."
+          "word": "İŞ BİRLİĞİ",
+          "hint": "Bir hedefe ulaşmak için birlikte çalışma durumu."
         },
         {
-          "word": "SPOR",
-          "hint": "Belli kurallara göre yapılan, fiziksel gelişimi sağlayan etkinlikler."
+          "word": "TAKIM",
+          "hint": "Ortak bir amaç için bir araya gelmiş kişilerden oluşan grup."
+        },
+        {
+          "word": "DAYANIŞMA",
+          "hint": "Bir grubun üyelerinin zor zamanlarda birbirine yardım etmesi."
+        },
+        {
+          "word": "UYUM",
+          "hint": "Bir grubun içinde veya kişiler arasında sorunsuz bir ilişki."
+        },
+        {
+          "word": "KOORDİNASYON",
+          "hint": "Bir görevi başarıyla tamamlamak için farklı parçaların düzenli çalışması."
+        },
+        {
+          "word": "PAYLAŞIM",
+          "hint": "Bir şeyi birden fazla kişi arasında bölüştürme veya kullanma."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Birine yardım etmek veya onun yanında olmak."
+        },
+        {
+          "word": "YARDIM",
+          "hint": "Bir başkasına zor durumda el uzatma."
+        },
+        {
+          "word": "ETKİLEŞİM",
+          "hint": "İki veya daha fazla şeyin birbirini etkilemesi."
+        },
+        {
+          "word": "İLETİŞİM",
+          "hint": "Duygu, düşünce veya bilgilerin aktarılması süreci."
+        },
+        {
+          "word": "GÖREV",
+          "hint": "Bir kişinin yapması gereken belirli iş veya sorumluluk."
+        },
+        {
+          "word": "SORUMLULUK",
+          "hint": "Bir işin sonuçlarını üstlenme yükümlülüğü."
+        },
+        {
+          "word": "HEDEF",
+          "hint": "Ulaşılmak istenen sonuç veya amaç."
+        },
+        {
+          "word": "STRATEJİ",
+          "hint": "Bir hedefe ulaşmak için belirlenen uzun vadeli plan."
+        },
+        {
+          "word": "PLAN",
+          "hint": "Belirli bir amaca ulaşmak için atılacak adımların önceden belirlenmesi."
+        },
+        {
+          "word": "KATILIM",
+          "hint": "Bir etkinliğe veya gruba dahil olma durumu."
+        },
+        {
+          "word": "KATKI",
+          "hint": "Bir işe veya sonuca yapılan faydalı destek."
+        },
+        {
+          "word": "EMPATİ",
+          "hint": "Bir başkasının duygularını ve durumunu anlama yeteneği."
+        },
+        {
+          "word": "SAYGI",
+          "hint": "Bir kişiye veya değere karşı gösterilen hürmet ve takdir."
+        },
+        {
+          "word": "HOŞGÖRÜ",
+          "hint": "Farklılıklara tahammül etme ve anlayış gösterme."
+        },
+        {
+          "word": "DİNLEME",
+          "hint": "Bir başkasının söylediklerine dikkatle kulak verme."
+        },
+        {
+          "word": "ANLAYIŞ",
+          "hint": "Bir durumu veya kişiyi doğru şekilde kavrama."
+        },
+        {
+          "word": "GERİBİLDİRİM",
+          "hint": "Bir performans hakkında verilen yapıcı değerlendirme veya bilgi."
+        },
+        {
+          "word": "LİDERLİK",
+          "hint": "Bir grubu veya takımı yönlendirme ve yönetme becerisi."
+        },
+        {
+          "word": "GÜVEN",
+          "hint": "Birine veya bir şeye inanma, itimat etme duygusu."
+        },
+        {
+          "word": "ADALET",
+          "hint": "Hak ve hukuka uygunluk, herkese eşit davranma."
+        },
+        {
+          "word": "DÜRÜSTLÜK",
+          "hint": "Doğru ve samimi olma, hile yapmama."
+        },
+        {
+          "word": "KURAL",
+          "hint": "Bir oyunda veya durumda uyulması gereken ilke veya yasa."
+        },
+        {
+          "word": "SOSYAL",
+          "hint": "Toplumla veya kişiler arası ilişkilerle ilgili."
+        },
+        {
+          "word": "BECERİ",
+          "hint": "Bir işi yapabilme yeteneği."
+        },
+        {
+          "word": "KABUL",
+          "hint": "Bir durumu, fikri veya kişiyi onaylama, benimseme."
+        },
+        {
+          "word": "FARKINDALIK",
+          "hint": "Bir durumun veya gerçeğin bilincinde olma."
+        },
+        {
+          "word": "ÖZGÜVEN",
+          "hint": "Kendi yeteneklerine ve değerine inanma."
+        },
+        {
+          "word": "MOTİVASYON",
+          "hint": "Bir şeyi yapma isteğini ve arzusunu uyandıran güç."
+        },
+        {
+          "word": "TEŞVİK",
+          "hint": "Birini bir şeyi yapmaya özendirme, cesaretlendirme."
+        },
+        {
+          "word": "ÇATIŞMA",
+          "hint": "İki veya daha fazla taraf arasında anlaşmazlık veya zıtlaşma."
+        },
+        {
+          "word": "ÇÖZÜM",
+          "hint": "Bir sorunun veya problemin giderilmesi."
+        },
+        {
+          "word": "UZLAŞI",
+          "hint": "Anlaşmazlıkları gidermek için karşılıklı tavizlerle varılan anlaşma."
+        },
+        {
+          "word": "DİYALOG",
+          "hint": "İki veya daha fazla kişi arasındaki konuşma veya sohbet."
+        },
+        {
+          "word": "İKNA",
+          "hint": "Birini bir fikri veya davranışı benimsemeye yönlendirme."
+        },
+        {
+          "word": "KARAR",
+          "hint": "Bir durum veya sorun hakkında verilen kesin yargı."
+        },
+        {
+          "word": "GRUP",
+          "hint": "Belirli bir amaç için bir araya gelmiş insanlar topluluğu."
+        },
+        {
+          "word": "BİRLİK",
+          "hint": "Ortak bir amaç etrafında toplanma, beraberlik."
+        },
+        {
+          "word": "SİNERJİ",
+          "hint": "Farklı unsurların bir araya gelerek tek tek olduğundan daha büyük etki yaratması."
+        },
+        {
+          "word": "ROL",
+          "hint": "Bir görevde veya durumda üstlenilen pay veya işlev."
+        },
+        {
+          "word": "ORTAK",
+          "hint": "Birden fazla kişiye veya şeye ait olan."
+        },
+        {
+          "word": "REKABET",
+          "hint": "Bir şeyi elde etmek için başkalarıyla yarışma durumu."
+        },
+        {
+          "word": "CENTİLMENLİK",
+          "hint": "Spor veya sosyal yaşamda nazik, saygılı ve dürüst davranış."
+        },
+        {
+          "word": "SPORTMENLİK",
+          "hint": "Oyunun kurallarına ve ruhuna uygun, dürüst ve saygılı davranış."
+        },
+        {
+          "word": "SABIR",
+          "hint": "Zorluklar karşısında dayanma ve bekleme gücü."
+        },
+        {
+          "word": "AZİM",
+          "hint": "Bir amaca ulaşmak için gösterilen sürekli ve kararlı çaba."
+        },
+        {
+          "word": "KUTLAMA",
+          "hint": "Bir başarıyı veya önemli bir olayı coşkuyla anma."
+        },
+        {
+          "word": "TEŞEKKÜR",
+          "hint": "Yapılan bir iyiliğe karşılık minnettarlık bildirme."
+        },
+        {
+          "word": "ANLAŞMA",
+          "hint": "İki veya daha fazla taraf arasında sağlanan mutabakat."
+        },
+        {
+          "word": "DISIPLİN",
+          "hint": "Belirli kural ve düzenlemelere uyma."
+        },
+        {
+          "word": "PAYDAŞ",
+          "hint": "Bir projede, işte veya faaliyette çıkarı olan kişi veya grup."
+        },
+        {
+          "word": "İŞARET",
+          "hint": "Bir şeyi belirtmek veya iletişim kurmak için kullanılan hareket veya sembol."
         }
       ]
     },
@@ -82,12 +930,220 @@
       ],
       "words": [
         {
-          "word": "KOŞU",
-          "hint": "Adımların hızlı atılmasıyla yapılan atletizm hareketi."
+          "word": "RİTİM",
+          "hint": "Müziğe veya harekete düzen veren tekrarlayan ses veya hareket kalıbı."
         },
         {
-          "word": "SPOR",
-          "hint": "Belli kurallara göre yapılan, fiziksel gelişimi sağlayan etkinlikler."
+          "word": "DANS",
+          "hint": "Bedenin müzik eşliğinde veya ritmik olarak estetik ve ifade edici hareketlerle kullanılması."
+        },
+        {
+          "word": "TEMPO",
+          "hint": "Bir müziğin veya dansın hızı."
+        },
+        {
+          "word": "KOREOGRAFİ",
+          "hint": "Bir dans gösterisi için hareketlerin tasarlanması ve sıralanması."
+        },
+        {
+          "word": "MÜZİK",
+          "hint": "Duyguları ve fikirleri ifade eden ses sanatı."
+        },
+        {
+          "word": "HAREKET",
+          "hint": "Bir yerden başka bir yere yer değiştirme veya bedenin bir kısmını oynatma."
+        },
+        {
+          "word": "ADIM",
+          "hint": "Ayakların ardışık olarak yer değiştirmesi."
+        },
+        {
+          "word": "DENGE",
+          "hint": "Bir pozisyonu koruyabilme yeteneği."
+        },
+        {
+          "word": "ESNEKLİK",
+          "hint": "Eklemlerin geniş bir hareket aralığında hareket edebilme yeteneği."
+        },
+        {
+          "word": "ZARAFET",
+          "hint": "Hareketlerdeki incelik ve estetik."
+        },
+        {
+          "word": "İFADE",
+          "hint": "Duyguların veya düşüncelerin beden diliyle anlatılması."
+        },
+        {
+          "word": "DOĞAÇLAMA",
+          "hint": "Önceden planlanmamış, anlık hareketler ve yaratıcılık."
+        },
+        {
+          "word": "PARTNER",
+          "hint": "Dans eden iki kişiden her biri."
+        },
+        {
+          "word": "SAHNE",
+          "hint": "Gösterilerin yapıldığı yükseltilmiş alan."
+        },
+        {
+          "word": "KOSTÜM",
+          "hint": "Dansçının giydiği özel giysi."
+        },
+        {
+          "word": "PERFORMANS",
+          "hint": "Bir dansın veya gösterinin icrası."
+        },
+        {
+          "word": "STİL",
+          "hint": "Bir dansın veya sanatçının kendine özgü tarzı."
+        },
+        {
+          "word": "TÜR",
+          "hint": "Dansların veya müziklerin farklı kategorileri."
+        },
+        {
+          "word": "BALE",
+          "hint": "Klasik dans türü."
+        },
+        {
+          "word": "MODERN",
+          "hint": "Yenilikçi ve kural dışı dans türü."
+        },
+        {
+          "word": "HALK",
+          "hint": "Bir kültür veya bölgeye özgü geleneksel dans."
+        },
+        {
+          "word": "LATİN",
+          "hint": "Latin Amerika kökenli enerjik dans türleri."
+        },
+        {
+          "word": "FİGÜR",
+          "hint": "Bir dans içindeki belirli bir hareket veya pozisyon."
+        },
+        {
+          "word": "PAS",
+          "hint": "Dans terminolojisinde belirli bir adım veya geçiş."
+        },
+        {
+          "word": "DÖNÜŞ",
+          "hint": "Kendi ekseni etrafında yapılan hareket."
+        },
+        {
+          "word": "ATLAMA",
+          "hint": "Yerden yükselerek yapılan hareket."
+        },
+        {
+          "word": "DÜŞÜŞ",
+          "hint": "Bedenin yere doğru kontrollü inişi."
+        },
+        {
+          "word": "YÜKSELİŞ",
+          "hint": "Bedenin yukarı doğru kontrollü hareketi."
+        },
+        {
+          "word": "SENKRON",
+          "hint": "Hareketlerin aynı anda ve uyum içinde yapılması."
+        },
+        {
+          "word": "ESTETİK",
+          "hint": "Güzellik anlayışı ve sanatın temel ilkeleri."
+        },
+        {
+          "word": "BEDEN",
+          "hint": "Canlıların fiziksel yapısı."
+        },
+        {
+          "word": "ENERJİ",
+          "hint": "Canlılığın ve hareketin kaynağı olan güç."
+        },
+        {
+          "word": "UYUM",
+          "hint": "Parçalar arasındaki düzenli ve hoş ilişki."
+        },
+        {
+          "word": "JEST",
+          "hint": "Duygu veya düşünceleri ifade eden el kol hareketi."
+        },
+        {
+          "word": "MİMİK",
+          "hint": "Yüz ifadeleriyle duygu anlatımı."
+        },
+        {
+          "word": "YARATICILIK",
+          "hint": "Yeni fikirler veya eserler ortaya koyma yeteneği."
+        },
+        {
+          "word": "KÜLTÜR",
+          "hint": "Bir topluluğun yaşam biçimi, sanatı ve gelenekleri."
+        },
+        {
+          "word": "TOPLULUK",
+          "hint": "Birlikte hareket eden kişi grubu."
+        },
+        {
+          "word": "EKİP",
+          "hint": "Birlikte çalışan veya dans eden grup."
+        },
+        {
+          "word": "ISINMA",
+          "hint": "Egzersiz öncesi kasları ve bedeni hazırlama."
+        },
+        {
+          "word": "SOĞUMA",
+          "hint": "Egzersiz sonrası bedeni dinlendirme."
+        },
+        {
+          "word": "GERİLME",
+          "hint": "Kasları uzatma egzersizleri."
+        },
+        {
+          "word": "KONDİSYON",
+          "hint": "Fiziksel uygunluk durumu."
+        },
+        {
+          "word": "TEKNİK",
+          "hint": "Bir işi yapma biçimi veya yöntemi."
+        },
+        {
+          "word": "PROVA",
+          "hint": "Bir gösteri öncesi yapılan hazırlık çalışması."
+        },
+        {
+          "word": "VURUŞ",
+          "hint": "Müziğin temel ritmik birimi."
+        },
+        {
+          "word": "AKSAN",
+          "hint": "Ritimde belirli bir vuruşun vurgulanması."
+        },
+        {
+          "word": "BLOKAJ",
+          "hint": "Sahnedeki dansçıların konumlarının ve hareket yollarının belirlenmesi."
+        },
+        {
+          "word": "DESTEK",
+          "hint": "Bir dansçının diğerine fiziksel olarak yardımcı olması."
+        },
+        {
+          "word": "AKROBATİK",
+          "hint": "Zorlu fiziksel beceriler içeren hareketler."
+        },
+        {
+          "word": "YER ÇEKİMİ",
+          "hint": "Nesneleri yere çeken doğal kuvvet."
+        },
+        {
+          "word": "KUVVET",
+          "hint": "Kasların bir dirence karşı koyma yeteneği."
+        },
+        {
+          "word": "DAYANIKLILIK",
+          "hint": "Uzun süre fiziksel aktivite yapabilme yeteneği."
+        },
+        {
+          "word": "UÇMA",
+          "hint": "Dansçının kısa süreliğine yerden kesilmesi hissi veren hareketler."
         }
       ]
     }

@@ -405,6 +405,22 @@
         {
           "word": "ÜRÜN",
           "hint": "Sindirim sonucunda oluşan veya salgılanan madde."
+        },
+        {
+          "word": "ORGAN",
+          "hint": "Organ."
+        },
+        {
+          "word": "KEMİK",
+          "hint": "Kemik."
+        },
+        {
+          "word": "KIKIRDAK",
+          "hint": "Destek ve hareket sistemi elemani."
+        },
+        {
+          "word": "EKLEM",
+          "hint": "Destek ve hareket sistemi elemani."
         }
       ]
     },
