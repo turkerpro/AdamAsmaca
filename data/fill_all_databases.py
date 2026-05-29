@@ -80,24 +80,8 @@ def load_api_keys():
     return []
 
 def filter_working_keys(keys):
-    print("API anahtarları doğrulanıyor...")
-    working = []
-    for idx, key in enumerate(keys):
-        try:
-            client = genai.Client(api_key=key, http_options=types.HttpOptions(timeout=30000))
-            # Make a tiny request
-            client.models.generate_content(
-                model='gemini-2.5-flash',
-                contents='Say OK',
-                config=types.GenerateContentConfig(max_output_tokens=5)
-            )
-            print(f"  Key {idx+1}/{len(keys)} ({key[:10]}...): AKTİF")
-            working.append(key)
-        except Exception:
-            # Silent ignore since we already ran diagnostics
-            pass
-    print(f"Toplam çalışan anahtar sayısı: {len(working)}")
-    return working
+    print(f"Sistemde tanımlı {len(keys)} adet API anahtarı doğrudan yükleniyor...")
+    return keys
 
 def main():
     api_keys = load_api_keys()
@@ -256,6 +240,7 @@ def main():
                 
                 success = False
                 retries = len(working_keys) * 2 # Allow retrying each key twice
+                transient_retries = 0
                 
                 while retries > 0 and not success:
                     try:
@@ -299,21 +284,32 @@ def main():
                         })
                         file_modified = True
                         success = True
-                        # Sleep 4.5 seconds to stay below the 15 RPM rate limit (1 request every 4 seconds)
-                        time.sleep(4.5)
+                        transient_retries = 0
+                        # Sleep 12.0 seconds to stay well below the 15 RPM rate limit
+                        time.sleep(12.0)
                         
                     except Exception as e:
-                        retries -= 1
                         err_msg = str(e)
-                        print(f"    [HATA] {err_msg[:90]} | Kalan Deneme: {retries}")
-                        
-                        # If it's a quota/rate limit error, rotate key immediately
                         is_quota = any(kw in err_msg.lower() for kw in ["429", "quota", "exhausted", "limit", "rate"])
-                        if is_quota:
-                            rotate_key()
                         
-                        # Wait a bit longer on error
-                        time.sleep(6)
+                        if is_quota:
+                            if transient_retries < 1:
+                                wait_sec = 6.0
+                                print(f"    [GEÇİCİ KOTA] 429 limitine takılındı. {wait_sec} saniye bekleniyor... (Deneme {transient_retries+1}/1)")
+                                time.sleep(wait_sec)
+                                transient_retries += 1
+                                continue
+                            
+                            # If already failed twice, rotate key immediately
+                            print(f"    [KOTA AŞIMI] Key günlük kotası doldu veya IP bloke. Diğer anahtara geçiliyor.")
+                            rotate_key()
+                            time.sleep(5.0)
+                            retries -= 1
+                            transient_retries = 0
+                        else:
+                            print(f"    [HATA] Beklenmeyen hata: {err_msg[:90]}")
+                            time.sleep(10.0)
+                            retries -= 1
                 
                 if not success:
                     # Fallback to keeping existing cleaned words
