@@ -23,3 +23,7 @@ scratch/
 data_backup/
 data/counts_output.txt
 test_keys_and_bug.py
+
+# API keys & secrets (never commit these)
+data/api_keys.txt
+*.env
