@@ -402,11 +402,13 @@ function setupSettingsAndModals() {
   const kbSettingsBtn = document.getElementById("keyboard-settings-btn");
   const kbPopup = document.getElementById("kb-popup");
   const kbPopupClose = document.getElementById("kb-popup-close");
-  const kbSelect = document.getElementById("keyboard-select");
+  const kbOptionsList = document.getElementById("keyboard-options-list");
 
-  if (kbSettingsBtn && kbPopup) {
-    kbSelect.value = currentKeyboard;
+  if (kbSettingsBtn && kbPopup && kbOptionsList) {
     kbSettingsBtn.addEventListener("click", () => {
+      kbOptionsList.querySelectorAll(".kb-option-btn").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.value === currentKeyboard);
+      });
       kbPopup.style.display = "flex";
     });
     kbPopupClose.addEventListener("click", () => {
@@ -415,12 +417,40 @@ function setupSettingsAndModals() {
     kbPopup.addEventListener("click", (e) => {
       if (e.target === kbPopup) kbPopup.style.display = "none";
     });
-    kbSelect.addEventListener("change", (e) => {
-      currentKeyboard = e.target.value;
-      localStorage.setItem("adamAsmacaKb", currentKeyboard);
-      buildKeyboard();
-      updateKeys();
+    kbOptionsList.querySelectorAll(".kb-option-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        currentKeyboard = btn.dataset.value;
+        localStorage.setItem("adamAsmacaKb", currentKeyboard);
+        buildKeyboard();
+        updateKeys();
+        
+        kbOptionsList.querySelectorAll(".kb-option-btn").forEach(b => {
+          b.classList.toggle("active", b.dataset.value === currentKeyboard);
+        });
+        
+        setTimeout(() => {
+          kbPopup.style.display = "none";
+        }, 150);
+      });
     });
+  }
+
+  // Hata Bildir butonu (Menü)
+  const navReportBtn = document.getElementById("nav-report-btn");
+  if (navReportBtn) {
+    navReportBtn.addEventListener("click", navMenuAction(() => {
+      openReportModal();
+    }));
+  }
+
+  // Hata Bildir Overlay kontrolleri
+  const closeReportBtn = document.getElementById("close-report-btn");
+  if (closeReportBtn) {
+    closeReportBtn.addEventListener("click", () => closeOverlay("report-overlay"));
+  }
+  const sendReportBtn = document.getElementById("send-report-btn");
+  if (sendReportBtn) {
+    sendReportBtn.addEventListener("click", sendReport);
   }
 
   // Ses aç/kapat butonu - menüün yanına ekle
@@ -505,6 +535,60 @@ function openOverlay(id) {
 }
 function closeOverlay(id) {
   document.getElementById(id).style.display = "none";
+}
+
+function openReportModal(wordOverride, hintOverride) {
+  const currentWordVal = wordOverride || (gameState && gameState.word) || "-";
+  const gradeLabel = selectedGrade ? selectedGrade.gradeName : "-";
+  const subjectLabel = selectedSubject ? selectedSubject.name : "-";
+  const unitLabel = selectedUnit ? selectedUnit.name : "-";
+  
+  document.getElementById("report-subject").textContent = `${gradeLabel}. Sınıf - ${subjectLabel}`;
+  document.getElementById("report-unit").textContent = unitLabel;
+  document.getElementById("report-word").textContent = currentWordVal;
+  document.getElementById("report-desc").value = "";
+  
+  openOverlay("report-overlay");
+}
+
+function sendReport() {
+  const gradeLabel = selectedGrade ? selectedGrade.gradeName : "-";
+  const subjectLabel = selectedSubject ? selectedSubject.name : "-";
+  const unitLabel = selectedUnit ? selectedUnit.name : "-";
+  const currentWordVal = document.getElementById("report-word").textContent;
+  const desc = document.getElementById("report-desc").value.trim();
+  
+  if (!desc) {
+    alert("Lütfen hata açıklamasını yazın.");
+    return;
+  }
+  
+  const reportText = `Adam Asmaca Hata Bildirimi:\nSınıf: ${gradeLabel}. Sınıf\nDers: ${subjectLabel}\nÜnite: ${unitLabel}\nKelime: ${currentWordVal}\nHata Açıklaması: ${desc}`;
+  
+  closeOverlay("report-overlay");
+  
+  if (navigator.share) {
+    navigator.share({
+      title: 'Adam Asmaca Hata Bildirimi',
+      text: reportText
+    }).catch(() => {
+      openMailFallback(reportText, currentWordVal);
+    });
+  } else {
+    navigator.clipboard.writeText(reportText).then(() => {
+      alert("Hata açıklaması panoya kopyalandı! Açılacak e-postaya yapıştırıp gönderebilirsiniz.");
+      openMailFallback(reportText, currentWordVal);
+    }).catch(() => {
+      openMailFallback(reportText, currentWordVal);
+    });
+  }
+}
+
+function openMailFallback(text, word) {
+  const email = "destek@example.com";
+  const subject = encodeURIComponent(`Adam Asmaca Hata Bildirimi (${word})`);
+  const body = encodeURIComponent(text);
+  window.open(`mailto:${email}?subject=${subject}&body=${body}`);
 }
 
 function openStatsModal() {
@@ -1483,6 +1567,11 @@ function showEndOverlay() {
   btnShare.style.width = "100%"; btnShare.style.marginTop = "0";
   const btnBack = document.createElement("button"); btnBack.className = "btn-secondary";
   btnBack.style.width = "100%"; btnBack.style.marginTop = "0";
+  const btnReport = document.createElement("button"); btnReport.className = "btn-secondary";
+  btnReport.style.width = "100%"; btnReport.style.marginTop = "0";
+  btnReport.style.borderColor = "rgba(239, 68, 68, 0.4)";
+  btnReport.style.color = "var(--color-error)";
+  btnReport.textContent = "⚠️ Hata Bildir";
 
   if (gameState.won) {
     const netGain = gameState.score - gameState.startingScore;
@@ -1514,13 +1603,17 @@ function showEndOverlay() {
   btnShare.addEventListener("click", () => {
     copyShareLink(btnShare);
   });
+
+  btnReport.addEventListener("click", () => {
+    openReportModal();
+  });
   
   btnBack.addEventListener("click", () => {
     ov.remove();
     showSubjectScreen();
   });
 
-  btnRow.append(btnPrimary, btnShare, btnBack);
+  btnRow.append(btnPrimary, btnShare, btnReport, btnBack);
   card.append(icon, title, sub, wordCard, btnRow);
   ov.appendChild(card);
   document.body.appendChild(ov);

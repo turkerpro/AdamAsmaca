@@ -58,6 +58,10 @@
     <span class="nav-menu-icon">📊</span>
     <span>İstatistikler</span>
   </button>
+  <button class="nav-menu-item" id="nav-report-btn">
+    <span class="nav-menu-icon">⚠️</span>
+    <span>Hata Bildir</span>
+  </button>
 </div>
 <div class="nav-dropdown-backdrop" id="nav-backdrop" style="display:none;"></div>
 
@@ -154,9 +158,9 @@
     <!-- JOKERLER - dikey ortalı -->
     <div class="jokers-area">
       <div class="jokers-inner">
-        <button class="joker-btn" id="joker-reveal-btn">💡 Harf Göster <span class="joker-cost">-5 Puan</span></button>
-        <span class="joker-status" id="joker-status">3/3 Joker</span>
-        <button class="joker-btn" id="joker-eliminate-btn">❌ Harf Ele <span class="joker-cost">-3 Puan</span></button>
+        <button class="joker-btn" id="joker-reveal-btn">💡 Harf Göster <span class="joker-cost">(-5p)</span></button>
+        <span class="joker-status" id="joker-status">3/3</span>
+        <button class="joker-btn" id="joker-eliminate-btn">❌ Harf Ele <span class="joker-cost">(-3p)</span></button>
       </div>
     </div>
 
@@ -183,14 +187,38 @@
 <div class="kb-popup" id="kb-popup" style="display:none;">
   <div class="kb-popup-inner">
     <div class="kb-popup-title">Klavye Düzeni</div>
-    <select id="keyboard-select" class="kb-select">
-      <option value="qwerty">Standart (Q)</option>
-      <option value="f">Standart (F)</option>
-      <option value="mobile_q">Mobil (Q)</option>
-      <option value="smart">Akıllı Mobil</option>
-      <option value="abc">Alfabetik</option>
-    </select>
+    <div class="kb-options-list" id="keyboard-options-list">
+      <button class="kb-option-btn" data-value="qwerty">Standart (Q)</button>
+      <button class="kb-option-btn" data-value="f">Standart (F)</button>
+      <button class="kb-option-btn" data-value="mobile_q">Mobil (Q)</button>
+      <button class="kb-option-btn" data-value="smart">Akıllı Mobil</button>
+      <button class="kb-option-btn" data-value="abc">Alfabetik</button>
+    </div>
     <button class="kb-popup-close" id="kb-popup-close">Kapat</button>
+  </div>
+</div>
+
+<!-- REPORT OVERLAY -->
+<div class="overlay" id="report-overlay" style="display:none;">
+  <div class="overlay-card" style="max-width: 440px;">
+    <span class="overlay-icon">⚠️</span>
+    <h2 class="overlay-title">Hata Bildir</h2>
+    <p class="overlay-sub" style="margin-bottom: 12px; font-size: var(--text-sm);">Bu kelimede veya soruda bir sorun mu var? Lütfen bize bildirin.</p>
+    
+    <div style="background:var(--color-surface-offset); border:1px solid var(--color-border); border-radius:var(--radius-lg); padding:12px; margin-bottom:16px; width:100%; text-align:left; font-size:13px; line-height:1.4; box-sizing:border-box;">
+      <strong>Ders:</strong> <span id="report-subject">-</span><br>
+      <strong>Ünite:</strong> <span id="report-unit">-</span><br>
+      <strong>Kelime:</strong> <span id="report-word" style="font-family:var(--font-display); font-weight:700; color:var(--color-primary);">-</span>
+    </div>
+
+    <textarea id="report-desc" placeholder="Hata nedir? (Örn: Yazım hatası var, ipucu yanlış, vb.)" 
+      style="width: 100%; height: 100px; padding: 12px; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface-offset); color: var(--color-text); font-family: var(--font-body); font-size: 14px; resize: none; margin-bottom: 16px; outline: none; box-sizing: border-box;"
+    ></textarea>
+
+    <div style="display:flex; gap:12px; justify-content:center; width:100%;">
+      <button class="btn-primary" id="send-report-btn" style="margin-top:0; flex:1;">Gönder / Paylaş</button>
+      <button class="btn-secondary" id="close-report-btn" style="margin-top:0; flex:1;">Kapat</button>
+    </div>
   </div>
 </div>
 
