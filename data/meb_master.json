@@ -1,0 +1,3767 @@
+{
+  "1": {
+    "hayat": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Okul Heyecanım",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Benim Eşsiz Yuvam",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Dün, Bugün, Yarın",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Güvenli Hayat",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Ülkemizde Hayat",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Doğada Hayat",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "turkce": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Okuma Yazmaya Hazırlık",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Ses Temelli Okuma Yazma Öğretimi - I",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Ses Temelli Okuma Yazma Öğretimi - II",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Ses Temelli Okuma Yazma Öğretimi - III",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Okuma Anlama ve Yazma Becerileri",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Okuma Kültürü ve Yaratıcı Yazma",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "matematik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Doğal Sayılar (0-20)",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Toplama İşlemi (20 içinde)",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Çıkarma İşlemi (20 içinde)",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Geometrik Cisimler ve Şekiller",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Uzunluk, Zaman ve Para Ölçme",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Doğal Sayılarla İşlemler ve Veri İşleme",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  "2": {
+    "hayat": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Okul Heyecanım",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Benim Eşsiz Yuvam",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Dün, Bugün, Yarın",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Sağlıklı Hayat",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Güvenli Hayat",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Ülkemizde Hayat",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Doğada Hayat",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "8. Ünite: Üretimden Tüketime",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "9. Ünite: Yenilikler ve Gelişmeler",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "turkce": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Birey ve Toplum",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Çocuk Dünyası",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Değerlerimiz",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Oyun ve Spor",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Sağlık ve Çevre",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Bilim ve Teknoloji",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Sanat",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "8. Ünite: Vatanseverlik",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "9. Ünite: Doğa ve Evren",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "matematik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Doğal Sayılar",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Doğal Sayılarla Toplama İşlemi",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Doğal Sayılarla Çıkarma İşlemi",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Geometrik Cisimler ve Şekiller",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Uzamsal İlişkiler",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Ölçme",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Çarpma ve Bölme İşlemi",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 8,
+        "name": "8. Ünite: Veri Toplama ve Değerlendirme",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "ingilizce": [
+      {
+        "num": 1,
+        "name": "Unit 1: Greetings",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "Unit 2: My Family",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "Unit 3: Numbers",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "Unit 4: Colours",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "Unit 5: Animals",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "Unit 6: My Body",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "Unit 7: My Toys",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "Unit 8: My House",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "Unit 9: My Clothes",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 10,
+        "name": "Unit 10: My Food",
+        "months": [
+          5
+        ]
+      }
+    ]
+  },
+  "3": {
+    "hayat": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Okul Heyecanım",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Benim Eşsiz Yuvam",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Dün, Bugün, Yarın",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Üretimden Tüketime",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Doğada Hayat",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Güvenli Hayat",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "turkce": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Okul Hayatı ve Atatürk",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Sağlık ve Spor",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Milli Kültürümüz ve Değerlerimiz",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Çocuk Dünyası",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Doğa ve Evren",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Vatanseverlik",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Bilim ve Teknoloji",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 8,
+        "name": "8. Ünite: Sanat ve Eğlence",
+        "months": [
+          6
+        ]
+      }
+    ],
+    "matematik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Doğal Sayılar",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Doğal Sayılarla İşlemler (Toplama ve Çıkarma)",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Doğal Sayılarla Çarpma ve Bölme İşlemleri",
+        "months": [
+          12,
+          1,
+          2
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Kesirler",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Zaman Ölçme ve Paralarımız",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Uzunluk Ölçme ve Çevre",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Geometrik Cisimler ve Şekiller, Veri Toplama ve Değerlendirme",
+        "months": [
+          6
+        ]
+      }
+    ],
+    "fen": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Gezegenimizi Tanıyalım",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Beş Duyumuz",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Kuvveti Tanıyalım",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Maddeyi Tanıyalım",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Canlılar Dünyasına Yolculuk",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Elektrikli Araçlar",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "ingilizce": [
+      {
+        "num": 1,
+        "name": "Unit 1: Greetings",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "Unit 2: My Family",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "Unit 3: People I Love",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "Unit 4: Feelings",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "Unit 5: Toys and Games",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "Unit 6: My House",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "Unit 7: In My City",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "Unit 8: Transportation",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "Unit 9: Weather",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 10,
+        "name": "Unit 10: Nature",
+        "months": [
+          6
+        ]
+      }
+    ]
+  },
+  "4": {
+    "turkce": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Birey ve Toplum",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Doğa ve Evren",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Sağlık ve Spor",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Bilim ve Teknoloji",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Sanat ve Kültür",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Vatanseverlik ve Değerlerimiz",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "matematik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Doğal Sayılar",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Doğal Sayılarla İşlemler",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Kesirler",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Veri Toplama ve Değerlendirme, Zaman Ölçme",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Uzunluk, Çevre ve Alan Ölçme",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Geometrik Cisimler, Şekiller ve Uzamsal İlişkiler",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "fen": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Vücudumuzdaki Sistemler",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Kuvvetin Etkileri",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Maddeyi Tanıyalım",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Aydınlatma ve Ses Teknolojileri",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Canlılar Dünyasını Tanıyalım",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Basit Elektrik Devreleri",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Dünya ve Evren",
+        "months": [
+          6
+        ]
+      }
+    ],
+    "sosyal": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Birey ve Toplum",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Kültür ve Miras",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: İnsanlar, Yerler ve Çevreler",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Bilim, Teknoloji ve Toplum",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Üretim, Tüketim ve Verimlilik",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Etkin Vatandaşlık",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Küresel Bağlantılar",
+        "months": [
+          6
+        ]
+      }
+    ],
+    "ingilizce": [
+      {
+        "num": 1,
+        "name": "Unit 1: Hello!",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "Unit 2: My Family",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "Unit 3: People I Like",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "Unit 4: In the Classroom",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "Unit 5: My Day",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "Unit 6: Fun with Science",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "Unit 7: Jobs",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "Unit 8: My Clothes",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "Unit 9: My City",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 10,
+        "name": "Unit 10: My House",
+        "months": [
+          6
+        ]
+      }
+    ]
+  },
+  "5": {
+    "turkce": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Birey ve Toplum",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Kültür ve Miras",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Sağlık ve Çevre",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Bilim ve Teknoloji",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Sanat ve Spor",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Vatandaşlık ve Demokrasi",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Eğitim ve Çalışma Hayatı",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 8,
+        "name": "8. Ünite: Değerlerimiz",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "matematik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Doğal Sayılar",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Doğal Sayılarla İşlemler",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Kesirler",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Kesirlerle İşlemler",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Ondalık Gösterim",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Yüzdeler",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Temel Geometrik Kavramlar ve Çizimler",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 8,
+        "name": "8. Ünite: Üçgen ve Dörtgenler",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "9. Ünite: Alan Ölçme",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 10,
+        "name": "10. Ünite: Veri Toplama ve Değerlendirme",
+        "months": [
+          5,
+          6
+        ]
+      },
+      {
+        "num": 11,
+        "name": "11. Ünite: Uzunluk ve Zaman Ölçme",
+        "months": [
+          6
+        ]
+      }
+    ],
+    "fen": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Güneş, Dünya ve Ay",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Canlılar Dünyası",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Kuvvetin Ölçülmesi ve Sürtünme",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Madde ve Değişim",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Işığın Yayılması",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: İnsan ve Çevre",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Elektrik Devreleri",
+        "months": [
+          4,
+          5
+        ]
+      }
+    ],
+    "sosyal": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Birey ve Toplum",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Kültür ve Miras",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: İnsanlar, Yerler ve Çevreler",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Bilim, Teknoloji ve Toplum",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Üretim, Dağıtım ve Tüketim",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Etkin Vatandaşlık",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Küresel Bağlantılar",
+        "months": [
+          4,
+          5
+        ]
+      }
+    ],
+    "ingilizce": [
+      {
+        "num": 1,
+        "name": "Unit 1: Hello!",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "Unit 2: My Town",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "Unit 3: Games and Hobbies",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "Unit 4: My Daily Routine",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "Unit 5: Health",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "Unit 6: Movies",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "Unit 7: Party Time",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "Unit 8: Fitness",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "Unit 9: The Animal Shelter",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 10,
+        "name": "Unit 10: Festivals",
+        "months": [
+          6
+        ]
+      }
+    ]
+  },
+  "6": {
+    "turkce": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Birey ve Toplum",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Değerlerimiz",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Doğa ve Evren",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Bilim ve Teknoloji",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Sağlık ve Spor",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Sanat ve Edebiyat",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Eğitim ve Öğrenim",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "8. Ünite: Vatanseverlik",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "9. Ünite: İletişim",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 10,
+        "name": "10. Ünite: Kültür ve Miras",
+        "months": [
+          6
+        ]
+      }
+    ],
+    "matematik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Doğal Sayılarla İşlemler",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Çarpanlar ve Katlar, Kümeler",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Tam Sayılar, Kesirlerle İşlemler",
+        "months": [
+          11,
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Ondalık Gösterim, Oran",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Cebirsel İfadeler, Veri Analizi",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Açılar, Alan Ölçme",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Çember, Geometrik Cisimler, Sıvı Ölçme",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "fen": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Vücudumuzdaki Sistemler",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Kuvvet ve Hareket",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Madde ve Isı",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Ses ve Özellikleri",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Elektrik Devreleri",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Canlılarda Üreme, Büyüme ve Gelişme",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 8,
+        "name": "8. Ünite: Sistemler ve Sağlığı",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "sosyal": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Birey ve Toplum",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Kültür ve Miras",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: İnsanlar, Yerler ve Çevreler",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Bilim, Teknoloji ve Toplum",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Üretim, Dağıtım ve Tüketim",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Etkin Vatandaşlık",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Küresel Bağlantılar",
+        "months": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "ingilizce": [
+      {
+        "num": 1,
+        "name": "Unit 1: Life",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "Unit 2: Yummy Breakfast",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "Unit 3: Games and Hobbies",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "Unit 4: Weather and Emotions",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "Unit 5: Health",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "Unit 6: Occupations",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "Unit 7: Holidays",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "Unit 8: Books",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "Unit 9: Saving the Planet",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 10,
+        "name": "Unit 10: Democracy",
+        "months": [
+          6
+        ]
+      }
+    ]
+  },
+  "7": {
+    "turkce": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Anlam Bilgisi",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Dil Bilgisi - Fiiller ve Fiilimsiler",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Metin Bilgisi ve Türleri",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Yazım Kuralları ve Noktalama İşaretleri",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Dil Bilgisi - Cümle Bilgisi ve Anlatım Bozuklukları",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Söz Sanatları ve Edebi Metinler",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Okuma, Yazma ve Konuşma Becerileri",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "matematik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Tam Sayılarla İşlemler",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Rasyonel Sayılar ve Rasyonel Sayılarla İşlemler",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Oran, Orantı ve Yüzdeler",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Cebirsel İfadeler ve Denklemler",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Doğrular, Açılar ve Çokgenler",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Çember ve Cisimlerin Farklı Yönlerden Görünümleri",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Alan, Hacim ve Veri Analizi",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "fen": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Güneş Sistemi ve Ötesi: Uzay Araştırmaları",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Hücre ve Bölünmeler",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Kuvvet ve Enerji",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Saf Madde ve Karışımlar",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Işığın Maddeyle Etkileşimi",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Canlılarda Üreme, Büyüme ve Gelişme",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Elektrik Devreleri",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 8,
+        "name": "8. Ünite: Ses ve Özellikleri",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "sosyal": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Birey ve Toplum",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Kültür ve Miras",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: İnsanlar, Yerler ve Çevreler",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Bilim, Teknoloji ve Toplum",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Üretim, Dağıtım ve Tüketim",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Etkin Vatandaşlık",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Küresel Bağlantılar",
+        "months": [
+          4,
+          5
+        ]
+      }
+    ],
+    "ingilizce": [
+      {
+        "num": 1,
+        "name": "Unit 1: Appearance and Personality",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "Unit 2: Biography",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "Unit 3: Sports",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "Unit 4: Wild Animals",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "Unit 5: Television",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "Unit 6: Parties",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "Unit 7: Dreams",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 8,
+        "name": "Unit 8: Public Buildings",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 9,
+        "name": "Unit 9: Environment",
+        "months": [
+          5,
+          6
+        ]
+      },
+      {
+        "num": 10,
+        "name": "Unit 10: Planets",
+        "months": [
+          6
+        ]
+      }
+    ]
+  },
+  "8": {
+    "turkce": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Fiilimsiler",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Cümlenin Ögeleri",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Yazım Kuralları ve Noktalama İşaretleri",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Metin Türleri ve Söz Sanatları",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Cümle Türleri ve Anlatım Bozuklukları",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Görsel Okuma ve Grafik Yorumlama",
+        "months": [
+          4,
+          5
+        ]
+      }
+    ],
+    "matematik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Çarpanlar ve Katlar, Üslü İfadeler",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Kareköklü İfadeler, Veri Analizi",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Olasılık, Cebirsel İfadeler ve Özdeşlikler",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Doğrusal Denklemler, Eşitsizlikler",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Üçgenler, Eşlik ve Benzerlik",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Dönüşüm Geometrisi, Geometrik Cisimler",
+        "months": [
+          4,
+          5
+        ]
+      }
+    ],
+    "fen": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Mevsimler ve İklim, DNA ve Genetik Kod",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Basınç, Madde ve Endüstri",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Basit Makineler, Enerji Dönüşümleri ve Çevre Bilimi",
+        "months": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+        "months": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "inkilap": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Bir Kahraman Doğuyor",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Millî Uyanış: Bağımsızlık Yolunda Atılan Adımlar",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Millî Bir Destan: Ya İstiklal Ya Ölüm!",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Atatürkçülük ve Çağdaşlaşan Türkiye",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Demokratikleşme Çabaları",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Atatürk Dönemi Türk Dış Politikası ve Atatürk'ün Ölümü",
+        "months": [
+          4,
+          5
+        ]
+      }
+    ],
+    "ingilizce": [
+      {
+        "num": 1,
+        "name": "Unit 1: Friendship",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "Unit 2: Teen Life",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "Unit 3: In the Kitchen",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "Unit 4: On the Phone",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "Unit 5: The Internet",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "Unit 6: Adventures",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "Unit 7: Tourism",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "Unit 8: Chores",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "Unit 9: Science",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 10,
+        "name": "Unit 10: Natural Forces",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  "9": {
+    "edebiyat": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Edebiyat ve Güzel Sanatlar",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Coşku ve Heyecanı Dile Getiren Metinler (Şiir)",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Olay Çevresinde Oluşan Edebî Metinler (Anlatmaya Bağlı Edebî Metinler)",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Olay Çevresinde Oluşan Edebî Metinler (Temsilî Metinler)",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Öğretici Metinler",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Sözlü Anlatım",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Yazılı Anlatım",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "matematik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Mantık",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Kümeler",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Sayılar",
+        "months": [
+          11,
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Denklemler ve Eşitsizlikler",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Üçgenler",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Veri",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "fizik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Fizik Bilimine Giriş",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Madde ve Özellikleri",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Hareket ve Kuvvet",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: İş, Güç ve Enerji",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Isı ve Sıcaklık",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Elektrostatik",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "kimya": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Kimya Bilimi",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Atom ve Periyodik Sistem",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Kimyasal Türler Arası Etkileşimler",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Maddenin Halleri",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Doğa ve Kimya",
+        "months": [
+          4,
+          5
+        ]
+      }
+    ],
+    "biyoloji": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Yaşam Bilimi Biyoloji",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Canlıların Yapısında Bulunan Temel Bileşikler",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Hücre",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Canlılar Dünyası",
+        "months": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Ekosistem Ekolojisi ve Güncel Çevre Sorunları",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "tarih": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Tarih ve Zaman",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: İnsanlığın İlk Dönemleri",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: İlk ve Orta Çağlarda Türk Dünyası",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: İslam Medeniyetinin Doğuşu",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Türklerin İslamiyet'i Kabulü ve İlk Türk İslam Devletleri",
+        "months": [
+          4,
+          5
+        ]
+      }
+    ],
+    "cografya": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Doğa ve İnsan",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Dünya'nın Şekli ve Hareketleri",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Coğrafi Konum",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Harita Bilgisi",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: İklim Bilgisi",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: İç ve Dış Kuvvetler",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "ingilizce": [
+      {
+        "num": 1,
+        "name": "Unit 1: School Life",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "Unit 2: My Environment",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "Unit 3: Teen Life",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "Unit 4: Human in the Universe",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "Unit 5: Health",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "Unit 6: Movies",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "Unit 7: Food and Drinks",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "Unit 8: Sports",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "Unit 9: Animals",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 10,
+        "name": "Unit 10: Television",
+        "months": [
+          5
+        ]
+      }
+    ]
+  },
+  "10": {
+    "edebiyat": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Giriş ve Hikaye",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Şiir",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Destan/Efsane",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Roman",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Tiyatro",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Anı/Günlük/Biyografi/Otobiyografi",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Mektup/E-posta ve Diğer Öğretici Metinler",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "matematik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Sayılar ve Cebir I (Polinomlar, Çarpanlara Ayırma)",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Sayılar ve Cebir II (İkinci Dereceden Denklemler, Eşitsizlikler, Fonksiyonlar)",
+        "months": [
+          11,
+          12,
+          1
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Geometri I (Çokgenler, Dörtgenler)",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Geometri II (Çember ve Daire, Katı Cisimler)",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Veri, Sayma ve Olasılık",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "fizik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Elektrik ve Manyetizma",
+        "months": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Optik",
+        "months": [
+          12,
+          1,
+          2
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Dalgalar",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Modern Fiziğe Giriş",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "kimya": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+        "months": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Karışımlar",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Asitler, Bazlar ve Tuzlar",
+        "months": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Kimya Her Yerde",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "biyoloji": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Kalıtım ve Biyoçeşitlilik",
+        "months": [
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Ekosistem Ekolojisi",
+        "months": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Canlılar ve Çevre",
+        "months": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "tarih": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiye'si",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Beylikten Devlete Osmanlı Siyaseti (1300-1453)",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Devletleşme Sürecinde Savaşçılar ve Askerler",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Osmanlı Devleti'nin Gücü (1453-1600)",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Değişim Çağında Avrupa ve Osmanlı",
+        "months": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "cografya": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Doğal Sistemler",
+        "months": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Beşerî Sistemler",
+        "months": [
+          12,
+          1,
+          2
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Küresel Ortam: Bölgeler ve Ülkeler",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Çevre ve Toplum",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "ingilizce": [
+      {
+        "num": 1,
+        "name": "Unit 1: School Life",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "Unit 2: Daily Routines and Hobbies",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "Unit 3: Sports",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "Unit 4: Traditions and Customs",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "Unit 5: Travel",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "Unit 6: Health",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "Unit 7: Food and Drinks",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "Unit 8: Science and Technology",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "Unit 9: Environment",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 10,
+        "name": "Unit 10: Social Issues",
+        "months": [
+          6
+        ]
+      }
+    ]
+  },
+  "11": {
+    "edebiyat": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Giriş (Edebiyat ve Toplum İlişkisi, Edebiyat Akımları)",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Şiir (Divan Şiiri, Halk Şiiri, Tanzimat, Servet-i Fünun, Fecr-i Ati, Milli Edebiyat, Cumhuriyet Dönemi Şiiri)",
+        "months": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Hikaye (Tanzimat, Servet-i Fünun, Milli Edebiyat, Cumhuriyet Dönemi Hikayesi)",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Roman (Tanzimat, Servet-i Fünun, Milli Edebiyat, Cumhuriyet Dönemi Romanı)",
+        "months": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Tiyatro (Tanzimat, Servet-i Fünun, Milli Edebiyat, Cumhuriyet Dönemi Tiyatrosu)",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Öğretici Metinler (Deneme, Makale, Fıkra, Sohbet, Eleştiri, Mülakat, Röportaj, Biyografi, Otobiyografi, Gezi Yazısı, Anı, Günlük)",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Sözlü Anlatım Türleri (Münazara, Panel, Forum, Sempozyum, Açık Oturum, Konferans)",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "matematik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Üstel ve Logaritmik Fonksiyonlar",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Diziler",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Trigonometri",
+        "months": [
+          11,
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Dönüşümler",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Çemberin Analitik İncelenmesi",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Olasılık",
+        "months": [
+          4,
+          5
+        ]
+      }
+    ],
+    "fizik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Kuvvet ve Hareket",
+        "months": [
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Elektrik ve Manyetizma",
+        "months": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Dalgalar",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Modern Fizik",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "kimya": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Modern Atom Teorisi",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Gazlar",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Sıvı Çözeltiler ve Çözünürlük",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Kimyasal Tepkimelerde Enerji",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Kimyasal Tepkimelerde Hız",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Kimyasal Tepkimelerde Denge",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Asitler, Bazlar ve Tuzlar",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 8,
+        "name": "8. Ünite: Kimya Her Yerde",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "biyoloji": [
+      {
+        "num": 1,
+        "name": "1. Ünite: İnsan Fizyolojisi (Sinir Sistemi, Endokrin Sistem, Destek ve Hareket Sistemi)",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: İnsan Fizyolojisi (Sindirim Sistemi, Dolaşım Sistemi, Solunum Sistemi)",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: İnsan Fizyolojisi (Üriner Sistem, Üreme Sistemi ve Embriyonik Gelişim)",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Komünite ve Popülasyon Ekolojisi",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Canlılar ve Çevre",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "tarih": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Değişen Dünya Dengeleri Karşısında Osmanlı Devleti (17. Yüzyıl)",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Uluslararası İlişkilerde Denge Stratejisi (18. Yüzyıl)",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Değişim Çağında Avrupa ve Osmanlı (19. Yüzyıl)",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Küreselleşen Dünya (20. Yüzyıl Başları)",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Yakın Çağda Avrupa ve Osmanlı (20. Yüzyılın İlk Yarısı)",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: İki Savaş Arası Dönemde Dünya ve Türkiye (1918-1939)",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: II. Dünya Savaşı ve Sonrası (1939-1990)",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 8,
+        "name": "8. Ünite: Küreselleşen Dünya (1990 Sonrası)",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "cografya": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Doğal Sistemler (Ekosistem ve Biyomlar, Madde Döngüleri, Enerji Akışı, Türkiye'de Toprak Tipleri ve Bitki Örtüsü)",
+        "months": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Beşerî Sistemler (Nüfus Politikaları, Şehirleşme ve Göç, Ekonomik Faaliyetler, Bölgesel Kalkınma Projeleri)",
+        "months": [
+          12,
+          1,
+          2
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Küresel Ortam: Bölgeler ve Ülkeler (Bölgelerin Oluşumu, Ülkeler Arası Etkileşim, Türkiye'nin Jeopolitik Konumu)",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Çevre ve Toplum (Doğal Afetler, Çevre Sorunları, Sürdürülebilir Kalkınma)",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "ingilizce": [
+      {
+        "num": 1,
+        "name": "Unit 1: Future Jobs",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "Unit 2: Hobbies and Skills",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "Unit 3: Hard Times",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "Unit 4: What We Value",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "Unit 5: Travel",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "Unit 6: Culture and Traditions",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "Unit 7: Food and Festivals",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "Unit 8: Health and Environment",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "Unit 9: Science and Technology",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 10,
+        "name": "Unit 10: Art",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  "12": {
+    "edebiyat": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Edebiyat ve Toplum İlişkisi, Edebi Akımlar",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Cumhuriyet Dönemi Türk Edebiyatı (Şiir)",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Cumhuriyet Dönemi Türk Edebiyatı (Hikaye ve Roman)",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Cumhuriyet Dönemi Türk Edebiyatı (Tiyatro, Deneme, Eleştiri)",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Cumhuriyet Dönemi Türk Edebiyatı (Fıkra, Makale, Anı, Gezi Yazısı, Söyleşi)",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Sözlü ve Yazılı Anlatım Türleri, Dil Bilgisi (Anlatım Bozuklukları)",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "matematik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Üstel ve Logaritmik Fonksiyonlar",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Diziler",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Limit ve Süreklilik",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Türev",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: İntegral",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Çemberin Analitik İncelenmesi ve Dönüşümler",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 7,
+        "name": "7. Ünite: Olasılık",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "fizik": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Çembersel Hareket",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Basit Harmonik Hareket",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Dalga Mekaniği",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Atom Fiziğine Giriş ve Radyoaktivite",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Modern Fizik",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 6,
+        "name": "6. Ünite: Modern Fiziğin Teknolojideki Uygulamaları",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "kimya": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Kimya ve Elektrik",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Karbon Kimyasına Giriş",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Organik Bileşikler (Hidrokarbonlar)",
+        "months": [
+          12,
+          1
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Fonksiyonel Gruplar ve Organik Tepkimeler",
+        "months": [
+          2,
+          3
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Enerji Kaynakları ve Bilimsel Gelişmeler",
+        "months": [
+          4,
+          5
+        ]
+      }
+    ],
+    "biyoloji": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Genden Proteine",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Canlılarda Enerji Dönüşümleri",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Bitki Biyolojisi",
+        "months": [
+          1,
+          2
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Canlılar ve Çevre",
+        "months": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "inkilap": [
+      {
+        "num": 1,
+        "name": "1. Ünite: 20. Yüzyıl Başlarında Osmanlı Devleti ve Dünya",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Millî Mücadele",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Atatürkçülük ve Türk İnkılabı",
+        "months": [
+          12,
+          1,
+          2
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Atatürk Dönemi Türk Dış Politikası",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "num": 5,
+        "name": "5. Ünite: Atatürk'ün Ölümü ve Sonrası",
+        "months": [
+          5
+        ]
+      }
+    ],
+    "cografya": [
+      {
+        "num": 1,
+        "name": "1. Ünite: Doğal Sistemler",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "num": 2,
+        "name": "2. Ünite: Beşerî Sistemler",
+        "months": [
+          11,
+          12
+        ]
+      },
+      {
+        "num": 3,
+        "name": "3. Ünite: Küresel Ortam: Bölgeler ve Ülkeler",
+        "months": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "num": 4,
+        "name": "4. Ünite: Çevre ve Toplum",
+        "months": [
+          4,
+          5
+        ]
+      }
+    ],
+    "ingilizce": [
+      {
+        "num": 1,
+        "name": "Unit 1: Future Jobs",
+        "months": [
+          9
+        ]
+      },
+      {
+        "num": 2,
+        "name": "Unit 2: Hobbies and Skills",
+        "months": [
+          10
+        ]
+      },
+      {
+        "num": 3,
+        "name": "Unit 3: Hard Times",
+        "months": [
+          11
+        ]
+      },
+      {
+        "num": 4,
+        "name": "Unit 4: Global Warming",
+        "months": [
+          12
+        ]
+      },
+      {
+        "num": 5,
+        "name": "Unit 5: The Internet",
+        "months": [
+          1
+        ]
+      },
+      {
+        "num": 6,
+        "name": "Unit 6: Art",
+        "months": [
+          2
+        ]
+      },
+      {
+        "num": 7,
+        "name": "Unit 7: Health",
+        "months": [
+          3
+        ]
+      },
+      {
+        "num": 8,
+        "name": "Unit 8: Sports",
+        "months": [
+          4
+        ]
+      },
+      {
+        "num": 9,
+        "name": "Unit 9: Science",
+        "months": [
+          5
+        ]
+      },
+      {
+        "num": 10,
+        "name": "Unit 10: Culture",
+        "months": [
+          5
+        ]
+      }
+    ]
+  }
+}

@@ -158,6 +158,8 @@ const BADGES = {
   },
   unlock(badgeId) {
     const unlocked = this.getUnlocked();
+    // Her kazanımda sayacı artır (seviye sistemi için)
+    incrementBadgeCount(badgeId);
     if (!unlocked.includes(badgeId)) {
       unlocked.push(badgeId);
       localStorage.setItem("hangman_badges", JSON.stringify(unlocked));
@@ -490,6 +492,94 @@ function openStatsModal() {
   openOverlay("stats-overlay");
 }
 
+const BADGE_ICONS = {
+  first_win: "🏅",
+  streak_3: "🔥",
+  streak_5: "⚡",
+  perfect_win: "⭐",
+  hard_win: "💪",
+  time_survivor: "⏳",
+  mistake_clear: "📘"
+};
+
+const BADGE_LEVELS = [
+  { threshold: 1,  label: "Bronz",  color: "#cd7f32" },
+  { threshold: 3,  label: "Gümüş",  color: "#a0a0b0" },
+  { threshold: 5,  label: "Altın",   color: "#ffd700" },
+  { threshold: 10, label: "Elmas",   color: "#7ed6f7" }
+];
+
+function getBadgeLevel(badgeId) {
+  try {
+    const counts = JSON.parse(localStorage.getItem("hangman_badge_counts")) || {};
+    const count = counts[badgeId] || 0;
+    let level = null;
+    for (const lvl of BADGE_LEVELS) {
+      if (count >= lvl.threshold) level = lvl;
+    }
+    return { count, level };
+  } catch(e) { return { count: 0, level: null }; }
+}
+
+function incrementBadgeCount(badgeId) {
+  try {
+    const counts = JSON.parse(localStorage.getItem("hangman_badge_counts")) || {};
+    counts[badgeId] = (counts[badgeId] || 0) + 1;
+    localStorage.setItem("hangman_badge_counts", JSON.stringify(counts));
+  } catch(e) {}
+}
+
+function showBadgeDetail(badge, isUnlocked) {
+  // Mevcut detay modalını temizle
+  const existing = document.getElementById("badge-detail-modal");
+  if (existing) existing.remove();
+  
+  const { count, level } = getBadgeLevel(badge.id);
+  const icon = BADGE_ICONS[badge.id] || "🏅";
+  
+  const modal = document.createElement("div");
+  modal.id = "badge-detail-modal";
+  modal.style.cssText = `
+    position:fixed; inset:0; z-index:10000; display:flex;
+    align-items:center; justify-content:center;
+    background:rgba(0,0,0,0.6); backdrop-filter:blur(4px);
+  `;
+  
+  let levelHtml = "";
+  if (isUnlocked) {
+    levelHtml = BADGE_LEVELS.map(lvl => {
+      const achieved = count >= lvl.threshold;
+      return `<div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--color-border);">
+        <span style="font-size:20px;opacity:${achieved?1:0.3}">${achieved ? "✅" : "⭕"}</span>
+        <span style="font-weight:${achieved?700:400};color:${achieved?lvl.color:"var(--color-text-muted)"}">${lvl.label}</span>
+        <span style="margin-left:auto;font-size:12px;color:var(--color-text-muted)">${lvl.threshold}× gerekli</span>
+      </div>`;
+    }).join("");
+  }
+  
+  const currentLevelLabel = level ? `<span style="color:${level.color};font-weight:700">${level.label} Seviye</span>` : isUnlocked ? "<span>Başlangıç</span>" : "<span style='color:var(--color-text-muted)'>Kilitli 🔒</span>";
+  
+  modal.innerHTML = `
+    <div style="
+      background:var(--color-surface); border-radius:var(--radius-xl);
+      padding:28px; max-width:340px; width:90%; box-shadow:var(--shadow-xl);
+      display:flex; flex-direction:column; align-items:center; gap:12px;
+      border:2px solid var(--color-border);
+    ">
+      <span style="font-size:56px;">${icon}</span>
+      <h3 style="font-family:var(--font-display);font-size:20px;margin:0;text-align:center;">${badge.name}</h3>
+      <p style="font-size:13px;color:var(--color-text-muted);text-align:center;margin:0;">${badge.desc}</p>
+      <div style="font-size:14px;margin:4px 0;">${currentLevelLabel} ${isUnlocked ? `· ${count}× kazanıldı` : ""}</div>
+      ${isUnlocked ? `<div style="width:100%;">${levelHtml}</div>` : `<p style="font-size:12px;color:var(--color-text-muted);text-align:center;">Bu rozeti kazanmak için oyuna devam et!</p>`}
+      <button class="btn-primary" style="width:100%;margin-top:8px;" id="badge-detail-close">Kapat</button>
+    </div>
+  `;
+  
+  document.body.appendChild(modal);
+  modal.querySelector("#badge-detail-close").addEventListener("click", () => modal.remove());
+  modal.addEventListener("click", (e) => { if (e.target === modal) modal.remove(); });
+}
+
 function openBadgesModal() {
   const unlocked = BADGES.getUnlocked();
   const grid = document.getElementById("badges-grid");
@@ -497,13 +587,22 @@ function openBadgesModal() {
   
   BADGES.list.forEach(badge => {
     const isUnlocked = unlocked.includes(badge.id);
+    const { level } = getBadgeLevel(badge.id);
+    const icon = BADGE_ICONS[badge.id] || "🏅";
     const card = document.createElement("div");
     card.className = "badge-card" + (isUnlocked ? "" : " locked");
+    card.style.cursor = "pointer";
+    card.title = isUnlocked ? "Detayları gör" : "Henüz kazanılmadı";
+    
+    const levelBadge = level ? `<span style="font-size:10px;font-weight:700;padding:2px 6px;border-radius:99px;background:${level.color}20;color:${level.color};border:1px solid ${level.color};margin-top:2px;display:inline-block;">${level.label}</span>` : "";
+    
     card.innerHTML = `
-      <span class="badge-icon">${badge.id === "streak_3" ? "🔥" : badge.id === "streak_5" ? "⚡" : badge.id === "perfect_win" ? "⭐" : badge.id === "time_survivor" ? "⏳" : badge.id === "mistake_clear" ? "📘" : "🏅"}</span>
+      <span class="badge-icon">${icon}</span>
       <span class="badge-name">${badge.name}</span>
       <span class="badge-desc">${badge.desc}</span>
+      ${levelBadge}
     `;
+    card.addEventListener("click", () => showBadgeDetail(badge, isUnlocked));
     grid.appendChild(card);
   });
   
@@ -621,15 +720,31 @@ function useEliminateJoker() {
     gameState.score -= 3;
     saveScore();
     
-    // 2 adet yanlış harfi kilitle
+    // 2 adet yanlış harfi SADECE guessed listesine ekle (wrong listesine DEĞİL)
+    // Bu şekilde klavyede devre dışı kalır ama adam figürü ilerlemez
+    const eliminated = [];
     for (let i = 0; i < 2; i++) {
       const idx = Math.floor(Math.random() * wrongUnguessed.length);
       const targetChar = wrongUnguessed.splice(idx, 1)[0];
       gameState.guessed.add(targetChar);
-      gameState.wrong.push(targetChar);
+      eliminated.push(targetChar);
     }
     
-    SOUNDS.wrong();
+    // Kısa görsel geri bildirim: iptal edilen harfler için toast
+    const toast = document.createElement("div");
+    toast.style.cssText = `
+      position:fixed; bottom:90px; left:50%; transform:translateX(-50%) translateY(30px);
+      background:var(--color-surface); border:2px solid var(--color-warning,#f0a500);
+      padding:10px 20px; border-radius:var(--radius-lg); z-index:9999;
+      font-weight:600; color:var(--color-primary); opacity:0;
+      transition:all 0.3s ease;
+    `;
+    toast.textContent = `❌ ${eliminated.join(", ")} harfleri elendi!`;
+    document.body.appendChild(toast);
+    setTimeout(() => { toast.style.opacity="1"; toast.style.transform="translateX(-50%) translateY(0)"; }, 50);
+    setTimeout(() => { toast.style.opacity="0"; setTimeout(() => toast.remove(), 400); }, 2000);
+    
+    SOUNDS.correct();
     updateUI();
   }
 }
@@ -935,6 +1050,14 @@ function newGame() {
   jokersLeft = 3;
   
   if(availableWords.length === 0) {
+    // Ünite bitti — tamamlama ekranını göster (newGame başlamadan önce)
+    // Ancak sadece önceki oyun bitmiş ise (ilk başlatma değilse) göster
+    if (gameState.word && !gameState.over) {
+      // Henüz oyun oynanmamış, direkt başlat
+    } else if (gameState.word) {
+      showUnitCompleteOverlay();
+      return;
+    }
     availableWords = [...WORD_BANK];
   }
   
@@ -1155,6 +1278,115 @@ function updateLives() {
     h.className = "heart" + (i < gameState.wrong.length ? " lost" : "");
     h.textContent = "❤️"; lb.appendChild(h);
   }
+}
+
+// ── ÜNİTE TAMAMLAMA EKRANI ──────────────────────────────────────────────────────────────────────
+function showUnitCompleteOverlay() {
+  // Ünite istatistiklerini hesapla
+  const stats = STATS.get();
+  const subjectData = selectedSubject ? stats.subjectScores[selectedSubject.id] : null;
+  const totalPlayed = subjectData ? subjectData.played : 0;
+  const totalWon = subjectData ? subjectData.won : 0;
+  const winRate = totalPlayed > 0 ? Math.round((totalWon / totalPlayed) * 100) : 0;
+  
+  document.querySelectorAll(".overlay").forEach(e => {
+    if (e.id !== "stats-overlay" && e.id !== "badges-overlay" && e.id !== "mistakes-overlay") e.remove();
+  });
+
+  const ov = document.createElement("div"); ov.className = "overlay";
+  ov.style.cssText = "position:fixed;inset:0;z-index:9000;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.65);backdrop-filter:blur(6px);";
+  
+  const card = document.createElement("div"); card.className = "overlay-card";
+  card.style.cssText = `
+    max-width:380px; width:92%; padding:32px 28px;
+    animation: popIn 0.4s cubic-bezier(0.175,0.885,0.32,1.275) both;
+  `;
+  
+  // Ünite adı
+  const unitName = selectedUnit ? selectedUnit.name : "";
+  const subjectName = selectedSubject ? selectedSubject.name : "";
+  
+  // Confetti fırlat
+  triggerGradeConfetti();
+  SOUNDS.win();
+  
+  card.innerHTML = `
+    <span class="overlay-icon" style="font-size:52px">🎓</span>
+    <h2 class="overlay-title" style="font-size:22px;margin:12px 0 4px;">Üniteyi Tamamladın!</h2>
+    <p class="overlay-sub" style="margin-bottom:16px;">${subjectName} &rsaquo; ${unitName}</p>
+    
+    <div style="
+      background:var(--color-surface-offset); border-radius:var(--radius-lg);
+      padding:16px; margin-bottom:16px; width:100%;
+      display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; text-align:center;
+    ">
+      <div>
+        <div style="font-size:28px;font-weight:800;color:var(--color-primary);">${gameState.score}</div>
+        <div style="font-size:11px;color:var(--color-text-muted);margin-top:2px;">Toplam Puan</div>
+      </div>
+      <div>
+        <div style="font-size:28px;font-weight:800;color:var(--color-success,#22c55e);">${totalWon}</div>
+        <div style="font-size:11px;color:var(--color-text-muted);margin-top:2px;">Doğru</div>
+      </div>
+      <div>
+        <div style="font-size:28px;font-weight:800;color:var(--color-error,#ef4444);">${totalPlayed - totalWon}</div>
+        <div style="font-size:11px;color:var(--color-text-muted);margin-top:2px;">Yanlış</div>
+      </div>
+    </div>
+    
+    <div style="width:100%;margin-bottom:20px;">
+      <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--color-text-muted);margin-bottom:4px;">
+        <span>Başarı Oranı</span>
+        <span>%${winRate}</span>
+      </div>
+      <div style="background:var(--color-border);border-radius:99px;height:8px;overflow:hidden;">
+        <div style="width:${winRate}%;height:100%;background:var(--color-primary);border-radius:99px;transition:width 0.8s ease;"></div>
+      </div>
+    </div>
+    
+    <div style="display:flex;flex-direction:column;gap:8px;width:100%;">
+      <button class="btn-primary" id="unit-next-btn" style="width:100%;">Sonraki Ünite →</button>
+      <button class="btn-secondary" id="unit-replay-btn" style="width:100%;margin-top:0;">Bu Üniteyi Tekrarla 🔄</button>
+      <button class="btn-secondary" id="unit-back-btn" style="width:100%;margin-top:0;">Ders Seçimine Dön</button>
+    </div>
+  `;
+  
+  ov.appendChild(card);
+  document.body.appendChild(ov);
+  
+  // Sonraki Ünite butonu
+  document.getElementById("unit-next-btn").addEventListener("click", () => {
+    ov.remove();
+    // Aynı derste bir sonraki Üniteyi bul ve başlat
+    if (selectedSubject && selectedUnit) {
+      const cachedData = PREFETCHED_DATA[selectedSubject.dataFile];
+      if (cachedData && cachedData.units) {
+        const units = cachedData.units;
+        const currentIdx = units.findIndex(u => u.name === selectedUnit.name);
+        if (currentIdx >= 0 && currentIdx + 1 < units.length) {
+          const nextUnit = units[currentIdx + 1];
+          selectedUnit = nextUnit;
+          WORD_BANK = nextUnit.words;
+          availableWords = [...WORD_BANK];
+          newGame();
+          return;
+        }
+      }
+    }
+    // Sonraki ünite bulunamazsa ders seçimine dön
+    showSubjectScreen();
+  });
+  
+  document.getElementById("unit-replay-btn").addEventListener("click", () => {
+    ov.remove();
+    availableWords = [...WORD_BANK];
+    newGame();
+  });
+  
+  document.getElementById("unit-back-btn").addEventListener("click", () => {
+    ov.remove();
+    showSubjectScreen();
+  });
 }
 
 // ── END OVERLAY & FLASHCARD ──────────────────────────────────────────────────
