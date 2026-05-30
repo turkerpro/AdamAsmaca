@@ -634,7 +634,12 @@ async function init() {
   
   if(CURRICULUM_DATA && CURRICULUM_DATA.length > 0) {
     populateGrades();
-    await startRandomGame();
+    // Kaydedilen sınıfı kontrol et
+    const savedGradeNum = parseInt(SafeStorage.getItem("lastSelectedGrade"));
+    const savedGradeItem = savedGradeNum
+      ? CURRICULUM_DATA.find(g => g.grade === savedGradeNum)
+      : null;
+    await startRandomGame(savedGradeItem ? savedGradeNum : null);
     startBackgroundPrefetch();
   } else {
     document.getElementById('grade-list').innerHTML = '<p>Müfredat yüklenemedi. Lütfen internet bağlantınızı kontrol edin.</p>';
@@ -1410,13 +1415,22 @@ function startBackgroundPrefetch() {
   setTimeout(fetchNext, 3000);
 }
 
-async function startRandomGame() {
+async function startRandomGame(fixedGradeNum = null) {
   let attempts = 0;
   const maxAttempts = 20;
 
   while(attempts < maxAttempts) {
     attempts++;
-    const rGrade = CURRICULUM_DATA[Math.floor(Math.random() * CURRICULUM_DATA.length)];
+    
+    let rGrade;
+    if (fixedGradeNum !== null) {
+      // Kayıtlı sınıfı kullan
+      rGrade = CURRICULUM_DATA.find(g => g.grade === fixedGradeNum);
+      if (!rGrade) { fixedGradeNum = null; continue; } // bulunamazsa random'a düş
+    } else {
+      rGrade = CURRICULUM_DATA[Math.floor(Math.random() * CURRICULUM_DATA.length)];
+    }
+    
     if (!rGrade.subjects || rGrade.subjects.length === 0) continue;
     
     const rSubj = rGrade.subjects[Math.floor(Math.random() * rGrade.subjects.length)];
@@ -1518,7 +1532,28 @@ function showGameScreen() {
 function populateGrades() {
   const list = document.getElementById('grade-list');
   list.innerHTML = '';
-  
+
+  // ── Rastgele Oyna butonu ──
+  const savedGradeNum = parseInt(SafeStorage.getItem("lastSelectedGrade"));
+  const savedGradeItem = savedGradeNum
+    ? CURRICULUM_DATA.find(g => g.grade === savedGradeNum)
+    : null;
+
+  const randomBtn = document.createElement('button');
+  randomBtn.className = 'grid-card grade-card-random';
+  randomBtn.innerHTML = `
+    <span class="card-emoji">🎲</span>
+    <span>Rastgele Oyna</span>
+    ${savedGradeItem ? `<span class="grade-saved-hint">Kayıtlı: ${savedGradeItem.gradeName}</span>` : ''}
+  `;
+  randomBtn.addEventListener('click', async () => {
+    SafeStorage.removeItem("lastSelectedGrade"); // Kaydı temizle
+    switchScreen('game-screen');
+    await startRandomGame(null);
+  });
+  list.appendChild(randomBtn);
+
+  // ── Normal sınıf kartları ──
   CURRICULUM_DATA.forEach(gradeItem => {
     const btn = document.createElement('button');
     const theme = getGradeThemeGroup(gradeItem.grade);
@@ -1536,6 +1571,7 @@ function populateGrades() {
     
     btn.addEventListener('click', () => {
       selectedGrade = gradeItem;
+      SafeStorage.setItem("lastSelectedGrade", String(gradeItem.grade));
       applyGradeTheme(selectedGrade.grade);
       populateSubjects();
       showSubjectScreen();
@@ -1543,6 +1579,7 @@ function populateGrades() {
     list.appendChild(btn);
   });
 }
+
 
 function populateSubjects() {
   document.getElementById('selected-grade-title').textContent = selectedGrade.gradeName + " - Ders Seçimi";
