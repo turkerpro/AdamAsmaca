@@ -836,7 +836,12 @@ function initAuth() {
           SafeStorage.setItem("hangman_badge_counts", JSON.stringify(merged.badgeCounts));
           SafeStorage.setItem("hangman_mistakes",     JSON.stringify(merged.mistakes));
           if (syncStatus) syncStatus.textContent = "✅ Veriler senkronize";
-          showNotificationToast("😀 Hoş geldin, " + (user.displayName?.split(" ")[0] || "!") + "! ☁️ Veriler yüklendi.");
+          // Hoş geldin → yalnızca bu oturumda ilk kez göster
+          const welcomeKey = "welcomed_" + user.uid;
+          if (!sessionStorage.getItem(welcomeKey)) {
+            sessionStorage.setItem(welcomeKey, "1");
+            showNotificationToast("😀 Hoş geldin, " + (user.displayName?.split(" ")[0] || "!") + "! ☁️ Veriler yüklendi.");
+          }
         } catch (err) {
           console.error("Sync hata:", err);
           if (syncStatus) syncStatus.textContent = "⚠️ Sync başarısız";
