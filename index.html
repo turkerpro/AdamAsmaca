@@ -190,6 +190,7 @@
         <button class="joker-btn" id="joker-reveal-btn">💡 Harf Göster <span class="joker-cost">(-5p)</span></button>
         <span class="joker-status" id="joker-status">3/3</span>
         <button class="joker-btn" id="joker-eliminate-btn">❌ Harf Ele <span class="joker-cost">(-3p)</span></button>
+        <button class="joker-btn joker-btn-ad" id="joker-ad-btn" style="display:none;" onclick="ADS.watch()">🎬 Reklam İzle → +1 Joker</button>
       </div>
     </div>
 
@@ -302,6 +303,28 @@
   </div>
 </div>
 
-<script src="./main.js?v=29"></script>
+<!-- REKLAM OVERLAY -->
+<div id="ad-overlay" style="display:none; position:fixed; inset:0; z-index:9999;
+  background:rgba(0,0,0,0.92); flex-direction:column; align-items:center; justify-content:center; gap:20px;">
+  <div style="text-align:center; color:white;">
+    <div style="font-size:14px; opacity:0.6; margin-bottom:8px;">Reklam izleyerek joker kazan</div>
+    <div style="font-size:48px; font-weight:800; font-family:monospace;" id="ad-countdown">15</div>
+    <div style="font-size:13px; opacity:0.5; margin-top:4px;" id="ad-remaining"></div>
+  </div>
+  <!-- Reklam alanı placeholder (buraya gerçek AdSense kodu eklenebilir) -->
+  <div style="width:320px; height:180px; background:rgba(255,255,255,0.05);
+    border:1px dashed rgba(255,255,255,0.2); border-radius:12px;
+    display:flex; align-items:center; justify-content:center;
+    color:rgba(255,255,255,0.3); font-size:13px;">
+    Reklam Alanı
+  </div>
+  <button id="ad-skip-btn" style="
+    height:44px; padding:0 28px; border-radius:9999px;
+    background:#f0a500; color:#1a0e00; font-weight:700; font-size:15px;
+    border:none; cursor:pointer; transition:opacity 0.2s;
+  ">15s</button>
+</div>
+
+<script src="./main.js?v=30"></script>
 </body>
 </html>

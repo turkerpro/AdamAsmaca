@@ -55,44 +55,48 @@ async function safeSet(ref, data) {
   }
 }
 
-// ── STATS MERGE ────────────────────────────────────────────────────────────
-// İki kaynaktan en iyi değerleri alır — veri kaybı olmaz
-function mergeStats(local, cloud) {
+// ── SYNC STRATEJİSİ ────────────────────────────────────────────────────────
+// Kural: Bulut varsa → bulut kazanır (local üzerine yazılır)
+//        Bulut yoksa → local'i buluta yükle (ilk kez kayıt)
+//        Rozet/Hata Defteri → her zaman birleştir (kazanım kaybolmasın)
+
+function cloudWinsStats(local, cloud) {
+  // Bulut varsa bulut baz alınır;
+  // local sadece offline oynanan EK oyunları ekler (delta).
+  const localTotal = local.totalGames || 0;
+  const cloudTotal = cloud.totalGames || 0;
+  const offlineDelta = Math.max(0, localTotal - cloudTotal); // offline oyunlar
+
   const result = {
-    totalGames: Math.max(local.totalGames || 0, cloud.totalGames || 0),
-    gamesWon: Math.max(local.gamesWon || 0, cloud.gamesWon || 0),
+    totalGames:    cloudTotal + offlineDelta,
+    gamesWon:      Math.max(local.gamesWon || 0, cloud.gamesWon || 0),
     longestStreak: Math.max(local.longestStreak || 0, cloud.longestStreak || 0),
     subjectScores: { ...(cloud.subjectScores || {}) }
   };
-  // Ders bazlı skorları birleştir
-  const localScores = local.subjectScores || {};
-  for (const id in localScores) {
-    const ls = localScores[id];
-    const cs = result.subjectScores[id];
-    if (!cs) {
-      result.subjectScores[id] = ls;
-    } else {
-      result.subjectScores[id] = {
-        name: cs.name || ls.name,
-        played: Math.max(ls.played || 0, cs.played || 0),
-        won: Math.max(ls.won || 0, cs.won || 0)
-      };
+
+  // Offline oynanan dersleri ekle (bulutta yoksa)
+  if (offlineDelta > 0) {
+    const localScores = local.subjectScores || {};
+    for (const id in localScores) {
+      if (!result.subjectScores[id]) {
+        result.subjectScores[id] = localScores[id];
+      }
     }
   }
   return result;
 }
 
-// ── BADGES MERGE ───────────────────────────────────────────────────────────
+// Rozetler: union (hiçbir rozet kaybolmaz)
 function mergeBadges(localUnlocked, cloudUnlocked) {
   const set = new Set([...(localUnlocked || []), ...(cloudUnlocked || [])]);
   return [...set];
 }
 
-// ── MISTAKES MERGE ─────────────────────────────────────────────────────────
+// Hata Defteri: union (unique kelimeler)
 function mergeMistakes(localList, cloudList) {
   const seen = new Set();
   const merged = [];
-  for (const item of [...(localList || []), ...(cloudList || [])]) {
+  for (const item of [...(cloudList || []), ...(localList || [])]) {
     const key = (item.word || "").toLowerCase();
     if (!seen.has(key)) {
       seen.add(key);
@@ -129,7 +133,9 @@ const FB = {
     return onAuthStateChanged(auth, cb);
   },
 
-  // İlk girişte yerel + bulut veri birleştirme
+  // Giriş senkronizasyonu
+  // → Bulut verisi varsa: bulut kazanır, local sadece offline delta ekler
+  // → Bulut boşsa: local'i buluta ilk kez yükle
   async syncOnLogin(uid, getLocal) {
     const [cloudStats, cloudBadgesData, cloudMistakesData] = await Promise.all([
       safeGet(userDoc(uid, "stats")),
@@ -137,38 +143,54 @@ const FB = {
       safeGet(userDoc(uid, "mistakes"))
     ]);
 
-    const local = getLocal(); // { stats, badges, badgeCounts, mistakes }
+    const local = getLocal();
+    const hasCloudData = !!(cloudStats || cloudBadgesData || cloudMistakesData);
 
-    // Stats
-    const mergedStats = cloudStats ? mergeStats(local.stats, cloudStats) : local.stats;
-    await safeSet(userDoc(uid, "stats"), mergedStats);
+    let finalStats, finalBadges, finalCounts, finalMistakes;
 
-    // Badges
-    const cloudBadges = cloudBadgesData ? (cloudBadgesData.unlocked || []) : [];
-    const cloudCounts = cloudBadgesData ? (cloudBadgesData.counts || {}) : {};
-    const mergedBadges = mergeBadges(local.badges, cloudBadges);
-    const mergedCounts = { ...cloudCounts };
-    for (const k in (local.badgeCounts || {})) {
-      mergedCounts[k] = Math.max(mergedCounts[k] || 0, local.badgeCounts[k]);
+    if (hasCloudData) {
+      // ── Bulut var → Bulut kazanır ──────────────────────────────────
+      // Stats: bulut baz, offline delta eklenir
+      finalStats    = cloudStats ? cloudWinsStats(local.stats, cloudStats) : cloudStats || local.stats;
+
+      // Rozetler: her zaman union (hiçbir rozet kaybolmasın)
+      const cloudBadges  = cloudBadgesData?.unlocked || [];
+      const cloudCounts  = cloudBadgesData?.counts   || {};
+      finalBadges = mergeBadges(local.badges, cloudBadges);
+      finalCounts = { ...cloudCounts };
+      // Sadece bulutta olmayan rozet sayaçlarını local'den al
+      for (const k in (local.badgeCounts || {})) {
+        if (!finalCounts[k]) finalCounts[k] = local.badgeCounts[k];
+      }
+
+      // Hata Defteri: cloud önce (cloud üzerine local'den yeni unique ekle)
+      const cloudMistakes = cloudMistakesData?.words || [];
+      finalMistakes = mergeMistakes(local.mistakes, cloudMistakes);
+
+    } else {
+      // ── Bulut boş → İlk kez kayıt, local'i yükle ──────────────────
+      finalStats    = local.stats;
+      finalBadges   = local.badges || [];
+      finalCounts   = local.badgeCounts || {};
+      finalMistakes = local.mistakes || [];
     }
-    await safeSet(userDoc(uid, "badges"), { unlocked: mergedBadges, counts: mergedCounts });
 
-    // Mistakes
-    const cloudMistakes = cloudMistakesData ? (cloudMistakesData.words || []) : [];
-    const mergedMistakes = mergeMistakes(local.mistakes, cloudMistakes);
-    await safeSet(userDoc(uid, "mistakes"), { words: mergedMistakes });
+    // Buluta yaz
+    await Promise.all([
+      safeSet(userDoc(uid, "stats"),    finalStats),
+      safeSet(userDoc(uid, "badges"),   { unlocked: finalBadges, counts: finalCounts }),
+      safeSet(userDoc(uid, "mistakes"), { words: finalMistakes }),
+      safeSet(userDoc(uid, "profile"),  {
+        displayName: auth.currentUser?.displayName || "",
+        email:       auth.currentUser?.email || "",
+        photoURL:    auth.currentUser?.photoURL || "",
+        lastSeen:    serverTimestamp()
+      })
+    ]);
 
-    // Profile
-    const user = auth.currentUser;
-    await safeSet(userDoc(uid, "profile"), {
-      displayName: user.displayName || "",
-      email: user.email || "",
-      photoURL: user.photoURL || "",
-      lastSeen: serverTimestamp()
-    });
-
-    return { stats: mergedStats, badges: mergedBadges, badgeCounts: mergedCounts, mistakes: mergedMistakes };
+    return { stats: finalStats, badges: finalBadges, badgeCounts: finalCounts, mistakes: finalMistakes };
   },
+
 
   // Buluttan veri yükle (farklı cihazdan giriş)
   async loadFromCloud(uid) {

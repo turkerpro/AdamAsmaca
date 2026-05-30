@@ -120,6 +120,104 @@ try {
 // Oyun özellikleri durumları
 let currentDifficulty = SafeStorage.getItem("adamAsmacaDiff") || "medium";
 let timeModeActive = SafeStorage.getItem("adamAsmacaTimeMode") === "true";
+
+// ── REKLAM SİSTEMİ ─────────────────────────────────────────────────────────
+const ADS = {
+  MAX_PER_DAY: 5,
+  AD_DURATION: 15, // saniye
+
+  // Bugünün tarihi (YYYY-MM-DD)
+  _todayKey() {
+    return "ads_" + new Date().toISOString().slice(0, 10);
+  },
+
+  // Bugün kaç reklam izlendi?
+  watchedToday() {
+    return parseInt(SafeStorage.getItem(this._todayKey()) || "0");
+  },
+
+  // İzleme hakkı var mı?
+  canWatch() {
+    return this.watchedToday() < this.MAX_PER_DAY;
+  },
+
+  // Premium kullanıcı mı? (şimdilik false, ileride premium sistemi)
+  isPremium() {
+    return SafeStorage.getItem("premium") === "true";
+  },
+
+  // Reklam kaydı
+  recordWatch() {
+    const key = this._todayKey();
+    SafeStorage.setItem(key, String(this.watchedToday() + 1));
+  },
+
+  // Kalan reklam hakkı
+  remaining() {
+    return Math.max(0, this.MAX_PER_DAY - this.watchedToday());
+  },
+
+  // Reklam izle → joker kazan
+  watch() {
+    if (this.isPremium()) return;
+    if (!this.canWatch()) {
+      showNotificationToast("⛔ Günlük reklam limitine ulaştın (" + this.MAX_PER_DAY + "/gün)");
+      return;
+    }
+
+    // Süre modundaysa sayacı dondur
+    if (timeModeActive) clearInterval(timerInterval);
+
+    const overlay = document.getElementById("ad-overlay");
+    const countdownEl = document.getElementById("ad-countdown");
+    const skipBtn = document.getElementById("ad-skip-btn");
+    const remainingEl = document.getElementById("ad-remaining");
+    if (!overlay) return;
+
+    remainingEl.textContent = (this.MAX_PER_DAY - this.watchedToday() - 1) + " hakkın kalacak";
+    overlay.style.display = "flex";
+    overlay.style.zIndex = "9999";
+
+    let secs = this.AD_DURATION;
+    countdownEl.textContent = secs;
+    skipBtn.disabled = true;
+    skipBtn.textContent = secs + "s";
+
+    const iv = setInterval(() => {
+      secs--;
+      countdownEl.textContent = secs;
+      if (secs <= 5) {
+        skipBtn.disabled = false;
+        skipBtn.textContent = "Joker Al (+1) ✓";
+      } else {
+        skipBtn.textContent = secs + "s";
+      }
+      if (secs <= 0) {
+        clearInterval(iv);
+        this._finish();
+      }
+    }, 1000);
+
+    // Skip butonu
+    skipBtn.onclick = () => {
+      if (!skipBtn.disabled) {
+        clearInterval(iv);
+        this._finish();
+      }
+    };
+  },
+
+  _finish() {
+    const overlay = document.getElementById("ad-overlay");
+    if (overlay) overlay.style.display = "none";
+    this.recordWatch();
+    jokersLeft++;
+    showNotificationToast("🎬 Reklam tamamlandı! +1 Joker kazandın.");
+    updateJokerUI();
+    // Süre modunu geri başlat
+    if (timeModeActive && gameState && !gameState.over) startTimer();
+  }
+};
 let timeLeft = 60;
 let timerInterval = null;
 let jokersLeft = 3;
@@ -708,11 +806,13 @@ function initAuth() {
     if (authDropdown) authDropdown.style.display = "none";
   });
 
-  let hasSynced = false; // İlk girişten sonra tekrar sync yapma
+  let hasSynced = false;   // İlk girişten sonra tekrar sync yapma
+  let wasSignedIn = false; // Sayfa ilk açılışta null gelince toast gösterme
 
   // Oturum değişikliklerini dinle
   window.FB.onAuthStateChanged(async (user) => {
     if (user) {
+      wasSignedIn = true;
       // Giriş yapildı — UI güncelle
       if (authBtn) authBtn.style.display = "none";
       if (authUser) authUser.style.display = "flex";
@@ -725,20 +825,16 @@ function initAuth() {
       if (!hasSynced) {
         hasSynced = true;
         try {
-          // Yerel verilerle bulut verilerini birleştir
           const merged = await window.FB.syncOnLogin(user.uid, () => ({
             stats:       STATS.get(),
             badges:      BADGES.getUnlocked(),
             badgeCounts: JSON.parse(SafeStorage.getItem("hangman_badge_counts") || "{}"),
             mistakes:    MISTAKES.get()
           }));
-
-          // Birleştirilmiş veriyi localStorage'a geri yaz
           SafeStorage.setItem("hangman_stats",        JSON.stringify(merged.stats));
           SafeStorage.setItem("hangman_badges",       JSON.stringify(merged.badges));
           SafeStorage.setItem("hangman_badge_counts", JSON.stringify(merged.badgeCounts));
           SafeStorage.setItem("hangman_mistakes",     JSON.stringify(merged.mistakes));
-
           if (syncStatus) syncStatus.textContent = "✅ Veriler senkronize";
           showNotificationToast("😀 Hoş geldin, " + (user.displayName?.split(" ")[0] || "!") + "! ☁️ Veriler yüklendi.");
         } catch (err) {
@@ -746,7 +842,6 @@ function initAuth() {
           if (syncStatus) syncStatus.textContent = "⚠️ Sync başarısız";
         }
       } else {
-        // Farklı cihazdan zaten giriş vardı — buluttan yükle
         try {
           const cloud = await window.FB.loadFromCloud(user.uid);
           if (cloud.stats) SafeStorage.setItem("hangman_stats", JSON.stringify(cloud.stats));
@@ -759,16 +854,17 @@ function initAuth() {
         }
       }
 
-      // Kayıtlı sınıfı buluta da kaydet
       const gradeNum = parseInt(SafeStorage.getItem("lastSelectedGrade"));
       if (gradeNum) window.FB.saveGrade(user.uid, gradeNum);
 
     } else {
-      // Çıkış yapıldı — UI sıfırla
+      // Çıkış yapıldı — yalnızca önceden giriş yapılmışsa bildir
+      const didLogout = wasSignedIn;
       hasSynced = false;
+      wasSignedIn = false;
       if (authBtn) authBtn.style.display = "";
       if (authUser) authUser.style.display = "none";
-      showNotificationToast("👋 Güvenli çıkış yapıldı.");
+      if (didLogout) showNotificationToast("👋 Güvenli çıkış yapıldı.");
     }
   });
 }
@@ -1437,17 +1533,36 @@ function prepareRoundWordBank(words) {
 // ── JOKER LOGIC ────────────────────────────────────────────────────────────
 function updateJokerUI() {
   const status = document.getElementById("joker-status");
-  status.textContent = `Joker: ${jokersLeft}/3`;
-  
   const revealBtn = document.getElementById("joker-reveal-btn");
   const eliminateBtn = document.getElementById("joker-eliminate-btn");
-  
-  if (jokersLeft <= 0 || gameState.over) {
-    revealBtn.disabled = true;
-    eliminateBtn.disabled = true;
-  } else {
-    revealBtn.disabled = false;
-    eliminateBtn.disabled = false;
+  const adBtn = document.getElementById("joker-ad-btn");
+
+  const out = jokersLeft <= 0 || gameState.over;
+  const showAd = jokersLeft <= 0 && !gameState.over && !ADS.isPremium();
+  const adAvail = ADS.canWatch();
+
+  // Joker sayacı
+  status.textContent = jokersLeft > 0 ? `Joker: ${jokersLeft}/3` : "Joker Bitti";
+
+  // Normal joker butonları
+  revealBtn.disabled = out;
+  eliminateBtn.disabled = out;
+  revealBtn.style.display = showAd ? "none" : "";
+  eliminateBtn.style.display = showAd ? "none" : "";
+
+  // Reklam butonu
+  if (adBtn) {
+    if (showAd && adAvail) {
+      adBtn.style.display = "";
+      adBtn.disabled = false;
+      adBtn.innerHTML = `🎬 Reklam İzle → +1 Joker <span class="joker-cost">(${ADS.remaining()} kalan)</span>`;
+    } else if (showAd && !adAvail) {
+      adBtn.style.display = "";
+      adBtn.disabled = true;
+      adBtn.innerHTML = `⛔ Günlük limit doldu`;
+    } else {
+      adBtn.style.display = "none";
+    }
   }
 }
 
