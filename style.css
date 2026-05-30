@@ -305,6 +305,7 @@
   .header{width:100%;max-width:720px;display:flex;align-items:center;justify-content:space-between;margin-bottom:var(--space-8)}
   .logo{display:flex;align-items:center;gap:var(--space-3)}
   .logo-icon{width:36px;height:36px;flex-shrink:0}
+  .logo-img{height:36px;width:auto;object-fit:contain;flex-shrink:0;display:block;}
   .logo-text{font-family:var(--font-display);font-size:var(--text-lg);font-weight:800;letter-spacing:-0.02em}
   .theme-toggle{width:40px;height:40px;display:flex;align-items:center;justify-content:center;
     border-radius:var(--radius-full);background:var(--color-surface);border:1px solid var(--color-border);
