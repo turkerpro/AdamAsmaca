@@ -746,15 +746,12 @@ async function init() {
 
   await loadCurriculum();
   fetchTeacherWords();
-  
+
   document.getElementById('back-to-grades').addEventListener('click', showGradeScreen);
-  
   const backToSubBtn = document.getElementById('back-to-subjects');
-  if(backToSubBtn) {
-     backToSubBtn.addEventListener('click', showGradeScreen);
-  }
-  
-  if(CURRICULUM_DATA && CURRICULUM_DATA.length > 0) {
+  if (backToSubBtn) backToSubBtn.addEventListener('click', showGradeScreen);
+
+  if (CURRICULUM_DATA && CURRICULUM_DATA.length > 0) {
     populateGrades();
     const savedGradeNum = parseInt(SafeStorage.getItem("lastSelectedGrade"));
     const savedGradeItem = savedGradeNum
@@ -767,9 +764,9 @@ async function init() {
   }
 }
 
-// ── AUTH MANAGER ─────────────────────────────────────────────────────────────
+// ── AUTH MANAGER ──────────────────────────────────────────────────────────
 function initAuth() {
-  if (!window.FB) return; // Firebase yüklenmemiş (offline)
+  if (!window.FB) return;
 
   const authBtn      = document.getElementById("auth-btn");
   const authUser     = document.getElementById("auth-user");
@@ -781,9 +778,28 @@ function initAuth() {
   const syncStatus   = document.getElementById("auth-sync-status");
   const signoutBtn   = document.getElementById("auth-signout-btn");
 
-  // Giriş butonu
+  // Giriş butonuna tıklayınca Google / Misafir seçim modalı aç
   if (authBtn) {
-    authBtn.addEventListener("click", () => window.FB.signIn());
+    authBtn.addEventListener("click", () => showLoginChoiceModal());
+  }
+
+  // Modal içi Google butonu
+  const modalGoogleBtn = document.getElementById("modal-google-login-btn");
+  if (modalGoogleBtn) {
+    modalGoogleBtn.addEventListener("click", () => {
+      closeLoginChoiceModal();
+      window.FB.signIn();
+    });
+  }
+
+  // Modal içi Misafir butonu
+  const modalGuestBtn = document.getElementById("modal-guest-btn");
+  if (modalGuestBtn) {
+    modalGuestBtn.addEventListener("click", () => {
+      closeLoginChoiceModal();
+      // Misafir tercih flagini kaydet (bu oturumda tekrar sormayız)
+      sessionStorage.setItem("guest_mode", "1");
+    });
   }
 
   // Oturumu kapat
@@ -794,7 +810,7 @@ function initAuth() {
     });
   }
 
-  // Avatar'a tıklayınca dropdown aç/kapat
+  // Avatar’a tıklayınca dropdown aç/kapat
   if (authAvatar) {
     authAvatar.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -806,19 +822,18 @@ function initAuth() {
     if (authDropdown) authDropdown.style.display = "none";
   });
 
-  let hasSynced = false;   // İlk girişten sonra tekrar sync yapma
-  let wasSignedIn = false; // Sayfa ilk açılışta null gelince toast gösterme
+  let hasSynced   = false;
+  let wasSignedIn = false;
 
   // Oturum değişikliklerini dinle
   window.FB.onAuthStateChanged(async (user) => {
     if (user) {
       wasSignedIn = true;
-      // Giriş yapildı — UI güncelle
-      if (authBtn) authBtn.style.display = "none";
-      if (authUser) authUser.style.display = "flex";
+      if (authBtn)   authBtn.style.display   = "none";
+      if (authUser)  authUser.style.display  = "flex";
       if (authAvatar) authAvatar.src = user.photoURL || "";
       if (dropAvatar) dropAvatar.src = user.photoURL || "";
-      if (userName) userName.textContent = user.displayName || "Kullanıcı";
+      if (userName)  userName.textContent  = user.displayName || "Kullanıcı";
       if (userEmail) userEmail.textContent = user.email || "";
       if (syncStatus) syncStatus.textContent = "⏳ Senkronize ediliyor...";
 
@@ -836,7 +851,7 @@ function initAuth() {
           SafeStorage.setItem("hangman_badge_counts", JSON.stringify(merged.badgeCounts));
           SafeStorage.setItem("hangman_mistakes",     JSON.stringify(merged.mistakes));
           if (syncStatus) syncStatus.textContent = "✅ Veriler senkronize";
-          // Hoş geldin → yalnızca bu oturumda ilk kez göster
+
           const welcomeKey = "welcomed_" + user.uid;
           if (!sessionStorage.getItem(welcomeKey)) {
             sessionStorage.setItem(welcomeKey, "1");
@@ -849,28 +864,169 @@ function initAuth() {
       } else {
         try {
           const cloud = await window.FB.loadFromCloud(user.uid);
-          if (cloud.stats) SafeStorage.setItem("hangman_stats", JSON.stringify(cloud.stats));
-          if (cloud.badges) SafeStorage.setItem("hangman_badges", JSON.stringify(cloud.badges));
+          if (cloud.stats)       SafeStorage.setItem("hangman_stats",        JSON.stringify(cloud.stats));
+          if (cloud.badges)      SafeStorage.setItem("hangman_badges",       JSON.stringify(cloud.badges));
           if (cloud.badgeCounts) SafeStorage.setItem("hangman_badge_counts", JSON.stringify(cloud.badgeCounts));
-          if (cloud.mistakes) SafeStorage.setItem("hangman_mistakes", JSON.stringify(cloud.mistakes));
+          if (cloud.mistakes)    SafeStorage.setItem("hangman_mistakes",     JSON.stringify(cloud.mistakes));
           if (syncStatus) syncStatus.textContent = "✅ Veriler senkronize";
         } catch(err) {
           if (syncStatus) syncStatus.textContent = "⚠️ Offline mod";
         }
       }
 
+      // Rol kontrolü: öğretmense panel butonunu göster
+      window.FB.getRole(user.uid).then(role => {
+        window.userRole = role;
+        const teacherBtn = document.getElementById("nav-teacher-btn");
+        if (teacherBtn) teacherBtn.style.display = role === "teacher" ? "" : "none";
+        // Öğrenciyse sınıfa katıl kartını göster
+        if (role !== "teacher") initStudentClassUI(user);
+      });
+
       const gradeNum = parseInt(SafeStorage.getItem("lastSelectedGrade"));
       if (gradeNum) window.FB.saveGrade(user.uid, gradeNum);
 
     } else {
-      // Çıkış yapıldı — yalnızca önceden giriş yapılmışsa bildir
       const didLogout = wasSignedIn;
-      hasSynced = false;
+      hasSynced   = false;
       wasSignedIn = false;
-      if (authBtn) authBtn.style.display = "";
+      window.userRole = null;
+      if (authBtn)  authBtn.style.display  = "";
       if (authUser) authUser.style.display = "none";
+      const teacherBtn = document.getElementById("nav-teacher-btn");
+      if (teacherBtn) teacherBtn.style.display = "none";
       if (didLogout) showNotificationToast("👋 Güvenli çıkış yapıldı.");
     }
+  });
+}
+
+// ── GİRİŞ SEÇİM MODAL YÖNETİMİ ──────────────────────────────────────────────
+function showLoginChoiceModal() {
+  const overlay = document.getElementById("login-choice-overlay");
+  if (overlay) { overlay.style.display = "flex"; }
+}
+function closeLoginChoiceModal() {
+  const overlay = document.getElementById("login-choice-overlay");
+  if (overlay) { overlay.style.display = "none"; }
+}
+
+// ── ÖĞRENCİ SINIF UI ─────────────────────────────────────────────────────────
+// Giriş yapan öğrencinin sınıf durumunu kontrol eder
+// Sınıfa katılmamışsa grade-list'te bir kart gösterir
+let studentClassCode = null;
+
+async function initStudentClassUI(user) {
+  if (!window.FB || !user) return;
+  studentClassCode = await window.FB.getStudentClassCode(user.uid);
+
+  // Sınıfa katıl kartını grade ekranına ekle
+  const gradeList = document.getElementById("grade-list");
+  if (!gradeList) return;
+
+  // Varsa eski kartı kaldır
+  const oldCard = document.getElementById("join-class-grade-card");
+  if (oldCard) oldCard.remove();
+
+  if (!studentClassCode) {
+    // Katılmamış → "Sınıfa Katıl" kartını göster
+    const card = document.createElement("div");
+    card.id = "join-class-grade-card";
+    card.className = "grade-card";
+    card.style.cssText = "border: 2px dashed var(--color-primary); opacity: 0.85;";
+    card.innerHTML = `
+      <span style="font-size:1.8rem;">🏫</span>
+      <span class="grade-card-label">Sınıfa Katıl</span>
+      <span class="grade-card-sub">Öğretmen kodu gir</span>
+    `;
+    card.addEventListener("click", () => openJoinClassOverlay(user));
+    gradeList.appendChild(card);
+  } else {
+    // Zaten katılmış → küçük rozet kartı
+    const classInfo = await window.FB.getClassInfo(studentClassCode).catch(() => null);
+    const card = document.createElement("div");
+    card.id = "join-class-grade-card";
+    card.className = "grade-card";
+    card.style.cssText = "border: 2px solid var(--color-primary); cursor: default;";
+    card.innerHTML = `
+      <span style="font-size:1.8rem;">✅</span>
+      <span class="grade-card-label">Sınıfım</span>
+      <span class="grade-card-sub">${escapeHtmlInline(classInfo?.name || studentClassCode)}</span>
+    `;
+    gradeList.appendChild(card);
+  }
+}
+
+function escapeHtmlInline(str) {
+  return String(str).replace(/[&<>"']/g, c =>
+    ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+}
+
+function openJoinClassOverlay(user) {
+  const overlay = document.getElementById("join-class-overlay");
+  const input   = document.getElementById("class-code-input");
+  const msg     = document.getElementById("join-class-msg");
+  if (!overlay) return;
+  if (input)  { input.value = ""; }
+  if (msg)    { msg.textContent = ""; }
+  overlay.style.display = "flex";
+
+  // Kapama butonları
+  const closeBtn  = document.getElementById("close-join-class-btn");
+  const cancelBtn = document.getElementById("join-class-cancel-btn");
+  const submitBtn = document.getElementById("join-class-submit-btn");
+
+  function closeOverlayFn() { overlay.style.display = "none"; }
+
+  if (closeBtn)  closeBtn.onclick  = closeOverlayFn;
+  if (cancelBtn) cancelBtn.onclick = closeOverlayFn;
+
+  if (submitBtn) {
+    submitBtn.onclick = async () => {
+      const code = (input?.value || "").trim().toUpperCase();
+      if (code.length < 4) {
+        if (msg) { msg.textContent = "⚠️ Geçerli bir kod girin."; msg.style.color = "var(--color-error)"; }
+        return;
+      }
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Kontrol ediliyor…";
+      if (msg) msg.textContent = "";
+
+      const result = await window.FB.joinClass(user.uid, code, {
+        displayName: user.displayName || "",
+        email:       user.email || "",
+        photoURL:    user.photoURL || ""
+      });
+
+      submitBtn.disabled = false;
+      submitBtn.textContent = "Katıl";
+
+      if (result.success) {
+        studentClassCode = code;
+        closeOverlayFn();
+        showNotificationToast("🏫 \"" + result.className + "\" sınıfına katıldın!");
+        initStudentClassUI(user); // Kartı güncelle
+      } else {
+        if (msg) {
+          msg.textContent = "❌ " + (result.error || "Sınıf bulunamadı.");
+          msg.style.color = "var(--color-error)";
+        }
+      }
+    };
+  }
+}
+
+// ── OYUN SONU SINIF STAT SYNC ─────────────────────────────────────────────────
+// Öğrenci sınıfa kayıtlıysa oyun bittikten sonra istatistiklerini sınıfa gönderir
+async function syncStudentStatsToClass() {
+  if (!window.FB || !studentClassCode) return;
+  const user = window.FB.currentUser;
+  if (!user) return;
+
+  const stats = STATS.get();
+  await window.FB.saveStudentStats(studentClassCode, user.uid, {
+    totalGames: stats.totalGames || 0,
+    gamesWon:   stats.gamesWon   || 0,
+    score:      gameState.score  || 0
   });
 }
 
@@ -2431,6 +2587,9 @@ function shareUnitComplete(btn, correct, incorrect) {
 
 // ── END OVERLAY & FLASHCARD ──────────────────────────────────────────────────
 function showEndOverlay() {
+  // Öğrenci sınıfa kayıtlıysa istatistiklerini sınıfa gönder
+  syncStudentStatsToClass().catch(() => {});
+
   document.querySelectorAll(".overlay").forEach(e => {
     if (!["stats-overlay", "badges-overlay", "mistakes-overlay", "report-overlay", "kb-popup"].includes(e.id)) {
       e.remove();

@@ -12,9 +12,14 @@ import {
 import {
   getFirestore,
   doc,
+  collection,
   getDoc,
+  getDocs,
   setDoc,
-  serverTimestamp
+  updateDoc,
+  serverTimestamp,
+  query,
+  orderBy
 } from "https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -35,6 +40,10 @@ const provider = new GoogleAuthProvider();
 // ── HELPERS ────────────────────────────────────────────────────────────────
 function userDoc(uid, docName) {
   return doc(db, "users", uid, "data", docName);
+}
+
+function userProfileDoc(uid) {
+  return doc(db, "users", uid, "profile", "info");
 }
 
 async function safeGet(ref) {
@@ -61,11 +70,9 @@ async function safeSet(ref, data) {
 //        Rozet/Hata Defteri → her zaman birleştir (kazanım kaybolmasın)
 
 function cloudWinsStats(local, cloud) {
-  // Bulut varsa bulut baz alınır;
-  // local sadece offline oynanan EK oyunları ekler (delta).
   const localTotal = local.totalGames || 0;
   const cloudTotal = cloud.totalGames || 0;
-  const offlineDelta = Math.max(0, localTotal - cloudTotal); // offline oyunlar
+  const offlineDelta = Math.max(0, localTotal - cloudTotal);
 
   const result = {
     totalGames:    cloudTotal + offlineDelta,
@@ -74,36 +81,36 @@ function cloudWinsStats(local, cloud) {
     subjectScores: { ...(cloud.subjectScores || {}) }
   };
 
-  // Offline oynanan dersleri ekle (bulutta yoksa)
   if (offlineDelta > 0) {
     const localScores = local.subjectScores || {};
     for (const id in localScores) {
-      if (!result.subjectScores[id]) {
-        result.subjectScores[id] = localScores[id];
-      }
+      if (!result.subjectScores[id]) result.subjectScores[id] = localScores[id];
     }
   }
   return result;
 }
 
-// Rozetler: union (hiçbir rozet kaybolmaz)
 function mergeBadges(localUnlocked, cloudUnlocked) {
   const set = new Set([...(localUnlocked || []), ...(cloudUnlocked || [])]);
   return [...set];
 }
 
-// Hata Defteri: union (unique kelimeler)
 function mergeMistakes(localList, cloudList) {
   const seen = new Set();
   const merged = [];
   for (const item of [...(cloudList || []), ...(localList || [])]) {
     const key = (item.word || "").toLowerCase();
-    if (!seen.has(key)) {
-      seen.add(key);
-      merged.push(item);
-    }
+    if (!seen.has(key)) { seen.add(key); merged.push(item); }
   }
   return merged;
+}
+
+// ── 6 HANELİ KOD ÜRETİCİ ─────────────────────────────────────────────────
+function generateClassCode() {
+  const chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; // O,I,0,1 hariç
+  let code = "";
+  for (let i = 0; i < 6; i++) code += chars[Math.floor(Math.random() * chars.length)];
+  return code;
 }
 
 // ── PUBLIC API ─────────────────────────────────────────────────────────────
@@ -122,20 +129,163 @@ const FB = {
   },
 
   async signOut() {
-    try {
-      await signOut(auth);
-    } catch (e) {
-      console.error("Çıkış hatası:", e.message);
-    }
+    try { await signOut(auth); }
+    catch (e) { console.error("Çıkış hatası:", e.message); }
   },
 
   onAuthStateChanged(cb) {
     return onAuthStateChanged(auth, cb);
   },
 
-  // Giriş senkronizasyonu
-  // → Bulut verisi varsa: bulut kazanır, local sadece offline delta ekler
-  // → Bulut boşsa: local'i buluta ilk kez yükle
+  // ── ROL YÖNETİMİ ─────────────────────────────────────────────────────
+  // Rol Firestore'da users/{uid}/profile/info.role = "teacher" | "student"
+  // Varsayılan: "student" (her kullanıcı öğrenci başlar)
+  // Öğretmen rolü: Firebase Console'dan admin tarafından elle atanır
+
+  async getRole(uid) {
+    try {
+      const snap = await getDoc(userProfileDoc(uid));
+      return snap.exists() ? (snap.data().role || "student") : "student";
+    } catch (e) {
+      return "student";
+    }
+  },
+
+  // ── SINIF YÖNETİMİ ────────────────────────────────────────────────────
+
+  // Yeni sınıf oluştur (sadece öğretmen)
+  // Dönüş: { code, success }
+  async createClass(teacherUid, teacherName, className) {
+    try {
+      // Benzersiz kod bul
+      let code, exists = true;
+      let attempts = 0;
+      while (exists && attempts < 10) {
+        code = generateClassCode();
+        const snap = await getDoc(doc(db, "classes", code));
+        exists = snap.exists();
+        attempts++;
+      }
+      if (exists) return { success: false, error: "Kod üretilemedi" };
+
+      await setDoc(doc(db, "classes", code), {
+        code,
+        name: className,
+        teacherUid,
+        teacherName,
+        createdAt: serverTimestamp(),
+        memberCount: 0
+      });
+      return { success: true, code };
+    } catch (e) {
+      console.error("createClass:", e);
+      return { success: false, error: e.message };
+    }
+  },
+
+  // Öğretmenin sınıflarını getir
+  async getTeacherClasses(teacherUid) {
+    try {
+      const q = query(
+        collection(db, "classes"),
+        orderBy("createdAt", "desc")
+      );
+      const snap = await getDocs(q);
+      return snap.docs
+        .map(d => d.data())
+        .filter(c => c.teacherUid === teacherUid);
+    } catch (e) {
+      console.error("getTeacherClasses:", e);
+      return [];
+    }
+  },
+
+  // Sınıf bilgisi getir
+  async getClassInfo(code) {
+    try {
+      const snap = await getDoc(doc(db, "classes", code.toUpperCase()));
+      return snap.exists() ? snap.data() : null;
+    } catch (e) {
+      return null;
+    }
+  },
+
+  // Sınıfa katıl (öğrenci)
+  // Dönüş: { success, className, error? }
+  async joinClass(uid, code, studentInfo) {
+    try {
+      const upperCode = code.toUpperCase();
+      const classSnap = await getDoc(doc(db, "classes", upperCode));
+      if (!classSnap.exists()) return { success: false, error: "Sınıf bulunamadı" };
+
+      const classData = classSnap.data();
+      const memberRef = doc(db, "classes", upperCode, "members", uid);
+
+      await setDoc(memberRef, {
+        uid,
+        displayName: studentInfo.displayName || "",
+        email:       studentInfo.email || "",
+        photoURL:    studentInfo.photoURL || "",
+        joinedAt:    serverTimestamp(),
+        lastActive:  serverTimestamp(),
+        stats: {
+          totalGames: 0, gamesWon: 0, score: 0
+        }
+      }, { merge: true });
+
+      // Kullanıcı profiline sınıf kodunu kaydet
+      await safeSet(userProfileDoc(uid), { joinedClassCode: upperCode });
+
+      return { success: true, className: classData.name };
+    } catch (e) {
+      console.error("joinClass:", e);
+      return { success: false, error: e.message };
+    }
+  },
+
+  // Öğrenci sınıf kodunu al
+  async getStudentClassCode(uid) {
+    try {
+      const snap = await getDoc(userProfileDoc(uid));
+      return snap.exists() ? (snap.data().joinedClassCode || null) : null;
+    } catch (e) {
+      return null;
+    }
+  },
+
+  // Oyun sonrası öğrenci istatistiklerini sınıfa kaydet
+  async saveStudentStats(classCode, uid, stats) {
+    if (!classCode || !uid) return;
+    try {
+      const memberRef = doc(db, "classes", classCode, "members", uid);
+      await setDoc(memberRef, {
+        stats: {
+          totalGames: stats.totalGames || 0,
+          gamesWon:   stats.gamesWon   || 0,
+          score:      stats.score      || 0
+        },
+        lastActive: serverTimestamp()
+      }, { merge: true });
+    } catch (e) {
+      console.warn("saveStudentStats:", e.message);
+    }
+  },
+
+  // Sınıf üyelerini getir (öğretmen paneli)
+  async getClassMembers(code) {
+    try {
+      const membersCol = collection(db, "classes", code.toUpperCase(), "members");
+      const q = query(membersCol, orderBy("lastActive", "desc"));
+      const snap = await getDocs(q);
+      return snap.docs.map(d => d.data());
+    } catch (e) {
+      console.error("getClassMembers:", e);
+      return [];
+    }
+  },
+
+  // ── KİŞİSEL VERİ SYNC ─────────────────────────────────────────────────
+
   async syncOnLogin(uid, getLocal) {
     const [cloudStats, cloudBadgesData, cloudMistakesData] = await Promise.all([
       safeGet(userDoc(uid, "stats")),
@@ -149,38 +299,30 @@ const FB = {
     let finalStats, finalBadges, finalCounts, finalMistakes;
 
     if (hasCloudData) {
-      // ── Bulut var → Bulut kazanır ──────────────────────────────────
-      // Stats: bulut baz, offline delta eklenir
-      finalStats    = cloudStats ? cloudWinsStats(local.stats, cloudStats) : cloudStats || local.stats;
+      finalStats  = cloudStats ? cloudWinsStats(local.stats, cloudStats) : local.stats;
 
-      // Rozetler: her zaman union (hiçbir rozet kaybolmasın)
-      const cloudBadges  = cloudBadgesData?.unlocked || [];
-      const cloudCounts  = cloudBadgesData?.counts   || {};
+      const cloudBadges = cloudBadgesData?.unlocked || [];
+      const cloudCounts = cloudBadgesData?.counts   || {};
       finalBadges = mergeBadges(local.badges, cloudBadges);
       finalCounts = { ...cloudCounts };
-      // Sadece bulutta olmayan rozet sayaçlarını local'den al
       for (const k in (local.badgeCounts || {})) {
         if (!finalCounts[k]) finalCounts[k] = local.badgeCounts[k];
       }
 
-      // Hata Defteri: cloud önce (cloud üzerine local'den yeni unique ekle)
       const cloudMistakes = cloudMistakesData?.words || [];
       finalMistakes = mergeMistakes(local.mistakes, cloudMistakes);
-
     } else {
-      // ── Bulut boş → İlk kez kayıt, local'i yükle ──────────────────
       finalStats    = local.stats;
       finalBadges   = local.badges || [];
       finalCounts   = local.badgeCounts || {};
       finalMistakes = local.mistakes || [];
     }
 
-    // Buluta yaz
     await Promise.all([
       safeSet(userDoc(uid, "stats"),    finalStats),
       safeSet(userDoc(uid, "badges"),   { unlocked: finalBadges, counts: finalCounts }),
       safeSet(userDoc(uid, "mistakes"), { words: finalMistakes }),
-      safeSet(userDoc(uid, "profile"),  {
+      safeSet(userProfileDoc(uid),      {
         displayName: auth.currentUser?.displayName || "",
         email:       auth.currentUser?.email || "",
         photoURL:    auth.currentUser?.photoURL || "",
@@ -191,8 +333,6 @@ const FB = {
     return { stats: finalStats, badges: finalBadges, badgeCounts: finalCounts, mistakes: finalMistakes };
   },
 
-
-  // Buluttan veri yükle (farklı cihazdan giriş)
   async loadFromCloud(uid) {
     const [statsData, badgesData, mistakesData] = await Promise.all([
       safeGet(userDoc(uid, "stats")),
@@ -200,10 +340,10 @@ const FB = {
       safeGet(userDoc(uid, "mistakes"))
     ]);
     return {
-      stats: statsData,
-      badges: badgesData ? (badgesData.unlocked || []) : null,
-      badgeCounts: badgesData ? (badgesData.counts || {}) : null,
-      mistakes: mistakesData ? (mistakesData.words || []) : null
+      stats:       statsData,
+      badges:      badgesData ? (badgesData.unlocked || []) : null,
+      badgeCounts: badgesData ? (badgesData.counts   || {}) : null,
+      mistakes:    mistakesData ? (mistakesData.words || []) : null
     };
   },
 
@@ -220,7 +360,7 @@ const FB = {
   },
 
   async saveGrade(uid, gradeNum) {
-    await safeSet(userDoc(uid, "profile"), { savedGrade: gradeNum });
+    await safeSet(userProfileDoc(uid), { savedGrade: gradeNum });
   }
 };
 
