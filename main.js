@@ -264,6 +264,10 @@ const STATS = {
   },
   save(stats) {
     SafeStorage.setItem("hangman_stats", JSON.stringify(stats));
+    // Bulut senkronizasyonu
+    if (window.FB?.currentUser) {
+      window.FB.saveStats(window.FB.currentUser.uid, stats);
+    }
   },
   recordGame(won, streak, subjectId, subjectName) {
     const s = this.get();
@@ -306,16 +310,17 @@ const BADGES = {
   },
   unlock(badgeId) {
     const unlocked = this.getUnlocked();
-    // Her kazanımda sayacı artır (seviye sistemi için)
     incrementBadgeCount(badgeId);
     if (!unlocked.includes(badgeId)) {
       unlocked.push(badgeId);
       SafeStorage.setItem("hangman_badges", JSON.stringify(unlocked));
-      
       const badge = this.list.find(b => b.id === badgeId);
-      if (badge) {
-        setTimeout(() => this.showToast(badge), 1000);
-      }
+      if (badge) { setTimeout(() => this.showToast(badge), 1000); }
+    }
+    // Bulut senkronizasyonu
+    if (window.FB?.currentUser) {
+      const counts = JSON.parse(SafeStorage.getItem("hangman_badge_counts") || "{}");
+      window.FB.saveBadges(window.FB.currentUser.uid, this.getUnlocked(), counts);
     }
   },
   checkAndUnlock(won, streak) {
@@ -391,12 +396,20 @@ const MISTAKES = {
     if (!isDup) {
       list.push({ word, hint, gradeName, subjectName, subjectId });
       SafeStorage.setItem("hangman_mistakes", JSON.stringify(list));
+      // Bulut senkronizasyonu
+      if (window.FB?.currentUser) {
+        window.FB.saveMistakes(window.FB.currentUser.uid, list);
+      }
     }
   },
   remove(word) {
     let list = this.get();
     list = list.filter(item => item.word.toLowerCase() !== word.toLowerCase());
     SafeStorage.setItem("hangman_mistakes", JSON.stringify(list));
+    // Bulut senkronizasyonu
+    if (window.FB?.currentUser) {
+      window.FB.saveMistakes(window.FB.currentUser.uid, list);
+    }
   }
 };
 
@@ -622,6 +635,17 @@ function getTeacherWordsForCurrentUnit() {
 async function init() {
   buildKeyboard();
   setupSettingsAndModals();
+
+  // Firebase hazır olana kadar bekle (max 4sn, sonra offline devam)
+  await new Promise(resolve => {
+    if (window.FB) { resolve(); return; }
+    const onReady = () => { window.removeEventListener("firebase-ready", onReady); resolve(); };
+    window.addEventListener("firebase-ready", onReady);
+    setTimeout(resolve, 4000);
+  });
+
+  initAuth(); // Auth UI ve sync
+
   await loadCurriculum();
   fetchTeacherWords();
   
@@ -634,7 +658,6 @@ async function init() {
   
   if(CURRICULUM_DATA && CURRICULUM_DATA.length > 0) {
     populateGrades();
-    // Kaydedilen sınıfı kontrol et
     const savedGradeNum = parseInt(SafeStorage.getItem("lastSelectedGrade"));
     const savedGradeItem = savedGradeNum
       ? CURRICULUM_DATA.find(g => g.grade === savedGradeNum)
@@ -644,6 +667,110 @@ async function init() {
   } else {
     document.getElementById('grade-list').innerHTML = '<p>Müfredat yüklenemedi. Lütfen internet bağlantınızı kontrol edin.</p>';
   }
+}
+
+// ── AUTH MANAGER ─────────────────────────────────────────────────────────────
+function initAuth() {
+  if (!window.FB) return; // Firebase yüklenmemiş (offline)
+
+  const authBtn      = document.getElementById("auth-btn");
+  const authUser     = document.getElementById("auth-user");
+  const authAvatar   = document.getElementById("auth-avatar");
+  const authDropdown = document.getElementById("auth-user-dropdown");
+  const dropAvatar   = document.getElementById("auth-dropdown-avatar");
+  const userName     = document.getElementById("auth-user-name");
+  const userEmail    = document.getElementById("auth-user-email");
+  const syncStatus   = document.getElementById("auth-sync-status");
+  const signoutBtn   = document.getElementById("auth-signout-btn");
+
+  // Giriş butonu
+  if (authBtn) {
+    authBtn.addEventListener("click", () => window.FB.signIn());
+  }
+
+  // Oturumu kapat
+  if (signoutBtn) {
+    signoutBtn.addEventListener("click", async () => {
+      authDropdown.style.display = "none";
+      await window.FB.signOut();
+    });
+  }
+
+  // Avatar'a tıklayınca dropdown aç/kapat
+  if (authAvatar) {
+    authAvatar.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = authDropdown.style.display !== "none";
+      authDropdown.style.display = isOpen ? "none" : "block";
+    });
+  }
+  document.addEventListener("click", () => {
+    if (authDropdown) authDropdown.style.display = "none";
+  });
+
+  let hasSynced = false; // İlk girişten sonra tekrar sync yapma
+
+  // Oturum değişikliklerini dinle
+  window.FB.onAuthStateChanged(async (user) => {
+    if (user) {
+      // Giriş yapildı — UI güncelle
+      if (authBtn) authBtn.style.display = "none";
+      if (authUser) authUser.style.display = "flex";
+      if (authAvatar) authAvatar.src = user.photoURL || "";
+      if (dropAvatar) dropAvatar.src = user.photoURL || "";
+      if (userName) userName.textContent = user.displayName || "Kullanıcı";
+      if (userEmail) userEmail.textContent = user.email || "";
+      if (syncStatus) syncStatus.textContent = "⏳ Senkronize ediliyor...";
+
+      if (!hasSynced) {
+        hasSynced = true;
+        try {
+          // Yerel verilerle bulut verilerini birleştir
+          const merged = await window.FB.syncOnLogin(user.uid, () => ({
+            stats:       STATS.get(),
+            badges:      BADGES.getUnlocked(),
+            badgeCounts: JSON.parse(SafeStorage.getItem("hangman_badge_counts") || "{}"),
+            mistakes:    MISTAKES.get()
+          }));
+
+          // Birleştirilmiş veriyi localStorage'a geri yaz
+          SafeStorage.setItem("hangman_stats",        JSON.stringify(merged.stats));
+          SafeStorage.setItem("hangman_badges",       JSON.stringify(merged.badges));
+          SafeStorage.setItem("hangman_badge_counts", JSON.stringify(merged.badgeCounts));
+          SafeStorage.setItem("hangman_mistakes",     JSON.stringify(merged.mistakes));
+
+          if (syncStatus) syncStatus.textContent = "✅ Veriler senkronize";
+          showNotificationToast("😀 Hoş geldin, " + (user.displayName?.split(" ")[0] || "!") + "! ☁️ Veriler yüklendi.");
+        } catch (err) {
+          console.error("Sync hata:", err);
+          if (syncStatus) syncStatus.textContent = "⚠️ Sync başarısız";
+        }
+      } else {
+        // Farklı cihazdan zaten giriş vardı — buluttan yükle
+        try {
+          const cloud = await window.FB.loadFromCloud(user.uid);
+          if (cloud.stats) SafeStorage.setItem("hangman_stats", JSON.stringify(cloud.stats));
+          if (cloud.badges) SafeStorage.setItem("hangman_badges", JSON.stringify(cloud.badges));
+          if (cloud.badgeCounts) SafeStorage.setItem("hangman_badge_counts", JSON.stringify(cloud.badgeCounts));
+          if (cloud.mistakes) SafeStorage.setItem("hangman_mistakes", JSON.stringify(cloud.mistakes));
+          if (syncStatus) syncStatus.textContent = "✅ Veriler senkronize";
+        } catch(err) {
+          if (syncStatus) syncStatus.textContent = "⚠️ Offline mod";
+        }
+      }
+
+      // Kayıtlı sınıfı buluta da kaydet
+      const gradeNum = parseInt(SafeStorage.getItem("lastSelectedGrade"));
+      if (gradeNum) window.FB.saveGrade(user.uid, gradeNum);
+
+    } else {
+      // Çıkış yapıldı — UI sıfırla
+      hasSynced = false;
+      if (authBtn) authBtn.style.display = "";
+      if (authUser) authUser.style.display = "none";
+      showNotificationToast("👋 Güvenli çıkış yapıldı.");
+    }
+  });
 }
 
 function setupSettingsAndModals() {

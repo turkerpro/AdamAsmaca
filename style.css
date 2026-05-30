@@ -786,6 +786,112 @@
     align-items: center;
     gap: var(--space-2);
   }
+
+  /* AUTH UI */
+  .auth-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 36px;
+    padding: 0 14px;
+    border-radius: var(--radius-full);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    transition: all 0.18s;
+    white-space: nowrap;
+  }
+  .auth-btn:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: var(--color-primary-highlight);
+  }
+  .auth-btn-label { display: none; }
+  @media(min-width: 400px) { .auth-btn-label { display: inline; } }
+
+  .auth-user {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .auth-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid var(--color-primary);
+    cursor: pointer;
+    object-fit: cover;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .auth-avatar:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 0 3px var(--color-primary-highlight);
+  }
+
+  .auth-user-dropdown {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    min-width: 240px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    z-index: 9000;
+    overflow: hidden;
+    animation: slideUp 0.2s ease;
+  }
+  .auth-user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    border-bottom: 1px solid var(--color-divider);
+    background: var(--color-surface-offset);
+  }
+  .auth-dropdown-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .auth-user-name {
+    font-weight: 700;
+    font-size: var(--text-sm);
+    color: var(--color-text);
+  }
+  .auth-user-email {
+    font-size: 11px;
+    color: var(--color-text-muted);
+    margin-top: 2px;
+    word-break: break-all;
+  }
+  .auth-sync-status {
+    padding: 10px 16px;
+    font-size: 12px;
+    color: var(--color-text-muted);
+    border-bottom: 1px solid var(--color-divider);
+  }
+  .auth-signout-btn {
+    display: block;
+    width: 100%;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-error);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .auth-signout-btn:hover {
+    background: var(--color-error-highlight);
+  }
+
   .nav-icon-btn {
     width: 40px;
     height: 40px;
