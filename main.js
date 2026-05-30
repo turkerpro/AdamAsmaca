@@ -927,24 +927,30 @@ function closeOverlay(id) {
 }
 
 function openReportModal(wordOverride, hintOverride) {
-  const currentWordVal = wordOverride || (gameState && gameState.word) || "-";
+  const actualWord = wordOverride || (gameState && gameState.word) || "-";
   const gradeLabel = selectedGrade ? selectedGrade.gradeName : "-";
   const subjectLabel = selectedSubject ? selectedSubject.name : "-";
   const unitLabel = selectedUnit ? selectedUnit.name : "-";
-  
+
+  // Oyun hâlâ devam ediyorsa kelimeyi gizle
+  const gameOver = !gameState || gameState.over;
+  const displayWord = gameOver ? actualWord : "•".repeat(actualWord.length);
+
   document.getElementById("report-subject").textContent = `${gradeLabel}. Sınıf - ${subjectLabel}`;
   document.getElementById("report-unit").textContent = unitLabel;
-  document.getElementById("report-word").textContent = currentWordVal;
+  document.getElementById("report-word").textContent = displayWord;
   document.getElementById("report-desc").value = "";
-  
+
   openOverlay("report-overlay");
 }
+
 
 function sendReport() {
   const gradeLabel = selectedGrade ? selectedGrade.gradeName : "-";
   const subjectLabel = selectedSubject ? selectedSubject.name : "-";
   const unitLabel = selectedUnit ? selectedUnit.name : "-";
-  const currentWordVal = document.getElementById("report-word").textContent;
+  // Gerçek kelimeyi gameState'ten al (ekranda maskelenmiş olabilir)
+  const actualWord = (gameState && gameState.word) || document.getElementById("report-word").textContent;
   const desc = document.getElementById("report-desc").value.trim();
   
   if (!desc) {
@@ -954,8 +960,9 @@ function sendReport() {
   
   closeOverlay("report-overlay");
   
-  submitWordToGoogleForm(currentWordVal, gradeLabel, subjectLabel, unitLabel, desc);
+  submitWordToGoogleForm(actualWord, gradeLabel, subjectLabel, unitLabel, desc);
 }
+
 
 function showNotificationToast(message) {
   const oldToasts = document.querySelectorAll(".app-notification-toast");
