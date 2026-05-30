@@ -14,7 +14,7 @@
     background-color: #10743D;
   }
 </style>
-<link rel="stylesheet" href="./style.css?v=23">
+<link rel="stylesheet" href="./style.css?v=24">
 </head>
 <body>
 
@@ -212,21 +212,19 @@
   <div class="overlay-card" style="max-width: 440px;">
     <span class="overlay-icon">⚠️</span>
     <h2 class="overlay-title">Hata Bildir</h2>
-    <p class="overlay-sub" style="margin-bottom: 12px; font-size: var(--text-sm);">Bu kelimede veya soruda bir sorun mu var? Lütfen bize bildirin.</p>
+    <p class="overlay-sub" style="margin-bottom: 12px;">Bu kelimede veya soruda bir sorun mu var? Lütfen bize bildirin.</p>
     
-    <div style="background:var(--color-surface-offset); border:1px solid var(--color-border); border-radius:var(--radius-lg); padding:12px; margin-bottom:16px; width:100%; text-align:left; font-size:13px; line-height:1.4; box-sizing:border-box;">
+    <div class="report-info-box">
       <strong>Ders:</strong> <span id="report-subject">-</span><br>
       <strong>Ünite:</strong> <span id="report-unit">-</span><br>
       <strong>Kelime:</strong> <span id="report-word" style="font-family:var(--font-display); font-weight:700; color:var(--color-primary);">-</span>
     </div>
 
-    <textarea id="report-desc" placeholder="Hata nedir? (Örn: Yazım hatası var, ipucu yanlış, vb.)" 
-      style="width: 100%; height: 100px; padding: 12px; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface-offset); color: var(--color-text); font-family: var(--font-body); font-size: 14px; resize: none; margin-bottom: 16px; outline: none; box-sizing: border-box;"
-    ></textarea>
+    <textarea id="report-desc" placeholder="Hata nedir? (Örn: Yazım hatası var, ipucu yanlış, vb.)" class="report-textarea"></textarea>
 
-    <div style="display:flex; gap:12px; justify-content:center; width:100%;">
-      <button class="btn-primary" id="send-report-btn" style="margin-top:0; flex:1;">Gönder</button>
-      <button class="btn-secondary" id="close-report-btn" style="margin-top:0; flex:1;">Kapat</button>
+    <div class="overlay-btn-row">
+      <button class="btn-primary" id="send-report-btn">Gönder</button>
+      <button class="btn-secondary" id="close-report-btn">Kapat</button>
     </div>
   </div>
 </div>
@@ -261,26 +259,26 @@
     <div class="badges-grid" id="badges-grid">
       <!-- Dyn. badges will go here -->
     </div>
-    <button class="btn-primary" id="close-badges-btn" style="margin-top: 16px;">Kapat</button>
+    <button class="btn-primary" id="close-badges-btn">Kapat</button>
   </div>
 </div>
 
 <!-- MISTAKES OVERLAY -->
 <div class="overlay" id="mistakes-overlay" style="display:none;">
   <div class="overlay-card" style="max-width: 440px;">
-    <span class="overlay-icon">📘</span>
+    <span class="overlay-icon mistakes-x-icon">✕</span>
     <h2 class="overlay-title">Hata Defteri</h2>
     <p class="overlay-sub" id="mistakes-count-sub">Yanlış yaptığın kelimeleri buradan tekrar edebilirsin.</p>
     <div class="mistakes-list" id="mistakes-list">
       <!-- Dyn. word lists -->
     </div>
-    <div style="display:flex; gap:12px; justify-content:center; width:100%; margin-top:20px;">
-      <button class="btn-primary" id="start-mistakes-btn" style="display:none; margin-top:0;">Tekrar Modunu Başlat</button>
-      <button class="btn-secondary" id="close-mistakes-btn" style="margin-top:0;">Kapat</button>
+    <div class="overlay-btn-row">
+      <button class="btn-primary" id="start-mistakes-btn" style="display:none;">Tekrar Modunu Başlat</button>
+      <button class="btn-secondary" id="close-mistakes-btn">Kapat</button>
     </div>
   </div>
 </div>
 
-<script src="./main.js?v=23"></script>
+<script src="./main.js?v=24"></script>
 </body>
 </html>
