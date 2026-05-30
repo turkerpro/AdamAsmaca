@@ -33,8 +33,10 @@ function main() {
 
     // Copy single files
     const filesToCopy = [
+        'index.html',
         'main.js',
         'style.css',
+        'firebase.js',
         'curriculum_index.json',
         'manifest.json',
         'ogretmen.js',
