@@ -913,7 +913,14 @@ function handleTimeout() {
 
 // ── MODALS INTEGRATION ─────────────────────────────────────────────────────
 function openOverlay(id) {
-  document.getElementById(id).style.display = "flex";
+  const el = document.getElementById(id);
+  if (!el) {
+    console.error("openOverlay: element not found:", id);
+    showNotificationToast("❌ Panel açılamadı: " + id);
+    return;
+  }
+  el.style.display = "flex";
+  el.style.zIndex = "9999";
 }
 function closeOverlay(id) {
   document.getElementById(id).style.display = "none";
@@ -1073,6 +1080,7 @@ function openStatsModal() {
     openOverlay("stats-overlay");
   } catch (err) {
     console.error("Stats modal error:", err);
+    showNotificationToast("❌ İstatistikler açılamadı: " + err.message);
   }
 }
 
@@ -1195,6 +1203,7 @@ function openBadgesModal() {
     openOverlay("badges-overlay");
   } catch (err) {
     console.error("Badges modal error:", err);
+    showNotificationToast("❌ Rozetler açılamadı: " + err.message);
   }
 }
 
@@ -1236,6 +1245,7 @@ function openMistakesModal() {
     openOverlay("mistakes-overlay");
   } catch (err) {
     console.error("Mistakes modal error:", err);
+    showNotificationToast("❌ Hata Defteri açılamadı: " + err.message);
   }
 }
 
@@ -1738,7 +1748,13 @@ function newGame(isRetry = false) {
     won: false 
   };
   
-  document.querySelectorAll(".overlay").forEach(e=>e.remove());
+  document.querySelectorAll(".overlay").forEach(e => {
+    if (!["stats-overlay", "badges-overlay", "mistakes-overlay", "report-overlay", "kb-popup"].includes(e.id)) {
+      e.remove();
+    } else {
+      e.style.display = "none";
+    }
+  });
   updateUI();
   startTimer();
 }
@@ -1948,7 +1964,11 @@ function showUnitCompleteOverlay() {
   const isSuccess = winRate >= 50;
   
   document.querySelectorAll(".overlay").forEach(e => {
-    if (e.id !== "stats-overlay" && e.id !== "badges-overlay" && e.id !== "mistakes-overlay") e.remove();
+    if (!["stats-overlay", "badges-overlay", "mistakes-overlay", "report-overlay", "kb-popup"].includes(e.id)) {
+      e.remove();
+    } else {
+      e.style.display = "none";
+    }
   });
 
   const ov = document.createElement("div"); ov.className = "overlay";
@@ -2100,7 +2120,11 @@ function shareUnitComplete(btn, correct, incorrect) {
 // ── END OVERLAY & FLASHCARD ──────────────────────────────────────────────────
 function showEndOverlay() {
   document.querySelectorAll(".overlay").forEach(e => {
-    if (e.id !== "stats-overlay" && e.id !== "badges-overlay" && e.id !== "mistakes-overlay") e.remove();
+    if (!["stats-overlay", "badges-overlay", "mistakes-overlay", "report-overlay", "kb-popup"].includes(e.id)) {
+      e.remove();
+    } else {
+      e.style.display = "none";
+    }
   });
 
   const ov = document.createElement("div"); ov.className = "overlay";
