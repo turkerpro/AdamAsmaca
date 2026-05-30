@@ -776,28 +776,6 @@
   .report-textarea:focus{border-color:var(--color-primary);}
   .mistakes-x-icon{color:var(--color-error);font-size:48px;font-weight:300;}
 
-  /* REKLAM JOKER BUTONU — sadece renk override, şekil joker-btn'den gelir */
-  .joker-btn-ad {
-    background: linear-gradient(135deg, #f0a500, #e07b00);
-    color: #1a0e00;
-    border-color: #f0c040;
-    animation: adPulse 2s ease-in-out infinite;
-  }
-  .joker-btn-ad:disabled {
-    background: var(--color-surface-offset);
-    color: var(--color-text-muted);
-    border-color: var(--color-border);
-    animation: none;
-  }
-  .joker-btn-ad:not(:disabled):hover {
-    background: linear-gradient(135deg, #ffc107, #f0a500);
-    border-color: #ffd54f;
-    box-shadow: 0 4px 14px rgba(240,165,0,0.35);
-  }
-  @keyframes adPulse {
-    0%,100% { box-shadow: 0 0 0 0 rgba(240,165,0,0.4); }
-    50%      { box-shadow: 0 0 0 6px rgba(240,165,0,0); }
-  }
 
   /* CONFETTI */
   .confetti-piece{position:fixed;width:8px;height:8px;border-radius:2px;pointer-events:none;z-index:200}
@@ -1098,6 +1076,32 @@
     opacity: 0.4;
     cursor: not-allowed;
   }
+
+  /* REKLAM JOKER BUTONU — joker-btn'den sonra gelir, cascade'de kazanır */
+  .joker-btn-ad {
+    background: linear-gradient(135deg, #f0a500, #e07b00);
+    color: #1a0e00;
+    border-color: #f0c040;
+    animation: adPulse 2s ease-in-out infinite;
+  }
+  .joker-btn-ad:disabled {
+    background: var(--color-surface-offset);
+    color: var(--color-text-muted);
+    border-color: var(--color-border);
+    animation: none;
+    opacity: 0.5;
+  }
+  .joker-btn-ad:not(:disabled):hover {
+    background: linear-gradient(135deg, #ffc107, #f0a500);
+    border-color: #ffd54f;
+    box-shadow: 0 4px 14px rgba(240,165,0,0.35);
+    transform: translateY(-1px);
+  }
+  @keyframes adPulse {
+    0%,100% { box-shadow: 0 0 0 0 rgba(240,165,0,0.4); }
+    50%      { box-shadow: 0 0 0 6px rgba(240,165,0,0); }
+  }
+
   .joker-status {
     font-size: var(--text-xs);
     font-weight: 700;
