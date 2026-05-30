@@ -1755,6 +1755,9 @@ function applyGradeTheme(gradeNum) {
 function showGradeScreen() {
   selectedGrade = null;
   applyGradeTheme(null);
+  if (CURRICULUM_DATA && CURRICULUM_DATA.length > 0) {
+    populateGrades(); // Her açılışta listeyi yenile
+  }
   switchScreen('grade-screen');
 }
 
