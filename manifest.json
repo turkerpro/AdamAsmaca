@@ -3,10 +3,13 @@
   "short_name": "Adam Asmaca",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#171614",
-  "theme_color": "#4f98a3",
+  "background_color": "#10743D",
+  "theme_color": "#10743D",
   "orientation": "portrait",
   "description": "Klasik Adam Asmaca kelime oyunu.",
+  "screenshots": [
+    { "src": "./icons/splash.png", "sizes": "1080x1920", "type": "image/png", "form_factor": "narrow" }
+  ],
   "icons": [
     { "src": "./icons/icon-48.png",  "sizes": "48x48",   "type": "image/png" },
     { "src": "./icons/icon-72.png",  "sizes": "72x72",   "type": "image/png" },
