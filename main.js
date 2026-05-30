@@ -1933,8 +1933,26 @@ function updateWrong() {
 }
 
 function updateKeys() {
+  const TR_SPECIAL = new Set(["Ğ","Ü","Ş","İ","Ö","Ç"]);
+  // Tüm WORD_BANK'taki harfleri topla (üniteye özel karakterler)
+  const wordBankChars = new Set();
+  (WORD_BANK || []).forEach(entry => {
+    [...(entry.word || "").toUpperCase()].forEach(ch => wordBankChars.add(ch));
+  });
+
   document.querySelectorAll(".key-btn").forEach(btn => {
     const k = btn.dataset.key;
+    if (!k) return; // settings btn vs.
+
+    // Türkçe özel karakter mi? Ünitedeki hiçbir kelimede yoksa gizle
+    if (TR_SPECIAL.has(k)) {
+      const needed = wordBankChars.has(k);
+      btn.style.display = needed ? "" : "none";
+      if (!needed) return;
+    } else {
+      btn.style.display = "";
+    }
+
     btn.classList.remove("correct","wrong");
     btn.disabled = false;
     if (gameState.guessed.has(k)) {
