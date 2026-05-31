@@ -707,10 +707,18 @@ function processTeacherCSVRows(rows) {
 function getTeacherWordsForCurrentUnit() {
   if (!selectedGrade || !selectedSubject || !selectedUnit) return [];
   try {
+    let firebaseWords = [];
+    if (window.classCustomWords && Array.isArray(window.classCustomWords)) {
+      firebaseWords = window.classCustomWords.map(w => ({
+        word: w.word,
+        hint: w.hint || "Öğretmen Kelimesi"
+      }));
+    }
+
     const raw = SafeStorage.getItem("adamAsmacaTeacherWords");
-    if (!raw) return [];
+    if (!raw) return [...firebaseWords];
     const allTeacherWords = JSON.parse(raw);
-    if (!Array.isArray(allTeacherWords)) return [];
+    if (!Array.isArray(allTeacherWords)) return [...firebaseWords];
     
     const localWords = allTeacherWords.filter(item => {
       const matchGrade = item.grade === selectedGrade.grade;
@@ -724,18 +732,14 @@ function getTeacherWordsForCurrentUnit() {
       hint: item.hint
     }));
 
-    let firebaseWords = [];
-    if (window.classCustomWords && Array.isArray(window.classCustomWords)) {
-      firebaseWords = window.classCustomWords.map(w => ({
-        word: w.word,
-        hint: w.hint || "Öğretmen Kelimesi"
-      }));
-    }
-
     return [...localWords, ...firebaseWords];
   } catch (err) {
     console.error("Hata: Öğretmen kelimeleri alınamadı:", err);
-    return window.classCustomWords || [];
+    let fWords = [];
+    if (window.classCustomWords && Array.isArray(window.classCustomWords)) {
+      fWords = window.classCustomWords.map(w => ({ word: w.word, hint: w.hint || "Öğretmen Kelimesi" }));
+    }
+    return fWords;
   }
 }
 
@@ -944,7 +948,12 @@ async function initStudentClassUI(user) {
       const backdrop = document.getElementById("nav-backdrop");
       if (dropdown) dropdown.style.display = "none";
       if (backdrop) backdrop.style.display = "none";
-      openJoinClassOverlay(user);
+      
+      if (studentClassCode) {
+        showNotificationToast("🏫 Zaten bir sınıfa dahilsiniz! Çıkış yapmadan başka sınıfa katılamazsınız.");
+      } else {
+        openJoinClassOverlay(user);
+      }
     };
   }
 
