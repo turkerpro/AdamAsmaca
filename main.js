@@ -1658,8 +1658,21 @@ function openMistakesModal() {
       subText.textContent = "Henüz yanlış bildiğin bir kelime yok. Harikasın!";
       startBtn.style.display = "none";
     } else {
-      subText.textContent = `${mistakes.length} hatalı kelimen var. Tekrar ederek pekiştir!`;
-      startBtn.style.display = "inline-block";
+      subText.textContent = `${mistakes.length} hatalı kelimen var. (Çözmek için en az 10 kelime birikmeli)`;
+      
+      if (mistakes.length >= 10) {
+        startBtn.style.display = "inline-block";
+        startBtn.textContent = "Hataları Çözmeye Başla";
+        startBtn.disabled = false;
+        startBtn.style.opacity = "1";
+        startBtn.style.cursor = "pointer";
+      } else {
+        startBtn.style.display = "inline-block";
+        startBtn.textContent = `En az 10 kelime olmalı (Kalan: ${10 - mistakes.length})`;
+        startBtn.disabled = true;
+        startBtn.style.opacity = "0.5";
+        startBtn.style.cursor = "not-allowed";
+      }
       
       mistakes.forEach(item => {
         const card = document.createElement("div");
@@ -1670,12 +1683,7 @@ function openMistakesModal() {
             <span class="mistake-hint">İpucu: ${item.hint}</span>
             <span class="mistake-meta">${item.gradeName} - ${item.subjectName}</span>
           </div>
-          <span class="mistake-del-btn" title="Listeden Kaldır">🗑️</span>
         `;
-        card.querySelector(".mistake-del-btn").addEventListener("click", () => {
-          MISTAKES.remove(item.word);
-          openMistakesModal(); // Yenile
-        });
         container.appendChild(card);
       });
     }

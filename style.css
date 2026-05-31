@@ -1228,9 +1228,9 @@
   /* BADGES GRID */
   .badges-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
-    gap: var(--space-3);
-    max-height: 45vh;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: var(--space-4);
+    max-height: 50vh;
     min-height: 250px;
     overflow-y: auto;
     padding: var(--space-2);
@@ -1239,12 +1239,12 @@
     background: var(--color-surface-offset);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-lg);
-    padding: var(--space-3);
+    padding: var(--space-4);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: var(--space-1);
+    gap: var(--space-2);
     position: relative;
     transition: all 0.2s ease;
   }
@@ -1253,6 +1253,12 @@
     border-color: var(--color-primary);
   }
   .badge-icon {
+    font-size: 44px;
+  }
+  .badge-name {
+    font-size: 11px;
+    font-weight: 700;
+  }
     font-size: 32px;
   }
   .badge-name {
