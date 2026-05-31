@@ -102,12 +102,11 @@
           <tr>
             <th style="width:50px;"></th>
             <th>Kullanıcı</th>
-            <th>E-posta</th>
             <th style="width:200px;">Rol & İşlem</th>
           </tr>
         </thead>
         <tbody id="users-tbody">
-          <tr><td colspan="4" style="text-align:center;padding:var(--space-4);"><div class="loader"></div></td></tr>
+          <tr><td colspan="3" style="text-align:center;padding:var(--space-4);"><div class="loader"></div></td></tr>
         </tbody>
       </table>
     </div>
@@ -157,8 +156,10 @@
           <td>
             ${photo ? `<img src="${photo}" class="user-avatar" alt="avatar">` : `<div class="user-avatar" style="display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:14px;color:var(--color-text);">${name.charAt(0)}</div>`}
           </td>
-          <td style="font-weight:600;">${name}</td>
-          <td style="color:var(--color-text-muted);font-size:12px;">${email}</td>
+          <td>
+            <div style="font-weight:600;">${name}</div>
+            <div style="color:var(--color-text-muted);font-size:12px;margin-top:2px;">${email}</div>
+          </td>
           <td>
             <div style="display:flex;align-items:center;">
               <select class="role-select" data-index="${i}" data-original="${roleStr}">
