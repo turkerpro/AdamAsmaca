@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kullanım Koşulları - Adam Asmaca Eğitim</title>
+<meta name="description" content="Adam Asmaca Eğitim uygulamasının kullanım koşulları. Hizmetimizi kullanmadan önce lütfen bu koşulları dikkatlice okuyunuz.">
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css?v=39">
+<style>
+  body {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space-4);
+    gap: 0;
+  }
+
+  .policy-root {
+    width: 100%;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-8);
+    padding-bottom: var(--space-16);
+  }
+
+  .policy-hero {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .policy-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at top, var(--color-primary-highlight) 0%, transparent 65%);
+    pointer-events: none;
+  }
+
+  .policy-hero-emoji {
+    font-size: 3rem;
+    margin-bottom: var(--space-4);
+    display: block;
+    position: relative;
+  }
+
+  .policy-hero h1 {
+    font-size: var(--text-xl);
+    font-weight: 800;
+    margin-bottom: var(--space-3);
+    position: relative;
+  }
+
+  .policy-hero-meta {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  /* TABLE OF CONTENTS */
+  .toc-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+  }
+
+  .toc-title {
+    font-family: var(--font-display);
+    font-size: var(--text-md, 1.1rem);
+    font-weight: 800;
+    margin-bottom: var(--space-4);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .toc-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    counter-reset: toc-counter;
+  }
+
+  .toc-list li {
+    counter-increment: toc-counter;
+  }
+
+  .toc-list a {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: var(--text-sm);
+    font-weight: 500;
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-md);
+    transition: all 0.18s ease;
+  }
+
+  .toc-list a::before {
+    content: counter(toc-counter, decimal-leading-zero);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--color-primary);
+    background: var(--color-primary-highlight);
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .toc-list a:hover {
+    background: var(--color-surface-offset);
+    color: var(--color-primary);
+  }
+
+  /* SECTIONS */
+  .policy-section {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    scroll-margin-top: var(--space-6);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .section-num {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--color-primary);
+    background: var(--color-primary-highlight);
+    min-width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .section-header h2 {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  .section-body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    font-size: var(--text-sm);
+    line-height: 1.75;
+    color: var(--color-text);
+  }
+
+  .section-body p {
+    margin: 0;
+  }
+
+  .section-body ul, .section-body ol {
+    padding-left: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .section-body li {
+    line-height: 1.65;
+  }
+
+  .section-body strong {
+    color: var(--color-text);
+    font-weight: 700;
+  }
+
+  /* INFO BOXES */
+  .info-box {
+    background: var(--color-surface-offset);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-4) var(--space-5);
+    font-size: var(--text-sm);
+    line-height: 1.65;
+  }
+
+  .info-box.primary {
+    border-left: 3px solid var(--color-primary);
+    background: var(--color-primary-highlight);
+  }
+
+  .info-box.warning {
+    border-left: 3px solid var(--color-warning);
+    background: var(--color-surface-offset);
+  }
+
+  .info-box.error {
+    border-left: 3px solid var(--color-error);
+    background: var(--color-error-highlight);
+  }
+
+  .info-box.success {
+    border-left: 3px solid var(--color-success);
+    background: var(--color-success-highlight);
+  }
+
+  .info-box-title {
+    font-weight: 700;
+    margin-bottom: var(--space-2);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  /* PROHIBITED LIST */
+  .prohibited-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .prohibited-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+    background: var(--color-surface-offset);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-size: var(--text-sm);
+    line-height: 1.5;
+  }
+
+  .prohibited-list li::before {
+    content: '🚫';
+    flex-shrink: 0;
+    font-size: 1rem;
+    margin-top: 1px;
+  }
+
+  /* CONTACT CARD */
+  .contact-card {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    background: var(--color-surface-offset);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-4) var(--space-5);
+  }
+
+  .contact-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: var(--text-sm);
+  }
+
+  .contact-info strong {
+    font-size: var(--text-base);
+    font-weight: 700;
+  }
+
+  .contact-info a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
+  /* ACCEPTANCE BANNER */
+  .acceptance-banner {
+    background: linear-gradient(135deg, var(--color-primary-highlight) 0%, var(--color-surface-offset) 100%);
+    border: 1px solid var(--color-primary);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .acceptance-banner .banner-icon {
+    font-size: 2.5rem;
+  }
+
+  .acceptance-banner p {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    max-width: 500px;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* DATA TABLE */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--text-sm);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+  }
+
+  .data-table th {
+    background: var(--color-surface-offset);
+    padding: var(--space-3) var(--space-4);
+    text-align: left;
+    font-weight: 700;
+    color: var(--color-text-muted);
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .data-table td {
+    padding: var(--space-3) var(--space-4);
+    border-bottom: 1px solid var(--color-divider);
+    vertical-align: top;
+    line-height: 1.55;
+  }
+
+  .data-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .data-table tr:hover td {
+    background: var(--color-surface-offset);
+  }
+
+  /* FOOTER */
+  .policy-footer {
+    text-align: center;
+    font-size: var(--text-xs);
+    color: var(--color-text-faint);
+    padding: var(--space-4);
+    border-top: 1px solid var(--color-divider);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    align-items: center;
+  }
+
+  .policy-footer a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .policy-footer a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 520px) {
+    .policy-section {
+      padding: var(--space-4);
+    }
+    .policy-hero {
+      padding: var(--space-6) var(--space-4);
+    }
+    .data-table th, .data-table td {
+      padding: var(--space-2) var(--space-3);
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header" style="width:100%;max-width:720px;">
+  <div class="logo">
+    <svg class="logo-icon" viewBox="0 0 36 36" fill="none" aria-label="Adam Asmaca">
+      <rect x="4" y="6" width="4" height="24" rx="2" fill="currentColor" opacity="0.3"/>
+      <rect x="4" y="6" width="14" height="4" rx="2" fill="currentColor" opacity="0.5"/>
+      <rect x="16" y="6" width="2" height="6" rx="1" fill="currentColor"/>
+      <circle cx="17" cy="16" r="3.5" stroke="currentColor" stroke-width="2" fill="none"/>
+      <line x1="17" y1="19.5" x2="17" y2="26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <line x1="17" y1="21" x2="13" y2="24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <line x1="17" y1="21" x2="21" y2="24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <line x1="17" y1="26" x2="13" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <line x1="17" y1="26" x2="21" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    <div class="logo-text">
+      <span>Adam Asmaca</span>
+      <span>Eğitim</span>
+    </div>
+  </div>
+  <a href="./index.html" class="back-btn">← Ana Sayfaya Dön</a>
+</div>
+
+<!-- ANA İÇERİK -->
+<div class="policy-root">
+
+  <!-- HERO -->
+  <div class="policy-hero">
+    <span class="policy-hero-emoji">📜</span>
+    <h1>Kullanım Koşulları</h1>
+    <p style="color:var(--color-text-muted);font-size:var(--text-sm);margin-bottom:var(--space-4);max-width:480px;margin-left:auto;margin-right:auto;">
+      <strong>Adam Asmaca - Eğitim</strong> uygulamasını kullanmadan önce lütfen aşağıdaki koşulları dikkatlice okuyunuz. Bu koşullar, hizmetimizi kullanma hakkınızı ve sorumluluklarınızı düzenlemektedir.
+    </p>
+    <div class="policy-hero-meta">
+      <span>📅 Son güncelleme: 31 Mayıs 2026</span>
+      <span>🇹🇷 Türk Hukuku</span>
+      <span>🎓 Eğitim Uygulaması</span>
+    </div>
+  </div>
+
+  <!-- KABUL BAŞLIĞI -->
+  <div class="acceptance-banner">
+    <div class="banner-icon">🤝</div>
+    <h2 style="font-family:var(--font-display);font-size:var(--text-lg);font-weight:800;margin:0;">Koşulları Kabul</h2>
+    <p>
+      Adam Asmaca - Eğitim uygulamasını indirerek, yükleyerek veya kullanmaya başlayarak bu Kullanım Koşulları'nı ve <a href="./gizlilik-politikasi.html" style="color:var(--color-primary);font-weight:600;">Gizlilik Politikası</a>'nı okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan etmiş olursunuz. Koşulları kabul etmiyorsanız lütfen uygulamayı kullanmayınız.
+    </p>
+  </div>
+
+  <!-- İÇİNDEKİLER -->
+  <div class="toc-card">
+    <div class="toc-title">📋 İçindekiler</div>
+    <ol class="toc-list">
+      <li><a href="#t1">Hizmetin Tanımı</a></li>
+      <li><a href="#t2">Kullanım Hakkı ve Lisans</a></li>
+      <li><a href="#t3">Hesap Oluşturma ve Güvenlik</a></li>
+      <li><a href="#t4">Kullanıcı Sorumlulukları</a></li>
+      <li><a href="#t5">Yasaklanan İçerikler ve Davranışlar</a></li>
+      <li><a href="#t6">Öğretmen Yükümlülükleri</a></li>
+      <li><a href="#t7">Fikri Mülkiyet Hakları</a></li>
+      <li><a href="#t8">Sorumluluk Sınırlaması</a></li>
+      <li><a href="#t9">Hizmetin Askıya Alınması ve Sonlandırılması</a></li>
+      <li><a href="#t10">Değişiklikler</a></li>
+      <li><a href="#t11">Uygulanacak Hukuk ve Uyuşmazlık Çözümü</a></li>
+      <li><a href="#t12">İletişim</a></li>
+    </ol>
+  </div>
+
+  <!-- BÖLÜM 1: HİZMETİN TANIMI -->
+  <div class="policy-section" id="t1">
+    <div class="section-header">
+      <div class="section-num">01</div>
+      <h2>Hizmetin Tanımı</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        <strong>Adam Asmaca - Eğitim</strong>, Türk öğrencilerin kelime hazinesi, imla ve dil becerilerini oyunlaştırılmış bir yöntemle geliştirmelerine yardımcı olan bir eğitim uygulamasıdır.
+      </p>
+
+      <p><strong>Uygulama aşağıdaki özellikleri sunmaktadır:</strong></p>
+      <ul>
+        <li>Sınıf düzeyine göre kategorize edilmiş Türkçe, Matematik ve diğer ders kelime listeleri</li>
+        <li>Klasik adam asmaca (hangman) oyun mekaniği</li>
+        <li>Google hesabıyla giriş ve ilerleme senkronizasyonu</li>
+        <li>Misafir modu (hesap gerektirmez)</li>
+        <li>Öğretmen paneli ile sınıf yönetimi ve öğrenci takibi</li>
+        <li>Rozet ve başarı sistemi</li>
+        <li>Hata yapılan kelimelerin kişisel çalışma listesi</li>
+      </ul>
+
+      <div class="info-box primary">
+        <div class="info-box-title">🆓 Ücretsiz Hizmet</div>
+        <p>Uygulama tamamen ücretsizdir. Uygulama içi satın alma, abonelik veya premium üyelik bulunmamaktadır. Gelecekte ücretli özellikler eklenmesi halinde kullanıcılar önceden bilgilendirilecektir.</p>
+      </div>
+
+      <p>
+        Uygulama, Google Play Store üzerinden dağıtılmakta olup Android platformu için optimize edilmiştir. Web tabanlı erişim de desteklenmektedir.
+      </p>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 2: LİSANS -->
+  <div class="policy-section" id="t2">
+    <div class="section-header">
+      <div class="section-num">02</div>
+      <h2>Kullanım Hakkı ve Lisans</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Bu Kullanım Koşulları'na uymak kaydıyla, size kişisel, münhasır olmayan, devredilemez, sınırlı bir lisans verilmektedir. Bu lisans kapsamında:
+      </p>
+      <ul>
+        <li>Uygulamayı kişisel eğitim ve öğretim amaçlı kullanabilirsiniz</li>
+        <li>Öğretmenler, sınıflarındaki öğrencilere uygulamayı tanıtabilir ve kullanımını teşvik edebilir</li>
+        <li>Uygulamayı ticari amaçlarla kullanmak için önceden yazılı izin almanız gerekmektedir</li>
+      </ul>
+
+      <div class="info-box warning">
+        <div class="info-box-title">🚫 Lisans Kapsamı Dışındaki Kullanımlar</div>
+        <p>Aşağıdaki kullanımlar bu lisans kapsamı dışındadır ve yasaktır:</p>
+        <ul style="margin-top: var(--space-2); padding-left: var(--space-4);">
+          <li>Uygulamanın kaynak kodunu tersine mühendislik yöntemiyle elde etmek</li>
+          <li>Uygulamayı kopyalamak, değiştirmek veya türev eserler oluşturmak</li>
+          <li>Uygulamayı başkalarına satmak, devretmek veya lisanslamak</li>
+          <li>Otomatik araçlarla (bot, scraper) veri toplamak</li>
+          <li>Uygulamanın güvenlik önlemlerini aşmaya çalışmak</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 3: HESAP -->
+  <div class="policy-section" id="t3">
+    <div class="section-header">
+      <div class="section-num">03</div>
+      <h2>Hesap Oluşturma ve Güvenlik</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Uygulamada hesap oluşturmak isteğe bağlıdır. Hesap oluşturmak için Google hesabınızla giriş yapmanız gerekmektedir. Hesap oluşturarak şunları taahhüt edersiniz:
+      </p>
+      <ul>
+        <li>Gerçek ve güncel bir Google hesabı kullanmak</li>
+        <li>Hesap bilgilerinizi başkalarıyla paylaşmamak</li>
+        <li>Hesabınızı yetkisiz kullanım durumunda derhal bize bildirmek</li>
+        <li>Başkasının kimliğine bürünmemek</li>
+      </ul>
+
+      <div class="info-box primary">
+        <div class="info-box-title">🔐 Güvenlik Notu</div>
+        <p>Parola yönetimi tamamen Google'ın sorumluluğundadır. Şüpheli hesap aktivitesi fark ederseniz <a href="https://myaccount.google.com/security" target="_blank" rel="noopener" style="color:var(--color-primary);">Google Hesap Güvenliği</a> sayfasını ziyaret edin.</p>
+      </div>
+
+      <p>
+        Her gerçek kişi yalnızca bir hesap oluşturabilir. Birden fazla hesap oluşturulduğunun tespiti halinde tüm hesaplar askıya alınabilir.
+      </p>
+
+      <p>
+        <strong>18 yaş altı kullanıcılar:</strong> 13 yaş altındaki çocukların Google hesabı açabilmesi için veli onayı gerekmektedir. Bu süreç Google'ın Family Link hizmeti aracılığıyla yönetilmektedir.
+      </p>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 4: KULLANICI SORUMLULUKLARI -->
+  <div class="policy-section" id="t4">
+    <div class="section-header">
+      <div class="section-num">04</div>
+      <h2>Kullanıcı Sorumlulukları</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Uygulamayı kullanırken aşağıdaki kurallara uymakla yükümlüsünüz:
+      </p>
+
+      <ul>
+        <li>Uygulamayı yalnızca yasalara ve bu koşullara uygun biçimde kullanmak</li>
+        <li>Diğer kullanıcılara veya sisteme zarar verebilecek eylemlerden kaçınmak</li>
+        <li>Uygulamanın normal işleyişini engelleyecek yoğun veya otomatik istekler göndermemek</li>
+        <li>Sahte oyun verisi veya puan manipülasyonu yapmamak</li>
+        <li>Güvenlik açıklarını keşfetmeniz durumunda sorumlu bir şekilde bildirmek</li>
+        <li>Sınıf sisteminde gerçek bir sınıfa ait kod kullanmak (test amaçlı sahte kayıtlar yapmamak)</li>
+      </ul>
+
+      <div class="info-box warning">
+        <div class="info-box-title">⚠️ Öğrenci Kullanıcılara Not</div>
+        <p>Öğrenciler, sınıf kodunu yalnızca öğretmenlerinden aldıkları durumlarda kullanmalıdır. Başka öğretmenlerin sınıflarına izinsiz katılmak yasaktır.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 5: YASAKLANAN İÇERİKLER -->
+  <div class="policy-section" id="t5">
+    <div class="section-header">
+      <div class="section-num">05</div>
+      <h2>Yasaklanan İçerikler ve Davranışlar</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Uygulama içinde aşağıdaki içerikler ve davranışlar <strong>kesinlikle yasaktır:</strong>
+      </p>
+
+      <ul class="prohibited-list">
+        <li><strong>Küfür ve hakaret içerikli kelimeler:</strong> Öğretmenler veya kullanıcılar tarafından sisteme eklenmeye çalışılan müstehcen, hakaret içeren ya da yaşa uygun olmayan kelimeler ve ifadeler.</li>
+        <li><strong>Ayrımcı içerik:</strong> Irk, etnik köken, din, cinsiyet, cinsel yönelim, engellilik durumu veya ulusal kökene dayalı nefret söylemi ya da ayrımcı içerik.</li>
+        <li><strong>Kişisel bilgi paylaşımı:</strong> Başka kullanıcıların kişisel bilgilerini (ad, adres, telefon, okul adı vb.) paylaşmak veya ifşa etmek.</li>
+        <li><strong>Sistem manipülasyonu:</strong> Puan, istatistik veya sıralama verisini hileli yollarla artırmak; otomatik araç veya bot kullanmak.</li>
+        <li><strong>Kimlik taklidi:</strong> Başka bir kullanıcı, öğretmen veya yönetici gibi davranmak.</li>
+        <li><strong>Telif hakkı ihlali:</strong> İzinsiz olarak başka kişi ya da kurumlara ait korumalı içeriği sisteme yüklemek veya paylaşmak.</li>
+        <li><strong>Ticari içerik:</strong> Uygulama içinde reklam, pazarlama veya ticari mesaj yayımlamak.</li>
+        <li><strong>Güvenlik tehditleri:</strong> Zararlı yazılım, phishing bağlantısı veya sistemin güvenliğini tehdit eden içerik paylaşmak.</li>
+      </ul>
+
+      <div class="info-box error">
+        <div class="info-box-title">⚖️ Yasal Uyarı</div>
+        <p>Yukarıdaki yasakların ihlali, hesabın kalıcı olarak askıya alınmasına ve gerekli durumlarda yetkili makamlara (Cumhuriyet Savcılığı, Bilgi Teknolojileri ve İletişim Kurumu) bildirim yapılmasına neden olabilir.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 6: ÖĞRETMEN YÜKÜMLÜLÜKLERİ -->
+  <div class="policy-section" id="t6">
+    <div class="section-header">
+      <div class="section-num">06</div>
+      <h2>Öğretmen Yükümlülükleri</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Öğretmen rolüne sahip kullanıcılar, standart kullanıcı yükümlülüklerine ek olarak aşağıdaki sorumluluklarla bağlıdır:
+      </p>
+
+      <div class="info-box warning" style="margin-bottom: var(--space-2);">
+        <div class="info-box-title">📝 İçerik Sorumluluğu</div>
+        <p>Öğretmenler sisteme kelime veya içerik eklerken yalnızca eğitim amacıyla, müfredata uygun, yaşa uygun ve etik içerikler eklemelidir. <strong>Kelime yükleyen tüm öğretmenlerin kimlik ve iletişim bilgileri kayıt altındadır.</strong> Uygunsuz içerik yüklenmesi durumunda idari işlem başlatılabilir.</p>
+      </div>
+
+      <ul>
+        <li><strong>Öğrenci mahremiyeti:</strong> Sınıf panelinden elde edilen öğrenci verilerini (adlar, istatistikler) üçüncü şahıslarla paylaşmamak, ticari amaçlarla kullanmamak.</li>
+        <li><strong>Veli bilgilendirmesi:</strong> Öğrencilerin uygulamayı kullanması için gerekli durumlarda velileri bilgilendirmek ve onaylarını almak.</li>
+        <li><strong>Gözetim sorumluluğu:</strong> Özellikle küçük öğrenciler için uygulamanın uygun biçimde kullanılmasını sağlamak.</li>
+        <li><strong>Sınıf kodu güvenliği:</strong> Sınıf kodunu yalnızca ilgili öğrencilerle paylaşmak; kodun yetkisiz kişilerce kullanıldığını fark etmek durumunda bize bildirmek.</li>
+        <li><strong>Kurum politikaları:</strong> Çalıştıkları okul veya kurumun dijital araç ve veri kullanım politikalarına uymak.</li>
+      </ul>
+
+      <div class="info-box primary">
+        <div class="info-box-title">🏫 Rol Atama Süreci</div>
+        <p>Öğretmen rolü, sistem yöneticisi tarafından başvuru incelendikten sonra manuel olarak atanır. Yetkisiz biçimde öğretmen rolü edinmeye çalışmak, hesabın kalıcı olarak kapatılmasına yol açar.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 7: FİKRİ MÜLKİYET -->
+  <div class="policy-section" id="t7">
+    <div class="section-header">
+      <div class="section-num">07</div>
+      <h2>Fikri Mülkiyet Hakları</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Adam Asmaca - Eğitim uygulaması ve içerdiği tüm materyaller (tasarım, kod, görseller, ses dosyaları, metin içerikleri, kelime listeleri, UI elementleri ve logo dahil) <strong>turkerpro</strong>'ya aittir ve Türk ve uluslararası fikri mülkiyet yasaları kapsamında korunmaktadır.
+      </p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>İçerik Türü</th>
+            <th>Sahiplik</th>
+            <th>Kullanım Kısıtlaması</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Uygulama kaynak kodu</td>
+            <td>turkerpro</td>
+            <td>Tüm hakları saklıdır</td>
+          </tr>
+          <tr>
+            <td>Tasarım ve kullanıcı arayüzü</td>
+            <td>turkerpro</td>
+            <td>Tüm hakları saklıdır</td>
+          </tr>
+          <tr>
+            <td>Müfredata dayalı kelime listeleri</td>
+            <td>turkerpro / MEB</td>
+            <td>Yalnızca kişisel eğitim amaçlı</td>
+          </tr>
+          <tr>
+            <td>Kullanıcının oyun verileri</td>
+            <td>Kullanıcı</td>
+            <td>Kullanıcı tam kontrol sahibidir</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Uygulama materyallerinin herhangi bir bölümünü ticari amaçla çoğaltmak, dağıtmak veya kamuya sunmak için önceden yazılı izin almanız gerekmektedir. İzin talebi için <a href="mailto:destek@adamasmaca.app" style="color:var(--color-primary);">destek@adamasmaca.app</a> adresine yazabilirsiniz.
+      </p>
+
+      <div class="info-box success">
+        <div class="info-box-title">✅ İzin Verilen Kullanımlar</div>
+        <p>Uygulamanın ekran görüntülerini eğitim amaçlı yayınlarda, sınıf tanıtımlarında veya akademik çalışmalarda kaynak belirterek kullanabilirsiniz.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 8: SORUMLULUK SINIRLAMASI -->
+  <div class="policy-section" id="t8">
+    <div class="section-header">
+      <div class="section-num">08</div>
+      <h2>Sorumluluk Sınırlaması</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Uygulamamız, "olduğu gibi" (as-is) sunulmaktadır. Aşağıdaki konularda azami özeni gösteriyor olsak da belirli güvenceleri sınırlandırmak zorundayız:
+      </p>
+
+      <div class="info-box warning">
+        <div class="info-box-title">⚠️ Sorumluluk Reddi</div>
+        <p>turkerpro, aşağıdaki durumlardan doğabilecek kayıplar için sorumluluk kabul etmez:</p>
+        <ul style="margin-top: var(--space-2); padding-left: var(--space-4);">
+          <li>Teknik arıza, sunucu kesintisi veya veri kaybı</li>
+          <li>Kullanıcıların hatalı kullanımından kaynaklanan zararlar</li>
+          <li>Firebase veya Google hizmetlerindeki kesinti ya da güvenlik açıklarından kaynaklanan durumlar</li>
+          <li>Üçüncü taraf hizmetlerin politika değişiklikleri</li>
+          <li>İnternet bağlantı sorunları veya cihaz uyumsuzlukları</li>
+          <li>Kullanıcı tarafından sisteme yüklenen içeriklerden doğan hukuki sorunlar</li>
+        </ul>
+      </div>
+
+      <p>
+        <strong>Eğitim İçeriği Sorumluluğu:</strong> Uygulamamızdaki kelime listeleri ve içerikler Türk Millî Eğitim Bakanlığı müfredatına dayanmaktadır; ancak içeriklerin eksiksizliği, güncelliği veya öğrencinin başarısına doğrudan etkisi konusunda garanti verilmemektedir. Uygulama, okul eğitiminin yerini almayı amaçlamaz; tamamlayıcı bir araç olarak sunulmaktadır.
+      </p>
+
+      <p>
+        <strong>Hizmet Sürekliliği:</strong> Uygulamayı istediğimiz zaman ve önceden bildirim yapmaksızın geçici olarak kısıtlama veya tamamen kapatma hakkımız saklıdır. Uzun süreli planlı kesintiler için önceden duyuru yapılmaya çalışılacaktır.
+      </p>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 9: HESAP SONLANDIRMA -->
+  <div class="policy-section" id="t9">
+    <div class="section-header">
+      <div class="section-num">09</div>
+      <h2>Hizmetin Askıya Alınması ve Sonlandırılması</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        <strong>Kullanıcı tarafından sonlandırma:</strong> Hesabınızı istediğiniz zaman silme hakkına sahipsiniz. Hesap silme talebinizi <a href="mailto:kvkk@adamasmaca.app" style="color:var(--color-primary);">kvkk@adamasmaca.app</a> adresine iletebilirsiniz. Silme işlemi 30 gün içinde tamamlanır.
+      </p>
+
+      <p>
+        <strong>Hizmet sağlayıcı tarafından sonlandırma:</strong> Aşağıdaki durumlarda hesabınız önceden bildirim yapılmaksızın askıya alınabilir ya da kalıcı olarak kapatılabilir:
+      </p>
+      <ul>
+        <li>Bu Kullanım Koşulları'nın ihlali</li>
+        <li>Yasal mevzuata aykırı davranış</li>
+        <li>Sisteme zarar verme girişimi</li>
+        <li>Diğer kullanıcıları taciz etme veya tehdit etme</li>
+        <li>Uzun süreli (24 ay üzeri) hesap hareketsizliği</li>
+      </ul>
+
+      <div class="info-box primary">
+        <div class="info-box-title">📤 Veri Taşınabilirliği</div>
+        <p>Hesabınızı kapatmadan önce oyun istatistiklerinizin bir kopyasını talep edebilirsiniz. Bunun için <a href="mailto:kvkk@adamasmaca.app" style="color:var(--color-primary);">kvkk@adamasmaca.app</a> adresine yazın.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 10: DEĞİŞİKLİKLER -->
+  <div class="policy-section" id="t10">
+    <div class="section-header">
+      <div class="section-num">10</div>
+      <h2>Değişiklikler</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Bu Kullanım Koşulları'nı zaman zaman güncelleme hakkımızı saklı tutarız. Değişiklikler aşağıdaki yollarla duyurulacaktır:
+      </p>
+      <ul>
+        <li>Bu sayfada "Son güncelleme" tarihinin revize edilmesi</li>
+        <li>Uygulama içinde bildirim gösterimi</li>
+        <li>Önemli değişikliklerde kayıtlı kullanıcılara e-posta bildirimi</li>
+      </ul>
+      <p>
+        Değişiklikler yayımlandıktan sonra uygulamayı kullanmaya devam etmeniz, güncellenmiş koşulları kabul ettiğiniz anlamına gelir. Yeni koşulları kabul etmiyorsanız hesabınızı silebilir ve uygulamayı misafir modunda kullanmaya devam edebilirsiniz.
+      </p>
+      <p>
+        Koşulların önceki sürümleri talep üzerine paylaşılabilir; bunun için <a href="mailto:destek@adamasmaca.app" style="color:var(--color-primary);">destek@adamasmaca.app</a> adresine yazabilirsiniz.
+      </p>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 11: HUKUK -->
+  <div class="policy-section" id="t11">
+    <div class="section-header">
+      <div class="section-num">11</div>
+      <h2>Uygulanacak Hukuk ve Uyuşmazlık Çözümü</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Bu Kullanım Koşulları, <strong>Türkiye Cumhuriyeti hukukuna</strong> tabi olup bu hukuka göre yorumlanacaktır. Uygulama hizmetinden kaynaklanan her türlü uyuşmazlıkta Türkiye mahkemeleri yetkili olacaktır.
+      </p>
+
+      <div class="info-box primary">
+        <div class="info-box-title">⚖️ Uygulanacak Mevzuat</div>
+        <ul style="padding-left: var(--space-4); margin-top: var(--space-2);">
+          <li>6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK)</li>
+          <li>6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun</li>
+          <li>5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen Suçlarla Mücadele Edilmesi Hakkında Kanun</li>
+          <li>6102 sayılı Türk Ticaret Kanunu</li>
+          <li>5237 sayılı Türk Ceza Kanunu (uygulanabilir maddeler)</li>
+          <li>Google Play Store Geliştirici Program Politikaları</li>
+        </ul>
+      </div>
+
+      <p>
+        <strong>Alternatif Uyuşmazlık Çözümü:</strong> Hukuki yollara başvurmadan önce uyuşmazlıkları e-posta yoluyla dostane biçimde çözmeye çalışırız. 30 gün içinde anlaşma sağlanamazsa taraflar yasal yollara başvurabilir.
+      </p>
+
+      <p>
+        <strong>Tüketici Hakları:</strong> Bu koşullar, Türkiye'deki tüketici koruma mevzuatından (6502 sayılı Tüketicinin Korunması Hakkında Kanun) doğan haklarınızı kısıtlamaz.
+      </p>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 12: İLETİŞİM -->
+  <div class="policy-section" id="t12">
+    <div class="section-header">
+      <div class="section-num">12</div>
+      <h2>İletişim</h2>
+    </div>
+    <div class="section-body">
+      <p>Kullanım Koşulları hakkında sorularınız veya endişeleriniz için aşağıdaki kanallardan bize ulaşabilirsiniz:</p>
+
+      <div class="contact-card">
+        <div class="contact-icon">📧</div>
+        <div class="contact-info">
+          <strong>Genel Destek ve Sorular</strong>
+          <a href="mailto:destek@adamasmaca.app">destek@adamasmaca.app</a>
+          <span style="color:var(--color-text-muted);font-size:12px;">Genel kullanım soruları ve teknik destek</span>
+        </div>
+      </div>
+
+      <div class="contact-card" style="margin-top: var(--space-3);">
+        <div class="contact-icon">⚖️</div>
+        <div class="contact-info">
+          <strong>Hukuki Bildirimler</strong>
+          <a href="mailto:hukuk@adamasmaca.app">hukuk@adamasmaca.app</a>
+          <span style="color:var(--color-text-muted);font-size:12px;">Telif hakkı ihlalleri, uyuşmazlık bildirimleri</span>
+        </div>
+      </div>
+
+      <div class="contact-card" style="margin-top: var(--space-3);">
+        <div class="contact-icon">🐛</div>
+        <div class="contact-info">
+          <strong>Güvenlik Açığı Bildirimi</strong>
+          <a href="https://github.com/turkerpro" target="_blank" rel="noopener">github.com/turkerpro</a>
+          <span style="color:var(--color-text-muted);font-size:12px;">Güvenlik açıklarını sorumlu biçimde bildirin</span>
+        </div>
+      </div>
+
+      <div class="info-box" style="margin-top: var(--space-4);">
+        <div class="info-box-title">🔗 İlgili Belgeler</div>
+        <p>
+          <a href="./gizlilik-politikasi.html" style="color:var(--color-primary);font-weight:600;">→ Gizlilik Politikası</a> — Kişisel verilerinizin nasıl işlendiği hakkında ayrıntılı bilgi.<br>
+          <a href="https://play.google.com/store" target="_blank" rel="noopener" style="color:var(--color-primary);font-weight:600;">→ Google Play Store</a> — Uygulamamızın resmi indirme sayfası.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="policy-footer">
+    <div>
+      <a href="./gizlilik-politikasi.html">Gizlilik Politikası</a> · 
+      <a href="./index.html">Ana Sayfa</a> · 
+      <a href="https://github.com/turkerpro" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div>© 2026 Adam Asmaca - Eğitim · turkerpro · Son güncelleme: 31 Mayıs 2026</div>
+    <div>Bu sayfa Türkiye Cumhuriyeti hukuku kapsamında hazırlanmıştır.</div>
+  </div>
+
+</div><!-- /policy-root -->
+
+</body>
+</html>

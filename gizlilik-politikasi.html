@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gizlilik Politikası - Adam Asmaca Eğitim</title>
+<meta name="description" content="Adam Asmaca Eğitim uygulamasının KVKK kapsamındaki gizlilik politikası. Kişisel verilerinizin nasıl toplandığını, işlendiğini ve korunduğunu öğrenin.">
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css?v=39">
+<style>
+  body {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space-4);
+    gap: 0;
+  }
+
+  .policy-root {
+    width: 100%;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-8);
+    padding-bottom: var(--space-16);
+  }
+
+  .policy-hero {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .policy-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at top, var(--color-primary-highlight) 0%, transparent 65%);
+    pointer-events: none;
+  }
+
+  .policy-hero-emoji {
+    font-size: 3rem;
+    margin-bottom: var(--space-4);
+    display: block;
+    position: relative;
+  }
+
+  .policy-hero h1 {
+    font-size: var(--text-xl);
+    font-weight: 800;
+    margin-bottom: var(--space-3);
+    position: relative;
+  }
+
+  .policy-hero-meta {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .policy-hero-meta span {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+  }
+
+  /* TABLE OF CONTENTS */
+  .toc-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+  }
+
+  .toc-title {
+    font-family: var(--font-display);
+    font-size: var(--text-md, 1.1rem);
+    font-weight: 800;
+    margin-bottom: var(--space-4);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .toc-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    counter-reset: toc-counter;
+  }
+
+  .toc-list li {
+    counter-increment: toc-counter;
+  }
+
+  .toc-list a {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: var(--text-sm);
+    font-weight: 500;
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-md);
+    transition: all 0.18s ease;
+  }
+
+  .toc-list a::before {
+    content: counter(toc-counter, decimal-leading-zero);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--color-primary);
+    background: var(--color-primary-highlight);
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .toc-list a:hover {
+    background: var(--color-surface-offset);
+    color: var(--color-primary);
+  }
+
+  /* SECTIONS */
+  .policy-section {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    scroll-margin-top: var(--space-6);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .section-num {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--color-primary);
+    background: var(--color-primary-highlight);
+    min-width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .section-header h2 {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  .section-body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    font-size: var(--text-sm);
+    line-height: 1.75;
+    color: var(--color-text);
+  }
+
+  .section-body p {
+    margin: 0;
+  }
+
+  .section-body ul, .section-body ol {
+    padding-left: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .section-body li {
+    line-height: 1.65;
+  }
+
+  .section-body strong {
+    color: var(--color-text);
+    font-weight: 700;
+  }
+
+  /* INFO BOXES */
+  .info-box {
+    background: var(--color-surface-offset);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-4) var(--space-5);
+    font-size: var(--text-sm);
+    line-height: 1.65;
+  }
+
+  .info-box.primary {
+    border-left: 3px solid var(--color-primary);
+    background: var(--color-primary-highlight);
+  }
+
+  .info-box.warning {
+    border-left: 3px solid var(--color-warning);
+    background: var(--color-surface-offset);
+  }
+
+  .info-box.success {
+    border-left: 3px solid var(--color-success);
+    background: var(--color-success-highlight);
+  }
+
+  .info-box-title {
+    font-weight: 700;
+    margin-bottom: var(--space-2);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  /* DATA TABLE */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--text-sm);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+  }
+
+  .data-table th {
+    background: var(--color-surface-offset);
+    padding: var(--space-3) var(--space-4);
+    text-align: left;
+    font-weight: 700;
+    color: var(--color-text-muted);
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .data-table td {
+    padding: var(--space-3) var(--space-4);
+    border-bottom: 1px solid var(--color-divider);
+    vertical-align: top;
+    line-height: 1.55;
+  }
+
+  .data-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .data-table tr:hover td {
+    background: var(--color-surface-offset);
+  }
+
+  /* TAGS */
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    border-radius: var(--radius-full);
+    font-size: 11px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .tag-primary { background: var(--color-primary-highlight); color: var(--color-primary); }
+  .tag-success { background: var(--color-success-highlight); color: var(--color-success); }
+  .tag-warning { background: var(--color-surface-offset); color: var(--color-warning); border: 1px solid var(--color-border); }
+
+  /* CONTACT CARD */
+  .contact-card {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    background: var(--color-surface-offset);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-4) var(--space-5);
+  }
+
+  .contact-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: var(--text-sm);
+  }
+
+  .contact-info strong {
+    font-size: var(--text-base);
+    font-weight: 700;
+  }
+
+  .contact-info a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
+  /* FOOTER */
+  .policy-footer {
+    text-align: center;
+    font-size: var(--text-xs);
+    color: var(--color-text-faint);
+    padding: var(--space-4);
+    border-top: 1px solid var(--color-divider);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    align-items: center;
+  }
+
+  .policy-footer a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .policy-footer a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 520px) {
+    .policy-section {
+      padding: var(--space-4);
+    }
+    .policy-hero {
+      padding: var(--space-6) var(--space-4);
+    }
+    .data-table th, .data-table td {
+      padding: var(--space-2) var(--space-3);
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header" style="width:100%;max-width:720px;">
+  <div class="logo">
+    <svg class="logo-icon" viewBox="0 0 36 36" fill="none" aria-label="Adam Asmaca">
+      <rect x="4" y="6" width="4" height="24" rx="2" fill="currentColor" opacity="0.3"/>
+      <rect x="4" y="6" width="14" height="4" rx="2" fill="currentColor" opacity="0.5"/>
+      <rect x="16" y="6" width="2" height="6" rx="1" fill="currentColor"/>
+      <circle cx="17" cy="16" r="3.5" stroke="currentColor" stroke-width="2" fill="none"/>
+      <line x1="17" y1="19.5" x2="17" y2="26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <line x1="17" y1="21" x2="13" y2="24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <line x1="17" y1="21" x2="21" y2="24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <line x1="17" y1="26" x2="13" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <line x1="17" y1="26" x2="21" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    <div class="logo-text">
+      <span>Adam Asmaca</span>
+      <span>Eğitim</span>
+    </div>
+  </div>
+  <a href="./index.html" class="back-btn">← Ana Sayfaya Dön</a>
+</div>
+
+<!-- ANA İÇERİK -->
+<div class="policy-root">
+
+  <!-- HERO -->
+  <div class="policy-hero">
+    <span class="policy-hero-emoji">🔒</span>
+    <h1>Gizlilik Politikası</h1>
+    <p style="color:var(--color-text-muted);font-size:var(--text-sm);margin-bottom:var(--space-4);max-width:480px;margin-left:auto;margin-right:auto;">
+      Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında, <strong>Adam Asmaca - Eğitim</strong> uygulamasında toplanan veriler ve haklarınız hakkında bilgi.
+    </p>
+    <div class="policy-hero-meta">
+      <span>📅 Son güncelleme: 31 Mayıs 2026</span>
+      <span>⚖️ KVKK Uyumlu</span>
+      <span>🇹🇷 Türk Hukuku</span>
+    </div>
+  </div>
+
+  <!-- İÇİNDEKİLER -->
+  <div class="toc-card">
+    <div class="toc-title">📋 İçindekiler</div>
+    <ol class="toc-list">
+      <li><a href="#s1">Veri Sorumlusu</a></li>
+      <li><a href="#s2">Toplanan Veriler</a></li>
+      <li><a href="#s3">Misafir Kullanıcılar</a></li>
+      <li><a href="#s4">Verilerin İşlenme Amaçları</a></li>
+      <li><a href="#s5">Verilerin Saklanması ve Güvenliği</a></li>
+      <li><a href="#s6">Saklama Süreleri</a></li>
+      <li><a href="#s7">Üçüncü Taraf Hizmetler</a></li>
+      <li><a href="#s8">Çerezler ve Yerel Depolama</a></li>
+      <li><a href="#s9">Öğretmen ve Öğrenci Rolleri</a></li>
+      <li><a href="#s10">KVKK Madde 11 - Kullanıcı Hakları</a></li>
+      <li><a href="#s11">Çocukların Gizliliği</a></li>
+      <li><a href="#s12">Politika Değişiklikleri</a></li>
+      <li><a href="#s13">İletişim</a></li>
+    </ol>
+  </div>
+
+  <!-- BÖLÜM 1: VERİ SORUMLUSU -->
+  <div class="policy-section" id="s1">
+    <div class="section-header">
+      <div class="section-num">01</div>
+      <h2>Veri Sorumlusu</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında <strong>veri sorumlusu</strong>, bu politikada tanımlanan kişisel verilerin işlenmesinden sorumlu olan gerçek ya da tüzel kişidir.
+      </p>
+      <div class="info-box primary">
+        <div class="info-box-title">🏢 Veri Sorumlusu Bilgileri</div>
+        <p><strong>Uygulama Adı:</strong> Adam Asmaca - Eğitim<br>
+        <strong>Geliştirici:</strong> turkerpro<br>
+        <strong>İletişim:</strong> <a href="mailto:gizlilik@adamasmaca.app" style="color:var(--color-primary);">gizlilik@adamasmaca.app</a><br>
+        <strong>GitHub:</strong> <a href="https://github.com/turkerpro" target="_blank" rel="noopener noreferrer" style="color:var(--color-primary);">github.com/turkerpro</a></p>
+      </div>
+      <p>
+        Bu Gizlilik Politikası, Adam Asmaca - Eğitim Android uygulaması ve web sürümü aracılığıyla sunulan tüm hizmetler için geçerlidir.
+      </p>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 2: TOPLANAN VERİLER -->
+  <div class="policy-section" id="s2">
+    <div class="section-header">
+      <div class="section-num">02</div>
+      <h2>Toplanan Veriler</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Uygulamamız, yalnızca hizmetin sunulması için zorunlu olan verileri toplar. <strong>Google hesabıyla giriş yapan kullanıcılar</strong> için aşağıdaki veriler işlenmektedir:
+      </p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Veri Kategorisi</th>
+            <th>Toplanan Veriler</th>
+            <th>Kaynak</th>
+            <th>Durum</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Google Profil Bilgileri</strong></td>
+            <td>Görünen ad (display name), e-posta adresi, profil fotoğrafı URL'si</td>
+            <td>Google Sign-In / Firebase Auth</td>
+            <td><span class="tag tag-primary">Zorunlu (giriş için)</span></td>
+          </tr>
+          <tr>
+            <td><strong>Oyun İstatistikleri</strong></td>
+            <td>Toplam oyun sayısı, kazanılan/kaybedilen oyun, puan, seri kayıtları, rozet verileri</td>
+            <td>Uygulama içi aktivite</td>
+            <td><span class="tag tag-primary">Zorunlu (senkronizasyon)</span></td>
+          </tr>
+          <tr>
+            <td><strong>Öğrenme Verileri</strong></td>
+            <td>Hata yapılan kelimeler, çalışılan konular ve ünite ilerlemesi</td>
+            <td>Oyun aktivitesi</td>
+            <td><span class="tag tag-primary">Zorunlu (kişiselleştirme)</span></td>
+          </tr>
+          <tr>
+            <td><strong>Sınıf Bilgileri</strong></td>
+            <td>Katılınan sınıf kodu, öğretmen ataması, sınıf üyeliği durumu</td>
+            <td>Öğretmen daveti ile</td>
+            <td><span class="tag tag-warning">İsteğe bağlı</span></td>
+          </tr>
+          <tr>
+            <td><strong>Cihaz Bilgileri</strong></td>
+            <td>İşletim sistemi sürümü, uygulama versiyonu, dil tercihi</td>
+            <td>Firebase SDK (otomatik)</td>
+            <td><span class="tag tag-warning">İsteğe bağlı</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="info-box warning">
+        <div class="info-box-title">⚠️ Önemli Bildirim</div>
+        <p>Kredi kartı, TC kimlik numarası, adres, telefon numarası gibi hassas kişisel veriler <strong>kesinlikle toplanmamaktadır.</strong> Uygulama ücretsizdir ve ödeme bilgisi gerektirmez.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 3: MİSAFİR KULLANICI -->
+  <div class="policy-section" id="s3">
+    <div class="section-header">
+      <div class="section-num">03</div>
+      <h2>Misafir Kullanıcılar</h2>
+    </div>
+    <div class="section-body">
+      <div class="info-box success">
+        <div class="info-box-title">✅ Misafir Modunda Veri Toplanmaz</div>
+        <p>Uygulamayı <strong>hesap oluşturmadan / giriş yapmadan</strong> misafir olarak kullanabilirsiniz. Bu durumda hiçbir kişisel veri toplanmaz, işlenmez veya saklanmaz.</p>
+      </div>
+      <p>
+        Misafir modunda oyun ilerlemesi, istatistikler ve rozetler yalnızca <strong>cihazınızda yerel olarak</strong> (localStorage) tutulur ve sunucularımıza aktarılmaz. Bu veriler tamamen sizin kontrolünüzdedir; uygulamayı sildiğinizde ya da tarayıcı verilerini temizlediğinizde otomatik olarak silinir.
+      </p>
+      <p>
+        Misafir modunda şu özellikler <strong>kullanılamaz:</strong>
+      </p>
+      <ul>
+        <li>Sınıf sistemine katılım</li>
+        <li>Sıralama tablolarında yer alma</li>
+        <li>Rozetlerin cihazlar arası senkronizasyonu</li>
+        <li>Öğretmen paneline erişim</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 4: AMAÇLAR -->
+  <div class="policy-section" id="s4">
+    <div class="section-header">
+      <div class="section-num">04</div>
+      <h2>Verilerin İşlenme Amaçları</h2>
+    </div>
+    <div class="section-body">
+      <p>KVKK Madde 5 uyarınca, kişisel verileriniz aşağıdaki amaçlarla ve hukuki dayanaklarla işlenmektedir:</p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Amaç</th>
+            <th>Açıklama</th>
+            <th>Hukuki Dayanak (KVKK Md. 5)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Kimlik Doğrulama</strong></td>
+            <td>Google hesabınızla güvenli giriş yapmanızı sağlamak</td>
+            <td>Sözleşmenin ifası (5/2-c)</td>
+          </tr>
+          <tr>
+            <td><strong>İlerleme Senkronizasyonu</strong></td>
+            <td>Oyun istatistiklerini ve rozetlerinizi cihazlar arasında eşitlemek</td>
+            <td>Sözleşmenin ifası (5/2-c)</td>
+          </tr>
+          <tr>
+            <td><strong>Kişiselleştirme</strong></td>
+            <td>Hata yaptığınız kelimeleri analiz ederek kişisel çalışma listeleri oluşturmak</td>
+            <td>Meşru menfaat (5/2-f)</td>
+          </tr>
+          <tr>
+            <td><strong>Sınıf Yönetimi</strong></td>
+            <td>Öğretmenlerin sınıf ilerlemesini takip etmesine imkân tanımak</td>
+            <td>Açık rıza (5/1) - isteğe bağlı</td>
+          </tr>
+          <tr>
+            <td><strong>Teknik İyileştirme</strong></td>
+            <td>Hata tespiti ve uygulama kalitesini artırmak</td>
+            <td>Meşru menfaat (5/2-f)</td>
+          </tr>
+          <tr>
+            <td><strong>Güvenlik</strong></td>
+            <td>Kötüye kullanımı önlemek, hesabınızı korumak</td>
+            <td>Kanuni yükümlülük (5/2-ç)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="info-box primary">
+        <div class="info-box-title">📢 Açık Rıza Gerektiren İşlemler</div>
+        <p>Sınıf sistemine katılım isteğe bağlıdır. Bu özelliği kullanmak istediğinizde uygulama içinde ayrıca onay alınır. Onay vermemeniz, uygulamanın temel özelliklerini etkilemez.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 5: SAKLAMA VE GÜVENLİK -->
+  <div class="policy-section" id="s5">
+    <div class="section-header">
+      <div class="section-num">05</div>
+      <h2>Verilerin Saklanması ve Güvenliği</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Tüm kişisel veriler, <strong>Google Firebase</strong> altyapısı üzerinde saklanmaktadır. Firebase, Google LLC tarafından işletilmekte ve veri merkezi konumları Avrupa (Belçika, Hollanda, Finlandiya) ve Amerika Birleşik Devletleri'ni kapsamaktadır.
+      </p>
+
+      <div class="info-box warning">
+        <div class="info-box-title">🌍 Yurt Dışı Veri Aktarımı</div>
+        <p>Verileriniz Google'ın sunucularında işlenmekte olup bu sunucular yurt dışında (AB ve ABD) konumlanabilir. Firebase, AB-ABD Veri Gizliliği Çerçevesi ve Standart Sözleşme Maddeleri kapsamında GDPR ile uyumludur. Türkiye'den yurt dışına veri aktarımı, KVKK Madde 9 kapsamında gerekli güvenceler sağlanarak gerçekleştirilmektedir.</p>
+      </div>
+
+      <p><strong>Uygulanan Güvenlik Önlemleri:</strong></p>
+      <ul>
+        <li>Tüm veri iletişiminde TLS/HTTPS şifreleme</li>
+        <li>Firebase Security Rules ile kullanıcı bazlı erişim kontrolü (her kullanıcı yalnızca kendi verisine erişebilir)</li>
+        <li>Google'ın ISO 27001, SOC 2, SOC 3 sertifikalı güvenlik altyapısı</li>
+        <li>Parola bilgisi uygulamada saklanmamaktadır (kimlik doğrulama tamamen Google'a devredilmiştir)</li>
+        <li>Profil fotoğrafı yalnızca URL olarak saklanır; görüntü dosyası sistemimizde barındırılmaz</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 6: SAKLAMA SÜRELERİ -->
+  <div class="policy-section" id="s6">
+    <div class="section-header">
+      <div class="section-num">06</div>
+      <h2>Saklama Süreleri</h2>
+    </div>
+    <div class="section-body">
+      <p>Verileriniz, ilgili amaçla sınırlı olarak saklanmakta ve amacın ortadan kalkmasıyla birlikte silinmektedir:</p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Veri Türü</th>
+            <th>Saklama Süresi</th>
+            <th>Silme Koşulu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Google profil bilgileri (ad, e-posta)</td>
+            <td>Hesap aktif olduğu sürece</td>
+            <td>Hesap silme talebi</td>
+          </tr>
+          <tr>
+            <td>Oyun istatistikleri ve rozetler</td>
+            <td>Hesap aktif olduğu sürece</td>
+            <td>Hesap silme talebi</td>
+          </tr>
+          <tr>
+            <td>Hata yapılan kelimeler</td>
+            <td>Hesap aktif olduğu sürece</td>
+            <td>Kullanıcı talebi veya hesap silme</td>
+          </tr>
+          <tr>
+            <td>Sınıf üyeliği bilgileri</td>
+            <td>Sınıftan ayrılana kadar</td>
+            <td>Sınıftan çıkış veya hesap silme</td>
+          </tr>
+          <tr>
+            <td>Yerel depolama verileri (misafir modu)</td>
+            <td>Cihazda kalıcı (siz silene kadar)</td>
+            <td>Tarayıcı/uygulama verilerini temizleme</td>
+          </tr>
+          <tr>
+            <td>Güvenlik günlükleri (Firebase)</td>
+            <td>90 gün</td>
+            <td>Otomatik</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Hesabınızı silmek istediğinizde, Firestore'daki tüm kişisel verileriniz <strong>30 gün içinde</strong> kalıcı olarak silinir. Firebase Authentication kaydınız ise anında kaldırılır.
+      </p>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 7: ÜÇÜNCÜ TARAF HİZMETLER -->
+  <div class="policy-section" id="s7">
+    <div class="section-header">
+      <div class="section-num">07</div>
+      <h2>Üçüncü Taraf Hizmetler</h2>
+    </div>
+    <div class="section-body">
+      <p>Uygulamamız, hizmet kalitesini artırmak için aşağıdaki üçüncü taraf hizmetlerden yararlanmaktadır:</p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Hizmet</th>
+            <th>Sağlayıcı</th>
+            <th>Amaç</th>
+            <th>Gizlilik Politikası</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Firebase Authentication</strong></td>
+            <td>Google LLC</td>
+            <td>Kullanıcı kimlik doğrulama</td>
+            <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener" style="color:var(--color-primary);">Görüntüle</a></td>
+          </tr>
+          <tr>
+            <td><strong>Cloud Firestore</strong></td>
+            <td>Google LLC</td>
+            <td>Veri tabanı (oyun verileri)</td>
+            <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener" style="color:var(--color-primary);">Görüntüle</a></td>
+          </tr>
+          <tr>
+            <td><strong>Google Sign-In</strong></td>
+            <td>Google LLC</td>
+            <td>OAuth kimlik doğrulama</td>
+            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:var(--color-primary);">Görüntüle</a></td>
+          </tr>
+          <tr>
+            <td><strong>Firebase Analytics</strong></td>
+            <td>Google LLC</td>
+            <td>Anonim kullanım istatistikleri</td>
+            <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener" style="color:var(--color-primary);">Görüntüle</a></td>
+          </tr>
+          <tr>
+            <td><strong>Google Fonts</strong></td>
+            <td>Google LLC</td>
+            <td>Yazı tipi hizmeti</td>
+            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:var(--color-primary);">Görüntüle</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="info-box warning">
+        <div class="info-box-title">ℹ️ Firebase Analytics Hakkında</div>
+        <p>Firebase Analytics, bireysel kullanıcıları tanımlamadan toplu kullanım istatistikleri toplar. IP adresi anonimleştirme etkindir. Bu hizmeti Google Play Store ayarlarından devre dışı bırakabilirsiniz.</p>
+      </div>
+
+      <p>Bu üçüncü taraf hizmetlerin kendi gizlilik politikaları bulunmaktadır. Onların politikaları üzerinde kontrolümüz yoktur ve bu politikada yer alan içerikten sorumlu değiliz.</p>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 8: ÇEREZLER -->
+  <div class="policy-section" id="s8">
+    <div class="section-header">
+      <div class="section-num">08</div>
+      <h2>Çerezler ve Yerel Depolama</h2>
+    </div>
+    <div class="section-body">
+      <p>Uygulamamız, kullanıcı deneyimini iyileştirmek amacıyla cihazınızda yerel depolama (localStorage) kullanmaktadır.</p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Depolama Anahtarı</th>
+            <th>İçerik</th>
+            <th>Süre</th>
+            <th>Sunucuya Gönderilir mi?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code style="font-family:monospace;font-size:12px;">hangman_theme</code></td>
+            <td>Seçilen tema (dark/light)</td>
+            <td>Kalıcı</td>
+            <td><span class="tag tag-success">Hayır</span></td>
+          </tr>
+          <tr>
+            <td><code style="font-family:monospace;font-size:12px;">hangman_grade</code></td>
+            <td>Son seçilen sınıf</td>
+            <td>Kalıcı</td>
+            <td><span class="tag tag-success">Hayır</span></td>
+          </tr>
+          <tr>
+            <td><code style="font-family:monospace;font-size:12px;">hangman_stats_*</code></td>
+            <td>Misafir modu oyun istatistikleri</td>
+            <td>Kalıcı</td>
+            <td><span class="tag tag-success">Hayır</span></td>
+          </tr>
+          <tr>
+            <td><code style="font-family:monospace;font-size:12px;">firebase:*</code></td>
+            <td>Firebase oturum belirteci</td>
+            <td>Oturum süresi</td>
+            <td><span class="tag tag-primary">Evet (Firebase)</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        <strong>Web sürümü için çerez bildirimi:</strong> Uygulamamız, pazarlama veya takip çerezleri kullanmamaktadır. Firebase Authentication için zorunlu oturum çerezleri kullanılabilir. Bu çerezler, hizmetin temel işleyişi için gereklidir ve engellenmeleri durumunda giriş yapılamamaktadır.
+      </p>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 9: ROLLER -->
+  <div class="policy-section" id="s9">
+    <div class="section-header">
+      <div class="section-num">09</div>
+      <h2>Öğretmen ve Öğrenci Rolleri</h2>
+    </div>
+    <div class="section-body">
+
+      <div class="info-box primary" style="margin-bottom: var(--space-4);">
+        <div class="info-box-title">🏫 Öğretmen Rolü</div>
+        <p>Öğretmen rolü, sistem yöneticisi tarafından manuel olarak atanır. Öğretmenler şu verilere erişebilir:</p>
+        <ul style="margin-top: var(--space-2); padding-left: var(--space-4);">
+          <li>Kendi sınıflarına kayıtlı öğrencilerin <strong>adları ve e-posta adresleri</strong></li>
+          <li>Öğrencilerin oyun istatistikleri (puan, oyun sayısı, kazanma oranı)</li>
+          <li>Sınıf geneli sıralama tablosu</li>
+        </ul>
+        <p style="margin-top: var(--space-2);">Öğretmenler, başka sınıflara ait öğrenci verilerine <strong>kesinlikle erişemez.</strong></p>
+      </div>
+
+      <div class="info-box primary">
+        <div class="info-box-title">🎓 Öğrenci Rolü</div>
+        <p>Öğrenci rolündeki kullanıcılar, sınıf kodunu girerek bir sınıfa katılabilir. Bu işlemde:</p>
+        <ul style="margin-top: var(--space-2); padding-left: var(--space-4);">
+          <li>Öğrencinin adı ve e-postası, öğretmeninin panelinde görünür hale gelir</li>
+          <li>Oyun istatistikleri sınıf sıralamasına dahil edilir</li>
+          <li>Katılım öncesinde kullanıcı bilgilendirilir ve onay alınır</li>
+        </ul>
+        <p style="margin-top: var(--space-2);">Sınıftan istediğiniz zaman ayrılabilirsiniz; bu durumda verileriniz öğretmen panelinden kaldırılır.</p>
+      </div>
+
+      <p>
+        <strong>Veri Minimizasyonu:</strong> Sınıf sistemi yalnızca eğitim amaçlıdır. Öğrenci verilerinin herhangi bir ticari amaçla kullanılması veya üçüncü taraflarla paylaşılması kesinlikle yasaktır.
+      </p>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 10: KVKK HAKLARI -->
+  <div class="policy-section" id="s10">
+    <div class="section-header">
+      <div class="section-num">10</div>
+      <h2>KVKK Madde 11 – Kullanıcı Hakları</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 11. maddesi uyarınca kişisel verileriniz hakkında aşağıdaki haklara sahipsiniz:
+      </p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Hak</th>
+            <th>Kapsamı</th>
+            <th>Yanıt Süresi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>📋 <strong>Bilgi Edinme</strong></td>
+            <td>Hangi kişisel verilerinizin işlendiğini öğrenme hakkı (Md. 11/1-a)</td>
+            <td>30 gün</td>
+          </tr>
+          <tr>
+            <td>🔍 <strong>Erişim</strong></td>
+            <td>İşlenen kişisel verilerinize erişim ve kopya talep etme hakkı (Md. 11/1-b)</td>
+            <td>30 gün</td>
+          </tr>
+          <tr>
+            <td>✏️ <strong>Düzeltme</strong></td>
+            <td>Yanlış veya eksik verilerinizin düzeltilmesini talep etme hakkı (Md. 11/1-c)</td>
+            <td>30 gün</td>
+          </tr>
+          <tr>
+            <td>🗑️ <strong>Silme</strong></td>
+            <td>İşleme amacı ortadan kalktığında verilerinizin silinmesini isteme hakkı (Md. 11/1-d)</td>
+            <td>30 gün</td>
+          </tr>
+          <tr>
+            <td>🔔 <strong>Bildirme</strong></td>
+            <td>Düzeltme/silme işleminin üçüncü taraflara bildirilmesini isteme (Md. 11/1-e)</td>
+            <td>30 gün</td>
+          </tr>
+          <tr>
+            <td>❌ <strong>İtiraz</strong></td>
+            <td>Otomatik sistemlerle aleyhinize sonuç doğuran işlemlere itiraz etme (Md. 11/1-f)</td>
+            <td>30 gün</td>
+          </tr>
+          <tr>
+            <td>⚖️ <strong>Tazminat</strong></td>
+            <td>Hukuka aykırı işleme nedeniyle doğan zararın giderilmesini talep etme (Md. 11/1-g)</td>
+            <td>Yasal süreç</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="info-box primary">
+        <div class="info-box-title">📬 Başvuru Yöntemi</div>
+        <p>Haklarınızı kullanmak için aşağıdaki yollardan bizimle iletişime geçebilirsiniz:</p>
+        <ul style="margin-top: var(--space-2); padding-left: var(--space-4);">
+          <li>E-posta ile: <a href="mailto:kvkk@adamasmaca.app" style="color:var(--color-primary);">kvkk@adamasmaca.app</a></li>
+          <li>Taleplerin <strong>kimlik doğrulaması</strong> yapıldıktan sonra işleme alınacağını belirtmek isteriz.</li>
+          <li>Yanıtlar, talep tarihinden itibaren en geç <strong>30 gün</strong> içinde verilecektir.</li>
+        </ul>
+        <p style="margin-top: var(--space-2);">Kişisel Verileri Koruma Kurumu'na (KVKK) şikâyette bulunma hakkınız her zaman saklıdır: <a href="https://www.kvkk.gov.tr" target="_blank" rel="noopener" style="color:var(--color-primary);">www.kvkk.gov.tr</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 11: ÇOCUKLAR -->
+  <div class="policy-section" id="s11">
+    <div class="section-header">
+      <div class="section-num">11</div>
+      <h2>Çocukların Gizliliği</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Adam Asmaca - Eğitim, Türk ilkokul, ortaokul ve lise öğrencilerine yönelik eğitim amaçlı bir uygulamadır. Bu nedenle 18 yaş altı kullanıcılar, uygulamanın birincil hedef kitlesini oluşturmaktadır.
+      </p>
+
+      <div class="info-box warning">
+        <div class="info-box-title">👨‍👩‍👧 Veli/Vasi Bilgilendirmesi</div>
+        <p>13 yaş altındaki çocukların Google hesabı açması için veli/vasi onayı gerekmekte olup bu süreç Google'ın kendi politikaları kapsamında yönetilmektedir. Çocuklarınızın uygulama verilerini talep etmek veya silmek için <a href="mailto:kvkk@adamasmaca.app" style="color:var(--color-primary);">kvkk@adamasmaca.app</a> adresine başvurabilirsiniz.</p>
+      </div>
+
+      <p>
+        Uygulamada reklam gösterilmemekte, çocuklara yönelik profil oluşturulmamakta ve davranışsal hedefleme yapılmamaktadır. Çocuk kullanıcıların verileri yalnızca eğitim hizmetini sunmak amacıyla işlenmektedir.
+      </p>
+
+      <p>
+        Öğretmen paneli aracılığıyla öğrenci verilerine erişen öğretmenlerin, ilgili okul/kurum gizlilik politikaları ve mevzuat çerçevesinde hareket etmesi beklenmektedir.
+      </p>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 12: DEĞİŞİKLİKLER -->
+  <div class="policy-section" id="s12">
+    <div class="section-header">
+      <div class="section-num">12</div>
+      <h2>Politika Değişiklikleri</h2>
+    </div>
+    <div class="section-body">
+      <p>
+        Bu Gizlilik Politikası, yasal düzenlemeler, hizmet değişiklikleri veya yeni özellik eklemeleri nedeniyle zaman zaman güncellenebilir.
+      </p>
+      <p>
+        Önemli değişiklikler olması halinde:
+      </p>
+      <ul>
+        <li>Bu sayfada "Son güncelleme" tarihi revize edilir</li>
+        <li>Uygulama içinde bildirim gösterilir</li>
+        <li>Hesap sahiplerine e-posta bildirimi gönderilir (önemli değişikliklerde)</li>
+      </ul>
+      <p>
+        Güncellemeden sonra uygulamayı kullanmaya devam etmeniz, yeni politikayı kabul ettiğiniz anlamına gelir. Politikayı kabul etmemeniz durumunda hesabınızı silebilir ve uygulamayı misafir modunda kullanmaya devam edebilirsiniz.
+      </p>
+    </div>
+  </div>
+
+  <!-- BÖLÜM 13: İLETİŞİM -->
+  <div class="policy-section" id="s13">
+    <div class="section-header">
+      <div class="section-num">13</div>
+      <h2>İletişim</h2>
+    </div>
+    <div class="section-body">
+      <p>Gizlilik politikasıyla ilgili sorularınız, talepleriniz veya şikâyetleriniz için bizimle iletişime geçebilirsiniz:</p>
+
+      <div class="contact-card">
+        <div class="contact-icon">📧</div>
+        <div class="contact-info">
+          <strong>Genel Destek</strong>
+          <a href="mailto:destek@adamasmaca.app">destek@adamasmaca.app</a>
+          <span style="color:var(--color-text-muted);font-size:12px;">Teknik sorunlar ve genel sorular</span>
+        </div>
+      </div>
+
+      <div class="contact-card" style="margin-top: var(--space-3);">
+        <div class="contact-icon">⚖️</div>
+        <div class="contact-info">
+          <strong>KVKK Başvuruları</strong>
+          <a href="mailto:kvkk@adamasmaca.app">kvkk@adamasmaca.app</a>
+          <span style="color:var(--color-text-muted);font-size:12px;">Veri erişim, düzeltme ve silme talepleri</span>
+        </div>
+      </div>
+
+      <div class="contact-card" style="margin-top: var(--space-3);">
+        <div class="contact-icon">🔒</div>
+        <div class="contact-info">
+          <strong>Gizlilik Sorumlusu</strong>
+          <a href="mailto:gizlilik@adamasmaca.app">gizlilik@adamasmaca.app</a>
+          <span style="color:var(--color-text-muted);font-size:12px;">Gizlilik politikası ile ilgili sorular</span>
+        </div>
+      </div>
+
+      <div class="info-box" style="margin-top: var(--space-4);">
+        <div class="info-box-title">🏛️ Kişisel Verileri Koruma Kurumu</div>
+        <p>Başvurularınızın yanıt almaması veya yanıttan memnun olmamanız durumunda <strong>Kişisel Verileri Koruma Kurumu</strong>'na şikâyette bulunabilirsiniz:</p>
+        <p style="margin-top: var(--space-2);"><strong>Web:</strong> <a href="https://www.kvkk.gov.tr" target="_blank" rel="noopener" style="color:var(--color-primary);">www.kvkk.gov.tr</a><br>
+        <strong>Adres:</strong> Nasuh Akar Mah. Ziyabey Cad. 1407. Sok. No:4, 06520 Balgat/Ankara</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="policy-footer">
+    <div>
+      <a href="./kullanim-kosullari.html">Kullanım Koşulları</a> · 
+      <a href="./index.html">Ana Sayfa</a> · 
+      <a href="https://github.com/turkerpro" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div>© 2026 Adam Asmaca - Eğitim · turkerpro · Son güncelleme: 31 Mayıs 2026</div>
+    <div>Bu sayfa 6698 sayılı KVKK kapsamında hazırlanmıştır.</div>
+  </div>
+
+</div><!-- /policy-root -->
+
+</body>
+</html>
