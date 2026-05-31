@@ -145,7 +145,9 @@ const FB = {
   async getRole(uid) {
     try {
       const snap = await getDoc(userProfileDoc(uid));
-      return snap.exists() ? (snap.data().role || "student") : "student";
+      if (!snap.exists()) return "student";
+      const data = snap.data();
+      return (data.role || data.Role || "student").toLowerCase();
     } catch (e) {
       return "student";
     }
