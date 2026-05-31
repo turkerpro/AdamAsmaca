@@ -1472,7 +1472,14 @@
 
 /* Sayfa içi Tablo Taşımasını Önleme */
 table {
-  display: block;
+  width: 100%;
   max-width: 100%;
-  overflow-x: auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+td, th {
+  white-space: normal !important;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
