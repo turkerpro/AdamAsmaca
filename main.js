@@ -707,20 +707,12 @@ function processTeacherCSVRows(rows) {
 function getTeacherWordsForCurrentUnit() {
   if (!selectedGrade || !selectedSubject || !selectedUnit) return [];
   try {
-    let firebaseWords = [];
-    if (window.classCustomWords && Array.isArray(window.classCustomWords)) {
-      firebaseWords = window.classCustomWords.map(w => ({
-        word: w.word,
-        hint: w.hint || "Öğretmen Kelimesi"
-      }));
-    }
-
     const raw = SafeStorage.getItem("adamAsmacaTeacherWords");
-    if (!raw) return [...firebaseWords];
+    if (!raw) return [];
     const allTeacherWords = JSON.parse(raw);
-    if (!Array.isArray(allTeacherWords)) return [...firebaseWords];
+    if (!Array.isArray(allTeacherWords)) return [];
     
-    const localWords = allTeacherWords.filter(item => {
+    return allTeacherWords.filter(item => {
       const matchGrade = item.grade === selectedGrade.grade;
       const matchSubject = item.subjectId === selectedSubject.id;
       
@@ -731,15 +723,9 @@ function getTeacherWordsForCurrentUnit() {
       word: item.word,
       hint: item.hint
     }));
-
-    return [...localWords, ...firebaseWords];
   } catch (err) {
     console.error("Hata: Öğretmen kelimeleri alınamadı:", err);
-    let fWords = [];
-    if (window.classCustomWords && Array.isArray(window.classCustomWords)) {
-      fWords = window.classCustomWords.map(w => ({ word: w.word, hint: w.hint || "Öğretmen Kelimesi" }));
-    }
-    return fWords;
+    return [];
   }
 }
 
@@ -990,12 +976,13 @@ async function initStudentClassUI(user) {
     const card = document.createElement("div");
     card.id = "join-class-grade-card";
     card.className = "grade-card";
-    card.style.cssText = "border: 2px solid var(--color-primary); cursor: default;";
+    card.style.cssText = "border: 2px solid var(--color-primary); cursor: pointer; background: var(--color-surface-offset);";
     card.innerHTML = `
-      <span style="font-size:1.8rem;">✅</span>
-      <span class="grade-card-label">Sınıfım</span>
-      <span class="grade-card-sub">${escapeHtmlInline(className)}</span>
+      <span style="font-size:1.8rem;">🎒</span>
+      <span class="grade-card-label">Sınıf Kelimeleri</span>
+      <span class="grade-card-sub">${escapeHtmlInline(className)} (${window.classCustomWords?.length || 0} Özel Soru)</span>
     `;
+    card.addEventListener("click", startClassGame);
     gradeList.appendChild(card);
   }
 }
@@ -1862,6 +1849,30 @@ function startBackgroundPrefetch() {
     }
   }
   setTimeout(fetchNext, 3000);
+}
+
+function startClassGame() {
+  if (!window.classCustomWords || window.classCustomWords.length === 0) {
+    showNotificationToast("⚠️ Öğretmeniniz henüz bu sınıfa özel kelime eklememiş.");
+    return;
+  }
+  
+  selectedGrade = { group: "exam", emoji: "🏫", grade: "Sınıf" };
+  selectedSubject = { name: "Sınıf Kelimeleri", id: "class" };
+  selectedUnit = { name: "Özel Sorular" };
+  
+  const words = window.classCustomWords.map(w => ({
+    word: w.word,
+    hint: w.hint || "Sınıf Kelimesi"
+  }));
+  
+  const shuffled = [...words].sort(() => Math.random() - 0.5);
+  WORD_BANK = shuffled;
+  availableWords = [...WORD_BANK];
+  
+  applyGradeTheme(99); 
+  newGame();
+  showGameScreen();
 }
 
 async function startRandomGame(fixedGradeNum = null) {
