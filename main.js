@@ -712,7 +712,7 @@ function getTeacherWordsForCurrentUnit() {
     const allTeacherWords = JSON.parse(raw);
     if (!Array.isArray(allTeacherWords)) return [];
     
-    return allTeacherWords.filter(item => {
+    const localWords = allTeacherWords.filter(item => {
       const matchGrade = item.grade === selectedGrade.grade;
       const matchSubject = item.subjectId === selectedSubject.id;
       
@@ -723,9 +723,19 @@ function getTeacherWordsForCurrentUnit() {
       word: item.word,
       hint: item.hint
     }));
+
+    let firebaseWords = [];
+    if (window.classCustomWords && Array.isArray(window.classCustomWords)) {
+      firebaseWords = window.classCustomWords.map(w => ({
+        word: w.word,
+        hint: w.hint || "Öğretmen Kelimesi"
+      }));
+    }
+
+    return [...localWords, ...firebaseWords];
   } catch (err) {
     console.error("Hata: Öğretmen kelimeleri alınamadı:", err);
-    return [];
+    return window.classCustomWords || [];
   }
 }
 
@@ -1047,7 +1057,8 @@ async function syncStudentStatsToClass() {
   await window.FB.saveStudentStats(studentClassCode, user.uid, {
     totalGames: stats.totalGames || 0,
     gamesWon:   stats.gamesWon   || 0,
-    score:      gameState.score  || 0
+    score:      gameState.score  || 0,
+    mistakes:   MISTAKES.get()   || {}
   });
 }
 

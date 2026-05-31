@@ -266,6 +266,7 @@ const FB = {
           gamesWon:   stats.gamesWon   || 0,
           score:      stats.score      || 0
         },
+        mistakes: stats.mistakes || {},
         lastActive: serverTimestamp()
       }, { merge: true });
     } catch (e) {
@@ -283,6 +284,51 @@ const FB = {
     } catch (e) {
       console.error("getClassMembers:", e);
       return [];
+    }
+  },
+
+  // Sınıfa özel kelime ekle (Öğretmen)
+  async addClassWord(classCode, wordText, hint, category = "Özel Eklenti") {
+    if (!classCode || !wordText || !this.currentUser) return false;
+    try {
+      const wordsCol = collection(db, "classes", classCode.toUpperCase(), "words");
+      await addDoc(wordsCol, {
+        word: wordText.toUpperCase(),
+        hint: hint || "",
+        category: category,
+        teacherUid: this.currentUser.uid,
+        createdAt: serverTimestamp()
+      });
+      return true;
+    } catch (e) {
+      console.error("addClassWord:", e);
+      return false;
+    }
+  },
+
+  // Sınıfa özel kelimeleri getir (Öğretmen ve Öğrenci)
+  async getClassWords(classCode) {
+    if (!classCode) return [];
+    try {
+      const wordsCol = collection(db, "classes", classCode.toUpperCase(), "words");
+      const q = query(wordsCol, orderBy("createdAt", "desc"));
+      const snap = await getDocs(q);
+      return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+    } catch (e) {
+      console.error("getClassWords:", e);
+      return [];
+    }
+  },
+
+  // Sınıfa özel kelimeyi sil (Öğretmen)
+  async deleteClassWord(classCode, wordId) {
+    if (!classCode || !wordId) return false;
+    try {
+      await deleteDoc(doc(db, "classes", classCode.toUpperCase(), "words", wordId));
+      return true;
+    } catch (e) {
+      console.error("deleteClassWord:", e);
+      return false;
     }
   },
 
