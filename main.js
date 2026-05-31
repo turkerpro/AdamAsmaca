@@ -950,13 +950,13 @@ async function initStudentClassUI(user) {
   document.querySelectorAll(".join-class-grade-card").forEach(el => el.remove());
 
   if (studentClassCodes.length === 0) {
-    const card = document.createElement("div");
-    card.className = "grade-card join-class-grade-card";
-    card.style.cssText = "border: 2px dashed var(--color-primary); opacity: 0.85;";
+    const card = document.createElement("button");
+    card.className = "grid-card join-class-grade-card";
+    card.style.cssText = "border: 2px dashed var(--color-primary); background: transparent; opacity: 0.9;";
     card.innerHTML = `
-      <span style="font-size:1.8rem;">🏫</span>
-      <span class="grade-card-label">Sınıfa Katıl</span>
-      <span class="grade-card-sub">Öğretmen kodu gir</span>
+      <span class="card-emoji">🏫</span>
+      <span>Sınıfa Katıl</span>
+      <span class="grade-saved-hint" style="color:var(--color-primary);font-size:11px;">Öğretmen kodu gir</span>
     `;
     card.addEventListener("click", () => openJoinClassOverlay(user));
     gradeList.insertBefore(card, gradeList.firstChild);
@@ -965,13 +965,13 @@ async function initStudentClassUI(user) {
       const classInfo = await window.FB.getClassInfo(code).catch(() => null);
       if (!classInfo) continue;
       
-      const card = document.createElement("div");
-      card.className = "grade-card join-class-grade-card";
-      card.style.cssText = "border: 2px solid var(--color-primary); cursor: pointer; background: var(--color-surface-offset);";
+      const card = document.createElement("button");
+      card.className = "grid-card join-class-grade-card";
+      card.style.cssText = "border: 2px solid var(--color-primary); background: var(--color-surface-offset);";
       card.innerHTML = `
-        <span style="font-size:1.8rem;">🎒</span>
-        <span class="grade-card-label">Sınıf: ${escapeHtmlInline(classInfo.name)}</span>
-        <span class="grade-card-sub">Sınıf Kelimeleri (${code})</span>
+        <span class="card-emoji">🎒</span>
+        <span>${escapeHtmlInline(classInfo.name)}</span>
+        <span class="grade-saved-hint" style="color:var(--color-primary);font-size:11px;">Özel Kelimeler (${code})</span>
       `;
       card.addEventListener("click", async () => {
         window.classCustomWords = await window.FB.getClassWords(code);
@@ -985,12 +985,12 @@ async function initStudentClassUI(user) {
       gradeList.insertBefore(card, gradeList.firstChild);
     }
     
-    const addCard = document.createElement("div");
-    addCard.className = "grade-card join-class-grade-card";
-    addCard.style.cssText = "border: 2px dashed var(--color-text-muted); opacity: 0.6; cursor: pointer;";
+    const addCard = document.createElement("button");
+    addCard.className = "grid-card join-class-grade-card";
+    addCard.style.cssText = "border: 2px dashed var(--color-border); background: transparent; opacity: 0.7;";
     addCard.innerHTML = `
-      <span style="font-size:1.2rem;">➕</span>
-      <span class="grade-card-label" style="font-size:13px;">Başka Sınıfa Katıl</span>
+      <span class="card-emoji" style="font-size:24px;">➕</span>
+      <span style="font-size:13px;">Başka Sınıfa Katıl</span>
     `;
     addCard.addEventListener("click", () => openJoinClassOverlay(user));
     gradeList.appendChild(addCard);

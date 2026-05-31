@@ -1424,3 +1424,13 @@
   gap: 4px;
   justify-content: center;
 }
+
+@media (max-width: 480px) {
+  .nav-dropdown, .auth-user-dropdown {
+    right: auto !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 90vw !important;
+    min-width: unset !important;
+  }
+}
