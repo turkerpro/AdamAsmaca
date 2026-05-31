@@ -688,13 +688,23 @@
   .word-display{display:flex;gap:12px;row-gap:20px;flex-wrap:wrap;justify-content:center}
   .letter-slot{width:clamp(24px, 7vw, 38px);height:clamp(32px, 9vw, 48px);display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:4px}
   .letter-char{font-family:var(--font-display);font-size:clamp(1rem, 4.5vw, 1.5rem);font-weight:800;line-height:1;
-    min-height:1.2em;display:flex;align-items:center;justify-content:center;transition:all 0.3s cubic-bezier(0.34,1.56,0.64,1)}
   [data-grade-group="primary"] .letter-char,
   [data-grade-group="primary"] .key-btn {
     font-weight: normal;
   }
-  .letter-char.revealed{color:var(--color-text);transform:scale(1)}
-  .letter-char.hidden{color:transparent}
+  .letter-char{font-family:var(--font-display);font-size:clamp(18px, 5vw, 28px);font-weight:800;color:var(--color-text);text-transform:uppercase;visibility:hidden;line-height:1;min-height:1.2em;display:flex;align-items:center;justify-content:center;transition:all 0.3s cubic-bezier(0.34,1.56,0.64,1)}
+  
+  /* Uzun kelimelerde (10 harften fazla) sığdırma için */
+  .word-display.long-word .letter-slot {
+    width: clamp(16px, 4vw, 26px);
+    height: clamp(24px, 6vw, 34px);
+    gap: 2px;
+  }
+  .word-display.long-word .letter-char {
+    font-size: clamp(14px, 3.5vw, 20px);
+  }
+
+  .letter-char.revealed{visibility:visible}
   .letter-char.wrong-final{color:var(--color-error);transform:scale(1.1)}
   .letter-line{width:80%;height:4px;background:var(--color-text-faint);border-radius:2px}
   .letter-char.space-char{display:none}
@@ -1219,9 +1229,10 @@
   /* BADGES GRID */
   .badges-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
     gap: var(--space-3);
-    max-height: 240px;
+    max-height: 45vh;
+    min-height: 250px;
     overflow-y: auto;
     padding: var(--space-2);
   }
@@ -1458,4 +1469,11 @@
 .special-exam-card:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg) !important;
+}
+
+/* Sayfa içi Tablo Taşımasını Önleme */
+table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
 }

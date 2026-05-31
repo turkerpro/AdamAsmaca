@@ -960,7 +960,7 @@ async function initStudentClassUI(user) {
     card.innerHTML = `
       <span class="card-emoji">🏫</span>
       <span>Sınıfa Katıl</span>
-      <span class="grade-saved-hint" style="color:var(--color-primary);font-size:11px;">Öğretmen kodu gir</span>
+
     `;
     card.addEventListener("click", () => openJoinClassOverlay(user));
     gradeList.insertBefore(card, gradeList.firstChild);
@@ -2473,6 +2473,13 @@ function updateUI() {
 function updateWordDisplay() {
   const wd = document.getElementById("word-display");
   wd.innerHTML = "";
+  
+  if (gameState.word && gameState.word.length > 9) {
+    wd.classList.add("long-word");
+  } else {
+    wd.classList.remove("long-word");
+  }
+
   const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
   
   const words = gameState.word.split(" ");
