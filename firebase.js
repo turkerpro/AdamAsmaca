@@ -341,8 +341,6 @@ const FB = {
 
       const membersSnap = await getDocs(collection(db, "classes", code, "members"));
       for (const d of membersSnap.docs) {
-         const uid = d.id;
-         await setDoc(userProfileDoc(uid), { joinedClassCodes: arrayRemove(code) }, { merge: true });
          await deleteDoc(d.ref);
       }
 
@@ -359,7 +357,6 @@ const FB = {
     try {
       const code = classCode.toUpperCase();
       await deleteDoc(doc(db, "classes", code, "members", uid));
-      await setDoc(userProfileDoc(uid), { joinedClassCodes: arrayRemove(code) }, { merge: true });
       return true;
     } catch (e) {
       console.error("removeMember error:", e);

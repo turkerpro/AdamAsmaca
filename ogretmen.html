@@ -619,16 +619,16 @@ window.showStudentModal = function(index) {
   document.getElementById("student-modal-score").textContent = stats.score || 0;
 
   const mistakesWrap = document.getElementById("student-modal-mistakes");
-  const mistakesObj = m.mistakes || {};
-  const mistakeKeys = Object.keys(mistakesObj).sort((a,b) => mistakesObj[b] - mistakesObj[a]);
-
-  if (mistakeKeys.length === 0) {
+  const mistakesArray = m.mistakes || [];
+  
+  if (!Array.isArray(mistakesArray) || mistakesArray.length === 0) {
     mistakesWrap.innerHTML = `<div style="color:var(--color-text-muted);text-align:center;padding:var(--space-4);">Kayıtlı hata bulunmuyor. Harika! 🎉</div>`;
   } else {
-    mistakesWrap.innerHTML = mistakeKeys.map(k => `
-      <div style="display:flex;justify-content:space-between;background:var(--color-surface-offset);padding:var(--space-2) var(--space-3);border-radius:var(--radius-sm);">
-        <span style="font-weight:600;">${escapeHtml(k)}</span>
-        <span style="color:var(--color-error);font-weight:700;">${mistakesObj[k]} kez hata</span>
+    const sorted = [...mistakesArray].sort((a,b) => (b.count || 0) - (a.count || 0));
+    mistakesWrap.innerHTML = sorted.map(item => `
+      <div style="display:flex;justify-content:space-between;background:var(--color-surface-offset);padding:var(--space-2) var(--space-3);border-radius:var(--radius-sm);margin-bottom:4px;">
+        <span style="font-weight:600;">${escapeHtml(item.word || "Bilinmiyor")}</span>
+        <span style="color:var(--color-error);font-weight:700;">${item.count || 0} kez hata</span>
       </div>
     `).join("");
   }
