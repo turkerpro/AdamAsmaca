@@ -5,7 +5,8 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/12.14.0/fireba
 import {
   getAuth,
   GoogleAuthProvider,
-  signInWithPopup,
+  signInWithRedirect,
+  getRedirectResult,
   signOut,
   onAuthStateChanged
 } from "https://www.gstatic.com/firebasejs/12.14.0/firebase-auth.js";
@@ -121,12 +122,11 @@ const FB = {
 
   async signIn() {
     try {
-      await signInWithPopup(auth, provider);
+      // Android/Capacitor webview'larda popup beyaz ekran verir, redirect kullanılır.
+      await signInWithRedirect(auth, provider);
     } catch (e) {
-      if (e.code !== "auth/popup-closed-by-user") {
-        console.error("Google giriş hatası:", e.message);
-        alert("Giriş yapılamadı: " + e.message);
-      }
+      console.error("Google giriş hatası:", e.message);
+      alert("Giriş yapılamadı: " + e.message);
     }
   },
 
