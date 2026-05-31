@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="tr" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Adam Asmaca - Eğitim</title>
+<title>Adam Asmaca - EÄŸitim</title>
 <link rel="manifest" href="./manifest.json">
 <meta name="theme-color" content="#171614">
 <link rel="apple-touch-icon" href="./icons/icon-192.png">
@@ -14,13 +14,13 @@
     background-color: #10743D;
   }
 </style>
-<link rel="stylesheet" href="./style.css?v=35">
+<link rel="stylesheet" href="./style.css?v=37">
 <script type="module" src="./firebase.js"></script>
 </head>
 <body>
 
 <div class="header">
-  <div class="logo" id="logo-home-btn" title="Ana Sayfaya Dön" style="cursor:pointer;">
+  <div class="logo" id="logo-home-btn" title="Ana Sayfaya DÃ¶n" style="cursor:pointer;">
     <svg class="logo-icon" viewBox="0 0 36 36" fill="none" aria-label="Adam Asmaca">
       <rect x="4" y="6" width="4" height="24" rx="2" fill="currentColor" opacity="0.3"/>
       <rect x="4" y="6" width="14" height="4" rx="2" fill="currentColor" opacity="0.5"/>
@@ -34,18 +34,18 @@
     </svg>
     <div class="logo-text">
       <span>Adam Asmaca</span>
-      <span>Eğitim</span>
+      <span>EÄŸitim</span>
     </div>
   </div>
   <div class="header-right">
     <!-- Auth butonu -->
-    <button class="auth-btn" id="auth-btn" title="Google ile Giriş Yap" aria-label="Giriş" style="display:none;">
+    <button class="auth-btn" id="auth-btn" title="Google ile GiriÅŸ Yap" aria-label="GiriÅŸ" style="display:none;">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
         <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
       </svg>
-      <span class="auth-btn-label">Giriş</span>
+      <span class="auth-btn-label">GiriÅŸ</span>
     </button>
-    <!-- Kullanıcı avatar (giriş sonrası) -->
+    <!-- KullanÄ±cÄ± avatar (giriÅŸ sonrasÄ±) -->
     <div class="auth-user" id="auth-user" style="display:none;">
       <img class="auth-avatar" id="auth-avatar" src="" alt="" width="28" height="28">
       <div class="auth-user-dropdown" id="auth-user-dropdown" style="display:none;">
@@ -56,17 +56,17 @@
             <div class="auth-user-email" id="auth-user-email"></div>
           </div>
         </div>
-        <div class="auth-sync-status" id="auth-sync-status">✅ Veriler senkronize</div>
+        <div class="auth-sync-status" id="auth-sync-status">âœ… Veriler senkronize</div>
         <button class="auth-signout-btn" id="auth-signout-btn">Oturumu Kapat</button>
       </div>
     </div>
-    <button class="theme-toggle" data-theme-toggle aria-label="Temayı değiştir">
+    <button class="theme-toggle" data-theme-toggle aria-label="TemayÄ± deÄŸiÅŸtir">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
       </svg>
     </button>
     <!-- Hamburger menu button -->
-    <button class="nav-icon-btn" id="nav-menu-btn" title="Menü" aria-label="Menü">
+    <button class="nav-icon-btn" id="nav-menu-btn" title="MenÃ¼" aria-label="MenÃ¼">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
         <line x1="4" y1="6" x2="20" y2="6"/>
         <line x1="4" y1="12" x2="20" y2="12"/>
@@ -75,44 +75,44 @@
     <!-- HAMBURGER DROPDOWN MENU -->
     <div class="nav-dropdown" id="nav-dropdown" style="display:none;">
       <button class="nav-menu-item" id="nav-mistakes-btn">
-        <span class="nav-menu-icon">📘</span>
+        <span class="nav-menu-icon">ğŸ“˜</span>
         <span>Hata Defteri</span>
       </button>
       <button class="nav-menu-item" id="nav-badges-btn">
-        <span class="nav-menu-icon">🏅</span>
+        <span class="nav-menu-icon">ğŸ…</span>
         <span>Rozetlerim</span>
       </button>
       <button class="nav-menu-item" id="nav-stats-btn">
-        <span class="nav-menu-icon">📊</span>
-        <span>İstatistikler</span>
+        <span class="nav-menu-icon">ğŸ“Š</span>
+        <span>Ä°statistikler</span>
       </button>
       <button class="nav-menu-item" id="nav-report-btn">
-        <span class="nav-menu-icon">⚠️</span>
+        <span class="nav-menu-icon">âš ï¸</span>
         <span>Hata Bildir</span>
       </button>
-      <!-- Öğretmen paneli - sadece teacher rolünde görünür -->
+      <!-- Ã–ÄŸretmen paneli - sadece teacher rolÃ¼nde gÃ¶rÃ¼nÃ¼r -->
       <button class="nav-menu-item" id="nav-teacher-btn" onclick="window.location.href='./ogretmen.html'" style="display:none;">
-        <span class="nav-menu-icon">🏫</span>
-        <span>Öğretmen Paneli</span>
+        <span class="nav-menu-icon">ğŸ«</span>
+        <span>Ã–ÄŸretmen Paneli</span>
       </button>
-      <!-- Öğrenci sınıfa katıl butonu - sadece student rolünde görünür -->
+      <!-- Ã–ÄŸrenci sÄ±nÄ±fa katÄ±l butonu - sadece student rolÃ¼nde gÃ¶rÃ¼nÃ¼r -->
       <button class="nav-menu-item" id="nav-student-join-btn" style="display:none;">
-        <span class="nav-menu-icon">🎓</span>
-        <span id="nav-student-join-text">Sınıfa Katıl</span>
+        <span class="nav-menu-icon">ğŸ“</span>
+        <span id="nav-student-join-text">SÄ±nÄ±fa KatÄ±l</span>
       </button>
-      <!-- Yönetici paneli - sadece admin rolünde görünür -->
+      <!-- YÃ¶netici paneli - sadece admin rolÃ¼nde gÃ¶rÃ¼nÃ¼r -->
       <button class="nav-menu-item" id="nav-admin-btn" onclick="window.location.href='./yonetici.html'" style="display:none; color: var(--color-primary);">
-        <span class="nav-menu-icon">⚙️</span>
-        <span>Yönetim Paneli</span>
+        <span class="nav-menu-icon">âš™ï¸</span>
+        <span>YÃ¶netim Paneli</span>
       </button>
       <div style="border-top:1px solid var(--color-border);margin:var(--space-2) 0;"></div>
       <button class="nav-menu-item" onclick="window.location.href='./gizlilik-politikasi.html'" style="opacity:0.8;">
-        <span class="nav-menu-icon">🔒</span>
-        <span>Gizlilik Politikası</span>
+        <span class="nav-menu-icon">ğŸ”’</span>
+        <span>Gizlilik PolitikasÄ±</span>
       </button>
       <button class="nav-menu-item" onclick="window.location.href='./kullanim-kosullari.html'" style="opacity:0.8;">
-        <span class="nav-menu-icon">📜</span>
-        <span>Kullanım Koşulları</span>
+        <span class="nav-menu-icon">ğŸ“œ</span>
+        <span>KullanÄ±m KoÅŸullarÄ±</span>
       </button>
     </div>
   </div>
@@ -121,8 +121,8 @@
 <div class="nav-dropdown-backdrop" id="nav-backdrop" style="display:none;"></div>
 <!-- GRADE SCREEN -->
 <div class="screen active" id="grade-screen">
-  <h2 class="screen-title">Kaçıncı Sınıfsın?</h2>
-  <p class="screen-sub">Oynamak istediğin sınıf seviyesini seç.</p>
+  <h2 class="screen-title">KaÃ§Ä±ncÄ± SÄ±nÄ±fsÄ±n?</h2>
+  <p class="screen-sub">Oynamak istediÄŸin sÄ±nÄ±f seviyesini seÃ§.</p>
   <div class="grid-list" id="grade-list">
     <!-- Grades will be populated here -->
   </div>
@@ -131,8 +131,8 @@
 <!-- SUBJECT & UNIT SCREEN -->
 <div class="screen" id="subject-screen">
   <div class="screen-header">
-    <button class="back-btn" id="back-to-grades">← Geri</button>
-    <h2 class="screen-title" id="selected-grade-title">Ders Seçimi</h2>
+    <button class="back-btn" id="back-to-grades">â† Geri</button>
+    <h2 class="screen-title" id="selected-grade-title">Ders SeÃ§imi</h2>
   </div>
   
   <div class="accordion-list" id="subject-list">
@@ -143,11 +143,11 @@
 <!-- GAME SCREEN -->
 <div class="screen" id="game-screen">
   <div class="screen-header">
-    <!-- Row 1: Sınıf/Ders Seç + Zorluk + Süre (eşit boyut) -->
+    <!-- Row 1: SÄ±nÄ±f/Ders SeÃ§ + Zorluk + SÃ¼re (eÅŸit boyut) -->
     <div class="game-controls-row">
       <button class="ctrl-btn" id="back-to-subjects">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
-        Sınıf / Ders Seç
+        SÄ±nÄ±f / Ders SeÃ§
       </button>
 
       <select id="difficulty-select" class="ctrl-btn ctrl-select">
@@ -156,22 +156,22 @@
         <option value="hard">Zor (4 Can)</option>
       </select>
 
-      <button class="ctrl-btn ctrl-btn-toggle" id="time-mode-btn">⏱️ Süreli: Kapalı</button>
+      <button class="ctrl-btn ctrl-btn-toggle" id="time-mode-btn">â±ï¸ SÃ¼reli: KapalÄ±</button>
     </div>
   </div>
   
   <div class="game-card" id="game-card">
     <div class="game-header">
-      <div class="category-badge" id="category-badge">Yükleniyor...</div>
+      <div class="category-badge" id="category-badge">YÃ¼kleniyor...</div>
       
       <div class="stats-row">
         <div class="left-stats">
           <div class="score-badge">Puan: <span id="score-val">0</span></div>
-          <div class="streak-badge" id="streak-badge" style="display: none;">🔥 <span id="streak-val">0</span>x</div>
+          <div class="streak-badge" id="streak-badge" style="display: none;">ğŸ”¥ <span id="streak-val">0</span>x</div>
         </div>
         
         <div class="right-stats">
-          <div class="timer-badge" id="timer-badge" style="display: none;">⏱️ <span id="timer-val">60</span>s</div>
+          <div class="timer-badge" id="timer-badge" style="display: none;">â±ï¸ <span id="timer-val">60</span>s</div>
           <div class="lives-bar" id="lives-bar"></div>
         </div>
       </div>
@@ -200,22 +200,22 @@
     </div>
 
     <div class="word-area">
-      <span class="hint-text" id="hint-text">Sorular yükleniyor...</span>
+      <span class="hint-text" id="hint-text">Sorular yÃ¼kleniyor...</span>
       <div class="word-display" id="word-display"></div>
     </div>
 
     <div class="wrong-area">
-      <span class="wrong-label">Yanlış:</span>
+      <span class="wrong-label">YanlÄ±ÅŸ:</span>
       <div class="wrong-letters" id="wrong-letters"></div>
     </div>
 
-    <!-- JOKERLER - dikey ortalı -->
+    <!-- JOKERLER - dikey ortalÄ± -->
     <div class="jokers-area">
       <div class="jokers-inner">
-        <button class="joker-btn" id="joker-reveal-btn">💡 Harf Göster <span class="joker-cost">(-5p)</span></button>
+        <button class="joker-btn" id="joker-reveal-btn">ğŸ’¡ Harf GÃ¶ster <span class="joker-cost">(-5p)</span></button>
         <span class="joker-status" id="joker-status">3/3</span>
-        <button class="joker-btn" id="joker-eliminate-btn">❌ Harf Ele <span class="joker-cost">(-3p)</span></button>
-        <button class="joker-btn joker-btn-ad" id="joker-ad-btn" style="display:none;" onclick="ADS.watch()">🎬 Reklam İzle → +1 Joker</button>
+        <button class="joker-btn" id="joker-eliminate-btn">âŒ Harf Ele <span class="joker-cost">(-3p)</span></button>
+        <button class="joker-btn joker-btn-ad" id="joker-ad-btn" style="display:none;" onclick="ADS.watch()">ğŸ¬ Reklam Ä°zle â†’ +1 Joker</button>
       </div>
     </div>
 
@@ -233,23 +233,23 @@
 <!-- GAME SETTINGS POPUP -->
 <div class="kb-popup" id="kb-popup" style="display:none;">
   <div class="kb-popup-inner">
-    <div class="kb-popup-title">Oyun Ayarları</div>
+    <div class="kb-popup-title">Oyun AyarlarÄ±</div>
     
-    <div class="settings-section-title">Klavye Düzeni</div>
+    <div class="settings-section-title">Klavye DÃ¼zeni</div>
     <div class="kb-options-list" id="keyboard-options-list">
       <button class="kb-option-btn" data-value="qwerty">Standart (Q)</button>
       <button class="kb-option-btn" data-value="f">Standart (F)</button>
       <button class="kb-option-btn" data-value="mobile_q">Mobil (Q)</button>
-      <button class="kb-option-btn" data-value="smart">Akıllı Mobil</button>
+      <button class="kb-option-btn" data-value="smart">AkÄ±llÄ± Mobil</button>
       <button class="kb-option-btn" data-value="abc">Alfabetik</button>
     </div>
     
-    <div class="settings-section-title" style="margin-top:12px;">Tur Uzunluğu</div>
+    <div class="settings-section-title" style="margin-top:12px;">Tur UzunluÄŸu</div>
     <div class="round-options-list" id="round-options-list" style="display:flex; gap:8px; width:100%;">
       <button class="round-option-btn" data-value="10" style="flex:1;">10</button>
       <button class="round-option-btn" data-value="20" style="flex:1;">20</button>
       <button class="round-option-btn" data-value="30" style="flex:1;">30</button>
-      <button class="round-option-btn" data-value="all" style="flex:1;">Tümü</button>
+      <button class="round-option-btn" data-value="all" style="flex:1;">TÃ¼mÃ¼</button>
     </div>
     
     <button class="kb-popup-close" id="kb-popup-close" style="margin-top:8px;">Kapat</button>
@@ -259,20 +259,20 @@
 <!-- REPORT OVERLAY -->
 <div class="overlay" id="report-overlay" style="display:none;">
   <div class="overlay-card" style="max-width: 440px;">
-    <span class="overlay-icon">⚠️</span>
+    <span class="overlay-icon">âš ï¸</span>
     <h2 class="overlay-title">Hata Bildir</h2>
-    <p class="overlay-sub" style="margin-bottom: 12px;">Bu kelimede veya soruda bir sorun mu var? Lütfen bize bildirin.</p>
+    <p class="overlay-sub" style="margin-bottom: 12px;">Bu kelimede veya soruda bir sorun mu var? LÃ¼tfen bize bildirin.</p>
     
     <div class="report-info-box">
       <strong>Ders:</strong> <span id="report-subject">-</span><br>
-      <strong>Ünite:</strong> <span id="report-unit">-</span><br>
+      <strong>Ãœnite:</strong> <span id="report-unit">-</span><br>
       <strong>Kelime:</strong> <span id="report-word" style="font-family:var(--font-display); font-weight:700; color:var(--color-primary);">-</span>
     </div>
 
-    <textarea id="report-desc" placeholder="Hata nedir? (Örn: Yazım hatası var, ipucu yanlış, vb.)" class="report-textarea"></textarea>
+    <textarea id="report-desc" placeholder="Hata nedir? (Ã–rn: YazÄ±m hatasÄ± var, ipucu yanlÄ±ÅŸ, vb.)" class="report-textarea"></textarea>
 
     <div class="overlay-btn-row">
-      <button class="btn-primary" id="send-report-btn">Gönder</button>
+      <button class="btn-primary" id="send-report-btn">GÃ¶nder</button>
       <button class="btn-secondary" id="close-report-btn">Kapat</button>
     </div>
   </div>
@@ -281,16 +281,16 @@
 <!-- STATS OVERLAY -->
 <div class="overlay" id="stats-overlay" style="display:none;">
   <div class="overlay-card">
-    <span class="overlay-icon">📊</span>
-    <h2 class="overlay-title">İstatistiklerim</h2>
+    <span class="overlay-icon">ğŸ“Š</span>
+    <h2 class="overlay-title">Ä°statistiklerim</h2>
     <div class="stats-container">
       <div class="stats-grid">
-        <div class="stat-item"><span class="stat-val" id="stats-total">0</span><span class="stat-lbl">Çözülen</span></div>
-        <div class="stat-item"><span class="stat-val" id="stats-won">0</span><span class="stat-lbl">Doğru</span></div>
-        <div class="stat-item"><span class="stat-val" id="stats-winrate">0%</span><span class="stat-lbl">Başarı Oranı</span></div>
+        <div class="stat-item"><span class="stat-val" id="stats-total">0</span><span class="stat-lbl">Ã‡Ã¶zÃ¼len</span></div>
+        <div class="stat-item"><span class="stat-val" id="stats-won">0</span><span class="stat-lbl">DoÄŸru</span></div>
+        <div class="stat-item"><span class="stat-val" id="stats-winrate">0%</span><span class="stat-lbl">BaÅŸarÄ± OranÄ±</span></div>
         <div class="stat-item"><span class="stat-val" id="stats-streak">0</span><span class="stat-lbl">En Uzun Seri</span></div>
       </div>
-      <div class="stats-chart-title">Ders Başarı Oranları</div>
+      <div class="stats-chart-title">Ders BaÅŸarÄ± OranlarÄ±</div>
       <div class="stats-chart" id="stats-chart">
         <!-- Dyn. bars will go here -->
       </div>
@@ -302,9 +302,9 @@
 <!-- BADGES OVERLAY -->
 <div class="overlay" id="badges-overlay" style="display:none;">
   <div class="overlay-card" style="max-width: 460px;">
-    <span class="overlay-icon">🏅</span>
-    <h2 class="overlay-title">Kazandığım Rozetler</h2>
-    <p class="overlay-sub">Öğrenme yolculuğunda kazandığın ödüller</p>
+    <span class="overlay-icon">ğŸ…</span>
+    <h2 class="overlay-title">KazandÄ±ÄŸÄ±m Rozetler</h2>
+    <p class="overlay-sub">Ã–ÄŸrenme yolculuÄŸunda kazandÄ±ÄŸÄ±n Ã¶dÃ¼ller</p>
     <div class="badges-grid" id="badges-grid">
       <!-- Dyn. badges will go here -->
     </div>
@@ -315,14 +315,14 @@
 <!-- MISTAKES OVERLAY -->
 <div class="overlay" id="mistakes-overlay" style="display:none;">
   <div class="overlay-card" style="max-width: 440px;">
-    <span class="overlay-icon mistakes-x-icon">✕</span>
+    <span class="overlay-icon mistakes-x-icon">âœ•</span>
     <h2 class="overlay-title">Hata Defteri</h2>
-    <p class="overlay-sub" id="mistakes-count-sub">Yanlış yaptığın kelimeleri buradan tekrar edebilirsin.</p>
+    <p class="overlay-sub" id="mistakes-count-sub">YanlÄ±ÅŸ yaptÄ±ÄŸÄ±n kelimeleri buradan tekrar edebilirsin.</p>
     <div class="mistakes-list" id="mistakes-list">
       <!-- Dyn. word lists -->
     </div>
     <div class="overlay-btn-row">
-      <button class="btn-primary" id="start-mistakes-btn" style="display:none;">Tekrar Modunu Başlat</button>
+      <button class="btn-primary" id="start-mistakes-btn" style="display:none;">Tekrar Modunu BaÅŸlat</button>
       <button class="btn-secondary" id="close-mistakes-btn">Kapat</button>
     </div>
   </div>
@@ -336,12 +336,12 @@
     <div style="font-size:48px; font-weight:800; font-family:monospace;" id="ad-countdown">15</div>
     <div style="font-size:13px; opacity:0.5; margin-top:4px;" id="ad-remaining"></div>
   </div>
-  <!-- Reklam alanı placeholder (buraya gerçek AdSense kodu eklenebilir) -->
+  <!-- Reklam alanÄ± placeholder (buraya gerÃ§ek AdSense kodu eklenebilir) -->
   <div style="width:320px; height:180px; background:rgba(255,255,255,0.05);
     border:1px dashed rgba(255,255,255,0.2); border-radius:12px;
     display:flex; align-items:center; justify-content:center;
     color:rgba(255,255,255,0.3); font-size:13px;">
-    Reklam Alanı
+    Reklam AlanÄ±
   </div>
   <button id="ad-skip-btn" style="
     height:44px; padding:0 28px; border-radius:9999px;
@@ -350,7 +350,7 @@
   ">15s</button>
 </div>
 
-<!-- GİRİŞ SEÇİM MODALİ (Google / Misafir) -->
+<!-- GÄ°RÄ°Å SEÃ‡Ä°M MODALÄ° (Google / Misafir) -->
 <div id="login-choice-overlay" style="display:none;position:fixed;inset:0;z-index:8000;
   background:rgba(0,0,0,0.7);backdrop-filter:blur(6px);
   display:none;align-items:center;justify-content:center;padding:var(--space-6);">
@@ -358,23 +358,23 @@
     border-radius:var(--radius-xl);padding:var(--space-8);max-width:360px;width:100%;
     display:flex;flex-direction:column;gap:var(--space-4);text-align:center;
     box-shadow:var(--shadow-lg);">
-    <div style="font-size:2.5rem;">🔐</div>
-    <h3 style="font-size:var(--text-xl);font-weight:800;margin:0;">Hesabına Giriş Yap</h3>
+    <div style="font-size:2.5rem;">ğŸ”</div>
+    <h3 style="font-size:var(--text-xl);font-weight:800;margin:0;">HesabÄ±na GiriÅŸ Yap</h3>
     <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin:0;line-height:1.6;">
-      Giriş yaparak istatistiklerini tüm cihazlar arasında senkronize et.
-      Giriş yapmadan da oynayabilirsin.
+      GiriÅŸ yaparak istatistiklerini tÃ¼m cihazlar arasÄ±nda senkronize et.
+      GiriÅŸ yapmadan da oynayabilirsin.
     </p>
     <button id="modal-google-login-btn" class="btn-primary" style="width:100%;justify-content:center;
       display:flex;align-items:center;gap:var(--space-2);">
       <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#fff" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#fff" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#fff" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#fff" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
-      Google ile Giriş Yap
+      Google ile GiriÅŸ Yap
     </button>
     <button id="modal-guest-btn" class="btn-secondary" style="width:100%;">
       Misafir Olarak Devam Et
     </button>
     <p style="font-size:10px;color:var(--color-text-muted);margin:0;line-height:1.5;">
-      Giriş yaparak <a href="./kullanim-kosullari.html" style="color:var(--color-primary);">Kullanım Koşulları</a>'nı
-      ve <a href="./gizlilik-politikasi.html" style="color:var(--color-primary);">Gizlilik Politikası</a>'nı kabul etmiş olursun.
+      GiriÅŸ yaparak <a href="./kullanim-kosullari.html" style="color:var(--color-primary);">KullanÄ±m KoÅŸullarÄ±</a>'nÄ±
+      ve <a href="./gizlilik-politikasi.html" style="color:var(--color-primary);">Gizlilik PolitikasÄ±</a>'nÄ± kabul etmiÅŸ olursun.
     </p>
   </div>
 </div>
@@ -388,29 +388,30 @@
     display:flex;flex-direction:column;gap:var(--space-4);
     box-shadow:var(--shadow-lg);">
     <div style="display:flex;align-items:center;justify-content:space-between;">
-      <h3 style="font-size:var(--text-lg);font-weight:800;margin:0;">Sınıfa Katıl</h3>
+      <h3 style="font-size:var(--text-lg);font-weight:800;margin:0;">SÄ±nÄ±fa KatÄ±l</h3>
       <button id="close-join-class-btn" style="background:none;border:none;font-size:1.4rem;
         color:var(--color-text-muted);cursor:pointer;line-height:1;">&times;</button>
     </div>
     <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin:0;">
-      Öğretmeninin verdiği 6 haneli sınıf kodunu gir.
+      Ã–ÄŸretmeninin verdiÄŸi 6 haneli sÄ±nÄ±f kodunu gir.
     </p>
     <input id="class-code-input" type="text" maxlength="6"
-      placeholder="Örn: AB3X7K"
+      placeholder="Ã–rn: AB3X7K"
       style="height:52px;text-align:center;font-size:1.6rem;font-weight:800;
         letter-spacing:0.15em;text-transform:uppercase;
         background:var(--color-surface-offset);border:2px solid var(--color-border);
         border-radius:var(--radius-md);color:var(--color-text);font-family:monospace;">
     <div id="join-class-msg" style="font-size:var(--text-sm);min-height:20px;"></div>
     <button id="join-class-submit-btn" class="btn-primary" style="width:100%;justify-content:center;">
-      Katıl
+      KatÄ±l
     </button>
     <button id="join-class-cancel-btn" class="btn-secondary" style="width:100%;">
-      Vazgeç
+      VazgeÃ§
     </button>
   </div>
 </div>
 
-<script src="./main.js?v=41"></script>
+<script src="./main.js?v=37"></script>
 </body>
 </html>
+

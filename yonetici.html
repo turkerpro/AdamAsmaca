@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="tr" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Yönetim Paneli - Adam Asmaca</title>
+<title>YÃ¶netim Paneli - Adam Asmaca</title>
 <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css?v=32">
+<link rel="stylesheet" href="./style.css?v=37">
 <script type="module" src="./firebase.js"></script>
 <style>
   body { min-height: 100svh; display: flex; flex-direction: column; align-items: center; padding: var(--space-4); gap: 0; }
@@ -74,11 +74,11 @@
     </svg>
     <div class="logo-text" style="cursor:pointer;" onclick="location.href='index.html'">
       <span>Adam Asmaca</span>
-      <span>Yönetim Paneli</span>
+      <span>YÃ¶netim Paneli</span>
     </div>
   </div>
   <div class="header-right">
-    <button class="nav-icon-btn" onclick="window.location.href='./index.html'" title="Geri Dön" aria-label="Geri">
+    <button class="nav-icon-btn" onclick="window.location.href='./index.html'" title="Geri DÃ¶n" aria-label="Geri">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
         <path d="M19 12H5M12 19l-7-7 7-7"/>
       </svg>
@@ -89,23 +89,23 @@
 <!-- AUTH GUARD -->
 <div id="auth-guard" class="visible">
   <div class="loader"></div>
-  <h2 style="font-size:var(--text-lg);font-weight:800;">Yetki Kontrolü...</h2>
-  <p style="color:var(--color-text-muted);">Yönetici yetkiniz kontrol ediliyor.</p>
+  <h2 style="font-size:var(--text-lg);font-weight:800;">Yetki KontrolÃ¼...</h2>
+  <p style="color:var(--color-text-muted);">YÃ¶netici yetkiniz kontrol ediliyor.</p>
 </div>
 
 <!-- PANEL ROOT -->
 <div id="panel-root">
   <div class="panel-card">
-    <h2 class="panel-card-title"><span style="font-size:1.6rem;">⚙️</span> Sistem Kullanıcıları</h2>
-    <p style="color:var(--color-text-muted);font-size:13px;margin-bottom:var(--space-2);">Sistemdeki kullanıcıları görüntüleyin ve yetkilerini düzenleyin. (Not: Kendinizin admin yetkisini alırsanız sayfaya tekrar erişemezsiniz!)</p>
+    <h2 class="panel-card-title"><span style="font-size:1.6rem;">âš™ï¸</span> Sistem KullanÄ±cÄ±larÄ±</h2>
+    <p style="color:var(--color-text-muted);font-size:13px;margin-bottom:var(--space-2);">Sistemdeki kullanÄ±cÄ±larÄ± gÃ¶rÃ¼ntÃ¼leyin ve yetkilerini dÃ¼zenleyin. (Not: Kendinizin admin yetkisini alÄ±rsanÄ±z sayfaya tekrar eriÅŸemezsiniz!)</p>
     
     <div class="users-table-container">
       <table class="users-table">
         <thead>
           <tr>
             <th style="width:50px;"></th>
-            <th>Kullanıcı</th>
-            <th>Rol & İşlem</th>
+            <th>KullanÄ±cÄ±</th>
+            <th>Rol & Ä°ÅŸlem</th>
           </tr>
         </thead>
         <tbody id="users-tbody">
@@ -143,7 +143,7 @@
   function renderTable() {
     const tbody = document.getElementById("users-tbody");
     if (allUsers.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="4"><div class="empty-state"><span class="empty-state-icon">👥</span><p>Henüz kullanıcı bulunmuyor.</p></div></td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="4"><div class="empty-state"><span class="empty-state-icon">ğŸ‘¥</span><p>HenÃ¼z kullanÄ±cÄ± bulunmuyor.</p></div></td></tr>`;
       return;
     }
 
@@ -166,8 +166,8 @@
           <td>
             <div style="display:flex;align-items:center;">
               <select class="role-select" data-index="${i}" data-original="${roleStr}">
-                <option value="student" ${roleStr === 'student' ? 'selected' : ''}>Öğrenci</option>
-                <option value="teacher" ${roleStr === 'teacher' ? 'selected' : ''}>Öğretmen</option>
+                <option value="student" ${roleStr === 'student' ? 'selected' : ''}>Ã–ÄŸrenci</option>
+                <option value="teacher" ${roleStr === 'teacher' ? 'selected' : ''}>Ã–ÄŸretmen</option>
                 <option value="admin" ${roleStr === 'admin' ? 'selected' : ''}>Admin</option>
               </select>
               <button class="save-role-btn" data-index="${i}" data-uid="${escapeHtml(u.uid)}">Kaydet</button>
@@ -198,16 +198,16 @@
         const sel = document.querySelector(`.role-select[data-index="${i}"]`);
         const newRole = sel.value;
         
-        btn.textContent = "⌛";
+        btn.textContent = "âŒ›";
         btn.disabled = true;
         
         const success = await window.FB.updateUserRole(uid, newRole);
         if (success) {
-          showNotificationToast("Kullanıcı rolü başarıyla güncellendi.");
+          showNotificationToast("KullanÄ±cÄ± rolÃ¼ baÅŸarÄ±yla gÃ¼ncellendi.");
           sel.setAttribute("data-original", newRole);
           allUsers[i].role = newRole;
         } else {
-          showNotificationToast("Rol güncellenirken hata oluştu!");
+          showNotificationToast("Rol gÃ¼ncellenirken hata oluÅŸtu!");
           sel.value = sel.getAttribute("data-original");
         }
         
@@ -234,7 +234,7 @@
   async function init() {
     const ok = await waitForFB();
     if (!ok) {
-      document.getElementById("auth-guard").innerHTML = `<h2 style="color:var(--color-error);">Bağlantı Hatası</h2><p>Firebase bağlanamadı. İnternet bağlantınızı kontrol edin.</p>`;
+      document.getElementById("auth-guard").innerHTML = `<h2 style="color:var(--color-error);">BaÄŸlantÄ± HatasÄ±</h2><p>Firebase baÄŸlanamadÄ±. Ä°nternet baÄŸlantÄ±nÄ±zÄ± kontrol edin.</p>`;
       return;
     }
 
@@ -246,7 +246,7 @@
       
       const role = await window.FB.getRole(user.uid);
       if (role !== "admin") {
-        document.getElementById("auth-guard").innerHTML = `<h2 style="color:var(--color-error);">Yetkisiz Erişim</h2><p>Yönetici paneline girmek için admin yetkiniz bulunmuyor.</p><button onclick="window.location.href='./index.html'" style="margin-top:20px;padding:10px 20px;border-radius:8px;border:none;background:var(--color-primary);color:var(--color-surface);font-weight:bold;cursor:pointer;">Ana Sayfaya Dön</button>`;
+        document.getElementById("auth-guard").innerHTML = `<h2 style="color:var(--color-error);">Yetkisiz EriÅŸim</h2><p>YÃ¶netici paneline girmek iÃ§in admin yetkiniz bulunmuyor.</p><button onclick="window.location.href='./index.html'" style="margin-top:20px;padding:10px 20px;border-radius:8px;border:none;background:var(--color-primary);color:var(--color-surface);font-weight:bold;cursor:pointer;">Ana Sayfaya DÃ¶n</button>`;
         return;
       }
       
@@ -262,3 +262,4 @@
 </script>
 </body>
 </html>
+

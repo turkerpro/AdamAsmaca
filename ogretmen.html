@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="tr" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Öğretmen Paneli - Adam Asmaca</title>
+<title>Ã–ÄŸretmen Paneli - Adam Asmaca</title>
 <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css?v=32">
+<link rel="stylesheet" href="./style.css?v=37">
 <script type="module" src="./firebase.js"></script>
 <style>
   body { min-height: 100svh; display: flex; flex-direction: column; align-items: center; padding: var(--space-4); gap: 0; }
@@ -66,7 +66,7 @@
     padding: var(--space-8); color: var(--color-text-muted); text-align: center; }
   .empty-state-icon { font-size: 3rem; opacity: 0.4; }
 
-  /* CLASS SELECTOR (birden fazla sınıf varsa) */
+  /* CLASS SELECTOR (birden fazla sÄ±nÄ±f varsa) */
   .class-selector { display: flex; gap: var(--space-2); flex-wrap: wrap; }
   .class-selector-btn { padding: var(--space-2) var(--space-4); font-size: var(--text-sm);
     font-weight: 600; border-radius: var(--radius-full); border: 2px solid var(--color-border);
@@ -106,25 +106,25 @@
     </svg>
     <div class="logo-text" style="cursor:pointer;" onclick="location.href='index.html'">
       <span>Adam Asmaca</span>
-      <span>Öğretmen Paneli</span>
+      <span>Ã–ÄŸretmen Paneli</span>
     </div>
   </div>
-  <button onclick="window.location.href='./index.html'" class="back-btn" style="border:none;background:none;font:inherit;cursor:pointer;">← Oyuna Dön</button>
+  <button onclick="window.location.href='./index.html'" class="back-btn" style="border:none;background:none;font:inherit;cursor:pointer;">â† Oyuna DÃ¶n</button>
 </div>
 
-<!-- AUTH GUARD: giriş yapılmamış veya rol yok -->
+<!-- AUTH GUARD: giriÅŸ yapÄ±lmamÄ±ÅŸ veya rol yok -->
 <div id="auth-guard">
-  <div style="font-size:4rem;">🔐</div>
-  <h2 class="screen-title" style="margin:0;">Erişim Kısıtlı</h2>
-  <p class="screen-sub" id="guard-msg" style="margin:0;">Bu panel yalnızca öğretmen rolüne atanmış kullanıcılar içindir.</p>
-  <button class="btn-primary" id="guard-login-btn" style="display:none;">Google ile Giriş Yap</button>
-  <a href="./index.html" class="btn-secondary">Ana Sayfaya Dön</a>
+  <div style="font-size:4rem;">ğŸ”</div>
+  <h2 class="screen-title" style="margin:0;">EriÅŸim KÄ±sÄ±tlÄ±</h2>
+  <p class="screen-sub" id="guard-msg" style="margin:0;">Bu panel yalnÄ±zca Ã¶ÄŸretmen rolÃ¼ne atanmÄ±ÅŸ kullanÄ±cÄ±lar iÃ§indir.</p>
+  <button class="btn-primary" id="guard-login-btn" style="display:none;">Google ile GiriÅŸ Yap</button>
+  <a href="./index.html" class="btn-secondary">Ana Sayfaya DÃ¶n</a>
 </div>
 
 <!-- ANA PANEL -->
 <div id="panel-root">
 
-  <!-- KULLANICI BİLGİSİ -->
+  <!-- KULLANICI BÄ°LGÄ°SÄ° -->
   <div style="display:flex;align-items:center;gap:var(--space-3);padding:var(--space-4);
     background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);">
     <img id="teacher-avatar" src="" alt="" style="width:44px;height:44px;border-radius:50%;display:none;">
@@ -133,122 +133,122 @@
       <div id="teacher-email" style="font-size:var(--text-xs);color:var(--color-text-muted);"></div>
     </div>
     <span style="background:var(--color-primary);color:white;padding:4px 12px;border-radius:var(--radius-full);
-      font-size:12px;font-weight:700;">🏫 Öğretmen</span>
+      font-size:12px;font-weight:700;">ğŸ« Ã–ÄŸretmen</span>
   </div>
 
-  <!-- SINIF SEÇİCİ -->
+  <!-- SINIF SEÃ‡Ä°CÄ° -->
   <div id="class-selector-row" style="display:none;flex-direction:column;gap:var(--space-2);">
-    <div style="font-size:var(--text-sm);color:var(--color-text-muted);font-weight:600;">Aktif Sınıf:</div>
+    <div style="font-size:var(--text-sm);color:var(--color-text-muted);font-weight:600;">Aktif SÄ±nÄ±f:</div>
     <div class="class-selector" id="class-selector-btns"></div>
   </div>
 
   <!-- SEKMELER -->
   <div class="tab-bar">
-    <button class="tab-btn active" data-tab="tab-class">🏫 Sınıfım</button>
-    <button class="tab-btn" data-tab="tab-stats">📊 İstatistikler</button>
-    <button class="tab-btn" data-tab="tab-words">📝 Kelimeler</button>
+    <button class="tab-btn active" data-tab="tab-class">ğŸ« SÄ±nÄ±fÄ±m</button>
+    <button class="tab-btn" data-tab="tab-stats">ğŸ“Š Ä°statistikler</button>
+    <button class="tab-btn" data-tab="tab-words">ğŸ“ Kelimeler</button>
   </div>
 
   <!-- TAB: SINIFIM -->
   <div class="tab-pane active" id="tab-class">
 
-    <!-- Sınıf kodu gösterimi -->
+    <!-- SÄ±nÄ±f kodu gÃ¶sterimi -->
     <div class="panel-card" id="card-active-class" style="display:none;">
-      <div class="panel-card-title">📋 Sınıf Kodu</div>
+      <div class="panel-card-title">ğŸ“‹ SÄ±nÄ±f Kodu</div>
       <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin:0;">
-        Bu kodu öğrencilerinizle paylaşın. Oyuna giriş yapıp bu kodu girerek sınıfınıza katılabilirler.
+        Bu kodu Ã¶ÄŸrencilerinizle paylaÅŸÄ±n. Oyuna giriÅŸ yapÄ±p bu kodu girerek sÄ±nÄ±fÄ±nÄ±za katÄ±labilirler.
       </p>
       <div class="class-code-display">
-        <span class="class-code-text" id="active-class-code">——</span>
+        <span class="class-code-text" id="active-class-code">â€”â€”</span>
         <button class="btn-primary copy-code-btn" id="copy-code-btn">Kopyala</button>
       </div>
       <div style="font-size:var(--text-xs);color:var(--color-text-muted);">
-        Sınıf adı: <strong id="active-class-name">—</strong> &nbsp;·&nbsp;
-        Üye sayısı: <strong id="active-class-count">0</strong>
+        SÄ±nÄ±f adÄ±: <strong id="active-class-name">â€”</strong> &nbsp;Â·&nbsp;
+        Ãœye sayÄ±sÄ±: <strong id="active-class-count">0</strong>
       </div>
       <div style="margin-top: 12px; text-align: right;">
-        <button class="btn-secondary" style="padding: 6px 12px; border-color:var(--color-error); color:var(--color-error);" onclick="promptDeleteClass()">🗑️ Sınıfı Sil</button>
+        <button class="btn-secondary" style="padding: 6px 12px; border-color:var(--color-error); color:var(--color-error);" onclick="promptDeleteClass()">ğŸ—‘ï¸ SÄ±nÄ±fÄ± Sil</button>
       </div>
     </div>
 
-    <!-- Yeni sınıf oluştur -->
+    <!-- Yeni sÄ±nÄ±f oluÅŸtur -->
     <div class="panel-card">
-      <div class="panel-card-title">➕ Yeni Sınıf Oluştur</div>
+      <div class="panel-card-title">â• Yeni SÄ±nÄ±f OluÅŸtur</div>
       <div class="create-class-form">
         <input class="create-class-input" id="new-class-name" type="text"
-          placeholder="Sınıf adı (örn: 5-A İngilizce)" maxlength="60">
-        <button class="btn-primary" id="create-class-btn" style="white-space:nowrap;">Oluştur</button>
+          placeholder="SÄ±nÄ±f adÄ± (Ã¶rn: 5-A Ä°ngilizce)" maxlength="60">
+        <button class="btn-primary" id="create-class-btn" style="white-space:nowrap;">OluÅŸtur</button>
       </div>
       <p id="create-class-msg" style="font-size:var(--text-sm);margin:0;display:none;"></p>
     </div>
 
-    <!-- Üye listesi -->
+    <!-- Ãœye listesi -->
     <div class="panel-card" id="card-members" style="display:none;">
-      <div class="panel-card-title">👥 Öğrenciler</div>
+      <div class="panel-card-title">ğŸ‘¥ Ã–ÄŸrenciler</div>
       <div id="members-list-wrap">
         <div class="empty-state">
-          <div class="empty-state-icon">👤</div>
-          <div>Henüz kimse katılmadı.</div>
+          <div class="empty-state-icon">ğŸ‘¤</div>
+          <div>HenÃ¼z kimse katÄ±lmadÄ±.</div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- TAB: İSTATİSTİKLER -->
+  <!-- TAB: Ä°STATÄ°STÄ°KLER -->
   <div class="tab-pane" id="tab-stats">
     <div class="panel-card" id="card-class-stats" style="display:none;">
-      <div class="panel-card-title">📊 Sınıf Genel Bakış</div>
+      <div class="panel-card-title">ğŸ“Š SÄ±nÄ±f Genel BakÄ±ÅŸ</div>
       <div class="stats-summary">
         <div class="stat-summary-card">
-          <div class="stat-summary-val" id="stat-member-count">—</div>
-          <div class="stat-summary-lbl">Öğrenci</div>
+          <div class="stat-summary-val" id="stat-member-count">â€”</div>
+          <div class="stat-summary-lbl">Ã–ÄŸrenci</div>
         </div>
         <div class="stat-summary-card">
-          <div class="stat-summary-val" id="stat-avg-win">—</div>
+          <div class="stat-summary-val" id="stat-avg-win">â€”</div>
           <div class="stat-summary-lbl">Ort. Kazanma %</div>
         </div>
         <div class="stat-summary-card">
-          <div class="stat-summary-val" id="stat-total-games">—</div>
+          <div class="stat-summary-val" id="stat-total-games">â€”</div>
           <div class="stat-summary-lbl">Toplam Oyun</div>
         </div>
       </div>
     </div>
 
     <div class="panel-card">
-      <div class="panel-card-title">🏆 Sıralama Tablosu</div>
+      <div class="panel-card-title">ğŸ† SÄ±ralama Tablosu</div>
       <div id="leaderboard-wrap">
         <div class="empty-state">
-          <div class="empty-state-icon">📊</div>
-          <div>Sınıf seçili değil veya veri yok.</div>
+          <div class="empty-state-icon">ğŸ“Š</div>
+          <div>SÄ±nÄ±f seÃ§ili deÄŸil veya veri yok.</div>
         </div>
       </div>
       <button class="btn-secondary" id="refresh-stats-btn" style="align-self:flex-start;font-size:var(--text-sm);">
-        🔄 Yenile
+        ğŸ”„ Yenile
       </button>
     </div>
   </div>
 
-  <!-- TAB: KELİMELER -->
+  <!-- TAB: KELÄ°MELER -->
   <div class="tab-pane" id="tab-words">
     <div class="panel-card">
-      <div class="panel-card-title">📝 Yeni Kelime Ekle</div>
+      <div class="panel-card-title">ğŸ“ Yeni Kelime Ekle</div>
       <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin:0;">
-        Eklediğiniz kelimeler, sınıfınıza katılan öğrencilerin oyunlarında standart kelimelere ek olarak sorulacaktır.
+        EklediÄŸiniz kelimeler, sÄ±nÄ±fÄ±nÄ±za katÄ±lan Ã¶ÄŸrencilerin oyunlarÄ±nda standart kelimelere ek olarak sorulacaktÄ±r.
       </p>
       <div class="create-class-form">
-        <input class="create-class-input" id="new-word-text" type="text" placeholder="Kelime (Örn: JÜPİTER)" maxlength="20">
-        <input class="create-class-input" id="new-word-hint" type="text" placeholder="İpucu (Örn: Güneş sisteminin en büyük gezegeni)" maxlength="80">
+        <input class="create-class-input" id="new-word-text" type="text" placeholder="Kelime (Ã–rn: JÃœPÄ°TER)" maxlength="20">
+        <input class="create-class-input" id="new-word-hint" type="text" placeholder="Ä°pucu (Ã–rn: GÃ¼neÅŸ sisteminin en bÃ¼yÃ¼k gezegeni)" maxlength="80">
         <button class="btn-primary" id="add-word-btn" style="white-space:nowrap;">Ekle</button>
       </div>
       <p id="add-word-msg" style="font-size:var(--text-sm);margin:0;display:none;"></p>
     </div>
 
     <div class="panel-card">
-      <div class="panel-card-title">📚 Sınıf Kelimeleri</div>
+      <div class="panel-card-title">ğŸ“š SÄ±nÄ±f Kelimeleri</div>
       <div id="class-words-wrap">
         <div class="empty-state">
-          <div class="empty-state-icon">📝</div>
-          <div>Henüz sınıfa özel kelime eklenmemiş.</div>
+          <div class="empty-state-icon">ğŸ“</div>
+          <div>HenÃ¼z sÄ±nÄ±fa Ã¶zel kelime eklenmemiÅŸ.</div>
         </div>
       </div>
     </div>
@@ -256,11 +256,11 @@
 
 </div><!-- /panel-root -->
 
-<!-- ÖĞRENCİ KARNESİ MODAL -->
+<!-- Ã–ÄRENCÄ° KARNESÄ° MODAL -->
 <div class="nav-dropdown-backdrop" id="student-modal-backdrop" style="display:none;background:rgba(0,0,0,0.5);z-index:9998;position:fixed;inset:0;"></div>
 <div id="student-modal" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:9999;width:90%;max-width:500px;background:var(--color-surface);border-radius:var(--radius-xl);padding:var(--space-6);box-shadow:var(--shadow-lg);flex-direction:column;gap:var(--space-4);">
   <div style="display:flex;justify-content:space-between;align-items:center;">
-    <h3 style="margin:0;font-size:var(--text-lg);color:var(--color-primary);" id="student-modal-name">Öğrenci Adı</h3>
+    <h3 style="margin:0;font-size:var(--text-lg);color:var(--color-primary);" id="student-modal-name">Ã–ÄŸrenci AdÄ±</h3>
     <button id="close-student-modal" style="background:transparent;border:none;font-size:24px;color:var(--color-text-muted);cursor:pointer;">&times;</button>
   </div>
   
@@ -270,14 +270,14 @@
     <div>| Skor: <strong id="student-modal-score">0</strong></div>
   </div>
 
-  <h4 style="margin:0;color:var(--color-error);">⚠️ Hatalı Bilinen Kelimeler (Zayıf Üniteler)</h4>
+  <h4 style="margin:0;color:var(--color-error);">âš ï¸ HatalÄ± Bilinen Kelimeler (ZayÄ±f Ãœniteler)</h4>
   <div id="student-modal-mistakes" style="max-height:250px;overflow-y:auto;display:flex;flex-direction:column;gap:var(--space-2);font-size:var(--text-sm);">
     <!-- JS ile doldurulacak -->
   </div>
 </div>
 
 <script>
-// ── Firebase hazır olana kadar bekle ──────────────────────────────────────
+// â”€â”€ Firebase hazÄ±r olana kadar bekle â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 let teacherUid = null;
 let activeClassCode = null;
 let teacherClasses  = [];
@@ -290,23 +290,23 @@ async function waitForFB(ms = 5000) {
   });
 }
 
-// ── AUTH GUARD ────────────────────────────────────────────────────────────
+// â”€â”€ AUTH GUARD â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 async function init() {
   const ok = await waitForFB();
   if (!ok) {
-    showGuard("Firebase bağlanamadı. İnternet bağlantınızı kontrol edin.");
+    showGuard("Firebase baÄŸlanamadÄ±. Ä°nternet baÄŸlantÄ±nÄ±zÄ± kontrol edin.");
     return;
   }
 
   FB.onAuthStateChanged(async user => {
     if (!user) {
-      showGuard("Bu panele erişmek için Google ile giriş yapmalısınız.", true);
+      showGuard("Bu panele eriÅŸmek iÃ§in Google ile giriÅŸ yapmalÄ±sÄ±nÄ±z.", true);
       return;
     }
 
     const role = await FB.getRole(user.uid);
     if (role !== "teacher") {
-      showGuard("Bu panel yalnızca öğretmen rolüne atanmış kullanıcılar içindir.\nRol atanması için yönetici ile iletişime geçin.");
+      showGuard("Bu panel yalnÄ±zca Ã¶ÄŸretmen rolÃ¼ne atanmÄ±ÅŸ kullanÄ±cÄ±lar iÃ§indir.\nRol atanmasÄ± iÃ§in yÃ¶netici ile iletiÅŸime geÃ§in.");
       return;
     }
 
@@ -333,11 +333,11 @@ function showPanel(user) {
 
   const avatar = document.getElementById("teacher-avatar");
   if (user.photoURL) { avatar.src = user.photoURL; avatar.style.display = ""; }
-  document.getElementById("teacher-name").textContent = user.displayName || "Öğretmen";
+  document.getElementById("teacher-name").textContent = user.displayName || "Ã–ÄŸretmen";
   document.getElementById("teacher-email").textContent = user.email || "";
 }
 
-// ── VERİ YÜKLEME ─────────────────────────────────────────────────────────
+// â”€â”€ VERÄ° YÃœKLEME â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 async function loadTeacherData() {
   teacherClasses = await FB.getTeacherClasses(teacherUid);
 
@@ -347,10 +347,10 @@ async function loadTeacherData() {
     return;
   }
 
-  // İlk sınıfı seç
+  // Ä°lk sÄ±nÄ±fÄ± seÃ§
   selectClass(teacherClasses[0].code);
 
-  // Birden fazla sınıf varsa seçici göster
+  // Birden fazla sÄ±nÄ±f varsa seÃ§ici gÃ¶ster
   if (teacherClasses.length > 1) {
     renderClassSelector();
   }
@@ -375,18 +375,18 @@ async function selectClass(code) {
   const cls = teacherClasses.find(c => c.code === code);
   if (!cls) return;
 
-  // Kod kartı
+  // Kod kartÄ±
   document.getElementById("card-active-class").style.display = "";
   document.getElementById("active-class-code").textContent = code;
   document.getElementById("active-class-name").textContent = cls.name;
 
-  // Üye listesi ve kelimeleri yükle
+  // Ãœye listesi ve kelimeleri yÃ¼kle
   await Promise.all([
     loadMembers(code),
     loadClassWords(code)
   ]);
 
-  // Seçici güncelle
+  // SeÃ§ici gÃ¼ncelle
   document.querySelectorAll(".class-selector-btn").forEach(b => {
     b.classList.toggle("selected", b.textContent.includes(code));
   });
@@ -399,7 +399,7 @@ async function loadMembers(code) {
   document.getElementById("active-class-count").textContent = currentMembers.length;
   document.getElementById("card-members").style.display = "";
 
-  // Sıralama tablosunu da güncelle
+  // SÄ±ralama tablosunu da gÃ¼ncelle
   renderMemberTable(currentMembers, "members-list-wrap");
   renderLeaderboard(currentMembers);
   renderSummaryStats(currentMembers);
@@ -409,8 +409,8 @@ function renderMemberTable(members, wrapperId) {
   const wrap = document.getElementById(wrapperId);
   if (!members || members.length === 0) {
     wrap.innerHTML = `<div class="empty-state">
-      <div class="empty-state-icon">👤</div>
-      <div>Henüz kimse katılmadı.</div>
+      <div class="empty-state-icon">ğŸ‘¤</div>
+      <div>HenÃ¼z kimse katÄ±lmadÄ±.</div>
     </div>`;
     return;
   }
@@ -422,11 +422,11 @@ function renderMemberTable(members, wrapperId) {
         <thead>
           <tr>
             <th>#</th>
-            <th>Öğrenci</th>
+            <th>Ã–ÄŸrenci</th>
             <th style="text-align:right;">Puan</th>
             <th style="text-align:right;">Oyun</th>
             <th style="text-align:right;">Kazanma %</th>
-            <th style="text-align:center;">İşlem</th>
+            <th style="text-align:center;">Ä°ÅŸlem</th>
           </tr>
         </thead>
         <tbody>
@@ -438,21 +438,21 @@ function renderMemberTable(members, wrapperId) {
             return `<tr>
               <td style="cursor:pointer;" onclick="showStudentModal(${i})"><span class="rank-badge ${rankClass}">${i + 1}</span></td>
               <td style="cursor:pointer;" onclick="showStudentModal(${i})">
-                <div style="font-weight:600;">${escapeHtml(m.displayName || "—")}</div>
+                <div style="font-weight:600;">${escapeHtml(m.displayName || "â€”")}</div>
                 <div style="font-size:11px;color:var(--color-text-muted);">${escapeHtml(m.email || "")}</div>
               </td>
               <td style="cursor:pointer;text-align:right;font-weight:700;color:var(--color-primary);" onclick="showStudentModal(${i})">${m.stats?.score || 0}</td>
               <td style="cursor:pointer;text-align:right;" onclick="showStudentModal(${i})">${m.stats?.totalGames || 0}</td>
               <td style="cursor:pointer;text-align:right;" onclick="showStudentModal(${i})">${winRate}%</td>
               <td style="text-align:center;">
-                 <button class="btn-secondary" style="padding:4px 8px; font-size:11px; margin:0; background:var(--color-error); color:#fff; border:none;" onclick="removeStudent('${m.uid}', '${escapeHtml(m.displayName || "")}')">Kaldır</button>
+                 <button class="btn-secondary" style="padding:4px 8px; font-size:11px; margin:0; background:var(--color-error); color:#fff; border:none;" onclick="removeStudent('${m.uid}', '${escapeHtml(m.displayName || "")}')">KaldÄ±r</button>
               </td>
             </tr>`;
           }).join("")}
         </tbody>
       </table>
     </div>
-    <div style="font-size:11px; color:var(--color-text-muted); margin-top:var(--space-2); text-align:right;">* Detay (Hata Defteri) için öğrenciye tıklayın</div>`;
+    <div style="font-size:11px; color:var(--color-text-muted); margin-top:var(--space-2); text-align:right;">* Detay (Hata Defteri) iÃ§in Ã¶ÄŸrenciye tÄ±klayÄ±n</div>`;
 }
 
 function renderLeaderboard(members) {
@@ -478,9 +478,9 @@ function escapeHtml(str) {
     ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
 }
 
-// ── OLAYLAR ───────────────────────────────────────────────────────────────
+// â”€â”€ OLAYLAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
-// Sekme geçişi
+// Sekme geÃ§iÅŸi
 document.querySelectorAll(".tab-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -490,34 +490,34 @@ document.querySelectorAll(".tab-btn").forEach(btn => {
   });
 });
 
-// Sınıf oluştur
+// SÄ±nÄ±f oluÅŸtur
 document.getElementById("create-class-btn").addEventListener("click", async () => {
   const nameInput = document.getElementById("new-class-name");
   const msg = document.getElementById("create-class-msg");
   const name = nameInput.value.trim();
-  if (!name) { showMsg(msg, "Sınıf adı girin.", "error"); return; }
-  if (!teacherUid) { showMsg(msg, "Giriş yapın.", "error"); return; }
+  if (!name) { showMsg(msg, "SÄ±nÄ±f adÄ± girin.", "error"); return; }
+  if (!teacherUid) { showMsg(msg, "GiriÅŸ yapÄ±n.", "error"); return; }
 
   const btn = document.getElementById("create-class-btn");
-  btn.disabled = true; btn.textContent = "Oluşturuluyor…";
+  btn.disabled = true; btn.textContent = "OluÅŸturuluyorâ€¦";
 
   const user = FB.currentUser;
   const result = await FB.createClass(
     teacherUid,
-    user?.displayName || "Öğretmen",
+    user?.displayName || "Ã–ÄŸretmen",
     name
   );
 
-  btn.disabled = false; btn.textContent = "Oluştur";
+  btn.disabled = false; btn.textContent = "OluÅŸtur";
 
   if (result.success) {
-    showMsg(msg, `✅ Sınıf oluşturuldu! Kod: ${result.code}`, "success");
+    showMsg(msg, `âœ… SÄ±nÄ±f oluÅŸturuldu! Kod: ${result.code}`, "success");
     nameInput.value = "";
     teacherClasses = await FB.getTeacherClasses(teacherUid);
     selectClass(result.code);
     if (teacherClasses.length > 1) renderClassSelector();
   } else {
-    showMsg(msg, "❌ Hata: " + result.error, "error");
+    showMsg(msg, "âŒ Hata: " + result.error, "error");
   }
 });
 
@@ -526,17 +526,17 @@ document.getElementById("copy-code-btn").addEventListener("click", () => {
   const code = document.getElementById("active-class-code").textContent;
   navigator.clipboard?.writeText(code).then(() => {
     const btn = document.getElementById("copy-code-btn");
-    btn.textContent = "✓ Kopyalandı";
+    btn.textContent = "âœ“ KopyalandÄ±";
     setTimeout(() => btn.textContent = "Kopyala", 2000);
   });
 });
 
-// İstatistik yenile
+// Ä°statistik yenile
 document.getElementById("refresh-stats-btn").addEventListener("click", async () => {
   if (activeClassCode) await loadMembers(activeClassCode);
 });
 
-// ── KELİME YÖNETİMİ ───────────────────────────────────────────────────────
+// â”€â”€ KELÄ°ME YÃ–NETÄ°MÄ° â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 document.getElementById("add-word-btn").addEventListener("click", async () => {
   if (!activeClassCode) return;
@@ -548,7 +548,7 @@ document.getElementById("add-word-btn").addEventListener("click", async () => {
   const hint = hintInput.value.trim();
 
   if (!word) {
-    showMsg(msg, "Lütfen bir kelime girin.", "error");
+    showMsg(msg, "LÃ¼tfen bir kelime girin.", "error");
     return;
   }
 
@@ -562,12 +562,12 @@ document.getElementById("add-word-btn").addEventListener("click", async () => {
   btn.textContent = "Ekle";
 
   if (success) {
-    showMsg(msg, "Kelime başarıyla eklendi!", "success");
+    showMsg(msg, "Kelime baÅŸarÄ±yla eklendi!", "success");
     wordInput.value = "";
     hintInput.value = "";
     await loadClassWords(activeClassCode);
   } else {
-    showMsg(msg, "Kelime eklenirken hata oluştu.", "error");
+    showMsg(msg, "Kelime eklenirken hata oluÅŸtu.", "error");
   }
 });
 
@@ -577,8 +577,8 @@ async function loadClassWords(code) {
   
   if (!words || words.length === 0) {
     wrap.innerHTML = `<div class="empty-state">
-      <div class="empty-state-icon">📝</div>
-      <div>Henüz sınıfa özel kelime eklenmemiş.</div>
+      <div class="empty-state-icon">ğŸ“</div>
+      <div>HenÃ¼z sÄ±nÄ±fa Ã¶zel kelime eklenmemiÅŸ.</div>
     </div>`;
     return;
   }
@@ -588,9 +588,9 @@ async function loadClassWords(code) {
       <div style="display:flex;justify-content:space-between;align-items:center;padding:var(--space-3);background:var(--color-surface-offset);border-radius:var(--radius-md);border:1px solid var(--color-border);">
         <div>
           <div style="font-weight:700;color:var(--color-primary);">${escapeHtml(w.word)}</div>
-          ${w.hint ? `<div style="font-size:12px;color:var(--color-text-muted);">İpucu: ${escapeHtml(w.hint)}</div>` : ''}
+          ${w.hint ? `<div style="font-size:12px;color:var(--color-text-muted);">Ä°pucu: ${escapeHtml(w.hint)}</div>` : ''}
         </div>
-        <button onclick="deleteWord('${w.id}')" style="background:transparent;border:none;color:var(--color-error);cursor:pointer;padding:var(--space-2);">🗑️</button>
+        <button onclick="deleteWord('${w.id}')" style="background:transparent;border:none;color:var(--color-error);cursor:pointer;padding:var(--space-2);">ğŸ—‘ï¸</button>
       </div>
     `).join("")}
   </div>`;
@@ -598,7 +598,7 @@ async function loadClassWords(code) {
 
 window.deleteWord = async function(wordId) {
   if (!activeClassCode) return;
-  if (!confirm("Bu kelimeyi silmek istediğinize emin misiniz?")) return;
+  if (!confirm("Bu kelimeyi silmek istediÄŸinize emin misiniz?")) return;
   const success = await FB.deleteClassWord(activeClassCode, wordId);
   if (success) {
     await loadClassWords(activeClassCode);
@@ -607,7 +607,7 @@ window.deleteWord = async function(wordId) {
   }
 }
 
-// ── ÖĞRENCİ MODAL ─────────────────────────────────────────────────────────
+// â”€â”€ Ã–ÄRENCÄ° MODAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 window.showStudentModal = function(index) {
   const m = currentMembers[index];
@@ -625,7 +625,7 @@ window.showStudentModal = function(index) {
   const mistakesArray = m.mistakes || [];
   
   if (!Array.isArray(mistakesArray) || mistakesArray.length === 0) {
-    mistakesWrap.innerHTML = `<div style="color:var(--color-text-muted);text-align:center;padding:var(--space-4);">Kayıtlı hata bulunmuyor. Harika! 🎉</div>`;
+    mistakesWrap.innerHTML = `<div style="color:var(--color-text-muted);text-align:center;padding:var(--space-4);">KayÄ±tlÄ± hata bulunmuyor. Harika! ğŸ‰</div>`;
   } else {
     const sorted = [...mistakesArray].sort((a,b) => (b.count || 0) - (a.count || 0));
     mistakesWrap.innerHTML = sorted.map(item => `
@@ -657,32 +657,33 @@ function showMsg(el, text, type) {
 
 window.promptDeleteClass = async function() {
   if (!activeClassCode) return;
-  if (!confirm("Bu sınıfı ve tüm öğrencileri, özel kelimeleri silmek istediğinize emin misiniz? Bu işlem geri alınamaz!")) return;
+  if (!confirm("Bu sÄ±nÄ±fÄ± ve tÃ¼m Ã¶ÄŸrencileri, Ã¶zel kelimeleri silmek istediÄŸinize emin misiniz? Bu iÅŸlem geri alÄ±namaz!")) return;
   
   const success = await FB.deleteClass(activeClassCode);
   if (success) {
-    alert("Sınıf silindi.");
+    alert("SÄ±nÄ±f silindi.");
     window.location.reload();
   } else {
-    alert("Sınıf silinirken hata oluştu.");
+    alert("SÄ±nÄ±f silinirken hata oluÅŸtu.");
   }
 };
 
 window.removeStudent = async function(uid, name) {
   if (!activeClassCode) return;
-  if (!confirm(name + " adlı öğrenciyi sınıftan çıkarmak istediğinize emin misiniz?")) return;
+  if (!confirm(name + " adlÄ± Ã¶ÄŸrenciyi sÄ±nÄ±ftan Ã§Ä±karmak istediÄŸinize emin misiniz?")) return;
   
   const success = await FB.removeMember(activeClassCode, uid);
   if (success) {
-    alert("Öğrenci sınıftan çıkarıldı.");
+    alert("Ã–ÄŸrenci sÄ±nÄ±ftan Ã§Ä±karÄ±ldÄ±.");
     loadMembers(activeClassCode);
   } else {
-    alert("İşlem sırasında hata oluştu.");
+    alert("Ä°ÅŸlem sÄ±rasÄ±nda hata oluÅŸtu.");
   }
 };
 
-// Başlat
+// BaÅŸlat
 init();
 </script>
 </body>
 </html>
+
