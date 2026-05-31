@@ -1321,7 +1321,7 @@ function handleTimeout() {
   
   // Can azalt
   gameState.wrong.push("SÜRE");
-  gameState.score -= 2;
+  gameState.score = Math.max(0, gameState.score - 2);
   saveScore();
   SOUNDS.wrong();
   
@@ -1709,7 +1709,8 @@ function startReviewMode() {
 function prepareRoundWordBank(words) {
   // Öğretmenin formdan eklediği dinamik kelimeleri yükle ve birleştir
   const tWords = getTeacherWordsForCurrentUnit();
-  const mergedWords = [...words];
+  // 3 harf ve daha kısa olanları filtrele (kullanıcı talebi: en az 4 harf olsun)
+  const mergedWords = [...words].filter(w => w.word && w.word.length >= 4);
   tWords.forEach(tw => {
     const exists = mergedWords.some(w => w.word === tw.word);
     if (!exists) {
@@ -1780,7 +1781,7 @@ function useRevealJoker() {
   
   if (unguessed.length > 0) {
     jokersLeft--;
-    gameState.score -= 5;
+    gameState.score = Math.max(0, gameState.score - 5);
     saveScore();
     
     // Rastgele bir harf aç
@@ -1804,7 +1805,7 @@ function useEliminateJoker() {
   
   if (wrongUnguessed.length >= 2) {
     jokersLeft--;
-    gameState.score -= 3;
+    gameState.score = Math.max(0, gameState.score - 3);
     saveScore();
     
     // 2 adet yanlış harfi SADECE guessed listesine ekle (wrong listesine DEĞİL)
@@ -2060,30 +2061,60 @@ function populateGrades() {
   });
   list.appendChild(randomBtn);
 
-  // ── Normal sınıf kartları ──
-  CURRICULUM_DATA.forEach(gradeItem => {
-    const btn = document.createElement('button');
-    const theme = getGradeThemeGroup(gradeItem.grade);
-    btn.className = `grid-card theme-${theme.group}`;
-    
-    const emojiSpan = document.createElement('span');
-    emojiSpan.className = 'card-emoji';
-    emojiSpan.textContent = theme.emoji;
-    
-    const textSpan = document.createElement('span');
-    textSpan.textContent = gradeItem.gradeName;
-    
-    btn.appendChild(emojiSpan);
-    btn.appendChild(textSpan);
-    
-    btn.addEventListener('click', () => {
-      selectedGrade = gradeItem;
-      SafeStorage.setItem("lastSelectedGrade", String(gradeItem.grade));
-      applyGradeTheme(selectedGrade.grade);
-      populateSubjects();
-      showSubjectScreen();
-    });
-    list.appendChild(btn);
+  // ── Sınıf grupları ──
+  const groups = [
+    { id: 'primary', title: 'İlkokul (1-4)', filter: g => g.grade >= 1 && g.grade <= 4 },
+    { id: 'middle', title: 'Ortaokul (5-8)', filter: g => g.grade >= 5 && g.grade <= 8 },
+    { id: 'high', title: 'Lise (9-12)', filter: g => g.grade >= 9 && g.grade <= 12 },
+    { id: 'exam', title: 'Sınavlar & Hazırlık', filter: g => g.grade > 12 }
+  ];
+
+  groups.forEach(group => {
+    const items = CURRICULUM_DATA.filter(group.filter);
+    if (items.length > 0) {
+      const titleDiv = document.createElement('div');
+      titleDiv.className = 'grade-group-title';
+      titleDiv.textContent = group.title;
+      titleDiv.style.gridColumn = '1 / -1';
+      titleDiv.style.textAlign = 'left';
+      titleDiv.style.fontWeight = '800';
+      titleDiv.style.fontFamily = 'var(--font-display)';
+      titleDiv.style.fontSize = 'var(--text-lg)';
+      titleDiv.style.color = 'var(--color-text-muted)';
+      titleDiv.style.marginTop = 'var(--space-4)';
+      titleDiv.style.marginBottom = 'var(--space-2)';
+      list.appendChild(titleDiv);
+
+      items.forEach(gradeItem => {
+        const btn = document.createElement('button');
+        const theme = getGradeThemeGroup(gradeItem.grade);
+        btn.className = `grid-card theme-${theme.group}`;
+        
+        // Kullanıcı Talebi: Çıkmış sorular (grade 20) için ayrı renkli kart/banner
+        if (gradeItem.grade === 20) {
+          btn.classList.add('special-exam-card');
+        }
+        
+        const emojiSpan = document.createElement('span');
+        emojiSpan.className = 'card-emoji';
+        emojiSpan.textContent = theme.emoji;
+        
+        const textSpan = document.createElement('span');
+        textSpan.textContent = gradeItem.gradeName;
+        
+        btn.appendChild(emojiSpan);
+        btn.appendChild(textSpan);
+        
+        btn.addEventListener('click', () => {
+          selectedGrade = gradeItem;
+          SafeStorage.setItem("lastSelectedGrade", String(gradeItem.grade));
+          applyGradeTheme(selectedGrade.grade);
+          populateSubjects();
+          showSubjectScreen();
+        });
+        list.appendChild(btn);
+      });
+    }
   });
 
   // Müfredat listesi DOM'u yenilendiğinde, öğrenci sınıf butonunu da (eğer giriş yapıldıysa) tekrar en sona veya uygun yere ekle.
@@ -2164,6 +2195,21 @@ function populateSubjects() {
           unitBtn.addEventListener('click', () => {
             selectedSubject = subject;
             selectedUnit = unit;
+            
+            // Kullanıcı talebi: Ders değiştiğinde önceki puanı sıfırla
+            if (typeof gameState !== 'undefined' && gameState) {
+               gameState.score = 0;
+            }
+            
+            // Kullanıcı talebi: 9-12. sınıf veya Çıkmış Sorular(20) seçilirse otomatik "Zor" yap
+            if (selectedGrade && (selectedGrade.grade >= 9 || selectedGrade.grade === 20)) {
+               const diffSelect = document.getElementById('difficulty-select');
+               if (diffSelect) {
+                  diffSelect.value = 'hard';
+                  currentDifficulty = 'hard';
+               }
+            }
+            
             SafeStorage.setItem("lastPlayedState", JSON.stringify({ 
               grade: selectedGrade.grade, 
               subjectId: subject.id, 
@@ -2339,7 +2385,7 @@ function guess(key) {
   const inWord = gameState.word.includes(k);
   if (!inWord) {
     gameState.wrong.push(k);
-    gameState.score -= 2;
+    gameState.score = Math.max(0, gameState.score - 2);
     saveScore();
     SOUNDS.wrong();
     

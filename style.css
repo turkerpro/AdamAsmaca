@@ -306,7 +306,7 @@
   .logo{display:flex;align-items:center;gap:var(--space-3)}
   .logo-icon{width:36px;height:36px;flex-shrink:0}
   .logo-img{height:36px;width:auto;object-fit:contain;flex-shrink:0;display:block;}
-  .logo-text{font-family:var(--font-display);font-size:var(--text-lg);font-weight:800;letter-spacing:-0.02em; line-height: 1.1; display: flex; flex-direction: column;}
+  .logo-text{font-family:'Cabinet Grotesk', sans-serif !important;font-size:var(--text-lg);font-weight:800;letter-spacing:-0.02em; line-height: 1.1; display: flex; flex-direction: column;}
   .theme-toggle{width:40px;height:40px;display:flex;align-items:center;justify-content:center;
     border-radius:var(--radius-full);background:var(--color-surface);border:1px solid var(--color-border);
     color:var(--color-text-muted)}
@@ -1077,10 +1077,10 @@
     white-space: nowrap;
   }
   .joker-cost {
-    font-size: 10px;
-    font-weight: 500;
-    color: var(--color-text-muted);
-    opacity: 0.8;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-error);
+    opacity: 1;
   }
   .joker-btn:hover:not(:disabled) {
     background: var(--color-surface-2);
@@ -1433,4 +1433,29 @@
     width: 90vw !important;
     min-width: unset !important;
   }
+}
+
+/* Çıkmış Sorular Özel Vurgu Kartı */
+.special-exam-card {
+  background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-primary-highlight) 100%);
+  border: 2px solid var(--color-primary) !important;
+  box-shadow: var(--shadow-md) !important;
+  position: relative;
+  overflow: hidden;
+}
+.special-exam-card::after {
+  content: "✨ ÖZEL";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: var(--color-primary);
+  color: var(--color-bg);
+  font-size: 10px;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-bottom-left-radius: var(--radius-md);
+}
+.special-exam-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg) !important;
 }
