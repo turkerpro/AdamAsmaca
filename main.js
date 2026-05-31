@@ -924,10 +924,14 @@ function closeLoginChoiceModal() {
 // Giriş yapan öğrencinin sınıf durumunu kontrol eder
 // Sınıfa katılmamışsa grade-list'te bir kart gösterir
 let studentClassCode = null;
+window.classCustomWords = [];
 
 async function initStudentClassUI(user) {
   if (!window.FB || !user) return;
   studentClassCode = await window.FB.getStudentClassCode(user.uid);
+  if (studentClassCode) {
+    window.classCustomWords = await window.FB.getClassWords(studentClassCode);
+  }
 
   // Hamburger menü butonunu yönet
   const navJoinBtn = document.getElementById("nav-student-join-btn");
@@ -1033,6 +1037,7 @@ function openJoinClassOverlay(user) {
 
       if (result.success) {
         studentClassCode = code;
+        window.classCustomWords = await window.FB.getClassWords(code);
         closeOverlayFn();
         showNotificationToast("🏫 \"" + result.className + "\" sınıfına katıldın!");
         initStudentClassUI(user); // Kartı güncelle
