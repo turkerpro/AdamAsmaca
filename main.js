@@ -890,7 +890,9 @@ function initAuth() {
         window.userRole = role;
         const teacherBtn = document.getElementById("nav-teacher-btn");
         if (teacherBtn) teacherBtn.style.display = role === "teacher" ? "" : "none";
-        // Öğrenciyse sınıfa katıl kartını göster
+        const adminBtn = document.getElementById("nav-admin-btn");
+        if (adminBtn) adminBtn.style.display = role === "admin" ? "" : "none";
+        // Öğrenciyse veya adminse sınıfa katıl kartını göster (Adminler test edebilmeli)
         if (role !== "teacher") initStudentClassUI(user);
       });
 
@@ -906,6 +908,8 @@ function initAuth() {
       if (authUser) authUser.style.display = "none";
       const teacherBtn = document.getElementById("nav-teacher-btn");
       if (teacherBtn) teacherBtn.style.display = "none";
+      const adminBtn = document.getElementById("nav-admin-btn");
+      if (adminBtn) adminBtn.style.display = "none";
       if (didLogout) showNotificationToast("👋 Güvenli çıkış yapıldı.");
     }
   });

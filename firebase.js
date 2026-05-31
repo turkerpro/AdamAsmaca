@@ -24,7 +24,8 @@ import {
   orderBy,
   where,
   arrayUnion,
-  arrayRemove
+  arrayRemove,
+  collectionGroup
 } from "https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -441,6 +442,36 @@ const FB = {
 
   async saveGrade(uid, gradeNum) {
     await safeSet(userProfileDoc(uid), { savedGrade: gradeNum });
+  },
+
+  // ── YÖNETİM (ADMIN) İŞLEMLERİ ─────────────────────────────────────────
+  async getAllUsers() {
+    try {
+      // collectionGroup('profile') ile tüm profil/info dökümanlarını çekiyoruz
+      const q = query(collectionGroup(db, "profile"));
+      const snap = await getDocs(q);
+      const users = [];
+      snap.forEach(doc => {
+        // Document ID genelde "info" olur, asıl User ID parent collection'ın id'sidir
+        // doc.ref.parent "profile" koleksiyonu, onun parent'ı "users/{uid}" belgesidir
+        const uid = doc.ref.parent.parent.id;
+        users.push({ uid, ...doc.data() });
+      });
+      return users;
+    } catch (e) {
+      console.error("getAllUsers error:", e);
+      return [];
+    }
+  },
+
+  async updateUserRole(uid, newRole) {
+    try {
+      await setDoc(userProfileDoc(uid), { role: newRole }, { merge: true });
+      return true;
+    } catch (e) {
+      console.error("updateUserRole error:", e);
+      return false;
+    }
   }
 };
 
