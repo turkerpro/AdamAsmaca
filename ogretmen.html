@@ -163,6 +163,9 @@
         Sınıf adı: <strong id="active-class-name">—</strong> &nbsp;·&nbsp;
         Üye sayısı: <strong id="active-class-count">0</strong>
       </div>
+      <div style="margin-top: 12px; text-align: right;">
+        <button class="btn-secondary" style="padding: 6px 12px; border-color:var(--color-error); color:var(--color-error);" onclick="promptDeleteClass()">🗑️ Sınıfı Sil</button>
+      </div>
     </div>
 
     <!-- Yeni sınıf oluştur -->
@@ -411,35 +414,41 @@ function renderMemberTable(members, wrapperId) {
 
   const sorted = [...members].sort((a, b) => (b.stats?.score || 0) - (a.stats?.score || 0));
   wrap.innerHTML = `
-    <table class="members-table">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Öğrenci</th>
-          <th style="text-align:right;">Puan</th>
-          <th style="text-align:right;">Oyun</th>
-          <th style="text-align:right;">Kazanma %</th>
-        </tr>
-      </thead>
-      <tbody>
-        ${sorted.map((m, i) => {
-          const winRate = m.stats?.totalGames
-            ? Math.round((m.stats.gamesWon / m.stats.totalGames) * 100)
-            : 0;
-          const rankClass = i === 0 ? "rank-1" : i === 1 ? "rank-2" : i === 2 ? "rank-3" : "rank-other";
-          return `<tr style="cursor:pointer;" onclick="showStudentModal(${i})">
-            <td><span class="rank-badge ${rankClass}">${i + 1}</span></td>
-            <td>
-              <div style="font-weight:600;">${escapeHtml(m.displayName || "—")}</div>
-              <div style="font-size:11px;color:var(--color-text-muted);">${escapeHtml(m.email || "")}</div>
-            </td>
-            <td style="text-align:right;font-weight:700;color:var(--color-primary);">${m.stats?.score || 0}</td>
-            <td style="text-align:right;">${m.stats?.totalGames || 0}</td>
-            <td style="text-align:right;">${winRate}%</td>
-          </tr>`;
-        }).join("")}
-      </tbody>
-    </table>
+    <div style="overflow-x: auto; white-space: nowrap; max-width: 100vw; padding-bottom: 8px;">
+      <table class="members-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Öğrenci</th>
+            <th style="text-align:right;">Puan</th>
+            <th style="text-align:right;">Oyun</th>
+            <th style="text-align:right;">Kazanma %</th>
+            <th style="text-align:center;">İşlem</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${sorted.map((m, i) => {
+            const winRate = m.stats?.totalGames
+              ? Math.round((m.stats.gamesWon / m.stats.totalGames) * 100)
+              : 0;
+            const rankClass = i === 0 ? "rank-1" : i === 1 ? "rank-2" : i === 2 ? "rank-3" : "rank-other";
+            return `<tr>
+              <td style="cursor:pointer;" onclick="showStudentModal(${i})"><span class="rank-badge ${rankClass}">${i + 1}</span></td>
+              <td style="cursor:pointer;" onclick="showStudentModal(${i})">
+                <div style="font-weight:600;">${escapeHtml(m.displayName || "—")}</div>
+                <div style="font-size:11px;color:var(--color-text-muted);">${escapeHtml(m.email || "")}</div>
+              </td>
+              <td style="cursor:pointer;text-align:right;font-weight:700;color:var(--color-primary);" onclick="showStudentModal(${i})">${m.stats?.score || 0}</td>
+              <td style="cursor:pointer;text-align:right;" onclick="showStudentModal(${i})">${m.stats?.totalGames || 0}</td>
+              <td style="cursor:pointer;text-align:right;" onclick="showStudentModal(${i})">${winRate}%</td>
+              <td style="text-align:center;">
+                 <button class="btn-secondary" style="padding:4px 8px; font-size:11px; margin:0; background:var(--color-error); color:#fff; border:none;" onclick="removeStudent('${m.uid}', '${escapeHtml(m.displayName || "")}')">Kaldır</button>
+              </td>
+            </tr>`;
+          }).join("")}
+        </tbody>
+      </table>
+    </div>
     <div style="font-size:11px; color:var(--color-text-muted); margin-top:var(--space-2); text-align:right;">* Detay (Hata Defteri) için öğrenciye tıklayın</div>`;
 }
 
@@ -642,6 +651,32 @@ function showMsg(el, text, type) {
   el.textContent = text;
   el.style.color = type === "error" ? "var(--color-error)" : "var(--color-primary)";
 }
+
+window.promptDeleteClass = async function() {
+  if (!activeClassCode) return;
+  if (!confirm("Bu sınıfı ve tüm öğrencileri, özel kelimeleri silmek istediğinize emin misiniz? Bu işlem geri alınamaz!")) return;
+  
+  const success = await FB.deleteClass(activeClassCode);
+  if (success) {
+    alert("Sınıf silindi.");
+    window.location.reload();
+  } else {
+    alert("Sınıf silinirken hata oluştu.");
+  }
+};
+
+window.removeStudent = async function(uid, name) {
+  if (!activeClassCode) return;
+  if (!confirm(name + " adlı öğrenciyi sınıftan çıkarmak istediğinize emin misiniz?")) return;
+  
+  const success = await FB.removeMember(activeClassCode, uid);
+  if (success) {
+    alert("Öğrenci sınıftan çıkarıldı.");
+    loadMembers(activeClassCode);
+  } else {
+    alert("İşlem sırasında hata oluştu.");
+  }
+};
 
 // Başlat
 init();

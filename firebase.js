@@ -19,10 +19,12 @@ import {
   setDoc,
   updateDoc,
   addDoc,
-  deleteDoc,
   serverTimestamp,
   query,
-  orderBy
+  orderBy,
+  where,
+  arrayUnion,
+  arrayRemove
 } from "https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -187,7 +189,6 @@ const FB = {
     }
   },
 
-  // Öğretmenin sınıflarını getir
   async getTeacherClasses(teacherUid) {
     try {
       const q = query(
@@ -196,7 +197,7 @@ const FB = {
       );
       const snap = await getDocs(q);
       return snap.docs
-        .map(d => d.data())
+        .map(d => ({id: d.id, ...d.data()}))
         .filter(c => c.teacherUid === teacherUid);
     } catch (e) {
       console.error("getTeacherClasses:", e);
@@ -204,7 +205,53 @@ const FB = {
     }
   },
 
-  // Sınıf bilgisi getir
+  // ── ÖĞRENCİ ─────────────────────────────────────────────────────────────
+  
+  async getStudentClassCodes() {
+    if (!this.currentUser) return [];
+    try {
+      const snap = await getDoc(userProfileDoc(this.currentUser.uid));
+      if (!snap.exists()) return [];
+      const data = snap.data();
+      let codes = data.joinedClassCodes || [];
+      if (data.joinedClassCode && !codes.includes(data.joinedClassCode)) {
+        codes.push(data.joinedClassCode);
+      }
+      return codes;
+    } catch (e) {
+      console.error(e);
+      return [];
+    }
+  },
+
+  async joinClass(classCode) {
+    if (!this.currentUser || !classCode) return { success: false, msg: "Geçersiz istek" };
+    try {
+      const code = classCode.toUpperCase();
+      const classRef = doc(db, "classes", code);
+      const classSnap = await getDoc(classRef);
+      if (!classSnap.exists()) {
+        return { success: false, msg: "Sınıf bulunamadı!" };
+      }
+
+      const profRef = userProfileDoc(this.currentUser.uid);
+      await setDoc(profRef, { joinedClassCodes: arrayUnion(code) }, { merge: true });
+
+      const memberRef = doc(db, "classes", code, "members", this.currentUser.uid);
+      await setDoc(memberRef, {
+        displayName: this.currentUser.displayName || "İsimsiz",
+        email: this.currentUser.email || "",
+        photoURL: this.currentUser.photoURL || "",
+        joinedAt: serverTimestamp()
+      });
+
+      return { success: true, className: classSnap.data().name };
+    } catch (e) {
+      console.error(e);
+      return { success: false, msg: "Bağlantı hatası: " + e.message };
+    }
+  },
+
   async getClassInfo(code) {
     try {
       const snap = await getDoc(doc(db, "classes", code.toUpperCase()));
@@ -214,54 +261,10 @@ const FB = {
     }
   },
 
-  // Sınıfa katıl (öğrenci)
-  // Dönüş: { success, className, error? }
-  async joinClass(uid, code, studentInfo) {
-    try {
-      const upperCode = code.toUpperCase();
-      const classSnap = await getDoc(doc(db, "classes", upperCode));
-      if (!classSnap.exists()) return { success: false, error: "Sınıf bulunamadı" };
-
-      const classData = classSnap.data();
-      const memberRef = doc(db, "classes", upperCode, "members", uid);
-
-      await setDoc(memberRef, {
-        uid,
-        displayName: studentInfo.displayName || "",
-        email:       studentInfo.email || "",
-        photoURL:    studentInfo.photoURL || "",
-        joinedAt:    serverTimestamp(),
-        lastActive:  serverTimestamp(),
-        stats: {
-          totalGames: 0, gamesWon: 0, score: 0
-        }
-      }, { merge: true });
-
-      // Kullanıcı profiline sınıf kodunu kaydet
-      await safeSet(userProfileDoc(uid), { joinedClassCode: upperCode });
-
-      return { success: true, className: classData.name };
-    } catch (e) {
-      console.error("joinClass:", e);
-      return { success: false, error: e.message };
-    }
-  },
-
-  // Öğrenci sınıf kodunu al
-  async getStudentClassCode(uid) {
-    try {
-      const snap = await getDoc(userProfileDoc(uid));
-      return snap.exists() ? (snap.data().joinedClassCode || null) : null;
-    } catch (e) {
-      return null;
-    }
-  },
-
-  // Oyun sonrası öğrenci istatistiklerini sınıfa kaydet
   async saveStudentStats(classCode, uid, stats) {
     if (!classCode || !uid) return;
     try {
-      const memberRef = doc(db, "classes", classCode, "members", uid);
+      const memberRef = doc(db, "classes", classCode.toUpperCase(), "members", uid);
       await setDoc(memberRef, {
         stats: {
           totalGames: stats.totalGames || 0,
@@ -276,20 +279,18 @@ const FB = {
     }
   },
 
-  // Sınıf üyelerini getir (öğretmen paneli)
   async getClassMembers(code) {
     try {
       const membersCol = collection(db, "classes", code.toUpperCase(), "members");
       const q = query(membersCol, orderBy("lastActive", "desc"));
       const snap = await getDocs(q);
-      return snap.docs.map(d => d.data());
+      return snap.docs.map(d => ({ uid: d.id, ...d.data() }));
     } catch (e) {
       console.error("getClassMembers:", e);
       return [];
     }
   },
 
-  // Sınıfa özel kelime ekle (Öğretmen)
   async addClassWord(classCode, wordText, hint, category = "Özel Eklenti") {
     if (!classCode || !wordText || !this.currentUser) return false;
     try {
@@ -308,7 +309,6 @@ const FB = {
     }
   },
 
-  // Sınıfa özel kelimeleri getir (Öğretmen ve Öğrenci)
   async getClassWords(classCode) {
     if (!classCode) return [];
     try {
@@ -322,14 +322,47 @@ const FB = {
     }
   },
 
-  // Sınıfa özel kelimeyi sil (Öğretmen)
   async deleteClassWord(classCode, wordId) {
-    if (!classCode || !wordId) return false;
     try {
       await deleteDoc(doc(db, "classes", classCode.toUpperCase(), "words", wordId));
       return true;
     } catch (e) {
-      console.error("deleteClassWord:", e);
+      console.error(e);
+      return false;
+    }
+  },
+
+  async deleteClass(classCode) {
+    if (!this.currentUser || !classCode) return false;
+    try {
+      const code = classCode.toUpperCase();
+      const wordsSnap = await getDocs(collection(db, "classes", code, "words"));
+      for (const d of wordsSnap.docs) await deleteDoc(d.ref);
+
+      const membersSnap = await getDocs(collection(db, "classes", code, "members"));
+      for (const d of membersSnap.docs) {
+         const uid = d.id;
+         await setDoc(userProfileDoc(uid), { joinedClassCodes: arrayRemove(code) }, { merge: true });
+         await deleteDoc(d.ref);
+      }
+
+      await deleteDoc(doc(db, "classes", code));
+      return true;
+    } catch (e) {
+      console.error("deleteClass error:", e);
+      return false;
+    }
+  },
+
+  async removeMember(classCode, uid) {
+    if (!this.currentUser || !classCode || !uid) return false;
+    try {
+      const code = classCode.toUpperCase();
+      await deleteDoc(doc(db, "classes", code, "members", uid));
+      await setDoc(userProfileDoc(uid), { joinedClassCodes: arrayRemove(code) }, { merge: true });
+      return true;
+    } catch (e) {
+      console.error("removeMember error:", e);
       return false;
     }
   },

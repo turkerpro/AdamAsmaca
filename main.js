@@ -753,11 +753,22 @@ async function init() {
 
   if (CURRICULUM_DATA && CURRICULUM_DATA.length > 0) {
     populateGrades();
-    const savedGradeNum = parseInt(SafeStorage.getItem("lastSelectedGrade"));
-    const savedGradeItem = savedGradeNum
-      ? CURRICULUM_DATA.find(g => g.grade === savedGradeNum)
-      : null;
-    await startRandomGame(savedGradeItem ? savedGradeNum : null);
+    let resumed = false;
+    const lpStr = SafeStorage.getItem("lastPlayedState");
+    if (lpStr) {
+      try {
+        const lp = JSON.parse(lpStr);
+        resumed = await resumeLastPlayedGame(lp);
+      } catch (e) {}
+    }
+    
+    if (!resumed) {
+      const savedGradeNum = parseInt(SafeStorage.getItem("lastSelectedGrade"));
+      const savedGradeItem = savedGradeNum
+        ? CURRICULUM_DATA.find(g => g.grade === savedGradeNum)
+        : null;
+      await startRandomGame(savedGradeItem ? savedGradeNum : null);
+    }
     startBackgroundPrefetch();
   } else {
     document.getElementById('grade-list').innerHTML = '<p>Müfredat yüklenemedi. Lütfen internet bağlantınızı kontrol edin.</p>';
@@ -913,51 +924,34 @@ function closeLoginChoiceModal() {
 // ── ÖĞRENCİ SINIF UI ─────────────────────────────────────────────────────────
 // Giriş yapan öğrencinin sınıf durumunu kontrol eder
 // Sınıfa katılmamışsa grade-list'te bir kart gösterir
-let studentClassCode = null;
-window.classCustomWords = [];
+let studentClassCodes = [];
 
 async function initStudentClassUI(user) {
   if (!window.FB || !user) return;
-  studentClassCode = await window.FB.getStudentClassCode(user.uid);
-  if (studentClassCode) {
-    window.classCustomWords = await window.FB.getClassWords(studentClassCode);
-  }
+  studentClassCodes = await window.FB.getStudentClassCodes();
 
-  // Hamburger menü butonunu yönet
   const navJoinBtn = document.getElementById("nav-student-join-btn");
   const navJoinText = document.getElementById("nav-student-join-text");
   if (navJoinBtn) {
-    navJoinBtn.style.display = ""; // Görünür yap
+    navJoinBtn.style.display = "";
+    if (navJoinText) navJoinText.textContent = "Sınıfa Katıl";
     navJoinBtn.onclick = () => {
-      // Modalı açarken menüyü kapatalım
       const dropdown = document.getElementById("nav-dropdown");
       const backdrop = document.getElementById("nav-backdrop");
       if (dropdown) dropdown.style.display = "none";
       if (backdrop) backdrop.style.display = "none";
-      
-      if (studentClassCode) {
-        startClassGame();
-      } else {
-        openJoinClassOverlay(user);
-      }
+      openJoinClassOverlay(user); // Her halükarda yeni kod girebilir
     };
   }
 
-  // Sınıfa katıl kartını grade ekranına ekle
   const gradeList = document.getElementById("grade-list");
   if (!gradeList) return;
 
-  // Varsa eski kartı kaldır
-  const oldCard = document.getElementById("join-class-grade-card");
-  if (oldCard) oldCard.remove();
+  document.querySelectorAll(".join-class-grade-card").forEach(el => el.remove());
 
-  if (!studentClassCode) {
-    if (navJoinText) navJoinText.textContent = "Sınıfa Katıl";
-
-    // Katılmamış → "Sınıfa Katıl" kartını göster
+  if (studentClassCodes.length === 0) {
     const card = document.createElement("div");
-    card.id = "join-class-grade-card";
-    card.className = "grade-card";
+    card.className = "grade-card join-class-grade-card";
     card.style.cssText = "border: 2px dashed var(--color-primary); opacity: 0.85;";
     card.innerHTML = `
       <span style="font-size:1.8rem;">🏫</span>
@@ -965,25 +959,41 @@ async function initStudentClassUI(user) {
       <span class="grade-card-sub">Öğretmen kodu gir</span>
     `;
     card.addEventListener("click", () => openJoinClassOverlay(user));
-    gradeList.appendChild(card);
+    gradeList.insertBefore(card, gradeList.firstChild);
   } else {
-    // Zaten katılmış → küçük rozet kartı
-    const classInfo = await window.FB.getClassInfo(studentClassCode).catch(() => null);
-    const className = classInfo?.name || studentClassCode;
+    for (const code of studentClassCodes) {
+      const classInfo = await window.FB.getClassInfo(code).catch(() => null);
+      if (!classInfo) continue;
+      
+      const card = document.createElement("div");
+      card.className = "grade-card join-class-grade-card";
+      card.style.cssText = "border: 2px solid var(--color-primary); cursor: pointer; background: var(--color-surface-offset);";
+      card.innerHTML = `
+        <span style="font-size:1.8rem;">🎒</span>
+        <span class="grade-card-label">Sınıf: ${escapeHtmlInline(classInfo.name)}</span>
+        <span class="grade-card-sub">Sınıf Kelimeleri (${code})</span>
+      `;
+      card.addEventListener("click", async () => {
+        window.classCustomWords = await window.FB.getClassWords(code);
+        if(!window.classCustomWords || window.classCustomWords.length === 0) {
+          showNotificationToast("⚠️ Öğretmeniniz henüz bu sınıfa özel kelime eklememiş.");
+          return;
+        }
+        window.currentClassCode = code;
+        startClassGame();
+      });
+      gradeList.insertBefore(card, gradeList.firstChild);
+    }
     
-    if (navJoinText) navJoinText.textContent = "Sınıfım: " + escapeHtmlInline(className);
-
-    const card = document.createElement("div");
-    card.id = "join-class-grade-card";
-    card.className = "grade-card";
-    card.style.cssText = "border: 2px solid var(--color-primary); cursor: pointer; background: var(--color-surface-offset);";
-    card.innerHTML = `
-      <span style="font-size:1.8rem;">🎒</span>
-      <span class="grade-card-label">Sınıf Kelimeleri</span>
-      <span class="grade-card-sub">${escapeHtmlInline(className)} (${window.classCustomWords?.length || 0} Özel Soru)</span>
+    const addCard = document.createElement("div");
+    addCard.className = "grade-card join-class-grade-card";
+    addCard.style.cssText = "border: 2px dashed var(--color-text-muted); opacity: 0.6; cursor: pointer;";
+    addCard.innerHTML = `
+      <span style="font-size:1.2rem;">➕</span>
+      <span class="grade-card-label" style="font-size:13px;">Başka Sınıfa Katıl</span>
     `;
-    card.addEventListener("click", startClassGame);
-    gradeList.appendChild(card);
+    addCard.addEventListener("click", () => openJoinClassOverlay(user));
+    gradeList.appendChild(addCard);
   }
 }
 
@@ -1022,17 +1032,12 @@ function openJoinClassOverlay(user) {
       submitBtn.textContent = "Kontrol ediliyor…";
       if (msg) msg.textContent = "";
 
-      const result = await window.FB.joinClass(user.uid, code, {
-        displayName: user.displayName || "",
-        email:       user.email || "",
-        photoURL:    user.photoURL || ""
-      });
+      const result = await window.FB.joinClass(code);
 
       submitBtn.disabled = false;
       submitBtn.textContent = "Katıl";
 
       if (result.success) {
-        studentClassCode = code;
         window.classCustomWords = await window.FB.getClassWords(code);
         closeOverlayFn();
         showNotificationToast("🏫 \"" + result.className + "\" sınıfına katıldın!");
@@ -1851,7 +1856,41 @@ function startBackgroundPrefetch() {
   setTimeout(fetchNext, 3000);
 }
 
+async function resumeLastPlayedGame(lp) {
+  if (!CURRICULUM_DATA || !lp || !lp.grade || !lp.subjectId || !lp.unitName) return false;
+  const rGrade = CURRICULUM_DATA.find(g => g.grade === lp.grade);
+  if(!rGrade) return false;
+  const rSubj = rGrade.subjects.find(s => s.id === lp.subjectId);
+  if(!rSubj) return false;
+  
+  let data;
+  if (PREFETCHED_DATA[rSubj.dataFile]) {
+    data = PREFETCHED_DATA[rSubj.dataFile];
+  } else {
+    try {
+      const res = await fetch(rSubj.dataFile + "?t=" + Date.now());
+      if(!res.ok) return false;
+      data = await res.json();
+      PREFETCHED_DATA[rSubj.dataFile] = data;
+    } catch(e) { return false; }
+  }
+  
+  if(!data || !data.units) return false;
+  const rUnit = data.units.find(u => u.name === lp.unitName);
+  if(!rUnit || !rUnit.words || rUnit.words.length === 0) return false;
+  
+  selectedGrade = rGrade;
+  applyGradeTheme(selectedGrade.grade);
+  selectedSubject = rSubj;
+  selectedUnit = rUnit;
+  prepareRoundWordBank(rUnit.words);
+  newGame();
+  showGameScreen();
+  return true;
+}
+
 function startClassGame() {
+  SafeStorage.removeItem("lastPlayedState");
   if (!window.classCustomWords || window.classCustomWords.length === 0) {
     showNotificationToast("⚠️ Öğretmeniniz henüz bu sınıfa özel kelime eklememiş.");
     return;
@@ -1876,6 +1915,7 @@ function startClassGame() {
 }
 
 async function startRandomGame(fixedGradeNum = null) {
+  SafeStorage.removeItem("lastPlayedState");
   let attempts = 0;
   const maxAttempts = 20;
 
@@ -2120,6 +2160,11 @@ function populateSubjects() {
           unitBtn.addEventListener('click', () => {
             selectedSubject = subject;
             selectedUnit = unit;
+            SafeStorage.setItem("lastPlayedState", JSON.stringify({ 
+              grade: selectedGrade.grade, 
+              subjectId: subject.id, 
+              unitName: unit.name 
+            }));
             prepareRoundWordBank(unit.words);
             newGame();
             showGameScreen();
@@ -2379,38 +2424,52 @@ function updateWordDisplay() {
   const wd = document.getElementById("word-display");
   wd.innerHTML = "";
   const isEnglish = selectedSubject && selectedSubject.id === "ingilizce";
-  [...gameState.word].forEach(ch => {
-    const slot = document.createElement("div"); slot.className = "letter-slot";
-    const char = document.createElement("div"); char.className = "letter-char";
-    const line = document.createElement("div"); line.className = "letter-line";
+  
+  const words = gameState.word.split(" ");
+  
+  words.forEach((wStr, index) => {
+    const wordGroup = document.createElement("div");
+    wordGroup.className = "word-group";
+    
+    [...wStr].forEach(ch => {
+      const slot = document.createElement("div"); slot.className = "letter-slot";
+      const char = document.createElement("div"); char.className = "letter-char";
+      const line = document.createElement("div"); line.className = "letter-line";
 
-    const isLetter = isEnglish ? /[A-Z]/.test(ch) : /[A-ZÇĞİÖŞÜ]/.test(ch);
+      const isLetter = isEnglish ? /[A-Z]/.test(ch) : /[A-ZÇĞİÖŞÜ]/.test(ch);
 
-    if (!isLetter) {
-      if (ch === " ") {
-        slot.style.width = "20px";
-        char.classList.add("space-char");
-        line.classList.add("space-line");
-      } else {
+      if (!isLetter) {
         char.classList.add("revealed");
         line.style.display = "none";
+        char.textContent = ch;
+      } else if (gameState.guessed.has(ch)) {
+        char.classList.add("revealed");
+        if (!gameState.won && gameState.over) char.classList.add("wrong-final");
+        char.textContent = ch;
+      } else {
+        char.classList.add("hidden");
+        char.textContent = "_";
       }
-      char.textContent = ch;
-    } else if (gameState.guessed.has(ch)) {
-      char.classList.add("revealed");
-      if (!gameState.won && gameState.over) char.classList.add("wrong-final");
-      char.textContent = ch;
-    } else {
-      char.classList.add("hidden");
-      char.textContent = "_";
-    }
+      
+      if (gameState.over && !gameState.won && isLetter && !gameState.guessed.has(ch)) {
+        char.classList.remove("hidden");
+        char.classList.add("wrong-final");
+        char.textContent = ch;
+      }
+      slot.appendChild(char); slot.appendChild(line); wordGroup.appendChild(slot);
+    });
     
-    if (gameState.over && !gameState.won && isLetter && !gameState.guessed.has(ch)) {
-      char.classList.remove("hidden");
-      char.classList.add("wrong-final");
-      char.textContent = ch;
+    wd.appendChild(wordGroup);
+    
+    if (index < words.length - 1) {
+      const spaceSlot = document.createElement("div");
+      spaceSlot.className = "letter-slot";
+      spaceSlot.style.width = "20px";
+      const spaceChar = document.createElement("div"); spaceChar.className = "letter-char space-char"; spaceChar.textContent = " ";
+      const spaceLine = document.createElement("div"); spaceLine.className = "letter-line space-line";
+      spaceSlot.appendChild(spaceChar); spaceSlot.appendChild(spaceLine);
+      wd.appendChild(spaceSlot);
     }
-    slot.appendChild(char); slot.appendChild(line); wd.appendChild(slot);
   });
 }
 
