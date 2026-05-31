@@ -936,7 +936,7 @@ async function initStudentClassUI(user) {
       if (backdrop) backdrop.style.display = "none";
       
       if (studentClassCode) {
-        showNotificationToast("🏫 Zaten bir sınıfa dahilsiniz! Çıkış yapmadan başka sınıfa katılamazsınız.");
+        startClassGame();
       } else {
         openJoinClassOverlay(user);
       }
