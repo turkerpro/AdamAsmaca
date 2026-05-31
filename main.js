@@ -1626,7 +1626,7 @@ function openBadgesModal() {
       card.style.cursor = "pointer";
       card.title = isUnlocked ? "Detayları gör" : "Henüz kazanılmadı";
       
-      const levelBadge = level ? `<span style="font-size:10px;font-weight:700;padding:2px 6px;border-radius:99px;background:${level.color}20;color:${level.color};border:1px solid ${level.color};margin-top:2px;display:inline-block;">${level.label}</span>` : "";
+      const levelBadge = level ? `<span style="font-size:12px;font-weight:700;padding:2px 6px;border-radius:99px;background:${level.color}20;color:${level.color};border:1px solid ${level.color};margin-top:2px;display:inline-block;">${level.label}</span>` : "";
       
       card.innerHTML = `
         <span class="badge-icon">${icon}</span>
@@ -1679,7 +1679,7 @@ function openMistakesModal() {
         card.className = "mistake-item";
         card.innerHTML = `
           <div class="mistake-info">
-            <span class="mistake-word">${item.word}</span>
+            <span class="mistake-word">❓ Gizli Kelime (${item.word.replace(/ /g, '').length} Harf)</span>
             <span class="mistake-hint">İpucu: ${item.hint}</span>
             <span class="mistake-meta">${item.gradeName} - ${item.subjectName}</span>
           </div>
