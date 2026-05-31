@@ -178,7 +178,7 @@
       sel.addEventListener("change", (e) => {
         const i = e.target.getAttribute("data-index");
         const orig = e.target.getAttribute("data-original");
-        const btn = document.querySelector(\`.save-role-btn[data-index="\${i}"]\`);
+        const btn = document.querySelector(`.save-role-btn[data-index="${i}"]`);
         if (e.target.value !== orig) {
           btn.classList.add("active");
         } else {
@@ -191,7 +191,7 @@
       btn.addEventListener("click", async (e) => {
         const i = e.target.getAttribute("data-index");
         const uid = e.target.getAttribute("data-uid");
-        const sel = document.querySelector(\`.role-select[data-index="\${i}"]\`);
+        const sel = document.querySelector(`.role-select[data-index="${i}"]`);
         const newRole = sel.value;
         
         btn.textContent = "⌛";
