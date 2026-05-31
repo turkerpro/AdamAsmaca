@@ -3,7 +3,9 @@ service cloud.firestore {
   match /databases/{database}/documents {
 
     function isAdmin() {
-      return request.auth != null && get(/databases/$(database)/documents/users/$(request.auth.uid)/profile/info).data.role == 'admin';
+      return request.auth != null 
+          && exists(/databases/$(database)/documents/users/$(request.auth.uid)/profile/info) 
+          && get(/databases/$(database)/documents/users/$(request.auth.uid)/profile/info).data.role == 'admin';
     }
 
     // Tüm profilleri listelemek için collectionGroup izni (Sadece Admin)

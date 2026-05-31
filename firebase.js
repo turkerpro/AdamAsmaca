@@ -6,6 +6,7 @@ import {
   getAuth,
   GoogleAuthProvider,
   signInWithRedirect,
+  signInWithPopup,
   getRedirectResult,
   signOut,
   onAuthStateChanged
@@ -125,11 +126,19 @@ const FB = {
 
   async signIn() {
     try {
-      // Android/Capacitor webview'larda popup beyaz ekran verir, redirect kullanılır.
-      await signInWithRedirect(auth, provider);
+      // Önce Popup deniyoruz (Web ortamları için ideal)
+      // Ancak Capacitor/WebView vb. ortamlarda popup engellenebilir
+      if (window.Capacitor) {
+        await signInWithRedirect(auth, provider);
+      } else {
+        await signInWithPopup(auth, provider);
+      }
     } catch (e) {
-      console.error("Google giriş hatası:", e.message);
-      alert("Giriş yapılamadı: " + e.message);
+      console.warn("Popup hatası veya iptal:", e.message);
+      // Popup başarısız olursa Redirect'e düş (Mobil tarayıcılar için vb.)
+      if (e.code !== 'auth/popup-closed-by-user') {
+         await signInWithRedirect(auth, provider);
+      }
     }
   },
 
