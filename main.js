@@ -2041,6 +2041,11 @@ function populateGrades() {
     });
     list.appendChild(btn);
   });
+
+  // Müfredat listesi DOM'u yenilendiğinde, öğrenci sınıf butonunu da (eğer giriş yapıldıysa) tekrar en sona veya uygun yere ekle.
+  if (window.FB && window.FB.currentUser) {
+    initStudentClassUI(window.FB.currentUser);
+  }
 }
 
 
