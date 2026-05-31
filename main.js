@@ -919,6 +919,21 @@ async function initStudentClassUI(user) {
   if (!window.FB || !user) return;
   studentClassCode = await window.FB.getStudentClassCode(user.uid);
 
+  // Hamburger menü butonunu yönet
+  const navJoinBtn = document.getElementById("nav-student-join-btn");
+  const navJoinText = document.getElementById("nav-student-join-text");
+  if (navJoinBtn) {
+    navJoinBtn.style.display = ""; // Görünür yap
+    navJoinBtn.onclick = () => {
+      // Modalı açarken menüyü kapatalım
+      const dropdown = document.getElementById("nav-dropdown");
+      const backdrop = document.getElementById("nav-backdrop");
+      if (dropdown) dropdown.style.display = "none";
+      if (backdrop) backdrop.style.display = "none";
+      openJoinClassOverlay(user);
+    };
+  }
+
   // Sınıfa katıl kartını grade ekranına ekle
   const gradeList = document.getElementById("grade-list");
   if (!gradeList) return;
@@ -928,6 +943,8 @@ async function initStudentClassUI(user) {
   if (oldCard) oldCard.remove();
 
   if (!studentClassCode) {
+    if (navJoinText) navJoinText.textContent = "Sınıfa Katıl";
+
     // Katılmamış → "Sınıfa Katıl" kartını göster
     const card = document.createElement("div");
     card.id = "join-class-grade-card";
@@ -943,6 +960,10 @@ async function initStudentClassUI(user) {
   } else {
     // Zaten katılmış → küçük rozet kartı
     const classInfo = await window.FB.getClassInfo(studentClassCode).catch(() => null);
+    const className = classInfo?.name || studentClassCode;
+    
+    if (navJoinText) navJoinText.textContent = "Sınıfım: " + escapeHtmlInline(className);
+
     const card = document.createElement("div");
     card.id = "join-class-grade-card";
     card.className = "grade-card";
@@ -950,7 +971,7 @@ async function initStudentClassUI(user) {
     card.innerHTML = `
       <span style="font-size:1.8rem;">✅</span>
       <span class="grade-card-label">Sınıfım</span>
-      <span class="grade-card-sub">${escapeHtmlInline(classInfo?.name || studentClassCode)}</span>
+      <span class="grade-card-sub">${escapeHtmlInline(className)}</span>
     `;
     gradeList.appendChild(card);
   }

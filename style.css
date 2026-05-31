@@ -835,7 +835,7 @@
     position: absolute;
     top: calc(100% + 10px);
     right: 0;
-    min-width: 240px;
+    min-width: 260px;
     background: var(--color-surface);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-lg);
@@ -846,42 +846,45 @@
   }
   .auth-user-info {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 12px;
-    padding: 16px;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px 16px;
     border-bottom: 1px solid var(--color-divider);
     background: var(--color-surface-offset);
+    text-align: center;
   }
   .auth-dropdown-avatar {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     object-fit: cover;
     flex-shrink: 0;
   }
   .auth-user-name {
     font-weight: 700;
-    font-size: var(--text-sm);
+    font-size: 1.1rem;
     color: var(--color-text);
   }
   .auth-user-email {
-    font-size: 11px;
+    font-size: 0.85rem;
     color: var(--color-text-muted);
-    margin-top: 2px;
     word-break: break-all;
   }
   .auth-sync-status {
-    padding: 10px 16px;
-    font-size: 12px;
+    padding: 12px 16px;
+    font-size: 0.9rem;
     color: var(--color-text-muted);
     border-bottom: 1px solid var(--color-divider);
+    text-align: center;
   }
   .auth-signout-btn {
     display: block;
     width: 100%;
-    padding: 12px 16px;
-    text-align: left;
-    font-size: var(--text-sm);
+    padding: 16px;
+    text-align: center;
+    font-size: 1.1rem;
     font-weight: 600;
     color: var(--color-error);
     background: transparent;
@@ -923,7 +926,7 @@
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
     overflow: hidden;
-    min-width: 180px;
+    min-width: 220px;
     animation: slideUp 0.2s ease;
   }
   .nav-dropdown-backdrop {
@@ -934,11 +937,13 @@
   .nav-menu-item {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: var(--space-3);
-    padding: var(--space-3.5) var(--space-5);
+    padding: 16px;
     width: 100%;
-    text-align: left;
-    font-size: var(--text-sm);
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.1rem;
     font-weight: 600;
     color: var(--color-text);
     border-bottom: 1px solid var(--color-divider);
@@ -948,6 +953,7 @@
     border-right: none;
     border-top: none;
     border-radius: 0;
+    cursor: pointer;
   }
   .nav-menu-item:last-child {
     border-bottom: none;
