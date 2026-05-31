@@ -44,7 +44,4 @@ Uygulamanın gücü, karmaşık kütüphanelere bağımlı olmamasından ve mode
 
 ---
 
-## 🧑‍💻 Geliştirici
-Bu proje, kodlamaya tutkuyla bağlı ve eğitime teknolojiyle değer katmayı hedefleyen [turkerpro](https://github.com/turkerpro) tarafından geliştirilmiştir.
-
 *Eğitimde ezberi kırıp, rekabetle öğrenmenin tadını çıkarın!*
