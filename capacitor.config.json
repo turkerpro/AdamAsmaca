@@ -11,6 +11,11 @@
       "launchAutoHide": true,
       "backgroundColor": "#10743D",
       "androidScaleType": "CENTER_CROP"
+    },
+    "GoogleAuth": {
+      "scopes": ["profile", "email"],
+      "serverClientId": "595675238050-7d9vh4gj8lra3q20602kjcg9vsos50np.apps.googleusercontent.com",
+      "forceCodeForRefreshToken": true
     }
   }
 }

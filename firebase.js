@@ -7,6 +7,7 @@ import {
   GoogleAuthProvider,
   signInWithRedirect,
   signInWithPopup,
+  signInWithCredential,
   getRedirectResult,
   signOut,
   onAuthStateChanged
@@ -126,17 +127,26 @@ const FB = {
 
   async signIn() {
     try {
-      // Önce Popup deniyoruz (Web ortamları için ideal)
-      // Ancak Capacitor/WebView vb. ortamlarda popup engellenebilir
-      if (window.Capacitor) {
-        await signInWithRedirect(auth, provider);
+      if (window.Capacitor && window.Capacitor.Plugins.GoogleAuth) {
+        // Native Google SignIn
+        window.Capacitor.Plugins.GoogleAuth.initialize({
+          clientId: '595675238050-7d9vh4gj8lra3q20602kjcg9vsos50np.apps.googleusercontent.com',
+          scopes: ['profile', 'email'],
+          grantOfflineAccess: true,
+        });
+        const googleUser = await window.Capacitor.Plugins.GoogleAuth.signIn();
+        if (googleUser && googleUser.authentication && googleUser.authentication.idToken) {
+          const credential = GoogleAuthProvider.credential(googleUser.authentication.idToken);
+          await signInWithCredential(auth, credential);
+        } else {
+          throw new Error("GoogleAuth Token alınamadı.");
+        }
       } else {
         await signInWithPopup(auth, provider);
       }
     } catch (e) {
-      console.warn("Popup hatası veya iptal:", e.message);
-      // Popup başarısız olursa Redirect'e düş (Mobil tarayıcılar için vb.)
-      if (e.code !== 'auth/popup-closed-by-user') {
+      console.warn("Popup veya Native SignIn hatası:", e.message);
+      if (e.code !== 'auth/popup-closed-by-user' && !window.Capacitor) {
          await signInWithRedirect(auth, provider);
       }
     }

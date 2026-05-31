@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "595675238050",
+    "project_id": "adam-asmaca-30444",
+    "storage_bucket": "adam-asmaca-30444.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595675238050:android:f0d06e84c0b5ea7cf2d1fb",
+        "android_client_info": {
+          "package_name": "com.turkerpro.adamasmaca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595675238050-7d9vh4gj8lra3q20602kjcg9vsos50np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANTCFsN4JjPzVz7lRp72u8RB0LXLjHSrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595675238050-7d9vh4gj8lra3q20602kjcg9vsos50np.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
