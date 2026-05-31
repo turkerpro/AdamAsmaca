@@ -69,50 +69,48 @@
         <line x1="4" y1="12" x2="20" y2="12"/>
         <line x1="4" y1="18" x2="20" y2="18"/>
       </svg>
-    </button>
+    <!-- HAMBURGER DROPDOWN MENU -->
+    <div class="nav-dropdown" id="nav-dropdown" style="display:none;">
+      <button class="nav-menu-item" id="nav-mistakes-btn">
+        <span class="nav-menu-icon">📘</span>
+        <span>Hata Defteri</span>
+      </button>
+      <button class="nav-menu-item" id="nav-badges-btn">
+        <span class="nav-menu-icon">🏅</span>
+        <span>Rozetlerim</span>
+      </button>
+      <button class="nav-menu-item" id="nav-stats-btn">
+        <span class="nav-menu-icon">📊</span>
+        <span>İstatistikler</span>
+      </button>
+      <button class="nav-menu-item" id="nav-report-btn">
+        <span class="nav-menu-icon">⚠️</span>
+        <span>Hata Bildir</span>
+      </button>
+      <!-- Öğretmen paneli - sadece teacher rolünde görünür -->
+      <button class="nav-menu-item" id="nav-teacher-btn" onclick="window.location.href='./ogretmen.html'" style="display:none;">
+        <span class="nav-menu-icon">🏫</span>
+        <span>Öğretmen Paneli</span>
+      </button>
+      <!-- Öğrenci sınıfa katıl butonu - sadece student rolünde görünür -->
+      <button class="nav-menu-item" id="nav-student-join-btn" style="display:none;">
+        <span class="nav-menu-icon">🎓</span>
+        <span id="nav-student-join-text">Sınıfa Katıl</span>
+      </button>
+      <div style="border-top:1px solid var(--color-border);margin:var(--space-2) 0;"></div>
+      <button class="nav-menu-item" onclick="window.location.href='./gizlilik-politikasi.html'" style="opacity:0.8;">
+        <span class="nav-menu-icon">🔒</span>
+        <span>Gizlilik Politikası</span>
+      </button>
+      <button class="nav-menu-item" onclick="window.location.href='./kullanim-kosullari.html'" style="opacity:0.8;">
+        <span class="nav-menu-icon">📜</span>
+        <span>Kullanım Koşulları</span>
+      </button>
+    </div>
   </div>
 </div>
 
-<!-- HAMBURGER DROPDOWN MENU -->
-<div class="nav-dropdown" id="nav-dropdown" style="display:none;">
-  <button class="nav-menu-item" id="nav-mistakes-btn">
-    <span class="nav-menu-icon">📘</span>
-    <span>Hata Defteri</span>
-  </button>
-  <button class="nav-menu-item" id="nav-badges-btn">
-    <span class="nav-menu-icon">🏅</span>
-    <span>Rozetlerim</span>
-  </button>
-  <button class="nav-menu-item" id="nav-stats-btn">
-    <span class="nav-menu-icon">📊</span>
-    <span>İstatistikler</span>
-  </button>
-  <button class="nav-menu-item" id="nav-report-btn">
-    <span class="nav-menu-icon">⚠️</span>
-    <span>Hata Bildir</span>
-  </button>
-  <!-- Öğretmen paneli - sadece teacher rolünde görünür -->
-  <button class="nav-menu-item" id="nav-teacher-btn" onclick="window.location.href='./ogretmen.html'" style="display:none;">
-    <span class="nav-menu-icon">🏫</span>
-    <span>Öğretmen Paneli</span>
-  </button>
-  <!-- Öğrenci sınıfa katıl butonu - sadece student rolünde görünür -->
-  <button class="nav-menu-item" id="nav-student-join-btn" style="display:none;">
-    <span class="nav-menu-icon">🎓</span>
-    <span id="nav-student-join-text">Sınıfa Katıl</span>
-  </button>
-  <div style="border-top:1px solid var(--color-border);margin:var(--space-2) 0;"></div>
-  <button class="nav-menu-item" onclick="window.location.href='./gizlilik-politikasi.html'" style="opacity:0.8;">
-    <span class="nav-menu-icon">🔒</span>
-    <span>Gizlilik Politikası</span>
-  </button>
-  <button class="nav-menu-item" onclick="window.location.href='./kullanim-kosullari.html'" style="opacity:0.8;">
-    <span class="nav-menu-icon">📜</span>
-    <span>Kullanım Koşulları</span>
-  </button>
-</div>
 <div class="nav-dropdown-backdrop" id="nav-backdrop" style="display:none;"></div>
-
 <!-- GRADE SCREEN -->
 <div class="screen active" id="grade-screen">
   <h2 class="screen-title">Kaçıncı Sınıfsın?</h2>
