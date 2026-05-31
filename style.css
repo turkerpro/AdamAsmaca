@@ -1416,5 +1416,11 @@
       font-size: var(--text-base);
     }
   }
-\ n     . w o r d - g r o u p   {   d i s p l a y :   f l e x ;   g a p :   1 2 p x ;   r o w - g a p :   2 0 p x ;   f l e x - w r a p :   n o w r a p ;   w h i t e - s p a c e :   n o w r a p ;   j u s t i f y - c o n t e n t :   c e n t e r ;   } \ n  
- 
+
+.word-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 4px;
+  justify-content: center;
+}
