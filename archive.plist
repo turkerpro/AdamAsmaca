@@ -4,5 +4,9 @@
 <dict>
   <key>method</key>
   <string>development</string>
+  <key>compileBitcode</key>
+  <false/>
+  <key>signingStyle</key>
+  <string>manual</string>
 </dict>
 </plist>
