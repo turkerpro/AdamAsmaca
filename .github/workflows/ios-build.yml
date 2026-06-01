@@ -1,0 +1,83 @@
+name: iOS Build
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install deps
+        run: npm install
+
+      - name: Build web
+        run: npm run build
+
+      - name: Sync Capacitor
+        run: npx cap sync ios
+
+      - name: Install Pods
+        run: cd ios/App && pod install
+
+      - name: Build for Simulator
+        run: |
+          xcodebuild -workspace ios/App/App.xcworkspace \
+            -scheme App \
+            -sdk iphonesimulator \
+            -configuration Debug \
+            -derivedDataPath ./build \
+            build
+
+      - name: Boot Simulator
+        run: |
+          UDID=$(xcrun simctl list devices available | grep "iPhone 16" | grep -v "Plus\|Pro\|Max" | head -1 | grep -E -o '[0-9A-F-]{36}')
+          if [ -z "$UDID" ]; then
+            UDID=$(xcrun simctl list devices available | grep "iPhone" | head -1 | grep -E -o '[0-9A-F-]{36}')
+          fi
+          echo "Simülatör UDID: $UDID"
+          echo "SIMULATOR_UDID=$UDID" >> $GITHUB_ENV
+          xcrun simctl boot "$UDID" || true
+          sleep 10
+
+      - name: Install App on Simulator
+        run: |
+          APP_PATH=$(find ./build -name "*.app" -not -path "*/PlugIns/*" | head -1)
+          echo "App yolu: $APP_PATH"
+          xcrun simctl install "$SIMULATOR_UDID" "$APP_PATH"
+
+      - name: Launch App & Take Screenshots
+        run: |
+          xcrun simctl launch "$SIMULATOR_UDID" com.turkerpro.adamasmaca
+          sleep 8
+          mkdir -p ./screenshots
+          xcrun simctl io "$SIMULATOR_UDID" screenshot ./screenshots/screen1.png
+          sleep 4
+          xcrun simctl io "$SIMULATOR_UDID" screenshot ./screenshots/screen2.png
+          sleep 4
+          xcrun simctl io "$SIMULATOR_UDID" screenshot ./screenshots/screen3.png
+          echo "Ekran görüntüleri:"
+          ls -lh ./screenshots/
+
+      - name: Upload Screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: simulator-screenshots
+          path: ./screenshots/
+          if-no-files-found: warn
+
+      - name: Package IPA (unsigned)
+        run: |
+          mkdir -p ./output/Payload
+          APP_PATH=$(find ./build -name "*.app" -not -path "*/PlugIns/*" | head -1)
+          cp -r "$APP_PATH" ./output/Payload/
+          cd ./output && zip -r App.ipa Payload
+          ls -lh *.ipa
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-build
+          path: ./output/*.ipa
