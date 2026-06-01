@@ -1,4 +1,5 @@
 name: iOS Build
+
 on:
   push:
     branches: [main]
@@ -21,7 +22,7 @@ jobs:
       - name: Install Pods
         run: cd ios/App && pod install
 
-      - name: Build IPA (unsigned)
+      - name: Build Archive (unsigned)
         run: |
           xcodebuild -workspace ios/App/App.xcworkspace \
             -scheme App \
@@ -33,8 +34,15 @@ jobs:
             -archivePath App.xcarchive \
             archive
 
-      - name: Upload artifact
+      - name: Export IPA
+        run: |
+          xcodebuild -exportArchive \
+            -archivePath App.xcarchive \
+            -exportPath ./output \
+            -exportOptionsPlist archive.plist
+
+      - name: Upload IPA
         uses: actions/upload-artifact@v4
         with:
           name: ios-build
-          path: App.xcarchive
+          path: ./output/*.ipa
