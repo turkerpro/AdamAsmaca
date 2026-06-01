@@ -34,12 +34,13 @@ jobs:
             -archivePath App.xcarchive \
             archive
 
-      - name: Export IPA
+      - name: Export IPA (unsigned)
         run: |
-          xcodebuild -exportArchive \
-            -archivePath App.xcarchive \
-            -exportPath ./output \
-            -exportOptionsPlist archive.plist
+          mkdir -p ./output/Payload
+          find App.xcarchive/Products -name "*.app" -exec cp -r {} ./output/Payload/ \;
+          cd ./output && zip -r App.ipa Payload
+          echo "IPA oluşturuldu:"
+          ls -lh *.ipa
 
       - name: Upload IPA
         uses: actions/upload-artifact@v4
