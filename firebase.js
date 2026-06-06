@@ -27,7 +27,10 @@ import {
   where,
   arrayUnion,
   arrayRemove,
-  collectionGroup
+  collectionGroup,
+  onSnapshot,
+  deleteDoc,
+  limit
 } from "https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -491,6 +494,154 @@ const FB = {
       console.error("updateUserRole error:", e);
       return false;
     }
+  },
+
+  // ── ONLİNE MULTIPLAYER (KARŞILIKLI ADAM ASMACA) ──────────────────────
+  async findOrCreateHangmanRoom(word, isPrivate = false, roomCode = null) {
+    const roomsRef = collection(db, "hangman_rooms");
+    const uid = auth.currentUser ? auth.currentUser.uid : "guest_" + Date.now();
+    const name = auth.currentUser && auth.currentUser.displayName ? auth.currentUser.displayName : "Misafir";
+
+    // Eğer Özel Oda Katılımı yapılıyorsa (roomCode verildi ve isPrivate true)
+    if (isPrivate && roomCode) {
+      const q = query(roomsRef, where("roomCode", "==", roomCode.toUpperCase()), where("status", "==", "waiting"), limit(1));
+      const snap = await getDocs(q);
+      if(!snap.empty){
+         const roomDoc = snap.docs[0];
+         await updateDoc(roomDoc.ref, {
+           player2: { uid, name, score: 0 },
+           status: "playing"
+         });
+         return { roomId: roomDoc.id, isHost: false };
+      }
+    }
+
+    // Rastgele Eşleşme arayışı
+    if (!isPrivate) {
+      const q = query(roomsRef, where("status", "==", "waiting"), where("type", "==", "random"), limit(1));
+      const snap = await getDocs(q);
+      if (!snap.empty) {
+        const roomDoc = snap.docs[0];
+        await updateDoc(roomDoc.ref, {
+          player2: { uid, name, score: 0 },
+          status: "playing"
+        });
+        return { roomId: roomDoc.id, isHost: false };
+      }
+    }
+
+    // Oda bulunamadıysa Yeni Oda Kur
+    const newRoomCode = isPrivate ? (roomCode || Math.random().toString(36).substring(2, 6).toUpperCase()) : null;
+    const newRoom = {
+      status: "waiting",
+      type: isPrivate ? "private" : "random",
+      roomCode: newRoomCode,
+      player1: { uid, name, score: 0 },
+      player2: null,
+      word: word,
+      guessedLetters: [], // { letter: "A", ownerUid: "123", isCorrect: true }
+      createdAt: serverTimestamp()
+    };
+    
+    const docRef = await addDoc(roomsRef, newRoom);
+    return { roomId: docRef.id, isHost: true, roomCode: newRoomCode };
+  },
+
+  listenToHangmanRoom(roomId, callback) {
+    return onSnapshot(doc(db, "hangman_rooms", roomId), (docSnap) => {
+      if (docSnap.exists()) callback(docSnap.data());
+    });
+  },
+
+  async guessLetterHangman(roomId, letter, uid, isCorrect) {
+    const roomRef = doc(db, "hangman_rooms", roomId);
+    await updateDoc(roomRef, {
+      guessedLetters: arrayUnion({ letter, ownerUid: uid, isCorrect })
+    });
+  },
+
+  async updateHangmanScore(roomId, playerNum, addScore) {
+     const roomRef = doc(db, "hangman_rooms", roomId);
+     const snap = await getDoc(roomRef);
+     if(snap.exists()){
+         const data = snap.data();
+         if(playerNum === 1){
+            await updateDoc(roomRef, { "player1.score": data.player1.score + addScore });
+         } else if (playerNum === 2) {
+            await updateDoc(roomRef, { "player2.score": data.player2.score + addScore });
+         }
+     }
+  },
+  
+  async finishHangmanRoom(roomId) {
+     await updateDoc(doc(db, "hangman_rooms", roomId), { status: "finished" });
+  },
+
+  // ── İSİM ŞEHİR ONLINE ──────────────────────────────────────────────
+  async findOrCreateIsimSehirRoom(isPrivate = false, roomCode = null) {
+     const roomsRef = collection(db, "isim_sehir_rooms");
+     const uid = auth.currentUser ? auth.currentUser.uid : "guest_" + Date.now();
+     const name = auth.currentUser && auth.currentUser.displayName ? auth.currentUser.displayName : "Misafir";
+     
+     if (isPrivate && roomCode) {
+        const q = query(roomsRef, where("roomCode", "==", roomCode.toUpperCase()), where("status", "==", "waiting"), limit(1));
+        const snap = await getDocs(q);
+        if(!snap.empty){
+           const roomDoc = snap.docs[0];
+           await updateDoc(roomDoc.ref, { player2: { uid, name, answers: null }, status: "playing" });
+           return { roomId: roomDoc.id, isHost: false };
+        }
+     }
+     
+     if (!isPrivate) {
+        const q = query(roomsRef, where("status", "==", "waiting"), where("type", "==", "random"), limit(1));
+        const snap = await getDocs(q);
+        if (!snap.empty) {
+          const roomDoc = snap.docs[0];
+          await updateDoc(roomDoc.ref, { player2: { uid, name, answers: null }, status: "playing" });
+          return { roomId: roomDoc.id, isHost: false };
+        }
+     }
+
+     const letters = ["A","B","C","Ç","D","E","F","G","H","I","İ","K","L","M","N","O","Ö","P","R","S","Ş","T","U","Ü","V","Y","Z"];
+     const randomLetter = letters[Math.floor(Math.random() * letters.length)];
+     const newRoomCode = isPrivate ? (roomCode || Math.random().toString(36).substring(2, 6).toUpperCase()) : null;
+
+     const newRoom = {
+       status: "waiting",
+       type: isPrivate ? "private" : "random",
+       roomCode: newRoomCode,
+       targetLetter: randomLetter,
+       player1: { uid, name, answers: null },
+       player2: null,
+       endTime: null,
+       createdAt: serverTimestamp()
+     };
+     const docRef = await addDoc(roomsRef, newRoom);
+     return { roomId: docRef.id, isHost: true, roomCode: newRoomCode };
+  },
+
+  listenToIsimSehirRoom(roomId, callback) {
+    return onSnapshot(doc(db, "isim_sehir_rooms", roomId), (docSnap) => {
+      if (docSnap.exists()) callback(docSnap.data());
+    });
+  },
+
+  async triggerIsimSehirFinish(roomId) {
+     const roomRef = doc(db, "isim_sehir_rooms", roomId);
+     await updateDoc(roomRef, {
+        status: "finishing",
+        endTime: Date.now() + 10500 // 10 saniye (500ms margin)
+     });
+  },
+
+  async submitIsimSehirAnswers(roomId, playerNum, answersObj) {
+     const roomRef = doc(db, "isim_sehir_rooms", roomId);
+     if (playerNum === 1) {
+        await updateDoc(roomRef, { "player1.answers": answersObj });
+     } else {
+        await updateDoc(roomRef, { "player2.answers": answersObj });
+     }
   }
 };
 

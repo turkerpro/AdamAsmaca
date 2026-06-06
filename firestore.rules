@@ -63,6 +63,16 @@ service cloud.firestore {
       allow update, delete: if request.auth != null && resource.data.teacherUid == request.auth.uid;
     }
 
+    // ── ONLİNE OYUN ODALARI ───────────────────────────────────────────────
+    // Herkes oynayabilmesi için giriş yapan tüm kullanıcılara izin veriyoruz
+    match /hangman_rooms/{roomId} {
+      allow read, write: if request.auth != null;
+    }
+
+    match /isim_sehir_rooms/{roomId} {
+      allow read, write: if request.auth != null;
+    }
+
     // ── VARSAYILAN: HER ŞEYİ REDDET ──────────────────────────────────────
     match /{document=**} {
       allow read, write: if false;

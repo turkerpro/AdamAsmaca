@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>İsim Şehir - Adam Asmaca</title>
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+  html, body { background-color: #10743D; }
+</style>
+<link rel="stylesheet" href="./style.css?v=40">
+<script type="module" src="./firebase.js"></script>
+</head>
+<body>
+<div class="header">
+  <div class="logo" onclick="window.location.href='./index.html'" style="cursor:pointer;">
+    <div class="logo-text"><span>Adam Asmaca</span><span>Eğitim</span></div>
+  </div>
+</div>
+
+<div class="screen active" id="lobby-screen">
+  <div class="screen-header">
+    <button class="back-btn" onclick="window.location.href='./index.html'">← Geri</button>
+    <h2 class="screen-title">🏙️ İsim Şehir Lobisi</h2>
+  </div>
+  
+  <div style="display:flex; flex-direction:column; gap:20px; align-items:center; margin-top: 30px;">
+      <button id="btn-random-match" class="primary-btn" style="width: 90%; max-width: 400px; padding: 20px; font-size: 1.2rem; background: linear-gradient(135deg, #f59e0b, #d97706);">
+        🌍 Dünyadan Biriyle Oyna
+      </button>
+      
+      <div style="border-top: 1px solid var(--color-border); width:90%; margin: 20px 0;"></div>
+      
+      <button id="btn-create-room" class="primary-btn" style="width: 90%; max-width: 400px; background: var(--color-surface); border: 2px solid #f59e0b; color: #f59e0b;">
+        Kendi Odanı Kur (Arkadaşınla)
+      </button>
+      
+      <div style="display:flex; gap:10px; width: 90%; max-width: 400px; margin-top: 10px;">
+        <input type="text" id="room-code-input" class="auth-input" placeholder="Oda Kodunu Gir" style="text-transform: uppercase; letter-spacing: 2px; text-align: center; font-weight: bold;">
+        <button id="btn-join-room" class="primary-btn" style="width: auto; padding: 0 20px; background: #f59e0b;">Katıl</button>
+      </div>
+  </div>
+</div>
+
+<!-- Bekleme Modalı -->
+<div class="overlay-backdrop" id="loading-overlay" style="display:none; align-items:center; justify-content:center;">
+    <div class="overlay-card" style="text-align:center;">
+      <h3 id="loading-title">Rakip Aranıyor...</h3>
+      <p id="loading-desc">Oyun başladığında otomatik yönlendirileceksiniz.</p>
+      <p id="room-code-display" style="font-size: 2.5rem; font-family: monospace; font-weight:800; letter-spacing: 8px; color:#f59e0b; margin: 20px 0;"></p>
+      <button class="secondary-btn" id="btn-cancel-match" style="margin-top:10px;">İptal Et</button>
+    </div>
+</div>
+
+<script type="module" src="./isim-sehir-lobby.js"></script>
+</body>
+</html>

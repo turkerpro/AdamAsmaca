@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Online Savaş - Adam Asmaca</title>
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+  html, body { background-color: #10743D; }
+</style>
+<link rel="stylesheet" href="./style.css?v=40">
+<script type="module" src="./firebase.js"></script>
+</head>
+<body>
+<div class="screen active" id="game-screen" style="padding-top:20px;">
+  <div class="screen-header" style="justify-content:space-between; display:flex;">
+    <button class="back-btn" onclick="window.location.href='./index.html'">← Pes Et / Çık</button>
+    <div style="font-weight:bold; color:var(--color-primary); font-size:1.2rem;">⚔️ SAVAŞ MODU</div>
+  </div>
+
+  <div style="display:flex; justify-content:space-between; align-items:center; background:var(--color-surface); padding:15px; border-radius:15px; margin-bottom:20px; border:1px solid var(--color-border);">
+     <div style="text-align:center; width:40%;">
+       <div id="p1-name" style="font-weight:bold; font-size:1.1rem; color:#4ade80;">Bekleniyor</div>
+       <div id="p1-score" style="font-size:2rem; font-family:monospace; font-weight:900;">0</div>
+     </div>
+     <div style="font-size:1.5rem; font-weight:900; opacity:0.5;">VS</div>
+     <div style="text-align:center; width:40%;">
+       <div id="p2-name" style="font-weight:bold; font-size:1.1rem; color:#f87171;">Bekleniyor</div>
+       <div id="p2-score" style="font-size:2rem; font-family:monospace; font-weight:900;">0</div>
+     </div>
+  </div>
+
+  <div class="word-display" id="word-display" style="min-height:80px; margin-bottom:30px;">
+    <!-- Harfler buraya gelecek -->
+  </div>
+
+  <div class="keyboard" id="keyboard">
+    <!-- Klavye buraya gelecek -->
+  </div>
+</div>
+
+<!-- Oyun Sonu Modalı -->
+<div class="overlay-backdrop" id="game-over-overlay" style="display:none; align-items:center; justify-content:center;">
+    <div class="overlay-card" style="text-align:center;">
+      <h2 class="screen-title" id="game-over-title" style="margin-bottom:10px;">Oyun Bitti!</h2>
+      <p id="game-over-desc" style="font-size:1.2rem; margin-bottom:20px;"></p>
+      <button class="primary-btn" onclick="window.location.href='./multiplayer.html'">Tekrar Lobiye Dön</button>
+    </div>
+</div>
+
+<script type="module" src="./multiplayer-game.js"></script>
+</body>
+</html>

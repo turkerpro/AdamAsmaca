@@ -121,7 +121,15 @@
 <div class="nav-dropdown-backdrop" id="nav-backdrop" style="display:none;"></div>
 <!-- GRADE SCREEN -->
 <div class="screen active" id="grade-screen">
-  <h2 class="screen-title">Kaçıncı Sınıfsın?</h2>
+  <div class="multiplayer-modes-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); margin-bottom: var(--space-5);">
+    <button class="nav-menu-item" onclick="window.location.href='./multiplayer.html'" style="justify-content: center; background: linear-gradient(135deg, var(--color-primary), #1a9c54); color: white; border: none; padding: var(--space-3); font-weight: 600;">
+      <span style="font-size: 1.2rem; margin-right: 8px;">⚔️</span> Karşılıklı Oyna
+    </button>
+    <button class="nav-menu-item" onclick="window.location.href='./isim-sehir-lobby.html'" style="justify-content: center; background: linear-gradient(135deg, #f59e0b, #d97706); color: white; border: none; padding: var(--space-3); font-weight: 600;">
+      <span style="font-size: 1.2rem; margin-right: 8px;">🏙️</span> İsim Şehir Oyna
+    </button>
+  </div>
+  <h2 class="screen-title">Tek Oyunculu Eğitim</h2>
   <p class="screen-sub">Oynamak istediğin sınıf seviyesini seç.</p>
   <div class="grid-list" id="grade-list">
     <!-- Grades will be populated here -->

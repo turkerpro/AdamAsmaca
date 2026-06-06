@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>İsim Şehir Savaşı</title>
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+  html, body { background-color: #10743D; }
+  .isim-sehir-input {
+      width: 100%; padding: 15px; margin-bottom: 10px; border-radius: 10px;
+      border: 2px solid var(--color-border); background: var(--color-surface);
+      color: var(--color-text); font-size: 1.2rem; font-weight: 600;
+  }
+  .isim-sehir-input:focus { border-color: #f59e0b; outline: none; }
+  .label { font-weight: bold; margin-bottom: 5px; display: block; color: #f59e0b; }
+  
+  .panic-mode { animation: pulseRed 1s infinite; }
+  @keyframes pulseRed {
+      0% { box-shadow: inset 0 0 0px red; }
+      50% { box-shadow: inset 0 0 50px red; }
+      100% { box-shadow: inset 0 0 0px red; }
+  }
+</style>
+<link rel="stylesheet" href="./style.css?v=40">
+<script type="module" src="./firebase.js"></script>
+</head>
+<body id="game-body">
+<div class="screen active" id="game-screen" style="padding-top:10px;">
+  <div class="screen-header" style="justify-content:space-between; display:flex;">
+    <button class="back-btn" onclick="window.location.href='./isim-sehir-lobby.html'">← Çık</button>
+    <div style="font-weight:bold; color:#f59e0b; font-size:1.2rem;">SAVAŞ MODU</div>
+  </div>
+
+  <div style="display:flex; justify-content:space-between; align-items:center; background:var(--color-surface); padding:10px 20px; border-radius:15px; margin-bottom:15px; border:2px solid #f59e0b;">
+     <div style="text-align:center;">
+       <div style="font-size:1rem; opacity:0.8;">Harf</div>
+       <div id="target-letter" style="font-size:3rem; font-weight:900; color:#f59e0b; line-height:1;">?</div>
+     </div>
+     <div style="text-align:center;">
+       <div style="font-size:1rem; opacity:0.8;" id="timer-label">Süre</div>
+       <div id="timer-display" style="font-size:2.5rem; font-family:monospace; font-weight:900;">60</div>
+     </div>
+  </div>
+
+  <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:20px;">
+     <div>
+       <span class="label">İSİM</span>
+       <input type="text" id="inp-isim" class="isim-sehir-input" autocomplete="off" placeholder="Bir isim yaz...">
+     </div>
+     <div>
+       <span class="label">ŞEHİR</span>
+       <input type="text" id="inp-sehir" class="isim-sehir-input" autocomplete="off" placeholder="Bir şehir yaz...">
+     </div>
+     <div>
+       <span class="label">HAYVAN</span>
+       <input type="text" id="inp-hayvan" class="isim-sehir-input" autocomplete="off" placeholder="Bir hayvan yaz...">
+     </div>
+     <div>
+       <span class="label">BİTKİ</span>
+       <input type="text" id="inp-bitki" class="isim-sehir-input" autocomplete="off" placeholder="Bir bitki yaz...">
+     </div>
+     <div>
+       <span class="label">EŞYA</span>
+       <input type="text" id="inp-esya" class="isim-sehir-input" autocomplete="off" placeholder="Bir eşya yaz...">
+     </div>
+  </div>
+
+  <button id="btn-finish" class="primary-btn" style="width:100%; padding:20px; font-size:1.5rem; background: #ef4444; color:white; border-radius:15px;">
+    🚨 BİTİR!
+  </button>
+</div>
+
+<!-- Oyun Sonu Modalı -->
+<div class="overlay-backdrop" id="game-over-overlay" style="display:none; align-items:center; justify-content:center; padding: 20px;">
+    <div class="overlay-card" style="text-align:center; width:100%; max-width:600px; max-height:90vh; overflow-y:auto;">
+      <h2 class="screen-title" style="margin-bottom:10px;">Tur Bitti!</h2>
+      <p style="font-size:1.1rem; margin-bottom:20px;">İşte Rakibinin Cevapları:</p>
+      
+      <div style="display:flex; gap:10px; margin-bottom: 20px; text-align:left;">
+         <div style="flex:1; background:var(--color-surface); padding:10px; border-radius:10px;">
+            <h4 style="color:#4ade80;">Senin Cevapların</h4>
+            <div id="my-answers-list" style="margin-top:10px; font-size:1.1rem;"></div>
+         </div>
+         <div style="flex:1; background:var(--color-surface); padding:10px; border-radius:10px;">
+            <h4 style="color:#f87171;">Rakibin Cevapları</h4>
+            <div id="enemy-answers-list" style="margin-top:10px; font-size:1.1rem;"></div>
+         </div>
+      </div>
+
+      <button class="primary-btn" onclick="window.location.href='./isim-sehir-lobby.html'" style="background:#f59e0b;">Yeni Oyun</button>
+    </div>
+</div>
+
+<script type="module" src="./isim-sehir.js"></script>
+</body>
+</html>
